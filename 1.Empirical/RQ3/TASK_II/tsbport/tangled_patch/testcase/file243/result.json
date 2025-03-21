@@ -1,0 +1,60 @@
+{
+    "testcase": {
+        "file243": {
+            "match_message": {
+                "Syntax: gitn_box_del -> gitn_del": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 10953 -> 11104",
+                        "L2": "3: Unique Matched by Source code 10954 -> 11105"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 10957 -> 11108",
+                        "L2": "3: Unique Matched by Source code 10957 -> 11108"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 11104,
+                        "add_hunk": [
+                            "\tif (ptr->entries) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 11108,
+                        "add_hunk": [
+                            "\t\tgf_free(ptr->entries);\n",
+                            "\t}\n"
+                        ],
+                        "delete_location": [
+                            11108,
+                            11108
+                        ],
+                        "delete_hunk": [
+                            "\tif (ptr->entries) gf_free(ptr->entries);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: gitn_box_del -> gitn_del": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

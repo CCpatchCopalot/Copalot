@@ -1,0 +1,2032 @@
+if  @ 147 @ if  @ 178 @ 
+call  @ 222 @ call  @ 305 @ 
+name: check  @ 222 @ name: check  @ 306 @ 
+name: handler  @ 147 @ name: handler  @ 178 @ 
+type  @ 16 @ type  @ 25 @ 
+operator: (  @ 177 @ operator: (  @ 226 @ 
+operator: ->  @ 193 @ operator: ->  @ 247 @ 
+if_stmt  @ 177 @ if_stmt  @ 223 @ 
+expr  @ 242 @ expr  @ 328 @ 
+call  @ 282 @ call  @ 375 @ 
+literal: "MAX_CONCURRENT_STREAMS reached, skip (%zu)"  @ 279 @ literal: "MAX_CONCURRENT_STREAMS reached, skip (%zu)"  @ 370 @ 
+expr  @ 67 @ expr  @ 84 @ 
+operator: .  @ 242 @ operator: .  @ 328 @ 
+name: curr  @ 61 @ name: curr  @ 78 @ 
+name: check  @ 118 @ name: check  @ 144 @ 
+continue  @ 70 @ continue  @ 87 @ 
+name: needle  @ 177 @ name: needle  @ 226 @ 
+name: strcmp  @ 242 @ name: strcmp  @ 328 @ 
+name: conn_to_port  @ 196 @ name: conn_to_port  @ 262 @ 
+operator: ==  @ 196 @ operator: ==  @ 264 @ 
+modifier: *  @ 169 @ modifier: *  @ 205 @ 
+name: data  @ 49 @ name: data  @ 63 @ 
+block  @ 67 @ block  @ 84 @ 
+operator: ->  @ 275 @ operator: ->  @ 366 @ 
+call  @ 87 @ call  @ 106 @ 
+expr  @ 279 @ expr  @ 371 @ 
+operator: )  @ 14 @ operator: )  @ 23 @ 
+name: data  @ 45 @ name: data  @ 59 @ 
+continue  @ 165 @ continue  @ 200 @ 
+name  @ 142 @ name  @ 173 @ 
+operator: !  @ 89 @ operator: !  @ 109 @ 
+operator: ->  @ 14 @ operator: ->  @ 23 @ 
+condition  @ 112 @ condition  @ 136 @ 
+name: needle  @ 116 @ name: needle  @ 140 @ 
+name: user  @ 222 @ name: user  @ 305 @ 
+block  @ 275 @ block  @ 366 @ 
+name  @ 12 @ name  @ 16 @ 
+name: bits  @ 126 @ name: bits  @ 153 @ 
+expr  @ 12 @ expr  @ 16 @ 
+name: check  @ 95 @ name: check  @ 117 @ 
+operator: ->  @ 196 @ operator: ->  @ 257 @ 
+expr  @ 183 @ expr  @ 233 @ 
+argument  @ 196 @ argument  @ 263 @ 
+name: FIRSTSOCKET  @ 204 @ name: FIRSTSOCKET  @ 279 @ 
+name: FIRSTSOCKET  @ 157 @ name: FIRSTSOCKET  @ 190 @ 
+argument_list  @ 283 @ argument_list  @ 376 @ 
+name: data  @ 7 @ name: data  @ 11 @ 
+block  @ 138 @ block  @ 169 @ 
+condition  @ 218 @ condition  @ 297 @ 
+expr  @ 201 @ expr  @ 273 @ 
+if  @ 239 @ if  @ 325 @ 
+call  @ 201 @ call  @ 273 @ 
+operator: .  @ 204 @ operator: .  @ 279 @ 
+name: http_proxy  @ 242 @ name: http_proxy  @ 328 @ 
+expr  @ 204 @ expr  @ 279 @ 
+if_stmt  @ 204 @ if_stmt  @ 279 @ 
+comment: /* We must use this connection, no other */  @ 255 @ comment: /* We must use this connection, no other */  @ 345 @ 
+endif  @ 114 @ endif  @ 138 @ 
+expr  @ 89 @ expr  @ 109 @ 
+name: proxy_ntlm_state  @ 254 @ name: proxy_ntlm_state  @ 344 @ 
+continue  @ 207 @ continue  @ 285 @ 
+decl  @ 169 @ decl  @ 205 @ 
+if  @ 138 @ if  @ 169 @ 
+expr  @ 21 @ expr  @ 30 @ 
+operator: ->  @ 109 @ operator: ->  @ 133 @ 
+expr  @ 264 @ expr  @ 354 @ 
+init  @ 16 @ init  @ 25 @ 
+name: PROTO_FAMILY_HTTP  @ 14 @ name: PROTO_FAMILY_HTTP  @ 23 @ 
+operator: &  @ 116 @ operator: &  @ 141 @ 
+name: CURL_DISABLE_PROXY  @ 193 @ name: CURL_DISABLE_PROXY  @ 248 @ 
+call  @ 69 @ call  @ 86 @ 
+argument_list  @ 155 @ argument_list  @ 187 @ 
+operator: !  @ 239 @ operator: !  @ 325 @ 
+name  @ 175 @ name  @ 211 @ 
+if_stmt  @ 221 @ if_stmt  @ 304 @ 
+name  @ 4 @ name  @ 8 @ 
+expr  @ 98 @ expr  @ 121 @ 
+name: canmultiplex  @ 81 @ name: canmultiplex  @ 99 @ 
+name: check  @ 142 @ name: check  @ 173 @ 
+operator: ->  @ 193 @ operator: ->  @ 247 @ 
+argument  @ 126 @ argument  @ 154 @ 
+name: needle  @ 242 @ name: needle  @ 328 @ 
+name: unix_domain_socket  @ 104 @ name: unix_domain_socket  @ 127 @ 
+decl  @ 2 @ decl  @ 5 @ 
+name: user  @ 183 @ name: user  @ 233 @ 
+name: check  @ 196 @ name: check  @ 256 @ 
+expr  @ 69 @ expr  @ 86 @ 
+expr  @ 42 @ expr  @ 55 @ 
+name: check  @ 196 @ name: check  @ 264 @ 
+then  @ 29 @ then  @ 42 @ 
+name: CURL_DISABLE_PROXY  @ 137 @ name: CURL_DISABLE_PROXY  @ 168 @ 
+call  @ 242 @ call  @ 329 @ 
+operator: ->  @ 95 @ operator: ->  @ 117 @ 
+condition  @ 250 @ condition  @ 337 @ 
+name: data  @ 73 @ name: data  @ 91 @ 
+expr  @ 250 @ expr  @ 337 @ 
+operator: &  @ 200 @ operator: &  @ 272 @ 
+expr  @ 142 @ expr  @ 173 @ 
+comment: /* disconnect it */  @ 68 @ comment: /* disconnect it */  @ 85 @ 
+decl  @ 4 @ decl  @ 8 @ 
+block_content  @ 240 @ block_content  @ 326 @ 
+name: needle  @ 196 @ name: needle  @ 259 @ 
+index  @ 157 @ index  @ 190 @ 
+name: infof  @ 49 @ name: infof  @ 63 @ 
+argument  @ 201 @ argument  @ 273 @ 
+block  @ 175 @ block  @ 211 @ 
+expr  @ 267 @ expr  @ 358 @ 
+expr  @ 151 @ expr  @ 183 @ 
+call  @ 183 @ call  @ 234 @ 
+block  @ 167 @ block  @ 202 @ 
+expr  @ 149 @ expr  @ 180 @ 
+block  @ 196 @ block  @ 264 @ 
+name: authproxy  @ 14 @ name: authproxy  @ 21 @ 
+name: data  @ 12 @ name: data  @ 16 @ 
+block  @ 33 @ block  @ 46 @ 
+operator: ->  @ 155 @ operator: ->  @ 187 @ 
+operator: ==  @ 33 @ operator: ==  @ 46 @ 
+name: CURLAUTH_NTLM  @ 14 @ name: CURLAUTH_NTLM  @ 22 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 13 @ 
+operator: ->  @ 254 @ operator: ->  @ 344 @ 
+block_content  @ 152 @ block_content  @ 184 @ 
+name: localdev  @ 177 @ name: localdev  @ 225 @ 
+condition  @ 163 @ condition  @ 197 @ 
+continue  @ 280 @ continue  @ 372 @ 
+if  @ 73 @ if  @ 90 @ 
+name: http_proxy  @ 145 @ name: http_proxy  @ 176 @ 
+name: curr  @ 60 @ name: curr  @ 77 @ 
+block_content  @ 191 @ block_content  @ 245 @ 
+name  @ 193 @ name  @ 249 @ 
+name: scheme  @ 196 @ name: scheme  @ 256 @ 
+argument  @ 139 @ argument  @ 170 @ 
+if  @ 87 @ if  @ 106 @ 
+name: NTLMSTATE_NONE  @ 254 @ name: NTLMSTATE_NONE  @ 342 @ 
+decl  @ 6 @ decl  @ 10 @ 
+operator: .  @ 193 @ operator: .  @ 249 @ 
+operator: .  @ 63 @ operator: .  @ 80 @ 
+name  @ 190 @ name  @ 242 @ 
+name: waitpipe  @ 21 @ name: waitpipe  @ 30 @ 
+if_stmt  @ 126 @ if_stmt  @ 153 @ 
+name: needle  @ 196 @ name: needle  @ 261 @ 
+block  @ 34 @ block  @ 47 @ 
+continue  @ 120 @ continue  @ 146 @ 
+comment: /* If we are bound to a specific local end (IP+port), we must not re-use a random other one, although if we didn't ask for a particular one we can reuse one that was bound. This comparison is a bit rough and too strict. Since the input parameters can be specified in numerous ways and still end up the same it would take a lot of processing to make it really accurate. Instead, this matching will assume that re-uses of bound connections will most likely also re-use the exact same binding parameters and missing out a few edge cases shouldn't hurt anyone very much.*/  @ 176 @ comment: /* If we are bound to a specific local end (IP+port), we must not
+           re-use a random other one, although if we didn't ask for aparticular one we can reuse one that was bound.
+
+           This comparison is a bit rough and too strict. Since the inputparameters can be specified in numerous ways and still end up the
+           same it would take a lot of processing to make it really accurate.Instead, this matching will assume that re-uses of bound connections
+           will most likely also re-use the exact same binding parameters andmissing out a few edge cases shouldn't hurt anyone very much.
+        */  @ 212 @ 
+name: needle  @ 129 @ name: needle  @ 158 @ 
+name  @ 196 @ name  @ 264 @ 
+index  @ 151 @ index  @ 183 @ 
+operator: ->  @ 225 @ operator: ->  @ 310 @ 
+name: data  @ 29 @ name: data  @ 40 @ 
+expr  @ 245 @ expr  @ 332 @ 
+block  @ 240 @ block  @ 326 @ 
+comment: /* don't do mixed SSL and non-SSL connections */  @ 117 @ comment: /* don't do mixed SSL and non-SSL connections */  @ 142 @ 
+name  @ 196 @ name  @ 262 @ 
+block  @ 89 @ block  @ 109 @ 
+if_stmt  @ 239 @ if_stmt  @ 325 @ 
+ifndef  @ 122 @ ifndef  @ 148 @ 
+name  @ 118 @ name  @ 144 @ 
+if_stmt  @ 198 @ if_stmt  @ 268 @ 
+block_content  @ 283 @ block_content  @ 376 @ 
+condition  @ 149 @ condition  @ 180 @ 
+name  @ 89 @ name  @ 109 @ 
+name  @ 112 @ name  @ 136 @ 
+name  @ 104 @ name  @ 127 @ 
+operator: ->  @ 245 @ operator: ->  @ 332 @ 
+name: bits  @ 118 @ name: bits  @ 144 @ 
+block  @ 181 @ block  @ 230 @ 
+expr  @ 73 @ expr  @ 90 @ 
+name: state  @ 24 @ name: state  @ 34 @ 
+expr  @ 79 @ expr  @ 97 @ 
+if_stmt  @ 118 @ if_stmt  @ 143 @ 
+name  @ 116 @ name  @ 140 @ 
+comment: /* use double layer ssl */  @ 148 @ comment: /* use double layer ssl */  @ 179 @ 
+operator: ||  @ 177 @ operator: ||  @ 223 @ 
+name: http_proxy  @ 239 @ name: http_proxy  @ 325 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 10 @ 
+argument_list  @ 126 @ argument_list  @ 154 @ 
+name: multiuse  @ 48 @ name: multiuse  @ 62 @ 
+expr  @ 204 @ expr  @ 279 @ 
+name  @ 118 @ name  @ 143 @ 
+operator: !=  @ 142 @ operator: !=  @ 173 @ 
+call  @ 44 @ call  @ 58 @ 
+name: check  @ 254 @ name: check  @ 344 @ 
+expr  @ 7 @ expr  @ 11 @ 
+expr  @ 54 @ expr  @ 68 @ 
+name: handler  @ 196 @ name: handler  @ 257 @ 
+if_stmt  @ 242 @ if_stmt  @ 328 @ 
+name: check  @ 89 @ name: check  @ 109 @ 
+operator: &&  @ 14 @ operator: &&  @ 22 @ 
+name: needle  @ 133 @ name: needle  @ 163 @ 
+name: localdev  @ 177 @ name: localdev  @ 226 @ 
+condition  @ 95 @ condition  @ 117 @ 
+block  @ 55 @ block  @ 69 @ 
+name: match  @ 56 @ name: match  @ 70 @ 
+operator: .  @ 157 @ operator: .  @ 190 @ 
+argument_list  @ 206 @ argument_list  @ 281 @ 
+operator: ->  @ 190 @ operator: ->  @ 243 @ 
+name: pipewait  @ 34 @ name: pipewait  @ 47 @ 
+expr  @ 167 @ expr  @ 202 @ 
+name: multiuse  @ 44 @ name: multiuse  @ 57 @ 
+name: struct  @ 2 @ name: struct  @ 3 @ 
+name: FALSE  @ 21 @ name: FALSE  @ 30 @ 
+operator: ->  @ 147 @ operator: ->  @ 178 @ 
+name: Curl_llist_element  @ 27 @ name: Curl_llist_element  @ 38 @ 
+name  @ 139 @ name  @ 170 @ 
+name  @ 196 @ name  @ 262 @ 
+name: BUNDLE_MULTIPLEX  @ 44 @ name: BUNDLE_MULTIPLEX  @ 57 @ 
+condition  @ 34 @ condition  @ 47 @ 
+operator: &&  @ 196 @ operator: &&  @ 260 @ 
+operator: ->  @ 109 @ operator: ->  @ 132 @ 
+type  @ 12 @ type  @ 16 @ 
+operator: &  @ 139 @ operator: &  @ 170 @ 
+name: want  @ 12 @ name: want  @ 16 @ 
+name: needle  @ 196 @ name: needle  @ 264 @ 
+operator: (  @ 116 @ operator: (  @ 140 @ 
+if_stmt  @ 193 @ if_stmt  @ 247 @ 
+if  @ 218 @ if  @ 297 @ 
+expr  @ 175 @ expr  @ 211 @ 
+name: conn_to_host  @ 196 @ name: conn_to_host  @ 260 @ 
+operator: ->  @ 242 @ operator: ->  @ 328 @ 
+operator: ==  @ 95 @ operator: ==  @ 117 @ 
+operator: )  @ 29 @ operator: )  @ 42 @ 
+name: protocol  @ 196 @ name: protocol  @ 258 @ 
+expr  @ 35 @ expr  @ 48 @ 
+operator: )  @ 14 @ operator: )  @ 22 @ 
+if  @ 63 @ if  @ 80 @ 
+operator: &&  @ 126 @ operator: &&  @ 153 @ 
+argument  @ 24 @ argument  @ 34 @ 
+name  @ 230 @ name  @ 315 @ 
+expr  @ 7 @ expr  @ 11 @ 
+operator: ->  @ 196 @ operator: ->  @ 264 @ 
+operator: ->  @ 24 @ operator: ->  @ 34 @ 
+condition  @ 230 @ condition  @ 315 @ 
+operator: &  @ 200 @ operator: &  @ 271 @ 
+expr  @ 242 @ expr  @ 328 @ 
+operator: (  @ 254 @ operator: (  @ 342 @ 
+name: localdev  @ 177 @ name: localdev  @ 226 @ 
+operator: .  @ 123 @ operator: .  @ 150 @ 
+operator: !=  @ 73 @ operator: !=  @ 90 @ 
+block  @ 48 @ block  @ 62 @ 
+if_stmt  @ 109 @ if_stmt  @ 132 @ 
+expr  @ 41 @ expr  @ 54 @ 
+init  @ 169 @ init  @ 205 @ 
+argument  @ 79 @ argument  @ 97 @ 
+name: multiuse  @ 29 @ name: multiuse  @ 41 @ 
+block  @ 131 @ block  @ 161 @ 
+if_stmt  @ 278 @ if_stmt  @ 369 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 78 @ 
+name: CURL_DISABLE_PROXY  @ 235 @ name: CURL_DISABLE_PROXY  @ 320 @ 
+type  @ 2 @ type  @ 2 @ 
+if_stmt  @ 225 @ if_stmt  @ 310 @ 
+if_stmt  @ 139 @ if_stmt  @ 170 @ 
+name: host  @ 196 @ name: host  @ 263 @ 
+operator: &  @ 277 @ operator: &  @ 368 @ 
+expr  @ 254 @ expr  @ 341 @ 
+name: flags  @ 198 @ name: flags  @ 268 @ 
+expr_stmt  @ 79 @ expr_stmt  @ 97 @ 
+condition  @ 222 @ condition  @ 305 @ 
+operator: ->  @ 123 @ operator: ->  @ 149 @ 
+operator: &  @ 14 @ operator: &  @ 21 @ 
+argument  @ 200 @ argument  @ 271 @ 
+name: http_ntlm_state  @ 230 @ name: http_ntlm_state  @ 315 @ 
+name: FIRSTSOCKET  @ 151 @ name: FIRSTSOCKET  @ 183 @ 
+operator: |  @ 14 @ operator: |  @ 22 @ 
+name: bool  @ 2 @ name: bool  @ 6 @ 
+argument  @ 279 @ argument  @ 370 @ 
+if_stmt  @ 275 @ if_stmt  @ 366 @ 
+expr  @ 282 @ expr  @ 375 @ 
+block_content  @ 96 @ block_content  @ 118 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 30 @ 
+condition  @ 32 @ condition  @ 45 @ 
+expr  @ 183 @ expr  @ 234 @ 
+comment: /* This protocol requires credentials per connection, so verify that we're using the same name and password as well */  @ 182 @ comment: /* This protocol requires credentials per connection,
+           so verify that we're using the same name and password as well */  @ 231 @ 
+expr  @ 151 @ expr  @ 183 @ 
+block_content  @ 165 @ block_content  @ 200 @ 
+block_content  @ 156 @ block_content  @ 189 @ 
+expr  @ 49 @ expr  @ 63 @ 
+name: bits  @ 142 @ name: bits  @ 173 @ 
+operator: ->  @ 177 @ operator: ->  @ 224 @ 
+type  @ 8 @ type  @ 12 @ 
+name: ssl  @ 204 @ name: ssl  @ 279 @ 
+expr_stmt  @ 279 @ expr_stmt  @ 370 @ 
+argument  @ 67 @ argument  @ 84 @ 
+name: infof  @ 206 @ name: infof  @ 281 @ 
+if_stmt  @ 87 @ if_stmt  @ 106 @ 
+operator: ->  @ 196 @ operator: ->  @ 262 @ 
+argument  @ 163 @ argument  @ 197 @ 
+argument  @ 219 @ argument  @ 298 @ 
+operator: ->  @ 196 @ operator: ->  @ 260 @ 
+name: localdev  @ 177 @ name: localdev  @ 226 @ 
+operator: )  @ 177 @ operator: )  @ 226 @ 
+comment: /* Both check->http_proxy.user and check->http_proxy.passwd can be * NULL */  @ 238 @ comment: /* Both check->http_proxy.user and check->http_proxy.passwd can be
+           * NULL */  @ 323 @ 
+name: http_ntlm_state  @ 254 @ name: http_ntlm_state  @ 342 @ 
+name  @ 33 @ name  @ 46 @ 
+condition  @ 118 @ condition  @ 143 @ 
+operator: *  @ 36 @ operator: *  @ 49 @ 
+operator: ->  @ 129 @ operator: ->  @ 158 @ 
+expr  @ 200 @ expr  @ 271 @ 
+name: needle  @ 147 @ name: needle  @ 178 @ 
+name: canmultiplex  @ 163 @ name: canmultiplex  @ 197 @ 
+condition  @ 123 @ condition  @ 149 @ 
+decl_stmt  @ 277 @ decl_stmt  @ 368 @ 
+continue  @ 152 @ continue  @ 184 @ 
+operator: !=  @ 116 @ operator: !=  @ 140 @ 
+operator: )  @ 254 @ operator: )  @ 344 @ 
+call  @ 149 @ call  @ 180 @ 
+operator: !=  @ 204 @ operator: !=  @ 279 @ 
+block_content  @ 113 @ block_content  @ 137 @ 
+expr  @ 14 @ expr  @ 20 @ 
+block  @ 106 @ block  @ 129 @ 
+name: force_reuse  @ 2 @ name: force_reuse  @ 5 @ 
+argument  @ 155 @ argument  @ 187 @ 
+operator: ->  @ 222 @ operator: ->  @ 305 @ 
+expr  @ 201 @ expr  @ 273 @ 
+expr  @ 206 @ expr  @ 281 @ 
+name  @ 126 @ name  @ 153 @ 
+name: CURLPROXY_HTTPS  @ 145 @ name: CURLPROXY_HTTPS  @ 176 @ 
+condition  @ 138 @ condition  @ 169 @ 
+operator: ->  @ 196 @ operator: ->  @ 258 @ 
+name  @ 177 @ name  @ 224 @ 
+name: connectdata  @ 2 @ name: connectdata  @ 4 @ 
+name: check  @ 196 @ name: check  @ 263 @ 
+operator: (  @ 14 @ operator: (  @ 22 @ 
+name: check  @ 63 @ name: check  @ 80 @ 
+operator: .  @ 190 @ operator: .  @ 244 @ 
+name  @ 118 @ name  @ 144 @ 
+if  @ 183 @ if  @ 233 @ 
+operator: )  @ 196 @ operator: )  @ 258 @ 
+block  @ 243 @ block  @ 330 @ 
+block  @ 222 @ block  @ 306 @ 
+operator: )  @ 196 @ operator: )  @ 262 @ 
+name: localport  @ 177 @ name: localport  @ 223 @ 
+argument  @ 149 @ argument  @ 180 @ 
+argument_list  @ 107 @ argument_list  @ 130 @ 
+name: httpproxy  @ 193 @ name: httpproxy  @ 249 @ 
+expr  @ 129 @ expr  @ 158 @ 
+expr  @ 200 @ expr  @ 272 @ 
+directive: ifdef  @ 103 @ directive: ifdef  @ 126 @ 
+name: conn_to_host  @ 196 @ name: conn_to_host  @ 260 @ 
+expr  @ 104 @ expr  @ 127 @ 
+operator: ->  @ 242 @ operator: ->  @ 328 @ 
+name: Curl_ssl_config_matches  @ 149 @ name: Curl_ssl_config_matches  @ 180 @ 
+operator: !=  @ 230 @ operator: !=  @ 315 @ 
+if  @ 198 @ if  @ 268 @ 
+argument_list  @ 201 @ argument_list  @ 273 @ 
+if  @ 95 @ if  @ 117 @ 
+name  @ 151 @ name  @ 183 @ 
+operator: (  @ 29 @ operator: (  @ 41 @ 
+expr  @ 193 @ expr  @ 247 @ 
+argument  @ 29 @ argument  @ 41 @ 
+name: CURL_DISABLE_PROXY  @ 122 @ name: CURL_DISABLE_PROXY  @ 148 @ 
+name: BUNDLE_MULTIPLEX  @ 78 @ name: BUNDLE_MULTIPLEX  @ 96 @ 
+operator: )  @ 29 @ operator: )  @ 41 @ 
+name  @ 61 @ name  @ 78 @ 
+block  @ 140 @ block  @ 171 @ 
+operator: )  @ 190 @ operator: )  @ 243 @ 
+comment: /* one of them was different */  @ 184 @ comment: /* one of them was different */  @ 235 @ 
+name: strcmp  @ 177 @ name: strcmp  @ 226 @ 
+name  @ 196 @ name  @ 260 @ 
+name  @ 147 @ name  @ 178 @ 
+call  @ 37 @ call  @ 50 @ 
+name  @ 242 @ name  @ 328 @ 
+operator: .  @ 145 @ operator: .  @ 176 @ 
+name  @ 200 @ name  @ 271 @ 
+argument  @ 183 @ argument  @ 233 @ 
+operator: ==  @ 145 @ operator: ==  @ 176 @ 
+argument_list  @ 45 @ argument_list  @ 59 @ 
+operator: (  @ 12 @ operator: (  @ 18 @ 
+argument_list  @ 242 @ argument_list  @ 329 @ 
+continue  @ 91 @ continue  @ 113 @ 
+name: data  @ 190 @ name: data  @ 244 @ 
+name  @ 155 @ name  @ 187 @ 
+condition  @ 190 @ condition  @ 242 @ 
+expr_stmt  @ 215 @ expr_stmt  @ 294 @ 
+argument  @ 69 @ argument  @ 86 @ 
+expr  @ 138 @ expr  @ 169 @ 
+name  @ 204 @ name  @ 279 @ 
+argument  @ 7 @ argument  @ 11 @ 
+name: httpc  @ 277 @ name: httpc  @ 368 @ 
+name: check  @ 242 @ name: check  @ 329 @ 
+name: canmultiplex  @ 264 @ name: canmultiplex  @ 354 @ 
+call  @ 90 @ call  @ 110 @ 
+block_content  @ 158 @ block_content  @ 191 @ 
+name  @ 183 @ name  @ 233 @ 
+name: PROTOPT_SSL  @ 116 @ name: PROTOPT_SSL  @ 140 @ 
+name: data  @ 67 @ name: data  @ 84 @ 
+call  @ 126 @ call  @ 154 @ 
+name: state  @ 12 @ name: state  @ 16 @ 
+name: infof  @ 41 @ name: infof  @ 54 @ 
+expr  @ 169 @ expr  @ 205 @ 
+operator: ->  @ 200 @ operator: ->  @ 271 @ 
+name: tls_upgraded  @ 118 @ name: tls_upgraded  @ 144 @ 
+operator: .  @ 142 @ operator: .  @ 173 @ 
+expr_stmt  @ 205 @ expr_stmt  @ 280 @ 
+name: bool  @ 2 @ name: bool  @ 5 @ 
+name: needle  @ 104 @ name: needle  @ 127 @ 
+condition  @ 278 @ condition  @ 369 @ 
+name: socks_proxy_info_matches  @ 126 @ name: socks_proxy_info_matches  @ 154 @ 
+name: ssl_config  @ 155 @ name: ssl_config  @ 188 @ 
+name: char  @ 9 @ name: char  @ 13 @ 
+expr  @ 118 @ expr  @ 143 @ 
+name: CURL_IPRESOLVE_WHATEVER  @ 73 @ name: CURL_IPRESOLVE_WHATEVER  @ 90 @ 
+operator: (  @ 14 @ operator: (  @ 20 @ 
+name  @ 2 @ name  @ 4 @ 
+argument  @ 200 @ argument  @ 272 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: infof  @ 98 @ name: infof  @ 120 @ 
+name: CURL_DISABLE_PROXY  @ 13 @ name: CURL_DISABLE_PROXY  @ 19 @ 
+name: connectdata  @ 2 @ name: connectdata  @ 3 @ 
+expr  @ 29 @ expr  @ 41 @ 
+operator: .  @ 242 @ operator: .  @ 329 @ 
+expr  @ 24 @ expr  @ 34 @ 
+operator: =  @ 20 @ operator: =  @ 29 @ 
+expr  @ 90 @ expr  @ 110 @ 
+operator: ->  @ 155 @ operator: ->  @ 188 @ 
+continue  @ 106 @ continue  @ 129 @ 
+operator: ->  @ 48 @ operator: ->  @ 62 @ 
+continue  @ 232 @ continue  @ 317 @ 
+condition  @ 67 @ condition  @ 84 @ 
+name: void  @ 29 @ name: void  @ 41 @ 
+argument  @ 206 @ argument  @ 281 @ 
+name: needle  @ 196 @ name: needle  @ 263 @ 
+comment: /* If we are looking for an HTTP+NTLM connection, check if this is already authenticating with the right credentials. If not, keep looking so that we can reuse NTLM connections if possible. (Especially we must not reuse the same connection if partway through a handshake!) */  @ 220 @ comment: /* If we are looking for an HTTP+NTLM connection, check if this is
+           already authenticating with the right credentials. If not, keeplooking so that we can reuse NTLM connections if
+           possible. (Especially we must not reuse the same connection ifpartway through a handshake!) */  @ 299 @ 
+operator: .  @ 196 @ operator: .  @ 260 @ 
+condition  @ 87 @ condition  @ 106 @ 
+name: bits  @ 196 @ name: bits  @ 258 @ 
+name: bits  @ 63 @ name: bits  @ 80 @ 
+operator: ||  @ 196 @ operator: ||  @ 256 @ 
+name  @ 170 @ name  @ 206 @ 
+if_stmt  @ 218 @ if_stmt  @ 297 @ 
+call  @ 242 @ call  @ 328 @ 
+operator: &  @ 155 @ operator: &  @ 188 @ 
+if_stmt  @ 142 @ if_stmt  @ 173 @ 
+operator: ->  @ 206 @ operator: ->  @ 284 @ 
+continue  @ 75 @ continue  @ 93 @ 
+expr  @ 29 @ expr  @ 40 @ 
+expr  @ 145 @ expr  @ 176 @ 
+block_content  @ 105 @ block_content  @ 128 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 34 @ 
+expr  @ 16 @ expr  @ 25 @ 
+condition  @ 193 @ condition  @ 247 @ 
+name: CONN_INUSE  @ 79 @ name: CONN_INUSE  @ 97 @ 
+block  @ 200 @ block  @ 272 @ 
+init  @ 5 @ init  @ 9 @ 
+continue  @ 156 @ continue  @ 189 @ 
+argument_list  @ 242 @ argument_list  @ 328 @ 
+name: check  @ 129 @ name: check  @ 158 @ 
+decl_stmt  @ 57 @ decl_stmt  @ 71 @ 
+block_content  @ 35 @ block_content  @ 48 @ 
+block  @ 218 @ block  @ 297 @ 
+name: needle  @ 193 @ name: needle  @ 249 @ 
+name: check  @ 242 @ name: check  @ 328 @ 
+operator: !  @ 196 @ operator: !  @ 259 @ 
+if  @ 67 @ if  @ 84 @ 
+operator: &&  @ 254 @ operator: &&  @ 343 @ 
+expr  @ 222 @ expr  @ 305 @ 
+expr  @ 29 @ expr  @ 42 @ 
+expr  @ 279 @ expr  @ 370 @ 
+name: chosen  @ 226 @ name: chosen  @ 311 @ 
+operator: (  @ 12 @ operator: (  @ 16 @ 
+expr  @ 196 @ expr  @ 263 @ 
+name: multi  @ 44 @ name: multi  @ 58 @ 
+type  @ 1 @ type  @ 1 @ 
+call  @ 177 @ call  @ 226 @ 
+operator: .  @ 196 @ operator: .  @ 258 @ 
+directive: endif  @ 249 @ directive: endif  @ 336 @ 
+block_content  @ 225 @ block_content  @ 310 @ 
+name: user  @ 222 @ name: user  @ 305 @ 
+name: check  @ 277 @ name: check  @ 368 @ 
+operator: (  @ 193 @ operator: (  @ 247 @ 
+operator: (  @ 196 @ operator: (  @ 259 @ 
+name: curr  @ 27 @ name: curr  @ 38 @ 
+name: check  @ 109 @ name: check  @ 133 @ 
+decl  @ 57 @ decl  @ 71 @ 
+operator: &&  @ 73 @ operator: &&  @ 91 @ 
+block_content  @ 172 @ block_content  @ 208 @ 
+condition  @ 139 @ condition  @ 170 @ 
+operator: ->  @ 242 @ operator: ->  @ 329 @ 
+name: BUNDLE_NO_MULTIUSE  @ 48 @ name: BUNDLE_NO_MULTIUSE  @ 62 @ 
+argument  @ 167 @ argument  @ 202 @ 
+name: bundle  @ 78 @ name: bundle  @ 96 @ 
+expr  @ 69 @ expr  @ 86 @ 
+operator: .  @ 109 @ operator: .  @ 132 @ 
+name  @ 278 @ name  @ 369 @ 
+operator: .  @ 54 @ operator: .  @ 68 @ 
+block_content  @ 124 @ block_content  @ 151 @ 
+name: FALSE  @ 42 @ name: FALSE  @ 55 @ 
+directive: endif  @ 18 @ directive: endif  @ 26 @ 
+name  @ 177 @ name  @ 223 @ 
+decl_stmt  @ 12 @ decl_stmt  @ 16 @ 
+operator: ->  @ 222 @ operator: ->  @ 306 @ 
+operator: .  @ 24 @ operator: .  @ 34 @ 
+operator: ->  @ 196 @ operator: ->  @ 263 @ 
+name: name  @ 196 @ name: name  @ 260 @ 
+argument  @ 183 @ argument  @ 234 @ 
+type  @ 2 @ type  @ 3 @ 
+operator: !  @ 163 @ operator: !  @ 197 @ 
+name: force_reuse  @ 20 @ name: force_reuse  @ 29 @ 
+operator: ->  @ 123 @ operator: ->  @ 150 @ 
+if_stmt  @ 147 @ if_stmt  @ 178 @ 
+ifdef  @ 273 @ ifdef  @ 364 @ 
+continue  @ 65 @ continue  @ 82 @ 
+specifier: const  @ 9 @ specifier: const  @ 13 @ 
+operator: (  @ 44 @ operator: (  @ 57 @ 
+block_content  @ 226 @ block_content  @ 311 @ 
+condition  @ 126 @ condition  @ 153 @ 
+block  @ 264 @ block  @ 354 @ 
+if  @ 175 @ if  @ 211 @ 
+operator: )  @ 254 @ operator: )  @ 342 @ 
+argument  @ 107 @ argument  @ 130 @ 
+name: handler  @ 190 @ name: handler  @ 242 @ 
+operator: ->  @ 142 @ operator: ->  @ 173 @ 
+expr  @ 89 @ expr  @ 109 @ 
+name: strcasecompare  @ 196 @ name: strcasecompare  @ 259 @ 
+name: data  @ 14 @ name: data  @ 21 @ 
+block_content  @ 118 @ block_content  @ 143 @ 
+operator: .  @ 193 @ operator: .  @ 249 @ 
+expr  @ 206 @ expr  @ 281 @ 
+condition  @ 183 @ condition  @ 233 @ 
+call  @ 200 @ call  @ 271 @ 
+name: user  @ 242 @ name: user  @ 328 @ 
+operator: .  @ 242 @ operator: .  @ 328 @ 
+operator: .  @ 142 @ operator: .  @ 173 @ 
+name: ssl_connection_complete  @ 157 @ name: ssl_connection_complete  @ 190 @ 
+decl  @ 56 @ decl  @ 70 @ 
+name  @ 129 @ name  @ 158 @ 
+init  @ 277 @ init  @ 368 @ 
+if  @ 221 @ if  @ 304 @ 
+condition  @ 82 @ condition  @ 100 @ 
+type  @ 27 @ type  @ 38 @ 
+condition  @ 44 @ condition  @ 57 @ 
+operator: =  @ 215 @ operator: =  @ 294 @ 
+continue  @ 240 @ continue  @ 326 @ 
+operator: ->  @ 116 @ operator: ->  @ 141 @ 
+continue  @ 135 @ continue  @ 166 @ 
+block  @ 124 @ block  @ 151 @ 
+parameter  @ 2 @ parameter  @ 4 @ 
+decl  @ 9 @ decl  @ 13 @ 
+name: bits  @ 138 @ name: bits  @ 169 @ 
+operator: (  @ 196 @ operator: (  @ 257 @ 
+name: data  @ 37 @ name: data  @ 50 @ 
+operator: ||  @ 175 @ operator: ||  @ 211 @ 
+name: http_proxy  @ 242 @ name: http_proxy  @ 329 @ 
+name  @ 2 @ name  @ 3 @ 
+operator: ==  @ 225 @ operator: ==  @ 310 @ 
+block  @ 82 @ block  @ 100 @ 
+decl_stmt  @ 27 @ decl_stmt  @ 38 @ 
+name: needle  @ 123 @ name: needle  @ 150 @ 
+expr  @ 38 @ expr  @ 51 @ 
+block_content  @ 215 @ block_content  @ 294 @ 
+expr  @ 45 @ expr  @ 59 @ 
+operator: .  @ 129 @ operator: .  @ 158 @ 
+name: ptr  @ 170 @ name: ptr  @ 206 @ 
+endif  @ 263 @ endif  @ 353 @ 
+operator: &  @ 24 @ operator: &  @ 35 @ 
+name  @ 105 @ name  @ 128 @ 
+expr  @ 112 @ expr  @ 136 @ 
+comment: /* The schemes match or the protocol family is the same and the previous connection was TLS upgraded, and the hostname and host port match */  @ 197 @ comment: /* The schemes match or the protocol family is the same and the
+             previous connection was TLS upgraded, and the hostname and hostport match */  @ 265 @ 
+name: check  @ 155 @ name: check  @ 188 @ 
+operator: =  @ 226 @ operator: =  @ 311 @ 
+if_stmt  @ 264 @ if_stmt  @ 354 @ 
+operator: ->  @ 126 @ operator: ->  @ 155 @ 
+name: handler  @ 181 @ name: handler  @ 230 @ 
+operator: )  @ 177 @ operator: )  @ 223 @ 
+name: needle  @ 177 @ name: needle  @ 224 @ 
+name: head  @ 54 @ name: head  @ 68 @ 
+decl  @ 12 @ decl  @ 16 @ 
+name: http_ntlm_state  @ 225 @ name: http_ntlm_state  @ 310 @ 
+condition  @ 198 @ condition  @ 268 @ 
+operator: ->  @ 222 @ operator: ->  @ 305 @ 
+argument  @ 201 @ argument  @ 273 @ 
+expr  @ 183 @ expr  @ 233 @ 
+name  @ 109 @ name  @ 133 @ 
+operator: ->  @ 118 @ operator: ->  @ 143 @ 
+operator: ->  @ 183 @ operator: ->  @ 233 @ 
+operator: ||  @ 123 @ operator: ||  @ 149 @ 
+argument_list  @ 69 @ argument_list  @ 86 @ 
+argument_list  @ 149 @ argument_list  @ 180 @ 
+argument_list  @ 67 @ argument_list  @ 84 @ 
+name  @ 90 @ name  @ 112 @ 
+name: localport  @ 177 @ name: localport  @ 223 @ 
+name: chosen  @ 269 @ name: chosen  @ 360 @ 
+name: canmultiplex  @ 46 @ name: canmultiplex  @ 60 @ 
+operator: ->  @ 196 @ operator: ->  @ 261 @ 
+operator: ->  @ 181 @ operator: ->  @ 230 @ 
+name: proto  @ 277 @ name: proto  @ 368 @ 
+if_stmt  @ 116 @ if_stmt  @ 140 @ 
+expr  @ 242 @ expr  @ 328 @ 
+expr  @ 60 @ expr  @ 77 @ 
+parameter  @ 2 @ parameter  @ 5 @ 
+if  @ 163 @ if  @ 197 @ 
+name: multiuse  @ 33 @ name: multiuse  @ 46 @ 
+comment: /* We have the optimal connection. Let's stop looking. */  @ 268 @ comment: /* We have the optimal connection. Let's stop looking. */  @ 359 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: )  @ 44 @ operator: )  @ 57 @ 
+name  @ 183 @ name  @ 233 @ 
+name: BUNDLE_MULTIPLEX  @ 29 @ name: BUNDLE_MULTIPLEX  @ 41 @ 
+name: scheme  @ 196 @ name: scheme  @ 256 @ 
+block  @ 113 @ block  @ 137 @ 
+name: bits  @ 193 @ name: bits  @ 249 @ 
+operator: ->  @ 118 @ operator: ->  @ 144 @ 
+name: data  @ 44 @ name: data  @ 58 @ 
+expr  @ 215 @ expr  @ 294 @ 
+name  @ 60 @ name  @ 77 @ 
+name: needle  @ 14 @ name: needle  @ 23 @ 
+name: check  @ 116 @ name: check  @ 141 @ 
+continue  @ 185 @ continue  @ 236 @ 
+operator: ->  @ 116 @ operator: ->  @ 140 @ 
+expr  @ 222 @ expr  @ 305 @ 
+expr  @ 196 @ expr  @ 257 @ 
+operator: )  @ 177 @ operator: )  @ 226 @ 
+name: PROTO_FAMILY_HTTP  @ 12 @ name: PROTO_FAMILY_HTTP  @ 18 @ 
+argument_list  @ 7 @ argument_list  @ 11 @ 
+index  @ 204 @ index  @ 279 @ 
+name  @ 171 @ name  @ 207 @ 
+name: data  @ 73 @ name: data  @ 90 @ 
+block  @ 191 @ block  @ 245 @ 
+name  @ 254 @ name  @ 344 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 55 @ 
+expr  @ 201 @ expr  @ 276 @ 
+name: e  @ 170 @ name: e  @ 206 @ 
+block  @ 135 @ block  @ 166 @ 
+expr  @ 196 @ expr  @ 256 @ 
+name: proxy_info_matches  @ 139 @ name: proxy_info_matches  @ 170 @ 
+name: needle  @ 175 @ name: needle  @ 211 @ 
+name: PROTOPT_SSL  @ 198 @ name: PROTOPT_SSL  @ 268 @ 
+decl_stmt  @ 56 @ decl_stmt  @ 70 @ 
+type  @ 277 @ type  @ 368 @ 
+name: needle  @ 196 @ name: needle  @ 260 @ 
+if  @ 237 @ if  @ 322 @ 
+operator: !=  @ 245 @ operator: !=  @ 332 @ 
+if  @ 151 @ if  @ 183 @ 
+expr  @ 78 @ expr  @ 96 @ 
+operator: (  @ 181 @ operator: (  @ 230 @ 
+operator: .  @ 73 @ operator: .  @ 91 @ 
+name: passwd  @ 222 @ name: passwd  @ 306 @ 
+block  @ 3 @ block  @ 7 @ 
+name: TRUE  @ 256 @ name: TRUE  @ 346 @ 
+ifndef  @ 137 @ ifndef  @ 168 @ 
+expr  @ 98 @ expr  @ 120 @ 
+block_content  @ 277 @ block_content  @ 368 @ 
+name: proxy_ssl_config  @ 149 @ name: proxy_ssl_config  @ 180 @ 
+argument  @ 67 @ argument  @ 84 @ 
+operator: &  @ 126 @ operator: &  @ 155 @ 
+expr  @ 198 @ expr  @ 268 @ 
+operator: .  @ 196 @ operator: .  @ 263 @ 
+name: check  @ 230 @ name: check  @ 315 @ 
+operator: ->  @ 73 @ operator: ->  @ 91 @ 
+name: bits  @ 109 @ name: bits  @ 132 @ 
+name: needle  @ 222 @ name: needle  @ 305 @ 
+name  @ 239 @ name  @ 325 @ 
+expr  @ 55 @ expr  @ 69 @ 
+block_content  @ 108 @ block_content  @ 131 @ 
+operator: ->  @ 200 @ operator: ->  @ 272 @ 
+if_stmt  @ 32 @ if_stmt  @ 45 @ 
+operator: <  @ 190 @ operator: <  @ 244 @ 
+name: check  @ 200 @ name: check  @ 272 @ 
+block  @ 158 @ block  @ 191 @ 
+expr  @ 222 @ expr  @ 306 @ 
+comment: /* If multiplexed, make sure we don't go over concurrency limit */  @ 274 @ comment: /* If multiplexed, make sure we don't go over concurrency limit */  @ 365 @ 
+operator: |  @ 12 @ operator: |  @ 17 @ 
+argument  @ 35 @ argument  @ 48 @ 
+name: FALSE  @ 16 @ name: FALSE  @ 25 @ 
+expr  @ 95 @ expr  @ 117 @ 
+block  @ 145 @ block  @ 176 @ 
+expr  @ 196 @ expr  @ 256 @ 
+operator: .  @ 196 @ operator: .  @ 263 @ 
+if  @ 48 @ if  @ 62 @ 
+operator: &&  @ 177 @ operator: &&  @ 225 @ 
+literal: "Connection #%ld has different SSL parameters, "  @ 201 @ literal: "Connection #%ld has different SSL parameters, "  @ 274 @ 
+operator: ->  @ 193 @ operator: ->  @ 249 @ 
+name: httpc  @ 278 @ name: httpc  @ 369 @ 
+endif  @ 249 @ endif  @ 336 @ 
+argument  @ 177 @ argument  @ 226 @ 
+condition  @ 237 @ condition  @ 322 @ 
+name: ptr  @ 60 @ name: ptr  @ 77 @ 
+if_stmt  @ 181 @ if_stmt  @ 230 @ 
+operator: !  @ 239 @ operator: !  @ 325 @ 
+if  @ 267 @ if  @ 358 @ 
+block_content  @ 143 @ block_content  @ 174 @ 
+name: usethis  @ 2 @ name: usethis  @ 4 @ 
+type  @ 57 @ type  @ 71 @ 
+operator: ->  @ 139 @ operator: ->  @ 170 @ 
+if_stmt  @ 48 @ if_stmt  @ 62 @ 
+block  @ 230 @ block  @ 315 @ 
+operator: &&  @ 254 @ operator: &&  @ 341 @ 
+block  @ 165 @ block  @ 200 @ 
+name: multiplexed  @ 282 @ name: multiplexed  @ 374 @ 
+init  @ 57 @ init  @ 71 @ 
+condition  @ 239 @ condition  @ 325 @ 
+ternary  @ 29 @ ternary  @ 41 @ 
+name: entry  @ 170 @ name: entry  @ 206 @ 
+operator: ||  @ 118 @ operator: ||  @ 144 @ 
+name: handler  @ 196 @ name: handler  @ 256 @ 
+name: check  @ 177 @ name: check  @ 224 @ 
+operator: >=  @ 190 @ operator: >=  @ 243 @ 
+name  @ 196 @ name  @ 261 @ 
+operator: =  @ 50 @ operator: =  @ 64 @ 
+name: FALSE  @ 56 @ name: FALSE  @ 70 @ 
+name  @ 282 @ name  @ 375 @ 
+expr  @ 87 @ expr  @ 106 @ 
+if  @ 177 @ if  @ 223 @ 
+operator: ==  @ 29 @ operator: ==  @ 41 @ 
+name: needle  @ 193 @ name: needle  @ 247 @ 
+block_content  @ 256 @ block_content  @ 346 @ 
+expr  @ 63 @ expr  @ 80 @ 
+name: check  @ 60 @ name: check  @ 77 @ 
+argument_list  @ 196 @ argument_list  @ 257 @ 
+name: PROTOPT_SSL  @ 193 @ name: PROTOPT_SSL  @ 247 @ 
+expr  @ 29 @ expr  @ 41 @ 
+name: chosen  @ 5 @ name: chosen  @ 9 @ 
+operator: ==  @ 196 @ operator: ==  @ 262 @ 
+operator: (  @ 177 @ operator: (  @ 223 @ 
+block  @ 118 @ block  @ 143 @ 
+name: next  @ 61 @ name: next  @ 78 @ 
+name: httpproxy  @ 123 @ name: httpproxy  @ 149 @ 
+type  @ 4 @ type  @ 8 @ 
+name: handler  @ 193 @ name: handler  @ 247 @ 
+argument_list  @ 139 @ argument_list  @ 170 @ 
+block_content  @ 205 @ block_content  @ 280 @ 
+name: wantNTLMhttp  @ 254 @ name: wantNTLMhttp  @ 341 @ 
+block  @ 267 @ block  @ 358 @ 
+operator: ->  @ 89 @ operator: ->  @ 109 @ 
+name: bits  @ 196 @ name: bits  @ 259 @ 
+operator: ->  @ 177 @ operator: ->  @ 223 @ 
+name  @ 177 @ name  @ 226 @ 
+name: data  @ 206 @ name: data  @ 281 @ 
+operator: ->  @ 63 @ operator: ->  @ 80 @ 
+name: handler  @ 14 @ name: handler  @ 23 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 54 @ 
+operator: ->  @ 33 @ operator: ->  @ 46 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+condition  @ 254 @ condition  @ 341 @ 
+expr  @ 118 @ expr  @ 143 @ 
+expr  @ 163 @ expr  @ 197 @ 
+argument  @ 201 @ argument  @ 276 @ 
+operator: &  @ 12 @ operator: &  @ 18 @ 
+decl  @ 2 @ decl  @ 4 @ 
+operator: ->  @ 196 @ operator: ->  @ 256 @ 
+if_stmt  @ 105 @ if_stmt  @ 128 @ 
+name  @ 169 @ name  @ 205 @ 
+argument_list  @ 41 @ argument_list  @ 54 @ 
+name: check  @ 239 @ name: check  @ 325 @ 
+operator: ||  @ 193 @ operator: ||  @ 249 @ 
+name: httpversion  @ 190 @ name: httpversion  @ 243 @ 
+name: tunnel_proxy  @ 142 @ name: tunnel_proxy  @ 173 @ 
+expr  @ 105 @ expr  @ 128 @ 
+modifier: *  @ 2 @ modifier: *  @ 4 @ 
+operator: ->  @ 282 @ operator: ->  @ 375 @ 
+block_content  @ 196 @ block_content  @ 256 @ 
+condition  @ 221 @ condition  @ 304 @ 
+operator: &  @ 14 @ operator: &  @ 23 @ 
+name: set  @ 73 @ name: set  @ 90 @ 
+condition  @ 116 @ condition  @ 140 @ 
+operator: ->  @ 105 @ operator: ->  @ 128 @ 
+name: check  @ 167 @ name: check  @ 202 @ 
+name: needle  @ 177 @ name: needle  @ 225 @ 
+condition  @ 275 @ condition  @ 366 @ 
+operator: ->  @ 183 @ operator: ->  @ 234 @ 
+name: flags  @ 116 @ name: flags  @ 140 @ 
+return  @ 38 @ return  @ 51 @ 
+if_stmt  @ 167 @ if_stmt  @ 202 @ 
+name: CURLAUTH_NTLM_WB  @ 12 @ name: CURLAUTH_NTLM_WB  @ 17 @ 
+name: check  @ 149 @ name: check  @ 181 @ 
+name  @ 157 @ name  @ 190 @ 
+name  @ 126 @ name  @ 154 @ 
+operator: *  @ 256 @ operator: *  @ 346 @ 
+comment: /* skip because the connection is not via the requested IP version */  @ 74 @ comment: /* skip because the connection is not via the requested IP version */  @ 92 @ 
+continue  @ 247 @ continue  @ 334 @ 
+expr  @ 44 @ expr  @ 57 @ 
+continue  @ 124 @ continue  @ 151 @ 
+block_content  @ 131 @ block_content  @ 161 @ 
+name: bundle  @ 25 @ name: bundle  @ 36 @ 
+call  @ 41 @ call  @ 54 @ 
+operator: ->  @ 175 @ operator: ->  @ 211 @ 
+name: ssl_config  @ 200 @ name: ssl_config  @ 271 @ 
+if  @ 193 @ if  @ 247 @ 
+name: needle  @ 242 @ name: needle  @ 329 @ 
+block_content  @ 34 @ block_content  @ 47 @ 
+argument_list  @ 79 @ argument_list  @ 97 @ 
+operator: )  @ 12 @ operator: )  @ 17 @ 
+name: state  @ 14 @ name: state  @ 21 @ 
+name: abstract_unix_socket  @ 109 @ name: abstract_unix_socket  @ 133 @ 
+if_stmt  @ 82 @ if_stmt  @ 100 @ 
+operator: )  @ 190 @ operator: )  @ 244 @ 
+operator: (  @ 14 @ operator: (  @ 23 @ 
+expr_stmt  @ 201 @ expr_stmt  @ 273 @ 
+name: needle  @ 139 @ name: needle  @ 170 @ 
+name: check  @ 79 @ name: check  @ 97 @ 
+if  @ 112 @ if  @ 136 @ 
+directive: ifdef  @ 11 @ directive: ifdef  @ 15 @ 
+name: bool  @ 14 @ name: bool  @ 20 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 20 @ 
+block  @ 250 @ block  @ 337 @ 
+block_content  @ 89 @ block_content  @ 109 @ 
+name: max_concurrent_streams  @ 278 @ name: max_concurrent_streams  @ 369 @ 
+operator: .  @ 138 @ operator: .  @ 169 @ 
+condition  @ 129 @ condition  @ 158 @ 
+name: bundle  @ 24 @ name: bundle  @ 34 @ 
+break  @ 270 @ break  @ 361 @ 
+call  @ 279 @ call  @ 370 @ 
+if_stmt  @ 63 @ if_stmt  @ 80 @ 
+argument_list  @ 219 @ argument_list  @ 298 @ 
+if  @ 196 @ if  @ 256 @ 
+operator: =  @ 24 @ operator: =  @ 34 @ 
+block_content  @ 147 @ block_content  @ 178 @ 
+name  @ 109 @ name  @ 132 @ 
+name: needle  @ 198 @ name: needle  @ 268 @ 
+name: check  @ 98 @ name: check  @ 121 @ 
+name  @ 63 @ name  @ 80 @ 
+operator: !=  @ 123 @ operator: !=  @ 150 @ 
+expr  @ 45 @ expr  @ 59 @ 
+if  @ 282 @ if  @ 374 @ 
+call  @ 196 @ call  @ 257 @ 
+continue  @ 131 @ continue  @ 161 @ 
+if  @ 245 @ if  @ 332 @ 
+operator: ->  @ 222 @ operator: ->  @ 306 @ 
+name  @ 196 @ name  @ 258 @ 
+name: needle  @ 7 @ name: needle  @ 11 @ 
+name: canmultiplex  @ 50 @ name: canmultiplex  @ 64 @ 
+name: passwd  @ 183 @ name: passwd  @ 234 @ 
+block_content  @ 139 @ block_content  @ 170 @ 
+if  @ 200 @ if  @ 271 @ 
+expr  @ 170 @ expr  @ 206 @ 
+condition  @ 55 @ condition  @ 69 @ 
+call  @ 45 @ call  @ 59 @ 
+block_content  @ 279 @ block_content  @ 370 @ 
+continue  @ 143 @ continue  @ 174 @ 
+name: conn_to_port  @ 133 @ name: conn_to_port  @ 163 @ 
+name  @ 126 @ name  @ 155 @ 
+operator: &  @ 149 @ operator: &  @ 180 @ 
+name: match  @ 215 @ name: match  @ 294 @ 
+name: strcmp  @ 222 @ name: strcmp  @ 305 @ 
+name: localdev  @ 175 @ name: localdev  @ 211 @ 
+name: curr  @ 61 @ name: curr  @ 78 @ 
+name: unix_domain_socket  @ 112 @ name: unix_domain_socket  @ 136 @ 
+block_content  @ 243 @ block_content  @ 330 @ 
+operator: .  @ 14 @ operator: .  @ 21 @ 
+operator: .  @ 109 @ operator: .  @ 133 @ 
+argument  @ 90 @ argument  @ 110 @ 
+name  @ 95 @ name  @ 117 @ 
+operator: ->  @ 123 @ operator: ->  @ 150 @ 
+name: name  @ 196 @ name: name  @ 263 @ 
+operator: &&  @ 196 @ operator: &&  @ 258 @ 
+endif  @ 18 @ endif  @ 26 @ 
+name: passwd  @ 239 @ name: passwd  @ 325 @ 
+name: handler  @ 196 @ name: handler  @ 258 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 77 @ 
+name: conn_to_host  @ 129 @ name: conn_to_host  @ 158 @ 
+operator: !  @ 118 @ operator: !  @ 144 @ 
+operator: ->  @ 145 @ operator: ->  @ 176 @ 
+expr  @ 133 @ expr  @ 163 @ 
+name  @ 277 @ name  @ 368 @ 
+name: chosen  @ 252 @ name: chosen  @ 339 @ 
+operator: *  @ 21 @ operator: *  @ 30 @ 
+condition  @ 73 @ condition  @ 90 @ 
+name: needle  @ 196 @ name: needle  @ 256 @ 
+name: conn_to_host  @ 196 @ name: conn_to_host  @ 259 @ 
+condition  @ 48 @ condition  @ 62 @ 
+name: data  @ 279 @ name: data  @ 370 @ 
+condition  @ 78 @ condition  @ 96 @ 
+name: wantProxyNTLMhttp  @ 14 @ name: wantProxyNTLMhttp  @ 20 @ 
+operator: ||  @ 196 @ operator: ||  @ 259 @ 
+operator: &  @ 149 @ operator: &  @ 181 @ 
+expr  @ 107 @ expr  @ 130 @ 
+name: check  @ 275 @ name: check  @ 366 @ 
+operator: ->  @ 118 @ operator: ->  @ 144 @ 
+comment: /* Credentials are already checked, we can use this connection */  @ 251 @ comment: /* Credentials are already checked, we can use this connection */  @ 338 @ 
+expr  @ 242 @ expr  @ 329 @ 
+operator: .  @ 133 @ operator: .  @ 163 @ 
+if_stmt  @ 155 @ if_stmt  @ 187 @ 
+block_content  @ 4 @ block_content  @ 8 @ 
+argument  @ 282 @ argument  @ 375 @ 
+operator: !  @ 267 @ operator: !  @ 358 @ 
+name: needle  @ 175 @ name: needle  @ 211 @ 
+operator: ->  @ 126 @ operator: ->  @ 153 @ 
+expr  @ 196 @ expr  @ 263 @ 
+argument_list  @ 118 @ argument_list  @ 143 @ 
+literal: 0  @ 57 @ literal: 0  @ 71 @ 
+expr  @ 109 @ expr  @ 132 @ 
+expr  @ 98 @ expr  @ 120 @ 
+operator: ==  @ 78 @ operator: ==  @ 96 @ 
+continue  @ 140 @ continue  @ 171 @ 
+decl  @ 16 @ decl  @ 25 @ 
+operator: )  @ 12 @ operator: )  @ 17 @ 
+if  @ 104 @ if  @ 127 @ 
+condition  @ 225 @ condition  @ 310 @ 
+if_stmt  @ 123 @ if_stmt  @ 149 @ 
+operator: !  @ 105 @ operator: !  @ 128 @ 
+condition  @ 282 @ condition  @ 374 @ 
+name: httpc  @ 277 @ name: httpc  @ 368 @ 
+expr_stmt  @ 256 @ expr_stmt  @ 346 @ 
+if  @ 275 @ if  @ 366 @ 
+directive: endif  @ 17 @ directive: endif  @ 27 @ 
+operator: ->  @ 177 @ operator: ->  @ 226 @ 
+expr_stmt  @ 269 @ expr_stmt  @ 360 @ 
+if  @ 242 @ if  @ 328 @ 
+name: unix_domain_socket  @ 107 @ name: unix_domain_socket  @ 130 @ 
+expr  @ 35 @ expr  @ 48 @ 
+block  @ 237 @ block  @ 322 @ 
+argument  @ 222 @ argument  @ 306 @ 
+block_content  @ 75 @ block_content  @ 93 @ 
+init  @ 7 @ init  @ 11 @ 
+if  @ 222 @ if  @ 305 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 11 @ 
+comment: /* connect-only or to-be-closed connections will not be reused */  @ 64 @ comment: /* connect-only or to-be-closed connections will not be reused */  @ 81 @ 
+name: conn_to_port  @ 196 @ name: conn_to_port  @ 262 @ 
+argument_list  @ 87 @ argument_list  @ 106 @ 
+condition  @ 245 @ condition  @ 332 @ 
+expr  @ 57 @ expr  @ 71 @ 
+name: authhost  @ 12 @ name: authhost  @ 16 @ 
+expr  @ 116 @ expr  @ 140 @ 
+operator: .  @ 196 @ operator: .  @ 261 @ 
+name  @ 24 @ name  @ 34 @ 
+name: infof  @ 90 @ name: infof  @ 110 @ 
+condition  @ 107 @ condition  @ 130 @ 
+name  @ 181 @ name  @ 230 @ 
+name: tunnel_proxy  @ 193 @ name: tunnel_proxy  @ 249 @ 
+argument  @ 183 @ argument  @ 234 @ 
+if_stmt  @ 183 @ if_stmt  @ 233 @ 
+operator: ->  @ 151 @ operator: ->  @ 183 @ 
+block_content  @ 269 @ block_content  @ 360 @ 
+if  @ 34 @ if  @ 47 @ 
+name: check  @ 226 @ name: check  @ 311 @ 
+if  @ 250 @ if  @ 337 @ 
+name: PROTOPT_SSL  @ 116 @ name: PROTOPT_SSL  @ 141 @ 
+expr  @ 29 @ expr  @ 40 @ 
+name: needle  @ 126 @ name: needle  @ 153 @ 
+condition  @ 171 @ condition  @ 207 @ 
+name: hostbundle  @ 9 @ name: hostbundle  @ 13 @ 
+name  @ 196 @ name  @ 263 @ 
+block  @ 172 @ block  @ 208 @ 
+decl_stmt  @ 170 @ decl_stmt  @ 206 @ 
+operator: ->  @ 171 @ operator: ->  @ 207 @ 
+if  @ 181 @ if  @ 230 @ 
+name  @ 107 @ name  @ 130 @ 
+operator: ->  @ 230 @ operator: ->  @ 315 @ 
+name  @ 107 @ name  @ 130 @ 
+comment: /* don't mix connections that use the "connect to port" feature and * connections that don't use this feature */  @ 134 @ comment: /* don't mix connections that use the "connect to port" feature and
+         * connections that don't use this feature */  @ 164 @ 
+argument  @ 279 @ argument  @ 371 @ 
+name: connection_id  @ 98 @ name: connection_id  @ 121 @ 
+literal: "client side MAX_CONCURRENT_STREAMS reached""  @ 283 @ literal: "client side MAX_CONCURRENT_STREAMS reached"  @ 376 @ 
+name  @ 177 @ name  @ 224 @ 
+name: CONNCACHE_UNLOCK  @ 37 @ name: CONNCACHE_UNLOCK  @ 50 @ 
+operator: ->  @ 242 @ operator: ->  @ 329 @ 
+block  @ 183 @ block  @ 234 @ 
+name: struct  @ 8 @ name: struct  @ 12 @ 
+name  @ 242 @ name  @ 328 @ 
+name: conn_list  @ 54 @ name: conn_list  @ 68 @ 
+name: name  @ 196 @ name: name  @ 260 @ 
+block  @ 87 @ block  @ 106 @ 
+name: infof  @ 279 @ name: infof  @ 370 @ 
+operator: ->  @ 254 @ operator: ->  @ 342 @ 
+condition  @ 157 @ condition  @ 190 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 29 @ 
+name: strcasecompare  @ 196 @ name: strcasecompare  @ 263 @ 
+expr  @ 282 @ expr  @ 374 @ 
+block_content  @ 222 @ block_content  @ 305 @ 
+operator: ->  @ 278 @ operator: ->  @ 369 @ 
+index  @ 95 @ index  @ 117 @ 
+block  @ 108 @ block  @ 131 @ 
+argument  @ 222 @ argument  @ 305 @ 
+name  @ 139 @ name  @ 170 @ 
+name: infof  @ 201 @ name: infof  @ 273 @ 
+directive: else  @ 15 @ directive: else  @ 24 @ 
+operator: !=  @ 151 @ operator: !=  @ 183 @ 
+comment: /* except protocols that have been upgraded via TLS */  @ 119 @ comment: /* except protocols that have been upgraded via TLS */  @ 145 @ 
+name: bool  @ 1 @ name: bool  @ 1 @ 
+condition  @ 204 @ condition  @ 279 @ 
+block  @ 127 @ block  @ 156 @ 
+expr  @ 33 @ expr  @ 46 @ 
+operator: &&  @ 190 @ operator: &&  @ 243 @ 
+operator: .  @ 123 @ operator: .  @ 150 @ 
+name: handler  @ 196 @ name: handler  @ 256 @ 
+operator: =  @ 269 @ operator: =  @ 360 @ 
+argument  @ 41 @ argument  @ 54 @ 
+condition  @ 264 @ condition  @ 354 @ 
+block_content  @ 79 @ block_content  @ 97 @ 
+name: flags  @ 193 @ name: flags  @ 247 @ 
+expr_stmt  @ 210 @ expr_stmt  @ 288 @ 
+expr  @ 123 @ expr  @ 149 @ 
+argument  @ 29 @ argument  @ 40 @ 
+operator: ->  @ 44 @ operator: ->  @ 57 @ 
+operator: &  @ 126 @ operator: &  @ 154 @ 
+operator: ||  @ 239 @ operator: ||  @ 325 @ 
+if  @ 149 @ if  @ 180 @ 
+operator: (  @ 196 @ operator: (  @ 261 @ 
+name: socks_proxy  @ 126 @ name: socks_proxy  @ 154 @ 
+operator: !  @ 126 @ operator: !  @ 154 @ 
+name: protocol  @ 190 @ name: protocol  @ 242 @ 
+name: match  @ 218 @ name: match  @ 297 @ 
+name: connectdata  @ 4 @ name: connectdata  @ 8 @ 
+name: check  @ 225 @ name: check  @ 310 @ 
+name  @ 196 @ name  @ 260 @ 
+name: PROTOPT_SSL  @ 147 @ name: PROTOPT_SSL  @ 178 @ 
+ifndef  @ 13 @ ifndef  @ 19 @ 
+argument  @ 41 @ argument  @ 54 @ 
+name: NTLMSTATE_NONE  @ 254 @ name: NTLMSTATE_NONE  @ 344 @ 
+name  @ 123 @ name  @ 150 @ 
+name: multiplexed  @ 82 @ name: multiplexed  @ 100 @ 
+name: Curl_llist_element  @ 169 @ name: Curl_llist_element  @ 205 @ 
+name: Curl_ssl_config_matches  @ 155 @ name: Curl_ssl_config_matches  @ 187 @ 
+name: foundPendingCandidate  @ 96 @ name: foundPendingCandidate  @ 118 @ 
+name  @ 44 @ name  @ 57 @ 
+if_stmt  @ 145 @ if_stmt  @ 176 @ 
+name: NTLMSTATE_NONE  @ 245 @ name: NTLMSTATE_NONE  @ 332 @ 
+operator: )  @ 116 @ operator: )  @ 141 @ 
+name  @ 183 @ name  @ 234 @ 
+name: needle  @ 107 @ name: needle  @ 130 @ 
+expr  @ 69 @ expr  @ 86 @ 
+expr  @ 107 @ expr  @ 130 @ 
+if_stmt  @ 149 @ if_stmt  @ 180 @ 
+name: check  @ 190 @ name: check  @ 243 @ 
+if  @ 278 @ if  @ 369 @ 
+operator: !  @ 177 @ operator: !  @ 226 @ 
+operator: .  @ 14 @ operator: .  @ 20 @ 
+block_content  @ 140 @ block_content  @ 171 @ 
+name: TRUE  @ 205 @ name: TRUE  @ 280 @ 
+argument  @ 196 @ argument  @ 263 @ 
+if  @ 129 @ if  @ 158 @ 
+name: multi  @ 171 @ name: multi  @ 207 @ 
+if_stmt  @ 33 @ if_stmt  @ 46 @ 
+expr  @ 98 @ expr  @ 120 @ 
+name  @ 196 @ name  @ 263 @ 
+name: check  @ 63 @ name: check  @ 80 @ 
+expr  @ 218 @ expr  @ 297 @ 
+break  @ 257 @ break  @ 347 @ 
+operator: !=  @ 109 @ operator: !=  @ 132 @ 
+name: socksproxy  @ 123 @ name: socksproxy  @ 150 @ 
+if_stmt  @ 151 @ if_stmt  @ 183 @ 
+if_stmt  @ 129 @ if_stmt  @ 158 @ 
+expr  @ 139 @ expr  @ 170 @ 
+operator: ->  @ 239 @ operator: ->  @ 325 @ 
+name: size_t  @ 57 @ name: size_t  @ 71 @ 
+comment: /* we prefer a credential match, but this is at least a connection that can be reused and "upgraded" to NTLM */  @ 224 @ comment: /* we prefer a credential match, but this is at least a connection
+               that can be reused and "upgraded" to NTLM */  @ 308 @ 
+operator: ->  @ 177 @ operator: ->  @ 225 @ 
+operator: ->  @ 196 @ operator: ->  @ 259 @ 
+operator: ||  @ 63 @ operator: ||  @ 80 @ 
+condition  @ 104 @ condition  @ 127 @ 
+argument  @ 283 @ argument  @ 376 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 59 @ 
+name: user  @ 183 @ name: user  @ 233 @ 
+name  @ 183 @ name  @ 234 @ 
+decl  @ 2 @ decl  @ 3 @ 
+argument  @ 206 @ argument  @ 281 @ 
+name: data  @ 282 @ name: data  @ 375 @ 
+operator: !=  @ 129 @ operator: !=  @ 158 @ 
+directive: endif  @ 128 @ directive: endif  @ 157 @ 
+operator: )  @ 14 @ operator: )  @ 23 @ 
+name: protocol  @ 12 @ name: protocol  @ 18 @ 
+init  @ 6 @ init  @ 10 @ 
+name  @ 196 @ name  @ 259 @ 
+name: data  @ 24 @ name: data  @ 34 @ 
+operator: !  @ 200 @ operator: !  @ 271 @ 
+argument_list  @ 49 @ argument_list  @ 63 @ 
+name: USE_NTLM  @ 11 @ name: USE_NTLM  @ 15 @ 
+if  @ 89 @ if  @ 109 @ 
+if_stmt  @ 200 @ if_stmt  @ 271 @ 
+decl  @ 27 @ decl  @ 38 @ 
+name: ssl_connection_complete  @ 151 @ name: ssl_connection_complete  @ 183 @ 
+continue  @ 113 @ continue  @ 137 @ 
+ifndef  @ 235 @ ifndef  @ 320 @ 
+expr  @ 67 @ expr  @ 84 @ 
+if_stmt  @ 133 @ if_stmt  @ 163 @ 
+name: bits  @ 63 @ name: bits  @ 80 @ 
+index  @ 89 @ index  @ 109 @ 
+operator: )  @ 12 @ operator: )  @ 18 @ 
+condition  @ 167 @ condition  @ 202 @ 
+operator: ->  @ 104 @ operator: ->  @ 127 @ 
+continue  @ 150 @ continue  @ 182 @ 
+expr_stmt  @ 206 @ expr_stmt  @ 281 @ 
+expr  @ 269 @ expr  @ 360 @ 
+name  @ 254 @ name  @ 342 @ 
+operator: )  @ 177 @ operator: )  @ 224 @ 
+comment: /* We can multiplex if we want to. Let's continue looking for the optimal connection to use. */  @ 265 @ comment: /* We can multiplex if we want to. Let's continue looking for
+             the optimal connection to use. */  @ 355 @ 
+expr  @ 79 @ expr  @ 97 @ 
+operator: (  @ 116 @ operator: (  @ 141 @ 
+if_stmt  @ 81 @ if_stmt  @ 99 @ 
+expr  @ 29 @ expr  @ 41 @ 
+argument  @ 242 @ argument  @ 329 @ 
+if  @ 139 @ if  @ 170 @ 
+name  @ 242 @ name  @ 329 @ 
+operator: )  @ 190 @ operator: )  @ 242 @ 
+operator: =  @ 61 @ operator: =  @ 78 @ 
+operator: (  @ 254 @ operator: (  @ 343 @ 
+operator: !=  @ 254 @ operator: !=  @ 342 @ 
+condition  @ 133 @ condition  @ 163 @ 
+name: TRUE  @ 210 @ name: TRUE  @ 288 @ 
+directive: endif  @ 161 @ directive: endif  @ 195 @ 
+operator: .  @ 14 @ operator: .  @ 21 @ 
+operator: !=  @ 177 @ operator: !=  @ 223 @ 
+name: needle  @ 177 @ name: needle  @ 223 @ 
+name: bits  @ 129 @ name: bits  @ 158 @ 
+name  @ 129 @ name  @ 158 @ 
+argument  @ 222 @ argument  @ 306 @ 
+name: flags  @ 147 @ name: flags  @ 178 @ 
+block  @ 104 @ block  @ 127 @ 
+if  @ 82 @ if  @ 100 @ 
+expr  @ 155 @ expr  @ 187 @ 
+operator: ->  @ 34 @ operator: ->  @ 47 @ 
+expr  @ 46 @ expr  @ 60 @ 
+if_stmt  @ 89 @ if_stmt  @ 109 @ 
+block_content  @ 135 @ block_content  @ 166 @ 
+if_stmt  @ 175 @ if_stmt  @ 211 @ 
+operator: =  @ 54 @ operator: =  @ 68 @ 
+argument_list  @ 222 @ argument_list  @ 305 @ 
+operator: ->  @ 196 @ operator: ->  @ 256 @ 
+operator: )  @ 196 @ operator: )  @ 260 @ 
+block_content  @ 200 @ block_content  @ 271 @ 
+name  @ 48 @ name  @ 62 @ 
+name: struct  @ 4 @ name: struct  @ 8 @ 
+name: data  @ 35 @ name: data  @ 48 @ 
+operator: =  @ 36 @ operator: =  @ 49 @ 
+operator: ->  @ 175 @ operator: ->  @ 211 @ 
+name: unix_domain_socket  @ 107 @ name: unix_domain_socket  @ 130 @ 
+expr  @ 221 @ expr  @ 304 @ 
+continue  @ 202 @ continue  @ 277 @ 
+decl_stmt  @ 169 @ decl_stmt  @ 205 @ 
+name: user  @ 242 @ name: user  @ 328 @ 
+condition  @ 63 @ condition  @ 80 @ 
+name: check  @ 177 @ name: check  @ 226 @ 
+argument  @ 139 @ argument  @ 170 @ 
+name: needle  @ 118 @ name: needle  @ 144 @ 
+name: check  @ 183 @ name: check  @ 233 @ 
+argument  @ 98 @ argument  @ 120 @ 
+operator: ->  @ 147 @ operator: ->  @ 178 @ 
+name: ipver  @ 73 @ name: ipver  @ 91 @ 
+if  @ 133 @ if  @ 163 @ 
+argument_list  @ 177 @ argument_list  @ 226 @ 
+expr  @ 279 @ expr  @ 370 @ 
+name: protocol  @ 118 @ name: protocol  @ 144 @ 
+expr  @ 50 @ expr  @ 64 @ 
+operator: &  @ 198 @ operator: &  @ 268 @ 
+condition  @ 145 @ condition  @ 176 @ 
+name: FALSE  @ 20 @ name: FALSE  @ 29 @ 
+expr  @ 157 @ expr  @ 190 @ 
+name: needle  @ 183 @ name: needle  @ 234 @ 
+name: ipver  @ 73 @ name: ipver  @ 90 @ 
+name  @ 196 @ name  @ 257 @ 
+name: bits  @ 133 @ name: bits  @ 163 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 12 @ 
+name: bits  @ 123 @ name: bits  @ 150 @ 
+name: USE_UNIX_SOCKETS  @ 103 @ name: USE_UNIX_SOCKETS  @ 126 @ 
+name: check  @ 204 @ name: check  @ 279 @ 
+operator: ->  @ 123 @ operator: ->  @ 149 @ 
+literal: 0  @ 5 @ literal: 0  @ 9 @ 
+expr_stmt  @ 252 @ expr_stmt  @ 339 @ 
+name: bool  @ 56 @ name: bool  @ 70 @ 
+expr  @ 5 @ expr  @ 9 @ 
+argument  @ 196 @ argument  @ 256 @ 
+argument  @ 242 @ argument  @ 328 @ 
+argument  @ 283 @ argument  @ 376 @ 
+name: check  @ 133 @ name: check  @ 163 @ 
+if_stmt  @ 107 @ if_stmt  @ 130 @ 
+name: proxy_ntlm_state  @ 245 @ name: proxy_ntlm_state  @ 332 @ 
+argument  @ 90 @ argument  @ 111 @ 
+name: tls_upgraded  @ 196 @ name: tls_upgraded  @ 258 @ 
+operator: =  @ 210 @ operator: =  @ 288 @ 
+type  @ 9 @ type  @ 13 @ 
+name  @ 73 @ name  @ 90 @ 
+block  @ 81 @ block  @ 99 @ 
+argument  @ 196 @ argument  @ 256 @ 
+expr  @ 29 @ expr  @ 41 @ 
+condition  @ 181 @ condition  @ 230 @ 
+call  @ 35 @ call  @ 48 @ 
+expr  @ 36 @ expr  @ 49 @ 
+operator: !  @ 44 @ operator: !  @ 58 @ 
+expr  @ 205 @ expr  @ 280 @ 
+name: strcmp  @ 222 @ name: strcmp  @ 306 @ 
+if  @ 157 @ if  @ 190 @ 
+operator: (  @ 190 @ operator: (  @ 244 @ 
+name: needle  @ 126 @ name: needle  @ 154 @ 
+operator: (  @ 14 @ operator: (  @ 21 @ 
+literal: "Server doesn't support multiplex yet, wait"  @ 35 @ literal: "Server doesn't support multiplex yet, wait"  @ 48 @ 
+type  @ 169 @ type  @ 205 @ 
+call  @ 167 @ call  @ 202 @ 
+name: check  @ 105 @ name: check  @ 128 @ 
+modifier: *  @ 2 @ modifier: *  @ 6 @ 
+expr  @ 126 @ expr  @ 154 @ 
+operator: ->  @ 204 @ operator: ->  @ 279 @ 
+name: remote_port  @ 196 @ name: remote_port  @ 264 @ 
+directive: ifndef  @ 235 @ directive: ifndef  @ 320 @ 
+block  @ 282 @ block  @ 375 @ 
+operator: (  @ 177 @ operator: (  @ 224 @ 
+name: infof  @ 45 @ name: infof  @ 59 @ 
+block_content  @ 201 @ block_content  @ 273 @ 
+if_stmt  @ 44 @ if_stmt  @ 57 @ 
+operator: ->  @ 190 @ operator: ->  @ 242 @ 
+argument_list  @ 279 @ argument_list  @ 370 @ 
+name: data  @ 201 @ name: data  @ 273 @ 
+block  @ 79 @ block  @ 97 @ 
+type  @ 5 @ type  @ 9 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 64 @ 
+expr  @ 177 @ expr  @ 226 @ 
+name  @ 155 @ name  @ 188 @ 
+operator: >=  @ 282 @ operator: >=  @ 374 @ 
+name: DEBUGF  @ 206 @ name: DEBUGF  @ 281 @ 
+name  @ 277 @ name  @ 368 @ 
+name: sock  @ 95 @ name: sock  @ 117 @ 
+name: needle  @ 2 @ name: needle  @ 3 @ 
+operator: ||  @ 177 @ operator: ||  @ 224 @ 
+name: get_protocol_family  @ 118 @ name: get_protocol_family  @ 143 @ 
+argument_list  @ 201 @ argument_list  @ 273 @ 
+call  @ 183 @ call  @ 233 @ 
+operator: ->  @ 177 @ operator: ->  @ 223 @ 
+operator: ->  @ 181 @ operator: ->  @ 230 @ 
+condition  @ 175 @ condition  @ 211 @ 
+operator: .  @ 239 @ operator: .  @ 325 @ 
+name: check  @ 139 @ name: check  @ 170 @ 
+condition  @ 155 @ condition  @ 187 @ 
+name: state  @ 151 @ name: state  @ 183 @ 
+operator: ->  @ 193 @ operator: ->  @ 249 @ 
+expr_stmt  @ 96 @ expr_stmt  @ 118 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+if  @ 145 @ if  @ 176 @ 
+type  @ 6 @ type  @ 10 @ 
+block  @ 73 @ block  @ 91 @ 
+continue  @ 84 @ continue  @ 103 @ 
+name: bundle  @ 29 @ name: bundle  @ 41 @ 
+operator: ->  @ 60 @ operator: ->  @ 77 @ 
+expr  @ 200 @ expr  @ 271 @ 
+operator: &  @ 190 @ operator: &  @ 242 @ 
+init  @ 56 @ init  @ 70 @ 
+call  @ 206 @ call  @ 281 @ 
+name: e  @ 169 @ name: e  @ 205 @ 
+expr  @ 24 @ expr  @ 34 @ 
+operator: ->  @ 177 @ operator: ->  @ 224 @ 
+name: easyq  @ 169 @ name: easyq  @ 205 @ 
+argument_list  @ 35 @ argument_list  @ 48 @ 
+name: bits  @ 275 @ name: bits  @ 366 @ 
+operator: )  @ 181 @ operator: )  @ 230 @ 
+block  @ 204 @ block  @ 279 @ 
+operator: !=  @ 171 @ operator: !=  @ 207 @ 
+argument  @ 44 @ argument  @ 58 @ 
+operator: ->  @ 118 @ operator: ->  @ 144 @ 
+name: struct  @ 277 @ name: struct  @ 368 @ 
+name: check  @ 196 @ name: check  @ 260 @ 
+name: CONN_INUSE  @ 167 @ name: CONN_INUSE  @ 202 @ 
+name: check  @ 177 @ name: check  @ 226 @ 
+expr  @ 41 @ expr  @ 54 @ 
+name: wantProxyNTLMhttp  @ 250 @ name: wantProxyNTLMhttp  @ 337 @ 
+block_content  @ 247 @ block_content  @ 334 @ 
+expr_stmt  @ 226 @ expr_stmt  @ 311 @ 
+operator: &&  @ 163 @ operator: &&  @ 197 @ 
+if_stmt  @ 34 @ if_stmt  @ 47 @ 
+name  @ 34 @ name  @ 47 @ 
+name: wantProxyNTLMhttp  @ 254 @ name: wantProxyNTLMhttp  @ 343 @ 
+name: curr  @ 55 @ name: curr  @ 69 @ 
+operator: &&  @ 12 @ operator: &&  @ 17 @ 
+operator: .  @ 278 @ operator: .  @ 369 @ 
+if  @ 219 @ if  @ 298 @ 
+block_content  @ 221 @ block_content  @ 304 @ 
+operator: !=  @ 123 @ operator: !=  @ 149 @ 
+name: check  @ 269 @ name: check  @ 360 @ 
+argument  @ 196 @ argument  @ 260 @ 
+argument  @ 242 @ argument  @ 329 @ 
+name: socks_proxy  @ 126 @ name: socks_proxy  @ 155 @ 
+operator: ||  @ 196 @ operator: ||  @ 261 @ 
+condition  @ 151 @ condition  @ 183 @ 
+expr  @ 61 @ expr  @ 78 @ 
+operator: !  @ 193 @ operator: !  @ 249 @ 
+name: httpwant  @ 190 @ name: httpwant  @ 244 @ 
+name: needle  @ 181 @ name: needle  @ 230 @ 
+continue  @ 172 @ continue  @ 208 @ 
+if  @ 230 @ if  @ 315 @ 
+operator: ->  @ 149 @ operator: ->  @ 180 @ 
+if_stmt  @ 104 @ if_stmt  @ 127 @ 
+name: check  @ 69 @ name: check  @ 86 @ 
+expr  @ 24 @ expr  @ 34 @ 
+type  @ 2 @ type  @ 6 @ 
+block  @ 193 @ block  @ 251 @ 
+operator: &  @ 116 @ operator: &  @ 140 @ 
+argument_list  @ 206 @ argument_list  @ 281 @ 
+block  @ 32 @ block  @ 45 @ 
+operator: *  @ 20 @ operator: *  @ 29 @ 
+name  @ 123 @ name  @ 149 @ 
+argument  @ 222 @ argument  @ 305 @ 
+block  @ 152 @ block  @ 184 @ 
+continue  @ 127 @ continue  @ 156 @ 
+operator: ||  @ 177 @ operator: ||  @ 226 @ 
+operator: (  @ 177 @ operator: (  @ 225 @ 
+name: localportrange  @ 177 @ name: localportrange  @ 224 @ 
+name: data  @ 98 @ name: data  @ 120 @ 
+argument  @ 37 @ argument  @ 50 @ 
+call  @ 206 @ call  @ 281 @ 
+name  @ 149 @ name  @ 180 @ 
+expr  @ 206 @ expr  @ 284 @ 
+call  @ 7 @ call  @ 11 @ 
+decl  @ 7 @ decl  @ 11 @ 
+block_content  @ 33 @ block_content  @ 46 @ 
+operator: ->  @ 12 @ operator: ->  @ 18 @ 
+operator: .  @ 12 @ operator: .  @ 16 @ 
+name: proxytype  @ 145 @ name: proxytype  @ 176 @ 
+name: data  @ 41 @ name: data  @ 54 @ 
+name: bits  @ 196 @ name: bits  @ 261 @ 
+operator: ->  @ 190 @ operator: ->  @ 244 @ 
+block  @ 178 @ block  @ 227 @ 
+operator: ->  @ 177 @ operator: ->  @ 226 @ 
+name  @ 73 @ name  @ 91 @ 
+name  @ 196 @ name  @ 258 @ 
+name: http_proxy  @ 239 @ name: http_proxy  @ 325 @ 
+literal: "Connection #%ld has not started SSL connect, "  @ 206 @ literal: "Connection #%ld has not started SSL connect, "  @ 282 @ 
+name: strcmp  @ 183 @ name: strcmp  @ 234 @ 
+comment: /* Multiplexed connections can only be HTTP/2 for now */  @ 276 @ comment: /* Multiplexed connections can only be HTTP/2 for now */  @ 367 @ 
+operator: ->  @ 12 @ operator: ->  @ 18 @ 
+name  @ 123 @ name  @ 150 @ 
+operator: &&  @ 196 @ operator: &&  @ 262 @ 
+argument  @ 29 @ argument  @ 41 @ 
+call  @ 139 @ call  @ 170 @ 
+operator: ->  @ 169 @ operator: ->  @ 205 @ 
+expr  @ 90 @ expr  @ 112 @ 
+name: state  @ 157 @ name: state  @ 190 @ 
+operator: .  @ 151 @ operator: .  @ 183 @ 
+operator: ||  @ 250 @ operator: ||  @ 337 @ 
+ifdef  @ 11 @ ifdef  @ 15 @ 
+name  @ 177 @ name  @ 226 @ 
+block_content  @ 239 @ block_content  @ 325 @ 
+if_stmt  @ 196 @ if_stmt  @ 256 @ 
+operator: =  @ 42 @ operator: =  @ 55 @ 
+argument  @ 24 @ argument  @ 34 @ 
+expr  @ 56 @ expr  @ 70 @ 
+operator: .  @ 73 @ operator: .  @ 90 @ 
+block  @ 147 @ block  @ 178 @ 
+expr  @ 256 @ expr  @ 346 @ 
+expr  @ 196 @ expr  @ 260 @ 
+operator: =  @ 60 @ operator: =  @ 77 @ 
+call  @ 98 @ call  @ 120 @ 
+name: needle  @ 138 @ name: needle  @ 169 @ 
+operator: ->  @ 142 @ operator: ->  @ 173 @ 
+name: strcmp  @ 107 @ name: strcmp  @ 130 @ 
+block_content  @ 252 @ block_content  @ 339 @ 
+name  @ 222 @ name  @ 305 @ 
+argument  @ 149 @ argument  @ 181 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 68 @ 
+name: bits  @ 109 @ name: bits  @ 133 @ 
+if_stmt  @ 250 @ if_stmt  @ 337 @ 
+operator: >=  @ 278 @ operator: >=  @ 369 @ 
+name: BUNDLE_UNKNOWN  @ 33 @ name: BUNDLE_UNKNOWN  @ 46 @ 
+operator: (  @ 29 @ operator: (  @ 41 @ 
+argument_list  @ 222 @ argument_list  @ 306 @ 
+name: strcasecompare  @ 196 @ name: strcasecompare  @ 256 @ 
+operator: )  @ 14 @ operator: )  @ 23 @ 
+name  @ 2 @ name  @ 2 @ 
+expr  @ 82 @ expr  @ 100 @ 
+operator: &  @ 155 @ operator: &  @ 187 @ 
+name: ssl_connection_complete  @ 204 @ name: ssl_connection_complete  @ 279 @ 
+operator: ||  @ 242 @ operator: ||  @ 328 @ 
+argument  @ 90 @ argument  @ 112 @ 
+name: conn_to_port  @ 133 @ name: conn_to_port  @ 163 @ 
+expr  @ 34 @ expr  @ 47 @ 
+modifier: *  @ 170 @ modifier: *  @ 206 @ 
+name  @ 222 @ name  @ 306 @ 
+expr  @ 206 @ expr  @ 282 @ 
+operator: ->  @ 73 @ operator: ->  @ 91 @ 
+name: struct  @ 169 @ name: struct  @ 205 @ 
+operator: ->  @ 14 @ operator: ->  @ 23 @ 
+name: Curl_easy  @ 170 @ name: Curl_easy  @ 206 @ 
+continue  @ 243 @ continue  @ 330 @ 
+name: FALSE  @ 46 @ name: FALSE  @ 60 @ 
+argument  @ 196 @ argument  @ 260 @ 
+operator: !=  @ 73 @ operator: !=  @ 91 @ 
+expr  @ 177 @ expr  @ 226 @ 
+operator: ->  @ 149 @ operator: ->  @ 181 @ 
+if_stmt  @ 73 @ if_stmt  @ 90 @ 
+operator: !=  @ 157 @ operator: !=  @ 190 @ 
+operator: ->  @ 170 @ operator: ->  @ 206 @ 
+name  @ 138 @ name  @ 169 @ 
+call  @ 196 @ call  @ 256 @ 
+block_content  @ 149 @ block_content  @ 180 @ 
+condition  @ 196 @ condition  @ 256 @ 
+if  @ 78 @ if  @ 96 @ 
+operator: ->  @ 171 @ operator: ->  @ 207 @ 
+name  @ 14 @ name  @ 21 @ 
+name: Curl_ssl_config_matches  @ 200 @ name: Curl_ssl_config_matches  @ 271 @ 
+name: Curl_disconnect  @ 69 @ name: Curl_disconnect  @ 86 @ 
+operator: !  @ 196 @ operator: !  @ 261 @ 
+name: TRUE  @ 36 @ name: TRUE  @ 49 @ 
+name  @ 198 @ name  @ 268 @ 
+name: TRUE  @ 96 @ name: TRUE  @ 118 @ 
+expr  @ 239 @ expr  @ 325 @ 
+name: passwd  @ 183 @ name: passwd  @ 234 @ 
+name: bits  @ 193 @ name: bits  @ 249 @ 
+expr  @ 29 @ expr  @ 40 @ 
+name: bits  @ 133 @ name: bits  @ 163 @ 
+literal: "Connection #%ld is still name resolving, can't reuse"  @ 90 @ literal: "Connection #%ld is still name resolving, can't reuse"  @ 111 @ 
+expr  @ 41 @ expr  @ 54 @ 
+operator: &  @ 139 @ operator: &  @ 170 @ 
+name: FALSE  @ 6 @ name: FALSE  @ 10 @ 
+block  @ 25 @ block  @ 36 @ 
+name: conn_cache  @ 24 @ name: conn_cache  @ 34 @ 
+literal: "Can not multiplex, even if we wanted to"  @ 49 @ literal: "Can not multiplex, even if we wanted to!"  @ 63 @ 
+if  @ 155 @ if  @ 187 @ 
+name: bits  @ 14 @ name: bits  @ 20 @ 
+operator: ->  @ 239 @ operator: ->  @ 325 @ 
+name  @ 73 @ name  @ 91 @ 
+comment: /* Don't pick a connection that hasn't connected yet */  @ 97 @ comment: /* Don't pick a connection that hasn't connected yet */  @ 119 @ 
+name: check  @ 239 @ name: check  @ 325 @ 
+operator: ->  @ 133 @ operator: ->  @ 163 @ 
+decl  @ 170 @ decl  @ 206 @ 
+block  @ 120 @ block  @ 146 @ 
+expr  @ 149 @ expr  @ 180 @ 
+argument_list  @ 196 @ argument_list  @ 263 @ 
+name: bool  @ 16 @ name: bool  @ 25 @ 
+if  @ 225 @ if  @ 310 @ 
+name: passwd  @ 222 @ name: passwd  @ 306 @ 
+name: bool  @ 6 @ name: bool  @ 10 @ 
+condition  @ 177 @ condition  @ 223 @ 
+name: wantNTLMhttp  @ 221 @ name: wantNTLMhttp  @ 304 @ 
+operator: &&  @ 196 @ operator: &&  @ 263 @ 
+argument  @ 206 @ argument  @ 282 @ 
+argument  @ 279 @ argument  @ 370 @ 
+name  @ 193 @ name  @ 247 @ 
+expr  @ 237 @ expr  @ 322 @ 
+block_content  @ 120 @ block_content  @ 146 @ 
+if_stmt  @ 222 @ if_stmt  @ 305 @ 
+expr  @ 37 @ expr  @ 50 @ 
+expr  @ 149 @ expr  @ 181 @ 
+argument_list  @ 183 @ argument_list  @ 233 @ 
+expr  @ 48 @ expr  @ 62 @ 
+name: waitpipe  @ 2 @ name: waitpipe  @ 6 @ 
+name: proxy_ssl_config  @ 149 @ name: proxy_ssl_config  @ 181 @ 
+operator: .  @ 196 @ operator: .  @ 259 @ 
+expr  @ 190 @ expr  @ 242 @ 
+name: defined  @ 219 @ name: defined  @ 298 @ 
+name  @ 245 @ name  @ 332 @ 
+name: FALSE  @ 38 @ name: FALSE  @ 51 @ 
+operator: ->  @ 138 @ operator: ->  @ 169 @ 
+operator: (  @ 12 @ operator: (  @ 16 @ 
+name: user  @ 239 @ name: user  @ 325 @ 
+if  @ 105 @ if  @ 128 @ 
+block  @ 44 @ block  @ 58 @ 
+operator: ->  @ 63 @ operator: ->  @ 80 @ 
+expr  @ 230 @ expr  @ 315 @ 
+if_stmt  @ 95 @ if_stmt  @ 117 @ 
+argument  @ 49 @ argument  @ 63 @ 
+if_stmt  @ 67 @ if_stmt  @ 84 @ 
+name: Curl_easy  @ 2 @ name: Curl_easy  @ 2 @ 
+name: struct  @ 170 @ name: struct  @ 206 @ 
+argument  @ 24 @ argument  @ 35 @ 
+operator: ->  @ 139 @ operator: ->  @ 170 @ 
+argument  @ 177 @ argument  @ 226 @ 
+name  @ 177 @ name  @ 225 @ 
+continue  @ 110 @ continue  @ 134 @ 
+operator: ->  @ 61 @ operator: ->  @ 78 @ 
+operator: .  @ 277 @ operator: .  @ 368 @ 
+name: http_proxy  @ 242 @ name: http_proxy  @ 328 @ 
+literal: "serially"  @ 29 @ literal: "serially"  @ 42 @ 
+condition  @ 147 @ condition  @ 178 @ 
+operator: (  @ 14 @ operator: (  @ 21 @ 
+if_stmt  @ 254 @ if_stmt  @ 341 @ 
+name: proxy_ssl  @ 151 @ name: proxy_ssl  @ 183 @ 
+operator: ==  @ 48 @ operator: ==  @ 62 @ 
+call  @ 222 @ call  @ 306 @ 
+expr  @ 210 @ expr  @ 288 @ 
+comment: /* Proxy connection is using NTLM auth but we don't want NTLM */  @ 246 @ comment: /* Proxy connection is using NTLM auth but we don't want NTLM */  @ 333 @ 
+decl  @ 14 @ decl  @ 20 @ 
+argument_list  @ 183 @ argument_list  @ 234 @ 
+expr  @ 196 @ expr  @ 256 @ 
+operator: ->  @ 12 @ operator: ->  @ 16 @ 
+expr  @ 201 @ expr  @ 273 @ 
+operator: ||  @ 183 @ operator: ||  @ 233 @ 
+name: TRUE  @ 69 @ name: TRUE  @ 86 @ 
+name: close  @ 63 @ name: close  @ 80 @ 
+name  @ 149 @ name  @ 181 @ 
+argument  @ 206 @ argument  @ 284 @ 
+comment: /* primary_ip[0] is NUL only if the resolving of the name hasn't completed yet and until then we don't re-use this connection */  @ 88 @ comment: /* primary_ip[0] is NUL only if the resolving of the name hasn'tcompleted yet and until then we don't re-use this connection */  @ 107 @ 
+name: Curl_conncache_find_bundle  @ 24 @ name: Curl_conncache_find_bundle  @ 34 @ 
+argument  @ 118 @ argument  @ 143 @ 
+argument_list  @ 44 @ argument_list  @ 58 @ 
+operator: ==  @ 44 @ operator: ==  @ 57 @ 
+operator: ||  @ 254 @ operator: ||  @ 342 @ 
+argument  @ 196 @ argument  @ 257 @ 
+argument  @ 107 @ argument  @ 130 @ 
+operator: ->  @ 198 @ operator: ->  @ 268 @ 
+block_content  @ 178 @ block_content  @ 227 @ 
+name: bundle  @ 44 @ name: bundle  @ 57 @ 
+condition  @ 33 @ condition  @ 46 @ 
+operator: &  @ 147 @ operator: &  @ 178 @ 
+name  @ 169 @ name  @ 205 @ 
+block_content  @ 65 @ block_content  @ 82 @ 
+comment: /* Subject for multiplex use if 'checks' belongs to the same multi handle as 'data' is. */  @ 168 @ comment: /* Subject for multiplex use if 'checks' belongs to the same multi
+           handle as 'data' is. */  @ 203 @ 
+name: needle  @ 155 @ name: needle  @ 187 @ 
+argument  @ 126 @ argument  @ 155 @ 
+name: set  @ 73 @ name: set  @ 91 @ 
+expr  @ 24 @ expr  @ 34 @ 
+expr_stmt  @ 90 @ expr_stmt  @ 110 @ 
+decl  @ 2 @ decl  @ 2 @ 
+block  @ 156 @ block  @ 189 @ 
+call  @ 201 @ call  @ 273 @ 
+argument  @ 29 @ argument  @ 41 @ 
+operator: =  @ 205 @ operator: =  @ 280 @ 
+name: multiplexed  @ 267 @ name: multiplexed  @ 358 @ 
+name: waitpipe  @ 36 @ name: waitpipe  @ 49 @ 
+name: check  @ 201 @ name: check  @ 276 @ 
+modifier: *  @ 9 @ modifier: *  @ 13 @ 
+call  @ 24 @ call  @ 34 @ 
+operator: &  @ 181 @ operator: &  @ 230 @ 
+argument_list  @ 90 @ argument_list  @ 110 @ 
+operator: !=  @ 133 @ operator: !=  @ 163 @ 
+operator: ->  @ 90 @ operator: ->  @ 112 @ 
+argument  @ 24 @ argument  @ 34 @ 
+call  @ 163 @ call  @ 197 @ 
+operator: ->  @ 116 @ operator: ->  @ 140 @ 
+condition  @ 105 @ condition  @ 128 @ 
+operator: =  @ 252 @ operator: =  @ 339 @ 
+name: httpproxy  @ 123 @ name: httpproxy  @ 149 @ 
+comment: /* don't mix connections that use the "connect to host" feature and * connections that don't use this feature */  @ 130 @ comment: /* don't mix connections that use the "connect to host" feature and
+         * connections that don't use this feature */  @ 159 @ 
+operator: )  @ 116 @ operator: )  @ 140 @ 
+operator: ->  @ 198 @ operator: ->  @ 268 @ 
+expr  @ 67 @ expr  @ 84 @ 
+call  @ 118 @ call  @ 143 @ 
+name: check  @ 183 @ name: check  @ 234 @ 
+comment: /* use https proxy */  @ 146 @ comment: /* use https proxy */  @ 177 @ 
+function  @ 1 @ function  @ 1 @ 
+decl  @ 5 @ decl  @ 9 @ 
+block_content  @ 127 @ block_content  @ 156 @ 
+continue  @ 158 @ continue  @ 191 @ 
+expr  @ 6 @ expr  @ 10 @ 
+name: Curl_resolver_asynch  @ 87 @ name: Curl_resolver_asynch  @ 106 @ 
+name: data  @ 171 @ name: data  @ 207 @ 
+condition  @ 242 @ condition  @ 328 @ 
+if_stmt  @ 157 @ if_stmt  @ 190 @ 
+block_content  @ 232 @ block_content  @ 317 @ 
+call  @ 67 @ call  @ 84 @ 
+block_content  @ 150 @ block_content  @ 182 @ 
+name: CURLAUTH_NTLM_WB  @ 14 @ name: CURLAUTH_NTLM_WB  @ 22 @ 
+literal: 20  @ 190 @ literal: 20  @ 243 @ 
+name: bits  @ 123 @ name: bits  @ 149 @ 
+continue  @ 261 @ continue  @ 351 @ 
+comment: /* Connection is using NTLM auth but we don't want NTLM */  @ 231 @ comment: /* Connection is using NTLM auth but we don't want NTLM */  @ 316 @ 
+argument_list  @ 200 @ argument_list  @ 271 @ 
+if  @ 204 @ if  @ 279 @ 
+name: hostbundle  @ 24 @ name: hostbundle  @ 35 @ 
+operator: ->  @ 277 @ operator: ->  @ 368 @ 
+name: check  @ 157 @ name: check  @ 190 @ 
+modifier: *  @ 5 @ modifier: *  @ 9 @ 
+expr  @ 44 @ expr  @ 58 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 40 @ 
+name: passwd  @ 242 @ name: passwd  @ 329 @ 
+name: FALSE  @ 50 @ name: FALSE  @ 64 @ 
+type  @ 14 @ type  @ 20 @ 
+name  @ 190 @ name  @ 244 @ 
+name  @ 222 @ name  @ 306 @ 
+operator: ->  @ 29 @ operator: ->  @ 41 @ 
+operator: (  @ 254 @ operator: (  @ 344 @ 
+name: want  @ 14 @ name: want  @ 21 @ 
+name: needle  @ 149 @ name: needle  @ 180 @ 
+operator: ->  @ 196 @ operator: ->  @ 256 @ 
+continue  @ 191 @ continue  @ 245 @ 
+name  @ 200 @ name  @ 272 @ 
+block  @ 198 @ block  @ 268 @ 
+name  @ 12 @ name  @ 18 @ 
+block  @ 254 @ block  @ 344 @ 
+name  @ 5 @ name  @ 9 @ 
+name: bundle  @ 33 @ name: bundle  @ 46 @ 
+continue  @ 178 @ continue  @ 227 @ 
+name: multiplexed  @ 79 @ name: multiplexed  @ 97 @ 
+name  @ 222 @ name  @ 305 @ 
+argument_list  @ 282 @ argument_list  @ 375 @ 
+operator: !  @ 139 @ operator: !  @ 170 @ 
+operator: =  @ 21 @ operator: =  @ 30 @ 
+operator: ->  @ 196 @ operator: ->  @ 264 @ 
+continue  @ 227 @ continue  @ 312 @ 
+name: connection_id  @ 90 @ name: connection_id  @ 112 @ 
+name: multi  @ 171 @ name: multi  @ 207 @ 
+operator: )  @ 12 @ operator: )  @ 18 @ 
+name  @ 225 @ name  @ 310 @ 
+expr  @ 201 @ expr  @ 274 @ 
+block_content  @ 198 @ block_content  @ 268 @ 
+if  @ 33 @ if  @ 46 @ 
+if  @ 116 @ if  @ 140 @ 
+name  @ 54 @ name  @ 68 @ 
+name: connection_id  @ 206 @ name: connection_id  @ 284 @ 
+expr  @ 96 @ expr  @ 118 @ 
+name: canmultiplex  @ 32 @ name: canmultiplex  @ 45 @ 
+directive: endif  @ 114 @ directive: endif  @ 138 @ 
+name: check  @ 196 @ name: check  @ 257 @ 
+argument  @ 49 @ argument  @ 63 @ 
+operator: !  @ 81 @ operator: !  @ 99 @ 
+name: data  @ 90 @ name: data  @ 110 @ 
+operator: =  @ 46 @ operator: =  @ 60 @ 
+name: check  @ 177 @ name: check  @ 223 @ 
+name: needle  @ 190 @ name: needle  @ 242 @ 
+literal: 0  @ 89 @ literal: 0  @ 109 @ 
+operator: .  @ 242 @ operator: .  @ 329 @ 
+name: DEBUGF  @ 201 @ name: DEBUGF  @ 273 @ 
+name  @ 177 @ name  @ 223 @ 
+argument  @ 45 @ argument  @ 59 @ 
+name: bits  @ 123 @ name: bits  @ 149 @ 
+operator: &&  @ 190 @ operator: &&  @ 242 @ 
+name: NTLMSTATE_NONE  @ 225 @ name: NTLMSTATE_NONE  @ 310 @ 
+name: proxy_user_passwd  @ 14 @ name: proxy_user_passwd  @ 20 @ 
+expr  @ 20 @ expr  @ 29 @ 
+expr  @ 7 @ expr  @ 11 @ 
+name: check  @ 151 @ name: check  @ 183 @ 
+if  @ 171 @ if  @ 207 @ 
+directive: ifdef  @ 273 @ directive: ifdef  @ 364 @ 
+name: NTLMSTATE_NONE  @ 230 @ name: NTLMSTATE_NONE  @ 315 @ 
+operator: ||  @ 222 @ operator: ||  @ 305 @ 
+name: multiplexed  @ 279 @ name: multiplexed  @ 371 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 50 @ 
+name: check  @ 107 @ name: check  @ 130 @ 
+literal: "can't reuse"  @ 206 @ literal: "can't reuse"  @ 283 @ 
+name: data  @ 24 @ name: data  @ 34 @ 
+directive: endif  @ 263 @ directive: endif  @ 353 @ 
+argument_list  @ 24 @ argument_list  @ 34 @ 
+operator: ->  @ 116 @ operator: ->  @ 141 @ 
+name: bundle  @ 54 @ name: bundle  @ 68 @ 
+operator: ->  @ 196 @ operator: ->  @ 258 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 49 @ 
+if  @ 142 @ if  @ 173 @ 
+operator: !=  @ 254 @ operator: !=  @ 344 @ 
+type  @ 2 @ type  @ 5 @ 
+decl  @ 8 @ decl  @ 12 @ 
+operator: ->  @ 112 @ operator: ->  @ 136 @ 
+operator: (  @ 196 @ operator: (  @ 256 @ 
+name: handler  @ 118 @ name: handler  @ 143 @ 
+literal: "can't reuse"  @ 201 @ literal: "can't reuse"  @ 275 @ 
+name  @ 170 @ name  @ 206 @ 
+name: entry  @ 171 @ name: entry  @ 207 @ 
+operator: ->  @ 157 @ operator: ->  @ 190 @ 
+operator: =  @ 79 @ operator: =  @ 97 @ 
+operator: .  @ 63 @ operator: .  @ 80 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+operator: .  @ 12 @ operator: .  @ 16 @ 
+condition  @ 29 @ condition  @ 41 @ 
+operator: ->  @ 133 @ operator: ->  @ 163 @ 
+expr  @ 24 @ expr  @ 35 @ 
+expr  @ 49 @ expr  @ 63 @ 
+block  @ 110 @ block  @ 134 @ 
+operator: ->  @ 177 @ operator: ->  @ 226 @ 
+operator: .  @ 239 @ operator: .  @ 325 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 9 @ 
+name: canmultiplex  @ 7 @ name: canmultiplex  @ 11 @ 
+operator: (  @ 190 @ operator: (  @ 242 @ 
+name: check  @ 112 @ name: check  @ 136 @ 
+expr  @ 279 @ expr  @ 370 @ 
+operator: &  @ 12 @ operator: &  @ 16 @ 
+if  @ 167 @ if  @ 202 @ 
+name: check  @ 222 @ name: check  @ 305 @ 
+expr  @ 157 @ expr  @ 190 @ 
+if  @ 81 @ if  @ 99 @ 
+directive: ifndef  @ 13 @ directive: ifndef  @ 19 @ 
+name: bits  @ 123 @ name: bits  @ 150 @ 
+operator: )  @ 254 @ operator: )  @ 342 @ 
+name: multiplex  @ 275 @ name: multiplex  @ 366 @ 
+operator: !  @ 155 @ operator: !  @ 187 @ 
+expr  @ 242 @ expr  @ 329 @ 
+operator: .  @ 123 @ operator: .  @ 149 @ 
+expr  @ 219 @ expr  @ 298 @ 
+else  @ 15 @ else  @ 24 @ 
+operator: ->  @ 107 @ operator: ->  @ 130 @ 
+name: needle  @ 200 @ name: needle  @ 271 @ 
+name: data  @ 2 @ name: data  @ 2 @ 
+name: socksproxy  @ 123 @ name: socksproxy  @ 150 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 48 @ 
+if  @ 25 @ if  @ 36 @ 
+name: FIRSTSOCKET  @ 95 @ name: FIRSTSOCKET  @ 117 @ 
+block  @ 95 @ block  @ 117 @ 
+call  @ 29 @ call  @ 40 @ 
+name: wantNTLMhttp  @ 250 @ name: wantNTLMhttp  @ 337 @ 
+name: check  @ 67 @ name: check  @ 84 @ 
+if_stmt  @ 163 @ if_stmt  @ 197 @ 
+name: conn_to_port  @ 196 @ name: conn_to_port  @ 261 @ 
+operator: .  @ 123 @ operator: .  @ 149 @ 
+name: http_proxy  @ 242 @ name: http_proxy  @ 329 @ 
+expr  @ 139 @ expr  @ 170 @ 
+init  @ 14 @ init  @ 20 @ 
+operator: &&  @ 44 @ operator: &&  @ 57 @ 
+name: needle  @ 12 @ name: needle  @ 18 @ 
+block_content  @ 267 @ block_content  @ 358 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+if_stmt  @ 138 @ if_stmt  @ 169 @ 
+decl_stmt  @ 16 @ decl_stmt  @ 25 @ 
+expr_stmt  @ 98 @ expr_stmt  @ 120 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 63 @ 
+name: passwd  @ 242 @ name: passwd  @ 329 @ 
+type  @ 56 @ type  @ 70 @ 
+block_content  @ 49 @ block_content  @ 63 @ 
+expr  @ 35 @ expr  @ 48 @ 
+name: localport  @ 175 @ name: localport  @ 211 @ 
+if  @ 109 @ if  @ 132 @ 
+name  @ 29 @ name  @ 41 @ 
+name  @ 14 @ name  @ 23 @ 
+if  @ 126 @ if  @ 153 @ 
+name: data  @ 69 @ name: data  @ 86 @ 
+condition  @ 200 @ condition  @ 271 @ 
+argument  @ 98 @ argument  @ 120 @ 
+endif  @ 17 @ endif  @ 27 @ 
+if  @ 123 @ if  @ 149 @ 
+type  @ 7 @ type  @ 11 @ 
+expr  @ 139 @ expr  @ 170 @ 
+name: multiplexed  @ 57 @ name: multiplexed  @ 71 @ 
+name: multiplexed  @ 278 @ name: multiplexed  @ 369 @ 
+argument  @ 183 @ argument  @ 233 @ 
+name: infof  @ 35 @ name: infof  @ 48 @ 
+argument_list  @ 29 @ argument_list  @ 40 @ 
+name: struct  @ 2 @ name: struct  @ 4 @ 
+operator: .  @ 275 @ operator: .  @ 366 @ 
+name  @ 177 @ name  @ 226 @ 
+name  @ 14 @ name  @ 20 @ 
+name: http_proxy  @ 139 @ name: http_proxy  @ 170 @ 
+name: force_reuse  @ 256 @ name: force_reuse  @ 346 @ 
+comment: /* no re-use */  @ 38 @ comment: /* no re-use */  @ 51 @ 
+literal: "Server doesn't support multiplex (yet)"  @ 41 @ literal: "Server doesn't support multiplex (yet)"  @ 54 @ 
+operator: !=  @ 177 @ operator: !=  @ 224 @ 
+operator: ->  @ 73 @ operator: ->  @ 90 @ 
+name  @ 44 @ name  @ 58 @ 
+type  @ 170 @ type  @ 206 @ 
+expr  @ 32 @ expr  @ 45 @ 
+expr  @ 171 @ expr  @ 207 @ 
+operator: ->  @ 98 @ operator: ->  @ 121 @ 
+operator: )  @ 14 @ operator: )  @ 22 @ 
+continue  @ 99 @ continue  @ 122 @ 
+continue  @ 108 @ continue  @ 131 @ 
+operator: ||  @ 193 @ operator: ||  @ 249 @ 
+block  @ 245 @ block  @ 332 @ 
+operator: ->  @ 129 @ operator: ->  @ 158 @ 
+operator: &&  @ 14 @ operator: &&  @ 20 @ 
+condition  @ 109 @ condition  @ 132 @ 
+name: TRUE  @ 215 @ name: TRUE  @ 294 @ 
+name: CURL_SOCKET_BAD  @ 95 @ name: CURL_SOCKET_BAD  @ 117 @ 
+name: get_protocol_family  @ 196 @ name: get_protocol_family  @ 257 @ 
+if_stmt  @ 25 @ if_stmt  @ 36 @ 
+expr  @ 147 @ expr  @ 178 @ 
+call  @ 155 @ call  @ 187 @ 
+name: check  @ 252 @ name: check  @ 339 @ 
+expr  @ 177 @ expr  @ 223 @ 
+name: localportrange  @ 177 @ name: localportrange  @ 224 @ 
+if  @ 254 @ if  @ 341 @ 
+name: ssl_config  @ 155 @ name: ssl_config  @ 187 @ 
+while  @ 55 @ while  @ 69 @ 
+expr  @ 226 @ expr  @ 311 @ 
+name  @ 123 @ name  @ 149 @ 
+operator: ->  @ 196 @ operator: ->  @ 258 @ 
+block  @ 213 @ block  @ 291 @ 
+name  @ 201 @ name  @ 276 @ 
+modifier: *  @ 27 @ modifier: *  @ 38 @ 
+if_stmt  @ 267 @ if_stmt  @ 358 @ 
+operator: ->  @ 183 @ operator: ->  @ 234 @ 
+name: ssl_config  @ 200 @ name: ssl_config  @ 272 @ 
+name: state  @ 204 @ name: state  @ 279 @ 
+name: struct  @ 2 @ name: struct  @ 2 @ 
+literal: "can multiplex"  @ 29 @ literal: "can multiplex"  @ 42 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 8 @ 
+operator: .  @ 34 @ operator: .  @ 47 @ 
+operator: )  @ 254 @ operator: )  @ 344 @ 
+name: http_proxy  @ 139 @ name: http_proxy  @ 170 @ 
+name: ip_version  @ 73 @ name: ip_version  @ 91 @ 
+name: infof  @ 283 @ name: infof  @ 376 @ 
+name: bool  @ 12 @ name: bool  @ 16 @ 
+name: needle  @ 222 @ name: needle  @ 306 @ 
+if  @ 107 @ if  @ 130 @ 
+operator: ->  @ 196 @ operator: ->  @ 262 @ 
+name: CURLAUTH_NTLM  @ 12 @ name: CURLAUTH_NTLM  @ 17 @ 
+name: needle  @ 196 @ name: needle  @ 258 @ 
+block_content  @ 185 @ block_content  @ 236 @ 
+name: struct  @ 27 @ name: struct  @ 38 @ 
+name: check  @ 118 @ name: check  @ 143 @ 
+operator: )  @ 193 @ operator: )  @ 247 @ 
+name: connect_only  @ 63 @ name: connect_only  @ 80 @ 
+name: check  @ 123 @ name: check  @ 149 @ 
+operator: .  @ 133 @ operator: .  @ 163 @ 
+operator: .  @ 169 @ operator: .  @ 205 @ 
+argument  @ 98 @ argument  @ 121 @ 
+name: struct  @ 5 @ name: struct  @ 9 @ 
+modifier: *  @ 4 @ modifier: *  @ 8 @ 
+name  @ 196 @ name  @ 256 @ 
+expr  @ 107 @ expr  @ 130 @ 
+directive: ifndef  @ 137 @ directive: ifndef  @ 168 @ 
+name: Curl_multiplex_wanted  @ 44 @ name: Curl_multiplex_wanted  @ 58 @ 
+name: connectbundle  @ 8 @ name: connectbundle  @ 12 @ 
+name: data  @ 34 @ name: data  @ 47 @ 
+expr  @ 222 @ expr  @ 306 @ 
+call  @ 79 @ call  @ 97 @ 
+name: check  @ 254 @ name: check  @ 342 @ 
+operator: .  @ 118 @ operator: .  @ 144 @ 
+expr  @ 155 @ expr  @ 188 @ 
+name: bool  @ 7 @ name: bool  @ 11 @ 
+name  @ 206 @ name  @ 284 @ 
+expr  @ 196 @ expr  @ 260 @ 
+block_content  @ 169 @ block_content  @ 205 @ 
+name: wantProxyNTLMhttp  @ 237 @ name: wantProxyNTLMhttp  @ 322 @ 
+operator: !  @ 181 @ operator: !  @ 230 @ 
+if_stmt  @ 190 @ if_stmt  @ 242 @ 
+block_content  @ 110 @ block_content  @ 134 @ 
+argument  @ 155 @ argument  @ 188 @ 
+name: handler  @ 12 @ name: handler  @ 18 @ 
+directive: if  @ 219 @ directive: if  @ 298 @ 
+name: primary_ip  @ 89 @ name: primary_ip  @ 109 @ 
+else  @ 29 @ else  @ 42 @ 
+name: extract_if_dead  @ 67 @ name: extract_if_dead  @ 84 @ 
+name: head  @ 169 @ name: head  @ 205 @ 
+init  @ 12 @ init  @ 16 @ 
+name: needle  @ 145 @ name: needle  @ 176 @ 
+condition  @ 267 @ condition  @ 358 @ 
+operator: !  @ 149 @ operator: !  @ 180 @ 
+name: match  @ 210 @ name: match  @ 288 @ 
+block_content  @ 56 @ block_content  @ 70 @ 
+expr  @ 81 @ expr  @ 99 @ 
+operator: ->  @ 107 @ operator: ->  @ 130 @ 
+modifier: *  @ 8 @ modifier: *  @ 12 @ 
+name: needle  @ 24 @ name: needle  @ 34 @ 
+operator: (  @ 254 @ operator: (  @ 341 @ 
+name: check  @ 163 @ name: check  @ 197 @ 
+operator: ->  @ 196 @ operator: ->  @ 260 @ 
+operator: ->  @ 54 @ operator: ->  @ 68 @ 
+name: check  @ 245 @ name: check  @ 332 @ 
+name  @ 142 @ name  @ 173 @ 
+condition  @ 89 @ condition  @ 109 @ 
+operator: &  @ 193 @ operator: &  @ 247 @ 
+name: needle  @ 142 @ name: needle  @ 173 @ 
+name  @ 193 @ name  @ 249 @ 
+name: abstract_unix_socket  @ 109 @ name: abstract_unix_socket  @ 132 @ 
+expr  @ 69 @ expr  @ 86 @ 
+name: connectdata  @ 5 @ name: connectdata  @ 9 @ 
+name  @ 171 @ name  @ 207 @ 
+operator: !=  @ 118 @ operator: !=  @ 143 @ 
+if_stmt  @ 78 @ if_stmt  @ 96 @ 
+comment: /* this request can't be multiplexed but the checked connection is already in use so we skip it */  @ 164 @ comment: /* this request can't be multiplexed but the checked connection is
+           already in use so we skip it */  @ 198 @ 
+operator: =  @ 256 @ operator: =  @ 346 @ 
+name  @ 196 @ name  @ 256 @ 
+name: USE_NGHTTP2  @ 273 @ name: USE_NGHTTP2  @ 364 @ 
+name: handler  @ 198 @ name: handler  @ 268 @ 
+if  @ 118 @ if  @ 143 @ 
+argument_list  @ 196 @ argument_list  @ 259 @ 
+name: foundPendingCandidate  @ 6 @ name: foundPendingCandidate  @ 10 @ 
+operator: *  @ 29 @ operator: *  @ 41 @ 
+argument_list  @ 37 @ argument_list  @ 50 @ 
+name: multi  @ 282 @ name: multi  @ 375 @ 
+argument  @ 35 @ argument  @ 48 @ 
+expr  @ 90 @ expr  @ 111 @ 
+endif  @ 128 @ endif  @ 157 @ 
+name: bundle  @ 8 @ name: bundle  @ 12 @ 
+literal: "Could multiplex, but not asked to"  @ 45 @ literal: "Could multiplex, but not asked to!"  @ 59 @ 
+operator: ->  @ 44 @ operator: ->  @ 58 @ 
+name: check  @ 196 @ name: check  @ 258 @ 
+call  @ 49 @ call  @ 63 @ 
+name: name  @ 196 @ name: name  @ 263 @ 
+name: httpproxy  @ 138 @ name: httpproxy  @ 169 @ 
+name: bits  @ 129 @ name: bits  @ 158 @ 
+operator: )  @ 196 @ operator: )  @ 258 @ 
+argument  @ 242 @ argument  @ 328 @ 
+expr  @ 126 @ expr  @ 155 @ 
+operator: .  @ 196 @ operator: .  @ 260 @ 
+name: socksproxy  @ 126 @ name: socksproxy  @ 153 @ 
+if_stmt  @ 237 @ if_stmt  @ 322 @ 
+expr  @ 37 @ expr  @ 50 @ 
+argument  @ 69 @ argument  @ 86 @ 
+block  @ 65 @ block  @ 82 @ 
+name: bundle  @ 29 @ name: bundle  @ 41 @ 
+name: CONN_INUSE  @ 163 @ name: CONN_INUSE  @ 197 @ 
+name: check  @ 90 @ name: check  @ 112 @ 
+name: USE_NTLM  @ 219 @ name: USE_NTLM  @ 298 @ 
+name: protocol  @ 14 @ name: protocol  @ 23 @ 
+block_content  @ 183 @ block_content  @ 233 @ 
+modifier: *  @ 2 @ modifier: *  @ 5 @ 
+name  @ 133 @ name  @ 163 @ 
+decl  @ 277 @ decl  @ 368 @ 
+name: check  @ 123 @ name: check  @ 150 @ 
+operator: &&  @ 196 @ operator: &&  @ 258 @ 
+expr  @ 252 @ expr  @ 339 @ 
+block_content  @ 27 @ block_content  @ 38 @ 
+name: bits  @ 142 @ name: bits  @ 173 @ 
+argument  @ 45 @ argument  @ 59 @ 
+name  @ 275 @ name  @ 366 @ 
+argument  @ 7 @ argument  @ 11 @ 
+operator: ->  @ 196 @ operator: ->  @ 256 @ 
+operator: ->  @ 183 @ operator: ->  @ 233 @ 
+expr  @ 222 @ expr  @ 305 @ 
+name: check  @ 169 @ name: check  @ 205 @ 
+if  @ 44 @ if  @ 57 @ 
+name: state  @ 190 @ name: state  @ 244 @ 
+type  @ 2 @ type  @ 4 @ 
+block_content  @ 106 @ block_content  @ 129 @ 
+expr  @ 95 @ expr  @ 117 @ 
+modifier: *  @ 277 @ modifier: *  @ 368 @ 
+operator: ->  @ 78 @ operator: ->  @ 96 @ 
+init  @ 170 @ init  @ 206 @ 
+expr  @ 155 @ expr  @ 187 @ 
+expr  @ 163 @ expr  @ 197 @ 
+expr  @ 183 @ expr  @ 234 @ 
+name  @ 27 @ name  @ 38 @ 
+operator: ==  @ 196 @ operator: ==  @ 257 @ 
+name: needle  @ 123 @ name: needle  @ 149 @ 
+operator: (  @ 12 @ operator: (  @ 17 @ 
+name: hostbundle  @ 29 @ name: hostbundle  @ 41 @ 
+comment: /* This is a SSL connection so verify that we're using the same SSL options as well */  @ 199 @ comment: /* This is a SSL connection so verify that we're using the same
+               SSL options as well */  @ 269 @ 
+name: canmultiplex  @ 42 @ name: canmultiplex  @ 55 @ 
+operator: ->  @ 126 @ operator: ->  @ 154 @ 
+parameter  @ 2 @ parameter  @ 6 @ 
+expr  @ 45 @ expr  @ 59 @ 
+expr_stmt  @ 69 @ expr_stmt  @ 86 @ 
+operator: ->  @ 14 @ operator: ->  @ 20 @ 
+name: infof  @ 29 @ name: infof  @ 40 @ 
+condition  @ 81 @ condition  @ 99 @ 
+ifdef  @ 103 @ ifdef  @ 126 @ 
+name: handler  @ 118 @ name: handler  @ 144 @ 
+name: conn_to_host  @ 129 @ name: conn_to_host  @ 158 @ 
+name: http_conn  @ 277 @ name: http_conn  @ 368 @ 
+name: check  @ 4 @ name: check  @ 8 @ 
+block_content  @ 82 @ block_content  @ 100 @ 
+comment: /* Continue look up for a better connection */  @ 260 @ comment: /* Continue look up for a better connection */  @ 350 @ 
+comment: /* can only happen within multi handles, and means that another easy handle is using this connection */  @ 83 @ comment: /* can only happen within multi handles, and means that another easy
+             handle is using this connection */  @ 101 @ 
+name: wantNTLMhttp  @ 12 @ name: wantNTLMhttp  @ 16 @ 
+expr  @ 126 @ expr  @ 153 @ 
+operator: .  @ 129 @ operator: .  @ 158 @ 
+name: IsMultiplexingPossible  @ 7 @ name: IsMultiplexingPossible  @ 11 @ 
+name  @ 98 @ name  @ 121 @ 
+expr  @ 278 @ expr  @ 369 @ 
+name: check  @ 196 @ name: check  @ 262 @ 
+comment: /* The requested connection does not use a HTTP proxy or it uses SSL or it is a non-SSL protocol tunneled or it is a non-SSL protocol which is allowed to be upgraded via TLS */  @ 194 @ comment: /* The requested connection does not use a HTTP proxy or it uses SSL or
+           it is a non-SSL protocol tunneled or it is a non-SSL protocol whichis allowed to be upgraded via TLS */  @ 252 @ 
+if  @ 190 @ if  @ 242 @ 
+call  @ 196 @ call  @ 259 @ 
+name: needle  @ 109 @ name: needle  @ 132 @ 
+name: PROTOPT_CREDSPERREQUEST  @ 181 @ name: PROTOPT_CREDSPERREQUEST  @ 230 @ 
+expr  @ 167 @ expr  @ 202 @ 
+block_content  @ 69 @ block_content  @ 86 @ 
+directive: ifndef  @ 122 @ directive: ifndef  @ 148 @ 
+name  @ 239 @ name  @ 325 @ 
+comment: /* The requested connection is using the same HTTP proxy in normal mode (no tunneling) */  @ 214 @ comment: /* The requested connection is using the same HTTP proxy in normal
+           mode (no tunneling) */  @ 292 @ 
+endif  @ 161 @ endif  @ 195 @ 
+argument  @ 29 @ argument  @ 40 @ 
+name  @ 196 @ name  @ 264 @ 
+name: handler  @ 116 @ name: handler  @ 141 @ 
+call  @ 219 @ call  @ 298 @ 
+name: set  @ 34 @ name: set  @ 47 @ 
+name  @ 116 @ name  @ 141 @ 
+name  @ 133 @ name  @ 163 @ 
+modifier: *  @ 2 @ modifier: *  @ 4 @ 
+operator: =  @ 96 @ operator: =  @ 118 @ 
+name: CURL_HTTP_VERSION_2_0  @ 190 @ name: CURL_HTTP_VERSION_2_0  @ 244 @ 
+expr  @ 206 @ expr  @ 281 @ 
+name: Curl_multi_max_concurrent_streams  @ 282 @ name: Curl_multi_max_concurrent_streams  @ 375 @ 
+comment: /* Same for Proxy NTLM authentication */  @ 236 @ comment: /* Same for Proxy NTLM authentication */  @ 321 @ 
+name  @ 63 @ name  @ 80 @ 
+name: host  @ 196 @ name: host  @ 263 @ 
+block_content  @ 90 @ block_content  @ 110 @ 
+block_content  @ 177 @ block_content  @ 223 @ 
+name  @ 145 @ name  @ 176 @ 
+expr  @ 277 @ expr  @ 368 @ 
+name: flags  @ 116 @ name: flags  @ 141 @ 
+expr  @ 25 @ expr  @ 36 @ 
+expr  @ 181 @ expr  @ 230 @ 
+operator: ->  @ 196 @ operator: ->  @ 263 @ 
+block_content  @ 84 @ block_content  @ 103 @ 
+call  @ 107 @ call  @ 130 @ 
+name  @ 175 @ name  @ 211 @ 
+expr  @ 49 @ expr  @ 63 @ 
+argument_list  @ 98 @ argument_list  @ 120 @ 
+argument  @ 201 @ argument  @ 274 @ 
+expr  @ 275 @ expr  @ 366 @ 
+expr  @ 225 @ expr  @ 310 @ 
+name: flags  @ 181 @ name: flags  @ 230 @ 
+condition  @ 25 @ condition  @ 36 @ 
+block  @ 143 @ block  @ 174 @ 
+name: bundle  @ 48 @ name: bundle  @ 62 @ 
+expr  @ 90 @ expr  @ 110 @ 
+name  @ 8 @ name  @ 12 @ 
+name: wantProxyNTLMhttp  @ 16 @ name: wantProxyNTLMhttp  @ 25 @ 
+argument  @ 283 @ argument  @ 378 @ 
+name: PROTO_FAMILY_HTTP  @ 190 @ name: PROTO_FAMILY_HTTP  @ 242 @ 
+expr  @ 183 @ expr  @ 233 @ 
+name: foundPendingCandidate  @ 205 @ name: foundPendingCandidate  @ 280 @ 
+name  @ 242 @ name  @ 329 @ 
+name: needle  @ 196 @ name: needle  @ 262 @ 
+name: settings  @ 278 @ name: settings  @ 369 @ 
+block  @ 226 @ block  @ 311 @ 
+expr  @ 29 @ expr  @ 42 @ 
+argument_list  @ 163 @ argument_list  @ 197 @ 
+block  @ 278 @ block  @ 369 @ 
+block  @ 221 @ block  @ 304 @ 
+block_content  @ 45 @ block_content  @ 59 @ 
+name: tunnel_proxy  @ 142 @ name: tunnel_proxy  @ 173 @ 
+operator: ->  @ 190 @ operator: ->  @ 242 @ 
+argument_list  @ 167 @ argument_list  @ 202 @ 
+name: check  @ 73 @ name: check  @ 91 @ 
+expr  @ 219 @ expr  @ 298 @ 
+name: curr  @ 54 @ name: curr  @ 68 @ 
+name: unix_domain_socket  @ 105 @ name: unix_domain_socket  @ 128 @ 
+argument  @ 69 @ argument  @ 86 @ 
+operator: .  @ 126 @ operator: .  @ 153 @ 
+name: needle  @ 14 @ name: needle  @ 20 @ 
+if  @ 264 @ if  @ 354 @ 
+name: strcmp  @ 242 @ name: strcmp  @ 329 @ 
+name: remote_port  @ 196 @ name: remote_port  @ 264 @ 
+if_stmt  @ 171 @ if_stmt  @ 207 @ 
+literal: "Connection #%ld isn't open enough, can't reuse"  @ 98 @ literal: "Connection #%ld isn't open enough, can't reuse"  @ 120 @ 
+name: needle  @ 193 @ name: needle  @ 249 @ 
+operator: (  @ 190 @ operator: (  @ 243 @ 
+argument_list  @ 196 @ argument_list  @ 256 @ 
+name: ssl  @ 157 @ name: ssl  @ 190 @ 
+name  @ 190 @ name  @ 243 @ 
+operator: ->  @ 14 @ operator: ->  @ 21 @ 
+if  @ 32 @ if  @ 45 @ 
+name  @ 78 @ name  @ 96 @ 
+name: strcmp  @ 183 @ name: strcmp  @ 233 @ 
+call  @ 196 @ call  @ 263 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 60 @ 
+name: needle  @ 183 @ name: needle  @ 233 @ 
+name: connection_id  @ 201 @ name: connection_id  @ 276 @ 
+literal: "Found bundle for host %s: %p [%s]"  @ 29 @ literal: "Found bundle for host %s: %p [%s]"  @ 40 @ 
+block  @ 150 @ block  @ 182 @ 
+name: check  @ 206 @ name: check  @ 284 @ 
+name: check  @ 126 @ name: check  @ 155 @ 
+else  @ 213 @ else  @ 291 @ 
+condition  @ 142 @ condition  @ 173 @ 
+decl  @ 2 @ decl  @ 6 @ 
+operator: ->  @ 201 @ operator: ->  @ 276 @ 
+name: multiuse  @ 78 @ name: multiuse  @ 96 @ 
+name: handler  @ 116 @ name: handler  @ 140 @ 
+

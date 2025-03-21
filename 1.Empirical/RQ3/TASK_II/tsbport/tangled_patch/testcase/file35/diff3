@@ -1,0 +1,20 @@
+1968c1968,1967
+<	ut8 *attr_buf = NULL;
+---
+1971c1971
+<	attr_buf = (ut8 *) calloc (pending + 1, 1);
+---
+>	ut8 *attr_buf = (ut8 *) calloc (pending + 1, 1);
+3573a3574
+>		if (offset + 4 < sz) {
+3574a3575
+>		}
+7203d
+<	RBinJavaAttrInfo *attr = NULL;
+7205c7205,7208
+<	attr = r_bin_java_default_attr_new (bin, buffer, sz, buf_offset);
+---
+>	if (buf_offset + 32 >= sz) {
+>		return NULL;
+>	}
+>	RBinJavaAttrInfo *attr = r_bin_java_default_attr_new (bin, buffer, sz, buf_offset);

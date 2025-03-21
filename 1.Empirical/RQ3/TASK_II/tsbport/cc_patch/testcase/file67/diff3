@@ -1,0 +1,6 @@
+1907c1907
+<		if (!esd) {
+---
+>		if (!esd || !esd->decoderConfig) {
+1908a1909
+>			if (esd) gf_odf_desc_del((GF_Descriptor *)esd);

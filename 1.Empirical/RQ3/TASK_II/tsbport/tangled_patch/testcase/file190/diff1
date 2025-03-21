@@ -1,0 +1,15 @@
+699a700
+>   Curl_safefree(conn->oauth_bearer);
+1132c1133
+<         if(strcmp(needle->user, check->user) || strcmp(needle->passwd, check->passwd)) {
+---
+>         if(strcmp(needle->user, check->user) || strcmp(needle->passwd, check->passwd) || !Curl_safecmp(needle->sasl_authzid, check->sasl_authzid) || !Curl_safecmp(needle->oauth_bearer, check->oauth_bearer)) {
+3028a3030,3037
+>       result = CURLE_OUT_OF_MEMORY;
+>       goto out;
+>     }
+>   }
+> 
+>   if(data->set.str[STRING_BEARER]) {
+>     conn->oauth_bearer = strdup(data->set.str[STRING_BEARER]);
+>     if(!conn->oauth_bearer) {

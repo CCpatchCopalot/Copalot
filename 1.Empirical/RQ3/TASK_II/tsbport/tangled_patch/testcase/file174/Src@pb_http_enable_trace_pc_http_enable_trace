@@ -1,0 +1,183 @@
+static int http_enable_trace(mk_request_t *request, void *data, const char *input_name, ssize_t input_nlen, msgpack_packer *mp_pck)
+{
+    char *buf = NULL;
+    size_t buf_size;
+    msgpack_unpacked result;
+    int ret = -1;
+    int rc = -1;
+    int i;
+    int x;
+    size_t off = 0;
+    int root_type = MSGPACK_OBJECT_ARRAY;
+    struct flb_hs *hs = data;
+    flb_sds_t prefix = NULL;
+    flb_sds_t output_name = NULL;
+    msgpack_object *key;
+    msgpack_object *val;
+    struct mk_list *props = NULL;
+    struct flb_chunk_trace_limit limit = { 0 };
+    struct flb_input_instance *input_instance;
+
+
+    if (request->method == MK_METHOD_GET) {
+        ret = enable_trace_input(hs, input_name, input_nlen, "trace.", "stdout", NULL);
+        if (ret == 0) {
+                msgpack_pack_map(mp_pck, 1);
+                msgpack_pack_str_with_body(mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+                msgpack_pack_str_with_body(mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+                return 200;
+        }
+        else {
+            flb_error("unable to enable tracing for %.*s", (int)input_nlen, input_name);
+            goto input_error;
+        }
+    }
+
+    msgpack_unpacked_init(&result);
+    rc = flb_pack_json(request->data.data, request->data.len, &buf, &buf_size, &root_type, NULL);
+    if (rc == -1) {
+        ret = 503;
+        flb_error("unable to parse json parameters");
+        goto unpack_error;
+    }
+
+    rc = msgpack_unpack_next(&result, buf, buf_size, &off);
+    if (rc != MSGPACK_UNPACK_SUCCESS) {
+        ret = 503;
+        flb_error("unable to unpack msgpack parameters for %.*s", (int)input_nlen, input_name);
+        goto unpack_error;
+    }
+
+    if (result.data.type == MSGPACK_OBJECT_MAP) {
+        for (i = 0; i < result.data.via.map.size; i++) {
+            key = &result.data.via.map.ptr[i].key;
+            val = &result.data.via.map.ptr[i].val;
+
+            if (key->type != MSGPACK_OBJECT_STR) {
+                ret = 503;
+                flb_error("non string key in parameters");
+                goto parse_error;
+            }
+
+            if (strncmp(key->via.str.ptr, "prefix", key->via.str.size) == 0) {
+                if (val->type != MSGPACK_OBJECT_STR) {
+                    ret = 503;
+                    flb_error("prefix is not a string");
+                    goto parse_error;
+                }
+                if (prefix != NULL) {
+                    flb_sds_destroy(prefix);
+                }
+                prefix = flb_sds_create_len(val->via.str.ptr, val->via.str.size);
+            }
+            else if (strncmp(key->via.str.ptr, "output", key->via.str.size) == 0) {
+                if (val->type != MSGPACK_OBJECT_STR) {
+                    ret = 503;
+                    flb_error("output is not a string");
+                    goto parse_error;
+                }
+                if (output_name != NULL) {
+                    flb_sds_destroy(output_name);
+                }
+                output_name = flb_sds_create_len(val->via.str.ptr, val->via.str.size);
+            }
+            else if (strncmp(key->via.str.ptr, "params", key->via.str.size) == 0) {
+                if (val->type != MSGPACK_OBJECT_MAP) {
+                    ret = 503;
+                    flb_error("output params is not a maps");
+                    goto parse_error;
+                }
+                props = flb_calloc(1, sizeof(struct mk_list));
+                flb_kv_init(props);
+                for (x = 0; x < val->via.map.size; x++) {
+                    if (val->via.map.ptr[x].val.type != MSGPACK_OBJECT_STR) {
+                        ret = 503;
+                        flb_error("output parameter key is not a string");
+                        goto parse_error;
+                    }
+                    if (val->via.map.ptr[x].key.type != MSGPACK_OBJECT_STR) {
+                        ret = 503;
+                        flb_error("output parameter value is not a string");
+                        goto parse_error;
+                    }
+                    flb_kv_item_create_len(props,(char *)val->via.map.ptr[x].key.via.str.ptr, val->via.map.ptr[x].key.via.str.size,(char *)val->via.map.ptr[x].val.via.str.ptr, val->via.map.ptr[x].val.via.str.size);
+                }
+            }
+            else if (strncmp(key->via.str.ptr, "limit", key->via.str.size) == 0) {
+                if (val->type != MSGPACK_OBJECT_MAP) {
+                    ret = 503;
+                    flb_error("limit must be a map of limit types");
+                    goto parse_error;
+                }
+                if (val->via.map.size != 1) {
+                    ret = 503;
+                    flb_error("limit must have a single limit type");
+                    goto parse_error;
+                }
+                if (val->via.map.ptr[0].key.type != MSGPACK_OBJECT_STR) {
+                    ret = 503;
+                    flb_error("limit type (key) must be a string");
+                    goto parse_error;
+                }
+                if (val->via.map.ptr[0].val.type != MSGPACK_OBJECT_POSITIVE_INTEGER) {
+                    ret = 503;
+                    flb_error("limit type must be an integer");
+                    goto parse_error;
+                }
+                if (strncmp(val->via.map.ptr[0].key.via.str.ptr, "seconds", val->via.map.ptr[0].key.via.str.size) == 0) {
+                    limit.type = FLB_CHUNK_TRACE_LIMIT_TIME;
+                    limit.seconds = val->via.map.ptr[0].val.via.u64;
+                }
+                else if (strncmp(val->via.map.ptr[0].key.via.str.ptr, "count", val->via.map.ptr[0].key.via.str.size) == 0) {
+                    limit.type = FLB_CHUNK_TRACE_LIMIT_COUNT;
+                    limit.count = val->via.map.ptr[0].val.via.u64;
+                }
+                else {
+                    ret = 503;
+                    flb_error("unknown limit type");
+                    goto parse_error;
+                }
+            }
+        }
+
+        if (output_name == NULL) {
+            output_name = flb_sds_create("stdout");
+        }
+
+        ret = enable_trace_input(hs, input_name, input_nlen, prefix, output_name, props);
+        if (ret != 0) {
+            flb_error("error when enabling tracing");
+            goto parse_error;
+        }
+
+        if (limit.type != 0) {
+            input_instance = find_input(hs, input_name, input_nlen);
+            if (limit.type == FLB_CHUNK_TRACE_LIMIT_TIME) {
+                flb_chunk_trace_context_set_limit(input_instance->chunk_trace_ctxt, limit.type, limit.seconds);
+            }
+            else if (limit.type == FLB_CHUNK_TRACE_LIMIT_COUNT) {
+                flb_chunk_trace_context_set_limit(input_instance->chunk_trace_ctxt, limit.type, limit.count);
+            }
+        }
+    }
+
+    msgpack_pack_map(mp_pck, 1);
+    msgpack_pack_str_with_body(mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+    msgpack_pack_str_with_body(mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+
+    ret = 200;
+parse_error:
+    if (prefix) flb_sds_destroy(prefix);
+    if (output_name) flb_sds_destroy(output_name);
+    if (props != NULL) {
+        flb_kv_release(props);
+        flb_free(props);
+    }
+unpack_error:
+    msgpack_unpacked_destroy(&result);
+    if (buf != NULL) {
+        flb_free(buf);
+    }
+input_error:
+    return ret;
+}

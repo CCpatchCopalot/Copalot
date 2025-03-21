@@ -1,0 +1,153 @@
+{
+    "testcase": {
+        "file105": {
+            "match_message": {
+                "Same: __vsyslog_internal -> __vsyslog_internal": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 96 -> 127",
+                        "L2": "3: Unique Matched by Source code 97 -> 128"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 144 -> 180",
+                        "L2": "3: Unique Matched by Source code 144 -> 180"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (5: Matched by Syntax(AST) similarity 148->185)",
+                        "L2": "3: Unique Matched by Source code 149 -> 187"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 150->186)",
+                        "L2": "3: Unique Matched by Source code 151 -> 189"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 157->195",
+                        "L2": "3: Unique Matched by Source code 160 -> 199"
+                    },
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 161->199)",
+                        "L2": "3: Unique Matched by Source code 162 -> 201"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 127,
+                        "add_hunk": [
+                            "  char *buf = bufs;\n",
+                            "  size_t bufsize;\n"
+                        ],
+                        "delete_location": [
+                            127,
+                            128
+                        ],
+                        "delete_hunk": [
+                            "  char *buf = NULL;\n",
+                            "  size_t bufsize = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 180,
+                        "add_hunk": [
+                            "  int l, vl;\n"
+                        ],
+                        "delete_location": [
+                            180,
+                            180
+                        ],
+                        "delete_hunk": [
+                            "  int l;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 186,
+                        "add_hunk": [
+                            "  char *pos;\n",
+                            "  size_t len;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 188,
+                        "add_hunk": [
+                            "      pos = bufs + l;\n",
+                            "      len = sizeof (bufs) - l;\n",
+                            "    }\n",
+                            "  else\n",
+                            "    {\n",
+                            "      buf = NULL;\n",
+                            "      pos = bufs;\n",
+                            "      len = sizeof (bufs);\n",
+                            "    }\n",
+                            "  {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 195,
+                        "add_hunk": [
+                            "    vl = __vsnprintf_internal (pos, len, fmt, apc, mode_flags);\n"
+                        ],
+                        "delete_location": [
+                            195,
+                            199
+                        ],
+                        "delete_hunk": [
+                            "      int vl = __vsnprintf_internal (bufs + l, sizeof bufs - l, fmt, apc,\n",
+                            "                                     mode_flags);\n",
+                            "      if (0 <= vl && vl < sizeof bufs - l)\n",
+                            "        buf = bufs;\n",
+                            "      bufsize = l + vl;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 200,
+                        "add_hunk": [
+                            "    if (!(0 <= vl && vl < len))\n",
+                            "      buf = NULL;\n",
+                            "    bufsize = l + vl;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: __vsyslog_internal -> __vsyslog_internal": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "DEF",
+                "change_type",
+                "USE"
+            ]
+        }
+    }
+}

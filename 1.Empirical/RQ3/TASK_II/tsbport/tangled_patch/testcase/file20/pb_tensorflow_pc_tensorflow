@@ -1,0 +1,135 @@
+literal: "The specified SavedModel has no variables; no checkpoints "  @ 125 @ literal: "The specified SavedModel has no variables; no checkpoints "  @ 221 @ 
+argument  @ 138 @ argument  @ 230 @ 
+name: Sampler  @ 6 @ name: Sampler  @ 12 @ 
+argument_list  @ 4 @ argument_list  @ 4 @ 
+comment: // Check for saver checkpoints in v2 format. Models exported in the checkpoint  @ 121 @ comment: // Check for saver checkpoints in v2 format. Models exported in the checkpoint  @ 215 @ 
+expr  @ 5 @ expr  @ 8 @ 
+operator: *  @ 6 @ operator: *  @ 12 @ 
+comment: // However, the resource manager state remains.  @ 82 @ comment: // However, the resource manager state remains.  @ 120 @ 
+literal: "/tensorflow/cc/saved_model/load_latency"  @ 5 @ literal: "/tensorflow/cc/saved_model/load_latency"  @ 9 @ 
+name: auto  @ 5 @ name: auto  @ 8 @ 
+expr  @ 5 @ expr  @ 11 @ 
+name  @ 5 @ name  @ 8 @ 
+operator: ::  @ 5 @ operator: ::  @ 8 @ 
+argument_list  @ 6 @ argument_list  @ 12 @ 
+comment: // Add variables to the graph.  @ 133 @ comment: // Add variables to the graph.  @ 229 @ 
+argument_list  @ 5 @ argument_list  @ 8 @ 
+comment: // leaving behind non-GC'ed state.  @ 68 @ comment: // leaving behind non-GC'ed state.  @ 106 @ 
+operator: =  @ 6 @ operator: =  @ 12 @ 
+comment: // (main_op/legacy_init_op) involves the use of a large constant. Then we  @ 77 @ comment: // (main_op/legacy_init_op) involves the use of a large constant. Then we  @ 115 @ 
+literal: "/tensorflow/cc/saved_model/load_attempt_count"  @ 4 @ literal: "/tensorflow/cc/saved_model/load_attempt_count"  @ 5 @ 
+comment: // and fetches) creates some datastructures that live as long as the session  @ 73 @ comment: // and fetches) creates some datastructures that live as long as the session  @ 111 @ 
+operator: *  @ 5 @ operator: *  @ 8 @ 
+name: tensorflow  @ 1 @ name: tensorflow  @ 1 @ 
+comment: // variables are stored in the variables.data-?????-of-????? files.  @ 123 @ comment: // variables are stored in the variables.data-?????-of-????? files.  @ 217 @ 
+literal: "/tensorflow/cc/saved_model/load_latency_by_stage"  @ 8 @ literal: "/tensorflow/cc/saved_model/load_latency_by_stage"  @ 14 @ 
+name: auto  @ 4 @ name: auto  @ 4 @ 
+name: New  @ 6 @ name: New  @ 12 @ 
+comment: /* outputs */  @ 111 @ comment: /* outputs */  @ 166 @ 
+decl  @ 1 @ decl  @ 1 @ 
+comment: // v2 format will have a variables.index file. The corresponding  @ 122 @ comment: // v2 format will have a variables.index file. The corresponding  @ 216 @ 
+comment: // right after ReleaseCallable returns.  @ 80 @ comment: // right after ReleaseCallable returns.  @ 118 @ 
+argument  @ 5 @ argument  @ 11 @ 
+block  @ 2 @ block  @ 2 @ 
+expr  @ 6 @ expr  @ 12 @ 
+name: namespace  @ 2 @ name: namespace  @ 2 @ 
+name: New  @ 5 @ name: New  @ 8 @ 
+comment: // Ensure that constant tensors loaded from the saved model have valid shape.  @ 20 @ comment: // Ensure that constant tensors loaded from the saved model have valid shape.  @ 34 @ 
+name: load_attempt_count  @ 4 @ name: load_attempt_count  @ 4 @ 
+expr  @ 4 @ expr  @ 5 @ 
+literal: 1  @ 5 @ literal: 1  @ 8 @ 
+argument  @ 7 @ argument  @ 13 @ 
+expr  @ 4 @ expr  @ 7 @ 
+name: monitoring  @ 5 @ name: monitoring  @ 8 @ 
+literal: "fail"  @ 10 @ literal: "fail"  @ 24 @ 
+expr  @ 4 @ expr  @ 6 @ 
+literal: "Running initialization op on SavedModel bundle at path: "  @ 106 @ literal: "Running initialization op on SavedModel bundle at path: "  @ 160 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+literal: "Saved model contains node \""  @ 30 @ literal: "Saved model contains node \""  @ 45 @ 
+name: monitoring  @ 6 @ name: monitoring  @ 12 @ 
+operator: *  @ 4 @ operator: *  @ 4 @ 
+argument_list  @ 4 @ argument_list  @ 4 @ 
+comment: // Like Session::Run(), but uses the Make/Run/ReleaseCallable() API to avoid  @ 67 @ comment: // Like Session::Run(), but uses the Make/Run/ReleaseCallable() API to avoid  @ 105 @ 
+name  @ 4 @ name  @ 4 @ 
+unit  @ 1 @ unit  @ 1 @ 
+macro  @ 2 @ macro  @ 2 @ 
+comment: // TODO(b/154763635): this is temporary and will be replaced with a better audit  @ 22 @ comment: // TODO(b/154763635): this is temporary and will be replaced with a better audit  @ 36 @ 
+comment: // Each call to Session::Run() that identifies a new subgraph (based on feeds  @ 72 @ comment: // Each call to Session::Run() that identifies a new subgraph (based on feeds  @ 110 @ 
+argument  @ 4 @ argument  @ 7 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+argument  @ 5 @ argument  @ 8 @ 
+argument  @ 4 @ argument  @ 6 @ 
+call  @ 5 @ call  @ 8 @ 
+name: Counter  @ 4 @ name: Counter  @ 4 @ 
+literal: "value"  @ 24 @ literal: "value"  @ 38 @ 
+comment: // Detailed motivation behind this approach, from ashankar@:  @ 70 @ comment: // Detailed motivation behind this approach, from ashankar@:  @ 108 @ 
+comment: // allocate memory for that large constant that will just stick around till the  @ 78 @ comment: // allocate memory for that large constant that will just stick around till the  @ 116 @ 
+name: load_latency  @ 5 @ name: load_latency  @ 8 @ 
+argument  @ 5 @ argument  @ 10 @ 
+expr  @ 4 @ expr  @ 6 @ 
+comment: // metric name"Distribution of wall time spent (in microseconds) in each stage ""(restore graph from disk, run init graph op, etc) when loading the ""model","model_path","stage",},// Scale of 10, power of 1.8 with bucket count 33 (~20 minutes).monitoring::Buckets::Exponential(10, 1.8, 33));  @ 8 @ comment: // Scale of 10, power of 1.8 with bucket count 33 (~20 minutes).  @ 21 @ 
+block  @ 1 @ block  @ 1 @ 
+name  @ 6 @ name  @ 12 @ 
+literal: 2  @ 6 @ literal: 2  @ 12 @ 
+operator: ::  @ 6 @ operator: ::  @ 12 @ 
+argument  @ 4 @ argument  @ 6 @ 
+expr  @ 5 @ expr  @ 9 @ 
+operator: ::  @ 5 @ operator: ::  @ 8 @ 
+literal: " elements"  @ 30 @ literal: " elements"  @ 47 @ 
+argument  @ 6 @ argument  @ 12 @ 
+name: load_latency_by_stage  @ 6 @ name: load_latency_by_stage  @ 12 @ 
+comment: //  @ 75 @ comment: //  @ 113 @ 
+comment: // RunCallable().  @ 98 @ comment: // RunCallable().  @ 148 @ 
+literal: "status"  @ 4 @ literal: "status"  @ 7 @ 
+literal: "\" which is a constant tensor but no value has been provided"  @ 34 @ literal: "\" which is a constant tensor but no value has been provided"  @ 53 @ 
+literal: 0  @ 16 @ literal: 0  @ 30 @ 
+literal: "\" (op \""  @ 30 @ literal: "\" (op \""  @ 45 @ 
+literal: "The number of times a SavedModel was successfully loaded."  @ 4 @ literal: "The number of times a SavedModel was successfully loaded."  @ 6 @ 
+comment: // Avoid clock skew.  @ 15 @ comment: // Avoid clock skew.  @ 29 @ 
+operator: ::  @ 4 @ operator: ::  @ 4 @ 
+literal: "Saved model contains node \""  @ 34 @ literal: "Saved model contains node \""  @ 52 @ 
+argument  @ 137 @ argument  @ 230 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: Counter  @ 5 @ name: Counter  @ 8 @ 
+literal: "Latency in microseconds for SavedModels that were successfully loaded."  @ 5 @ literal: "Latency in microseconds for SavedModels that were successfully loaded."  @ 10 @ 
+comment: // A pathological case of this would be if say the initialization op  @ 76 @ comment: // A pathological case of this would be if say the initialization op  @ 114 @ 
+literal: "model_path"  @ 5 @ literal: "model_path"  @ 11 @ 
+comment: // session dies. With this Callable mechanism, that memory will be released  @ 79 @ comment: // session dies. With this Callable mechanism, that memory will be released  @ 117 @ 
+operator: ::  @ 4 @ operator: ::  @ 4 @ 
+argument  @ 4 @ argument  @ 4 @ 
+operator: =  @ 5 @ operator: =  @ 8 @ 
+literal: 2  @ 4 @ literal: 2  @ 4 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+literal: "Const"  @ 33 @ literal: "Const"  @ 50 @ 
+comment: // An empty init_op_name indicates that there are no init ops to run.  @ 104 @ comment: // An empty init_op_name indicates that there are no init ops to run.  @ 154 @ 
+operator: ::  @ 6 @ operator: ::  @ 12 @ 
+expr_stmt  @ 4 @ expr_stmt  @ 4 @ 
+name: auto  @ 6 @ name: auto  @ 12 @ 
+argument_list  @ 5 @ argument_list  @ 8 @ 
+type  @ 1 @ type  @ 1 @ 
+comment: // (the partitioned graph, associated executors etc.).  @ 74 @ comment: // (the partitioned graph, associated executors etc.).  @ 112 @ 
+comment: //  @ 69 @ comment: //  @ 107 @ 
+literal: "model_path"  @ 4 @ literal: "model_path"  @ 6 @ 
+literal: "were restored. File does not exist: "  @ 126 @ literal: "were restored. File does not exist: "  @ 222 @ 
+comment: //  @ 71 @ comment: //  @ 109 @ 
+argument  @ 4 @ argument  @ 5 @ 
+call  @ 4 @ call  @ 4 @ 
+comment: //  @ 81 @ comment: //  @ 119 @ 
+name: monitoring  @ 4 @ name: monitoring  @ 4 @ 
+comment: // Also ensure that constant nodes have a value assigned to them.  @ 21 @ comment: // Also ensure that constant nodes have a value assigned to them.  @ 35 @ 
+expr  @ 5 @ expr  @ 8 @ 
+comment: // RunInitOp will return OK if the initialization op was run successfully.  @ 103 @ comment: // RunInitOp will return OK if the initialization op was run successfully.  @ 153 @ 
+literal: "success"  @ 11 @ literal: "success"  @ 25 @ 
+expr  @ 5 @ expr  @ 10 @ 
+expr  @ 4 @ expr  @ 4 @ 
+operator: =  @ 4 @ operator: =  @ 4 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+argument  @ 5 @ argument  @ 9 @ 
+comment: // Be sure to call ReleaseCallable() regardless of the outcome of  @ 97 @ comment: // Be sure to call ReleaseCallable() regardless of the outcome of  @ 147 @ 
+literal: "Restoring SavedModel bundle."  @ 117 @ literal: "Restoring SavedModel bundle."  @ 211 @ 
+name: New  @ 4 @ name: New  @ 4 @ 
+literal: "\") which initializes from a tensor with "  @ 30 @ literal: "\") which initializes from a tensor with "  @ 46 @ 
+expr_stmt  @ 5 @ expr_stmt  @ 8 @ 
+literal: 0  @ 29 @ literal: 0  @ 43 @ 
+comment: // Find path to variables to be restored in export directory.  @ 118 @ comment: // Find path to variables to be restored in export directory.  @ 212 @ 
+

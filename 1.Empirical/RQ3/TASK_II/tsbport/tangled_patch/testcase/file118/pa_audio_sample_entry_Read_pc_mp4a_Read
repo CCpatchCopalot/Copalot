@@ -1,0 +1,313 @@
+operator: )  @ 35 @ operator: )  @ 9 @ 
+argument  @ 35 @ argument  @ 9 @ 
+name  @ 55 @ name  @ 23 @ 
+expr  @ 55 @ expr  @ 23 @ 
+argument  @ 55 @ argument  @ 23 @ 
+name: e  @ 47 @ name: e  @ 15 @ 
+name: i  @ 54 @ name: i  @ 22 @ 
+decl  @ 4 @ decl  @ 4 @ 
+argument  @ 46 @ argument  @ 14 @ 
+operator: *  @ 35 @ operator: *  @ 9 @ 
+argument_list  @ 52 @ argument_list  @ 20 @ 
+call  @ 62 @ call  @ 30 @ 
+call  @ 51 @ call  @ 19 @ 
+operator: ==  @ 55 @ operator: ==  @ 23 @ 
+type  @ 6 @ type  @ 5 @ 
+argument_list  @ 62 @ argument_list  @ 30 @ 
+call  @ 55 @ call  @ 23 @ 
+argument  @ 58 @ argument  @ 26 @ 
+operator: !  @ 47 @ operator: !  @ 15 @ 
+operator: =  @ 46 @ operator: =  @ 14 @ 
+expr  @ 55 @ expr  @ 23 @ 
+name: i  @ 54 @ name: i  @ 22 @ 
+block_content  @ 56 @ block_content  @ 24 @ 
+name: GF_BITSTREAM_READ  @ 56 @ name: GF_BITSTREAM_READ  @ 24 @ 
+type  @ 1 @ type  @ 1 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 5 @ 
+argument  @ 53 @ argument  @ 21 @ 
+expr  @ 55 @ expr  @ 23 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 20 @ 
+expr  @ 58 @ expr  @ 26 @ 
+name: e  @ 7 @ name: e  @ 6 @ 
+name: GF_MPEGAudioSampleEntryBox  @ 3 @ name: GF_MPEGAudioSampleEntryBox  @ 3 @ 
+expr  @ 54 @ expr  @ 22 @ 
+call  @ 53 @ call  @ 21 @ 
+name: mybs  @ 57 @ name: mybs  @ 25 @ 
+argument  @ 56 @ argument  @ 24 @ 
+argument  @ 51 @ argument  @ 19 @ 
+expr  @ 53 @ expr  @ 21 @ 
+expr  @ 10 @ expr  @ 18 @ 
+expr  @ 53 @ expr  @ 21 @ 
+operator: +  @ 56 @ operator: +  @ 24 @ 
+type  @ 7 @ type  @ 6 @ 
+name: gf_free  @ 62 @ name: gf_free  @ 30 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+operator: +  @ 55 @ operator: +  @ 23 @ 
+name: bs  @ 46 @ name: bs  @ 14 @ 
+expr  @ 35 @ expr  @ 9 @ 
+argument  @ 53 @ argument  @ 21 @ 
+literal: 8  @ 54 @ literal: 8  @ 22 @ 
+decl_stmt  @ 56 @ decl_stmt  @ 24 @ 
+expr  @ 37 @ expr  @ 11 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+operator: =  @ 38 @ operator: =  @ 12 @ 
+name: GF_BitStream  @ 1 @ name: GF_BitStream  @ 1 @ 
+expr  @ 63 @ expr  @ 31 @ 
+expr  @ 52 @ expr  @ 20 @ 
+operator: )  @ 57 @ operator: )  @ 25 @ 
+argument  @ 57 @ argument  @ 25 @ 
+name: i  @ 55 @ name: i  @ 23 @ 
+operator: -  @ 56 @ operator: -  @ 24 @ 
+operator: )  @ 38 @ operator: )  @ 12 @ 
+name: s  @ 38 @ name: s  @ 12 @ 
+decl  @ 6 @ decl  @ 5 @ 
+name  @ 55 @ name  @ 23 @ 
+name: e  @ 46 @ name: e  @ 14 @ 
+call  @ 37 @ call  @ 11 @ 
+name: gf_bs_del  @ 58 @ name: gf_bs_del  @ 26 @ 
+name: u64  @ 8 @ name: u64  @ 7 @ 
+argument_list  @ 51 @ argument_list  @ 19 @ 
+index  @ 55 @ index  @ 23 @ 
+name: e  @ 36 @ name: e  @ 10 @ 
+type  @ 56 @ type  @ 24 @ 
+name: i  @ 55 @ name: i  @ 23 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 6 @ 
+operator: (  @ 35 @ operator: (  @ 9 @ 
+argument  @ 53 @ argument  @ 21 @ 
+operator: *  @ 52 @ operator: *  @ 20 @ 
+name: ptr  @ 57 @ name: ptr  @ 25 @ 
+name: data  @ 62 @ name: data  @ 30 @ 
+name: i  @ 6 @ name: i  @ 5 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 56 @ expr  @ 24 @ 
+expr  @ 46 @ expr  @ 14 @ 
+name: gf_isom_audio_sample_entry_read  @ 35 @ name: gf_isom_audio_sample_entry_read  @ 9 @ 
+name: GF_ISOM_BOX_TYPE_ESDS  @ 55 @ name: GF_ISOM_BOX_TYPE_ESDS  @ 23 @ 
+expr  @ 52 @ expr  @ 20 @ 
+argument  @ 57 @ argument  @ 25 @ 
+argument_list  @ 53 @ argument_list  @ 21 @ 
+operator: *  @ 52 @ operator: *  @ 20 @ 
+name: e  @ 36 @ name: e  @ 10 @ 
+argument_list  @ 57 @ argument_list  @ 25 @ 
+block  @ 36 @ block  @ 10 @ 
+call  @ 52 @ call  @ 20 @ 
+name: mybs  @ 56 @ name: mybs  @ 24 @ 
+expr  @ 38 @ expr  @ 12 @ 
+expr  @ 58 @ expr  @ 26 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+condition  @ 54 @ condition  @ 22 @ 
+argument  @ 37 @ argument  @ 11 @ 
+operator: *  @ 57 @ operator: *  @ 25 @ 
+operator: *  @ 57 @ operator: *  @ 25 @ 
+return  @ 47 @ return  @ 15 @ 
+expr  @ 35 @ expr  @ 9 @ 
+if_stmt  @ 36 @ if_stmt  @ 10 @ 
+name: data  @ 55 @ name: data  @ 23 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: -  @ 54 @ operator: -  @ 22 @ 
+expr_stmt  @ 62 @ expr_stmt  @ 30 @ 
+argument  @ 52 @ argument  @ 20 @ 
+operator: =  @ 54 @ operator: =  @ 22 @ 
+name: audio_sample_entry_AddBox  @ 46 @ name: mp4a_AddBox  @ 14 @ 
+name: GF_BitStream  @ 56 @ name: GF_BitStream  @ 24 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: esd  @ 57 @ name: esd  @ 25 @ 
+name: ptr  @ 10 @ name: ptr  @ 18 @ 
+if_stmt  @ 47 @ if_stmt  @ 15 @ 
+call  @ 56 @ call  @ 24 @ 
+expr  @ 46 @ expr  @ 14 @ 
+name: data  @ 52 @ name: data  @ 20 @ 
+name: char  @ 52 @ name: char  @ 20 @ 
+argument  @ 46 @ argument  @ 14 @ 
+name: bs  @ 51 @ name: bs  @ 19 @ 
+decl  @ 6 @ decl  @ 5 @ 
+name: mybs  @ 58 @ name: mybs  @ 26 @ 
+name: size  @ 53 @ name: size  @ 21 @ 
+expr  @ 56 @ expr  @ 24 @ 
+argument_list  @ 37 @ argument_list  @ 11 @ 
+expr  @ 55 @ expr  @ 23 @ 
+name: gf_isom_box_array_read  @ 46 @ name: gf_isom_read_box_list  @ 14 @ 
+block_content  @ 55 @ block_content  @ 23 @ 
+operator: =  @ 10 @ operator: =  @ 18 @ 
+name: gf_bs_new  @ 56 @ name: gf_bs_new  @ 24 @ 
+expr  @ 62 @ expr  @ 30 @ 
+expr_stmt  @ 58 @ expr_stmt  @ 26 @ 
+name: gf_malloc  @ 52 @ name: gf_malloc  @ 20 @ 
+name  @ 38 @ name  @ 12 @ 
+name: size  @ 38 @ name: size  @ 12 @ 
+literal: 0  @ 54 @ literal: 0  @ 22 @ 
+expr  @ 52 @ expr  @ 20 @ 
+argument  @ 52 @ argument  @ 20 @ 
+operator: =  @ 35 @ operator: =  @ 9 @ 
+operator: +  @ 55 @ operator: +  @ 23 @ 
+name: gf_bs_seek  @ 51 @ name: gf_bs_seek  @ 19 @ 
+operator: ++  @ 54 @ operator: ++  @ 22 @ 
+argument_list  @ 58 @ argument_list  @ 26 @ 
+name: data  @ 55 @ name: data  @ 23 @ 
+operator: +  @ 55 @ operator: +  @ 23 @ 
+block_content  @ 36 @ block_content  @ 10 @ 
+block  @ 54 @ block  @ 22 @ 
+name: bs  @ 35 @ name: bs  @ 9 @ 
+literal: 7  @ 55 @ literal: 7  @ 23 @ 
+operator: &  @ 57 @ operator: &  @ 25 @ 
+name: e  @ 57 @ name: e  @ 25 @ 
+operator: *  @ 10 @ operator: *  @ 18 @ 
+call  @ 35 @ call  @ 9 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 7 @ 
+expr  @ 51 @ expr  @ 19 @ 
+expr  @ 53 @ expr  @ 21 @ 
+decl  @ 3 @ decl  @ 3 @ 
+name: GF_Box  @ 1 @ name: GF_Box  @ 1 @ 
+init  @ 56 @ init  @ 24 @ 
+decl  @ 56 @ decl  @ 24 @ 
+expr  @ 56 @ expr  @ 24 @ 
+name: GF_4CC  @ 55 @ name: GF_4CC  @ 23 @ 
+if  @ 36 @ if  @ 10 @ 
+name: bs  @ 37 @ name: bs  @ 11 @ 
+expr  @ 35 @ expr  @ 9 @ 
+name: s  @ 46 @ name: s  @ 14 @ 
+name: bs  @ 1 @ name: bs  @ 1 @ 
+index  @ 55 @ index  @ 23 @ 
+expr  @ 54 @ expr  @ 22 @ 
+incr  @ 54 @ incr  @ 22 @ 
+name: e  @ 35 @ name: e  @ 9 @ 
+expr  @ 51 @ expr  @ 19 @ 
+argument  @ 46 @ argument  @ 14 @ 
+name: i  @ 56 @ name: i  @ 24 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+name: gf_bs_read_data  @ 53 @ name: gf_bs_read_data  @ 21 @ 
+name: size  @ 52 @ name: size  @ 20 @ 
+expr  @ 46 @ expr  @ 14 @ 
+name: gf_bs_get_position  @ 37 @ name: gf_bs_get_position  @ 11 @ 
+condition  @ 47 @ condition  @ 15 @ 
+call  @ 58 @ call  @ 26 @ 
+name: e  @ 63 @ name: e  @ 31 @ 
+operator: (  @ 10 @ operator: (  @ 18 @ 
+name: s  @ 35 @ name: s  @ 9 @ 
+literal: 5  @ 55 @ literal: 5  @ 23 @ 
+name: data  @ 53 @ name: data  @ 21 @ 
+expr  @ 57 @ expr  @ 25 @ 
+operator: )  @ 52 @ operator: )  @ 20 @ 
+argument  @ 62 @ argument  @ 30 @ 
+name: GF_Err  @ 1 @ name: GF_Err  @ 1 @ 
+expr  @ 51 @ expr  @ 19 @ 
+control  @ 54 @ control  @ 22 @ 
+decl  @ 8 @ decl  @ 7 @ 
+name: data  @ 4 @ name: data  @ 4 @ 
+return  @ 63 @ return  @ 31 @ 
+argument  @ 55 @ argument  @ 23 @ 
+name  @ 55 @ name  @ 23 @ 
+expr  @ 46 @ expr  @ 14 @ 
+argument_list  @ 46 @ argument_list  @ 14 @ 
+name: i  @ 54 @ name: i  @ 22 @ 
+expr  @ 53 @ expr  @ 21 @ 
+name: size  @ 6 @ name: size  @ 5 @ 
+init  @ 54 @ init  @ 22 @ 
+type  @ 8 @ type  @ 7 @ 
+call  @ 46 @ call  @ 14 @ 
+argument  @ 55 @ argument  @ 23 @ 
+operator: <  @ 54 @ operator: <  @ 22 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 9 @ 
+operator: (  @ 52 @ operator: (  @ 20 @ 
+block  @ 2 @ block  @ 2 @ 
+name: ptr  @ 3 @ name: ptr  @ 3 @ 
+condition  @ 36 @ condition  @ 10 @ 
+name: data  @ 55 @ name: data  @ 23 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 25 @ 
+name: GF_OK  @ 47 @ name: GF_OK  @ 15 @ 
+type  @ 6 @ type  @ 5 @ 
+name: data  @ 55 @ name: data  @ 23 @ 
+name  @ 55 @ name  @ 23 @ 
+name  @ 57 @ name  @ 25 @ 
+expr  @ 36 @ expr  @ 10 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 57 @ expr  @ 25 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 21 @ 
+argument_list  @ 55 @ argument_list  @ 23 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 12 @ 
+argument  @ 55 @ argument  @ 23 @ 
+operator: =  @ 37 @ operator: =  @ 11 @ 
+condition  @ 55 @ condition  @ 23 @ 
+type  @ 4 @ type  @ 4 @ 
+expr  @ 47 @ expr  @ 15 @ 
+expr  @ 55 @ expr  @ 23 @ 
+expr  @ 55 @ expr  @ 23 @ 
+argument  @ 51 @ argument  @ 19 @ 
+block_content  @ 47 @ block_content  @ 15 @ 
+argument  @ 35 @ argument  @ 9 @ 
+operator: (  @ 38 @ operator: (  @ 12 @ 
+index  @ 55 @ index  @ 23 @ 
+argument  @ 56 @ argument  @ 24 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 18 @ 
+operator: ->  @ 38 @ operator: ->  @ 12 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+modifier: *  @ 3 @ modifier: *  @ 3 @ 
+if  @ 47 @ if  @ 15 @ 
+for  @ 54 @ for  @ 22 @ 
+name: audio_sample_entry_Read  @ 1 @ name: mp4a_Read  @ 1 @ 
+name: bs  @ 53 @ name: bs  @ 21 @ 
+argument_list  @ 52 @ argument_list  @ 20 @ 
+sizeof  @ 52 @ sizeof  @ 20 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+name: size  @ 54 @ name: size  @ 22 @ 
+type  @ 3 @ type  @ 3 @ 
+expr  @ 37 @ expr  @ 11 @ 
+expr  @ 55 @ expr  @ 23 @ 
+name: u32  @ 38 @ name: u32  @ 12 @ 
+decl  @ 7 @ decl  @ 6 @ 
+operator: )  @ 10 @ operator: )  @ 18 @ 
+decl  @ 1 @ decl  @ 1 @ 
+if  @ 55 @ if  @ 23 @ 
+argument_list  @ 35 @ argument_list  @ 9 @ 
+block  @ 47 @ block  @ 15 @ 
+expr  @ 47 @ expr  @ 15 @ 
+operator: +  @ 55 @ operator: +  @ 23 @ 
+operator: =  @ 57 @ operator: =  @ 25 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+literal: 4  @ 55 @ literal: 4  @ 23 @ 
+modifier: *  @ 56 @ modifier: *  @ 24 @ 
+name: i  @ 56 @ name: i  @ 24 @ 
+name: GF_Err  @ 7 @ name: GF_Err  @ 6 @ 
+argument_list  @ 56 @ argument_list  @ 24 @ 
+literal: 6  @ 55 @ literal: 6  @ 23 @ 
+operator: (  @ 57 @ operator: (  @ 25 @ 
+function  @ 1 @ function  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 55 @ expr  @ 23 @ 
+name: GF_MPEGAudioSampleEntryBox  @ 10 @ name: GF_MPEGAudioSampleEntryBox  @ 18 @ 
+name: data  @ 56 @ name: data  @ 24 @ 
+name: size  @ 56 @ name: size  @ 24 @ 
+name: size  @ 38 @ name: size  @ 12 @ 
+name: char  @ 4 @ name: char  @ 4 @ 
+name: i  @ 55 @ name: i  @ 23 @ 
+operator: =  @ 52 @ operator: =  @ 20 @ 
+argument  @ 56 @ argument  @ 24 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 14 @ 
+expr  @ 57 @ expr  @ 25 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 11 @ 
+name: i  @ 55 @ name: i  @ 23 @ 
+name: pos  @ 8 @ name: pos  @ 7 @ 
+expr_stmt  @ 51 @ expr_stmt  @ 19 @ 
+name: s  @ 10 @ name: s  @ 18 @ 
+name: pos  @ 37 @ name: pos  @ 11 @ 
+name: gf_isom_box_parse  @ 57 @ name: gf_isom_parse_box  @ 25 @ 
+name: u32  @ 6 @ name: u32  @ 5 @ 
+expr  @ 54 @ expr  @ 22 @ 
+name: s  @ 1 @ name: s  @ 1 @ 
+expr  @ 62 @ expr  @ 30 @ 
+call  @ 57 @ call  @ 25 @ 
+name: GF_Box  @ 57 @ name: GF_Box  @ 25 @ 
+operator: ->  @ 57 @ operator: ->  @ 25 @ 
+expr  @ 56 @ expr  @ 24 @ 
+expr  @ 36 @ expr  @ 10 @ 
+block  @ 55 @ block  @ 23 @ 
+break  @ 59 @ break  @ 27 @ 
+expr  @ 55 @ expr  @ 23 @ 
+if_stmt  @ 55 @ if_stmt  @ 23 @ 
+name: char  @ 52 @ name: char  @ 20 @ 
+name: pos  @ 51 @ name: pos  @ 19 @ 
+return  @ 36 @ return  @ 10 @ 
+name: GF_AudioSampleEntryBox  @ 35 @ name: GF_AudioSampleEntryBox  @ 9 @ 
+index  @ 55 @ index  @ 23 @ 
+

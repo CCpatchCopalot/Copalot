@@ -1,0 +1,138 @@
+name: stsz  @ 12 @ name: stsz  @ 11 @ 
+name  @ 12 @ name  @ 11 @ 
+name: stsz  @ 6 @ name: stsz  @ 5 @ 
+return  @ 10 @ return  @ 9 @ 
+if  @ 8 @ if  @ 7 @ 
+type  @ 5 @ type  @ 4 @ 
+operator: ->  @ 9 @ operator: ->  @ 8 @ 
+block  @ 10 @ block  @ 9 @ 
+expr  @ 10 @ expr  @ 9 @ 
+block  @ 12 @ block  @ 11 @ 
+block  @ 3 @ block  @ 3 @ 
+expr  @ 12 @ expr  @ 11 @ 
+name: size  @ 13 @ name: size  @ 12 @ 
+operator: =  @ 12 @ operator: =  @ 11 @ 
+if  @ 10 @ if  @ 9 @ 
+name: sampleCount  @ 10 @ name: sampleCount  @ 9 @ 
+operator: +=  @ 12 @ operator: +=  @ 11 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: i  @ 12 @ name: i  @ 11 @ 
+operator: ->  @ 9 @ operator: ->  @ 8 @ 
+argument  @ 7 @ argument  @ 6 @ 
+name: sampleSize  @ 10 @ name: sampleSize  @ 9 @ 
+expr  @ 8 @ expr  @ 7 @ 
+expr  @ 12 @ expr  @ 11 @ 
+literal: 0  @ 11 @ literal: 0  @ 10 @ 
+argument_list  @ 7 @ argument_list  @ 6 @ 
+return  @ 8 @ return  @ 7 @ 
+literal: 0  @ 8 @ literal: 0  @ 7 @ 
+name: i  @ 12 @ name: i  @ 11 @ 
+name: i  @ 12 @ name: i  @ 11 @ 
+incr  @ 12 @ incr  @ 11 @ 
+operator: ++  @ 12 @ operator: ++  @ 11 @ 
+name: movie  @ 7 @ name: movie  @ 6 @ 
+name: trackNumber  @ 7 @ name: trackNumber  @ 6 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 5 @ 
+argument  @ 7 @ argument  @ 6 @ 
+operator: ->  @ 9 @ operator: ->  @ 8 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 10 @ 
+modifier: *  @ 6 @ modifier: *  @ 5 @ 
+name  @ 10 @ name  @ 9 @ 
+condition  @ 8 @ condition  @ 7 @ 
+modifier: *  @ 7 @ modifier: *  @ 6 @ 
+function  @ 1 @ function  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: ->  @ 12 @ operator: ->  @ 11 @ 
+block_content  @ 8 @ block_content  @ 7 @ 
+name: gf_isom_get_media_data_size  @ 2 @ name: gf_isom_get_media_data_size  @ 2 @ 
+operator: ->  @ 10 @ operator: ->  @ 9 @ 
+name  @ 10 @ name  @ 9 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+return  @ 13 @ return  @ 12 @ 
+name: information  @ 9 @ name: information  @ 8 @ 
+expr  @ 11 @ expr  @ 10 @ 
+control  @ 12 @ control  @ 11 @ 
+condition  @ 10 @ condition  @ 9 @ 
+condition  @ 12 @ condition  @ 11 @ 
+block  @ 8 @ block  @ 7 @ 
+expr  @ 13 @ expr  @ 12 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: gf_isom_get_track_from_file  @ 7 @ name: gf_isom_get_track_from_file  @ 6 @ 
+name: SampleSize  @ 9 @ name: SampleSize  @ 8 @ 
+operator: !  @ 8 @ operator: !  @ 7 @ 
+expr  @ 12 @ expr  @ 11 @ 
+name: size  @ 5 @ name: size  @ 4 @ 
+operator: *  @ 10 @ operator: *  @ 9 @ 
+expr  @ 7 @ expr  @ 6 @ 
+name: stsz  @ 10 @ name: stsz  @ 9 @ 
+name: Media  @ 9 @ name: Media  @ 8 @ 
+name: GF_TrackBox  @ 7 @ name: GF_TrackBox  @ 6 @ 
+name  @ 9 @ name  @ 8 @ 
+name: sampleCount  @ 12 @ name: sampleCount  @ 11 @ 
+expr  @ 10 @ expr  @ 9 @ 
+operator: ->  @ 12 @ operator: ->  @ 11 @ 
+name: stsz  @ 9 @ name: stsz  @ 8 @ 
+decl  @ 5 @ decl  @ 4 @ 
+name: sizes  @ 12 @ name: sizes  @ 11 @ 
+block_content  @ 10 @ block_content  @ 9 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name: tk  @ 9 @ name: tk  @ 8 @ 
+operator: ->  @ 9 @ operator: ->  @ 8 @ 
+operator: ->  @ 10 @ operator: ->  @ 9 @ 
+name: tk  @ 7 @ name: tk  @ 6 @ 
+index  @ 12 @ index  @ 11 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name: trackNumber  @ 2 @ name: trackNumber  @ 2 @ 
+name: u64  @ 2 @ name: u64  @ 2 @ 
+name: sampleSize  @ 10 @ name: sampleSize  @ 9 @ 
+type  @ 6 @ type  @ 5 @ 
+operator: <  @ 12 @ operator: <  @ 11 @ 
+if_stmt  @ 8 @ if_stmt  @ 7 @ 
+block_content  @ 12 @ block_content  @ 11 @ 
+expr  @ 7 @ expr  @ 6 @ 
+operator: =  @ 9 @ operator: =  @ 8 @ 
+type  @ 2 @ type  @ 2 @ 
+name  @ 12 @ name  @ 11 @ 
+name: i  @ 12 @ name: i  @ 11 @ 
+name: sampleTable  @ 9 @ name: sampleTable  @ 8 @ 
+init  @ 7 @ init  @ 6 @ 
+name: GF_SampleSizeBox  @ 6 @ name: GF_SampleSizeBox  @ 5 @ 
+name: u32  @ 2 @ name: u32  @ 2 @ 
+decl  @ 7 @ decl  @ 6 @ 
+if_stmt  @ 10 @ if_stmt  @ 9 @ 
+init  @ 12 @ init  @ 11 @ 
+expr  @ 12 @ expr  @ 11 @ 
+unit  @ 1 @ unit  @ 1 @ 
+decl  @ 6 @ decl  @ 5 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 8 @ 
+decl  @ 4 @ decl  @ 4 @ 
+operator: =  @ 11 @ operator: =  @ 10 @ 
+for  @ 12 @ for  @ 11 @ 
+type  @ 4 @ type  @ 4 @ 
+call  @ 7 @ call  @ 6 @ 
+expr  @ 12 @ expr  @ 11 @ 
+name: stsz  @ 12 @ name: stsz  @ 11 @ 
+name: GF_ISOFile  @ 2 @ name: GF_ISOFile  @ 2 @ 
+expr  @ 9 @ expr  @ 8 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: size  @ 12 @ name: size  @ 11 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 8 @ expr  @ 7 @ 
+name: i  @ 4 @ name: i  @ 4 @ 
+name: tk  @ 8 @ name: tk  @ 7 @ 
+name  @ 10 @ name  @ 9 @ 
+expr  @ 7 @ expr  @ 6 @ 
+name: movie  @ 2 @ name: movie  @ 2 @ 
+type  @ 7 @ type  @ 6 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 11 @ 
+literal: 0  @ 12 @ literal: 0  @ 11 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 6 @ 
+name: stsz  @ 10 @ name: stsz  @ 9 @ 
+name: u32  @ 4 @ name: u32  @ 4 @ 
+name: size  @ 11 @ name: size  @ 10 @ 
+name: stsz  @ 10 @ name: stsz  @ 9 @ 
+name: GF_EXPORT  @ 1 @ name: GF_EXPORT  @ 1 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: ->  @ 10 @ operator: ->  @ 9 @ 
+

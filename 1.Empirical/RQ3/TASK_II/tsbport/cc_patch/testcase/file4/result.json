@@ -1,0 +1,89 @@
+{
+    "testcase": {
+        "file4": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "81 -> 120",
+                        "L2": "82 -> 120",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:struct', 'info': [], 'ast_patch': 'uint16_t td_numberofinks;/* number of inks in InkNames string */'}",
+                            "verify location": "-1",
+                            "output location": "120",
+                            "verify result": "False"
+                        },
+                        "type": "src:struct",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:struct",
+                            "info": [],
+                            "ast_patch": "uint16_t td_numberofinks;/* number of inks in InkNames string */"
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "130 -> 176",
+                        "L2": "131 -> 177",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'cpp:macro', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "176",
+                            "verify result": "False"
+                        },
+                        "type": "cpp:macro",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "cpp:macro",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 120,
+                        "add_hunk": [
+                            "\tuint16_t td_numberofinks;                 /* number of inks in InkNames string */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 176,
+                        "add_hunk": [
+                            "#define FIELD_NUMBEROFINKS             50\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:struct"
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "cpp:macro"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_type",
+                "outside"
+            ]
+        }
+    }
+}

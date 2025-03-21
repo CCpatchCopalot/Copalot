@@ -1,0 +1,16 @@
+299c299
+<     return -1;  /* Conversion not supported. */
+---
+>     return CURLE_BAD_FUNCTION_ARGUMENT;  /* Conversion not supported. */
+303c303
+<     return -1;  /* Length inconsistent with character size. */
+---
+>     return CURLE_BAD_FUNCTION_ARGUMENT;
+332c332
+<               return -1;        /* Invalid char. size for target encoding. */
+---
+>               return CURLE_WEIRD_SERVER_REPLY;
+350c350
+<   return result ? (ssize_t) -1 : (ssize_t)Curl_dyn_len(to);
+---
+>   return result;

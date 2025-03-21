@@ -1,0 +1,196 @@
+operator: )  @ 16 @ operator: )  @ 16 @ 
+name: cp  @ 16 @ name: cp  @ 16 @ 
+if  @ 7 @ if  @ 7 @ 
+name: slen  @ 7 @ name: slen  @ 7 @ 
+operator: (  @ 19 @ operator: (  @ 23 @ 
+name: s  @ 8 @ name: s  @ 8 @ 
+name: uint32_t  @ 16 @ name: uint32_t  @ 16 @ 
+operator: >  @ 10 @ operator: >  @ 10 @ 
+argument  @ 19 @ argument  @ 19 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name: tif  @ 4 @ name: tif  @ 4 @ 
+name: PRIu16  @ 19 @ name: PRIu16  @ 20 @ 
+block  @ 13 @ block  @ 13 @ 
+decl  @ 2 @ decl  @ 2 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+init  @ 8 @ init  @ 8 @ 
+name  @ 19 @ name  @ 19 @ 
+incr  @ 11 @ incr  @ 11 @ 
+type  @ 8 @ type  @ 8 @ 
+name: char  @ 8 @ name: char  @ 8 @ 
+for  @ 10 @ for  @ 10 @ 
+operator: ->  @ 19 @ operator: ->  @ 23 @ 
+expr  @ 19 @ expr  @ 21 @ 
+if_stmt  @ 12 @ if_stmt  @ 12 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 5 @ decl  @ 5 @ 
+name: cp  @ 12 @ name: cp  @ 12 @ 
+operator: >  @ 7 @ operator: >  @ 7 @ 
+name: ep  @ 11 @ name: ep  @ 11 @ 
+type  @ 2 @ type  @ 2 @ 
+name: tif  @ 2 @ name: tif  @ 2 @ 
+decl  @ 8 @ decl  @ 8 @ 
+name: ep  @ 12 @ name: ep  @ 12 @ 
+expr  @ 16 @ expr  @ 16 @ 
+name: uint32_t  @ 1 @ name: uint32_t  @ 1 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: tif  @ 19 @ name: tif  @ 19 @ 
+condition  @ 12 @ condition  @ 12 @ 
+name: slen  @ 8 @ name: slen  @ 8 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+name: td  @ 19 @ name: td  @ 23 @ 
+name: tif_name  @ 19 @ name: tif_name  @ 21 @ 
+literal: '\0'  @ 11 @ literal: '\0'  @ 11 @ 
+block  @ 7 @ block  @ 7 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 9 @ 
+operator: (  @ 19 @ operator: (  @ 23 @ 
+operator: (  @ 20 @ operator: (  @ 24 @ 
+block_content  @ 1 @ block_content  @ 1 @ 
+operator: (  @ 16 @ operator: (  @ 16 @ 
+operator: <  @ 11 @ operator: <  @ 11 @ 
+operator: &  @ 4 @ operator: &  @ 4 @ 
+name: PRIu16  @ 19 @ name: PRIu16  @ 20 @ 
+argument  @ 19 @ argument  @ 20 @ 
+expr  @ 19 @ expr  @ 22 @ 
+init  @ 4 @ init  @ 4 @ 
+label  @ 18 @ label  @ 18 @ 
+goto  @ 13 @ goto  @ 13 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+name  @ 4 @ name  @ 4 @ 
+expr  @ 20 @ expr  @ 24 @ 
+name: uint16_t  @ 5 @ name: uint16_t  @ 5 @ 
+operator: ++  @ 14 @ operator: ++  @ 14 @ 
+literal: "%s: Invalid InkNames value; expecting %"  @ 19 @ literal: "%s: Invalid InkNames value; expecting %"  @ 20 @ 
+operator: &&  @ 11 @ operator: &&  @ 11 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: TIFFErrorExt  @ 19 @ name: TIFFErrorExt  @ 19 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+name: td_samplesperpixel  @ 19 @ name: td_samplesperpixel  @ 22 @ 
+name: cp  @ 11 @ name: cp  @ 11 @ 
+name: uint32_t  @ 2 @ name: uint32_t  @ 2 @ 
+operator: -  @ 16 @ operator: -  @ 16 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+specifier: const  @ 9 @ specifier: const  @ 9 @ 
+block_content  @ 11 @ block_content  @ 11 @ 
+type  @ 5 @ type  @ 5 @ 
+name: tif  @ 19 @ name: tif  @ 21 @ 
+operator: ->  @ 19 @ operator: ->  @ 19 @ 
+operator: )  @ 20 @ operator: )  @ 24 @ 
+decl  @ 4 @ decl  @ 4 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 11 @ expr  @ 11 @ 
+return  @ 20 @ return  @ 24 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument  @ 19 @ argument  @ 22 @ 
+name: td  @ 5 @ name: td  @ 5 @ 
+name: td_samplesperpixel  @ 19 @ name: td_samplesperpixel  @ 23 @ 
+init  @ 11 @ init  @ 11 @ 
+init  @ 5 @ init  @ 5 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: char  @ 2 @ name: char  @ 2 @ 
+name: td  @ 4 @ name: td  @ 4 @ 
+name: i  @ 10 @ name: i  @ 10 @ 
+literal: 0  @ 20 @ literal: 0  @ 24 @ 
+name  @ 5 @ name  @ 5 @ 
+block_content  @ 8 @ block_content  @ 8 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: cp  @ 11 @ name: cp  @ 11 @ 
+condition  @ 10 @ condition  @ 10 @ 
+operator: >=  @ 12 @ operator: >=  @ 12 @ 
+name: s  @ 16 @ name: s  @ 16 @ 
+control  @ 11 @ control  @ 11 @ 
+name: cp  @ 14 @ name: cp  @ 14 @ 
+call  @ 19 @ call  @ 19 @ 
+name: char  @ 9 @ name: char  @ 9 @ 
+literal: 0  @ 10 @ literal: 0  @ 10 @ 
+operator: )  @ 19 @ operator: )  @ 23 @ 
+name: bad  @ 13 @ name: bad  @ 13 @ 
+name: TIFF  @ 2 @ name: TIFF  @ 2 @ 
+name: i  @ 19 @ name: i  @ 23 @ 
+name: tif_dir  @ 4 @ name: tif_dir  @ 4 @ 
+block_content  @ 13 @ block_content  @ 13 @ 
+name: tif_clientdata  @ 19 @ name: tif_clientdata  @ 19 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+control  @ 10 @ control  @ 10 @ 
+block  @ 10 @ block  @ 10 @ 
+expr  @ 7 @ expr  @ 7 @ 
+if  @ 12 @ if  @ 12 @ 
+operator: -  @ 19 @ operator: -  @ 23 @ 
+operator: ->  @ 19 @ operator: ->  @ 21 @ 
+name  @ 19 @ name  @ 23 @ 
+expr  @ 8 @ expr  @ 8 @ 
+expr  @ 19 @ expr  @ 23 @ 
+operator: (  @ 16 @ operator: (  @ 16 @ 
+name: uint16_t  @ 19 @ name: uint16_t  @ 23 @ 
+block  @ 11 @ block  @ 11 @ 
+literal: " names, found %"  @ 19 @ literal: " names, found %"  @ 20 @ 
+literal: 0  @ 7 @ literal: 0  @ 7 @ 
+condition  @ 11 @ condition  @ 11 @ 
+decl  @ 9 @ decl  @ 9 @ 
+name: s  @ 9 @ name: s  @ 9 @ 
+init  @ 9 @ init  @ 9 @ 
+operator: ++  @ 11 @ operator: ++  @ 11 @ 
+expr  @ 11 @ expr  @ 11 @ 
+if_stmt  @ 7 @ if_stmt  @ 7 @ 
+type  @ 2 @ type  @ 2 @ 
+argument  @ 19 @ argument  @ 23 @ 
+modifier: *  @ 9 @ modifier: *  @ 9 @ 
+operator: )  @ 16 @ operator: )  @ 16 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+for  @ 11 @ for  @ 11 @ 
+name  @ 19 @ name  @ 22 @ 
+modifier: *  @ 8 @ modifier: *  @ 8 @ 
+expr  @ 19 @ expr  @ 19 @ 
+condition  @ 7 @ condition  @ 7 @ 
+type  @ 2 @ type  @ 2 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: i  @ 5 @ name: i  @ 5 @ 
+name: td  @ 19 @ name: td  @ 22 @ 
+return  @ 16 @ return  @ 16 @ 
+operator: ->  @ 4 @ operator: ->  @ 4 @ 
+name: cp  @ 9 @ name: cp  @ 9 @ 
+expr  @ 12 @ expr  @ 12 @ 
+expr  @ 10 @ expr  @ 10 @ 
+operator: )  @ 19 @ operator: )  @ 23 @ 
+name: i  @ 10 @ name: i  @ 10 @ 
+expr  @ 19 @ expr  @ 19 @ 
+operator: --  @ 10 @ operator: --  @ 10 @ 
+expr  @ 19 @ expr  @ 19 @ 
+function  @ 1 @ function  @ 1 @ 
+type  @ 4 @ type  @ 4 @ 
+decl  @ 2 @ decl  @ 2 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+comment: /* skip \0 */  @ 14 @ comment: /* skip \0 */  @ 14 @ 
+type  @ 9 @ type  @ 9 @ 
+init  @ 10 @ init  @ 10 @ 
+expr  @ 4 @ expr  @ 4 @ 
+argument  @ 19 @ argument  @ 19 @ 
+name  @ 19 @ name  @ 21 @ 
+operator: *  @ 11 @ operator: *  @ 11 @ 
+name: td_samplesperpixel  @ 5 @ name: td_samplesperpixel  @ 5 @ 
+name: ep  @ 8 @ name: ep  @ 8 @ 
+name: bad  @ 18 @ name: bad  @ 18 @ 
+operator: ->  @ 19 @ operator: ->  @ 22 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+literal: "TIFFSetField"  @ 19 @ literal: "TIFFSetField"  @ 19 @ 
+operator: !=  @ 11 @ operator: !=  @ 11 @ 
+incr  @ 10 @ incr  @ 10 @ 
+argument  @ 19 @ argument  @ 21 @ 
+block  @ 3 @ block  @ 3 @ 
+name: slen  @ 2 @ name: slen  @ 2 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+decl  @ 2 @ decl  @ 2 @ 
+specifier: const  @ 8 @ specifier: const  @ 8 @ 
+operator: )  @ 16 @ operator: )  @ 16 @ 
+name: s  @ 2 @ name: s  @ 2 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+expr  @ 19 @ expr  @ 20 @ 
+name: cp  @ 11 @ name: cp  @ 11 @ 
+operator: +  @ 8 @ operator: +  @ 8 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: checkInkNamesString  @ 2 @ name: checkInkNamesString  @ 2 @ 
+name: TIFFDirectory  @ 4 @ name: TIFFDirectory  @ 4 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+operator: (  @ 16 @ operator: (  @ 16 @ 
+

@@ -1,0 +1,81 @@
+{
+    "testcase": {
+        "file83": {
+            "match_message": {
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2128 -> 2229",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2129->2230"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2193 -> 2294",
+                        "L2": "3: Unique Matched by Source code 2193 -> 2294"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2202 -> 2303",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2203->2304"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 2229,
+                        "add_hunk": [
+                            "\tif (data_size < 6) {\n",
+                            "\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[MPEG-2 TS] Invalid PMT header data size %d\\n\", data_size ) );\n",
+                            "\t\treturn;\n",
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 2294,
+                        "add_hunk": [
+                            "\twhile (pos<data_size-5) {\n"
+                        ],
+                        "delete_location": [
+                            2294,
+                            2294
+                        ],
+                        "delete_hunk": [
+                            "\twhile (pos<data_size) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 2303,
+                        "add_hunk": [
+                            "\t\tif (desc_len > data_size-5) {\n",
+                            "\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[MPEG-2 TS] Invalid PMT es descriptor size for PID %d\\n\", pid ) );\n",
+                            "\t\t\tbreak;\n",
+                            "\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "in_loop"
+            ]
+        }
+    }
+}

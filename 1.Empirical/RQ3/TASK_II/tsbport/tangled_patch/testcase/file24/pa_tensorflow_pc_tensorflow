@@ -1,0 +1,1038 @@
+literal: " upper_frequency_limit: "  @ 109 @ literal: " upper_frequency_limit: "  @ 126 @ 
+name: lower_frequency_limit  @ 38 @ name: lower_frequency_limit  @ 42 @ 
+expr  @ 30 @ expr  @ 33 @ 
+operator: /  @ 41 @ operator: /  @ 45 @ 
+index  @ 66 @ index  @ 71 @ 
+name: end_index_  @ 132 @ name: end_index_  @ 150 @ 
+argument  @ 125 @ argument  @ 143 @ 
+name: mel_spacing  @ 41 @ name: mel_spacing  @ 45 @ 
+argument  @ 120 @ argument  @ 138 @ 
+operator: /  @ 49 @ operator: /  @ 53 @ 
+argument  @ 3 @ argument  @ 3 @ 
+index  @ 61 @ index  @ 65 @ 
+comment: // significant weight on enough (or any) FFT bins -- i.e., too many  @ 89 @ comment: // significant weight on enough (or any) FFT bins -- i.e., too many  @ 97 @ 
+operator: <<  @ 109 @ operator: <<  @ 125 @ 
+operator: )  @ 140 @ operator: )  @ 158 @ 
+operator: <  @ 104 @ operator: <  @ 112 @ 
+expr  @ 58 @ expr  @ 62 @ 
+type  @ 75 @ type  @ 80 @ 
+decl_stmt  @ 40 @ decl_stmt  @ 44 @ 
+control  @ 42 @ control  @ 46 @ 
+expr  @ 83 @ expr  @ 90 @ 
+name: center_frequencies_  @ 83 @ name: center_frequencies_  @ 91 @ 
+name  @ 97 @ name  @ 105 @ 
+index  @ 137 @ index  @ 155 @ 
+name: int  @ 94 @ name: int  @ 102 @ 
+name: int  @ 132 @ name: int  @ 150 @ 
+literal: 0.0  @ 130 @ literal: 0.0  @ 148 @ 
+expr  @ 135 @ expr  @ 153 @ 
+expr  @ 94 @ expr  @ 102 @ 
+argument_list  @ 41 @ argument_list  @ 45 @ 
+name: num_channels_  @ 6 @ name: num_channels_  @ 9 @ 
+return  @ 27 @ return  @ 30 @ 
+name: i  @ 58 @ name: i  @ 62 @ 
+operator: ++  @ 138 @ operator: ++  @ 156 @ 
+expr  @ 139 @ expr  @ 157 @ 
+block  @ 63 @ block  @ 68 @ 
+init  @ 59 @ init  @ 63 @ 
+type  @ 38 @ type  @ 42 @ 
+name  @ 49 @ name  @ 53 @ 
+operator: <<  @ 109 @ operator: <<  @ 121 @ 
+name: size  @ 109 @ name: size  @ 117 @ 
+expr  @ 49 @ expr  @ 53 @ 
+name: false  @ 17 @ name: false  @ 20 @ 
+operator: (  @ 77 @ operator: (  @ 82 @ 
+name: mel_low  @ 40 @ name: mel_low  @ 44 @ 
+name: Compute  @ 118 @ name: Compute  @ 135 @ 
+operator: =  @ 8 @ operator: =  @ 11 @ 
+name: double  @ 134 @ name: double  @ 152 @ 
+name: i  @ 134 @ name: i  @ 152 @ 
+operator: )  @ 43 @ operator: )  @ 47 @ 
+expr  @ 133 @ expr  @ 151 @ 
+decl_stmt  @ 134 @ decl_stmt  @ 152 @ 
+expr  @ 98 @ expr  @ 106 @ 
+expr  @ 97 @ expr  @ 105 @ 
+operator: <<  @ 109 @ operator: <<  @ 120 @ 
+condition  @ 77 @ condition  @ 82 @ 
+block_content  @ 31 @ block_content  @ 34 @ 
+operator: +=  @ 96 @ operator: +=  @ 104 @ 
+name: i  @ 132 @ name: i  @ 150 @ 
+block_content  @ 61 @ block_content  @ 65 @ 
+comment: // Indicate an unused Fourier coefficient.  @ 61 @ comment: // Indicate an unused Fourier coefficient.  @ 65 @ 
+block_content  @ 78 @ block_content  @ 83 @ 
+decl  @ 59 @ decl  @ 63 @ 
+name: band_mapper_  @ 135 @ name: band_mapper_  @ 153 @ 
+expr  @ 59 @ expr  @ 63 @ 
+expr_stmt  @ 120 @ expr_stmt  @ 138 @ 
+name: channel  @ 140 @ name: channel  @ 158 @ 
+argument_list  @ 144 @ argument_list  @ 162 @ 
+name: int  @ 58 @ name: int  @ 62 @ 
+operator: &&  @ 63 @ operator: &&  @ 67 @ 
+type  @ 42 @ type  @ 46 @ 
+name: num_channels_  @ 92 @ name: num_channels_  @ 100 @ 
+argument_list  @ 130 @ argument_list  @ 148 @ 
+literal: 1  @ 81 @ literal: 1  @ 88 @ 
+init  @ 75 @ init  @ 80 @ 
+name: input_length  @ 8 @ name: input_length  @ 11 @ 
+comment: // mel-channel center frequencies.This bin contributes weights_[i] to the  @ 72 @ comment: // mel-channel center frequencies.  This bin contributes weights_[i] to the  @ 77 @ 
+name: end_index_  @ 50 @ name: end_index_  @ 54 @ 
+decl_stmt  @ 41 @ decl_stmt  @ 45 @ 
+condition  @ 139 @ condition  @ 157 @ 
+macro  @ 118 @ macro  @ 135 @ 
+expr_stmt  @ 125 @ expr_stmt  @ 143 @ 
+operator: <<  @ 120 @ operator: <<  @ 138 @ 
+block  @ 144 @ block  @ 162 @ 
+expr  @ 76 @ expr  @ 81 @ 
+condition  @ 92 @ condition  @ 100 @ 
+operator: <  @ 92 @ operator: <  @ 100 @ 
+argument  @ 37 @ argument  @ 41 @ 
+if_stmt  @ 60 @ if_stmt  @ 64 @ 
+decl_stmt  @ 39 @ decl_stmt  @ 43 @ 
+name: lower_frequency_limit  @ 49 @ name: lower_frequency_limit  @ 53 @ 
+index  @ 43 @ index  @ 47 @ 
+expr  @ 42 @ expr  @ 46 @ 
+name: int  @ 75 @ name: int  @ 80 @ 
+specifier: const  @ 38 @ specifier: const  @ 42 @ 
+call  @ 74 @ call  @ 79 @ 
+operator: )  @ 83 @ operator: )  @ 90 @ 
+name: input_length_  @ 58 @ name: input_length_  @ 62 @ 
+name: output_channel_count  @ 6 @ name: output_channel_count  @ 9 @ 
+if  @ 10 @ if  @ 13 @ 
+expr  @ 42 @ expr  @ 46 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 53 @ 
+expr  @ 41 @ expr  @ 45 @ 
+name: center_frequencies_  @ 81 @ name: center_frequencies_  @ 88 @ 
+expr  @ 83 @ expr  @ 90 @ 
+operator: )  @ 60 @ operator: )  @ 64 @ 
+name: channel  @ 80 @ name: channel  @ 85 @ 
+operator: =  @ 7 @ operator: =  @ 10 @ 
+argument_list  @ 133 @ argument_list  @ 151 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+name: channel  @ 63 @ name: channel  @ 67 @ 
+name: FreqToMel  @ 38 @ name: FreqToMel  @ 42 @ 
+expr  @ 135 @ expr  @ 153 @ 
+operator: )  @ 81 @ operator: )  @ 87 @ 
+operator: -  @ 140 @ operator: -  @ 158 @ 
+block  @ 108 @ block  @ 116 @ 
+expr  @ 22 @ expr  @ 25 @ 
+block_content  @ 109 @ block_content  @ 117 @ 
+name: bad_channels  @ 105 @ name: bad_channels  @ 113 @ 
+name: initialized_  @ 3 @ name: initialized_  @ 3 @ 
+block  @ 30 @ block  @ 33 @ 
+init  @ 93 @ init  @ 101 @ 
+type  @ 94 @ type  @ 102 @ 
+expr  @ 8 @ expr  @ 11 @ 
+name: upper_frequency_limit  @ 39 @ name: upper_frequency_limit  @ 43 @ 
+if_stmt  @ 77 @ if_stmt  @ 82 @ 
+operator: <  @ 25 @ operator: <  @ 28 @ 
+index  @ 83 @ index  @ 90 @ 
+name: double  @ 41 @ name: double  @ 45 @ 
+block_content  @ 76 @ block_content  @ 81 @ 
+literal: 700.0  @ 145 @ literal: 700.0  @ 163 @ 
+name: input_sample_rate  @ 109 @ name: input_sample_rate  @ 123 @ 
+index  @ 83 @ index  @ 90 @ 
+argument  @ 5 @ argument  @ 7 @ 
+name: mel_hi  @ 40 @ name: mel_hi  @ 44 @ 
+expr  @ 119 @ expr  @ 137 @ 
+expr  @ 98 @ expr  @ 106 @ 
+literal: 1  @ 41 @ literal: 1  @ 45 @ 
+name: i  @ 94 @ name: i  @ 102 @ 
+incr  @ 58 @ incr  @ 62 @ 
+control  @ 75 @ control  @ 80 @ 
+if_stmt  @ 104 @ if_stmt  @ 112 @ 
+name: center_frequencies_  @ 63 @ name: center_frequencies_  @ 68 @ 
+name: mel_span  @ 40 @ name: mel_span  @ 44 @ 
+literal: "Number of filterbank channels must be positive."  @ 11 @ literal: "Number of filterbank channels must be positive."  @ 14 @ 
+name: i  @ 132 @ name: i  @ 150 @ 
+comment: // Create the weighting functions to taper the band edges.The contribution  @ 70 @ comment: // Create the weighting functions to taper the band edges.  The contribution  @ 75 @ 
+call  @ 120 @ call  @ 138 @ 
+block_content  @ 21 @ block_content  @ 24 @ 
+name: input_length_  @ 48 @ name: input_length_  @ 52 @ 
+literal: 0.5  @ 48 @ literal: 0.5  @ 52 @ 
+decl  @ 39 @ decl  @ 43 @ 
+condition  @ 136 @ condition  @ 154 @ 
+operator: (  @ 60 @ operator: (  @ 64 @ 
+decl  @ 93 @ decl  @ 101 @ 
+type  @ 59 @ type  @ 63 @ 
+expr_stmt  @ 105 @ expr_stmt  @ 113 @ 
+name: i  @ 43 @ name: i  @ 47 @ 
+operator: <  @ 75 @ operator: <  @ 80 @ 
+operator: )  @ 96 @ operator: )  @ 104 @ 
+else  @ 82 @ else  @ 89 @ 
+expr  @ 94 @ expr  @ 102 @ 
+call  @ 130 @ call  @ 148 @ 
+comment: // current channel and 1-weights_[i] to the next channel.  @ 73 @ comment: // current channel and 1-weights_[i] to the next channel.  @ 78 @ 
+expr  @ 111 @ expr  @ 128 @ 
+name  @ 98 @ name  @ 106 @ 
+condition  @ 119 @ condition  @ 137 @ 
+expr  @ 50 @ expr  @ 54 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 47 @ 
+expr  @ 63 @ expr  @ 67 @ 
+type  @ 57 @ type  @ 61 @ 
+operator: +  @ 43 @ operator: +  @ 47 @ 
+decl  @ 134 @ decl  @ 152 @ 
+macro  @ 144 @ macro  @ 162 @ 
+specifier: const  @ 40 @ specifier: const  @ 44 @ 
+expr  @ 41 @ expr  @ 45 @ 
+expr  @ 130 @ expr  @ 148 @ 
+if  @ 80 @ if  @ 85 @ 
+expr  @ 81 @ expr  @ 87 @ 
+init  @ 42 @ init  @ 46 @ 
+argument_list  @ 31 @ argument_list  @ 34 @ 
+name: i  @ 58 @ name: i  @ 62 @ 
+if  @ 30 @ if  @ 33 @ 
+condition  @ 104 @ condition  @ 112 @ 
+if_stmt  @ 139 @ if_stmt  @ 157 @ 
+operator: /  @ 145 @ operator: /  @ 163 @ 
+name: mel_low  @ 38 @ name: mel_low  @ 42 @ 
+name: static_cast  @ 41 @ name: static_cast  @ 45 @ 
+operator: <  @ 63 @ operator: <  @ 67 @ 
+expr  @ 20 @ expr  @ 23 @ 
+argument_list  @ 105 @ argument_list  @ 113 @ 
+operator: -  @ 83 @ operator: -  @ 90 @ 
+condition  @ 94 @ condition  @ 102 @ 
+block_content  @ 80 @ block_content  @ 85 @ 
+literal: 1.0  @ 96 @ literal: 1.0  @ 104 @ 
+argument_list  @ 26 @ argument_list  @ 29 @ 
+block_content  @ 83 @ block_content  @ 90 @ 
+name  @ 130 @ name  @ 148 @ 
+argument_list  @ 16 @ argument_list  @ 19 @ 
+comment: // on the right side of the triangle.Thus this bin also contributes to the  @ 54 @ comment: // on the right side of the triangle.  Thus this bin also contributes to the  @ 58 @ 
+expr_stmt  @ 83 @ expr_stmt  @ 90 @ 
+name: spec_val  @ 134 @ name: spec_val  @ 152 @ 
+operator: =  @ 6 @ operator: =  @ 9 @ 
+block  @ 119 @ block  @ 137 @ 
+argument  @ 39 @ argument  @ 43 @ 
+operator: )  @ 43 @ operator: )  @ 47 @ 
+argument  @ 109 @ argument  @ 117 @ 
+expr_stmt  @ 118 @ expr_stmt  @ 135 @ 
+type  @ 1 @ type  @ 1 @ 
+name: num_channels_  @ 130 @ name: num_channels_  @ 148 @ 
+name: int  @ 57 @ name: int  @ 61 @ 
+literal: 0  @ 57 @ literal: 0  @ 61 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 81 @ 
+if  @ 139 @ if  @ 157 @ 
+decl  @ 47 @ decl  @ 51 @ 
+operator: -  @ 48 @ operator: -  @ 52 @ 
+argument  @ 130 @ argument  @ 148 @ 
+name: i  @ 132 @ name: i  @ 150 @ 
+call  @ 124 @ call  @ 142 @ 
+expr  @ 7 @ expr  @ 10 @ 
+init  @ 41 @ init  @ 45 @ 
+expr  @ 92 @ expr  @ 100 @ 
+if  @ 104 @ if  @ 112 @ 
+literal: 1  @ 42 @ literal: 1  @ 46 @ 
+expr  @ 50 @ expr  @ 54 @ 
+init  @ 134 @ init  @ 152 @ 
+name: weights_  @ 134 @ name: weights_  @ 152 @ 
+expr  @ 96 @ expr  @ 104 @ 
+comment: // Can be == -1  @ 66 @ comment: // Can be == -1  @ 71 @ 
+operator: +  @ 81 @ operator: +  @ 87 @ 
+operator: +  @ 81 @ operator: +  @ 88 @ 
+name: end_index_  @ 124 @ name: end_index_  @ 142 @ 
+init  @ 47 @ init  @ 51 @ 
+type  @ 58 @ type  @ 62 @ 
+for  @ 58 @ for  @ 62 @ 
+block  @ 20 @ block  @ 23 @ 
+if  @ 77 @ if  @ 82 @ 
+for  @ 42 @ for  @ 46 @ 
+else  @ 79 @ else  @ 84 @ 
+operator: /  @ 83 @ operator: /  @ 90 @ 
+expr_stmt  @ 74 @ expr_stmt  @ 79 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 54 @ 
+name: channel  @ 57 @ name: channel  @ 61 @ 
+argument  @ 118 @ argument  @ 135 @ 
+name: bad_channels  @ 109 @ name: bad_channels  @ 117 @ 
+literal: 0  @ 83 @ literal: 0  @ 91 @ 
+expr  @ 49 @ expr  @ 53 @ 
+expr  @ 38 @ expr  @ 42 @ 
+name: band_mapper_  @ 56 @ name: band_mapper_  @ 60 @ 
+expr  @ 50 @ expr  @ 54 @ 
+name: i  @ 42 @ name: i  @ 46 @ 
+operator: +=  @ 137 @ operator: +=  @ 155 @ 
+for  @ 94 @ for  @ 102 @ 
+return  @ 112 @ return  @ 129 @ 
+literal: " lower_frequency_limit: "  @ 109 @ literal: " lower_frequency_limit: "  @ 125 @ 
+expr  @ 83 @ expr  @ 91 @ 
+operator: =  @ 111 @ operator: =  @ 128 @ 
+expr  @ 120 @ expr  @ 138 @ 
+argument  @ 130 @ argument  @ 148 @ 
+operator: <<  @ 11 @ operator: <<  @ 14 @ 
+init  @ 132 @ init  @ 150 @ 
+call  @ 56 @ call  @ 60 @ 
+index  @ 96 @ index  @ 104 @ 
+decl  @ 57 @ decl  @ 61 @ 
+operator: (  @ 43 @ operator: (  @ 47 @ 
+call  @ 105 @ call  @ 113 @ 
+name: input_length_  @ 94 @ name: input_length_  @ 102 @ 
+name: bool  @ 5 @ name: bool  @ 5 @ 
+name: i  @ 95 @ name: i  @ 103 @ 
+name: double  @ 59 @ name: double  @ 63 @ 
+operator: <  @ 94 @ operator: <  @ 102 @ 
+index  @ 135 @ index  @ 153 @ 
+expr  @ 43 @ expr  @ 47 @ 
+literal: "input_length: "  @ 109 @ literal: "input_length: "  @ 122 @ 
+literal: 0.0  @ 78 @ literal: 0.0  @ 83 @ 
+expr  @ 31 @ expr  @ 34 @ 
+operator: <<  @ 109 @ operator: <<  @ 118 @ 
+expr  @ 31 @ expr  @ 34 @ 
+expr  @ 132 @ expr  @ 150 @ 
+operator: ++  @ 92 @ operator: ++  @ 100 @ 
+expr  @ 124 @ expr  @ 142 @ 
+operator: !  @ 119 @ operator: !  @ 137 @ 
+name: int  @ 49 @ name: int  @ 53 @ 
+argument  @ 48 @ argument  @ 52 @ 
+decl  @ 42 @ decl  @ 46 @ 
+operator: -  @ 81 @ operator: -  @ 88 @ 
+operator: =  @ 61 @ operator: =  @ 65 @ 
+name: weighted  @ 137 @ name: weighted  @ 155 @ 
+name: i  @ 76 @ name: i  @ 81 @ 
+expr  @ 81 @ expr  @ 88 @ 
+comment: // left side of the next channel's triangle response.  @ 55 @ comment: // left side of the next channel's triangle response.  @ 59 @ 
+argument  @ 118 @ argument  @ 136 @ 
+name: initialized_  @ 119 @ name: initialized_  @ 137 @ 
+name: band_mapper_  @ 66 @ name: band_mapper_  @ 71 @ 
+name: center_frequencies_  @ 43 @ name: center_frequencies_  @ 47 @ 
+name: spec_val  @ 133 @ name: spec_val  @ 151 @ 
+name  @ 133 @ name  @ 151 @ 
+if_stmt  @ 20 @ if_stmt  @ 23 @ 
+block  @ 42 @ block  @ 46 @ 
+comment: // Right side of triangle, downward slope  @ 137 @ comment: // Right side of triangle, downward slope  @ 155 @ 
+call  @ 41 @ call  @ 45 @ 
+operator: ==  @ 97 @ operator: ==  @ 105 @ 
+operator: <<  @ 16 @ operator: <<  @ 19 @ 
+expr  @ 133 @ expr  @ 151 @ 
+operator: )  @ 60 @ operator: )  @ 64 @ 
+block_content  @ 95 @ block_content  @ 103 @ 
+name: MfccMelFilterbank  @ 3 @ name: MfccMelFilterbank  @ 3 @ 
+literal: 0  @ 136 @ literal: 0  @ 154 @ 
+name: sample_rate_  @ 48 @ name: sample_rate_  @ 52 @ 
+argument_list  @ 59 @ argument_list  @ 63 @ 
+name: resize  @ 56 @ name: resize  @ 60 @ 
+expr  @ 95 @ expr  @ 103 @ 
+literal: "lower frequency limit."  @ 31 @ literal: "lower frequency limit."  @ 35 @ 
+operator: <  @ 60 @ operator: <  @ 64 @ 
+expr  @ 91 @ expr  @ 99 @ 
+name: start_index_  @ 49 @ name: start_index_  @ 53 @ 
+specifier: const  @ 41 @ specifier: const  @ 45 @ 
+name: input  @ 124 @ name: input  @ 142 @ 
+name: LOG  @ 120 @ name: LOG  @ 138 @ 
+operator: ++  @ 75 @ operator: ++  @ 80 @ 
+literal: 0  @ 109 @ literal: 0  @ 118 @ 
+comment: // The lowest mel channels have the fewest FFT bins and the lowest  @ 101 @ comment: // The lowest mel channels have the fewest FFT bins and the lowest  @ 109 @ 
+name  @ 134 @ name  @ 152 @ 
+argument  @ 41 @ argument  @ 45 @ 
+operator: *  @ 48 @ operator: *  @ 52 @ 
+index  @ 95 @ index  @ 103 @ 
+name  @ 48 @ name  @ 52 @ 
+name: melf  @ 63 @ name: melf  @ 68 @ 
+decl  @ 58 @ decl  @ 62 @ 
+name: input_length  @ 109 @ name: input_length  @ 122 @ 
+name: input_length_  @ 8 @ name: input_length_  @ 11 @ 
+literal: 1.5  @ 49 @ literal: 1.5  @ 53 @ 
+decl_stmt  @ 59 @ decl_stmt  @ 63 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 14 @ 
+operator: >=  @ 136 @ operator: >=  @ 154 @ 
+expr  @ 16 @ expr  @ 19 @ 
+expr  @ 92 @ expr  @ 100 @ 
+expr  @ 58 @ expr  @ 62 @ 
+operator: *  @ 81 @ operator: *  @ 87 @ 
+expr  @ 37 @ expr  @ 41 @ 
+expr  @ 118 @ expr  @ 135 @ 
+incr  @ 132 @ incr  @ 150 @ 
+expr  @ 140 @ expr  @ 158 @ 
+name  @ 41 @ name  @ 45 @ 
+name: int  @ 135 @ name: int  @ 153 @ 
+literal: " bands "  @ 109 @ literal: " bands "  @ 117 @ 
+argument_list  @ 124 @ argument_list  @ 142 @ 
+name: ERROR  @ 109 @ name: ERROR  @ 117 @ 
+name  @ 83 @ name  @ 90 @ 
+block  @ 104 @ block  @ 112 @ 
+name: band_weights_sum  @ 98 @ name: band_weights_sum  @ 106 @ 
+decl_stmt  @ 93 @ decl_stmt  @ 101 @ 
+type  @ 92 @ type  @ 100 @ 
+name  @ 109 @ name  @ 117 @ 
+index  @ 81 @ index  @ 88 @ 
+control  @ 94 @ control  @ 102 @ 
+incr  @ 42 @ incr  @ 46 @ 
+expr  @ 21 @ expr  @ 24 @ 
+operator: +  @ 41 @ operator: +  @ 45 @ 
+name: channel  @ 138 @ name: channel  @ 156 @ 
+expr  @ 48 @ expr  @ 52 @ 
+literal: 1  @ 81 @ literal: 1  @ 87 @ 
+call  @ 39 @ call  @ 43 @ 
+name  @ 74 @ name  @ 79 @ 
+for  @ 92 @ for  @ 100 @ 
+init  @ 38 @ init  @ 42 @ 
+block  @ 15 @ block  @ 18 @ 
+argument_list  @ 49 @ argument_list  @ 53 @ 
+expr  @ 132 @ expr  @ 150 @ 
+expr  @ 41 @ expr  @ 45 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 60 @ 
+operator: ::  @ 5 @ operator: ::  @ 5 @ 
+name: i  @ 78 @ name: i  @ 83 @ 
+specifier: const  @ 118 @ specifier: const  @ 136 @ 
+name: upper_frequency_limit  @ 50 @ name: upper_frequency_limit  @ 54 @ 
+type  @ 47 @ type  @ 51 @ 
+operator: <<  @ 109 @ operator: <<  @ 123 @ 
+literal: 0.5  @ 104 @ literal: 0.5  @ 112 @ 
+name: double  @ 41 @ name: double  @ 45 @ 
+block  @ 5 @ block  @ 8 @ 
+name  @ 81 @ name  @ 86 @ 
+expr  @ 120 @ expr  @ 138 @ 
+expr  @ 81 @ expr  @ 86 @ 
+name: channel  @ 136 @ name: channel  @ 154 @ 
+index  @ 134 @ index  @ 152 @ 
+name: band_mapper_  @ 95 @ name: band_mapper_  @ 103 @ 
+type  @ 41 @ type  @ 45 @ 
+call  @ 11 @ call  @ 14 @ 
+name: band_weights_sum  @ 93 @ name: band_weights_sum  @ 101 @ 
+if  @ 108 @ if  @ 116 @ 
+name: i  @ 60 @ name: i  @ 64 @ 
+expr  @ 94 @ expr  @ 102 @ 
+macro  @ 3 @ macro  @ 3 @ 
+operator: <<  @ 109 @ operator: <<  @ 122 @ 
+argument_list  @ 56 @ argument_list  @ 60 @ 
+literal: 2  @ 20 @ literal: 2  @ 23 @ 
+operator: .  @ 108 @ operator: .  @ 116 @ 
+control  @ 132 @ control  @ 150 @ 
+condition  @ 30 @ condition  @ 33 @ 
+name  @ 105 @ name  @ 113 @ 
+literal: " in mel-frequency design. "  @ 109 @ literal: " in mel-frequency design. "  @ 119 @ 
+argument_list  @ 48 @ argument_list  @ 52 @ 
+argument  @ 50 @ argument  @ 54 @ 
+condition  @ 60 @ condition  @ 64 @ 
+operator: ||  @ 77 @ operator: ||  @ 82 @ 
+name: void  @ 118 @ name: void  @ 135 @ 
+literal: 0  @ 75 @ literal: 0  @ 80 @ 
+operator: <<  @ 109 @ operator: <<  @ 126 @ 
+if  @ 124 @ if  @ 142 @ 
+expr  @ 97 @ expr  @ 105 @ 
+argument  @ 11 @ argument  @ 14 @ 
+argument  @ 49 @ argument  @ 53 @ 
+name: FreqToMel  @ 81 @ name: FreqToMel  @ 87 @ 
+argument  @ 91 @ argument  @ 99 @ 
+call  @ 109 @ call  @ 117 @ 
+return  @ 32 @ return  @ 36 @ 
+name  @ 108 @ name  @ 116 @ 
+operator: <  @ 77 @ operator: <  @ 82 @ 
+name: i  @ 135 @ name: i  @ 153 @ 
+operator: ::  @ 91 @ operator: ::  @ 99 @ 
+name: false  @ 27 @ name: false  @ 30 @ 
+name: false  @ 12 @ name: false  @ 15 @ 
+name: initialized_  @ 111 @ name: initialized_  @ 128 @ 
+argument_list  @ 91 @ argument_list  @ 99 @ 
+block  @ 80 @ block  @ 85 @ 
+if_stmt  @ 95 @ if_stmt  @ 103 @ 
+block_content  @ 140 @ block_content  @ 158 @ 
+name: c  @ 105 @ name: c  @ 113 @ 
+decl_stmt  @ 38 @ decl_stmt  @ 42 @ 
+expr  @ 61 @ expr  @ 65 @ 
+if  @ 119 @ if  @ 137 @ 
+operator: >=  @ 80 @ operator: >=  @ 85 @ 
+argument  @ 105 @ argument  @ 113 @ 
+macro  @ 5 @ macro  @ 5 @ 
+literal: 1  @ 10 @ literal: 1  @ 13 @ 
+expr_stmt  @ 137 @ expr_stmt  @ 155 @ 
+block  @ 140 @ block  @ 158 @ 
+name: output  @ 140 @ name: output  @ 158 @ 
+expr  @ 144 @ expr  @ 162 @ 
+name: i  @ 77 @ name: i  @ 82 @ 
+return  @ 145 @ return  @ 163 @ 
+block  @ 132 @ block  @ 150 @ 
+expr  @ 56 @ expr  @ 60 @ 
+name: c  @ 92 @ name: c  @ 100 @ 
+block  @ 94 @ block  @ 102 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name  @ 83 @ name  @ 90 @ 
+name: i  @ 81 @ name: i  @ 86 @ 
+expr  @ 125 @ expr  @ 143 @ 
+index  @ 81 @ index  @ 86 @ 
+init  @ 94 @ init  @ 102 @ 
+comment: // Always exclude DC; emulate HTK.  @ 46 @ comment: // Always exclude DC; emulate HTK.  @ 50 @ 
+operator: *  @ 59 @ operator: *  @ 63 @ 
+name: ERROR  @ 16 @ name: ERROR  @ 19 @ 
+operator: <<  @ 109 @ operator: <<  @ 124 @ 
+call  @ 83 @ call  @ 90 @ 
+name: push_back  @ 105 @ name: push_back  @ 113 @ 
+block_content  @ 96 @ block_content  @ 104 @ 
+name: mel_span  @ 41 @ name: mel_span  @ 45 @ 
+literal: "Perhaps too many channels or "  @ 109 @ literal: "Perhaps too many channels or "  @ 120 @ 
+operator: <=  @ 124 @ operator: <=  @ 142 @ 
+expr  @ 39 @ expr  @ 43 @ 
+name: i  @ 75 @ name: i  @ 80 @ 
+argument  @ 50 @ argument  @ 54 @ 
+block_content  @ 125 @ block_content  @ 143 @ 
+expr_stmt  @ 111 @ expr_stmt  @ 128 @ 
+if_stmt  @ 25 @ if_stmt  @ 28 @ 
+literal: " output_channel_count: "  @ 109 @ literal: " output_channel_count: "  @ 124 @ 
+expr  @ 17 @ expr  @ 20 @ 
+name: i  @ 98 @ name: i  @ 106 @ 
+name: channel  @ 139 @ name: channel  @ 157 @ 
+operator: <=  @ 132 @ operator: <=  @ 150 @ 
+argument_list  @ 3 @ argument_list  @ 3 @ 
+operator: (  @ 43 @ operator: (  @ 47 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 1 @ 
+name: end_index_  @ 77 @ name: end_index_  @ 82 @ 
+argument  @ 133 @ argument  @ 151 @ 
+condition  @ 58 @ condition  @ 62 @ 
+operator: <  @ 10 @ operator: <  @ 13 @ 
+operator: -  @ 96 @ operator: -  @ 104 @ 
+operator: <<  @ 109 @ operator: <<  @ 117 @ 
+literal: "Mel Filterbank not initialized."  @ 120 @ literal: "Mel Filterbank not initialized."  @ 138 @ 
+literal: 0.0  @ 93 @ literal: 0.0  @ 101 @ 
+name: weights_  @ 96 @ name: weights_  @ 104 @ 
+block_content  @ 105 @ block_content  @ 113 @ 
+name: MfccMelFilterbank  @ 5 @ name: MfccMelFilterbank  @ 5 @ 
+block  @ 137 @ block  @ 155 @ 
+incr  @ 92 @ incr  @ 100 @ 
+if  @ 20 @ if  @ 23 @ 
+condition  @ 20 @ condition  @ 23 @ 
+literal: 1  @ 66 @ literal: 1  @ 71 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+operator: )  @ 63 @ operator: )  @ 68 @ 
+argument  @ 5 @ argument  @ 5 @ 
+name: weighted  @ 134 @ name: weighted  @ 152 @ 
+call  @ 16 @ call  @ 19 @ 
+name: num_channels_  @ 63 @ name: num_channels_  @ 67 @ 
+name: mel_hi  @ 39 @ name: mel_hi  @ 43 @ 
+operator: <<  @ 109 @ operator: <<  @ 118 @ 
+call  @ 109 @ call  @ 117 @ 
+name: melf  @ 59 @ name: melf  @ 63 @ 
+name: tensorflow  @ 1 @ name: tensorflow  @ 1 @ 
+operator: ::  @ 118 @ operator: ::  @ 135 @ 
+block_content  @ 43 @ block_content  @ 47 @ 
+decl  @ 40 @ decl  @ 44 @ 
+call  @ 31 @ call  @ 34 @ 
+block  @ 97 @ block  @ 105 @ 
+condition  @ 42 @ condition  @ 46 @ 
+operator: (  @ 96 @ operator: (  @ 104 @ 
+operator: *  @ 43 @ operator: *  @ 47 @ 
+expr  @ 133 @ expr  @ 151 @ 
+operator: -  @ 40 @ operator: -  @ 44 @ 
+literal: 0  @ 58 @ literal: 0  @ 62 @ 
+block_content  @ 59 @ block_content  @ 63 @ 
+expr  @ 26 @ expr  @ 29 @ 
+expr  @ 25 @ expr  @ 28 @ 
+name  @ 66 @ name  @ 71 @ 
+literal: "Upper frequency limit must be greater than "  @ 31 @ literal: "Upper frequency limit must be greater than "  @ 34 @ 
+init  @ 92 @ init  @ 100 @ 
+call  @ 49 @ call  @ 53 @ 
+decl  @ 135 @ decl  @ 153 @ 
+index  @ 133 @ index  @ 151 @ 
+argument  @ 145 @ argument  @ 163 @ 
+expr  @ 12 @ expr  @ 15 @ 
+comment: // limit on the high side of the final triangular filter.  @ 36 @ comment: // limit on the high side of the final triangular filter.  @ 40 @ 
+name  @ 56 @ name  @ 60 @ 
+name: weights_  @ 81 @ name: weights_  @ 86 @ 
+operator: =  @ 76 @ operator: =  @ 81 @ 
+name: freq  @ 145 @ name: freq  @ 163 @ 
+if_stmt  @ 80 @ if_stmt  @ 85 @ 
+decl_stmt  @ 57 @ decl_stmt  @ 61 @ 
+name: num_channels_  @ 37 @ name: num_channels_  @ 41 @ 
+name: lower_frequency_limit  @ 109 @ name: lower_frequency_limit  @ 125 @ 
+condition  @ 10 @ condition  @ 13 @ 
+argument  @ 21 @ argument  @ 24 @ 
+expr  @ 105 @ expr  @ 113 @ 
+operator: .  @ 74 @ operator: .  @ 79 @ 
+argument_list  @ 83 @ argument_list  @ 90 @ 
+operator: <<  @ 31 @ operator: <<  @ 34 @ 
+name  @ 124 @ name  @ 142 @ 
+argument_list  @ 74 @ argument_list  @ 79 @ 
+operator: ::  @ 3 @ operator: ::  @ 3 @ 
+name: weights_  @ 78 @ name: weights_  @ 83 @ 
+name: output  @ 130 @ name: output  @ 148 @ 
+block  @ 77 @ block  @ 82 @ 
+literal: 1  @ 37 @ literal: 1  @ 41 @ 
+expr_stmt  @ 140 @ expr_stmt  @ 158 @ 
+decl_stmt  @ 47 @ decl_stmt  @ 51 @ 
+argument  @ 5 @ argument  @ 6 @ 
+name: band_mapper_  @ 76 @ name: band_mapper_  @ 81 @ 
+init  @ 92 @ init  @ 100 @ 
+name  @ 61 @ name  @ 65 @ 
+name: assign  @ 130 @ name: assign  @ 148 @ 
+operator: <<  @ 109 @ operator: <<  @ 119 @ 
+name: c  @ 97 @ name: c  @ 105 @ 
+name: hz_per_sbin  @ 83 @ name: hz_per_sbin  @ 90 @ 
+name: band_weights_sum  @ 96 @ name: band_weights_sum  @ 104 @ 
+argument_list  @ 50 @ argument_list  @ 54 @ 
+name: std  @ 91 @ name: std  @ 99 @ 
+name: upper_frequency_limit  @ 30 @ name: upper_frequency_limit  @ 33 @ 
+expr  @ 42 @ expr  @ 46 @ 
+name: band_mapper_  @ 61 @ name: band_mapper_  @ 65 @ 
+name: band_mapper_  @ 97 @ name: band_mapper_  @ 105 @ 
+argument_list  @ 81 @ argument_list  @ 87 @ 
+operator: ==  @ 95 @ operator: ==  @ 103 @ 
+operator: -  @ 83 @ operator: -  @ 91 @ 
+argument  @ 81 @ argument  @ 87 @ 
+name: ERROR  @ 125 @ name: ERROR  @ 143 @ 
+operator: <  @ 63 @ operator: <  @ 68 @ 
+operator: <  @ 58 @ operator: <  @ 62 @ 
+operator: (  @ 83 @ operator: (  @ 90 @ 
+block  @ 118 @ block  @ 136 @ 
+call  @ 125 @ call  @ 143 @ 
+comment: // each FFT bin, band_mapper tells us which channel this bin contributes to  @ 53 @ comment: // each FFT bin, band_mapper tells us which channel this bin contributes to  @ 57 @ 
+name: i  @ 94 @ name: i  @ 102 @ 
+call  @ 21 @ call  @ 24 @ 
+literal: " starting at "  @ 109 @ literal: " starting at "  @ 118 @ 
+init  @ 40 @ init  @ 44 @ 
+name: weights_  @ 74 @ name: weights_  @ 79 @ 
+name  @ 43 @ name  @ 47 @ 
+argument  @ 26 @ argument  @ 29 @ 
+argument  @ 74 @ argument  @ 79 @ 
+operator: <<  @ 109 @ operator: <<  @ 125 @ 
+operator: .  @ 109 @ operator: .  @ 117 @ 
+condition  @ 97 @ condition  @ 105 @ 
+if_stmt  @ 136 @ if_stmt  @ 154 @ 
+block  @ 58 @ block  @ 62 @ 
+if  @ 25 @ if  @ 28 @ 
+expr  @ 21 @ expr  @ 24 @ 
+decl_stmt  @ 133 @ decl_stmt  @ 151 @ 
+name  @ 81 @ name  @ 87 @ 
+literal: "Sample rate must be positive."  @ 16 @ literal: "Sample rate must be positive."  @ 19 @ 
+name: channel  @ 63 @ name: channel  @ 68 @ 
+block  @ 10 @ block  @ 13 @ 
+name: LOG  @ 21 @ name: LOG  @ 24 @ 
+comment: // Check the sum of FFT bin weights for every mel band to identify  @ 87 @ comment: // Check the sum of FFT bin weights for every mel band to identify  @ 95 @ 
+block  @ 25 @ block  @ 28 @ 
+operator: (  @ 137 @ operator: (  @ 155 @ 
+argument  @ 144 @ argument  @ 162 @ 
+operator: *  @ 137 @ operator: *  @ 155 @ 
+argument_list  @ 21 @ argument_list  @ 24 @ 
+expr  @ 104 @ expr  @ 112 @ 
+expr  @ 78 @ expr  @ 83 @ 
+name: ERROR  @ 11 @ name: ERROR  @ 14 @ 
+expr  @ 49 @ expr  @ 53 @ 
+name: num_channels_  @ 139 @ name: num_channels_  @ 157 @ 
+condition  @ 75 @ condition  @ 80 @ 
+expr  @ 61 @ expr  @ 65 @ 
+operator: +  @ 42 @ operator: +  @ 46 @ 
+operator: -  @ 95 @ operator: -  @ 103 @ 
+call  @ 108 @ call  @ 116 @ 
+argument  @ 59 @ argument  @ 63 @ 
+name: i  @ 81 @ name: i  @ 87 @ 
+name: i  @ 83 @ name: i  @ 90 @ 
+name: i  @ 83 @ name: i  @ 90 @ 
+expr  @ 137 @ expr  @ 155 @ 
+operator: <<  @ 109 @ operator: <<  @ 117 @ 
+call  @ 26 @ call  @ 29 @ 
+operator: /  @ 48 @ operator: /  @ 52 @ 
+name: num_channels_  @ 41 @ name: num_channels_  @ 45 @ 
+type  @ 132 @ type  @ 150 @ 
+name: mel_low  @ 83 @ name: mel_low  @ 91 @ 
+operator: <<  @ 125 @ operator: <<  @ 143 @ 
+expr  @ 96 @ expr  @ 104 @ 
+argument_list  @ 49 @ argument_list  @ 53 @ 
+operator: =  @ 66 @ operator: =  @ 71 @ 
+name: size  @ 124 @ name: size  @ 142 @ 
+call  @ 38 @ call  @ 42 @ 
+expr  @ 64 @ expr  @ 69 @ 
+comment: // mel bands have been requested for the given FFT size.  @ 90 @ comment: // mel bands have been requested for the given FFT size.  @ 98 @ 
+name: bad_channels  @ 109 @ name: bad_channels  @ 118 @ 
+argument_list  @ 11 @ argument_list  @ 14 @ 
+name  @ 50 @ name  @ 54 @ 
+argument_list  @ 108 @ argument_list  @ 116 @ 
+name: int  @ 42 @ name: int  @ 46 @ 
+for  @ 75 @ for  @ 80 @ 
+literal: "not enough frequency resolution in spectrum. ("  @ 109 @ literal: "not enough frequency resolution in spectrum. ("  @ 121 @ 
+name: upper_frequency_limit  @ 109 @ name: upper_frequency_limit  @ 126 @ 
+expr  @ 91 @ expr  @ 99 @ 
+comment: // For each FFT bin  @ 132 @ comment: // For each FFT bin  @ 150 @ 
+expr  @ 136 @ expr  @ 154 @ 
+index  @ 98 @ index  @ 106 @ 
+literal: "Missing "  @ 109 @ literal: "Missing "  @ 117 @ 
+name: center_frequencies_  @ 81 @ name: center_frequencies_  @ 88 @ 
+name: spec_val  @ 140 @ name: spec_val  @ 158 @ 
+expr  @ 109 @ expr  @ 117 @ 
+expr  @ 48 @ expr  @ 52 @ 
+init  @ 133 @ init  @ 151 @ 
+if_stmt  @ 108 @ if_stmt  @ 116 @ 
+operator: >  @ 60 @ operator: >  @ 64 @ 
+block_content  @ 81 @ block_content  @ 86 @ 
+literal: " input_sample_rate: "  @ 109 @ literal: " input_sample_rate: "  @ 123 @ 
+name: sqrt  @ 133 @ name: sqrt  @ 151 @ 
+name: start_index_  @ 60 @ name: start_index_  @ 64 @ 
+comment: // Maps the input spectrum bin indices to filter bank channels/indices. For  @ 52 @ comment: // Maps the input spectrum bin indices to filter bank channels/indices. For  @ 56 @ 
+name: int  @ 92 @ name: int  @ 100 @ 
+expr  @ 77 @ expr  @ 82 @ 
+comment: // of any one FFT bin is based on its distance along the continuum between two  @ 71 @ comment: // of any one FFT bin is based on its distance along the continuum between two  @ 76 @ 
+expr  @ 63 @ expr  @ 68 @ 
+return  @ 22 @ return  @ 25 @ 
+operator: )  @ 137 @ operator: )  @ 155 @ 
+name: LOG  @ 16 @ name: LOG  @ 19 @ 
+expr  @ 109 @ expr  @ 118 @ 
+block  @ 79 @ block  @ 84 @ 
+operator: <=  @ 30 @ operator: <=  @ 33 @ 
+argument_list  @ 50 @ argument_list  @ 54 @ 
+argument_list  @ 118 @ argument_list  @ 135 @ 
+operator: >  @ 77 @ operator: >  @ 82 @ 
+name: hz_per_sbin  @ 81 @ name: hz_per_sbin  @ 87 @ 
+name: i  @ 42 @ name: i  @ 46 @ 
+name  @ 63 @ name  @ 68 @ 
+literal: "Lower frequency limit must be nonnegative."  @ 26 @ literal: "Lower frequency limit must be nonnegative."  @ 29 @ 
+decl  @ 75 @ decl  @ 80 @ 
+name: channel  @ 66 @ name: channel  @ 71 @ 
+decl  @ 133 @ decl  @ 151 @ 
+name: static_cast  @ 48 @ name: static_cast  @ 52 @ 
+call  @ 133 @ call  @ 151 @ 
+expr  @ 75 @ expr  @ 80 @ 
+name: FreqToMel  @ 83 @ name: FreqToMel  @ 90 @ 
+operator: <<  @ 21 @ operator: <<  @ 24 @ 
+expr  @ 66 @ expr  @ 71 @ 
+argument  @ 49 @ argument  @ 53 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 132 @ expr  @ 150 @ 
+if  @ 60 @ if  @ 64 @ 
+name: FreqToMel  @ 144 @ name: FreqToMel  @ 162 @ 
+condition  @ 108 @ condition  @ 116 @ 
+operator: .  @ 56 @ operator: .  @ 60 @ 
+name: start_index_  @ 132 @ name: start_index_  @ 150 @ 
+literal: 1  @ 48 @ literal: 1  @ 52 @ 
+control  @ 58 @ control  @ 62 @ 
+operator: )  @ 83 @ operator: )  @ 91 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+name: resize  @ 37 @ name: resize  @ 41 @ 
+operator: <  @ 20 @ operator: <  @ 23 @ 
+argument_list  @ 39 @ argument_list  @ 43 @ 
+argument  @ 83 @ argument  @ 90 @ 
+decl  @ 38 @ decl  @ 42 @ 
+name: i  @ 59 @ name: i  @ 63 @ 
+name: band_weights_sum  @ 104 @ name: band_weights_sum  @ 112 @ 
+name: channel  @ 81 @ name: channel  @ 88 @ 
+name: i  @ 42 @ name: i  @ 46 @ 
+name: c  @ 92 @ name: c  @ 100 @ 
+expr_stmt  @ 130 @ expr_stmt  @ 148 @ 
+expr  @ 95 @ expr  @ 103 @ 
+name: channel  @ 81 @ name: channel  @ 87 @ 
+operator: =  @ 49 @ operator: =  @ 53 @ 
+type  @ 39 @ type  @ 43 @ 
+name: MfccMelFilterbank  @ 3 @ name: MfccMelFilterbank  @ 3 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 69 @ 
+expr_stmt  @ 98 @ expr_stmt  @ 106 @ 
+return  @ 121 @ return  @ 139 @ 
+name  @ 78 @ name  @ 83 @ 
+operator: <  @ 42 @ operator: <  @ 46 @ 
+specifier: const  @ 47 @ specifier: const  @ 51 @ 
+type  @ 134 @ type  @ 152 @ 
+name  @ 135 @ name  @ 153 @ 
+name: LOG  @ 109 @ name: LOG  @ 117 @ 
+operator: +  @ 43 @ operator: +  @ 47 @ 
+operator: ++  @ 132 @ operator: ++  @ 150 @ 
+decl_stmt  @ 135 @ decl_stmt  @ 153 @ 
+name: channel  @ 64 @ name: channel  @ 69 @ 
+comment: // An extra center frequency is computed at the top to get the upper  @ 35 @ comment: // An extra center frequency is computed at the top to get the upper  @ 39 @ 
+name  @ 83 @ name  @ 91 @ 
+name: weighted  @ 140 @ name: weighted  @ 158 @ 
+argument_list  @ 109 @ argument_list  @ 117 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: )  @ 49 @ operator: )  @ 53 @ 
+decl  @ 41 @ decl  @ 45 @ 
+operator: ::  @ 144 @ operator: ::  @ 162 @ 
+condition  @ 80 @ condition  @ 85 @ 
+name: Initialize  @ 5 @ name: Initialize  @ 5 @ 
+expr  @ 6 @ expr  @ 9 @ 
+expr  @ 125 @ expr  @ 143 @ 
+literal: 0  @ 80 @ literal: 0  @ 85 @ 
+name: LOG  @ 26 @ name: LOG  @ 29 @ 
+operator: *  @ 83 @ operator: *  @ 90 @ 
+operator: .  @ 37 @ operator: .  @ 41 @ 
+argument_list  @ 3 @ argument_list  @ 3 @ 
+expr  @ 32 @ expr  @ 36 @ 
+expr  @ 16 @ expr  @ 19 @ 
+block  @ 92 @ block  @ 100 @ 
+index  @ 63 @ index  @ 68 @ 
+name: channel  @ 135 @ name: channel  @ 153 @ 
+literal: 1  @ 95 @ literal: 1  @ 103 @ 
+name: output  @ 137 @ name: output  @ 155 @ 
+type  @ 135 @ type  @ 153 @ 
+name: sample_rate_  @ 7 @ name: sample_rate_  @ 10 @ 
+expr  @ 137 @ expr  @ 155 @ 
+expr  @ 59 @ expr  @ 63 @ 
+name: center_frequencies_  @ 37 @ name: center_frequencies_  @ 41 @ 
+if  @ 95 @ if  @ 103 @ 
+operator: +=  @ 98 @ operator: +=  @ 106 @ 
+call  @ 48 @ call  @ 52 @ 
+expr  @ 81 @ expr  @ 86 @ 
+name: hz_per_sbin  @ 49 @ name: hz_per_sbin  @ 53 @ 
+name: static_cast  @ 49 @ name: static_cast  @ 53 @ 
+name: hz_per_sbin  @ 59 @ name: hz_per_sbin  @ 63 @ 
+name: i  @ 96 @ name: i  @ 104 @ 
+index  @ 140 @ index  @ 158 @ 
+operator: )  @ 81 @ operator: )  @ 88 @ 
+comment: // is 1.0, if the total sum of weights is 0.5, we're in bad shape.  @ 103 @ comment: // is 1.0, if the total sum of weights is 0.5, we're in bad shape.  @ 111 @ 
+argument_list  @ 125 @ argument_list  @ 143 @ 
+name: start_index_  @ 77 @ name: start_index_  @ 82 @ 
+expr  @ 11 @ expr  @ 14 @ 
+operator: ++  @ 94 @ operator: ++  @ 102 @ 
+comment: // Left side of triangle  @ 140 @ comment: // Left side of triangle  @ 158 @ 
+operator: =  @ 43 @ operator: =  @ 47 @ 
+operator: )  @ 77 @ operator: )  @ 82 @ 
+operator: ++  @ 42 @ operator: ++  @ 46 @ 
+expr_stmt  @ 91 @ expr_stmt  @ 99 @ 
+block  @ 3 @ block  @ 3 @ 
+expr  @ 83 @ expr  @ 90 @ 
+call  @ 37 @ call  @ 41 @ 
+index  @ 81 @ index  @ 88 @ 
+argument_list  @ 48 @ argument_list  @ 52 @ 
+name: i  @ 66 @ name: i  @ 71 @ 
+operator: (  @ 140 @ operator: (  @ 158 @ 
+expr  @ 60 @ expr  @ 64 @ 
+type  @ 40 @ type  @ 44 @ 
+name: input_length_  @ 75 @ name: input_length_  @ 80 @ 
+name: i  @ 75 @ name: i  @ 80 @ 
+operator: =  @ 50 @ operator: =  @ 54 @ 
+operator: <  @ 139 @ operator: <  @ 157 @ 
+expr_stmt  @ 109 @ expr_stmt  @ 117 @ 
+expr  @ 78 @ expr  @ 83 @ 
+block  @ 62 @ block  @ 66 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 86 @ 
+init  @ 75 @ init  @ 80 @ 
+expr  @ 27 @ expr  @ 30 @ 
+incr  @ 94 @ incr  @ 102 @ 
+specifier: const  @ 39 @ specifier: const  @ 43 @ 
+name: input  @ 133 @ name: input  @ 151 @ 
+if_stmt  @ 124 @ if_stmt  @ 142 @ 
+name: LOG  @ 31 @ name: LOG  @ 34 @ 
+decl  @ 132 @ decl  @ 150 @ 
+name: bad_channels  @ 108 @ name: bad_channels  @ 116 @ 
+operator: ||  @ 60 @ operator: ||  @ 64 @ 
+operator: -  @ 66 @ operator: -  @ 71 @ 
+name: double  @ 48 @ name: double  @ 52 @ 
+argument_list  @ 41 @ argument_list  @ 45 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 3 @ 
+condition  @ 95 @ condition  @ 103 @ 
+expr_stmt  @ 96 @ expr_stmt  @ 104 @ 
+argument  @ 5 @ argument  @ 5 @ 
+name: input_length_  @ 56 @ name: input_length_  @ 60 @ 
+expr  @ 130 @ expr  @ 148 @ 
+literal: "Input too short to compute filterbank"  @ 125 @ literal: "Input too short to compute filterbank"  @ 143 @ 
+name: mel_spacing  @ 43 @ name: mel_spacing  @ 47 @ 
+if_stmt  @ 30 @ if_stmt  @ 33 @ 
+expr_stmt  @ 144 @ expr_stmt  @ 162 @ 
+expr  @ 145 @ expr  @ 163 @ 
+literal: 1127.0  @ 145 @ literal: 1127.0  @ 163 @ 
+literal: 0  @ 92 @ literal: 0  @ 100 @ 
+expr  @ 10 @ expr  @ 13 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 34 @ 
+operator: <<  @ 109 @ operator: <<  @ 122 @ 
+name: output_channel_count  @ 109 @ name: output_channel_count  @ 124 @ 
+name  @ 76 @ name  @ 81 @ 
+block  @ 82 @ block  @ 89 @ 
+block_content  @ 93 @ block_content  @ 101 @ 
+block_content  @ 133 @ block_content  @ 151 @ 
+name: i  @ 77 @ name: i  @ 82 @ 
+name: input_length  @ 20 @ name: input_length  @ 23 @ 
+name: lower_frequency_limit  @ 25 @ name: lower_frequency_limit  @ 28 @ 
+operator: <<  @ 31 @ operator: <<  @ 35 @ 
+name: num_channels_  @ 10 @ name: num_channels_  @ 13 @ 
+incr  @ 75 @ incr  @ 80 @ 
+name: lower_frequency_limit  @ 30 @ name: lower_frequency_limit  @ 33 @ 
+while  @ 63 @ while  @ 67 @ 
+index  @ 83 @ index  @ 91 @ 
+expr  @ 140 @ expr  @ 158 @ 
+name: center_frequencies_  @ 83 @ name: center_frequencies_  @ 90 @ 
+if  @ 97 @ if  @ 105 @ 
+if_stmt  @ 10 @ if_stmt  @ 13 @ 
+block_content  @ 11 @ block_content  @ 14 @ 
+name: input_sample_rate  @ 7 @ name: input_sample_rate  @ 10 @ 
+name: i  @ 97 @ name: i  @ 105 @ 
+operator: (  @ 77 @ operator: (  @ 82 @ 
+type  @ 93 @ type  @ 101 @ 
+call  @ 50 @ call  @ 54 @ 
+name: int  @ 91 @ name: int  @ 99 @ 
+name: LOG  @ 125 @ name: LOG  @ 143 @ 
+comment: // situations where the mel bands are so narrow that they don't get  @ 88 @ comment: // situations where the mel bands are so narrow that they don't get  @ 96 @ 
+name: i  @ 43 @ name: i  @ 47 @ 
+block  @ 60 @ block  @ 64 @ 
+literal: 0  @ 25 @ literal: 0  @ 28 @ 
+operator: )  @ 77 @ operator: )  @ 82 @ 
+name: double  @ 38 @ name: double  @ 42 @ 
+operator: <<  @ 109 @ operator: <<  @ 124 @ 
+name: channel  @ 76 @ name: channel  @ 81 @ 
+argument_list  @ 109 @ argument_list  @ 117 @ 
+name: weights_  @ 98 @ name: weights_  @ 106 @ 
+expr  @ 43 @ expr  @ 47 @ 
+init  @ 135 @ init  @ 153 @ 
+name: FreqToMel  @ 39 @ name: FreqToMel  @ 43 @ 
+argument_list  @ 38 @ argument_list  @ 42 @ 
+name: double  @ 40 @ name: double  @ 44 @ 
+init  @ 57 @ init  @ 61 @ 
+init  @ 94 @ init  @ 102 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 71 @ 
+operator: +  @ 37 @ operator: +  @ 41 @ 
+operator: <<  @ 109 @ operator: <<  @ 126 @ 
+expr  @ 48 @ expr  @ 52 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 41 @ 
+name: LOG  @ 11 @ name: LOG  @ 14 @ 
+name: false  @ 32 @ name: false  @ 36 @ 
+argument_list  @ 37 @ argument_list  @ 41 @ 
+call  @ 59 @ call  @ 63 @ 
+literal: 2  @ 61 @ literal: 2  @ 65 @ 
+name: static_cast  @ 50 @ name: static_cast  @ 54 @ 
+expr  @ 76 @ expr  @ 81 @ 
+block_content  @ 98 @ block_content  @ 106 @ 
+expr_stmt  @ 138 @ expr_stmt  @ 156 @ 
+expr  @ 40 @ expr  @ 44 @ 
+expr  @ 75 @ expr  @ 80 @ 
+literal: 1  @ 43 @ literal: 1  @ 47 @ 
+expr  @ 134 @ expr  @ 152 @ 
+expr  @ 26 @ expr  @ 29 @ 
+for  @ 132 @ for  @ 150 @ 
+expr  @ 56 @ expr  @ 60 @ 
+operator: +  @ 49 @ operator: +  @ 53 @ 
+operator: )  @ 63 @ operator: )  @ 67 @ 
+operator: +=  @ 140 @ operator: +=  @ 158 @ 
+expr  @ 145 @ expr  @ 163 @ 
+block  @ 75 @ block  @ 80 @ 
+operator: (  @ 60 @ operator: (  @ 64 @ 
+name: double  @ 133 @ name: double  @ 151 @ 
+operator: :  @ 3 @ operator: :  @ 3 @ 
+comment: // weights sum.But given that the target gain at the center frequency  @ 102 @ comment: // weights sum.  But given that the target gain at the center frequency  @ 110 @ 
+name: true  @ 111 @ name: true  @ 128 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 29 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 65 @ 
+block  @ 124 @ block  @ 142 @ 
+name: MfccMelFilterbank  @ 144 @ name: MfccMelFilterbank  @ 162 @ 
+operator: ->  @ 130 @ operator: ->  @ 148 @ 
+name  @ 81 @ name  @ 88 @ 
+name  @ 96 @ name  @ 104 @ 
+operator: (  @ 49 @ operator: (  @ 53 @ 
+block_content  @ 137 @ block_content  @ 155 @ 
+return  @ 17 @ return  @ 20 @ 
+expr  @ 81 @ expr  @ 88 @ 
+expr  @ 37 @ expr  @ 41 @ 
+operator: (  @ 83 @ operator: (  @ 91 @ 
+name: hz_per_sbin  @ 47 @ name: hz_per_sbin  @ 51 @ 
+init  @ 58 @ init  @ 62 @ 
+argument_list  @ 145 @ argument_list  @ 163 @ 
+operator: <<  @ 109 @ operator: <<  @ 123 @ 
+index  @ 81 @ index  @ 87 @ 
+name: float  @ 93 @ name: float  @ 101 @ 
+argument  @ 56 @ argument  @ 60 @ 
+name: false  @ 22 @ name: false  @ 25 @ 
+name: num_channels_  @ 42 @ name: num_channels_  @ 46 @ 
+argument  @ 5 @ argument  @ 8 @ 
+block  @ 1 @ block  @ 1 @ 
+expr  @ 109 @ expr  @ 117 @ 
+expr  @ 93 @ expr  @ 101 @ 
+literal: 0  @ 94 @ literal: 0  @ 102 @ 
+block_content  @ 26 @ block_content  @ 29 @ 
+name: i  @ 60 @ name: i  @ 64 @ 
+name: FreqToMel  @ 59 @ name: FreqToMel  @ 63 @ 
+expr  @ 74 @ expr  @ 79 @ 
+operator: .  @ 124 @ operator: .  @ 142 @ 
+operator: =  @ 78 @ operator: =  @ 83 @ 
+name: ERROR  @ 31 @ name: ERROR  @ 34 @ 
+name: channel  @ 81 @ name: channel  @ 88 @ 
+operator: (  @ 63 @ operator: (  @ 67 @ 
+name: input_length_  @ 74 @ name: input_length_  @ 79 @ 
+name: weights_  @ 83 @ name: weights_  @ 90 @ 
+expr  @ 130 @ expr  @ 148 @ 
+operator: =  @ 83 @ operator: =  @ 90 @ 
+expr_stmt  @ 78 @ expr_stmt  @ 83 @ 
+init  @ 132 @ init  @ 150 @ 
+decl  @ 94 @ decl  @ 102 @ 
+argument_list  @ 120 @ argument_list  @ 138 @ 
+name: double  @ 39 @ name: double  @ 43 @ 
+operator: (  @ 63 @ operator: (  @ 68 @ 
+block  @ 95 @ block  @ 103 @ 
+operator: !  @ 108 @ operator: !  @ 116 @ 
+name: c  @ 95 @ name: c  @ 103 @ 
+index  @ 109 @ index  @ 118 @ 
+condition  @ 124 @ condition  @ 142 @ 
+name: true  @ 112 @ name: true  @ 129 @ 
+expr  @ 66 @ expr  @ 71 @ 
+name  @ 109 @ name  @ 118 @ 
+index  @ 78 @ index  @ 83 @ 
+expr  @ 38 @ expr  @ 42 @ 
+name  @ 37 @ name  @ 41 @ 
+return  @ 12 @ return  @ 15 @ 
+name  @ 95 @ name  @ 103 @ 
+expr  @ 74 @ expr  @ 79 @ 
+call  @ 3 @ call  @ 3 @ 
+name: i  @ 75 @ name: i  @ 80 @ 
+name: ERROR  @ 26 @ name: ERROR  @ 29 @ 
+index  @ 76 @ index  @ 81 @ 
+condition  @ 25 @ condition  @ 28 @ 
+expr  @ 83 @ expr  @ 90 @ 
+name: resize  @ 74 @ name: resize  @ 79 @ 
+name: vector  @ 91 @ name: vector  @ 99 @ 
+name: double  @ 47 @ name: double  @ 51 @ 
+operator: <<  @ 26 @ operator: <<  @ 29 @ 
+operator: /  @ 50 @ operator: /  @ 54 @ 
+name: bad_channels  @ 91 @ name: bad_channels  @ 99 @ 
+literal: 0  @ 83 @ literal: 0  @ 90 @ 
+operator: <<  @ 109 @ operator: <<  @ 117 @ 
+name  @ 81 @ name  @ 88 @ 
+expr  @ 11 @ expr  @ 14 @ 
+condition  @ 132 @ condition  @ 150 @ 
+operator: ++  @ 64 @ operator: ++  @ 69 @ 
+name: hz_per_sbin  @ 50 @ name: hz_per_sbin  @ 54 @ 
+specifier: const  @ 144 @ specifier: const  @ 162 @ 
+operator: *  @ 145 @ operator: *  @ 163 @ 
+name: mel_low  @ 43 @ name: mel_low  @ 47 @ 
+name: log1p  @ 145 @ name: log1p  @ 163 @ 
+init  @ 39 @ init  @ 43 @ 
+operator: -  @ 61 @ operator: -  @ 65 @ 
+if_stmt  @ 119 @ if_stmt  @ 137 @ 
+expr  @ 134 @ expr  @ 152 @ 
+expr  @ 108 @ expr  @ 116 @ 
+decl  @ 92 @ decl  @ 100 @ 
+operator: .  @ 105 @ operator: .  @ 113 @ 
+name: end_index_  @ 60 @ name: end_index_  @ 64 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 24 @ 
+operator: ++  @ 58 @ operator: ++  @ 62 @ 
+argument  @ 16 @ argument  @ 19 @ 
+name: ERROR  @ 120 @ name: ERROR  @ 138 @ 
+operator: *  @ 140 @ operator: *  @ 158 @ 
+call  @ 145 @ call  @ 163 @ 
+expr  @ 58 @ expr  @ 62 @ 
+call  @ 81 @ call  @ 87 @ 
+block_content  @ 64 @ block_content  @ 69 @ 
+index  @ 97 @ index  @ 105 @ 
+init  @ 42 @ init  @ 46 @ 
+name  @ 91 @ name  @ 99 @ 
+name: empty  @ 108 @ name: empty  @ 116 @ 
+argument  @ 48 @ argument  @ 52 @ 
+operator: =  @ 81 @ operator: =  @ 86 @ 
+name: ERROR  @ 21 @ name: ERROR  @ 24 @ 
+expr  @ 105 @ expr  @ 113 @ 
+expr  @ 39 @ expr  @ 43 @ 
+expr  @ 57 @ expr  @ 61 @ 
+expr  @ 112 @ expr  @ 129 @ 
+argument  @ 38 @ argument  @ 42 @ 
+type  @ 133 @ type  @ 151 @ 
+operator: -  @ 81 @ operator: -  @ 87 @ 
+return  @ 126 @ return  @ 144 @ 
+name: i  @ 94 @ name: i  @ 102 @ 
+name: i  @ 61 @ name: i  @ 65 @ 
+literal: "Input length must greater than 1."  @ 21 @ literal: "Input length must greater than 1."  @ 24 @ 
+name: center_frequencies_  @ 81 @ name: center_frequencies_  @ 87 @ 
+argument  @ 31 @ argument  @ 34 @ 
+block_content  @ 63 @ block_content  @ 67 @ 
+name: int  @ 50 @ name: int  @ 54 @ 
+name: i  @ 58 @ name: i  @ 62 @ 
+block_content  @ 120 @ block_content  @ 138 @ 
+control  @ 92 @ control  @ 100 @ 
+expr  @ 75 @ expr  @ 80 @ 
+expr  @ 3 @ expr  @ 3 @ 
+operator: (  @ 81 @ operator: (  @ 88 @ 
+expr  @ 138 @ expr  @ 156 @ 
+expr  @ 81 @ expr  @ 87 @ 
+init  @ 58 @ init  @ 62 @ 
+name: MfccMelFilterbank  @ 118 @ name: MfccMelFilterbank  @ 135 @ 
+if  @ 136 @ if  @ 154 @ 
+name: c  @ 92 @ name: c  @ 100 @ 
+literal: 0  @ 42 @ literal: 0  @ 46 @ 
+condition  @ 63 @ condition  @ 67 @ 
+name: i  @ 133 @ name: i  @ 151 @ 
+else  @ 62 @ else  @ 66 @ 
+operator: *  @ 134 @ operator: *  @ 152 @ 
+argument  @ 41 @ argument  @ 45 @ 
+name: channel  @ 137 @ name: channel  @ 155 @ 
+expr  @ 80 @ expr  @ 85 @ 
+operator: /  @ 81 @ operator: /  @ 87 @ 
+expr  @ 92 @ expr  @ 100 @ 
+operator: (  @ 81 @ operator: (  @ 87 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 1 @ 
+

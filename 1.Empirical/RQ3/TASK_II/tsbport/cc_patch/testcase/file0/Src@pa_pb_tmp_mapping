@@ -1,0 +1,1 @@
+TIFFErrorExt(tif->tif_clientdata, "TIFFSetField","%s: Invalid InkNames value; expecting %"PRIu16" names, found %"PRIu16,tif->tif_name,td->td_samplesperpixel,(uint16_t)(td->td_samplesperpixel-i));

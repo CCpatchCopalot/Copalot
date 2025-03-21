@@ -1,0 +1,965 @@
+name  @ 112 @ name  @ 133 @ 
+name: ret_flags  @ 31 @ name: ret_flags  @ 34 @ 
+name: data  @ 62 @ name: data  @ 74 @ 
+expr_stmt  @ 118 @ expr_stmt  @ 139 @ 
+argument  @ 63 @ argument  @ 75 @ 
+operator: !  @ 31 @ operator: !  @ 34 @ 
+argument  @ 16 @ argument  @ 17 @ 
+call  @ 115 @ call  @ 136 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+argument_list  @ 100 @ argument_list  @ 119 @ 
+expr_stmt  @ 123 @ expr_stmt  @ 144 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 49 @ 
+argument  @ 92 @ argument  @ 109 @ 
+name: Curl_schannel_cred  @ 70 @ name: curl_schannel_cred  @ 83 @ 
+operator: ->  @ 39 @ operator: ->  @ 42 @ 
+block  @ 62 @ block  @ 74 @ 
+expr  @ 7 @ expr  @ 8 @ 
+if_stmt  @ 102 @ if_stmt  @ 123 @ 
+operator: =  @ 73 @ operator: =  @ 86 @ 
+name: data  @ 85 @ name: conn  @ 102 @ 
+operator: &&  @ 57 @ operator: &&  @ 67 @ 
+expr  @ 78 @ expr  @ 93 @ 
+directive: ifdef  @ 12 @ directive: ifdef  @ 13 @ 
+condition  @ 98 @ condition  @ 116 @ 
+block  @ 52 @ block  @ 62 @ 
+name: CURLcode  @ 1 @ name: CURLcode  @ 1 @ 
+name: old_cred  @ 73 @ name: old_cred  @ 86 @ 
+argument_list  @ 78 @ argument_list  @ 93 @ 
+expr  @ 100 @ expr  @ 120 @ 
+expr_stmt  @ 62 @ expr_stmt  @ 74 @ 
+name: HAS_ALPN  @ 38 @ name: HAS_ALPN  @ 41 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 17 @ 
+expr  @ 18 @ expr  @ 19 @ 
+argument  @ 73 @ argument  @ 86 @ 
+block  @ 42 @ block  @ 48 @ 
+expr  @ 73 @ expr  @ 86 @ 
+condition  @ 9 @ condition  @ 10 @ 
+return  @ 104 @ return  @ 125 @ 
+expr  @ 75 @ expr  @ 89 @ 
+expr_stmt  @ 78 @ expr_stmt  @ 93 @ 
+literal: "schannel: ALPN, server accepted to use %.*s\n"  @ 49 @ literal: "schannel: ALPN, server accepted to use %.*s\n"  @ 56 @ 
+name: result  @ 87 @ name: result  @ 104 @ 
+name: data  @ 49 @ name: data  @ 56 @ 
+expr  @ 115 @ expr  @ 136 @ 
+if  @ 25 @ if  @ 28 @ 
+expr  @ 113 @ expr  @ 134 @ 
+argument_list  @ 34 @ argument_list  @ 37 @ 
+init  @ 70 @ init  @ 83 @ 
+name  @ 24 @ name  @ 27 @ 
+argument  @ 28 @ argument  @ 31 @ 
+name: data  @ 63 @ name: conn  @ 75 @ 
+operator: .  @ 52 @ operator: .  @ 60 @ 
+name  @ 25 @ name  @ 28 @ 
+type  @ 69 @ type  @ 82 @ 
+name: char  @ 9 @ name: char  @ 10 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 10 @ 
+modifier: *  @ 9 @ modifier: *  @ 10 @ 
+operator: (  @ 29 @ operator: (  @ 32 @ 
+block  @ 84 @ block  @ 101 @ 
+argument  @ 32 @ argument  @ 35 @ 
+operator: !  @ 27 @ operator: !  @ 30 @ 
+expr  @ 26 @ expr  @ 29 @ 
+operator: &&  @ 52 @ operator: &&  @ 60 @ 
+return  @ 35 @ return  @ 38 @ 
+argument  @ 73 @ argument  @ 87 @ 
+if_stmt  @ 75 @ if_stmt  @ 89 @ 
+name: SEC_E_OK  @ 6 @ name: SEC_E_OK  @ 7 @ 
+name: HAS_ALPN  @ 12 @ name: HAS_ALPN  @ 13 @ 
+expr  @ 103 @ expr  @ 124 @ 
+name  @ 63 @ name  @ 75 @ 
+if_stmt  @ 47 @ if_stmt  @ 53 @ 
+operator: ->  @ 33 @ operator: ->  @ 36 @ 
+if  @ 110 @ if  @ 131 @ 
+name: use_alpn  @ 39 @ name: use_alpn  @ 42 @ 
+then  @ 9 @ then  @ 10 @ 
+argument_list  @ 107 @ argument_list  @ 128 @ 
+name: ProtocolId  @ 52 @ name: ProtocolId  @ 61 @ 
+operator: !  @ 57 @ operator: !  @ 68 @ 
+name  @ 40 @ name  @ 44 @ 
+condition  @ 68 @ condition  @ 81 @ 
+name: data  @ 18 @ name: data  @ 19 @ 
+then  @ 63 @ then  @ 76 @ 
+operator: ->  @ 123 @ operator: ->  @ 144 @ 
+operator: !=  @ 102 @ operator: !=  @ 123 @ 
+operator: )  @ 102 @ operator: )  @ 123 @ 
+expr  @ 109 @ expr  @ 130 @ 
+if  @ 98 @ if  @ 116 @ 
+block  @ 89 @ block  @ 106 @ 
+type  @ 13 @ type  @ 14 @ 
+name: ret_flags  @ 25 @ name: ret_flags  @ 28 @ 
+name: ssl  @ 5 @ name: ssl  @ 6 @ 
+name  @ 100 @ name  @ 119 @ 
+block  @ 28 @ block  @ 31 @ 
+expr  @ 83 @ expr  @ 100 @ 
+expr  @ 72 @ expr  @ 85 @ 
+name: ssl_connect_3  @ 16 @ name: ssl_connect_3  @ 17 @ 
+name: add_cert_to_certinfo  @ 115 @ name: add_cert_to_certinfo  @ 136 @ 
+argument  @ 40 @ argument  @ 45 @ 
+expr  @ 63 @ expr  @ 75 @ 
+expr  @ 28 @ expr  @ 31 @ 
+condition  @ 119 @ condition  @ 140 @ 
+decl  @ 99 @ decl  @ 117 @ 
+call  @ 16 @ call  @ 17 @ 
+expr_stmt  @ 85 @ expr_stmt  @ 102 @ 
+expr  @ 83 @ expr  @ 99 @ 
+condition  @ 31 @ condition  @ 34 @ 
+operator: .  @ 9 @ operator: .  @ 10 @ 
+if  @ 74 @ if  @ 88 @ 
+expr  @ 21 @ expr  @ 24 @ 
+argument  @ 107 @ argument  @ 128 @ 
+expr  @ 32 @ expr  @ 35 @ 
+argument  @ 18 @ argument  @ 19 @ 
+operator: ->  @ 63 @ operator: ->  @ 75 @ 
+name: cred  @ 20 @ name: cred  @ 23 @ 
+else  @ 61 @ else  @ 73 @ 
+expr  @ 95 @ expr  @ 113 @ 
+name: s_pSecFn  @ 40 @ name: s_pSecFn  @ 44 @ 
+argument  @ 83 @ argument  @ 98 @ 
+name: ISC_RET_STREAM  @ 33 @ name: ISC_RET_STREAM  @ 36 @ 
+if_stmt  @ 24 @ if_stmt  @ 27 @ 
+argument  @ 49 @ argument  @ 57 @ 
+modifier: *  @ 5 @ modifier: *  @ 6 @ 
+argument  @ 118 @ argument  @ 139 @ 
+name: CURLE_OK  @ 125 @ name: CURLE_OK  @ 146 @ 
+name: struct  @ 5 @ name: struct  @ 6 @ 
+operator: !=  @ 42 @ operator: !=  @ 48 @ 
+name: BUNDLE_NO_MULTIUSE  @ 63 @ name: BUNDLE_NO_MULTIUSE  @ 76 @ 
+operator: =  @ 123 @ operator: =  @ 144 @ 
+expr  @ 104 @ expr  @ 125 @ 
+name  @ 83 @ name  @ 98 @ 
+call  @ 62 @ call  @ 74 @ 
+directive: endif  @ 65 @ directive: endif  @ 78 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: .  @ 68 @ operator: .  @ 81 @ 
+name: ProtocolIdSize  @ 57 @ name: ProtocolIdSize  @ 67 @ 
+operator: &  @ 27 @ operator: &  @ 30 @ 
+literal: "schannel: failed to setup stream orientation"  @ 34 @ literal: "schannel: failed to setup stream orientation"  @ 37 @ 
+name: FALSE  @ 79 @ name: FALSE  @ 94 @ 
+name: conn  @ 10 @ name: conn  @ 11 @ 
+block_content  @ 28 @ block_content  @ 31 @ 
+argument  @ 52 @ argument  @ 61 @ 
+block  @ 32 @ block  @ 35 @ 
+name: NULL  @ 73 @ name: NULL  @ 86 @ 
+operator: !  @ 110 @ operator: !  @ 131 @ 
+decl  @ 111 @ decl  @ 132 @ 
+expr  @ 32 @ expr  @ 35 @ 
+name  @ 33 @ name  @ 36 @ 
+argument  @ 40 @ argument  @ 44 @ 
+argument  @ 62 @ argument  @ 74 @ 
+name: Adder_args  @ 111 @ name: Adder_args  @ 132 @ 
+return  @ 120 @ return  @ 141 @ 
+name: Curl_ssl_sessionid_unlock  @ 85 @ name: Curl_ssl_sessionid_unlock  @ 102 @ 
+name: host  @ 9 @ name: host  @ 10 @ 
+operator: =  @ 109 @ operator: =  @ 130 @ 
+block_content  @ 76 @ block_content  @ 90 @ 
+expr  @ 78 @ expr  @ 93 @ 
+name: negnpn  @ 53 @ name: negnpn  @ 63 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 35 @ 
+expr  @ 91 @ expr  @ 108 @ 
+name: negnpn  @ 63 @ name: negnpn  @ 75 @ 
+block  @ 120 @ block  @ 141 @ 
+literal: "schannel: failed to setup sequence detection"  @ 26 @ literal: "schannel: failed to setup sequence detection"  @ 29 @ 
+block_content  @ 91 @ block_content  @ 108 @ 
+expr  @ 78 @ expr  @ 93 @ 
+name: NULL  @ 102 @ name: NULL  @ 123 @ 
+if_stmt  @ 119 @ if_stmt  @ 140 @ 
+expr  @ 76 @ expr  @ 91 @ 
+decl_stmt  @ 99 @ decl_stmt  @ 117 @ 
+expr  @ 52 @ expr  @ 61 @ 
+name: conn  @ 58 @ name: conn  @ 70 @ 
+expr_stmt  @ 100 @ expr_stmt  @ 118 @ 
+operator: ==  @ 102 @ operator: ==  @ 123 @ 
+expr  @ 9 @ expr  @ 10 @ 
+argument_list  @ 118 @ argument_list  @ 139 @ 
+expr  @ 76 @ expr  @ 90 @ 
+name: int  @ 2 @ name: int  @ 2 @ 
+name: conn  @ 2 @ name: conn  @ 2 @ 
+argument  @ 86 @ argument  @ 103 @ 
+argument_list  @ 92 @ argument_list  @ 109 @ 
+argument  @ 115 @ argument  @ 136 @ 
+name: data  @ 103 @ name: data  @ 124 @ 
+name: Curl_ssl_sessionid_unlock  @ 95 @ name: Curl_ssl_sessionid_unlock  @ 113 @ 
+operator: (  @ 102 @ operator: (  @ 123 @ 
+name: CURLcode  @ 4 @ name: CURLcode  @ 4 @ 
+argument_list  @ 40 @ argument_list  @ 44 @ 
+type  @ 6 @ type  @ 7 @ 
+argument  @ 78 @ argument  @ 93 @ 
+call  @ 9 @ call  @ 10 @ 
+operator: *  @ 73 @ operator: *  @ 86 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 35 @ name: CURLE_SSL_CONNECT_ERROR  @ 38 @ 
+expr  @ 26 @ expr  @ 29 @ 
+name: SSL_SET_OPTION  @ 68 @ name: SSL_SET_OPTION  @ 81 @ 
+condition  @ 39 @ condition  @ 42 @ 
+name: BACKEND  @ 33 @ name: BACKEND  @ 36 @ 
+name: void  @ 78 @ name: void  @ 93 @ 
+expr  @ 115 @ expr  @ 136 @ 
+name: ccert_context  @ 7 @ name: ccert_context  @ 8 @ 
+name: sessionid  @ 68 @ name: sessionid  @ 81 @ 
+if  @ 84 @ if  @ 101 @ 
+block_content  @ 53 @ block_content  @ 63 @ 
+name: sockindex  @ 5 @ name: sockindex  @ 6 @ 
+name: conn  @ 73 @ name: conn  @ 86 @ 
+type  @ 9 @ type  @ 10 @ 
+name: alpn_result  @ 52 @ name: alpn_result  @ 61 @ 
+expr  @ 107 @ expr  @ 128 @ 
+call  @ 83 @ call  @ 98 @ 
+block_content  @ 103 @ block_content  @ 124 @ 
+expr  @ 70 @ expr  @ 83 @ 
+name: SECPKG_ATTR_REMOTE_CERT_CONTEXT  @ 100 @ name: SECPKG_ATTR_REMOTE_CERT_CONTEXT  @ 120 @ 
+name: certs_count  @ 107 @ name: certs_count  @ 128 @ 
+expr  @ 6 @ expr  @ 7 @ 
+comment: /* we're not taking old_cred ownership here, no refcount++ is needed */  @ 77 @ comment: /* we're not taking old_cred ownership here, no refcount++ is needed */  @ 92 @ 
+name: data  @ 112 @ name: conn  @ 133 @ 
+operator: &  @ 5 @ operator: &  @ 6 @ 
+operator: )  @ 31 @ operator: )  @ 34 @ 
+name: infof  @ 49 @ name: infof  @ 56 @ 
+condition  @ 20 @ condition  @ 23 @ 
+operator: &  @ 107 @ operator: &  @ 128 @ 
+argument  @ 49 @ argument  @ 57 @ 
+argument  @ 100 @ argument  @ 119 @ 
+if  @ 82 @ if  @ 97 @ 
+name  @ 116 @ name  @ 137 @ 
+name: ProtoNegoStatus  @ 47 @ name: ProtoNegoStatus  @ 53 @ 
+init  @ 5 @ init  @ 6 @ 
+name: conn  @ 5 @ name: conn  @ 6 @ 
+decl  @ 7 @ decl  @ 8 @ 
+name: USE_NGHTTP2  @ 51 @ name: USE_NGHTTP2  @ 59 @ 
+argument  @ 57 @ argument  @ 69 @ 
+name: failf  @ 30 @ name: failf  @ 33 @ 
+else  @ 89 @ else  @ 106 @ 
+name: struct  @ 111 @ name: struct  @ 132 @ 
+expr  @ 34 @ expr  @ 37 @ 
+block_content  @ 99 @ block_content  @ 117 @ 
+name: void  @ 83 @ name: void  @ 98 @ 
+expr  @ 92 @ expr  @ 109 @ 
+literal: "schannel: failed to setup replay detection"  @ 28 @ literal: "schannel: failed to setup replay detection"  @ 31 @ 
+name  @ 2 @ name  @ 2 @ 
+name: ALPN_HTTP_1_1_LENGTH  @ 57 @ name: ALPN_HTTP_1_1_LENGTH  @ 67 @ 
+condition  @ 57 @ condition  @ 67 @ 
+directive: ifdef  @ 8 @ directive: ifdef  @ 9 @ 
+decl  @ 69 @ decl  @ 82 @ 
+condition  @ 63 @ condition  @ 75 @ 
+name: ret_flags  @ 24 @ name: ret_flags  @ 27 @ 
+argument_list  @ 63 @ argument_list  @ 75 @ 
+operator: =  @ 112 @ operator: =  @ 133 @ 
+if  @ 39 @ if  @ 42 @ 
+ifdef  @ 12 @ ifdef  @ 13 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: *  @ 83 @ operator: *  @ 98 @ 
+argument_list  @ 43 @ argument_list  @ 49 @ 
+name: old_cred  @ 75 @ name: old_cred  @ 89 @ 
+block_content  @ 30 @ block_content  @ 33 @ 
+argument_list  @ 83 @ argument_list  @ 99 @ 
+argument_list  @ 92 @ argument_list  @ 109 @ 
+name  @ 20 @ name  @ 23 @ 
+argument  @ 103 @ argument  @ 124 @ 
+argument  @ 103 @ argument  @ 124 @ 
+call  @ 18 @ call  @ 19 @ 
+operator: (  @ 33 @ operator: (  @ 36 @ 
+name: sspi_status  @ 100 @ name: sspi_status  @ 118 @ 
+expr  @ 114 @ expr  @ 135 @ 
+name: result  @ 4 @ name: result  @ 4 @ 
+name: data  @ 2 @ name: data  @ 5 @ 
+name: host  @ 10 @ name: host  @ 11 @ 
+if_stmt  @ 29 @ if_stmt  @ 32 @ 
+call  @ 63 @ call  @ 75 @ 
+operator: !  @ 25 @ operator: !  @ 28 @ 
+name: data  @ 32 @ name: data  @ 35 @ 
+expr  @ 52 @ expr  @ 60 @ 
+condition  @ 29 @ condition  @ 32 @ 
+decl_stmt  @ 70 @ decl_stmt  @ 83 @ 
+operator: =  @ 40 @ operator: =  @ 43 @ 
+argument  @ 78 @ argument  @ 93 @ 
+name: ProtocolIdSize  @ 49 @ name: ProtocolIdSize  @ 57 @ 
+name: QueryContextAttributes  @ 100 @ name: QueryContextAttributes  @ 119 @ 
+if  @ 55 @ if  @ 65 @ 
+argument  @ 63 @ argument  @ 75 @ 
+argument  @ 76 @ argument  @ 91 @ 
+operator: ->  @ 18 @ operator: ->  @ 21 @ 
+name: old_cred  @ 78 @ name: old_cred  @ 93 @ 
+operator: (  @ 78 @ operator: (  @ 93 @ 
+expr_stmt  @ 79 @ expr_stmt  @ 94 @ 
+operator: ->  @ 9 @ operator: ->  @ 10 @ 
+name: alpn_result  @ 52 @ name: alpn_result  @ 60 @ 
+argument  @ 83 @ argument  @ 100 @ 
+name: CURL_HTTP_VERSION_1_1  @ 58 @ name: CURL_HTTP_VERSION_1_1  @ 70 @ 
+condition  @ 27 @ condition  @ 30 @ 
+condition  @ 42 @ condition  @ 48 @ 
+argument  @ 107 @ argument  @ 128 @ 
+expr  @ 92 @ expr  @ 110 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+modifier: *  @ 7 @ modifier: *  @ 8 @ 
+else  @ 63 @ else  @ 76 @ 
+operator: ->  @ 24 @ operator: ->  @ 27 @ 
+operator: )  @ 27 @ operator: )  @ 30 @ 
+operator: &  @ 40 @ operator: &  @ 46 @ 
+literal: "schannel: failed to store credential handle"  @ 86 @ literal: "schannel: failed to store credential handle"  @ 103 @ 
+argument_list  @ 103 @ argument_list  @ 124 @ 
+return  @ 21 @ return  @ 24 @ 
+operator: ->  @ 98 @ operator: ->  @ 116 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+block_content  @ 58 @ block_content  @ 70 @ 
+block  @ 110 @ block  @ 131 @ 
+operator: ->  @ 100 @ operator: ->  @ 119 @ 
+call  @ 107 @ call  @ 128 @ 
+call  @ 28 @ call  @ 31 @ 
+argument  @ 83 @ argument  @ 99 @ 
+call  @ 18 @ call  @ 19 @ 
+block_content  @ 49 @ block_content  @ 56 @ 
+operator: &  @ 31 @ operator: &  @ 34 @ 
+name  @ 75 @ name  @ 89 @ 
+operator: !  @ 20 @ operator: !  @ 23 @ 
+name: incache  @ 73 @ name: incache  @ 86 @ 
+operator: )  @ 78 @ operator: )  @ 93 @ 
+expr  @ 40 @ expr  @ 43 @ 
+literal: 0  @ 113 @ literal: 0  @ 134 @ 
+expr  @ 57 @ expr  @ 68 @ 
+expr  @ 120 @ expr  @ 141 @ 
+if_stmt  @ 27 @ if_stmt  @ 30 @ 
+operator: .  @ 47 @ operator: .  @ 53 @ 
+argument  @ 18 @ argument  @ 21 @ 
+name: ssl_connect_data  @ 5 @ name: ssl_connect_data  @ 6 @ 
+call  @ 109 @ call  @ 130 @ 
+comment: /* check if the required context attributes are met */  @ 23 @ comment: /* check if the required context attributes are met */  @ 26 @ 
+comment: /* save the current session data for possible re-use */  @ 67 @ comment: /* save the current session data for possible re-use */  @ 80 @ 
+name: SecPkgContext_ApplicationProtocol  @ 13 @ name: SecPkgContext_ApplicationProtocol  @ 14 @ 
+call  @ 85 @ call  @ 102 @ 
+expr  @ 112 @ expr  @ 133 @ 
+name  @ 5 @ name  @ 6 @ 
+decl  @ 13 @ decl  @ 14 @ 
+argument  @ 109 @ argument  @ 130 @ 
+operator: ->  @ 75 @ operator: ->  @ 89 @ 
+name: Curl_ssl_sessionid_lock  @ 72 @ name: Curl_ssl_sessionid_lock  @ 85 @ 
+name: data  @ 26 @ name: data  @ 29 @ 
+name: Curl_schannel_cred  @ 83 @ name: curl_schannel_cred  @ 99 @ 
+expr  @ 44 @ expr  @ 50 @ 
+call  @ 40 @ call  @ 44 @ 
+expr  @ 33 @ expr  @ 36 @ 
+block_content  @ 21 @ block_content  @ 24 @ 
+operator: )  @ 102 @ operator: )  @ 123 @ 
+endif  @ 14 @ endif  @ 15 @ 
+call  @ 76 @ call  @ 90 @ 
+directive: endif  @ 56 @ directive: endif  @ 66 @ 
+expr_stmt  @ 83 @ expr_stmt  @ 98 @ 
+type  @ 99 @ type  @ 117 @ 
+name: ctxt_handle  @ 40 @ name: ctxt_handle  @ 44 @ 
+expr  @ 82 @ expr  @ 97 @ 
+name: sspi_status  @ 102 @ name: sspi_status  @ 123 @ 
+name: hostname  @ 9 @ name: hostname  @ 10 @ 
+argument_list  @ 68 @ argument_list  @ 81 @ 
+block_content  @ 25 @ block_content  @ 28 @ 
+expr  @ 68 @ expr  @ 81 @ 
+operator: ->  @ 100 @ operator: ->  @ 119 @ 
+operator: (  @ 73 @ operator: (  @ 86 @ 
+block  @ 68 @ block  @ 81 @ 
+name: connecting_state  @ 123 @ name: connecting_state  @ 144 @ 
+block_content  @ 85 @ block_content  @ 102 @ 
+condition  @ 82 @ condition  @ 97 @ 
+expr  @ 35 @ expr  @ 38 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 19 @ 
+expr  @ 28 @ expr  @ 31 @ 
+name: conn  @ 9 @ name: conn  @ 10 @ 
+argument  @ 115 @ argument  @ 136 @ 
+operator: !  @ 82 @ operator: !  @ 97 @ 
+ternary  @ 9 @ ternary  @ 10 @ 
+argument  @ 85 @ argument  @ 102 @ 
+operator: (  @ 25 @ operator: (  @ 28 @ 
+name: infof  @ 62 @ name: infof  @ 74 @ 
+argument  @ 109 @ argument  @ 130 @ 
+argument  @ 76 @ argument  @ 90 @ 
+call  @ 57 @ call  @ 68 @ 
+operator: &  @ 73 @ operator: &  @ 86 @ 
+modifier: *  @ 70 @ modifier: *  @ 83 @ 
+name: conn  @ 53 @ name: conn  @ 63 @ 
+expr  @ 84 @ expr  @ 101 @ 
+name: DEBUGASSERT  @ 16 @ name: DEBUGASSERT  @ 17 @ 
+operator: ->  @ 20 @ operator: ->  @ 23 @ 
+init  @ 99 @ init  @ 117 @ 
+name: ret_flags  @ 27 @ name: ret_flags  @ 30 @ 
+operator: ->  @ 58 @ operator: ->  @ 70 @ 
+name: ctxt  @ 40 @ name: ctxt  @ 44 @ 
+if_stmt  @ 52 @ if_stmt  @ 60 @ 
+name: failf  @ 26 @ name: failf  @ 29 @ 
+name  @ 114 @ name  @ 135 @ 
+name: CURL_HTTP_VERSION_2  @ 53 @ name: CURL_HTTP_VERSION_2  @ 63 @ 
+name: alpn_result  @ 13 @ name: alpn_result  @ 14 @ 
+expr_stmt  @ 86 @ expr_stmt  @ 103 @ 
+call  @ 52 @ call  @ 61 @ 
+block  @ 24 @ block  @ 27 @ 
+name: memcmp  @ 52 @ name: memcmp  @ 61 @ 
+name: CURLE_OK  @ 4 @ name: CURLE_OK  @ 4 @ 
+expr  @ 31 @ expr  @ 34 @ 
+operator: =  @ 114 @ operator: =  @ 135 @ 
+expr  @ 29 @ expr  @ 32 @ 
+expr  @ 49 @ expr  @ 56 @ 
+name: SSL_IS_PROXY  @ 9 @ name: SSL_IS_PROXY  @ 10 @ 
+argument_list  @ 85 @ argument_list  @ 102 @ 
+expr  @ 25 @ expr  @ 28 @ 
+name: connectdata  @ 2 @ name: connectdata  @ 2 @ 
+directive: endif  @ 14 @ directive: endif  @ 15 @ 
+name  @ 49 @ name  @ 57 @ 
+operator: *  @ 73 @ operator: *  @ 86 @ 
+block  @ 21 @ block  @ 24 @ 
+expr  @ 103 @ expr  @ 124 @ 
+call  @ 100 @ call  @ 119 @ 
+argument_list  @ 57 @ argument_list  @ 68 @ 
+expr_stmt  @ 63 @ expr_stmt  @ 75 @ 
+name: schannel_connect_step3  @ 2 @ name: schannel_connect_step3  @ 2 @ 
+name: result  @ 109 @ name: result  @ 130 @ 
+expr  @ 57 @ expr  @ 68 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+argument  @ 86 @ argument  @ 103 @ 
+if  @ 47 @ if  @ 53 @ 
+return  @ 87 @ return  @ 104 @ 
+expr  @ 73 @ expr  @ 86 @ 
+expr  @ 49 @ expr  @ 57 @ 
+name: ISC_RET_CONFIDENTIALITY  @ 29 @ name: ISC_RET_CONFIDENTIALITY  @ 32 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: DEBUGF  @ 18 @ name: DEBUGF  @ 19 @ 
+name: data  @ 112 @ name: conn  @ 133 @ 
+name: data  @ 86 @ name: data  @ 103 @ 
+name: sockindex  @ 73 @ name: sockindex  @ 87 @ 
+block_content  @ 32 @ block_content  @ 35 @ 
+ifdef  @ 8 @ ifdef  @ 9 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+expr  @ 98 @ expr  @ 116 @ 
+argument  @ 73 @ argument  @ 86 @ 
+operator: (  @ 73 @ operator: (  @ 86 @ 
+name: idx  @ 113 @ name: idx  @ 134 @ 
+expr  @ 30 @ expr  @ 33 @ 
+type  @ 2 @ type  @ 5 @ 
+expr  @ 125 @ expr  @ 146 @ 
+operator: ->  @ 91 @ operator: ->  @ 108 @ 
+operator: ->  @ 40 @ operator: ->  @ 44 @ 
+expr  @ 86 @ expr  @ 103 @ 
+condition  @ 84 @ condition  @ 101 @ 
+if_stmt  @ 110 @ if_stmt  @ 131 @ 
+block  @ 39 @ block  @ 42 @ 
+type  @ 1 @ type  @ 1 @ 
+argument_list  @ 86 @ argument_list  @ 103 @ 
+name  @ 70 @ name  @ 83 @ 
+name: result  @ 120 @ name: result  @ 141 @ 
+condition  @ 47 @ condition  @ 53 @ 
+name: sspi_status  @ 6 @ name: sspi_status  @ 7 @ 
+argument  @ 30 @ argument  @ 33 @ 
+name: BACKEND  @ 40 @ name: BACKEND  @ 44 @ 
+operator: ==  @ 47 @ operator: ==  @ 53 @ 
+name: Curl_easy  @ 2 @ name: Curl_easy  @ 5 @ 
+operator: (  @ 83 @ operator: (  @ 98 @ 
+expr  @ 123 @ expr  @ 144 @ 
+operator: !  @ 73 @ operator: !  @ 86 @ 
+ternary  @ 63 @ ternary  @ 75 @ 
+type  @ 111 @ type  @ 132 @ 
+if_stmt  @ 84 @ if_stmt  @ 101 @ 
+function  @ 1 @ function  @ 1 @ 
+name: DEBUGF  @ 92 @ name: DEBUGF  @ 109 @ 
+else  @ 9 @ else  @ 10 @ 
+expr  @ 28 @ expr  @ 31 @ 
+argument_list  @ 16 @ argument_list  @ 17 @ 
+name  @ 53 @ name  @ 63 @ 
+name: negnpn  @ 58 @ name: negnpn  @ 70 @ 
+operator: .  @ 116 @ operator: .  @ 137 @ 
+name: BACKEND  @ 83 @ name: BACKEND  @ 98 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+argument  @ 49 @ argument  @ 56 @ 
+name: BACKEND  @ 20 @ name: BACKEND  @ 23 @ 
+name: cred  @ 75 @ name: cred  @ 89 @ 
+operator: =  @ 53 @ operator: =  @ 63 @ 
+expr  @ 115 @ expr  @ 136 @ 
+name: data  @ 30 @ name: data  @ 33 @ 
+operator: )  @ 25 @ operator: )  @ 28 @ 
+operator: ==  @ 57 @ operator: ==  @ 67 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 90 @ 
+if  @ 52 @ if  @ 60 @ 
+ifdef  @ 38 @ ifdef  @ 41 @ 
+argument  @ 107 @ argument  @ 128 @ 
+decl  @ 5 @ decl  @ 6 @ 
+name  @ 98 @ name  @ 116 @ 
+literal: "schannel: old credential handle is stale, removing\n"  @ 76 @ literal: "schannel: old credential handle is stale, removing\n"  @ 91 @ 
+name: connssl  @ 16 @ name: connssl  @ 17 @ 
+name: data  @ 92 @ name: data  @ 109 @ 
+expr  @ 76 @ expr  @ 90 @ 
+name  @ 57 @ name  @ 68 @ 
+name: ccert_context  @ 107 @ name: ccert_context  @ 128 @ 
+decl  @ 9 @ decl  @ 10 @ 
+name: data  @ 43 @ name: data  @ 49 @ 
+name: ctxt  @ 100 @ name: ctxt  @ 119 @ 
+name: SEC_E_OK  @ 102 @ name: SEC_E_OK  @ 123 @ 
+name: data  @ 109 @ name: data  @ 130 @ 
+name: ret_flags  @ 29 @ name: ret_flags  @ 32 @ 
+name: NGHTTP2_PROTO_VERSION_ID_LEN  @ 52 @ name: NGHTTP2_PROTO_VERSION_ID_LEN  @ 60 @ 
+expr  @ 62 @ expr  @ 74 @ 
+condition  @ 110 @ condition  @ 131 @ 
+operator: .  @ 113 @ operator: .  @ 134 @ 
+name: alpn_result  @ 47 @ name: alpn_result  @ 53 @ 
+call  @ 43 @ call  @ 49 @ 
+operator: ->  @ 27 @ operator: ->  @ 30 @ 
+operator: ->  @ 29 @ operator: ->  @ 32 @ 
+init  @ 7 @ init  @ 8 @ 
+block  @ 74 @ block  @ 88 @ 
+name: result  @ 110 @ name: result  @ 131 @ 
+name: data  @ 72 @ name: conn  @ 85 @ 
+operator: =  @ 116 @ operator: =  @ 137 @ 
+literal: "schannel: failed to retrieve ALPN result"  @ 43 @ literal: "schannel: failed to retrieve ALPN result"  @ 49 @ 
+expr  @ 83 @ expr  @ 98 @ 
+expr_stmt  @ 115 @ expr_stmt  @ 136 @ 
+argument  @ 52 @ argument  @ 61 @ 
+name: BACKEND  @ 25 @ name: BACKEND  @ 28 @ 
+name: connssl  @ 123 @ name: connssl  @ 144 @ 
+argument  @ 68 @ argument  @ 81 @ 
+expr  @ 102 @ expr  @ 123 @ 
+expr  @ 52 @ expr  @ 61 @ 
+if  @ 29 @ if  @ 32 @ 
+condition  @ 102 @ condition  @ 123 @ 
+name: remote_port  @ 18 @ name: remote_port  @ 21 @ 
+argument  @ 52 @ argument  @ 62 @ 
+expr  @ 116 @ expr  @ 137 @ 
+name: incache  @ 69 @ name: incache  @ 82 @ 
+expr  @ 63 @ expr  @ 76 @ 
+name  @ 68 @ name  @ 81 @ 
+argument  @ 92 @ argument  @ 109 @ 
+name  @ 31 @ name  @ 34 @ 
+expr  @ 109 @ expr  @ 130 @ 
+name: req_flags  @ 24 @ name: req_flags  @ 27 @ 
+expr  @ 62 @ expr  @ 74 @ 
+name: name  @ 9 @ name: name  @ 10 @ 
+name: int  @ 99 @ name: int  @ 117 @ 
+expr  @ 43 @ expr  @ 49 @ 
+expr  @ 110 @ expr  @ 131 @ 
+directive: ifdef  @ 38 @ directive: ifdef  @ 41 @ 
+name: args  @ 114 @ name: args  @ 135 @ 
+block_content  @ 120 @ block_content  @ 141 @ 
+literal: "ALPN, server did not agree to a protocol\n"  @ 62 @ literal: "ALPN, server did not agree to a protocol\n"  @ 74 @ 
+condition  @ 24 @ condition  @ 27 @ 
+name: ccert_context  @ 118 @ name: ccert_context  @ 139 @ 
+expr  @ 34 @ expr  @ 37 @ 
+expr  @ 42 @ expr  @ 48 @ 
+argument_list  @ 83 @ argument_list  @ 98 @ 
+operator: ->  @ 40 @ operator: ->  @ 44 @ 
+name: data  @ 98 @ name: data  @ 116 @ 
+name: certs_count  @ 114 @ name: certs_count  @ 135 @ 
+operator: )  @ 73 @ operator: )  @ 87 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 31 @ 
+name: Curl_ssl_delsessionid  @ 78 @ name: Curl_ssl_delsessionid  @ 93 @ 
+name  @ 2 @ name  @ 5 @ 
+decl  @ 2 @ decl  @ 5 @ 
+expr  @ 86 @ expr  @ 103 @ 
+name: alpn_result  @ 49 @ name: alpn_result  @ 57 @ 
+expr  @ 32 @ expr  @ 35 @ 
+expr_stmt  @ 116 @ expr_stmt  @ 137 @ 
+name: result  @ 116 @ name: result  @ 137 @ 
+if  @ 33 @ if  @ 36 @ 
+call  @ 95 @ call  @ 113 @ 
+expr_stmt  @ 92 @ expr_stmt  @ 109 @ 
+expr  @ 20 @ expr  @ 23 @ 
+decl  @ 6 @ decl  @ 7 @ 
+name: ccert_context  @ 102 @ name: ccert_context  @ 123 @ 
+name: failf  @ 103 @ name: failf  @ 124 @ 
+name: http_proxy  @ 9 @ name: http_proxy  @ 10 @ 
+name: CertFreeCertificateContext  @ 118 @ name: CertFreeCertificateContext  @ 139 @ 
+decl  @ 4 @ decl  @ 4 @ 
+argument  @ 34 @ argument  @ 37 @ 
+call  @ 49 @ call  @ 56 @ 
+expr  @ 62 @ expr  @ 74 @ 
+name  @ 40 @ name  @ 44 @ 
+sizeof  @ 83 @ sizeof  @ 99 @ 
+argument_list  @ 52 @ argument_list  @ 61 @ 
+if  @ 75 @ if  @ 89 @ 
+operator: ->  @ 40 @ operator: ->  @ 44 @ 
+expr_stmt  @ 58 @ expr_stmt  @ 70 @ 
+expr  @ 49 @ expr  @ 57 @ 
+expr  @ 73 @ expr  @ 87 @ 
+name: connecting_state  @ 16 @ name: connecting_state  @ 17 @ 
+argument_list  @ 95 @ argument_list  @ 113 @ 
+operator: (  @ 31 @ operator: (  @ 34 @ 
+name: BACKEND  @ 75 @ name: BACKEND  @ 89 @ 
+operator: !  @ 29 @ operator: !  @ 32 @ 
+if  @ 42 @ if  @ 48 @ 
+block  @ 75 @ block  @ 89 @ 
+name: failf  @ 43 @ name: failf  @ 49 @ 
+operator: (  @ 102 @ operator: (  @ 123 @ 
+expr  @ 100 @ expr  @ 121 @ 
+condition  @ 33 @ condition  @ 36 @ 
+name  @ 39 @ name  @ 42 @ 
+name: DEBUGBUILD  @ 8 @ name: DEBUGBUILD  @ 9 @ 
+operator: ->  @ 83 @ operator: ->  @ 98 @ 
+argument_list  @ 30 @ argument_list  @ 33 @ 
+block  @ 34 @ block  @ 37 @ 
+name  @ 5 @ name  @ 6 @ 
+argument  @ 43 @ argument  @ 49 @ 
+name  @ 111 @ name  @ 132 @ 
+if  @ 68 @ if  @ 81 @ 
+name: data  @ 78 @ name: conn  @ 93 @ 
+name: args  @ 115 @ name: args  @ 136 @ 
+expr  @ 95 @ expr  @ 113 @ 
+name: CERT_CONTEXT  @ 7 @ name: CERT_CONTEXT  @ 8 @ 
+name: struct  @ 70 @ name: struct  @ 83 @ 
+name  @ 10 @ name  @ 11 @ 
+argument_list  @ 72 @ argument_list  @ 85 @ 
+name: ISC_RET_SEQUENCE_DETECT  @ 25 @ name: ISC_RET_SEQUENCE_DETECT  @ 28 @ 
+expr  @ 83 @ expr  @ 98 @ 
+argument  @ 40 @ argument  @ 46 @ 
+expr  @ 83 @ expr  @ 98 @ 
+expr  @ 107 @ expr  @ 128 @ 
+operator: !=  @ 75 @ operator: !=  @ 89 @ 
+operator: =  @ 83 @ operator: =  @ 98 @ 
+operator: *  @ 78 @ operator: *  @ 93 @ 
+condition  @ 52 @ condition  @ 60 @ 
+operator: ==  @ 52 @ operator: ==  @ 60 @ 
+expr  @ 118 @ expr  @ 139 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: incache  @ 82 @ name: incache  @ 97 @ 
+operator: &  @ 33 @ operator: &  @ 36 @ 
+argument  @ 95 @ argument  @ 113 @ 
+operator: .  @ 57 @ operator: .  @ 67 @ 
+name: failf  @ 34 @ name: failf  @ 37 @ 
+operator: &  @ 100 @ operator: &  @ 119 @ 
+name: primary  @ 68 @ name: primary  @ 81 @ 
+name: Curl_ssl_addsessionid  @ 83 @ name: Curl_ssl_addsessionid  @ 98 @ 
+if  @ 119 @ if  @ 140 @ 
+expr  @ 107 @ expr  @ 128 @ 
+expr  @ 63 @ expr  @ 75 @ 
+expr_stmt  @ 72 @ expr_stmt  @ 85 @ 
+expr  @ 43 @ expr  @ 49 @ 
+call  @ 26 @ call  @ 29 @ 
+argument_list  @ 76 @ argument_list  @ 90 @ 
+name: infof  @ 18 @ name: infof  @ 19 @ 
+argument  @ 30 @ argument  @ 33 @ 
+operator: )  @ 33 @ operator: )  @ 36 @ 
+name: hostname  @ 18 @ name: hostname  @ 21 @ 
+expr  @ 74 @ expr  @ 88 @ 
+operator: .  @ 10 @ operator: .  @ 11 @ 
+operator: )  @ 29 @ operator: )  @ 32 @ 
+argument_list  @ 115 @ argument_list  @ 136 @ 
+expr  @ 107 @ expr  @ 128 @ 
+block  @ 3 @ block  @ 3 @ 
+argument_list  @ 26 @ argument_list  @ 29 @ 
+argument  @ 57 @ argument  @ 68 @ 
+name: args  @ 111 @ name: args  @ 132 @ 
+argument_list  @ 18 @ argument_list  @ 19 @ 
+argument  @ 100 @ argument  @ 121 @ 
+if  @ 20 @ if  @ 23 @ 
+name: BACKEND  @ 31 @ name: BACKEND  @ 34 @ 
+operator: =  @ 79 @ operator: =  @ 94 @ 
+operator: ->  @ 91 @ operator: ->  @ 108 @ 
+expr  @ 85 @ expr  @ 102 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 33 @ 
+name: certs_count  @ 114 @ name: certs_count  @ 135 @ 
+expr  @ 100 @ expr  @ 119 @ 
+expr  @ 103 @ expr  @ 124 @ 
+operator: ->  @ 16 @ operator: ->  @ 17 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+expr  @ 9 @ expr  @ 10 @ 
+block  @ 98 @ block  @ 116 @ 
+expr  @ 57 @ expr  @ 67 @ 
+literal: "schannel: SSL/TLS connection with %s port %hu (step 3/3)\n"  @ 18 @ literal: "schannel: SSL/TLS connection with %s port %hu (step 3/3)\n"  @ 20 @ 
+expr  @ 18 @ expr  @ 21 @ 
+argument_list  @ 109 @ argument_list  @ 130 @ 
+block  @ 30 @ block  @ 33 @ 
+operator: &  @ 25 @ operator: &  @ 28 @ 
+operator: .  @ 49 @ operator: .  @ 57 @ 
+name: NULL  @ 70 @ name: NULL  @ 83 @ 
+operator: &  @ 115 @ operator: &  @ 136 @ 
+type  @ 7 @ type  @ 8 @ 
+name: SECPKG_ATTR_APPLICATION_PROTOCOL  @ 40 @ name: SECPKG_ATTR_APPLICATION_PROTOCOL  @ 45 @ 
+name: CURLE_PEER_FAILED_VERIFICATION  @ 104 @ name: CURLE_PEER_FAILED_VERIFICATION  @ 125 @ 
+argument  @ 28 @ argument  @ 31 @ 
+if_stmt  @ 68 @ if_stmt  @ 81 @ 
+expr  @ 10 @ expr  @ 11 @ 
+name: alpn_result  @ 57 @ name: alpn_result  @ 68 @ 
+name: BACKEND  @ 27 @ name: BACKEND  @ 30 @ 
+name: BACKEND  @ 39 @ name: BACKEND  @ 42 @ 
+type  @ 2 @ type  @ 2 @ 
+name  @ 24 @ name  @ 27 @ 
+name: failf  @ 32 @ name: failf  @ 35 @ 
+argument_list  @ 28 @ argument_list  @ 31 @ 
+init  @ 9 @ init  @ 10 @ 
+name: result  @ 84 @ name: result  @ 101 @ 
+expr_stmt  @ 103 @ expr_stmt  @ 124 @ 
+name: incache  @ 79 @ name: incache  @ 94 @ 
+expr  @ 86 @ expr  @ 103 @ 
+if_stmt  @ 74 @ if_stmt  @ 88 @ 
+name: args  @ 116 @ name: args  @ 137 @ 
+argument  @ 32 @ argument  @ 35 @ 
+name: infof  @ 92 @ name: infof  @ 109 @ 
+name  @ 18 @ name  @ 21 @ 
+name: result  @ 83 @ name: result  @ 98 @ 
+specifier: const  @ 9 @ specifier: const  @ 10 @ 
+block  @ 102 @ block  @ 123 @ 
+name: data  @ 95 @ name: conn  @ 113 @ 
+expr  @ 53 @ expr  @ 63 @ 
+argument  @ 73 @ argument  @ 86 @ 
+name: alpn_result  @ 40 @ name: alpn_result  @ 46 @ 
+name: traverse_cert_store  @ 107 @ name: traverse_cert_store  @ 128 @ 
+literal: "schannel: stored credential handle in session cache\n"  @ 92 @ literal: "schannel: stored credential handle in session cache\n"  @ 110 @ 
+call  @ 118 @ call  @ 139 @ 
+name: ssl_connect_done  @ 123 @ name: ssl_connect_done  @ 144 @ 
+expr  @ 5 @ expr  @ 6 @ 
+operator: )  @ 73 @ operator: )  @ 86 @ 
+expr  @ 24 @ expr  @ 27 @ 
+argument_list  @ 49 @ argument_list  @ 56 @ 
+argument_list  @ 32 @ argument_list  @ 35 @ 
+expr  @ 109 @ expr  @ 130 @ 
+name: alpn_result  @ 49 @ name: alpn_result  @ 57 @ 
+name: BUNDLE_MULTIPLEX  @ 63 @ name: BUNDLE_MULTIPLEX  @ 76 @ 
+operator: )  @ 83 @ operator: )  @ 98 @ 
+if  @ 102 @ if  @ 123 @ 
+expr  @ 18 @ expr  @ 19 @ 
+argument  @ 57 @ argument  @ 68 @ 
+name: cred  @ 83 @ name: cred  @ 98 @ 
+name: cert_counter_callback  @ 107 @ name: cert_counter_callback  @ 128 @ 
+name: args  @ 112 @ name: args  @ 133 @ 
+if_stmt  @ 82 @ if_stmt  @ 97 @ 
+name: CURL_HTTP_VERSION_2  @ 63 @ name: CURL_HTTP_VERSION_2  @ 75 @ 
+operator: ||  @ 102 @ operator: ||  @ 123 @ 
+name: sockindex  @ 2 @ name: sockindex  @ 2 @ 
+name: ssl  @ 98 @ name: ssl  @ 116 @ 
+operator: ->  @ 5 @ operator: ->  @ 6 @ 
+name: sockindex  @ 83 @ name: sockindex  @ 100 @ 
+name: certs_count  @ 109 @ name: certs_count  @ 130 @ 
+expr  @ 100 @ expr  @ 118 @ 
+name: struct  @ 2 @ name: struct  @ 5 @ 
+type  @ 5 @ type  @ 6 @ 
+name: failf  @ 86 @ name: failf  @ 103 @ 
+name: name  @ 10 @ name: name  @ 11 @ 
+name  @ 47 @ name  @ 53 @ 
+type  @ 70 @ type  @ 83 @ 
+call  @ 72 @ call  @ 85 @ 
+block  @ 26 @ block  @ 29 @ 
+name: ProtocolIdSize  @ 52 @ name: ProtocolIdSize  @ 60 @ 
+name: ccert_context  @ 100 @ name: ccert_context  @ 121 @ 
+name  @ 100 @ name  @ 119 @ 
+name  @ 9 @ name  @ 10 @ 
+expr  @ 63 @ expr  @ 75 @ 
+name  @ 29 @ name  @ 32 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 63 @ 
+call  @ 86 @ call  @ 103 @ 
+name  @ 52 @ name  @ 60 @ 
+call  @ 30 @ call  @ 33 @ 
+if_stmt  @ 33 @ if_stmt  @ 36 @ 
+name  @ 113 @ name  @ 134 @ 
+block  @ 82 @ block  @ 97 @ 
+operator: !=  @ 24 @ operator: !=  @ 27 @ 
+directive: endif  @ 11 @ directive: endif  @ 12 @ 
+block_content  @ 40 @ block_content  @ 43 @ 
+expr  @ 73 @ expr  @ 86 @ 
+expr  @ 49 @ expr  @ 56 @ 
+if_stmt  @ 39 @ if_stmt  @ 42 @ 
+expr  @ 63 @ expr  @ 76 @ 
+name  @ 123 @ name  @ 144 @ 
+name: QueryContextAttributes  @ 40 @ name: QueryContextAttributes  @ 44 @ 
+literal: "schannel: failed to retrieve remote cert context"  @ 103 @ literal: "schannel: failed to retrieve remote cert context"  @ 124 @ 
+operator: !  @ 33 @ operator: !  @ 36 @ 
+condition  @ 75 @ condition  @ 89 @ 
+operator: .  @ 114 @ operator: .  @ 135 @ 
+name: ProtocolId  @ 49 @ name: ProtocolId  @ 57 @ 
+operator: .  @ 98 @ operator: .  @ 116 @ 
+expr  @ 49 @ expr  @ 56 @ 
+block_content  @ 83 @ block_content  @ 98 @ 
+if_stmt  @ 98 @ if_stmt  @ 116 @ 
+expr_stmt  @ 91 @ expr_stmt  @ 108 @ 
+if  @ 27 @ if  @ 30 @ 
+name: old_cred  @ 70 @ name: old_cred  @ 83 @ 
+argument  @ 43 @ argument  @ 49 @ 
+operator: =  @ 100 @ operator: =  @ 118 @ 
+name: ISC_RET_ALLOCATED_MEMORY  @ 31 @ name: ISC_RET_ALLOCATED_MEMORY  @ 34 @ 
+name: ISC_RET_REPLAY_DETECT  @ 27 @ name: ISC_RET_REPLAY_DETECT  @ 30 @ 
+name: ret_flags  @ 33 @ name: ret_flags  @ 36 @ 
+endif  @ 11 @ endif  @ 12 @ 
+name: connssl  @ 5 @ name: connssl  @ 6 @ 
+call  @ 34 @ call  @ 37 @ 
+modifier: *  @ 2 @ modifier: *  @ 5 @ 
+name: conn  @ 63 @ name: conn  @ 75 @ 
+ifdef  @ 51 @ ifdef  @ 59 @ 
+name: alpn_result  @ 57 @ name: alpn_result  @ 67 @ 
+expr  @ 79 @ expr  @ 94 @ 
+specifier: const  @ 9 @ specifier: const  @ 10 @ 
+expr  @ 92 @ expr  @ 109 @ 
+name: data  @ 28 @ name: data  @ 31 @ 
+expr_stmt  @ 95 @ expr_stmt  @ 113 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 37 @ 
+operator: ->  @ 31 @ operator: ->  @ 34 @ 
+literal: 0  @ 99 @ literal: 0  @ 117 @ 
+expr  @ 57 @ expr  @ 69 @ 
+operator: &  @ 40 @ operator: &  @ 44 @ 
+expr  @ 58 @ expr  @ 70 @ 
+if  @ 31 @ if  @ 34 @ 
+name: args  @ 113 @ name: args  @ 134 @ 
+operator: (  @ 27 @ operator: (  @ 30 @ 
+expr  @ 119 @ expr  @ 140 @ 
+name: certinfo  @ 98 @ name: certinfo  @ 116 @ 
+operator: ==  @ 63 @ operator: ==  @ 75 @ 
+block_content  @ 75 @ block_content  @ 89 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 43 @ 
+name: conn  @ 83 @ name: conn  @ 98 @ 
+expr  @ 18 @ expr  @ 20 @ 
+block_content  @ 43 @ block_content  @ 49 @ 
+name: cred  @ 91 @ name: cred  @ 108 @ 
+type  @ 2 @ type  @ 2 @ 
+argument_list  @ 73 @ argument_list  @ 86 @ 
+if_stmt  @ 25 @ if_stmt  @ 28 @ 
+if_stmt  @ 20 @ if_stmt  @ 23 @ 
+name: certs_count  @ 99 @ name: certs_count  @ 117 @ 
+expr  @ 63 @ expr  @ 75 @ 
+name: traverse_cert_store  @ 115 @ name: traverse_cert_store  @ 136 @ 
+expr  @ 72 @ expr  @ 85 @ 
+name: SecApplicationProtocolNegotiationStatus_Success  @ 47 @ name: SecApplicationProtocolNegotiationStatus_Success  @ 54 @ 
+expr  @ 76 @ expr  @ 90 @ 
+block  @ 57 @ block  @ 69 @ 
+expr  @ 43 @ expr  @ 49 @ 
+block_content  @ 69 @ block_content  @ 82 @ 
+name: refcount  @ 91 @ name: refcount  @ 108 @ 
+expr_stmt  @ 112 @ expr_stmt  @ 133 @ 
+name: ctxt_handle  @ 100 @ name: ctxt_handle  @ 119 @ 
+name: bool  @ 69 @ name: bool  @ 82 @ 
+expr  @ 16 @ expr  @ 17 @ 
+name: memcmp  @ 57 @ name: memcmp  @ 68 @ 
+name  @ 16 @ name  @ 17 @ 
+argument  @ 83 @ argument  @ 98 @ 
+endif  @ 56 @ endif  @ 66 @ 
+argument  @ 115 @ argument  @ 136 @ 
+name: sspi_status  @ 42 @ name: sspi_status  @ 48 @ 
+name: ccert_context  @ 115 @ name: ccert_context  @ 136 @ 
+call  @ 76 @ call  @ 90 @ 
+expr  @ 39 @ expr  @ 42 @ 
+operator: .  @ 9 @ operator: .  @ 10 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 56 @ 
+name: sspi_status  @ 40 @ name: sspi_status  @ 43 @ 
+expr  @ 30 @ expr  @ 33 @ 
+expr_stmt  @ 114 @ expr_stmt  @ 135 @ 
+name: Curl_ssl_getsessionid  @ 73 @ name: Curl_ssl_getsessionid  @ 86 @ 
+argument  @ 26 @ argument  @ 29 @ 
+name: conn  @ 18 @ name: conn  @ 21 @ 
+name  @ 49 @ name  @ 57 @ 
+expr  @ 73 @ expr  @ 86 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+name: BACKEND  @ 100 @ name: BACKEND  @ 119 @ 
+name  @ 91 @ name  @ 108 @ 
+expr  @ 40 @ expr  @ 44 @ 
+operator: &  @ 29 @ operator: &  @ 32 @ 
+condition  @ 25 @ condition  @ 28 @ 
+operator: =  @ 58 @ operator: =  @ 70 @ 
+name: DEBUGF  @ 76 @ name: DEBUGF  @ 90 @ 
+argument  @ 72 @ argument  @ 85 @ 
+call  @ 32 @ call  @ 35 @ 
+argument  @ 100 @ argument  @ 120 @ 
+operator: ->  @ 25 @ operator: ->  @ 28 @ 
+name: BACKEND  @ 24 @ name: BACKEND  @ 27 @ 
+decl_stmt  @ 13 @ decl_stmt  @ 14 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+expr  @ 27 @ expr  @ 30 @ 
+return  @ 125 @ return  @ 146 @ 
+argument  @ 92 @ argument  @ 110 @ 
+argument  @ 49 @ argument  @ 56 @ 
+return  @ 44 @ return  @ 50 @ 
+expr  @ 87 @ expr  @ 104 @ 
+init  @ 4 @ init  @ 4 @ 
+argument  @ 18 @ argument  @ 20 @ 
+name: ALPN_HTTP_1_1  @ 57 @ name: ALPN_HTTP_1_1  @ 68 @ 
+expr  @ 18 @ expr  @ 19 @ 
+argument_list  @ 76 @ argument_list  @ 90 @ 
+operator: !  @ 52 @ operator: !  @ 61 @ 
+expr  @ 16 @ expr  @ 17 @ 
+init  @ 6 @ init  @ 7 @ 
+directive: ifdef  @ 51 @ directive: ifdef  @ 59 @ 
+argument_list  @ 62 @ argument_list  @ 74 @ 
+endif  @ 65 @ endif  @ 78 @ 
+call  @ 78 @ call  @ 93 @ 
+expr  @ 9 @ expr  @ 10 @ 
+name  @ 27 @ name  @ 30 @ 
+name: BACKEND  @ 29 @ name: BACKEND  @ 32 @ 
+block_content  @ 34 @ block_content  @ 37 @ 
+expr_stmt  @ 109 @ expr_stmt  @ 130 @ 
+index  @ 5 @ index  @ 6 @ 
+name: data  @ 34 @ name: data  @ 37 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 21 @ name: CURLE_SSL_CONNECT_ERROR  @ 24 @ 
+name: NULL  @ 7 @ name: NULL  @ 8 @ 
+name  @ 57 @ name  @ 67 @ 
+name: result  @ 119 @ name: result  @ 140 @ 
+expr  @ 85 @ expr  @ 102 @ 
+name: Curl_ssl_init_certinfo  @ 109 @ name: Curl_ssl_init_certinfo  @ 130 @ 
+expr  @ 92 @ expr  @ 109 @ 
+type  @ 4 @ type  @ 4 @ 
+expr_stmt  @ 113 @ expr_stmt  @ 134 @ 
+decl  @ 70 @ decl  @ 83 @ 
+expr  @ 118 @ expr  @ 139 @ 
+decl_stmt  @ 111 @ decl_stmt  @ 132 @ 
+operator: .  @ 49 @ operator: .  @ 57 @ 
+operator: &  @ 100 @ operator: &  @ 121 @ 
+expr  @ 30 @ expr  @ 33 @ 
+operator: ->  @ 24 @ operator: ->  @ 27 @ 
+block_content  @ 26 @ block_content  @ 29 @ 
+condition  @ 74 @ condition  @ 88 @ 
+argument_list  @ 18 @ argument_list  @ 19 @ 
+operator: ->  @ 100 @ operator: ->  @ 119 @ 
+name: incache  @ 74 @ name: incache  @ 88 @ 
+operator: ->  @ 10 @ operator: ->  @ 11 @ 
+argument  @ 62 @ argument  @ 74 @ 
+name: SECURITY_STATUS  @ 6 @ name: SECURITY_STATUS  @ 7 @ 
+decl_stmt  @ 69 @ decl_stmt  @ 82 @ 
+name: failf  @ 28 @ name: failf  @ 31 @ 
+call  @ 73 @ call  @ 86 @ 
+expr  @ 5 @ expr  @ 6 @ 
+expr  @ 68 @ expr  @ 81 @ 
+name: set  @ 98 @ name: set  @ 116 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 44 @ name: CURLE_SSL_CONNECT_ERROR  @ 50 @ 
+expr  @ 47 @ expr  @ 53 @ 
+operator: .  @ 52 @ operator: .  @ 61 @ 
+name: ProtocolId  @ 57 @ name: ProtocolId  @ 68 @ 
+name: result  @ 116 @ name: result  @ 137 @ 
+block  @ 47 @ block  @ 54 @ 
+name: ALPN_HTTP_1_1_LENGTH  @ 57 @ name: ALPN_HTTP_1_1_LENGTH  @ 69 @ 
+expr_stmt  @ 73 @ expr_stmt  @ 86 @ 
+block_content  @ 62 @ block_content  @ 74 @ 
+argument  @ 18 @ argument  @ 21 @ 
+name: NGHTTP2_PROTO_VERSION_ID  @ 52 @ name: NGHTTP2_PROTO_VERSION_ID  @ 61 @ 
+call  @ 103 @ call  @ 124 @ 
+expr  @ 99 @ expr  @ 117 @ 
+operator: .  @ 98 @ operator: .  @ 116 @ 
+argument  @ 83 @ argument  @ 99 @ 
+expr_stmt  @ 107 @ expr_stmt  @ 128 @ 
+name  @ 58 @ name  @ 70 @ 
+expr  @ 40 @ expr  @ 45 @ 
+block_content  @ 111 @ block_content  @ 132 @ 
+decl  @ 2 @ decl  @ 2 @ 
+call  @ 92 @ call  @ 109 @ 
+expr  @ 83 @ expr  @ 99 @ 
+operator: .  @ 57 @ operator: .  @ 68 @ 
+expr  @ 115 @ expr  @ 136 @ 
+if_stmt  @ 31 @ if_stmt  @ 34 @ 
+expr  @ 40 @ expr  @ 46 @ 
+operator: ==  @ 16 @ operator: ==  @ 17 @ 
+argument  @ 18 @ argument  @ 19 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 29 @ 
+call  @ 68 @ call  @ 81 @ 
+name: void  @ 73 @ name: void  @ 86 @ 
+expr  @ 52 @ expr  @ 62 @ 
+expr  @ 34 @ expr  @ 37 @ 
+if  @ 24 @ if  @ 27 @ 
+name: NGHTTP2_PROTO_VERSION_ID_LEN  @ 52 @ name: NGHTTP2_PROTO_VERSION_ID_LEN  @ 62 @ 
+if_stmt  @ 42 @ if_stmt  @ 48 @ 
+argument  @ 76 @ argument  @ 90 @ 
+call  @ 92 @ call  @ 109 @ 
+name: BACKEND  @ 24 @ name: BACKEND  @ 27 @ 
+operator: =  @ 113 @ operator: =  @ 134 @ 
+operator: ->  @ 53 @ operator: ->  @ 63 @ 
+name: SEC_E_OK  @ 42 @ name: SEC_E_OK  @ 48 @ 
+literal: "schannel: failed to setup memory allocation"  @ 32 @ literal: "schannel: failed to setup memory allocation"  @ 35 @ 
+name: Curl_multiuse_state  @ 63 @ name: Curl_multiuse_state  @ 75 @ 
+name: s_pSecFn  @ 100 @ name: s_pSecFn  @ 119 @ 
+argument  @ 26 @ argument  @ 29 @ 
+name: data  @ 76 @ name: data  @ 90 @ 
+operator: ++  @ 91 @ operator: ++  @ 108 @ 
+expr  @ 18 @ expr  @ 21 @ 
+comment: /* this cred session is now also referenced by sessionid cache */  @ 90 @ comment: /* this cred session is now also referenced by sessionid cache */  @ 107 @ 
+argument_list  @ 9 @ argument_list  @ 10 @ 
+operator: .  @ 112 @ operator: .  @ 133 @ 
+name: BACKEND  @ 91 @ name: BACKEND  @ 108 @ 
+name: infof  @ 76 @ name: infof  @ 90 @ 
+argument  @ 34 @ argument  @ 37 @ 
+expr  @ 26 @ expr  @ 29 @ 
+name: struct  @ 2 @ name: struct  @ 2 @ 
+name  @ 52 @ name  @ 61 @ 
+literal: "schannel: failed to setup confidentiality"  @ 30 @ literal: "schannel: failed to setup confidentiality"  @ 33 @ 
+

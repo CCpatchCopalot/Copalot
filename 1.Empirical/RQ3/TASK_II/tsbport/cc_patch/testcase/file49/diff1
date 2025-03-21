@@ -1,0 +1,4 @@
+195c195
+<         if (free_block >= heap->dblk_size)
+---
+>         if ((free_block + (2 * heap->sizeof_size)) > heap->dblk_size)

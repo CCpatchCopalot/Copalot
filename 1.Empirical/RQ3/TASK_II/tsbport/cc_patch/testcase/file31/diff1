@@ -1,0 +1,8 @@
+3425a3426
+> 		if (offset + 4 < sz) {
+3426a3428
+> 		}
+6855a6858,6860
+> 	if (buf_offset + 32 >= sz) {
+> 		return NULL;
+> 	}

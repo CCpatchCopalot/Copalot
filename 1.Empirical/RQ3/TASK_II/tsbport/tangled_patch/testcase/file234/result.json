@@ -1,0 +1,348 @@
+{
+    "testcase": {
+        "file234": {
+            "match_message": {
+                "Same: chnl_box_read -> chnl_box_read": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 12529->12457",
+                        "L2": "5: Matched by Syntax(AST) similarity 12529->12457"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12535 -> 12464",
+                        "L2": "3: Unique Matched by Source code 12536 -> 12465"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12536 -> 12465",
+                        "L2": "8: update L2 by L1 (5: Matched by Syntax(AST) similarity 12537->12467)"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 12543->12473",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 12544->12475)"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12545 -> 12476",
+                        "L2": "8: update L2 by L1 (5: Matched by Syntax(AST) similarity 12546->12478)"
+                    },
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 12546->12478",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 12547->12480)"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 12549 -> 12481",
+                        "L2": "3: Unique Matched by Source code 12549 -> 12481"
+                    }
+                },
+                "Same: chnl_box_write -> chnl_box_write": {
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12571 -> 12504",
+                        "L2": "3: Unique Matched by Source code 12572 -> 12505"
+                    },
+                    "Seg_8": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12575 -> 12508",
+                        "L2": "3: Unique Matched by Source code 12576 -> 12509"
+                    },
+                    "Seg_9": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12583 -> 12516",
+                        "L2": "3: Unique Matched by Source code 12584 -> 12517"
+                    },
+                    "Seg_10": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 12587 -> 12520",
+                        "L2": "3: Unique Matched by Source code 12587 -> 12520"
+                    }
+                },
+                "Same: chnl_box_size -> chnl_box_size": {
+                    "Seg_11": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12596 -> 12529",
+                        "L2": "3: Unique Matched by Source code 12597 -> 12530"
+                    },
+                    "Seg_12": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12600 -> 12533",
+                        "L2": "3: Unique Matched by Source code 12601 -> 12534"
+                    },
+                    "Seg_13": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12606 -> 12539",
+                        "L2": "3: Unique Matched by Source code 12607 -> 12540"
+                    },
+                    "Seg_14": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12607 -> 12540",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 12608->12541"
+                    },
+                    "Seg_15": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 12610 -> 12543",
+                        "L2": "3: Unique Matched by Source code 12610 -> 12543"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 12457,
+                        "add_hunk": [
+                            "ISOM_DECREASE_SIZE(s, 1)",
+                            "if (ptr->version==0) {\n",
+                            "\t\tptr->layout.stream_structure = gf_bs_read_u8(bs);\n",
+                            "\t} else {\n",
+                            "\t\tptr->layout.stream_structure = gf_bs_read_int(bs, 4);\n",
+                            "\t\tptr->layout.format_ordering = gf_bs_read_int(bs, 4);\n",
+                            "\t\tISOM_DECREASE_SIZE(s, 1)ptr->layout.base_channel_count = gf_bs_read_u8(bs);\n",
+                            "\t}"
+                        ],
+                        "delete_location": [
+                            12457,
+                            12457
+                        ],
+                        "delete_hunk": [
+                            "\tptr->layout.stream_structure = gf_bs_read_u8(bs);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 12464,
+                        "add_hunk": [
+                            "\t\t\tu32 nb_channels = 0;\n",
+                            "\t\t\tif (ptr->version) {\n",
+                            "\t\t\t\tISOM_DECREASE_SIZE(s, 1)\n",
+                            "\t\t\t\tnb_channels = gf_bs_read_u8(bs);\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 12465,
+                        "add_hunk": [
+                            "\t\t\t\tif (ptr->layout.channels_count==64) return GF_ISOM_INVALID_FILE;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 12473,
+                        "add_hunk": [
+                            "\t\t\t\tptr->layout.channels_count++;\n",
+                            "\t\t\t\tif (ptr->version) {\n",
+                            "\t\t\t\t\tnb_channels--;\n",
+                            "\t\t\t\t\tif (!nb_channels) break;\n",
+                            "\t\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 12476,
+                        "add_hunk": [
+                            "\t\t\tif (ptr->version==0) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 12478,
+                        "add_hunk": [
+                            "\t\t\t\tptr->layout.omitted_channels_present = 1;\n",
+                            "\t\t\t\tptr->layout.channel_order_definition = 0;\n",
+                            "\t\t\t} else {\n",
+                            "\t\t\t\tISOM_DECREASE_SIZE(s, 1)\n",
+                            "\t\t\t\tgf_bs_read_int(bs, 4);\n",
+                            "\t\t\t\tptr->layout.channel_order_definition = gf_bs_read_int(bs, 3);\n",
+                            "\t\t\t\tptr->layout.omitted_channels_present = gf_bs_read_int(bs, 1);\n",
+                            "\t\t\t\tif (ptr->layout.omitted_channels_present) {\n",
+                            "\t\t\t\t\tISOM_DECREASE_SIZE(s, 8)ptr->layout.omittedChannelsMap = gf_bs_read_u64(bs);\n",
+                            "\t\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 12481,
+                        "add_hunk": [
+                            "\t}\n",
+                            "\tif ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {\n"
+                        ],
+                        "delete_location": [
+                            12481,
+                            12481
+                        ],
+                        "delete_hunk": [
+                            "\tif (ptr->layout.stream_structure & 2) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 12504,
+                        "add_hunk": [
+                            "\tif (ptr->version==0) {\n",
+                            "\t\tgf_bs_write_u8(bs, ptr->layout.stream_structure);\n",
+                            "\t} else {\n",
+                            "\t\tgf_bs_write_int(bs, ptr->layout.stream_structure, 4);\n",
+                            "\t\tgf_bs_write_int(bs, ptr->layout.format_ordering, 4);\n",
+                            "\t\tgf_bs_write_u8(bs, ptr->layout.base_channel_count);\n",
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 12508,
+                        "add_hunk": [
+                            "\t\t\tif (ptr->version==1) {\n",
+                            "\t\t\t\tgf_bs_write_u8(bs, ptr->layout.channels_count);\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "add",
+                        "add_location": 12516,
+                        "add_hunk": [
+                            "\t\t\tif (ptr->version==1) {\n",
+                            "\t\t\t\tgf_bs_write_int(bs, 0, 4);\n",
+                            "\t\t\t\tgf_bs_write_int(bs, ptr->layout.channel_order_definition, 3);\n",
+                            "\t\t\t\tgf_bs_write_int(bs, ptr->layout.omitted_channels_present, 1);\n",
+                            "\t\t\t\tif (ptr->layout.omitted_channels_present)\n",
+                            "\t\t\t\t\tgf_bs_write_u64(bs, ptr->layout.omittedChannelsMap);\n",
+                            "\t\t\t} else {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "change",
+                        "add_location": 12520,
+                        "add_hunk": [
+                            "\t}\n",
+                            "\tif ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {\n"
+                        ],
+                        "delete_location": [
+                            12520,
+                            12520
+                        ],
+                        "delete_hunk": [
+                            "\tif (ptr->layout.stream_structure & 2) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "add",
+                        "add_location": 12529,
+                        "add_hunk": [
+                            "\tif (ptr->version==1) s->size++;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "add",
+                        "add_location": 12533,
+                        "add_hunk": [
+                            "\t\t\tif (ptr->version==1) s->size++;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "add",
+                        "add_location": 12539,
+                        "add_hunk": [
+                            "\t\t\tif (ptr->version==1) {\n",
+                            "\t\t\t\ts->size += 1;\n",
+                            "\t\t\t\tif (ptr->layout.omitted_channels_present)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "add",
+                        "add_location": 12540,
+                        "add_hunk": [
+                            "\t\t\t} else {\n",
+                            "\t\t\t\ts->size += 8;\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_15",
+                    {
+                        "Edit": "change",
+                        "add_location": 12543,
+                        "add_hunk": [
+                            "\tif ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {\n"
+                        ],
+                        "delete_location": [
+                            12543,
+                            12543
+                        ],
+                        "delete_hunk": [
+                            "\tif (ptr->layout.stream_structure & 2) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: chnl_box_read -> chnl_box_read": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: chnl_box_write -> chnl_box_write": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: chnl_box_size -> chnl_box_size": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "other",
+                "sanity_check",
+                "change_type",
+                "change_value"
+            ]
+        }
+    }
+}

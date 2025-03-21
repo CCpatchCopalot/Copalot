@@ -1,0 +1,8 @@
+3573a3574
+>		if (offset + 4 < sz) {
+3574a3575
+>		}
+7204a7205,7207
+>	if (buf_offset + 32 >= sz) {
+>		return NULL;
+>	}

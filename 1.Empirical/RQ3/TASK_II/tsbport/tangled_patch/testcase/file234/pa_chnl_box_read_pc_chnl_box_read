@@ -1,0 +1,338 @@
+name: GF_ChannelLayoutBox  @ 3 @ name: GF_ChannelLayoutBox  @ 3 @ 
+argument  @ 17 @ argument  @ 21 @ 
+name  @ 22 @ name  @ 27 @ 
+argument  @ 22 @ argument  @ 26 @ 
+name: GF_BitStream  @ 1 @ name: GF_BitStream  @ 1 @ 
+name: ISOM_DECREASE_SIZE  @ 5 @ name: ISOM_DECREASE_SIZE  @ 5 @ 
+argument  @ 7 @ argument  @ 9 @ 
+expr  @ 9 @ expr  @ 11 @ 
+operator: .  @ 6 @ operator: .  @ 7 @ 
+argument  @ 16 @ argument  @ 19 @ 
+name: ptr  @ 8 @ name: ptr  @ 10 @ 
+index  @ 17 @ index  @ 21 @ 
+if_stmt  @ 10 @ if_stmt  @ 12 @ 
+operator: .  @ 15 @ operator: .  @ 18 @ 
+name: ptr  @ 10 @ name: ptr  @ 12 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: .  @ 17 @ operator: .  @ 21 @ 
+name  @ 17 @ name  @ 21 @ 
+argument_list  @ 7 @ argument_list  @ 9 @ 
+name: elevation  @ 17 @ name: elevation  @ 21 @ 
+operator: .  @ 13 @ operator: .  @ 16 @ 
+literal: 1  @ 6 @ literal: 1  @ 7 @ 
+name: stream_structure  @ 5 @ name: stream_structure  @ 6 @ 
+argument  @ 17 @ argument  @ 21 @ 
+expr  @ 8 @ expr  @ 10 @ 
+init  @ 9 @ init  @ 11 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 9 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+operator: ->  @ 6 @ operator: ->  @ 7 @ 
+name: layout  @ 15 @ name: layout  @ 18 @ 
+operator: (  @ 3 @ operator: (  @ 3 @ 
+name: layout  @ 5 @ name: layout  @ 6 @ 
+literal: 1  @ 26 @ literal: 1  @ 31 @ 
+operator: =  @ 16 @ operator: =  @ 20 @ 
+block  @ 8 @ block  @ 10 @ 
+operator: .  @ 17 @ operator: .  @ 21 @ 
+expr  @ 5 @ expr  @ 6 @ 
+name  @ 13 @ name  @ 16 @ 
+name: ptr  @ 13 @ name: ptr  @ 16 @ 
+expr  @ 28 @ expr  @ 34 @ 
+type  @ 1 @ type  @ 1 @ 
+block  @ 25 @ block  @ 30 @ 
+operator: ->  @ 16 @ operator: ->  @ 20 @ 
+name: definedLayout  @ 7 @ name: definedLayout  @ 9 @ 
+name: s  @ 3 @ name: s  @ 3 @ 
+macro  @ 5 @ macro  @ 5 @ 
+block  @ 10 @ block  @ 12 @ 
+condition  @ 8 @ condition  @ 10 @ 
+expr  @ 13 @ expr  @ 16 @ 
+name: ptr  @ 15 @ name: ptr  @ 18 @ 
+literal: 126  @ 15 @ literal: 126  @ 18 @ 
+name: ptr  @ 16 @ name: ptr  @ 20 @ 
+argument  @ 16 @ argument  @ 20 @ 
+operator: (  @ 9 @ operator: (  @ 11 @ 
+name: remain  @ 14 @ name: remain  @ 17 @ 
+expr  @ 10 @ expr  @ 12 @ 
+expr  @ 17 @ expr  @ 21 @ 
+name: object_count  @ 26 @ name: object_count  @ 32 @ 
+name: gf_bs_read_u8  @ 7 @ name: gf_bs_read_u8  @ 9 @ 
+operator: ->  @ 22 @ operator: ->  @ 27 @ 
+argument_list  @ 16 @ argument_list  @ 20 @ 
+else  @ 21 @ else  @ 25 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+operator: ->  @ 25 @ operator: ->  @ 30 @ 
+name: layout  @ 15 @ name: layout  @ 18 @ 
+operator: =  @ 26 @ operator: =  @ 32 @ 
+literal: 16  @ 16 @ literal: 16  @ 20 @ 
+expr  @ 25 @ expr  @ 30 @ 
+block_content  @ 13 @ block_content  @ 15 @ 
+literal: 1  @ 13 @ literal: 1  @ 15 @ 
+name: ptr  @ 22 @ name: ptr  @ 27 @ 
+expr  @ 15 @ expr  @ 18 @ 
+name  @ 17 @ name  @ 21 @ 
+argument  @ 26 @ argument  @ 31 @ 
+operator: )  @ 3 @ operator: )  @ 3 @ 
+operator: ->  @ 17 @ operator: ->  @ 21 @ 
+literal: 8  @ 22 @ literal: 8  @ 26 @ 
+if  @ 10 @ if  @ 12 @ 
+expr  @ 15 @ expr  @ 18 @ 
+operator: ->  @ 13 @ operator: ->  @ 16 @ 
+operator: ==  @ 15 @ operator: ==  @ 18 @ 
+expr  @ 22 @ expr  @ 27 @ 
+name  @ 16 @ name  @ 20 @ 
+name: channels_count  @ 13 @ name: channels_count  @ 16 @ 
+name: layout  @ 10 @ name: layout  @ 12 @ 
+call  @ 26 @ call  @ 32 @ 
+condition  @ 10 @ condition  @ 12 @ 
+macro  @ 22 @ macro  @ 26 @ 
+name: channels_count  @ 16 @ name: channels_count  @ 20 @ 
+name: remain  @ 10 @ name: remain  @ 12 @ 
+name: bs  @ 7 @ name: bs  @ 9 @ 
+argument_list  @ 13 @ argument_list  @ 15 @ 
+name: layout  @ 17 @ name: layout  @ 21 @ 
+expr  @ 26 @ expr  @ 32 @ 
+name: bs  @ 5 @ name: bs  @ 6 @ 
+if  @ 15 @ if  @ 18 @ 
+argument  @ 5 @ argument  @ 6 @ 
+decl  @ 1 @ decl  @ 1 @ 
+literal: 0  @ 11 @ literal: 0  @ 13 @ 
+operator: .  @ 16 @ operator: .  @ 20 @ 
+literal: 1  @ 7 @ literal: 1  @ 8 @ 
+name: layout  @ 16 @ name: layout  @ 20 @ 
+macro  @ 26 @ macro  @ 31 @ 
+name: u32  @ 9 @ name: u32  @ 11 @ 
+operator: .  @ 16 @ operator: .  @ 20 @ 
+return  @ 28 @ return  @ 34 @ 
+operator: =  @ 13 @ operator: =  @ 16 @ 
+argument  @ 16 @ argument  @ 20 @ 
+name: layouts  @ 13 @ name: layouts  @ 16 @ 
+expr  @ 3 @ expr  @ 3 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: ->  @ 15 @ operator: ->  @ 18 @ 
+argument_list  @ 7 @ argument_list  @ 8 @ 
+expr  @ 10 @ expr  @ 12 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 32 @ 
+name: remain  @ 12 @ name: remain  @ 14 @ 
+init  @ 3 @ init  @ 3 @ 
+name: size  @ 9 @ name: size  @ 11 @ 
+block  @ 12 @ block  @ 14 @ 
+name  @ 8 @ name  @ 10 @ 
+call  @ 22 @ call  @ 27 @ 
+name: GF_ChannelLayoutBox  @ 3 @ name: GF_ChannelLayoutBox  @ 3 @ 
+if  @ 25 @ if  @ 30 @ 
+operator: *  @ 3 @ operator: *  @ 3 @ 
+expr  @ 7 @ expr  @ 9 @ 
+name: s  @ 1 @ name: s  @ 1 @ 
+operator: .  @ 13 @ operator: .  @ 16 @ 
+argument  @ 13 @ argument  @ 15 @ 
+name: layout  @ 8 @ name: layout  @ 10 @ 
+name  @ 25 @ name  @ 30 @ 
+name  @ 6 @ name  @ 7 @ 
+argument_list  @ 13 @ argument_list  @ 16 @ 
+name: layout  @ 11 @ name: layout  @ 13 @ 
+block_content  @ 7 @ block_content  @ 8 @ 
+name: ptr  @ 3 @ name: ptr  @ 3 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+expr  @ 5 @ expr  @ 6 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 12 @ 
+block_content  @ 16 @ block_content  @ 19 @ 
+index  @ 13 @ index  @ 16 @ 
+argument  @ 26 @ argument  @ 32 @ 
+expr  @ 16 @ expr  @ 20 @ 
+name: gf_bs_read_u8  @ 13 @ name: gf_bs_read_u8  @ 16 @ 
+name: ptr  @ 15 @ name: ptr  @ 18 @ 
+name  @ 9 @ name  @ 11 @ 
+argument  @ 22 @ argument  @ 26 @ 
+block  @ 6 @ block  @ 7 @ 
+operator: ->  @ 5 @ operator: ->  @ 6 @ 
+argument  @ 13 @ argument  @ 16 @ 
+operator: ->  @ 17 @ operator: ->  @ 21 @ 
+operator: --  @ 10 @ operator: --  @ 12 @ 
+name: GF_OK  @ 28 @ name: GF_OK  @ 34 @ 
+name: ptr  @ 17 @ name: ptr  @ 21 @ 
+expr  @ 16 @ expr  @ 20 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+literal: 8  @ 17 @ literal: 8  @ 21 @ 
+name: position  @ 15 @ name: position  @ 18 @ 
+name: stream_structure  @ 10 @ name: stream_structure  @ 12 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 13 @ 
+name: layout  @ 13 @ name: layout  @ 16 @ 
+literal: 3  @ 18 @ literal: 3  @ 22 @ 
+type  @ 3 @ type  @ 3 @ 
+name: ISOM_DECREASE_SIZE  @ 22 @ name: ISOM_DECREASE_SIZE  @ 26 @ 
+name: layouts  @ 16 @ name: layouts  @ 20 @ 
+argument  @ 5 @ argument  @ 5 @ 
+if  @ 6 @ if  @ 7 @ 
+name: bs  @ 22 @ name: bs  @ 27 @ 
+name: ptr  @ 9 @ name: ptr  @ 11 @ 
+macro  @ 13 @ macro  @ 15 @ 
+operator: ->  @ 26 @ operator: ->  @ 32 @ 
+expr  @ 26 @ expr  @ 32 @ 
+name: layout  @ 7 @ name: layout  @ 9 @ 
+name: ISOM_DECREASE_SIZE  @ 16 @ name: ISOM_DECREASE_SIZE  @ 19 @ 
+call  @ 16 @ call  @ 20 @ 
+expr  @ 13 @ expr  @ 16 @ 
+call  @ 13 @ call  @ 16 @ 
+operator: .  @ 13 @ operator: .  @ 16 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 17 @ 
+operator: =  @ 17 @ operator: =  @ 21 @ 
+call  @ 5 @ call  @ 6 @ 
+name  @ 16 @ name  @ 20 @ 
+operator: .  @ 15 @ operator: .  @ 18 @ 
+name: layout  @ 25 @ name: layout  @ 30 @ 
+operator: =  @ 11 @ operator: =  @ 13 @ 
+expr  @ 6 @ expr  @ 7 @ 
+name: gf_bs_read_u64  @ 22 @ name: gf_bs_read_u64  @ 27 @ 
+block  @ 15 @ block  @ 18 @ 
+name: layout  @ 6 @ name: layout  @ 7 @ 
+name  @ 15 @ name  @ 18 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+name  @ 5 @ name  @ 6 @ 
+name: layout  @ 16 @ name: layout  @ 20 @ 
+block_content  @ 9 @ block_content  @ 11 @ 
+name: channels_count  @ 11 @ name: channels_count  @ 13 @ 
+name  @ 15 @ name  @ 18 @ 
+name: ptr  @ 13 @ name: ptr  @ 16 @ 
+name  @ 26 @ name  @ 32 @ 
+name: remain  @ 9 @ name: remain  @ 11 @ 
+modifier: *  @ 3 @ modifier: *  @ 3 @ 
+argument_list  @ 22 @ argument_list  @ 26 @ 
+name: gf_bs_read_int  @ 16 @ name: gf_bs_read_int  @ 20 @ 
+while  @ 12 @ while  @ 14 @ 
+literal: 2  @ 25 @ literal: 2  @ 30 @ 
+name: ptr  @ 17 @ name: ptr  @ 21 @ 
+name: bs  @ 16 @ name: bs  @ 20 @ 
+argument_list  @ 26 @ argument_list  @ 32 @ 
+name: channels_count  @ 15 @ name: channels_count  @ 18 @ 
+expr  @ 16 @ expr  @ 20 @ 
+name  @ 10 @ name  @ 12 @ 
+operator: .  @ 22 @ operator: .  @ 27 @ 
+operator: -=  @ 18 @ operator: -=  @ 22 @ 
+name: ptr  @ 6 @ name: ptr  @ 7 @ 
+operator: ->  @ 7 @ operator: ->  @ 9 @ 
+operator: .  @ 16 @ operator: .  @ 20 @ 
+name: channels_count  @ 17 @ name: channels_count  @ 21 @ 
+type  @ 1 @ type  @ 1 @ 
+name: gf_bs_read_int  @ 17 @ name: gf_bs_read_int  @ 21 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+name: ISOM_DECREASE_SIZE  @ 7 @ name: ISOM_DECREASE_SIZE  @ 8 @ 
+block  @ 2 @ block  @ 2 @ 
+name: layout  @ 13 @ name: layout  @ 16 @ 
+name: ptr  @ 16 @ name: ptr  @ 20 @ 
+expr  @ 7 @ expr  @ 9 @ 
+name: bs  @ 26 @ name: bs  @ 32 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 27 @ 
+macro  @ 7 @ macro  @ 8 @ 
+operator: .  @ 10 @ operator: .  @ 12 @ 
+operator: =  @ 5 @ operator: =  @ 6 @ 
+expr  @ 17 @ expr  @ 21 @ 
+condition  @ 25 @ condition  @ 30 @ 
+operator: =  @ 22 @ operator: =  @ 27 @ 
+name: ISOM_DECREASE_SIZE  @ 13 @ name: ISOM_DECREASE_SIZE  @ 15 @ 
+decl  @ 3 @ decl  @ 3 @ 
+expr  @ 16 @ expr  @ 20 @ 
+name: ptr  @ 11 @ name: ptr  @ 13 @ 
+call  @ 7 @ call  @ 9 @ 
+call  @ 17 @ call  @ 21 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: =  @ 7 @ operator: =  @ 9 @ 
+name: ptr  @ 26 @ name: ptr  @ 32 @ 
+name: gf_bs_read_u8  @ 26 @ name: gf_bs_read_u8  @ 32 @ 
+expr  @ 18 @ expr  @ 22 @ 
+index  @ 15 @ index  @ 18 @ 
+argument  @ 16 @ argument  @ 19 @ 
+name: ptr  @ 5 @ name: ptr  @ 6 @ 
+operator: .  @ 11 @ operator: .  @ 13 @ 
+name: omittedChannelsMap  @ 22 @ name: omittedChannelsMap  @ 27 @ 
+argument_list  @ 17 @ argument_list  @ 21 @ 
+macro  @ 16 @ macro  @ 19 @ 
+operator: .  @ 7 @ operator: .  @ 9 @ 
+type  @ 9 @ type  @ 11 @ 
+name: stream_structure  @ 6 @ name: stream_structure  @ 7 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 21 @ 
+name: bs  @ 17 @ name: bs  @ 21 @ 
+name: bs  @ 13 @ name: bs  @ 16 @ 
+expr  @ 11 @ expr  @ 13 @ 
+name: layout  @ 17 @ name: layout  @ 21 @ 
+operator: .  @ 25 @ operator: .  @ 30 @ 
+block_content  @ 26 @ block_content  @ 31 @ 
+name: u32  @ 9 @ name: u32  @ 11 @ 
+operator: ->  @ 13 @ operator: ->  @ 16 @ 
+if_stmt  @ 6 @ if_stmt  @ 7 @ 
+name: azimuth  @ 16 @ name: azimuth  @ 20 @ 
+literal: 1  @ 5 @ literal: 1  @ 5 @ 
+operator: ->  @ 9 @ operator: ->  @ 11 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 20 @ 
+operator: &  @ 6 @ operator: &  @ 7 @ 
+name: bs  @ 1 @ name: bs  @ 1 @ 
+name  @ 13 @ name  @ 16 @ 
+operator: .  @ 15 @ operator: .  @ 18 @ 
+argument_list  @ 22 @ argument_list  @ 27 @ 
+expr  @ 17 @ expr  @ 21 @ 
+argument  @ 26 @ argument  @ 31 @ 
+operator: .  @ 5 @ operator: .  @ 6 @ 
+operator: &  @ 10 @ operator: &  @ 12 @ 
+name: chnl_box_read  @ 1 @ name: chnl_box_read  @ 1 @ 
+operator: .  @ 8 @ operator: .  @ 10 @ 
+if  @ 8 @ if  @ 10 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+name: layout  @ 26 @ name: layout  @ 32 @ 
+if_stmt  @ 8 @ if_stmt  @ 10 @ 
+operator: ->  @ 10 @ operator: ->  @ 12 @ 
+expr  @ 22 @ expr  @ 27 @ 
+operator: .  @ 26 @ operator: .  @ 32 @ 
+name: gf_bs_read_u8  @ 5 @ name: gf_bs_read_u8  @ 6 @ 
+argument_list  @ 26 @ argument_list  @ 31 @ 
+name: ptr  @ 25 @ name: ptr  @ 30 @ 
+name: ptr  @ 7 @ name: ptr  @ 9 @ 
+operator: )  @ 9 @ operator: )  @ 11 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 22 @ 
+operator: &  @ 25 @ operator: &  @ 30 @ 
+name: position  @ 13 @ name: position  @ 16 @ 
+argument  @ 7 @ argument  @ 8 @ 
+decl  @ 9 @ decl  @ 11 @ 
+operator: --  @ 14 @ operator: --  @ 17 @ 
+expr  @ 13 @ expr  @ 16 @ 
+name: ISOM_DECREASE_SIZE  @ 26 @ name: ISOM_DECREASE_SIZE  @ 31 @ 
+name: layout  @ 22 @ name: layout  @ 27 @ 
+condition  @ 12 @ condition  @ 14 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: ->  @ 11 @ operator: ->  @ 13 @ 
+block_content  @ 22 @ block_content  @ 26 @ 
+if_stmt  @ 25 @ if_stmt  @ 30 @ 
+condition  @ 6 @ condition  @ 7 @ 
+expr  @ 14 @ expr  @ 17 @ 
+literal: 2  @ 10 @ literal: 2  @ 12 @ 
+name  @ 11 @ name  @ 13 @ 
+condition  @ 15 @ condition  @ 18 @ 
+operator: .  @ 17 @ operator: .  @ 21 @ 
+literal: 3  @ 16 @ literal: 3  @ 19 @ 
+argument  @ 22 @ argument  @ 27 @ 
+argument  @ 5 @ argument  @ 5 @ 
+if_stmt  @ 15 @ if_stmt  @ 18 @ 
+name: GF_Err  @ 1 @ name: GF_Err  @ 1 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 11 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 16 @ 
+expr  @ 17 @ expr  @ 21 @ 
+name: layouts  @ 15 @ name: layouts  @ 18 @ 
+name: GF_Box  @ 1 @ name: GF_Box  @ 1 @ 
+name: layouts  @ 17 @ name: layouts  @ 21 @ 
+name: stream_structure  @ 25 @ name: stream_structure  @ 30 @ 
+expr  @ 12 @ expr  @ 14 @ 
+argument  @ 13 @ argument  @ 15 @ 
+operator: ->  @ 15 @ operator: ->  @ 18 @ 
+operator: ->  @ 16 @ operator: ->  @ 20 @ 
+argument_list  @ 5 @ argument_list  @ 6 @ 
+block_content  @ 10 @ block_content  @ 12 @ 
+name: remain  @ 18 @ name: remain  @ 22 @ 
+expr_stmt  @ 5 @ expr_stmt  @ 6 @ 
+name  @ 7 @ name  @ 9 @ 
+argument  @ 7 @ argument  @ 8 @ 
+argument_list  @ 16 @ argument_list  @ 19 @ 
+index  @ 16 @ index  @ 20 @ 
+name: definedLayout  @ 8 @ name: definedLayout  @ 10 @ 
+operator: ->  @ 8 @ operator: ->  @ 10 @ 
+block  @ 21 @ block  @ 25 @ 
+

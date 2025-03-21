@@ -1,0 +1,10 @@
+1100a1101
+>	u8 count;
+1102c1102,1106
+<	p->eventTypeCount = gf_bs_read_int(bs, 8);
+---
+>	p->eventTypeCount = 0;
+>	count = gf_bs_read_int(bs, 8);
+>	if (count > ARRAY_LENGTH(p->eventType))
+>		return GF_CORRUPTED_DATA;
+>	p->eventTypeCount = count;

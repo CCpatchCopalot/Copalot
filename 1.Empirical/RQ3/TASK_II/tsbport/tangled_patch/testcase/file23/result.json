@@ -1,0 +1,54 @@
+{
+    "testcase": {
+        "file23": {
+            "match_message": {
+                "Same: tensorflow -> tensorflow": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 22->42",
+                        "L2": "5: Matched by Syntax(AST) similarity 22->42"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 21,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 42,
+                        "add_hunk": [
+                            "if (initialized) {\n",
+                            "    initialized =dct_.Initialize(filterbank_channel_count_, dct_coefficient_count_);\n",
+                            "  }"
+                        ],
+                        "delete_location": [
+                            42,
+                            42
+                        ],
+                        "delete_hunk": [
+                            "      dct_.Initialize(filterbank_channel_count_, dct_coefficient_count_);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: tensorflow -> tensorflow": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

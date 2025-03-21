@@ -1,0 +1,65 @@
+{
+    "testcase": {
+        "file30": {
+            "match_message": {
+                "Same: get_array_object_generic -> get_array_object_generic": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 503 -> 498",
+                        "L2": "3: Unique Matched by Source code 508 -> 503"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 509 -> 504",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 510->505 ([[505, 1.0], [499, 0.6341463414634146]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 498,
+                        "add_hunk": [
+                            "\t\tif (!tmp || !r_list_append (ret->data, tmp)) {\n"
+                        ],
+                        "delete_location": [
+                            498,
+                            503
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (!tmp) {\n",
+                            "\t\t\tr_list_free (ret->data);\n",
+                            "\t\t\tR_FREE (ret);\n",
+                            "\t\t\treturn NULL;\n",
+                            "\t\t}\n",
+                            "\t\tif (!r_list_append (ret->data, tmp)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 504,
+                        "add_hunk": [
+                            "\t\t\t((RList*)ret->data)->free = NULL;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: get_array_object_generic -> get_array_object_generic": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_value"
+            ]
+        }
+    }
+}

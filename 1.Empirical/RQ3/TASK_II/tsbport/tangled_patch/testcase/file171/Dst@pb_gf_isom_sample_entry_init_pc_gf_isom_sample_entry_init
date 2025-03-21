@@ -1,0 +1,4 @@
+void gf_isom_sample_entry_init(GF_SampleEntryBox *ent)
+{
+	ent->protections = gf_list_new();
+}

@@ -1,0 +1,35 @@
+2300a2301,2304
+>		if (pos + 5 > data_size) {
+>			GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("Broken PMT! size %d but position %d and need at least 5 bytes to declare es\n", data_size, pos));
+>			break;
+>		}
+2426a2427,2430
+>			if (pos + 2 > data_size) {
+>				GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("Broken PMT descriptor! size %d but position %d and need at least 2 bytes to parse descritpor\n", data_size, pos));
+>				break;
+>			}
+2428a2429,2432
+>			if (pos + 2 + len > data_size) {
+>				GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("Broken PMT descriptor! size %d, desc size %d but position %d\n", data_size, len, pos));
+>				break;
+>			}
+2434a2435
+>					if (len>=2) {
+2440a2441
+>					}
+2442a2443
+>					if (len>=4) {
+2455a2456
+>					}
+2461c2461
+<				{
+---
+>					if (len>=2) {
+2479c2479
+<				{
+---
+>					if (len>=1) {
+2491c2491
+<					if (pes) {
+---
+>					if (pes && (len>=8)) {

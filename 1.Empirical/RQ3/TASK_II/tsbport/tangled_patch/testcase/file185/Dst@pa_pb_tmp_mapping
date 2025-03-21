@@ -1,0 +1,1 @@
+CURLcode Curl_ssl_addsessionid(struct Curl_easy *data, struct connectdata *conn, bool isProxy, void *ssl_sessionid, size_t idsize, int sockindex)

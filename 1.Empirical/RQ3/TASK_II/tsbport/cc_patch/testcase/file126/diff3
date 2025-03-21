@@ -1,0 +1,20 @@
+189c189
+<  prec = MAX (0, prec - (workend - string));
+---
+>  unsigned int prec_inc = MAX (0, prec - (workend - string));
+193c193
+<      width -= number_length + prec;
+---
+>      width -= number_length + prec_inc;
+221c221
+<      width += prec;
+---
+>      width += prec_inc;
+260c260
+<      width -= workend - string + prec;
+---
+>      width -= number_length + prec_inc;
+262c262
+<      Xprintf_buffer_pad (buf, L_('0'), prec);
+---
+>      Xprintf_buffer_pad (buf, L_('0'), prec_inc);

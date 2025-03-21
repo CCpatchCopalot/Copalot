@@ -1,0 +1,6 @@
+3953c3953
+< 		if (GF_4CC(data[i+4], data[i+5], data[i+6], data[i+7]) == GF_ISOM_BOX_TYPE_ESDS) {
+---
+> 		if (GF_4CC((u32)data[i+4], (u8)data[i+5], (u8)data[i+6], (u8)data[i+7]) == GF_ISOM_BOX_TYPE_ESDS) {
+3955a3956
+> 			if (!e) gf_isom_box_add_for_dump_mode((GF_Box*)ptr, (GF_Box*)ptr->esd);

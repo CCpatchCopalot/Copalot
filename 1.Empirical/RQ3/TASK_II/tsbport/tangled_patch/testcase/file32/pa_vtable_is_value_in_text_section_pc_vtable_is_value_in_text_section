@@ -1,0 +1,95 @@
+if  @ 4 @ if  @ 4 @ 
+expr  @ 8 @ expr  @ 8 @ 
+operator: =  @ 10 @ operator: =  @ 10 @ 
+argument  @ 4 @ argument  @ 4 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: RVTableContext  @ 1 @ name: RVTableContext  @ 1 @ 
+name: curAddressValue  @ 4 @ name: curAddressValue  @ 4 @ 
+operator: !  @ 4 @ operator: !  @ 4 @ 
+name: context  @ 4 @ name: context  @ 4 @ 
+argument  @ 4 @ argument  @ 4 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+block  @ 9 @ block  @ 9 @ 
+operator: &  @ 4 @ operator: &  @ 4 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+call  @ 8 @ call  @ 8 @ 
+name: ret  @ 12 @ name: ret  @ 12 @ 
+function  @ 1 @ function  @ 1 @ 
+type  @ 3 @ type  @ 3 @ 
+name: value  @ 10 @ name: value  @ 10 @ 
+decl  @ 1 @ decl  @ 1 @ 
+comment: //value at the current address  @ 2 @ comment: //value at the current address  @ 2 @ 
+name: curAddressValue  @ 3 @ name: curAddressValue  @ 3 @ 
+expr  @ 8 @ expr  @ 8 @ 
+call  @ 4 @ call  @ 4 @ 
+argument  @ 4 @ argument  @ 4 @ 
+name: context  @ 8 @ name: context  @ 8 @ 
+block_content  @ 10 @ block_content  @ 10 @ 
+name: ut64  @ 1 @ name: ut64  @ 1 @ 
+decl  @ 1 @ decl  @ 1 @ 
+condition  @ 4 @ condition  @ 4 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+block_content  @ 5 @ block_content  @ 5 @ 
+name: ut64  @ 1 @ name: ut64  @ 1 @ 
+argument  @ 8 @ argument  @ 8 @ 
+init  @ 8 @ init  @ 8 @ 
+argument_list  @ 4 @ argument_list  @ 4 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+type  @ 8 @ type  @ 8 @ 
+expr  @ 8 @ expr  @ 8 @ 
+expr  @ 9 @ expr  @ 9 @ 
+if  @ 9 @ if  @ 9 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: value  @ 9 @ name: value  @ 9 @ 
+decl  @ 3 @ decl  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: read_addr  @ 4 @ name: read_addr  @ 4 @ 
+name: curAddress  @ 4 @ name: curAddress  @ 4 @ 
+name: ret  @ 8 @ name: ret  @ 8 @ 
+type  @ 1 @ type  @ 1 @ 
+condition  @ 9 @ condition  @ 9 @ 
+block  @ 4 @ block  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+name: anal  @ 4 @ name: anal  @ 4 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: context  @ 1 @ name: context  @ 1 @ 
+name: curAddressValue  @ 8 @ name: curAddressValue  @ 8 @ 
+name  @ 4 @ name  @ 4 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: curAddressValue  @ 10 @ name: curAddressValue  @ 10 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+if_stmt  @ 4 @ if_stmt  @ 4 @ 
+comment: //if the value is in text section  @ 7 @ comment: //if the value is in text section  @ 7 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+name: bool  @ 1 @ name: bool  @ 1 @ 
+operator: *  @ 10 @ operator: *  @ 10 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: curAddress  @ 1 @ name: curAddress  @ 1 @ 
+name: value  @ 1 @ name: value  @ 1 @ 
+operator: ->  @ 4 @ operator: ->  @ 4 @ 
+decl  @ 1 @ decl  @ 1 @ 
+decl  @ 8 @ decl  @ 8 @ 
+operator: ->  @ 4 @ operator: ->  @ 4 @ 
+name: bool  @ 8 @ name: bool  @ 8 @ 
+expr  @ 5 @ expr  @ 5 @ 
+argument_list  @ 8 @ argument_list  @ 8 @ 
+name: false  @ 5 @ name: false  @ 5 @ 
+expr  @ 4 @ expr  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+block  @ 1 @ block  @ 1 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+expr  @ 4 @ expr  @ 4 @ 
+return  @ 5 @ return  @ 5 @ 
+name: vtable_addr_in_text_section  @ 8 @ name: vtable_addr_in_text_section  @ 8 @ 
+argument  @ 8 @ argument  @ 8 @ 
+name: context  @ 4 @ name: context  @ 4 @ 
+name: vtable_is_value_in_text_section  @ 1 @ name: vtable_is_value_in_text_section  @ 1 @ 
+name  @ 4 @ name  @ 4 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: ut64  @ 3 @ name: ut64  @ 3 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+if_stmt  @ 9 @ if_stmt  @ 9 @ 
+return  @ 12 @ return  @ 12 @ 
+

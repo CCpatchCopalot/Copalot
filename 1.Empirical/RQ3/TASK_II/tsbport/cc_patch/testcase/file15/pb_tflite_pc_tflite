@@ -1,0 +1,881 @@
+argument_list  @ 156 @ argument_list  @ 139 @ 
+name: nodes_and_registration  @ 129 @ name: nodes_and_registration  @ 110 @ 
+name: first  @ 129 @ name: first  @ 110 @ 
+name: tensor  @ 121 @ name: tensors  @ 103 @ 
+name: size_t  @ 121 @ name: override  @ 102 @ 
+expr  @ 22 @ expr  @ 19 @ 
+comment: // Returns true if at least one tensor in the given list is kTfLiteDynamic.  @ 40 @ comment: // Returns true if at least one tensor in the given list is kTfLiteDynamic.  @ 44 @ 
+argument  @ 137 @ argument  @ 115 @ 
+argument  @ 192 @ argument  @ 108 @ 
+name: SetExternalContext  @ 165 @ name: SetExternalContext  @ 148 @ 
+name: node  @ 21 @ name: node  @ 14 @ 
+name: scale  @ 61 @ name: scale  @ 79 @ 
+operator: ->  @ 22 @ operator: ->  @ 17 @ 
+expr  @ 45 @ expr  @ 50 @ 
+name  @ 159 @ name  @ 142 @ 
+name: affine_quantization  @ 66 @ name: affine_quantization  @ 85 @ 
+ternary  @ 22 @ ternary  @ 19 @ 
+parameter  @ 42 @ parameter  @ 47 @ 
+name: TfLiteAffineQuantization  @ 61 @ name: TfLiteAffineQuantization  @ 76 @ 
+name: context  @ 32 @ name: context  @ 33 @ 
+argument_list  @ 6 @ argument_list  @ 7 @ 
+comment: // Invalid to call these except from TfLiteDelegate  @ 173 @ comment: // Invalid to call these these except from TfLiteDelegate  @ 154 @ 
+name: index  @ 128 @ name: index  @ 109 @ 
+block_content  @ 46 @ block_content  @ 51 @ 
+operator: ->  @ 124 @ operator: ->  @ 106 @ 
+type  @ 44 @ type  @ 49 @ 
+name: SetForbiddenContextFunction  @ 37 @ name: SetForbiddenContextFunction  @ 40 @ 
+expr  @ 120 @ expr  @ 101 @ 
+operator: =  @ 164 @ operator: =  @ 147 @ 
+name  @ 129 @ name  @ 110 @ 
+name: impl_  @ 156 @ name: impl_  @ 139 @ 
+name: is_subgraph_in_use_  @ 90 @ name: node_index  @ 112 @ 
+operator: *  @ 148 @ operator: *  @ 130 @ 
+argument_list  @ 138 @ argument_list  @ 119 @ 
+name: context  @ 52 @ name: context  @ 57 @ 
+name: kTfLiteDynamic  @ 45 @ name: kTfLiteDynamic  @ 50 @ 
+name: unique_ptr  @ 148 @ name: unique_ptr  @ 131 @ 
+expr  @ 66 @ expr  @ 85 @ 
+block_content  @ 6 @ block_content  @ 7 @ 
+call  @ 151 @ call  @ 135 @ 
+name: context_  @ 156 @ name: context_  @ 139 @ 
+argument  @ 11 @ argument  @ 12 @ 
+name: typename  @ 37 @ name: typename  @ 39 @ 
+macro  @ 123 @ macro  @ 105 @ 
+block  @ 131 @ block  @ 112 @ 
+type  @ 41 @ type  @ 46 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 66 @ 
+name: affine_quantization  @ 61 @ name: affine_quantization  @ 75 @ 
+expr  @ 44 @ expr  @ 49 @ 
+expr  @ 153 @ expr  @ 137 @ 
+name: FunctionType  @ 37 @ name: FunctionType  @ 40 @ 
+modifier: *  @ 37 @ modifier: *  @ 40 @ 
+argument  @ 22 @ argument  @ 18 @ 
+comment: // Set the ForbiddenContextFunction to a compatible function pointer.  @ 36 @ comment: // Set the ForbiddenContextFunction to a compatible function pointer.  @ 38 @ 
+name: std  @ 137 @ name: std  @ 118 @ 
+name: tensors  @ 160 @ name: tensors  @ 143 @ 
+argument  @ 134 @ argument  @ 118 @ 
+name: TfLiteNode  @ 21 @ name: TfLiteNode  @ 14 @ 
+name: int  @ 134 @ name: int  @ 118 @ 
+name: Subgraph  @ 148 @ name: Subgraph  @ 129 @ 
+name: TfLiteContext  @ 21 @ name: TfLiteContext  @ 14 @ 
+operator: ,  @ 152 @ operator: ,  @ 136 @ 
+literal: 1  @ 163 @ literal: 1  @ 146 @ 
+parameter  @ 31 @ parameter  @ 32 @ 
+name: node_index  @ 128 @ name: node_index  @ 109 @ 
+macro  @ 6 @ macro  @ 6 @ 
+expr  @ 161 @ expr  @ 144 @ 
+name: execution_plan  @ 124 @ name: execution_plan  @ 106 @ 
+operator: ->  @ 138 @ operator: ->  @ 119 @ 
+name: HasDynamicTensorImpl  @ 41 @ name: HasDynamicTensorImpl  @ 46 @ 
+block  @ 154 @ block  @ 138 @ 
+name: affine_quantization  @ 61 @ name: affine_quantization  @ 77 @ 
+operator: .  @ 161 @ operator: .  @ 144 @ 
+argument_list  @ 154 @ argument_list  @ 138 @ 
+operator: .  @ 159 @ operator: .  @ 142 @ 
+name: operator  @ 6 @ name: operator  @ 6 @ 
+argument  @ 148 @ argument  @ 129 @ 
+literal: 0  @ 161 @ literal: 0  @ 144 @ 
+call  @ 174 @ call  @ 155 @ 
+expr  @ 61 @ expr  @ 75 @ 
+argument  @ 150 @ argument  @ 134 @ 
+name: int_array  @ 42 @ name: int_array  @ 47 @ 
+return  @ 121 @ return  @ 103 @ 
+block  @ 5 @ block  @ 5 @ 
+decl  @ 31 @ decl  @ 32 @ 
+argument  @ 171 @ argument  @ 152 @ 
+name: subgraph_  @ 129 @ name: subgraph_  @ 110 @ 
+operator: *  @ 118 @ operator: *  @ 99 @ 
+operator: ->  @ 66 @ operator: ->  @ 85 @ 
+name: ForbiddenContextFunction  @ 31 @ name: ForbiddenContextFunction  @ 32 @ 
+operator: &  @ 140 @ operator: &  @ 121 @ 
+argument_list  @ 129 @ argument_list  @ 110 @ 
+name: message  @ 21 @ name: message  @ 16 @ 
+operator: .  @ 156 @ operator: .  @ 139 @ 
+expr  @ 33 @ expr  @ 35 @ 
+expr  @ 151 @ expr  @ 135 @ 
+return  @ 49 @ return  @ 54 @ 
+name: context_  @ 162 @ name: context_  @ 145 @ 
+call  @ 6 @ call  @ 7 @ 
+name: num_tensors  @ 120 @ name: num_tensors  @ 101 @ 
+return  @ 132 @ return  @ 113 @ 
+expr  @ 22 @ expr  @ 17 @ 
+argument_list  @ 135 @ argument_list  @ 116 @ 
+argument  @ 37 @ argument  @ 39 @ 
+name: context_  @ 164 @ name: context_  @ 147 @ 
+name: context  @ 32 @ name: context  @ 33 @ 
+operator: :  @ 90 @ operator: :  @ 133 @ 
+expr  @ 152 @ expr  @ 136 @ 
+name: q  @ 6 @ name: q  @ 7 @ 
+name: TfLiteContext  @ 52 @ name: TfLiteContext  @ 57 @ 
+name: zero_point  @ 67 @ name: zero_point  @ 86 @ 
+name  @ 148 @ name  @ 131 @ 
+name: subgraph_  @ 128 @ name: subgraph_  @ 109 @ 
+argument_list  @ 149 @ argument_list  @ 133 @ 
+name: tensor  @ 44 @ name: tensor  @ 49 @ 
+for  @ 43 @ for  @ 48 @ 
+expr  @ 22 @ expr  @ 21 @ 
+name: external_contexts_  @ 149 @ name: external_contexts_  @ 133 @ 
+name: bool  @ 106 @ name: nodes_and_registration  @ 153 @ 
+type  @ 52 @ type  @ 57 @ 
+name: legacy_quantization  @ 62 @ name: legacy_quantization  @ 81 @ 
+name: affine_quantization  @ 67 @ name: affine_quantization  @ 86 @ 
+name: override  @ 137 @ name: override  @ 118 @ 
+name: SetExternalContext  @ 165 @ name: SetExternalContext  @ 148 @ 
+argument_list  @ 37 @ argument_list  @ 41 @ 
+argument  @ 53 @ argument  @ 59 @ 
+name: variables  @ 140 @ name: variables  @ 121 @ 
+argument_list  @ 128 @ argument_list  @ 109 @ 
+argument_list  @ 41 @ argument_list  @ 45 @ 
+type  @ 41 @ type  @ 45 @ 
+literal: "Node number %d (%s) %s.\n"  @ 22 @ literal: "Node number %d (%s) %s.\n"  @ 18 @ 
+name: subgraphs_  @ 153 @ name: subgraphs_  @ 137 @ 
+operator: ->  @ 61 @ operator: ->  @ 80 @ 
+name  @ 22 @ name  @ 22 @ 
+specifier: const  @ 137 @ specifier: const  @ 118 @ 
+expr  @ 148 @ expr  @ 129 @ 
+name: scale  @ 59 @ name: scale  @ 66 @ 
+expr  @ 22 @ expr  @ 22 @ 
+name: quantization  @ 57 @ name: quantization  @ 64 @ 
+comment: // Gets the legacy TfLiteQuantizationParams from the current TfLiteQuantization.  @ 56 @ comment: // Gets the legacy TfLiteQuantizationParams from the current TfLiteQuantization.  @ 62 @ 
+expr  @ 153 @ expr  @ 137 @ 
+specifier: const  @ 41 @ specifier: const  @ 46 @ 
+type  @ 21 @ type  @ 15 @ 
+name: params  @ 61 @ name: params  @ 76 @ 
+block  @ 37 @ block  @ 40 @ 
+expr  @ 66 @ expr  @ 85 @ 
+argument  @ 32 @ argument  @ 33 @ 
+modifier: *  @ 21 @ modifier: *  @ 16 @ 
+operator: .  @ 129 @ operator: .  @ 110 @ 
+expr  @ 22 @ expr  @ 18 @ 
+parameter_list  @ 37 @ parameter_list  @ 40 @ 
+comment: // We're registering this function to several different function to save  @ 27 @ comment: // We're registering this function to several different function to save  @ 28 @ 
+call  @ 89 @ call  @ 129 @ 
+operator: .  @ 165 @ operator: .  @ 148 @ 
+name  @ 61 @ name  @ 78 @ 
+expr  @ 59 @ expr  @ 66 @ 
+name: error_reporter  @ 148 @ name: error_reporter  @ 129 @ 
+argument_list  @ 22 @ argument_list  @ 17 @ 
+expr  @ 68 @ expr  @ 87 @ 
+name: execution_plan  @ 128 @ name: execution_plan  @ 109 @ 
+comment: // Stub method which returns kTfLiteError when the function is forbidden.  @ 26 @ comment: // Stub method which returns kTfLiteError when the function is forbidden.  @ 27 @ 
+operator: .  @ 172 @ operator: .  @ 153 @ 
+name: TfLiteQuantizationDeleter  @ 11 @ name: TfLiteQuantizationDeleter  @ 12 @ 
+specifier: const  @ 21 @ specifier: const  @ 15 @ 
+operator: *  @ 148 @ operator: *  @ 130 @ 
+decl  @ 43 @ decl  @ 48 @ 
+name: Subgraph  @ 118 @ name: Subgraph  @ 99 @ 
+name: subgraphs  @ 148 @ name: subgraphs  @ 131 @ 
+decl  @ 21 @ decl  @ 16 @ 
+parameter  @ 21 @ parameter  @ 16 @ 
+name: subgraph_  @ 124 @ name: subgraph_  @ 106 @ 
+parameter  @ 52 @ parameter  @ 58 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 75 @ 
+parameter  @ 37 @ parameter  @ 40 @ 
+expr  @ 67 @ expr  @ 86 @ 
+struct  @ 5 @ struct  @ 5 @ 
+argument_list  @ 22 @ argument_list  @ 21 @ 
+name: TfLiteQuantizationFree  @ 6 @ name: TfLiteQuantizationFree  @ 7 @ 
+name: next_execution_plan_index_to_prepare_  @ 151 @ name: next_execution_plan_index_to_prepare_  @ 135 @ 
+name: node_index  @ 129 @ name: node_index  @ 110 @ 
+decl  @ 57 @ decl  @ 64 @ 
+name: subgraph_  @ 138 @ name: subgraph_  @ 119 @ 
+expr  @ 140 @ expr  @ 121 @ 
+expr  @ 148 @ expr  @ 131 @ 
+call  @ 22 @ call  @ 21 @ 
+condition  @ 22 @ condition  @ 19 @ 
+name: unique_ptr  @ 11 @ name: unique_ptr  @ 12 @ 
+block  @ 42 @ block  @ 47 @ 
+then  @ 22 @ then  @ 20 @ 
+block  @ 120 @ block  @ 101 @ 
+expr  @ 156 @ expr  @ 139 @ 
+argument  @ 61 @ argument  @ 76 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 33 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 17 @ 
+name: TfLiteQuantizationDeleter  @ 5 @ name: TfLiteQuantizationDeleter  @ 5 @ 
+operator: ->  @ 141 @ operator: ->  @ 122 @ 
+if  @ 6 @ if  @ 7 @ 
+name: SwitchToKernelContext  @ 174 @ name: SwitchToKernelContext  @ 155 @ 
+name: ErrorReporter  @ 148 @ name: ErrorReporter  @ 129 @ 
+name: TfLiteExternalContext  @ 148 @ name: TfLiteExternalContext  @ 130 @ 
+expr_stmt  @ 148 @ expr_stmt  @ 129 @ 
+name  @ 171 @ name  @ 152 @ 
+decl  @ 41 @ decl  @ 46 @ 
+name: override  @ 120 @ name: override  @ 101 @ 
+argument_list  @ 141 @ argument_list  @ 122 @ 
+name: legacy_quantization  @ 61 @ name: legacy_quantization  @ 72 @ 
+expr  @ 67 @ expr  @ 86 @ 
+block  @ 52 @ block  @ 58 @ 
+function  @ 41 @ function  @ 45 @ 
+name: inputs  @ 134 @ name: inputs  @ 115 @ 
+name: void  @ 156 @ name: void  @ 139 @ 
+operator: ::  @ 77 @ operator: ::  @ 121 @ 
+name: bool  @ 41 @ name: bool  @ 46 @ 
+name  @ 11 @ name  @ 12 @ 
+operator: *  @ 148 @ operator: *  @ 129 @ 
+argument_list  @ 32 @ argument_list  @ 33 @ 
+expr  @ 11 @ expr  @ 12 @ 
+operator: ->  @ 61 @ operator: ->  @ 79 @ 
+expr  @ 11 @ expr  @ 12 @ 
+operator: ||  @ 61 @ operator: ||  @ 77 @ 
+parameter_list  @ 21 @ parameter_list  @ 14 @ 
+decl  @ 116 @ decl  @ 97 @ 
+expr  @ 149 @ expr  @ 133 @ 
+literal: 0  @ 152 @ literal: 0  @ 136 @ 
+modifier: &  @ 44 @ modifier: &  @ 49 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 67 @ 
+specifier: const  @ 44 @ specifier: const  @ 49 @ 
+call  @ 120 @ call  @ 101 @ 
+expr  @ 22 @ expr  @ 19 @ 
+name: TfLiteQuantization  @ 6 @ name: TfLiteQuantization  @ 6 @ 
+block  @ 116 @ block  @ 97 @ 
+operator: *  @ 90 @ operator: ,  @ 135 @ 
+expr  @ 152 @ expr  @ 136 @ 
+expr  @ 129 @ expr  @ 110 @ 
+specifier: const  @ 134 @ specifier: const  @ 115 @ 
+name: vector  @ 148 @ name: vector  @ 131 @ 
+expr  @ 41 @ expr  @ 45 @ 
+operator: .  @ 158 @ operator: .  @ 141 @ 
+argument_list  @ 37 @ argument_list  @ 39 @ 
+argument_list  @ 150 @ argument_list  @ 134 @ 
+type  @ 52 @ type  @ 58 @ 
+operator: !  @ 61 @ operator: !  @ 78 @ 
+specifier: const  @ 134 @ specifier: const  @ 115 @ 
+expr  @ 129 @ expr  @ 110 @ 
+name: tensor  @ 45 @ name: tensor  @ 50 @ 
+name: kTfLiteError  @ 23 @ name: kTfLiteError  @ 24 @ 
+name: custom_name  @ 22 @ name: custom_name  @ 19 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+argument_list  @ 37 @ argument_list  @ 41 @ 
+argument_list  @ 151 @ argument_list  @ 135 @ 
+expr  @ 6 @ expr  @ 7 @ 
+block  @ 121 @ block  @ 102 @ 
+operator: .  @ 124 @ operator: .  @ 106 @ 
+type  @ 57 @ type  @ 63 @ 
+argument_list  @ 123 @ argument_list  @ 105 @ 
+decl_stmt  @ 116 @ decl_stmt  @ 97 @ 
+expr  @ 11 @ expr  @ 12 @ 
+argument  @ 152 @ argument  @ 136 @ 
+condition  @ 45 @ condition  @ 50 @ 
+operator: *  @ 156 @ operator: *  @ 139 @ 
+name: custom_name  @ 22 @ name: custom_name  @ 20 @ 
+argument_list  @ 124 @ argument_list  @ 106 @ 
+argument_list  @ 90 @ argument_list  @ 112 @ 
+name: SubgraphGuard  @ 89 @ name: Subgraph  @ 129 @ 
+operator: ->  @ 132 @ operator: ->  @ 113 @ 
+expr  @ 156 @ expr  @ 139 @ 
+block  @ 127 @ block  @ 108 @ 
+function  @ 37 @ function  @ 39 @ 
+modifier: &  @ 21 @ modifier: &  @ 15 @ 
+macro  @ 118 @ macro  @ 99 @ 
+argument  @ 22 @ argument  @ 23 @ 
+operator: ->  @ 61 @ operator: ->  @ 80 @ 
+argument_list  @ 148 @ argument_list  @ 131 @ 
+type  @ 21 @ type  @ 14 @ 
+comment: // * All parameters must be trivially destructible. (E.g. No C++ class)  @ 30 @ comment: // * All parameters must be trivially destructible. (E.g. No C++ class)  @ 31 @ 
+name: InterpreterInfo  @ 118 @ name: InterpreterInfo  @ 99 @ 
+name: FunctionType  @ 37 @ name: FunctionType  @ 41 @ 
+argument_list  @ 137 @ argument_list  @ 115 @ 
+expr  @ 154 @ expr  @ 138 @ 
+name: affine_quantization  @ 61 @ name: affine_quantization  @ 77 @ 
+name: zero_point  @ 67 @ name: zero_point  @ 86 @ 
+call  @ 61 @ call  @ 76 @ 
+name: false  @ 162 @ name: false  @ 145 @ 
+argument  @ 22 @ argument  @ 19 @ 
+operator: ::  @ 74 @ operator: ::  @ 115 @ 
+call  @ 141 @ call  @ 122 @ 
+operator: .  @ 162 @ operator: .  @ 145 @ 
+name: TfLiteIntArray  @ 52 @ name: TfLiteIntArray  @ 58 @ 
+block  @ 137 @ block  @ 118 @ 
+return  @ 68 @ return  @ 87 @ 
+name: ResizeTensor  @ 157 @ name: ResizeTensor  @ 140 @ 
+name  @ 158 @ name  @ 141 @ 
+argument  @ 151 @ argument  @ 135 @ 
+argument  @ 153 @ argument  @ 137 @ 
+call  @ 129 @ call  @ 110 @ 
+name: affine_quantization  @ 61 @ name: affine_quantization  @ 80 @ 
+operator: .  @ 163 @ operator: .  @ 146 @ 
+name  @ 32 @ name  @ 33 @ 
+specifier: const  @ 73 @ specifier: const  @ 108 @ 
+name: is_subgraph_in_use_  @ 106 @ name: reserve  @ 153 @ 
+name: context  @ 22 @ name: context  @ 17 @ 
+decl  @ 58 @ decl  @ 65 @ 
+type  @ 42 @ type  @ 47 @ 
+operator: ->  @ 61 @ operator: ->  @ 78 @ 
+name  @ 41 @ name  @ 45 @ 
+operator: =  @ 166 @ operator: =  @ 149 @ 
+name  @ 45 @ name  @ 50 @ 
+name  @ 134 @ name  @ 118 @ 
+modifier: &  @ 42 @ modifier: &  @ 47 @ 
+index  @ 66 @ index  @ 85 @ 
+expr  @ 22 @ expr  @ 22 @ 
+name: legacy_quantization  @ 67 @ name: legacy_quantization  @ 86 @ 
+expr  @ 37 @ expr  @ 41 @ 
+name: this  @ 156 @ name: this  @ 139 @ 
+return  @ 135 @ return  @ 116 @ 
+block  @ 6 @ block  @ 7 @ 
+name: allow_fp32_relax_to_fp16  @ 162 @ name: allow_fp32_relax_to_fp16  @ 145 @ 
+operator: ->  @ 67 @ operator: ->  @ 86 @ 
+name: context  @ 22 @ name: context  @ 18 @ 
+operator: .  @ 22 @ operator: .  @ 22 @ 
+operator: ==  @ 45 @ operator: ==  @ 50 @ 
+return  @ 23 @ return  @ 24 @ 
+expr  @ 6 @ expr  @ 7 @ 
+name: subgraph_  @ 141 @ name: subgraph_  @ 122 @ 
+name: ReportErrorC  @ 158 @ name: ReportErrorC  @ 141 @ 
+name  @ 163 @ name  @ 146 @ 
+decl_stmt  @ 44 @ decl_stmt  @ 49 @ 
+argument  @ 22 @ argument  @ 18 @ 
+name: TfLiteStatus  @ 31 @ name: TfLiteStatus  @ 32 @ 
+name: static_cast  @ 61 @ name: reinterpret_cast  @ 76 @ 
+expr  @ 73 @ expr  @ 109 @ 
+operator: =  @ 60 @ operator: =  @ 67 @ 
+name: affine_quantization  @ 61 @ name: affine_quantization  @ 78 @ 
+operator: ->  @ 61 @ operator: ->  @ 79 @ 
+index  @ 44 @ index  @ 49 @ 
+call  @ 156 @ call  @ 139 @ 
+name  @ 132 @ name  @ 113 @ 
+name  @ 165 @ name  @ 148 @ 
+expr  @ 134 @ expr  @ 118 @ 
+operator: *  @ 37 @ operator: *  @ 41 @ 
+argument  @ 429 @ argument  @ 102 @ 
+name: subgraph_  @ 118 @ name: subgraph_  @ 99 @ 
+parameter  @ 21 @ parameter  @ 14 @ 
+modifier: &  @ 41 @ modifier: &  @ 46 @ 
+name: data  @ 66 @ name: data  @ 85 @ 
+name: GetLegacyQuantization  @ 57 @ name: GetLegacyQuantization  @ 63 @ 
+expr  @ 138 @ expr  @ 119 @ 
+argument  @ 148 @ argument  @ 131 @ 
+expr  @ 148 @ expr  @ 131 @ 
+expr  @ 135 @ expr  @ 116 @ 
+name: public  @ 88 @ name: subgraph_  @ 126 @ 
+name: TensorIntArray  @ 42 @ name: TensorIntArray  @ 47 @ 
+name  @ 22 @ name  @ 19 @ 
+comment: // namespace  @ 109 @ comment: // namespace  @ 90 @ 
+operator: =  @ 163 @ operator: =  @ 146 @ 
+expr  @ 22 @ expr  @ 18 @ 
+call  @ 124 @ call  @ 106 @ 
+operator: !  @ 61 @ operator: !  @ 77 @ 
+comment: // * The type of first parameter have to be `TfLiteContext*`.  @ 29 @ comment: // * The type of first parameter have to be `TfLiteContext*`.  @ 30 @ 
+operator: ,  @ 149 @ operator: ,  @ 133 @ 
+name: tensors_  @ 171 @ name: tensors_  @ 152 @ 
+type  @ 1 @ type  @ 1 @ 
+name: node_index  @ 21 @ name: node_index  @ 16 @ 
+operator: ||  @ 61 @ operator: ||  @ 79 @ 
+call  @ 150 @ call  @ 134 @ 
+name  @ 61 @ name  @ 76 @ 
+literal: 1  @ 61 @ literal: 1  @ 79 @ 
+name: ResizeTensor  @ 157 @ name: ResizeTensor  @ 140 @ 
+name: ScopedTfLiteQuantization  @ 10 @ name: ScopedTfLiteQuantization  @ 11 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: Subgraph  @ 148 @ name: Subgraph  @ 131 @ 
+name: int  @ 21 @ name: int  @ 16 @ 
+name: std  @ 11 @ name: std  @ 12 @ 
+name  @ 164 @ name  @ 147 @ 
+name  @ 37 @ name  @ 41 @ 
+name  @ 71 @ name  @ 103 @ 
+type  @ 52 @ type  @ 57 @ 
+operator: &  @ 137 @ operator: &  @ 118 @ 
+type  @ 37 @ type  @ 39 @ 
+macro  @ 429 @ macro  @ 102 @ 
+expr  @ 6 @ expr  @ 6 @ 
+expr  @ 22 @ expr  @ 23 @ 
+return  @ 46 @ return  @ 51 @ 
+name: node_index  @ 22 @ name: node_index  @ 18 @ 
+name: size_t  @ 131 @ name: size_t  @ 112 @ 
+name  @ 66 @ name  @ 85 @ 
+name: error_reporter  @ 150 @ name: error_reporter  @ 134 @ 
+literal: 0  @ 67 @ literal: 0  @ 86 @ 
+name: outputs  @ 137 @ name: outputs  @ 118 @ 
+name: override  @ 140 @ name: override  @ 121 @ 
+argument_list  @ 53 @ argument_list  @ 59 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 41 @ 
+name  @ 148 @ name  @ 131 @ 
+name: bool  @ 52 @ name: bool  @ 57 @ 
+expr  @ 22 @ expr  @ 22 @ 
+block  @ 43 @ block  @ 48 @ 
+expr  @ 172 @ expr  @ 153 @ 
+decl  @ 42 @ decl  @ 47 @ 
+name: TfLiteQuantization  @ 57 @ name: TfLiteQuantization  @ 64 @ 
+argument_list  @ 22 @ argument_list  @ 22 @ 
+name: using  @ 10 @ name: using  @ 11 @ 
+operator: =  @ 37 @ operator: =  @ 41 @ 
+operator: =  @ 67 @ operator: =  @ 86 @ 
+name: ForbiddenContextFunction  @ 37 @ name: ForbiddenContextFunction  @ 41 @ 
+argument  @ 11 @ argument  @ 12 @ 
+name: TfLiteStatus  @ 21 @ name: TfLiteStatus  @ 14 @ 
+operator: *  @ 61 @ operator: *  @ 75 @ 
+name: int_array  @ 43 @ name: int_array  @ 48 @ 
+decl  @ 21 @ decl  @ 14 @ 
+name: template  @ 37 @ name: template  @ 39 @ 
+parameter  @ 21 @ parameter  @ 16 @ 
+if_stmt  @ 45 @ if_stmt  @ 50 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+name: int  @ 128 @ name: int  @ 109 @ 
+init  @ 43 @ init  @ 48 @ 
+argument_list  @ 118 @ argument_list  @ 99 @ 
+comment: // If the quantization type isn't affine, return the empty// legacy_quantization.if (quantization.type != kTfLiteAffineQuantization) {  @ 60 @ comment: // If the quantization type isn't affine, return the empty  @ 69 @ 
+operator: ->  @ 120 @ operator: ->  @ 101 @ 
+name  @ 156 @ name  @ 139 @ 
+call  @ 32 @ call  @ 33 @ 
+expr  @ 61 @ expr  @ 72 @ 
+name: subgraph_  @ 135 @ name: subgraph_  @ 116 @ 
+expr  @ 32 @ expr  @ 34 @ 
+argument_list  @ 140 @ argument_list  @ 121 @ 
+macro  @ 134 @ macro  @ 115 @ 
+name: legacy_quantization  @ 60 @ name: legacy_quantization  @ 67 @ 
+range  @ 43 @ range  @ 48 @ 
+block  @ 45 @ block  @ 50 @ 
+argument  @ 140 @ argument  @ 121 @ 
+name: op_reg  @ 72 @ name: override  @ 105 @ 
+name  @ 140 @ name  @ 121 @ 
+argument  @ 53 @ argument  @ 59 @ 
+name: vector  @ 134 @ name: vector  @ 118 @ 
+macro  @ 3 @ macro  @ 3 @ 
+argument_list  @ 429 @ argument_list  @ 102 @ 
+name: override  @ 131 @ name: override  @ 112 @ 
+name: legacy_quantization  @ 58 @ name: legacy_quantization  @ 65 @ 
+block  @ 61 @ block  @ 80 @ 
+operator: .  @ 164 @ operator: .  @ 147 @ 
+index  @ 129 @ index  @ 110 @ 
+name: error_reporter_  @ 150 @ name: error_reporter_  @ 134 @ 
+type  @ 43 @ type  @ 48 @ 
+name: ReportError  @ 32 @ name: ReportError  @ 33 @ 
+specifier: const  @ 73 @ specifier: const  @ 108 @ 
+call  @ 153 @ call  @ 137 @ 
+call  @ 118 @ call  @ 99 @ 
+name: index  @ 121 @ name: index  @ 103 @ 
+macro  @ 192 @ macro  @ 108 @ 
+name  @ 61 @ name  @ 79 @ 
+name: AddTensors  @ 159 @ name: AddTensors  @ 142 @ 
+decl  @ 44 @ decl  @ 49 @ 
+operator: (  @ 6 @ operator: (  @ 6 @ 
+type  @ 31 @ type  @ 32 @ 
+name: TfLiteQuantizationParams  @ 57 @ name: TfLiteQuantizationParams  @ 63 @ 
+block_content  @ 32 @ block_content  @ 33 @ 
+expr  @ 46 @ expr  @ 51 @ 
+argument_list  @ 137 @ argument_list  @ 118 @ 
+expr  @ 132 @ expr  @ 113 @ 
+argument_list  @ 148 @ argument_list  @ 131 @ 
+name: external_contexts  @ 149 @ name: external_contexts  @ 133 @ 
+decl_stmt  @ 58 @ decl_stmt  @ 65 @ 
+operator: )  @ 6 @ operator: )  @ 6 @ 
+argument  @ 154 @ argument  @ 138 @ 
+return  @ 124 @ return  @ 106 @ 
+operator: ->  @ 126 @ operator: &  @ 108 @ 
+operator: ->  @ 121 @ operator: ->  @ 103 @ 
+modifier: &  @ 52 @ modifier: &  @ 57 @ 
+name: void  @ 37 @ name: void  @ 40 @ 
+argument  @ 156 @ argument  @ 139 @ 
+name: reinterpret_cast  @ 37 @ name: reinterpret_cast  @ 41 @ 
+decl  @ 21 @ decl  @ 15 @ 
+name: func  @ 37 @ name: func  @ 40 @ 
+call  @ 124 @ call  @ 106 @ 
+argument  @ 149 @ argument  @ 133 @ 
+operator: :  @ 118 @ operator: :  @ 99 @ 
+expr  @ 151 @ expr  @ 135 @ 
+call  @ 149 @ call  @ 133 @ 
+name: context  @ 31 @ name: context  @ 32 @ 
+name: tflite  @ 1 @ name: tflite  @ 1 @ 
+call  @ 138 @ call  @ 119 @ 
+type  @ 21 @ type  @ 14 @ 
+name: subgraph_  @ 120 @ name: subgraph_  @ 101 @ 
+name: tensors  @ 44 @ name: tensors  @ 49 @ 
+name  @ 157 @ name  @ 140 @ 
+operator: ::  @ 11 @ operator: ::  @ 12 @ 
+argument_list  @ 134 @ argument_list  @ 118 @ 
+init  @ 10 @ init  @ 11 @ 
+parameter  @ 21 @ parameter  @ 14 @ 
+name: HasDynamicTensor  @ 52 @ name: HasDynamicTensor  @ 57 @ 
+name: HasDynamicTensorImpl  @ 53 @ name: HasDynamicTensorImpl  @ 59 @ 
+name: reserve  @ 171 @ name: reserve  @ 152 @ 
+parameter_list  @ 41 @ parameter_list  @ 46 @ 
+argument  @ 148 @ argument  @ 131 @ 
+name: public  @ 117 @ name: public  @ 98 @ 
+name  @ 60 @ name  @ 67 @ 
+return  @ 129 @ return  @ 110 @ 
+operator: ||  @ 61 @ operator: ||  @ 77 @ 
+name: SubgraphGuard  @ 87 @ name: Subgraph  @ 126 @ 
+name  @ 61 @ name  @ 80 @ 
+specifier: const  @ 21 @ specifier: const  @ 16 @ 
+name  @ 135 @ name  @ 116 @ 
+modifier: ...  @ 31 @ modifier: ...  @ 32 @ 
+literal: "The function is forbidden if not calling in delegate."  @ 32 @ literal: "The function is forbidden if not calling in delegate."  @ 34 @ 
+name: legacy_quantization  @ 68 @ name: legacy_quantization  @ 87 @ 
+expr  @ 49 @ expr  @ 54 @ 
+name: resources  @ 148 @ name: resource_variables  @ 132 @ 
+parameter_list  @ 57 @ parameter_list  @ 63 @ 
+name: ResourceMap  @ 148 @ name: ResourceVariableMap  @ 132 @ 
+comment: // the indices are execution plan indices rather than raw node  @ 114 @ comment: // the indices are execution plan indices rather than raw node  @ 95 @ 
+name  @ 67 @ name  @ 86 @ 
+block  @ 123 @ block  @ 105 @ 
+call  @ 135 @ call  @ 116 @ 
+name: char  @ 73 @ name: TfLiteNode  @ 108 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 7 @ 
+name: kUnknownCustomOpName  @ 71 @ name: subgraph_  @ 103 @ 
+return  @ 138 @ return  @ 119 @ 
+name: tflite  @ 77 @ name: std  @ 121 @ 
+return  @ 120 @ return  @ 101 @ 
+name: kTfLiteError  @ 33 @ name: kTfLiteError  @ 35 @ 
+type  @ 21 @ type  @ 16 @ 
+name: zero_point  @ 61 @ name: zero_point  @ 78 @ 
+operator: .  @ 44 @ operator: .  @ 49 @ 
+expr  @ 6 @ expr  @ 7 @ 
+name: legacy_quantization  @ 59 @ name: legacy_quantization  @ 66 @ 
+argument  @ 37 @ argument  @ 41 @ 
+operator: =  @ 160 @ operator: =  @ 143 @ 
+argument  @ 41 @ argument  @ 45 @ 
+block  @ 134 @ block  @ 115 @ 
+expr  @ 132 @ expr  @ 113 @ 
+name: registration  @ 22 @ name: registration  @ 20 @ 
+name: recommended_num_threads  @ 163 @ name: recommended_num_threads  @ 146 @ 
+operator: !  @ 61 @ operator: !  @ 77 @ 
+operator: ::  @ 148 @ operator: ::  @ 131 @ 
+name: context_  @ 160 @ name: context_  @ 143 @ 
+operator: ::  @ 148 @ operator: ::  @ 131 @ 
+argument  @ 148 @ argument  @ 132 @ 
+block  @ 3 @ block  @ 3 @ 
+expr  @ 62 @ expr  @ 81 @ 
+call  @ 22 @ call  @ 22 @ 
+init  @ 44 @ init  @ 49 @ 
+block  @ 21 @ block  @ 16 @ 
+else  @ 22 @ else  @ 21 @ 
+name: TensorIntArray  @ 41 @ name: TensorIntArray  @ 45 @ 
+name: context  @ 21 @ name: context  @ 14 @ 
+name: external_contexts  @ 148 @ name: external_contexts  @ 130 @ 
+macro  @ 120 @ macro  @ 101 @ 
+specifier: const  @ 52 @ specifier: const  @ 57 @ 
+operator: *  @ 148 @ operator: *  @ 131 @ 
+block  @ 118 @ block  @ 99 @ 
+type  @ 31 @ type  @ 32 @ 
+call  @ 152 @ call  @ 136 @ 
+macro  @ 140 @ macro  @ 121 @ 
+name: q  @ 6 @ name: q  @ 6 @ 
+name  @ 161 @ name  @ 144 @ 
+expr  @ 37 @ expr  @ 39 @ 
+argument  @ 156 @ argument  @ 139 @ 
+operator: =  @ 165 @ operator: =  @ 148 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 6 @ 
+name: affine_quantization  @ 61 @ name: affine_quantization  @ 79 @ 
+expr  @ 157 @ expr  @ 140 @ 
+function  @ 52 @ function  @ 57 @ 
+macro  @ 137 @ macro  @ 118 @ 
+expr  @ 174 @ expr  @ 155 @ 
+specifier: const  @ 72 @ specifier: const  @ 105 @ 
+name  @ 162 @ name  @ 145 @ 
+name: GetExternalContext  @ 164 @ name: GetExternalContext  @ 147 @ 
+name  @ 137 @ name  @ 115 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: static_cast  @ 22 @ name: static_cast  @ 22 @ 
+operator: =  @ 157 @ operator: =  @ 140 @ 
+name: void  @ 6 @ name: void  @ 6 @ 
+expr  @ 158 @ expr  @ 141 @ 
+specifier: const  @ 140 @ specifier: const  @ 121 @ 
+name: TfLiteContext  @ 41 @ name: TfLiteContext  @ 46 @ 
+name: profiler  @ 166 @ name: profiler  @ 149 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 11 @ 
+name: ReportError  @ 158 @ name: ReportError  @ 141 @ 
+expr  @ 150 @ expr  @ 134 @ 
+index  @ 67 @ index  @ 86 @ 
+comment: // graph that is executed according to execution plan. Thus,  @ 113 @ comment: // graph that is executed according to execution plan. Thus,  @ 94 @ 
+name: next_execution_plan_index_to_plan_allocation_  @ 152 @ name: next_execution_plan_index_to_plan_allocation_  @ 136 @ 
+expr  @ 148 @ expr  @ 129 @ 
+comment: // Reserve some space for the tensors to avoid excessive resizing.  @ 170 @ comment: // Reserve some space for the tensors to avoid excessive resizing.  @ 151 @ 
+literal: 0  @ 66 @ literal: 0  @ 85 @ 
+decl  @ 31 @ decl  @ 32 @ 
+expr  @ 164 @ expr  @ 147 @ 
+expr  @ 166 @ expr  @ 149 @ 
+literal: 0  @ 151 @ literal: 0  @ 135 @ 
+expr  @ 118 @ expr  @ 99 @ 
+operator: -  @ 163 @ operator: -  @ 146 @ 
+call  @ 171 @ call  @ 152 @ 
+argument_list  @ 192 @ argument_list  @ 108 @ 
+name: size  @ 61 @ name: size  @ 80 @ 
+argument  @ 61 @ argument  @ 76 @ 
+parameter  @ 52 @ parameter  @ 57 @ 
+expr  @ 44 @ expr  @ 49 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 85 @ 
+name: EnumNameBuiltinOperator  @ 22 @ name: EnumNameBuiltinOperator  @ 21 @ 
+name: TfLiteTensor  @ 44 @ name: TfLiteTensor  @ 49 @ 
+operator: ->  @ 135 @ operator: ->  @ 116 @ 
+expr  @ 148 @ expr  @ 131 @ 
+expr  @ 61 @ expr  @ 77 @ 
+name: GetExternalContext  @ 164 @ name: GetExternalContext  @ 147 @ 
+expr  @ 150 @ expr  @ 134 @ 
+name  @ 166 @ name  @ 149 @ 
+name: int_array  @ 52 @ name: int_array  @ 58 @ 
+call  @ 22 @ call  @ 17 @ 
+block_content  @ 62 @ block_content  @ 81 @ 
+name: scale  @ 66 @ name: scale  @ 85 @ 
+name: template  @ 41 @ name: template  @ 45 @ 
+argument_list  @ 120 @ argument_list  @ 101 @ 
+if_stmt  @ 6 @ if_stmt  @ 7 @ 
+argument  @ 148 @ argument  @ 131 @ 
+index  @ 128 @ index  @ 109 @ 
+parameter  @ 57 @ parameter  @ 64 @ 
+operator: .  @ 22 @ operator: .  @ 20 @ 
+name: override  @ 134 @ name: override  @ 115 @ 
+decl  @ 52 @ decl  @ 57 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 86 @ 
+argument_list  @ 140 @ argument_list  @ 121 @ 
+name  @ 61 @ name  @ 76 @ 
+specifier: const  @ 52 @ specifier: const  @ 58 @ 
+decl  @ 21 @ decl  @ 16 @ 
+name: context_  @ 163 @ name: context_  @ 146 @ 
+operator: *  @ 6 @ operator: *  @ 6 @ 
+name: builtin_code  @ 22 @ name: builtin_code  @ 22 @ 
+expr  @ 43 @ expr  @ 48 @ 
+operator: .  @ 61 @ operator: .  @ 76 @ 
+name: subgraph  @ 118 @ name: subgraph  @ 99 @ 
+operator: .  @ 67 @ operator: .  @ 86 @ 
+expr  @ 22 @ expr  @ 20 @ 
+parameter  @ 21 @ parameter  @ 15 @ 
+expr  @ 160 @ expr  @ 143 @ 
+name: int  @ 43 @ name: int  @ 48 @ 
+name: TfLiteContext  @ 31 @ name: TfLiteContext  @ 32 @ 
+comment: // indices.  @ 115 @ comment: // indices.  @ 96 @ 
+name: i  @ 44 @ name: i  @ 49 @ 
+parameter_list  @ 31 @ parameter_list  @ 32 @ 
+operator: !=  @ 61 @ operator: !=  @ 80 @ 
+name: kTensorsReservedCapacity  @ 172 @ name: kTensorsReservedCapacity  @ 153 @ 
+decl  @ 37 @ decl  @ 40 @ 
+block_content  @ 43 @ block_content  @ 49 @ 
+literal: 0  @ 59 @ literal: 0  @ 66 @ 
+operator: =  @ 156 @ operator: =  @ 139 @ 
+argument_list  @ 153 @ argument_list  @ 137 @ 
+name: subgraphs  @ 153 @ name: subgraphs  @ 137 @ 
+operator: ->  @ 129 @ operator: ->  @ 110 @ 
+expr  @ 148 @ expr  @ 132 @ 
+name: std  @ 148 @ name: std  @ 131 @ 
+argument  @ 22 @ argument  @ 18 @ 
+operator: .  @ 60 @ operator: .  @ 67 @ 
+name: scale  @ 66 @ name: scale  @ 85 @ 
+name: registration  @ 21 @ name: registration  @ 15 @ 
+name  @ 141 @ name  @ 122 @ 
+name: context_  @ 157 @ name: context_  @ 140 @ 
+return  @ 62 @ return  @ 81 @ 
+name: GetTFLiteOpName  @ 72 @ name: num_nodes  @ 105 @ 
+name: false  @ 49 @ name: false  @ 54 @ 
+name: registration  @ 22 @ name: registration  @ 19 @ 
+operator: ::  @ 148 @ operator: ::  @ 129 @ 
+name  @ 124 @ name  @ 106 @ 
+name: legacy_quantization  @ 66 @ name: legacy_quantization  @ 85 @ 
+operator: =  @ 61 @ operator: =  @ 75 @ 
+name: InterpreterInfo  @ 116 @ name: InterpreterInfo  @ 97 @ 
+condition  @ 61 @ condition  @ 77 @ 
+argument  @ 118 @ argument  @ 99 @ 
+expr  @ 171 @ expr  @ 152 @ 
+type  @ 37 @ type  @ 40 @ 
+name  @ 22 @ name  @ 20 @ 
+argument_list  @ 152 @ argument_list  @ 136 @ 
+if_stmt  @ 61 @ if_stmt  @ 77 @ 
+name: index  @ 132 @ name: index  @ 113 @ 
+name: inputs  @ 135 @ name: inputs  @ 116 @ 
+specifier: const  @ 137 @ specifier: const  @ 118 @ 
+operator: ,  @ 150 @ operator: ,  @ 134 @ 
+name: ReportOpError  @ 21 @ name: ReportOpError  @ 14 @ 
+block  @ 140 @ block  @ 121 @ 
+argument_list  @ 61 @ argument_list  @ 76 @ 
+argument_list  @ 11 @ argument_list  @ 12 @ 
+call  @ 172 @ call  @ 153 @ 
+name: variables  @ 141 @ name: variables  @ 122 @ 
+argument  @ 32 @ argument  @ 34 @ 
+name: size_t  @ 120 @ name: size_t  @ 101 @ 
+name: context_  @ 165 @ name: context_  @ 148 @ 
+specifier: const  @ 57 @ specifier: const  @ 64 @ 
+operator: .  @ 171 @ operator: .  @ 152 @ 
+expr  @ 171 @ expr  @ 152 @ 
+name: FunctionType  @ 37 @ name: FunctionType  @ 39 @ 
+name: public  @ 144 @ name: public  @ 125 @ 
+name: kTensorsReservedCapacity  @ 171 @ name: kTensorsReservedCapacity  @ 152 @ 
+operator: !=  @ 61 @ operator: !=  @ 79 @ 
+name: i  @ 43 @ name: i  @ 48 @ 
+expr  @ 32 @ expr  @ 33 @ 
+name: char  @ 21 @ name: char  @ 16 @ 
+name: int  @ 137 @ name: int  @ 115 @ 
+expr  @ 121 @ expr  @ 103 @ 
+parameter  @ 41 @ parameter  @ 46 @ 
+expr  @ 128 @ expr  @ 109 @ 
+name  @ 120 @ name  @ 101 @ 
+name: context_  @ 161 @ name: context_  @ 144 @ 
+comment: // A trivial implementation of GraphInfo around the Interpreter.  @ 111 @ comment: // A trivial implementation of GraphInfo around the Interpreter.  @ 92 @ 
+name  @ 37 @ name  @ 39 @ 
+name: TfLiteRegistration  @ 21 @ name: TfLiteRegistration  @ 15 @ 
+expr  @ 156 @ expr  @ 139 @ 
+name: message  @ 22 @ name: message  @ 23 @ 
+decl  @ 10 @ decl  @ 11 @ 
+argument_list  @ 134 @ argument_list  @ 115 @ 
+name  @ 138 @ name  @ 119 @ 
+block_content  @ 43 @ block_content  @ 48 @ 
+name: subgraph_  @ 132 @ name: subgraph_  @ 113 @ 
+argument  @ 37 @ argument  @ 41 @ 
+operator: =  @ 66 @ operator: =  @ 85 @ 
+macro  @ 53 @ macro  @ 59 @ 
+comment: // NOTE: this interpreter info represents the subset of the  @ 112 @ comment: // NOTE: this interpreter info represents the subset of the  @ 93 @ 
+operator: =  @ 158 @ operator: =  @ 141 @ 
+name: char  @ 72 @ name: size_t  @ 105 @ 
+name  @ 128 @ name  @ 109 @ 
+specifier: const  @ 42 @ specifier: const  @ 47 @ 
+type  @ 10 @ type  @ 11 @ 
+name: nullptr  @ 166 @ name: nullptr  @ 149 @ 
+name  @ 66 @ name  @ 85 @ 
+type  @ 58 @ type  @ 65 @ 
+expr  @ 163 @ expr  @ 146 @ 
+return  @ 141 @ return  @ 122 @ 
+parameter_list  @ 52 @ parameter_list  @ 57 @ 
+operator: ||  @ 61 @ operator: ||  @ 78 @ 
+literal: 0  @ 60 @ literal: 0  @ 67 @ 
+operator: ->  @ 66 @ operator: ->  @ 85 @ 
+return  @ 53 @ return  @ 59 @ 
+expr  @ 23 @ expr  @ 24 @ 
+expr  @ 37 @ expr  @ 41 @ 
+argument_list  @ 132 @ argument_list  @ 113 @ 
+name: auto  @ 61 @ name: auto  @ 75 @ 
+name  @ 61 @ name  @ 77 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+operator: =  @ 59 @ operator: =  @ 66 @ 
+name: std  @ 148 @ name: std  @ 131 @ 
+expr  @ 71 @ expr  @ 103 @ 
+block_content  @ 53 @ block_content  @ 59 @ 
+name: data  @ 67 @ name: data  @ 86 @ 
+expr  @ 124 @ expr  @ 106 @ 
+name: TfLiteTensor  @ 121 @ name: TfLiteTensor  @ 102 @ 
+name: public  @ 116 @ name: public  @ 97 @ 
+type  @ 87 @ type  @ 97 @ 
+name: tensors_size  @ 161 @ name: tensors_size  @ 144 @ 
+name: namespace  @ 3 @ name: namespace  @ 3 @ 
+operator: .  @ 22 @ operator: .  @ 19 @ 
+call  @ 37 @ call  @ 41 @ 
+operator: .  @ 157 @ operator: .  @ 140 @ 
+name: tensors_size  @ 120 @ name: tensors  @ 101 @ 
+expr  @ 137 @ expr  @ 115 @ 
+expr  @ 61 @ expr  @ 76 @ 
+name: TfLiteQuantizationParams  @ 58 @ name: TfLiteQuantizationParams  @ 65 @ 
+argument_list  @ 172 @ argument_list  @ 153 @ 
+modifier: *  @ 52 @ modifier: *  @ 58 @ 
+name  @ 22 @ name  @ 17 @ 
+name: context  @ 41 @ name: context  @ 46 @ 
+block  @ 6 @ block  @ 6 @ 
+operator: .  @ 59 @ operator: .  @ 66 @ 
+decl  @ 52 @ decl  @ 58 @ 
+name: AddTensors  @ 159 @ name: AddTensors  @ 142 @ 
+operator: .  @ 66 @ operator: .  @ 85 @ 
+name: registration  @ 22 @ name: registration  @ 22 @ 
+name: char  @ 71 @ name: tensor  @ 102 @ 
+operator: ->  @ 128 @ operator: ->  @ 109 @ 
+literal: 1  @ 61 @ literal: 1  @ 80 @ 
+name  @ 156 @ name  @ 139 @ 
+operator: ->  @ 61 @ operator: ->  @ 77 @ 
+name: custom_name  @ 73 @ name: override  @ 108 @ 
+name: static_cast  @ 156 @ name: static_cast  @ 139 @ 
+name: ReportError  @ 22 @ name: ReportError  @ 17 @ 
+name  @ 22 @ name  @ 22 @ 
+operator: ->  @ 67 @ operator: ->  @ 86 @ 
+block  @ 1 @ block  @ 1 @ 
+block_content  @ 22 @ block_content  @ 17 @ 
+argument  @ 172 @ argument  @ 153 @ 
+modifier: *  @ 31 @ modifier: *  @ 32 @ 
+call  @ 128 @ call  @ 109 @ 
+operator: *  @ 61 @ operator: *  @ 76 @ 
+type  @ 21 @ type  @ 16 @ 
+expr  @ 162 @ expr  @ 145 @ 
+specifier: const  @ 140 @ specifier: const  @ 121 @ 
+macro  @ 154 @ macro  @ 138 @ 
+operator: .  @ 166 @ operator: .  @ 149 @ 
+argument  @ 118 @ argument  @ 99 @ 
+if  @ 45 @ if  @ 50 @ 
+operator: *  @ 148 @ operator: *  @ 132 @ 
+expr  @ 172 @ expr  @ 153 @ 
+expr  @ 60 @ expr  @ 67 @ 
+argument_list  @ 118 @ argument_list  @ 99 @ 
+argument_list  @ 156 @ argument_list  @ 139 @ 
+name: explicit  @ 118 @ name: explicit  @ 99 @ 
+condition  @ 6 @ condition  @ 7 @ 
+name: q  @ 6 @ name: q  @ 7 @ 
+comment: // We know its per-layer quantization now.  @ 65 @ comment: // We know its per-layer quantization now.  @ 84 @ 
+name: resources_  @ 154 @ name: resource_variables_  @ 138 @ 
+name: context  @ 44 @ name: context  @ 49 @ 
+name: outputs  @ 138 @ name: outputs  @ 119 @ 
+name: nodes_size  @ 126 @ name: node  @ 108 @ 
+operator: ,  @ 153 @ operator: ,  @ 137 @ 
+name: BuiltinOperator  @ 22 @ name: BuiltinOperator  @ 22 @ 
+name: context_  @ 159 @ name: context_  @ 142 @ 
+decl  @ 21 @ decl  @ 14 @ 
+call  @ 132 @ call  @ 113 @ 
+modifier: *  @ 21 @ modifier: *  @ 14 @ 
+name: vector  @ 140 @ name: vector  @ 121 @ 
+name  @ 67 @ name  @ 86 @ 
+operator: .  @ 160 @ operator: .  @ 143 @ 
+if  @ 61 @ if  @ 77 @ 
+macro  @ 90 @ macro  @ 112 @ 
+name: zero_point  @ 60 @ name: zero_point  @ 67 @ 
+type  @ 57 @ type  @ 64 @ 
+name: std  @ 134 @ name: std  @ 115 @ 
+comment: // compiled binary size. Please note the restrictions:  @ 28 @ comment: // compiled binary size. Please note the restrictions:  @ 29 @ 
+name: true  @ 46 @ name: true  @ 51 @ 
+block_content  @ 37 @ block_content  @ 41 @ 
+operator: &&  @ 74 @ operator: &  @ 115 @ 
+name: quantization  @ 61 @ name: quantization  @ 76 @ 
+modifier: &  @ 57 @ modifier: &  @ 64 @ 
+name: context_  @ 166 @ name: context_  @ 149 @ 
+specifier: const  @ 21 @ specifier: const  @ 14 @ 
+expr  @ 148 @ expr  @ 130 @ 
+name: typename  @ 41 @ name: typename  @ 45 @ 
+name: context_  @ 158 @ name: context_  @ 141 @ 
+function  @ 31 @ function  @ 32 @ 
+name: TfLiteQuantization  @ 11 @ name: TfLiteQuantization  @ 12 @ 
+name: func  @ 37 @ name: func  @ 41 @ 
+argument_list  @ 89 @ argument_list  @ 129 @ 
+name  @ 160 @ name  @ 143 @ 
+argument  @ 6 @ argument  @ 7 @ 
+argument_list  @ 124 @ argument_list  @ 106 @ 
+expr  @ 37 @ expr  @ 41 @ 
+modifier: &  @ 21 @ modifier: &  @ 14 @ 
+argument  @ 22 @ argument  @ 22 @ 
+parameter  @ 31 @ parameter  @ 32 @ 
+name: int  @ 140 @ name: int  @ 121 @ 
+name: class  @ 87 @ name: class  @ 97 @ 
+operator: ->  @ 32 @ operator: ->  @ 33 @ 
+block  @ 31 @ block  @ 32 @ 
+block_content  @ 5 @ block_content  @ 5 @ 
+expr  @ 61 @ expr  @ 76 @ 
+argument_list  @ 120 @ argument_list  @ 101 @ 
+expr  @ 165 @ expr  @ 148 @ 
+name: size  @ 124 @ name: size  @ 106 @ 
+argument  @ 90 @ argument  @ 112 @ 
+operator: =  @ 162 @ operator: =  @ 145 @ 
+name: GraphInfo  @ 116 @ name: GraphInfo  @ 97 @ 
+name: execution_plan  @ 132 @ name: execution_plan  @ 113 @ 
+expr  @ 141 @ expr  @ 122 @ 
+name: vector  @ 137 @ name: vector  @ 115 @ 
+operator: ::  @ 137 @ operator: ::  @ 118 @ 
+name: size  @ 61 @ name: size  @ 79 @ 
+expr  @ 32 @ expr  @ 33 @ 
+argument_list  @ 61 @ argument_list  @ 76 @ 
+name: allocation_type  @ 45 @ name: allocation_type  @ 50 @ 
+operator: =  @ 159 @ operator: =  @ 142 @ 
+expr  @ 159 @ expr  @ 142 @ 
+name: zero_point  @ 61 @ name: zero_point  @ 80 @ 
+return  @ 33 @ return  @ 35 @ 
+index  @ 132 @ index  @ 113 @ 
+expr  @ 22 @ expr  @ 18 @ 
+argument  @ 22 @ argument  @ 22 @ 
+operator: .  @ 45 @ operator: .  @ 50 @ 
+specifier: const  @ 71 @ specifier: const  @ 101 @ 
+argument  @ 22 @ argument  @ 22 @ 
+control  @ 43 @ control  @ 48 @ 
+operator: =  @ 161 @ operator: =  @ 144 @ 
+name: nullptr  @ 160 @ name: nullptr  @ 143 @ 
+argument_list  @ 171 @ argument_list  @ 152 @ 
+name: scale  @ 61 @ name: scale  @ 77 @ 
+argument_list  @ 22 @ argument_list  @ 22 @ 
+return  @ 61 @ return  @ 72 @ 
+argument_list  @ 174 @ argument_list  @ 155 @ 
+argument  @ 148 @ argument  @ 130 @ 
+function  @ 21 @ function  @ 14 @ 
+name  @ 44 @ name  @ 49 @ 
+type  @ 31 @ type  @ 32 @ 
+name  @ 59 @ name  @ 66 @ 
+type  @ 21 @ type  @ 14 @ 
+

@@ -1,0 +1,6 @@
+2256c2256,2258
+<   nss_sha256sum                 /* sha256sum */
+---
+>   nss_sha256sum,                /* sha256sum */
+>   NULL,                         /* associate_connection */
+>   NULL                          /* disassociate_connection */

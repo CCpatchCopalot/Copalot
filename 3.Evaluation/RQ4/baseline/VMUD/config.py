@@ -1,0 +1,13 @@
+Doxygen_conf_location = "/path/to/Doxyfile"
+encoding_format = "ISO-8859-1"
+work_dir = "/path/to/joern"
+error_log_file = "/path/to/error_log"
+timeout_repo_list_file = "/path/to/timeout_repo_json"
+method_info_location = "/path/to/method_info_json"
+no_define_location_prefix = "/path/to/callgraph_sig_dir"
+jump_threshold = 3
+subprocess_exec_max_time_sec = 4 * 60 * 60
+subprocess_exam_time_sec = 60
+file_num_threshold = 5000
+warning_info = "warning_info"
+pagerank_location_prefix = "/path/to/pagerank_dir"

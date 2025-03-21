@@ -1,0 +1,17 @@
+33,34c33,34
+<     if (wc < 0) wc = 0;
+<     if (hc < 0) hc = 0;
+---
+>     if (wc <= 0 || hc <= 0)
+>         return pixCopy(NULL, pix);
+37,40c37,38
+<         wc = L_MIN(wc, (w - 1) / 2);
+<         hc = L_MIN(hc, (h - 1) / 2);
+<         L_WARNING("kernel too large; reducing!\n", procName);
+<         L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+---
+>         L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+>         return pixCopy(NULL, pix);  /* no-op */
+42,43d39
+<     if (wc == 0 && hc == 0)   /* no-op */
+<         return pixCopy(NULL, pix);

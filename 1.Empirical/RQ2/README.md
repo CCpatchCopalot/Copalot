@@ -1,0 +1,1 @@
+To get the characteristics of uncritical changes, just run the script `get_results.py` and generate the results in `resutls.json`

@@ -1,0 +1,2 @@
+HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "invalid name length")
+if(p + len > p_end)        HGOTO_ERROR(H5E_OHDR, H5E_OVERFLOW, NULL, "name length causes read past end of buffer")/* Get the link's name */

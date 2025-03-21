@@ -1,0 +1,52 @@
+1486c1486
+< typedef struct
+---
+> typedef struct __full_video_sample_entry
+1519a1520,1527
+> 	//for generic video sample entry
+> 
+> 	//box type as specified in the file (not this box's type!!)
+> 	u32 EntryType;
+> 	//opaque description data (ESDS in MP4, SMI in SVQ3, ...)
+> 	u8 *data;
+> 	u32 data_size;
+> 
+1527,1536c1535
+< /*this is the default visual sdst (to handle unknown media)*/
+< typedef struct
+< {
+< 	GF_ISOM_VISUAL_SAMPLE_ENTRY
+< 	/*box type as specified in the file (not this box's type!!)*/
+< 	u32 EntryType;
+< 	/*opaque description data (ESDS in MP4, SMI in SVQ3, ...)*/
+< 	u8 *data;
+< 	u32 data_size;
+< } GF_GenericVisualSampleEntryBox;
+---
+> typedef struct __full_video_sample_entry GF_GenericVisualSampleEntryBox;
+1666c1665
+< typedef struct
+---
+> typedef struct __full_audio_sample_entry
+1690,1696c1689,1690
+< } GF_MPEGAudioSampleEntryBox;
+< 
+< /*this is the default visual sdst (to handle unknown media)*/
+< typedef struct
+< {
+< 	GF_ISOM_AUDIO_SAMPLE_ENTRY
+< 	/*box type as specified in the file (not this box's type!!)*/
+---
+> 	//for generic audio sample entry
+> 	//box type as specified in the file (not this box's type!!)
+1698c1692
+< 	/*opaque description data (ESDS in MP4, ...)*/
+---
+> 	//opaque description data (ESDS in MP4, ...)
+1701c1695,1698
+< } GF_GenericAudioSampleEntryBox;
+---
+> 
+> } GF_MPEGAudioSampleEntryBox;
+> 
+> typedef struct __full_audio_sample_entry GF_GenericAudioSampleEntryBox;

@@ -1,0 +1,35 @@
+10a11
+> #include "tensorflow/core/framework/function.pb.h"
+49,50c50
+< static Status ValidateSavedTensors(const GraphDef& graph_def) {
+<   for (const auto& node : graph_def.node()) {
+---
+> static Status ValidateNode(const NodeDef& node) {
+62a63,75
+>     return Status::OK();
+>   }
+> static Status ValidateSavedTensors(const GraphDef& graph_def) {
+>   for (const auto& node : graph_def.node()) {
+>     TF_RETURN_IF_ERROR(ValidateNode(node));
+>   }
+> 
+>   if (graph_def.has_library()) {
+>     const FunctionDefLibrary& library = graph_def.library();
+>     for (const auto& function : library.function()) {for (const auto& node : function.node_def()) {
+>         TF_RETURN_IF_ERROR(ValidateNode(node));
+>       }
+>     }
+73,77c86
+< void AddAssetsTensorsToInputs(const StringPiece export_dir,const std::vector<AssetFileDef>& asset_file_defs,std::vector<std::pair<string, Tensor>>* inputs) {
+<   if (asset_file_defs.empty()) {
+<     return;
+<   }
+<   for (auto& asset_file_def : asset_file_defs) {
+---
+> void AddAssetsTensorsToInputs(const StringPiece export_dir,const std::vector<AssetFileDef>& asset_file_defs,std::vector<std::pair<string, Tensor>>* inputs) {if (asset_file_defs.empty()) {return;}for (auto& asset_file_def : asset_file_defs) {
+101,103c110
+<   std::vector<Tensor> feed_tensors;
+<   *callable_options.mutable_run_options() = run_options;
+<   for (const auto& input : inputs) {
+---
+>   std::vector<Tensor> feed_tensors;*callable_options.mutable_run_options() = run_options;for (const auto& input : inputs) {

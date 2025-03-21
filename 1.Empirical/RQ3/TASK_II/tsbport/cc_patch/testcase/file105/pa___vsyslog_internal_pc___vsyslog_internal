@@ -1,0 +1,975 @@
+expr  @ 102 @ expr  @ 115 @ 
+if  @ 25 @ if  @ 27 @ 
+condition  @ 140 @ condition  @ 162 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+name: __set_errno  @ 65 @ name: __set_errno  @ 73 @ 
+call  @ 58 @ call  @ 65 @ 
+expr  @ 91 @ expr  @ 103 @ 
+name: __strftime_l  @ 43 @ name: __strftime_l  @ 48 @ 
+operator: +  @ 77 @ operator: +  @ 86 @ 
+operator: =  @ 97 @ operator: =  @ 110 @ 
+call  @ 21 @ call  @ 23 @ 
+expr  @ 56 @ expr  @ 62 @ 
+comment: /* End of critical section.*/  @ 136 @ comment: /* End of critical section.  */  @ 158 @ 
+literal: 0  @ 137 @ literal: 0  @ 159 @ 
+name: LOG_PID  @ 32 @ name: LOG_PID  @ 34 @ 
+expr  @ 6 @ expr  @ 7 @ 
+operator: =  @ 127 @ operator: =  @ 148 @ 
+expr  @ 103 @ expr  @ 116 @ 
+expr  @ 107 @ expr  @ 121 @ 
+expr  @ 90 @ expr  @ 102 @ 
+block  @ 30 @ block  @ 32 @ 
+block_content  @ 61 @ block_content  @ 69 @ 
+name: pri  @ 86 @ name: pri  @ 97 @ 
+name: bufs  @ 67 @ name: bufs  @ 75 @ 
+block_content  @ 86 @ block_content  @ 96 @ 
+name: bufs  @ 97 @ name: bufs  @ 110 @ 
+argument  @ 103 @ argument  @ 116 @ 
+argument  @ 113 @ argument  @ 128 @ 
+block  @ 43 @ block  @ 48 @ 
+name: MSG_NOSIGNAL  @ 113 @ name: MSG_NOSIGNAL  @ 128 @ 
+argument  @ 56 @ argument  @ 63 @ 
+name: bufsize  @ 96 @ name: bufsize  @ 108 @ 
+expr  @ 70 @ expr  @ 79 @ 
+name: buf  @ 103 @ name: buf  @ 117 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 37 @ 
+operator: |=  @ 30 @ operator: |=  @ 32 @ 
+index  @ 5 @ index  @ 6 @ 
+sizeof  @ 68 @ sizeof  @ 77 @ 
+comment: /* Restore errno for %m format.*/  @ 64 @ comment: /* Restore errno for %m format.  */  @ 72 @ 
+expr  @ 62 @ expr  @ 70 @ 
+name: buf  @ 6 @ name: buf  @ 7 @ 
+init  @ 7 @ init  @ 8 @ 
+name: out  @ 135 @ name: out  @ 157 @ 
+argument  @ 122 @ argument  @ 137 @ 
+name: timestamp  @ 43 @ name: timestamp  @ 48 @ 
+expr  @ 36 @ expr  @ 38 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 16 @ 
+name: __time64_t  @ 36 @ name: __time64_t  @ 38 @ 
+expr  @ 77 @ expr  @ 86 @ 
+name: _PATH_CONSOLE  @ 127 @ name: _PATH_CONSOLE  @ 148 @ 
+name  @ 5 @ name  @ 6 @ 
+name: __msgoff  @ 45 @ name: __msgoff  @ 51 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+literal: 1  @ 84 @ literal: 1  @ 93 @ 
+name: apc  @ 91 @ name: apc  @ 103 @ 
+expr  @ 55 @ expr  @ 61 @ 
+argument  @ 56 @ argument  @ 62 @ 
+literal: "\n"  @ 103 @ literal: "\n"  @ 117 @ 
+expr_stmt  @ 96 @ expr_stmt  @ 108 @ 
+operator: ==  @ 103 @ operator: ==  @ 117 @ 
+name: SYSLOG_HEADER_WITHOUT_TS  @ 58 @ name: SYSLOG_HEADER_WITHOUT_TS  @ 66 @ 
+expr  @ 103 @ expr  @ 116 @ 
+argument  @ 56 @ argument  @ 63 @ 
+block_content  @ 118 @ block_content  @ 133 @ 
+name: pri  @ 25 @ name: pri  @ 27 @ 
+name: SYSLOG_HEADER  @ 84 @ name: SYSLOG_HEADER  @ 94 @ 
+comment: /* Nothing much to do but emit an error message.*/  @ 95 @ comment: /* Nothing much to do but emit an error message.  */  @ 107 @ 
+expr  @ 106 @ expr  @ 120 @ 
+argument  @ 113 @ argument  @ 128 @ 
+expr  @ 96 @ expr  @ 109 @ 
+expr  @ 58 @ expr  @ 66 @ 
+init  @ 39 @ init  @ 41 @ 
+call  @ 119 @ call  @ 134 @ 
+macro  @ 45 @ macro  @ 51 @ 
+call  @ 107 @ call  @ 121 @ 
+type  @ 61 @ type  @ 69 @ 
+call  @ 38 @ call  @ 40 @ 
+expr  @ 84 @ expr  @ 94 @ 
+argument  @ 86 @ argument  @ 97 @ 
+if_stmt  @ 110 @ if_stmt  @ 125 @ 
+literal: "%s%s"  @ 103 @ literal: "%s%s"  @ 116 @ 
+name: msgoff  @ 8 @ name: msgoff  @ 9 @ 
+name: clarg  @ 81 @ name: clarg  @ 90 @ 
+block  @ 111 @ block  @ 126 @ 
+expr_stmt  @ 111 @ expr_stmt  @ 126 @ 
+expr  @ 77 @ expr  @ 86 @ 
+block  @ 60 @ block  @ 68 @ 
+if  @ 55 @ if  @ 61 @ 
+argument  @ 15 @ argument  @ 16 @ 
+argument_list  @ 107 @ argument_list  @ 121 @ 
+argument_list  @ 129 @ argument_list  @ 151 @ 
+expr  @ 21 @ expr  @ 23 @ 
+expr  @ 56 @ expr  @ 63 @ 
+expr_stmt  @ 90 @ expr_stmt  @ 101 @ 
+name: bufsize  @ 113 @ name: bufsize  @ 128 @ 
+argument  @ 43 @ argument  @ 48 @ 
+name: char  @ 77 @ name: char  @ 86 @ 
+decl_stmt  @ 38 @ decl_stmt  @ 40 @ 
+comment: /* Set default facility if none specified. */  @ 28 @ comment: /* Set default facility if none specified. */  @ 30 @ 
+literal: 0  @ 32 @ literal: 0  @ 34 @ 
+comment: /* In the unlikely case of localtime_r failure (tm_year out of int range) skip the hostname so the message is handled as valid PRI but without TIMESTAMP or invalid TIMESTAMP (which should force the relay to add the timestamp itself).*/  @ 41 @ comment: /* In the unlikely case of localtime_r failure (tm_year out of int range)
+     skip the hostname so the message is handled as valid PRI but withoutTIMESTAMP or invalid TIMESTAMP (which should force the relay to add the
+     timestamp itself).  */  @ 43 @ 
+expr  @ 130 @ expr  @ 152 @ 
+call  @ 138 @ call  @ 160 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 48 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+expr  @ 65 @ expr  @ 73 @ 
+name: va_end  @ 72 @ name: va_end  @ 81 @ 
+if  @ 78 @ if  @ 87 @ 
+name: bufs  @ 67 @ name: bufs  @ 75 @ 
+argument  @ 38 @ argument  @ 40 @ 
+argument  @ 25 @ argument  @ 27 @ 
+name  @ 37 @ name  @ 39 @ 
+name: __vsnprintf_internal  @ 67 @ name: __vsnprintf_internal  @ 75 @ 
+ternary  @ 32 @ ternary  @ 34 @ 
+name: syslog_lock  @ 22 @ name: syslog_lock  @ 24 @ 
+argument  @ 90 @ argument  @ 102 @ 
+argument  @ 103 @ argument  @ 116 @ 
+parameter  @ 45 @ parameter  @ 51 @ 
+if_stmt  @ 102 @ if_stmt  @ 115 @ 
+operator: !  @ 122 @ operator: !  @ 137 @ 
+argument  @ 56 @ argument  @ 63 @ 
+call  @ 36 @ call  @ 38 @ 
+operator: >=  @ 127 @ operator: >=  @ 149 @ 
+argument  @ 107 @ argument  @ 121 @ 
+literal: 0  @ 127 @ literal: 0  @ 149 @ 
+name: apc  @ 89 @ name: apc  @ 100 @ 
+name: char  @ 6 @ name: char  @ 7 @ 
+expr  @ 122 @ expr  @ 137 @ 
+name: buf  @ 81 @ name: buf  @ 90 @ 
+expr  @ 97 @ expr  @ 110 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+operator: =  @ 70 @ operator: =  @ 79 @ 
+expr  @ 119 @ expr  @ 134 @ 
+name: tm  @ 38 @ name: tm  @ 40 @ 
+argument_list  @ 86 @ argument_list  @ 97 @ 
+operator: +  @ 103 @ operator: +  @ 117 @ 
+name: __getpid  @ 32 @ name: __getpid  @ 34 @ 
+condition  @ 106 @ condition  @ 120 @ 
+name: bufsize  @ 7 @ name: bufsize  @ 8 @ 
+argument  @ 84 @ argument  @ 94 @ 
+call  @ 25 @ call  @ 27 @ 
+name: __getpid  @ 96 @ name: __getpid  @ 109 @ 
+condition  @ 59 @ condition  @ 67 @ 
+operator: &&  @ 59 @ operator: &&  @ 67 @ 
+comment: /* Output to stderr if requested. */  @ 101 @ comment: /* Output to stderr if requested. */  @ 114 @ 
+argument  @ 129 @ argument  @ 151 @ 
+operator: &  @ 25 @ operator: &  @ 27 @ 
+if_stmt  @ 115 @ if_stmt  @ 130 @ 
+name: out  @ 26 @ name: out  @ 28 @ 
+expr  @ 140 @ expr  @ 162 @ 
+expr  @ 129 @ expr  @ 151 @ 
+expr  @ 130 @ expr  @ 152 @ 
+expr  @ 72 @ expr  @ 81 @ 
+name: bufs  @ 56 @ name: bufs  @ 62 @ 
+name: _nl_C_locobj_ptr  @ 43 @ name: _nl_C_locobj_ptr  @ 49 @ 
+expr  @ 58 @ expr  @ 66 @ 
+expr  @ 86 @ expr  @ 96 @ 
+argument_list  @ 25 @ argument_list  @ 27 @ 
+expr  @ 15 @ expr  @ 16 @ 
+argument_list  @ 130 @ argument_list  @ 152 @ 
+block_content  @ 81 @ block_content  @ 90 @ 
+expr  @ 15 @ expr  @ 16 @ 
+call  @ 103 @ call  @ 116 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 9 @ 
+type  @ 9 @ type  @ 10 @ 
+call  @ 91 @ call  @ 103 @ 
+expr_stmt  @ 118 @ expr_stmt  @ 133 @ 
+expr  @ 32 @ expr  @ 34 @ 
+expr  @ 84 @ expr  @ 94 @ 
+name: buf  @ 113 @ name: buf  @ 128 @ 
+expr  @ 90 @ expr  @ 101 @ 
+expr  @ 32 @ expr  @ 34 @ 
+block  @ 79 @ block  @ 88 @ 
+expr_stmt  @ 138 @ expr_stmt  @ 160 @ 
+decl  @ 9 @ decl  @ 10 @ 
+expr  @ 89 @ expr  @ 100 @ 
+call  @ 56 @ call  @ 63 @ 
+block  @ 123 @ block  @ 138 @ 
+expr  @ 67 @ expr  @ 75 @ 
+name: INTERNALLOG  @ 15 @ name: INTERNALLOG  @ 16 @ 
+argument  @ 107 @ argument  @ 121 @ 
+name: fd  @ 127 @ name: fd  @ 148 @ 
+if  @ 29 @ if  @ 31 @ 
+expr  @ 39 @ expr  @ 41 @ 
+operator: ==  @ 110 @ operator: ==  @ 125 @ 
+call  @ 122 @ call  @ 137 @ 
+expr  @ 113 @ expr  @ 128 @ 
+name: bufs  @ 96 @ name: bufs  @ 108 @ 
+if  @ 42 @ if  @ 47 @ 
+name: connected  @ 106 @ name: connected  @ 120 @ 
+expr  @ 141 @ expr  @ 163 @ 
+directive: define  @ 45 @ directive: define  @ 51 @ 
+expr  @ 124 @ expr  @ 139 @ 
+name: NULL  @ 78 @ name: NULL  @ 87 @ 
+name: l  @ 67 @ name: l  @ 75 @ 
+sizeof  @ 77 @ sizeof  @ 86 @ 
+operator: ==  @ 29 @ operator: ==  @ 31 @ 
+decl_stmt  @ 32 @ decl_stmt  @ 34 @ 
+modifier: *  @ 38 @ modifier: *  @ 40 @ 
+expr_stmt  @ 86 @ expr_stmt  @ 96 @ 
+name: fd  @ 129 @ name: fd  @ 151 @ 
+expr  @ 113 @ expr  @ 128 @ 
+expr  @ 115 @ expr  @ 130 @ 
+name: msgoff  @ 84 @ name: msgoff  @ 94 @ 
+name: now_tmp  @ 38 @ name: now_tmp  @ 40 @ 
+init  @ 9 @ init  @ 10 @ 
+condition  @ 32 @ condition  @ 34 @ 
+operator: +  @ 129 @ operator: +  @ 151 @ 
+operator: =  @ 96 @ operator: =  @ 108 @ 
+expr  @ 122 @ expr  @ 137 @ 
+argument  @ 122 @ argument  @ 137 @ 
+name: now_tm  @ 38 @ name: now_tm  @ 40 @ 
+expr  @ 58 @ expr  @ 65 @ 
+argument  @ 96 @ argument  @ 109 @ 
+expr_stmt  @ 129 @ expr_stmt  @ 151 @ 
+operator: (  @ 25 @ operator: (  @ 27 @ 
+name: l  @ 54 @ name: l  @ 60 @ 
+type  @ 67 @ type  @ 75 @ 
+operator: &  @ 38 @ operator: &  @ 40 @ 
+expr_stmt  @ 103 @ expr_stmt  @ 116 @ 
+name: has_ts  @ 83 @ name: has_ts  @ 92 @ 
+name: __libc_cleanup_push  @ 21 @ name: __libc_cleanup_push  @ 23 @ 
+expr_stmt  @ 141 @ expr_stmt  @ 163 @ 
+name: timestamp  @ 35 @ name: timestamp  @ 37 @ 
+block  @ 128 @ block  @ 150 @ 
+call  @ 129 @ call  @ 151 @ 
+name: pri  @ 29 @ name: pri  @ 31 @ 
+argument  @ 84 @ argument  @ 93 @ 
+argument  @ 90 @ argument  @ 101 @ 
+expr  @ 20 @ expr  @ 22 @ 
+if_stmt  @ 42 @ if_stmt  @ 47 @ 
+argument  @ 129 @ argument  @ 151 @ 
+name: __timestamp  @ 45 @ name: __timestamp  @ 51 @ 
+expr  @ 122 @ expr  @ 137 @ 
+expr_stmt  @ 77 @ expr_stmt  @ 86 @ 
+type  @ 2 @ type  @ 2 @ 
+if  @ 127 @ if  @ 147 @ 
+name: syslog  @ 15 @ name: syslog  @ 16 @ 
+name: vl  @ 68 @ name: vl  @ 77 @ 
+expr  @ 86 @ expr  @ 97 @ 
+literal: 1  @ 86 @ literal: 1  @ 96 @ 
+argument  @ 96 @ argument  @ 108 @ 
+expr  @ 137 @ expr  @ 159 @ 
+name: l  @ 67 @ name: l  @ 75 @ 
+name: va_list  @ 2 @ name: va_list  @ 2 @ 
+expr  @ 13 @ expr  @ 14 @ 
+argument  @ 43 @ argument  @ 48 @ 
+name: struct  @ 20 @ name: struct  @ 22 @ 
+name: LogStat  @ 127 @ name: LogStat  @ 147 @ 
+init  @ 67 @ init  @ 75 @ 
+name: now_tmp  @ 39 @ name: now_tmp  @ 41 @ 
+name: has_ts  @ 39 @ name: has_ts  @ 41 @ 
+name: tm  @ 37 @ name: tm  @ 39 @ 
+goto  @ 26 @ goto  @ 28 @ 
+name: __msgoff  @ 51 @ name: __msgoff  @ 57 @ 
+macro  @ 51 @ macro  @ 57 @ 
+decl  @ 88 @ decl  @ 99 @ 
+else  @ 32 @ else  @ 34 @ 
+decl_stmt  @ 20 @ decl_stmt  @ 22 @ 
+operator: (  @ 103 @ operator: (  @ 117 @ 
+expr  @ 25 @ expr  @ 27 @ 
+expr  @ 84 @ expr  @ 93 @ 
+expr  @ 22 @ expr  @ 24 @ 
+expr  @ 83 @ expr  @ 92 @ 
+expr  @ 21 @ expr  @ 23 @ 
+expr  @ 86 @ expr  @ 96 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 90 @ 
+name: ap  @ 89 @ name: ap  @ 100 @ 
+expr_stmt  @ 69 @ expr_stmt  @ 78 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 10 @ 
+name: fmt  @ 67 @ name: fmt  @ 75 @ 
+argument  @ 89 @ argument  @ 100 @ 
+operator: -  @ 67 @ operator: -  @ 75 @ 
+argument  @ 122 @ argument  @ 137 @ 
+argument  @ 122 @ argument  @ 137 @ 
+expr  @ 62 @ expr  @ 70 @ 
+operator: +  @ 84 @ operator: +  @ 93 @ 
+name: apc  @ 90 @ name: apc  @ 101 @ 
+name: mode_flags  @ 2 @ name: mode_flags  @ 3 @ 
+expr  @ 38 @ expr  @ 40 @ 
+argument  @ 127 @ argument  @ 148 @ 
+operator: )  @ 29 @ operator: )  @ 31 @ 
+call  @ 56 @ call  @ 62 @ 
+expr  @ 113 @ expr  @ 128 @ 
+operator: =  @ 58 @ operator: =  @ 65 @ 
+operator: ==  @ 75 @ operator: ==  @ 84 @ 
+name: bool  @ 39 @ name: bool  @ 41 @ 
+expr  @ 67 @ expr  @ 75 @ 
+argument  @ 67 @ argument  @ 76 @ 
+name: l  @ 90 @ name: l  @ 101 @ 
+argument  @ 21 @ argument  @ 23 @ 
+init  @ 38 @ init  @ 40 @ 
+name: connected  @ 113 @ name: connected  @ 128 @ 
+name: LogFacility  @ 30 @ name: LogFacility  @ 32 @ 
+expr  @ 62 @ expr  @ 70 @ 
+name  @ 1 @ name  @ 1 @ 
+name: LogStat  @ 119 @ name: LogStat  @ 134 @ 
+condition  @ 25 @ condition  @ 27 @ 
+literal: "%h %e %T "  @ 43 @ literal: "%h %e %T "  @ 48 @ 
+name: vl  @ 67 @ name: vl  @ 75 @ 
+expr  @ 67 @ expr  @ 75 @ 
+operator: -  @ 103 @ operator: -  @ 117 @ 
+operator: |  @ 127 @ operator: |  @ 149 @ 
+decl_stmt  @ 126 @ decl_stmt  @ 146 @ 
+argument  @ 119 @ argument  @ 134 @ 
+argument  @ 90 @ argument  @ 101 @ 
+name: fd  @ 130 @ name: fd  @ 152 @ 
+call  @ 72 @ call  @ 81 @ 
+name  @ 35 @ name  @ 37 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: )  @ 127 @ operator: )  @ 149 @ 
+expr  @ 77 @ expr  @ 86 @ 
+decl  @ 5 @ decl  @ 6 @ 
+argument  @ 107 @ argument  @ 121 @ 
+expr  @ 122 @ expr  @ 137 @ 
+operator: &  @ 56 @ operator: &  @ 63 @ 
+if_stmt  @ 68 @ if_stmt  @ 77 @ 
+block_content  @ 103 @ block_content  @ 116 @ 
+name: __libc_lock_lock  @ 22 @ name: __libc_lock_lock  @ 24 @ 
+expr  @ 129 @ expr  @ 151 @ 
+name: openlog_internal  @ 107 @ name: openlog_internal  @ 121 @ 
+call  @ 77 @ call  @ 86 @ 
+expr  @ 103 @ expr  @ 117 @ 
+expr  @ 43 @ expr  @ 48 @ 
+operator: )  @ 13 @ operator: )  @ 14 @ 
+argument_list  @ 103 @ argument_list  @ 116 @ 
+block  @ 26 @ block  @ 28 @ 
+argument  @ 67 @ argument  @ 75 @ 
+name: int  @ 9 @ name: int  @ 10 @ 
+name: va_end  @ 91 @ name: va_end  @ 103 @ 
+comment: /* "%b %e %H:%M:%S "*/  @ 34 @ comment: /* "%b %e %H:%M:%S "  */  @ 36 @ 
+name: LogFile  @ 122 @ name: LogFile  @ 137 @ 
+argument_list  @ 124 @ argument_list  @ 139 @ 
+name: l  @ 68 @ name: l  @ 77 @ 
+condition  @ 68 @ condition  @ 77 @ 
+operator: +  @ 86 @ operator: +  @ 96 @ 
+expr  @ 32 @ expr  @ 34 @ 
+decl_stmt  @ 67 @ decl_stmt  @ 75 @ 
+name: __libc_lock_unlock  @ 138 @ name: __libc_lock_unlock  @ 160 @ 
+operator: &&  @ 68 @ operator: &&  @ 77 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 32 @ 
+name: SOCK_STREAM  @ 110 @ name: SOCK_STREAM  @ 125 @ 
+expr  @ 113 @ expr  @ 128 @ 
+name: buf  @ 141 @ name: buf  @ 163 @ 
+type  @ 38 @ type  @ 40 @ 
+name: fd  @ 126 @ name: fd  @ 146 @ 
+expr  @ 7 @ expr  @ 8 @ 
+block  @ 76 @ block  @ 85 @ 
+operator: .  @ 81 @ operator: .  @ 90 @ 
+condition  @ 113 @ condition  @ 128 @ 
+name: va_list  @ 88 @ name: va_list  @ 99 @ 
+operator: !  @ 106 @ operator: !  @ 120 @ 
+if_stmt  @ 140 @ if_stmt  @ 162 @ 
+argument_list  @ 62 @ argument_list  @ 70 @ 
+operator: *  @ 77 @ operator: *  @ 86 @ 
+expr  @ 30 @ expr  @ 32 @ 
+expr  @ 22 @ expr  @ 24 @ 
+then  @ 32 @ then  @ 34 @ 
+name: l  @ 70 @ name: l  @ 79 @ 
+argument  @ 77 @ argument  @ 86 @ 
+argument_list  @ 89 @ argument_list  @ 100 @ 
+expr  @ 86 @ expr  @ 97 @ 
+name: has_ts  @ 42 @ name: has_ts  @ 47 @ 
+name: buf  @ 122 @ name: buf  @ 137 @ 
+argument_list  @ 86 @ argument_list  @ 96 @ 
+name: buf  @ 81 @ name: buf  @ 90 @ 
+expr  @ 43 @ expr  @ 48 @ 
+call  @ 67 @ call  @ 75 @ 
+expr  @ 138 @ expr  @ 160 @ 
+name: fmt  @ 90 @ name: fmt  @ 101 @ 
+condition  @ 78 @ condition  @ 87 @ 
+name: NULL  @ 119 @ name: NULL  @ 134 @ 
+expr  @ 84 @ expr  @ 93 @ 
+name: SYSLOG_HEADER_WITHOUT_TS  @ 51 @ name: SYSLOG_HEADER_WITHOUT_TS  @ 57 @ 
+call  @ 22 @ call  @ 24 @ 
+argument  @ 86 @ argument  @ 96 @ 
+expr  @ 107 @ expr  @ 121 @ 
+expr_stmt  @ 119 @ expr_stmt  @ 134 @ 
+expr  @ 32 @ expr  @ 34 @ 
+argument  @ 84 @ argument  @ 94 @ 
+name: char  @ 5 @ name: char  @ 6 @ 
+argument_list  @ 119 @ argument_list  @ 134 @ 
+expr  @ 84 @ expr  @ 94 @ 
+condition  @ 102 @ condition  @ 115 @ 
+call  @ 65 @ call  @ 73 @ 
+name: __pri  @ 51 @ name: __pri  @ 57 @ 
+init  @ 36 @ init  @ 38 @ 
+name: vl  @ 68 @ name: vl  @ 77 @ 
+label  @ 135 @ label  @ 157 @ 
+argument  @ 15 @ argument  @ 16 @ 
+decl_stmt  @ 61 @ decl_stmt  @ 69 @ 
+argument_list  @ 36 @ argument_list  @ 38 @ 
+condition  @ 42 @ condition  @ 47 @ 
+argument_list  @ 67 @ argument_list  @ 75 @ 
+operator: !=  @ 39 @ operator: !=  @ 41 @ 
+decl  @ 126 @ decl  @ 146 @ 
+name: msgoff  @ 86 @ name: msgoff  @ 97 @ 
+comment: /* Check for invalid bits. */  @ 12 @ comment: /* Check for invalid bits. */  @ 13 @ 
+name: l  @ 56 @ name: l  @ 62 @ 
+if  @ 59 @ if  @ 67 @ 
+expr  @ 43 @ expr  @ 49 @ 
+call  @ 90 @ call  @ 101 @ 
+expr  @ 15 @ expr  @ 16 @ 
+expr  @ 75 @ expr  @ 84 @ 
+operator: <  @ 59 @ operator: <  @ 67 @ 
+name: __vsyslog_internal  @ 2 @ name: __vsyslog_internal  @ 2 @ 
+name: time64_now  @ 36 @ name: time64_now  @ 38 @ 
+sizeof  @ 58 @ sizeof  @ 65 @ 
+name: pri  @ 58 @ name: pri  @ 66 @ 
+if  @ 115 @ if  @ 130 @ 
+decl  @ 20 @ decl  @ 22 @ 
+unit  @ 1 @ unit  @ 1 @ 
+decl  @ 37 @ decl  @ 39 @ 
+name: LogFacility  @ 107 @ name: LogFacility  @ 121 @ 
+name: LOG_MASK  @ 25 @ name: LOG_MASK  @ 27 @ 
+operator: )  @ 103 @ operator: )  @ 117 @ 
+name: va_list  @ 61 @ name: va_list  @ 69 @ 
+name: __libc_cleanup_pop  @ 137 @ name: __libc_cleanup_pop  @ 159 @ 
+argument  @ 67 @ argument  @ 75 @ 
+operator: |  @ 127 @ operator: |  @ 148 @ 
+name: clarg  @ 20 @ name: clarg  @ 22 @ 
+name: bufs  @ 5 @ name: bufs  @ 6 @ 
+name: NULL  @ 107 @ name: NULL  @ 121 @ 
+expr  @ 16 @ expr  @ 17 @ 
+name: buf  @ 75 @ name: buf  @ 84 @ 
+block  @ 94 @ block  @ 106 @ 
+if_stmt  @ 55 @ if_stmt  @ 61 @ 
+call  @ 137 @ call  @ 159 @ 
+name: apc  @ 62 @ name: apc  @ 70 @ 
+name: LOG_NDELAY  @ 107 @ name: LOG_NDELAY  @ 121 @ 
+literal: 0  @ 113 @ literal: 0  @ 128 @ 
+expr  @ 89 @ expr  @ 100 @ 
+expr  @ 138 @ expr  @ 160 @ 
+sizeof  @ 59 @ sizeof  @ 67 @ 
+expr  @ 96 @ expr  @ 109 @ 
+expr  @ 103 @ expr  @ 116 @ 
+expr  @ 20 @ expr  @ 22 @ 
+operator: -  @ 68 @ operator: -  @ 77 @ 
+index  @ 35 @ index  @ 37 @ 
+decl  @ 2 @ decl  @ 2 @ 
+call  @ 32 @ call  @ 34 @ 
+name: NULL  @ 75 @ name: NULL  @ 84 @ 
+argument  @ 58 @ argument  @ 65 @ 
+expr  @ 129 @ expr  @ 151 @ 
+function  @ 1 @ function  @ 1 @ 
+name: msgoff  @ 56 @ name: msgoff  @ 63 @ 
+expr  @ 127 @ expr  @ 147 @ 
+name: apc  @ 72 @ name: apc  @ 81 @ 
+name: SYSLOG_HEADER  @ 56 @ name: SYSLOG_HEADER  @ 63 @ 
+block  @ 69 @ block  @ 78 @ 
+expr  @ 78 @ expr  @ 87 @ 
+name  @ 103 @ name  @ 117 @ 
+call  @ 43 @ call  @ 48 @ 
+name: bufsize  @ 122 @ name: bufsize  @ 137 @ 
+name: __snprintf  @ 86 @ name: __snprintf  @ 96 @ 
+argument  @ 90 @ argument  @ 101 @ 
+call  @ 141 @ call  @ 163 @ 
+decl  @ 2 @ decl  @ 3 @ 
+decl_stmt  @ 37 @ decl_stmt  @ 39 @ 
+name: now  @ 36 @ name: now  @ 38 @ 
+argument  @ 103 @ argument  @ 116 @ 
+argument  @ 103 @ argument  @ 117 @ 
+name: l  @ 58 @ name: l  @ 65 @ 
+name: LogFile  @ 113 @ name: LogFile  @ 128 @ 
+expr  @ 67 @ expr  @ 75 @ 
+operator: !  @ 113 @ operator: !  @ 128 @ 
+expr  @ 72 @ expr  @ 81 @ 
+literal: 0  @ 122 @ literal: 0  @ 137 @ 
+name: now_tmp  @ 43 @ name: now_tmp  @ 48 @ 
+name: pid_t  @ 32 @ name: pid_t  @ 34 @ 
+name: buf  @ 86 @ name: buf  @ 96 @ 
+name: bufsize  @ 77 @ name: bufsize  @ 86 @ 
+expr  @ 20 @ expr  @ 22 @ 
+name: __send  @ 122 @ name: __send  @ 137 @ 
+init  @ 32 @ init  @ 34 @ 
+argument  @ 86 @ argument  @ 97 @ 
+name: buf  @ 84 @ name: buf  @ 93 @ 
+if  @ 102 @ if  @ 115 @ 
+name: __localtime64_r  @ 38 @ name: __localtime64_r  @ 40 @ 
+name: O_CLOEXEC  @ 127 @ name: O_CLOEXEC  @ 149 @ 
+expr  @ 67 @ expr  @ 75 @ 
+argument_list  @ 91 @ argument_list  @ 103 @ 
+argument  @ 43 @ argument  @ 48 @ 
+name: __open  @ 127 @ name: __open  @ 148 @ 
+comment: /* Tell the cancellation handler to free this buffer.*/  @ 80 @ comment: /* Tell the cancellation handler to free this buffer.  */  @ 89 @ 
+expr  @ 90 @ expr  @ 101 @ 
+argument  @ 38 @ argument  @ 40 @ 
+argument_list  @ 96 @ argument_list  @ 109 @ 
+argument_list  @ 118 @ argument_list  @ 133 @ 
+operator: ~  @ 13 @ operator: ~  @ 14 @ 
+expr  @ 21 @ expr  @ 23 @ 
+block_content  @ 111 @ block_content  @ 126 @ 
+argument_list  @ 77 @ argument_list  @ 86 @ 
+call  @ 84 @ call  @ 94 @ 
+if  @ 140 @ if  @ 162 @ 
+comment: /* Check priority against setlogmask values. */  @ 24 @ comment: /* Check priority against setlogmask values. */  @ 26 @ 
+if_stmt  @ 25 @ if_stmt  @ 27 @ 
+name: O_WRONLY  @ 127 @ name: O_WRONLY  @ 148 @ 
+name: char  @ 35 @ name: char  @ 37 @ 
+expr  @ 113 @ expr  @ 128 @ 
+if  @ 13 @ if  @ 14 @ 
+block_content  @ 56 @ block_content  @ 62 @ 
+condition  @ 122 @ condition  @ 137 @ 
+type  @ 5 @ type  @ 6 @ 
+literal: 0  @ 29 @ literal: 0  @ 31 @ 
+name: l  @ 59 @ name: l  @ 67 @ 
+block_content  @ 141 @ block_content  @ 163 @ 
+operator: |  @ 13 @ operator: |  @ 14 @ 
+decl_stmt  @ 36 @ decl_stmt  @ 38 @ 
+argument  @ 84 @ argument  @ 94 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 62 @ 
+name  @ 81 @ name  @ 90 @ 
+decl  @ 38 @ decl  @ 40 @ 
+name: LogType  @ 110 @ name: LogType  @ 125 @ 
+expr  @ 84 @ expr  @ 94 @ 
+expr  @ 110 @ expr  @ 125 @ 
+expr  @ 56 @ expr  @ 63 @ 
+name: fmt  @ 2 @ name: fmt  @ 2 @ 
+name: pid  @ 84 @ name: pid  @ 94 @ 
+name: bufs  @ 140 @ name: bufs  @ 162 @ 
+expr  @ 103 @ expr  @ 116 @ 
+name  @ 38 @ name  @ 40 @ 
+operator: &  @ 127 @ operator: &  @ 147 @ 
+argument  @ 65 @ argument  @ 73 @ 
+argument  @ 43 @ argument  @ 49 @ 
+name: bufsize  @ 70 @ name: bufsize  @ 79 @ 
+block_content  @ 69 @ block_content  @ 78 @ 
+argument  @ 72 @ argument  @ 81 @ 
+argument_list  @ 138 @ argument_list  @ 160 @ 
+operator: &  @ 13 @ operator: &  @ 14 @ 
+argument  @ 137 @ argument  @ 159 @ 
+name: l  @ 59 @ name: l  @ 67 @ 
+operator: <  @ 68 @ operator: <  @ 77 @ 
+operator: <  @ 113 @ operator: <  @ 128 @ 
+name: msgoff  @ 103 @ name: msgoff  @ 116 @ 
+parameter_list  @ 51 @ parameter_list  @ 57 @ 
+argument  @ 130 @ argument  @ 152 @ 
+block_content  @ 96 @ block_content  @ 108 @ 
+operator: !=  @ 140 @ operator: !=  @ 162 @ 
+name: va_copy  @ 62 @ name: va_copy  @ 70 @ 
+argument  @ 56 @ argument  @ 63 @ 
+comment: /* Get connected, output the message to the local logger.*/  @ 105 @ comment: /* Get connected, output the message to the local logger.  */  @ 119 @ 
+if  @ 106 @ if  @ 120 @ 
+decl  @ 6 @ decl  @ 7 @ 
+name: apc  @ 67 @ name: apc  @ 75 @ 
+type  @ 51 @ type  @ 57 @ 
+argument_list  @ 58 @ argument_list  @ 66 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 73 @ 
+expr  @ 91 @ expr  @ 103 @ 
+name: LogStat  @ 32 @ name: LogStat  @ 34 @ 
+expr  @ 107 @ expr  @ 121 @ 
+if  @ 83 @ if  @ 92 @ 
+argument  @ 25 @ argument  @ 27 @ 
+name: free  @ 141 @ name: free  @ 163 @ 
+name: closelog_internal  @ 118 @ name: closelog_internal  @ 133 @ 
+operator: ==  @ 25 @ operator: ==  @ 27 @ 
+block  @ 56 @ block  @ 62 @ 
+name: LOG_FACMASK  @ 16 @ name: LOG_FACMASK  @ 17 @ 
+name: int  @ 67 @ name: int  @ 75 @ 
+sizeof  @ 96 @ sizeof  @ 108 @ 
+name: bufsize  @ 111 @ name: bufsize  @ 126 @ 
+type  @ 39 @ type  @ 41 @ 
+argument  @ 62 @ argument  @ 70 @ 
+comment: /* Try to use a static buffer as an optimization.*/  @ 4 @ comment: /* Try to use a static buffer as an optimization.  */  @ 5 @ 
+parameter  @ 45 @ parameter  @ 51 @ 
+name: int  @ 54 @ name: int  @ 60 @ 
+name: buf  @ 140 @ name: buf  @ 162 @ 
+type  @ 1 @ type  @ 1 @ 
+literal: 1  @ 103 @ literal: 1  @ 117 @ 
+name: pri  @ 84 @ name: pri  @ 94 @ 
+block_content  @ 124 @ block_content  @ 139 @ 
+operator: +  @ 90 @ operator: +  @ 101 @ 
+block  @ 84 @ block  @ 93 @ 
+operator: <=  @ 68 @ operator: <=  @ 77 @ 
+sizeof  @ 43 @ sizeof  @ 48 @ 
+argument_list  @ 65 @ argument_list  @ 73 @ 
+argument  @ 43 @ argument  @ 48 @ 
+name: int  @ 2 @ name: int  @ 3 @ 
+condition  @ 13 @ condition  @ 14 @ 
+operator: ++  @ 111 @ operator: ++  @ 126 @ 
+name: __snprintf  @ 96 @ name: __snprintf  @ 108 @ 
+literal: 0  @ 25 @ literal: 0  @ 27 @ 
+block_content  @ 107 @ block_content  @ 121 @ 
+expr  @ 96 @ expr  @ 108 @ 
+type  @ 2 @ type  @ 3 @ 
+argument  @ 58 @ argument  @ 65 @ 
+else  @ 57 @ else  @ 64 @ 
+block  @ 20 @ block  @ 22 @ 
+name: buf  @ 69 @ name: buf  @ 78 @ 
+name: __pri  @ 45 @ name: __pri  @ 51 @ 
+expr  @ 127 @ expr  @ 149 @ 
+name: pri  @ 13 @ name: pri  @ 14 @ 
+literal: "%s\r\n"  @ 129 @ literal: "%s\r\n"  @ 151 @ 
+if  @ 75 @ if  @ 84 @ 
+expr  @ 5 @ expr  @ 6 @ 
+operator: &  @ 102 @ operator: &  @ 115 @ 
+operator: (  @ 29 @ operator: (  @ 31 @ 
+name: LOG_FACMASK  @ 29 @ name: LOG_FACMASK  @ 31 @ 
+literal: 0  @ 68 @ literal: 0  @ 77 @ 
+name: __send  @ 113 @ name: __send  @ 128 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+argument_list  @ 38 @ argument_list  @ 40 @ 
+expr  @ 43 @ expr  @ 48 @ 
+argument  @ 67 @ argument  @ 75 @ 
+argument  @ 84 @ argument  @ 93 @ 
+expr  @ 119 @ expr  @ 134 @ 
+expr  @ 84 @ expr  @ 94 @ 
+if_stmt  @ 122 @ if_stmt  @ 137 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 24 @ 
+name: pri  @ 30 @ name: pri  @ 32 @ 
+parameter_list  @ 45 @ parameter_list  @ 51 @ 
+argument  @ 22 @ argument  @ 24 @ 
+name: SYSLOG_HEADER_WITHOUT_TS  @ 86 @ name: SYSLOG_HEADER_WITHOUT_TS  @ 97 @ 
+expr  @ 119 @ expr  @ 134 @ 
+type  @ 45 @ type  @ 51 @ 
+argument  @ 21 @ argument  @ 23 @ 
+name: timestamp  @ 56 @ name: timestamp  @ 63 @ 
+name: struct  @ 38 @ name: struct  @ 40 @ 
+name: bufs  @ 69 @ name: bufs  @ 78 @ 
+expr_stmt  @ 130 @ expr_stmt  @ 152 @ 
+operator: &  @ 38 @ operator: &  @ 40 @ 
+define  @ 45 @ define  @ 51 @ 
+comment: /* attempt re-open next time */  @ 124 @ comment: /* attempt re-open next time */  @ 139 @ 
+name: LOG_PRIMASK  @ 13 @ name: LOG_PRIMASK  @ 14 @ 
+name: pri  @ 56 @ name: pri  @ 63 @ 
+name: now_tm  @ 37 @ name: now_tm  @ 39 @ 
+name: NULL  @ 20 @ name: NULL  @ 22 @ 
+expr  @ 58 @ expr  @ 65 @ 
+type  @ 45 @ type  @ 51 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 96 @ expr  @ 108 @ 
+type  @ 20 @ type  @ 22 @ 
+operator: )  @ 77 @ operator: )  @ 86 @ 
+expr  @ 38 @ expr  @ 40 @ 
+expr  @ 58 @ expr  @ 65 @ 
+block  @ 3 @ block  @ 4 @ 
+argument_list  @ 90 @ argument_list  @ 101 @ 
+argument  @ 91 @ argument  @ 103 @ 
+name: openlog_internal  @ 119 @ name: openlog_internal  @ 134 @ 
+name: buf  @ 129 @ name: buf  @ 151 @ 
+call  @ 58 @ call  @ 66 @ 
+decl  @ 8 @ decl  @ 9 @ 
+call  @ 96 @ call  @ 108 @ 
+expr_stmt  @ 70 @ expr_stmt  @ 79 @ 
+decl  @ 67 @ decl  @ 75 @ 
+expr  @ 65 @ expr  @ 73 @ 
+expr  @ 89 @ expr  @ 100 @ 
+name: size_t  @ 7 @ name: size_t  @ 8 @ 
+operator: &=  @ 16 @ operator: &=  @ 17 @ 
+name: LOG_PERROR  @ 102 @ name: LOG_PERROR  @ 115 @ 
+name: cleanup_arg  @ 20 @ name: cleanup_arg  @ 22 @ 
+block  @ 116 @ block  @ 131 @ 
+parameter  @ 51 @ parameter  @ 57 @ 
+argument_list  @ 21 @ argument_list  @ 23 @ 
+name: errno  @ 9 @ name: errno  @ 10 @ 
+expr  @ 43 @ expr  @ 48 @ 
+if_stmt  @ 29 @ if_stmt  @ 31 @ 
+name: apc  @ 61 @ name: apc  @ 69 @ 
+literal: '\n'  @ 103 @ literal: '\n'  @ 117 @ 
+operator: &  @ 32 @ operator: &  @ 34 @ 
+operator: ||  @ 113 @ operator: ||  @ 128 @ 
+if_stmt  @ 13 @ if_stmt  @ 14 @ 
+argument  @ 86 @ argument  @ 97 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: <  @ 122 @ operator: <  @ 137 @ 
+name: pri  @ 2 @ name: pri  @ 2 @ 
+argument_list  @ 72 @ argument_list  @ 81 @ 
+operator: =  @ 77 @ operator: =  @ 86 @ 
+name  @ 20 @ name  @ 22 @ 
+name: pid  @ 56 @ name: pid  @ 63 @ 
+expr  @ 84 @ expr  @ 93 @ 
+name: msgoff  @ 129 @ name: msgoff  @ 151 @ 
+expr  @ 29 @ expr  @ 31 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 23 @ 
+operator: &  @ 29 @ operator: &  @ 31 @ 
+name: buf  @ 78 @ name: buf  @ 87 @ 
+name: buf  @ 97 @ name: buf  @ 110 @ 
+name: MSG_NOSIGNAL  @ 122 @ name: MSG_NOSIGNAL  @ 137 @ 
+block_content  @ 58 @ block_content  @ 65 @ 
+operator: !=  @ 78 @ operator: !=  @ 87 @ 
+if_stmt  @ 75 @ if_stmt  @ 84 @ 
+name: buf  @ 90 @ name: buf  @ 101 @ 
+expr_stmt  @ 107 @ expr_stmt  @ 121 @ 
+argument  @ 67 @ argument  @ 75 @ 
+argument  @ 58 @ argument  @ 66 @ 
+call  @ 25 @ call  @ 27 @ 
+if  @ 110 @ if  @ 125 @ 
+expr  @ 9 @ expr  @ 10 @ 
+type  @ 7 @ type  @ 8 @ 
+define  @ 11 @ define  @ 12 @ 
+decl  @ 61 @ decl  @ 69 @ 
+expr  @ 107 @ expr  @ 121 @ 
+if_stmt  @ 113 @ if_stmt  @ 128 @ 
+expr  @ 141 @ expr  @ 163 @ 
+expr  @ 56 @ expr  @ 63 @ 
+argument_list  @ 25 @ argument_list  @ 27 @ 
+operator: (  @ 127 @ operator: (  @ 148 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+comment: /* * Output the message to the console; don't worry * about blocking, if console blocks everything will. * Make sure the error reported is the one from the * syslogd failure. */  @ 125 @ comment: /*
+	   * Output the message to the console; don't worry* about blocking, if console blocks everything will.
+	   * Make sure the error reported is the one from the* syslogd failure.
+	   */  @ 140 @ 
+call  @ 124 @ call  @ 139 @ 
+name: saved_errno  @ 9 @ name: saved_errno  @ 10 @ 
+index  @ 103 @ index  @ 117 @ 
+call  @ 86 @ call  @ 96 @ 
+expr  @ 38 @ expr  @ 40 @ 
+expr  @ 127 @ expr  @ 148 @ 
+expr  @ 119 @ expr  @ 134 @ 
+operator: =  @ 81 @ operator: =  @ 90 @ 
+expr  @ 129 @ expr  @ 151 @ 
+expr  @ 42 @ expr  @ 47 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+name: LOG_PRI  @ 25 @ name: LOG_PRI  @ 27 @ 
+name: malloc  @ 77 @ name: malloc  @ 86 @ 
+expr_stmt  @ 84 @ expr_stmt  @ 93 @ 
+name: ap  @ 2 @ name: ap  @ 2 @ 
+condition  @ 110 @ condition  @ 125 @ 
+name: int  @ 8 @ name: int  @ 9 @ 
+expr  @ 90 @ expr  @ 101 @ 
+name: unsigned  @ 2 @ name: unsigned  @ 3 @ 
+if_stmt  @ 127 @ if_stmt  @ 147 @ 
+name: now  @ 38 @ name: now  @ 40 @ 
+if_stmt  @ 78 @ if_stmt  @ 87 @ 
+expr  @ 111 @ expr  @ 126 @ 
+sizeof  @ 67 @ sizeof  @ 75 @ 
+expr  @ 59 @ expr  @ 67 @ 
+name: __dprintf  @ 129 @ name: __dprintf  @ 151 @ 
+operator: (  @ 77 @ operator: (  @ 86 @ 
+type  @ 51 @ type  @ 57 @ 
+argument_list  @ 58 @ argument_list  @ 65 @ 
+argument  @ 119 @ argument  @ 134 @ 
+argument  @ 127 @ argument  @ 149 @ 
+operator: |  @ 107 @ operator: |  @ 121 @ 
+expr  @ 35 @ expr  @ 37 @ 
+argument  @ 84 @ argument  @ 94 @ 
+expr  @ 118 @ expr  @ 133 @ 
+argument  @ 96 @ argument  @ 108 @ 
+type  @ 126 @ type  @ 146 @ 
+call  @ 62 @ call  @ 70 @ 
+expr  @ 86 @ expr  @ 96 @ 
+name: bufs  @ 56 @ name: bufs  @ 62 @ 
+name: LogStat  @ 107 @ name: LogStat  @ 121 @ 
+name: l  @ 84 @ name: l  @ 93 @ 
+init  @ 20 @ init  @ 22 @ 
+operator: )  @ 25 @ operator: )  @ 27 @ 
+argument  @ 127 @ argument  @ 148 @ 
+block_content  @ 115 @ block_content  @ 130 @ 
+if  @ 122 @ if  @ 137 @ 
+decl_stmt  @ 39 @ decl_stmt  @ 41 @ 
+type  @ 36 @ type  @ 38 @ 
+operator: |  @ 119 @ operator: |  @ 134 @ 
+name: bufs  @ 58 @ name: bufs  @ 65 @ 
+if  @ 113 @ if  @ 128 @ 
+expr  @ 81 @ expr  @ 90 @ 
+name: NULL  @ 39 @ name: NULL  @ 41 @ 
+block_content  @ 26 @ block_content  @ 28 @ 
+parameter  @ 51 @ parameter  @ 57 @ 
+call  @ 84 @ call  @ 93 @ 
+literal: 0  @ 59 @ literal: 0  @ 67 @ 
+type  @ 54 @ type  @ 60 @ 
+if_stmt  @ 83 @ if_stmt  @ 92 @ 
+if_stmt  @ 59 @ if_stmt  @ 67 @ 
+argument  @ 15 @ argument  @ 16 @ 
+comment: /* Try to reopen the syslog connection.Maybe it went down.*/  @ 117 @ comment: /* Try to reopen the syslog connection.  Maybe it went down.  */  @ 132 @ 
+name: pid  @ 32 @ name: pid  @ 34 @ 
+expr  @ 58 @ expr  @ 66 @ 
+operator: (  @ 13 @ operator: (  @ 14 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+literal: 1024  @ 5 @ literal: 1024  @ 6 @ 
+value  @ 52 @ value  @ 58 @ 
+expr  @ 25 @ expr  @ 27 @ 
+argument_list  @ 137 @ argument_list  @ 159 @ 
+name: SYSLOG_HEADER  @ 45 @ name: SYSLOG_HEADER  @ 51 @ 
+block  @ 114 @ block  @ 129 @ 
+literal: 0  @ 127 @ literal: 0  @ 149 @ 
+parameter  @ 45 @ parameter  @ 51 @ 
+name: __snprintf  @ 84 @ name: __snprintf  @ 93 @ 
+call  @ 86 @ call  @ 97 @ 
+name: closelog_internal  @ 124 @ name: closelog_internal  @ 139 @ 
+decl  @ 7 @ decl  @ 8 @ 
+name: connected  @ 115 @ name: connected  @ 130 @ 
+name: LOG_CONS  @ 127 @ name: LOG_CONS  @ 147 @ 
+define  @ 51 @ define  @ 57 @ 
+type  @ 45 @ type  @ 51 @ 
+expr  @ 56 @ expr  @ 62 @ 
+name: saved_errno  @ 65 @ name: saved_errno  @ 73 @ 
+directive: define  @ 51 @ directive: define  @ 57 @ 
+expr  @ 90 @ expr  @ 101 @ 
+literal: 1  @ 90 @ literal: 1  @ 101 @ 
+value  @ 11 @ value  @ 12 @ 
+expr  @ 127 @ expr  @ 148 @ 
+call  @ 130 @ call  @ 152 @ 
+operator: <=  @ 59 @ operator: <=  @ 67 @ 
+argument  @ 113 @ argument  @ 128 @ 
+comment: /* If we have a SOCK_STREAM connection, also send ASCII NUL as a record terminator.*/  @ 109 @ comment: /* If we have a SOCK_STREAM connection, also send ASCII NUL as a record
+     terminator.  */  @ 123 @ 
+condition  @ 55 @ condition  @ 61 @ 
+expr_stmt  @ 137 @ expr_stmt  @ 159 @ 
+expr  @ 137 @ expr  @ 159 @ 
+name: bufs  @ 68 @ name: bufs  @ 77 @ 
+decl  @ 2 @ decl  @ 2 @ 
+init  @ 6 @ init  @ 7 @ 
+name: pri  @ 16 @ name: pri  @ 17 @ 
+call  @ 15 @ call  @ 16 @ 
+expr_stmt  @ 91 @ expr_stmt  @ 103 @ 
+argument  @ 138 @ argument  @ 160 @ 
+literal: 1  @ 77 @ literal: 1  @ 86 @ 
+expr_stmt  @ 58 @ expr_stmt  @ 65 @ 
+name: LogStat  @ 102 @ name: LogStat  @ 115 @ 
+expr  @ 35 @ expr  @ 37 @ 
+if_stmt  @ 106 @ if_stmt  @ 120 @ 
+condition  @ 75 @ condition  @ 84 @ 
+expr  @ 103 @ expr  @ 117 @ 
+argument_list  @ 56 @ argument_list  @ 62 @ 
+operator: -  @ 90 @ operator: -  @ 101 @ 
+call  @ 113 @ call  @ 128 @ 
+name: NULL  @ 6 @ name: NULL  @ 7 @ 
+expr  @ 122 @ expr  @ 137 @ 
+block_content  @ 77 @ block_content  @ 86 @ 
+name: LOG_PRIMASK  @ 16 @ name: LOG_PRIMASK  @ 17 @ 
+argument_list  @ 56 @ argument_list  @ 63 @ 
+name: clarg  @ 21 @ name: clarg  @ 23 @ 
+argument_list  @ 43 @ argument_list  @ 48 @ 
+operator: &  @ 86 @ operator: &  @ 97 @ 
+argument  @ 58 @ argument  @ 66 @ 
+name: LOG_NDELAY  @ 119 @ name: LOG_NDELAY  @ 134 @ 
+operator: ||  @ 122 @ operator: ||  @ 137 @ 
+name: timestamp  @ 43 @ name: timestamp  @ 48 @ 
+name: l  @ 86 @ name: l  @ 96 @ 
+argument  @ 77 @ argument  @ 86 @ 
+type  @ 6 @ type  @ 7 @ 
+name: has_ts  @ 55 @ name: has_ts  @ 61 @ 
+argument_list  @ 77 @ argument_list  @ 86 @ 
+name: bufs  @ 58 @ name: bufs  @ 65 @ 
+type  @ 88 @ type  @ 99 @ 
+block  @ 107 @ block  @ 121 @ 
+name: ap  @ 62 @ name: ap  @ 70 @ 
+decl  @ 54 @ decl  @ 60 @ 
+directive: define  @ 11 @ directive: define  @ 12 @ 
+argument  @ 62 @ argument  @ 70 @ 
+name: char  @ 2 @ name: char  @ 2 @ 
+block_content  @ 84 @ block_content  @ 93 @ 
+call  @ 96 @ call  @ 109 @ 
+expr_stmt  @ 124 @ expr_stmt  @ 139 @ 
+name: cancel_handler  @ 21 @ name: cancel_handler  @ 23 @ 
+name: __dprintf  @ 103 @ name: __dprintf  @ 116 @ 
+name: pri  @ 15 @ name: pri  @ 16 @ 
+type  @ 32 @ type  @ 34 @ 
+expr  @ 90 @ expr  @ 101 @ 
+argument_list  @ 22 @ argument_list  @ 24 @ 
+expr  @ 25 @ expr  @ 27 @ 
+expr  @ 96 @ expr  @ 108 @ 
+block_content  @ 5 @ block_content  @ 6 @ 
+if  @ 68 @ if  @ 77 @ 
+argument_list  @ 127 @ argument_list  @ 148 @ 
+argument  @ 119 @ argument  @ 134 @ 
+name: bufsize  @ 103 @ name: bufsize  @ 117 @ 
+decl_stmt  @ 88 @ decl_stmt  @ 99 @ 
+expr_stmt  @ 72 @ expr_stmt  @ 81 @ 
+decl  @ 36 @ decl  @ 38 @ 
+name: LOG_FACMASK  @ 13 @ name: LOG_FACMASK  @ 14 @ 
+argument  @ 56 @ argument  @ 63 @ 
+block_content  @ 15 @ block_content  @ 16 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: __vsnprintf_internal  @ 90 @ name: __vsnprintf_internal  @ 101 @ 
+name: struct  @ 37 @ name: struct  @ 39 @ 
+call  @ 89 @ call  @ 100 @ 
+argument_list  @ 84 @ argument_list  @ 94 @ 
+block_content  @ 43 @ block_content  @ 48 @ 
+literal: "out of memory[%d]"  @ 96 @ literal: "out of memory[%d]"  @ 109 @ 
+expr  @ 56 @ expr  @ 63 @ 
+argument_list  @ 84 @ argument_list  @ 93 @ 
+operator: +  @ 70 @ operator: +  @ 79 @ 
+expr_stmt  @ 97 @ expr_stmt  @ 110 @ 
+operator: =  @ 69 @ operator: =  @ 78 @ 
+name: __snprintf  @ 58 @ name: __snprintf  @ 65 @ 
+expr  @ 69 @ expr  @ 78 @ 
+parameter  @ 45 @ parameter  @ 51 @ 
+expr_stmt  @ 62 @ expr_stmt  @ 70 @ 
+argument  @ 129 @ argument  @ 151 @ 
+name: pid  @ 45 @ name: pid  @ 51 @ 
+operator: +  @ 67 @ operator: +  @ 75 @ 
+block_content  @ 30 @ block_content  @ 32 @ 
+expr  @ 86 @ expr  @ 97 @ 
+name: __close  @ 130 @ name: __close  @ 152 @ 
+name: buf  @ 77 @ name: buf  @ 86 @ 
+call  @ 127 @ call  @ 148 @ 
+expr  @ 68 @ expr  @ 77 @ 
+name: va_copy  @ 89 @ name: va_copy  @ 100 @ 
+condition  @ 83 @ condition  @ 92 @ 
+block  @ 58 @ block  @ 65 @ 
+argument_list  @ 96 @ argument_list  @ 108 @ 
+name: NULL  @ 20 @ name: NULL  @ 22 @ 
+argument  @ 58 @ argument  @ 66 @ 
+operator: &  @ 58 @ operator: &  @ 66 @ 
+decl  @ 32 @ decl  @ 34 @ 
+type  @ 37 @ type  @ 39 @ 
+operator: &  @ 21 @ operator: &  @ 23 @ 
+name: bufs  @ 96 @ name: bufs  @ 108 @ 
+name: vl  @ 70 @ name: vl  @ 79 @ 
+name: __snprintf  @ 56 @ name: __snprintf  @ 62 @ 
+argument  @ 96 @ argument  @ 109 @ 
+name: connected  @ 122 @ name: connected  @ 137 @ 
+condition  @ 115 @ condition  @ 130 @ 
+block_content  @ 129 @ block_content  @ 151 @ 
+name: LogFacility  @ 119 @ name: LogFacility  @ 134 @ 
+argument_list  @ 141 @ argument_list  @ 163 @ 
+comment: /* Prepare for multiple users.We have to take care: most syscalls we are using are cancellation points.*/  @ 19 @ comment: /* Prepare for multiple users.  We have to take care: most syscalls we are
+     using are cancellation points.  */  @ 20 @ 
+name: buf  @ 103 @ name: buf  @ 116 @ 
+expr  @ 67 @ expr  @ 76 @ 
+block  @ 14 @ block  @ 15 @ 
+name: msgoff  @ 58 @ name: msgoff  @ 66 @ 
+name: bufs  @ 59 @ name: bufs  @ 67 @ 
+name: STDERR_FILENO  @ 103 @ name: STDERR_FILENO  @ 116 @ 
+argument  @ 84 @ argument  @ 94 @ 
+expr  @ 56 @ expr  @ 63 @ 
+name: l  @ 90 @ name: l  @ 101 @ 
+block  @ 141 @ block  @ 163 @ 
+sizeof  @ 35 @ sizeof  @ 37 @ 
+name: bufsize  @ 90 @ name: bufsize  @ 101 @ 
+name: mode_flags  @ 90 @ name: mode_flags  @ 102 @ 
+name: int  @ 2 @ name: int  @ 2 @ 
+argument_list  @ 32 @ argument_list  @ 34 @ 
+name: timestamp  @ 84 @ name: timestamp  @ 94 @ 
+decl  @ 39 @ decl  @ 41 @ 
+name: syslog_lock  @ 138 @ name: syslog_lock  @ 160 @ 
+name: mode_flags  @ 67 @ name: mode_flags  @ 76 @ 
+call  @ 118 @ call  @ 133 @ 
+argument  @ 113 @ argument  @ 128 @ 
+argument  @ 90 @ argument  @ 101 @ 
+expr_stmt  @ 89 @ expr_stmt  @ 100 @ 
+operator: =  @ 56 @ operator: =  @ 62 @ 
+decl_stmt  @ 54 @ decl_stmt  @ 60 @ 
+expr  @ 15 @ expr  @ 16 @ 
+operator: &&  @ 127 @ operator: &&  @ 147 @ 
+argument  @ 56 @ argument  @ 62 @ 
+operator: +  @ 90 @ operator: +  @ 101 @ 
+condition  @ 29 @ condition  @ 31 @ 
+name: INTERNALLOG  @ 11 @ name: INTERNALLOG  @ 12 @ 
+expr  @ 43 @ expr  @ 48 @ 
+type  @ 8 @ type  @ 9 @ 
+operator: +  @ 103 @ operator: +  @ 116 @ 
+argument  @ 141 @ argument  @ 163 @ 
+literal: 0  @ 7 @ literal: 0  @ 8 @ 
+else  @ 85 @ else  @ 95 @ 
+type  @ 45 @ type  @ 51 @ 
+block  @ 86 @ block  @ 96 @ 
+else  @ 93 @ else  @ 105 @ 
+condition  @ 127 @ condition  @ 147 @ 
+name: O_NOCTTY  @ 127 @ name: O_NOCTTY  @ 148 @ 
+argument  @ 86 @ argument  @ 96 @ 
+argument_list  @ 113 @ argument_list  @ 128 @ 
+modifier: *  @ 6 @ modifier: *  @ 7 @ 
+block  @ 103 @ block  @ 116 @ 
+name: LogMask  @ 25 @ name: LogMask  @ 27 @ 
+sizeof  @ 56 @ sizeof  @ 62 @ 
+name: int  @ 126 @ name: int  @ 146 @ 
+expr  @ 56 @ expr  @ 62 @ 
+argument  @ 89 @ argument  @ 100 @ 
+argument_list  @ 122 @ argument_list  @ 137 @ 
+operator: |  @ 16 @ operator: |  @ 17 @ 
+type  @ 2 @ type  @ 2 @ 
+literal: "syslog: unknown facility/priority: %x"  @ 15 @ literal: "syslog: unknown facility/priority: %x"  @ 16 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 17 @ 
+name: apc  @ 88 @ name: apc  @ 99 @ 
+value  @ 46 @ value  @ 52 @ 
+argument_list  @ 15 @ argument_list  @ 16 @ 
+operator: &  @ 84 @ operator: &  @ 94 @ 
+macro  @ 11 @ macro  @ 12 @ 
+

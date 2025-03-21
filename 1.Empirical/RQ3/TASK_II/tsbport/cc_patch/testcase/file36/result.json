@@ -1,0 +1,203 @@
+{
+    "testcase": {
+        "file36": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "102 -> -1",
+                        "L2": "102 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "719 -> -1",
+                        "L2": "720 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'default', 'type': 'unknown', 'info': ['unknown out block']}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "default",
+                            "type": "unknown",
+                            "info": [
+                                "unknown out block"
+                            ]
+                        }
+                    }
+                },
+                "Same: lua_sethook -> lua_sethook": {
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 108 -> 68",
+                        "L2": "3: Unique Matched by Source code 109 -> 69"
+                    }
+                },
+                "Syntax: luaG_traceexec -> kname": {
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 722->327",
+                        "L2": "7: Context line (Ignored) is empty or comment 723"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 723",
+                        "L2": "5: Matched by Syntax(AST) similarity 724->327"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 746->337",
+                        "L2": "5: Matched by Syntax(AST) similarity 746->337"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 748",
+                        "L2": "7: Context line (Ignored) is empty or comment 749"
+                    },
+                    "Seg_7": {
+                        "Edit": "delete",
+                        "L1": "7: Context line (Ignored) is empty or comment 752",
+                        "L2": "7: Context line (Ignored) is empty or comment 752"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": -1,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            68,
+                            69
+                        ],
+                        "delete_hunk": [
+                            "  if (isLua(L->ci))\n",
+                            "    L->oldpc = L->ci->u.l.savedpc;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 326,
+                        "add_hunk": [
+                            "  int oldpc = (L->oldpc < p->sizecode) ? L->oldpc : 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 327,
+                        "add_hunk": [
+                            "  const Proto *p = ci_func(ci)->p;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 337,
+                        "add_hunk": [
+                            "pc <= invpcRel(oldpc, p) ||  /* when jump back (loop), or when */\n",
+                            "        changedline(p, oldpc, npci)"
+                        ],
+                        "delete_location": [
+                            337,
+                            337
+                        ],
+                        "delete_hunk": [
+                            "    const char *what = getobjname(p, pc, c, name); /* search for 'c' */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "if (npci == 0 ||/* call linehook when enter a new function, */int newline =newline = luaG_getfuncline(p, npci);",
+                            "L->oldpc = npci;"
+                        ],
+                        "delete_location": [
+                            337,
+                            337
+                        ],
+                        "delete_hunk": [
+                            "    const char *what = getobjname(p, pc, c, name); /* search for 'c' */\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_2": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "unknown"
+                    }
+                },
+                "Same: lua_sethook -> lua_sethook": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Syntax: luaG_traceexec -> kname": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "change_type",
+                "change_value",
+                "sanity_check",
+                "MOVE_TO"
+            ]
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file84": {
+            "match_message": {
+                "Same: gf_dump_vrml_dyn_field -> gf_dump_vrml_dyn_field": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1097 -> 1128",
+                        "L2": "3: Unique Matched by Source code 1097 -> 1128"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 43,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1128,
+                        "add_hunk": [
+                            "\t} else if (field.far_ptr) {\n"
+                        ],
+                        "delete_location": [
+                            1128,
+                            1128
+                        ],
+                        "delete_hunk": [
+                            "\t} else {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_dump_vrml_dyn_field -> gf_dump_vrml_dyn_field": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

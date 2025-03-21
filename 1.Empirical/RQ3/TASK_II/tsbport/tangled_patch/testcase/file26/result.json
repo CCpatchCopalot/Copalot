@@ -1,0 +1,58 @@
+{
+    "testcase": {
+        "file26": {
+            "match_message": {
+                "Same: tensorflow -> tensorflow": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 16 -> 29",
+                        "L2": "3: Unique Matched by Source code 15 -> 28"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 41->63",
+                        "L2": "5: Matched by Syntax(AST) similarity 41->63"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 29,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 63,
+                        "add_hunk": [
+                            "OP_REQUIRES(context, mfcc.Initialize(spectrogram_channels, sample_rate),errors::InvalidArgument(\"Mfcc initialization failed for channel count \",spectrogram_channels, \", sample rate \",sample_rate, \" and filterbank_channel_count \",filterbank_channel_count_));"
+                        ],
+                        "delete_location": [
+                            63,
+                            63
+                        ],
+                        "delete_hunk": [
+                            "    OP_REQUIRES(context, mfcc.Initialize(spectrogram_channels, sample_rate),\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: tensorflow -> tensorflow": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "MOVE_TO",
+                "function_call"
+            ]
+        }
+    }
+}

@@ -1,0 +1,3061 @@
+goto  @ 117 @ goto  @ 139 @ 
+block  @ 240 @ block  @ 273 @ 
+while  @ 261 @ while  @ 298 @ 
+expr  @ 262 @ expr  @ 299 @ 
+name: data_length  @ 246 @ name: data_length  @ 279 @ 
+name: int  @ 14 @ name: int  @ 15 @ 
+name: ht_landscape  @ 226 @ name: ht_landscape  @ 259 @ 
+if  @ 96 @ if  @ 118 @ 
+expr  @ 124 @ expr  @ 147 @ 
+operator: =  @ 95 @ operator: =  @ 117 @ 
+expr  @ 145 @ expr  @ 170 @ 
+expr  @ 74 @ expr  @ 83 @ 
+name  @ 276 @ name  @ 313 @ 
+literal: 2  @ 253 @ literal: 2  @ 290 @ 
+name: ht_offset_bits  @ 16 @ name: ht_offset_bits  @ 17 @ 
+literal: 2  @ 146 @ literal: 2  @ 171 @ 
+expr  @ 342 @ expr  @ 386 @ 
+literal: 3  @ 250 @ literal: 3  @ 287 @ 
+literal: 16  @ 104 @ literal: 16  @ 126 @ 
+name: bufend  @ 34 @ name: bufend  @ 36 @ 
+expr  @ 341 @ expr  @ 385 @ 
+operator: *  @ 247 @ operator: *  @ 280 @ 
+operator: =  @ 145 @ operator: =  @ 170 @ 
+expr  @ 332 @ expr  @ 376 @ 
+expr  @ 194 @ expr  @ 223 @ 
+name: LAND_BITS  @ 181 @ name: LAND_BITS  @ 210 @ 
+expr  @ 36 @ expr  @ 38 @ 
+expr_stmt  @ 307 @ expr_stmt  @ 347 @ 
+operator: ->  @ 98 @ operator: ->  @ 120 @ 
+name: posture  @ 52 @ name: posture  @ 56 @ 
+operator: *  @ 282 @ operator: *  @ 319 @ 
+expr  @ 152 @ expr  @ 178 @ 
+expr  @ 254 @ expr  @ 291 @ 
+operator: (  @ 68 @ operator: (  @ 75 @ 
+argument_list  @ 212 @ argument_list  @ 245 @ 
+init  @ 12 @ init  @ 13 @ 
+expr  @ 203 @ expr  @ 234 @ 
+comment: /* use dda */  @ 298 @ comment: /* use dda */  @ 338 @ 
+operator: =  @ 98 @ operator: =  @ 120 @ 
+expr_stmt  @ 97 @ expr_stmt  @ 119 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 70 @ 
+for  @ 166 @ for  @ 192 @ 
+type  @ 15 @ type  @ 16 @ 
+operator: .  @ 52 @ operator: .  @ 56 @ 
+name: w  @ 49 @ name: w  @ 53 @ 
+name: thresh_buffer  @ 66 @ name: thresh_buffer  @ 72 @ 
+init  @ 341 @ init  @ 385 @ 
+operator: (  @ 68 @ operator: (  @ 75 @ 
+name: LAND_BITS  @ 215 @ name: LAND_BITS  @ 248 @ 
+name: offset_contone  @ 122 @ name: offset_contone  @ 145 @ 
+block  @ 321 @ block  @ 363 @ 
+operator: ->  @ 225 @ operator: ->  @ 258 @ 
+operator: &&  @ 32 @ operator: &&  @ 33 @ 
+expr_stmt  @ 262 @ expr_stmt  @ 299 @ 
+expr  @ 137 @ expr  @ 162 @ 
+operator: =  @ 248 @ operator: =  @ 282 @ 
+comment: /* CMYK case, backwards */  @ 272 @ comment: /* CMYK case, backwards */  @ 309 @ 
+operator: +  @ 248 @ operator: +  @ 282 @ 
+name: devc_contone  @ 263 @ name: devc_contone  @ 300 @ 
+name: byte  @ 29 @ name: byte  @ 30 @ 
+name: int  @ 25 @ name: int  @ 26 @ 
+operator: <  @ 315 @ operator: <  @ 357 @ 
+condition  @ 180 @ condition  @ 208 @ 
+expr  @ 141 @ expr  @ 166 @ 
+then  @ 52 @ then  @ 56 @ 
+name: penum  @ 353 @ name: penum  @ 397 @ 
+operator: )  @ 372 @ operator: )  @ 419 @ 
+name: j  @ 304 @ name: j  @ 344 @ 
+for  @ 330 @ for  @ 372 @ 
+expr  @ 372 @ expr  @ 419 @ 
+while  @ 340 @ while  @ 384 @ 
+operator: *  @ 124 @ operator: *  @ 148 @ 
+operator: ++  @ 303 @ operator: ++  @ 343 @ 
+operator: =  @ 337 @ operator: =  @ 381 @ 
+argument  @ 128 @ argument  @ 152 @ 
+name: data_length  @ 197 @ name: data_length  @ 228 @ 
+directive: ifdef  @ 72 @ directive: ifdef  @ 81 @ 
+operator: )  @ 284 @ operator: )  @ 321 @ 
+name: fixed2int_var_rounded  @ 212 @ name: fixed2int_var_rounded  @ 245 @ 
+index  @ 322 @ index  @ 364 @ 
+name: true  @ 95 @ name: true  @ 117 @ 
+argument_list  @ 82 @ argument_list  @ 94 @ 
+operator: (  @ 283 @ operator: (  @ 320 @ 
+name: y_extent  @ 82 @ name: y_extent  @ 94 @ 
+name: src_size  @ 141 @ name: src_size  @ 166 @ 
+name: k  @ 322 @ name: k  @ 364 @ 
+operator: +=  @ 146 @ operator: +=  @ 171 @ 
+operator: *  @ 342 @ operator: *  @ 386 @ 
+condition  @ 141 @ condition  @ 166 @ 
+literal: 16  @ 105 @ literal: 16  @ 127 @ 
+name: xrun  @ 84 @ name: xrun  @ 96 @ 
+expr  @ 139 @ expr  @ 164 @ 
+name: psrc_planestride  @ 30 @ name: psrc_planestride  @ 31 @ 
+block  @ 63 @ block  @ 69 @ 
+literal: 0  @ 88 @ literal: 0  @ 100 @ 
+operator: <  @ 299 @ operator: <  @ 339 @ 
+name: penum  @ 62 @ name: penum  @ 68 @ 
+for  @ 145 @ for  @ 170 @ 
+operator: <  @ 35 @ operator: <  @ 37 @ 
+operator: )  @ 282 @ operator: )  @ 319 @ 
+operator: ->  @ 122 @ operator: ->  @ 144 @ 
+name: psrc_cm  @ 126 @ name: psrc_cm  @ 150 @ 
+name: xr  @ 340 @ name: xr  @ 384 @ 
+expr  @ 347 @ expr  @ 391 @ 
+name: long  @ 68 @ name: long  @ 75 @ 
+name: image_color_icc_prep  @ 34 @ name: image_color_icc_prep  @ 35 @ 
+name: penum  @ 87 @ name: penum  @ 99 @ 
+comment: /* use dda */  @ 208 @ comment: /* use dda */  @ 241 @ 
+expr  @ 242 @ expr  @ 275 @ 
+index  @ 243 @ index  @ 276 @ 
+name: psrc_plane  @ 283 @ name: psrc_plane  @ 320 @ 
+expr  @ 293 @ expr  @ 330 @ 
+operator: ->  @ 5 @ operator: ->  @ 6 @ 
+decl  @ 13 @ decl  @ 14 @ 
+for  @ 319 @ for  @ 361 @ 
+name: long  @ 89 @ name: long  @ 101 @ 
+label  @ 367 @ label  @ 412 @ 
+operator: =  @ 264 @ operator: =  @ 301 @ 
+name  @ 244 @ name  @ 277 @ 
+condition  @ 341 @ condition  @ 385 @ 
+name: i  @ 342 @ name: i  @ 386 @ 
+control  @ 166 @ control  @ 192 @ 
+name: devc_contone  @ 124 @ name: devc_contone  @ 147 @ 
+expr  @ 352 @ expr  @ 396 @ 
+argument_list  @ 339 @ argument_list  @ 383 @ 
+name: contone_stride  @ 81 @ name: contone_stride  @ 93 @ 
+expr  @ 60 @ expr  @ 66 @ 
+init  @ 197 @ init  @ 228 @ 
+switch  @ 56 @ switch  @ 60 @ 
+literal: 0  @ 274 @ literal: 0  @ 311 @ 
+operator: <  @ 145 @ operator: <  @ 170 @ 
+expr  @ 296 @ expr  @ 335 @ 
+call  @ 168 @ call  @ 194 @ 
+expr  @ 316 @ expr  @ 358 @ 
+expr  @ 71 @ expr  @ 80 @ 
+name: xr  @ 281 @ name: xr  @ 318 @ 
+operator: (  @ 181 @ operator: (  @ 210 @ 
+name: penum  @ 44 @ name: penum  @ 46 @ 
+block  @ 96 @ block  @ 118 @ 
+operator: ,  @ 337 @ operator: ,  @ 381 @ 
+name: psrc_temp  @ 146 @ name: psrc_temp  @ 171 @ 
+expr_stmt  @ 338 @ expr_stmt  @ 382 @ 
+index  @ 263 @ index  @ 300 @ 
+expr  @ 74 @ expr  @ 83 @ 
+index  @ 353 @ index  @ 397 @ 
+operator: !=  @ 371 @ operator: !=  @ 418 @ 
+literal: 16  @ 98 @ literal: 16  @ 120 @ 
+name: dest_width  @ 369 @ name: dest_width  @ 414 @ 
+block_content  @ 156 @ block_content  @ 182 @ 
+argument  @ 369 @ argument  @ 414 @ 
+call  @ 339 @ call  @ 383 @ 
+operator: )  @ 304 @ operator: )  @ 344 @ 
+operator: )  @ 304 @ operator: )  @ 344 @ 
+operator: =  @ 82 @ operator: =  @ 94 @ 
+operator: -  @ 164 @ operator: -  @ 190 @ 
+expr  @ 74 @ expr  @ 83 @ 
+for  @ 321 @ for  @ 363 @ 
+name: penum  @ 96 @ name: penum  @ 118 @ 
+argument  @ 74 @ argument  @ 83 @ 
+name: dda_ht  @ 24 @ name: dda_ht  @ 25 @ 
+operator: (  @ 89 @ operator: (  @ 101 @ 
+expr  @ 321 @ expr  @ 363 @ 
+expr_stmt  @ 284 @ expr_stmt  @ 321 @ 
+name: contone_stride  @ 124 @ name: contone_stride  @ 148 @ 
+name: j  @ 321 @ name: j  @ 363 @ 
+block  @ 100 @ block  @ 122 @ 
+name: spp_out  @ 330 @ name: spp_out  @ 372 @ 
+expr  @ 303 @ expr  @ 343 @ 
+if_stmt  @ 105 @ if_stmt  @ 127 @ 
+comment: /* Code up special cases for when we have no scaling and 2x scaling which we will run into in 300 and 600dpi devices and content */  @ 313 @ comment: /* Code up special cases for when we have no scaling
+                           and 2x scaling which we will run into in 300 and600dpi devices and content */  @ 353 @ 
+name: penum  @ 98 @ name: penum  @ 120 @ 
+break  @ 176 @ break  @ 202 @ 
+name: penum  @ 82 @ name: penum  @ 94 @ 
+call  @ 185 @ call  @ 214 @ 
+name: memset  @ 74 @ name: memset  @ 83 @ 
+name: devc_contone  @ 316 @ name: devc_contone  @ 358 @ 
+call  @ 128 @ call  @ 152 @ 
+expr_stmt  @ 354 @ expr_stmt  @ 398 @ 
+name: ht_offset_bits  @ 66 @ name: ht_offset_bits  @ 73 @ 
+name: psrc_cm  @ 28 @ name: psrc_cm  @ 29 @ 
+name: byte  @ 12 @ name: byte  @ 13 @ 
+name: src_size  @ 318 @ name: src_size  @ 360 @ 
+ifdef  @ 72 @ ifdef  @ 81 @ 
+incr  @ 67 @ incr  @ 74 @ 
+name: byte  @ 8 @ name: byte  @ 9 @ 
+name: curr_pos  @ 225 @ name: curr_pos  @ 258 @ 
+operator: *  @ 248 @ operator: *  @ 283 @ 
+operator: +=  @ 277 @ operator: +=  @ 314 @ 
+operator: -=  @ 305 @ operator: -=  @ 345 @ 
+name  @ 104 @ name  @ 126 @ 
+name: psrc_plane  @ 243 @ name: psrc_plane  @ 276 @ 
+expr  @ 277 @ expr  @ 314 @ 
+block_content  @ 68 @ block_content  @ 75 @ 
+operator: =  @ 297 @ operator: =  @ 336 @ 
+name  @ 62 @ name  @ 68 @ 
+name: k  @ 197 @ name: k  @ 228 @ 
+name: k  @ 246 @ name: k  @ 279 @ 
+expr_stmt  @ 80 @ expr_stmt  @ 92 @ 
+name: devc_contone  @ 254 @ name: devc_contone  @ 291 @ 
+call  @ 154 @ call  @ 180 @ 
+name: line  @ 124 @ name: line  @ 147 @ 
+name: count  @ 38 @ name: count  @ 40 @ 
+name: psrc_plane  @ 250 @ name: psrc_plane  @ 287 @ 
+name: penum  @ 30 @ name: penum  @ 31 @ 
+argument  @ 71 @ argument  @ 80 @ 
+name: xn  @ 260 @ name: xn  @ 297 @ 
+name: penum  @ 224 @ name: penum  @ 257 @ 
+for  @ 327 @ for  @ 369 @ 
+operator: =  @ 368 @ operator: =  @ 413 @ 
+operator: .  @ 63 @ operator: .  @ 69 @ 
+name: devc_contone  @ 284 @ name: devc_contone  @ 321 @ 
+name: dest_height  @ 85 @ name: dest_height  @ 97 @ 
+name  @ 249 @ name  @ 285 @ 
+expr  @ 282 @ expr  @ 319 @ 
+comment: /* xci can be negative, so allow for that */  @ 99 @ comment: /* xci can be negative, so allow for that */  @ 121 @ 
+name: dda_current  @ 339 @ name: dda_current  @ 383 @ 
+name  @ 331 @ name  @ 375 @ 
+literal: 0  @ 278 @ literal: 0  @ 315 @ 
+literal: 0  @ 241 @ literal: 0  @ 274 @ 
+name: code  @ 35 @ name: code  @ 37 @ 
+expr  @ 97 @ expr  @ 119 @ 
+name: offset_bits  @ 107 @ name: offset_bits  @ 129 @ 
+name: psrc  @ 12 @ name: psrc  @ 13 @ 
+name: ht_landscape  @ 181 @ name: ht_landscape  @ 209 @ 
+else  @ 256 @ else  @ 293 @ 
+literal: 0  @ 39 @ literal: 0  @ 41 @ 
+expr  @ 159 @ expr  @ 185 @ 
+name: j  @ 283 @ name: j  @ 320 @ 
+argument  @ 34 @ argument  @ 35 @ 
+name  @ 332 @ name  @ 376 @ 
+expr  @ 88 @ expr  @ 100 @ 
+name  @ 355 @ name  @ 399 @ 
+block_content  @ 297 @ block_content  @ 336 @ 
+operator: .  @ 14 @ operator: .  @ 15 @ 
+case  @ 293 @ case  @ 330 @ 
+operator: &  @ 34 @ operator: &  @ 35 @ 
+expr  @ 52 @ expr  @ 56 @ 
+index  @ 241 @ index  @ 274 @ 
+comment: /* Help in spotting problems */  @ 73 @ comment: /* Help in spotting problems */  @ 82 @ 
+condition  @ 321 @ condition  @ 363 @ 
+control  @ 88 @ control  @ 100 @ 
+expr  @ 57 @ expr  @ 61 @ 
+expr  @ 122 @ expr  @ 145 @ 
+name: k  @ 299 @ name: k  @ 339 @ 
+index  @ 9 @ index  @ 10 @ 
+else  @ 162 @ else  @ 188 @ 
+expr  @ 34 @ expr  @ 36 @ 
+block  @ 304 @ block  @ 343 @ 
+argument_list  @ 154 @ argument_list  @ 180 @ 
+expr_stmt  @ 185 @ expr_stmt  @ 214 @ 
+operator: (  @ 285 @ operator: (  @ 322 @ 
+expr  @ 34 @ expr  @ 35 @ 
+operator: --  @ 345 @ operator: --  @ 389 @ 
+literal: 0  @ 32 @ literal: 0  @ 33 @ 
+argument  @ 212 @ argument  @ 245 @ 
+expr_stmt  @ 345 @ expr_stmt  @ 389 @ 
+expr  @ 245 @ expr  @ 278 @ 
+operator: --  @ 283 @ operator: --  @ 320 @ 
+expr  @ 300 @ expr  @ 340 @ 
+expr  @ 274 @ expr  @ 311 @ 
+name: posture  @ 56 @ name: posture  @ 60 @ 
+operator: ++  @ 347 @ operator: ++  @ 391 @ 
+name: xci  @ 102 @ name: xci  @ 124 @ 
+operator: >  @ 140 @ operator: >  @ 165 @ 
+modifier: *  @ 28 @ modifier: *  @ 29 @ 
+name  @ 65 @ name  @ 71 @ 
+expr  @ 34 @ expr  @ 35 @ 
+name: psrc_cm  @ 165 @ name: psrc_cm  @ 191 @ 
+name: ht_offset_bits  @ 68 @ name: ht_offset_bits  @ 77 @ 
+name: byte  @ 2 @ name: byte  @ 2 @ 
+expr  @ 62 @ expr  @ 68 @ 
+operator: =  @ 81 @ operator: =  @ 93 @ 
+operator: (  @ 284 @ operator: (  @ 321 @ 
+name: gxht_thresh_planes  @ 369 @ name: gxht_thresh_planes  @ 414 @ 
+name: dda_current  @ 301 @ name: dda_current  @ 341 @ 
+modifier: *  @ 29 @ modifier: *  @ 30 @ 
+condition  @ 213 @ condition  @ 246 @ 
+operator: ==  @ 318 @ operator: ==  @ 360 @ 
+operator: =  @ 299 @ operator: =  @ 339 @ 
+init  @ 88 @ init  @ 100 @ 
+index  @ 68 @ index  @ 75 @ 
+expr_stmt  @ 182 @ expr_stmt  @ 211 @ 
+name  @ 247 @ name  @ 280 @ 
+operator: *  @ 263 @ operator: *  @ 300 @ 
+operator: ++  @ 218 @ operator: ++  @ 251 @ 
+operator: ->  @ 353 @ operator: ->  @ 397 @ 
+operator: <  @ 258 @ operator: <  @ 295 @ 
+expr  @ 61 @ expr  @ 67 @ 
+name  @ 74 @ name  @ 83 @ 
+name: psrc_cm  @ 142 @ name: psrc_cm  @ 167 @ 
+expr  @ 250 @ expr  @ 286 @ 
+operator: =  @ 278 @ operator: =  @ 315 @ 
+expr  @ 152 @ expr  @ 178 @ 
+operator: *  @ 68 @ operator: *  @ 76 @ 
+name: dda_next  @ 167 @ name: dda_next  @ 193 @ 
+expr_stmt  @ 283 @ expr_stmt  @ 320 @ 
+operator: =  @ 198 @ operator: =  @ 229 @ 
+name: psrc_cm  @ 151 @ name: psrc_cm  @ 177 @ 
+expr  @ 319 @ expr  @ 361 @ 
+expr  @ 259 @ expr  @ 296 @ 
+name: ht_stride  @ 74 @ name: ht_stride  @ 83 @ 
+index  @ 331 @ index  @ 375 @ 
+name: xr  @ 216 @ name: xr  @ 249 @ 
+operator: +  @ 68 @ operator: +  @ 76 @ 
+literal: 1  @ 277 @ literal: 1  @ 314 @ 
+expr  @ 241 @ expr  @ 274 @ 
+name: NULL  @ 28 @ name: NULL  @ 29 @ 
+name: LAND_BITS  @ 331 @ name: LAND_BITS  @ 374 @ 
+name: devc_contone  @ 122 @ name: devc_contone  @ 144 @ 
+name: devc_contone  @ 248 @ name: devc_contone  @ 282 @ 
+argument  @ 259 @ argument  @ 296 @ 
+operator: ++  @ 248 @ operator: ++  @ 283 @ 
+operator: .  @ 181 @ operator: .  @ 209 @ 
+operator: !=  @ 32 @ operator: !=  @ 33 @ 
+block  @ 311 @ block  @ 351 @ 
+name: image_portrait  @ 139 @ name: image_portrait  @ 164 @ 
+name: penum  @ 5 @ name: penum  @ 6 @ 
+index  @ 331 @ index  @ 374 @ 
+block_content  @ 203 @ block_content  @ 234 @ 
+expr  @ 236 @ expr  @ 269 @ 
+name: data_length  @ 145 @ name: data_length  @ 170 @ 
+operator: =  @ 263 @ operator: =  @ 300 @ 
+name: true  @ 44 @ name: true  @ 46 @ 
+for  @ 202 @ for  @ 233 @ 
+expr  @ 198 @ expr  @ 229 @ 
+comment: /* match height in gxht_thresh.c dev_width calculation */  @ 83 @ comment: /* match height in gxht_thresh.c dev_width calculation */  @ 95 @ 
+expr  @ 86 @ expr  @ 98 @ 
+name: j  @ 278 @ name: j  @ 315 @ 
+name  @ 242 @ name  @ 275 @ 
+name  @ 68 @ name  @ 75 @ 
+expr  @ 342 @ expr  @ 386 @ 
+block_content  @ 57 @ block_content  @ 61 @ 
+name  @ 111 @ name  @ 133 @ 
+operator: )  @ 66 @ operator: )  @ 72 @ 
+name: offset_bits  @ 105 @ name: offset_bits  @ 127 @ 
+operator: =  @ 197 @ operator: =  @ 228 @ 
+call  @ 203 @ call  @ 234 @ 
+call  @ 301 @ call  @ 341 @ 
+modifier: *  @ 4 @ modifier: *  @ 5 @ 
+expr  @ 274 @ expr  @ 311 @ 
+expr_stmt  @ 184 @ expr_stmt  @ 213 @ 
+name: flush_buff  @ 45 @ name: flush_buff  @ 47 @ 
+name: position  @ 305 @ name: position  @ 345 @ 
+decl_stmt  @ 15 @ decl_stmt  @ 16 @ 
+literal: 2  @ 284 @ literal: 2  @ 321 @ 
+name: curr_pos  @ 181 @ name: curr_pos  @ 209 @ 
+operator: ->  @ 372 @ operator: ->  @ 419 @ 
+name: dda_ht  @ 184 @ name: dda_ht  @ 213 @ 
+expr  @ 126 @ expr  @ 150 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 47 @ 
+name: psrc_plane  @ 342 @ name: psrc_plane  @ 386 @ 
+operator: ->  @ 74 @ operator: ->  @ 83 @ 
+name  @ 22 @ name  @ 23 @ 
+expr  @ 145 @ expr  @ 170 @ 
+expr  @ 100 @ expr  @ 122 @ 
+name: devc_contone_gray  @ 11 @ name: devc_contone_gray  @ 12 @ 
+case  @ 135 @ case  @ 160 @ 
+expr  @ 247 @ expr  @ 280 @ 
+expr  @ 266 @ expr  @ 303 @ 
+name: xr  @ 155 @ name: xr  @ 181 @ 
+name: vdi  @ 6 @ name: vdi  @ 7 @ 
+name: widths  @ 353 @ name: widths  @ 397 @ 
+expr  @ 239 @ expr  @ 272 @ 
+operator: <  @ 341 @ operator: <  @ 385 @ 
+name: position  @ 342 @ name: position  @ 386 @ 
+operator: ->  @ 354 @ operator: ->  @ 398 @ 
+name: image_portrait  @ 121 @ name: image_portrait  @ 143 @ 
+operator: ++  @ 226 @ operator: ++  @ 259 @ 
+argument  @ 280 @ argument  @ 317 @ 
+else  @ 37 @ else  @ 39 @ 
+name: data_length  @ 319 @ name: data_length  @ 361 @ 
+name: curr_pos  @ 194 @ name: curr_pos  @ 223 @ 
+operator: )  @ 285 @ operator: )  @ 322 @ 
+expr  @ 372 @ expr  @ 420 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 46 @ 
+index  @ 241 @ index  @ 274 @ 
+name: long  @ 87 @ name: long  @ 99 @ 
+expr  @ 4 @ expr  @ 5 @ 
+index  @ 322 @ index  @ 364 @ 
+operator: ->  @ 297 @ operator: ->  @ 336 @ 
+call  @ 338 @ call  @ 382 @ 
+decl  @ 15 @ decl  @ 16 @ 
+name: src_size  @ 166 @ name: src_size  @ 192 @ 
+expr  @ 74 @ expr  @ 83 @ 
+operator: <  @ 202 @ operator: <  @ 233 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 93 @ 
+name: offset  @ 328 @ name: offset  @ 370 @ 
+operator: )  @ 66 @ operator: )  @ 73 @ 
+operator: =  @ 181 @ operator: =  @ 209 @ 
+operator: =  @ 109 @ operator: =  @ 131 @ 
+decl  @ 11 @ decl  @ 12 @ 
+operator: =  @ 49 @ operator: =  @ 53 @ 
+operator: =  @ 285 @ operator: =  @ 322 @ 
+expr_stmt  @ 265 @ expr_stmt  @ 302 @ 
+expr_stmt  @ 368 @ expr_stmt  @ 413 @ 
+if_stmt  @ 62 @ if_stmt  @ 68 @ 
+operator: ++  @ 67 @ operator: ++  @ 74 @ 
+type  @ 22 @ type  @ 23 @ 
+decl  @ 18 @ decl  @ 19 @ 
+expr_stmt  @ 68 @ expr_stmt  @ 75 @ 
+expr  @ 169 @ expr  @ 195 @ 
+literal: 2  @ 253 @ literal: 2  @ 290 @ 
+name: position  @ 215 @ name: position  @ 248 @ 
+type  @ 30 @ type  @ 31 @ 
+operator: -=  @ 105 @ operator: -=  @ 127 @ 
+while  @ 302 @ while  @ 342 @ 
+name: contone_stride  @ 65 @ name: contone_stride  @ 71 @ 
+expr  @ 343 @ expr  @ 387 @ 
+literal: 2  @ 276 @ literal: 2  @ 313 @ 
+name: psrc_plane  @ 263 @ name: psrc_plane  @ 300 @ 
+expr_stmt  @ 84 @ expr_stmt  @ 96 @ 
+expr  @ 297 @ expr  @ 336 @ 
+name: penum  @ 372 @ name: penum  @ 419 @ 
+operator: +  @ 316 @ operator: +  @ 358 @ 
+block  @ 197 @ block  @ 228 @ 
+control  @ 202 @ control  @ 233 @ 
+name: spp  @ 30 @ name: spp  @ 31 @ 
+name: memcpy  @ 244 @ name: memcpy  @ 277 @ 
+operator: ->  @ 102 @ operator: ->  @ 124 @ 
+expr  @ 166 @ expr  @ 192 @ 
+comment: /* Store the width information and update our counts */  @ 222 @ comment: /* Store the width information and update our counts */  @ 255 @ 
+control  @ 246 @ control  @ 279 @ 
+operator: )  @ 247 @ operator: )  @ 280 @ 
+if_stmt  @ 141 @ if_stmt  @ 166 @ 
+name: dda_next  @ 211 @ name: dda_next  @ 244 @ 
+name: int  @ 23 @ name: int  @ 24 @ 
+operator: +=  @ 252 @ operator: +=  @ 289 @ 
+expr  @ 16 @ expr  @ 17 @ 
+expr  @ 96 @ expr  @ 118 @ 
+if  @ 143 @ if  @ 168 @ 
+expr  @ 56 @ expr  @ 60 @ 
+index  @ 332 @ index  @ 376 @ 
+operator: =  @ 248 @ operator: =  @ 282 @ 
+name: src_size  @ 61 @ name: src_size  @ 67 @ 
+operator: .  @ 225 @ operator: .  @ 258 @ 
+name: dda_translate  @ 54 @ name: dda_translate  @ 58 @ 
+index  @ 331 @ index  @ 373 @ 
+name: dda_current  @ 84 @ name: dda_current  @ 96 @ 
+literal: 2  @ 246 @ literal: 2  @ 279 @ 
+index  @ 247 @ index  @ 280 @ 
+expr  @ 7 @ expr  @ 8 @ 
+expr  @ 368 @ expr  @ 413 @ 
+expr  @ 277 @ expr  @ 314 @ 
+argument  @ 34 @ argument  @ 35 @ 
+name: j  @ 323 @ name: j  @ 365 @ 
+block  @ 278 @ block  @ 315 @ 
+operator: *  @ 328 @ operator: *  @ 370 @ 
+call  @ 60 @ call  @ 66 @ 
+name: penum  @ 108 @ name: penum  @ 130 @ 
+name: curr_pos  @ 224 @ name: curr_pos  @ 257 @ 
+name: int  @ 22 @ name: int  @ 23 @ 
+name: devc_contone  @ 248 @ name: devc_contone  @ 282 @ 
+operator: )  @ 264 @ operator: )  @ 301 @ 
+operator: (  @ 304 @ operator: (  @ 344 @ 
+operator: -  @ 54 @ operator: -  @ 58 @ 
+block_content  @ 34 @ block_content  @ 35 @ 
+operator: .  @ 62 @ operator: .  @ 68 @ 
+name: dest_width  @ 141 @ name: dest_width  @ 166 @ 
+expr_stmt  @ 124 @ expr_stmt  @ 147 @ 
+expr  @ 211 @ expr  @ 244 @ 
+expr  @ 209 @ expr  @ 242 @ 
+comment: /* at loop exit xn will be<= xr */  @ 287 @ comment: /* at loop exit xn will be<= xr */  @ 324 @ 
+operator: =  @ 214 @ operator: =  @ 247 @ 
+expr  @ 17 @ expr  @ 18 @ 
+case  @ 178 @ case  @ 204 @ 
+expr  @ 168 @ expr  @ 194 @ 
+expr_stmt  @ 87 @ expr_stmt  @ 99 @ 
+expr  @ 243 @ expr  @ 276 @ 
+name: devc_contone  @ 262 @ name: devc_contone  @ 299 @ 
+name: vdi  @ 74 @ name: vdi  @ 83 @ 
+operator: =  @ 204 @ operator: =  @ 235 @ 
+name: vdi  @ 64 @ name: vdi  @ 70 @ 
+name: src_size  @ 143 @ name: src_size  @ 168 @ 
+operator: =  @ 204 @ operator: =  @ 236 @ 
+name: psrc_temp  @ 214 @ name: psrc_temp  @ 247 @ 
+index  @ 198 @ index  @ 229 @ 
+operator: <  @ 337 @ operator: <  @ 381 @ 
+operator: -  @ 66 @ operator: -  @ 72 @ 
+else  @ 271 @ else  @ 308 @ 
+control  @ 341 @ control  @ 385 @ 
+index  @ 124 @ index  @ 147 @ 
+name: ht_landscape  @ 297 @ name: ht_landscape  @ 336 @ 
+name: NULL  @ 29 @ name: NULL  @ 30 @ 
+operator: *  @ 205 @ operator: *  @ 238 @ 
+expr  @ 242 @ expr  @ 275 @ 
+operator: *  @ 245 @ operator: *  @ 278 @ 
+call  @ 168 @ call  @ 194 @ 
+expr  @ 181 @ expr  @ 209 @ 
+comment: /* Apply initial offset */  @ 314 @ comment: /* Apply initial offset */  @ 356 @ 
+operator: %  @ 104 @ operator: %  @ 126 @ 
+block  @ 67 @ block  @ 74 @ 
+for  @ 341 @ for  @ 385 @ 
+incr  @ 337 @ incr  @ 381 @ 
+expr  @ 224 @ expr  @ 257 @ 
+name: penum  @ 224 @ name: penum  @ 257 @ 
+operator: =  @ 111 @ operator: =  @ 133 @ 
+expr  @ 212 @ expr  @ 245 @ 
+operator: =  @ 304 @ operator: =  @ 344 @ 
+expr  @ 326 @ expr  @ 368 @ 
+decl_stmt  @ 28 @ decl_stmt  @ 29 @ 
+name: psrc_plane  @ 304 @ name: psrc_plane  @ 344 @ 
+type  @ 21 @ type  @ 22 @ 
+operator: +  @ 250 @ operator: +  @ 286 @ 
+operator: &  @ 34 @ operator: &  @ 36 @ 
+expr  @ 315 @ expr  @ 357 @ 
+literal: 0x00  @ 74 @ literal: 0x00  @ 83 @ 
+name: position  @ 199 @ name: position  @ 230 @ 
+operator: =  @ 330 @ operator: =  @ 372 @ 
+control  @ 197 @ control  @ 228 @ 
+block  @ 149 @ block  @ 175 @ 
+decl  @ 2 @ decl  @ 3 @ 
+operator: -=  @ 343 @ operator: -=  @ 387 @ 
+decl_stmt  @ 13 @ decl_stmt  @ 14 @ 
+name: psrc_cm_start  @ 371 @ name: psrc_cm_start  @ 418 @ 
+name: j  @ 332 @ name: j  @ 376 @ 
+operator: =  @ 328 @ operator: =  @ 370 @ 
+expr  @ 244 @ expr  @ 277 @ 
+expr  @ 120 @ expr  @ 142 @ 
+name: byte  @ 372 @ name: byte  @ 419 @ 
+literal: 0  @ 258 @ literal: 0  @ 295 @ 
+literal: 0  @ 107 @ literal: 0  @ 129 @ 
+name: dest_width  @ 82 @ name: dest_width  @ 94 @ 
+name: devc_contone  @ 244 @ name: devc_contone  @ 277 @ 
+expr  @ 331 @ expr  @ 373 @ 
+name: devc_contone  @ 9 @ name: devc_contone  @ 10 @ 
+expr  @ 201 @ expr  @ 232 @ 
+name: devc_contone_gray  @ 146 @ name: devc_contone_gray  @ 171 @ 
+name: fixed2int_var_rounded  @ 328 @ name: fixed2int_var_rounded  @ 370 @ 
+type  @ 18 @ type  @ 19 @ 
+literal: 4  @ 235 @ literal: 4  @ 268 @ 
+name: x  @ 82 @ name: x  @ 94 @ 
+literal: 2  @ 327 @ literal: 2  @ 369 @ 
+operator: ->  @ 81 @ operator: ->  @ 93 @ 
+expr  @ 263 @ expr  @ 300 @ 
+expr  @ 43 @ expr  @ 45 @ 
+expr  @ 218 @ expr  @ 251 @ 
+condition  @ 93 @ condition  @ 112 @ 
+name: LAND_BITS  @ 343 @ name: LAND_BITS  @ 387 @ 
+literal: "image_render_color_thresh"  @ 372 @ literal: "image_render_color_thresh"  @ 420 @ 
+decl  @ 28 @ decl  @ 29 @ 
+name: offset_bits  @ 42 @ name: offset_bits  @ 44 @ 
+name: offset_bits  @ 104 @ name: offset_bits  @ 126 @ 
+operator: =  @ 203 @ operator: =  @ 234 @ 
+literal: 3  @ 285 @ literal: 3  @ 322 @ 
+name: ht_landscape  @ 42 @ name: ht_landscape  @ 44 @ 
+expr_stmt  @ 251 @ expr_stmt  @ 288 @ 
+call  @ 260 @ call  @ 297 @ 
+operator: *  @ 250 @ operator: *  @ 286 @ 
+name: posture  @ 5 @ name: posture  @ 6 @ 
+expr_stmt  @ 247 @ expr_stmt  @ 280 @ 
+operator: (  @ 331 @ operator: (  @ 374 @ 
+name: LAND_BITS  @ 205 @ name: LAND_BITS  @ 238 @ 
+argument_list  @ 279 @ argument_list  @ 316 @ 
+name: k  @ 145 @ name: k  @ 170 @ 
+operator: +  @ 124 @ operator: +  @ 147 @ 
+name: offset_contone  @ 22 @ name: offset_contone  @ 23 @ 
+name: false  @ 20 @ name: false  @ 21 @ 
+name: k  @ 315 @ name: k  @ 357 @ 
+name: offset_contone  @ 124 @ name: offset_contone  @ 147 @ 
+name: penum  @ 66 @ name: penum  @ 73 @ 
+condition  @ 371 @ condition  @ 418 @ 
+decl  @ 21 @ decl  @ 22 @ 
+name: flush  @ 117 @ name: flush  @ 139 @ 
+literal: 2  @ 249 @ literal: 2  @ 284 @ 
+block  @ 146 @ block  @ 171 @ 
+condition  @ 299 @ condition  @ 339 @ 
+block_content  @ 100 @ block_content  @ 122 @ 
+operator: ++  @ 319 @ operator: ++  @ 361 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+operator: -  @ 89 @ operator: -  @ 101 @ 
+name: i  @ 347 @ name: i  @ 391 @ 
+index  @ 250 @ index  @ 286 @ 
+decl_stmt  @ 30 @ decl_stmt  @ 31 @ 
+expr  @ 243 @ expr  @ 276 @ 
+block  @ 105 @ block  @ 127 @ 
+block_content  @ 303 @ block_content  @ 343 @ 
+operator: )  @ 249 @ operator: )  @ 284 @ 
+operator: (  @ 372 @ operator: (  @ 419 @ 
+type  @ 2 @ type  @ 3 @ 
+operator: *  @ 170 @ operator: *  @ 196 @ 
+name: xn  @ 154 @ name: xn  @ 180 @ 
+literal: 0  @ 140 @ literal: 0  @ 165 @ 
+expr  @ 284 @ expr  @ 321 @ 
+name: penum  @ 109 @ name: penum  @ 131 @ 
+operator: )  @ 147 @ operator: )  @ 173 @ 
+name: dest_width  @ 240 @ name: dest_width  @ 273 @ 
+incr  @ 88 @ incr  @ 100 @ 
+name: k  @ 319 @ name: k  @ 361 @ 
+argument_list  @ 61 @ argument_list  @ 67 @ 
+expr_stmt  @ 218 @ expr_stmt  @ 251 @ 
+block  @ 315 @ block  @ 357 @ 
+literal: 0  @ 32 @ literal: 0  @ 33 @ 
+name: fixed_half  @ 203 @ name: fixed_half  @ 234 @ 
+comment: /* Is it better to unwind this?We know it is 4 */  @ 320 @ comment: /* Is it better to unwind this?  We know it is 4 */  @ 362 @ 
+decl  @ 10 @ decl  @ 11 @ 
+name: devc_contone  @ 274 @ name: devc_contone  @ 311 @ 
+decl_stmt  @ 16 @ decl_stmt  @ 17 @ 
+name: psrc_plane  @ 248 @ name: psrc_plane  @ 283 @ 
+expr  @ 105 @ expr  @ 127 @ 
+name: penum  @ 102 @ name: penum  @ 124 @ 
+operator: =  @ 337 @ operator: =  @ 381 @ 
+call  @ 280 @ call  @ 317 @ 
+if_stmt  @ 318 @ if_stmt  @ 360 @ 
+block  @ 37 @ block  @ 39 @ 
+literal: 16  @ 104 @ literal: 16  @ 126 @ 
+expr  @ 22 @ expr  @ 23 @ 
+name  @ 226 @ name  @ 259 @ 
+if_stmt  @ 35 @ if_stmt  @ 37 @ 
+name: psrc_temp  @ 165 @ name: psrc_temp  @ 191 @ 
+expr  @ 142 @ expr  @ 167 @ 
+argument_list  @ 168 @ argument_list  @ 194 @ 
+expr  @ 9 @ expr  @ 10 @ 
+expr_stmt  @ 212 @ expr_stmt  @ 245 @ 
+index  @ 251 @ index  @ 288 @ 
+index  @ 274 @ index  @ 311 @ 
+name: xn  @ 212 @ name: xn  @ 245 @ 
+expr  @ 244 @ expr  @ 277 @ 
+expr_stmt  @ 248 @ expr_stmt  @ 282 @ 
+argument  @ 34 @ argument  @ 35 @ 
+name: gx_dda_fixed  @ 24 @ name: gx_dda_fixed  @ 25 @ 
+operator: <  @ 155 @ operator: <  @ 181 @ 
+expr  @ 204 @ expr  @ 235 @ 
+expr_stmt  @ 288 @ expr_stmt  @ 325 @ 
+name: penum  @ 53 @ name: penum  @ 57 @ 
+name: k  @ 202 @ name: k  @ 233 @ 
+block  @ 326 @ block  @ 368 @ 
+name: xn  @ 168 @ name: xn  @ 194 @ 
+name: wci  @ 80 @ name: wci  @ 92 @ 
+expr  @ 82 @ expr  @ 94 @ 
+incr  @ 319 @ incr  @ 361 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: *  @ 264 @ operator: *  @ 301 @ 
+operator: -  @ 97 @ operator: -  @ 119 @ 
+argument_list  @ 167 @ argument_list  @ 193 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 45 @ 
+name: k  @ 202 @ name: k  @ 233 @ 
+name: psrc_temp  @ 147 @ name: psrc_temp  @ 173 @ 
+block  @ 183 @ block  @ 212 @ 
+expr  @ 188 @ expr  @ 217 @ 
+block  @ 88 @ block  @ 100 @ 
+expr_stmt  @ 244 @ expr_stmt  @ 277 @ 
+call  @ 328 @ call  @ 370 @ 
+name: devc_contone  @ 241 @ name: devc_contone  @ 274 @ 
+control  @ 120 @ control  @ 142 @ 
+name  @ 322 @ name  @ 364 @ 
+name: byte  @ 9 @ name: byte  @ 10 @ 
+name: penum  @ 42 @ name: penum  @ 44 @ 
+argument  @ 142 @ argument  @ 167 @ 
+name: penum  @ 180 @ name: penum  @ 208 @ 
+condition  @ 296 @ condition  @ 335 @ 
+name: position  @ 312 @ name: position  @ 352 @ 
+expr  @ 197 @ expr  @ 228 @ 
+name: j  @ 322 @ name: j  @ 364 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr  @ 331 @ expr  @ 374 @ 
+expr_stmt  @ 126 @ expr_stmt  @ 150 @ 
+operator: +  @ 297 @ operator: +  @ 336 @ 
+init  @ 330 @ init  @ 372 @ 
+expr  @ 85 @ expr  @ 97 @ 
+name: offset_bits  @ 100 @ name: offset_bits  @ 122 @ 
+expr  @ 71 @ expr  @ 80 @ 
+expr_stmt  @ 198 @ expr_stmt  @ 229 @ 
+block_content  @ 153 @ block_content  @ 179 @ 
+name  @ 323 @ name  @ 365 @ 
+if_stmt  @ 180 @ if_stmt  @ 208 @ 
+name: k  @ 145 @ name: k  @ 170 @ 
+expr_stmt  @ 95 @ expr_stmt  @ 117 @ 
+argument  @ 243 @ argument  @ 276 @ 
+block  @ 335 @ block  @ 379 @ 
+name: psrc_cm_start  @ 28 @ name: psrc_cm_start  @ 29 @ 
+literal: 1  @ 98 @ literal: 1  @ 120 @ 
+case  @ 238 @ case  @ 271 @ 
+operator: =  @ 144 @ operator: =  @ 169 @ 
+expr  @ 339 @ expr  @ 383 @ 
+expr  @ 136 @ expr  @ 161 @ 
+comment: /* at loop exit xn will be>= xr */  @ 158 @ comment: /* at loop exit xn will be>= xr */  @ 184 @ 
+block  @ 40 @ block  @ 42 @ 
+operator: =  @ 124 @ operator: =  @ 147 @ 
+name: j  @ 342 @ name: j  @ 386 @ 
+name: dxx  @ 53 @ name: dxx  @ 57 @ 
+name: penum  @ 296 @ name: penum  @ 335 @ 
+operator: .  @ 194 @ operator: .  @ 223 @ 
+condition  @ 302 @ condition  @ 342 @ 
+decl_stmt  @ 23 @ decl_stmt  @ 24 @ 
+operator: )  @ 297 @ operator: )  @ 337 @ 
+argument_list  @ 54 @ argument_list  @ 58 @ 
+expr  @ 285 @ expr  @ 322 @ 
+expr  @ 82 @ expr  @ 94 @ 
+expr  @ 187 @ expr  @ 216 @ 
+argument_list  @ 244 @ argument_list  @ 277 @ 
+literal: 0  @ 145 @ literal: 0  @ 170 @ 
+expr  @ 342 @ expr  @ 386 @ 
+name  @ 108 @ name  @ 130 @ 
+operator: <  @ 319 @ operator: <  @ 361 @ 
+operator: ,  @ 278 @ operator: ,  @ 315 @ 
+operator: <  @ 327 @ operator: <  @ 369 @ 
+operator: *  @ 284 @ operator: *  @ 321 @ 
+name: ht_landscape  @ 95 @ name: ht_landscape  @ 117 @ 
+expr  @ 146 @ expr  @ 171 @ 
+name: gx_image_enum  @ 4 @ name: gx_image_enum  @ 5 @ 
+name: j  @ 330 @ name: j  @ 372 @ 
+operator: ->  @ 104 @ operator: ->  @ 126 @ 
+decl_stmt  @ 12 @ decl_stmt  @ 13 @ 
+name: offset_threshold  @ 368 @ name: offset_threshold  @ 413 @ 
+name: dda_ht  @ 260 @ name: dda_ht  @ 297 @ 
+operator: ->  @ 44 @ operator: ->  @ 46 @ 
+name: LAND_BITS  @ 199 @ name: LAND_BITS  @ 230 @ 
+index  @ 253 @ index  @ 290 @ 
+name: k  @ 258 @ name: k  @ 295 @ 
+name: LAND_BITS  @ 305 @ name: LAND_BITS  @ 345 @ 
+expr_stmt  @ 74 @ expr_stmt  @ 83 @ 
+expr  @ 211 @ expr  @ 244 @ 
+block_content  @ 117 @ block_content  @ 139 @ 
+literal: 1  @ 248 @ literal: 1  @ 282 @ 
+expr  @ 180 @ expr  @ 208 @ 
+call  @ 369 @ call  @ 414 @ 
+block_content  @ 247 @ block_content  @ 280 @ 
+operator: =  @ 339 @ operator: =  @ 383 @ 
+expr  @ 330 @ expr  @ 372 @ 
+operator: =  @ 126 @ operator: =  @ 150 @ 
+operator: ->  @ 52 @ operator: ->  @ 56 @ 
+index  @ 262 @ index  @ 299 @ 
+else  @ 110 @ else  @ 132 @ 
+name: position  @ 214 @ name: position  @ 247 @ 
+block_content  @ 240 @ block_content  @ 273 @ 
+argument_list  @ 128 @ argument_list  @ 152 @ 
+expr  @ 330 @ expr  @ 372 @ 
+control  @ 152 @ control  @ 178 @ 
+name: penum  @ 122 @ name: penum  @ 144 @ 
+operator: ->  @ 52 @ operator: ->  @ 56 @ 
+condition  @ 236 @ condition  @ 269 @ 
+operator: -=  @ 188 @ operator: -=  @ 217 @ 
+name: xn  @ 155 @ name: xn  @ 181 @ 
+name: ht_landscape  @ 224 @ name: ht_landscape  @ 257 @ 
+name: j  @ 303 @ name: j  @ 343 @ 
+expr  @ 338 @ expr  @ 382 @ 
+operator: ++  @ 258 @ operator: ++  @ 295 @ 
+name: devc_contone_gray  @ 147 @ name: devc_contone_gray  @ 172 @ 
+call  @ 339 @ call  @ 383 @ 
+incr  @ 152 @ incr  @ 178 @ 
+name: j  @ 321 @ name: j  @ 363 @ 
+name  @ 285 @ name  @ 322 @ 
+expr_stmt  @ 170 @ expr_stmt  @ 196 @ 
+expr  @ 122 @ expr  @ 144 @ 
+literal: 2  @ 251 @ literal: 2  @ 288 @ 
+expr  @ 318 @ expr  @ 360 @ 
+name: xrun  @ 369 @ name: xrun  @ 414 @ 
+comment: /* at loop exit xn will be>= xr */  @ 267 @ comment: /* at loop exit xn will be>= xr */  @ 304 @ 
+block  @ 281 @ block  @ 318 @ 
+literal: 1  @ 97 @ literal: 1  @ 119 @ 
+expr  @ 215 @ expr  @ 248 @ 
+argument  @ 244 @ argument  @ 277 @ 
+comment: /* Monochrome portrait */  @ 138 @ comment: /* Monochrome portrait */  @ 163 @ 
+index  @ 262 @ index  @ 299 @ 
+operator: =  @ 84 @ operator: =  @ 96 @ 
+expr  @ 185 @ expr  @ 214 @ 
+literal: 0  @ 319 @ literal: 0  @ 361 @ 
+operator: ->  @ 180 @ operator: ->  @ 208 @ 
+name: penum  @ 80 @ name: penum  @ 92 @ 
+name: j  @ 331 @ name: j  @ 374 @ 
+condition  @ 210 @ condition  @ 243 @ 
+type  @ 13 @ type  @ 14 @ 
+name: data_x  @ 12 @ name: data_x  @ 13 @ 
+name: src_size  @ 19 @ name: src_size  @ 20 @ 
+name: xr  @ 128 @ name: xr  @ 152 @ 
+expr  @ 167 @ expr  @ 193 @ 
+name: curr_pos  @ 312 @ name: curr_pos  @ 352 @ 
+name  @ 248 @ name  @ 282 @ 
+expr_stmt  @ 188 @ expr_stmt  @ 217 @ 
+name: offset_threshold  @ 23 @ name: offset_threshold  @ 24 @ 
+name: j  @ 265 @ name: j  @ 302 @ 
+block  @ 327 @ block  @ 369 @ 
+if  @ 105 @ if  @ 127 @ 
+operator: /  @ 30 @ operator: /  @ 31 @ 
+expr_stmt  @ 225 @ expr_stmt  @ 258 @ 
+name  @ 80 @ name  @ 92 @ 
+decl  @ 16 @ decl  @ 17 @ 
+block  @ 101 @ block  @ 123 @ 
+operator: ++  @ 247 @ operator: ++  @ 281 @ 
+operator: )  @ 68 @ operator: )  @ 75 @ 
+name: penum  @ 353 @ name: penum  @ 397 @ 
+control  @ 258 @ control  @ 295 @ 
+name: j  @ 268 @ name: j  @ 305 @ 
+name: k  @ 210 @ name: k  @ 243 @ 
+for  @ 315 @ for  @ 357 @ 
+decl  @ 14 @ decl  @ 15 @ 
+name  @ 368 @ name  @ 413 @ 
+name: k  @ 120 @ name: k  @ 142 @ 
+expr  @ 249 @ expr  @ 285 @ 
+expr_stmt  @ 165 @ expr_stmt  @ 191 @ 
+operator: .  @ 49 @ operator: .  @ 53 @ 
+name: dda_next  @ 300 @ name: dda_next  @ 340 @ 
+expr_stmt  @ 331 @ expr_stmt  @ 373 @ 
+expr  @ 67 @ expr  @ 74 @ 
+operator: +=  @ 225 @ operator: +=  @ 258 @ 
+name: penum  @ 34 @ name: penum  @ 35 @ 
+operator: =  @ 258 @ operator: =  @ 295 @ 
+init  @ 202 @ init  @ 233 @ 
+for  @ 210 @ for  @ 243 @ 
+expr  @ 142 @ expr  @ 167 @ 
+expr_stmt  @ 102 @ expr_stmt  @ 124 @ 
+operator: +=  @ 223 @ operator: +=  @ 256 @ 
+name: k  @ 315 @ name: k  @ 357 @ 
+expr  @ 10 @ expr  @ 11 @ 
+name: fixed_half  @ 328 @ name: fixed_half  @ 370 @ 
+name: k  @ 145 @ name: k  @ 170 @ 
+expr  @ 145 @ expr  @ 170 @ 
+name: k  @ 166 @ name: k  @ 192 @ 
+expr  @ 345 @ expr  @ 389 @ 
+comment: /* Figure out our offset in the contone and threshold data buffers so that we ensure that we are on the 128bit memory boundaries when we get offset_bits into the data. */  @ 58 @ comment: /* Figure out our offset in the contone and threshold data
+               buffers so that we ensure that we are on the 128bitmemory boundaries when we get offset_bits into the data. */  @ 62 @ 
+type  @ 1 @ type  @ 1 @ 
+call  @ 61 @ call  @ 67 @ 
+call  @ 212 @ call  @ 245 @ 
+init  @ 14 @ init  @ 15 @ 
+condition  @ 258 @ condition  @ 295 @ 
+operator: ||  @ 107 @ operator: ||  @ 129 @ 
+operator: ->  @ 109 @ operator: ->  @ 131 @ 
+operator: ->  @ 74 @ operator: ->  @ 83 @ 
+expr  @ 372 @ expr  @ 419 @ 
+expr  @ 151 @ expr  @ 177 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 53 @ 
+expr  @ 284 @ expr  @ 321 @ 
+operator: =  @ 34 @ operator: =  @ 35 @ 
+operator: =  @ 224 @ operator: =  @ 257 @ 
+literal: 0  @ 96 @ literal: 0  @ 118 @ 
+decl  @ 24 @ decl  @ 25 @ 
+operator: ++  @ 266 @ operator: ++  @ 303 @ 
+name: dda_ht  @ 167 @ name: dda_ht  @ 193 @ 
+expr  @ 247 @ expr  @ 281 @ 
+condition  @ 132 @ condition  @ 157 @ 
+argument_list  @ 154 @ argument_list  @ 180 @ 
+name  @ 71 @ name  @ 80 @ 
+expr  @ 280 @ expr  @ 317 @ 
+if  @ 140 @ if  @ 165 @ 
+operator: *  @ 147 @ operator: *  @ 173 @ 
+for  @ 120 @ for  @ 142 @ 
+call  @ 167 @ call  @ 193 @ 
+expr  @ 95 @ expr  @ 117 @ 
+block_content  @ 258 @ block_content  @ 295 @ 
+name: int  @ 15 @ name: int  @ 16 @ 
+expr  @ 205 @ expr  @ 238 @ 
+name  @ 87 @ name  @ 99 @ 
+name  @ 265 @ name  @ 302 @ 
+argument_list  @ 301 @ argument_list  @ 341 @ 
+if  @ 371 @ if  @ 418 @ 
+operator: =  @ 280 @ operator: =  @ 317 @ 
+name  @ 126 @ name  @ 150 @ 
+name: int  @ 27 @ name: int  @ 28 @ 
+name: ht_landscape  @ 108 @ name: ht_landscape  @ 130 @ 
+expr  @ 154 @ expr  @ 180 @ 
+name: x  @ 52 @ name: x  @ 56 @ 
+call  @ 301 @ call  @ 341 @ 
+name: fixed2int_var_rounded  @ 185 @ name: fixed2int_var_rounded  @ 214 @ 
+type  @ 17 @ type  @ 18 @ 
+index  @ 122 @ index  @ 145 @ 
+name  @ 97 @ name  @ 119 @ 
+operator: (  @ 304 @ operator: (  @ 344 @ 
+name: data_length  @ 243 @ name: data_length  @ 276 @ 
+operator: =  @ 258 @ operator: =  @ 295 @ 
+operator: (  @ 342 @ operator: (  @ 386 @ 
+block  @ 296 @ block  @ 335 @ 
+name: data_length  @ 241 @ name: data_length  @ 274 @ 
+name: penum  @ 66 @ name: penum  @ 72 @ 
+else  @ 52 @ else  @ 56 @ 
+expr_stmt  @ 205 @ expr_stmt  @ 238 @ 
+expr  @ 275 @ expr  @ 312 @ 
+name: thresh_buffer  @ 87 @ name: thresh_buffer  @ 99 @ 
+name: k  @ 327 @ name: k  @ 369 @ 
+operator: (  @ 282 @ operator: (  @ 319 @ 
+condition  @ 245 @ condition  @ 278 @ 
+for  @ 246 @ for  @ 279 @ 
+argument  @ 369 @ argument  @ 414 @ 
+name  @ 248 @ name  @ 282 @ 
+block  @ 256 @ block  @ 293 @ 
+operator: )  @ 322 @ operator: )  @ 364 @ 
+operator: .  @ 297 @ operator: .  @ 336 @ 
+literal: 0  @ 7 @ literal: 0  @ 8 @ 
+expr  @ 371 @ expr  @ 418 @ 
+expr_stmt  @ 209 @ expr_stmt  @ 242 @ 
+name: dest_width  @ 13 @ name: dest_width  @ 14 @ 
+block_content  @ 262 @ block_content  @ 299 @ 
+expr  @ 64 @ expr  @ 70 @ 
+operator: ++  @ 315 @ operator: ++  @ 357 @ 
+name  @ 122 @ name  @ 144 @ 
+name: spp_cm  @ 34 @ name: spp_cm  @ 35 @ 
+name: k  @ 316 @ name: k  @ 358 @ 
+operator: =  @ 265 @ operator: =  @ 302 @ 
+block  @ 169 @ block  @ 195 @ 
+name  @ 194 @ name  @ 223 @ 
+expr  @ 20 @ expr  @ 21 @ 
+init  @ 16 @ init  @ 17 @ 
+expr  @ 89 @ expr  @ 101 @ 
+if  @ 245 @ if  @ 278 @ 
+expr  @ 305 @ expr  @ 345 @ 
+expr  @ 186 @ expr  @ 215 @ 
+name: color_info  @ 14 @ name: color_info  @ 15 @ 
+name: psrc_plane  @ 331 @ name: psrc_plane  @ 375 @ 
+expr_stmt  @ 242 @ expr_stmt  @ 275 @ 
+operator: =  @ 282 @ operator: =  @ 319 @ 
+operator: )  @ 66 @ operator: )  @ 72 @ 
+block_content  @ 111 @ block_content  @ 133 @ 
+name: xstart  @ 98 @ name: xstart  @ 120 @ 
+expr_stmt  @ 128 @ expr_stmt  @ 152 @ 
+literal: 2  @ 145 @ literal: 2  @ 170 @ 
+argument  @ 300 @ argument  @ 340 @ 
+expr_stmt  @ 322 @ expr_stmt  @ 364 @ 
+operator: >  @ 239 @ operator: >  @ 272 @ 
+name: penum  @ 38 @ name: penum  @ 40 @ 
+expr  @ 168 @ expr  @ 194 @ 
+name: offset  @ 203 @ name: offset  @ 234 @ 
+expr  @ 321 @ expr  @ 363 @ 
+index  @ 277 @ index  @ 314 @ 
+name: dda_ht  @ 185 @ name: dda_ht  @ 214 @ 
+name: k  @ 166 @ name: k  @ 192 @ 
+expr_stmt  @ 136 @ expr_stmt  @ 161 @ 
+name  @ 214 @ name  @ 247 @ 
+name  @ 68 @ name  @ 77 @ 
+index  @ 316 @ index  @ 358 @ 
+expr_stmt  @ 98 @ expr_stmt  @ 120 @ 
+name  @ 44 @ name  @ 46 @ 
+literal: 16  @ 105 @ literal: 16  @ 127 @ 
+call  @ 71 @ call  @ 80 @ 
+expr  @ 216 @ expr  @ 249 @ 
+type  @ 20 @ type  @ 21 @ 
+break  @ 230 @ break  @ 263 @ 
+block_content  @ 124 @ block_content  @ 147 @ 
+name  @ 284 @ name  @ 321 @ 
+argument  @ 34 @ argument  @ 36 @ 
+name: code  @ 369 @ name: code  @ 414 @ 
+name: psrc_temp  @ 209 @ name: psrc_temp  @ 242 @ 
+name: i  @ 337 @ name: i  @ 381 @ 
+operator: .  @ 38 @ operator: .  @ 40 @ 
+operator: =  @ 68 @ operator: =  @ 75 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 35 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+init  @ 5 @ init  @ 6 @ 
+name  @ 32 @ name  @ 33 @ 
+operator: *  @ 262 @ operator: *  @ 299 @ 
+name: y  @ 71 @ name: y  @ 80 @ 
+name: devc_contone  @ 247 @ name: devc_contone  @ 280 @ 
+expr  @ 249 @ expr  @ 284 @ 
+if_stmt  @ 371 @ if_stmt  @ 418 @ 
+index  @ 284 @ index  @ 321 @ 
+if  @ 141 @ if  @ 166 @ 
+operator: <  @ 213 @ operator: <  @ 246 @ 
+operator: +  @ 89 @ operator: +  @ 101 @ 
+expr_stmt  @ 194 @ expr_stmt  @ 223 @ 
+expr  @ 154 @ expr  @ 180 @ 
+name  @ 250 @ name  @ 287 @ 
+operator: )  @ 342 @ operator: )  @ 386 @ 
+index  @ 242 @ index  @ 275 @ 
+condition  @ 62 @ condition  @ 68 @ 
+expr  @ 281 @ expr  @ 318 @ 
+name: penum  @ 354 @ name: penum  @ 398 @ 
+operator: ->  @ 66 @ operator: ->  @ 72 @ 
+init  @ 315 @ init  @ 357 @ 
+name: dda_ht  @ 153 @ name: dda_ht  @ 179 @ 
+name: NULL  @ 28 @ name: NULL  @ 29 @ 
+expr  @ 136 @ expr  @ 161 @ 
+name: int  @ 2 @ name: int  @ 2 @ 
+operator: ++  @ 210 @ operator: ++  @ 243 @ 
+decl  @ 13 @ decl  @ 14 @ 
+argument_list  @ 71 @ argument_list  @ 80 @ 
+expr  @ 259 @ expr  @ 296 @ 
+name: posture  @ 5 @ name: posture  @ 6 @ 
+name: penum  @ 49 @ name: penum  @ 53 @ 
+name  @ 304 @ name  @ 344 @ 
+name: buffer  @ 12 @ name: buffer  @ 13 @ 
+for  @ 67 @ for  @ 74 @ 
+operator: =  @ 108 @ operator: =  @ 130 @ 
+name: devc_contone  @ 331 @ name: devc_contone  @ 373 @ 
+block_content  @ 164 @ block_content  @ 190 @ 
+operator: <  @ 197 @ operator: <  @ 228 @ 
+literal: 0  @ 321 @ literal: 0  @ 363 @ 
+literal: 0  @ 299 @ literal: 0  @ 339 @ 
+operator: *  @ 285 @ operator: *  @ 322 @ 
+call  @ 211 @ call  @ 244 @ 
+init  @ 20 @ init  @ 21 @ 
+name: src_size  @ 201 @ name: src_size  @ 232 @ 
+expr  @ 301 @ expr  @ 341 @ 
+name: dda_ht  @ 300 @ name: dda_ht  @ 340 @ 
+operator: *  @ 214 @ operator: *  @ 247 @ 
+literal: 0  @ 282 @ literal: 0  @ 319 @ 
+literal: 16  @ 100 @ literal: 16  @ 122 @ 
+operator: *  @ 156 @ operator: *  @ 182 @ 
+expr_stmt  @ 263 @ expr_stmt  @ 300 @ 
+block  @ 3 @ block  @ 4 @ 
+name  @ 63 @ name  @ 69 @ 
+literal: 2  @ 264 @ literal: 2  @ 301 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+operator: *  @ 201 @ operator: *  @ 232 @ 
+operator: ->  @ 16 @ operator: ->  @ 17 @ 
+name  @ 275 @ name  @ 312 @ 
+expr_stmt  @ 191 @ expr_stmt  @ 220 @ 
+name  @ 181 @ name  @ 209 @ 
+operator: =  @ 45 @ operator: =  @ 47 @ 
+if  @ 196 @ if  @ 227 @ 
+expr  @ 226 @ expr  @ 259 @ 
+expr_stmt  @ 156 @ expr_stmt  @ 182 @ 
+index  @ 122 @ index  @ 144 @ 
+block  @ 261 @ block  @ 298 @ 
+index  @ 283 @ index  @ 320 @ 
+expr  @ 301 @ expr  @ 341 @ 
+condition  @ 183 @ condition  @ 212 @ 
+literal: 2  @ 326 @ literal: 2  @ 368 @ 
+index  @ 323 @ index  @ 365 @ 
+name: posture  @ 121 @ name: posture  @ 143 @ 
+argument_list  @ 82 @ argument_list  @ 94 @ 
+name: k  @ 210 @ name: k  @ 243 @ 
+type  @ 13 @ type  @ 14 @ 
+if  @ 180 @ if  @ 208 @ 
+name: fixed2int_var_rounded  @ 203 @ name: fixed2int_var_rounded  @ 234 @ 
+operator: )  @ 250 @ operator: )  @ 286 @ 
+name: fixed2int_var_rounded  @ 82 @ name: fixed2int_var_rounded  @ 94 @ 
+expr  @ 202 @ expr  @ 233 @ 
+expr  @ 54 @ expr  @ 58 @ 
+name: gxht_dda_length  @ 61 @ name: gxht_dda_length  @ 67 @ 
+expr  @ 327 @ expr  @ 369 @ 
+if  @ 116 @ if  @ 138 @ 
+decl  @ 23 @ decl  @ 24 @ 
+operator: (  @ 262 @ operator: (  @ 299 @ 
+operator: (  @ 249 @ operator: (  @ 284 @ 
+expr  @ 278 @ expr  @ 315 @ 
+operator: )  @ 263 @ operator: )  @ 300 @ 
+if_stmt  @ 32 @ if_stmt  @ 33 @ 
+expr  @ 173 @ expr  @ 199 @ 
+operator: .  @ 180 @ operator: .  @ 208 @ 
+decl_stmt  @ 17 @ decl_stmt  @ 18 @ 
+operator: <  @ 246 @ operator: <  @ 279 @ 
+operator: (  @ 322 @ operator: (  @ 364 @ 
+name: penum  @ 223 @ name: penum  @ 256 @ 
+type  @ 4 @ type  @ 5 @ 
+operator: ->  @ 64 @ operator: ->  @ 70 @ 
+operator: (  @ 284 @ operator: (  @ 321 @ 
+expr_stmt  @ 252 @ expr_stmt  @ 289 @ 
+name: w  @ 30 @ name: w  @ 31 @ 
+literal: 0  @ 247 @ literal: 0  @ 280 @ 
+name: ht_landscape  @ 355 @ name: ht_landscape  @ 399 @ 
+operator: ->  @ 372 @ operator: ->  @ 419 @ 
+literal: 0  @ 38 @ literal: 0  @ 40 @ 
+literal: 0  @ 27 @ literal: 0  @ 28 @ 
+index  @ 283 @ index  @ 320 @ 
+argument  @ 185 @ argument  @ 214 @ 
+operator: ->  @ 312 @ operator: ->  @ 352 @ 
+condition  @ 166 @ condition  @ 192 @ 
+argument  @ 168 @ argument  @ 194 @ 
+name  @ 204 @ name  @ 236 @ 
+expr  @ 116 @ expr  @ 138 @ 
+name: LAND_BITS  @ 188 @ name: LAND_BITS  @ 217 @ 
+expr_stmt  @ 260 @ expr_stmt  @ 297 @ 
+expr_stmt  @ 300 @ expr_stmt  @ 340 @ 
+operator: ==  @ 196 @ operator: ==  @ 227 @ 
+name: offset  @ 18 @ name: offset  @ 19 @ 
+name  @ 241 @ name  @ 274 @ 
+modifier: *  @ 11 @ modifier: *  @ 12 @ 
+operator: (  @ 322 @ operator: (  @ 364 @ 
+expr_stmt  @ 276 @ expr_stmt  @ 313 @ 
+name: dda_current  @ 60 @ name: dda_current  @ 66 @ 
+name: xr  @ 189 @ name: xr  @ 218 @ 
+name  @ 283 @ name  @ 320 @ 
+name  @ 43 @ name  @ 45 @ 
+name: dda_next  @ 153 @ name: dda_next  @ 179 @ 
+argument  @ 34 @ argument  @ 36 @ 
+name: dest_height  @ 71 @ name: dest_height  @ 80 @ 
+literal: 2  @ 245 @ literal: 2  @ 278 @ 
+comment: /* Monochrome landscape */  @ 177 @ comment: /* Monochrome landscape */  @ 203 @ 
+operator: )  @ 250 @ operator: )  @ 286 @ 
+operator: (  @ 331 @ operator: (  @ 375 @ 
+operator: .  @ 98 @ operator: .  @ 120 @ 
+name: fixed2int_var_rounded  @ 128 @ name: fixed2int_var_rounded  @ 152 @ 
+index  @ 214 @ index  @ 247 @ 
+expr  @ 258 @ expr  @ 295 @ 
+operator: +=  @ 276 @ operator: +=  @ 313 @ 
+index  @ 224 @ index  @ 257 @ 
+expr  @ 28 @ expr  @ 29 @ 
+operator: *  @ 322 @ operator: *  @ 364 @ 
+operator: .  @ 224 @ operator: .  @ 257 @ 
+init  @ 152 @ init  @ 178 @ 
+expr  @ 244 @ expr  @ 277 @ 
+name  @ 354 @ name  @ 398 @ 
+expr  @ 44 @ expr  @ 46 @ 
+name  @ 124 @ name  @ 147 @ 
+operator: )  @ 87 @ operator: )  @ 99 @ 
+argument  @ 372 @ argument  @ 419 @ 
+literal: 0  @ 62 @ literal: 0  @ 68 @ 
+operator: ->  @ 111 @ operator: ->  @ 133 @ 
+operator: ->  @ 38 @ operator: ->  @ 40 @ 
+name: y_extent  @ 71 @ name: y_extent  @ 80 @ 
+expr  @ 197 @ expr  @ 228 @ 
+while  @ 213 @ while  @ 246 @ 
+decl  @ 26 @ decl  @ 27 @ 
+name: image_portrait  @ 52 @ name: image_portrait  @ 56 @ 
+name: int  @ 6 @ name: int  @ 7 @ 
+expr  @ 241 @ expr  @ 274 @ 
+name: k  @ 124 @ name: k  @ 148 @ 
+operator: =  @ 42 @ operator: =  @ 44 @ 
+name  @ 304 @ name  @ 344 @ 
+index  @ 187 @ index  @ 216 @ 
+argument  @ 211 @ argument  @ 244 @ 
+expr  @ 332 @ expr  @ 376 @ 
+decl  @ 15 @ decl  @ 16 @ 
+expr  @ 244 @ expr  @ 277 @ 
+expr  @ 34 @ expr  @ 35 @ 
+comment: /* at loop exit xn will be>= xr */  @ 217 @ comment: /* at loop exit xn will be>= xr */  @ 250 @ 
+name: buffer  @ 2 @ name: buffer  @ 2 @ 
+name: devc_contone  @ 251 @ name: devc_contone  @ 288 @ 
+operator: ==  @ 326 @ operator: ==  @ 368 @ 
+operator: ++  @ 341 @ operator: ++  @ 385 @ 
+name: posture  @ 137 @ name: posture  @ 162 @ 
+operator: ++  @ 265 @ operator: ++  @ 302 @ 
+operator: (  @ 89 @ operator: (  @ 101 @ 
+index  @ 124 @ index  @ 147 @ 
+call  @ 259 @ call  @ 296 @ 
+expr_stmt  @ 142 @ expr_stmt  @ 167 @ 
+name: byte  @ 11 @ name: byte  @ 12 @ 
+argument  @ 185 @ argument  @ 214 @ 
+expr  @ 88 @ expr  @ 100 @ 
+expr  @ 330 @ expr  @ 372 @ 
+name: data_length  @ 244 @ name: data_length  @ 277 @ 
+operator: =  @ 247 @ operator: =  @ 280 @ 
+operator: *  @ 143 @ operator: *  @ 168 @ 
+operator: .  @ 52 @ operator: .  @ 56 @ 
+argument  @ 85 @ argument  @ 97 @ 
+operator: -  @ 104 @ operator: -  @ 126 @ 
+operator: -  @ 68 @ operator: -  @ 75 @ 
+name  @ 354 @ name  @ 398 @ 
+name  @ 204 @ name  @ 237 @ 
+operator: .  @ 52 @ operator: .  @ 56 @ 
+argument_list  @ 280 @ argument_list  @ 317 @ 
+expr  @ 196 @ expr  @ 227 @ 
+name: devc_contone  @ 277 @ name: devc_contone  @ 314 @ 
+operator: ++  @ 166 @ operator: ++  @ 192 @ 
+expr_stmt  @ 343 @ expr_stmt  @ 387 @ 
+operator: =  @ 136 @ operator: =  @ 161 @ 
+name: contone_stride  @ 369 @ name: contone_stride  @ 416 @ 
+index  @ 198 @ index  @ 229 @ 
+literal: 2  @ 202 @ literal: 2  @ 233 @ 
+expr  @ 34 @ expr  @ 35 @ 
+operator: (  @ 248 @ operator: (  @ 282 @ 
+operator: ,  @ 299 @ operator: ,  @ 339 @ 
+name: spp_out  @ 14 @ name: spp_out  @ 15 @ 
+control  @ 315 @ control  @ 357 @ 
+index  @ 249 @ index  @ 284 @ 
+expr_stmt  @ 168 @ expr_stmt  @ 194 @ 
+operator: =  @ 71 @ operator: =  @ 80 @ 
+operator: ->  @ 296 @ operator: ->  @ 335 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+block_content  @ 38 @ block_content  @ 40 @ 
+comment: /* In the landscaped case, we want to accumulate multiple columns of data before sending to the device.We want to have a full byte of HT data in one write.This may not be possible at the left or right and for those and for those we have so send partial chunks */  @ 91 @ comment: /* In the landscaped case, we want to accumulate multiple columns
+               of data before sending to the device.  We want to have a fullbyte of HT data in one write.  This may not be possible at the
+               left or right and for those and for those we have so send partialchunks */  @ 104 @ 
+name: dda_current  @ 280 @ name: dda_current  @ 317 @ 
+expr  @ 283 @ expr  @ 320 @ 
+name: num_components  @ 14 @ name: num_components  @ 15 @ 
+operator: .  @ 97 @ operator: .  @ 119 @ 
+literal: 3  @ 250 @ literal: 3  @ 286 @ 
+operator: =  @ 165 @ operator: =  @ 191 @ 
+name: flipy  @ 296 @ name: flipy  @ 335 @ 
+name: devc_contone_gray  @ 204 @ name: devc_contone_gray  @ 235 @ 
+name: i  @ 304 @ name: i  @ 344 @ 
+operator: ->  @ 239 @ operator: ->  @ 272 @ 
+argument_list  @ 168 @ argument_list  @ 194 @ 
+expr  @ 302 @ expr  @ 342 @ 
+if_stmt  @ 239 @ if_stmt  @ 272 @ 
+expr  @ 241 @ expr  @ 274 @ 
+name: data_length  @ 276 @ name: data_length  @ 313 @ 
+expr  @ 204 @ expr  @ 235 @ 
+name: pgs  @ 372 @ name: pgs  @ 419 @ 
+operator: (  @ 68 @ operator: (  @ 75 @ 
+block_content  @ 312 @ block_content  @ 352 @ 
+while  @ 155 @ while  @ 181 @ 
+argument  @ 301 @ argument  @ 341 @ 
+if_stmt  @ 107 @ if_stmt  @ 129 @ 
+name: line_size  @ 65 @ name: line_size  @ 71 @ 
+name: dda_ht  @ 301 @ name: dda_ht  @ 341 @ 
+expr  @ 32 @ expr  @ 33 @ 
+name: contone_stride  @ 17 @ name: contone_stride  @ 18 @ 
+name: position  @ 297 @ name: position  @ 336 @ 
+name: k  @ 152 @ name: k  @ 178 @ 
+name: LAND_BITS  @ 297 @ name: LAND_BITS  @ 337 @ 
+condition  @ 246 @ condition  @ 279 @ 
+type  @ 19 @ type  @ 20 @ 
+name: line_size  @ 32 @ name: line_size  @ 33 @ 
+literal: 15  @ 66 @ literal: 15  @ 73 @ 
+operator: +=  @ 202 @ operator: +=  @ 233 @ 
+call  @ 242 @ call  @ 275 @ 
+name: xn  @ 280 @ name: xn  @ 317 @ 
+name  @ 249 @ name  @ 284 @ 
+expr  @ 304 @ expr  @ 344 @ 
+break  @ 76 @ break  @ 85 @ 
+name: j  @ 303 @ name: j  @ 343 @ 
+operator: =  @ 66 @ operator: =  @ 72 @ 
+argument  @ 54 @ argument  @ 58 @ 
+name: penum  @ 95 @ name: penum  @ 117 @ 
+block  @ 193 @ block  @ 222 @ 
+name: data_length  @ 274 @ name: data_length  @ 311 @ 
+expr  @ 63 @ expr  @ 69 @ 
+operator: ++  @ 157 @ operator: ++  @ 183 @ 
+operator: +=  @ 164 @ operator: +=  @ 190 @ 
+name: line  @ 68 @ name: line  @ 75 @ 
+expr_stmt  @ 268 @ expr_stmt  @ 305 @ 
+operator: ->  @ 87 @ operator: ->  @ 99 @ 
+name  @ 5 @ name  @ 6 @ 
+expr  @ 280 @ expr  @ 317 @ 
+name  @ 140 @ name  @ 165 @ 
+name  @ 242 @ name  @ 275 @ 
+return  @ 374 @ return  @ 422 @ 
+name: GX_DEVICE_COLOR_MAX_COMPONENTS  @ 22 @ name: GX_DEVICE_COLOR_MAX_COMPONENTS  @ 23 @ 
+else  @ 101 @ else  @ 123 @ 
+argument_list  @ 212 @ argument_list  @ 245 @ 
+block_content  @ 139 @ block_content  @ 164 @ 
+name: data_length  @ 202 @ name: data_length  @ 233 @ 
+operator: *  @ 147 @ operator: *  @ 172 @ 
+operator: (  @ 277 @ operator: (  @ 314 @ 
+name: psrc_plane  @ 242 @ name: psrc_plane  @ 275 @ 
+literal: 3  @ 285 @ literal: 3  @ 322 @ 
+expr  @ 53 @ expr  @ 57 @ 
+name: psrc_cm  @ 209 @ name: psrc_cm  @ 242 @ 
+name: devc_contone  @ 249 @ name: devc_contone  @ 284 @ 
+operator: <  @ 67 @ operator: <  @ 74 @ 
+name: contone_stride  @ 122 @ name: contone_stride  @ 144 @ 
+operator: *  @ 250 @ operator: *  @ 287 @ 
+expr  @ 68 @ expr  @ 75 @ 
+name: any_abs  @ 82 @ name: any_abs  @ 94 @ 
+name: dda_ht  @ 259 @ name: dda_ht  @ 296 @ 
+expr  @ 285 @ expr  @ 322 @ 
+name  @ 122 @ name  @ 145 @ 
+literal: 0  @ 100 @ literal: 0  @ 122 @ 
+expr  @ 283 @ expr  @ 320 @ 
+decl  @ 4 @ decl  @ 5 @ 
+expr  @ 286 @ expr  @ 323 @ 
+expr  @ 369 @ expr  @ 415 @ 
+for  @ 88 @ for  @ 100 @ 
+expr  @ 242 @ expr  @ 275 @ 
+name: j  @ 15 @ name: j  @ 16 @ 
+call  @ 241 @ call  @ 274 @ 
+index  @ 252 @ index  @ 289 @ 
+expr  @ 204 @ expr  @ 236 @ 
+argument  @ 154 @ argument  @ 180 @ 
+operator: -  @ 297 @ operator: -  @ 337 @ 
+operator: <  @ 183 @ operator: <  @ 212 @ 
+name: xn  @ 186 @ name: xn  @ 215 @ 
+expr_stmt  @ 253 @ expr_stmt  @ 290 @ 
+comment: /* error not allowed */  @ 229 @ comment: /* error not allowed */  @ 262 @ 
+if_stmt  @ 100 @ if_stmt  @ 122 @ 
+expr  @ 61 @ expr  @ 67 @ 
+name: byte  @ 21 @ name: byte  @ 22 @ 
+operator: (  @ 87 @ operator: (  @ 99 @ 
+name  @ 14 @ name  @ 15 @ 
+operator: %  @ 98 @ operator: %  @ 120 @ 
+else  @ 311 @ else  @ 351 @ 
+operator: ->  @ 66 @ operator: ->  @ 73 @ 
+operator: +=  @ 354 @ operator: +=  @ 398 @ 
+index  @ 136 @ index  @ 161 @ 
+operator: ->  @ 194 @ operator: ->  @ 223 @ 
+name: src_size  @ 183 @ name: src_size  @ 212 @ 
+block_content  @ 95 @ block_content  @ 117 @ 
+expr  @ 122 @ expr  @ 144 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: psrc_temp  @ 191 @ name: psrc_temp  @ 220 @ 
+name  @ 264 @ name  @ 301 @ 
+name: ht_offset_bits  @ 111 @ name: ht_offset_bits  @ 133 @ 
+operator: <  @ 321 @ operator: <  @ 363 @ 
+operator: )  @ 265 @ operator: )  @ 302 @ 
+name: penum  @ 71 @ name: penum  @ 80 @ 
+name: dest_height  @ 196 @ name: dest_height  @ 227 @ 
+operator: <  @ 96 @ operator: <  @ 118 @ 
+name: position  @ 204 @ name: position  @ 235 @ 
+name: j  @ 262 @ name: j  @ 299 @ 
+init  @ 28 @ init  @ 29 @ 
+name: ht_landscape  @ 225 @ name: ht_landscape  @ 258 @ 
+operator: =  @ 86 @ operator: =  @ 98 @ 
+name: ht_landscape  @ 102 @ name: ht_landscape  @ 124 @ 
+argument  @ 74 @ argument  @ 83 @ 
+name: j  @ 284 @ name: j  @ 321 @ 
+expr  @ 212 @ expr  @ 245 @ 
+decl  @ 5 @ decl  @ 6 @ 
+block  @ 56 @ block  @ 60 @ 
+operator: +  @ 124 @ operator: +  @ 147 @ 
+modifier: *  @ 10 @ modifier: *  @ 11 @ 
+name: dda_ht  @ 84 @ name: dda_ht  @ 96 @ 
+name: xrun  @ 7 @ name: xrun  @ 8 @ 
+argument  @ 153 @ argument  @ 179 @ 
+literal: 1  @ 252 @ literal: 1  @ 289 @ 
+expr  @ 166 @ expr  @ 192 @ 
+block_content  @ 214 @ block_content  @ 247 @ 
+name: xr  @ 302 @ name: xr  @ 342 @ 
+expr  @ 304 @ expr  @ 344 @ 
+name: dda_current  @ 212 @ name: dda_current  @ 245 @ 
+literal: 0  @ 183 @ literal: 0  @ 212 @ 
+literal: 15  @ 87 @ literal: 15  @ 99 @ 
+name: uint  @ 2 @ name: uint  @ 3 @ 
+name: devc_contone  @ 275 @ name: devc_contone  @ 312 @ 
+type  @ 25 @ type  @ 26 @ 
+name  @ 96 @ name  @ 118 @ 
+operator: +  @ 97 @ operator: +  @ 119 @ 
+name: dest_height  @ 326 @ name: dest_height  @ 368 @ 
+condition  @ 261 @ condition  @ 298 @ 
+name: code  @ 374 @ name: code  @ 422 @ 
+expr  @ 251 @ expr  @ 288 @ 
+block  @ 123 @ block  @ 146 @ 
+block_content  @ 151 @ block_content  @ 177 @ 
+expr  @ 67 @ expr  @ 74 @ 
+expr_stmt  @ 204 @ expr_stmt  @ 235 @ 
+name: y  @ 52 @ name: y  @ 56 @ 
+operator: .  @ 355 @ operator: .  @ 399 @ 
+operator: +  @ 122 @ operator: +  @ 144 @ 
+operator: ++  @ 88 @ operator: ++  @ 100 @ 
+name  @ 263 @ name  @ 300 @ 
+name: ht_buffer  @ 74 @ name: ht_buffer  @ 83 @ 
+name: psrc_plane  @ 265 @ name: psrc_plane  @ 302 @ 
+type  @ 25 @ type  @ 26 @ 
+name: flipy  @ 180 @ name: flipy  @ 208 @ 
+condition  @ 330 @ condition  @ 372 @ 
+expr_stmt  @ 215 @ expr_stmt  @ 248 @ 
+expr  @ 283 @ expr  @ 320 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+argument  @ 338 @ argument  @ 382 @ 
+name: penum  @ 297 @ name: penum  @ 336 @ 
+if  @ 240 @ if  @ 273 @ 
+name: src_size  @ 326 @ name: src_size  @ 368 @ 
+block_content  @ 108 @ block_content  @ 130 @ 
+expr  @ 34 @ expr  @ 36 @ 
+incr  @ 299 @ incr  @ 339 @ 
+operator: ->  @ 124 @ operator: ->  @ 147 @ 
+literal: 1  @ 181 @ literal: 1  @ 210 @ 
+type  @ 14 @ type  @ 15 @ 
+name: false  @ 108 @ name: false  @ 130 @ 
+decl  @ 2 @ decl  @ 2 @ 
+argument  @ 369 @ argument  @ 415 @ 
+expr_stmt  @ 203 @ expr_stmt  @ 234 @ 
+index  @ 282 @ index  @ 319 @ 
+expr  @ 304 @ expr  @ 344 @ 
+if  @ 53 @ if  @ 57 @ 
+name: dda_current  @ 154 @ name: dda_current  @ 180 @ 
+operator: ++  @ 173 @ operator: ++  @ 199 @ 
+operator: ++  @ 330 @ operator: ++  @ 372 @ 
+control  @ 321 @ control  @ 363 @ 
+name: data_length  @ 297 @ name: data_length  @ 337 @ 
+expr  @ 253 @ expr  @ 290 @ 
+expr  @ 285 @ expr  @ 322 @ 
+name: xr  @ 286 @ name: xr  @ 323 @ 
+block  @ 330 @ block  @ 372 @ 
+operator: <  @ 120 @ operator: <  @ 142 @ 
+expr  @ 282 @ expr  @ 319 @ 
+argument  @ 34 @ argument  @ 36 @ 
+argument  @ 212 @ argument  @ 245 @ 
+argument  @ 369 @ argument  @ 415 @ 
+expr_stmt  @ 147 @ expr_stmt  @ 172 @ 
+operator: =  @ 183 @ operator: =  @ 212 @ 
+name: penum  @ 81 @ name: penum  @ 93 @ 
+block_content  @ 4 @ block_content  @ 5 @ 
+decl_stmt  @ 27 @ decl_stmt  @ 28 @ 
+expr_stmt  @ 214 @ expr_stmt  @ 247 @ 
+expr  @ 276 @ expr  @ 313 @ 
+name: dda_current  @ 185 @ name: dda_current  @ 214 @ 
+comment: /* at loop exit xn will be<= xr */  @ 308 @ comment: /* at loop exit xn will be<= xr */  @ 348 @ 
+init  @ 7 @ init  @ 8 @ 
+expr  @ 337 @ expr  @ 381 @ 
+name: devc_contone_gray  @ 214 @ name: devc_contone_gray  @ 247 @ 
+literal: 0  @ 337 @ literal: 0  @ 381 @ 
+block_content  @ 328 @ block_content  @ 370 @ 
+expr  @ 140 @ expr  @ 165 @ 
+block_content  @ 274 @ block_content  @ 311 @ 
+expr  @ 124 @ expr  @ 147 @ 
+comment: /* Code up special cases for when we have no scaling and 2x scaling which we will run into in 300 and 600dpi devices and content */  @ 195 @ comment: /* Code up special cases for when we have no scaling
+                           and 2x scaling which we will run into in 300 and600dpi devices and content */  @ 224 @ 
+block_content  @ 181 @ block_content  @ 209 @ 
+expr  @ 34 @ expr  @ 35 @ 
+expr  @ 319 @ expr  @ 361 @ 
+name  @ 97 @ name  @ 119 @ 
+comment: /* at loop exit xn will be<= xr */  @ 190 @ comment: /* at loop exit xn will be<= xr */  @ 219 @ 
+expr_stmt  @ 122 @ expr_stmt  @ 144 @ 
+name: devc_contone  @ 264 @ name: devc_contone  @ 301 @ 
+expr  @ 285 @ expr  @ 322 @ 
+argument_list  @ 260 @ argument_list  @ 297 @ 
+name: position  @ 198 @ name: position  @ 229 @ 
+operator: ->  @ 353 @ operator: ->  @ 397 @ 
+type  @ 15 @ type  @ 16 @ 
+index  @ 249 @ index  @ 284 @ 
+modifier: *  @ 9 @ modifier: *  @ 10 @ 
+expr  @ 254 @ expr  @ 291 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 11 @ 
+decl  @ 17 @ decl  @ 18 @ 
+expr  @ 87 @ expr  @ 99 @ 
+decl  @ 15 @ decl  @ 16 @ 
+expr_stmt  @ 352 @ expr_stmt  @ 396 @ 
+expr  @ 111 @ expr  @ 133 @ 
+operator: =  @ 80 @ operator: =  @ 92 @ 
+block_content  @ 63 @ block_content  @ 69 @ 
+block  @ 302 @ block  @ 342 @ 
+expr  @ 242 @ expr  @ 275 @ 
+if  @ 201 @ if  @ 232 @ 
+index  @ 247 @ index  @ 280 @ 
+name: image_landscape  @ 178 @ name: image_landscape  @ 204 @ 
+while  @ 186 @ while  @ 215 @ 
+control  @ 145 @ control  @ 170 @ 
+expr  @ 322 @ expr  @ 364 @ 
+name: k  @ 120 @ name: k  @ 142 @ 
+incr  @ 278 @ incr  @ 315 @ 
+expr  @ 322 @ expr  @ 364 @ 
+operator: =  @ 262 @ operator: =  @ 299 @ 
+name: xr  @ 157 @ name: xr  @ 183 @ 
+operator: )  @ 66 @ operator: )  @ 72 @ 
+name  @ 223 @ name  @ 256 @ 
+name: dda_ht  @ 338 @ name: dda_ht  @ 382 @ 
+expr  @ 212 @ expr  @ 245 @ 
+operator: =  @ 284 @ operator: =  @ 321 @ 
+decl_stmt  @ 29 @ decl_stmt  @ 30 @ 
+condition  @ 105 @ condition  @ 127 @ 
+name: src_size  @ 85 @ name: src_size  @ 97 @ 
+expr_stmt  @ 332 @ expr_stmt  @ 376 @ 
+operator: =  @ 152 @ operator: =  @ 178 @ 
+expr_stmt  @ 159 @ expr_stmt  @ 185 @ 
+operator: --  @ 189 @ operator: --  @ 218 @ 
+expr  @ 248 @ expr  @ 283 @ 
+expr  @ 28 @ expr  @ 29 @ 
+name: h  @ 32 @ name: h  @ 33 @ 
+expr  @ 331 @ expr  @ 375 @ 
+block  @ 239 @ block  @ 272 @ 
+type  @ 2 @ type  @ 3 @ 
+expr  @ 299 @ expr  @ 339 @ 
+argument  @ 184 @ argument  @ 213 @ 
+expr  @ 88 @ expr  @ 100 @ 
+name: k  @ 120 @ name: k  @ 142 @ 
+condition  @ 202 @ condition  @ 233 @ 
+operator: )  @ 282 @ operator: )  @ 319 @ 
+index  @ 284 @ index  @ 321 @ 
+expr  @ 26 @ expr  @ 27 @ 
+name: k  @ 316 @ name: k  @ 358 @ 
+expr  @ 27 @ expr  @ 28 @ 
+expr  @ 185 @ expr  @ 214 @ 
+name: gx_device  @ 2 @ name: gx_device  @ 3 @ 
+name: xr  @ 25 @ name: xr  @ 26 @ 
+operator: -  @ 277 @ operator: -  @ 314 @ 
+literal: 0  @ 258 @ literal: 0  @ 295 @ 
+expr  @ 369 @ expr  @ 414 @ 
+argument_list  @ 34 @ argument_list  @ 35 @ 
+operator: (  @ 87 @ operator: (  @ 99 @ 
+expr  @ 39 @ expr  @ 41 @ 
+name: j  @ 341 @ name: j  @ 385 @ 
+name  @ 342 @ name  @ 386 @ 
+block  @ 271 @ block  @ 308 @ 
+name: line  @ 89 @ name: line  @ 101 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+expr  @ 301 @ expr  @ 341 @ 
+operator: +=  @ 352 @ operator: +=  @ 396 @ 
+operator: *  @ 248 @ operator: *  @ 282 @ 
+expr_stmt  @ 181 @ expr_stmt  @ 209 @ 
+expr  @ 303 @ expr  @ 343 @ 
+case  @ 139 @ case  @ 164 @ 
+name: index  @ 225 @ name: index  @ 258 @ 
+operator: *  @ 89 @ operator: *  @ 102 @ 
+condition  @ 201 @ condition  @ 232 @ 
+block_content  @ 121 @ block_content  @ 143 @ 
+name: true  @ 45 @ name: true  @ 47 @ 
+incr  @ 321 @ incr  @ 363 @ 
+type  @ 2 @ type  @ 3 @ 
+name: spp_out  @ 120 @ name: spp_out  @ 142 @ 
+if_stmt  @ 116 @ if_stmt  @ 138 @ 
+operator: .  @ 95 @ operator: .  @ 117 @ 
+expr_stmt  @ 254 @ expr_stmt  @ 291 @ 
+index  @ 264 @ index  @ 301 @ 
+block_content  @ 319 @ block_content  @ 361 @ 
+block_content  @ 246 @ block_content  @ 279 @ 
+argument  @ 279 @ argument  @ 316 @ 
+operator: =  @ 147 @ operator: =  @ 173 @ 
+operator: .  @ 223 @ operator: .  @ 256 @ 
+type  @ 5 @ type  @ 6 @ 
+operator: *  @ 247 @ operator: *  @ 281 @ 
+operator: ,  @ 145 @ operator: ,  @ 170 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 369 @ expr  @ 414 @ 
+operator: )  @ 331 @ operator: )  @ 373 @ 
+block  @ 319 @ block  @ 361 @ 
+expr  @ 253 @ expr  @ 290 @ 
+name: NULL  @ 371 @ name: NULL  @ 418 @ 
+operator: --  @ 307 @ operator: --  @ 347 @ 
+condition  @ 303 @ condition  @ 343 @ 
+name: position  @ 15 @ name: position  @ 16 @ 
+operator: *  @ 332 @ operator: *  @ 376 @ 
+operator: )  @ 275 @ operator: )  @ 312 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 56 @ 
+expr  @ 252 @ expr  @ 289 @ 
+literal: 1  @ 263 @ literal: 1  @ 300 @ 
+expr  @ 121 @ expr  @ 143 @ 
+expr_stmt  @ 372 @ expr_stmt  @ 419 @ 
+name: xr  @ 261 @ name: xr  @ 298 @ 
+name: i  @ 299 @ name: i  @ 339 @ 
+name: fixed2int_var_rounded  @ 260 @ name: fixed2int_var_rounded  @ 297 @ 
+operator: .  @ 82 @ operator: .  @ 94 @ 
+argument  @ 242 @ argument  @ 275 @ 
+if  @ 32 @ if  @ 33 @ 
+block  @ 341 @ block  @ 385 @ 
+operator: ++  @ 321 @ operator: ++  @ 363 @ 
+expr  @ 35 @ expr  @ 37 @ 
+name: posture  @ 38 @ name: posture  @ 40 @ 
+name: dst_width  @ 140 @ name: dst_width  @ 165 @ 
+name: num_contones  @ 355 @ name: num_contones  @ 399 @ 
+type  @ 24 @ type  @ 25 @ 
+operator: +=  @ 275 @ operator: +=  @ 312 @ 
+name  @ 312 @ name  @ 352 @ 
+expr_stmt  @ 277 @ expr_stmt  @ 314 @ 
+expr  @ 327 @ expr  @ 369 @ 
+operator: (  @ 250 @ operator: (  @ 286 @ 
+expr  @ 265 @ expr  @ 302 @ 
+argument  @ 241 @ argument  @ 274 @ 
+name: any_abs  @ 71 @ name: any_abs  @ 80 @ 
+name: src_size  @ 337 @ name: src_size  @ 381 @ 
+name: xr  @ 186 @ name: xr  @ 215 @ 
+argument_list  @ 280 @ argument_list  @ 317 @ 
+operator: --  @ 285 @ operator: --  @ 322 @ 
+name: k  @ 124 @ name: k  @ 147 @ 
+index  @ 264 @ index  @ 301 @ 
+return  @ 39 @ return  @ 41 @ 
+name: contone_stride  @ 68 @ name: contone_stride  @ 76 @ 
+operator: (  @ 274 @ operator: (  @ 311 @ 
+name  @ 283 @ name  @ 320 @ 
+modifier: *  @ 8 @ modifier: *  @ 9 @ 
+operator: )  @ 331 @ operator: )  @ 374 @ 
+operator: )  @ 274 @ operator: )  @ 311 @ 
+name: data_length  @ 242 @ name: data_length  @ 275 @ 
+expr  @ 299 @ expr  @ 339 @ 
+name  @ 274 @ name  @ 311 @ 
+operator: ++  @ 249 @ operator: ++  @ 285 @ 
+name: byte  @ 10 @ name: byte  @ 11 @ 
+operator: (  @ 89 @ operator: (  @ 101 @ 
+condition  @ 240 @ condition  @ 273 @ 
+condition  @ 137 @ condition  @ 162 @ 
+name: memcpy  @ 241 @ name: memcpy  @ 274 @ 
+literal: 2  @ 254 @ literal: 2  @ 291 @ 
+name  @ 331 @ name  @ 373 @ 
+comment: /* We store the data at this point into a column. Depending upon our landscape direction we may be going left to right or right to left. */  @ 179 @ comment: /* We store the data at this point into a column. Depending
+                       upon our landscape direction we may be going left to rightor right to left. */  @ 205 @ 
+name: dda_ht  @ 280 @ name: dda_ht  @ 317 @ 
+block_content  @ 102 @ block_content  @ 124 @ 
+name: x_extent  @ 62 @ name: x_extent  @ 68 @ 
+literal: 0  @ 202 @ literal: 0  @ 233 @ 
+case  @ 235 @ case  @ 268 @ 
+index  @ 265 @ index  @ 302 @ 
+operator: ->  @ 68 @ operator: ->  @ 75 @ 
+return  @ 36 @ return  @ 38 @ 
+name: position  @ 304 @ name: position  @ 344 @ 
+endif  @ 75 @ endif  @ 84 @ 
+name: devc_contone  @ 243 @ name: devc_contone  @ 276 @ 
+literal: 1  @ 263 @ literal: 1  @ 300 @ 
+operator: )  @ 68 @ operator: )  @ 75 @ 
+if_stmt  @ 93 @ if_stmt  @ 112 @ 
+comment: /* Mono case, backwards */  @ 163 @ comment: /* Mono case, backwards */  @ 189 @ 
+argument  @ 34 @ argument  @ 35 @ 
+name: position  @ 316 @ name: position  @ 358 @ 
+incr  @ 120 @ incr  @ 142 @ 
+name: devc_contone_gray  @ 170 @ name: devc_contone_gray  @ 196 @ 
+block  @ 120 @ block  @ 142 @ 
+index  @ 250 @ index  @ 286 @ 
+specifier: const  @ 12 @ specifier: const  @ 13 @ 
+incr  @ 246 @ incr  @ 279 @ 
+name: fixed_epsilon  @ 54 @ name: fixed_epsilon  @ 58 @ 
+name: penum  @ 104 @ name: penum  @ 126 @ 
+init  @ 67 @ init  @ 74 @ 
+name: dda_current  @ 260 @ name: dda_current  @ 297 @ 
+argument  @ 142 @ argument  @ 167 @ 
+call  @ 74 @ call  @ 83 @ 
+type  @ 7 @ type  @ 8 @ 
+block  @ 180 @ block  @ 208 @ 
+init  @ 303 @ init  @ 343 @ 
+name: penum  @ 226 @ name: penum  @ 259 @ 
+expr_stmt  @ 82 @ expr_stmt  @ 94 @ 
+type  @ 2 @ type  @ 2 @ 
+expr_stmt  @ 264 @ expr_stmt  @ 301 @ 
+operator: )  @ 66 @ operator: )  @ 73 @ 
+operator: *  @ 203 @ operator: *  @ 234 @ 
+name  @ 180 @ name  @ 208 @ 
+argument_list  @ 85 @ argument_list  @ 97 @ 
+type  @ 10 @ type  @ 11 @ 
+name: penum  @ 63 @ name: penum  @ 69 @ 
+operator: =  @ 122 @ operator: =  @ 144 @ 
+decl_stmt  @ 19 @ decl_stmt  @ 20 @ 
+literal: 3  @ 265 @ literal: 3  @ 302 @ 
+type  @ 23 @ type  @ 24 @ 
+expr_stmt  @ 70 @ expr_stmt  @ 79 @ 
+operator: =  @ 260 @ operator: =  @ 297 @ 
+operator: )  @ 283 @ operator: )  @ 320 @ 
+expr_stmt  @ 189 @ expr_stmt  @ 218 @ 
+operator: +=  @ 327 @ operator: +=  @ 369 @ 
+index  @ 126 @ index  @ 150 @ 
+name: h  @ 2 @ name: h  @ 3 @ 
+expr  @ 246 @ expr  @ 279 @ 
+incr  @ 330 @ incr  @ 372 @ 
+call  @ 85 @ call  @ 97 @ 
+name  @ 9 @ name  @ 10 @ 
+operator: *  @ 126 @ operator: *  @ 150 @ 
+name: fixed2int_var_rounded  @ 301 @ name: fixed2int_var_rounded  @ 341 @ 
+operator: =  @ 316 @ operator: =  @ 358 @ 
+name: data_length  @ 70 @ name: data_length  @ 79 @ 
+expr_stmt  @ 167 @ expr_stmt  @ 193 @ 
+expr  @ 143 @ expr  @ 168 @ 
+operator: (  @ 276 @ operator: (  @ 313 @ 
+expr  @ 242 @ expr  @ 275 @ 
+expr_stmt  @ 108 @ expr_stmt  @ 130 @ 
+operator: ->  @ 225 @ operator: ->  @ 258 @ 
+block_content  @ 327 @ block_content  @ 369 @ 
+name: index  @ 96 @ name: index  @ 118 @ 
+name  @ 102 @ name  @ 124 @ 
+expr  @ 235 @ expr  @ 268 @ 
+name  @ 68 @ name  @ 75 @ 
+control  @ 337 @ control  @ 381 @ 
+name: devc_contone  @ 249 @ name: devc_contone  @ 284 @ 
+expr  @ 107 @ expr  @ 129 @ 
+operator: <  @ 330 @ operator: <  @ 372 @ 
+expr  @ 184 @ expr  @ 213 @ 
+default  @ 78 @ default  @ 87 @ 
+index  @ 10 @ index  @ 11 @ 
+literal: 0  @ 26 @ literal: 0  @ 27 @ 
+expr  @ 337 @ expr  @ 381 @ 
+operator: =  @ 212 @ operator: =  @ 245 @ 
+operator: *  @ 283 @ operator: *  @ 320 @ 
+operator: ->  @ 49 @ operator: ->  @ 53 @ 
+block  @ 93 @ block  @ 112 @ 
+expr_stmt  @ 151 @ expr_stmt  @ 177 @ 
+name: penum  @ 355 @ name: penum  @ 399 @ 
+expr  @ 124 @ expr  @ 147 @ 
+expr  @ 80 @ expr  @ 92 @ 
+type  @ 16 @ type  @ 17 @ 
+call  @ 300 @ call  @ 340 @ 
+name: int  @ 13 @ name: int  @ 14 @ 
+expr  @ 85 @ expr  @ 97 @ 
+operator: +  @ 98 @ operator: +  @ 120 @ 
+expr  @ 241 @ expr  @ 274 @ 
+operator: =  @ 88 @ operator: =  @ 100 @ 
+operator: +  @ 249 @ operator: +  @ 284 @ 
+operator: +=  @ 100 @ operator: +=  @ 122 @ 
+call  @ 243 @ call  @ 276 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 72 @ 
+name: GX_DEVICE_COLOR_MAX_COMPONENTS  @ 9 @ name: GX_DEVICE_COLOR_MAX_COMPONENTS  @ 10 @ 
+expr  @ 142 @ expr  @ 167 @ 
+condition  @ 186 @ condition  @ 215 @ 
+name: xn  @ 25 @ name: xn  @ 26 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 307 @ expr  @ 347 @ 
+expr  @ 328 @ expr  @ 370 @ 
+expr  @ 246 @ expr  @ 279 @ 
+operator: +  @ 126 @ operator: +  @ 150 @ 
+index  @ 285 @ index  @ 322 @ 
+comment: /* line_size == 0, nothing to do */  @ 32 @ comment: /* line_size == 0, nothing to do */  @ 33 @ 
+decl  @ 12 @ decl  @ 13 @ 
+if_stmt  @ 196 @ if_stmt  @ 227 @ 
+operator: ->  @ 43 @ operator: ->  @ 45 @ 
+name: psrc_temp  @ 218 @ name: psrc_temp  @ 251 @ 
+block_content  @ 147 @ block_content  @ 172 @ 
+name: position  @ 205 @ name: position  @ 238 @ 
+name: k  @ 258 @ name: k  @ 295 @ 
+expr  @ 147 @ expr  @ 172 @ 
+expr  @ 128 @ expr  @ 152 @ 
+operator: *  @ 250 @ operator: *  @ 286 @ 
+operator: ++  @ 250 @ operator: ++  @ 287 @ 
+name: thresh_buffer  @ 368 @ name: thresh_buffer  @ 413 @ 
+operator: .  @ 354 @ operator: .  @ 398 @ 
+literal: 1  @ 297 @ literal: 1  @ 337 @ 
+name: thresh_align  @ 368 @ name: thresh_align  @ 413 @ 
+block_content  @ 97 @ block_content  @ 119 @ 
+name: spp_out  @ 67 @ name: spp_out  @ 74 @ 
+name: xn  @ 301 @ name: xn  @ 341 @ 
+condition  @ 196 @ condition  @ 227 @ 
+literal: 3  @ 244 @ literal: 3  @ 277 @ 
+expr  @ 244 @ expr  @ 277 @ 
+literal: 16  @ 107 @ literal: 16  @ 129 @ 
+expr  @ 108 @ expr  @ 130 @ 
+literal: 0  @ 262 @ literal: 0  @ 299 @ 
+name: data_x  @ 2 @ name: data_x  @ 2 @ 
+block_content  @ 300 @ block_content  @ 340 @ 
+name  @ 296 @ name  @ 335 @ 
+name: image_landscape  @ 293 @ name: image_landscape  @ 330 @ 
+literal: 2  @ 243 @ literal: 2  @ 276 @ 
+expr  @ 299 @ expr  @ 339 @ 
+init  @ 278 @ init  @ 315 @ 
+operator: (  @ 98 @ operator: (  @ 120 @ 
+decl  @ 27 @ decl  @ 28 @ 
+expr_stmt  @ 301 @ expr_stmt  @ 341 @ 
+operator: >  @ 302 @ operator: >  @ 342 @ 
+expr  @ 52 @ expr  @ 56 @ 
+expr  @ 12 @ expr  @ 13 @ 
+argument  @ 369 @ argument  @ 414 @ 
+expr  @ 261 @ expr  @ 298 @ 
+argument_list  @ 71 @ argument_list  @ 80 @ 
+expr  @ 337 @ expr  @ 381 @ 
+operator: +  @ 331 @ operator: +  @ 374 @ 
+expr_stmt  @ 304 @ expr_stmt  @ 344 @ 
+name: count  @ 93 @ name: count  @ 112 @ 
+name: spp_cm  @ 27 @ name: spp_cm  @ 28 @ 
+name: dda  @ 52 @ name: dda  @ 56 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+operator: )  @ 89 @ operator: )  @ 101 @ 
+operator: <  @ 278 @ operator: <  @ 315 @ 
+expr_stmt  @ 279 @ expr_stmt  @ 316 @ 
+expr  @ 374 @ expr  @ 422 @ 
+condition  @ 121 @ condition  @ 143 @ 
+argument  @ 260 @ argument  @ 297 @ 
+name: spp_out  @ 341 @ name: spp_out  @ 385 @ 
+operator: ->  @ 224 @ operator: ->  @ 257 @ 
+expr  @ 66 @ expr  @ 72 @ 
+decl  @ 13 @ decl  @ 14 @ 
+comment: /* at loop exit xn will be<= xr */  @ 346 @ comment: /* at loop exit xn will be<= xr */  @ 390 @ 
+condition  @ 315 @ condition  @ 357 @ 
+operator: ==  @ 240 @ operator: ==  @ 273 @ 
+operator: ,  @ 146 @ operator: ,  @ 171 @ 
+name: penum  @ 111 @ name: penum  @ 133 @ 
+block_content  @ 238 @ block_content  @ 271 @ 
+name: devc_contone  @ 247 @ name: devc_contone  @ 280 @ 
+name: dda_next  @ 259 @ name: dda_next  @ 296 @ 
+name: psrc_cm  @ 34 @ name: psrc_cm  @ 35 @ 
+expr  @ 316 @ expr  @ 358 @ 
+name: psrc_plane  @ 241 @ name: psrc_plane  @ 274 @ 
+name  @ 264 @ name  @ 301 @ 
+name: devc_contone_gray  @ 156 @ name: devc_contone_gray  @ 182 @ 
+expr  @ 247 @ expr  @ 280 @ 
+operator: +=  @ 253 @ operator: +=  @ 290 @ 
+control  @ 319 @ control  @ 361 @ 
+name: psrc_cm_start  @ 34 @ name: psrc_cm_start  @ 36 @ 
+name: ht_landscape  @ 98 @ name: ht_landscape  @ 120 @ 
+name  @ 49 @ name  @ 53 @ 
+name: curr_pos  @ 297 @ name: curr_pos  @ 336 @ 
+name: position  @ 188 @ name: position  @ 217 @ 
+expr  @ 303 @ expr  @ 343 @ 
+name: k  @ 197 @ name: k  @ 228 @ 
+decl  @ 19 @ decl  @ 20 @ 
+expr  @ 155 @ expr  @ 181 @ 
+index  @ 242 @ index  @ 275 @ 
+name: xr  @ 345 @ name: xr  @ 389 @ 
+name: num_contones  @ 226 @ name: num_contones  @ 259 @ 
+decl  @ 29 @ decl  @ 30 @ 
+operator: (  @ 342 @ operator: (  @ 386 @ 
+name: k  @ 183 @ name: k  @ 212 @ 
+block_content  @ 167 @ block_content  @ 193 @ 
+name: ht_landscape  @ 93 @ name: ht_landscape  @ 112 @ 
+index  @ 265 @ index  @ 302 @ 
+argument_list  @ 74 @ argument_list  @ 83 @ 
+operator: .  @ 312 @ operator: .  @ 352 @ 
+index  @ 244 @ index  @ 277 @ 
+block  @ 140 @ block  @ 165 @ 
+expr  @ 265 @ expr  @ 302 @ 
+name: dda_ht  @ 212 @ name: dda_ht  @ 245 @ 
+incr  @ 210 @ incr  @ 243 @ 
+operator: =  @ 187 @ operator: =  @ 216 @ 
+expr  @ 369 @ expr  @ 415 @ 
+comment: /* Can't do this earlier, as GC might move the buffers. */  @ 59 @ comment: /* Can't do this earlier, as GC might move the buffers. */  @ 65 @ 
+name: k  @ 258 @ name: k  @ 295 @ 
+index  @ 204 @ index  @ 235 @ 
+name: dev  @ 14 @ name: dev  @ 15 @ 
+name: position  @ 187 @ name: position  @ 216 @ 
+expr  @ 243 @ expr  @ 276 @ 
+expr  @ 304 @ expr  @ 344 @ 
+name: fixed2int_var_rounded  @ 71 @ name: fixed2int_var_rounded  @ 80 @ 
+condition  @ 145 @ condition  @ 170 @ 
+expr  @ 102 @ expr  @ 124 @ 
+operator: (  @ 52 @ operator: (  @ 56 @ 
+type  @ 27 @ type  @ 28 @ 
+init  @ 183 @ init  @ 212 @ 
+init  @ 120 @ init  @ 142 @ 
+block  @ 162 @ block  @ 188 @ 
+name  @ 241 @ name  @ 274 @ 
+expr_stmt  @ 89 @ expr_stmt  @ 101 @ 
+expr_stmt  @ 224 @ expr_stmt  @ 257 @ 
+name: j  @ 330 @ name: j  @ 372 @ 
+operator: ->  @ 97 @ operator: ->  @ 119 @ 
+literal: 0  @ 247 @ literal: 0  @ 281 @ 
+argument  @ 154 @ argument  @ 180 @ 
+if  @ 326 @ if  @ 368 @ 
+expr_stmt  @ 173 @ expr_stmt  @ 199 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 44 @ 
+argument_list  @ 242 @ argument_list  @ 275 @ 
+name: count  @ 223 @ name: count  @ 256 @ 
+operator: (  @ 297 @ operator: (  @ 337 @ 
+operator: =  @ 278 @ operator: =  @ 315 @ 
+operator: ++  @ 278 @ operator: ++  @ 315 @ 
+operator: ->  @ 68 @ operator: ->  @ 77 @ 
+call  @ 142 @ call  @ 167 @ 
+name: j  @ 342 @ name: j  @ 386 @ 
+expr  @ 178 @ expr  @ 204 @ 
+operator: >=  @ 105 @ operator: >=  @ 127 @ 
+name: devc_contone_gray  @ 136 @ name: devc_contone_gray  @ 161 @ 
+name: k  @ 319 @ name: k  @ 361 @ 
+name  @ 52 @ name  @ 56 @ 
+operator: )  @ 262 @ operator: )  @ 299 @ 
+literal: 0  @ 303 @ literal: 0  @ 343 @ 
+literal: 0  @ 341 @ literal: 0  @ 385 @ 
+name  @ 250 @ name  @ 286 @ 
+init  @ 337 @ init  @ 381 @ 
+operator: -  @ 274 @ operator: -  @ 311 @ 
+literal: 0  @ 67 @ literal: 0  @ 74 @ 
+name: ht_landscape  @ 97 @ name: ht_landscape  @ 119 @ 
+expr  @ 278 @ expr  @ 315 @ 
+literal: 0  @ 35 @ literal: 0  @ 37 @ 
+name: k  @ 152 @ name: k  @ 178 @ 
+condition  @ 52 @ condition  @ 56 @ 
+name: int  @ 17 @ name: int  @ 18 @ 
+name: k  @ 198 @ name: k  @ 229 @ 
+name: xr  @ 169 @ name: xr  @ 195 @ 
+operator: +=  @ 274 @ operator: +=  @ 311 @ 
+block_content  @ 141 @ block_content  @ 166 @ 
+expr_stmt  @ 86 @ expr_stmt  @ 98 @ 
+operator: +  @ 181 @ operator: +  @ 209 @ 
+expr  @ 126 @ expr  @ 150 @ 
+name: src_size  @ 245 @ name: src_size  @ 278 @ 
+name: offset_bits  @ 98 @ name: offset_bits  @ 120 @ 
+call  @ 82 @ call  @ 94 @ 
+block_content  @ 321 @ block_content  @ 363 @ 
+argument_list  @ 60 @ argument_list  @ 66 @ 
+name: xn  @ 213 @ name: xn  @ 246 @ 
+literal: 2  @ 249 @ literal: 2  @ 285 @ 
+name  @ 253 @ name  @ 290 @ 
+operator: =  @ 64 @ operator: =  @ 70 @ 
+name: offset_bits  @ 100 @ name: offset_bits  @ 122 @ 
+name: w  @ 2 @ name: w  @ 3 @ 
+if_stmt  @ 296 @ if_stmt  @ 335 @ 
+operator: )  @ 285 @ operator: )  @ 322 @ 
+block  @ 213 @ block  @ 246 @ 
+block_content  @ 187 @ block_content  @ 216 @ 
+operator: )  @ 247 @ operator: )  @ 280 @ 
+expr  @ 243 @ expr  @ 276 @ 
+name: penum  @ 312 @ name: penum  @ 352 @ 
+expr  @ 276 @ expr  @ 313 @ 
+expr  @ 142 @ expr  @ 167 @ 
+literal: 0  @ 109 @ literal: 0  @ 131 @ 
+expr  @ 263 @ expr  @ 300 @ 
+expr  @ 167 @ expr  @ 193 @ 
+name: k  @ 246 @ name: k  @ 279 @ 
+argument  @ 34 @ argument  @ 35 @ 
+name  @ 82 @ name  @ 94 @ 
+decl  @ 8 @ decl  @ 9 @ 
+name: spp_out  @ 315 @ name: spp_out  @ 357 @ 
+index  @ 244 @ index  @ 277 @ 
+name: dda_ht  @ 54 @ name: dda_ht  @ 58 @ 
+argument  @ 301 @ argument  @ 341 @ 
+operator: *  @ 297 @ operator: *  @ 337 @ 
+name  @ 282 @ name  @ 319 @ 
+name: ht_landscape  @ 194 @ name: ht_landscape  @ 223 @ 
+operator: =  @ 283 @ operator: =  @ 320 @ 
+argument_list  @ 260 @ argument_list  @ 297 @ 
+name: devc_contone  @ 304 @ name: devc_contone  @ 344 @ 
+argument_list  @ 243 @ argument_list  @ 276 @ 
+expr  @ 258 @ expr  @ 295 @ 
+argument  @ 242 @ argument  @ 275 @ 
+block  @ 202 @ block  @ 233 @ 
+argument  @ 339 @ argument  @ 383 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 27 @ 
+block  @ 201 @ block  @ 232 @ 
+index  @ 263 @ index  @ 300 @ 
+operator: ||  @ 38 @ operator: ||  @ 40 @ 
+name: psrc_plane  @ 322 @ name: psrc_plane  @ 364 @ 
+name: x  @ 63 @ name: x  @ 69 @ 
+expr  @ 157 @ expr  @ 183 @ 
+operator: =  @ 43 @ operator: =  @ 45 @ 
+operator: *  @ 124 @ operator: *  @ 148 @ 
+operator: ==  @ 38 @ operator: ==  @ 40 @ 
+name: psrc_plane  @ 10 @ name: psrc_plane  @ 11 @ 
+operator: =  @ 128 @ operator: =  @ 152 @ 
+expr_stmt  @ 250 @ expr_stmt  @ 286 @ 
+name: src_size  @ 258 @ name: src_size  @ 295 @ 
+name: data_length  @ 142 @ name: data_length  @ 167 @ 
+name: code  @ 36 @ name: code  @ 38 @ 
+expr  @ 184 @ expr  @ 213 @ 
+name  @ 198 @ name  @ 229 @ 
+operator: ==  @ 245 @ operator: ==  @ 278 @ 
+condition  @ 38 @ condition  @ 40 @ 
+comment: /* Is it better to unwind this?We know it is 4 */  @ 329 @ comment: /* Is it better to unwind this?  We know it is 4 */  @ 371 @ 
+condition  @ 278 @ condition  @ 315 @ 
+operator: (  @ 282 @ operator: (  @ 319 @ 
+name: xn  @ 340 @ name: xn  @ 384 @ 
+literal: 0  @ 282 @ literal: 0  @ 319 @ 
+block_content  @ 142 @ block_content  @ 167 @ 
+operator: )  @ 89 @ operator: )  @ 102 @ 
+operator: &  @ 68 @ operator: &  @ 77 @ 
+operator: +  @ 342 @ operator: +  @ 386 @ 
+operator: &  @ 34 @ operator: &  @ 36 @ 
+expr_stmt  @ 109 @ expr_stmt  @ 131 @ 
+name  @ 331 @ name  @ 374 @ 
+decl  @ 15 @ decl  @ 16 @ 
+operator: <  @ 152 @ operator: <  @ 178 @ 
+expr  @ 225 @ expr  @ 258 @ 
+name: k  @ 246 @ name: k  @ 279 @ 
+case  @ 57 @ case  @ 61 @ 
+while  @ 281 @ while  @ 318 @ 
+argument  @ 369 @ argument  @ 415 @ 
+expr  @ 164 @ expr  @ 190 @ 
+init  @ 258 @ init  @ 295 @ 
+operator: ->  @ 95 @ operator: ->  @ 117 @ 
+index  @ 248 @ index  @ 282 @ 
+call  @ 84 @ call  @ 96 @ 
+name: data_length  @ 277 @ name: data_length  @ 314 @ 
+name: penum  @ 74 @ name: penum  @ 83 @ 
+for  @ 278 @ for  @ 315 @ 
+operator: +  @ 368 @ operator: +  @ 413 @ 
+expr  @ 183 @ expr  @ 212 @ 
+expr  @ 249 @ expr  @ 284 @ 
+name: devc_contone  @ 252 @ name: devc_contone  @ 289 @ 
+name: dst_width  @ 239 @ name: dst_width  @ 272 @ 
+else  @ 335 @ else  @ 379 @ 
+operator: =  @ 327 @ operator: =  @ 369 @ 
+block_content  @ 211 @ block_content  @ 244 @ 
+name  @ 322 @ name  @ 364 @ 
+name  @ 225 @ name  @ 258 @ 
+name  @ 265 @ name  @ 302 @ 
+operator: >  @ 186 @ operator: >  @ 215 @ 
+operator: *  @ 331 @ operator: *  @ 373 @ 
+name: devc_contone_gray  @ 147 @ name: devc_contone_gray  @ 173 @ 
+literal: 1  @ 275 @ literal: 1  @ 312 @ 
+operator: )  @ 331 @ operator: )  @ 375 @ 
+expr_stmt  @ 339 @ expr_stmt  @ 383 @ 
+expr  @ 250 @ expr  @ 287 @ 
+literal: 1  @ 250 @ literal: 1  @ 286 @ 
+operator: --  @ 282 @ operator: --  @ 319 @ 
+expr  @ 65 @ expr  @ 71 @ 
+name: penum  @ 354 @ name: penum  @ 398 @ 
+operator: =  @ 303 @ operator: =  @ 343 @ 
+type  @ 2 @ type  @ 2 @ 
+if_stmt  @ 53 @ if_stmt  @ 57 @ 
+condition  @ 327 @ condition  @ 369 @ 
+operator: --  @ 170 @ operator: --  @ 196 @ 
+argument_list  @ 184 @ argument_list  @ 213 @ 
+condition  @ 169 @ condition  @ 195 @ 
+ternary  @ 52 @ ternary  @ 56 @ 
+name: devc_contone  @ 342 @ name: devc_contone  @ 386 @ 
+operator: !=  @ 32 @ operator: !=  @ 33 @ 
+name: byte  @ 28 @ name: byte  @ 29 @ 
+condition  @ 143 @ condition  @ 168 @ 
+operator: +=  @ 215 @ operator: +=  @ 248 @ 
+if  @ 93 @ if  @ 112 @ 
+name: psrc_temp  @ 187 @ name: psrc_temp  @ 216 @ 
+name: dest_height  @ 13 @ name: dest_height  @ 14 @ 
+name: devc_contone  @ 265 @ name: devc_contone  @ 302 @ 
+expr  @ 262 @ expr  @ 299 @ 
+expr  @ 84 @ expr  @ 96 @ 
+name: data_length  @ 275 @ name: data_length  @ 312 @ 
+block  @ 246 @ block  @ 279 @ 
+operator: =  @ 246 @ operator: =  @ 279 @ 
+init  @ 246 @ init  @ 279 @ 
+index  @ 264 @ index  @ 301 @ 
+name: memcpy  @ 242 @ name: memcpy  @ 275 @ 
+name: dda_ht  @ 279 @ name: dda_ht  @ 316 @ 
+argument  @ 142 @ argument  @ 167 @ 
+expr_stmt  @ 144 @ expr_stmt  @ 169 @ 
+name  @ 284 @ name  @ 321 @ 
+operator: ->  @ 352 @ operator: ->  @ 396 @ 
+name: k  @ 126 @ name: k  @ 150 @ 
+name: pixel0  @ 52 @ name: pixel0  @ 56 @ 
+expr  @ 284 @ expr  @ 321 @ 
+expr  @ 321 @ expr  @ 363 @ 
+name: penum  @ 4 @ name: penum  @ 5 @ 
+expr  @ 328 @ expr  @ 370 @ 
+operator: *  @ 249 @ operator: *  @ 284 @ 
+operator: )  @ 87 @ operator: )  @ 99 @ 
+expr  @ 309 @ expr  @ 349 @ 
+literal: 1  @ 248 @ literal: 1  @ 283 @ 
+name  @ 124 @ name  @ 147 @ 
+expr  @ 280 @ expr  @ 317 @ 
+index  @ 331 @ index  @ 375 @ 
+expr  @ 250 @ expr  @ 286 @ 
+argument_list  @ 84 @ argument_list  @ 96 @ 
+name: vdi  @ 352 @ name: vdi  @ 396 @ 
+expr_stmt  @ 369 @ expr_stmt  @ 414 @ 
+name: data_length  @ 13 @ name: data_length  @ 14 @ 
+expr  @ 247 @ expr  @ 280 @ 
+operator: (  @ 247 @ operator: (  @ 280 @ 
+block_content  @ 322 @ block_content  @ 364 @ 
+block  @ 155 @ block  @ 181 @ 
+init  @ 29 @ init  @ 30 @ 
+operator: )  @ 283 @ operator: )  @ 320 @ 
+name: dest_width  @ 143 @ name: dest_width  @ 168 @ 
+literal: 2  @ 201 @ literal: 2  @ 232 @ 
+index  @ 316 @ index  @ 358 @ 
+name: psrc_planestride  @ 126 @ name: psrc_planestride  @ 150 @ 
+name  @ 249 @ name  @ 284 @ 
+expr  @ 322 @ expr  @ 364 @ 
+name: penum  @ 194 @ name: penum  @ 223 @ 
+expr_stmt  @ 226 @ expr_stmt  @ 259 @ 
+operator: (  @ 265 @ operator: (  @ 302 @ 
+operator: +=  @ 332 @ operator: +=  @ 376 @ 
+name: count  @ 42 @ name: count  @ 44 @ 
+name: k  @ 337 @ name: k  @ 381 @ 
+name: fixed2int_var_rounded  @ 339 @ name: fixed2int_var_rounded  @ 383 @ 
+expr_stmt  @ 259 @ expr_stmt  @ 296 @ 
+operator: .  @ 225 @ operator: .  @ 258 @ 
+if  @ 38 @ if  @ 40 @ 
+name: ht_landscape  @ 353 @ name: ht_landscape  @ 397 @ 
+index  @ 89 @ index  @ 101 @ 
+name: dest_width  @ 61 @ name: dest_width  @ 67 @ 
+name: psrc_plane  @ 126 @ name: psrc_plane  @ 150 @ 
+operator: =  @ 342 @ operator: =  @ 386 @ 
+operator: *  @ 74 @ operator: *  @ 83 @ 
+name: dest_height  @ 369 @ name: dest_height  @ 414 @ 
+operator: ->  @ 14 @ operator: ->  @ 15 @ 
+expr  @ 372 @ expr  @ 419 @ 
+name: penum  @ 74 @ name: penum  @ 83 @ 
+name  @ 247 @ name  @ 280 @ 
+name: psrc_cm  @ 198 @ name: psrc_cm  @ 229 @ 
+if_stmt  @ 140 @ if_stmt  @ 165 @ 
+name: xn  @ 281 @ name: xn  @ 318 @ 
+operator: ++  @ 183 @ operator: ++  @ 212 @ 
+incr  @ 258 @ incr  @ 295 @ 
+condition  @ 155 @ condition  @ 181 @ 
+init  @ 27 @ init  @ 28 @ 
+expr_stmt  @ 63 @ expr_stmt  @ 69 @ 
+operator: (  @ 331 @ operator: (  @ 373 @ 
+name: ht_landscape  @ 38 @ name: ht_landscape  @ 40 @ 
+expr  @ 264 @ expr  @ 301 @ 
+call  @ 154 @ call  @ 180 @ 
+init  @ 166 @ init  @ 192 @ 
+operator: ->  @ 223 @ operator: ->  @ 256 @ 
+condition  @ 120 @ condition  @ 142 @ 
+argument_list  @ 241 @ argument_list  @ 274 @ 
+name: thresh_align  @ 369 @ name: thresh_align  @ 415 @ 
+expr  @ 104 @ expr  @ 126 @ 
+operator: (  @ 262 @ operator: (  @ 299 @ 
+expr_stmt  @ 104 @ expr_stmt  @ 126 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+name  @ 297 @ name  @ 336 @ 
+name: line  @ 122 @ name: line  @ 144 @ 
+operator: +=  @ 199 @ operator: +=  @ 230 @ 
+operator: +=  @ 251 @ operator: +=  @ 288 @ 
+argument_list  @ 211 @ argument_list  @ 244 @ 
+operator: ++  @ 355 @ operator: ++  @ 399 @ 
+argument_list  @ 128 @ argument_list  @ 152 @ 
+operator: ++  @ 299 @ operator: ++  @ 339 @ 
+expr  @ 84 @ expr  @ 96 @ 
+operator: ++  @ 309 @ operator: ++  @ 349 @ 
+literal: 3  @ 277 @ literal: 3  @ 314 @ 
+name  @ 42 @ name  @ 44 @ 
+operator: ++  @ 262 @ operator: ++  @ 299 @ 
+operator: --  @ 171 @ operator: --  @ 197 @ 
+operator: )  @ 68 @ operator: )  @ 75 @ 
+incr  @ 166 @ incr  @ 192 @ 
+comment: /* xci can be negative, see Bug 692569. */  @ 103 @ comment: /* xci can be negative, see Bug 692569. */  @ 125 @ 
+operator: )  @ 322 @ operator: )  @ 364 @ 
+name: penum  @ 68 @ name: penum  @ 75 @ 
+argument  @ 243 @ argument  @ 276 @ 
+block  @ 141 @ block  @ 166 @ 
+operator: &  @ 87 @ operator: &  @ 99 @ 
+expr  @ 146 @ expr  @ 171 @ 
+name: offset_contone  @ 89 @ name: offset_contone  @ 101 @ 
+name: psrc_cm  @ 182 @ name: psrc_cm  @ 211 @ 
+name: bool  @ 20 @ name: bool  @ 21 @ 
+operator: )  @ 277 @ operator: )  @ 314 @ 
+call  @ 153 @ call  @ 179 @ 
+name  @ 262 @ name  @ 299 @ 
+operator: >  @ 53 @ operator: >  @ 57 @ 
+operator: ==  @ 143 @ operator: ==  @ 168 @ 
+name: dda_ht  @ 128 @ name: dda_ht  @ 152 @ 
+name: psrc_temp  @ 156 @ name: psrc_temp  @ 182 @ 
+block_content  @ 36 @ block_content  @ 38 @ 
+name: k  @ 197 @ name: k  @ 228 @ 
+name: src_size  @ 299 @ name: src_size  @ 339 @ 
+operator: (  @ 68 @ operator: (  @ 75 @ 
+expr  @ 153 @ expr  @ 179 @ 
+comment: /* Mono case, forward */  @ 150 @ comment: /* Mono case, forward */  @ 176 @ 
+operator: =  @ 331 @ operator: =  @ 373 @ 
+operator: ++  @ 156 @ operator: ++  @ 182 @ 
+condition  @ 326 @ condition  @ 368 @ 
+operator: =  @ 319 @ operator: =  @ 361 @ 
+operator: (  @ 247 @ operator: (  @ 280 @ 
+operator: )  @ 52 @ operator: )  @ 56 @ 
+operator: =  @ 61 @ operator: =  @ 67 @ 
+expr_stmt  @ 154 @ expr_stmt  @ 180 @ 
+operator: =  @ 154 @ operator: =  @ 180 @ 
+name: xr  @ 171 @ name: xr  @ 197 @ 
+decl_stmt  @ 24 @ decl_stmt  @ 25 @ 
+expr_stmt  @ 285 @ expr_stmt  @ 322 @ 
+literal: 15  @ 89 @ literal: 15  @ 102 @ 
+block_content  @ 341 @ block_content  @ 385 @ 
+type  @ 15 @ type  @ 16 @ 
+operator: =  @ 60 @ operator: =  @ 66 @ 
+index  @ 304 @ index  @ 344 @ 
+condition  @ 67 @ condition  @ 74 @ 
+name: GX_DEVICE_COLOR_MAX_COMPONENTS  @ 10 @ name: GX_DEVICE_COLOR_MAX_COMPONENTS  @ 11 @ 
+name: curr_pos  @ 354 @ name: curr_pos  @ 398 @ 
+name: xn  @ 169 @ name: xn  @ 195 @ 
+operator: =  @ 331 @ operator: =  @ 374 @ 
+expr  @ 279 @ expr  @ 316 @ 
+expr  @ 191 @ expr  @ 220 @ 
+argument  @ 84 @ argument  @ 96 @ 
+index  @ 263 @ index  @ 300 @ 
+name: devc_contone  @ 283 @ name: devc_contone  @ 320 @ 
+name: int  @ 19 @ name: int  @ 20 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+name: j  @ 258 @ name: j  @ 295 @ 
+operator: ==  @ 38 @ operator: ==  @ 40 @ 
+name: psrc_temp  @ 182 @ name: psrc_temp  @ 211 @ 
+name  @ 89 @ name  @ 101 @ 
+argument  @ 280 @ argument  @ 317 @ 
+call  @ 260 @ call  @ 297 @ 
+name: flush  @ 367 @ name: flush  @ 412 @ 
+operator: ==  @ 107 @ operator: ==  @ 129 @ 
+block_content  @ 135 @ block_content  @ 160 @ 
+name: xn  @ 185 @ name: xn  @ 214 @ 
+name: memcpy  @ 243 @ name: memcpy  @ 276 @ 
+control  @ 67 @ control  @ 74 @ 
+literal: 1  @ 283 @ literal: 1  @ 320 @ 
+operator: =  @ 156 @ operator: =  @ 182 @ 
+expr  @ 263 @ expr  @ 300 @ 
+literal: 1  @ 283 @ literal: 1  @ 320 @ 
+expr  @ 183 @ expr  @ 212 @ 
+name: j  @ 341 @ name: j  @ 385 @ 
+expr  @ 340 @ expr  @ 384 @ 
+operator: ++  @ 152 @ operator: ++  @ 178 @ 
+if  @ 35 @ if  @ 37 @ 
+name: LAND_BITS  @ 332 @ name: LAND_BITS  @ 376 @ 
+name  @ 74 @ name  @ 83 @ 
+index  @ 254 @ index  @ 291 @ 
+expr  @ 262 @ expr  @ 299 @ 
+if  @ 107 @ if  @ 129 @ 
+condition  @ 197 @ condition  @ 228 @ 
+literal: 3  @ 244 @ literal: 3  @ 277 @ 
+expr  @ 260 @ expr  @ 297 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: penum  @ 52 @ name: penum  @ 56 @ 
+operator: ->  @ 181 @ operator: ->  @ 209 @ 
+condition  @ 53 @ condition  @ 57 @ 
+literal: 2  @ 143 @ literal: 2  @ 168 @ 
+name  @ 30 @ name  @ 31 @ 
+name: devc_contone  @ 253 @ name: devc_contone  @ 290 @ 
+literal: 0  @ 152 @ literal: 0  @ 178 @ 
+condition  @ 35 @ condition  @ 37 @ 
+block_content  @ 304 @ block_content  @ 344 @ 
+operator: =  @ 52 @ operator: =  @ 56 @ 
+literal: 1  @ 135 @ literal: 1  @ 160 @ 
+expr_stmt  @ 280 @ expr_stmt  @ 317 @ 
+name  @ 136 @ name  @ 161 @ 
+expr  @ 315 @ expr  @ 357 @ 
+expr_stmt  @ 312 @ expr_stmt  @ 352 @ 
+name: dda_current  @ 128 @ name: dda_current  @ 152 @ 
+operator: >  @ 169 @ operator: >  @ 195 @ 
+index  @ 342 @ index  @ 386 @ 
+name: j  @ 330 @ name: j  @ 372 @ 
+operator: =  @ 249 @ operator: =  @ 284 @ 
+argument  @ 61 @ argument  @ 67 @ 
+name: psrc_temp  @ 159 @ name: psrc_temp  @ 185 @ 
+name  @ 225 @ name  @ 258 @ 
+call  @ 280 @ call  @ 317 @ 
+name: fixed2int_var_rounded  @ 154 @ name: fixed2int_var_rounded  @ 180 @ 
+name: penum_orig  @ 4 @ name: penum_orig  @ 5 @ 
+operator: )  @ 248 @ operator: )  @ 282 @ 
+operator: (  @ 283 @ operator: (  @ 320 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 12 @ 
+name: ht_landscape  @ 296 @ name: ht_landscape  @ 335 @ 
+name: offset_bits  @ 111 @ name: offset_bits  @ 133 @ 
+expr  @ 45 @ expr  @ 47 @ 
+argument  @ 372 @ argument  @ 420 @ 
+expr_stmt  @ 85 @ expr_stmt  @ 97 @ 
+name: k  @ 166 @ name: k  @ 192 @ 
+expr_stmt  @ 153 @ expr_stmt  @ 179 @ 
+operator: =  @ 185 @ operator: =  @ 214 @ 
+operator: +  @ 66 @ operator: +  @ 72 @ 
+argument  @ 260 @ argument  @ 297 @ 
+name: ht_landscape  @ 354 @ name: ht_landscape  @ 398 @ 
+operator: *  @ 247 @ operator: *  @ 280 @ 
+literal: 0  @ 246 @ literal: 0  @ 279 @ 
+operator: +  @ 122 @ operator: +  @ 144 @ 
+name  @ 251 @ name  @ 288 @ 
+expr_stmt  @ 111 @ expr_stmt  @ 133 @ 
+incr  @ 145 @ incr  @ 170 @ 
+name  @ 204 @ name  @ 235 @ 
+operator: =  @ 44 @ operator: =  @ 46 @ 
+name: dda_next  @ 338 @ name: dda_next  @ 382 @ 
+operator: =  @ 67 @ operator: =  @ 74 @ 
+argument  @ 369 @ argument  @ 416 @ 
+condition  @ 337 @ condition  @ 381 @ 
+literal: 0  @ 262 @ literal: 0  @ 299 @ 
+name: penum  @ 97 @ name: penum  @ 119 @ 
+name: devc_contone_gray  @ 164 @ name: devc_contone_gray  @ 190 @ 
+modifier: *  @ 12 @ modifier: *  @ 13 @ 
+name: j  @ 285 @ name: j  @ 322 @ 
+index  @ 204 @ index  @ 237 @ 
+index  @ 204 @ index  @ 236 @ 
+expr  @ 341 @ expr  @ 385 @ 
+expr  @ 316 @ expr  @ 358 @ 
+expr_stmt  @ 171 @ expr_stmt  @ 197 @ 
+name  @ 248 @ name  @ 283 @ 
+operator: ->  @ 82 @ operator: ->  @ 94 @ 
+name  @ 316 @ name  @ 358 @ 
+name: psrc_temp  @ 170 @ name: psrc_temp  @ 196 @ 
+name: dda_ht  @ 85 @ name: dda_ht  @ 97 @ 
+name  @ 353 @ name  @ 397 @ 
+expr  @ 202 @ expr  @ 233 @ 
+block_content  @ 144 @ block_content  @ 169 @ 
+name: ht_landscape  @ 96 @ name: ht_landscape  @ 118 @ 
+expr  @ 183 @ expr  @ 212 @ 
+name: flush_buff  @ 116 @ name: flush_buff  @ 138 @ 
+expr_stmt  @ 211 @ expr_stmt  @ 244 @ 
+name: dev  @ 34 @ name: dev  @ 35 @ 
+expr  @ 14 @ expr  @ 15 @ 
+operator: )  @ 68 @ operator: )  @ 77 @ 
+name: k  @ 68 @ name: k  @ 76 @ 
+operator: ->  @ 368 @ operator: ->  @ 413 @ 
+operator: .  @ 71 @ operator: .  @ 80 @ 
+expr_stmt  @ 105 @ expr_stmt  @ 127 @ 
+name: index  @ 354 @ name: index  @ 398 @ 
+expr_stmt  @ 199 @ expr_stmt  @ 230 @ 
+expr  @ 341 @ expr  @ 385 @ 
+control  @ 303 @ control  @ 343 @ 
+operator: ++  @ 120 @ operator: ++  @ 142 @ 
+operator: ++  @ 191 @ operator: ++  @ 220 @ 
+operator: =  @ 301 @ operator: =  @ 341 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 67 @ 
+literal: 0  @ 247 @ literal: 0  @ 280 @ 
+operator: +  @ 68 @ operator: +  @ 75 @ 
+operator: )  @ 276 @ operator: )  @ 313 @ 
+name: penum  @ 239 @ name: penum  @ 272 @ 
+block  @ 36 @ block  @ 38 @ 
+operator: +=  @ 205 @ operator: +=  @ 238 @ 
+expr  @ 85 @ expr  @ 97 @ 
+name: line_size  @ 81 @ name: line_size  @ 93 @ 
+name  @ 243 @ name  @ 276 @ 
+expr_stmt  @ 275 @ expr_stmt  @ 312 @ 
+expr  @ 156 @ expr  @ 182 @ 
+name  @ 224 @ name  @ 257 @ 
+name: k  @ 183 @ name: k  @ 212 @ 
+expr  @ 338 @ expr  @ 382 @ 
+operator: <  @ 88 @ operator: <  @ 100 @ 
+operator: <  @ 166 @ operator: <  @ 192 @ 
+operator: *  @ 304 @ operator: *  @ 344 @ 
+type  @ 28 @ type  @ 29 @ 
+call  @ 244 @ call  @ 277 @ 
+argument  @ 82 @ argument  @ 94 @ 
+comment: /* Need to flush the buffer */  @ 41 @ comment: /* Need to flush the buffer */  @ 43 @ 
+argument_list  @ 142 @ argument_list  @ 167 @ 
+expr  @ 214 @ expr  @ 247 @ 
+block  @ 318 @ block  @ 360 @ 
+expr  @ 198 @ expr  @ 229 @ 
+argument_list  @ 185 @ argument_list  @ 214 @ 
+name: dda_ht  @ 211 @ name: dda_ht  @ 244 @ 
+name  @ 66 @ name  @ 73 @ 
+block_content  @ 279 @ block_content  @ 316 @ 
+name: k  @ 315 @ name: k  @ 357 @ 
+expr  @ 248 @ expr  @ 282 @ 
+expr  @ 77 @ expr  @ 86 @ 
+argument  @ 339 @ argument  @ 383 @ 
+operator: .  @ 353 @ operator: .  @ 397 @ 
+incr  @ 183 @ incr  @ 212 @ 
+index  @ 282 @ index  @ 319 @ 
+name: k  @ 88 @ name: k  @ 100 @ 
+literal: 0  @ 239 @ literal: 0  @ 272 @ 
+for  @ 183 @ for  @ 212 @ 
+operator: .  @ 52 @ operator: .  @ 56 @ 
+operator: =  @ 89 @ operator: =  @ 101 @ 
+name: dda_next  @ 184 @ name: dda_next  @ 213 @ 
+name  @ 353 @ name  @ 397 @ 
+expr  @ 248 @ expr  @ 282 @ 
+name: dda_ht  @ 339 @ name: dda_ht  @ 383 @ 
+name: posture  @ 236 @ name: posture  @ 269 @ 
+operator: ->  @ 32 @ operator: ->  @ 33 @ 
+operator: .  @ 296 @ operator: .  @ 335 @ 
+expr  @ 369 @ expr  @ 415 @ 
+operator: (  @ 265 @ operator: (  @ 302 @ 
+comment: /* use dda */  @ 336 @ comment: /* use dda */  @ 380 @ 
+block  @ 32 @ block  @ 33 @ 
+name: src_size  @ 49 @ name: src_size  @ 53 @ 
+name: penum  @ 225 @ name: penum  @ 258 @ 
+name  @ 16 @ name  @ 17 @ 
+name: w  @ 34 @ name: w  @ 35 @ 
+decl  @ 2 @ decl  @ 3 @ 
+operator: =  @ 70 @ operator: =  @ 79 @ 
+function  @ 1 @ function  @ 1 @ 
+block  @ 186 @ block  @ 215 @ 
+operator: (  @ 275 @ operator: (  @ 312 @ 
+argument  @ 61 @ argument  @ 67 @ 
+name: offset_bits  @ 107 @ name: offset_bits  @ 129 @ 
+name: k  @ 152 @ name: k  @ 178 @ 
+operator: &  @ 89 @ operator: &  @ 102 @ 
+init  @ 145 @ init  @ 170 @ 
+decl_stmt  @ 25 @ decl_stmt  @ 26 @ 
+name: widths  @ 224 @ name: widths  @ 257 @ 
+decl  @ 7 @ decl  @ 8 @ 
+decl  @ 9 @ decl  @ 10 @ 
+block_content  @ 209 @ block_content  @ 242 @ 
+name: int  @ 16 @ name: int  @ 17 @ 
+expr  @ 68 @ expr  @ 75 @ 
+init  @ 28 @ init  @ 29 @ 
+operator: =  @ 250 @ operator: =  @ 286 @ 
+expr  @ 81 @ expr  @ 93 @ 
+literal: 3  @ 265 @ literal: 3  @ 302 @ 
+name: x_extent  @ 63 @ name: x_extent  @ 69 @ 
+type  @ 9 @ type  @ 10 @ 
+decl  @ 2 @ decl  @ 3 @ 
+call  @ 128 @ call  @ 152 @ 
+decl  @ 22 @ decl  @ 23 @ 
+operator: ->  @ 140 @ operator: ->  @ 165 @ 
+argument_list  @ 185 @ argument_list  @ 214 @ 
+block  @ 110 @ block  @ 132 @ 
+operator: <  @ 303 @ operator: <  @ 343 @ 
+name: devc_contone_gray  @ 187 @ name: devc_contone_gray  @ 216 @ 
+type  @ 2 @ type  @ 2 @ 
+expr_stmt  @ 309 @ expr_stmt  @ 349 @ 
+name: k  @ 327 @ name: k  @ 369 @ 
+argument  @ 54 @ argument  @ 58 @ 
+literal: 15  @ 68 @ literal: 15  @ 77 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 66 @ 
+operator: (  @ 147 @ operator: (  @ 173 @ 
+operator: <=  @ 100 @ operator: <=  @ 122 @ 
+operator: =  @ 65 @ operator: =  @ 71 @ 
+expr_stmt  @ 286 @ expr_stmt  @ 323 @ 
+name: devc_contone  @ 250 @ name: devc_contone  @ 286 @ 
+index  @ 262 @ index  @ 299 @ 
+name: offset_bits  @ 43 @ name: offset_bits  @ 45 @ 
+if  @ 62 @ if  @ 68 @ 
+name: k  @ 67 @ name: k  @ 74 @ 
+literal: 0  @ 299 @ literal: 0  @ 339 @ 
+name: dda_ht  @ 60 @ name: dda_ht  @ 66 @ 
+expr  @ 71 @ expr  @ 80 @ 
+index  @ 250 @ index  @ 287 @ 
+call  @ 82 @ call  @ 94 @ 
+operator: )  @ 249 @ operator: )  @ 284 @ 
+expr  @ 223 @ expr  @ 256 @ 
+operator: <  @ 62 @ operator: <  @ 68 @ 
+expr_stmt  @ 187 @ expr_stmt  @ 216 @ 
+operator: -  @ 87 @ operator: -  @ 99 @ 
+name  @ 277 @ name  @ 314 @ 
+block  @ 196 @ block  @ 227 @ 
+operator: =  @ 210 @ operator: =  @ 243 @ 
+expr  @ 339 @ expr  @ 383 @ 
+name: vdi  @ 224 @ name: vdi  @ 257 @ 
+operator: +  @ 247 @ operator: +  @ 280 @ 
+operator: .  @ 354 @ operator: .  @ 398 @ 
+name  @ 285 @ name  @ 322 @ 
+name: xn  @ 261 @ name: xn  @ 298 @ 
+index  @ 276 @ index  @ 313 @ 
+block_content  @ 259 @ block_content  @ 296 @ 
+name: j  @ 282 @ name: j  @ 319 @ 
+name: data_length  @ 181 @ name: data_length  @ 210 @ 
+operator: (  @ 89 @ operator: (  @ 101 @ 
+name: k  @ 89 @ name: k  @ 102 @ 
+literal: 2  @ 249 @ literal: 2  @ 284 @ 
+operator: +=  @ 254 @ operator: +=  @ 291 @ 
+name: penum  @ 64 @ name: penum  @ 70 @ 
+expr  @ 60 @ expr  @ 66 @ 
+block_content  @ 194 @ block_content  @ 223 @ 
+literal: 1  @ 276 @ literal: 1  @ 313 @ 
+expr  @ 54 @ expr  @ 58 @ 
+condition  @ 32 @ condition  @ 33 @ 
+name: int  @ 26 @ name: int  @ 27 @ 
+condition  @ 116 @ condition  @ 138 @ 
+expr_stmt  @ 216 @ expr_stmt  @ 249 @ 
+condition  @ 340 @ condition  @ 384 @ 
+expr  @ 369 @ expr  @ 414 @ 
+block_content  @ 198 @ block_content  @ 229 @ 
+expr  @ 214 @ expr  @ 247 @ 
+name: psrc_cm  @ 144 @ name: psrc_cm  @ 169 @ 
+name: psrc_temp  @ 21 @ name: psrc_temp  @ 22 @ 
+expr  @ 52 @ expr  @ 56 @ 
+expr  @ 52 @ expr  @ 56 @ 
+name: j  @ 322 @ name: j  @ 364 @ 
+expr  @ 263 @ expr  @ 300 @ 
+block_content  @ 54 @ block_content  @ 58 @ 
+name: k  @ 337 @ name: k  @ 381 @ 
+name: k  @ 327 @ name: k  @ 369 @ 
+name: vdi  @ 223 @ name: vdi  @ 256 @ 
+operator: +  @ 304 @ operator: +  @ 344 @ 
+name: dda_ht  @ 52 @ name: dda_ht  @ 56 @ 
+name: j  @ 304 @ name: j  @ 344 @ 
+type  @ 29 @ type  @ 30 @ 
+expr  @ 197 @ expr  @ 228 @ 
+name: DEBUG  @ 72 @ name: DEBUG  @ 81 @ 
+expr  @ 244 @ expr  @ 277 @ 
+block_content  @ 89 @ block_content  @ 101 @ 
+name: pixel0  @ 52 @ name: pixel0  @ 56 @ 
+name  @ 98 @ name  @ 120 @ 
+name: psrc_plane  @ 244 @ name: psrc_plane  @ 277 @ 
+name: psrc_plane  @ 249 @ name: psrc_plane  @ 285 @ 
+condition  @ 88 @ condition  @ 100 @ 
+name: long  @ 66 @ name: long  @ 72 @ 
+name: penum  @ 65 @ name: penum  @ 71 @ 
+init  @ 4 @ init  @ 5 @ 
+operator: *  @ 147 @ operator: *  @ 173 @ 
+expr  @ 82 @ expr  @ 94 @ 
+index  @ 342 @ index  @ 386 @ 
+name  @ 244 @ name  @ 277 @ 
+name: curr_pos  @ 353 @ name: curr_pos  @ 397 @ 
+expr  @ 265 @ expr  @ 302 @ 
+operator: (  @ 250 @ operator: (  @ 286 @ 
+comment: /* CMYK case, forward */  @ 257 @ comment: /* CMYK case, forward */  @ 294 @ 
+expr  @ 67 @ expr  @ 74 @ 
+operator: *  @ 187 @ operator: *  @ 216 @ 
+name  @ 95 @ name  @ 117 @ 
+expr  @ 284 @ expr  @ 321 @ 
+operator: ->  @ 89 @ operator: ->  @ 101 @ 
+operator: -  @ 275 @ operator: -  @ 312 @ 
+name: fixed  @ 18 @ name: fixed  @ 19 @ 
+decl  @ 28 @ decl  @ 29 @ 
+expr_stmt  @ 241 @ expr_stmt  @ 274 @ 
+expr  @ 262 @ expr  @ 299 @ 
+name  @ 254 @ name  @ 291 @ 
+literal: 0  @ 327 @ literal: 0  @ 369 @ 
+operator: <  @ 210 @ operator: <  @ 243 @ 
+name  @ 352 @ name  @ 396 @ 
+call  @ 279 @ call  @ 316 @ 
+if_stmt  @ 121 @ if_stmt  @ 143 @ 
+name: k  @ 203 @ name: k  @ 234 @ 
+block  @ 143 @ block  @ 168 @ 
+name: xr  @ 213 @ name: xr  @ 246 @ 
+block_content  @ 184 @ block_content  @ 213 @ 
+name: k  @ 202 @ name: k  @ 233 @ 
+name: k  @ 183 @ name: k  @ 212 @ 
+expr  @ 34 @ expr  @ 35 @ 
+decl_stmt  @ 18 @ decl_stmt  @ 19 @ 
+expr  @ 210 @ expr  @ 243 @ 
+name: penum  @ 369 @ name: penum  @ 414 @ 
+control  @ 330 @ control  @ 372 @ 
+name: k  @ 278 @ name: k  @ 315 @ 
+operator: (  @ 164 @ operator: (  @ 190 @ 
+condition  @ 319 @ condition  @ 361 @ 
+operator: =  @ 209 @ operator: =  @ 242 @ 
+expr  @ 327 @ expr  @ 369 @ 
+argument_list  @ 372 @ argument_list  @ 419 @ 
+expr  @ 210 @ expr  @ 243 @ 
+operator: ->  @ 62 @ operator: ->  @ 68 @ 
+expr_stmt  @ 223 @ expr_stmt  @ 256 @ 
+name: dda_current  @ 168 @ name: dda_current  @ 194 @ 
+expr_stmt  @ 243 @ expr_stmt  @ 276 @ 
+literal: 1  @ 247 @ literal: 1  @ 280 @ 
+else  @ 123 @ else  @ 146 @ 
+expr  @ 171 @ expr  @ 197 @ 
+argument  @ 34 @ argument  @ 35 @ 
+name: image_portrait  @ 57 @ name: image_portrait  @ 61 @ 
+name: hci  @ 64 @ name: hci  @ 70 @ 
+expr  @ 203 @ expr  @ 234 @ 
+expr  @ 153 @ expr  @ 179 @ 
+name: contone_stride  @ 89 @ name: contone_stride  @ 102 @ 
+name: spp_out  @ 303 @ name: spp_out  @ 343 @ 
+block_content  @ 338 @ block_content  @ 382 @ 
+name: psrc_plane  @ 285 @ name: psrc_plane  @ 322 @ 
+operator: &  @ 85 @ operator: &  @ 97 @ 
+index  @ 248 @ index  @ 283 @ 
+expr  @ 241 @ expr  @ 274 @ 
+name: penum  @ 43 @ name: penum  @ 45 @ 
+operator: =  @ 97 @ operator: =  @ 119 @ 
+expr  @ 182 @ expr  @ 211 @ 
+call  @ 185 @ call  @ 214 @ 
+operator: *  @ 122 @ operator: *  @ 144 @ 
+literal: 0  @ 337 @ literal: 0  @ 381 @ 
+for  @ 197 @ for  @ 228 @ 
+operator: +=  @ 246 @ operator: +=  @ 279 @ 
+index  @ 283 @ index  @ 320 @ 
+operator: --  @ 284 @ operator: --  @ 321 @ 
+literal: 1  @ 242 @ literal: 1  @ 275 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 15 @ 
+init  @ 321 @ init  @ 363 @ 
+operator: *  @ 249 @ operator: *  @ 285 @ 
+expr  @ 198 @ expr  @ 229 @ 
+if  @ 296 @ if  @ 335 @ 
+name: k  @ 122 @ name: k  @ 145 @ 
+literal: 2  @ 252 @ literal: 2  @ 289 @ 
+expr_stmt  @ 249 @ expr_stmt  @ 284 @ 
+decl  @ 20 @ decl  @ 21 @ 
+name: offset_bits  @ 105 @ name: offset_bits  @ 127 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 9 @ 
+block_content  @ 241 @ block_content  @ 274 @ 
+name  @ 262 @ name  @ 299 @ 
+name: j  @ 303 @ name: j  @ 343 @ 
+directive: endif  @ 75 @ directive: endif  @ 84 @ 
+name: penum  @ 52 @ name: penum  @ 56 @ 
+expr_stmt  @ 266 @ expr_stmt  @ 303 @ 
+name: penum  @ 368 @ name: penum  @ 413 @ 
+name: devc_contone  @ 282 @ name: devc_contone  @ 319 @ 
+expr  @ 202 @ expr  @ 233 @ 
+name: i  @ 15 @ name: i  @ 16 @ 
+name: xn  @ 302 @ name: xn  @ 342 @ 
+name: ht_landscape  @ 224 @ name: ht_landscape  @ 257 @ 
+expr  @ 243 @ expr  @ 276 @ 
+type  @ 12 @ type  @ 13 @ 
+operator: +  @ 147 @ operator: +  @ 173 @ 
+name: penum  @ 102 @ name: penum  @ 124 @ 
+operator: )  @ 265 @ operator: )  @ 302 @ 
+operator: &  @ 61 @ operator: &  @ 67 @ 
+if  @ 121 @ if  @ 143 @ 
+index  @ 22 @ index  @ 23 @ 
+literal: 1  @ 242 @ literal: 1  @ 275 @ 
+block  @ 166 @ block  @ 192 @ 
+name: xr  @ 266 @ name: xr  @ 303 @ 
+name: devc_contone_gray  @ 198 @ name: devc_contone_gray  @ 229 @ 
+name: flush_buff  @ 20 @ name: flush_buff  @ 21 @ 
+expr  @ 278 @ expr  @ 315 @ 
+name: int  @ 2 @ name: int  @ 3 @ 
+block  @ 133 @ block  @ 158 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 71 @ 
+operator: ++  @ 263 @ operator: ++  @ 300 @ 
+name  @ 263 @ name  @ 300 @ 
+name: image_portrait  @ 38 @ name: image_portrait  @ 40 @ 
+name: xrun  @ 60 @ name: xrun  @ 66 @ 
+operator: (  @ 66 @ operator: (  @ 72 @ 
+expr  @ 369 @ expr  @ 414 @ 
+name: penum  @ 16 @ name: penum  @ 17 @ 
+type  @ 26 @ type  @ 27 @ 
+expr  @ 93 @ expr  @ 112 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+operator: =  @ 299 @ operator: =  @ 339 @ 
+argument_list  @ 328 @ argument_list  @ 370 @ 
+name: j  @ 331 @ name: j  @ 375 @ 
+argument  @ 60 @ argument  @ 66 @ 
+block_content  @ 372 @ block_content  @ 419 @ 
+operator: *  @ 265 @ operator: *  @ 302 @ 
+operator: =  @ 147 @ operator: =  @ 172 @ 
+block  @ 258 @ block  @ 295 @ 
+operator: --  @ 286 @ operator: --  @ 323 @ 
+name: penum  @ 68 @ name: penum  @ 77 @ 
+operator: =  @ 249 @ operator: =  @ 284 @ 
+else  @ 207 @ else  @ 240 @ 
+argument  @ 167 @ argument  @ 193 @ 
+else  @ 193 @ else  @ 222 @ 
+name: j  @ 263 @ name: j  @ 300 @ 
+name: devc_contone  @ 242 @ name: devc_contone  @ 275 @ 
+control  @ 299 @ control  @ 339 @ 
+name: xn  @ 339 @ name: xn  @ 383 @ 
+type  @ 15 @ type  @ 16 @ 
+name: offset_threshold  @ 87 @ name: offset_threshold  @ 99 @ 
+comment: /* Figure out our offset in the contone and threshold data buffers so that we ensure that we are on the 128bit memory boundaries. Can't do this earlier as GC may move the buffers. */  @ 79 @ comment: /* Figure out our offset in the contone and threshold data buffers
+               so that we ensure that we are on the 128bit memory boundaries.Can't do this earlier as GC may move the buffers.
+             */  @ 88 @ 
+operator: =  @ 353 @ operator: =  @ 397 @ 
+type  @ 8 @ type  @ 9 @ 
+else  @ 149 @ else  @ 175 @ 
+expr  @ 354 @ expr  @ 398 @ 
+operator: .  @ 353 @ operator: .  @ 397 @ 
+expr  @ 258 @ expr  @ 295 @ 
+name: src_size  @ 196 @ name: src_size  @ 227 @ 
+operator: +  @ 12 @ operator: +  @ 13 @ 
+name: LAND_BITS  @ 323 @ name: LAND_BITS  @ 365 @ 
+expr_stmt  @ 355 @ expr_stmt  @ 399 @ 
+name: k  @ 278 @ name: k  @ 315 @ 
+name: penum  @ 140 @ name: penum  @ 165 @ 
+block  @ 121 @ block  @ 143 @ 
+operator: =  @ 104 @ operator: =  @ 126 @ 
+name: ht_offset_bits  @ 43 @ name: ht_offset_bits  @ 45 @ 
+name: k  @ 68 @ name: k  @ 75 @ 
+expr  @ 128 @ expr  @ 152 @ 
+expr  @ 268 @ expr  @ 305 @ 
+expr  @ 170 @ expr  @ 196 @ 
+name  @ 10 @ name  @ 11 @ 
+expr  @ 264 @ expr  @ 301 @ 
+if_stmt  @ 240 @ if_stmt  @ 273 @ 
+expr  @ 242 @ expr  @ 275 @ 
+name: penum_orig  @ 2 @ name: penum_orig  @ 2 @ 
+expr  @ 342 @ expr  @ 386 @ 
+literal: 2  @ 264 @ literal: 2  @ 301 @ 
+literal: 2  @ 284 @ literal: 2  @ 321 @ 
+if  @ 239 @ if  @ 272 @ 
+argument_list  @ 259 @ argument_list  @ 296 @ 
+expr  @ 189 @ expr  @ 218 @ 
+expr  @ 299 @ expr  @ 339 @ 
+literal: 0  @ 251 @ literal: 0  @ 288 @ 
+name  @ 316 @ name  @ 358 @ 
+literal: 0  @ 278 @ literal: 0  @ 315 @ 
+block_content  @ 39 @ block_content  @ 41 @ 
+operator: ++  @ 337 @ operator: ++  @ 381 @ 
+operator: =  @ 168 @ operator: =  @ 194 @ 
+name  @ 282 @ name  @ 319 @ 
+name: k  @ 328 @ name: k  @ 370 @ 
+expr  @ 246 @ expr  @ 279 @ 
+expr  @ 288 @ expr  @ 325 @ 
+name: LAND_BITS  @ 124 @ name: LAND_BITS  @ 148 @ 
+expr  @ 241 @ expr  @ 274 @ 
+expr  @ 260 @ expr  @ 297 @ 
+expr  @ 135 @ expr  @ 160 @ 
+name  @ 239 @ name  @ 272 @ 
+name: xrun  @ 63 @ name: xrun  @ 69 @ 
+name: code  @ 26 @ name: code  @ 27 @ 
+name: fixed2int_var_rounded  @ 280 @ name: fixed2int_var_rounded  @ 317 @ 
+condition  @ 281 @ condition  @ 318 @ 
+literal: 0  @ 197 @ literal: 0  @ 228 @ 
+block  @ 245 @ block  @ 278 @ 
+name: spp_out  @ 74 @ name: spp_out  @ 83 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 80 @ 
+name: dda_ht  @ 154 @ name: dda_ht  @ 180 @ 
+init  @ 210 @ init  @ 243 @ 
+call  @ 54 @ call  @ 58 @ 
+operator: +=  @ 323 @ operator: +=  @ 365 @ 
+operator: )  @ 87 @ operator: )  @ 99 @ 
+expr  @ 369 @ expr  @ 414 @ 
+block  @ 152 @ block  @ 178 @ 
+expr  @ 98 @ expr  @ 120 @ 
+operator: )  @ 89 @ operator: )  @ 101 @ 
+name: psrc_plane  @ 264 @ name: psrc_plane  @ 301 @ 
+name: gx_image_enum  @ 2 @ name: gx_image_enum  @ 2 @ 
+name: offset_contone  @ 68 @ name: offset_contone  @ 75 @ 
+expr  @ 264 @ expr  @ 301 @ 
+operator: ==  @ 121 @ operator: ==  @ 143 @ 
+name: xstart  @ 97 @ name: xstart  @ 119 @ 
+condition  @ 239 @ condition  @ 272 @ 
+name: k  @ 299 @ name: k  @ 339 @ 
+expr_stmt  @ 164 @ expr_stmt  @ 190 @ 
+operator: ==  @ 107 @ operator: ==  @ 129 @ 
+operator: ==  @ 52 @ operator: ==  @ 56 @ 
+name: k  @ 67 @ name: k  @ 74 @ 
+block_content  @ 122 @ block_content  @ 144 @ 
+name: image_portrait  @ 238 @ name: image_portrait  @ 271 @ 
+name: vdi  @ 97 @ name: vdi  @ 119 @ 
+operator: (  @ 263 @ operator: (  @ 300 @ 
+block  @ 371 @ block  @ 418 @ 
+operator: =  @ 321 @ operator: =  @ 363 @ 
+operator: ->  @ 71 @ operator: ->  @ 80 @ 
+decl_stmt  @ 20 @ decl_stmt  @ 21 @ 
+switch  @ 132 @ switch  @ 157 @ 
+index  @ 322 @ index  @ 364 @ 
+name  @ 243 @ name  @ 276 @ 
+expr  @ 323 @ expr  @ 365 @ 
+argument  @ 241 @ argument  @ 274 @ 
+operator: ++  @ 216 @ operator: ++  @ 249 @ 
+block  @ 117 @ block  @ 139 @ 
+name  @ 342 @ name  @ 386 @ 
+expr  @ 100 @ expr  @ 122 @ 
+name: offset_contone  @ 369 @ name: offset_contone  @ 415 @ 
+argument  @ 244 @ argument  @ 277 @ 
+name: dest_width  @ 245 @ name: dest_width  @ 278 @ 
+expr  @ 369 @ expr  @ 416 @ 
+index  @ 243 @ index  @ 276 @ 
+switch  @ 137 @ switch  @ 162 @ 
+expr  @ 258 @ expr  @ 295 @ 
+expr  @ 264 @ expr  @ 301 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+name: fixed  @ 7 @ name: fixed  @ 8 @ 
+expr  @ 315 @ expr  @ 357 @ 
+for  @ 152 @ for  @ 178 @ 
+incr  @ 197 @ incr  @ 228 @ 
+expr_stmt  @ 323 @ expr_stmt  @ 365 @ 
+call  @ 372 @ call  @ 419 @ 
+decl  @ 6 @ decl  @ 7 @ 
+name: dest_width  @ 70 @ name: dest_width  @ 79 @ 
+argument  @ 82 @ argument  @ 94 @ 
+operator: ==  @ 141 @ operator: ==  @ 166 @ 
+decl  @ 25 @ decl  @ 26 @ 
+expr  @ 166 @ expr  @ 192 @ 
+name: ht_landscape  @ 44 @ name: ht_landscape  @ 46 @ 
+name: k  @ 278 @ name: k  @ 315 @ 
+name: x  @ 62 @ name: x  @ 68 @ 
+expr  @ 260 @ expr  @ 297 @ 
+expr_stmt  @ 157 @ expr_stmt  @ 183 @ 
+index  @ 248 @ index  @ 282 @ 
+name: psrc_plane  @ 262 @ name: psrc_plane  @ 299 @ 
+expr  @ 120 @ expr  @ 142 @ 
+name: offset  @ 331 @ name: offset  @ 375 @ 
+name: ht_landscape  @ 354 @ name: ht_landscape  @ 398 @ 
+operator: *  @ 249 @ operator: *  @ 284 @ 
+expr  @ 29 @ expr  @ 30 @ 
+name: image_posture  @ 5 @ name: image_posture  @ 6 @ 
+expr  @ 300 @ expr  @ 340 @ 
+operator: =  @ 151 @ operator: =  @ 177 @ 
+operator: &  @ 34 @ operator: &  @ 35 @ 
+name: k  @ 124 @ name: k  @ 147 @ 
+operator: ->  @ 97 @ operator: ->  @ 119 @ 
+operator: =  @ 85 @ operator: =  @ 97 @ 
+index  @ 265 @ index  @ 302 @ 
+operator: =  @ 182 @ operator: =  @ 211 @ 
+expr  @ 38 @ expr  @ 40 @ 
+operator: ++  @ 264 @ operator: ++  @ 301 @ 
+type  @ 6 @ type  @ 7 @ 
+expr  @ 187 @ expr  @ 216 @ 
+name  @ 89 @ name  @ 101 @ 
+name: src_size  @ 210 @ name: src_size  @ 243 @ 
+argument  @ 328 @ argument  @ 370 @ 
+name: psrc_temp  @ 173 @ name: psrc_temp  @ 199 @ 
+operator: =  @ 120 @ operator: =  @ 142 @ 
+operator: )  @ 68 @ operator: )  @ 77 @ 
+block  @ 236 @ block  @ 269 @ 
+name  @ 53 @ name  @ 57 @ 
+block_content  @ 202 @ block_content  @ 233 @ 
+operator: ->  @ 224 @ operator: ->  @ 257 @ 
+block  @ 340 @ block  @ 384 @ 
+name  @ 247 @ name  @ 281 @ 
+operator: ->  @ 53 @ operator: ->  @ 57 @ 
+control  @ 278 @ control  @ 315 @ 
+operator: )  @ 262 @ operator: )  @ 299 @ 
+name: penum  @ 352 @ name: penum  @ 396 @ 
+operator: )  @ 342 @ operator: )  @ 386 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 58 @ 
+block_content  @ 105 @ block_content  @ 127 @ 
+break  @ 227 @ break  @ 260 @ 
+index  @ 285 @ index  @ 322 @ 
+name: xr  @ 307 @ name: xr  @ 347 @ 
+name: true  @ 34 @ name: true  @ 36 @ 
+literal: 2  @ 243 @ literal: 2  @ 276 @ 
+operator: )  @ 284 @ operator: )  @ 321 @ 
+literal: 0  @ 136 @ literal: 0  @ 161 @ 
+expr  @ 144 @ expr  @ 169 @ 
+operator: *  @ 331 @ operator: *  @ 374 @ 
+name: thresh_align  @ 8 @ name: thresh_align  @ 9 @ 
+incr  @ 327 @ incr  @ 369 @ 
+name: count  @ 352 @ name: count  @ 396 @ 
+condition  @ 152 @ condition  @ 178 @ 
+expr  @ 282 @ expr  @ 319 @ 
+operator: =  @ 102 @ operator: =  @ 124 @ 
+name: devc_contone  @ 136 @ name: devc_contone  @ 161 @ 
+name: k  @ 122 @ name: k  @ 144 @ 
+name: vdi  @ 80 @ name: vdi  @ 92 @ 
+expr  @ 243 @ expr  @ 276 @ 
+operator: (  @ 249 @ operator: (  @ 284 @ 
+expr  @ 61 @ expr  @ 67 @ 
+name: k  @ 88 @ name: k  @ 100 @ 
+operator: .  @ 44 @ operator: .  @ 46 @ 
+block_content  @ 337 @ block_content  @ 381 @ 
+name: offset_bits  @ 16 @ name: offset_bits  @ 17 @ 
+name  @ 38 @ name  @ 40 @ 
+argument  @ 203 @ argument  @ 234 @ 
+name: j  @ 321 @ name: j  @ 363 @ 
+literal: 1  @ 248 @ literal: 1  @ 282 @ 
+name: penum  @ 124 @ name: penum  @ 147 @ 
+decl_stmt  @ 22 @ decl_stmt  @ 23 @ 
+comment: /* Initialize our xstart and compute our partial bit chunk so that we get in sync with the 1 bit mem device 16 bit positions for the rest of the chunks */  @ 92 @ comment: /* Initialize our xstart and compute our partial bit chunk so
+               that we get in sync with the 1 bit mem device 16 bit positionsfor the rest of the chunks */  @ 109 @ 
+operator: =  @ 202 @ operator: =  @ 233 @ 
+expr  @ 185 @ expr  @ 214 @ 
+name: offset_set  @ 95 @ name: offset_set  @ 117 @ 
+expr  @ 54 @ expr  @ 58 @ 
+for  @ 337 @ for  @ 381 @ 
+argument_list  @ 338 @ argument_list  @ 382 @ 
+block  @ 137 @ block  @ 162 @ 
+argument  @ 244 @ argument  @ 277 @ 
+name: devc_contone  @ 323 @ name: devc_contone  @ 365 @ 
+index  @ 342 @ index  @ 386 @ 
+expr  @ 355 @ expr  @ 399 @ 
+operator: +  @ 204 @ operator: +  @ 236 @ 
+expr  @ 120 @ expr  @ 142 @ 
+name: ht_landscape  @ 225 @ name: ht_landscape  @ 258 @ 
+name: psrc_plane  @ 247 @ name: psrc_plane  @ 281 @ 
+call  @ 184 @ call  @ 213 @ 
+type  @ 11 @ type  @ 12 @ 
+operator: (  @ 248 @ operator: (  @ 282 @ 
+name: devc_contone  @ 331 @ name: devc_contone  @ 374 @ 
+argument  @ 369 @ argument  @ 414 @ 
+operator: ++  @ 159 @ operator: ++  @ 185 @ 
+decl  @ 30 @ decl  @ 31 @ 
+name: i  @ 309 @ name: i  @ 349 @ 
+expr  @ 128 @ expr  @ 152 @ 
+literal: 1  @ 164 @ literal: 1  @ 190 @ 
+name: rect  @ 49 @ name: rect  @ 53 @ 
+name: penum  @ 97 @ name: penum  @ 119 @ 
+operator: *  @ 74 @ operator: *  @ 83 @ 
+for  @ 303 @ for  @ 343 @ 
+operator: )  @ 164 @ operator: )  @ 190 @ 
+argument  @ 241 @ argument  @ 274 @ 
+operator: ->  @ 30 @ operator: ->  @ 31 @ 
+name: k  @ 122 @ name: k  @ 144 @ 
+modifier: *  @ 28 @ modifier: *  @ 29 @ 
+operator: *  @ 170 @ operator: *  @ 196 @ 
+name  @ 187 @ name  @ 216 @ 
+operator: )  @ 89 @ operator: )  @ 102 @ 
+expr  @ 34 @ expr  @ 35 @ 
+operator: +=  @ 63 @ operator: +=  @ 69 @ 
+comment: /* really yrun, but just used here for landscape */  @ 84 @ comment: /* really yrun, but just used here for landscape */  @ 96 @ 
+argument  @ 71 @ argument  @ 80 @ 
+operator: *  @ 326 @ operator: *  @ 368 @ 
+operator: .  @ 102 @ operator: .  @ 124 @ 
+name: dest_height  @ 201 @ name: dest_height  @ 232 @ 
+init  @ 319 @ init  @ 361 @ 
+literal: 1  @ 275 @ literal: 1  @ 312 @ 
+expr  @ 49 @ expr  @ 53 @ 
+name: psrc  @ 34 @ name: psrc  @ 35 @ 
+expr  @ 331 @ expr  @ 373 @ 
+expr_stmt  @ 100 @ expr_stmt  @ 122 @ 
+expr  @ 238 @ expr  @ 271 @ 
+name  @ 198 @ name  @ 229 @ 
+condition  @ 107 @ condition  @ 129 @ 
+operator: ->  @ 42 @ operator: ->  @ 44 @ 
+expr  @ 279 @ expr  @ 316 @ 
+call  @ 212 @ call  @ 245 @ 
+type  @ 28 @ type  @ 29 @ 
+argument_list  @ 339 @ argument_list  @ 383 @ 
+default  @ 228 @ default  @ 261 @ 
+operator: (  @ 66 @ operator: (  @ 72 @ 
+name: penum  @ 225 @ name: penum  @ 258 @ 
+name: src_size  @ 240 @ name: src_size  @ 273 @ 
+name: position  @ 343 @ name: position  @ 387 @ 
+operator: -  @ 276 @ operator: -  @ 313 @ 
+if  @ 100 @ if  @ 122 @ 
+operator: .  @ 352 @ operator: .  @ 396 @ 
+init  @ 30 @ init  @ 31 @ 
+name: src_size  @ 278 @ name: src_size  @ 315 @ 
+expr  @ 89 @ expr  @ 101 @ 
+operator: ->  @ 355 @ operator: ->  @ 399 @ 
+index  @ 247 @ index  @ 281 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+operator: =  @ 369 @ operator: =  @ 414 @ 
+name: dest_height  @ 86 @ name: dest_height  @ 98 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: penum  @ 181 @ name: penum  @ 209 @ 
+block  @ 210 @ block  @ 243 @ 
+name: data_length  @ 327 @ name: data_length  @ 369 @ 
+expr  @ 154 @ expr  @ 180 @ 
+operator: ++  @ 197 @ operator: ++  @ 228 @ 
+control  @ 327 @ control  @ 369 @ 
+operator: ->  @ 108 @ operator: ->  @ 130 @ 
+decl_stmt  @ 21 @ decl_stmt  @ 22 @ 
+name  @ 102 @ name  @ 124 @ 
+literal: 0  @ 330 @ literal: 0  @ 372 @ 
+expr  @ 105 @ expr  @ 127 @ 
+operator: +=  @ 145 @ operator: +=  @ 170 @ 
+operator: .  @ 224 @ operator: .  @ 257 @ 
+expr  @ 275 @ expr  @ 312 @ 
+name: j  @ 331 @ name: j  @ 373 @ 
+name: psrc_cm  @ 204 @ name: psrc_cm  @ 237 @ 
+expr_stmt  @ 274 @ expr_stmt  @ 311 @ 
+operator: *  @ 372 @ operator: *  @ 419 @ 
+if_stmt  @ 96 @ if_stmt  @ 118 @ 
+name: dda_next  @ 279 @ name: dda_next  @ 316 @ 
+block_content  @ 170 @ block_content  @ 196 @ 
+expr  @ 322 @ expr  @ 364 @ 
+argument  @ 85 @ argument  @ 97 @ 
+operator: .  @ 42 @ operator: .  @ 44 @ 
+literal: 1  @ 248 @ literal: 1  @ 282 @ 
+name: k  @ 89 @ name: k  @ 101 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+name: spp_out  @ 132 @ name: spp_out  @ 157 @ 
+operator: (  @ 68 @ operator: (  @ 75 @ 
+expr_stmt  @ 328 @ expr_stmt  @ 370 @ 
+expr_stmt  @ 347 @ expr_stmt  @ 391 @ 
+argument  @ 168 @ argument  @ 194 @ 
+name: ht_landscape  @ 223 @ name: ht_landscape  @ 256 @ 
+operator: )  @ 181 @ operator: )  @ 210 @ 
+block  @ 54 @ block  @ 58 @ 
+name: offset_set  @ 108 @ name: offset_set  @ 130 @ 
+operator: =  @ 194 @ operator: =  @ 223 @ 
+expr  @ 265 @ expr  @ 302 @ 
+name: data_length  @ 86 @ name: data_length  @ 98 @ 
+init  @ 327 @ init  @ 369 @ 
+name: devc_contone_gray  @ 204 @ name: devc_contone_gray  @ 236 @ 
+name: dev  @ 369 @ name: dev  @ 415 @ 
+name: position  @ 204 @ name: position  @ 236 @ 
+name: dda  @ 52 @ name: dda  @ 56 @ 
+switch  @ 236 @ switch  @ 269 @ 
+name: k  @ 319 @ name: k  @ 361 @ 
+expr  @ 165 @ expr  @ 191 @ 
+expr_stmt  @ 282 @ expr_stmt  @ 319 @ 
+index  @ 284 @ index  @ 321 @ 
+literal: 0  @ 210 @ literal: 0  @ 243 @ 
+call  @ 71 @ call  @ 80 @ 
+argument_list  @ 300 @ argument_list  @ 340 @ 
+expr_stmt  @ 316 @ expr_stmt  @ 358 @ 
+name: spp_out  @ 321 @ name: spp_out  @ 363 @ 
+operator: <  @ 261 @ operator: <  @ 298 @ 
+if_stmt  @ 38 @ if_stmt  @ 40 @ 
+name  @ 81 @ name  @ 93 @ 
+literal: 3  @ 250 @ literal: 3  @ 286 @ 
+expr_stmt  @ 342 @ expr_stmt  @ 386 @ 
+expr  @ 168 @ expr  @ 194 @ 
+literal: 0  @ 17 @ literal: 0  @ 18 @ 
+expr  @ 213 @ expr  @ 246 @ 
+operator: (  @ 87 @ operator: (  @ 99 @ 
+operator: (  @ 263 @ operator: (  @ 300 @ 
+name  @ 109 @ name  @ 131 @ 
+name: devc_contone  @ 285 @ name: devc_contone  @ 322 @ 
+argument_list  @ 153 @ argument_list  @ 179 @ 
+argument  @ 243 @ argument  @ 276 @ 
+operator: *  @ 248 @ operator: *  @ 282 @ 
+block_content  @ 342 @ block_content  @ 386 @ 
+expr  @ 70 @ expr  @ 79 @ 
+name: psrc_temp  @ 151 @ name: psrc_temp  @ 177 @ 
+name: bufend  @ 29 @ name: bufend  @ 30 @ 
+incr  @ 202 @ incr  @ 233 @ 
+name: j  @ 264 @ name: j  @ 301 @ 
+name: vdi  @ 353 @ name: vdi  @ 397 @ 
+expr  @ 249 @ expr  @ 284 @ 
+expr  @ 42 @ expr  @ 44 @ 
+argument  @ 74 @ argument  @ 83 @ 
+operator: =  @ 87 @ operator: =  @ 99 @ 
+operator: >  @ 281 @ operator: >  @ 318 @ 
+name: ht_landscape  @ 353 @ name: ht_landscape  @ 397 @ 
+name: xci  @ 104 @ name: xci  @ 126 @ 
+operator: =  @ 322 @ operator: =  @ 364 @ 
+literal: 1  @ 274 @ literal: 1  @ 311 @ 
+name: dda_ht  @ 168 @ name: dda_ht  @ 194 @ 
+modifier: *  @ 21 @ modifier: *  @ 22 @ 
+condition  @ 318 @ condition  @ 360 @ 
+operator: ->  @ 80 @ operator: ->  @ 92 @ 
+name: psrc_cm_start  @ 372 @ name: psrc_cm_start  @ 419 @ 
+expr_stmt  @ 297 @ expr_stmt  @ 336 @ 
+operator: ++  @ 288 @ operator: ++  @ 325 @ 
+name: offset_threshold  @ 66 @ name: offset_threshold  @ 72 @ 
+literal: 0  @ 241 @ literal: 0  @ 274 @ 
+block  @ 38 @ block  @ 40 @ 
+operator: ->  @ 102 @ operator: ->  @ 124 @ 
+init  @ 299 @ init  @ 339 @ 
+operator: >  @ 340 @ operator: >  @ 384 @ 
+name  @ 372 @ name  @ 419 @ 
+name: int  @ 30 @ name: int  @ 31 @ 
+expr  @ 34 @ expr  @ 36 @ 
+operator: .  @ 108 @ operator: .  @ 130 @ 
+expr  @ 109 @ expr  @ 131 @ 
+name: penum  @ 89 @ name: penum  @ 101 @ 
+block  @ 299 @ block  @ 339 @ 
+operator: ->  @ 63 @ operator: ->  @ 69 @ 
+operator: ->  @ 96 @ operator: ->  @ 118 @ 
+expr_stmt  @ 353 @ expr_stmt  @ 397 @ 
+expr  @ 248 @ expr  @ 282 @ 
+operator: ++  @ 268 @ operator: ++  @ 305 @ 
+block  @ 107 @ block  @ 129 @ 
+name: ht_landscape  @ 312 @ name: ht_landscape  @ 352 @ 
+operator: (  @ 66 @ operator: (  @ 72 @ 
+name: psrc_plane  @ 284 @ name: psrc_plane  @ 321 @ 
+name: devc_contone  @ 322 @ name: devc_contone  @ 364 @ 
+operator: (  @ 264 @ operator: (  @ 301 @ 
+operator: ->  @ 93 @ operator: ->  @ 112 @ 
+expr  @ 337 @ expr  @ 381 @ 
+expr  @ 251 @ expr  @ 288 @ 
+name: devc_contone  @ 332 @ name: devc_contone  @ 376 @ 
+index  @ 304 @ index  @ 344 @ 
+name: k  @ 337 @ name: k  @ 381 @ 
+block_content  @ 197 @ block_content  @ 228 @ 
+literal: 1  @ 249 @ literal: 1  @ 284 @ 
+condition  @ 96 @ condition  @ 118 @ 
+block_content  @ 331 @ block_content  @ 373 @ 
+name  @ 122 @ name  @ 144 @ 
+expr  @ 282 @ expr  @ 319 @ 
+expr  @ 152 @ expr  @ 178 @ 
+operator: .  @ 96 @ operator: .  @ 118 @ 
+operator: .  @ 93 @ operator: .  @ 112 @ 
+expr  @ 283 @ expr  @ 320 @ 
+type  @ 13 @ type  @ 14 @ 
+name: xci  @ 97 @ name: xci  @ 119 @ 
+expr  @ 30 @ expr  @ 31 @ 
+else  @ 40 @ else  @ 42 @ 
+block  @ 207 @ block  @ 240 @ 
+operator: *  @ 181 @ operator: *  @ 210 @ 
+name: code  @ 34 @ name: code  @ 35 @ 
+argument_list  @ 301 @ argument_list  @ 341 @ 
+argument  @ 242 @ argument  @ 275 @ 
+name: dda_ht  @ 61 @ name: dda_ht  @ 67 @ 
+expr  @ 278 @ expr  @ 315 @ 
+comment: /* Get the buffer into the device color space */  @ 33 @ comment: /* Get the buffer into the device color space */  @ 34 @ 
+control  @ 183 @ control  @ 212 @ 
+operator: )  @ 98 @ operator: )  @ 120 @ 
+name: fixed2int_var_rounded  @ 168 @ name: fixed2int_var_rounded  @ 194 @ 
+operator: )  @ 263 @ operator: )  @ 300 @ 
+literal: 2  @ 205 @ literal: 2  @ 238 @ 
+operator: =  @ 250 @ operator: =  @ 286 @ 
+name: devc_contone_gray  @ 142 @ name: devc_contone_gray  @ 167 @ 
+name: devc_contone  @ 276 @ name: devc_contone  @ 313 @ 
+expr  @ 353 @ expr  @ 397 @ 
+name: k  @ 126 @ name: k  @ 150 @ 
+expr  @ 204 @ expr  @ 237 @ 
+name: gxht_dda_length  @ 85 @ name: gxht_dda_length  @ 97 @ 
+name: ht_landscape  @ 180 @ name: ht_landscape  @ 208 @ 
+expr  @ 199 @ expr  @ 230 @ 
+comment: /* In the landscape case, the size depends upon if we are moving left to right or right to left with the image data.This offset is to ensure that weget aligned in our chunks along 16 bit boundaries */  @ 94 @ comment: /* In the landscape case, the size depends upon
+                   if we are moving left to right or right to left withthe image data.  This offset is to ensure that we  get
+                   aligned in our chunks along 16 bit boundaries */  @ 113 @ 
+name: k  @ 88 @ name: k  @ 100 @ 
+operator: (  @ 66 @ operator: (  @ 72 @ 
+name  @ 124 @ name  @ 147 @ 
+name: ht_offset_bits  @ 109 @ name: ht_offset_bits  @ 131 @ 
+name: position  @ 194 @ name: position  @ 223 @ 
+name: ht_landscape  @ 352 @ name: ht_landscape  @ 396 @ 
+call  @ 34 @ call  @ 35 @ 
+expr  @ 5 @ expr  @ 6 @ 
+decl  @ 25 @ decl  @ 26 @ 
+index  @ 282 @ index  @ 319 @ 
+name: position  @ 181 @ name: position  @ 209 @ 
+operator: &  @ 66 @ operator: &  @ 73 @ 
+block  @ 337 @ block  @ 381 @ 
+argument  @ 372 @ argument  @ 419 @ 
+literal: 0  @ 120 @ literal: 0  @ 142 @ 
+expr  @ 210 @ expr  @ 243 @ 
+condition  @ 140 @ condition  @ 165 @ 
+name: LAND_BITS  @ 204 @ name: LAND_BITS  @ 236 @ 
+operator: (  @ 264 @ operator: (  @ 301 @ 
+init  @ 26 @ init  @ 27 @ 
+name  @ 64 @ name  @ 70 @ 
+block_content  @ 282 @ block_content  @ 319 @ 
+literal: 3  @ 254 @ literal: 3  @ 291 @ 
+name: psrc_plane  @ 282 @ name: psrc_plane  @ 319 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 10 @ 
+literal: 0  @ 166 @ literal: 0  @ 192 @ 
+operator: =  @ 341 @ operator: =  @ 385 @ 
+name: k  @ 15 @ name: k  @ 16 @ 
+name: spp_out  @ 88 @ name: spp_out  @ 100 @ 
+name  @ 93 @ name  @ 112 @ 
+operator: ==  @ 93 @ operator: ==  @ 112 @ 
+operator: =  @ 247 @ operator: =  @ 280 @ 
+name  @ 66 @ name  @ 72 @ 
+name: xstart  @ 102 @ name: xstart  @ 124 @ 
+expr  @ 250 @ expr  @ 286 @ 
+expr_stmt  @ 305 @ expr_stmt  @ 345 @ 
+name: devc_contone  @ 316 @ name: devc_contone  @ 358 @ 
+name: memcpy  @ 142 @ name: memcpy  @ 167 @ 
+literal: 1  @ 147 @ literal: 1  @ 173 @ 
+expr  @ 331 @ expr  @ 375 @ 
+name  @ 252 @ name  @ 289 @ 
+for  @ 258 @ for  @ 295 @ 
+name: offset_set  @ 44 @ name: offset_set  @ 46 @ 
+argument  @ 128 @ argument  @ 152 @ 
+break  @ 114 @ break  @ 136 @ 
+name: offset  @ 204 @ name: offset  @ 237 @ 
+index  @ 304 @ index  @ 344 @ 
+operator: .  @ 226 @ operator: .  @ 259 @ 
+expr  @ 339 @ expr  @ 383 @ 
+operator: )  @ 248 @ operator: )  @ 282 @ 
+expr  @ 252 @ expr  @ 289 @ 
+name: j  @ 341 @ name: j  @ 385 @ 
+operator: =  @ 166 @ operator: =  @ 192 @ 
+index  @ 249 @ index  @ 285 @ 
+name: src_size  @ 152 @ name: src_size  @ 178 @ 
+operator: *  @ 156 @ operator: *  @ 182 @ 
+expr  @ 132 @ expr  @ 157 @ 
+operator: (  @ 66 @ operator: (  @ 72 @ 
+name  @ 224 @ name  @ 257 @ 
+argument_list  @ 369 @ argument_list  @ 414 @ 
+operator: =  @ 312 @ operator: =  @ 352 @ 
+init  @ 17 @ init  @ 18 @ 
+expr  @ 312 @ expr  @ 352 @ 
+operator: =  @ 170 @ operator: =  @ 196 @ 
+operator: ->  @ 354 @ operator: ->  @ 398 @ 
+name: dev  @ 2 @ name: dev  @ 3 @ 
+comment: /* Move to the other end and we will decrement */  @ 273 @ comment: /* Move to the other end and we will decrement */  @ 310 @ 
+name: j  @ 288 @ name: j  @ 325 @ 
+for  @ 299 @ for  @ 339 @ 
+expr  @ 240 @ expr  @ 273 @ 
+name: image_landscape  @ 77 @ name: image_landscape  @ 86 @ 
+operator: ++  @ 146 @ operator: ++  @ 171 @ 
+operator: -  @ 181 @ operator: -  @ 210 @ 
+condition  @ 56 @ condition  @ 60 @ 
+operator: )  @ 264 @ operator: )  @ 301 @ 
+name: k  @ 210 @ name: k  @ 243 @ 
+name  @ 52 @ name  @ 56 @ 
+incr  @ 341 @ incr  @ 385 @ 
+operator: ,  @ 258 @ operator: ,  @ 295 @ 
+name  @ 250 @ name  @ 286 @ 
+comment: /* at loop exit xn will be>= xr */  @ 172 @ comment: /* at loop exit xn will be>= xr */  @ 198 @ 
+incr  @ 303 @ incr  @ 343 @ 
+name: gs_free_object  @ 372 @ name: gs_free_object  @ 419 @ 
+name: devc_contone  @ 250 @ name: devc_contone  @ 286 @ 
+name: k  @ 67 @ name: k  @ 74 @ 
+if  @ 318 @ if  @ 360 @ 
+expr  @ 353 @ expr  @ 397 @ 
+operator: (  @ 285 @ operator: (  @ 322 @ 
+incr  @ 315 @ incr  @ 357 @ 
+condition  @ 100 @ condition  @ 122 @ 
+operator: ->  @ 226 @ operator: ->  @ 259 @ 
+expr  @ 224 @ expr  @ 257 @ 
+name: memory  @ 372 @ name: memory  @ 419 @ 
+literal: 2  @ 332 @ literal: 2  @ 376 @ 
+operator: ==  @ 201 @ operator: ==  @ 232 @ 
+block_content  @ 316 @ block_content  @ 358 @ 
+name: penum  @ 93 @ name: penum  @ 112 @ 
+literal: 0  @ 315 @ literal: 0  @ 357 @ 
+block_content  @ 42 @ block_content  @ 44 @ 
+operator: ->  @ 65 @ operator: ->  @ 71 @ 
+control  @ 210 @ control  @ 243 @ 
+literal: 0  @ 93 @ literal: 0  @ 112 @ 
+literal: 0  @ 53 @ literal: 0  @ 57 @ 
+name: psrc_temp  @ 144 @ name: psrc_temp  @ 169 @ 
+name: k  @ 299 @ name: k  @ 339 @ 
+index  @ 275 @ index  @ 312 @ 
+case  @ 77 @ case  @ 86 @ 
+name: data_length  @ 164 @ name: data_length  @ 190 @ 
+while  @ 169 @ while  @ 195 @ 
+expr  @ 319 @ expr  @ 361 @ 
+name: dest_height  @ 318 @ name: dest_height  @ 360 @ 
+operator: =  @ 315 @ operator: =  @ 357 @ 
+index  @ 285 @ index  @ 322 @ 
+expr  @ 323 @ expr  @ 365 @ 
+name: penum  @ 32 @ name: penum  @ 33 @ 
+argument_list  @ 203 @ argument_list  @ 234 @ 
+

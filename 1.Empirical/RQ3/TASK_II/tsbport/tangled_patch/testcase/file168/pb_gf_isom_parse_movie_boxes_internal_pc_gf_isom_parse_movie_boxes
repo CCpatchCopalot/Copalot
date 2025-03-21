@@ -1,0 +1,2344 @@
+expr_stmt  @ 136 @ expr_stmt  @ 93 @ 
+argument  @ 27 @ argument  @ 23 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 471 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 314 @ 
+expr  @ 436 @ expr  @ 278 @ 
+operator: =  @ 13 @ operator: =  @ 13 @ 
+name  @ 474 @ name  @ 318 @ 
+expr  @ 13 @ expr  @ 13 @ 
+name: tfhd  @ 345 @ name: tfhd  @ 220 @ 
+name: senc_Parse  @ 93 @ name: senc_Parse  @ 70 @ 
+expr  @ 149 @ expr  @ 98 @ 
+name: e  @ 73 @ name: e  @ 59 @ 
+name  @ 345 @ name  @ 220 @ 
+operator: ->  @ 298 @ operator: ->  @ 182 @ 
+name  @ 448 @ name  @ 292 @ 
+else  @ 399 @ else  @ 256 @ 
+name  @ 345 @ name  @ 220 @ 
+operator: ->  @ 187 @ operator: ->  @ 129 @ 
+operator: ->  @ 310 @ operator: ->  @ 194 @ 
+operator: ->  @ 400 @ operator: ->  @ 257 @ 
+expr_stmt  @ 346 @ expr_stmt  @ 221 @ 
+name: GF_ISOM_OPEN_READ  @ 145 @ name: GF_ISOM_OPEN_READ  @ 94 @ 
+block  @ 168 @ block  @ 110 @ 
+operator: &&  @ 330 @ operator: &&  @ 206 @ 
+expr  @ 343 @ expr  @ 219 @ 
+name: NULL  @ 338 @ name: NULL  @ 214 @ 
+operator: &&  @ 342 @ operator: &&  @ 218 @ 
+block  @ 285 @ block  @ 171 @ 
+name: mov  @ 145 @ name: mov  @ 94 @ 
+name: mov  @ 23 @ name: mov  @ 19 @ 
+name: moof  @ 448 @ name: moof  @ 292 @ 
+expr  @ 329 @ expr  @ 205 @ 
+if_stmt  @ 260 @ if_stmt  @ 170 @ 
+block_content  @ 410 @ block_content  @ 267 @ 
+operator: !  @ 168 @ operator: !  @ 110 @ 
+operator: ->  @ 443 @ operator: ->  @ 285 @ 
+name  @ 338 @ name  @ 214 @ 
+operator: )  @ 454 @ operator: )  @ 299 @ 
+argument  @ 396 @ argument  @ 253 @ 
+operator: ->  @ 443 @ operator: ->  @ 285 @ 
+name: GF_LOG_CONTAINER  @ 27 @ name: GF_LOG_CONTAINER  @ 23 @ 
+operator: )  @ 90 @ operator: )  @ 67 @ 
+name  @ 356 @ name  @ 230 @ 
+name  @ 115 @ name  @ 79 @ 
+operator: ->  @ 459 @ operator: ->  @ 303 @ 
+operator: )  @ 187 @ operator: )  @ 129 @ 
+call  @ 116 @ call  @ 80 @ 
+argument  @ 294 @ argument  @ 178 @ 
+expr  @ 126 @ expr  @ 88 @ 
+argument  @ 189 @ argument  @ 131 @ 
+name: mov  @ 8 @ name: mov  @ 8 @ 
+condition  @ 396 @ condition  @ 253 @ 
+name: gf_isom_box_del  @ 177 @ name: gf_isom_box_del  @ 119 @ 
+name: a  @ 257 @ name: a  @ 167 @ 
+argument  @ 333 @ argument  @ 209 @ 
+argument  @ 483 @ argument  @ 327 @ 
+name: totSize  @ 13 @ name: totSize  @ 13 @ 
+expr  @ 30 @ expr  @ 26 @ 
+literal: "[iso file] Duplicate 'pdin'' detected!\n"  @ 225 @ literal: "[iso file] Duplicate PDIN detected!\n"  @ 139 @ 
+name  @ 154 @ name  @ 103 @ 
+expr_stmt  @ 122 @ expr_stmt  @ 84 @ 
+expr  @ 331 @ expr  @ 207 @ 
+name: a  @ 154 @ name: a  @ 103 @ 
+name: GF_LOG  @ 116 @ name: GF_LOG  @ 80 @ 
+expr  @ 345 @ expr  @ 220 @ 
+expr  @ 116 @ expr  @ 80 @ 
+return  @ 300 @ return  @ 184 @ 
+directive: ifndef  @ 62 @ directive: ifndef  @ 55 @ 
+name: mov  @ 30 @ name: mov  @ 26 @ 
+call  @ 172 @ call  @ 114 @ 
+block_content  @ 260 @ block_content  @ 170 @ 
+return  @ 171 @ return  @ 113 @ 
+name: current_traf_stsd_idx  @ 345 @ name: current_traf_stsd_idx  @ 220 @ 
+argument_list  @ 400 @ argument_list  @ 257 @ 
+block_content  @ 329 @ block_content  @ 204 @ 
+name: trak  @ 331 @ name: trak  @ 207 @ 
+name: GF_LOG_ERROR  @ 454 @ name: GF_LOG_ERROR  @ 299 @ 
+name: mov  @ 469 @ name: mov  @ 312 @ 
+operator: )  @ 225 @ operator: )  @ 139 @ 
+expr  @ 184 @ expr  @ 126 @ 
+name: trex  @ 338 @ name: trex  @ 214 @ 
+name  @ 396 @ name  @ 253 @ 
+argument  @ 368 @ argument  @ 242 @ 
+operator: ->  @ 331 @ operator: ->  @ 207 @ 
+name: moov  @ 63 @ name: moov  @ 56 @ 
+expr  @ 72 @ expr  @ 58 @ 
+if  @ 394 @ if  @ 251 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 23 @ 
+block_content  @ 88 @ block_content  @ 65 @ 
+call  @ 230 @ call  @ 144 @ 
+operator: &&  @ 448 @ operator: &&  @ 290 @ 
+name: k  @ 329 @ name: k  @ 205 @ 
+operator: *  @ 474 @ operator: *  @ 318 @ 
+expr  @ 230 @ expr  @ 144 @ 
+expr  @ 437 @ expr  @ 279 @ 
+operator: ->  @ 90 @ operator: ->  @ 67 @ 
+name: sample_desc_index  @ 345 @ name: sample_desc_index  @ 220 @ 
+block_content  @ 42 @ block_content  @ 37 @ 
+name: GF_TrackFragmentBox  @ 354 @ name: GF_TrackFragmentBox  @ 228 @ 
+expr_stmt  @ 485 @ expr_stmt  @ 329 @ 
+name: handler  @ 459 @ name: handler  @ 303 @ 
+name  @ 356 @ name  @ 230 @ 
+operator: &&  @ 330 @ operator: &&  @ 206 @ 
+operator: &  @ 310 @ operator: &  @ 194 @ 
+name: GF_LOG_CONTAINER  @ 38 @ name: GF_LOG_CONTAINER  @ 33 @ 
+expr  @ 23 @ expr  @ 19 @ 
+name: a  @ 177 @ name: a  @ 119 @ 
+name: trex  @ 345 @ name: trex  @ 220 @ 
+argument_list  @ 189 @ argument_list  @ 131 @ 
+name: e  @ 231 @ name: e  @ 145 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 49 @ 
+name: moov  @ 58 @ name: moov  @ 52 @ 
+argument  @ 225 @ argument  @ 139 @ 
+block_content  @ 169 @ block_content  @ 111 @ 
+case  @ 241 @ case  @ 155 @ 
+expr_stmt  @ 169 @ expr_stmt  @ 111 @ 
+operator: +=  @ 126 @ operator: +=  @ 88 @ 
+operator: ->  @ 122 @ operator: ->  @ 84 @ 
+block_content  @ 154 @ block_content  @ 103 @ 
+expr  @ 329 @ expr  @ 205 @ 
+argument  @ 230 @ argument  @ 144 @ 
+name: current_top_box_start  @ 13 @ name: current_top_box_start  @ 13 @ 
+expr  @ 231 @ expr  @ 145 @ 
+name: a  @ 393 @ name: a  @ 250 @ 
+expr  @ 332 @ expr  @ 208 @ 
+operator: ==  @ 8 @ operator: ==  @ 8 @ 
+operator: =  @ 120 @ operator: =  @ 83 @ 
+name: current_top_box_start  @ 26 @ name: current_top_box_start  @ 22 @ 
+argument  @ 54 @ argument  @ 49 @ 
+if_stmt  @ 396 @ if_stmt  @ 253 @ 
+call  @ 299 @ call  @ 183 @ 
+name  @ 257 @ name  @ 167 @ 
+name: mov  @ 362 @ name: mov  @ 236 @ 
+operator: ==  @ 145 @ operator: ==  @ 94 @ 
+name: movieFileMap  @ 30 @ name: movieFileMap  @ 26 @ 
+argument  @ 154 @ argument  @ 103 @ 
+expr  @ 223 @ expr  @ 137 @ 
+expr  @ 230 @ expr  @ 144 @ 
+argument  @ 460 @ argument  @ 304 @ 
+name: mov  @ 327 @ name: mov  @ 203 @ 
+expr  @ 294 @ expr  @ 178 @ 
+name: mov  @ 410 @ name: mov  @ 267 @ 
+decl  @ 324 @ decl  @ 200 @ 
+expr_stmt  @ 443 @ expr_stmt  @ 285 @ 
+name: track  @ 335 @ name: track  @ 211 @ 
+expr  @ 328 @ expr  @ 204 @ 
+name  @ 93 @ name  @ 70 @ 
+block  @ 413 @ block  @ 270 @ 
+operator: >  @ 298 @ operator: >  @ 182 @ 
+argument  @ 93 @ argument  @ 70 @ 
+name  @ 335 @ name  @ 211 @ 
+block_content  @ 171 @ block_content  @ 113 @ 
+argument  @ 294 @ argument  @ 178 @ 
+argument  @ 309 @ argument  @ 193 @ 
+if  @ 8 @ if  @ 8 @ 
+name: e  @ 401 @ name: e  @ 258 @ 
+name  @ 362 @ name  @ 236 @ 
+operator: ->  @ 356 @ operator: ->  @ 230 @ 
+block  @ 467 @ block  @ 310 @ 
+if_stmt  @ 171 @ if_stmt  @ 113 @ 
+expr  @ 172 @ expr  @ 114 @ 
+name: size  @ 75 @ name: size  @ 61 @ 
+operator: (  @ 333 @ operator: (  @ 209 @ 
+expr  @ 148 @ expr  @ 97 @ 
+ifndef  @ 465 @ ifndef  @ 308 @ 
+expr  @ 331 @ expr  @ 207 @ 
+operator: *  @ 58 @ operator: *  @ 52 @ 
+name  @ 482 @ name  @ 326 @ 
+block_content  @ 146 @ block_content  @ 95 @ 
+name: bytesMissing  @ 1 @ name: bytesMissing  @ 1 @ 
+expr  @ 94 @ expr  @ 71 @ 
+name: gf_list_add  @ 400 @ name: gf_list_add  @ 257 @ 
+operator: ->  @ 23 @ operator: ->  @ 19 @ 
+operator: !=  @ 482 @ operator: !=  @ 326 @ 
+name: e  @ 173 @ name: e  @ 115 @ 
+operator: !  @ 310 @ operator: !  @ 194 @ 
+name: GF_ISOM_INCOMPLETE_FILE  @ 35 @ name: GF_ISOM_INCOMPLETE_FILE  @ 30 @ 
+default  @ 245 @ default  @ 159 @ 
+init  @ 332 @ init  @ 208 @ 
+operator: ==  @ 396 @ operator: ==  @ 253 @ 
+expr  @ 482 @ expr  @ 326 @ 
+expr  @ 187 @ expr  @ 129 @ 
+expr  @ 260 @ expr  @ 170 @ 
+literal: 1  @ 397 @ literal: 1  @ 254 @ 
+block  @ 73 @ block  @ 59 @ 
+block  @ 392 @ block  @ 249 @ 
+expr_stmt  @ 126 @ expr_stmt  @ 88 @ 
+return  @ 484 @ return  @ 328 @ 
+name  @ 482 @ name  @ 326 @ 
+if  @ 260 @ if  @ 170 @ 
+expr  @ 455 @ expr  @ 300 @ 
+operator: !  @ 41 @ operator: !  @ 36 @ 
+type  @ 329 @ type  @ 205 @ 
+block_content  @ 400 @ block_content  @ 257 @ 
+name: openMode  @ 473 @ name: openMode  @ 317 @ 
+name: mov  @ 309 @ name: mov  @ 193 @ 
+name: mov  @ 473 @ name: mov  @ 317 @ 
+block_content  @ 334 @ block_content  @ 210 @ 
+operator: (  @ 396 @ operator: (  @ 253 @ 
+expr  @ 225 @ expr  @ 139 @ 
+literal: 0  @ 396 @ literal: 0  @ 253 @ 
+name: gf_isom_box_del  @ 224 @ name: gf_isom_box_del  @ 138 @ 
+name  @ 331 @ name  @ 207 @ 
+if_stmt  @ 145 @ if_stmt  @ 94 @ 
+name: mov  @ 90 @ name: mov  @ 67 @ 
+name: totSize  @ 229 @ name: totSize  @ 143 @ 
+if_stmt  @ 298 @ if_stmt  @ 182 @ 
+name: gf_bs_get_position  @ 26 @ name: gf_bs_get_position  @ 22 @ 
+operator: ->  @ 63 @ operator: ->  @ 56 @ 
+operator: =  @ 30 @ operator: =  @ 26 @ 
+block  @ 484 @ block  @ 328 @ 
+name  @ 397 @ name  @ 254 @ 
+argument  @ 329 @ argument  @ 205 @ 
+expr  @ 346 @ expr  @ 221 @ 
+block  @ 171 @ block  @ 113 @ 
+directive: ifndef  @ 7 @ directive: ifndef  @ 7 @ 
+name  @ 473 @ name  @ 317 @ 
+name: GF_TrackExtendsBox  @ 333 @ name: GF_TrackExtendsBox  @ 209 @ 
+name: trak  @ 346 @ name: trak  @ 221 @ 
+name: traf  @ 356 @ name: traf  @ 230 @ 
+name: u32  @ 324 @ name: u32  @ 200 @ 
+condition  @ 260 @ condition  @ 170 @ 
+expr  @ 436 @ expr  @ 278 @ 
+name: track  @ 335 @ name: track  @ 211 @ 
+expr_stmt  @ 311 @ expr_stmt  @ 195 @ 
+expr  @ 396 @ expr  @ 253 @ 
+name  @ 230 @ name  @ 144 @ 
+expr  @ 449 @ expr  @ 295 @ 
+return  @ 94 @ return  @ 71 @ 
+name: progressive_mode  @ 1 @ name: progressive_mode  @ 1 @ 
+name: e  @ 346 @ name: e  @ 221 @ 
+name: mov  @ 353 @ name: mov  @ 227 @ 
+name: gf_isom_get_track_from_id  @ 331 @ name: gf_isom_get_track_from_id  @ 207 @ 
+operator: ->  @ 482 @ operator: ->  @ 326 @ 
+condition  @ 190 @ condition  @ 132 @ 
+operator: ,  @ 27 @ operator: ,  @ 23 @ 
+block_content  @ 34 @ block_content  @ 1 @ 
+expr  @ 342 @ expr  @ 218 @ 
+name: mov  @ 343 @ name: mov  @ 219 @ 
+operator: )  @ 238 @ operator: )  @ 152 @ 
+decl  @ 3 @ decl  @ 3 @ 
+call  @ 346 @ call  @ 221 @ 
+if_stmt  @ 94 @ if_stmt  @ 71 @ 
+condition  @ 327 @ condition  @ 203 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr_stmt  @ 454 @ expr_stmt  @ 299 @ 
+operator: !  @ 448 @ operator: !  @ 290 @ 
+operator: (  @ 310 @ operator: (  @ 194 @ 
+expr  @ 396 @ expr  @ 253 @ 
+if  @ 327 @ if  @ 199 @ 
+for  @ 328 @ for  @ 204 @ 
+operator: ->  @ 257 @ operator: ->  @ 167 @ 
+operator: ->  @ 30 @ operator: ->  @ 26 @ 
+operator: ->  @ 63 @ operator: ->  @ 56 @ 
+name: e  @ 5 @ name: e  @ 5 @ 
+name: GF_ISOM_OPEN_KEEP_FRAGMENTS  @ 168 @ name: GF_ISOM_OPEN_CAT_FRAGMENTS  @ 110 @ 
+name: TrackList  @ 328 @ name: TrackList  @ 204 @ 
+then  @ 345 @ then  @ 220 @ 
+return  @ 39 @ return  @ 34 @ 
+name: GF_ISOM_OPEN_KEEP_FRAGMENTS  @ 362 @ name: GF_ISOM_OPEN_CAT_FRAGMENTS  @ 236 @ 
+name: e  @ 357 @ name: e  @ 231 @ 
+expr_stmt  @ 363 @ expr_stmt  @ 237 @ 
+name: trex  @ 335 @ name: trex  @ 211 @ 
+operator: =  @ 147 @ operator: =  @ 96 @ 
+name: FragmentsFlags  @ 408 @ name: FragmentsFlags  @ 265 @ 
+name: trex  @ 342 @ name: trex  @ 218 @ 
+operator: !  @ 448 @ operator: !  @ 292 @ 
+expr  @ 56 @ expr  @ 50 @ 
+argument_list  @ 90 @ argument_list  @ 67 @ 
+block  @ 34 @ block  @ 28 @ 
+expr  @ 293 @ expr  @ 177 @ 
+if_stmt  @ 41 @ if_stmt  @ 36 @ 
+else  @ 412 @ else  @ 269 @ 
+operator: ->  @ 328 @ operator: ->  @ 204 @ 
+if  @ 32 @ if  @ 28 @ 
+argument_list  @ 333 @ argument_list  @ 209 @ 
+name  @ 310 @ name  @ 194 @ 
+name: GF_ISOM_BOX_TYPE_SIDX  @ 251 @ name: GF_ISOM_BOX_TYPE_SIDX  @ 165 @ 
+directive: endif  @ 425 @ directive: endif  @ 273 @ 
+block  @ 8 @ block  @ 8 @ 
+expr  @ 39 @ expr  @ 34 @ 
+argument  @ 230 @ argument  @ 144 @ 
+name  @ 154 @ name  @ 103 @ 
+condition  @ 345 @ condition  @ 220 @ 
+if  @ 87 @ if  @ 64 @ 
+operator: *  @ 120 @ operator: *  @ 83 @ 
+call  @ 170 @ call  @ 112 @ 
+decl_stmt  @ 90 @ decl_stmt  @ 67 @ 
+block_content  @ 240 @ block_content  @ 154 @ 
+block  @ 482 @ block  @ 326 @ 
+operator: ->  @ 453 @ operator: ->  @ 298 @ 
+name: mov  @ 473 @ name: mov  @ 317 @ 
+argument_list  @ 365 @ argument_list  @ 239 @ 
+name: GF_ISOM_FRAG_READ_DEBUG  @ 323 @ name: GF_ISOM_FRAG_READ_DEBUG  @ 199 @ 
+argument  @ 400 @ argument  @ 257 @ 
+name: mov  @ 482 @ name: mov  @ 326 @ 
+name: traf  @ 334 @ name: traf  @ 210 @ 
+name: k  @ 328 @ name: k  @ 204 @ 
+name: GF_LOG_ERROR  @ 38 @ name: GF_LOG_ERROR  @ 33 @ 
+operator: =  @ 368 @ operator: =  @ 242 @ 
+name: mov  @ 189 @ name: mov  @ 131 @ 
+block  @ 362 @ block  @ 236 @ 
+name: mov  @ 484 @ name: mov  @ 328 @ 
+condition  @ 353 @ condition  @ 227 @ 
+name  @ 229 @ name  @ 143 @ 
+operator: ->  @ 410 @ operator: ->  @ 267 @ 
+expr  @ 325 @ expr  @ 201 @ 
+block_content  @ 147 @ block_content  @ 96 @ 
+operator: (  @ 170 @ operator: (  @ 112 @ 
+name: mov  @ 259 @ name: mov  @ 169 @ 
+block  @ 333 @ block  @ 209 @ 
+operator: =  @ 89 @ operator: =  @ 66 @ 
+expr_stmt  @ 335 @ expr_stmt  @ 211 @ 
+condition  @ 154 @ condition  @ 103 @ 
+expr  @ 41 @ expr  @ 36 @ 
+name: traf  @ 335 @ name: traf  @ 211 @ 
+argument  @ 354 @ argument  @ 228 @ 
+name: moov  @ 448 @ name: moov  @ 290 @ 
+operator: ->  @ 342 @ operator: ->  @ 218 @ 
+block  @ 342 @ block  @ 204 @ 
+directive: endif  @ 28 @ directive: endif  @ 24 @ 
+name  @ 93 @ name  @ 70 @ 
+if_stmt  @ 459 @ if_stmt  @ 303 @ 
+expr  @ 460 @ expr  @ 304 @ 
+operator: ++  @ 297 @ operator: ++  @ 181 @ 
+block_content  @ 353 @ block_content  @ 227 @ 
+operator: =  @ 63 @ operator: =  @ 56 @ 
+expr  @ 27 @ expr  @ 23 @ 
+name: mdat  @ 148 @ name: mdat  @ 97 @ 
+name: mov  @ 13 @ name: mov  @ 13 @ 
+operator: )  @ 27 @ operator: )  @ 23 @ 
+name: mov  @ 228 @ name: mov  @ 142 @ 
+name: mov  @ 473 @ name: mov  @ 317 @ 
+name: mov  @ 187 @ name: mov  @ 129 @ 
+name: GF_4CC  @ 396 @ name: GF_4CC  @ 253 @ 
+name  @ 467 @ name  @ 310 @ 
+operator: =  @ 306 @ operator: =  @ 190 @ 
+expr  @ 170 @ expr  @ 112 @ 
+argument_list  @ 294 @ argument_list  @ 178 @ 
+name: trak  @ 93 @ name: trak  @ 70 @ 
+operator: )  @ 396 @ operator: )  @ 253 @ 
+name: mfhd  @ 363 @ name: mfhd  @ 237 @ 
+name: trex  @ 342 @ name: trex  @ 218 @ 
+operator: &&  @ 482 @ operator: &&  @ 326 @ 
+expr  @ 154 @ expr  @ 103 @ 
+control  @ 89 @ control  @ 66 @ 
+name: a  @ 122 @ name: a  @ 84 @ 
+condition  @ 168 @ condition  @ 110 @ 
+expr  @ 396 @ expr  @ 253 @ 
+expr_stmt  @ 172 @ expr_stmt  @ 114 @ 
+argument  @ 116 @ argument  @ 80 @ 
+expr  @ 474 @ expr  @ 318 @ 
+operator: ->  @ 334 @ operator: ->  @ 210 @ 
+if  @ 482 @ if  @ 326 @ 
+argument  @ 42 @ argument  @ 37 @ 
+name: totSize  @ 188 @ name: totSize  @ 130 @ 
+expr  @ 354 @ expr  @ 228 @ 
+name: majorBrand  @ 238 @ name: majorBrand  @ 152 @ 
+block  @ 156 @ block  @ 105 @ 
+operator: =  @ 228 @ operator: =  @ 142 @ 
+literal: "[iso file] Duplicate 'ftyp' detected!\n"  @ 184 @ literal: "[iso file] Duplicate FTYP detected!\n"  @ 126 @ 
+operator: !  @ 408 @ operator: !  @ 265 @ 
+operator: (  @ 90 @ operator: (  @ 67 @ 
+name: mov  @ 8 @ name: mov  @ 8 @ 
+if  @ 357 @ if  @ 231 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+block  @ 353 @ block  @ 227 @ 
+name: TopBoxes  @ 325 @ name: TopBoxes  @ 201 @ 
+operator: ->  @ 362 @ operator: ->  @ 236 @ 
+expr_stmt  @ 299 @ expr_stmt  @ 183 @ 
+expr  @ 335 @ expr  @ 211 @ 
+expr  @ 188 @ expr  @ 130 @ 
+operator: )  @ 147 @ operator: )  @ 96 @ 
+argument  @ 122 @ argument  @ 84 @ 
+name: mov  @ 448 @ name: mov  @ 290 @ 
+expr_stmt  @ 413 @ expr_stmt  @ 270 @ 
+name: e  @ 123 @ name: e  @ 85 @ 
+block  @ 370 @ block  @ 244 @ 
+operator: )  @ 184 @ operator: )  @ 126 @ 
+name  @ 168 @ name  @ 110 @ 
+name: a  @ 398 @ name: a  @ 255 @ 
+name  @ 459 @ name  @ 303 @ 
+block_content  @ 231 @ block_content  @ 145 @ 
+call  @ 54 @ call  @ 49 @ 
+expr  @ 343 @ expr  @ 219 @ 
+switch  @ 239 @ switch  @ 153 @ 
+name: brand  @ 187 @ name: brand  @ 129 @ 
+expr_stmt  @ 435 @ expr_stmt  @ 277 @ 
+expr  @ 50 @ expr  @ 45 @ 
+if  @ 486 @ if  @ 330 @ 
+name: mov  @ 323 @ name: mov  @ 199 @ 
+condition  @ 173 @ condition  @ 115 @ 
+block  @ 154 @ block  @ 103 @ 
+operator: (  @ 306 @ operator: (  @ 190 @ 
+operator: &&  @ 41 @ operator: &&  @ 36 @ 
+if  @ 223 @ if  @ 137 @ 
+else  @ 345 @ else  @ 220 @ 
+operator: ->  @ 443 @ operator: ->  @ 285 @ 
+call  @ 224 @ call  @ 138 @ 
+operator: (  @ 41 @ operator: (  @ 36 @ 
+expr_stmt  @ 257 @ expr_stmt  @ 167 @ 
+directive: endif  @ 155 @ directive: endif  @ 104 @ 
+argument_list  @ 18 @ argument_list  @ 14 @ 
+expr  @ 370 @ expr  @ 244 @ 
+block_content  @ 52 @ block_content  @ 47 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 33 @ 
+expr  @ 224 @ expr  @ 138 @ 
+block  @ 437 @ block  @ 279 @ 
+expr  @ 37 @ expr  @ 32 @ 
+name  @ 298 @ name  @ 182 @ 
+operator: &  @ 333 @ operator: &  @ 209 @ 
+argument_list  @ 485 @ argument_list  @ 329 @ 
+operator: !=  @ 37 @ operator: !=  @ 32 @ 
+name  @ 27 @ name  @ 23 @ 
+condition  @ 63 @ condition  @ 56 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 364 @ expr  @ 238 @ 
+operator: ->  @ 345 @ operator: ->  @ 220 @ 
+condition  @ 8 @ condition  @ 8 @ 
+name: mov  @ 154 @ name: mov  @ 103 @ 
+name: timeScale  @ 469 @ name: timeScale  @ 312 @ 
+name  @ 459 @ name  @ 303 @ 
+name  @ 8 @ name  @ 8 @ 
+expr  @ 410 @ expr  @ 267 @ 
+name: e  @ 370 @ name: e  @ 244 @ 
+name: def_sample_desc_index  @ 345 @ name: def_sample_desc_index  @ 220 @ 
+operator: (  @ 120 @ operator: (  @ 83 @ 
+name: moov  @ 327 @ name: moov  @ 203 @ 
+name  @ 435 @ name  @ 277 @ 
+operator: )  @ 393 @ operator: )  @ 250 @ 
+name: GF_ISOM_INVALID_FILE  @ 226 @ name: GF_ISOM_INVALID_FILE  @ 140 @ 
+expr_stmt  @ 294 @ expr_stmt  @ 178 @ 
+expr  @ 300 @ expr  @ 184 @ 
+argument  @ 27 @ argument  @ 23 @ 
+name: mov  @ 168 @ name: mov  @ 110 @ 
+argument  @ 354 @ argument  @ 228 @ 
+name: mov  @ 448 @ name: mov  @ 292 @ 
+name: mvex  @ 63 @ name: mvex  @ 56 @ 
+name: gf_list_enum  @ 333 @ name: gf_list_enum  @ 209 @ 
+operator: ->  @ 146 @ operator: ->  @ 95 @ 
+type  @ 343 @ type  @ 219 @ 
+name: mov  @ 280 @ name: mov  @ 14 @ 
+operator: !  @ 482 @ operator: !  @ 326 @ 
+name: dataSize  @ 396 @ name: dataSize  @ 253 @ 
+operator: ->  @ 459 @ operator: ->  @ 303 @ 
+literal: 1  @ 396 @ literal: 1  @ 253 @ 
+name: openMode  @ 362 @ name: openMode  @ 236 @ 
+expr  @ 238 @ expr  @ 152 @ 
+name: e  @ 149 @ name: e  @ 98 @ 
+expr  @ 90 @ expr  @ 67 @ 
+argument  @ 299 @ argument  @ 183 @ 
+block  @ 296 @ block  @ 180 @ 
+argument_list  @ 183 @ argument_list  @ 125 @ 
+expr  @ 365 @ expr  @ 239 @ 
+expr  @ 400 @ expr  @ 257 @ 
+expr  @ 299 @ expr  @ 183 @ 
+name: FragmentsFlags  @ 154 @ name: FragmentsFlags  @ 103 @ 
+name: moov  @ 467 @ name: moov  @ 310 @ 
+if_stmt  @ 87 @ if_stmt  @ 64 @ 
+argument_list  @ 224 @ argument_list  @ 138 @ 
+name: a  @ 238 @ name: a  @ 152 @ 
+expr  @ 400 @ expr  @ 257 @ 
+operator: ->  @ 329 @ operator: ->  @ 205 @ 
+expr  @ 116 @ expr  @ 80 @ 
+name: traf  @ 354 @ name: traf  @ 228 @ 
+name: progressive_mode  @ 41 @ name: progressive_mode  @ 36 @ 
+name  @ 90 @ name  @ 67 @ 
+operator: ->  @ 26 @ operator: ->  @ 22 @ 
+expr  @ 397 @ expr  @ 254 @ 
+expr  @ 473 @ expr  @ 317 @ 
+case  @ 240 @ case  @ 154 @ 
+name: tfhd  @ 334 @ name: tfhd  @ 210 @ 
+operator: *  @ 483 @ operator: *  @ 327 @ 
+name: a  @ 286 @ name: a  @ 172 @ 
+name: mov  @ 436 @ name: mov  @ 278 @ 
+name: k  @ 353 @ name: k  @ 227 @ 
+name: GF_ISOM_FRAG_READ_DEBUG  @ 154 @ name: GF_ISOM_FRAG_READ_DEBUG  @ 103 @ 
+name: GF_ISOM_BOX_TYPE_MDAT  @ 131 @ name: GF_ISOM_BOX_TYPE_MDAT  @ 92 @ 
+operator: ->  @ 353 @ operator: ->  @ 227 @ 
+block_content  @ 38 @ block_content  @ 33 @ 
+name: trak  @ 343 @ name: trak  @ 219 @ 
+operator: ->  @ 485 @ operator: ->  @ 329 @ 
+operator: =  @ 303 @ operator: =  @ 187 @ 
+name: FragmentsFlags  @ 258 @ name: FragmentsFlags  @ 168 @ 
+decl_stmt  @ 393 @ decl_stmt  @ 250 @ 
+condition  @ 87 @ condition  @ 64 @ 
+operator: (  @ 42 @ operator: (  @ 37 @ 
+operator: ==  @ 41 @ operator: ==  @ 36 @ 
+operator: ->  @ 37 @ operator: ->  @ 32 @ 
+control  @ 328 @ control  @ 204 @ 
+name: GF_ISOM_INCOMPLETE_FILE  @ 449 @ name: GF_ISOM_INCOMPLETE_FILE  @ 295 @ 
+call  @ 325 @ call  @ 201 @ 
+condition  @ 347 @ condition  @ 222 @ 
+name: meta  @ 448 @ name: meta  @ 290 @ 
+init  @ 5 @ init  @ 5 @ 
+literal: 2  @ 8 @ literal: 2  @ 8 @ 
+if_stmt  @ 8 @ if_stmt  @ 8 @ 
+name: e  @ 357 @ name: e  @ 231 @ 
+expr_stmt  @ 148 @ expr_stmt  @ 97 @ 
+operator: )  @ 120 @ operator: )  @ 83 @ 
+name: bs  @ 356 @ name: bs  @ 230 @ 
+operator: ->  @ 182 @ operator: ->  @ 124 @ 
+expr  @ 345 @ expr  @ 220 @ 
+operator: !=  @ 168 @ operator: !=  @ 110 @ 
+name: GF_MovieBox  @ 58 @ name: GF_MovieBox  @ 52 @ 
+name: trak  @ 345 @ name: trak  @ 220 @ 
+name: GF_TRUE  @ 243 @ name: GF_TRUE  @ 157 @ 
+block_content  @ 37 @ block_content  @ 32 @ 
+operator: ->  @ 474 @ operator: ->  @ 318 @ 
+call  @ 483 @ call  @ 327 @ 
+operator: ->  @ 436 @ operator: ->  @ 278 @ 
+expr  @ 42 @ expr  @ 37 @ 
+expr_stmt  @ 436 @ expr_stmt  @ 278 @ 
+expr  @ 328 @ expr  @ 204 @ 
+if  @ 115 @ if  @ 79 @ 
+if_stmt  @ 437 @ if_stmt  @ 279 @ 
+expr  @ 334 @ expr  @ 210 @ 
+directive: ifndef  @ 235 @ directive: ifndef  @ 149 @ 
+argument_list  @ 154 @ argument_list  @ 103 @ 
+name: GF_ISOM_BOX_TYPE_META  @ 114 @ name: GF_ISOM_BOX_TYPE_META  @ 78 @ 
+name: traf  @ 345 @ name: traf  @ 220 @ 
+operator: ->  @ 342 @ operator: ->  @ 218 @ 
+return  @ 56 @ return  @ 50 @ 
+block_content  @ 54 @ block_content  @ 49 @ 
+name: e  @ 94 @ name: e  @ 71 @ 
+argument  @ 369 @ argument  @ 243 @ 
+expr  @ 437 @ expr  @ 279 @ 
+while  @ 333 @ while  @ 209 @ 
+operator: ->  @ 136 @ operator: ->  @ 93 @ 
+operator: )  @ 413 @ operator: )  @ 270 @ 
+name: sample_desc_index  @ 345 @ name: sample_desc_index  @ 220 @ 
+expr  @ 54 @ expr  @ 49 @ 
+block  @ 298 @ block  @ 182 @ 
+name: mov  @ 171 @ name: mov  @ 113 @ 
+argument  @ 38 @ argument  @ 33 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 168 @ expr  @ 110 @ 
+block_content  @ 413 @ block_content  @ 270 @ 
+operator: !=  @ 473 @ operator: !=  @ 317 @ 
+case  @ 391 @ case  @ 248 @ 
+name: a  @ 187 @ name: a  @ 129 @ 
+expr  @ 346 @ expr  @ 221 @ 
+argument  @ 184 @ argument  @ 126 @ 
+name: u32  @ 238 @ name: u32  @ 152 @ 
+name  @ 469 @ name  @ 312 @ 
+block  @ 344 @ block  @ 218 @ 
+expr  @ 147 @ expr  @ 96 @ 
+name  @ 305 @ name  @ 189 @ 
+expr_stmt  @ 58 @ expr_stmt  @ 52 @ 
+expr  @ 485 @ expr  @ 329 @ 
+argument  @ 54 @ argument  @ 49 @ 
+name: moov  @ 343 @ name: moov  @ 219 @ 
+block_content  @ 484 @ block_content  @ 328 @ 
+expr  @ 454 @ expr  @ 299 @ 
+name: GF_ISOM_FRAG_READ_DEBUG  @ 258 @ name: GF_ISOM_FRAG_READ_DEBUG  @ 168 @ 
+expr  @ 240 @ expr  @ 154 @ 
+name: GF_LOG  @ 294 @ name: GF_LOG  @ 178 @ 
+expr  @ 395 @ expr  @ 252 @ 
+expr  @ 190 @ expr  @ 132 @ 
+expr_stmt  @ 286 @ expr_stmt  @ 172 @ 
+argument  @ 30 @ argument  @ 26 @ 
+name  @ 348 @ name  @ 223 @ 
+name: Bool  @ 1 @ name: Bool  @ 1 @ 
+operator: ->  @ 333 @ operator: ->  @ 209 @ 
+operator: ->  @ 354 @ operator: ->  @ 228 @ 
+call  @ 454 @ call  @ 299 @ 
+operator: &  @ 323 @ operator: &  @ 199 @ 
+name: traf  @ 346 @ name: traf  @ 221 @ 
+name: GF_TrackBox  @ 90 @ name: GF_TrackBox  @ 67 @ 
+operator: ->  @ 330 @ operator: ->  @ 206 @ 
+expr  @ 391 @ expr  @ 248 @ 
+name  @ 30 @ name  @ 26 @ 
+operator: ->  @ 473 @ operator: ->  @ 317 @ 
+name: gf_list_add  @ 325 @ name: gf_list_add  @ 201 @ 
+call  @ 436 @ call  @ 278 @ 
+argument_list  @ 483 @ argument_list  @ 327 @ 
+expr  @ 5 @ expr  @ 5 @ 
+argument_list  @ 474 @ argument_list  @ 318 @ 
+name: e  @ 72 @ name: e  @ 58 @ 
+literal: "[iso file] Missing handler in META!\n"  @ 460 @ literal: "[iso file] Missing handler in META!\n"  @ 304 @ 
+expr  @ 353 @ expr  @ 227 @ 
+name: e  @ 347 @ name: e  @ 222 @ 
+name: TopBoxes  @ 122 @ name: TopBoxes  @ 84 @ 
+operator: ->  @ 258 @ operator: ->  @ 168 @ 
+block  @ 89 @ block  @ 66 @ 
+name: gf_isom_box_del  @ 299 @ name: gf_isom_box_del  @ 183 @ 
+name  @ 448 @ name  @ 290 @ 
+argument  @ 148 @ argument  @ 97 @ 
+expr  @ 296 @ expr  @ 180 @ 
+name: bytesMissing  @ 24 @ name: bytesMissing  @ 20 @ 
+init  @ 90 @ init  @ 67 @ 
+if_stmt  @ 146 @ if_stmt  @ 95 @ 
+if  @ 171 @ if  @ 113 @ 
+name  @ 50 @ name  @ 45 @ 
+operator: ->  @ 329 @ operator: ->  @ 205 @ 
+endif  @ 444 @ endif  @ 286 @ 
+name: a  @ 259 @ name: a  @ 169 @ 
+operator: )  @ 54 @ operator: )  @ 49 @ 
+name: traf  @ 335 @ name: traf  @ 211 @ 
+expr  @ 443 @ expr  @ 285 @ 
+block  @ 486 @ block  @ 330 @ 
+literal: 3  @ 396 @ literal: 3  @ 253 @ 
+expr  @ 228 @ expr  @ 142 @ 
+name: mov  @ 296 @ name: mov  @ 180 @ 
+operator: ->  @ 18 @ operator: ->  @ 14 @ 
+name: mov  @ 459 @ name: mov  @ 303 @ 
+block_content  @ 486 @ block_content  @ 330 @ 
+directive: ifndef  @ 153 @ directive: ifndef  @ 102 @ 
+name: traf  @ 345 @ name: traf  @ 220 @ 
+name  @ 345 @ name  @ 220 @ 
+for  @ 353 @ for  @ 227 @ 
+argument  @ 224 @ argument  @ 138 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 14 @ 
+name: box  @ 396 @ name: box  @ 253 @ 
+expr  @ 173 @ expr  @ 115 @ 
+name: mdat  @ 146 @ name: mdat  @ 95 @ 
+name: GF_FileTypeBox  @ 238 @ name: GF_SegmentTypeBox  @ 152 @ 
+argument  @ 343 @ argument  @ 219 @ 
+literal: 0  @ 332 @ literal: 0  @ 208 @ 
+argument  @ 396 @ argument  @ 253 @ 
+argument  @ 23 @ argument  @ 19 @ 
+type  @ 90 @ type  @ 67 @ 
+name: TrackList  @ 353 @ name: TrackList  @ 227 @ 
+operator: !  @ 448 @ operator: !  @ 292 @ 
+call  @ 309 @ call  @ 193 @ 
+argument  @ 356 @ argument  @ 230 @ 
+operator: =  @ 364 @ operator: =  @ 238 @ 
+block_content  @ 63 @ block_content  @ 56 @ 
+modifier: *  @ 343 @ modifier: *  @ 219 @ 
+if_stmt  @ 293 @ if_stmt  @ 177 @ 
+name  @ 353 @ name  @ 227 @ 
+operator: =  @ 413 @ operator: =  @ 270 @ 
+expr  @ 485 @ expr  @ 329 @ 
+argument  @ 30 @ argument  @ 26 @ 
+operator: &&  @ 168 @ operator: &&  @ 110 @ 
+operator: &&  @ 473 @ operator: &&  @ 317 @ 
+argument_list  @ 368 @ argument_list  @ 242 @ 
+operator: ->  @ 89 @ operator: ->  @ 66 @ 
+expr_stmt  @ 365 @ expr_stmt  @ 239 @ 
+block_content  @ 9 @ block_content  @ 9 @ 
+operator: ->  @ 342 @ operator: ->  @ 218 @ 
+name: mov  @ 1 @ name: mov  @ 1 @ 
+name  @ 87 @ name  @ 64 @ 
+expr  @ 294 @ expr  @ 178 @ 
+name: GF_LOG_ERROR  @ 42 @ name: GF_LOG_ERROR  @ 37 @ 
+name: GF_ISOM_INVALID_FILE  @ 185 @ name: GF_ISOM_INVALID_FILE  @ 127 @ 
+return  @ 455 @ return  @ 300 @ 
+name: moov  @ 475 @ name: moov  @ 319 @ 
+directive: ifndef  @ 419 @ directive: ifndef  @ 264 @ 
+argument_list  @ 225 @ argument_list  @ 139 @ 
+name: a  @ 183 @ name: a  @ 125 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: )  @ 408 @ operator: )  @ 265 @ 
+operator: ->  @ 87 @ operator: ->  @ 64 @ 
+name: trak  @ 92 @ name: trak  @ 69 @ 
+operator: (  @ 368 @ operator: (  @ 242 @ 
+argument_list  @ 369 @ argument_list  @ 243 @ 
+block_content  @ 331 @ block_content  @ 207 @ 
+operator: ->  @ 346 @ operator: ->  @ 221 @ 
+name: meta  @ 115 @ name: meta  @ 79 @ 
+init  @ 238 @ init  @ 152 @ 
+expr_stmt  @ 474 @ expr_stmt  @ 318 @ 
+argument_list  @ 72 @ argument_list  @ 58 @ 
+expr  @ 486 @ expr  @ 330 @ 
+else  @ 156 @ else  @ 105 @ 
+name: mov  @ 459 @ name: mov  @ 303 @ 
+argument  @ 454 @ argument  @ 299 @ 
+type  @ 238 @ type  @ 152 @ 
+operator: ->  @ 397 @ operator: ->  @ 254 @ 
+call  @ 460 @ call  @ 304 @ 
+name  @ 89 @ name  @ 66 @ 
+operator: ->  @ 354 @ operator: ->  @ 228 @ 
+expr_stmt  @ 306 @ expr_stmt  @ 190 @ 
+operator: ->  @ 469 @ operator: ->  @ 312 @ 
+name: e  @ 124 @ name: e  @ 86 @ 
+operator: ->  @ 148 @ operator: ->  @ 97 @ 
+expr  @ 393 @ expr  @ 250 @ 
+name: a  @ 411 @ name: a  @ 268 @ 
+name: GPAC_DISABLE_ISOM_WRITE  @ 465 @ name: GPAC_DISABLE_ISOM_WRITE  @ 308 @ 
+block  @ 46 @ block  @ 41 @ 
+block  @ 330 @ block  @ 206 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+comment: //keep the last one read  @ 409 @ comment: //keep the last one read  @ 266 @ 
+name: mov  @ 147 @ name: mov  @ 96 @ 
+name: mov  @ 58 @ name: mov  @ 52 @ 
+else  @ 46 @ else  @ 41 @ 
+name: tfhd  @ 345 @ name: tfhd  @ 220 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+block  @ 401 @ block  @ 258 @ 
+type  @ 354 @ type  @ 228 @ 
+name: NULL  @ 93 @ name: NULL  @ 70 @ 
+expr  @ 490 @ expr  @ 334 @ 
+operator: =  @ 353 @ operator: =  @ 227 @ 
+if  @ 344 @ if  @ 218 @ 
+name: senc_Parse  @ 346 @ name: senc_Parse  @ 221 @ 
+expr_stmt  @ 460 @ expr_stmt  @ 304 @ 
+name: GF_ISOM_BOX_TYPE_UNKNOWN  @ 391 @ name: GF_ISOM_BOX_TYPE_UNKNOWN  @ 248 @ 
+expr  @ 38 @ expr  @ 33 @ 
+name: track  @ 342 @ name: track  @ 218 @ 
+name: senc_Parse  @ 356 @ name: senc_Parse  @ 230 @ 
+operator: ->  @ 469 @ operator: ->  @ 312 @ 
+name: GF_ISOM_OPEN_READ  @ 473 @ name: GF_ISOM_OPEN_READ  @ 317 @ 
+name: totSize  @ 4 @ name: totSize  @ 4 @ 
+expr  @ 333 @ expr  @ 209 @ 
+expr  @ 398 @ expr  @ 255 @ 
+name: bs  @ 346 @ name: bs  @ 221 @ 
+expr  @ 286 @ expr  @ 172 @ 
+call  @ 183 @ call  @ 125 @ 
+expr  @ 401 @ expr  @ 258 @ 
+argument  @ 26 @ argument  @ 22 @ 
+break  @ 336 @ break  @ 212 @ 
+index  @ 396 @ index  @ 253 @ 
+expr  @ 63 @ expr  @ 56 @ 
+expr  @ 396 @ expr  @ 253 @ 
+name: traf  @ 356 @ name: traf  @ 230 @ 
+call  @ 333 @ call  @ 209 @ 
+call  @ 485 @ call  @ 329 @ 
+operator: ->  @ 328 @ operator: ->  @ 204 @ 
+name: mov  @ 63 @ name: mov  @ 56 @ 
+operator: ->  @ 482 @ operator: ->  @ 326 @ 
+name: GF_ISOM_BOX_TYPE_JP  @ 394 @ name: GF_ISOM_BOX_TYPE_JP  @ 251 @ 
+name: GF_ISOM_BOX_TYPE_MOOF  @ 290 @ name: GF_ISOM_BOX_TYPE_MOOF  @ 176 @ 
+name  @ 473 @ name  @ 317 @ 
+name: mdat  @ 171 @ name: mdat  @ 113 @ 
+name: tfhd  @ 330 @ name: tfhd  @ 206 @ 
+block  @ 408 @ block  @ 265 @ 
+argument  @ 156 @ argument  @ 105 @ 
+name: GF_ISOFile  @ 1 @ name: GF_ISOFile  @ 1 @ 
+operator: ->  @ 53 @ operator: ->  @ 48 @ 
+name: gf_list_count  @ 328 @ name: gf_list_count  @ 204 @ 
+name: mdat  @ 484 @ name: mdat  @ 328 @ 
+directive: endif  @ 71 @ directive: endif  @ 57 @ 
+argument  @ 356 @ argument  @ 230 @ 
+operator: ->  @ 63 @ operator: ->  @ 56 @ 
+name: TopBoxes  @ 259 @ name: TopBoxes  @ 169 @ 
+operator: +=  @ 75 @ operator: +=  @ 61 @ 
+condition  @ 146 @ condition  @ 95 @ 
+name: moof  @ 306 @ name: moof  @ 190 @ 
+modifier: *  @ 329 @ modifier: *  @ 205 @ 
+operator: )  @ 483 @ operator: )  @ 327 @ 
+argument  @ 183 @ argument  @ 125 @ 
+return  @ 490 @ return  @ 334 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: ->  @ 333 @ operator: ->  @ 209 @ 
+block  @ 2 @ block  @ 2 @ 
+name: mvhd  @ 469 @ name: mvhd  @ 312 @ 
+name: bs  @ 443 @ name: bs  @ 285 @ 
+name: mvex  @ 330 @ name: mvex  @ 206 @ 
+if  @ 296 @ if  @ 180 @ 
+case  @ 242 @ case  @ 156 @ 
+if  @ 448 @ if  @ 290 @ 
+name: mov  @ 172 @ name: mov  @ 114 @ 
+name: progressive_mode  @ 30 @ name: progressive_mode  @ 26 @ 
+if_stmt  @ 223 @ if_stmt  @ 137 @ 
+condition  @ 149 @ condition  @ 98 @ 
+operator: =  @ 328 @ operator: =  @ 204 @ 
+condition  @ 92 @ condition  @ 69 @ 
+call  @ 259 @ call  @ 169 @ 
+name  @ 168 @ name  @ 110 @ 
+operator: =  @ 189 @ operator: =  @ 131 @ 
+name: a  @ 325 @ name: a  @ 201 @ 
+condition  @ 32 @ condition  @ 28 @ 
+if  @ 41 @ if  @ 36 @ 
+operator: ->  @ 467 @ operator: ->  @ 310 @ 
+expr  @ 241 @ expr  @ 155 @ 
+expr  @ 454 @ expr  @ 299 @ 
+name: trackID  @ 331 @ name: trackID  @ 207 @ 
+expr  @ 229 @ expr  @ 143 @ 
+operator: (  @ 303 @ operator: (  @ 187 @ 
+name: mov  @ 413 @ name: mov  @ 270 @ 
+name  @ 453 @ name  @ 298 @ 
+call  @ 154 @ call  @ 103 @ 
+name: mov  @ 72 @ name: mov  @ 58 @ 
+expr  @ 154 @ expr  @ 103 @ 
+name  @ 168 @ name  @ 110 @ 
+operator: ->  @ 396 @ operator: ->  @ 253 @ 
+expr  @ 368 @ expr  @ 242 @ 
+name: a  @ 189 @ name: a  @ 131 @ 
+ifndef  @ 7 @ ifndef  @ 7 @ 
+operator: ->  @ 363 @ operator: ->  @ 237 @ 
+block_content  @ 356 @ block_content  @ 230 @ 
+name: mov  @ 448 @ name: mov  @ 292 @ 
+argument  @ 325 @ argument  @ 201 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 18 @ expr  @ 14 @ 
+call  @ 156 @ call  @ 105 @ 
+return  @ 437 @ return  @ 279 @ 
+condition  @ 333 @ condition  @ 209 @ 
+operator: ->  @ 26 @ operator: ->  @ 22 @ 
+name: GF_ISOM_BOX_TYPE_PDIN  @ 221 @ name: GF_ISOM_BOX_TYPE_PDIN  @ 135 @ 
+decl_stmt  @ 238 @ decl_stmt  @ 152 @ 
+if  @ 123 @ if  @ 85 @ 
+operator: ->  @ 331 @ operator: ->  @ 207 @ 
+literal: "[iso file] Movie fragment but no moov (yet) - possibly broken parsing!\n"  @ 294 @ literal: "[iso file] Movie fragment but no moov (yet) - possibly broken parsing!\n"  @ 178 @ 
+name: e  @ 485 @ name: e  @ 329 @ 
+block_content  @ 347 @ block_content  @ 222 @ 
+expr  @ 353 @ expr  @ 227 @ 
+decl  @ 354 @ decl  @ 228 @ 
+block  @ 258 @ block  @ 168 @ 
+name: openMode  @ 168 @ name: openMode  @ 110 @ 
+name: totSize  @ 305 @ name: totSize  @ 189 @ 
+name: mov  @ 41 @ name: mov  @ 36 @ 
+operator: )  @ 170 @ operator: )  @ 112 @ 
+operator: =  @ 93 @ operator: =  @ 70 @ 
+expr  @ 259 @ expr  @ 169 @ 
+name  @ 331 @ name  @ 207 @ 
+expr  @ 38 @ expr  @ 33 @ 
+expr  @ 30 @ expr  @ 26 @ 
+argument  @ 398 @ argument  @ 255 @ 
+operator: =  @ 356 @ operator: =  @ 230 @ 
+name  @ 189 @ name  @ 131 @ 
+expr  @ 294 @ expr  @ 178 @ 
+operator: ->  @ 30 @ operator: ->  @ 26 @ 
+if  @ 293 @ if  @ 177 @ 
+operator: (  @ 482 @ operator: (  @ 326 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name  @ 58 @ name  @ 52 @ 
+name: mov  @ 485 @ name: mov  @ 329 @ 
+operator: &&  @ 342 @ operator: &&  @ 218 @ 
+name: mov  @ 93 @ name: mov  @ 70 @ 
+name  @ 53 @ name  @ 48 @ 
+argument  @ 343 @ argument  @ 219 @ 
+argument  @ 38 @ argument  @ 33 @ 
+name: GF_Box  @ 474 @ name: GF_Box  @ 318 @ 
+name: GF_MovieFragmentBox  @ 368 @ name: GF_MovieFragmentBox  @ 242 @ 
+name: TopBoxes  @ 436 @ name: TopBoxes  @ 278 @ 
+operator: =  @ 172 @ operator: =  @ 114 @ 
+name: GF_MediaDataBox  @ 147 @ name: GF_MediaDataBox  @ 96 @ 
+name: GF_LOG_CONTAINER  @ 294 @ name: GF_LOG_CONTAINER  @ 178 @ 
+expr  @ 443 @ expr  @ 285 @ 
+block_content  @ 401 @ block_content  @ 258 @ 
+argument  @ 356 @ argument  @ 230 @ 
+expr_stmt  @ 411 @ expr_stmt  @ 268 @ 
+operator: ->  @ 8 @ operator: ->  @ 8 @ 
+operator: =  @ 483 @ operator: =  @ 327 @ 
+operator: (  @ 184 @ operator: (  @ 126 @ 
+name  @ 37 @ name  @ 32 @ 
+condition  @ 123 @ condition  @ 85 @ 
+expr  @ 114 @ expr  @ 78 @ 
+name: a  @ 3 @ name: a  @ 3 @ 
+expr  @ 396 @ expr  @ 253 @ 
+operator: ->  @ 413 @ operator: ->  @ 270 @ 
+expr  @ 30 @ expr  @ 26 @ 
+expr  @ 89 @ expr  @ 66 @ 
+if_stmt  @ 394 @ if_stmt  @ 251 @ 
+operator: )  @ 474 @ operator: )  @ 318 @ 
+argument  @ 116 @ argument  @ 80 @ 
+operator: *  @ 170 @ operator: *  @ 112 @ 
+operator: ->  @ 223 @ operator: ->  @ 137 @ 
+expr  @ 260 @ expr  @ 170 @ 
+name: GF_LOG_CONTAINER  @ 54 @ name: GF_LOG_CONTAINER  @ 49 @ 
+operator: (  @ 228 @ operator: (  @ 142 @ 
+argument_list  @ 148 @ argument_list  @ 97 @ 
+name: single_moof_state  @ 298 @ name: single_moof_state  @ 182 @ 
+expr  @ 338 @ expr  @ 214 @ 
+name: gf_isom_box_del  @ 365 @ name: gf_isom_box_del  @ 239 @ 
+expr  @ 93 @ expr  @ 70 @ 
+call  @ 353 @ call  @ 227 @ 
+operator: =  @ 170 @ operator: =  @ 112 @ 
+case  @ 180 @ case  @ 122 @ 
+literal: 0x0D0A870A  @ 396 @ literal: 0x0D0A870A  @ 253 @ 
+expr  @ 362 @ expr  @ 236 @ 
+argument_list  @ 156 @ argument_list  @ 105 @ 
+incr  @ 353 @ incr  @ 227 @ 
+call  @ 356 @ call  @ 230 @ 
+name: a  @ 75 @ name: a  @ 61 @ 
+call  @ 42 @ call  @ 37 @ 
+name: a  @ 400 @ name: a  @ 257 @ 
+name: a  @ 365 @ name: a  @ 239 @ 
+decl_stmt  @ 332 @ decl_stmt  @ 208 @ 
+expr  @ 122 @ expr  @ 84 @ 
+name  @ 475 @ name  @ 319 @ 
+name: TrackList  @ 329 @ name: TrackList  @ 205 @ 
+argument  @ 42 @ argument  @ 37 @ 
+name: gf_list_add  @ 485 @ name: gf_list_add  @ 329 @ 
+decl_stmt  @ 354 @ decl_stmt  @ 228 @ 
+name: movieFileMap  @ 93 @ name: movieFileMap  @ 70 @ 
+operator: ->  @ 338 @ operator: ->  @ 214 @ 
+expr  @ 239 @ expr  @ 153 @ 
+name  @ 342 @ name  @ 218 @ 
+name: c  @ 396 @ name: c  @ 253 @ 
+expr  @ 42 @ expr  @ 37 @ 
+expr  @ 182 @ expr  @ 124 @ 
+expr  @ 460 @ expr  @ 304 @ 
+index  @ 396 @ index  @ 253 @ 
+block_content  @ 411 @ block_content  @ 268 @ 
+if_stmt  @ 73 @ if_stmt  @ 59 @ 
+name: NULL  @ 364 @ name: NULL  @ 238 @ 
+argument  @ 18 @ argument  @ 14 @ 
+directive: ifndef  @ 441 @ directive: ifndef  @ 283 @ 
+condition  @ 53 @ condition  @ 48 @ 
+name  @ 395 @ name  @ 252 @ 
+condition  @ 408 @ condition  @ 265 @ 
+name: GF_ProducerReferenceTimeBox  @ 413 @ name: GF_ProducerReferenceTimeBox  @ 270 @ 
+name: trackList  @ 90 @ name: trackList  @ 67 @ 
+argument  @ 172 @ argument  @ 114 @ 
+operator: =  @ 243 @ operator: =  @ 157 @ 
+name: gf_list_get  @ 329 @ name: gf_list_get  @ 205 @ 
+operator: *  @ 24 @ operator: *  @ 20 @ 
+modifier: *  @ 90 @ modifier: *  @ 67 @ 
+expr  @ 368 @ expr  @ 242 @ 
+name: mov  @ 63 @ name: mov  @ 56 @ 
+argument  @ 365 @ argument  @ 239 @ 
+name  @ 63 @ name  @ 56 @ 
+operator: &  @ 154 @ operator: &  @ 103 @ 
+condition  @ 296 @ condition  @ 180 @ 
+expr  @ 348 @ expr  @ 223 @ 
+while  @ 23 @ while  @ 19 @ 
+name: trak  @ 93 @ name: trak  @ 70 @ 
+name  @ 334 @ name  @ 210 @ 
+return  @ 118 @ return  @ 81 @ 
+name: gf_isom_box_del  @ 286 @ name: gf_isom_box_del  @ 172 @ 
+name: trex  @ 335 @ name: trex  @ 211 @ 
+name: GF_LOG_CONTAINER  @ 454 @ name: GF_LOG_CONTAINER  @ 299 @ 
+operator: =  @ 335 @ operator: =  @ 211 @ 
+expr  @ 154 @ expr  @ 103 @ 
+expr  @ 328 @ expr  @ 204 @ 
+name  @ 473 @ name  @ 317 @ 
+name: trex  @ 334 @ name: trex  @ 210 @ 
+literal: "[iso file] Missing MVHD in MOOV!\n"  @ 454 @ literal: "[iso file] Missing MVHD in MOOV!\n"  @ 299 @ 
+name: meta  @ 120 @ name: meta  @ 83 @ 
+argument_list  @ 331 @ argument_list  @ 207 @ 
+name: current_top_box_start  @ 443 @ name: current_top_box_start  @ 285 @ 
+operator: ==  @ 334 @ operator: ==  @ 210 @ 
+argument_list  @ 30 @ argument_list  @ 26 @ 
+argument_list  @ 169 @ argument_list  @ 111 @ 
+name: openMode  @ 168 @ name: openMode  @ 110 @ 
+expr_stmt  @ 305 @ expr_stmt  @ 189 @ 
+name: FixTrackID  @ 309 @ name: FixTrackID  @ 193 @ 
+operator: *  @ 303 @ operator: *  @ 187 @ 
+name: mov  @ 61 @ name: mov  @ 54 @ 
+if_stmt  @ 190 @ if_stmt  @ 132 @ 
+operator: >  @ 473 @ operator: >  @ 317 @ 
+operator: )  @ 58 @ operator: )  @ 52 @ 
+call  @ 294 @ call  @ 178 @ 
+call  @ 396 @ call  @ 253 @ 
+block_content  @ 370 @ block_content  @ 244 @ 
+name: MergeFragment  @ 368 @ name: MergeFragment  @ 242 @ 
+name: bs  @ 26 @ name: bs  @ 22 @ 
+operator: ->  @ 58 @ operator: ->  @ 52 @ 
+block  @ 327 @ block  @ 199 @ 
+name  @ 410 @ name  @ 267 @ 
+operator: )  @ 303 @ operator: )  @ 187 @ 
+block  @ 453 @ block  @ 298 @ 
+argument_list  @ 259 @ argument_list  @ 169 @ 
+decl  @ 88 @ decl  @ 65 @ 
+operator: *  @ 147 @ operator: *  @ 96 @ 
+expr  @ 89 @ expr  @ 66 @ 
+decl_stmt  @ 343 @ decl_stmt  @ 219 @ 
+expr  @ 184 @ expr  @ 126 @ 
+expr  @ 356 @ expr  @ 230 @ 
+argument_list  @ 23 @ argument_list  @ 19 @ 
+case  @ 236 @ case  @ 150 @ 
+block_content  @ 116 @ block_content  @ 80 @ 
+name: GF_ISOM_INVALID_FILE  @ 56 @ name: GF_ISOM_INVALID_FILE  @ 50 @ 
+expr  @ 87 @ expr  @ 64 @ 
+expr  @ 467 @ expr  @ 310 @ 
+block_content  @ 357 @ block_content  @ 231 @ 
+expr_stmt  @ 297 @ expr_stmt  @ 181 @ 
+name: gf_list_add  @ 230 @ name: gf_list_add  @ 144 @ 
+name: mov  @ 333 @ name: mov  @ 209 @ 
+expr  @ 406 @ expr  @ 263 @ 
+operator: &&  @ 8 @ operator: &&  @ 8 @ 
+return  @ 150 @ return  @ 99 @ 
+name: e  @ 122 @ name: e  @ 84 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 26 @ expr  @ 22 @ 
+name: k  @ 353 @ name: k  @ 227 @ 
+operator: =  @ 122 @ operator: =  @ 84 @ 
+expr  @ 303 @ expr  @ 187 @ 
+name: a  @ 368 @ name: a  @ 242 @ 
+name: mov  @ 53 @ name: mov  @ 48 @ 
+expr  @ 92 @ expr  @ 69 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+name: NULL  @ 475 @ name: NULL  @ 319 @ 
+name: k  @ 324 @ name: k  @ 200 @ 
+name: last_producer_ref_time  @ 413 @ name: last_producer_ref_time  @ 270 @ 
+block  @ 63 @ block  @ 56 @ 
+name: u64  @ 4 @ name: u64  @ 4 @ 
+call  @ 343 @ call  @ 219 @ 
+block  @ 182 @ block  @ 124 @ 
+block  @ 335 @ block  @ 211 @ 
+expr  @ 454 @ expr  @ 299 @ 
+block_content  @ 393 @ block_content  @ 250 @ 
+name: a  @ 230 @ name: a  @ 144 @ 
+return  @ 231 @ return  @ 145 @ 
+name: moov  @ 89 @ name: moov  @ 66 @ 
+expr  @ 325 @ expr  @ 201 @ 
+if_stmt  @ 347 @ if_stmt  @ 222 @ 
+name: openMode  @ 482 @ name: openMode  @ 326 @ 
+argument_list  @ 54 @ argument_list  @ 49 @ 
+name: j  @ 332 @ name: j  @ 208 @ 
+condition  @ 357 @ condition  @ 231 @ 
+if  @ 190 @ if  @ 132 @ 
+expr_stmt  @ 75 @ expr_stmt  @ 61 @ 
+expr  @ 413 @ expr  @ 270 @ 
+expr  @ 174 @ expr  @ 116 @ 
+expr  @ 398 @ expr  @ 255 @ 
+name: mvex  @ 474 @ name: mvex  @ 318 @ 
+block  @ 310 @ block  @ 194 @ 
+operator: ->  @ 72 @ operator: ->  @ 58 @ 
+if  @ 231 @ if  @ 145 @ 
+expr  @ 146 @ expr  @ 95 @ 
+operator: +=  @ 136 @ operator: +=  @ 93 @ 
+expr  @ 170 @ expr  @ 112 @ 
+init  @ 331 @ init  @ 207 @ 
+expr  @ 124 @ expr  @ 86 @ 
+block_content  @ 286 @ block_content  @ 172 @ 
+expr  @ 309 @ expr  @ 193 @ 
+expr  @ 356 @ expr  @ 230 @ 
+expr  @ 54 @ expr  @ 49 @ 
+name: moov  @ 333 @ name: moov  @ 209 @ 
+name: mov  @ 485 @ name: mov  @ 329 @ 
+name  @ 334 @ name  @ 210 @ 
+operator: (  @ 54 @ operator: (  @ 49 @ 
+name: a  @ 50 @ name: a  @ 45 @ 
+name: mvex  @ 330 @ name: mvex  @ 206 @ 
+block  @ 399 @ block  @ 256 @ 
+expr  @ 169 @ expr  @ 111 @ 
+operator: &  @ 30 @ operator: &  @ 26 @ 
+name: moof  @ 311 @ name: moof  @ 195 @ 
+else  @ 285 @ else  @ 171 @ 
+expr  @ 93 @ expr  @ 70 @ 
+name  @ 223 @ name  @ 137 @ 
+block_content  @ 328 @ block_content  @ 200 @ 
+if_stmt  @ 123 @ if_stmt  @ 85 @ 
+block_content  @ 177 @ block_content  @ 119 @ 
+expr  @ 27 @ expr  @ 23 @ 
+argument  @ 177 @ argument  @ 119 @ 
+expr  @ 63 @ expr  @ 56 @ 
+operator: *  @ 90 @ operator: *  @ 67 @ 
+operator: ->  @ 8 @ operator: ->  @ 8 @ 
+name: mov  @ 325 @ name: mov  @ 201 @ 
+block_content  @ 397 @ block_content  @ 254 @ 
+name: movieFileMap  @ 23 @ name: movieFileMap  @ 19 @ 
+operator: =  @ 259 @ operator: =  @ 169 @ 
+name: current_top_box_start  @ 27 @ name: current_top_box_start  @ 23 @ 
+operator: ->  @ 168 @ operator: ->  @ 110 @ 
+expr  @ 483 @ expr  @ 327 @ 
+name: mvhd  @ 453 @ name: mvhd  @ 298 @ 
+expr  @ 180 @ expr  @ 122 @ 
+expr  @ 333 @ expr  @ 209 @ 
+condition  @ 482 @ condition  @ 326 @ 
+name: GF_ISOM_OPEN_READ  @ 41 @ name: GF_ISOM_OPEN_READ  @ 36 @ 
+expr  @ 42 @ expr  @ 37 @ 
+block_content  @ 345 @ block_content  @ 219 @ 
+block  @ 366 @ block  @ 240 @ 
+name: mdat  @ 147 @ name: mdat  @ 96 @ 
+condition  @ 484 @ condition  @ 328 @ 
+name: gf_list_add  @ 172 @ name: gf_list_add  @ 114 @ 
+block_content  @ 343 @ block_content  @ 205 @ 
+condition  @ 473 @ condition  @ 317 @ 
+argument  @ 225 @ argument  @ 139 @ 
+operator: (  @ 27 @ operator: (  @ 23 @ 
+name: GF_OK  @ 490 @ name: GF_OK  @ 334 @ 
+operator: =  @ 345 @ operator: =  @ 220 @ 
+condition  @ 453 @ condition  @ 298 @ 
+name: mov  @ 363 @ name: mov  @ 237 @ 
+name: is_index_segment  @ 243 @ name: is_index_segment  @ 157 @ 
+if_stmt  @ 410 @ if_stmt  @ 267 @ 
+name: moov  @ 53 @ name: moov  @ 48 @ 
+endif  @ 143 @ endif  @ 293 @ 
+block  @ 190 @ block  @ 132 @ 
+operator: (  @ 333 @ operator: (  @ 209 @ 
+argument_list  @ 299 @ argument_list  @ 183 @ 
+name: TopBoxes  @ 148 @ name: TopBoxes  @ 97 @ 
+name: a  @ 229 @ name: a  @ 143 @ 
+modifier: *  @ 3 @ modifier: *  @ 3 @ 
+name: traf  @ 343 @ name: traf  @ 219 @ 
+break  @ 244 @ break  @ 158 @ 
+name: e  @ 259 @ name: e  @ 169 @ 
+argument  @ 72 @ argument  @ 58 @ 
+expr  @ 231 @ expr  @ 145 @ 
+index  @ 396 @ index  @ 253 @ 
+block_content  @ 294 @ block_content  @ 178 @ 
+return  @ 47 @ return  @ 42 @ 
+condition  @ 50 @ condition  @ 45 @ 
+operator: (  @ 238 @ operator: (  @ 152 @ 
+name: moov  @ 293 @ name: moov  @ 177 @ 
+operator: ->  @ 280 @ operator: ->  @ 14 @ 
+break  @ 43 @ break  @ 38 @ 
+operator: ->  @ 27 @ operator: ->  @ 23 @ 
+operator: ->  @ 330 @ operator: ->  @ 206 @ 
+name  @ 333 @ name  @ 209 @ 
+argument  @ 411 @ argument  @ 268 @ 
+argument  @ 460 @ argument  @ 304 @ 
+name: pdin  @ 223 @ name: pdin  @ 137 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: mdat  @ 168 @ name: mdat  @ 110 @ 
+name: sample_encryption  @ 93 @ name: sample_encryption  @ 70 @ 
+name: sample_encryption  @ 346 @ name: sample_encryption  @ 221 @ 
+name: c  @ 396 @ name: c  @ 253 @ 
+directive: ifndef  @ 138 @ directive: ifndef  @ 291 @ 
+name: e  @ 368 @ name: e  @ 242 @ 
+operator: &&  @ 473 @ operator: &&  @ 317 @ 
+operator: ==  @ 35 @ operator: ==  @ 30 @ 
+name: GF_TrackBox  @ 90 @ name: GF_TrackBox  @ 67 @ 
+name: original_4cc  @ 394 @ name: original_4cc  @ 251 @ 
+operator: ->  @ 325 @ operator: ->  @ 201 @ 
+init  @ 395 @ init  @ 252 @ 
+argument  @ 443 @ argument  @ 285 @ 
+expr  @ 486 @ expr  @ 330 @ 
+name: mov  @ 467 @ name: mov  @ 310 @ 
+block_content  @ 395 @ block_content  @ 252 @ 
+name: mov  @ 453 @ name: mov  @ 298 @ 
+condition  @ 41 @ condition  @ 36 @ 
+operator: ->  @ 50 @ operator: ->  @ 45 @ 
+if  @ 473 @ if  @ 317 @ 
+name: TopBoxes  @ 485 @ name: TopBoxes  @ 329 @ 
+name: a  @ 413 @ name: a  @ 270 @ 
+name: u32  @ 88 @ name: u32  @ 65 @ 
+if  @ 467 @ if  @ 310 @ 
+name  @ 364 @ name  @ 238 @ 
+name: GF_TrackBox  @ 343 @ name: GF_TrackBox  @ 219 @ 
+operator: ->  @ 18 @ operator: ->  @ 14 @ 
+name: GF_ISOM_BOX_TYPE_PRFT  @ 406 @ name: GF_ISOM_BOX_TYPE_PRFT  @ 263 @ 
+argument  @ 436 @ argument  @ 278 @ 
+operator: ->  @ 345 @ operator: ->  @ 220 @ 
+name  @ 346 @ name  @ 221 @ 
+operator: *  @ 306 @ operator: *  @ 190 @ 
+block_content  @ 469 @ block_content  @ 312 @ 
+argument  @ 170 @ argument  @ 112 @ 
+operator: *  @ 395 @ operator: *  @ 252 @ 
+name  @ 485 @ name  @ 329 @ 
+name: GF_FileTypeBox  @ 187 @ name: GF_FileTypeBox  @ 129 @ 
+argument  @ 184 @ argument  @ 126 @ 
+name: e  @ 93 @ name: e  @ 70 @ 
+operator: !  @ 453 @ operator: !  @ 298 @ 
+expr_stmt  @ 224 @ expr_stmt  @ 138 @ 
+call  @ 443 @ call  @ 285 @ 
+endif  @ 155 @ endif  @ 104 @ 
+expr  @ 396 @ expr  @ 253 @ 
+call  @ 400 @ call  @ 257 @ 
+name: e  @ 32 @ name: e  @ 28 @ 
+name: moov  @ 63 @ name: moov  @ 56 @ 
+name  @ 188 @ name  @ 130 @ 
+name: sample_encryption  @ 92 @ name: sample_encryption  @ 69 @ 
+name: e  @ 347 @ name: e  @ 222 @ 
+expr  @ 93 @ expr  @ 70 @ 
+name: gf_isom_box_del  @ 369 @ name: gf_isom_box_del  @ 243 @ 
+directive: endif  @ 488 @ directive: endif  @ 332 @ 
+expr  @ 123 @ expr  @ 85 @ 
+name: mov  @ 482 @ name: mov  @ 326 @ 
+return  @ 486 @ return  @ 330 @ 
+name: trackList  @ 89 @ name: trackList  @ 66 @ 
+name: a  @ 435 @ name: a  @ 277 @ 
+operator: ->  @ 356 @ operator: ->  @ 230 @ 
+expr  @ 185 @ expr  @ 127 @ 
+expr  @ 61 @ expr  @ 54 @ 
+if  @ 330 @ if  @ 206 @ 
+operator: )  @ 333 @ operator: )  @ 209 @ 
+name: mov  @ 474 @ name: mov  @ 318 @ 
+init  @ 89 @ init  @ 66 @ 
+name: e  @ 35 @ name: e  @ 30 @ 
+expr  @ 346 @ expr  @ 221 @ 
+operator: ->  @ 90 @ operator: ->  @ 67 @ 
+name: tfhd  @ 331 @ name: tfhd  @ 207 @ 
+expr_stmt  @ 120 @ expr_stmt  @ 83 @ 
+type  @ 1 @ type  @ 1 @ 
+name: k  @ 90 @ name: k  @ 67 @ 
+switch  @ 50 @ switch  @ 45 @ 
+argument  @ 90 @ argument  @ 67 @ 
+block_content  @ 150 @ block_content  @ 99 @ 
+ifndef  @ 138 @ ifndef  @ 291 @ 
+expr  @ 394 @ expr  @ 251 @ 
+operator: ->  @ 306 @ operator: ->  @ 190 @ 
+call  @ 30 @ call  @ 26 @ 
+name  @ 330 @ name  @ 206 @ 
+name  @ 296 @ name  @ 180 @ 
+name: GF_OUT_OF_MEM  @ 171 @ name: GF_OUT_OF_MEM  @ 113 @ 
+expr  @ 115 @ expr  @ 79 @ 
+name: k  @ 89 @ name: k  @ 66 @ 
+expr  @ 24 @ expr  @ 20 @ 
+name: mov  @ 400 @ name: mov  @ 257 @ 
+name  @ 122 @ name  @ 84 @ 
+name: gf_isom_box_del  @ 183 @ name: gf_isom_box_del  @ 125 @ 
+operator: =  @ 24 @ operator: =  @ 20 @ 
+name: traf  @ 329 @ name: traf  @ 205 @ 
+index  @ 396 @ index  @ 253 @ 
+name: GF_LOG_CONTAINER  @ 460 @ name: GF_LOG_CONTAINER  @ 304 @ 
+name: type  @ 50 @ name: type  @ 45 @ 
+name: k  @ 328 @ name: k  @ 204 @ 
+expr  @ 354 @ expr  @ 228 @ 
+name  @ 453 @ name  @ 298 @ 
+condition  @ 437 @ condition  @ 279 @ 
+name  @ 443 @ name  @ 285 @ 
+argument  @ 27 @ argument  @ 23 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 20 @ 
+literal: 1  @ 298 @ literal: 1  @ 182 @ 
+condition  @ 73 @ condition  @ 59 @ 
+if_stmt  @ 335 @ if_stmt  @ 211 @ 
+operator: (  @ 116 @ operator: (  @ 80 @ 
+name: gf_list_add  @ 72 @ name: gf_list_add  @ 58 @ 
+operator: ->  @ 229 @ operator: ->  @ 143 @ 
+name  @ 325 @ name  @ 201 @ 
+name: c  @ 395 @ name: c  @ 252 @ 
+comment: /*set the default interleaving time*/  @ 468 @ comment: /*set the default interleaving time*/  @ 311 @ 
+name: a  @ 136 @ name: a  @ 93 @ 
+name: last_producer_ref_time  @ 410 @ name: last_producer_ref_time  @ 267 @ 
+expr  @ 325 @ expr  @ 201 @ 
+name  @ 126 @ name  @ 88 @ 
+name: gf_list_add  @ 148 @ name: gf_list_add  @ 97 @ 
+block  @ 149 @ block  @ 98 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 419 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 264 @ 
+operator: ->  @ 172 @ operator: ->  @ 114 @ 
+argument_list  @ 454 @ argument_list  @ 299 @ 
+if  @ 53 @ if  @ 48 @ 
+name  @ 483 @ name  @ 327 @ 
+incr  @ 89 @ incr  @ 66 @ 
+case  @ 406 @ case  @ 263 @ 
+if_stmt  @ 63 @ if_stmt  @ 56 @ 
+expr  @ 331 @ expr  @ 207 @ 
+block_content  @ 259 @ block_content  @ 169 @ 
+condition  @ 370 @ condition  @ 244 @ 
+expr  @ 9 @ expr  @ 9 @ 
+expr  @ 54 @ expr  @ 49 @ 
+operator: =  @ 148 @ operator: =  @ 97 @ 
+operator: )  @ 41 @ operator: )  @ 36 @ 
+operator: =  @ 469 @ operator: =  @ 312 @ 
+name: GF_LOG  @ 460 @ name: GF_LOG  @ 304 @ 
+operator: =  @ 72 @ operator: =  @ 58 @ 
+return  @ 461 @ return  @ 305 @ 
+argument  @ 353 @ argument  @ 227 @ 
+name: pdin  @ 228 @ name: pdin  @ 142 @ 
+name: e  @ 190 @ name: e  @ 132 @ 
+operator: ->  @ 93 @ operator: ->  @ 70 @ 
+expr_stmt  @ 483 @ expr_stmt  @ 327 @ 
+name: e  @ 174 @ name: e  @ 116 @ 
+name: gf_bs_available  @ 23 @ name: gf_bs_available  @ 19 @ 
+operator: &&  @ 448 @ operator: &&  @ 292 @ 
+name: single_moof_mode  @ 296 @ name: single_moof_mode  @ 180 @ 
+expr  @ 52 @ expr  @ 47 @ 
+operator: !=  @ 168 @ operator: !=  @ 110 @ 
+name: mdat  @ 172 @ name: mdat  @ 114 @ 
+name: GF_LOG_ERROR  @ 54 @ name: GF_LOG_ERROR  @ 49 @ 
+argument  @ 72 @ argument  @ 58 @ 
+expr  @ 251 @ expr  @ 165 @ 
+operator: ->  @ 448 @ operator: ->  @ 290 @ 
+directive: endif  @ 444 @ directive: endif  @ 286 @ 
+ifndef  @ 153 @ ifndef  @ 102 @ 
+expr  @ 411 @ expr  @ 268 @ 
+operator: +=  @ 188 @ operator: +=  @ 130 @ 
+expr_stmt  @ 345 @ expr_stmt  @ 220 @ 
+argument  @ 331 @ argument  @ 207 @ 
+argument  @ 259 @ argument  @ 169 @ 
+if  @ 342 @ if  @ 203 @ 
+argument_list  @ 343 @ argument_list  @ 219 @ 
+expr  @ 53 @ expr  @ 48 @ 
+operator: (  @ 474 @ operator: (  @ 318 @ 
+call  @ 474 @ call  @ 318 @ 
+expr  @ 148 @ expr  @ 97 @ 
+call  @ 72 @ call  @ 58 @ 
+operator: )  @ 482 @ operator: )  @ 326 @ 
+argument  @ 148 @ argument  @ 97 @ 
+operator: (  @ 58 @ operator: (  @ 52 @ 
+block  @ 260 @ block  @ 170 @ 
+name: a  @ 120 @ name: a  @ 83 @ 
+endif  @ 19 @ endif  @ 15 @ 
+block  @ 41 @ block  @ 36 @ 
+expr_stmt  @ 348 @ expr_stmt  @ 223 @ 
+literal: "[iso file] Duplicate META detected!\n"  @ 116 @ literal: "[iso file] Duplicate META detected!\n"  @ 80 @ 
+directive: ifndef  @ 465 @ directive: ifndef  @ 308 @ 
+operator: ->  @ 115 @ operator: ->  @ 79 @ 
+expr  @ 136 @ expr  @ 93 @ 
+argument_list  @ 26 @ argument_list  @ 22 @ 
+name: gf_isom_box_new  @ 170 @ name: gf_isom_box_new  @ 112 @ 
+operator: ->  @ 469 @ operator: ->  @ 312 @ 
+operator: ->  @ 334 @ operator: ->  @ 210 @ 
+name  @ 396 @ name  @ 253 @ 
+name: GF_LOG  @ 38 @ name: GF_LOG  @ 33 @ 
+if_stmt  @ 32 @ if_stmt  @ 28 @ 
+if  @ 362 @ if  @ 236 @ 
+expr  @ 30 @ expr  @ 26 @ 
+name: a  @ 30 @ name: a  @ 26 @ 
+name  @ 448 @ name  @ 292 @ 
+ifndef  @ 419 @ ifndef  @ 264 @ 
+block  @ 231 @ block  @ 145 @ 
+name: movieFileMap  @ 26 @ name: movieFileMap  @ 22 @ 
+operator: !  @ 171 @ operator: !  @ 113 @ 
+name: GF_ISOM_BOX_TYPE_MDAT  @ 170 @ name: GF_ISOM_BOX_TYPE_MDAT  @ 112 @ 
+expr_stmt  @ 309 @ expr_stmt  @ 193 @ 
+argument_list  @ 286 @ argument_list  @ 172 @ 
+name  @ 23 @ name  @ 19 @ 
+operator: ->  @ 335 @ operator: ->  @ 211 @ 
+block_content  @ 174 @ block_content  @ 116 @ 
+name: traf  @ 342 @ name: traf  @ 218 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 37 @ 
+decl  @ 238 @ decl  @ 152 @ 
+name: e  @ 94 @ name: e  @ 71 @ 
+expr_stmt  @ 184 @ expr_stmt  @ 126 @ 
+operator: ->  @ 145 @ operator: ->  @ 94 @ 
+if_stmt  @ 344 @ if_stmt  @ 218 @ 
+operator: ->  @ 75 @ operator: ->  @ 61 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 62 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 55 @ 
+expr  @ 346 @ expr  @ 221 @ 
+name: movieFileMap  @ 356 @ name: movieFileMap  @ 230 @ 
+operator: ->  @ 126 @ operator: ->  @ 88 @ 
+name: GF_OK  @ 5 @ name: GF_OK  @ 5 @ 
+name: gf_list_add  @ 189 @ name: gf_list_add  @ 131 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+condition  @ 394 @ condition  @ 251 @ 
+operator: =  @ 363 @ operator: =  @ 237 @ 
+name: sequence_number  @ 363 @ name: sequence_number  @ 237 @ 
+name: mvex  @ 63 @ name: mvex  @ 56 @ 
+operator: &&  @ 453 @ operator: &&  @ 298 @ 
+name: e  @ 370 @ name: e  @ 244 @ 
+expr  @ 72 @ expr  @ 58 @ 
+expr  @ 225 @ expr  @ 139 @ 
+expr  @ 459 @ expr  @ 303 @ 
+name: mov  @ 230 @ name: mov  @ 144 @ 
+ifndef  @ 25 @ ifndef  @ 21 @ 
+name: traf  @ 345 @ name: traf  @ 220 @ 
+operator: (  @ 147 @ operator: (  @ 96 @ 
+if_stmt  @ 323 @ if_stmt  @ 199 @ 
+expr_stmt  @ 398 @ expr_stmt  @ 255 @ 
+expr  @ 460 @ expr  @ 304 @ 
+condition  @ 115 @ condition  @ 79 @ 
+block  @ 223 @ block  @ 137 @ 
+expr  @ 242 @ expr  @ 156 @ 
+argument  @ 225 @ argument  @ 139 @ 
+argument_list  @ 27 @ argument_list  @ 23 @ 
+block  @ 115 @ block  @ 79 @ 
+argument_list  @ 398 @ argument_list  @ 255 @ 
+expr_stmt  @ 303 @ expr_stmt  @ 187 @ 
+expr  @ 58 @ expr  @ 52 @ 
+operator: ->  @ 259 @ operator: ->  @ 169 @ 
+operator: &  @ 258 @ operator: &  @ 168 @ 
+operator: )  @ 395 @ operator: )  @ 252 @ 
+init  @ 328 @ init  @ 204 @ 
+expr  @ 189 @ expr  @ 131 @ 
+argument  @ 460 @ argument  @ 304 @ 
+block  @ 239 @ block  @ 153 @ 
+name: a  @ 224 @ name: a  @ 138 @ 
+comment: //we should only parse senc/psec when no saiz/saio is present, otherwise we fetch the info directly  @ 341 @ comment: //we should only parse senc/psec when no saiz/saio is present, otherwise we fetch the info directly  @ 217 @ 
+name: a  @ 436 @ name: a  @ 278 @ 
+expr  @ 230 @ expr  @ 144 @ 
+expr  @ 72 @ expr  @ 58 @ 
+operator: (  @ 473 @ operator: (  @ 317 @ 
+argument  @ 356 @ argument  @ 230 @ 
+operator: ->  @ 311 @ operator: ->  @ 195 @ 
+directive: endif  @ 390 @ directive: endif  @ 247 @ 
+argument_list  @ 353 @ argument_list  @ 227 @ 
+case  @ 251 @ case  @ 165 @ 
+name: moof  @ 328 @ name: moof  @ 204 @ 
+operator: ->  @ 89 @ operator: ->  @ 66 @ 
+expr  @ 347 @ expr  @ 222 @ 
+operator: =  @ 230 @ operator: =  @ 144 @ 
+operator: ->  @ 63 @ operator: ->  @ 56 @ 
+name: gf_list_count  @ 89 @ name: gf_list_count  @ 66 @ 
+call  @ 177 @ call  @ 119 @ 
+expr  @ 258 @ expr  @ 168 @ 
+endif  @ 477 @ endif  @ 321 @ 
+name: a  @ 169 @ name: a  @ 111 @ 
+directive: endif  @ 143 @ directive: endif  @ 293 @ 
+condition  @ 258 @ condition  @ 168 @ 
+name: size  @ 126 @ name: size  @ 88 @ 
+condition  @ 362 @ condition  @ 236 @ 
+argument_list  @ 356 @ argument_list  @ 230 @ 
+operator: ->  @ 345 @ operator: ->  @ 220 @ 
+operator: ->  @ 296 @ operator: ->  @ 180 @ 
+name  @ 311 @ name  @ 195 @ 
+literal: "[iso file] Incomplete file while reading for dump - aborting parsing\n"  @ 42 @ literal: "[iso file] Incomplete file while reading for dump - aborting parsing\n"  @ 37 @ 
+name: GF_TrackFragmentBox  @ 329 @ name: GF_TrackFragmentBox  @ 205 @ 
+type  @ 393 @ type  @ 250 @ 
+if  @ 258 @ if  @ 168 @ 
+expr  @ 54 @ expr  @ 49 @ 
+name: mvex  @ 475 @ name: mvex  @ 319 @ 
+expr  @ 290 @ expr  @ 176 @ 
+if_stmt  @ 467 @ if_stmt  @ 310 @ 
+block  @ 355 @ block  @ 229 @ 
+if  @ 37 @ if  @ 32 @ 
+argument  @ 280 @ argument  @ 14 @ 
+name: movieFileMap  @ 18 @ name: movieFileMap  @ 14 @ 
+expr  @ 363 @ expr  @ 237 @ 
+operator: ->  @ 363 @ operator: ->  @ 237 @ 
+argument  @ 346 @ argument  @ 221 @ 
+name: GF_LOG_CONTAINER  @ 116 @ name: GF_LOG_CONTAINER  @ 80 @ 
+name: gf_list_add  @ 436 @ name: gf_list_add  @ 278 @ 
+name: bs  @ 30 @ name: bs  @ 26 @ 
+name: a  @ 299 @ name: a  @ 183 @ 
+name: u8  @ 395 @ name: u8  @ 252 @ 
+operator: )  @ 168 @ operator: )  @ 110 @ 
+argument  @ 90 @ argument  @ 67 @ 
+case  @ 221 @ case  @ 135 @ 
+operator: !  @ 335 @ operator: !  @ 211 @ 
+expr  @ 475 @ expr  @ 319 @ 
+operator: ->  @ 363 @ operator: ->  @ 237 @ 
+argument  @ 400 @ argument  @ 257 @ 
+operator: ->  @ 485 @ operator: ->  @ 329 @ 
+if_stmt  @ 327 @ if_stmt  @ 203 @ 
+name: trackID  @ 343 @ name: trackID  @ 219 @ 
+name  @ 75 @ name  @ 61 @ 
+argument  @ 42 @ argument  @ 37 @ 
+expr  @ 354 @ expr  @ 228 @ 
+name: moov  @ 90 @ name: moov  @ 67 @ 
+name: mov  @ 63 @ name: mov  @ 56 @ 
+name: mov  @ 310 @ name: mov  @ 194 @ 
+name: e  @ 9 @ name: e  @ 9 @ 
+name  @ 145 @ name  @ 94 @ 
+argument  @ 154 @ argument  @ 103 @ 
+if_stmt  @ 53 @ if_stmt  @ 48 @ 
+block_content  @ 156 @ block_content  @ 105 @ 
+operator: +=  @ 229 @ operator: +=  @ 143 @ 
+name: mov  @ 120 @ name: mov  @ 83 @ 
+name: GF_ISOM_OPEN_READ  @ 482 @ name: GF_ISOM_OPEN_READ  @ 326 @ 
+name: j  @ 333 @ name: j  @ 209 @ 
+name: moov  @ 61 @ name: moov  @ 54 @ 
+expr_stmt  @ 225 @ expr_stmt  @ 139 @ 
+block  @ 347 @ block  @ 222 @ 
+argument_list  @ 184 @ argument_list  @ 126 @ 
+call  @ 93 @ call  @ 70 @ 
+return  @ 449 @ return  @ 295 @ 
+expr_stmt  @ 147 @ expr_stmt  @ 96 @ 
+operator: ->  @ 353 @ operator: ->  @ 227 @ 
+block  @ 397 @ block  @ 254 @ 
+name: TopBoxes  @ 154 @ name: TopBoxes  @ 103 @ 
+name: meta  @ 459 @ name: meta  @ 303 @ 
+decl_stmt  @ 331 @ decl_stmt  @ 207 @ 
+name: traf  @ 331 @ name: traf  @ 207 @ 
+operator: &&  @ 448 @ operator: &&  @ 292 @ 
+argument  @ 474 @ argument  @ 318 @ 
+name: mov  @ 448 @ name: mov  @ 290 @ 
+name: GF_ISOM_OPEN_KEEP_FRAGMENTS  @ 473 @ name: GF_ISOM_OPEN_CAT_FRAGMENTS  @ 317 @ 
+else  @ 366 @ else  @ 240 @ 
+expr  @ 32 @ expr  @ 28 @ 
+if_stmt  @ 408 @ if_stmt  @ 265 @ 
+name  @ 172 @ name  @ 114 @ 
+operator: ->  @ 243 @ operator: ->  @ 157 @ 
+argument  @ 38 @ argument  @ 33 @ 
+name: single_moof_state  @ 8 @ name: single_moof_state  @ 8 @ 
+expr  @ 221 @ expr  @ 135 @ 
+ifndef  @ 441 @ ifndef  @ 283 @ 
+name: e  @ 150 @ name: e  @ 99 @ 
+name  @ 228 @ name  @ 142 @ 
+name: TopBoxes  @ 400 @ name: TopBoxes  @ 257 @ 
+ifndef  @ 235 @ ifndef  @ 149 @ 
+name: mov  @ 87 @ name: mov  @ 64 @ 
+expr  @ 184 @ expr  @ 126 @ 
+operator: !  @ 293 @ operator: !  @ 177 @ 
+condition  @ 401 @ condition  @ 258 @ 
+operator: ==  @ 362 @ operator: ==  @ 236 @ 
+name: mov  @ 363 @ name: mov  @ 237 @ 
+name  @ 330 @ name  @ 206 @ 
+name  @ 436 @ name  @ 278 @ 
+if_stmt  @ 486 @ if_stmt  @ 330 @ 
+modifier: *  @ 331 @ modifier: *  @ 207 @ 
+name: GF_LOG_ERROR  @ 116 @ name: GF_LOG_ERROR  @ 80 @ 
+decl  @ 395 @ decl  @ 252 @ 
+operator: ->  @ 346 @ operator: ->  @ 221 @ 
+name: gf_isom_box_del  @ 398 @ name: gf_isom_box_del  @ 255 @ 
+operator: !  @ 146 @ operator: !  @ 95 @ 
+type  @ 5 @ type  @ 5 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: =  @ 443 @ operator: =  @ 285 @ 
+name: traf  @ 330 @ name: traf  @ 206 @ 
+name: gf_isom_box_del  @ 169 @ name: gf_isom_box_del  @ 111 @ 
+expr  @ 329 @ expr  @ 205 @ 
+name: e  @ 436 @ name: e  @ 278 @ 
+operator: *  @ 413 @ operator: *  @ 270 @ 
+block_content  @ 483 @ block_content  @ 327 @ 
+operator: ->  @ 93 @ operator: ->  @ 70 @ 
+operator: (  @ 238 @ operator: (  @ 152 @ 
+condition  @ 94 @ condition  @ 71 @ 
+expr  @ 177 @ expr  @ 119 @ 
+name  @ 171 @ name  @ 113 @ 
+operator: (  @ 303 @ operator: (  @ 187 @ 
+operator: ->  @ 484 @ operator: ->  @ 328 @ 
+expr_stmt  @ 369 @ expr_stmt  @ 243 @ 
+name: k  @ 89 @ name: k  @ 66 @ 
+name  @ 61 @ name  @ 54 @ 
+name  @ 306 @ name  @ 190 @ 
+operator: =  @ 348 @ operator: =  @ 223 @ 
+operator: ->  @ 92 @ operator: ->  @ 69 @ 
+name: mov  @ 26 @ name: mov  @ 22 @ 
+name: e  @ 47 @ name: e  @ 42 @ 
+return  @ 190 @ return  @ 132 @ 
+name  @ 448 @ name  @ 290 @ 
+name: TrackExList  @ 330 @ name: TrackExList  @ 206 @ 
+name: GF_LOG  @ 27 @ name: GF_LOG  @ 23 @ 
+operator: (  @ 395 @ operator: (  @ 252 @ 
+condition  @ 145 @ condition  @ 94 @ 
+call  @ 369 @ call  @ 243 @ 
+name: k  @ 354 @ name: k  @ 228 @ 
+operator: ->  @ 293 @ operator: ->  @ 177 @ 
+argument_list  @ 354 @ argument_list  @ 228 @ 
+name: totSize  @ 75 @ name: totSize  @ 61 @ 
+expr  @ 396 @ expr  @ 253 @ 
+operator: ->  @ 228 @ operator: ->  @ 142 @ 
+if_stmt  @ 296 @ if_stmt  @ 180 @ 
+name: mov  @ 258 @ name: mov  @ 168 @ 
+name: TopBoxes  @ 72 @ name: TopBoxes  @ 58 @ 
+operator: <  @ 89 @ operator: <  @ 66 @ 
+unit  @ 1 @ unit  @ 1 @ 
+block_content  @ 93 @ block_content  @ 70 @ 
+return  @ 185 @ return  @ 127 @ 
+name: GF_ISOM_BOX_TYPE_FTYP  @ 180 @ name: GF_ISOM_BOX_TYPE_FTYP  @ 122 @ 
+operator: ->  @ 364 @ operator: ->  @ 238 @ 
+block_content  @ 449 @ block_content  @ 295 @ 
+name: GF_ISOM_BOX_TYPE_SSIX  @ 252 @ name: GF_ISOM_BOX_TYPE_SSIX  @ 166 @ 
+name  @ 327 @ name  @ 203 @ 
+expr  @ 435 @ expr  @ 277 @ 
+operator: *  @ 333 @ operator: *  @ 209 @ 
+name  @ 469 @ name  @ 312 @ 
+name: size  @ 435 @ name: size  @ 277 @ 
+name: traf  @ 333 @ name: traf  @ 209 @ 
+block_content  @ 183 @ block_content  @ 125 @ 
+call  @ 368 @ call  @ 242 @ 
+expr  @ 8 @ expr  @ 8 @ 
+expr  @ 330 @ expr  @ 206 @ 
+block_content  @ 47 @ block_content  @ 42 @ 
+expr  @ 73 @ expr  @ 59 @ 
+name: GF_ISOM_BRAND_SISX  @ 240 @ name: GF_ISOM_BRAND_SISX  @ 154 @ 
+name: sample_encryption  @ 356 @ name: sample_encryption  @ 230 @ 
+call  @ 328 @ call  @ 204 @ 
+type  @ 332 @ type  @ 208 @ 
+operator: )  @ 228 @ operator: )  @ 142 @ 
+name  @ 342 @ name  @ 218 @ 
+expr  @ 460 @ expr  @ 304 @ 
+name: interleavingTime  @ 469 @ name: interleavingTime  @ 312 @ 
+name: mov  @ 89 @ name: mov  @ 66 @ 
+operator: =  @ 187 @ operator: =  @ 129 @ 
+block  @ 37 @ block  @ 32 @ 
+name: GF_LOG_CONTAINER  @ 184 @ name: GF_LOG_CONTAINER  @ 126 @ 
+if  @ 401 @ if  @ 258 @ 
+expr_stmt  @ 177 @ expr_stmt  @ 119 @ 
+init  @ 393 @ init  @ 250 @ 
+operator: (  @ 396 @ operator: (  @ 253 @ 
+return  @ 9 @ return  @ 9 @ 
+call  @ 169 @ call  @ 111 @ 
+condition  @ 342 @ condition  @ 218 @ 
+operator: ->  @ 230 @ operator: ->  @ 144 @ 
+call  @ 18 @ call  @ 14 @ 
+if_stmt  @ 448 @ if_stmt  @ 290 @ 
+name: mov  @ 328 @ name: mov  @ 204 @ 
+if_stmt  @ 115 @ if_stmt  @ 79 @ 
+name: mov  @ 330 @ name: mov  @ 206 @ 
+name: mov  @ 303 @ name: mov  @ 187 @ 
+expr  @ 225 @ expr  @ 139 @ 
+name: brand  @ 239 @ name: brand  @ 153 @ 
+block  @ 448 @ block  @ 294 @ 
+argument_list  @ 172 @ argument_list  @ 114 @ 
+name: mov  @ 306 @ name: mov  @ 190 @ 
+return  @ 401 @ return  @ 258 @ 
+name: is_index_segment  @ 448 @ name: is_index_segment  @ 292 @ 
+block  @ 352 @ block  @ 226 @ 
+name  @ 18 @ name  @ 14 @ 
+name: e  @ 45 @ name: e  @ 40 @ 
+block  @ 176 @ block  @ 118 @ 
+argument  @ 169 @ argument  @ 111 @ 
+condition  @ 323 @ condition  @ 199 @ 
+operator: !  @ 448 @ operator: !  @ 290 @ 
+expr  @ 298 @ expr  @ 182 @ 
+condition  @ 298 @ condition  @ 182 @ 
+name: a  @ 72 @ name: a  @ 58 @ 
+condition  @ 467 @ condition  @ 310 @ 
+argument  @ 454 @ argument  @ 299 @ 
+expr  @ 75 @ expr  @ 61 @ 
+operator: +=  @ 257 @ operator: +=  @ 167 @ 
+expr  @ 184 @ expr  @ 126 @ 
+expr  @ 93 @ expr  @ 70 @ 
+name: mov  @ 37 @ name: mov  @ 32 @ 
+operator: ->  @ 355 @ operator: ->  @ 229 @ 
+operator: =  @ 338 @ operator: =  @ 214 @ 
+expr  @ 353 @ expr  @ 227 @ 
+if  @ 298 @ if  @ 182 @ 
+name: GF_ISOM_BOX_TYPE_MOOV  @ 52 @ name: GF_ISOM_BOX_TYPE_MOOV  @ 47 @ 
+expr  @ 116 @ expr  @ 80 @ 
+operator: )  @ 368 @ operator: )  @ 242 @ 
+operator: ->  @ 345 @ operator: ->  @ 220 @ 
+argument_list  @ 122 @ argument_list  @ 84 @ 
+name: box  @ 393 @ name: box  @ 250 @ 
+argument_list  @ 311 @ argument_list  @ 195 @ 
+name: moov  @ 469 @ name: moov  @ 312 @ 
+if  @ 94 @ if  @ 71 @ 
+name: GF_ISOM_BOX_TYPE_STYP  @ 236 @ name: GF_ISOM_BOX_TYPE_STYP  @ 150 @ 
+operator: *  @ 228 @ operator: *  @ 142 @ 
+operator: ->  @ 435 @ operator: ->  @ 277 @ 
+name  @ 243 @ name  @ 157 @ 
+name  @ 400 @ name  @ 257 @ 
+expr_stmt  @ 338 @ expr_stmt  @ 214 @ 
+expr  @ 236 @ expr  @ 150 @ 
+name: GetTrackbyID  @ 343 @ name: GetTrackbyID  @ 219 @ 
+name: GF_ISOM_OPEN_READ  @ 168 @ name: GF_ISOM_OPEN_READ  @ 110 @ 
+operator: )  @ 306 @ operator: )  @ 190 @ 
+name: GF_ISOM_BRAND_SSSS  @ 242 @ name: GF_ISOM_BRAND_SSSS  @ 156 @ 
+name: e  @ 486 @ name: e  @ 330 @ 
+condition  @ 182 @ condition  @ 124 @ 
+name  @ 396 @ name  @ 253 @ 
+block_content  @ 474 @ block_content  @ 318 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+operator: ->  @ 448 @ operator: ->  @ 292 @ 
+name: traf  @ 355 @ name: traf  @ 229 @ 
+operator: ->  @ 333 @ operator: ->  @ 209 @ 
+modifier: *  @ 395 @ modifier: *  @ 252 @ 
+name: a  @ 126 @ name: a  @ 88 @ 
+name  @ 335 @ name  @ 211 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 153 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 102 @ 
+call  @ 184 @ call  @ 126 @ 
+name: mov  @ 354 @ name: mov  @ 228 @ 
+name: u64  @ 1 @ name: u64  @ 1 @ 
+operator: +  @ 363 @ operator: +  @ 237 @ 
+name: gf_list_add  @ 259 @ name: gf_list_add  @ 169 @ 
+name: mov  @ 331 @ name: mov  @ 207 @ 
+operator: (  @ 460 @ operator: (  @ 304 @ 
+operator: >=  @ 32 @ operator: >=  @ 28 @ 
+call  @ 311 @ call  @ 195 @ 
+modifier: *  @ 393 @ modifier: *  @ 250 @ 
+condition  @ 330 @ condition  @ 206 @ 
+if  @ 173 @ if  @ 115 @ 
+name: moov  @ 473 @ name: moov  @ 317 @ 
+expr_stmt  @ 230 @ expr_stmt  @ 144 @ 
+block_content  @ 335 @ block_content  @ 211 @ 
+decl  @ 332 @ decl  @ 208 @ 
+expr_stmt  @ 243 @ expr_stmt  @ 157 @ 
+operator: !  @ 484 @ operator: !  @ 328 @ 
+argument  @ 331 @ argument  @ 207 @ 
+name: mov  @ 311 @ name: mov  @ 195 @ 
+ifndef  @ 62 @ ifndef  @ 55 @ 
+name  @ 182 @ name  @ 124 @ 
+return  @ 124 @ return  @ 86 @ 
+name  @ 26 @ name  @ 22 @ 
+name: e  @ 400 @ name: e  @ 257 @ 
+expr_stmt  @ 187 @ expr_stmt  @ 129 @ 
+expr_stmt  @ 325 @ expr_stmt  @ 201 @ 
+operator: *  @ 187 @ operator: *  @ 129 @ 
+argument  @ 485 @ argument  @ 329 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 235 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 149 @ 
+name  @ 328 @ name  @ 204 @ 
+name: mov  @ 172 @ name: mov  @ 114 @ 
+operator: *  @ 238 @ operator: *  @ 152 @ 
+operator: ->  @ 482 @ operator: ->  @ 326 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 138 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 291 @ 
+expr  @ 310 @ expr  @ 194 @ 
+expr  @ 286 @ expr  @ 172 @ 
+name: GF_ProgressiveDownloadBox  @ 228 @ name: GF_ProgressiveDownloadBox  @ 142 @ 
+operator: ->  @ 343 @ operator: ->  @ 219 @ 
+operator: =  @ 400 @ operator: =  @ 257 @ 
+if_stmt  @ 182 @ if_stmt  @ 124 @ 
+name: e  @ 73 @ name: e  @ 59 @ 
+operator: ->  @ 323 @ operator: ->  @ 199 @ 
+name: moof  @ 364 @ name: moof  @ 238 @ 
+block  @ 237 @ block  @ 151 @ 
+block_content  @ 190 @ block_content  @ 132 @ 
+argument  @ 294 @ argument  @ 178 @ 
+operator: !  @ 459 @ operator: !  @ 303 @ 
+operator: ->  @ 448 @ operator: ->  @ 292 @ 
+expr  @ 257 @ expr  @ 167 @ 
+name  @ 354 @ name  @ 228 @ 
+operator: (  @ 483 @ operator: (  @ 327 @ 
+argument  @ 54 @ argument  @ 49 @ 
+condition  @ 223 @ condition  @ 137 @ 
+operator: (  @ 396 @ operator: (  @ 253 @ 
+break  @ 246 @ break  @ 160 @ 
+expr  @ 365 @ expr  @ 239 @ 
+expr  @ 224 @ expr  @ 138 @ 
+expr  @ 309 @ expr  @ 193 @ 
+name: e  @ 486 @ name: e  @ 330 @ 
+operator: ->  @ 331 @ operator: ->  @ 207 @ 
+name: GF_LOG  @ 42 @ name: GF_LOG  @ 37 @ 
+name: a  @ 147 @ name: a  @ 96 @ 
+name: GF_ISOM_INVALID_FILE  @ 39 @ name: GF_ISOM_INVALID_FILE  @ 34 @ 
+operator: ->  @ 483 @ operator: ->  @ 327 @ 
+if_stmt  @ 473 @ if_stmt  @ 317 @ 
+operator: <  @ 353 @ operator: <  @ 227 @ 
+name: brand  @ 182 @ name: brand  @ 124 @ 
+operator: ->  @ 473 @ operator: ->  @ 317 @ 
+if  @ 410 @ if  @ 267 @ 
+case  @ 114 @ case  @ 78 @ 
+argument  @ 436 @ argument  @ 278 @ 
+return  @ 226 @ return  @ 140 @ 
+operator: (  @ 454 @ operator: (  @ 299 @ 
+operator: =  @ 485 @ operator: =  @ 329 @ 
+operator: ->  @ 147 @ operator: ->  @ 96 @ 
+expr  @ 345 @ expr  @ 220 @ 
+operator: )  @ 38 @ operator: )  @ 33 @ 
+block_content  @ 73 @ block_content  @ 59 @ 
+name: TopBoxes  @ 189 @ name: TopBoxes  @ 131 @ 
+expr  @ 335 @ expr  @ 211 @ 
+operator: ->  @ 170 @ operator: ->  @ 112 @ 
+name: GF_LOG  @ 184 @ name: GF_LOG  @ 126 @ 
+expr  @ 485 @ expr  @ 329 @ 
+operator: ->  @ 475 @ operator: ->  @ 319 @ 
+call  @ 329 @ call  @ 205 @ 
+operator: ->  @ 334 @ operator: ->  @ 210 @ 
+name: GF_LOG_ERROR  @ 460 @ name: GF_LOG_ERROR  @ 304 @ 
+name: totSize  @ 257 @ name: totSize  @ 167 @ 
+block  @ 328 @ block  @ 203 @ 
+expr  @ 355 @ expr  @ 229 @ 
+expr  @ 154 @ expr  @ 103 @ 
+argument_list  @ 460 @ argument_list  @ 304 @ 
+condition  @ 355 @ condition  @ 229 @ 
+name  @ 148 @ name  @ 97 @ 
+expr  @ 252 @ expr  @ 166 @ 
+expr  @ 23 @ expr  @ 19 @ 
+operator: )  @ 303 @ operator: )  @ 187 @ 
+expr_stmt  @ 397 @ expr_stmt  @ 254 @ 
+name: mov  @ 346 @ name: mov  @ 221 @ 
+name  @ 485 @ name  @ 329 @ 
+operator: =  @ 346 @ operator: =  @ 221 @ 
+expr  @ 171 @ expr  @ 113 @ 
+expr  @ 356 @ expr  @ 230 @ 
+name: traf  @ 342 @ name: traf  @ 218 @ 
+expr  @ 183 @ expr  @ 125 @ 
+expr  @ 453 @ expr  @ 298 @ 
+argument  @ 259 @ argument  @ 169 @ 
+operator: ->  @ 448 @ operator: ->  @ 290 @ 
+if_stmt  @ 453 @ if_stmt  @ 298 @ 
+operator: +=  @ 435 @ operator: +=  @ 277 @ 
+literal: 0  @ 24 @ literal: 0  @ 20 @ 
+argument  @ 93 @ argument  @ 70 @ 
+expr  @ 400 @ expr  @ 257 @ 
+operator: ->  @ 148 @ operator: ->  @ 97 @ 
+if_stmt  @ 92 @ if_stmt  @ 69 @ 
+name: GF_ISOM_BRAND_RISX  @ 241 @ name: GF_ISOM_BRAND_RISX  @ 155 @ 
+operator: !=  @ 482 @ operator: !=  @ 326 @ 
+name: GF_MovieFragmentBox  @ 303 @ name: GF_MovieFragmentBox  @ 187 @ 
+expr  @ 189 @ expr  @ 131 @ 
+expr  @ 280 @ expr  @ 14 @ 
+literal: 0  @ 353 @ literal: 0  @ 227 @ 
+name: GF_ISOM_INVALID_FILE  @ 118 @ name: GF_ISOM_INVALID_FILE  @ 81 @ 
+name: mov  @ 154 @ name: mov  @ 103 @ 
+if_stmt  @ 37 @ if_stmt  @ 32 @ 
+expr  @ 116 @ expr  @ 80 @ 
+name  @ 136 @ name  @ 93 @ 
+name: mov  @ 223 @ name: mov  @ 137 @ 
+condition  @ 410 @ condition  @ 267 @ 
+operator: ->  @ 363 @ operator: ->  @ 237 @ 
+name: a  @ 156 @ name: a  @ 105 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 441 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 283 @ 
+name: a  @ 303 @ name: a  @ 187 @ 
+type  @ 331 @ type  @ 207 @ 
+name: current_top_box_start  @ 280 @ name: current_top_box_start  @ 14 @ 
+argument  @ 311 @ argument  @ 195 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+name: GF_UnknownBox  @ 393 @ name: GF_UnknownBox  @ 250 @ 
+name: mov  @ 293 @ name: mov  @ 177 @ 
+incr  @ 328 @ incr  @ 204 @ 
+name: c  @ 396 @ name: c  @ 253 @ 
+argument_list  @ 42 @ argument_list  @ 37 @ 
+name  @ 170 @ name  @ 112 @ 
+name: mov  @ 115 @ name: mov  @ 79 @ 
+expr  @ 89 @ expr  @ 66 @ 
+call  @ 225 @ call  @ 139 @ 
+operator: (  @ 168 @ operator: (  @ 110 @ 
+argument  @ 396 @ argument  @ 253 @ 
+name  @ 259 @ name  @ 169 @ 
+if_stmt  @ 149 @ if_stmt  @ 98 @ 
+operator: )  @ 396 @ operator: )  @ 253 @ 
+comment: /*if we don't have any MDAT yet, create one (edit-write mode)We only work with one mdat, but we're puting it at the placeof the first mdat found when opening a file for editing*/  @ 167 @ comment: /*if we don't have any MDAT yet, create one (edit-write mode)
+			We only work with one mdat, but we're puting it at the placeof the first mdat found when opening a file for editing*/  @ 107 @ 
+expr  @ 461 @ expr  @ 305 @ 
+operator: ->  @ 61 @ operator: ->  @ 54 @ 
+block  @ 92 @ block  @ 69 @ 
+operator: ==  @ 396 @ operator: ==  @ 253 @ 
+if_stmt  @ 173 @ if_stmt  @ 115 @ 
+name  @ 343 @ name  @ 219 @ 
+name: u8  @ 395 @ name: u8  @ 252 @ 
+ternary  @ 345 @ ternary  @ 220 @ 
+operator: =  @ 436 @ operator: =  @ 278 @ 
+operator: ->  @ 41 @ operator: ->  @ 36 @ 
+block_content  @ 224 @ block_content  @ 138 @ 
+name  @ 148 @ name  @ 97 @ 
+operator: ->  @ 335 @ operator: ->  @ 211 @ 
+expr_stmt  @ 475 @ expr_stmt  @ 319 @ 
+case  @ 131 @ case  @ 92 @ 
+argument_list  @ 89 @ argument_list  @ 66 @ 
+argument  @ 172 @ argument  @ 114 @ 
+name: openMode  @ 41 @ name: openMode  @ 36 @ 
+name: mov  @ 168 @ name: mov  @ 110 @ 
+if  @ 154 @ if  @ 103 @ 
+operator: ->  @ 63 @ operator: ->  @ 56 @ 
+operator: (  @ 294 @ operator: (  @ 178 @ 
+name  @ 147 @ name  @ 96 @ 
+name: box  @ 395 @ name: box  @ 252 @ 
+name: mov  @ 61 @ name: mov  @ 54 @ 
+name: e  @ 231 @ name: e  @ 145 @ 
+expr_stmt  @ 189 @ expr_stmt  @ 131 @ 
+if  @ 370 @ if  @ 244 @ 
+name: movieFileMap  @ 346 @ name: movieFileMap  @ 221 @ 
+name: current_traf_stsd_idx  @ 348 @ name: current_traf_stsd_idx  @ 223 @ 
+operator: ->  @ 120 @ operator: ->  @ 83 @ 
+name: e  @ 30 @ name: e  @ 26 @ 
+name: trackID  @ 334 @ name: trackID  @ 210 @ 
+operator: (  @ 482 @ operator: (  @ 326 @ 
+expr  @ 38 @ expr  @ 33 @ 
+operator: ->  @ 171 @ operator: ->  @ 113 @ 
+expr  @ 436 @ expr  @ 278 @ 
+block_content  @ 335 @ block_content  @ 211 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 25 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 21 @ 
+name: e  @ 356 @ name: e  @ 230 @ 
+expr_stmt  @ 154 @ expr_stmt  @ 103 @ 
+name: e  @ 172 @ name: e  @ 114 @ 
+operator: ->  @ 61 @ operator: ->  @ 54 @ 
+expr  @ 368 @ expr  @ 242 @ 
+argument  @ 93 @ argument  @ 70 @ 
+name: e  @ 190 @ name: e  @ 132 @ 
+if_stmt  @ 334 @ if_stmt  @ 210 @ 
+argument  @ 93 @ argument  @ 70 @ 
+call  @ 331 @ call  @ 207 @ 
+name: GF_ISOM_FRAG_READ_DEBUG  @ 310 @ name: GF_ISOM_FRAG_READ_DEBUG  @ 194 @ 
+operator: *  @ 393 @ operator: *  @ 250 @ 
+if  @ 484 @ if  @ 328 @ 
+decl_stmt  @ 395 @ decl_stmt  @ 252 @ 
+expr  @ 156 @ expr  @ 105 @ 
+if_stmt  @ 330 @ if_stmt  @ 206 @ 
+directive: ifndef  @ 25 @ directive: ifndef  @ 21 @ 
+name: bs  @ 93 @ name: bs  @ 70 @ 
+name: a  @ 305 @ name: a  @ 189 @ 
+name  @ 396 @ name  @ 253 @ 
+operator: =  @ 26 @ operator: =  @ 22 @ 
+call  @ 411 @ call  @ 268 @ 
+name: traf  @ 346 @ name: traf  @ 221 @ 
+operator: ->  @ 345 @ operator: ->  @ 220 @ 
+expr  @ 370 @ expr  @ 244 @ 
+expr  @ 305 @ expr  @ 189 @ 
+expr  @ 177 @ expr  @ 119 @ 
+name: mov  @ 368 @ name: mov  @ 242 @ 
+name: bs  @ 18 @ name: bs  @ 14 @ 
+argument  @ 122 @ argument  @ 84 @ 
+return  @ 73 @ return  @ 59 @ 
+name: gf_list_add  @ 122 @ name: gf_list_add  @ 84 @ 
+expr  @ 356 @ expr  @ 230 @ 
+expr_stmt  @ 116 @ expr_stmt  @ 80 @ 
+decl  @ 393 @ decl  @ 250 @ 
+name: openMode  @ 145 @ name: openMode  @ 94 @ 
+name  @ 72 @ name  @ 58 @ 
+endif  @ 488 @ endif  @ 332 @ 
+return  @ 260 @ return  @ 170 @ 
+name: e  @ 437 @ name: e  @ 279 @ 
+operator: ->  @ 408 @ operator: ->  @ 265 @ 
+expr  @ 73 @ expr  @ 59 @ 
+name: gf_isom_parse_root_box  @ 30 @ name: gf_isom_parse_root_box  @ 26 @ 
+operator: ->  @ 348 @ operator: ->  @ 223 @ 
+operator: ->  @ 154 @ operator: ->  @ 103 @ 
+literal: 0  @ 89 @ literal: 0  @ 66 @ 
+if  @ 335 @ if  @ 211 @ 
+name  @ 258 @ name  @ 168 @ 
+ifndef  @ 471 @ ifndef  @ 314 @ 
+operator: (  @ 413 @ operator: (  @ 270 @ 
+name  @ 333 @ name  @ 209 @ 
+argument  @ 30 @ argument  @ 26 @ 
+operator: ->  @ 394 @ operator: ->  @ 251 @ 
+expr_stmt  @ 93 @ expr_stmt  @ 70 @ 
+name  @ 41 @ name  @ 36 @ 
+expr_stmt  @ 228 @ expr_stmt  @ 142 @ 
+expr  @ 369 @ expr  @ 243 @ 
+literal: 1  @ 363 @ literal: 1  @ 237 @ 
+case  @ 252 @ case  @ 166 @ 
+operator: ->  @ 453 @ operator: ->  @ 298 @ 
+argument  @ 184 @ argument  @ 126 @ 
+name: a  @ 228 @ name: a  @ 142 @ 
+name: mov  @ 303 @ name: mov  @ 187 @ 
+operator: (  @ 473 @ operator: (  @ 317 @ 
+operator: ->  @ 303 @ operator: ->  @ 187 @ 
+expr  @ 396 @ expr  @ 253 @ 
+argument  @ 346 @ argument  @ 221 @ 
+name: mov  @ 482 @ name: mov  @ 326 @ 
+expr  @ 357 @ expr  @ 231 @ 
+name: moof  @ 363 @ name: moof  @ 237 @ 
+argument_list  @ 329 @ argument_list  @ 205 @ 
+if_stmt  @ 370 @ if_stmt  @ 244 @ 
+expr  @ 27 @ expr  @ 23 @ 
+expr  @ 171 @ expr  @ 113 @ 
+modifier: *  @ 354 @ modifier: *  @ 228 @ 
+name: GF_LOG_ERROR  @ 225 @ name: GF_LOG_ERROR  @ 139 @ 
+type  @ 4 @ type  @ 4 @ 
+name  @ 355 @ name  @ 229 @ 
+name: is_jp2  @ 397 @ name: is_jp2  @ 254 @ 
+name: gf_isom_box_del  @ 156 @ name: gf_isom_box_del  @ 105 @ 
+type  @ 1 @ type  @ 1 @ 
+block  @ 394 @ block  @ 251 @ 
+operator: ->  @ 395 @ operator: ->  @ 252 @ 
+call  @ 189 @ call  @ 131 @ 
+if  @ 334 @ if  @ 210 @ 
+expr  @ 148 @ expr  @ 97 @ 
+argument  @ 30 @ argument  @ 26 @ 
+else  @ 176 @ else  @ 118 @ 
+name: GF_ISOM_BOX_TYPE_MDAT  @ 483 @ name: GF_ISOM_BOX_TYPE_MDAT  @ 327 @ 
+call  @ 38 @ call  @ 33 @ 
+block  @ 23 @ block  @ 19 @ 
+operator: ->  @ 475 @ operator: ->  @ 319 @ 
+literal: 0  @ 328 @ literal: 0  @ 204 @ 
+expr  @ 311 @ expr  @ 195 @ 
+name: mvex  @ 473 @ name: mvex  @ 317 @ 
+argument  @ 454 @ argument  @ 299 @ 
+expr  @ 183 @ expr  @ 125 @ 
+operator: )  @ 482 @ operator: )  @ 326 @ 
+name: u32  @ 332 @ name: u32  @ 208 @ 
+operator: =  @ 333 @ operator: =  @ 209 @ 
+argument  @ 328 @ argument  @ 204 @ 
+else  @ 352 @ else  @ 226 @ 
+name: GF_ISOM_INVALID_FILE  @ 455 @ name: GF_ISOM_INVALID_FILE  @ 300 @ 
+name: mov  @ 469 @ name: mov  @ 312 @ 
+expr  @ 299 @ expr  @ 183 @ 
+if  @ 396 @ if  @ 253 @ 
+literal: "[iso file] Parsing a top-level box at position %d\n"  @ 27 @ literal: "[iso file] Starting to parse a top-level box at position %d\n"  @ 23 @ 
+name: totSize  @ 136 @ name: totSize  @ 93 @ 
+if  @ 145 @ if  @ 94 @ 
+operator: )  @ 473 @ operator: )  @ 317 @ 
+block_content  @ 90 @ block_content  @ 67 @ 
+condition  @ 171 @ condition  @ 113 @ 
+operator: ->  @ 330 @ operator: ->  @ 206 @ 
+literal: 0  @ 348 @ literal: 0  @ 223 @ 
+name: single_moof_state  @ 297 @ name: single_moof_state  @ 181 @ 
+argument  @ 89 @ argument  @ 66 @ 
+operator: )  @ 396 @ operator: )  @ 253 @ 
+name: moov  @ 453 @ name: moov  @ 298 @ 
+operator: ->  @ 154 @ operator: ->  @ 103 @ 
+name: gf_list_count  @ 353 @ name: gf_list_count  @ 227 @ 
+operator: ->  @ 305 @ operator: ->  @ 189 @ 
+decl  @ 90 @ decl  @ 67 @ 
+operator: ->  @ 469 @ operator: ->  @ 312 @ 
+block_content  @ 363 @ block_content  @ 237 @ 
+name: gf_isom_box_del_parent  @ 474 @ name: gf_isom_box_del  @ 318 @ 
+literal: 0  @ 32 @ literal: 0  @ 28 @ 
+name  @ 408 @ name  @ 265 @ 
+expr  @ 169 @ expr  @ 111 @ 
+if  @ 149 @ if  @ 98 @ 
+expr  @ 411 @ expr  @ 268 @ 
+expr  @ 47 @ expr  @ 42 @ 
+condition  @ 89 @ condition  @ 66 @ 
+name: trak  @ 348 @ name: trak  @ 223 @ 
+expr_stmt  @ 183 @ expr_stmt  @ 125 @ 
+name: traf  @ 334 @ name: traf  @ 210 @ 
+argument_list  @ 346 @ argument_list  @ 221 @ 
+name: moof  @ 353 @ name: moof  @ 227 @ 
+if_stmt  @ 231 @ if_stmt  @ 145 @ 
+block_content  @ 238 @ block_content  @ 152 @ 
+expr  @ 327 @ expr  @ 203 @ 
+block  @ 53 @ block  @ 48 @ 
+block_content  @ 368 @ block_content  @ 242 @ 
+init  @ 343 @ init  @ 219 @ 
+name: GF_ISOM_OPEN_KEEP_FRAGMENTS  @ 482 @ name: GF_ISOM_OPEN_CAT_FRAGMENTS  @ 326 @ 
+expr  @ 483 @ expr  @ 327 @ 
+name: NextMoofNumber  @ 363 @ name: NextMoofNumber  @ 237 @ 
+name: mov  @ 63 @ name: mov  @ 56 @ 
+name: moov  @ 453 @ name: moov  @ 298 @ 
+name: mov  @ 298 @ name: mov  @ 182 @ 
+argument_list  @ 38 @ argument_list  @ 33 @ 
+name: trak  @ 335 @ name: trak  @ 211 @ 
+name: size  @ 257 @ name: size  @ 167 @ 
+name: trak  @ 90 @ name: trak  @ 67 @ 
+name: TrackList  @ 354 @ name: TrackList  @ 228 @ 
+expr  @ 150 @ expr  @ 99 @ 
+expr  @ 30 @ expr  @ 26 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 54 @ 
+name: gf_bs_get_position  @ 443 @ name: gf_bs_get_position  @ 285 @ 
+for  @ 89 @ for  @ 66 @ 
+operator: ->  @ 333 @ operator: ->  @ 209 @ 
+expr_stmt  @ 259 @ expr_stmt  @ 169 @ 
+call  @ 27 @ call  @ 23 @ 
+block  @ 459 @ block  @ 303 @ 
+name  @ 363 @ name  @ 237 @ 
+expr  @ 35 @ expr  @ 30 @ 
+expr  @ 328 @ expr  @ 204 @ 
+name: size  @ 188 @ name: size  @ 130 @ 
+name: mov  @ 26 @ name: mov  @ 22 @ 
+operator: ++  @ 353 @ operator: ++  @ 227 @ 
+name: mov  @ 330 @ name: mov  @ 206 @ 
+name: movieFileMap  @ 443 @ name: movieFileMap  @ 285 @ 
+operator: ->  @ 334 @ operator: ->  @ 210 @ 
+name  @ 8 @ name  @ 8 @ 
+expr_stmt  @ 229 @ expr_stmt  @ 143 @ 
+name  @ 323 @ name  @ 199 @ 
+expr  @ 172 @ expr  @ 114 @ 
+name: gf_isom_box_del  @ 411 @ name: gf_isom_box_del  @ 268 @ 
+call  @ 365 @ call  @ 239 @ 
+operator: ->  @ 330 @ operator: ->  @ 206 @ 
+if  @ 35 @ if  @ 30 @ 
+condition  @ 239 @ condition  @ 153 @ 
+name: size  @ 305 @ name: size  @ 189 @ 
+operator: *  @ 368 @ operator: *  @ 242 @ 
+operator: ->  @ 346 @ operator: ->  @ 221 @ 
+name: mov  @ 182 @ name: mov  @ 124 @ 
+expr  @ 145 @ expr  @ 94 @ 
+operator: ==  @ 394 @ operator: ==  @ 251 @ 
+type  @ 88 @ type  @ 65 @ 
+name: size  @ 136 @ name: size  @ 93 @ 
+operator: ->  @ 335 @ operator: ->  @ 211 @ 
+name: k  @ 88 @ name: k  @ 65 @ 
+name: mov  @ 453 @ name: mov  @ 298 @ 
+name: mdat  @ 485 @ name: mdat  @ 329 @ 
+name: mov  @ 475 @ name: mov  @ 319 @ 
+init  @ 329 @ init  @ 205 @ 
+directive: endif  @ 477 @ directive: endif  @ 321 @ 
+type  @ 324 @ type  @ 200 @ 
+if_stmt  @ 484 @ if_stmt  @ 328 @ 
+block  @ 173 @ block  @ 115 @ 
+condition  @ 335 @ condition  @ 211 @ 
+operator: ->  @ 453 @ operator: ->  @ 298 @ 
+operator: ++  @ 328 @ operator: ++  @ 204 @ 
+expr  @ 131 @ expr  @ 92 @ 
+endif  @ 71 @ endif  @ 57 @ 
+argument_list  @ 328 @ argument_list  @ 204 @ 
+operator: ->  @ 188 @ operator: ->  @ 130 @ 
+expr  @ 448 @ expr  @ 290 @ 
+name: NULL  @ 356 @ name: NULL  @ 230 @ 
+expr_stmt  @ 469 @ expr_stmt  @ 312 @ 
+expr  @ 484 @ expr  @ 328 @ 
+argument_list  @ 177 @ argument_list  @ 119 @ 
+name  @ 120 @ name  @ 83 @ 
+name: mov  @ 170 @ name: mov  @ 112 @ 
+operator: ->  @ 26 @ operator: ->  @ 22 @ 
+name: mdat  @ 170 @ name: mdat  @ 112 @ 
+expr  @ 89 @ expr  @ 66 @ 
+name: totSize  @ 126 @ name: totSize  @ 88 @ 
+expr  @ 357 @ expr  @ 231 @ 
+expr  @ 156 @ expr  @ 105 @ 
+operator: ->  @ 343 @ operator: ->  @ 219 @ 
+name: GF_ISOM_INVALID_FILE  @ 461 @ name: GF_ISOM_INVALID_FILE  @ 305 @ 
+name: gf_list_add  @ 154 @ name: gf_list_add  @ 103 @ 
+argument_list  @ 116 @ argument_list  @ 80 @ 
+name: FragmentsFlags  @ 87 @ name: dump_mode_alloc  @ 64 @ 
+name: k  @ 353 @ name: k  @ 227 @ 
+expr  @ 38 @ expr  @ 33 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 26 @ 
+argument_list  @ 443 @ argument_list  @ 285 @ 
+block_content  @ 94 @ block_content  @ 71 @ 
+expr  @ 172 @ expr  @ 114 @ 
+name: mdat  @ 483 @ name: mdat  @ 327 @ 
+name: mov  @ 243 @ name: mov  @ 157 @ 
+expr  @ 323 @ expr  @ 199 @ 
+operator: )  @ 42 @ operator: )  @ 37 @ 
+name: GF_Box  @ 3 @ name: GF_Box  @ 3 @ 
+if_stmt  @ 357 @ if_stmt  @ 231 @ 
+if  @ 63 @ if  @ 56 @ 
+name  @ 343 @ name  @ 219 @ 
+name: mov  @ 397 @ name: mov  @ 254 @ 
+name: mdat  @ 482 @ name: mdat  @ 326 @ 
+name: single_moof_mode  @ 8 @ name: single_moof_mode  @ 8 @ 
+name: bs  @ 23 @ name: bs  @ 19 @ 
+name: e  @ 148 @ name: e  @ 97 @ 
+call  @ 89 @ call  @ 66 @ 
+name: FixSDTPInTRAF  @ 311 @ name: FixSDTPInTRAF  @ 195 @ 
+expr  @ 401 @ expr  @ 258 @ 
+name: GF_LOG  @ 225 @ name: GF_LOG  @ 139 @ 
+name: GF_LOG_DEBUG  @ 27 @ name: GF_LOG_DEBUG  @ 23 @ 
+name: mov  @ 61 @ name: mov  @ 54 @ 
+name  @ 394 @ name  @ 251 @ 
+operator: &&  @ 168 @ operator: &&  @ 110 @ 
+block  @ 145 @ block  @ 94 @ 
+expr_stmt  @ 356 @ expr_stmt  @ 230 @ 
+return  @ 45 @ return  @ 40 @ 
+name  @ 346 @ name  @ 221 @ 
+block  @ 50 @ block  @ 45 @ 
+argument  @ 286 @ argument  @ 172 @ 
+expr  @ 226 @ expr  @ 140 @ 
+name: e  @ 230 @ name: e  @ 144 @ 
+name: mov  @ 443 @ name: mov  @ 285 @ 
+expr  @ 94 @ expr  @ 71 @ 
+name: GF_LOG_CONTAINER  @ 225 @ name: GF_LOG_CONTAINER  @ 139 @ 
+name: mov  @ 168 @ name: mov  @ 110 @ 
+operator: +=  @ 305 @ operator: +=  @ 189 @ 
+name  @ 342 @ name  @ 218 @ 
+name: GF_OK  @ 300 @ name: GF_OK  @ 184 @ 
+operator: ->  @ 473 @ operator: ->  @ 317 @ 
+condition  @ 334 @ condition  @ 210 @ 
+argument_list  @ 170 @ argument_list  @ 112 @ 
+expr_stmt  @ 400 @ expr_stmt  @ 257 @ 
+name: trex  @ 333 @ name: trex  @ 209 @ 
+expr  @ 345 @ expr  @ 220 @ 
+name: a  @ 306 @ name: a  @ 190 @ 
+name: a  @ 369 @ name: a  @ 243 @ 
+name: tfhd  @ 343 @ name: tfhd  @ 219 @ 
+expr  @ 484 @ expr  @ 328 @ 
+operator: ->  @ 330 @ operator: ->  @ 206 @ 
+name: mov  @ 297 @ name: mov  @ 181 @ 
+expr  @ 122 @ expr  @ 84 @ 
+expr  @ 454 @ expr  @ 299 @ 
+block  @ 87 @ block  @ 64 @ 
+case  @ 52 @ case  @ 47 @ 
+literal: 4  @ 396 @ literal: 4  @ 253 @ 
+name: e  @ 260 @ name: e  @ 170 @ 
+operator: (  @ 38 @ operator: (  @ 33 @ 
+operator: )  @ 168 @ operator: )  @ 110 @ 
+name: mov  @ 148 @ name: mov  @ 97 @ 
+name: e  @ 401 @ name: e  @ 258 @ 
+argument  @ 189 @ argument  @ 131 @ 
+operator: ->  @ 474 @ operator: ->  @ 318 @ 
+name: gf_bs_seek  @ 18 @ name: gf_bs_seek  @ 14 @ 
+operator: )  @ 294 @ operator: )  @ 178 @ 
+break  @ 414 @ break  @ 271 @ 
+expr  @ 189 @ expr  @ 131 @ 
+operator: ->  @ 168 @ operator: ->  @ 110 @ 
+expr_stmt  @ 188 @ expr_stmt  @ 130 @ 
+if  @ 453 @ if  @ 298 @ 
+name  @ 293 @ name  @ 177 @ 
+name: GF_MediaDataBox  @ 170 @ name: GF_MediaDataBox  @ 112 @ 
+name: GF_Err  @ 5 @ name: GF_Err  @ 5 @ 
+expr  @ 346 @ expr  @ 221 @ 
+decl  @ 329 @ decl  @ 205 @ 
+call  @ 122 @ call  @ 84 @ 
+expr  @ 225 @ expr  @ 139 @ 
+name: totSize  @ 435 @ name: totSize  @ 277 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+condition  @ 448 @ condition  @ 290 @ 
+name  @ 329 @ name  @ 205 @ 
+expr  @ 259 @ expr  @ 169 @ 
+operator: ->  @ 23 @ operator: ->  @ 19 @ 
+operator: )  @ 238 @ operator: )  @ 152 @ 
+name: mov  @ 329 @ name: mov  @ 205 @ 
+decl_stmt  @ 324 @ decl_stmt  @ 200 @ 
+name: GF_LOG  @ 454 @ name: GF_LOG  @ 299 @ 
+if  @ 355 @ if  @ 229 @ 
+expr  @ 118 @ expr  @ 81 @ 
+operator: =  @ 61 @ operator: =  @ 54 @ 
+type  @ 395 @ type  @ 252 @ 
+name: mov  @ 483 @ name: mov  @ 327 @ 
+expr  @ 190 @ expr  @ 132 @ 
+operator: =  @ 397 @ operator: =  @ 254 @ 
+name  @ 172 @ name  @ 114 @ 
+expr  @ 356 @ expr  @ 230 @ 
+name  @ 413 @ name  @ 270 @ 
+expr  @ 297 @ expr  @ 181 @ 
+expr  @ 93 @ expr  @ 70 @ 
+expr  @ 259 @ expr  @ 169 @ 
+name: u32  @ 396 @ name: u32  @ 253 @ 
+expr  @ 306 @ expr  @ 190 @ 
+name: GF_MetaBox  @ 120 @ name: GF_MetaBox  @ 83 @ 
+name: k  @ 328 @ name: k  @ 204 @ 
+operator: ->  @ 172 @ operator: ->  @ 114 @ 
+name: openMode  @ 37 @ name: openMode  @ 32 @ 
+name: mov  @ 122 @ name: mov  @ 84 @ 
+name: mov  @ 364 @ name: mov  @ 238 @ 
+name: openMode  @ 473 @ name: openMode  @ 317 @ 
+name: mov  @ 408 @ name: mov  @ 265 @ 
+operator: ->  @ 93 @ operator: ->  @ 70 @ 
+name: a  @ 58 @ name: a  @ 52 @ 
+name  @ 363 @ name  @ 237 @ 
+name: GF_UnknownBox  @ 393 @ name: GF_UnknownBox  @ 250 @ 
+name: GF_MediaDataBox  @ 483 @ name: GF_MediaDataBox  @ 327 @ 
+argument  @ 346 @ argument  @ 221 @ 
+return  @ 357 @ return  @ 231 @ 
+name: openMode  @ 482 @ name: openMode  @ 326 @ 
+condition  @ 310 @ condition  @ 194 @ 
+expr  @ 369 @ expr  @ 243 @ 
+name: gf_isom_box_new  @ 483 @ name: gf_isom_box_new  @ 327 @ 
+argument_list  @ 309 @ argument_list  @ 193 @ 
+name: traf  @ 342 @ name: traf  @ 218 @ 
+operator: ->  @ 297 @ operator: ->  @ 181 @ 
+operator: ->  @ 238 @ operator: ->  @ 152 @ 
+name: GF_LOG  @ 54 @ name: GF_LOG  @ 49 @ 
+operator: ->  @ 342 @ operator: ->  @ 218 @ 
+operator: ->  @ 345 @ operator: ->  @ 220 @ 
+name: mov  @ 27 @ name: mov  @ 23 @ 
+if  @ 92 @ if  @ 69 @ 
+name: GF_MovieFragmentBox  @ 306 @ name: GF_MovieFragmentBox  @ 190 @ 
+name: gf_list_get  @ 90 @ name: gf_list_get  @ 67 @ 
+block  @ 293 @ block  @ 177 @ 
+expr_stmt  @ 364 @ expr_stmt  @ 238 @ 
+name: moof  @ 354 @ name: moof  @ 228 @ 
+call  @ 286 @ call  @ 172 @ 
+name: mov  @ 148 @ name: mov  @ 97 @ 
+name: GF_ISOM_OPEN_READ  @ 37 @ name: GF_ISOM_OPEN_READ  @ 32 @ 
+condition  @ 328 @ condition  @ 204 @ 
+operator: (  @ 393 @ operator: (  @ 250 @ 
+endif  @ 425 @ endif  @ 273 @ 
+operator: (  @ 168 @ operator: (  @ 110 @ 
+argument  @ 396 @ argument  @ 253 @ 
+name: traf  @ 338 @ name: traf  @ 214 @ 
+operator: (  @ 225 @ operator: (  @ 139 @ 
+init  @ 354 @ init  @ 228 @ 
+name: mov  @ 18 @ name: mov  @ 14 @ 
+block_content  @ 311 @ block_content  @ 195 @ 
+expr  @ 294 @ expr  @ 178 @ 
+if  @ 146 @ if  @ 95 @ 
+case  @ 290 @ case  @ 176 @ 
+operator: ++  @ 89 @ operator: ++  @ 66 @ 
+block  @ 357 @ block  @ 231 @ 
+argument  @ 368 @ argument  @ 242 @ 
+expr_stmt  @ 170 @ expr_stmt  @ 112 @ 
+decl_stmt  @ 329 @ decl_stmt  @ 205 @ 
+name: moof  @ 329 @ name: moof  @ 205 @ 
+operator: ->  @ 330 @ operator: ->  @ 206 @ 
+expr  @ 333 @ expr  @ 209 @ 
+name: mov  @ 356 @ name: mov  @ 230 @ 
+operator: ->  @ 459 @ operator: ->  @ 303 @ 
+name: TopBoxes  @ 230 @ name: TopBoxes  @ 144 @ 
+if_stmt  @ 401 @ if_stmt  @ 258 @ 
+name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 7 @ name: GPAC_DISABLE_ISOM_FRAGMENTS  @ 7 @ 
+expr  @ 353 @ expr  @ 227 @ 
+expr  @ 42 @ expr  @ 37 @ 
+expr_stmt  @ 368 @ expr_stmt  @ 242 @ 
+name: mov  @ 146 @ name: mov  @ 95 @ 
+name: TrackExList  @ 333 @ name: TrackExList  @ 209 @ 
+name: bytesMissing  @ 30 @ name: bytesMissing  @ 26 @ 
+operator: )  @ 460 @ operator: )  @ 304 @ 
+expr  @ 343 @ expr  @ 219 @ 
+operator: ->  @ 356 @ operator: ->  @ 230 @ 
+name: k  @ 89 @ name: k  @ 66 @ 
+condition  @ 37 @ condition  @ 32 @ 
+name  @ 443 @ name  @ 285 @ 
+condition  @ 231 @ condition  @ 145 @ 
+block_content  @ 437 @ block_content  @ 279 @ 
+endif  @ 390 @ endif  @ 247 @ 
+if  @ 310 @ if  @ 194 @ 
+comment: /*merge all info*/  @ 367 @ comment: /*merge all info*/  @ 241 @ 
+name  @ 330 @ name  @ 206 @ 
+name: mov  @ 443 @ name: mov  @ 285 @ 
+block_content  @ 299 @ block_content  @ 183 @ 
+expr  @ 90 @ expr  @ 67 @ 
+call  @ 354 @ call  @ 228 @ 
+return  @ 370 @ return  @ 244 @ 
+name: FragmentsFlags  @ 323 @ name: FragmentsFlags  @ 199 @ 
+expr  @ 474 @ expr  @ 318 @ 
+operator: <  @ 328 @ operator: <  @ 204 @ 
+block  @ 334 @ block  @ 210 @ 
+if  @ 408 @ if  @ 265 @ 
+condition  @ 293 @ condition  @ 177 @ 
+condition  @ 35 @ condition  @ 30 @ 
+block_content  @ 297 @ block_content  @ 181 @ 
+name: e  @ 437 @ name: e  @ 279 @ 
+call  @ 398 @ call  @ 255 @ 
+name: sample_encryption  @ 342 @ name: sample_encryption  @ 218 @ 
+name  @ 146 @ name  @ 95 @ 
+name: box  @ 394 @ name: box  @ 251 @ 
+name  @ 484 @ name  @ 328 @ 
+name: TopBoxes  @ 172 @ name: TopBoxes  @ 114 @ 
+name: GF_LOG_WARNING  @ 294 @ name: GF_LOG_WARNING  @ 178 @ 
+expr  @ 90 @ expr  @ 67 @ 
+return  @ 174 @ return  @ 116 @ 
+return  @ 347 @ return  @ 222 @ 
+expr  @ 408 @ expr  @ 265 @ 
+operator: )  @ 333 @ operator: )  @ 209 @ 
+decl_stmt  @ 88 @ decl_stmt  @ 65 @ 
+name: GF_LOG_ERROR  @ 184 @ name: GF_LOG_ERROR  @ 126 @ 
+name  @ 187 @ name  @ 129 @ 
+block_content  @ 124 @ block_content  @ 86 @ 
+name: a  @ 188 @ name: a  @ 130 @ 
+name  @ 13 @ name  @ 13 @ 
+literal: "[iso file] Duplicate MOOV detected!\n"  @ 54 @ literal: "[iso file] Duplicate MOOV detected!\n"  @ 49 @ 
+block_content  @ 454 @ block_content  @ 299 @ 
+name: GF_TrackBox  @ 331 @ name: GF_TrackBox  @ 207 @ 
+operator: ->  @ 343 @ operator: ->  @ 219 @ 
+call  @ 23 @ call  @ 19 @ 
+name: moov  @ 331 @ name: moov  @ 207 @ 
+if  @ 73 @ if  @ 59 @ 
+operator: =  @ 475 @ operator: =  @ 319 @ 
+block  @ 35 @ block  @ 30 @ 
+name: FragmentsFlags  @ 310 @ name: FragmentsFlags  @ 194 @ 
+literal: 2  @ 396 @ literal: 2  @ 253 @ 
+operator: &&  @ 396 @ operator: &&  @ 253 @ 
+block  @ 94 @ block  @ 71 @ 
+name: c  @ 396 @ name: c  @ 253 @ 
+expr  @ 311 @ expr  @ 195 @ 
+operator: =  @ 58 @ operator: =  @ 52 @ 
+block_content  @ 354 @ block_content  @ 228 @ 
+operator: )  @ 116 @ operator: )  @ 80 @ 
+name  @ 482 @ name  @ 326 @ 
+argument_list  @ 93 @ argument_list  @ 70 @ 
+expr  @ 469 @ expr  @ 312 @ 
+expr  @ 26 @ expr  @ 22 @ 
+call  @ 148 @ call  @ 97 @ 
+operator: ->  @ 473 @ operator: ->  @ 317 @ 
+argument_list  @ 325 @ argument_list  @ 201 @ 
+directive: endif  @ 19 @ directive: endif  @ 15 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 22 @ 
+name: e  @ 260 @ name: e  @ 170 @ 
+operator: (  @ 408 @ operator: (  @ 265 @ 
+name: moov  @ 474 @ name: moov  @ 318 @ 
+block  @ 146 @ block  @ 95 @ 
+expr  @ 396 @ expr  @ 253 @ 
+call  @ 26 @ call  @ 22 @ 
+name  @ 63 @ name  @ 56 @ 
+name: moov  @ 330 @ name: moov  @ 206 @ 
+argument  @ 325 @ argument  @ 201 @ 
+block  @ 411 @ block  @ 268 @ 
+name: e  @ 189 @ name: e  @ 131 @ 
+expr  @ 45 @ expr  @ 40 @ 
+if  @ 182 @ if  @ 124 @ 
+expr_stmt  @ 63 @ expr_stmt  @ 56 @ 
+argument_list  @ 411 @ argument_list  @ 268 @ 
+expr_stmt  @ 156 @ expr_stmt  @ 105 @ 
+name: moov  @ 330 @ name: moov  @ 206 @ 
+argument_list  @ 436 @ argument_list  @ 278 @ 
+decl  @ 331 @ decl  @ 207 @ 
+if  @ 168 @ if  @ 110 @ 
+init  @ 353 @ init  @ 227 @ 
+name  @ 280 @ name  @ 14 @ 
+name: size  @ 229 @ name: size  @ 143 @ 
+name: GF_ISOM_FRAG_READ_DEBUG  @ 408 @ name: GF_ISOM_FRAG_READ_DEBUG  @ 265 @ 
+name  @ 297 @ name  @ 181 @ 
+block_content  @ 460 @ block_content  @ 304 @ 
+block_content  @ 24 @ block_content  @ 20 @ 
+argument  @ 116 @ argument  @ 80 @ 
+decl  @ 343 @ decl  @ 219 @ 
+type  @ 3 @ type  @ 3 @ 
+literal: "[iso file] Incomplete MDAT while file is not read-only\n"  @ 38 @ literal: "[iso file] Incomplete MDAT while file is not read-only\n"  @ 33 @ 
+operator: &&  @ 482 @ operator: &&  @ 326 @ 
+expr  @ 122 @ expr  @ 84 @ 
+comment: /*in edit mode with successfully loaded fragments, delete all fragment signaling sincefile is no longer fragmented*/  @ 472 @ comment: /*in edit mode with successfully loaded fragments, delete all fragment signaling since
+		file is no longer fragmented*/  @ 315 @ 
+if_stmt  @ 482 @ if_stmt  @ 326 @ 
+block  @ 473 @ block  @ 317 @ 
+control  @ 353 @ control  @ 227 @ 
+type  @ 1 @ type  @ 1 @ 
+endif  @ 28 @ endif  @ 24 @ 
+expr  @ 243 @ expr  @ 157 @ 
+argument_list  @ 396 @ argument_list  @ 253 @ 
+if  @ 437 @ if  @ 279 @ 
+operator: &  @ 408 @ operator: &  @ 265 @ 
+argument  @ 346 @ argument  @ 221 @ 
+expr  @ 347 @ expr  @ 222 @ 
+condition  @ 486 @ condition  @ 330 @ 
+name: GF_LOG_CONTAINER  @ 42 @ name: GF_LOG_CONTAINER  @ 37 @ 
+if  @ 347 @ if  @ 222 @ 
+if_stmt  @ 355 @ if_stmt  @ 229 @ 
+operator: ->  @ 168 @ operator: ->  @ 110 @ 
+call  @ 90 @ call  @ 67 @ 
+name: trackID  @ 334 @ name: trackID  @ 210 @ 
+operator: ->  @ 345 @ operator: ->  @ 220 @ 
+operator: )  @ 310 @ operator: )  @ 194 @ 
+condition  @ 23 @ condition  @ 19 @ 
+expr  @ 27 @ expr  @ 23 @ 
+name: brand  @ 238 @ name: brand  @ 152 @ 
+name: sample_encryption  @ 355 @ name: sample_encryption  @ 229 @ 
+name  @ 26 @ name  @ 22 @ 
+name: data  @ 395 @ name: data  @ 252 @ 
+expr  @ 18 @ expr  @ 14 @ 
+operator: ->  @ 335 @ operator: ->  @ 211 @ 
+block  @ 123 @ block  @ 85 @ 
+operator: ->  @ 189 @ operator: ->  @ 131 @ 
+name: mvex  @ 333 @ name: mvex  @ 209 @ 
+operator: &&  @ 459 @ operator: &&  @ 303 @ 
+expr  @ 120 @ expr  @ 83 @ 
+directive: ifndef  @ 471 @ directive: ifndef  @ 314 @ 
+operator: )  @ 473 @ operator: )  @ 317 @ 
+operator: ->  @ 327 @ operator: ->  @ 203 @ 
+operator: (  @ 187 @ operator: (  @ 129 @ 
+name: meta  @ 459 @ name: meta  @ 303 @ 
+condition  @ 459 @ condition  @ 303 @ 
+comment: /*our mdat is uncomplete, only valid for READ ONLY files...*/  @ 36 @ comment: /*our mdat is uncomplete, only valid for READ ONLY files...*/  @ 31 @ 
+name  @ 345 @ name  @ 220 @ 
+name  @ 92 @ name  @ 69 @ 
+expr_stmt  @ 72 @ expr_stmt  @ 58 @ 
+argument  @ 329 @ argument  @ 205 @ 
+name: gf_list_get  @ 354 @ name: gf_list_get  @ 228 @ 
+comment: /*also update pointers to trex for debug*/  @ 326 @ comment: /*also update pointers to trex for debug*/  @ 202 @ 
+name: GF_OUT_OF_MEM  @ 484 @ name: GF_OUT_OF_MEM  @ 328 @ 
+if  @ 459 @ if  @ 303 @ 
+argument  @ 333 @ argument  @ 209 @ 
+argument  @ 485 @ argument  @ 329 @ 
+argument_list  @ 230 @ argument_list  @ 144 @ 
+name  @ 396 @ name  @ 253 @ 
+

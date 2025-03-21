@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file80": {
+            "match_message": {
+                "Same: gf_media_update_bitrate_ex -> gf_media_update_bitrate_ex": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 79 -> 102",
+                        "L2": "3: Unique Matched by Source code 79 -> 102"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 34,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 102,
+                        "add_hunk": [
+                            "\tif (br>0) {\n"
+                        ],
+                        "delete_location": [
+                            102,
+                            102
+                        ],
+                        "delete_hunk": [
+                            "\tif (br) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_media_update_bitrate_ex -> gf_media_update_bitrate_ex": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

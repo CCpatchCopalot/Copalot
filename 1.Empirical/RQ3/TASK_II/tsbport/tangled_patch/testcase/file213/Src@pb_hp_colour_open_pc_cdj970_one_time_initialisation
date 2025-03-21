@@ -1,0 +1,54 @@
+static int
+hp_colour_open(gx_device * pdev)
+{
+    int retCode = 0;
+
+    /* Change the margins if necessary. */
+    static const float dj_a4[4] = {
+        DESKJET_MARGINS_A4
+    };
+
+    static const float dj_letter[4] = {
+        DESKJET_MARGINS_LETTER
+    };
+    const float *m = (float *)0;
+
+    cdj970->PageCtr = 0;
+
+    /* quality setup */
+    if (cdj970->quality == DRAFT) {
+        gx_device_set_resolution((gx_device *) pdev, 300.0, 300.0);
+        cdj970->xscal = 0;
+        cdj970->yscal = 0;
+        cdj970->intensities = 2;
+    } else if (cdj970->quality == NORMAL) {
+        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);
+        cdj970->xscal = 1;
+        cdj970->yscal = 1;
+        /* intensities = 4 from initialization */
+    } else {                    /* quality == PRESENTATION */
+        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);
+        cdj970->xscal = 0;
+        cdj970->yscal = 0;
+        /* intensities = 4 from initialization */
+    }
+
+    m = (gdev_pcl_paper_size((gx_device *) pdev) == PAPER_SIZE_A4 ? dj_a4 : dj_letter);
+
+    gx_device_set_margins((gx_device *) pdev, m, true);
+
+    /* Set up colour params if put_params has not already done so */
+    if (pdev->color_info.num_components == 0) {
+        retCode = cdj_set_bpp(pdev, pdev->color_info.depth, pdev->color_info.num_components);
+
+        if (retCode < 0)
+            return retCode;
+    }
+
+    retCode = gdev_prn_open(pdev);
+    if (retCode >= 0) {
+        retCode = gdev_prn_open_printer(pdev, true);
+    }
+
+    return 0;
+}

@@ -1,0 +1,19 @@
+GF_EXPORT
+GF_Err gf_isom_get_original_format_type(GF_ISOFile *the_file, u32 trackNumber, u32 sampleDescriptionIndex, u32 *outOriginalFormat)
+{
+	GF_TrackBox *trak;
+	GF_SampleEntryBox *sea;
+	GF_ProtectionSchemeInfoBox *sinf;
+
+	trak = gf_isom_get_track_from_file(the_file, trackNumber);
+	if (!trak) return GF_BAD_PARAM;
+
+	Media_GetSampleDesc(trak->Media, sampleDescriptionIndex, &sea, NULL);
+	if (!sea) return GF_BAD_PARAM;
+
+	sinf = (GF_ProtectionSchemeInfoBox*)gf_list_get(sea->protections, 0);
+	if (outOriginalFormat && sinf->original_format) {
+		*outOriginalFormat = sinf->original_format->data_format;
+	}
+	return GF_OK;
+}

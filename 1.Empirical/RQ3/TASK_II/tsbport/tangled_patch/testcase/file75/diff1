@@ -1,0 +1,177 @@
+297c297
+< static void *H5F__cache_superblock_deserialize(const void *_image, size_t H5_ATTR_NDEBUG_UNUSED len, void *_udata,hbool_t H5_ATTR_UNUSED *dirty)
+---
+> static void *H5F__cache_superblock_deserialize(const void *_image, size_t len, void *_udata, hbool_t H5_ATTR_UNUSED *dirty)
+302c302,303
+<     H5F_super_t               *ret_value = NULL;   /* Return value */
+---
+>     const uint8_t             *end       = image + len - 1; /* Pointer to end of buffer */
+>     H5F_super_t               *ret_value = NULL;
+314c315,317
+<         HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed")/* Deserialize the file superblock's prefix */
+---
+>         HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed");
+> 
+>     /* Deserialize the file superblock's prefix */
+316c319,321
+<         HGOTO_ERROR(H5E_FILE, H5E_CANTDECODE, NULL, "can't decode file superblock prefix")/* Check for older version of superblock format */
+---
+>         HGOTO_ERROR(H5E_FILE, H5E_CANTDECODE, NULL, "can't decode file superblock prefix");
+> 
+>     /* Check for older version of superblock format */
+323a329,330
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+325c332,336
+<             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad free space version number")/* Root group version number (hard-wired) */
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad free space version number");
+> 
+>         /* Root group version number (hard-wired) */
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+327c338,343
+<             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad object directory version number")/* Skip over reserved byte */image++;
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad object directory version number");
+> 
+>         /* Skip over reserved byte */
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+>         image++;
+329a346,347
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+331c349,354
+<             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad shared-header format version number")/* Skip over size of file addresses (already decoded) */image++;
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad shared-header format version number");
+> 
+>         /* Skip over size of file addresses (already decoded) */
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+>         image++;
+334a358,359
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+338a364,365
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+341a369,370
+>         if (H5_IS_BUFFER_OVERFLOW(image, 2, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+344,345c373,375
+<             HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, "bad symbol table leaf node 1/2 rank")udata->sym_leaf_k = sym_leaf_k; /* Keep a local copy also */
+< /* Keep a local copy also */
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, "bad symbol table leaf node 1/2 rank");
+>         udata->sym_leaf_k = sym_leaf_k; /* Keep a local copy also */
+> 
+346a377,378
+>         if (H5_IS_BUFFER_OVERFLOW(image, 2, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+349c381,382
+<             HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, "bad 1/2 rank for btree internal nodes")udata->btree_k[H5B_SNODE_ID] = snode_btree_k;
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, "bad 1/2 rank for btree internal nodes");
+>         udata->btree_k[H5B_SNODE_ID] = snode_btree_k;
+351c384
+<         /* * Delay setting the value in the property list until we've checked * for the indexed storage B-tree internal 'K' value later. */
+---
+>         /* Delay setting the value in the property list until we've checked * for the indexed storage B-tree internal 'K' value later. */
+353a387,388
+>         if (H5_IS_BUFFER_OVERFLOW(image, 4, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+355c390,391
+<         HDassert(status_flags <= 255);
+---
+>         if (status_flags > 255)
+>             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad superblock status flags");
+358c394,396
+<             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad flag value for superblock")/* * If the superblock version # is greater than 0, read in the indexed * storage B-tree internal 'K' value */
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad flag value for superblock");
+> 
+>         /* If the superblock version # is greater than 0, read in the indexed * storage B-tree internal 'K' value */
+359a398,399
+>             if (H5_IS_BUFFER_OVERFLOW(image, 2, end))
+>                 HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+363,365c403,409
+<             if (sblock->super_vers == HDF5_SUPERBLOCK_VERSION_1)
+<                 image += 2; /* reserved */
+<         }                   /* end if */
+---
+>             if (sblock->super_vers == HDF5_SUPERBLOCK_VERSION_1) {
+>                 /* Reserved */
+>                 if (H5_IS_BUFFER_OVERFLOW(image, 2, end))
+>                     HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+>                 image += 2;
+>             }
+>         }
+370a415,416
+>         if (H5_IS_BUFFER_OVERFLOW(image, H5F_sizeof_addr(udata->f) * 4, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+377c423,424
+<         HDassert(!sblock->root_ent);
+---
+>         if (sblock->root_ent)
+>             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "root entry should not exist yet");
+379c426,428
+<             HGOTO_ERROR(H5E_FILE, H5E_CANTALLOC, NULL,"can't allocate space for root group symbol table entry")/* decode the root group symbol table entry */
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_CANTALLOC, NULL,"can't allocate space for root group symbol table entry");
+> 
+>         /* Decode the root group symbol table entry */
+381c430,433
+<             HGOTO_ERROR(H5E_FILE, H5E_CANTDECODE, NULL, "can't decode root group symbol table entry")/* Set the root group address to the correct value */sblock->root_addr = sblock->root_ent->header;
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_CANTDECODE, NULL, "can't decode root group symbol table entry");
+> 
+>         /* Set the root group address to the correct value */
+>         sblock->root_addr = sblock->root_ent->header;
+388c440
+<         } /* end if */
+---
+>         }
+391,392c443
+< 
+<     } /* end if */
+---
+>     }
+403a454,457
+>         /* Check whether the image pointer is out of bounds */
+>         if (H5_IS_BUFFER_OVERFLOW(image, 1, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+> 
+407c461,467
+<             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad flag value for superblock")/* Base, superblock extension, end of file & root group object header addresses */
+---
+>             HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad flag value for superblock");
+> 
+>         /* Check whether the image pointer will be out of bounds */
+>         if (H5_IS_BUFFER_OVERFLOW(image, H5F_SIZEOF_ADDR(udata->f) * 4, end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+> 
+>         /* Base, superblock extension, end of file & root group object header addresses */
+414a475,478
+>         /* Check whether the image pointer will be out of bounds */
+>         if (H5_IS_BUFFER_OVERFLOW(image, sizeof(uint32_t), end))
+>             HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, "image pointer is out of bounds");
+> 
+420c484
+<     } /* end else */
+---
+>     }
+422,423c486,488
+<     /* Sanity check */
+<     HDassert((size_t)(image - (const uint8_t *)_image) <= len);
+---
+>     /* Size check */
+>     if ((size_t)(image - (const uint8_t *)_image) > len)
+>         HDONE_ERROR(H5E_FILE, H5E_BADVALUE, NULL, "bad decoded superblock size");
+425d489
+<     /* Set return value */
+432c496
+<             HDONE_ERROR(H5E_FILE, H5E_CANTFREE, NULL, "unable to destroy superblock data")
+---
+>             HDONE_ERROR(H5E_FILE, H5E_CANTFREE, NULL, "unable to destroy superblock data");

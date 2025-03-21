@@ -1,0 +1,8 @@
+79c79
+<  if (retval >= 0)
+---
+>  if (retval > 0 && path[0] == '/')
+98c98
+<  if (errno == ENAMETOOLONG)
+---
+>  if (retval >= 0 || errno == ENAMETOOLONG)

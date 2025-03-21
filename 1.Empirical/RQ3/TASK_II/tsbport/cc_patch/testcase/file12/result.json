@@ -1,0 +1,20 @@
+{
+    "testcase": {
+        "file12": {
+            "runtime_info": {
+                "Error": "FileNotFoundError(2, 'No such file or directory') : Traceback (most recent call last):\n  File \"/tsbport/src/Matcher.py\", line 124, in match\n    pc_seg,seg_info = self.checkSourcecodeWithPDGContext(pa_seg,pc_target_func,pc_func_scope)\n  File \"/tsbport/src/Matcher.py\", line 237, in checkSourcecodeWithPDGContext\n    pa_pc_ast_mapping,_ = ASTFuncMapping(self.project,pa_target_func,pc_target_func,'pa','pc')\n  File \"/tsbport/src/Util.py\", line 289, in ASTFuncMapping\n    with open(mapping_path,'r') as f:\nFileNotFoundError: [Errno 2] No such file or directory: '/tsbport/cc_patch/testcase/file12/pa_KernelAndDeviceOp :: Run_pc_KernelAndDeviceOp :: Run'\n",
+                "Global": [
+                    "Error in dealing testcase : file12",
+                    "FileNotFoundError(2, 'No such file or directory') : Traceback (most recent call last):\n  File \"src/Main.py\", line 117, in runing_file\n    translator.prepare()\n  File \"/tsbport/src/Translator.py\", line 529, in prepare\n    pa_pc_ast_mapping,_ = ASTFuncMapping(self.project,pa_target_func,pc_target_func,'pa','pc')\n  File \"/tsbport/src/Util.py\", line 289, in ASTFuncMapping\n    with open(mapping_path,'r') as f:\nFileNotFoundError: [Errno 2] No such file or directory: '/tsbport/cc_patch/testcase/file12/pa_KernelAndDeviceOp :: Run_pc_KernelAndDeviceOp :: Run'\n"
+                ]
+            },
+            "prepare_info": {},
+            "semanic_check": {},
+            "verify_patch": {},
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

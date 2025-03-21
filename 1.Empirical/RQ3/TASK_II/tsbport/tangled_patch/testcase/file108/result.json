@@ -1,0 +1,63 @@
+{
+    "testcase": {
+        "file108": {
+            "match_message": {
+                "Syntax: H5O__layout_decode -> H5O_layout_decode": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 196->228",
+                        "L2": "5: Matched by Syntax(AST) similarity 196->228"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 197->229",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 198->230"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 228,
+                        "add_hunk": [
+                            "                    for(u = 0; u < mesg->u.chunk.ndims; u++) {\n"
+                        ],
+                        "delete_location": [
+                            228,
+                            228
+                        ],
+                        "delete_hunk": [
+                            "                for(u = 0; u < mesg->u.chunk.ndims; u++)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 229,
+                        "add_hunk": [
+                            "                        if(mesg->u.chunk.dim[u] == 0)\n",
+                            "                            HGOTO_ERROR(H5E_DATASET, H5E_BADVALUE, NULL, \"chunk dimension must be positive: mesg->u.chunk.dim[%u] = %u\",u, mesg->u.chunk.dim[u])\n",
+                            "                    } /* end for */\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: H5O__layout_decode -> H5O_layout_decode": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "outside",
+                "sanity_check",
+                "in_loop"
+            ]
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "testcase": {
+        "file111": {
+            "match_message": {
+                "Same: cdj970_one_time_initialisation -> cdj970_one_time_initialisation": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 582 -> 789",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 619->826"
+                    }
+                },
+                "Same: cdj970_print_page -> cdj970_print_page": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 631 -> 840",
+                        "L2": "3: Unique Matched by Source code 631 -> 840"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 119,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            789,
+                            826
+                        ],
+                        "delete_hunk": [
+                            "static void\n",
+                            "cdj970_one_time_initialisation(gx_device_printer * pdev)\n",
+                            "{\n",
+                            "    static const float dj_a4[4] = {\n",
+                            "        DESKJET_MARGINS_A4\n",
+                            "    };\n",
+                            "    static const float dj_letter[4] = {\n",
+                            "        DESKJET_MARGINS_LETTER\n",
+                            "    };\n",
+                            "    const float *m = (float *)0;\n",
+                            "    if (cdj970->quality == DRAFT) {\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 300.0, 300.0);\n",
+                            "        cdj970->xscal = 0;\n",
+                            "        cdj970->yscal = 0;\n",
+                            "        cdj970->intensities = 2;\n",
+                            "    } else if (cdj970->quality == NORMAL) {\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);\n",
+                            "        cdj970->xscal = 1;\n",
+                            "        cdj970->yscal = 1;\n",
+                            "    } else {                    /* quality == PRESENTATION */\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);\n",
+                            "        cdj970->xscal = 0;\n",
+                            "        cdj970->yscal = 0;\n",
+                            "    }\n",
+                            "    m = (gdev_pcl_paper_size((gx_device *) pdev) ==\n",
+                            "         PAPER_SIZE_A4 ? dj_a4 : dj_letter);\n",
+                            "    gx_device_set_margins((gx_device *) pdev, m, true);\n",
+                            "    cdj970_write_header((gx_device *) pdev, pdev->file);\n",
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 840,
+                        "add_hunk": [
+                            "        cdj970_write_header((gx_device *)pdev, prn_stream);\n"
+                        ],
+                        "delete_location": [
+                            840,
+                            840
+                        ],
+                        "delete_hunk": [
+                            "        cdj970_one_time_initialisation(pdev);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: cdj970_one_time_initialisation -> cdj970_one_time_initialisation": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: cdj970_print_page -> cdj970_print_page": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call"
+            ]
+        }
+    }
+}

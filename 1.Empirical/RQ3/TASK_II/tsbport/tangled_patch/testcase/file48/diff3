@@ -1,0 +1,12 @@
+493c493,495
+<        if (l >= (MAX_SIZE/sizeof(char)) - tl)
+---
+>if (l >= (MAX_SIZE/sizeof(char)) - tl)
+>	{
+>          L->top = top - total;
+494a495
+>        }
+509c509
+<    L->top -= n-1;  /* popped 'n' strings and pushed one */
+---
+>    L->top = top - (n - 1);  /* popped 'n' strings and pushed one */

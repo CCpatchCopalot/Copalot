@@ -1,0 +1,50 @@
+{
+    "testcase": {
+        "file147": {
+            "match_message": {
+                "Same: gf_isom_new_mpeg4_description -> gf_isom_new_mpeg4_description": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 642 -> 667",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 644->669"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 29,
+                        "add_hunk": [
+                            "#include <gpac/constants.h>\n",
+                            "#include <gpac/maths.h>\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            667,
+                            669
+                        ],
+                        "delete_hunk": [
+                            "\tif (new_esd->URLString) {\n",
+                            "\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_new_mpeg4_description -> gf_isom_new_mpeg4_description": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": []
+        }
+    }
+}

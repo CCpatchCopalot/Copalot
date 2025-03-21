@@ -1,0 +1,101 @@
+23c23
+< /*! * \brief pixBlockconv() * * \param[in]pix 8or 32 bpp; or 2, 4 or 8 bpp with colormap * \param[in]wc, hc half width/height of convolution kernel * \returnpixd, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1) *(2) Returns a copy if both wc and hc are 0 *(3) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs. * </pre> */
+---
+> /*! * \brief pixBlockconv() * * \param[in]pix8 or 32 bpp; or 2, 4 or 8 bpp with colormap * \param[in]wc, hc half width/height of convolution kernel * \returnpixd, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1) *(2) Returns a copy if either wc or hc are 0 *(3) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs.Otherwise, *return a copy. * </pre> */
+33,34c33,34
+<     if (wc < 0) wc = 0;
+<     if (hc < 0) hc = 0;
+---
+>     if (wc <= 0 || hc <= 0)
+>         return pixCopy(NULL, pix);
+37,40c37,38
+<         wc = L_MIN(wc, (w - 1) / 2);
+<         hc = L_MIN(hc, (h - 1) / 2);
+<         L_WARNING("kernel too large; reducing!\n", procName);
+<         L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+---
+>         L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+>         return pixCopy(NULL, pix);  /* no-op */
+42,43d39
+<     if (wc == 0 && hc == 0)   /* no-op */
+<         return pixCopy(NULL, pix);
+83c79
+< /*! * \brief pixBlockconvGray() * * \param[in]pixs 8 bpp * \param[in]pixacc pix 32 bpp; can be null * \param[in]wc, hc half width/height of convolution kernel * \returnpix 8 bpp, or NULL on error * * <pre> * Notes: *(1) If accum pix is null, make one and destroy it before *returning; otherwise, just use the input accum pix. *(2) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1). *(3) Returns a copy if both wc and hc are 0. *(4) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs. * </pre> */
+---
+> /*! * \brief pixBlockconvGray() * * \param[in]pixs 8 bpp * \param[in]pixacc pix 32 bpp; can be null * \param[in]wc, hc half width/height of convolution kernel * \returnpix 8 bpp, or NULL on error * * <pre> * Notes: *(1) If accum pix is null, make one and destroy it before *returning; otherwise, just use the input accum pix. *(2) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1). *(3) Returns a copy if either wc or hc are 0 *(4) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs.Otherwise, *return a copy. * </pre> */
+97,99c93
+<     if (wc < 0) wc = 0;
+<     if (hc < 0) hc = 0;
+<     if (wc == 0 && hc == 0)   /* no-op */
+---
+>     if (wc <= 0 || hc <= 0)   /* no-op */
+102,103c96
+<         L_WARNING("kernel too large; returning a copy\n", procName);
+<         L_INFO("w = %d, wc = %d, h = %d, hc = %d\n", procName, w, wc, h, hc);
+---
+>         L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+365c358
+< /*! * \brief pixBlockconvGrayUnnormalized() * * \param[in]pixs 8 bpp * \param[in]wc, hc half width/height of convolution kernel * \returnpix 32 bpp; containing the convolution without normalizing * for the window size, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1). *(2) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs. *(3) Returns a copy if both wc and hc are 0. *(3) Adds mirrored border to avoid treating the boundary pixels *specially.Note that we add wc + 1 pixels to the left *and wc to the right.The added width is 2 * wc + 1 pixels, *and the particular choice simplifies the indexing in the loop. *Likewise, add hc + 1 pixels to the top and hc to the bottom. *(4) To get the normalized result, divide by the area of the *convolution kernel: (2 * wc + 1) * (2 * hc + 1) *Specifically, do this: * pixc = pixBlockconvGrayUnnormalized(pixs, wc, hc); * fract = 1. / ((2 * wc + 1) * (2 * hc + 1)); * pixMultConstantGray(pixc, fract); * pixd = pixGetRGBComponent(pixc, L_ALPHA_CHANNEL); *(5) Unlike pixBlockconvGray(), this always computes the accumulation *pix because its size is tied to wc and hc. *(6) Compare this implementation with pixBlockconvGray(), where *most of the code in blockconvLow() is special casing for *efficiently handling the boundary.Here, the use of *mirrored borders and destination indexing makes the *implementation very simple. * </pre> */
+---
+> /*! * \brief pixBlockconvGrayUnnormalized() * * \param[in]pixs 8 bpp * \param[in]wc, hc half width/height of convolution kernel * \returnpix 32 bpp; containing the convolution without normalizing * for the window size, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1). *(2) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs. *(3) Returns a copy if either wc or hc are 0. *(3) Adds mirrored border to avoid treating the boundary pixels *specially.Note that we add wc + 1 pixels to the left *and wc to the right.The added width is 2 * wc + 1 pixels, *and the particular choice simplifies the indexing in the loop. *Likewise, add hc + 1 pixels to the top and hc to the bottom. *(4) To get the normalized result, divide by the area of the *convolution kernel: (2 * wc + 1) * (2 * hc + 1) *Specifically, do this: * pixc = pixBlockconvGrayUnnormalized(pixs, wc, hc); * fract = 1. / ((2 * wc + 1) * (2 * hc + 1)); * pixMultConstantGray(pixc, fract); * pixd = pixGetRGBComponent(pixc, L_ALPHA_CHANNEL); *(5) Unlike pixBlockconvGray(), this always computes the accumulation *pix because its size is tied to wc and hc. *(6) Compare this implementation with pixBlockconvGray(), where *most of the code in blockconvLow() is special casing for *efficiently handling the boundary.Here, the use of *mirrored borders and destination indexing makes the *implementation very simple. * </pre> */
+379,380c372,373
+<     if (wc < 0) wc = 0;
+<     if (hc < 0) hc = 0;
+---
+>     if (wc <= 0 || hc <= 0)  /* no-op */
+>         return pixCopy(NULL, pixs);
+382,387c375
+<         wc = L_MIN(wc, (w - 1) / 2);
+<         hc = L_MIN(hc, (h - 1) / 2);
+<         L_WARNING("kernel too large; reducing!\n", procName);
+<         L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+<     }
+<     if (wc == 0 && hc == 0)   /* no-op */
+---
+>         L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+388a377
+>     }
+421c410
+< /*! * \brief pixBlockconvTiled() * * \param[in]pix8 or 32 bpp; or 2, 4 or 8 bpp with colormap * \param[in]wc, hc half width/height of convolution kernel * \param[in]nx, ny subdivision into tiles * \returnpixd, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1) *(2) Returns a copy if both wc and hc are 0 *(3) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs. *(4) For nx == ny == 1, this defaults to pixBlockconv(), which *is typically about twice as fast, and gives nearly *identical results as pixBlockconvGrayTile(). *(5) If the tiles are too small, nx and/or ny are reduced *a minimum amount so that the tiles are expanded to the *smallest workable size in the problematic direction(s). *(6) Why a tiled version?Three reasons: *(a) Because the accumulator is a uint32, overflow can occur *for an image with more than 16M pixels. *(b) The accumulator array for 16M pixels is 64 MB; using *tiles reduces the size of this array. *(c) Each tile can be processed independently, in parallel, *on a multicore processor. * </pre> */
+---
+> /*! * \brief pixBlockconvTiled() * * \param[in]pix8 or 32 bpp; or 2, 4 or 8 bpp with colormap * \param[in]wc, hc half width/height of convolution kernel * \param[in]nx, ny subdivision into tiles * \returnpixd, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1) *(2) Returns a copy if either wc or hc are 0. *(3) Require that w >= 2 * wc + 1 and h >= 2 * hc + 1, *where (w,h) are the dimensions of pixs.Otherwise, *return a copy. *(4) For nx == ny == 1, this defaults to pixBlockconv(), which *is typically about twice as fast, and gives nearly *identical results as pixBlockconvGrayTile(). *(5) If the tiles are too small, nx and/or ny are reduced *a minimum amount so that the tiles are expanded to the *smallest workable size in the problematic direction(s). *(6) Why a tiled version?Three reasons: *(a) Because the accumulator is a uint32, overflow can occur *for an image with more than 16M pixels. *(b) The accumulator array for 16M pixels is 64 MB; using *tiles reduces the size of this array. *(c) Each tile can be processed independently, in parallel, *on a multicore processor. * </pre> */
+433,442c422
+<     if (wc < 0) wc = 0;
+<     if (hc < 0) hc = 0;
+<     pixGetDimensions(pix, &w, &h, &d);
+<     if (w < 2 * wc + 3 || h < 2 * hc + 3) {
+<         wc = L_MAX(0, L_MIN(wc, (w - 3) / 2));
+<         hc = L_MAX(0, L_MIN(hc, (h - 3) / 2));
+<         L_WARNING("kernel too large; reducing!\n", procName);
+<         L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+<     }
+<     if (wc == 0 && hc == 0)   /* no-op */
+---
+>     if (wc <= 0 || hc <= 0)   /* no-op */
+445a426,430
+>     pixGetDimensions(pix, &w, &h, &d);
+>     if (w < 2 * wc + 3 || h < 2 * hc + 3) {
+>         L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+>         return pixCopy(NULL, pix);
+>     }
+514c499
+< /*! * \brief pixBlockconvGrayTile() * * \param[in]pixs 8 bpp gray * \param[in]pixacc 32 bpp accum pix * \param[in]wc, hc half width/height of convolution kernel * \returnpixd, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1) *(2) Assumes that the input pixs is padded with (wc + 1) pixels on *left and right, and with (hc + 1) pixels on top and bottom. *The returned pix has these stripped off; they are only used *for computation. *(3) Returns a copy if both wc and hc are 0 *(4) Require that w > 2 * wc + 1 and h > 2 * hc + 1, *where (w,h) are the dimensions of pixs. * </pre> */
+---
+> /*! * \brief pixBlockconvGrayTile() * * \param[in]pixs 8 bpp gray * \param[in]pixacc 32 bpp accum pix * \param[in]wc, hc half width/height of convolution kernel * \returnpixd, or NULL on error * * <pre> * Notes: *(1) The full width and height of the convolution kernel *are (2 * wc + 1) and (2 * hc + 1) *(2) Assumes that the input pixs is padded with (wc + 1) pixels on *left and right, and with (hc + 1) pixels on top and bottom. *The returned pix has these stripped off; they are only used *for computation. *(3) Returns a copy if either wc or hc are 0. *(4) Require that w > 2 * wc + 3 and h > 2 * hc + 3, *where (w,h) are the dimensions of pixs.Otherwise, *return a copy. * </pre> */
+530,531c515,516
+<     if (wc < 0) wc = 0;
+<     if (hc < 0) hc = 0;
+---
+>     if (wc <= 0 || hc <= 0)  /* no-op */
+>         return pixCopy(NULL, pixs);
+533,538c518
+<         wc = L_MAX(0, L_MIN(wc, (w - 3) / 2));
+<         hc = L_MAX(0, L_MIN(hc, (h - 3) / 2));
+<         L_WARNING("kernel too large; reducing!\n", procName);
+<         L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+<     }
+<     if (wc == 0 && hc == 0)
+---
+>         L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+539a520
+>     }

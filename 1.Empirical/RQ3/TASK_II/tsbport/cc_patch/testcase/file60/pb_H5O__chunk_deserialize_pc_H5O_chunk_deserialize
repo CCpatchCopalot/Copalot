@@ -1,0 +1,1522 @@
+expr  @ 272 @ expr  @ 248 @ 
+operator: (  @ 95 @ operator: (  @ 107 @ 
+expr_stmt  @ 280 @ expr_stmt  @ 142 @ 
+if  @ 42 @ if  @ 47 @ 
+if_stmt  @ 132 @ if_stmt  @ 147 @ 
+expr_stmt  @ 136 @ expr_stmt  @ 69 @ 
+if_stmt  @ 28 @ if_stmt  @ 29 @ 
+name: HGOTO_ERROR  @ 29 @ name: HGOTO_ERROR  @ 30 @ 
+name: udata  @ 214 @ name: udata  @ 283 @ 
+operator: ->  @ 227 @ operator: ->  @ 302 @ 
+name  @ 272 @ name  @ 248 @ 
+name: oh  @ 85 @ name: oh  @ 97 @ 
+expr_stmt  @ 133 @ expr_stmt  @ 151 @ 
+type  @ 9 @ type  @ 11 @ 
+name: uint8_t  @ 5 @ name: uint8_t  @ 6 @ 
+type  @ 2 @ type  @ 2 @ 
+name: size  @ 46 @ name: size  @ 51 @ 
+operator: ->  @ 30 @ operator: ->  @ 32 @ 
+decl  @ 4 @ decl  @ 5 @ 
+condition  @ 149 @ condition  @ 164 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+argument_list  @ 42 @ argument_list  @ 47 @ 
+name: H5O__alloc_msgs  @ 132 @ name: H5O_alloc_msgs  @ 147 @ 
+expr  @ 46 @ expr  @ 51 @ 
+operator: ->  @ 116 @ operator: ->  @ 134 @ 
+expr  @ 56 @ expr  @ 61 @ 
+expr_stmt  @ 162 @ expr_stmt  @ 175 @ 
+name  @ 280 @ name  @ 142 @ 
+expr  @ 111 @ expr  @ 127 @ 
+decl  @ 26 @ decl  @ 27 @ 
+type  @ 263 @ type  @ 233 @ 
+operator: +=  @ 257 @ operator: +=  @ 227 @ 
+operator: ->  @ 198 @ operator: ->  @ 259 @ 
+name: H5O_ENABLE_BOGUS  @ 150 @ name: NELMTS  @ 164 @ 
+operator: (  @ 95 @ operator: (  @ 107 @ 
+name: oh  @ 2 @ name: oh  @ 2 @ 
+block  @ 172 @ block  @ 186 @ 
+name: chunk  @ 43 @ name: chunk  @ 224 @ 
+block_content  @ 132 @ block_content  @ 147 @ 
+name: eom_ptr  @ 64 @ name: eom_ptr  @ 72 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 72 @ 
+name: TRUE  @ 220 @ name: TRUE  @ 289 @ 
+expr  @ 42 @ expr  @ 47 @ 
+comment: /* Increment the count of attribute messages */  @ 231 @ comment: /* Increment the count of attribute messages */  @ 306 @ 
+operator: ->  @ 122 @ operator: ->  @ 139 @ 
+block_content  @ 54 @ block_content  @ 59 @ 
+directive: endif  @ 68 @ directive: endif  @ 75 @ 
+argument  @ 289 @ argument  @ 321 @ 
+block_content  @ 118 @ block_content  @ 138 @ 
+name: oh  @ 25 @ name: oh  @ 26 @ 
+name: addr  @ 36 @ name: addr  @ 44 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: chunkno  @ 52 @ name: chunkno  @ 57 @ 
+index  @ 254 @ index  @ 240 @ 
+name: has_refcount_msg  @ 220 @ name: has_refcount_msg  @ 289 @ 
+operator: >  @ 106 @ operator: >  @ 122 @ 
+condition  @ 246 @ condition  @ 216 @ 
+operator: ->  @ 248 @ operator: ->  @ 218 @ 
+operator: =  @ 28 @ operator: =  @ 29 @ 
+name: mesg  @ 180 @ name: oh  @ 202 @ 
+operator: ->  @ 116 @ operator: ->  @ 134 @ 
+operator: ->  @ 121 @ operator: ->  @ 138 @ 
+name: mesg  @ 116 @ name: mesg  @ 135 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 31 @ 
+operator: ->  @ 116 @ operator: ->  @ 133 @ 
+expr  @ 131 @ expr  @ 146 @ 
+name: flags  @ 91 @ name: flags  @ 103 @ 
+operator: ->  @ 41 @ operator: ->  @ 45 @ 
+operator: =  @ 181 @ operator: =  @ 203 @ 
+name: mesg  @ 141 @ name: oh  @ 156 @ 
+argument  @ 268 @ argument  @ 237 @ 
+name: flags  @ 171 @ name: flags  @ 185 @ 
+comment: /* Check for 'gap' at end of chunk */  @ 245 @ comment: /* Check for 'gap' at end of chunk */  @ 215 @ 
+comment: /* Check for "fail if unknown" message flags */  @ 167 @ comment: /* Check for "fail if unknown" message flag */  @ 180 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 281 @ expr  @ 317 @ 
+operator: ->  @ 123 @ operator: ->  @ 140 @ 
+name  @ 39 @ name  @ 41 @ 
+operator: ++  @ 232 @ operator: ++  @ 307 @ 
+name: FAIL  @ 159 @ name: FAIL  @ 169 @ 
+operator: ->  @ 272 @ operator: ->  @ 248 @ 
+operator: )  @ 93 @ operator: )  @ 105 @ 
+name: eom_ptr  @ 246 @ name: eom_ptr  @ 216 @ 
+name: oh  @ 42 @ name: oh  @ 47 @ 
+name: chunk  @ 36 @ name: chunk  @ 44 @ 
+call  @ 54 @ call  @ 59 @ 
+block_content  @ 169 @ block_content  @ 182 @ 
+operator: ->  @ 144 @ operator: ->  @ 159 @ 
+name: oh  @ 272 @ name: oh  @ 248 @ 
+index  @ 36 @ index  @ 44 @ 
+argument  @ 169 @ argument  @ 182 @ 
+expr_stmt  @ 281 @ expr_stmt  @ 317 @ 
+name  @ 131 @ name  @ 146 @ 
+index  @ 42 @ index  @ 47 @ 
+name: H5O_VERSION_1  @ 78 @ name: H5O_VERSION_1  @ 86 @ 
+literal: "wrong object header chunk signature"  @ 59 @ literal: "wrong object header chunk signature"  @ 64 @ 
+expr  @ 272 @ expr  @ 248 @ 
+name: NULL  @ 42 @ name: NULL  @ 47 @ 
+comment: /* Version # */  @ 77 @ comment: /* Version # */  @ 85 @ 
+decl_stmt  @ 72 @ decl_stmt  @ 80 @ 
+name  @ 262 @ name  @ 232 @ 
+name  @ 78 @ name  @ 86 @ 
+index  @ 39 @ index  @ 41 @ 
+argument  @ 85 @ argument  @ 97 @ 
+name: gap  @ 35 @ name: gap  @ 37 @ 
+condition  @ 106 @ condition  @ 122 @ 
+if_stmt  @ 95 @ if_stmt  @ 107 @ 
+modifier: *  @ 210 @ modifier: *  @ 278 @ 
+name: uint32_t  @ 263 @ name: uint32_t  @ 233 @ 
+name: size_t  @ 254 @ name: size_t  @ 224 @ 
+name: chunkno  @ 49 @ name: chunkno  @ 54 @ 
+name: H5O_t  @ 2 @ name: H5O_t  @ 2 @ 
+operator: *  @ 281 @ operator: *  @ 317 @ 
+expr  @ 145 @ expr  @ 160 @ 
+name: udata  @ 199 @ name: udata  @ 260 @ 
+label  @ 284 @ label  @ 320 @ 
+argument_list  @ 107 @ argument_list  @ 123 @ 
+argument  @ 272 @ argument  @ 248 @ 
+expr  @ 246 @ expr  @ 216 @ 
+block  @ 132 @ block  @ 147 @ 
+expr_stmt  @ 199 @ expr_stmt  @ 260 @ 
+operator: +  @ 272 @ operator: +  @ 248 @ 
+name: nmesgs  @ 133 @ name: nmesgs  @ 151 @ 
+operator: ==  @ 158 @ operator: ==  @ 168 @ 
+decl  @ 25 @ decl  @ 26 @ 
+name: nmesgs  @ 136 @ name: nmesgs  @ 69 @ 
+expr  @ 98 @ expr  @ 112 @ 
+argument_list  @ 39 @ argument_list  @ 41 @ 
+call  @ 46 @ call  @ 51 @ 
+operator: ==  @ 116 @ operator: ==  @ 135 @ 
+argument  @ 85 @ argument  @ 97 @ 
+name: nmsgs  @ 199 @ name: nmsgs  @ 260 @ 
+block_content  @ 101 @ block_content  @ 115 @ 
+name: size  @ 272 @ name: size  @ 248 @ 
+argument_list  @ 96 @ argument_list  @ 108 @ 
+operator: *  @ 143 @ operator: *  @ 158 @ 
+operator: ++  @ 112 @ operator: ++  @ 128 @ 
+operator: +  @ 64 @ operator: +  @ 72 @ 
+name: id  @ 149 @ name: id  @ 164 @ 
+operator: &&  @ 170 @ operator: &&  @ 184 @ 
+expr  @ 102 @ expr  @ 116 @ 
+operator: &  @ 171 @ operator: &  @ 185 @ 
+block  @ 29 @ block  @ 30 @ 
+block  @ 96 @ block  @ 108 @ 
+name: flags  @ 177 @ name: flags  @ 199 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+name: cont  @ 195 @ name: cont  @ 255 @ 
+operator: &&  @ 236 @ operator: &&  @ 293 @ 
+operator: ->  @ 116 @ operator: ->  @ 134 @ 
+expr  @ 140 @ expr  @ 155 @ 
+name: unsigned  @ 7 @ name: unsigned  @ 9 @ 
+name: udata  @ 236 @ name: udata  @ 293 @ 
+argument_list  @ 43 @ argument_list  @ 48 @ 
+expr_stmt  @ 85 @ expr_stmt  @ 97 @ 
+condition  @ 262 @ condition  @ 232 @ 
+type  @ 2 @ type  @ 3 @ 
+condition  @ 28 @ condition  @ 29 @ 
+expr  @ 29 @ expr  @ 31 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 8 @ 
+expr  @ 88 @ expr  @ 100 @ 
+init  @ 12 @ init  @ 13 @ 
+expr_stmt  @ 220 @ expr_stmt  @ 289 @ 
+argument_list  @ 94 @ argument_list  @ 106 @ 
+expr  @ 12 @ expr  @ 13 @ 
+block  @ 102 @ block  @ 116 @ 
+name: mesg_size  @ 144 @ name: mesg_size  @ 159 @ 
+argument  @ 96 @ argument  @ 108 @ 
+argument  @ 54 @ argument  @ 59 @ 
+argument  @ 90 @ argument  @ 102 @ 
+argument  @ 205 @ argument  @ 266 @ 
+argument  @ 18 @ argument  @ 19 @ 
+name: H5O_chunk_t  @ 26 @ name: H5O_chunk_t  @ 27 @ 
+comment: /* Check if we need to extend message table to hold the new message */  @ 130 @ comment: /* Check if we need to extend message table to hold the new message */  @ 145 @ 
+name: mesg  @ 139 @ name: mesgno  @ 154 @ 
+name: chunk_image  @ 246 @ name: p  @ 216 @ 
+operator: &&  @ 116 @ operator: &&  @ 133 @ 
+argument  @ 94 @ argument  @ 106 @ 
+expr  @ 158 @ expr  @ 168 @ 
+literal: 0  @ 132 @ literal: 0  @ 147 @ 
+name: H5_SIZEOF_MAGIC  @ 58 @ name: H5_SIZEOF_MAGIC  @ 63 @ 
+expr  @ 133 @ expr  @ 151 @ 
+name: MAX  @ 25 @ name: MAX  @ 26 @ 
+name  @ 116 @ name  @ 134 @ 
+name: mesg_size  @ 122 @ name: mesg_size  @ 139 @ 
+operator: ->  @ 64 @ operator: ->  @ 72 @ 
+operator: ->  @ 49 @ operator: ->  @ 54 @ 
+argument_list  @ 272 @ argument_list  @ 248 @ 
+name  @ 43 @ name  @ 224 @ 
+name: type  @ 187 @ name: type  @ 209 @ 
+expr  @ 268 @ expr  @ 237 @ 
+if_stmt  @ 101 @ if_stmt  @ 115 @ 
+expr  @ 69 @ expr  @ 76 @ 
+argument  @ 169 @ argument  @ 182 @ 
+name: oh  @ 248 @ name: oh  @ 218 @ 
+condition  @ 236 @ condition  @ 293 @ 
+operator: .  @ 46 @ operator: .  @ 51 @ 
+if  @ 116 @ if  @ 132 @ 
+expr  @ 49 @ expr  @ 54 @ 
+condition  @ 91 @ condition  @ 103 @ 
+operator: -  @ 116 @ operator: -  @ 134 @ 
+literal: 0  @ 37 @ literal: 0  @ 38 @ 
+operator: +=  @ 122 @ operator: +=  @ 139 @ 
+name: id  @ 116 @ name: id  @ 134 @ 
+operator: =  @ 81 @ operator: =  @ 89 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 54 @ 
+expr  @ 222 @ expr  @ 290 @ 
+argument_list  @ 133 @ argument_list  @ 148 @ 
+call  @ 58 @ call  @ 63 @ 
+name: stored_chksum  @ 268 @ name: stored_chksum  @ 237 @ 
+expr_stmt  @ 257 @ expr_stmt  @ 227 @ 
+name: FUNC_LEAVE_NOAPI  @ 289 @ name: FUNC_LEAVE_NOAPI  @ 321 @ 
+operator: =  @ 222 @ operator: =  @ 290 @ 
+argument_list  @ 85 @ argument_list  @ 97 @ 
+argument  @ 59 @ argument  @ 64 @ 
+operator: )  @ 64 @ operator: )  @ 72 @ 
+operator: &  @ 95 @ operator: &  @ 107 @ 
+name: TRUE  @ 181 @ name: TRUE  @ 203 @ 
+argument  @ 79 @ argument  @ 87 @ 
+operator: ->  @ 24 @ operator: ->  @ 25 @ 
+name: flags  @ 101 @ name: flags  @ 115 @ 
+condition  @ 56 @ condition  @ 61 @ 
+name  @ 25 @ name  @ 26 @ 
+expr  @ 85 @ expr  @ 97 @ 
+name  @ 232 @ name  @ 307 @ 
+expr_stmt  @ 159 @ expr_stmt  @ 169 @ 
+condition  @ 101 @ condition  @ 115 @ 
+index  @ 257 @ index  @ 227 @ 
+name: oh  @ 220 @ name: oh  @ 289 @ 
+operator: =  @ 39 @ operator: =  @ 41 @ 
+expr  @ 36 @ expr  @ 44 @ 
+argument  @ 92 @ argument  @ 104 @ 
+block  @ 39 @ block  @ 38 @ 
+if  @ 149 @ if  @ 164 @ 
+expr  @ 58 @ expr  @ 63 @ 
+name: chunk_image  @ 143 @ name: p  @ 158 @ 
+operator: &  @ 186 @ operator: ->  @ 209 @ 
+name: oh  @ 132 @ name: oh  @ 147 @ 
+expr_stmt  @ 98 @ expr_stmt  @ 112 @ 
+if_stmt  @ 24 @ if_stmt  @ 25 @ 
+name: H5O_MSG_FLAG_MARK_IF_UNKNOWN  @ 170 @ name: H5O_MSG_FLAG_MARK_IF_UNKNOWN  @ 184 @ 
+condition  @ 89 @ condition  @ 101 @ 
+name: flags  @ 95 @ name: flags  @ 107 @ 
+name: size_t  @ 132 @ name: size_t  @ 147 @ 
+argument  @ 90 @ argument  @ 102 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+comment: /* Size of message read in */  @ 70 @ comment: /* Size of message read in */  @ 78 @ 
+argument  @ 158 @ argument  @ 168 @ 
+operator: ->  @ 131 @ operator: ->  @ 146 @ 
+operator: ==  @ 78 @ operator: ==  @ 86 @ 
+comment: /* Get pointer to message to set up */  @ 133 @ comment: /* Get index for message */  @ 150 @ 
+name  @ 28 @ name  @ 29 @ 
+if_stmt  @ 97 @ if_stmt  @ 111 @ 
+expr  @ 122 @ expr  @ 139 @ 
+operator: ->  @ 56 @ operator: ->  @ 61 @ 
+argument_list  @ 251 @ argument_list  @ 221 @ 
+argument_list  @ 58 @ argument_list  @ 63 @ 
+block  @ 126 @ block  @ 144 @ 
+block  @ 112 @ block  @ 128 @ 
+condition  @ 168 @ condition  @ 181 @ 
+name: HGOTO_ERROR  @ 90 @ name: HGOTO_ERROR  @ 102 @ 
+name: chunk_image  @ 69 @ name: p  @ 76 @ 
+comment: /* Pointer to "unknown" message info */  @ 155 @ comment: /* Pointer to "unknown" message info */  @ 165 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+expr  @ 251 @ expr  @ 221 @ 
+argument  @ 59 @ argument  @ 64 @ 
+if  @ 52 @ if  @ 57 @ 
+operator: +  @ 122 @ operator: +  @ 139 @ 
+expr  @ 18 @ expr  @ 19 @ 
+if  @ 246 @ if  @ 216 @ 
+name: chunkno  @ 272 @ name: chunkno  @ 248 @ 
+name  @ 21 @ name  @ 22 @ 
+name: size_t  @ 39 @ name: size_t  @ 41 @ 
+operator: ->  @ 46 @ operator: ->  @ 51 @ 
+macro  @ 133 @ macro  @ 148 @ 
+name  @ 116 @ name  @ 132 @ 
+name  @ 248 @ name  @ 218 @ 
+expr_stmt  @ 144 @ expr_stmt  @ 159 @ 
+if  @ 158 @ if  @ 168 @ 
+argument_list  @ 21 @ argument_list  @ 22 @ 
+expr_stmt  @ 165 @ expr_stmt  @ 178 @ 
+if  @ 95 @ if  @ 107 @ 
+call  @ 132 @ call  @ 147 @ 
+modifier: *  @ 195 @ modifier: *  @ 255 @ 
+expr  @ 181 @ expr  @ 203 @ 
+literal: 0  @ 128 @ literal: 0  @ 256 @ 
+type  @ 5 @ type  @ 6 @ 
+operator: (  @ 91 @ operator: (  @ 103 @ 
+init  @ 6 @ init  @ 8 @ 
+directive: ifndef  @ 65 @ directive: ifndef  @ 73 @ 
+name  @ 29 @ name  @ 31 @ 
+endif  @ 68 @ endif  @ 75 @ 
+name: HGOTO_ERROR  @ 59 @ name: HGOTO_ERROR  @ 64 @ 
+argument_list  @ 169 @ argument_list  @ 182 @ 
+name: uint8_t  @ 2 @ name: uint8_t  @ 2 @ 
+name: gap  @ 257 @ name: gap  @ 227 @ 
+name: H5O_ALIGN_OH  @ 85 @ name: H5O_ALIGN_OH  @ 97 @ 
+name: nmesgs  @ 116 @ name: nmesgs  @ 133 @ 
+name: H5E_OHDR  @ 159 @ name: H5E_OHDR  @ 169 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+name: uint8_t  @ 72 @ name: uint8_t  @ 80 @ 
+condition  @ 158 @ condition  @ 168 @ 
+operator: *  @ 25 @ operator: *  @ 26 @ 
+name: oh  @ 24 @ name: oh  @ 25 @ 
+name: HGOTO_ERROR  @ 96 @ name: HGOTO_ERROR  @ 108 @ 
+name: eom_ptr  @ 69 @ name: eom_ptr  @ 76 @ 
+argument  @ 54 @ argument  @ 59 @ 
+argument  @ 29 @ argument  @ 30 @ 
+block  @ 90 @ block  @ 102 @ 
+name  @ 30 @ name  @ 32 @ 
+name: alloc_nchunks  @ 24 @ name: alloc_nchunks  @ 25 @ 
+if_stmt  @ 52 @ if_stmt  @ 57 @ 
+index  @ 123 @ index  @ 140 @ 
+name: oh  @ 232 @ name: oh  @ 307 @ 
+name: flags  @ 91 @ name: flags  @ 103 @ 
+name: udata  @ 198 @ name: udata  @ 259 @ 
+name: chunkno  @ 56 @ name: chunkno  @ 61 @ 
+expr  @ 132 @ expr  @ 147 @ 
+comment: /* Set message to "unknown" class */  @ 164 @ comment: /* Set message to "unknown" class */  @ 177 @ 
+name: size_t  @ 2 @ name: size_t  @ 2 @ 
+name: mesg  @ 177 @ name: oh  @ 199 @ 
+name: oh  @ 36 @ name: oh  @ 44 @ 
+name  @ 42 @ name  @ 47 @ 
+call  @ 39 @ call  @ 41 @ 
+block  @ 24 @ block  @ 25 @ 
+operator: )  @ 91 @ operator: )  @ 103 @ 
+index  @ 43 @ index  @ 224 @ 
+expr  @ 248 @ expr  @ 218 @ 
+literal: 1  @ 132 @ literal: 1  @ 147 @ 
+name: decode  @ 198 @ name: decode  @ 259 @ 
+name: chunkno  @ 145 @ name: chunkno  @ 160 @ 
+expr  @ 25 @ expr  @ 26 @ 
+name: H5O_refcount_t  @ 210 @ name: H5O_refcount_t  @ 278 @ 
+operator: >=  @ 131 @ operator: >=  @ 146 @ 
+name: chunk_image  @ 81 @ name: p  @ 89 @ 
+name: chunk_image  @ 106 @ name: p  @ 122 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+argument  @ 133 @ argument  @ 148 @ 
+expr_stmt  @ 180 @ expr_stmt  @ 202 @ 
+name: raw_size  @ 144 @ name: raw_size  @ 159 @ 
+operator: &  @ 172 @ operator: &  @ 186 @ 
+name: mesg  @ 162 @ name: oh  @ 175 @ 
+index  @ 272 @ index  @ 248 @ 
+comment: /* Save 'native' form of unknown message */  @ 161 @ comment: /* Save 'native' form of unknown message */  @ 174 @ 
+argument  @ 25 @ argument  @ 26 @ 
+name  @ 199 @ name  @ 260 @ 
+name: link_msgs_seen  @ 227 @ name: link_msgs_seen  @ 302 @ 
+name: oh  @ 78 @ name: oh  @ 86 @ 
+argument  @ 248 @ argument  @ 218 @ 
+if_stmt  @ 91 @ if_stmt  @ 103 @ 
+macro  @ 79 @ macro  @ 87 @ 
+block_content  @ 94 @ block_content  @ 106 @ 
+name  @ 136 @ name  @ 69 @ 
+name: size_t  @ 70 @ name: size_t  @ 78 @ 
+name: chunkno  @ 116 @ name: chunkno  @ 135 @ 
+argument  @ 133 @ argument  @ 148 @ 
+decl  @ 7 @ decl  @ 9 @ 
+operator: =  @ 29 @ operator: =  @ 31 @ 
+expr  @ 85 @ expr  @ 97 @ 
+type  @ 71 @ type  @ 79 @ 
+name: image  @ 46 @ name: image  @ 51 @ 
+operator: (  @ 132 @ operator: (  @ 147 @ 
+name: H5O_SIZEOF_HDR  @ 54 @ name: H5O_SIZEOF_HDR  @ 59 @ 
+if_stmt  @ 149 @ if_stmt  @ 164 @ 
+operator: )  @ 58 @ operator: )  @ 63 @ 
+name: HDassert  @ 272 @ name: HDassert  @ 248 @ 
+argument  @ 64 @ argument  @ 72 @ 
+operator: )  @ 254 @ operator: )  @ 224 @ 
+name: flags  @ 140 @ name: flags  @ 155 @ 
+modifier: *  @ 155 @ modifier: *  @ 165 @ 
+operator: .  @ 257 @ operator: .  @ 227 @ 
+literal: 1  @ 121 @ literal: 1  @ 138 @ 
+condition  @ 97 @ condition  @ 111 @ 
+name: H5O_HDR_ATTR_CRT_ORDER_TRACKED  @ 101 @ name: H5O_HDR_ATTR_CRT_ORDER_TRACKED  @ 115 @ 
+operator: ->  @ 43 @ operator: ->  @ 224 @ 
+if  @ 78 @ if  @ 86 @ 
+operator: &  @ 93 @ operator: &  @ 105 @ 
+name: merged_null_msgs  @ 280 @ name: merged_null_msgs  @ 142 @ 
+literal: "can't add continuation message"  @ 206 @ literal: "can't add continuation message"  @ 267 @ 
+expr  @ 159 @ expr  @ 169 @ 
+name: mesg  @ 122 @ name: mesg  @ 139 @ 
+expr  @ 165 @ expr  @ 178 @ 
+index  @ 272 @ index  @ 248 @ 
+expr  @ 81 @ expr  @ 89 @ 
+operator: .  @ 42 @ operator: .  @ 47 @ 
+block  @ 92 @ block  @ 104 @ 
+literal: 0  @ 205 @ literal: 0  @ 266 @ 
+operator: (  @ 91 @ operator: (  @ 103 @ 
+name: H5O_CHK_MAGIC  @ 58 @ name: H5O_CHK_MAGIC  @ 63 @ 
+expr  @ 64 @ expr  @ 72 @ 
+index  @ 165 @ index  @ 178 @ 
+expr  @ 60 @ expr  @ 65 @ 
+call  @ 28 @ call  @ 29 @ 
+name  @ 257 @ name  @ 227 @ 
+name: uint8_t  @ 4 @ name: uint8_t  @ 5 @ 
+index  @ 64 @ index  @ 72 @ 
+index  @ 49 @ index  @ 54 @ 
+literal: 0  @ 73 @ literal: 0  @ 81 @ 
+expr  @ 19 @ expr  @ 20 @ 
+expr  @ 91 @ expr  @ 103 @ 
+name: chunk  @ 35 @ name: chunk  @ 37 @ 
+argument_list  @ 268 @ argument_list  @ 237 @ 
+argument  @ 159 @ argument  @ 169 @ 
+call  @ 159 @ call  @ 169 @ 
+argument_list  @ 246 @ argument_list  @ 216 @ 
+name: HGOTO_ERROR  @ 107 @ name: HGOTO_ERROR  @ 123 @ 
+name: H5O_BOGUS_VALID_ID  @ 151 @ name: H5O_msg_class_g  @ 164 @ 
+name: chunk_image  @ 246 @ name: p  @ 216 @ 
+call  @ 102 @ call  @ 116 @ 
+else  @ 80 @ else  @ 88 @ 
+expr  @ 17 @ expr  @ 18 @ 
+expr_stmt  @ 39 @ expr_stmt  @ 41 @ 
+comment: /* Magic number */  @ 57 @ comment: /* Magic number */  @ 62 @ 
+name: chunkno  @ 272 @ name: chunkno  @ 248 @ 
+name: oh  @ 227 @ name: oh  @ 302 @ 
+name: oh  @ 257 @ name: oh  @ 227 @ 
+name: H5O_VERSION_1  @ 56 @ name: H5O_VERSION_1  @ 61 @ 
+name: merged_null_msgs  @ 6 @ name: merged_null_msgs  @ 8 @ 
+name: udata  @ 20 @ name: udata  @ 21 @ 
+name: NDEBUG  @ 65 @ name: NDEBUG  @ 73 @ 
+if  @ 106 @ if  @ 122 @ 
+expr  @ 21 @ expr  @ 22 @ 
+operator: -  @ 64 @ operator: -  @ 72 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 51 @ 
+name: FUNC_ENTER_STATIC  @ 14 @ name: FUNC_ENTER_NOAPI_NOINIT  @ 15 @ 
+operator: ->  @ 222 @ operator: ->  @ 290 @ 
+expr  @ 42 @ expr  @ 47 @ 
+condition  @ 205 @ condition  @ 266 @ 
+condition  @ 95 @ condition  @ 107 @ 
+operator: *  @ 222 @ operator: *  @ 290 @ 
+call  @ 158 @ call  @ 168 @ 
+name  @ 35 @ name  @ 37 @ 
+operator: .  @ 123 @ operator: .  @ 140 @ 
+literal: 1  @ 116 @ literal: 1  @ 134 @ 
+expr  @ 39 @ expr  @ 41 @ 
+name: chunkno  @ 46 @ name: chunkno  @ 51 @ 
+decl_stmt  @ 70 @ decl_stmt  @ 78 @ 
+operator: &  @ 89 @ operator: &  @ 101 @ 
+init  @ 25 @ init  @ 26 @ 
+name: id  @ 186 @ name: mesgno  @ 209 @ 
+name  @ 41 @ name  @ 45 @ 
+expr  @ 30 @ expr  @ 32 @ 
+comment: /* end if */  @ 182 @ comment: /* end if */  @ 205 @ 
+call  @ 246 @ call  @ 216 @ 
+block  @ 98 @ block  @ 112 @ 
+name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 93 @ name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 105 @ 
+name: type  @ 116 @ name: type  @ 134 @ 
+name: mesgno  @ 123 @ name: mesgno  @ 140 @ 
+block_content  @ 79 @ block_content  @ 87 @ 
+condition  @ 52 @ condition  @ 57 @ 
+decl_stmt  @ 195 @ decl_stmt  @ 255 @ 
+expr  @ 106 @ expr  @ 122 @ 
+argument  @ 59 @ argument  @ 64 @ 
+argument  @ 46 @ argument  @ 51 @ 
+name: image  @ 42 @ name: image  @ 47 @ 
+if_stmt  @ 93 @ if_stmt  @ 105 @ 
+operator: &&  @ 91 @ operator: &&  @ 103 @ 
+operator: *  @ 88 @ operator: *  @ 100 @ 
+argument  @ 43 @ argument  @ 48 @ 
+block_content  @ 25 @ block_content  @ 26 @ 
+operator: &&  @ 186 @ operator: .  @ 209 @ 
+condition  @ 78 @ condition  @ 86 @ 
+operator: ->  @ 262 @ operator: ->  @ 232 @ 
+expr_stmt  @ 140 @ expr_stmt  @ 155 @ 
+operator: =  @ 64 @ operator: =  @ 72 @ 
+operator: |=  @ 177 @ operator: |=  @ 199 @ 
+operator: -  @ 246 @ operator: -  @ 216 @ 
+argument_list  @ 79 @ argument_list  @ 87 @ 
+argument_list  @ 28 @ argument_list  @ 29 @ 
+name  @ 214 @ name  @ 283 @ 
+block  @ 41 @ block  @ 43 @ 
+operator: ->  @ 199 @ operator: ->  @ 260 @ 
+name: size  @ 41 @ name: size  @ 45 @ 
+name: chunk  @ 46 @ name: chunk  @ 51 @ 
+argument  @ 90 @ argument  @ 102 @ 
+operator: )  @ 171 @ operator: )  @ 185 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 9 @ 
+name: chunkno  @ 42 @ name: chunkno  @ 47 @ 
+expr  @ 64 @ expr  @ 72 @ 
+argument_list  @ 132 @ argument_list  @ 147 @ 
+name: HGOTO_ERROR  @ 133 @ name: HGOTO_ERROR  @ 148 @ 
+name: oh  @ 28 @ name: oh  @ 29 @ 
+operator: (  @ 254 @ operator: (  @ 224 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: UINT32DECODE  @ 268 @ name: UINT32DECODE  @ 237 @ 
+decl  @ 2 @ decl  @ 2 @ 
+argument  @ 85 @ argument  @ 97 @ 
+name: nmesgs  @ 131 @ name: nmesgs  @ 146 @ 
+expr  @ 142 @ expr  @ 157 @ 
+operator: ->  @ 131 @ operator: ->  @ 146 @ 
+operator: (  @ 93 @ operator: (  @ 105 @ 
+name: mesg  @ 133 @ name: mesgno  @ 151 @ 
+directive: ifndef  @ 109 @ directive: ifndef  @ 125 @ 
+if_stmt  @ 78 @ if_stmt  @ 86 @ 
+name: flags  @ 93 @ name: flags  @ 105 @ 
+operator: )  @ 236 @ operator: )  @ 293 @ 
+expr_stmt  @ 84 @ expr_stmt  @ 96 @ 
+literal: "can't allocate more space for messages"  @ 133 @ literal: "can't allocate more space for messages"  @ 148 @ 
+name: dirty  @ 180 @ name: dirty  @ 202 @ 
+argument  @ 28 @ argument  @ 29 @ 
+expr  @ 136 @ expr  @ 69 @ 
+expr  @ 28 @ expr  @ 29 @ 
+expr  @ 246 @ expr  @ 216 @ 
+expr  @ 35 @ expr  @ 37 @ 
+operator: (  @ 116 @ operator: (  @ 132 @ 
+operator: &  @ 91 @ operator: &  @ 103 @ 
+operator: ->  @ 214 @ operator: ->  @ 283 @ 
+operator: =  @ 121 @ operator: =  @ 138 @ 
+comment: /* Casting away const OK - QAK */  @ 143 @ comment: /* Casting away const OK - QAK */  @ 158 @ 
+name: H5O_msg_class_g  @ 187 @ name: H5O_msg_class_g  @ 209 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 44 @ 
+name: dirty  @ 123 @ name: dirty  @ 140 @ 
+expr_stmt  @ 102 @ expr_stmt  @ 116 @ 
+operator: ->  @ 177 @ operator: ->  @ 199 @ 
+name: nlink  @ 222 @ name: nlink  @ 290 @ 
+expr_stmt  @ 142 @ expr_stmt  @ 157 @ 
+operator: &&  @ 246 @ operator: &&  @ 216 @ 
+operator: ++  @ 124 @ operator: ++  @ 141 @ 
+operator: =  @ 142 @ operator: =  @ 157 @ 
+comment: /* Save the original message type ID */  @ 159 @ comment: /* Save the original message type ID */  @ 171 @ 
+comment: /* NDEBUG */  @ 113 @ comment: /* NDEBUG */  @ 129 @ 
+operator: ->  @ 280 @ operator: ->  @ 142 @ 
+block_content  @ 112 @ block_content  @ 128 @ 
+name: chunk  @ 42 @ name: chunk  @ 47 @ 
+name  @ 116 @ name  @ 133 @ 
+else  @ 99 @ else  @ 113 @ 
+name: uint8_t  @ 143 @ name: uint8_t  @ 158 @ 
+literal: "unknown flag for message"  @ 90 @ literal: "unknown flag for message"  @ 102 @ 
+block  @ 43 @ block  @ 48 @ 
+comment: /* Check for magic # on chunks>0 in later versions of the format */  @ 55 @ comment: /* Check for magic # on chunks>0 in later versions of the format */  @ 60 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+operator: =  @ 30 @ operator: =  @ 32 @ 
+name: chunkno  @ 36 @ name: chunkno  @ 44 @ 
+name  @ 116 @ name  @ 135 @ 
+operator: ->  @ 24 @ operator: ->  @ 25 @ 
+operator: =  @ 140 @ operator: =  @ 155 @ 
+literal: "bad flag combination for message"  @ 92 @ literal: "bad flag combination for message"  @ 104 @ 
+block  @ 81 @ block  @ 89 @ 
+operator: >=  @ 24 @ operator: >=  @ 25 @ 
+name: flags  @ 170 @ name: flags  @ 184 @ 
+operator: &  @ 93 @ operator: &  @ 105 @ 
+name  @ 227 @ name  @ 302 @ 
+argument  @ 94 @ argument  @ 106 @ 
+operator: ->  @ 25 @ operator: ->  @ 26 @ 
+argument_list  @ 18 @ argument_list  @ 19 @ 
+operator: (  @ 170 @ operator: (  @ 184 @ 
+block_content  @ 70 @ block_content  @ 77 @ 
+name: oh  @ 272 @ name: oh  @ 248 @ 
+if  @ 58 @ if  @ 63 @ 
+directive: endif  @ 113 @ directive: endif  @ 129 @ 
+expr  @ 128 @ expr  @ 256 @ 
+literal: "unknown message with 'fail if unknown' flag found"  @ 169 @ literal: "unknown message with 'fail if unknown' flag found"  @ 182 @ 
+condition  @ 111 @ condition  @ 127 @ 
+name: type  @ 165 @ name: type  @ 178 @ 
+operator: =  @ 158 @ operator: =  @ 168 @ 
+expr  @ 187 @ expr  @ 209 @ 
+argument  @ 29 @ argument  @ 30 @ 
+name: x  @ 30 @ name: x  @ 32 @ 
+operator: =  @ 36 @ operator: =  @ 44 @ 
+operator: =  @ 165 @ operator: =  @ 178 @ 
+name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 95 @ name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 107 @ 
+operator: )  @ 28 @ operator: )  @ 29 @ 
+name: HDassert  @ 21 @ name: HDassert  @ 22 @ 
+operator: ->  @ 232 @ operator: ->  @ 307 @ 
+operator: =  @ 123 @ operator: =  @ 140 @ 
+name: HDmemcpy  @ 46 @ name: HDmemcpy  @ 51 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 27 @ 
+name: unknown  @ 162 @ name: unknown  @ 175 @ 
+name  @ 56 @ name  @ 61 @ 
+name: nmesgs  @ 116 @ name: nmesgs  @ 135 @ 
+name: gap  @ 254 @ name: gap  @ 224 @ 
+modifier: *  @ 26 @ modifier: *  @ 27 @ 
+name: HDassert  @ 19 @ name: HDassert  @ 20 @ 
+macro  @ 59 @ macro  @ 64 @ 
+name: size  @ 42 @ name: size  @ 47 @ 
+operator: )  @ 91 @ operator: )  @ 103 @ 
+name: crt_idx  @ 141 @ name: crt_idx  @ 156 @ 
+name: chunk  @ 46 @ name: chunk  @ 51 @ 
+condition  @ 131 @ condition  @ 146 @ 
+operator: &&  @ 116 @ operator: &&  @ 133 @ 
+name: chunk_image  @ 98 @ name: p  @ 112 @ 
+name: unsigned  @ 71 @ name: unsigned  @ 79 @ 
+name: oh  @ 133 @ name: oh  @ 151 @ 
+name: NULL  @ 153 @ name: NULL  @ 164 @ 
+index  @ 186 @ index  @ 209 @ 
+name: image  @ 19 @ name: image  @ 20 @ 
+argument  @ 94 @ argument  @ 106 @ 
+operator: >  @ 56 @ operator: >  @ 61 @ 
+name  @ 34 @ name  @ 36 @ 
+literal: 0  @ 116 @ literal: 0  @ 133 @ 
+expr  @ 144 @ expr  @ 159 @ 
+block_content  @ 186 @ block_content  @ 209 @ 
+literal: 0  @ 39 @ literal: 0  @ 41 @ 
+operator: =  @ 49 @ operator: =  @ 54 @ 
+comment: /* Also, it's possible that this functionality may not * get invoked if the object header is brought into * the metadata cache in some other "weird" way, like * using H5Ocopy() - QAK */  @ 176 @ comment: /* Also, it's possible that this functionality may not
+                     * get invoked if the object header is brought into* the metadata cache in some other "weird" way, like
+                     * using H5Ocopy() - QAK*/  @ 194 @ 
+operator: .  @ 39 @ operator: .  @ 41 @ 
+literal: 0  @ 246 @ literal: 0  @ 216 @ 
+argument_list  @ 59 @ argument_list  @ 64 @ 
+operator: ->  @ 198 @ operator: ->  @ 259 @ 
+argument  @ 159 @ argument  @ 169 @ 
+decl  @ 6 @ decl  @ 8 @ 
+name: mesg  @ 142 @ name: oh  @ 157 @ 
+name: crt_idx  @ 73 @ name: crt_idx  @ 81 @ 
+name: UINT16DECODE  @ 84 @ name: UINT16DECODE  @ 96 @ 
+name: chunk_image  @ 243 @ name: p  @ 213 @ 
+operator: ==  @ 116 @ operator: ==  @ 134 @ 
+comment: /* Mark the message and chunk as dirty */  @ 179 @ comment: /* Mark the message and chunk as dirty */  @ 201 @ 
+expr  @ 158 @ expr  @ 168 @ 
+operator: ->  @ 140 @ operator: ->  @ 155 @ 
+expr  @ 220 @ expr  @ 289 @ 
+argument  @ 42 @ argument  @ 47 @ 
+type  @ 195 @ type  @ 255 @ 
+block  @ 116 @ block  @ 135 @ 
+name: H5O_MSG_FLAG_FAIL_IF_UNKNOWN_ALWAYS  @ 168 @ name: H5O_MSG_FLAG_FAIL_IF_UNKNOWN  @ 181 @ 
+operator: *  @ 276 @ operator: *  @ 296 @ 
+name: chunk  @ 272 @ name: chunk  @ 248 @ 
+literal: 2  @ 25 @ literal: 2  @ 26 @ 
+expr  @ 243 @ expr  @ 213 @ 
+comment: /* Increment the count of link messages */  @ 226 @ comment: /* Increment the count of link messages */  @ 301 @ 
+argument  @ 46 @ argument  @ 51 @ 
+operator: (  @ 58 @ operator: (  @ 63 @ 
+operator: &  @ 236 @ operator: &  @ 293 @ 
+argument  @ 84 @ argument  @ 96 @ 
+expr  @ 18 @ expr  @ 19 @ 
+name: raw  @ 143 @ name: raw  @ 158 @ 
+else  @ 126 @ else  @ 144 @ 
+name: id  @ 111 @ name: id  @ 127 @ 
+argument  @ 20 @ argument  @ 21 @ 
+macro  @ 289 @ macro  @ 321 @ 
+name: oh  @ 131 @ name: oh  @ 146 @ 
+operator: ->  @ 236 @ operator: ->  @ 293 @ 
+expr  @ 28 @ expr  @ 29 @ 
+name  @ 165 @ name  @ 178 @ 
+name  @ 46 @ name  @ 51 @ 
+name: H5O_cont_t  @ 195 @ name: H5O_cont_t  @ 255 @ 
+argument  @ 107 @ argument  @ 123 @ 
+operator: .  @ 116 @ operator: .  @ 134 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 89 @ 
+operator: +=  @ 243 @ operator: +=  @ 213 @ 
+name: NDEBUG  @ 109 @ name: NDEBUG  @ 125 @ 
+operator: )  @ 54 @ operator: )  @ 59 @ 
+argument  @ 169 @ argument  @ 182 @ 
+name: nmesgs  @ 116 @ name: nmesgs  @ 134 @ 
+operator: (  @ 42 @ operator: (  @ 47 @ 
+name: H5O__add_cont_msg  @ 205 @ name: H5O_add_cont_msg  @ 266 @ 
+name: HDassert  @ 18 @ name: HDassert  @ 19 @ 
+operator: ->  @ 35 @ operator: ->  @ 37 @ 
+name  @ 153 @ name  @ 164 @ 
+name  @ 64 @ name  @ 72 @ 
+operator: ->  @ 143 @ operator: ->  @ 158 @ 
+name: image  @ 2 @ name: image  @ 2 @ 
+name: chunkno  @ 37 @ name: chunkno  @ 38 @ 
+name: chunk_image  @ 88 @ name: p  @ 100 @ 
+name: len  @ 2 @ name: len  @ 2 @ 
+argument_list  @ 85 @ argument_list  @ 97 @ 
+if  @ 170 @ if  @ 184 @ 
+name: chunk_image  @ 60 @ name: p  @ 65 @ 
+operator: =  @ 145 @ operator: =  @ 160 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: &  @ 91 @ operator: &  @ 103 @ 
+name: chunkno  @ 41 @ name: chunkno  @ 45 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 20 @ 
+comment: /* end if */  @ 125 @ comment: /* end if */  @ 143 @ 
+block  @ 225 @ block  @ 300 @ 
+name: oh  @ 42 @ name: oh  @ 47 @ 
+comment: /* Reserved bytes/creation index */  @ 96 @ comment: /* Reserved bytes/creation index */  @ 110 @ 
+if  @ 56 @ if  @ 61 @ 
+name: nullcnt  @ 251 @ name: nullcnt  @ 221 @ 
+expr  @ 162 @ expr  @ 175 @ 
+operator: =  @ 133 @ operator: =  @ 151 @ 
+operator: *  @ 81 @ operator: *  @ 89 @ 
+name  @ 220 @ name  @ 289 @ 
+operator: ->  @ 214 @ operator: ->  @ 283 @ 
+block_content  @ 102 @ block_content  @ 116 @ 
+expr  @ 180 @ expr  @ 202 @ 
+macro  @ 169 @ macro  @ 182 @ 
+expr  @ 52 @ expr  @ 57 @ 
+decl  @ 263 @ decl  @ 233 @ 
+expr  @ 37 @ expr  @ 38 @ 
+if  @ 93 @ if  @ 105 @ 
+expr_stmt  @ 122 @ expr_stmt  @ 139 @ 
+name: chunk_image  @ 84 @ name: p  @ 96 @ 
+name: version  @ 78 @ name: version  @ 86 @ 
+name: chunk  @ 272 @ name: chunk  @ 248 @ 
+name: oh  @ 254 @ name: oh  @ 240 @ 
+name: chunkno  @ 35 @ name: chunkno  @ 37 @ 
+argument  @ 90 @ argument  @ 102 @ 
+name: H5O_NULL_ID  @ 116 @ name: H5O_NULL_ID  @ 133 @ 
+decl  @ 210 @ decl  @ 278 @ 
+expr_stmt  @ 123 @ expr_stmt  @ 140 @ 
+comment: /* Message flags */  @ 87 @ comment: /* Message flags */  @ 99 @ 
+expr_stmt  @ 222 @ expr_stmt  @ 290 @ 
+name: H5O_MSG_FLAG_FAIL_IF_UNKNOWN_AND_OPEN_FOR_WRITE  @ 93 @ name: H5O_MSG_FLAG_FAIL_IF_UNKNOWN  @ 105 @ 
+expr_stmt  @ 88 @ expr_stmt  @ 100 @ 
+block_content  @ 107 @ block_content  @ 123 @ 
+argument  @ 18 @ argument  @ 19 @ 
+comment: /* Increment location in chunk */  @ 256 @ comment: /* Increment location in chunk */  @ 226 @ 
+name: HDassert  @ 20 @ name: HDassert  @ 21 @ 
+comment: /* Check arguments */  @ 16 @ comment: /* Check arguments */  @ 17 @ 
+argument_list  @ 64 @ argument_list  @ 72 @ 
+name: chunk_image  @ 268 @ name: p  @ 237 @ 
+name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 171 @ name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 185 @ 
+operator: =  @ 42 @ operator: =  @ 47 @ 
+ifndef  @ 65 @ ifndef  @ 73 @ 
+expr  @ 132 @ expr  @ 147 @ 
+argument  @ 132 @ argument  @ 147 @ 
+index  @ 116 @ index  @ 135 @ 
+name: mesg  @ 123 @ name: mesg  @ 140 @ 
+specifier: const  @ 4 @ specifier: const  @ 5 @ 
+name: mesg_size  @ 243 @ name: mesg_size  @ 213 @ 
+operator: )  @ 158 @ operator: )  @ 168 @ 
+name: ioflags  @ 128 @ name: ioflags  @ 256 @ 
+condition  @ 170 @ condition  @ 184 @ 
+expr  @ 170 @ expr  @ 184 @ 
+name: eom_ptr  @ 106 @ name: eom_ptr  @ 122 @ 
+literal: 0  @ 35 @ literal: 0  @ 37 @ 
+expr  @ 122 @ expr  @ 139 @ 
+expr  @ 42 @ expr  @ 47 @ 
+name: mesg_size  @ 85 @ name: mesg_size  @ 97 @ 
+name: x  @ 26 @ name: x  @ 27 @ 
+name: refcount  @ 222 @ name: refcount  @ 290 @ 
+operator: &&  @ 56 @ operator: &&  @ 61 @ 
+index  @ 46 @ index  @ 51 @ 
+if  @ 24 @ if  @ 25 @ 
+name: dirty  @ 281 @ name: dirty  @ 317 @ 
+expr  @ 102 @ expr  @ 116 @ 
+expr  @ 232 @ expr  @ 307 @ 
+condition  @ 42 @ condition  @ 47 @ 
+index  @ 42 @ index  @ 47 @ 
+expr  @ 205 @ expr  @ 266 @ 
+operator: ->  @ 97 @ operator: ->  @ 111 @ 
+name: chunk_image  @ 49 @ name: p  @ 54 @ 
+literal: 0  @ 6 @ literal: 0  @ 8 @ 
+name: H5O_SIZEOF_MSGHDR_OH  @ 122 @ name: H5O_SIZEOF_MSGHDR_OH  @ 139 @ 
+operator: +=  @ 54 @ operator: +=  @ 59 @ 
+name: mesg  @ 144 @ name: oh  @ 159 @ 
+block  @ 169 @ block  @ 182 @ 
+name: udata  @ 2 @ name: udata  @ 3 @ 
+decl  @ 2 @ decl  @ 3 @ 
+operator: =  @ 276 @ operator: =  @ 296 @ 
+name: flags  @ 140 @ name: flags  @ 155 @ 
+operator: <  @ 246 @ operator: <  @ 216 @ 
+name: H5O_chunk_t  @ 28 @ name: H5O_chunk_t  @ 29 @ 
+argument  @ 107 @ argument  @ 123 @ 
+expr  @ 6 @ expr  @ 8 @ 
+name: version  @ 56 @ name: version  @ 61 @ 
+comment: /* Message size */  @ 83 @ comment: /* Message size */  @ 95 @ 
+macro  @ 29 @ macro  @ 30 @ 
+operator: ==  @ 85 @ operator: ==  @ 97 @ 
+name: oh  @ 222 @ name: oh  @ 290 @ 
+operator: >=  @ 149 @ operator: >=  @ 164 @ 
+decl_stmt  @ 263 @ decl_stmt  @ 233 @ 
+operator: &  @ 101 @ operator: &  @ 115 @ 
+expr  @ 18 @ expr  @ 19 @ 
+if  @ 131 @ if  @ 146 @ 
+name: id  @ 71 @ name: id  @ 79 @ 
+name: mesg_size  @ 85 @ name: mesg_size  @ 97 @ 
+name: id  @ 187 @ name: id  @ 209 @ 
+name: NDEBUG  @ 8 @ name: NDEBUG  @ 10 @ 
+name: oh  @ 122 @ name: oh  @ 139 @ 
+type  @ 25 @ type  @ 26 @ 
+argument  @ 96 @ argument  @ 108 @ 
+operator: =  @ 41 @ operator: =  @ 45 @ 
+operator: ->  @ 139 @ operator: .  @ 154 @ 
+name  @ 254 @ name  @ 240 @ 
+name: udata  @ 21 @ name: udata  @ 22 @ 
+operator: ==  @ 28 @ operator: ==  @ 29 @ 
+name: f  @ 198 @ name: f  @ 259 @ 
+argument_list  @ 122 @ argument_list  @ 139 @ 
+name: eom_ptr  @ 5 @ name: eom_ptr  @ 6 @ 
+operator: =  @ 162 @ operator: =  @ 175 @ 
+name: id  @ 159 @ name: id  @ 172 @ 
+index  @ 46 @ index  @ 51 @ 
+name: na  @ 25 @ name: na  @ 26 @ 
+name  @ 36 @ name  @ 44 @ 
+block_content  @ 58 @ block_content  @ 63 @ 
+type  @ 12 @ type  @ 13 @ 
+name: cont  @ 199 @ name: cont  @ 260 @ 
+argument  @ 43 @ argument  @ 48 @ 
+name: na  @ 28 @ name: na  @ 29 @ 
+name: HGOTO_ERROR  @ 94 @ name: HGOTO_ERROR  @ 106 @ 
+name: image  @ 272 @ name: image  @ 248 @ 
+comment: /* end else */  @ 103 @ comment: /* end else */  @ 117 @ 
+name: chunk  @ 39 @ name: chunk  @ 41 @ 
+operator: !  @ 95 @ operator: !  @ 107 @ 
+operator: ->  @ 116 @ operator: ->  @ 132 @ 
+name: oh  @ 116 @ name: oh  @ 135 @ 
+expr  @ 41 @ expr  @ 45 @ 
+name: oh  @ 246 @ name: oh  @ 216 @ 
+name: hbool_t  @ 2 @ name: hbool_t  @ 3 @ 
+name: nullcnt  @ 9 @ name: nullcnt  @ 11 @ 
+index  @ 122 @ index  @ 139 @ 
+operator: .  @ 35 @ operator: .  @ 37 @ 
+operator: ++  @ 88 @ operator: ++  @ 100 @ 
+macro  @ 94 @ macro  @ 106 @ 
+name: oh  @ 30 @ name: oh  @ 32 @ 
+name: file_intent  @ 236 @ name: file_intent  @ 293 @ 
+name: chunk  @ 42 @ name: chunk  @ 47 @ 
+index  @ 153 @ index  @ 164 @ 
+name: addr  @ 2 @ name: addr  @ 2 @ 
+type  @ 70 @ type  @ 78 @ 
+expr  @ 121 @ expr  @ 138 @ 
+else  @ 184 @ else  @ 207 @ 
+call  @ 85 @ call  @ 97 @ 
+operator: (  @ 39 @ operator: (  @ 41 @ 
+expr_stmt  @ 112 @ expr_stmt  @ 128 @ 
+name: HGOTO_ERROR  @ 92 @ name: HGOTO_ERROR  @ 104 @ 
+argument  @ 102 @ argument  @ 116 @ 
+comment: /* Check for combining two adjacent 'null' messages */  @ 115 @ comment: /* Check for combining two adjacent 'null' messages */  @ 131 @ 
+name: nchunks  @ 24 @ name: nchunks  @ 25 @ 
+name: len  @ 39 @ name: len  @ 41 @ 
+operator: ->  @ 78 @ operator: ->  @ 86 @ 
+name: H5O_MSG_FLAG_SHARED  @ 91 @ name: H5O_MSG_FLAG_SHARED  @ 103 @ 
+name: oh  @ 116 @ name: oh  @ 133 @ 
+operator: ->  @ 42 @ operator: ->  @ 47 @ 
+name: mesg  @ 140 @ name: oh  @ 155 @ 
+name: HGOTO_ERROR  @ 169 @ name: HGOTO_ERROR  @ 182 @ 
+call  @ 64 @ call  @ 72 @ 
+argument  @ 39 @ argument  @ 41 @ 
+operator: )  @ 95 @ operator: )  @ 107 @ 
+name: H5O_NULL_ID  @ 111 @ name: H5O_NULL_ID  @ 127 @ 
+name: TRUE  @ 123 @ name: TRUE  @ 140 @ 
+expr  @ 159 @ expr  @ 169 @ 
+name  @ 24 @ name  @ 25 @ 
+operator: &  @ 170 @ operator: &  @ 184 @ 
+type  @ 6 @ type  @ 8 @ 
+name: oh  @ 97 @ name: oh  @ 111 @ 
+modifier: *  @ 4 @ modifier: *  @ 5 @ 
+argument  @ 28 @ argument  @ 29 @ 
+name: flags  @ 95 @ name: flags  @ 107 @ 
+operator: =  @ 144 @ operator: =  @ 159 @ 
+block_content  @ 133 @ block_content  @ 148 @ 
+name: H5O_unknown_t  @ 158 @ name: H5O_unknown_t  @ 168 @ 
+operator: ->  @ 272 @ operator: ->  @ 248 @ 
+expr  @ 19 @ expr  @ 20 @ 
+comment: /* Check for "mark if unknown" message flag, etc. */  @ 169 @ comment: /* Check for "mark if unknown" message flag, etc. */  @ 183 @ 
+function  @ 1 @ function  @ 1 @ 
+name: H5O_UNKNOWN_ID  @ 165 @ name: H5O_UNKNOWN_ID  @ 178 @ 
+expr  @ 102 @ expr  @ 116 @ 
+name: H5O_VERSION_1  @ 248 @ name: H5O_VERSION_1  @ 218 @ 
+name: oh  @ 35 @ name: oh  @ 37 @ 
+name: TRUE  @ 276 @ name: TRUE  @ 296 @ 
+operator: ->  @ 180 @ operator: ->  @ 202 @ 
+call  @ 272 @ call  @ 248 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+decl  @ 73 @ decl  @ 81 @ 
+block  @ 59 @ block  @ 64 @ 
+argument_list  @ 90 @ argument_list  @ 102 @ 
+name  @ 205 @ name  @ 266 @ 
+expr  @ 177 @ expr  @ 199 @ 
+operator: +  @ 199 @ operator: +  @ 260 @ 
+block  @ 153 @ block  @ 164 @ 
+name: NULL  @ 142 @ name: NULL  @ 157 @ 
+name  @ 198 @ name  @ 259 @ 
+operator: (  @ 236 @ operator: (  @ 293 @ 
+name: H5O_MSG_FLAG_MARK_IF_UNKNOWN  @ 95 @ name: H5O_MSG_FLAG_MARK_IF_UNKNOWN  @ 107 @ 
+expr  @ 85 @ expr  @ 97 @ 
+name  @ 236 @ name  @ 293 @ 
+expr_stmt  @ 243 @ expr_stmt  @ 213 @ 
+operator: ~  @ 89 @ operator: ~  @ 101 @ 
+name: H5O_msg_crt_idx_t  @ 73 @ name: H5O_msg_crt_idx_t  @ 81 @ 
+decl_stmt  @ 210 @ decl_stmt  @ 278 @ 
+operator: (  @ 172 @ operator: (  @ 186 @ 
+comment: /* Mark the message as "unknown" */  @ 174 @ comment: /* Mark the message as "unknown" */  @ 188 @ 
+operator: &  @ 116 @ operator: &  @ 132 @ 
+operator: .  @ 272 @ operator: .  @ 248 @ 
+argument  @ 122 @ argument  @ 139 @ 
+comment: /*reserved*/  @ 98 @ comment: /*reserved*/  @ 112 @ 
+operator: ->  @ 21 @ operator: ->  @ 22 @ 
+operator: ==  @ 42 @ operator: ==  @ 47 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 22 @ 
+expr_stmt  @ 268 @ expr_stmt  @ 237 @ 
+expr  @ 280 @ expr  @ 142 @ 
+argument_list  @ 102 @ argument_list  @ 116 @ 
+argument  @ 94 @ argument  @ 106 @ 
+condition  @ 24 @ condition  @ 25 @ 
+block  @ 107 @ block  @ 123 @ 
+expr  @ 272 @ expr  @ 248 @ 
+operator: <  @ 69 @ operator: <  @ 76 @ 
+name: H5O_unknown_t  @ 155 @ name: H5O_unknown_t  @ 165 @ 
+name  @ 214 @ name  @ 283 @ 
+block  @ 54 @ block  @ 59 @ 
+type  @ 72 @ type  @ 80 @ 
+name: H5FL_MALLOC  @ 158 @ name: H5FL_MALLOC  @ 168 @ 
+name: herr_t  @ 12 @ name: herr_t  @ 13 @ 
+if  @ 97 @ if  @ 111 @ 
+argument  @ 159 @ argument  @ 169 @ 
+argument  @ 58 @ argument  @ 63 @ 
+operator: &  @ 95 @ operator: &  @ 107 @ 
+if_stmt  @ 170 @ if_stmt  @ 184 @ 
+operator: =  @ 187 @ operator: =  @ 209 @ 
+argument  @ 92 @ argument  @ 104 @ 
+else  @ 40 @ else  @ 43 @ 
+name: size  @ 39 @ name: size  @ 41 @ 
+expr  @ 46 @ expr  @ 51 @ 
+name: x  @ 28 @ name: x  @ 29 @ 
+expr  @ 116 @ expr  @ 132 @ 
+name: H5O_NULL_ID  @ 116 @ name: H5O_NULL_ID  @ 134 @ 
+argument  @ 28 @ argument  @ 29 @ 
+name  @ 123 @ name  @ 140 @ 
+name: oh  @ 116 @ name: oh  @ 134 @ 
+name: flags  @ 89 @ name: flags  @ 101 @ 
+argument_list  @ 84 @ argument_list  @ 96 @ 
+block_content  @ 96 @ block_content  @ 108 @ 
+name: H5O_msg_class_g  @ 165 @ name: H5O_msg_class_g  @ 178 @ 
+operator: .  @ 42 @ operator: .  @ 47 @ 
+name: HDassert  @ 85 @ name: HDassert  @ 97 @ 
+operator: &&  @ 93 @ operator: &&  @ 105 @ 
+argument_list  @ 206 @ argument_list  @ 267 @ 
+operator: (  @ 254 @ operator: (  @ 224 @ 
+name: chunk_image  @ 257 @ name: p  @ 227 @ 
+decl  @ 72 @ decl  @ 80 @ 
+operator: +  @ 106 @ operator: +  @ 122 @ 
+operator: ->  @ 141 @ operator: ->  @ 156 @ 
+name: crt_idx  @ 102 @ name: crt_idx  @ 116 @ 
+expr  @ 58 @ expr  @ 63 @ 
+operator: -  @ 246 @ operator: -  @ 216 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 19 @ 
+operator: ==  @ 97 @ operator: ==  @ 111 @ 
+operator: )  @ 42 @ operator: )  @ 47 @ 
+name  @ 272 @ name  @ 248 @ 
+condition  @ 37 @ condition  @ 38 @ 
+name: H5O_DECODEIO_DIRTY  @ 236 @ name: H5O_DECODEIO_DIRTY  @ 293 @ 
+name: mesg  @ 143 @ name: oh  @ 158 @ 
+expr  @ 268 @ expr  @ 237 @ 
+operator: .  @ 254 @ operator: .  @ 224 @ 
+expr  @ 165 @ expr  @ 178 @ 
+if_stmt  @ 58 @ if_stmt  @ 63 @ 
+expr  @ 132 @ expr  @ 147 @ 
+name: eom_ptr  @ 254 @ name: eom_ptr  @ 224 @ 
+block  @ 69 @ block  @ 76 @ 
+decl  @ 2 @ decl  @ 2 @ 
+condition  @ 116 @ condition  @ 132 @ 
+expr  @ 116 @ expr  @ 134 @ 
+operator: ->  @ 257 @ operator: ->  @ 227 @ 
+name: alloc_nchunks  @ 29 @ name: alloc_nchunks  @ 31 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 32 @ 
+block_content  @ 159 @ block_content  @ 169 @ 
+name: H5O_common_cache_ud_t  @ 2 @ name: H5O_common_cache_ud_t  @ 3 @ 
+name: SUCCEED  @ 12 @ name: SUCCEED  @ 13 @ 
+call  @ 42 @ call  @ 47 @ 
+name: H5O_MSG_REFCOUNT  @ 214 @ name: H5O_MSG_REFCOUNT  @ 283 @ 
+expr  @ 257 @ expr  @ 227 @ 
+name: dirty  @ 276 @ name: dirty  @ 296 @ 
+name: H5O_SIZEOF_CHKSUM_OH  @ 64 @ name: H5O_SIZEOF_CHKSUM_OH  @ 72 @ 
+operator: -  @ 116 @ operator: -  @ 135 @ 
+operator: >  @ 248 @ operator: >  @ 218 @ 
+decl_stmt  @ 128 @ decl_stmt  @ 256 @ 
+operator: =  @ 139 @ operator: =  @ 154 @ 
+name: size_t  @ 25 @ name: size_t  @ 26 @ 
+name: H5FL_SEQ_REALLOC  @ 28 @ name: H5FL_SEQ_REALLOC  @ 29 @ 
+ifndef  @ 109 @ ifndef  @ 125 @ 
+type  @ 2 @ type  @ 2 @ 
+argument  @ 17 @ argument  @ 18 @ 
+name  @ 145 @ name  @ 160 @ 
+operator: ->  @ 39 @ operator: ->  @ 41 @ 
+if_stmt  @ 246 @ if_stmt  @ 216 @ 
+name: H5E_CANTALLOC  @ 159 @ name: H5E_CANTALLOC  @ 169 @ 
+expr  @ 64 @ expr  @ 72 @ 
+operator: )  @ 93 @ operator: )  @ 105 @ 
+argument  @ 59 @ argument  @ 64 @ 
+condition  @ 132 @ condition  @ 147 @ 
+operator: +=  @ 98 @ operator: +=  @ 112 @ 
+operator: ->  @ 101 @ operator: ->  @ 115 @ 
+operator: (  @ 236 @ operator: (  @ 293 @ 
+name: H5F_ACC_RDWR  @ 236 @ name: H5F_ACC_RDWR  @ 293 @ 
+call  @ 85 @ call  @ 97 @ 
+name: HGOTO_ERROR  @ 43 @ name: HGOTO_ERROR  @ 48 @ 
+operator: =  @ 143 @ operator: =  @ 158 @ 
+comment: /* end if */  @ 258 @ comment: /* end if */  @ 228 @ 
+operator: )  @ 116 @ operator: )  @ 132 @ 
+name: oh  @ 24 @ name: oh  @ 25 @ 
+argument_list  @ 54 @ argument_list  @ 59 @ 
+operator: ==  @ 153 @ operator: ==  @ 164 @ 
+expr  @ 25 @ expr  @ 26 @ 
+name: chunkno  @ 116 @ name: chunkno  @ 135 @ 
+argument  @ 96 @ argument  @ 108 @ 
+argument  @ 205 @ argument  @ 266 @ 
+expr  @ 84 @ expr  @ 96 @ 
+operator: ->  @ 172 @ operator: ->  @ 186 @ 
+name: oh  @ 54 @ name: oh  @ 59 @ 
+operator: ->  @ 145 @ operator: ->  @ 160 @ 
+name: chunkno  @ 199 @ name: chunkno  @ 260 @ 
+name: eom_ptr  @ 246 @ name: eom_ptr  @ 216 @ 
+name: unknown  @ 159 @ name: unknown  @ 172 @ 
+expr  @ 42 @ expr  @ 47 @ 
+expr  @ 64 @ expr  @ 72 @ 
+index  @ 64 @ index  @ 72 @ 
+argument  @ 206 @ argument  @ 267 @ 
+name: HGOTO_ERROR  @ 159 @ name: HGOTO_ERROR  @ 169 @ 
+argument  @ 29 @ argument  @ 30 @ 
+argument_list  @ 25 @ argument_list  @ 26 @ 
+literal: 0  @ 52 @ literal: 0  @ 57 @ 
+operator: )  @ 236 @ operator: )  @ 293 @ 
+type  @ 14 @ type  @ 15 @ 
+block  @ 67 @ block  @ 4 @ 
+operator: ->  @ 46 @ operator: ->  @ 51 @ 
+block_content  @ 232 @ block_content  @ 307 @ 
+name: mesg  @ 116 @ name: mesg  @ 134 @ 
+operator: )  @ 132 @ operator: )  @ 147 @ 
+name: chunkno  @ 64 @ name: chunkno  @ 72 @ 
+name: HGOTO_ERROR  @ 206 @ name: HGOTO_ERROR  @ 267 @ 
+comment: /* Point unknown messages at 'unknown' message class */  @ 147 @ comment: /* Point unknown messages at 'unknown' message class */  @ 162 @ 
+name  @ 199 @ name  @ 260 @ 
+comment: /* Increment count of null messages */  @ 110 @ comment: /* Increment count of null messages */  @ 126 @ 
+argument_list  @ 248 @ argument_list  @ 218 @ 
+name: flags  @ 186 @ name: oh  @ 209 @ 
+name: H5FL_BLK_MALLOC  @ 42 @ name: H5FL_BLK_MALLOC  @ 47 @ 
+block_content  @ 98 @ block_content  @ 112 @ 
+expr  @ 25 @ expr  @ 26 @ 
+literal: 0  @ 251 @ literal: 0  @ 221 @ 
+operator: -  @ 54 @ operator: -  @ 59 @ 
+operator: >  @ 262 @ operator: >  @ 232 @ 
+name: chunk_image  @ 272 @ name: p  @ 248 @ 
+endif  @ 10 @ endif  @ 12 @ 
+block  @ 99 @ block  @ 113 @ 
+type  @ 4 @ type  @ 5 @ 
+init  @ 73 @ init  @ 81 @ 
+operator: ++  @ 227 @ operator: ++  @ 302 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: (  @ 28 @ operator: (  @ 29 @ 
+operator: (  @ 158 @ operator: (  @ 168 @ 
+block  @ 184 @ block  @ 209 @ 
+name: H5O_msg_class_g  @ 186 @ name: mesg  @ 209 @ 
+name  @ 122 @ name  @ 139 @ 
+type  @ 2 @ type  @ 3 @ 
+name: H5F_addr_defined  @ 18 @ name: H5F_addr_defined  @ 19 @ 
+block_content  @ 127 @ block_content  @ 146 @ 
+expr  @ 101 @ expr  @ 115 @ 
+call  @ 18 @ call  @ 19 @ 
+name: H5O_VERSION_1  @ 97 @ name: H5O_VERSION_1  @ 111 @ 
+name: crt_idx  @ 141 @ name: crt_idx  @ 156 @ 
+name: oh  @ 64 @ name: oh  @ 72 @ 
+argument_list  @ 54 @ argument_list  @ 59 @ 
+name: chunk  @ 64 @ name: chunk  @ 72 @ 
+comment: /* end else */  @ 240 @ comment: /* end else */  @ 210 @ 
+init  @ 128 @ init  @ 256 @ 
+name: chunk  @ 28 @ name: chunk  @ 29 @ 
+operator: (  @ 143 @ operator: (  @ 158 @ 
+name: oh  @ 34 @ name: oh  @ 36 @ 
+name: H5O_SIZEOF_CHKSUM_OH  @ 54 @ name: H5O_SIZEOF_CHKSUM_OH  @ 59 @ 
+operator: )  @ 170 @ operator: )  @ 184 @ 
+condition  @ 93 @ condition  @ 105 @ 
+operator: ->  @ 29 @ operator: ->  @ 31 @ 
+operator: ==  @ 111 @ operator: ==  @ 127 @ 
+if_stmt  @ 42 @ if_stmt  @ 47 @ 
+name: na  @ 29 @ name: na  @ 31 @ 
+decl_stmt  @ 73 @ decl_stmt  @ 81 @ 
+macro  @ 43 @ macro  @ 48 @ 
+name: file_intent  @ 116 @ name: file_intent  @ 132 @ 
+while  @ 69 @ while  @ 76 @ 
+block  @ 159 @ block  @ 169 @ 
+argument  @ 92 @ argument  @ 104 @ 
+expr  @ 46 @ expr  @ 51 @ 
+macro  @ 206 @ macro  @ 267 @ 
+expr_stmt  @ 181 @ expr_stmt  @ 203 @ 
+argument_list  @ 20 @ argument_list  @ 21 @ 
+operator: .  @ 36 @ operator: .  @ 44 @ 
+name: oh  @ 49 @ name: oh  @ 54 @ 
+name: ioflags  @ 236 @ name: ioflags  @ 293 @ 
+operator: (  @ 54 @ operator: (  @ 59 @ 
+name: TRUE  @ 281 @ name: TRUE  @ 317 @ 
+argument  @ 25 @ argument  @ 26 @ 
+expr  @ 20 @ expr  @ 21 @ 
+expr  @ 123 @ expr  @ 140 @ 
+if  @ 89 @ if  @ 101 @ 
+expr  @ 168 @ expr  @ 181 @ 
+name: mesg_size  @ 70 @ name: mesg_size  @ 78 @ 
+expr  @ 58 @ expr  @ 63 @ 
+decl  @ 5 @ decl  @ 6 @ 
+operator: .  @ 64 @ operator: .  @ 72 @ 
+name: chunk_image  @ 54 @ name: p  @ 59 @ 
+operator: ->  @ 254 @ operator: ->  @ 240 @ 
+expr  @ 36 @ expr  @ 44 @ 
+operator: .  @ 272 @ operator: .  @ 248 @ 
+name: flags  @ 168 @ name: flags  @ 181 @ 
+name: chunkno  @ 254 @ name: chunkno  @ 240 @ 
+name: dirty  @ 139 @ name: dirty  @ 154 @ 
+operator: &&  @ 116 @ operator: &&  @ 132 @ 
+comment: /* (Usually from future versions of the library) */  @ 148 @ comment: /* (Usually from future versions of the library) */  @ 163 @ 
+block_content  @ 155 @ block_content  @ 165 @ 
+literal: 0  @ 56 @ literal: 0  @ 61 @ 
+expr  @ 78 @ expr  @ 86 @ 
+comment: /* Gaps can only occur in later versions of the format */  @ 247 @ comment: /* Gaps can only occur in later versions of the format */  @ 217 @ 
+decl_stmt  @ 25 @ decl_stmt  @ 26 @ 
+name: oh  @ 41 @ name: oh  @ 45 @ 
+expr  @ 116 @ expr  @ 135 @ 
+argument_list  @ 18 @ argument_list  @ 19 @ 
+name: oh  @ 131 @ name: oh  @ 146 @ 
+comment: /* Allocate "unknown" message info */  @ 157 @ comment: /* Allocate "unknown" message info */  @ 167 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 15 @ 
+argument  @ 132 @ argument  @ 147 @ 
+expr  @ 85 @ expr  @ 97 @ 
+comment: /* Double # of chunks allocated */  @ 25 @ comment: /* Double # of chunks allocated */  @ 26 @ 
+block  @ 230 @ block  @ 305 @ 
+expr  @ 262 @ expr  @ 232 @ 
+expr  @ 124 @ expr  @ 141 @ 
+expr  @ 28 @ expr  @ 29 @ 
+operator: ->  @ 116 @ operator: ->  @ 135 @ 
+name: chunkno  @ 145 @ name: mesgno  @ 160 @ 
+operator: ->  @ 142 @ operator: ->  @ 157 @ 
+operator: >  @ 246 @ operator: >  @ 216 @ 
+expr  @ 84 @ expr  @ 96 @ 
+operator: ->  @ 220 @ operator: ->  @ 289 @ 
+name: oh  @ 64 @ name: oh  @ 72 @ 
+operator: <  @ 132 @ operator: <  @ 147 @ 
+name: image  @ 64 @ name: image  @ 72 @ 
+directive: endif  @ 10 @ directive: endif  @ 12 @ 
+expr  @ 46 @ expr  @ 51 @ 
+expr  @ 89 @ expr  @ 101 @ 
+literal: "bad flag combination for message"  @ 94 @ literal: "bad flag combination for message"  @ 106 @ 
+call  @ 25 @ call  @ 26 @ 
+name  @ 131 @ name  @ 146 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: f  @ 20 @ name: f  @ 21 @ 
+name: chunk  @ 254 @ name: chunk  @ 240 @ 
+comment: /* ID (type) of current message */  @ 71 @ comment: /* ID (type) of current message */  @ 79 @ 
+literal: 3  @ 98 @ literal: 3  @ 112 @ 
+call  @ 205 @ call  @ 266 @ 
+name: flags  @ 88 @ name: flags  @ 100 @ 
+name: H5O_MSG_FLAG_DONTSHARE  @ 91 @ name: H5O_MSG_FLAG_DONTSHARE  @ 103 @ 
+type  @ 7 @ type  @ 9 @ 
+expr  @ 42 @ expr  @ 47 @ 
+name: decode  @ 214 @ name: decode  @ 283 @ 
+block_content  @ 29 @ block_content  @ 30 @ 
+comment: /* Decode message prefix info */  @ 75 @ comment: /* Decode message prefix info */  @ 83 @ 
+expr  @ 73 @ expr  @ 81 @ 
+name: cont_msg_info  @ 21 @ name: cont_msg_info  @ 22 @ 
+operator: ->  @ 199 @ operator: ->  @ 260 @ 
+name: len  @ 41 @ name: len  @ 45 @ 
+name  @ 20 @ name  @ 21 @ 
+operator: ->  @ 133 @ operator: ->  @ 151 @ 
+argument_list  @ 159 @ argument_list  @ 169 @ 
+index  @ 35 @ index  @ 37 @ 
+name: H5F_ACC_RDWR  @ 116 @ name: H5F_ACC_RDWR  @ 132 @ 
+name: oh  @ 39 @ name: oh  @ 41 @ 
+name: H5O_msg_class_g  @ 153 @ name: H5O_msg_class_g  @ 164 @ 
+argument  @ 206 @ argument  @ 267 @ 
+expr_stmt  @ 227 @ expr_stmt  @ 302 @ 
+name: unknown  @ 158 @ name: unknown  @ 168 @ 
+argument_list  @ 17 @ argument_list  @ 18 @ 
+operator: >  @ 56 @ operator: >  @ 61 @ 
+directive: ifndef  @ 8 @ directive: ifndef  @ 10 @ 
+if_stmt  @ 131 @ if_stmt  @ 146 @ 
+comment: /* First chunk's 'image' includes room for the object header prefix */  @ 38 @ comment: /* First chunk's 'image' includes room for the object header prefix */  @ 39 @ 
+name: oh  @ 17 @ name: oh  @ 18 @ 
+call  @ 248 @ call  @ 218 @ 
+expr  @ 236 @ expr  @ 293 @ 
+operator: (  @ 246 @ operator: (  @ 216 @ 
+name: chunk  @ 41 @ name: chunk  @ 45 @ 
+block_content  @ 92 @ block_content  @ 104 @ 
+comment: /* Creation index for current message */  @ 73 @ comment: /* Creation index for current message */  @ 81 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 257 @ expr  @ 227 @ 
+if_stmt  @ 116 @ if_stmt  @ 132 @ 
+name: chunkno  @ 42 @ name: chunkno  @ 47 @ 
+expr  @ 186 @ expr  @ 209 @ 
+expr_stmt  @ 272 @ expr_stmt  @ 248 @ 
+comment: /* Advance decode pointer past message */  @ 242 @ comment: /* Advance decode pointer past message */  @ 212 @ 
+if  @ 168 @ if  @ 181 @ 
+expr  @ 248 @ expr  @ 218 @ 
+name: chunk  @ 49 @ name: chunk  @ 54 @ 
+block_content  @ 90 @ block_content  @ 102 @ 
+argument  @ 58 @ argument  @ 63 @ 
+operator: ->  @ 165 @ operator: ->  @ 178 @ 
+operator: &&  @ 116 @ operator: &&  @ 134 @ 
+type  @ 73 @ type  @ 81 @ 
+operator: ->  @ 34 @ operator: ->  @ 36 @ 
+name: chunkno  @ 257 @ name: chunkno  @ 227 @ 
+name: chunkno  @ 43 @ name: chunkno  @ 224 @ 
+operator: +=  @ 60 @ operator: +=  @ 65 @ 
+expr  @ 268 @ expr  @ 237 @ 
+operator: ->  @ 20 @ operator: ->  @ 21 @ 
+block  @ 94 @ block  @ 106 @ 
+name: HDassert  @ 251 @ name: HDassert  @ 221 @ 
+name: dirty  @ 2 @ name: dirty  @ 3 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 11 @ 
+name: version  @ 262 @ name: version  @ 232 @ 
+expr_stmt  @ 121 @ expr_stmt  @ 138 @ 
+name: haddr_t  @ 2 @ name: haddr_t  @ 2 @ 
+operator: ->  @ 199 @ operator: ->  @ 260 @ 
+expr  @ 122 @ expr  @ 139 @ 
+comment: /* Try to detect invalidly formatted object header message that *extends past end of chunk. */  @ 105 @ comment: /* Try to detect invalidly formatted object header message that
+         *  extends past end of chunk.*/  @ 119 @ 
+expr_stmt  @ 251 @ expr_stmt  @ 221 @ 
+operator: .  @ 116 @ operator: .  @ 135 @ 
+block_content  @ 227 @ block_content  @ 302 @ 
+name: cont_msg_info  @ 205 @ name: cont_msg_info  @ 266 @ 
+block_content  @ 81 @ block_content  @ 89 @ 
+decl_stmt  @ 155 @ decl_stmt  @ 165 @ 
+call  @ 18 @ call  @ 19 @ 
+if  @ 91 @ if  @ 103 @ 
+name: mesg_size  @ 106 @ name: mesg_size  @ 122 @ 
+argument  @ 133 @ argument  @ 148 @ 
+macro  @ 107 @ macro  @ 123 @ 
+expr_stmt  @ 276 @ expr_stmt  @ 296 @ 
+endif  @ 113 @ endif  @ 129 @ 
+name: nchunks  @ 34 @ name: nchunks  @ 36 @ 
+name: nullcnt  @ 112 @ name: nullcnt  @ 128 @ 
+expr  @ 54 @ expr  @ 59 @ 
+if  @ 101 @ if  @ 115 @ 
+operator: )  @ 254 @ operator: )  @ 224 @ 
+name: oh  @ 101 @ name: oh  @ 115 @ 
+expr  @ 54 @ expr  @ 59 @ 
+name: addr  @ 18 @ name: addr  @ 19 @ 
+name: H5O_NCHUNKS  @ 25 @ name: H5O_NCHUNKS  @ 26 @ 
+argument  @ 107 @ argument  @ 123 @ 
+name: H5O_VERSION_1  @ 262 @ name: H5O_VERSION_1  @ 232 @ 
+name: mesg_size  @ 84 @ name: mesg_size  @ 96 @ 
+operator: ->  @ 36 @ operator: ->  @ 44 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+argument  @ 107 @ argument  @ 123 @ 
+name: UINT16DECODE  @ 79 @ name: UINT16DECODE  @ 87 @ 
+condition  @ 58 @ condition  @ 63 @ 
+name: H5_SIZEOF_MAGIC  @ 60 @ name: H5_SIZEOF_MAGIC  @ 65 @ 
+name  @ 97 @ name  @ 111 @ 
+comment: /* Combine adjacent null messages */  @ 120 @ comment: /* Combine adjacent null messages */  @ 137 @ 
+expr  @ 149 @ expr  @ 164 @ 
+name: attr_msgs_seen  @ 232 @ name: attr_msgs_seen  @ 307 @ 
+argument  @ 19 @ argument  @ 20 @ 
+argument  @ 46 @ argument  @ 51 @ 
+operator: =  @ 180 @ operator: =  @ 202 @ 
+name: chunk_image  @ 4 @ name: p  @ 5 @ 
+name: HDassert  @ 17 @ name: HDassert  @ 18 @ 
+comment: /* This is a bit aggressive, since the application may * never change anything about the object (metadata or * raw data), but we can sort out the finer details * when/if we start using the flag - QAK */  @ 175 @ comment: /* This is a bit aggressive, since the application may
+                     * never change anything about the object (metadata or* raw data), but we can sort out the finer details
+                     * when/if we start using the flag - QAK*/  @ 189 @ 
+name  @ 46 @ name  @ 51 @ 
+operator: ==  @ 37 @ operator: ==  @ 38 @ 
+expr  @ 205 @ expr  @ 266 @ 
+expr_stmt  @ 145 @ expr_stmt  @ 160 @ 
+index  @ 41 @ index  @ 45 @ 
+operator: (  @ 246 @ operator: (  @ 216 @ 
+expr  @ 54 @ expr  @ 59 @ 
+macro  @ 90 @ macro  @ 102 @ 
+argument  @ 92 @ argument  @ 104 @ 
+comment: /* Set gap information for chunk */  @ 253 @ comment: /* Set gap information for chunk */  @ 223 @ 
+comment: /* Increment # of messages */  @ 135 @ comment: /* Initialize information about message */  @ 153 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+expr  @ 58 @ expr  @ 63 @ 
+expr  @ 43 @ expr  @ 224 @ 
+name: mesgs_modified  @ 181 @ name: mesgs_modified  @ 203 @ 
+block_content  @ 41 @ block_content  @ 44 @ 
+operator: &&  @ 171 @ operator: &&  @ 185 @ 
+block_content  @ 39 @ block_content  @ 40 @ 
+name: HDmemcmp  @ 58 @ name: HDmemcmp  @ 63 @ 
+operator: ->  @ 136 @ operator: ->  @ 69 @ 
+name  @ 64 @ name  @ 72 @ 
+name: merged_null_msgs  @ 124 @ name: merged_null_msgs  @ 141 @ 
+decl  @ 9 @ decl  @ 11 @ 
+operator: ==  @ 251 @ operator: ==  @ 221 @ 
+operator: -  @ 121 @ operator: -  @ 138 @ 
+expr_stmt  @ 248 @ expr_stmt  @ 218 @ 
+block_content  @ 177 @ block_content  @ 199 @ 
+if_stmt  @ 158 @ if_stmt  @ 168 @ 
+call  @ 19 @ call  @ 20 @ 
+argument_list  @ 29 @ argument_list  @ 30 @ 
+name: FALSE  @ 139 @ name: FALSE  @ 154 @ 
+name  @ 42 @ name  @ 47 @ 
+literal: "memory allocation failed"  @ 159 @ literal: "memory allocation failed"  @ 169 @ 
+name: flags  @ 93 @ name: flags  @ 105 @ 
+name: chunk_image  @ 254 @ name: p  @ 224 @ 
+comment: /* Check for message of unshareable class marked as "shareable" */  @ 185 @ comment: /* Set message class for "known" messages */  @ 208 @ 
+name  @ 116 @ name  @ 135 @ 
+name: H5O_SIZEOF_MSGHDR_OH  @ 246 @ name: H5O_SIZEOF_MSGHDR_OH  @ 216 @ 
+decl  @ 2 @ decl  @ 2 @ 
+argument  @ 42 @ argument  @ 47 @ 
+operator: &  @ 236 @ operator: &  @ 293 @ 
+call  @ 54 @ call  @ 59 @ 
+name: image  @ 46 @ name: image  @ 51 @ 
+operator: (  @ 93 @ operator: (  @ 105 @ 
+name: udata  @ 172 @ name: udata  @ 186 @ 
+name: unsigned  @ 9 @ name: unsigned  @ 11 @ 
+name: version  @ 248 @ name: version  @ 218 @ 
+name: TRUE  @ 180 @ name: TRUE  @ 202 @ 
+expr  @ 20 @ expr  @ 21 @ 
+if_stmt  @ 89 @ if_stmt  @ 101 @ 
+decl  @ 155 @ decl  @ 165 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 21 @ 
+expr_stmt  @ 177 @ expr_stmt  @ 199 @ 
+operator: <  @ 205 @ operator: <  @ 266 @ 
+literal: "memory allocation failed"  @ 43 @ literal: "memory allocation failed"  @ 48 @ 
+argument  @ 159 @ argument  @ 169 @ 
+if  @ 28 @ if  @ 29 @ 
+expr  @ 205 @ expr  @ 266 @ 
+argument_list  @ 46 @ argument_list  @ 51 @ 
+if_stmt  @ 80 @ if_stmt  @ 88 @ 
+operator: )  @ 143 @ operator: )  @ 158 @ 
+name: oh  @ 116 @ name: oh  @ 134 @ 
+name  @ 222 @ name  @ 290 @ 
+name: NULL  @ 28 @ name: NULL  @ 29 @ 
+operator: =  @ 88 @ operator: =  @ 100 @ 
+name: udata  @ 280 @ name: udata  @ 142 @ 
+literal: "memory allocation failed"  @ 29 @ literal: "memory allocation failed"  @ 30 @ 
+name: H5O_MSG_FLAG_BITS  @ 89 @ name: H5O_MSG_FLAG_BITS  @ 101 @ 
+expr  @ 199 @ expr  @ 260 @ 
+argument  @ 29 @ argument  @ 30 @ 
+operator: )  @ 172 @ operator: )  @ 186 @ 
+name: done  @ 284 @ name: done  @ 320 @ 
+comment: /* Skip over [already decoded] prefix */  @ 53 @ comment: /* Skip over [already decoded] prefix */  @ 58 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 65 @ 
+argument_list  @ 158 @ argument_list  @ 168 @ 
+operator: +=  @ 280 @ operator: ++  @ 142 @ 
+operator: ->  @ 116 @ operator: ->  @ 135 @ 
+operator: (  @ 171 @ operator: (  @ 185 @ 
+literal: "bad flag combination for message"  @ 96 @ literal: "bad flag combination for message"  @ 108 @ 
+name: id  @ 153 @ name: id  @ 164 @ 
+name: mesg  @ 145 @ name: oh  @ 160 @ 
+name: size  @ 64 @ name: size  @ 72 @ 
+name: file_intent  @ 172 @ name: file_intent  @ 186 @ 
+call  @ 20 @ call  @ 21 @ 
+name: refcount  @ 210 @ name: refcount  @ 278 @ 
+if  @ 132 @ if  @ 147 @ 
+argument  @ 43 @ argument  @ 48 @ 
+comment: /* end if */  @ 183 @ comment: /* end if */  @ 206 @ 
+argument  @ 251 @ argument  @ 221 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 37 @ 
+expr  @ 46 @ expr  @ 51 @ 
+operator: *  @ 159 @ operator: *  @ 172 @ 
+literal: "corrupt object header"  @ 107 @ literal: "corrupt object header"  @ 123 @ 
+if  @ 111 @ if  @ 127 @ 
+expr  @ 272 @ expr  @ 248 @ 
+expr  @ 93 @ expr  @ 105 @ 
+name: H5O_MSG_CONT  @ 198 @ name: H5O_MSG_CONT  @ 259 @ 
+argument  @ 79 @ argument  @ 87 @ 
+name: oh  @ 136 @ name: oh  @ 69 @ 
+decl  @ 14 @ decl  @ 15 @ 
+block_content  @ 248 @ block_content  @ 218 @ 
+block_content  @ 67 @ block_content  @ 5 @ 
+decl_stmt  @ 71 @ decl_stmt  @ 79 @ 
+expr  @ 41 @ expr  @ 45 @ 
+operator: .  @ 49 @ operator: .  @ 54 @ 
+name  @ 172 @ name  @ 186 @ 
+name: H5F_ACC_RDWR  @ 172 @ name: H5F_ACC_RDWR  @ 186 @ 
+expr  @ 97 @ expr  @ 111 @ 
+expr_stmt  @ 232 @ expr_stmt  @ 307 @ 
+block  @ 56 @ block  @ 61 @ 
+name: mesgno  @ 121 @ name: mesgno  @ 138 @ 
+operator: ->  @ 205 @ operator: ->  @ 266 @ 
+operator: !  @ 171 @ operator: !  @ 185 @ 
+name: oh  @ 121 @ name: oh  @ 138 @ 
+block_content  @ 59 @ block_content  @ 64 @ 
+expr  @ 159 @ expr  @ 169 @ 
+operator: (  @ 64 @ operator: (  @ 72 @ 
+literal: 1  @ 199 @ literal: 1  @ 260 @ 
+operator: )  @ 54 @ operator: )  @ 59 @ 
+name: unsigned  @ 128 @ name: unsigned  @ 256 @ 
+name: oh  @ 46 @ name: oh  @ 51 @ 
+name: chunk  @ 64 @ name: chunk  @ 72 @ 
+call  @ 21 @ call  @ 22 @ 
+expr  @ 39 @ expr  @ 41 @ 
+type  @ 26 @ type  @ 27 @ 
+argument  @ 84 @ argument  @ 96 @ 
+decl  @ 128 @ decl  @ 256 @ 
+type  @ 210 @ type  @ 278 @ 
+call  @ 268 @ call  @ 237 @ 
+decl  @ 71 @ decl  @ 79 @ 
+name: native  @ 162 @ name: native  @ 175 @ 
+name: mesg  @ 165 @ name: oh  @ 178 @ 
+operator: )  @ 95 @ operator: )  @ 107 @ 
+expr  @ 153 @ expr  @ 164 @ 
+name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 177 @ name: H5O_MSG_FLAG_WAS_UNKNOWN  @ 199 @ 
+name: addr  @ 36 @ name: addr  @ 44 @ 
+name: size_t  @ 58 @ name: size_t  @ 63 @ 
+macro  @ 92 @ macro  @ 104 @ 
+name  @ 49 @ name  @ 54 @ 
+name: oh  @ 262 @ name: oh  @ 232 @ 
+name: raw_size  @ 122 @ name: raw_size  @ 139 @ 
+operator: )  @ 246 @ operator: )  @ 216 @ 
+if_stmt  @ 106 @ if_stmt  @ 122 @ 
+name: chunkno  @ 7 @ name: chunkno  @ 9 @ 
+expr  @ 276 @ expr  @ 296 @ 
+argument  @ 102 @ argument  @ 116 @ 
+name: oh  @ 123 @ name: oh  @ 140 @ 
+operator: =  @ 254 @ operator: =  @ 224 @ 
+operator: =  @ 35 @ operator: =  @ 37 @ 
+name: chunk  @ 30 @ name: chunk  @ 32 @ 
+argument  @ 268 @ argument  @ 237 @ 
+name  @ 101 @ name  @ 115 @ 
+name: oh  @ 54 @ name: oh  @ 59 @ 
+name: stored_chksum  @ 263 @ name: stored_chksum  @ 233 @ 
+if_stmt  @ 168 @ if_stmt  @ 181 @ 
+operator: ->  @ 28 @ operator: ->  @ 29 @ 
+modifier: *  @ 5 @ modifier: *  @ 6 @ 
+operator: =  @ 220 @ operator: =  @ 289 @ 
+expr  @ 159 @ expr  @ 169 @ 
+operator: ->  @ 42 @ operator: ->  @ 47 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 45 @ 
+name: id  @ 81 @ name: id  @ 89 @ 
+operator: (  @ 54 @ operator: (  @ 59 @ 
+operator: ||  @ 151 @ operator: ||  @ 164 @ 
+name: unsigned  @ 6 @ name: unsigned  @ 8 @ 
+literal: 1  @ 116 @ literal: 1  @ 135 @ 
+name: HDassert  @ 248 @ name: HDassert  @ 218 @ 
+argument  @ 206 @ argument  @ 267 @ 
+name: chunk  @ 257 @ name: chunk  @ 227 @ 
+name  @ 187 @ name  @ 209 @ 
+macro  @ 96 @ macro  @ 108 @ 
+call  @ 84 @ call  @ 96 @ 
+name: udata  @ 205 @ name: udata  @ 266 @ 
+name: chunk_image  @ 58 @ name: p  @ 63 @ 
+name: oh  @ 64 @ name: oh  @ 72 @ 
+name: udata  @ 116 @ name: udata  @ 132 @ 
+expr  @ 84 @ expr  @ 96 @ 
+operator: ==  @ 272 @ operator: ==  @ 248 @ 
+argument  @ 43 @ argument  @ 48 @ 
+argument  @ 206 @ argument  @ 267 @ 
+expr  @ 159 @ expr  @ 169 @ 
+operator: ==  @ 52 @ operator: ==  @ 57 @ 
+operator: &&  @ 95 @ operator: &&  @ 107 @ 
+name  @ 116 @ name  @ 134 @ 
+name: flags  @ 72 @ name: flags  @ 80 @ 
+block  @ 133 @ block  @ 148 @ 
+expr  @ 254 @ expr  @ 240 @ 
+operator: &  @ 168 @ operator: &  @ 181 @ 
+argument  @ 133 @ argument  @ 148 @ 
+name  @ 198 @ name  @ 259 @ 
+expr  @ 24 @ expr  @ 25 @ 
+name: ret_value  @ 12 @ name: ret_value  @ 13 @ 
+operator: =  @ 281 @ operator: =  @ 317 @ 
+operator: ++  @ 81 @ operator: ++  @ 89 @ 
+expr_stmt  @ 254 @ expr_stmt  @ 224 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 59 @ 
+expr  @ 123 @ expr  @ 140 @ 
+name  @ 121 @ name  @ 138 @ 
+name: version  @ 97 @ name: version  @ 111 @ 
+name: H5O_SIZEOF_HDR  @ 39 @ name: H5O_SIZEOF_HDR  @ 41 @ 
+index  @ 116 @ index  @ 134 @ 
+name: UINT16DECODE  @ 102 @ name: UINT16DECODE  @ 116 @ 
+name: alloc_nmesgs  @ 131 @ name: alloc_nmesgs  @ 146 @ 
+operator: =  @ 141 @ operator: =  @ 156 @ 
+operator: .  @ 46 @ operator: .  @ 51 @ 
+decl  @ 70 @ decl  @ 78 @ 
+name: f  @ 214 @ name: f  @ 283 @ 
+name  @ 133 @ name  @ 151 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 46 @ expr  @ 51 @ 
+expr  @ 95 @ expr  @ 107 @ 
+operator: ->  @ 64 @ operator: ->  @ 72 @ 
+name: chunk_image  @ 102 @ name: p  @ 116 @ 
+comment: /* Flags for current message */  @ 72 @ comment: /* Flags for current message */  @ 80 @ 
+operator: +  @ 39 @ operator: +  @ 41 @ 
+operator: ->  @ 162 @ operator: ->  @ 175 @ 
+argument_list  @ 19 @ argument_list  @ 20 @ 
+ifndef  @ 8 @ ifndef  @ 10 @ 
+name: native  @ 142 @ name: native  @ 157 @ 
+name: oh  @ 116 @ name: oh  @ 135 @ 
+block  @ 246 @ block  @ 216 @ 
+type  @ 128 @ type  @ 256 @ 
+block_content  @ 43 @ block_content  @ 48 @ 
+name: size_t  @ 54 @ name: size_t  @ 59 @ 
+operator: )  @ 246 @ operator: )  @ 216 @ 
+decl  @ 12 @ decl  @ 13 @ 
+if_stmt  @ 37 @ if_stmt  @ 38 @ 
+decl  @ 2 @ decl  @ 3 @ 
+name: oh  @ 46 @ name: oh  @ 51 @ 
+decl_stmt  @ 12 @ decl_stmt  @ 13 @ 
+name: cont_msg_info  @ 199 @ name: cont_msg_info  @ 260 @ 
+comment: /* Only decode creation index if they are being tracked */  @ 100 @ comment: /* Only decode creation index if they are being tracked */  @ 114 @ 
+operator: .  @ 122 @ operator: .  @ 139 @ 
+block  @ 79 @ block  @ 87 @ 
+name: nmesgs  @ 121 @ name: nmesgs  @ 138 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+if_stmt  @ 111 @ if_stmt  @ 127 @ 
+if  @ 37 @ if  @ 38 @ 
+expr  @ 49 @ expr  @ 54 @ 
+name: chunkno  @ 46 @ name: chunkno  @ 51 @ 
+name: oh  @ 29 @ name: oh  @ 31 @ 
+expr_stmt  @ 143 @ expr_stmt  @ 158 @ 
+expr  @ 28 @ expr  @ 29 @ 
+operator: .  @ 64 @ operator: .  @ 72 @ 
+name  @ 24 @ name  @ 25 @ 
+name: alloc_nchunks  @ 25 @ name: alloc_nchunks  @ 26 @ 
+expr  @ 39 @ expr  @ 41 @ 
+argument  @ 169 @ argument  @ 182 @ 
+name: oh  @ 122 @ name: oh  @ 139 @ 
+argument  @ 58 @ argument  @ 63 @ 
+argument  @ 246 @ argument  @ 216 @ 
+expr_stmt  @ 124 @ expr_stmt  @ 141 @ 
+call  @ 122 @ call  @ 139 @ 
+name: oh  @ 39 @ name: oh  @ 41 @ 
+expr  @ 112 @ expr  @ 128 @ 
+name: mesgno  @ 122 @ name: mesgno  @ 139 @ 
+operator: =  @ 159 @ operator: =  @ 172 @ 
+operator: >  @ 116 @ operator: >  @ 133 @ 
+name: cont  @ 205 @ name: cont  @ 266 @ 
+name: unknown  @ 155 @ name: unknown  @ 165 @ 
+name: image  @ 49 @ name: image  @ 54 @ 
+operator: .  @ 41 @ operator: .  @ 45 @ 
+name  @ 116 @ name  @ 134 @ 
+name: id  @ 116 @ name: id  @ 133 @ 
+name: oh  @ 56 @ name: oh  @ 61 @ 
+argument_list  @ 289 @ argument_list  @ 321 @ 
+expr  @ 143 @ expr  @ 158 @ 
+operator: -  @ 254 @ operator: -  @ 224 @ 
+expr  @ 227 @ expr  @ 302 @ 
+expr  @ 35 @ expr  @ 37 @ 
+expr  @ 254 @ expr  @ 224 @ 
+argument  @ 21 @ argument  @ 22 @ 
+argument_list  @ 205 @ argument_list  @ 266 @ 
+type  @ 155 @ type  @ 165 @ 
+name: chunkno  @ 64 @ name: chunkno  @ 72 @ 
+type  @ 2 @ type  @ 2 @ 
+call  @ 251 @ call  @ 221 @ 
+name: NULL  @ 158 @ name: NULL  @ 168 @ 
+operator: ==  @ 116 @ operator: ==  @ 133 @ 
+index  @ 187 @ index  @ 209 @ 
+expr  @ 251 @ expr  @ 221 @ 
+expr  @ 21 @ expr  @ 22 @ 
+condition  @ 69 @ condition  @ 76 @ 
+decl  @ 195 @ decl  @ 255 @ 
+expr  @ 141 @ expr  @ 156 @ 
+operator: )  @ 39 @ operator: )  @ 41 @ 
+name: chunk_image  @ 42 @ name: chunk_image  @ 47 @ 
+argument_list  @ 92 @ argument_list  @ 104 @ 
+argument  @ 96 @ argument  @ 108 @ 
+name: oh  @ 43 @ name: oh  @ 224 @ 
+expr_stmt  @ 141 @ expr_stmt  @ 156 @ 
+comment: /* Gaps should only occur in chunks with no null messages */  @ 250 @ comment: /* Gaps should only occur in chunks with no null messages */  @ 220 @ 
+

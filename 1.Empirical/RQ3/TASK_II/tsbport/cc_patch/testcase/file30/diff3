@@ -1,0 +1,11 @@
+498,503c498
+<		if (!tmp) {
+<			r_list_free (ret->data);
+<			R_FREE (ret);
+<			return NULL;
+<		}
+<		if (!r_list_append (ret->data, tmp)) {
+---
+>		if (!tmp || !r_list_append (ret->data, tmp)) {
+504a505
+>			((RList*)ret->data)->free = NULL;

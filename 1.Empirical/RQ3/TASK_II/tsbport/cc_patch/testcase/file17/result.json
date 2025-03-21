@@ -1,0 +1,25 @@
+{
+    "testcase": {
+        "file17": {
+            "match_message": {},
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 23,
+                        "add_hunk": [
+                            "#include <stddef.h>\n",
+                            "#include <vector>\n",
+                            "#include \"tensorflow/lite/c/common.h\"\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {},
+            "verify_patch": null,
+            "patch_types": []
+        }
+    }
+}

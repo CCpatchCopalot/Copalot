@@ -1,0 +1,270 @@
+{
+    "testcase": {
+        "file126": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "156 -> 189",
+                        "L2": "156 -> 189",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:call', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "189",
+                            "verify result": "False"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:call",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "160 -> 193",
+                        "L2": "160 -> 193",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "193",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "191 -> 221",
+                        "L2": "191 -> 221",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "221",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "205 -> 236",
+                        "L2": "206 -> 237",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "236",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "232 -> 260",
+                        "L2": "232 -> 260",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "260",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "234 -> 262",
+                        "L2": "234 -> 262",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:call', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "262",
+                            "verify result": "False"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:call",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 189,
+                        "add_hunk": [
+                            "  unsigned int prec_inc = MAX (0, prec - (workend - string));\n"
+                        ],
+                        "delete_location": [
+                            189,
+                            189
+                        ],
+                        "delete_hunk": [
+                            "  prec = MAX (0, prec - (workend - string));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 193,
+                        "add_hunk": [
+                            "      width -= number_length + prec_inc;\n"
+                        ],
+                        "delete_location": [
+                            193,
+                            193
+                        ],
+                        "delete_hunk": [
+                            "      width -= number_length + prec;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 221,
+                        "add_hunk": [
+                            "      width += prec_inc;\n"
+                        ],
+                        "delete_location": [
+                            221,
+                            221
+                        ],
+                        "delete_hunk": [
+                            "      width += prec;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 236,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 260,
+                        "add_hunk": [
+                            "      width -= number_length + prec_inc;\n"
+                        ],
+                        "delete_location": [
+                            260,
+                            260
+                        ],
+                        "delete_hunk": [
+                            "      width -= workend - string + prec;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 262,
+                        "add_hunk": [
+                            "      Xprintf_buffer_pad (buf, L_('0'), prec_inc);\n"
+                        ],
+                        "delete_location": [
+                            262,
+                            262
+                        ],
+                        "delete_hunk": [
+                            "      Xprintf_buffer_pad (buf, L_('0'), prec);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_2": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_3": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "unknown"
+                    },
+                    "Seg_4": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_5": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "change_type",
+                "change_value"
+            ]
+        }
+    }
+}

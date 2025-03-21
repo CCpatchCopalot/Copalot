@@ -1,0 +1,59 @@
+{
+    "testcase": {
+        "file62": {
+            "match_message": {
+                "Same: H5O_pline_decode -> H5O_pline_decode": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 102->129",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 104->134"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 67,
+                        "add_hunk": [
+                            "#include \"H5Omodule.h\"          /* This source code file is part of the H5O module */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 129,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, \"bad version number for filter pipeline message\")/* Number of filters */",
+                            "if(pline->version < H5O_PLINE_VERSION_1 || pline->version > H5O_PLINE_VERSION_LATEST)\n",
+                            "\tpline->nused = 0;HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, \"filter pipeline message has too many filters\")"
+                        ],
+                        "delete_location": [
+                            130,
+                            134
+                        ],
+                        "delete_hunk": [
+                            "    pline->version = *p++;\n",
+                            "    if(pline->version < H5O_PLINE_VERSION_1 || pline->version > H5O_PLINE_VERSION_LATEST)\n",
+                            "\tHGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, \"bad version number for filter pipeline message\")\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: H5O_pline_decode -> H5O_pline_decode": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

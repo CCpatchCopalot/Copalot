@@ -1,0 +1,720 @@
+decl  @ 2 @ decl  @ 2 @ 
+name: H5_INDEX_NAME  @ 66 @ name: H5_INDEX_NAME  @ 87 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+name: udata  @ 82 @ name: udata  @ 104 @ 
+name: order  @ 28 @ name: order  @ 39 @ 
+expr  @ 76 @ expr  @ 98 @ 
+literal: "unable to close group"  @ 88 @ literal: "unable to close group"  @ 110 @ 
+argument_list  @ 93 @ argument_list  @ 115 @ 
+name: udata  @ 35 @ name: udata  @ 47 @ 
+name: loc  @ 20 @ name: loc  @ 24 @ 
+expr  @ 61 @ expr  @ 82 @ 
+name: visited  @ 82 @ name: visited  @ 104 @ 
+operator: .  @ 33 @ operator: .  @ 44 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 87 @ 
+literal: 0  @ 76 @ literal: 0  @ 98 @ 
+literal: "unable to register group"  @ 23 @ literal: "unable to register group"  @ 29 @ 
+name: H5I_INVALID_HID  @ 86 @ name: H5I_INVALID_HID  @ 108 @ 
+name: H5G_visit  @ 2 @ name: H5G_visit  @ 2 @ 
+operator: =  @ 76 @ operator: =  @ 97 @ 
+expr  @ 59 @ expr  @ 80 @ 
+operator: <  @ 50 @ operator: <  @ 71 @ 
+argument  @ 91 @ argument  @ 113 @ 
+name: H5G__obj_get_linfo  @ 55 @ name: H5G__obj_get_linfo  @ 76 @ 
+operator: ==  @ 66 @ operator: ==  @ 87 @ 
+name: group_name  @ 20 @ name: group_name  @ 24 @ 
+name: H5VL_wrap_register  @ 22 @ name: H5VL_wrap_register  @ 28 @ 
+block  @ 56 @ block  @ 77 @ 
+if  @ 90 @ if  @ 112 @ 
+sizeof  @ 13 @ sizeof  @ 15 @ 
+name: NULL  @ 83 @ name: NULL  @ 105 @ 
+argument  @ 21 @ argument  @ 25 @ 
+decl  @ 4 @ decl  @ 5 @ 
+call  @ 66 @ call  @ 87 @ 
+operator: =  @ 47 @ operator: =  @ 68 @ 
+name: obj_pos  @ 50 @ name: obj_pos  @ 71 @ 
+operator: )  @ 76 @ operator: )  @ 98 @ 
+expr  @ 76 @ expr  @ 98 @ 
+argument  @ 13 @ argument  @ 15 @ 
+type  @ 1 @ type  @ 1 @ 
+if_stmt  @ 70 @ if_stmt  @ 91 @ 
+if  @ 22 @ if  @ 28 @ 
+name: oloc  @ 55 @ name: oloc  @ 76 @ 
+name: start_loc  @ 9 @ name: start_loc  @ 10 @ 
+argument  @ 24 @ argument  @ 32 @ 
+literal: "can't allocate object node"  @ 45 @ literal: "can't allocate object node"  @ 64 @ 
+operator: .  @ 83 @ operator: .  @ 105 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 46 @ 
+argument  @ 88 @ argument  @ 110 @ 
+comment: /* Switch to name order for this group */  @ 71 @ comment: /* Switch to name order for this group */  @ 92 @ 
+condition  @ 86 @ condition  @ 108 @ 
+name: grp  @ 55 @ name: grp  @ 76 @ 
+macro  @ 23 @ macro  @ 29 @ 
+operator: .  @ 50 @ operator: .  @ 71 @ 
+operator: =  @ 35 @ operator: =  @ 47 @ 
+operator: !  @ 18 @ operator: !  @ 20 @ 
+name  @ 26 @ name  @ 37 @ 
+comment: /* Portably clear udata struct (before FUNC_ENTER) */  @ 12 @ comment: /* Portably clear udata struct (before FUNC_ENTER) */  @ 14 @ 
+comment: /* Check args */  @ 17 @ comment: /* Check args */  @ 19 @ 
+operator: =  @ 30 @ operator: =  @ 41 @ 
+operator: )  @ 76 @ operator: )  @ 98 @ 
+if  @ 86 @ if  @ 108 @ 
+name: HGOTO_ERROR  @ 45 @ name: HGOTO_ERROR  @ 64 @ 
+expr  @ 81 @ expr  @ 103 @ 
+operator: )  @ 55 @ operator: )  @ 76 @ 
+block_content  @ 70 @ block_content  @ 91 @ 
+argument  @ 39 @ argument  @ 51 @ 
+name  @ 38 @ name  @ 50 @ 
+expr  @ 72 @ expr  @ 93 @ 
+call  @ 44 @ call  @ 63 @ 
+call  @ 50 @ call  @ 71 @ 
+name: FAIL  @ 10 @ name: FAIL  @ 12 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+init  @ 8 @ init  @ 9 @ 
+name: NULL  @ 44 @ name: NULL  @ 63 @ 
+name: linfo_exists  @ 55 @ name: linfo_exists  @ 76 @ 
+name: HDassert  @ 66 @ name: HDassert  @ 87 @ 
+argument  @ 45 @ argument  @ 64 @ 
+operator: &  @ 13 @ operator: &  @ 15 @ 
+comment: /* Call the link iteration routine */  @ 75 @ comment: /* Call the link iteration routine */  @ 96 @ 
+operator: <  @ 24 @ operator: <  @ 32 @ 
+name: obj_pos  @ 50 @ name: obj_pos  @ 71 @ 
+block  @ 68 @ block  @ 89 @ 
+name: obj_pos  @ 44 @ name: obj_pos  @ 63 @ 
+argument  @ 22 @ argument  @ 28 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+literal: "not a location"  @ 25 @ literal: "not a location"  @ 33 @ 
+name  @ 47 @ name  @ 68 @ 
+if  @ 33 @ if  @ 44 @ 
+name: file  @ 46 @ name: file  @ 67 @ 
+argument_list  @ 55 @ argument_list  @ 76 @ 
+name: herr_t  @ 10 @ name: herr_t  @ 12 @ 
+operator: <  @ 22 @ operator: <  @ 28 @ 
+expr  @ 33 @ expr  @ 44 @ 
+argument  @ 15 @ argument  @ 17 @ 
+decl  @ 41 @ decl  @ 60 @ 
+argument  @ 93 @ argument  @ 115 @ 
+comment: /* Add to list of visited objects */  @ 49 @ comment: /* Add to list of visited objects */  @ 70 @ 
+type  @ 4 @ type  @ 5 @ 
+block_content  @ 88 @ block_content  @ 110 @ 
+argument  @ 21 @ argument  @ 25 @ 
+argument  @ 23 @ argument  @ 29 @ 
+name: udata  @ 25 @ name: udata  @ 36 @ 
+name: HGOTO_ERROR  @ 34 @ name: HGOTO_ERROR  @ 45 @ 
+operator: =  @ 26 @ operator: =  @ 37 @ 
+name: H5_iter_order_t  @ 2 @ name: H5_iter_order_t  @ 2 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+name: HGOTO_ERROR  @ 21 @ name: HGOTO_ERROR  @ 25 @ 
+if_stmt  @ 55 @ if_stmt  @ 76 @ 
+comment: /* Register an ID for the starting group */  @ 21 @ comment: /* Register an ID for the starting group */  @ 27 @ 
+expr  @ 7 @ expr  @ 8 @ 
+name: idx_type  @ 70 @ name: idx_type  @ 91 @ 
+name: path  @ 33 @ name: path  @ 44 @ 
+name: grp  @ 20 @ name: grp  @ 24 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+name  @ 82 @ name  @ 104 @ 
+name: linfo  @ 55 @ name: linfo  @ 76 @ 
+name: idx_type  @ 59 @ name: idx_type  @ 80 @ 
+block_content  @ 41 @ block_content  @ 60 @ 
+macro  @ 77 @ macro  @ 99 @ 
+operator: (  @ 38 @ operator: (  @ 50 @ 
+expr  @ 34 @ expr  @ 46 @ 
+operator: !=  @ 86 @ operator: !=  @ 108 @ 
+block  @ 86 @ block  @ 108 @ 
+name: H5G__obj_iterate  @ 76 @ name: H5G__obj_iterate  @ 98 @ 
+name: grp  @ 90 @ name: grp  @ 112 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 10 @ 
+name: H5G__open_name  @ 20 @ name: H5G__open_name  @ 24 @ 
+if  @ 87 @ if  @ 109 @ 
+operator: <  @ 87 @ operator: <  @ 109 @ 
+argument  @ 25 @ argument  @ 33 @ 
+argument  @ 39 @ argument  @ 51 @ 
+call  @ 33 @ call  @ 44 @ 
+expr  @ 30 @ expr  @ 41 @ 
+condition  @ 22 @ condition  @ 28 @ 
+operator: &  @ 24 @ operator: &  @ 32 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 67 @ 
+else  @ 68 @ else  @ 89 @ 
+expr  @ 38 @ expr  @ 50 @ 
+operator: (  @ 55 @ operator: (  @ 76 @ 
+name: HGOTO_ERROR  @ 19 @ name: HGOTO_ERROR  @ 21 @ 
+operator: .  @ 47 @ operator: .  @ 68 @ 
+name: H5_obj_t  @ 41 @ name: H5_obj_t  @ 60 @ 
+expr_stmt  @ 63 @ expr_stmt  @ 84 @ 
+type  @ 5 @ type  @ 6 @ 
+name: curr_path_len  @ 35 @ name: curr_path_len  @ 47 @ 
+name: char  @ 2 @ name: char  @ 2 @ 
+name: H5G_t  @ 8 @ name: H5G_t  @ 9 @ 
+name: order  @ 28 @ name: order  @ 39 @ 
+argument  @ 76 @ argument  @ 98 @ 
+name: obj_pos  @ 41 @ name: obj_pos  @ 60 @ 
+expr  @ 50 @ expr  @ 71 @ 
+name: FUNC_ENTER_NOAPI  @ 15 @ name: FUNC_ENTER_NOAPI  @ 17 @ 
+if_stmt  @ 50 @ if_stmt  @ 71 @ 
+comment: /* Allocate space for the path name */  @ 32 @ comment: /* Allocate space for the path name */  @ 43 @ 
+if_stmt  @ 87 @ if_stmt  @ 109 @ 
+name: op_data  @ 2 @ name: op_data  @ 3 @ 
+name  @ 33 @ name  @ 44 @ 
+operator: .  @ 81 @ operator: .  @ 103 @ 
+name  @ 28 @ name  @ 39 @ 
+argument  @ 51 @ argument  @ 72 @ 
+operator: .  @ 29 @ operator: .  @ 40 @ 
+argument  @ 24 @ argument  @ 32 @ 
+decl  @ 2 @ decl  @ 2 @ 
+literal: 0  @ 90 @ literal: 0  @ 112 @ 
+expr  @ 83 @ expr  @ 105 @ 
+name: H5L_iterate2_t  @ 2 @ name: H5L_iterate2_t  @ 3 @ 
+expr  @ 76 @ expr  @ 98 @ 
+argument  @ 23 @ argument  @ 29 @ 
+operator: &  @ 76 @ operator: &  @ 98 @ 
+name: gid  @ 25 @ name: gid  @ 36 @ 
+expr  @ 76 @ expr  @ 98 @ 
+if  @ 18 @ if  @ 20 @ 
+argument  @ 90 @ argument  @ 112 @ 
+argument_list  @ 19 @ argument_list  @ 21 @ 
+block_content  @ 66 @ block_content  @ 87 @ 
+call  @ 46 @ call  @ 67 @ 
+name: H5SL_TYPE_OBJ  @ 38 @ name: H5SL_TYPE_OBJ  @ 50 @ 
+if_stmt  @ 44 @ if_stmt  @ 63 @ 
+call  @ 81 @ call  @ 103 @ 
+argument  @ 22 @ argument  @ 28 @ 
+operator: .  @ 82 @ operator: .  @ 104 @ 
+decl  @ 8 @ decl  @ 9 @ 
+argument  @ 91 @ argument  @ 113 @ 
+if  @ 55 @ if  @ 76 @ 
+call  @ 55 @ call  @ 76 @ 
+argument  @ 25 @ argument  @ 33 @ 
+name  @ 29 @ name  @ 40 @ 
+argument  @ 76 @ argument  @ 98 @ 
+expr  @ 29 @ expr  @ 40 @ 
+name: udata  @ 26 @ name: udata  @ 37 @ 
+argument  @ 22 @ argument  @ 28 @ 
+argument  @ 25 @ argument  @ 33 @ 
+expr  @ 33 @ expr  @ 44 @ 
+comment: /* Check for creation order tracking, if creation order index lookup requested */  @ 58 @ comment: /* Check for creation order tracking, if creation order index lookup requested */  @ 79 @ 
+type  @ 9 @ type  @ 10 @ 
+operator: =  @ 38 @ operator: =  @ 50 @ 
+argument_list  @ 39 @ argument_list  @ 51 @ 
+name: udata  @ 34 @ name: udata  @ 46 @ 
+argument  @ 88 @ argument  @ 110 @ 
+name  @ 81 @ name  @ 103 @ 
+literal: 0  @ 22 @ literal: 0  @ 28 @ 
+argument_list  @ 66 @ argument_list  @ 87 @ 
+name: idx_type  @ 72 @ name: idx_type  @ 93 @ 
+argument_list  @ 21 @ argument_list  @ 25 @ 
+operator: =  @ 72 @ operator: =  @ 93 @ 
+if_stmt  @ 59 @ if_stmt  @ 80 @ 
+block_content  @ 83 @ block_content  @ 105 @ 
+name: grp  @ 47 @ name: grp  @ 68 @ 
+comment: /* Set up user data */  @ 25 @ comment: /* Set up user data */  @ 35 @ 
+condition  @ 33 @ condition  @ 44 @ 
+name: udata  @ 83 @ name: udata  @ 105 @ 
+name: addr  @ 47 @ name: addr  @ 68 @ 
+name: grp  @ 46 @ name: grp  @ 67 @ 
+name  @ 55 @ name  @ 76 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: <  @ 76 @ operator: <  @ 98 @ 
+type  @ 2 @ type  @ 2 @ 
+argument_list  @ 20 @ argument_list  @ 24 @ 
+literal: "loc parameter cannot be NULL"  @ 19 @ literal: "loc parameter cannot be NULL"  @ 21 @ 
+name: udata  @ 29 @ name: udata  @ 40 @ 
+macro  @ 15 @ macro  @ 17 @ 
+name: udata  @ 13 @ name: udata  @ 15 @ 
+comment: /* end H5G_visit() */  @ 94 @ comment: /* end H5G_visit() */  @ 116 @ 
+argument  @ 77 @ argument  @ 99 @ 
+decl  @ 2 @ decl  @ 3 @ 
+block_content  @ 51 @ block_content  @ 72 @ 
+operator: (  @ 76 @ operator: (  @ 98 @ 
+name: gid  @ 7 @ name: gid  @ 8 @ 
+call  @ 83 @ call  @ 105 @ 
+block  @ 3 @ block  @ 4 @ 
+operator: )  @ 38 @ operator: )  @ 50 @ 
+name: oloc  @ 46 @ name: oloc  @ 67 @ 
+if  @ 61 @ if  @ 82 @ 
+comment: /* end if */  @ 67 @ comment: /* end if */  @ 88 @ 
+literal: 0  @ 76 @ literal: 0  @ 98 @ 
+condition  @ 90 @ condition  @ 112 @ 
+argument  @ 19 @ argument  @ 21 @ 
+name: group_name  @ 2 @ name: group_name  @ 2 @ 
+name: NULL  @ 8 @ name: NULL  @ 9 @ 
+name  @ 83 @ name  @ 105 @ 
+argument_list  @ 24 @ argument_list  @ 32 @ 
+argument  @ 56 @ argument  @ 77 @ 
+comment: /* Add it to the list of visited objects */  @ 39 @ comment: /* If its ref count is>1, we add it to the list of visited objects */  @ 57 @ 
+argument_list  @ 51 @ argument_list  @ 72 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: =  @ 25 @ operator: =  @ 36 @ 
+expr  @ 87 @ expr  @ 109 @ 
+operator: .  @ 35 @ operator: .  @ 47 @ 
+name: obj_pos  @ 46 @ name: obj_pos  @ 67 @ 
+expr  @ 87 @ expr  @ 109 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 38 @ 
+name: linfo_exists  @ 57 @ name: linfo_exists  @ 78 @ 
+condition  @ 20 @ condition  @ 24 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+operator: )  @ 55 @ operator: )  @ 76 @ 
+operator: =  @ 63 @ operator: =  @ 84 @ 
+argument  @ 77 @ argument  @ 99 @ 
+argument  @ 77 @ argument  @ 99 @ 
+condition  @ 87 @ condition  @ 109 @ 
+argument  @ 25 @ argument  @ 33 @ 
+expr  @ 76 @ expr  @ 97 @ 
+macro  @ 51 @ macro  @ 72 @ 
+name: HDONE_ERROR  @ 91 @ name: HDONE_ERROR  @ 113 @ 
+expr  @ 46 @ expr  @ 67 @ 
+macro  @ 34 @ macro  @ 45 @ 
+expr  @ 27 @ expr  @ 38 @ 
+expr  @ 76 @ expr  @ 98 @ 
+macro  @ 88 @ macro  @ 110 @ 
+argument  @ 76 @ argument  @ 98 @ 
+argument  @ 76 @ argument  @ 98 @ 
+comment: /* Allocate new object "position" node */  @ 43 @ comment: /* Allocate new object "position" node */  @ 62 @ 
+expr  @ 86 @ expr  @ 108 @ 
+argument  @ 88 @ argument  @ 110 @ 
+argument  @ 50 @ argument  @ 71 @ 
+name: HGOTO_ERROR  @ 23 @ name: HGOTO_ERROR  @ 29 @ 
+name: NULL  @ 38 @ name: NULL  @ 50 @ 
+if_stmt  @ 18 @ if_stmt  @ 20 @ 
+operator: !  @ 61 @ operator: !  @ 82 @ 
+expr  @ 83 @ expr  @ 105 @ 
+name: addr  @ 47 @ name: addr  @ 68 @ 
+operator: ==  @ 33 @ operator: ==  @ 44 @ 
+name: udata  @ 33 @ name: udata  @ 44 @ 
+name  @ 46 @ name  @ 67 @ 
+macro  @ 91 @ macro  @ 113 @ 
+block  @ 72 @ block  @ 93 @ 
+expr  @ 20 @ expr  @ 24 @ 
+init  @ 7 @ init  @ 8 @ 
+name: H5_obj_t  @ 44 @ name: H5_obj_t  @ 63 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+expr  @ 50 @ expr  @ 71 @ 
+expr  @ 10 @ expr  @ 12 @ 
+operator: =  @ 34 @ operator: =  @ 46 @ 
+argument  @ 91 @ argument  @ 113 @ 
+name: grp  @ 76 @ name: grp  @ 98 @ 
+block  @ 39 @ block  @ 55 @ 
+name: hsize_t  @ 76 @ name: hsize_t  @ 98 @ 
+name: H5_INDEX_NAME  @ 72 @ name: H5_INDEX_NAME  @ 93 @ 
+argument  @ 87 @ argument  @ 109 @ 
+expr  @ 83 @ expr  @ 105 @ 
+literal: ""  @ 33 @ literal: ""  @ 44 @ 
+block_content  @ 56 @ block_content  @ 77 @ 
+if  @ 38 @ if  @ 50 @ 
+condition  @ 70 @ condition  @ 91 @ 
+type  @ 2 @ type  @ 3 @ 
+comment: /* Release the group opened */  @ 85 @ comment: /* Release the group opened */  @ 107 @ 
+name: done  @ 79 @ name: done  @ 101 @ 
+expr  @ 55 @ expr  @ 76 @ 
+if  @ 82 @ if  @ 104 @ 
+init  @ 10 @ init  @ 12 @ 
+name: H5I_dec_app_ref  @ 87 @ name: H5I_dec_app_ref  @ 109 @ 
+argument_list  @ 87 @ argument_list  @ 109 @ 
+argument_list  @ 83 @ argument_list  @ 105 @ 
+name: HGOTO_ERROR  @ 56 @ name: HGOTO_ERROR  @ 77 @ 
+name: TRUE  @ 22 @ name: TRUE  @ 28 @ 
+expr  @ 44 @ expr  @ 63 @ 
+expr  @ 82 @ expr  @ 104 @ 
+name: idx_type  @ 2 @ name: idx_type  @ 2 @ 
+name  @ 30 @ name  @ 41 @ 
+expr  @ 90 @ expr  @ 112 @ 
+name: H5SL_destroy  @ 83 @ name: H5SL_destroy  @ 105 @ 
+decl  @ 5 @ decl  @ 6 @ 
+argument_list  @ 25 @ argument_list  @ 33 @ 
+operator: .  @ 34 @ operator: .  @ 46 @ 
+block  @ 40 @ block  @ 59 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+comment: /* end if */  @ 73 @ comment: /* end if */  @ 94 @ 
+macro  @ 25 @ macro  @ 33 @ 
+argument  @ 83 @ argument  @ 105 @ 
+operator: =  @ 44 @ operator: =  @ 63 @ 
+name: udata  @ 30 @ name: udata  @ 41 @ 
+if  @ 70 @ if  @ 91 @ 
+argument  @ 13 @ argument  @ 15 @ 
+decl  @ 2 @ decl  @ 3 @ 
+name: ret_value  @ 76 @ name: ret_value  @ 97 @ 
+name: linfo  @ 5 @ name: linfo  @ 6 @ 
+name: order  @ 76 @ name: order  @ 98 @ 
+expr  @ 22 @ expr  @ 28 @ 
+name: udata  @ 38 @ name: udata  @ 50 @ 
+name: idx_type  @ 27 @ name: idx_type  @ 38 @ 
+operator: .  @ 61 @ operator: .  @ 82 @ 
+argument  @ 51 @ argument  @ 72 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+name: op  @ 29 @ name: op  @ 40 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 41 @ 
+expr  @ 81 @ expr  @ 103 @ 
+literal: 1  @ 34 @ literal: 1  @ 46 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 37 @ 
+argument_list  @ 81 @ argument_list  @ 103 @ 
+block_content  @ 77 @ block_content  @ 99 @ 
+block_content  @ 61 @ block_content  @ 82 @ 
+name: path  @ 81 @ name: path  @ 103 @ 
+name  @ 50 @ name  @ 71 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 47 @ 
+condition  @ 59 @ condition  @ 80 @ 
+expr_stmt  @ 83 @ expr_stmt  @ 105 @ 
+expr  @ 57 @ expr  @ 78 @ 
+comment: /* Location of starting group */  @ 9 @ comment: /* Location of starting group */  @ 10 @ 
+expr  @ 25 @ expr  @ 36 @ 
+expr  @ 38 @ expr  @ 50 @ 
+argument  @ 44 @ argument  @ 63 @ 
+block_content  @ 87 @ block_content  @ 109 @ 
+argument_list  @ 91 @ argument_list  @ 113 @ 
+argument_list  @ 13 @ argument_list  @ 15 @ 
+if_stmt  @ 76 @ if_stmt  @ 97 @ 
+argument  @ 19 @ argument  @ 21 @ 
+argument_list  @ 76 @ argument_list  @ 98 @ 
+block_content  @ 91 @ block_content  @ 113 @ 
+argument  @ 81 @ argument  @ 103 @ 
+comment: /* Group ID */  @ 7 @ comment: /* Group ID */  @ 8 @ 
+literal: 0  @ 35 @ literal: 0  @ 47 @ 
+literal: "unable to open group"  @ 21 @ literal: "unable to open group"  @ 25 @ 
+name: HGOTO_ERROR  @ 51 @ name: HGOTO_ERROR  @ 72 @ 
+call  @ 90 @ call  @ 112 @ 
+name: HDONE_ERROR  @ 88 @ name: HDONE_ERROR  @ 110 @ 
+block  @ 34 @ block  @ 45 @ 
+block  @ 88 @ block  @ 110 @ 
+operator: )  @ 76 @ operator: )  @ 98 @ 
+name: hid_t  @ 7 @ name: hid_t  @ 8 @ 
+expr  @ 13 @ expr  @ 15 @ 
+operator: (  @ 20 @ operator: (  @ 24 @ 
+block_content  @ 23 @ block_content  @ 29 @ 
+argument_list  @ 46 @ argument_list  @ 67 @ 
+operator: =  @ 55 @ operator: =  @ 76 @ 
+name: udata  @ 50 @ name: udata  @ 71 @ 
+argument  @ 45 @ argument  @ 64 @ 
+expr  @ 24 @ expr  @ 32 @ 
+name: op  @ 2 @ name: op  @ 3 @ 
+condition  @ 55 @ condition  @ 76 @ 
+argument  @ 50 @ argument  @ 71 @ 
+macro  @ 56 @ macro  @ 77 @ 
+name: visited  @ 50 @ name: visited  @ 71 @ 
+operator: ==  @ 20 @ operator: ==  @ 24 @ 
+argument_list  @ 38 @ argument_list  @ 50 @ 
+operator: )  @ 33 @ operator: )  @ 44 @ 
+expr  @ 55 @ expr  @ 76 @ 
+name: start_loc  @ 26 @ name: start_loc  @ 37 @ 
+argument  @ 51 @ argument  @ 72 @ 
+block  @ 23 @ block  @ 29 @ 
+if_stmt  @ 57 @ if_stmt  @ 78 @ 
+name: void  @ 2 @ name: void  @ 3 @ 
+if_stmt  @ 82 @ if_stmt  @ 104 @ 
+argument  @ 20 @ argument  @ 24 @ 
+expr  @ 44 @ expr  @ 63 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 9 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 103 @ 
+macro  @ 93 @ macro  @ 115 @ 
+argument  @ 91 @ argument  @ 113 @ 
+operator: =  @ 22 @ operator: =  @ 28 @ 
+name: op_data  @ 30 @ name: op_data  @ 41 @ 
+block_content  @ 39 @ block_content  @ 55 @ 
+expr  @ 22 @ expr  @ 28 @ 
+name: visited  @ 38 @ name: visited  @ 50 @ 
+literal: "can't allocate path name buffer"  @ 34 @ literal: "can't allocate path name buffer"  @ 45 @ 
+operator: (  @ 55 @ operator: (  @ 76 @ 
+expr  @ 38 @ expr  @ 50 @ 
+argument  @ 88 @ argument  @ 110 @ 
+block  @ 66 @ block  @ 87 @ 
+operator: )  @ 20 @ operator: )  @ 24 @ 
+type  @ 7 @ type  @ 8 @ 
+decl  @ 10 @ decl  @ 12 @ 
+expr_stmt  @ 47 @ expr_stmt  @ 68 @ 
+name  @ 27 @ name  @ 38 @ 
+argument_list  @ 15 @ argument_list  @ 17 @ 
+block  @ 83 @ block  @ 105 @ 
+argument  @ 13 @ argument  @ 15 @ 
+if  @ 20 @ if  @ 24 @ 
+condition  @ 38 @ condition  @ 50 @ 
+name: linfo_exists  @ 6 @ name: linfo_exists  @ 7 @ 
+operator: (  @ 76 @ operator: (  @ 98 @ 
+operator: .  @ 38 @ operator: .  @ 50 @ 
+argument_list  @ 44 @ argument_list  @ 63 @ 
+name: fileno  @ 46 @ name: fileno  @ 67 @ 
+name: oloc  @ 47 @ name: oloc  @ 68 @ 
+condition  @ 44 @ condition  @ 63 @ 
+argument  @ 34 @ argument  @ 45 @ 
+name: start_loc  @ 24 @ name: start_loc  @ 32 @ 
+literal: 0  @ 87 @ literal: 0  @ 109 @ 
+operator: <  @ 90 @ operator: <  @ 112 @ 
+name: NULL  @ 20 @ name: NULL  @ 24 @ 
+name: H5_index_t  @ 2 @ name: H5_index_t  @ 2 @ 
+expr  @ 13 @ expr  @ 15 @ 
+operator: ->  @ 47 @ operator: ->  @ 68 @ 
+name: H5I_INVALID_HID  @ 7 @ name: H5I_INVALID_HID  @ 8 @ 
+if_stmt  @ 86 @ if_stmt  @ 108 @ 
+comment: /* Switch to name order for this group */  @ 62 @ comment: /* Switch to name order for this group */  @ 83 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 15 @ 
+condition  @ 82 @ condition  @ 104 @ 
+name: loc  @ 18 @ name: loc  @ 20 @ 
+if  @ 50 @ if  @ 71 @ 
+name: HGOTO_ERROR  @ 39 @ name: HGOTO_ERROR  @ 51 @ 
+name: H5G__visit_cb  @ 76 @ name: H5G__visit_cb  @ 98 @ 
+operator: .  @ 25 @ operator: .  @ 36 @ 
+type  @ 6 @ type  @ 7 @ 
+name: udata  @ 27 @ name: udata  @ 38 @ 
+block_content  @ 59 @ block_content  @ 80 @ 
+type  @ 2 @ type  @ 2 @ 
+argument  @ 83 @ argument  @ 105 @ 
+type  @ 8 @ type  @ 9 @ 
+operator: &&  @ 90 @ operator: &&  @ 112 @ 
+if_stmt  @ 22 @ if_stmt  @ 28 @ 
+argument_list  @ 50 @ argument_list  @ 71 @ 
+literal: "unable to release group"  @ 91 @ literal: "unable to release group"  @ 113 @ 
+comment: /* Get the location of the starting group */  @ 23 @ comment: /* Get the location of the starting group */  @ 31 @ 
+call  @ 38 @ call  @ 50 @ 
+operator: =  @ 29 @ operator: =  @ 40 @ 
+condition  @ 61 @ condition  @ 82 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+comment: /* Link info message */  @ 5 @ comment: /* Link info message */  @ 6 @ 
+operator: ->  @ 46 @ operator: ->  @ 67 @ 
+comment: /* Attempt to get the link info for this group */  @ 54 @ comment: /* Attempt to get the link info for this group */  @ 75 @ 
+name: track_corder  @ 61 @ name: track_corder  @ 82 @ 
+argument_list  @ 13 @ argument_list  @ 15 @ 
+literal: "can't visit links"  @ 77 @ literal: "can't visit links"  @ 99 @ 
+name: NULL  @ 38 @ name: NULL  @ 50 @ 
+name: H5G_loc  @ 24 @ name: H5G_loc  @ 32 @ 
+if  @ 76 @ if  @ 97 @ 
+expr  @ 63 @ expr  @ 84 @ 
+block  @ 19 @ block  @ 21 @ 
+if_stmt  @ 24 @ if_stmt  @ 32 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: obj_pos  @ 47 @ name: obj_pos  @ 68 @ 
+name: H5MM_strdup  @ 33 @ name: H5MM_strdup  @ 44 @ 
+expr  @ 13 @ expr  @ 15 @ 
+operator: =  @ 20 @ operator: =  @ 24 @ 
+name: gid  @ 25 @ name: gid  @ 36 @ 
+name: H5G_iter_visit_ud_t  @ 4 @ name: H5G_iter_visit_ud_t  @ 5 @ 
+name: grp  @ 22 @ name: grp  @ 28 @ 
+operator: =  @ 33 @ operator: =  @ 44 @ 
+operator: (  @ 76 @ operator: (  @ 97 @ 
+modifier: *  @ 8 @ modifier: *  @ 9 @ 
+argument  @ 46 @ argument  @ 67 @ 
+argument_list  @ 77 @ argument_list  @ 99 @ 
+comment: /* Whether the link info message exists */  @ 6 @ comment: /* Whether the link info message exists */  @ 7 @ 
+argument  @ 38 @ argument  @ 50 @ 
+argument  @ 21 @ argument  @ 25 @ 
+decl  @ 7 @ decl  @ 8 @ 
+name: grp  @ 90 @ name: grp  @ 112 @ 
+macro  @ 45 @ macro  @ 64 @ 
+call  @ 87 @ call  @ 109 @ 
+if  @ 24 @ if  @ 32 @ 
+name  @ 25 @ name  @ 36 @ 
+operator: &  @ 76 @ operator: &  @ 98 @ 
+name: udata  @ 13 @ name: udata  @ 15 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 39 @ 
+condition  @ 57 @ condition  @ 78 @ 
+block_content  @ 63 @ block_content  @ 84 @ 
+modifier: *  @ 41 @ modifier: *  @ 60 @ 
+expr  @ 76 @ expr  @ 98 @ 
+name: gid  @ 86 @ name: gid  @ 108 @ 
+if_stmt  @ 38 @ if_stmt  @ 50 @ 
+argument  @ 21 @ argument  @ 25 @ 
+block_content  @ 72 @ block_content  @ 93 @ 
+operator: =  @ 28 @ operator: =  @ 39 @ 
+name: H5_INDEX_CRT_ORDER  @ 59 @ name: H5_INDEX_CRT_ORDER  @ 80 @ 
+block_content  @ 45 @ block_content  @ 64 @ 
+expr_stmt  @ 72 @ expr_stmt  @ 93 @ 
+argument  @ 23 @ argument  @ 29 @ 
+name: visited  @ 83 @ name: visited  @ 105 @ 
+name  @ 34 @ name  @ 46 @ 
+name: gid  @ 22 @ name: gid  @ 28 @ 
+name  @ 35 @ name  @ 47 @ 
+literal: 0  @ 24 @ literal: 0  @ 32 @ 
+block  @ 21 @ block  @ 25 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 40 @ 
+name: NULL  @ 33 @ name: NULL  @ 44 @ 
+name: H5SL_insert  @ 50 @ name: H5SL_insert  @ 71 @ 
+if  @ 57 @ if  @ 78 @ 
+name: oloc  @ 76 @ name: oloc  @ 98 @ 
+decl  @ 9 @ decl  @ 10 @ 
+name  @ 76 @ name  @ 98 @ 
+name: NULL  @ 76 @ name: NULL  @ 98 @ 
+operator: ->  @ 76 @ operator: ->  @ 98 @ 
+operator: (  @ 33 @ operator: (  @ 44 @ 
+name: htri_t  @ 6 @ name: htri_t  @ 7 @ 
+argument  @ 45 @ argument  @ 64 @ 
+block  @ 25 @ block  @ 33 @ 
+name: H5SL_create  @ 38 @ name: H5SL_create  @ 50 @ 
+name: H5G_loc_t  @ 2 @ name: H5G_loc_t  @ 2 @ 
+macro  @ 21 @ macro  @ 25 @ 
+expr  @ 46 @ expr  @ 67 @ 
+argument  @ 66 @ argument  @ 87 @ 
+call  @ 76 @ call  @ 98 @ 
+operator: ==  @ 59 @ operator: ==  @ 80 @ 
+expr  @ 83 @ expr  @ 105 @ 
+argument  @ 56 @ argument  @ 77 @ 
+comment: /* Release user data resources */  @ 80 @ comment: /* Release user data resources */  @ 102 @ 
+name: path_buf_size  @ 34 @ name: path_buf_size  @ 46 @ 
+name: udata  @ 28 @ name: udata  @ 39 @ 
+argument_list  @ 90 @ argument_list  @ 112 @ 
+name: H5O_linfo_t  @ 5 @ name: H5O_linfo_t  @ 6 @ 
+comment: /* Open the group to begin visiting within */  @ 19 @ comment: /* Open the group to begin visiting within */  @ 23 @ 
+name  @ 47 @ name  @ 68 @ 
+name: H5_INDEX_NAME  @ 63 @ name: H5_INDEX_NAME  @ 84 @ 
+type  @ 41 @ type  @ 60 @ 
+operator: ==  @ 38 @ operator: ==  @ 50 @ 
+literal: 0  @ 50 @ literal: 0  @ 71 @ 
+operator: =  @ 27 @ operator: =  @ 38 @ 
+operator: ->  @ 46 @ operator: ->  @ 67 @ 
+argument_list  @ 45 @ argument_list  @ 64 @ 
+else  @ 65 @ else  @ 86 @ 
+call  @ 20 @ call  @ 24 @ 
+name: order  @ 2 @ name: order  @ 2 @ 
+literal: "can't check for link info message"  @ 56 @ literal: "can't check for link info message"  @ 77 @ 
+comment: /* Construct unique "position" for this object */  @ 45 @ comment: /* Construct unique "position" for this object */  @ 66 @ 
+expr  @ 20 @ expr  @ 24 @ 
+name: H5FL_MALLOC  @ 44 @ name: H5FL_MALLOC  @ 63 @ 
+block_content  @ 4 @ block_content  @ 5 @ 
+expr  @ 22 @ expr  @ 28 @ 
+expr  @ 47 @ expr  @ 68 @ 
+argument_list  @ 33 @ argument_list  @ 44 @ 
+expr  @ 55 @ expr  @ 76 @ 
+block  @ 45 @ block  @ 64 @ 
+name: udata  @ 4 @ name: udata  @ 5 @ 
+operator: .  @ 30 @ operator: .  @ 41 @ 
+comment: /* User data for callback */  @ 4 @ comment: /* User data for callback */  @ 5 @ 
+comment: /* Return value */  @ 10 @ comment: /* Return value */  @ 12 @ 
+operator: &  @ 55 @ operator: &  @ 76 @ 
+name: HGOTO_ERROR  @ 77 @ name: HGOTO_ERROR  @ 99 @ 
+if_stmt  @ 61 @ if_stmt  @ 82 @ 
+name: udata  @ 76 @ name: udata  @ 98 @ 
+type  @ 2 @ type  @ 2 @ 
+argument  @ 55 @ argument  @ 76 @ 
+expr  @ 28 @ expr  @ 39 @ 
+argument  @ 50 @ argument  @ 71 @ 
+expr  @ 26 @ expr  @ 37 @ 
+operator: .  @ 27 @ operator: .  @ 38 @ 
+macro  @ 19 @ macro  @ 21 @ 
+argument  @ 45 @ argument  @ 64 @ 
+name: curr_loc  @ 26 @ name: curr_loc  @ 37 @ 
+expr  @ 66 @ expr  @ 87 @ 
+condition  @ 24 @ condition  @ 32 @ 
+name: H5G__free_visit_visited  @ 83 @ name: H5G__free_visit_visited  @ 105 @ 
+expr  @ 90 @ expr  @ 112 @ 
+argument_list  @ 88 @ argument_list  @ 110 @ 
+operator: ->  @ 47 @ operator: ->  @ 68 @ 
+expr  @ 50 @ expr  @ 71 @ 
+block  @ 59 @ block  @ 80 @ 
+name: op  @ 29 @ name: op  @ 40 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+argument  @ 39 @ argument  @ 51 @ 
+block  @ 91 @ block  @ 113 @ 
+expr  @ 8 @ expr  @ 9 @ 
+comment: /* Check if creation order is tracked */  @ 60 @ comment: /* Check if creation order is tracked */  @ 81 @ 
+argument  @ 76 @ argument  @ 98 @ 
+argument  @ 19 @ argument  @ 21 @ 
+block  @ 57 @ block  @ 78 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+condition  @ 76 @ condition  @ 97 @ 
+argument  @ 34 @ argument  @ 45 @ 
+expr  @ 13 @ expr  @ 15 @ 
+argument_list  @ 22 @ argument_list  @ 28 @ 
+operator: .  @ 26 @ operator: .  @ 37 @ 
+block_content  @ 21 @ block_content  @ 25 @ 
+name: HGOTO_ERROR  @ 25 @ name: HGOTO_ERROR  @ 33 @ 
+expr  @ 20 @ expr  @ 24 @ 
+operator: &  @ 26 @ operator: &  @ 37 @ 
+block  @ 51 @ block  @ 72 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 76 @ argument  @ 98 @ 
+block_content  @ 19 @ block_content  @ 21 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: ==  @ 44 @ operator: ==  @ 63 @ 
+argument  @ 46 @ argument  @ 67 @ 
+argument_list  @ 34 @ argument_list  @ 45 @ 
+operator: (  @ 22 @ operator: (  @ 28 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr  @ 76 @ expr  @ 98 @ 
+if_stmt  @ 20 @ if_stmt  @ 24 @ 
+operator: )  @ 22 @ operator: )  @ 28 @ 
+name: FUNC_LEAVE_NOAPI  @ 93 @ name: FUNC_LEAVE_NOAPI  @ 115 @ 
+name: idx_type  @ 66 @ name: idx_type  @ 87 @ 
+argument  @ 20 @ argument  @ 24 @ 
+condition  @ 50 @ condition  @ 71 @ 
+argument  @ 51 @ argument  @ 72 @ 
+block_content  @ 25 @ block_content  @ 33 @ 
+operator: !=  @ 70 @ operator: !=  @ 91 @ 
+type  @ 10 @ type  @ 12 @ 
+argument  @ 33 @ argument  @ 44 @ 
+call  @ 13 @ call  @ 15 @ 
+argument  @ 23 @ argument  @ 29 @ 
+argument  @ 38 @ argument  @ 50 @ 
+comment: /* Group opened */  @ 8 @ comment: /* Group opened */  @ 9 @ 
+call  @ 22 @ call  @ 28 @ 
+argument  @ 34 @ argument  @ 45 @ 
+argument  @ 13 @ argument  @ 15 @ 
+expr  @ 24 @ expr  @ 32 @ 
+operator: &  @ 55 @ operator: &  @ 76 @ 
+if_stmt  @ 33 @ if_stmt  @ 44 @ 
+condition  @ 18 @ condition  @ 20 @ 
+block_content  @ 34 @ block_content  @ 45 @ 
+call  @ 24 @ call  @ 32 @ 
+name: linfo  @ 61 @ name: linfo  @ 82 @ 
+comment: /* Can only perform name lookups on groups with symbol tables */  @ 69 @ comment: /* Can only perform name lookups on groups with symbol tables */  @ 90 @ 
+expr  @ 18 @ expr  @ 20 @ 
+decl  @ 6 @ decl  @ 7 @ 
+block  @ 63 @ block  @ 84 @ 
+literal: 0  @ 13 @ literal: 0  @ 15 @ 
+expr  @ 66 @ expr  @ 87 @ 
+argument  @ 77 @ argument  @ 99 @ 
+expr  @ 22 @ expr  @ 28 @ 
+operator: ->  @ 55 @ operator: ->  @ 76 @ 
+name: gid  @ 87 @ name: gid  @ 109 @ 
+argument  @ 19 @ argument  @ 21 @ 
+argument_list  @ 23 @ argument_list  @ 29 @ 
+literal: "can't insert object node into visited list"  @ 51 @ literal: "can't insert object node into visited list"  @ 72 @ 
+name: HDmemset  @ 13 @ name: HDmemset  @ 15 @ 
+decl_stmt  @ 41 @ decl_stmt  @ 60 @ 
+expr  @ 13 @ expr  @ 15 @ 
+name: H5MM_xfree  @ 81 @ name: H5MM_xfree  @ 103 @ 
+argument  @ 34 @ argument  @ 45 @ 
+name: idx_type  @ 63 @ name: idx_type  @ 84 @ 
+comment: /* New object node for visited list */  @ 41 @ comment: /* New object node for visited list */  @ 60 @ 
+name: ret_value  @ 10 @ name: ret_value  @ 12 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 36 @ 
+comment: /* Create skip list to store visited object information */  @ 37 @ comment: /* Create skip list to store visited object information */  @ 49 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 12 @ 
+function  @ 1 @ function  @ 1 @ 
+name  @ 61 @ name  @ 82 @ 
+name: idx_type  @ 76 @ name: idx_type  @ 98 @ 
+name: loc  @ 2 @ name: loc  @ 2 @ 
+if  @ 44 @ if  @ 63 @ 
+name: gid  @ 24 @ name: gid  @ 32 @ 
+expr  @ 35 @ expr  @ 47 @ 
+block  @ 77 @ block  @ 99 @ 
+expr  @ 50 @ expr  @ 71 @ 
+expr  @ 46 @ expr  @ 67 @ 
+name: H5_INDEX_NAME  @ 70 @ name: H5_INDEX_NAME  @ 91 @ 
+argument  @ 83 @ argument  @ 105 @ 
+operator: <  @ 55 @ operator: <  @ 76 @ 
+argument  @ 39 @ argument  @ 51 @ 
+operator: (  @ 44 @ operator: (  @ 63 @ 
+macro  @ 39 @ macro  @ 51 @ 
+literal: 0  @ 55 @ literal: 0  @ 76 @ 
+operator: .  @ 28 @ operator: .  @ 39 @ 
+argument_list  @ 56 @ argument_list  @ 77 @ 
+comment: /* end if */  @ 64 @ comment: /* end if */  @ 85 @ 
+expr  @ 70 @ expr  @ 91 @ 
+name: udata  @ 81 @ name: udata  @ 103 @ 
+operator: )  @ 44 @ operator: )  @ 63 @ 
+argument  @ 56 @ argument  @ 77 @ 
+name: H5G_loc_t  @ 9 @ name: H5G_loc_t  @ 10 @ 
+type  @ 2 @ type  @ 3 @ 
+name: op_data  @ 30 @ name: op_data  @ 41 @ 
+name: H5G_close  @ 90 @ name: H5G_close  @ 112 @ 
+operator: .  @ 46 @ operator: .  @ 67 @ 
+name: H5I_GROUP  @ 22 @ name: H5I_GROUP  @ 28 @ 
+expr  @ 24 @ expr  @ 32 @ 
+name: grp  @ 8 @ name: grp  @ 9 @ 
+label  @ 79 @ label  @ 101 @ 
+argument  @ 56 @ argument  @ 77 @ 
+argument  @ 76 @ argument  @ 98 @ 
+decl  @ 2 @ decl  @ 2 @ 
+literal: "can't create skip list for visited objects"  @ 39 @ literal: "can't create skip list for visited objects"  @ 51 @ 
+name: H5F_GET_FILENO  @ 46 @ name: H5F_GET_FILENO  @ 67 @ 
+name  @ 46 @ name  @ 67 @ 
+argument  @ 55 @ argument  @ 76 @ 
+if  @ 59 @ if  @ 80 @ 
+name: idx_type  @ 27 @ name: idx_type  @ 38 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+

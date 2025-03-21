@@ -1,0 +1,42 @@
+48c48,49
+<     // Validate that the splits are valid indices into data
+---
+>     // Validate that the splits are valid indices into data, only if there are
+>     // splits specified.
+51,52c52,56
+<     for (int i = 0; i < splits_vec_size; ++i) {
+<       bool valid_splits = splits_vec(i) >= 0;
+---
+>     if (splits_vec_size > 0) {
+>       int prev_split = splits_vec(0);
+>       OP_REQUIRES(context, prev_split == 0,errors::InvalidArgument("First split value must be 0, got ",prev_split));
+>       for (int i = 1; i < splits_vec_size; ++i) {
+>         bool valid_splits = splits_vec(i) >= prev_split;
+54c58,61
+<       OP_REQUIRES(context, valid_splits,errors::InvalidArgument("Invalid split value ", splits_vec(i),", must be in [0,", input_data_size, "]"));
+---
+>         OP_REQUIRES(context, valid_splits,errors::InvalidArgument("Invalid split value ", splits_vec(i), ", must be in [",prev_split, ", ", input_data_size, "]"));
+>         prev_split = splits_vec(i);
+>       }
+>       OP_REQUIRES(context, prev_split == input_data_size,errors::InvalidArgument("Last split value must be data size. Expected ",input_data_size, ", got ", prev_split));
+137a145
+>       // Only output first num_tokens - 1 pairs of data and separator
+141a150,155
+>       // Handle case when there are no tokens or no right padding as these can
+>       // result in consecutive separators.
+>       if (num_tokens > 0) {
+>         // If we have tokens, then output last and then pair each separator with
+>         // the right padding that follows, to ensure ngram ends either with the
+>         // token or with the right pad.
+144a159,169
+>           ngram->append(right_pad_);
+>         }
+>       } else {
+>         // If we don't have tokens, then the last item inserted into the ngram
+>         // has been the separator from the left padding loop above. Hence,
+>         // output right pad and separator and make sure to finish with a
+>         // padding, not a separator.
+>         for (int n = 0; n < right_padding - 1; ++n) {
+>           ngram->append(right_pad_);
+>           ngram->append(separator_);
+>         }

@@ -1,0 +1,43 @@
+{
+    "testcase": {
+        "file169": {
+            "match_message": {
+                "Syntax: mp4s_box_new -> mp4s_New": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "7: Context line (Ignored) is empty or comment 4024",
+                        "L2": "7: Context line (Ignored) is empty or comment 4024"
+                    }
+                },
+                "Syntax: encs_box_new -> encs_New": {
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "7: Context line (Ignored) is empty or comment 4032",
+                        "L2": "7: Context line (Ignored) is empty or comment 4032"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 27,
+                        "add_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: mp4s_box_new -> mp4s_New": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Syntax: encs_box_new -> encs_New": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": []
+        }
+    }
+}

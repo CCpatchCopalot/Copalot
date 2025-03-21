@@ -1,0 +1,138 @@
+name  @ 8 @ name  @ 14 @ 
+name: L  @ 15 @ name: L  @ 8 @ 
+comment: /* update 'oldpc' */  @ 19 @ comment: /* 0 iff wanted == LUA_MULTRET */  @ 22 @ 
+name: u  @ 7 @ name: u  @ 11 @ 
+name: L  @ 11 @ name: L  @ 6 @ 
+name: int  @ 3 @ name: int  @ 3 @ 
+expr  @ 5 @ expr  @ 9 @ 
+name  @ 19 @ name  @ 11 @ 
+decl  @ 1 @ decl  @ 3 @ 
+expr  @ 11 @ expr  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+operator: -  @ 15 @ operator: -  @ 8 @ 
+name: luaD_hook  @ 15 @ name: luaD_hook  @ 8 @ 
+name: nres  @ 1 @ name: wanted  @ 3 @ 
+name: oldtop  @ 2 @ name: ci  @ 4 @ 
+name  @ 11 @ name  @ 6 @ 
+name: top  @ 8 @ name: top  @ 17 @ 
+name: ftransfer  @ 12 @ name: firstResult  @ 17 @ 
+operator: ->  @ 19 @ operator: (  @ 22 @ 
+name: l  @ 19 @ name: LUA_MULTRET  @ 22 @ 
+name: L  @ 2 @ name: L  @ 7 @ 
+argument  @ 15 @ argument  @ 8 @ 
+argument  @ 15 @ argument  @ 8 @ 
+argument  @ 20 @ argument  @ 18 @ 
+name: delta  @ 3 @ name: fr  @ 7 @ 
+expr  @ 15 @ expr  @ 8 @ 
+operator: .  @ 7 @ operator: .  @ 11 @ 
+argument_list  @ 5 @ argument_list  @ 9 @ 
+init  @ 3 @ init  @ 7 @ 
+name: Proto  @ 5 @ name: firstResult  @ 9 @ 
+name  @ 13 @ name  @ 13 @ 
+operator: =  @ 18 @ operator: ++  @ 20 @ 
+expr  @ 9 @ expr  @ 21 @ 
+name: LUA_HOOKRET  @ 15 @ name: LUA_HOOKRET  @ 8 @ 
+name: u  @ 19 @ name: wanted  @ 22 @ 
+name: ci  @ 9 @ name: res  @ 21 @ 
+operator: ->  @ 16 @ operator: --  @ 19 @ 
+expr  @ 19 @ expr  @ 22 @ 
+name: StkId  @ 1 @ name: StkId  @ 1 @ 
+expr  @ 13 @ expr  @ 13 @ 
+name: ci_func  @ 5 @ name: restorestack  @ 9 @ 
+name: top  @ 8 @ name: nresults  @ 14 @ 
+operator: ->  @ 11 @ operator: ->  @ 6 @ 
+operator: ->  @ 19 @ operator: ->  @ 11 @ 
+name: previous  @ 18 @ name: previous  @ 15 @ 
+operator: =  @ 7 @ operator: =  @ 11 @ 
+operator: +  @ 7 @ operator: =  @ 13 @ 
+name: ci  @ 8 @ name: ci  @ 14 @ 
+name: savestack  @ 2 @ name: L  @ 4 @ 
+operator: =  @ 9 @ operator: =  @ 21 @ 
+argument  @ 2 @ argument  @ 7 @ 
+name: ftransfer  @ 15 @ name: firstResult  @ 18 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+argument  @ 5 @ argument  @ 9 @ 
+call  @ 5 @ call  @ 9 @ 
+name: ftransfer  @ 14 @ name: i  @ 17 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 15 @ argument  @ 18 @ 
+name: lua_State  @ 1 @ name: lua_State  @ 1 @ 
+name: ci  @ 13 @ name: ci  @ 13 @ 
+expr  @ 2 @ expr  @ 7 @ 
+name: top  @ 9 @ name: top  @ 21 @ 
+operator: .  @ 7 @ operator: .  @ 11 @ 
+name: L  @ 19 @ name: L  @ 11 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+expr  @ 18 @ expr  @ 20 @ 
+name  @ 7 @ name  @ 11 @ 
+type  @ 2 @ type  @ 7 @ 
+name: ci  @ 16 @ name: i  @ 19 @ 
+name  @ 8 @ name  @ 17 @ 
+condition  @ 11 @ condition  @ 6 @ 
+name: hookmask  @ 11 @ name: hookmask  @ 6 @ 
+operator: ->  @ 9 @ operator: ->  @ 21 @ 
+name: isLua  @ 18 @ name: setnilvalue  @ 20 @ 
+modifier: *  @ 1 @ modifier: *  @ 4 @ 
+type  @ 3 @ type  @ 3 @ 
+comment: /* correct top to run hook */  @ 9 @ comment: /* move results to correct place */  @ 16 @ 
+expr  @ 20 @ expr  @ 18 @ 
+name: ptrdiff_t  @ 2 @ name: ptrdiff_t  @ 7 @ 
+name: L  @ 20 @ name: L  @ 18 @ 
+operator: ->  @ 8 @ operator: ->  @ 17 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 21 @ 
+name: L  @ 1 @ name: L  @ 1 @ 
+literal: 1  @ 15 @ literal: 1  @ 8 @ 
+operator: =  @ 14 @ operator: --  @ 17 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name  @ 9 @ name  @ 21 @ 
+expr  @ 18 @ expr  @ 20 @ 
+call  @ 15 @ call  @ 8 @ 
+type  @ 1 @ type  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: .  @ 19 @ operator: -  @ 22 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: &  @ 11 @ operator: &  @ 6 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+argument_list  @ 15 @ argument_list  @ 8 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 8 @ 
+expr  @ 14 @ expr  @ 17 @ 
+operator: ->  @ 7 @ operator: ->  @ 11 @ 
+name  @ 18 @ name  @ 15 @ 
+name: ci  @ 7 @ name: ci  @ 11 @ 
+operator: ->  @ 18 @ operator: ->  @ 15 @ 
+expr  @ 15 @ expr  @ 18 @ 
+expr  @ 16 @ expr  @ 19 @ 
+function  @ 1 @ function  @ 1 @ 
+name: firstres  @ 1 @ name: firstResult  @ 1 @ 
+operator: ->  @ 8 @ operator: ->  @ 14 @ 
+argument  @ 18 @ argument  @ 20 @ 
+expr  @ 15 @ expr  @ 8 @ 
+name: LUA_MASKRET  @ 11 @ name: LUA_MASKRET  @ 6 @ 
+name: rethook  @ 1 @ name: luaD_poscall  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: ci  @ 5 @ name: L  @ 9 @ 
+argument_list  @ 18 @ argument_list  @ 20 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+expr  @ 15 @ expr  @ 8 @ 
+expr  @ 15 @ expr  @ 8 @ 
+call  @ 18 @ call  @ 20 @ 
+operator: .  @ 19 @ operator: )  @ 22 @ 
+argument  @ 15 @ argument  @ 8 @ 
+name: L  @ 9 @ name: L  @ 21 @ 
+name: oldpc  @ 19 @ name: oldpc  @ 11 @ 
+name: int  @ 12 @ name: i  @ 17 @ 
+name: ci  @ 18 @ name: res  @ 20 @ 
+type  @ 1 @ type  @ 4 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+decl  @ 3 @ decl  @ 7 @ 
+name: nextraargs  @ 7 @ name: savedpc  @ 11 @ 
+name: CallInfo  @ 1 @ name: CallInfo  @ 4 @ 
+name: ci  @ 18 @ name: ci  @ 15 @ 
+name: func  @ 13 @ name: func  @ 13 @ 
+expr  @ 8 @ expr  @ 14 @ 
+name: l  @ 7 @ name: l  @ 11 @ 
+name: L  @ 8 @ name: L  @ 17 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 7 @ 
+operator: -=  @ 16 @ operator: >  @ 19 @ 
+

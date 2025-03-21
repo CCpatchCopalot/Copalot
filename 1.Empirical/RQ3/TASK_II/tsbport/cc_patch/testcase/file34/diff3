@@ -1,0 +1,8 @@
+941a942
+>				efree(ent1);
+945d
+<			efree(ent1);
+980c980
+<			if (ent2->type == ST_FIELD && ent2->data == NULL) {
+---
+>			if (ent2->data == NULL) {

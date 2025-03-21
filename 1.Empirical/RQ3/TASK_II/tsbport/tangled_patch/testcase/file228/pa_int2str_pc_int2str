@@ -1,0 +1,145 @@
+if_stmt  @ 13 @ if_stmt  @ 13 @ 
+operator: =  @ 14 @ operator: =  @ 14 @ 
+expr  @ 19 @ expr  @ 19 @ 
+else  @ 19 @ else  @ 19 @ 
+return  @ 7 @ return  @ 7 @ 
+expr  @ 19 @ expr  @ 19 @ 
+decl  @ 1 @ decl  @ 1 @ 
+if_stmt  @ 9 @ if_stmt  @ 9 @ 
+init  @ 4 @ init  @ 4 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+type  @ 1 @ type  @ 1 @ 
+literal: "%s%x"  @ 19 @ literal: "%s%x"  @ 19 @ 
+literal: 0x80  @ 13 @ literal: 0x80  @ 13 @ 
+block_content  @ 17 @ block_content  @ 17 @ 
+name: NULL  @ 7 @ name: NULL  @ 7 @ 
+argument  @ 10 @ argument  @ 10 @ 
+name: beg  @ 18 @ name: beg  @ 18 @ 
+then  @ 19 @ then  @ 19 @ 
+name: val  @ 14 @ name: val  @ 14 @ 
+decl  @ 3 @ decl  @ 3 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: size_t  @ 4 @ name: size_t  @ 4 @ 
+literal: "0x"  @ 19 @ literal: "0x"  @ 19 @ 
+operator: ++  @ 17 @ operator: ++  @ 17 @ 
+name: curl_maprintf  @ 19 @ name: curl_maprintf  @ 19 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+condition  @ 9 @ condition  @ 9 @ 
+name: octet2str  @ 10 @ name: octet2str  @ 10 @ 
+operator: (  @ 17 @ operator: (  @ 17 @ 
+name: char  @ 17 @ name: char  @ 17 @ 
+block  @ 10 @ block  @ 10 @ 
+return  @ 10 @ return  @ 10 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: beg  @ 13 @ name: beg  @ 13 @ 
+expr  @ 13 @ expr  @ 13 @ 
+operator: &  @ 13 @ operator: &  @ 13 @ 
+name: beg  @ 17 @ name: beg  @ 17 @ 
+expr  @ 18 @ expr  @ 18 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: *  @ 17 @ operator: *  @ 17 @ 
+name: end  @ 4 @ name: end  @ 4 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+return  @ 19 @ return  @ 19 @ 
+name: beg  @ 1 @ name: beg  @ 1 @ 
+if  @ 9 @ if  @ 9 @ 
+operator: )  @ 17 @ operator: )  @ 17 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+if  @ 13 @ if  @ 13 @ 
+literal: 4  @ 9 @ literal: 4  @ 9 @ 
+call  @ 19 @ call  @ 19 @ 
+argument  @ 19 @ argument  @ 19 @ 
+name: val  @ 19 @ name: val  @ 19 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+name: int2str  @ 1 @ name: int2str  @ 1 @ 
+expr  @ 4 @ expr  @ 4 @ 
+expr  @ 17 @ expr  @ 17 @ 
+expr  @ 10 @ expr  @ 10 @ 
+operator: <  @ 18 @ operator: <  @ 18 @ 
+name: beg  @ 10 @ name: beg  @ 10 @ 
+operator: >  @ 9 @ operator: >  @ 9 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: unsigned  @ 17 @ name: unsigned  @ 17 @ 
+if_stmt  @ 6 @ if_stmt  @ 6 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument  @ 10 @ argument  @ 10 @ 
+expr  @ 19 @ expr  @ 19 @ 
+condition  @ 18 @ condition  @ 18 @ 
+operator: >=  @ 19 @ operator: >=  @ 19 @ 
+name: n  @ 4 @ name: n  @ 4 @ 
+literal: 8  @ 17 @ literal: 8  @ 17 @ 
+decl  @ 4 @ decl  @ 4 @ 
+condition  @ 13 @ condition  @ 13 @ 
+name: end  @ 18 @ name: end  @ 18 @ 
+name: val  @ 14 @ name: val  @ 14 @ 
+literal: 0  @ 3 @ literal: 0  @ 3 @ 
+name: val  @ 19 @ name: val  @ 19 @ 
+do  @ 16 @ do  @ 16 @ 
+argument  @ 19 @ argument  @ 19 @ 
+type  @ 4 @ type  @ 4 @ 
+name: beg  @ 4 @ name: beg  @ 4 @ 
+ternary  @ 19 @ ternary  @ 19 @ 
+operator: |  @ 17 @ operator: |  @ 17 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+block  @ 17 @ block  @ 17 @ 
+function  @ 1 @ function  @ 1 @ 
+name: int  @ 3 @ name: int  @ 3 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+init  @ 3 @ init  @ 3 @ 
+condition  @ 19 @ condition  @ 19 @ 
+name: n  @ 6 @ name: n  @ 6 @ 
+name: end  @ 10 @ name: end  @ 10 @ 
+block  @ 14 @ block  @ 14 @ 
+operator: (  @ 17 @ operator: (  @ 17 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 19 @ expr  @ 19 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+comment: /* Represent integers<= 32-bit as a single value. */  @ 12 @ comment: /* Represent integers<= 32-bit as a single value. */  @ 12 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 17 @ 
+operator: -  @ 4 @ operator: -  @ 4 @ 
+operator: *  @ 17 @ operator: *  @ 17 @ 
+block  @ 7 @ block  @ 7 @ 
+name: unsigned  @ 3 @ name: unsigned  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+name: val  @ 17 @ name: val  @ 17 @ 
+call  @ 10 @ call  @ 10 @ 
+operator: *  @ 13 @ operator: *  @ 13 @ 
+operator: !  @ 6 @ operator: !  @ 6 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: =  @ 17 @ operator: =  @ 17 @ 
+if  @ 6 @ if  @ 6 @ 
+specifier: const  @ 17 @ specifier: const  @ 17 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+operator: ~  @ 14 @ operator: ~  @ 14 @ 
+name: end  @ 1 @ name: end  @ 1 @ 
+expr  @ 3 @ expr  @ 3 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+expr  @ 14 @ expr  @ 14 @ 
+decl  @ 1 @ decl  @ 1 @ 
+block  @ 2 @ block  @ 2 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+block_content  @ 10 @ block_content  @ 10 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: n  @ 9 @ name: n  @ 9 @ 
+argument  @ 19 @ argument  @ 19 @ 
+operator: )  @ 17 @ operator: )  @ 17 @ 
+expr  @ 19 @ expr  @ 19 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: <<  @ 17 @ operator: <<  @ 17 @ 
+block_content  @ 14 @ block_content  @ 14 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr  @ 19 @ expr  @ 19 @ 
+condition  @ 6 @ condition  @ 6 @ 
+literal: ""  @ 19 @ literal: ""  @ 19 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+name: val  @ 17 @ name: val  @ 17 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name: val  @ 3 @ name: val  @ 3 @ 
+type  @ 3 @ type  @ 3 @ 
+literal: 10  @ 19 @ literal: 10  @ 19 @ 
+

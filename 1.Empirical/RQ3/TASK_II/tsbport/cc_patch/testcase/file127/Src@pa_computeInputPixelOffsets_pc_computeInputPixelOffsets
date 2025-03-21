@@ -1,0 +1,277 @@
+static int computeInputPixelOffsets(struct crop_mask *crop,struct image_data *image,struct offset *off)
+{
+    double scale;
+    float xres, yres;
+    /* Values for these offsets are in pixels from start of image, not bytes, * and are indexed from zero to width - 1 or length - 1 */
+    uint32_t tmargin, bmargin, lmargin, rmargin;
+    uint32_t startx, endx; /* offsets of first and last columns to extract */
+    uint32_t starty, endy; /* offsets of first and last row to extract */
+    uint32_t width, length, crop_width, crop_length;
+    uint32_t i, max_width, max_length, zwidth, zlength, buffsize;
+    uint32_t x1, x2, y1, y2;
+
+    if (image->res_unit != RESUNIT_INCH &&image->res_unit != RESUNIT_CENTIMETER)
+    {
+        xres = 1.0;
+        yres = 1.0;
+    }
+    else
+    {
+        if (((image->xres == 0) || (image->yres == 0)) &&(crop->res_unit != RESUNIT_NONE) &&((crop->crop_mode & CROP_REGIONS) || (crop->crop_mode & CROP_MARGINS) || (crop->crop_mode & CROP_LENGTH) || (crop->crop_mode & CROP_WIDTH)))
+        {
+            TIFFError("computeInputPixelOffsets","Cannot compute margins or fixed size sections without ""image resolution");
+            TIFFError("computeInputPixelOffsets","Specify units in pixels and try again");
+            return (-1);
+        }
+        xres = image->xres;
+        yres = image->yres;
+    }
+
+    /* Translate user units to image units */
+    scale = 1.0;
+    switch (crop->res_unit)
+    {
+        case RESUNIT_CENTIMETER:
+            if (image->res_unit == RESUNIT_INCH)
+                scale = 1.0 / 2.54;
+            break;
+        case RESUNIT_INCH:
+            if (image->res_unit == RESUNIT_CENTIMETER)
+                scale = 2.54;
+            break;
+        case RESUNIT_NONE: /* Dimensions in pixels */
+        default:
+            break;
+    }
+
+    if (crop->crop_mode & CROP_REGIONS)
+    {
+        max_width = max_length = 0;
+        for (i = 0; i < crop->regions; i++)
+        {
+            if ((crop->res_unit == RESUNIT_INCH) ||(crop->res_unit == RESUNIT_CENTIMETER))
+            {
+                x1 = _TIFFClampDoubleToUInt32(crop->corners[i].X1 * scale *xres);
+                x2 = _TIFFClampDoubleToUInt32(crop->corners[i].X2 * scale *xres);
+                y1 = _TIFFClampDoubleToUInt32(crop->corners[i].Y1 * scale *yres);
+                y2 = _TIFFClampDoubleToUInt32(crop->corners[i].Y2 * scale *yres);
+            }
+            else
+            {
+                x1 = _TIFFClampDoubleToUInt32(crop->corners[i].X1);
+                x2 = _TIFFClampDoubleToUInt32(crop->corners[i].X2);
+                y1 = _TIFFClampDoubleToUInt32(crop->corners[i].Y1);
+                y2 = _TIFFClampDoubleToUInt32(crop->corners[i].Y2);
+            }
+            /* a) Region needs to be within image sizes 0.. width-1; 0..length-1 * b) Corners are expected to be submitted as top-left to * bottom-right. Therefore, check that and reorder input. (be aware * x,y are already casted to (uint32_t) and avoid (0 - 1) ) */
+            uint32_t aux;
+            if (x1 > x2)
+            {
+                aux = x1;
+                x1 = x2;
+                x2 = aux;
+            }
+            if (y1 > y2)
+            {
+                aux = y1;
+                y1 = y2;
+                y2 = aux;
+            }
+            if (x1 > image->width - 1)
+                crop->regionlist[i].x1 = image->width - 1;
+            else if (x1 > 0)
+                crop->regionlist[i].x1 = (uint32_t)(x1 - 1);
+
+            if (x2 > image->width - 1)
+                crop->regionlist[i].x2 = image->width - 1;
+            else if (x2 > 0)
+                crop->regionlist[i].x2 = (uint32_t)(x2 - 1);
+
+            zwidth = crop->regionlist[i].x2 - crop->regionlist[i].x1 + 1;
+
+            if (y1 > image->length - 1)
+                crop->regionlist[i].y1 = image->length - 1;
+            else if (y1 > 0)
+                crop->regionlist[i].y1 = (uint32_t)(y1 - 1);
+
+            if (y2 > image->length - 1)
+                crop->regionlist[i].y2 = image->length - 1;
+            else if (y2 > 0)
+                crop->regionlist[i].y2 = (uint32_t)(y2 - 1);
+
+            zlength = crop->regionlist[i].y2 - crop->regionlist[i].y1 + 1;
+            if (zwidth > max_width)
+                max_width = zwidth;
+            if (zlength > max_length)
+                max_length = zlength;
+
+            buffsize = (uint32_t)(((zwidth * image->bps * image->spp + 7) / 8) *(zlength + 1));
+
+            crop->regionlist[i].buffsize = buffsize;
+            crop->bufftotal += buffsize;
+            if (crop->img_mode == COMPOSITE_IMAGES)
+            {
+                switch (crop->edge_ref)
+                {
+                    case EDGE_LEFT:
+                    case EDGE_RIGHT:
+                        crop->combined_length = zlength;
+                        crop->combined_width += zwidth;
+                        break;
+                    case EDGE_BOTTOM:
+                    case EDGE_TOP: /* width from left, length from top */
+                    default:
+                        crop->combined_width = zwidth;
+                        crop->combined_length += zlength;
+                        break;
+                }
+            }
+        }
+        return (0);
+    } /* crop_mode == CROP_REGIONS */
+
+    /* Convert crop margins into offsets into image * Margins are expressed as pixel rows and columns, not bytes */
+    if (crop->crop_mode & CROP_MARGINS)
+    {
+        if (crop->res_unit != RESUNIT_INCH &&crop->res_unit != RESUNIT_CENTIMETER)
+        { /* User has specified pixels as reference unit */
+            tmargin = _TIFFClampDoubleToUInt32(crop->margins[0]);
+            lmargin = _TIFFClampDoubleToUInt32(crop->margins[1]);
+            bmargin = _TIFFClampDoubleToUInt32(crop->margins[2]);
+            rmargin = _TIFFClampDoubleToUInt32(crop->margins[3]);
+        }
+        else
+        { /* inches or centimeters specified */
+            tmargin = _TIFFClampDoubleToUInt32(crop->margins[0] * scale * yres);
+            lmargin = _TIFFClampDoubleToUInt32(crop->margins[1] * scale * xres);
+            bmargin = _TIFFClampDoubleToUInt32(crop->margins[2] * scale * yres);
+            rmargin = _TIFFClampDoubleToUInt32(crop->margins[3] * scale * xres);
+        }
+
+        if ((lmargin + rmargin) > image->width)
+        {
+            TIFFError("computeInputPixelOffsets","Combined left and right margins exceed image width");
+            lmargin = (uint32_t)0;
+            rmargin = (uint32_t)0;
+            return (-1);
+        }
+        if ((tmargin + bmargin) > image->length)
+        {
+            TIFFError("computeInputPixelOffsets","Combined top and bottom margins exceed image length");
+            tmargin = (uint32_t)0;
+            bmargin = (uint32_t)0;
+            return (-1);
+        }
+    } /* crop_mode == CROP_MARGINS */
+    else
+    { /* no margins requested */
+        tmargin = (uint32_t)0;
+        lmargin = (uint32_t)0;
+        bmargin = (uint32_t)0;
+        rmargin = (uint32_t)0;
+    }
+
+    /* Width, height, and margins are expressed as pixel offsets into image */
+    if (crop->res_unit != RESUNIT_INCH && crop->res_unit != RESUNIT_CENTIMETER)
+    {
+        if (crop->crop_mode & CROP_WIDTH)
+            width = _TIFFClampDoubleToUInt32(crop->width);
+        else
+            width = image->width - lmargin - rmargin;
+
+        if (crop->crop_mode & CROP_LENGTH)
+            length = _TIFFClampDoubleToUInt32(crop->length);
+        else
+            length = image->length - tmargin - bmargin;
+    }
+    else
+    {
+        if (crop->crop_mode & CROP_WIDTH)
+            width = _TIFFClampDoubleToUInt32(crop->width * scale * image->xres);
+        else
+            width = image->width - lmargin - rmargin;
+
+        if (crop->crop_mode & CROP_LENGTH)
+            length =_TIFFClampDoubleToUInt32(crop->length * scale * image->yres);
+        else
+            length = image->length - tmargin - bmargin;
+    }
+
+    off->tmargin = tmargin;
+    off->bmargin = bmargin;
+    off->lmargin = lmargin;
+    off->rmargin = rmargin;
+
+    /* Calculate regions defined by margins, width, and length. * Coordinates expressed as 0 to imagewidth - 1, imagelength - 1, * since they are used to compute offsets into buffers */
+    switch (crop->edge_ref)
+    {
+        case EDGE_BOTTOM:
+            startx = lmargin;
+            if ((startx + width) >= (image->width - rmargin))
+                endx = image->width - rmargin - 1;
+            else
+                endx = startx + width - 1;
+
+            endy = image->length - bmargin - 1;
+            if ((endy - length) <= tmargin)
+                starty = tmargin;
+            else
+                starty = endy - length + 1;
+            break;
+        case EDGE_RIGHT:
+            endx = image->width - rmargin - 1;
+            if ((endx - width) <= lmargin)
+                startx = lmargin;
+            else
+                startx = endx - width + 1;
+
+            starty = tmargin;
+            if ((starty + length) >= (image->length - bmargin))
+                endy = image->length - bmargin - 1;
+            else
+                endy = starty + length - 1;
+            break;
+        case EDGE_TOP: /* width from left, length from top */
+        case EDGE_LEFT:
+        default:
+            startx = lmargin;
+            if ((startx + width) >= (image->width - rmargin))
+                endx = image->width - rmargin - 1;
+            else
+                endx = startx + width - 1;
+
+            starty = tmargin;
+            if ((starty + length) >= (image->length - bmargin))
+                endy = image->length - bmargin - 1;
+            else
+                endy = starty + length - 1;
+            break;
+    }
+    off->startx = startx;
+    off->starty = starty;
+    off->endx = endx;
+    off->endy = endy;
+
+    if (endx + 1 <= startx)
+    {
+        TIFFError("computeInputPixelOffsets","Invalid left/right margins and /or image crop width requested");
+        return (-1);
+    }
+    crop_width = endx - startx + 1;
+    if (crop_width > image->width)
+        crop_width = image->width;
+
+    if (endy + 1 <= starty)
+    {
+        TIFFError("computeInputPixelOffsets","Invalid top/bottom margins and /or image crop length requested");
+        return (-1);
+    }
+    crop_length = endy - starty + 1;
+    if (crop_length > image->length)
+        crop_length = image->length;
+
+    off->crop_width = crop_width;
+    off->crop_length = crop_length;
+
+    return (0);
+} /* end computeInputPixelOffsets */

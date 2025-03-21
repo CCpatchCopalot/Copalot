@@ -1,0 +1,59 @@
+{
+    "testcase": {
+        "file123": {
+            "match_message": {
+                "Same: DumpTrackInfo -> DumpTrackInfo": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2329 -> 1907",
+                        "L2": "3: Unique Matched by Source code 2329 -> 1907"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2330 -> 1908",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2331->1909 ([[1909, 0.4696734059097978], [2515, 0.2548076923076923], [2538, 0.25296442687747034], [2419, 0.2375601926163724], [2366, 0.22567457072771868], [2470, 0.20833333333333337], [2449, 0.20068027210884354]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1907,
+                        "add_hunk": [
+                            "\t\tif (!esd || !esd->decoderConfig) {\n"
+                        ],
+                        "delete_location": [
+                            1907,
+                            1907
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (!esd) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1908,
+                        "add_hunk": [
+                            "\t\t\tif (esd) gf_odf_desc_del((GF_Descriptor *)esd);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: DumpTrackInfo -> DumpTrackInfo": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

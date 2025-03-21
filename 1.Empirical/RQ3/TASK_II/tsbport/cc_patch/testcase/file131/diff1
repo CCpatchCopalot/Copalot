@@ -1,0 +1,8 @@
+849,851c849
+<       if (section->num_pages <= 0)
+<         continue;
+<       if (section->num_pages > 0xf0000)
+---
+>       if (section->num_pages <= 0 || section->num_pages > 0xf0000)
+853a852
+>           section->num_pages = 0;

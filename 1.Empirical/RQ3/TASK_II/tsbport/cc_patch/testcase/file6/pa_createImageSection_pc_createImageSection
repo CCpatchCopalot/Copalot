@@ -1,0 +1,218 @@
+operator: =  @ 28 @ operator: =  @ 24 @ 
+name: unsigned  @ 28 @ name: unsigned  @ 24 @ 
+init  @ 5 @ init  @ 5 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: new_buff  @ 24 @ name: new_buff  @ 20 @ 
+name: sect_buff  @ 28 @ name: sect_buff  @ 24 @ 
+name: sect_buff  @ 43 @ name: sect_buff  @ 39 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: =  @ 43 @ operator: =  @ 39 @ 
+argument  @ 38 @ argument  @ 29 @ 
+type  @ 1 @ type  @ 1 @ 
+name: new_buff  @ 25 @ name: new_buff  @ 21 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+block_content  @ 35 @ block_content  @ 35 @ 
+name: sect_buff_ptr  @ 2 @ name: sect_buff_ptr  @ 2 @ 
+expr  @ 31 @ expr  @ 27 @ 
+name: sectsize  @ 12 @ name: sectsize  @ 12 @ 
+type  @ 2 @ type  @ 2 @ 
+name: char  @ 2 @ name: char  @ 2 @ 
+operator: <  @ 22 @ operator: <  @ 18 @ 
+argument  @ 18 @ argument  @ 14 @ 
+operator: (  @ 45 @ operator: (  @ 41 @ 
+comment: /* end createImageSection */  @ 46 @ comment: /* end createImageSection */  @ 42 @ 
+argument  @ 18 @ argument  @ 14 @ 
+name: sect_buff_ptr  @ 8 @ name: sect_buff_ptr  @ 8 @ 
+condition  @ 25 @ condition  @ 21 @ 
+decl  @ 6 @ decl  @ 6 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: )  @ 12 @ operator: )  @ 12 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 14 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+argument  @ 38 @ argument  @ 29 @ 
+expr  @ 33 @ expr  @ 33 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: !  @ 25 @ operator: !  @ 21 @ 
+name: createImageSection  @ 2 @ name: createImageSection  @ 2 @ 
+name: sect_buff  @ 27 @ name: sect_buff  @ 23 @ 
+block_content  @ 12 @ block_content  @ 12 @ 
+expr  @ 6 @ expr  @ 6 @ 
+literal: 0  @ 38 @ literal: 0  @ 29 @ 
+literal: 1  @ 36 @ literal: 1  @ 36 @ 
+name: sect_buff  @ 31 @ name: sect_buff  @ 27 @ 
+operator: )  @ 45 @ operator: )  @ 41 @ 
+name: uint32_t  @ 6 @ name: uint32_t  @ 6 @ 
+call  @ 24 @ call  @ 20 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 18 @ expr  @ 14 @ 
+name: sect_buff  @ 13 @ name: sect_buff  @ 13 @ 
+literal: "createImageSection"  @ 35 @ literal: "createImageSection"  @ 35 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: uint32_t  @ 2 @ name: uint32_t  @ 2 @ 
+name: _TIFFrealloc  @ 24 @ name: _TIFFrealloc  @ 20 @ 
+call  @ 18 @ call  @ 14 @ 
+expr  @ 38 @ expr  @ 29 @ 
+operator: !  @ 33 @ operator: !  @ 33 @ 
+name: sectsize  @ 18 @ name: sectsize  @ 14 @ 
+expr  @ 45 @ expr  @ 41 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 24 @ 
+operator: *  @ 12 @ operator: *  @ 12 @ 
+expr  @ 38 @ expr  @ 29 @ 
+name: limitMalloc  @ 28 @ name: limitMalloc  @ 24 @ 
+block_content  @ 27 @ block_content  @ 23 @ 
+argument  @ 28 @ argument  @ 24 @ 
+expr  @ 36 @ expr  @ 36 @ 
+argument  @ 38 @ argument  @ 29 @ 
+argument_list  @ 27 @ argument_list  @ 23 @ 
+call  @ 12 @ call  @ 12 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+else  @ 30 @ else  @ 26 @ 
+operator: (  @ 36 @ operator: (  @ 36 @ 
+name: char  @ 5 @ name: char  @ 5 @ 
+expr  @ 43 @ expr  @ 39 @ 
+argument_list  @ 12 @ argument_list  @ 12 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 8 @ 
+name: char  @ 28 @ name: char  @ 24 @ 
+type  @ 6 @ type  @ 6 @ 
+condition  @ 22 @ condition  @ 18 @ 
+expr  @ 24 @ expr  @ 20 @ 
+name: sect_buff  @ 10 @ name: sect_buff  @ 10 @ 
+operator: =  @ 31 @ operator: =  @ 27 @ 
+expr  @ 13 @ expr  @ 13 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 39 @ 
+name: prev_sectsize  @ 6 @ name: prev_sectsize  @ 6 @ 
+name: unsigned  @ 12 @ name: unsigned  @ 12 @ 
+block_content  @ 22 @ block_content  @ 18 @ 
+literal: "Unable to allocate/reallocate section buffer"  @ 35 @ literal: "Unable to allocate/reallocate section buffer"  @ 35 @ 
+expr  @ 22 @ expr  @ 18 @ 
+operator: !  @ 13 @ operator: *  @ 13 @ 
+argument_list  @ 35 @ argument_list  @ 35 @ 
+name: unsigned  @ 5 @ name: unsigned  @ 5 @ 
+return  @ 36 @ return  @ 36 @ 
+literal: 0  @ 18 @ literal: 0  @ 14 @ 
+operator: =  @ 12 @ operator: =  @ 12 @ 
+block  @ 21 @ block  @ 17 @ 
+name: unsigned  @ 4 @ name: unsigned  @ 4 @ 
+condition  @ 10 @ condition  @ 10 @ 
+name: char  @ 4 @ name: char  @ 4 @ 
+if  @ 22 @ if  @ 18 @ 
+type  @ 5 @ type  @ 5 @ 
+name: sectsize  @ 2 @ name: sectsize  @ 2 @ 
+call  @ 27 @ call  @ 23 @ 
+name: prev_sectsize  @ 42 @ name: prev_sectsize  @ 38 @ 
+name: sect_buff  @ 38 @ name: sect_buff  @ 29 @ 
+type  @ 4 @ type  @ 4 @ 
+block  @ 11 @ block  @ 11 @ 
+else  @ 20 @ else  @ 16 @ 
+expr  @ 25 @ expr  @ 21 @ 
+operator: *  @ 28 @ operator: *  @ 24 @ 
+name: sect_buff  @ 12 @ name: sect_buff  @ 12 @ 
+name: _TIFFfree  @ 27 @ name: _TIFFfree  @ 23 @ 
+expr  @ 18 @ expr  @ 14 @ 
+name: sectsize  @ 28 @ name: sectsize  @ 24 @ 
+name: sect_buff  @ 24 @ name: sect_buff  @ 20 @ 
+name: sect_buff  @ 4 @ name: sect_buff  @ 4 @ 
+argument  @ 18 @ argument  @ 14 @ 
+expr  @ 38 @ expr  @ 29 @ 
+literal: 0  @ 6 @ literal: 0  @ 6 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 23 @ 
+block  @ 26 @ block  @ 22 @ 
+name: new_buff  @ 31 @ name: new_buff  @ 27 @ 
+expr  @ 27 @ expr  @ 23 @ 
+name: sectsize  @ 38 @ name: sectsize  @ 29 @ 
+name: sectsize  @ 22 @ name: sectsize  @ 18 @ 
+if  @ 33 @ if  @ 33 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+operator: !  @ 10 @ operator: !  @ 10 @ 
+call  @ 38 @ call  @ 29 @ 
+name: NULL  @ 5 @ name: NULL  @ 5 @ 
+literal: 0  @ 45 @ literal: 0  @ 41 @ 
+expr  @ 35 @ expr  @ 35 @ 
+expr  @ 18 @ expr  @ 14 @ 
+argument_list  @ 18 @ argument_list  @ 14 @ 
+expr  @ 24 @ expr  @ 20 @ 
+call  @ 35 @ call  @ 35 @ 
+expr  @ 38 @ expr  @ 29 @ 
+operator: (  @ 28 @ operator: (  @ 24 @ 
+name: sectsize  @ 42 @ name: sectsize  @ 38 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: *  @ 8 @ operator: *  @ 8 @ 
+operator: (  @ 12 @ operator: (  @ 12 @ 
+operator: -  @ 36 @ operator: -  @ 36 @ 
+argument_list  @ 24 @ argument_list  @ 20 @ 
+name: prev_sectsize  @ 22 @ name: prev_sectsize  @ 18 @ 
+name: _TIFFmemset  @ 38 @ name: _TIFFmemset  @ 29 @ 
+operator: )  @ 36 @ operator: )  @ 36 @ 
+name: sectsize  @ 24 @ name: sectsize  @ 20 @ 
+operator: =  @ 42 @ operator: =  @ 38 @ 
+expr  @ 42 @ expr  @ 38 @ 
+name: new_buff  @ 5 @ name: new_buff  @ 5 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+block  @ 3 @ block  @ 3 @ 
+expr  @ 18 @ expr  @ 14 @ 
+argument  @ 24 @ argument  @ 20 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 35 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 29 @ 
+operator: )  @ 28 @ operator: )  @ 24 @ 
+specifier: static  @ 6 @ specifier: static  @ 6 @ 
+if_stmt  @ 25 @ if_stmt  @ 21 @ 
+expr  @ 12 @ expr  @ 12 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+expr  @ 28 @ expr  @ 24 @ 
+name: sect_buff_ptr  @ 43 @ name: sect_buff_ptr  @ 39 @ 
+expr  @ 5 @ expr  @ 5 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 35 @ argument  @ 35 @ 
+block_content  @ 24 @ block_content  @ 20 @ 
+expr  @ 35 @ expr  @ 35 @ 
+expr  @ 27 @ expr  @ 23 @ 
+expr  @ 24 @ expr  @ 20 @ 
+if  @ 25 @ if  @ 21 @ 
+expr  @ 4 @ expr  @ 4 @ 
+expr  @ 8 @ expr  @ 8 @ 
+name: NULL  @ 4 @ name: NULL  @ 4 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+name: sect_buff  @ 18 @ name: sect_buff  @ 14 @ 
+if_stmt  @ 10 @ if_stmt  @ 10 @ 
+expr  @ 35 @ expr  @ 35 @ 
+name: _TIFFmemset  @ 18 @ name: _TIFFmemset  @ 14 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 27 @ 
+if  @ 10 @ if  @ 10 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 12 @ 
+argument  @ 27 @ argument  @ 23 @ 
+argument  @ 24 @ argument  @ 20 @ 
+if_stmt  @ 22 @ if_stmt  @ 18 @ 
+argument_list  @ 38 @ argument_list  @ 29 @ 
+decl  @ 4 @ decl  @ 4 @ 
+block_content  @ 31 @ block_content  @ 27 @ 
+init  @ 6 @ init  @ 6 @ 
+operator: =  @ 8 @ operator: =  @ 8 @ 
+name: limitMalloc  @ 12 @ name: limitMalloc  @ 12 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+condition  @ 33 @ condition  @ 33 @ 
+function  @ 1 @ function  @ 1 @ 
+argument_list  @ 28 @ argument_list  @ 24 @ 
+if_stmt  @ 33 @ if_stmt  @ 33 @ 
+block  @ 23 @ block  @ 19 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 20 @ 
+argument  @ 35 @ argument  @ 35 @ 
+argument  @ 12 @ argument  @ 12 @ 
+init  @ 4 @ init  @ 4 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 38 @ 
+name: unsigned  @ 2 @ name: unsigned  @ 2 @ 
+name: TIFFError  @ 35 @ name: TIFFError  @ 35 @ 
+call  @ 28 @ call  @ 24 @ 
+block  @ 31 @ block  @ 27 @ 
+operator: *  @ 43 @ operator: *  @ 39 @ 
+name: char  @ 12 @ name: char  @ 12 @ 
+name: sect_buff  @ 8 @ name: sect_buff  @ 8 @ 
+block  @ 34 @ block  @ 34 @ 
+operator: =  @ 24 @ operator: =  @ 20 @ 
+name: sect_buff  @ 33 @ name: sect_buff  @ 33 @ 
+decl  @ 5 @ decl  @ 5 @ 
+return  @ 45 @ return  @ 41 @ 
+expr  @ 28 @ expr  @ 24 @ 
+

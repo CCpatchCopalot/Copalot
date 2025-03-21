@@ -1,0 +1,6 @@
+static CURLcode bool2str(struct dynbuf *store, const char *beg, const char *end)
+{
+  if(end - beg != 1)
+    return CURLE_BAD_FUNCTION_ARGUMENT;
+  return Curl_dyn_add(store, *beg? "TRUE": "FALSE");
+}

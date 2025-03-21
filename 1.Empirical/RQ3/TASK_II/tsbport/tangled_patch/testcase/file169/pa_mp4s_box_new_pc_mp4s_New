@@ -1,0 +1,40 @@
+operator: (  @ 4 @ operator: (  @ 4 @ 
+name: GF_MPEGSampleEntryBox  @ 3 @ name: GF_MPEGSampleEntryBox  @ 3 @ 
+function  @ 1 @ function  @ 1 @ 
+block  @ 2 @ block  @ 2 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 3 @ 
+expr  @ 3 @ expr  @ 3 @ 
+call  @ 3 @ call  @ 3 @ 
+argument_list  @ 3 @ argument_list  @ 3 @ 
+operator: )  @ 4 @ operator: )  @ 4 @ 
+name: ISOM_DECL_BOX_ALLOC  @ 3 @ name: ISOM_DECL_BOX_ALLOC  @ 3 @ 
+return  @ 6 @ return  @ 5 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+argument  @ 3 @ argument  @ 3 @ 
+operator: (  @ 6 @ operator: (  @ 5 @ 
+expr  @ 4 @ expr  @ 4 @ 
+operator: )  @ 6 @ operator: )  @ 5 @ 
+name: gf_isom_sample_entry_init  @ 4 @ name: gf_isom_sample_entry_init  @ 4 @ 
+name: tmp  @ 6 @ name: tmp  @ 5 @ 
+argument  @ 4 @ argument  @ 4 @ 
+expr  @ 3 @ expr  @ 3 @ 
+name: tmp  @ 4 @ name: tmp  @ 4 @ 
+name: GF_Box  @ 6 @ name: GF_Box  @ 5 @ 
+name: GF_Box  @ 1 @ name: GF_Box  @ 1 @ 
+argument  @ 3 @ argument  @ 3 @ 
+expr  @ 3 @ expr  @ 3 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: GF_SampleEntryBox  @ 4 @ name: GF_SampleEntryBox  @ 4 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 6 @ expr  @ 5 @ 
+operator: *  @ 6 @ operator: *  @ 5 @ 
+name: mp4s_box_new  @ 1 @ name: mp4s_New  @ 1 @ 
+expr_stmt  @ 4 @ expr_stmt  @ 4 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+call  @ 4 @ call  @ 4 @ 
+name: GF_ISOM_BOX_TYPE_MP4S  @ 3 @ name: GF_ISOM_BOX_TYPE_MP4S  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: *  @ 4 @ operator: *  @ 4 @ 
+argument_list  @ 4 @ argument_list  @ 4 @ 
+expr  @ 4 @ expr  @ 4 @ 
+

@@ -1,0 +1,81 @@
+-1c-1
+---
+>  ossl_sha256sum,           /* sha256sum */
+-1c-1
+---
+>  NULL,                     /* sha256sum */
+-1a0,1
+>  ossl_associate_connection, /* associate_connection */
+>  ossl_disassociate_connection /* disassociate_connection */
+227a228
+>static void ossl_associate_connection(struct Curl_easy *data,struct connectdata *conn,int sockindex);
+2458a2459
+>  void *ssl_sessionid = NULL;
+3147,3160c3147
+<  if(SSL_SET_OPTION(primary.sessionid)) {
+<    void *ssl_sessionid = NULL;
+<    int connectdata_idx = ossl_get_ssl_conn_index();
+<    int sockindex_idx = ossl_get_ssl_sockindex_index();
+<    if(connectdata_idx >= 0 && sockindex_idx >= 0) {
+<      SSL_set_ex_data(backend->handle, connectdata_idx, conn);
+<      SSL_set_ex_data(backend->handle, sockindex_idx, conn->sock + sockindex);
+<    }
+<    Curl_ssl_sessionid_lock(conn);
+<    if(!Curl_ssl_getsessionid(conn, &ssl_sessionid, NULL, sockindex)) {
+---
+>ossl_associate_connection(data, conn, sockindex);
+3173d
+<  }
+4416a4417,4468
+>static void ossl_associate_connection(struct Curl_easy *data,struct connectdata *conn,int sockindex)
+>{
+>  struct ssl_connect_data *connssl = &conn->ssl[sockindex];
+>  struct ssl_backend_data *backend = connssl->backend;
+>  if(!backend->handle)
+>    return;
+>  if(SSL_SET_OPTION(primary.sessionid)) {
+>    int data_idx = ossl_get_ssl_data_index();
+>    int connectdata_idx = ossl_get_ssl_conn_index();
+>    int sockindex_idx = ossl_get_ssl_sockindex_index();
+>    int proxy_idx = ossl_get_proxy_index();
+>    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {
+>      SSL_set_ex_data(backend->handle, data_idx, data);
+>      SSL_set_ex_data(backend->handle, connectdata_idx, conn);
+>      SSL_set_ex_data(backend->handle, sockindex_idx, conn->sock + sockindex);
+>#ifndef CURL_DISABLE_PROXY
+>      SSL_set_ex_data(backend->handle, proxy_idx, SSL_IS_PROXY() ? (void *) 1:NULL);
+>#else
+>      SSL_set_ex_data(backend->handle, proxy_idx, NULL);
+>#endif
+>    }
+>  }
+>}
+>static void ossl_disassociate_connection(struct Curl_easy *data, int sockindex)
+>{
+>  struct connectdata *conn = data->conn;
+>  struct ssl_connect_data *connssl = &conn->ssl[sockindex];
+>  struct ssl_backend_data *backend = connssl->backend;
+>  if(!backend->handle)
+>    return;
+>  if(SSL_SET_OPTION(primary.sessionid)) {
+>    bool isproxy = FALSE;
+>    bool incache;
+>    void *old_ssl_sessionid = NULL;
+>    int data_idx = ossl_get_ssl_data_index();
+>    int connectdata_idx = ossl_get_ssl_conn_index();
+>    int sockindex_idx = ossl_get_ssl_sockindex_index();
+>    int proxy_idx = ossl_get_proxy_index();
+>    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {
+>      isproxy = SSL_get_ex_data(backend->handle, proxy_idx) ? TRUE : FALSE;
+>      SSL_set_ex_data(backend->handle, data_idx, NULL);
+>      SSL_set_ex_data(backend->handle, connectdata_idx, NULL);
+>      SSL_set_ex_data(backend->handle, sockindex_idx, NULL);
+>      SSL_set_ex_data(backend->handle, proxy_idx, NULL);
+>    }
+>    Curl_ssl_sessionid_lock(data);
+>    incache = !(Curl_ssl_getsessionid(data, conn, isproxy,&old_ssl_sessionid, NULL, sockindex));
+>    if(incache)
+>      Curl_ssl_delsessionid(data, old_ssl_sessionid);
+>    Curl_ssl_sessionid_unlock(data);
+>  }
+>}

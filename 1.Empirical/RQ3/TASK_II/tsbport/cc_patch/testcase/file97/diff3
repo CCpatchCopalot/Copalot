@@ -1,0 +1,8 @@
+572c572
+<    incache = !(Curl_ssl_getsessionid(conn, &oldsession, NULL, sockindex));
+---
+>incache = !(Curl_ssl_getsessionid(conn, SSL_IS_PROXY() ? TRUE : FALSE, &oldsession, NULL, sockindex));
+575c575
+<    ret = Curl_ssl_addsessionid(conn, session, 0, sockindex);
+---
+>ret = Curl_ssl_addsessionid(conn, SSL_IS_PROXY() ? TRUE : FALSE, session, 0, sockindex);

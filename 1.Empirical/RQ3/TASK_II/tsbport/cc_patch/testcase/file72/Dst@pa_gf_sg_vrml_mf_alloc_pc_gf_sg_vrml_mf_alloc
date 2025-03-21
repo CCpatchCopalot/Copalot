@@ -1,0 +1,24 @@
+GF_EXPORT
+GF_Err gf_sg_vrml_mf_alloc(void *mf, u32 FieldType, u32 NbItems)
+{
+	u32 FieldSize;
+	GenMFField *mffield = (GenMFField *)mf;
+
+	if (gf_sg_vrml_is_sf_field(FieldType)) return GF_BAD_PARAM;
+	if (FieldType == GF_SG_VRML_MFNODE) return GF_BAD_PARAM;
+
+	FieldSize = gf_sg_vrml_get_sf_size(FieldType);
+
+	//field we can't copy
+	if (!FieldSize) return GF_BAD_PARAM;
+	if (NbItems>MAX_MFFIELD_ALLOC) return GF_IO_ERR;
+
+	if (mffield->count==NbItems) return GF_OK;
+	gf_sg_vrml_mf_reset(mf, FieldType);
+	if (NbItems) {
+		mffield->array = (char*)gf_malloc(sizeof(char)*FieldSize*NbItems);
+		memset(mffield->array, 0, sizeof(char)*FieldSize*NbItems);
+	}
+	mffield->count = NbItems;
+	return GF_OK;
+}

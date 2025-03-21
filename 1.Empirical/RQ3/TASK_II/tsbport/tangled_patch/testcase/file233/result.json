@@ -1,0 +1,89 @@
+{
+    "testcase": {
+        "file233": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "872 -> 1442",
+                        "L2": "873 -> 1442",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:struct', 'info': [], 'ast_patch': '/*!order of formats in the stream : 0 unknown, 1: Channels, possibly followed by Objects, 2 Objects, possibly followed by Channels*/u8 format_ordering;/*! combined channel count of the channel layout and the object count*/u8 base_channel_count;/*! indicates where the ordering of the audio channels for the definedLayout are specified0: as listed for the ChannelConfigurations in ISO/IEC 23091-31: Default order of audio codec specification2: Channel ordering #2 of audio codec specification3: Channel ordering #3 of audio codec specification4: Channel ordering #4 of audio codec specification*/u8 channel_order_definition;/*! indicates if omittedChannelsMap is present*/u8 omitted_channels_present;'}",
+                            "verify location": "-1",
+                            "output location": "1442",
+                            "verify result": "False"
+                        },
+                        "type": "src:struct",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:struct",
+                            "info": [],
+                            "ast_patch": "/*!order of formats in the stream : 0 unknown, 1: Channels, possibly followed by Objects, 2 Objects, possibly followed by Channels*/u8 format_ordering;/*! combined channel count of the channel layout and the object count*/u8 base_channel_count;/*! indicates where the ordering of the audio channels for the definedLayout are specified0: as listed for the ChannelConfigurations in ISO/IEC 23091-31: Default order of audio codec specification2: Channel ordering #2 of audio codec specification3: Channel ordering #3 of audio codec specification4: Channel ordering #4 of audio codec specification*/u8 channel_order_definition;/*! indicates if omittedChannelsMap is present*/u8 omitted_channels_present;"
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "875 -> 1442",
+                        "L2": "876 -> 1442",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:struct', 'info': [], 'ast_patch': '/*!order of formats in the stream : 0 unknown, 1: Channels, possibly followed by Objects, 2 Objects, possibly followed by Channels*/u8 format_ordering;/*! combined channel count of the channel layout and the object count*/u8 base_channel_count;/*! indicates where the ordering of the audio channels for the definedLayout are specified0: as listed for the ChannelConfigurations in ISO/IEC 23091-31: Default order of audio codec specification2: Channel ordering #2 of audio codec specification3: Channel ordering #3 of audio codec specification4: Channel ordering #4 of audio codec specification*/u8 channel_order_definition;/*! indicates if omittedChannelsMap is present*/u8 omitted_channels_present;'}",
+                            "verify location": "-1",
+                            "output location": "1442",
+                            "verify result": "False"
+                        },
+                        "type": "src:struct",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:struct",
+                            "info": [],
+                            "ast_patch": "/*!order of formats in the stream : 0 unknown, 1: Channels, possibly followed by Objects, 2 Objects, possibly followed by Channels*/u8 format_ordering;/*! combined channel count of the channel layout and the object count*/u8 base_channel_count;/*! indicates where the ordering of the audio channels for the definedLayout are specified0: as listed for the ChannelConfigurations in ISO/IEC 23091-31: Default order of audio codec specification2: Channel ordering #2 of audio codec specification3: Channel ordering #3 of audio codec specification4: Channel ordering #4 of audio codec specification*/u8 channel_order_definition;/*! indicates if omittedChannelsMap is present*/u8 omitted_channels_present;"
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1442,
+                        "add_hunk": [
+                            "\tu8 channel_order_definition;\n",
+                            "\tu8 omitted_channels_present;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 1442,
+                        "add_hunk": [
+                            "\tu8 format_ordering;\n",
+                            "\tu8 base_channel_count;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:struct"
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:struct"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_type"
+            ]
+        }
+    }
+}

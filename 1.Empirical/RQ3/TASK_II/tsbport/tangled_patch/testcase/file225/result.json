@@ -1,0 +1,83 @@
+{
+    "testcase": {
+        "file225": {
+            "match_message": {
+                "Same: get_token -> get_token": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 364->405",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 365->406"
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "5: Matched by Syntax(AST) similarity 368->406",
+                        "L2": "5: Matched by Syntax(AST) similarity 368->406"
+                    }
+                },
+                "Same: vcd_parse -> vcd_parse": {
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1093->1143",
+                        "L2": "5: Matched by Syntax(AST) similarity 1093->1143"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 405,
+                        "add_hunk": [
+                            "GLOBALS->yylen_vcd_partial_c_2=len;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            406,
+                            406
+                        ],
+                        "delete_hunk": [
+                            "GLOBALS->yylen_vcd_partial_c_2=len;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 1143,
+                        "add_hunk": [
+                            "if (tok!=  && tok != T_EOF != && tok != T_EOF)"
+                        ],
+                        "delete_location": [
+                            1143,
+                            1143
+                        ],
+                        "delete_hunk": [
+                            "\t\t\tif (tok!= T_END && tok != T_EOF)\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: get_token -> get_token": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: vcd_parse -> vcd_parse": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_value"
+            ]
+        }
+    }
+}

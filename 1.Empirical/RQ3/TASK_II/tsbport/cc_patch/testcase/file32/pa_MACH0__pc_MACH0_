@@ -1,0 +1,320 @@
+type  @ 26 @ type  @ 2 @ 
+expr  @ 53 @ expr  @ 21 @ 
+block_content  @ 56 @ block_content  @ 24 @ 
+operator: =  @ 102 @ operator: &  @ 39 @ 
+name: ptr_value  @ 185 @ name: r_read_ble  @ 47 @ 
+index  @ 26 @ index  @ 41 @ 
+name: ut8  @ 26 @ name: ut8  @ 2 @ 
+name: void  @ 1 @ name: RBuffer  @ 1 @ 
+expr  @ 103 @ expr  @ 39 @ 
+operator: &  @ 148 @ operator: &  @ 43 @ 
+literal: 8  @ 29 @ literal: 1  @ 10 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 20 @ 
+expr  @ 52 @ expr  @ 20 @ 
+name: p  @ 53 @ name: magicbytes  @ 21 @ 
+expr  @ 122 @ expr  @ 41 @ 
+block_content  @ 30 @ block_content  @ 11 @ 
+name: is_auth  @ 55 @ name: r_read_le32  @ 23 @ 
+operator: =  @ 141 @ operator: =  @ 43 @ 
+expr  @ 20 @ expr  @ 6 @ 
+expr  @ 156 @ expr  @ 43 @ 
+name: bin  @ 11 @ name: len  @ 4 @ 
+name: key  @ 52 @ name: big_endian  @ 20 @ 
+expr  @ 148 @ expr  @ 43 @ 
+name: iterate_chained_fixups  @ 1 @ name: mach_header  @ 1 @ 
+name: page_start  @ 20 @ name: big_endian  @ 6 @ 
+name: ptr_value  @ 67 @ name: big_endian  @ 26 @ 
+expr  @ 155 @ expr  @ 43 @ 
+argument_list  @ 29 @ argument_list  @ 10 @ 
+expr  @ 115 @ expr  @ 40 @ 
+name: bin  @ 129 @ name: r_read_ble  @ 42 @ 
+name: R_FIXUP_EVENT_BIND  @ 120 @ name: r_read_ble  @ 41 @ 
+name  @ 7 @ name  @ 3 @ 
+operator: =  @ 121 @ operator: &  @ 41 @ 
+name: ptr_value  @ 185 @ name: reserved  @ 47 @ 
+condition  @ 21 @ condition  @ 7 @ 
+name: int  @ 2 @ name: int  @ 4 @ 
+expr  @ 67 @ expr  @ 26 @ 
+expr  @ 116 @ expr  @ 40 @ 
+name: r_buf_read_at  @ 29 @ name: r_buf_read_at  @ 10 @ 
+argument_list  @ 14 @ argument_list  @ 5 @ 
+name: event_details  @ 186 @ name: machohdrbytes  @ 47 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: event_details  @ 163 @ name: machohdrbytes  @ 44 @ 
+name: event_details  @ 172 @ name: macho_hdr  @ 45 @ 
+operator: =  @ 43 @ operator: =  @ 16 @ 
+condition  @ 62 @ condition  @ 25 @ 
+expr  @ 183 @ expr  @ 45 @ 
+name  @ 119 @ name  @ 41 @ 
+name: bool  @ 27 @ name: bool  @ 6 @ 
+name: rebasing_buffer  @ 30 @ name: macho_hdr  @ 11 @ 
+argument  @ 15 @ argument  @ 5 @ 
+expr  @ 21 @ expr  @ 7 @ 
+expr  @ 7 @ expr  @ 3 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 11 @ 
+expr  @ 87 @ expr  @ 36 @ 
+name: limit_end  @ 15 @ name: MACH0_  @ 5 @ 
+name: bind  @ 119 @ name: cpusubtype  @ 41 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 16 @ 
+argument  @ 148 @ argument  @ 43 @ 
+name: event_details  @ 141 @ name: macho_hdr  @ 43 @ 
+expr_stmt  @ 87 @ expr_stmt  @ 36 @ 
+expr  @ 2 @ expr  @ 3 @ 
+expr  @ 81 @ expr  @ 34 @ 
+call  @ 34 @ call  @ 15 @ 
+argument  @ 1 @ argument  @ 1 @ 
+operator: &  @ 109 @ operator: &  @ 40 @ 
+name: stride  @ 79 @ name: buf  @ 34 @ 
+decl_stmt  @ 2 @ decl_stmt  @ 2 @ 
+block  @ 55 @ block  @ 23 @ 
+name: raw_ptr  @ 157 @ name: r_read_ble  @ 44 @ 
+argument  @ 175 @ argument  @ 45 @ 
+name: i  @ 2 @ name: magicbytes  @ 2 @ 
+operator: ->  @ 51 @ operator: ==  @ 19 @ 
+name: bin  @ 103 @ name: big_endian  @ 39 @ 
+operator: &  @ 163 @ operator: &  @ 44 @ 
+operator: .  @ 185 @ operator: ->  @ 47 @ 
+call  @ 44 @ call  @ 17 @ 
+literal: 8  @ 29 @ literal: 4  @ 10 @ 
+condition  @ 84 @ condition  @ 35 @ 
+block  @ 71 @ block  @ 27 @ 
+name: p  @ 51 @ name: magicbytes  @ 19 @ 
+name: addr_div  @ 53 @ name: r_read_be32  @ 21 @ 
+expr  @ 163 @ expr  @ 44 @ 
+decl  @ 2 @ decl  @ 2 @ 
+literal: 56  @ 112 @ literal: 4  @ 40 @ 
+operator: &  @ 175 @ operator: &  @ 45 @ 
+operator: =  @ 54 @ operator: =  @ 22 @ 
+type  @ 2 @ type  @ 4 @ 
+name: addrDiv  @ 105 @ name: cputype  @ 40 @ 
+name: chained_starts  @ 7 @ name: machohdrbytes  @ 3 @ 
+argument  @ 1 @ argument  @ 1 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+expr  @ 171 @ expr  @ 44 @ 
+expr  @ 39 @ expr  @ 29 @ 
+name: R_FIXUP_EVENT_BIND_AUTH  @ 87 @ name: macho_hdr  @ 36 @ 
+argument  @ 44 @ argument  @ 17 @ 
+name: bin  @ 170 @ name: big_endian  @ 44 @ 
+expr  @ 40 @ expr  @ 2 @ 
+operator: =  @ 49 @ operator: ==  @ 17 @ 
+if  @ 62 @ if  @ 25 @ 
+condition  @ 55 @ condition  @ 23 @ 
+name  @ 186 @ name  @ 47 @ 
+name: cursor  @ 201 @ name: macho_hdr  @ 49 @ 
+literal: 0  @ 39 @ literal: 0  @ 10 @ 
+if  @ 84 @ if  @ 35 @ 
+expr  @ 1 @ expr  @ 1 @ 
+expr  @ 29 @ expr  @ 10 @ 
+name: ordinal  @ 51 @ name: FAT_MAGIC  @ 19 @ 
+expr  @ 29 @ expr  @ 10 @ 
+name: R_FIXUP_EVENT_REBASE_AUTH  @ 101 @ name: r_read_ble  @ 39 @ 
+call  @ 15 @ call  @ 5 @ 
+name  @ 157 @ name  @ 44 @ 
+name: event  @ 87 @ name: free  @ 36 @ 
+name: raw_ptr  @ 44 @ name: magicbytes  @ 17 @ 
+block_content  @ 72 @ block_content  @ 1 @ 
+literal: 8  @ 135 @ literal: 32  @ 42 @ 
+operator: =  @ 120 @ operator: =  @ 41 @ 
+name: pointer_format  @ 78 @ name: len  @ 34 @ 
+block  @ 84 @ block  @ 35 @ 
+name  @ 105 @ name  @ 40 @ 
+name: tmp  @ 26 @ name: machohdrbytes  @ 41 @ 
+name: obj_t  @ 1 @ name: get_hdr  @ 1 @ 
+expr  @ 39 @ expr  @ 10 @ 
+expr  @ 43 @ expr  @ 16 @ 
+operator: =  @ 67 @ operator: =  @ 26 @ 
+expr  @ 79 @ expr  @ 34 @ 
+if_stmt  @ 84 @ if_stmt  @ 35 @ 
+name: event_details  @ 175 @ name: machohdrbytes  @ 45 @ 
+operator: *  @ 1 @ operator: *  @ 1 @ 
+name: bin  @ 182 @ name: big_endian  @ 45 @ 
+name: ordinal  @ 51 @ name: r_read_le32  @ 19 @ 
+block_content  @ 63 @ block_content  @ 26 @ 
+expr  @ 15 @ expr  @ 5 @ 
+name: b  @ 29 @ name: buf  @ 10 @ 
+expr  @ 34 @ expr  @ 15 @ 
+argument  @ 194 @ argument  @ 47 @ 
+literal: 0  @ 40 @ literal: 0  @ 2 @ 
+block_content  @ 85 @ block_content  @ 36 @ 
+name: i  @ 7 @ name: mach_header  @ 3 @ 
+argument_list  @ 44 @ argument_list  @ 17 @ 
+operator: =  @ 172 @ operator: =  @ 45 @ 
+init  @ 40 @ init  @ 2 @ 
+operator: .  @ 172 @ operator: ->  @ 45 @ 
+type  @ 1 @ type  @ 1 @ 
+if  @ 55 @ if  @ 23 @ 
+operator: ->  @ 53 @ operator: ==  @ 21 @ 
+expr  @ 83 @ expr  @ 34 @ 
+argument  @ 29 @ argument  @ 10 @ 
+expr  @ 184 @ expr  @ 46 @ 
+argument  @ 163 @ argument  @ 44 @ 
+if  @ 21 @ if  @ 7 @ 
+name: p  @ 54 @ name: true  @ 22 @ 
+operator: ->  @ 84 @ operator: !=  @ 35 @ 
+name: bin  @ 155 @ name: big_endian  @ 43 @ 
+name: event_details  @ 185 @ name: macho_hdr  @ 47 @ 
+expr  @ 14 @ expr  @ 5 @ 
+name: addend  @ 61 @ name: big_endian  @ 24 @ 
+expr  @ 104 @ expr  @ 39 @ 
+block  @ 21 @ block  @ 7 @ 
+name: bind  @ 82 @ name: machohdrbytes  @ 34 @ 
+name  @ 98 @ name  @ 39 @ 
+name: p  @ 128 @ name: macho_hdr  @ 42 @ 
+argument  @ 34 @ argument  @ 15 @ 
+name: delta  @ 50 @ name: big_endian  @ 18 @ 
+name: bind  @ 84 @ name: len  @ 35 @ 
+operator: =  @ 52 @ operator: =  @ 20 @ 
+call  @ 29 @ call  @ 10 @ 
+decl  @ 11 @ decl  @ 4 @ 
+name: is_auth  @ 62 @ name: r_read_be32  @ 25 @ 
+name: start  @ 14 @ name: mach_header  @ 5 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 24 @ 
+name: p  @ 50 @ name: true  @ 18 @ 
+name: i  @ 20 @ name: false  @ 6 @ 
+block  @ 29 @ block  @ 10 @ 
+name: context  @ 1 @ name: buf  @ 1 @ 
+name: diversity  @ 54 @ name: big_endian  @ 22 @ 
+argument  @ 29 @ argument  @ 10 @ 
+expr  @ 30 @ expr  @ 11 @ 
+name: p  @ 105 @ name: macho_hdr  @ 40 @ 
+name: next  @ 128 @ name: filetype  @ 42 @ 
+block  @ 8 @ block  @ 3 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 4 @ 
+name: addrDiv  @ 53 @ name: FAT_MAGIC  @ 21 @ 
+block  @ 1 @ block  @ 1 @ 
+name  @ 185 @ name  @ 47 @ 
+literal: 8  @ 26 @ literal: 8  @ 41 @ 
+if_stmt  @ 29 @ if_stmt  @ 10 @ 
+expr  @ 182 @ expr  @ 45 @ 
+expr  @ 55 @ expr  @ 23 @ 
+name: raw_ptr  @ 172 @ name: flags  @ 45 @ 
+name: event_details  @ 184 @ name: R_BIN_MACH064  @ 46 @ 
+name  @ 141 @ name  @ 43 @ 
+operator: =  @ 157 @ operator: =  @ 44 @ 
+operator: =  @ 61 @ operator: =  @ 24 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 18 @ 
+argument  @ 29 @ argument  @ 10 @ 
+argument  @ 132 @ argument  @ 42 @ 
+name: MACH0_  @ 1 @ name: MACH0_  @ 1 @ 
+init  @ 20 @ init  @ 6 @ 
+name: MACH0_  @ 1 @ name: MACH0_  @ 1 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 22 @ 
+name: event_details  @ 148 @ name: machohdrbytes  @ 43 @ 
+operator: ->  @ 98 @ operator: ->  @ 39 @ 
+expr  @ 170 @ expr  @ 44 @ 
+operator: &&  @ 55 @ operator: ==  @ 23 @ 
+name: end  @ 15 @ name: mach_header  @ 5 @ 
+condition  @ 29 @ condition  @ 10 @ 
+name: auth  @ 84 @ name: MACH0_  @ 35 @ 
+operator: !=  @ 29 @ operator: <  @ 10 @ 
+literal: "Unexpected event while iterating chained fixups\n"  @ 194 @ literal: 32  @ 47 @ 
+name: ut8  @ 39 @ name: ut8  @ 3 @ 
+expr  @ 190 @ expr  @ 47 @ 
+expr  @ 123 @ expr  @ 41 @ 
+expr  @ 102 @ expr  @ 39 @ 
+name: void  @ 1 @ name: struct  @ 1 @ 
+operator: ->  @ 37 @ operator: ==  @ 15 @ 
+expr  @ 54 @ expr  @ 22 @ 
+argument  @ 190 @ argument  @ 47 @ 
+name: p  @ 52 @ name: false  @ 20 @ 
+operator: =  @ 101 @ operator: =  @ 39 @ 
+expr  @ 175 @ expr  @ 45 @ 
+operator: =  @ 129 @ operator: =  @ 42 @ 
+expr  @ 201 @ expr  @ 49 @ 
+argument_list  @ 15 @ argument_list  @ 5 @ 
+expr  @ 50 @ expr  @ 18 @ 
+index  @ 7 @ index  @ 3 @ 
+name: bind  @ 98 @ name: macho_hdr  @ 39 @ 
+type  @ 27 @ type  @ 6 @ 
+name: IS_PTR_AUTH  @ 44 @ name: r_read_be32  @ 17 @ 
+literal: 0  @ 2 @ literal: 0  @ 3 @ 
+operator: .  @ 141 @ operator: ->  @ 43 @ 
+operator: =  @ 106 @ operator: =  @ 40 @ 
+expr  @ 135 @ expr  @ 42 @ 
+decl_stmt  @ 20 @ decl_stmt  @ 6 @ 
+name: DYLD_CHAINED_PTR_ARM64E_USERLAND24  @ 78 @ name: r_buf_read_at  @ 34 @ 
+expr  @ 15 @ expr  @ 5 @ 
+name: auth  @ 98 @ name: magic  @ 39 @ 
+name  @ 128 @ name  @ 42 @ 
+operator: =  @ 185 @ operator: =  @ 47 @ 
+expr  @ 84 @ expr  @ 35 @ 
+name: DYLD_CHAINED_PTR_START_NONE  @ 21 @ name: macho_hdr  @ 7 @ 
+name: raw_ptr  @ 172 @ name: r_read_ble  @ 45 @ 
+expr  @ 88 @ expr  @ 37 @ 
+expr  @ 82 @ expr  @ 34 @ 
+init  @ 2 @ init  @ 3 @ 
+name: R_MIN  @ 15 @ name: R_NEW0  @ 5 @ 
+expr  @ 29 @ expr  @ 10 @ 
+name: start  @ 14 @ name: macho_hdr  @ 5 @ 
+argument  @ 29 @ argument  @ 10 @ 
+expr  @ 51 @ expr  @ 19 @ 
+name: raw_ptr  @ 157 @ name: sizeofcmds  @ 44 @ 
+operator: ==  @ 78 @ operator: =  @ 34 @ 
+expr  @ 1 @ expr  @ 1 @ 
+name: target  @ 67 @ name: true  @ 26 @ 
+block  @ 62 @ block  @ 25 @ 
+literal: 0  @ 39 @ literal: 0  @ 29 @ 
+name: bin  @ 30 @ name: free  @ 11 @ 
+expr  @ 61 @ expr  @ 24 @ 
+operator: ->  @ 119 @ operator: ->  @ 41 @ 
+operator: ->  @ 129 @ operator: &  @ 42 @ 
+if_stmt  @ 21 @ if_stmt  @ 7 @ 
+name: ordinal  @ 88 @ name: NULL  @ 37 @ 
+name: p  @ 102 @ name: machohdrbytes  @ 39 @ 
+expr  @ 186 @ expr  @ 47 @ 
+name: event_details  @ 157 @ name: macho_hdr  @ 44 @ 
+operator: &&  @ 62 @ operator: ==  @ 25 @ 
+name: raw_ptr  @ 144 @ name: r_read_ble  @ 43 @ 
+argument_list  @ 1 @ argument_list  @ 1 @ 
+argument_list  @ 34 @ argument_list  @ 15 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 26 @ 
+name: segs  @ 12 @ name: struct  @ 5 @ 
+type  @ 39 @ type  @ 3 @ 
+name: p  @ 61 @ name: false  @ 24 @ 
+expr  @ 132 @ expr  @ 42 @ 
+name: tmp  @ 29 @ name: magicbytes  @ 10 @ 
+operator: ->  @ 128 @ operator: ->  @ 42 @ 
+operator: =  @ 50 @ operator: =  @ 18 @ 
+expr  @ 1 @ expr  @ 1 @ 
+name: pointer_format  @ 132 @ name: big_endian  @ 42 @ 
+name: dyld_chained_ptr_arm64e_rebase  @ 108 @ name: r_read_ble  @ 40 @ 
+expr  @ 62 @ expr  @ 25 @ 
+name: baddr  @ 129 @ name: machohdrbytes  @ 42 @ 
+expr  @ 29 @ expr  @ 10 @ 
+name: tmp  @ 34 @ name: magicbytes  @ 15 @ 
+name  @ 102 @ name  @ 39 @ 
+name: stride  @ 43 @ name: big_endian  @ 16 @ 
+literal: "Unsupported chained pointer format %d\n"  @ 132 @ literal: 12  @ 42 @ 
+expr  @ 121 @ expr  @ 41 @ 
+name  @ 26 @ name  @ 41 @ 
+decl  @ 20 @ decl  @ 6 @ 
+operator: ==  @ 21 @ operator: !  @ 7 @ 
+name  @ 12 @ name  @ 5 @ 
+expr  @ 132 @ expr  @ 42 @ 
+expr  @ 112 @ expr  @ 40 @ 
+name: type  @ 141 @ name: ncmds  @ 43 @ 
+name: context  @ 190 @ name: big_endian  @ 47 @ 
+expr  @ 44 @ expr  @ 17 @ 
+argument  @ 14 @ argument  @ 5 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: r_read_le64  @ 34 @ name: r_read_le32  @ 15 @ 
+expr  @ 194 @ expr  @ 47 @ 
+name: pointer_format  @ 115 @ name: big_endian  @ 40 @ 
+block_content  @ 22 @ block_content  @ 8 @ 
+if  @ 29 @ if  @ 10 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+operator: ->  @ 105 @ operator: ->  @ 40 @ 
+name: bind  @ 122 @ name: big_endian  @ 41 @ 
+name  @ 172 @ name  @ 45 @ 
+name: i  @ 12 @ name: MACH0_  @ 5 @ 
+argument  @ 1 @ argument  @ 1 @ 
+else  @ 71 @ else  @ 27 @ 
+argument_list  @ 1 @ argument_list  @ 1 @ 
+name: delta  @ 83 @ name: machohdrbytes  @ 34 @ 
+literal: 4  @ 116 @ literal: 32  @ 40 @ 
+name: raw_ptr  @ 109 @ name: machohdrbytes  @ 40 @ 
+expr  @ 26 @ expr  @ 41 @ 
+operator: .  @ 157 @ operator: ->  @ 44 @ 
+init  @ 15 @ init  @ 5 @ 
+name: bind  @ 119 @ name: macho_hdr  @ 41 @ 
+

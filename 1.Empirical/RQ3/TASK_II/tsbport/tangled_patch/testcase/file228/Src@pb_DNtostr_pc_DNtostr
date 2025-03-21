@@ -1,0 +1,4 @@
+static CURLcode DNtostr(struct dynbuf *store,struct Curl_asn1Element *dn)
+{
+  return encodeDN(store, dn);
+}

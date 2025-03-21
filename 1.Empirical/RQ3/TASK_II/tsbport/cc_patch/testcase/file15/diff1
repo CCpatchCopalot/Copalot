@@ -1,0 +1,39 @@
+112a113,141
+> // An utility test to detect if the subgraph is abused:
+> // 1. Detects if recursion exists in the graph (recursion is not currently
+> //supported.
+> // 2. Detects if the interpreter / subgraph is used in multiple subgraphs.
+> //Note: It's clearly documented that the interpreter / subgraph are not
+> //thread-safe. This serves as a check with possible false negatives
+> //unless we switch to atomic boolean flags.
+> class SubgraphGuard {
+>   public:
+>    SubgraphGuard(TfLiteContext* context, bool* is_subgraph_in_use)
+>        : is_subgraph_in_use_(is_subgraph_in_use) { if (*is_subgraph_in_use_) {
+>        TF_LITE_KERNEL_LOG( context, "Subgraph is already in use. Using an interpreter or a subgraph in " "multiple threads is not supported. Recursion in the graph is not " "supported.");
+>        status_ = kTfLiteError;
+>      } else {
+>        *is_subgraph_in_use_ = true;
+>      }
+>    }
+>    ~SubgraphGuard() { // If tht original status was OK, recover the boolean flag. if (status_ == kTfLiteOk) {
+>        *is_subgraph_in_use_ = false;
+>      }
+>    }
+>  
+>    TfLiteStatus status() const { return status_; }
+>  
+>   private:
+>    TfLiteStatus status_ = kTfLiteOk;
+>    bool* is_subgraph_in_use_;
+>  };
+>  
+537a567,571
+>   // Note `AllocateTensors` sometimes calls itself recursively above
+>   // for delegates. Therefore only the logic below need to be guarded
+>   // by `SubgraphGuard`.
+>   SubgraphGuard guard(&context_, &is_subgraph_in_use_);
+>   TF_LITE_ENSURE_OK(&context_, guard.status());
+822a857,858
+>   SubgraphGuard guard(&context_, &is_subgraph_in_use_);
+>   TF_LITE_ENSURE_OK(&context_, guard.status());

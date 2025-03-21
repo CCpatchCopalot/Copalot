@@ -1,0 +1,47 @@
+{
+    "testcase": {
+        "file106": {
+            "match_message": {
+                "Same: dot24_print_page -> dot24_print_page": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 43 -> 67",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 44->68"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 24,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 67,
+                        "add_hunk": [
+                            "  if (bytes_per_space == 0) {\n",
+                            "    return_error(gs_error_rangecheck);\n",
+                            "  }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: dot24_print_page -> dot24_print_page": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "testcase": {
+        "file66": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "1666 -> 1705",
+                        "L2": "1666 -> 1705",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1705",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "1690 -> 1729",
+                        "L2": "1696 -> 1735",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1729",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "1698 -> 1737",
+                        "L2": "1698 -> 1737",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1737",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "1701 -> 1740",
+                        "L2": "1701 -> 1740",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1740",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1705,
+                        "add_hunk": [
+                            "typedef struct __full_audio_sample_entry\n"
+                        ],
+                        "delete_location": [
+                            1705,
+                            1705
+                        ],
+                        "delete_hunk": [
+                            "typedef struct\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "add_location": 34,
+                        "add_hunk": [],
+                        "delete_location": [
+                            1729,
+                            1735
+                        ],
+                        "delete_hunk": [
+                            "} GF_MPEGAudioSampleEntryBox;\n",
+                            "typedef struct\n",
+                            "{\n",
+                            "\tGF_ISOM_AUDIO_SAMPLE_ENTRY\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 1737,
+                        "add_hunk": [],
+                        "delete_location": [
+                            1737,
+                            1737
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 1740,
+                        "add_hunk": [
+                            "} GF_MPEGAudioSampleEntryBox;\n",
+                            "typedef struct __full_audio_sample_entry GF_GenericAudioSampleEntryBox;\n"
+                        ],
+                        "delete_location": [
+                            1740,
+                            1740
+                        ],
+                        "delete_hunk": [
+                            "} GF_GenericAudioSampleEntryBox;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:struct",
+                            "unknown",
+                            "unknown",
+                            "unknown"
+                        ]
+                    },
+                    "Seg_2": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_3": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:struct"
+                        ]
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "MOVE_TO",
+                "outside"
+            ]
+        }
+    }
+}

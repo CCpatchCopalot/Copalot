@@ -1,0 +1,44 @@
+7430c7430
+<      crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>      crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7436c7436
+<        next_buff = _TIFFrealloc(crop_buff, cropsize);
+---
+>        next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7440c7440
+<          crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>          crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7453c7453
+<    _TIFFmemset(crop_buff, 0, cropsize);
+---
+>    _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7532c7532
+<        crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>        crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7538c7538
+<          next_buff = _TIFFrealloc(crop_buff, cropsize);
+---
+>          next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7542c7542
+<            crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>            crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7555c7555
+<      _TIFFmemset(crop_buff, 0, cropsize);
+---
+>      _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+8454c8454
+<  if (!(rbuff = (unsigned char *)limitMalloc(buffsize)))
+---
+>  if (!(rbuff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES)))
+8456c8456
+<    TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize);
+---
+>    TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize + NUM_BUFF_OVERSIZE_BYTES);
+8459c8459
+<  _TIFFmemset(rbuff, '\0', buffsize);
+---
+>  _TIFFmemset(rbuff, '\0', buffsize + NUM_BUFF_OVERSIZE_BYTES);

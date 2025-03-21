@@ -1,0 +1,181 @@
+426c426,436
+<     int retCode;
+---
+>     int retCode = 0;
+> 
+>     /* Change the margins if necessary. */
+>     static const float dj_a4[4] = {
+>         DESKJET_MARGINS_A4
+>     };
+> 
+>     static const float dj_letter[4] = {
+>         DESKJET_MARGINS_LETTER
+>     };
+>     const float *m = (float *)0;
+429a440,461
+>     /* quality setup */
+>     if (cdj970->quality == DRAFT) {
+>         gx_device_set_resolution((gx_device *) pdev, 300.0, 300.0);
+>         cdj970->xscal = 0;
+>         cdj970->yscal = 0;
+>         cdj970->intensities = 2;
+>     } else if (cdj970->quality == NORMAL) {
+>         gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);
+>         cdj970->xscal = 1;
+>         cdj970->yscal = 1;
+>         /* intensities = 4 from initialization */
+>     } else {                    /* quality == PRESENTATION */
+>         gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);
+>         cdj970->xscal = 0;
+>         cdj970->yscal = 0;
+>         /* intensities = 4 from initialization */
+>     }
+> 
+>     m = (gdev_pcl_paper_size((gx_device *) pdev) == PAPER_SIZE_A4 ? dj_a4 : dj_letter);
+> 
+>     gx_device_set_margins((gx_device *) pdev, m, true);
+> 
+432c464
+<         int code = cdj_set_bpp(pdev, pdev->color_info.depth, pdev->color_info.num_components);
+---
+>         retCode = cdj_set_bpp(pdev, pdev->color_info.depth, pdev->color_info.num_components);
+434,435c466,467
+<         if (code < 0)
+<             return code;
+---
+>         if (retCode < 0)
+>             return retCode;
+439,441c471
+<     if (retCode < 0)
+<         return (retCode);
+<     else {
+---
+>     if (retCode >= 0) {
+443,444d472
+<         if (retCode < 0)
+<             return (retCode);
+479,490c507,525
+<     code = cdj_put_param_int(plist, "BitsPerPixel", &bpp, 1, 32, code);
+<     code = cdj_put_param_int(plist, "Quality", &quality, 0, 2, code);
+<     code = cdj_put_param_int(plist, "Papertype", &papertype, 0, 4, code);
+<     code = cdj_put_param_int(plist, "Duplex", &duplex, 0, 2, code);
+<     code =cdj_put_param_float(plist, "MasterGamma", &mastergamma, 0.1f, 9.0f,code);
+<     code =cdj_put_param_float(plist, "GammaValC", &gammavalc, 0.0f, 9.0f, code);
+<     code =cdj_put_param_float(plist, "GammaValM", &gammavalm, 0.0f, 9.0f, code);
+<     code =cdj_put_param_float(plist, "GammaValY", &gammavaly, 0.0f, 9.0f, code);
+<     code =cdj_put_param_float(plist, "GammaValK", &gammavalk, 0.0f, 9.0f, code);
+<     code =cdj_put_param_float(plist, "BlackCorrect", &blackcorrect, 0.0f, 9.0f,code);
+< 
+<     if (code < 0)
+---
+>     if ((code = cdj_put_param_int(plist, "BitsPerPixel", &bpp, 1, 32, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_int(plist, "Quality", &quality, 0, 2, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_int(plist, "Papertype", &papertype, 0, 4, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_int(plist, "Duplex", &duplex, 0, 2, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_float(plist, "MasterGamma", &mastergamma, 0.1, 9.0, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_float(plist, "GammaValC", &gammavalc, 0.0, 9.0, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_float(plist, "GammaValM", &gammavalm, 0.0, 9.0, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_float(plist, "GammaValY", &gammavaly, 0.0, 9.0, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_float(plist, "GammaValK", &gammavalk, 0.0, 9.0, code)) < 0)
+>         return code;
+>     if ((code = cdj_put_param_float(plist, "BlackCorrect", &blackcorrect, 0.0, 9.0, code)) < 0)
+497a533,535
+>     if (cdj970->quality != quality) {
+>         if (pdev->is_open)
+>             gs_closedevice(pdev);		/* quality can change resolution, force re-open */
+498a537
+>     }
+508c547
+<     return 0;
+---
+>     return code;
+581,619d619
+< /* cdj970_one_time_initialisation:----------------------------------------------------------------------------------*/
+< static void
+< cdj970_one_time_initialisation(gx_device_printer * pdev)
+< {
+<     /* Change the margins if necessary. */
+<     static const float dj_a4[4] = {
+<         DESKJET_MARGINS_A4
+<     };
+< 
+<     static const float dj_letter[4] = {
+<         DESKJET_MARGINS_LETTER
+<     };
+<     const float *m = (float *)0;
+< 
+<     /* quality setup */
+<     if (cdj970->quality == DRAFT) {
+<         gx_device_set_resolution((gx_device *) pdev, 300.0, 300.0);
+<         cdj970->xscal = 0;
+<         cdj970->yscal = 0;
+<         cdj970->intensities = 2;
+<     } else if (cdj970->quality == NORMAL) {
+<         gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);
+<         cdj970->xscal = 1;
+<         cdj970->yscal = 1;
+<         /* intensities = 4 from initialization */
+<     } else {                    /* quality == PRESENTATION */
+<         gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);
+<         cdj970->xscal = 0;
+<         cdj970->yscal = 0;
+<         /* intensities = 4 from initialization */
+<     }
+< 
+<     m = (gdev_pcl_paper_size((gx_device *) pdev) == PAPER_SIZE_A4 ? dj_a4 : dj_letter);
+< 
+<     gx_device_set_margins((gx_device *) pdev, m, true);
+< 
+<     cdj970_write_header((gx_device *) pdev, pdev->file);
+< }
+< 
+631c631
+<         cdj970_one_time_initialisation(pdev);
+---
+>         cdj970_write_header((gx_device *)pdev, prn_stream);
+1842a1843,1846
+>     if (ci->depth != ((bpp > 1) && (bpp < 8) ? 8 : bpp)) {
+>         if (pdev->is_open)
+>             gs_closedevice(pdev); 	/* depth changed, make sure we re-open */
+>     }
+2095,2098c2099
+<     if (new_bpp == 0 && ccomps == 0)
+<         return gdev_prn_put_params(pdev, plist);
+<     else {
+<         gx_device_color_info save_info;
+---
+>     int code = 0;
+2100c2101
+<         int code;
+---
+>     gx_device_color_info save_info;
+2104a2106,2108
+>     if (new_bpp == 0 && ccomps == 0) {
+>        code = gdev_prn_put_params(pdev, plist);
+>     } else {
+2126c2130,2131
+<             return (gs_closedevice(pdev));
+---
+>             gs_closedevice(pdev);
+>     }
+2128c2133,2140
+<         return (0);
+---
+>     /* check for valid resolutions */
+>     if (pdev->HWResolution[0] != pdev->HWResolution[1] ||(pdev->HWResolution[0] != 300.0 && pdev->HWResolution[0] != 600.0) ) {
+>         param_signal_error(plist, "HWResolution", gs_error_rangecheck);
+>         emprintf1(pdev->memory, "\ncdj970: Invalid resolution: '%f'. Only 300 or 600 supported.\n\n",pdev->HWResolution[0]);
+>         cdj_set_bpp(pdev, save_bpp, save_ccomps);
+>         return gs_error_rangecheck;
+>     }
+>     return code;
+2131d2142
+<     }

@@ -1,0 +1,126 @@
+{
+    "testcase": {
+        "file183": {
+            "match_message": {
+                "Same: schannel_connect_step1 -> schannel_connect_step1": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 442",
+                        "L2": "7: Context line (Ignored) is empty or comment 442"
+                    }
+                },
+                "Same: schannel_connect_step3 -> schannel_connect_step3": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1121 -> 1329",
+                        "L2": "3: Unique Matched by Source code 1122 -> 1330"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1123 -> 1331",
+                        "L2": "3: Unique Matched by Source code 1123 -> 1331"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1187->1407",
+                        "L2": "5: Matched by Syntax(AST) similarity 1187->1407"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1197->1419",
+                        "L2": "5: Matched by Syntax(AST) similarity 1197->1419"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "    if(!Curl_ssl_getsessionid(data, conn,SSL_IS_PROXY() ? TRUE : FALSE,(void **)&old_cred, NULL, sockindex)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1329,
+                        "add_hunk": [
+                            "  bool isproxy = SSL_IS_PROXY();\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 1331,
+                        "add_hunk": [
+                            "  const char * const hostname = isproxy ? conn->http_proxy.host.name :\n"
+                        ],
+                        "delete_location": [
+                            1331,
+                            1331
+                        ],
+                        "delete_hunk": [
+                            "  const char * const hostname = SSL_IS_PROXY() ? conn->http_proxy.host.name :\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 1407,
+                        "add_hunk": [
+                            "incache = !(Curl_ssl_getsessionid(data, conn, isproxy, (void **)&old_cred,NULL, sockindex));"
+                        ],
+                        "delete_location": [
+                            1407,
+                            1407
+                        ],
+                        "delete_hunk": [
+                            "    incache = !(Curl_ssl_getsessionid(conn, (void **)&old_cred, NULL,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 1419,
+                        "add_hunk": [
+                            "result = Curl_ssl_addsessionid(data, conn, isproxy, BACKEND->cred, sizeof(struct Curl_schannel_cred), sockindex);"
+                        ],
+                        "delete_location": [
+                            1419,
+                            1419
+                        ],
+                        "delete_hunk": [
+                            "      result = Curl_ssl_addsessionid(conn, (void *)BACKEND->cred,\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: schannel_connect_step1 -> schannel_connect_step1": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: schannel_connect_step3 -> schannel_connect_step3": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "outside",
+                "function_call",
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

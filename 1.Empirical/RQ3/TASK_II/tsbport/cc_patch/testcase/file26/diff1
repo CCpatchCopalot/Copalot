@@ -1,0 +1,10 @@
+60a61
+> 		context->read_addr = be? vtable_read_addr_be32 : vtable_read_addr_le32;
+75c76
+< 	ut64 curAddressValue;
+---
+> 	ut64 curAddressValue = UT64_MAX;
+282c283
+< 	RVTableContext context;
+---
+> 	RVTableContext context = {0};

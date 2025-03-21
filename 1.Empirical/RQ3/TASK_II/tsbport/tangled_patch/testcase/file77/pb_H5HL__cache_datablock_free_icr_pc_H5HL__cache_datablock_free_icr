@@ -1,0 +1,104 @@
+name: FUNC_ENTER_STATIC  @ 7 @ name: FUNC_ENTER_PACKAGE  @ 7 @ 
+name: H5HL__dblk_dest  @ 15 @ name: H5HL__dblk_dest  @ 15 @ 
+name: HDassert  @ 11 @ name: HDassert  @ 11 @ 
+comment: /* end H5HL__cache_datablock_free_icr() */  @ 20 @ comment: /* end H5HL__cache_datablock_free_icr() */  @ 20 @ 
+name  @ 11 @ name  @ 11 @ 
+name: SUCCEED  @ 5 @ name: SUCCEED  @ 5 @ 
+name: dblk  @ 11 @ name: dblk  @ 11 @ 
+argument_list  @ 16 @ argument_list  @ 16 @ 
+name: dblk  @ 10 @ name: dblk  @ 10 @ 
+operator: ->  @ 12 @ operator: ->  @ 12 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 5 @ expr  @ 5 @ 
+operator: .  @ 11 @ operator: .  @ 11 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: dblk  @ 15 @ name: dblk  @ 15 @ 
+argument  @ 16 @ argument  @ 16 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+expr  @ 12 @ expr  @ 12 @ 
+comment: /* Check arguments */  @ 9 @ comment: /* Check arguments */  @ 9 @ 
+argument  @ 11 @ argument  @ 11 @ 
+operator: )  @ 4 @ operator: )  @ 4 @ 
+name: done  @ 18 @ name: done  @ 18 @ 
+name: H5HL__cache_datablock_free_icr  @ 2 @ name: H5HL__cache_datablock_free_icr  @ 2 @ 
+name: magic  @ 11 @ name: magic  @ 11 @ 
+argument  @ 10 @ argument  @ 10 @ 
+operator: <  @ 15 @ operator: <  @ 15 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+label  @ 18 @ label  @ 18 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+type  @ 5 @ type  @ 5 @ 
+argument  @ 16 @ argument  @ 16 @ 
+operator: (  @ 4 @ operator: (  @ 4 @ 
+expr  @ 4 @ expr  @ 4 @ 
+argument  @ 16 @ argument  @ 16 @ 
+name: HGOTO_ERROR  @ 16 @ name: HGOTO_ERROR  @ 16 @ 
+name: H5AC_LHEAP_DBLK  @ 12 @ name: H5AC_LHEAP_DBLK  @ 12 @ 
+comment: /* Pointer to the local heap data block */  @ 4 @ comment: /* Pointer to the local heap data block */  @ 4 @ 
+name: FUNC_LEAVE_NOAPI  @ 19 @ name: FUNC_LEAVE_NOAPI  @ 19 @ 
+init  @ 5 @ init  @ 5 @ 
+call  @ 15 @ call  @ 15 @ 
+decl  @ 7 @ decl  @ 7 @ 
+name: H5C__H5C_CACHE_ENTRY_T_BAD_MAGIC  @ 11 @ name: H5C__H5C_CACHE_ENTRY_T_BAD_MAGIC  @ 11 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: ret_value  @ 5 @ name: ret_value  @ 5 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+block  @ 3 @ block  @ 3 @ 
+name: herr_t  @ 5 @ name: herr_t  @ 5 @ 
+name: cache_info  @ 12 @ name: cache_info  @ 12 @ 
+name: H5HL_dblk_t  @ 4 @ name: H5HL_dblk_t  @ 4 @ 
+argument  @ 12 @ argument  @ 12 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+type  @ 4 @ type  @ 4 @ 
+decl  @ 5 @ decl  @ 5 @ 
+operator: ->  @ 11 @ operator: ->  @ 11 @ 
+call  @ 11 @ call  @ 11 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+name: dblk  @ 12 @ name: dblk  @ 12 @ 
+literal: 0  @ 15 @ literal: 0  @ 15 @ 
+name: cache_info  @ 11 @ name: cache_info  @ 11 @ 
+argument_list  @ 12 @ argument_list  @ 12 @ 
+expr  @ 12 @ expr  @ 12 @ 
+argument  @ 16 @ argument  @ 16 @ 
+name: _thing  @ 2 @ name: _thing  @ 2 @ 
+name: type  @ 12 @ name: type  @ 12 @ 
+condition  @ 15 @ condition  @ 15 @ 
+name  @ 12 @ name  @ 12 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+operator: ==  @ 12 @ operator: ==  @ 12 @ 
+type  @ 7 @ type  @ 7 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: HDassert  @ 10 @ name: HDassert  @ 10 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+name: HDassert  @ 12 @ name: HDassert  @ 12 @ 
+expr  @ 11 @ expr  @ 11 @ 
+expr  @ 15 @ expr  @ 15 @ 
+operator: *  @ 4 @ operator: *  @ 4 @ 
+expr  @ 15 @ expr  @ 15 @ 
+function  @ 1 @ function  @ 1 @ 
+argument  @ 19 @ argument  @ 19 @ 
+argument_list  @ 11 @ argument_list  @ 11 @ 
+call  @ 12 @ call  @ 12 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: void  @ 2 @ name: void  @ 2 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name: dblk  @ 4 @ name: dblk  @ 4 @ 
+macro  @ 19 @ macro  @ 19 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 12 @ 
+literal: "unable to destroy local heap data block"  @ 16 @ literal: "unable to destroy local heap data block"  @ 16 @ 
+operator: ==  @ 11 @ operator: ==  @ 11 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 7 @ 
+comment: /* Return value */  @ 5 @ comment: /* Return value */  @ 5 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+argument  @ 15 @ argument  @ 15 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+operator: .  @ 12 @ operator: .  @ 12 @ 
+name: H5HL_dblk_t  @ 4 @ name: H5HL_dblk_t  @ 4 @ 
+init  @ 4 @ init  @ 4 @ 
+name: _thing  @ 4 @ name: _thing  @ 4 @ 
+comment: /* Destroy the data block */  @ 14 @ comment: /* Destroy the data block */  @ 14 @ 
+

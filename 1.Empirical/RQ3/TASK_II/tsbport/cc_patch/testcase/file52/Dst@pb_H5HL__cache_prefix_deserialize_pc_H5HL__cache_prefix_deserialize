@@ -1,0 +1,82 @@
+static void *
+H5HL__cache_prefix_deserialize(const void *_image, size_t H5_ATTR_NDEBUG_UNUSED len, void *_udata,
+                               hbool_t H5_ATTR_UNUSED *dirty)
+{
+    H5HL_t *              heap      = NULL;                           /* Local heap */
+    H5HL_prfx_t *         prfx      = NULL;                           /* Heap prefix deserialized */
+    const uint8_t *       image     = (const uint8_t *)_image;        /* Pointer into decoding buffer */
+    H5HL_cache_prfx_ud_t *udata     = (H5HL_cache_prfx_ud_t *)_udata; /* User data for callback */
+    void *                ret_value = NULL;                           /* Return value */
+
+    FUNC_ENTER_PACKAGE
+
+    /* Check arguments */
+    HDassert(image);
+    HDassert(len > 0);
+    HDassert(udata);
+    HDassert(udata->sizeof_size > 0);
+    HDassert(udata->sizeof_addr > 0);
+    HDassert(udata->sizeof_prfx > 0);
+    HDassert(H5F_addr_defined(udata->prfx_addr));
+    HDassert(dirty);
+
+    /* Allocate space in memory for the heap */
+    if (NULL == (heap = H5HL__new(udata->sizeof_size, udata->sizeof_addr, udata->sizeof_prfx)))
+        HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, NULL, "can't allocate local heap structure");
+
+    /* Deserialize the heap's header */
+    if (H5HL__hdr_deserialize(heap, (const uint8_t *)image, udata) < 0)
+        HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, NULL, "can't decode local heap header")
+
+    /* Allocate the heap prefix */
+    if (NULL == (prfx = H5HL__prfx_new(heap)))
+        HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, NULL, "can't allocate local heap prefix");
+
+    /* Check if heap block exists */
+    if (heap->dblk_size) {
+        /* Check if heap data block is contiguous with header */
+        if (H5F_addr_eq((heap->prfx_addr + heap->prfx_size), heap->dblk_addr)) {
+            /* Note that the heap should be a single object in the cache */
+            heap->single_cache_obj = TRUE;
+
+            /* Allocate space for the heap data image */
+            if (NULL == (heap->dblk_image = H5FL_BLK_MALLOC(lheap_chunk, heap->dblk_size)))
+                HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, NULL, "memory allocation failed")
+
+            /* Set image to the start of the data block.  This is necessary
+             * because there may be a gap between the used portion of the
+             * prefix and the data block due to alignment constraints. */
+            image = ((const uint8_t *)_image) + heap->prfx_size;
+
+            /* Copy the heap data from the speculative read buffer */
+            H5MM_memcpy(heap->dblk_image, image, heap->dblk_size);
+
+            /* Build free list */
+            if (H5HL__fl_deserialize(heap) < 0)
+                HGOTO_ERROR(H5E_HEAP, H5E_CANTINIT, NULL, "can't initialize free list")
+        }
+        else
+            /* Note that the heap should _NOT_ be a single
+             * object in the cache
+             */
+            heap->single_cache_obj = FALSE;
+    }
+
+    /* Set return value */
+    ret_value = prfx;
+
+done:
+    /* Release the [possibly partially initialized] local heap on errors */
+    if (!ret_value) {
+        if (prfx) {
+            if (FAIL == H5HL__prfx_dest(prfx))
+                HDONE_ERROR(H5E_HEAP, H5E_CANTRELEASE, NULL, "unable to destroy local heap prefix");
+        }
+        else {
+            if (heap && FAIL == H5HL__dest(heap))
+                HDONE_ERROR(H5E_HEAP, H5E_CANTRELEASE, NULL, "unable to destroy local heap");
+        }
+    }
+
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5HL__cache_prefix_deserialize() */

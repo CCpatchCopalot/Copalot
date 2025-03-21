@@ -1,0 +1,30 @@
+static vztint32_t vzt_rd_get_v32(char **mmx)
+{
+char *c;
+char *beg;
+vztint32_t val;
+char **mm = mmx;
+
+c = *mm;
+beg = c;
+
+if(!(*c & 0x80))
+	{
+	while(!(*c & 0x80)) c++;
+	*mm = c+1;
+
+	val = (vztint32_t)(*c&0x7f);
+	do
+		{
+		val <<= 7;
+		val |= (vztint32_t)*(--c);
+		} while (c!=beg);
+	}
+	else
+	{
+	*mm = c+1;
+	val = (vztint32_t)(*c&0x7f);
+	}
+
+return(val);
+}

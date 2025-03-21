@@ -1,0 +1,25 @@
+static uint32_t
+checkInkNamesString(TIFF* tif, uint32_t slen, const char* s)
+{
+	TIFFDirectory* td = &tif->tif_dir;
+	uint16_t i = td->td_samplesperpixel;
+
+	if (slen > 0) {
+		const char* ep = s+slen;
+		const char* cp = s;
+		for (; i > 0; i--) {
+			for (; cp < ep && *cp != '\0'; cp++) {}
+			if (cp >= ep)
+				goto bad;
+			cp++;				/* skip \0 */
+		}
+		return ((uint32_t)(cp - s));
+	}
+bad:
+	TIFFErrorExt(tif->tif_clientdata, "TIFFSetField",
+	    "%s: Invalid InkNames value; expecting %"PRIu16" names, found %"PRIu16,
+	    tif->tif_name,
+	    td->td_samplesperpixel,
+	    (uint16_t)(td->td_samplesperpixel-i));
+	return (0);
+}

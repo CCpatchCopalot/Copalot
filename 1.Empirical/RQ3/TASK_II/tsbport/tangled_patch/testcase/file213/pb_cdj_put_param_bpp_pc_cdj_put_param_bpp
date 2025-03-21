@@ -1,0 +1,285 @@
+name: pdev  @ 35 @ name: pdev  @ 39 @ 
+undef  @ 47 @ undef  @ 43 @ 
+name: ccomps  @ 11 @ name: ccomps  @ 6 @ 
+operator: )  @ 22 @ operator: )  @ 24 @ 
+name: new_bpp  @ 11 @ name: new_bpp  @ 6 @ 
+name: cdj_set_bpp  @ 17 @ name: cdj_set_bpp  @ 19 @ 
+name  @ 14 @ name  @ 16 @ 
+argument  @ 17 @ argument  @ 19 @ 
+operator: !=  @ 34 @ operator: !=  @ 37 @ 
+argument  @ 21 @ argument  @ 23 @ 
+argument  @ 21 @ argument  @ 23 @ 
+expr  @ 39 @ expr  @ 41 @ 
+name: save_bpp  @ 15 @ name: save_bpp  @ 17 @ 
+operator: !=  @ 34 @ operator: !=  @ 36 @ 
+expr  @ 28 @ expr  @ 30 @ 
+call  @ 17 @ call  @ 19 @ 
+name: new_bpp  @ 2 @ name: new_bpp  @ 4 @ 
+expr  @ 9 @ expr  @ 14 @ 
+name: depth  @ 25 @ name: depth  @ 27 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+operator: !  @ 14 @ operator: !  @ 16 @ 
+if  @ 34 @ if  @ 36 @ 
+expr  @ 17 @ expr  @ 19 @ 
+name: pdev  @ 8 @ name: pdev  @ 13 @ 
+if_stmt  @ 14 @ if_stmt  @ 16 @ 
+expr  @ 35 @ expr  @ 39 @ 
+name: color_info  @ 25 @ name: color_info  @ 27 @ 
+name: plist  @ 40 @ name: plist  @ 7 @ 
+argument  @ 26 @ argument  @ 28 @ 
+name: save_bpp  @ 14 @ name: save_bpp  @ 16 @ 
+parameter  @ 2 @ parameter  @ 4 @ 
+argument  @ 40 @ argument  @ 7 @ 
+name: real_bpp  @ 2 @ name: real_bpp  @ 4 @ 
+name: save_bpp  @ 9 @ name: save_bpp  @ 14 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 14 @ 
+name: save_info  @ 6 @ name: save_info  @ 9 @ 
+name: int  @ 4 @ name: int  @ 11 @ 
+expr  @ 29 @ expr  @ 31 @ 
+name: plist  @ 2 @ name: plist  @ 3 @ 
+operator: =  @ 8 @ operator: =  @ 13 @ 
+operator: (  @ 34 @ operator: (  @ 37 @ 
+argument  @ 20 @ argument  @ 22 @ 
+name: plist  @ 26 @ name: plist  @ 28 @ 
+argument  @ 20 @ argument  @ 22 @ 
+name: cprn_device  @ 14 @ name: cprn_device  @ 16 @ 
+expr  @ 33 @ expr  @ 35 @ 
+argument_list  @ 29 @ argument_list  @ 31 @ 
+operator: =  @ 17 @ operator: =  @ 19 @ 
+argument  @ 26 @ argument  @ 28 @ 
+if_stmt  @ 34 @ if_stmt  @ 36 @ 
+name: color_info  @ 34 @ name: color_info  @ 36 @ 
+operator: ==  @ 11 @ operator: ==  @ 6 @ 
+name: gx_device  @ 2 @ name: gx_device  @ 2 @ 
+comment: /* cdj_set_bpp maps 3/6 to 8 */  @ 25 @ comment: /* cdj_set_bpp maps 3/6 to 8 */  @ 27 @ 
+name: gs_param_list  @ 2 @ name: gs_param_list  @ 3 @ 
+expr  @ 8 @ expr  @ 13 @ 
+name: save_ccomps  @ 47 @ name: save_ccomps  @ 43 @ 
+operator: =  @ 15 @ operator: =  @ 17 @ 
+operator: (  @ 34 @ operator: (  @ 36 @ 
+type  @ 2 @ type  @ 4 @ 
+argument_list  @ 12 @ argument_list  @ 7 @ 
+operator: ||  @ 34 @ operator: ||  @ 37 @ 
+name: save_bpp  @ 5 @ name: save_bpp  @ 10 @ 
+name: int  @ 2 @ name: int  @ 4 @ 
+operator: <  @ 28 @ operator: <  @ 30 @ 
+literal: 3  @ 15 @ literal: 3  @ 17 @ 
+argument  @ 29 @ argument  @ 31 @ 
+argument  @ 17 @ argument  @ 19 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+block_content  @ 20 @ block_content  @ 22 @ 
+call  @ 35 @ call  @ 39 @ 
+block  @ 35 @ block  @ 39 @ 
+operator: ==  @ 14 @ operator: ==  @ 16 @ 
+expr  @ 33 @ expr  @ 35 @ 
+expr  @ 14 @ expr  @ 16 @ 
+operator: (  @ 30 @ operator: (  @ 32 @ 
+name: is_open  @ 34 @ name: is_open  @ 38 @ 
+literal: 3  @ 14 @ literal: 3  @ 16 @ 
+name: pdev  @ 42 @ name: pdev  @ 7 @ 
+parameter  @ 2 @ parameter  @ 4 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 22 @ 
+argument  @ 35 @ argument  @ 39 @ 
+operator: ->  @ 34 @ operator: ->  @ 36 @ 
+call  @ 20 @ call  @ 22 @ 
+if  @ 28 @ if  @ 30 @ 
+decl  @ 2 @ decl  @ 2 @ 
+argument_list  @ 35 @ argument_list  @ 39 @ 
+expr  @ 15 @ expr  @ 17 @ 
+type  @ 2 @ type  @ 2 @ 
+name: param_signal_error  @ 21 @ name: param_signal_error  @ 23 @ 
+literal: 0  @ 11 @ literal: 0  @ 6 @ 
+name: gdev_prn_put_params  @ 12 @ name: gdev_prn_put_params  @ 7 @ 
+operator: .  @ 9 @ operator: .  @ 14 @ 
+else  @ 13 @ else  @ 8 @ 
+directive: undef  @ 47 @ directive: undef  @ 43 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 27 @ 
+name: gdev_prn_put_params  @ 26 @ name: gdev_prn_put_params  @ 28 @ 
+argument_list  @ 17 @ argument_list  @ 19 @ 
+name: ccomps  @ 2 @ name: ccomps  @ 4 @ 
+argument  @ 42 @ argument  @ 7 @ 
+name: plist  @ 21 @ name: plist  @ 23 @ 
+type  @ 2 @ type  @ 3 @ 
+name: pdev  @ 17 @ name: pdev  @ 19 @ 
+literal: 0  @ 11 @ literal: 0  @ 6 @ 
+name: cdj_set_bpp  @ 33 @ name: cdj_set_bpp  @ 35 @ 
+expr  @ 29 @ expr  @ 31 @ 
+block  @ 13 @ block  @ 8 @ 
+operator: )  @ 39 @ operator: )  @ 41 @ 
+name: gs_closedevice  @ 35 @ name: gs_closedevice  @ 39 @ 
+expr  @ 25 @ expr  @ 27 @ 
+name: cdj_set_bpp  @ 29 @ name: cdj_set_bpp  @ 31 @ 
+operator: !=  @ 34 @ operator: !=  @ 37 @ 
+decl  @ 2 @ decl  @ 4 @ 
+argument_list  @ 20 @ argument_list  @ 22 @ 
+call  @ 33 @ call  @ 35 @ 
+name: cdj970  @ 34 @ name: cdj970  @ 36 @ 
+block  @ 15 @ block  @ 17 @ 
+operator: ->  @ 25 @ operator: ->  @ 27 @ 
+argument_list  @ 33 @ argument_list  @ 35 @ 
+expr  @ 29 @ expr  @ 31 @ 
+operator: =  @ 9 @ operator: =  @ 14 @ 
+expr  @ 35 @ expr  @ 39 @ 
+name: code  @ 21 @ name: code  @ 23 @ 
+if_stmt  @ 19 @ if_stmt  @ 21 @ 
+name: code  @ 19 @ name: code  @ 21 @ 
+expr  @ 21 @ expr  @ 23 @ 
+name: save_bpp  @ 34 @ name: save_bpp  @ 36 @ 
+block  @ 28 @ block  @ 30 @ 
+name: pdev  @ 29 @ name: pdev  @ 31 @ 
+name: int  @ 2 @ name: int  @ 4 @ 
+name: save_info  @ 9 @ name: save_info  @ 14 @ 
+if_stmt  @ 28 @ if_stmt  @ 30 @ 
+literal: 0  @ 39 @ literal: 0  @ 41 @ 
+block_content  @ 15 @ block_content  @ 17 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+expr  @ 11 @ expr  @ 6 @ 
+name: int  @ 5 @ name: int  @ 10 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 23 @ 
+type  @ 6 @ type  @ 9 @ 
+operator: &&  @ 34 @ operator: &&  @ 37 @ 
+expr  @ 26 @ expr  @ 28 @ 
+type  @ 2 @ type  @ 4 @ 
+expr  @ 33 @ expr  @ 35 @ 
+type  @ 2 @ type  @ 4 @ 
+name: pdev  @ 33 @ name: pdev  @ 35 @ 
+name: new_bpp  @ 25 @ name: new_bpp  @ 27 @ 
+name  @ 34 @ name  @ 38 @ 
+operator: .  @ 34 @ operator: .  @ 36 @ 
+expr  @ 20 @ expr  @ 22 @ 
+block_content  @ 12 @ block_content  @ 7 @ 
+expr  @ 30 @ expr  @ 32 @ 
+expr  @ 17 @ expr  @ 19 @ 
+expr  @ 26 @ expr  @ 28 @ 
+name: pdev  @ 26 @ name: pdev  @ 28 @ 
+block_content  @ 35 @ block_content  @ 39 @ 
+name: ccomps  @ 34 @ name: ccomps  @ 37 @ 
+name: real_bpp  @ 17 @ name: real_bpp  @ 19 @ 
+name: save_info  @ 8 @ name: save_info  @ 13 @ 
+block_content  @ 4 @ block_content  @ 6 @ 
+name  @ 25 @ name  @ 27 @ 
+expr  @ 21 @ expr  @ 23 @ 
+literal: 8  @ 14 @ literal: 8  @ 16 @ 
+return  @ 30 @ return  @ 32 @ 
+name  @ 34 @ name  @ 36 @ 
+decl  @ 2 @ decl  @ 4 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 13 @ 
+operator: &&  @ 14 @ operator: &&  @ 16 @ 
+name: depth  @ 9 @ name: depth  @ 14 @ 
+expr  @ 21 @ expr  @ 23 @ 
+name: code  @ 30 @ name: code  @ 32 @ 
+name: depth  @ 34 @ name: depth  @ 36 @ 
+operator: &&  @ 34 @ operator: &&  @ 38 @ 
+condition  @ 28 @ condition  @ 30 @ 
+argument  @ 17 @ argument  @ 19 @ 
+decl  @ 6 @ decl  @ 9 @ 
+expr  @ 40 @ expr  @ 7 @ 
+comment: /* reset depth if needed */  @ 33 @ comment: /* reset depth if needed */  @ 35 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 28 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 10 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 5 @ decl  @ 10 @ 
+expr  @ 26 @ expr  @ 28 @ 
+argument_list  @ 26 @ argument_list  @ 28 @ 
+block  @ 3 @ block  @ 5 @ 
+decl  @ 2 @ decl  @ 4 @ 
+name: pdev  @ 34 @ name: pdev  @ 38 @ 
+call  @ 26 @ call  @ 28 @ 
+block  @ 19 @ block  @ 21 @ 
+name: code  @ 22 @ name: code  @ 24 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+call  @ 12 @ call  @ 7 @ 
+literal: 0  @ 28 @ literal: 0  @ 30 @ 
+literal: 0  @ 19 @ literal: 0  @ 21 @ 
+operator: =  @ 25 @ operator: =  @ 27 @ 
+condition  @ 34 @ condition  @ 36 @ 
+name: pdev  @ 2 @ name: pdev  @ 2 @ 
+expr  @ 19 @ expr  @ 21 @ 
+name  @ 9 @ name  @ 14 @ 
+condition  @ 11 @ condition  @ 6 @ 
+name: save_bpp  @ 29 @ name: save_bpp  @ 31 @ 
+name: param_signal_error  @ 20 @ name: param_signal_error  @ 22 @ 
+argument_list  @ 21 @ argument_list  @ 23 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 9 @ 
+name: code  @ 17 @ name: code  @ 19 @ 
+type  @ 4 @ type  @ 11 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 17 @ expr  @ 19 @ 
+call  @ 21 @ call  @ 23 @ 
+expr  @ 20 @ expr  @ 22 @ 
+name: code  @ 20 @ name: code  @ 22 @ 
+expr  @ 34 @ expr  @ 36 @ 
+expr  @ 20 @ expr  @ 22 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: save_ccomps  @ 34 @ name: save_ccomps  @ 37 @ 
+name: pdev  @ 25 @ name: pdev  @ 27 @ 
+name: save_ccomps  @ 29 @ name: save_ccomps  @ 31 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 35 @ 
+expr  @ 12 @ expr  @ 7 @ 
+argument  @ 20 @ argument  @ 22 @ 
+literal: 0  @ 34 @ literal: 0  @ 37 @ 
+operator: (  @ 22 @ operator: (  @ 24 @ 
+expr  @ 22 @ expr  @ 24 @ 
+name: gx_device_color_info  @ 6 @ name: gx_device_color_info  @ 9 @ 
+operator: ==  @ 14 @ operator: ==  @ 16 @ 
+expr  @ 17 @ expr  @ 19 @ 
+operator: &&  @ 11 @ operator: &&  @ 6 @ 
+name: code  @ 26 @ name: code  @ 28 @ 
+expr  @ 33 @ expr  @ 35 @ 
+argument  @ 29 @ argument  @ 31 @ 
+return  @ 22 @ return  @ 24 @ 
+operator: ->  @ 14 @ operator: ->  @ 16 @ 
+parameter  @ 2 @ parameter  @ 4 @ 
+if_stmt  @ 11 @ if_stmt  @ 6 @ 
+type  @ 5 @ type  @ 10 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 17 @ 
+operator: )  @ 34 @ operator: )  @ 37 @ 
+name: cdj_put_param_bpp  @ 2 @ name: cdj_put_param_bpp  @ 2 @ 
+name: ccomps  @ 17 @ name: ccomps  @ 19 @ 
+operator: =  @ 26 @ operator: =  @ 28 @ 
+name: int  @ 2 @ name: int  @ 4 @ 
+operator: ->  @ 8 @ operator: ->  @ 13 @ 
+operator: <  @ 19 @ operator: <  @ 21 @ 
+operator: .  @ 25 @ operator: .  @ 27 @ 
+name: plist  @ 20 @ name: plist  @ 22 @ 
+block_content  @ 29 @ block_content  @ 31 @ 
+name: code  @ 28 @ name: code  @ 30 @ 
+if  @ 14 @ if  @ 16 @ 
+literal: "ProcessColorModel"  @ 21 @ literal: "ProcessColorModel"  @ 23 @ 
+operator: ==  @ 11 @ operator: ==  @ 6 @ 
+name: cmyk  @ 14 @ name: cmyk  @ 16 @ 
+expr  @ 21 @ expr  @ 23 @ 
+expr  @ 42 @ expr  @ 7 @ 
+name: save_ccomps  @ 14 @ name: save_ccomps  @ 16 @ 
+name: real_bpp  @ 33 @ name: real_bpp  @ 35 @ 
+condition  @ 19 @ condition  @ 21 @ 
+argument  @ 21 @ argument  @ 23 @ 
+argument  @ 33 @ argument  @ 35 @ 
+operator: )  @ 30 @ operator: )  @ 32 @ 
+if  @ 19 @ if  @ 21 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 19 @ 
+function  @ 1 @ function  @ 1 @ 
+argument  @ 29 @ argument  @ 31 @ 
+block  @ 11 @ block  @ 7 @ 
+argument  @ 33 @ argument  @ 35 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 31 @ 
+expr  @ 29 @ expr  @ 31 @ 
+name: ccomps  @ 33 @ name: ccomps  @ 35 @ 
+operator: )  @ 34 @ operator: )  @ 37 @ 
+argument  @ 33 @ argument  @ 35 @ 
+operator: &&  @ 14 @ operator: &&  @ 16 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+name: color_info  @ 8 @ name: color_info  @ 13 @ 
+operator: (  @ 39 @ operator: (  @ 41 @ 
+block_content  @ 14 @ block_content  @ 9 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+decl  @ 2 @ decl  @ 3 @ 
+name  @ 8 @ name  @ 13 @ 
+operator: ->  @ 34 @ operator: ->  @ 38 @ 
+condition  @ 14 @ condition  @ 16 @ 
+call  @ 29 @ call  @ 31 @ 
+literal: "BitsPerPixel"  @ 20 @ literal: "BitsPerPixel"  @ 22 @ 
+if  @ 11 @ if  @ 6 @ 
+name: ccomps  @ 34 @ name: ccomps  @ 37 @ 
+expr  @ 20 @ expr  @ 22 @ 
+

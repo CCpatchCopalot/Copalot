@@ -1,0 +1,208 @@
+name: sec  @ 32 @ name: sec  @ 33 @ 
+argument  @ 32 @ argument  @ 32 @ 
+type  @ 4 @ type  @ 4 @ 
+operator: +  @ 32 @ operator: +  @ 32 @ 
+operator: ==  @ 24 @ operator: ==  @ 23 @ 
+expr  @ 25 @ expr  @ 24 @ 
+name: beg  @ 32 @ name: beg  @ 32 @ 
+operator: <  @ 7 @ operator: <  @ 7 @ 
+expr  @ 32 @ expr  @ 33 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 32 @ expr  @ 32 @ 
+case  @ 15 @ case  @ 14 @ 
+expr  @ 32 @ expr  @ 33 @ 
+expr  @ 32 @ expr  @ 34 @ 
+name: beg  @ 10 @ name: beg  @ 10 @ 
+name: beg  @ 1 @ name: beg  @ 1 @ 
+name: beg  @ 7 @ name: beg  @ 7 @ 
+operator: >=  @ 7 @ operator: >=  @ 7 @ 
+name: beg  @ 32 @ name: beg  @ 33 @ 
+block_content  @ 23 @ block_content  @ 22 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name: tzl  @ 31 @ name: tzl  @ 30 @ 
+literal: '5'  @ 32 @ literal: '5'  @ 32 @ 
+operator: (  @ 32 @ operator: (  @ 34 @ 
+operator: =  @ 26 @ operator: =  @ 25 @ 
+operator: =  @ 7 @ operator: =  @ 7 @ 
+name: size_t  @ 4 @ name: size_t  @ 4 @ 
+specifier: const  @ 5 @ specifier: const  @ 5 @ 
+literal: 3  @ 26 @ literal: 3  @ 25 @ 
+call  @ 32 @ call  @ 31 @ 
+expr  @ 32 @ expr  @ 32 @ 
+comment: /* Process timezone. */  @ 21 @ comment: /* Process timezone. */  @ 20 @ 
+condition  @ 22 @ condition  @ 21 @ 
+name: curl_maprintf  @ 32 @ name: curl_maprintf  @ 31 @ 
+operator: -  @ 31 @ operator: -  @ 30 @ 
+expr  @ 11 @ expr  @ 11 @ 
+expr  @ 7 @ expr  @ 7 @ 
+operator: =  @ 10 @ operator: =  @ 10 @ 
+expr  @ 32 @ expr  @ 34 @ 
+literal: 'Z'  @ 24 @ literal: 'Z'  @ 23 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: tzp  @ 7 @ name: tzp  @ 7 @ 
+operator: =  @ 25 @ operator: =  @ 24 @ 
+argument_list  @ 32 @ argument_list  @ 31 @ 
+block  @ 24 @ block  @ 23 @ 
+else  @ 28 @ else  @ 27 @ 
+name: beg  @ 32 @ name: beg  @ 32 @ 
+name: sec  @ 11 @ name: sec  @ 11 @ 
+expr  @ 18 @ expr  @ 17 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 30 @ 
+literal: 10  @ 10 @ literal: 10  @ 10 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: sec  @ 5 @ name: sec  @ 5 @ 
+name: UTime2str  @ 1 @ name: UTime2str  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+modifier: *  @ 3 @ modifier: *  @ 3 @ 
+expr  @ 23 @ expr  @ 22 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+incr  @ 7 @ incr  @ 7 @ 
+name: end  @ 7 @ name: end  @ 7 @ 
+argument  @ 32 @ argument  @ 33 @ 
+comment: /* Get the seconds. */  @ 9 @ comment: /* Get the seconds. */  @ 9 @ 
+block_content  @ 25 @ block_content  @ 24 @ 
+operator: +  @ 10 @ operator: +  @ 10 @ 
+operator: =  @ 13 @ operator: =  @ 13 @ 
+literal: 8  @ 32 @ literal: 8  @ 33 @ 
+name: tzp  @ 24 @ name: tzp  @ 23 @ 
+literal: "00"  @ 13 @ literal: "00"  @ 13 @ 
+expr  @ 32 @ expr  @ 33 @ 
+operator: =  @ 31 @ operator: =  @ 30 @ 
+argument  @ 32 @ argument  @ 34 @ 
+expr  @ 32 @ expr  @ 32 @ 
+operator: <=  @ 7 @ operator: <=  @ 7 @ 
+init  @ 7 @ init  @ 7 @ 
+name: tzp  @ 31 @ name: tzp  @ 30 @ 
+literal: 2  @ 32 @ literal: 2  @ 32 @ 
+operator: ++  @ 7 @ operator: ++  @ 7 @ 
+decl  @ 3 @ decl  @ 3 @ 
+switch  @ 11 @ switch  @ 11 @ 
+operator: +  @ 32 @ operator: +  @ 33 @ 
+name: int  @ 32 @ name: int  @ 34 @ 
+operator: +  @ 26 @ operator: +  @ 25 @ 
+operator: &&  @ 7 @ operator: &&  @ 7 @ 
+literal: "%u%.2s-%.2s-%.2s %.2s:%.2s:%.2s %.*s"  @ 32 @ literal: "%u%.2s-%.2s-%.2s %.2s:%.2s:%.2s %.*s"  @ 31 @ 
+name: tzp  @ 7 @ name: tzp  @ 7 @ 
+condition  @ 24 @ condition  @ 23 @ 
+return  @ 32 @ return  @ 31 @ 
+argument  @ 32 @ argument  @ 34 @ 
+block  @ 8 @ block  @ 8 @ 
+block  @ 29 @ block  @ 28 @ 
+operator: +  @ 32 @ operator: +  @ 33 @ 
+for  @ 7 @ for  @ 7 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 25 @ 
+block_content  @ 29 @ block_content  @ 28 @ 
+name: tzp  @ 7 @ name: tzp  @ 7 @ 
+argument  @ 32 @ argument  @ 33 @ 
+block_content  @ 12 @ block_content  @ 12 @ 
+if_stmt  @ 24 @ if_stmt  @ 23 @ 
+expr  @ 24 @ expr  @ 23 @ 
+name: tzp  @ 11 @ name: tzp  @ 11 @ 
+expr  @ 15 @ expr  @ 14 @ 
+argument  @ 32 @ argument  @ 32 @ 
+name: beg  @ 32 @ name: beg  @ 32 @ 
+operator: *  @ 7 @ operator: *  @ 7 @ 
+expr  @ 7 @ expr  @ 7 @ 
+operator: *  @ 7 @ operator: *  @ 7 @ 
+decl  @ 5 @ decl  @ 5 @ 
+type  @ 1 @ type  @ 1 @ 
+default  @ 17 @ default  @ 16 @ 
+expr  @ 22 @ expr  @ 21 @ 
+name: char  @ 3 @ name: char  @ 3 @ 
+operator: +  @ 32 @ operator: +  @ 32 @ 
+name: beg  @ 32 @ name: beg  @ 32 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: )  @ 32 @ operator: )  @ 34 @ 
+decl  @ 1 @ decl  @ 1 @ 
+specifier: const  @ 3 @ specifier: const  @ 3 @ 
+condition  @ 11 @ condition  @ 11 @ 
+expr  @ 31 @ expr  @ 30 @ 
+condition  @ 7 @ condition  @ 7 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: end  @ 1 @ name: end  @ 1 @ 
+name: beg  @ 32 @ name: beg  @ 33 @ 
+name: tzp  @ 3 @ name: tzp  @ 3 @ 
+block  @ 23 @ block  @ 22 @ 
+expr  @ 32 @ expr  @ 31 @ 
+break  @ 16 @ break  @ 15 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 24 @ 
+argument  @ 32 @ argument  @ 32 @ 
+operator: *  @ 32 @ operator: *  @ 32 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+name: NULL  @ 18 @ name: NULL  @ 17 @ 
+type  @ 1 @ type  @ 1 @ 
+block  @ 2 @ block  @ 2 @ 
+operator: &&  @ 7 @ operator: &&  @ 7 @ 
+literal: 20  @ 32 @ literal: 20  @ 32 @ 
+expr  @ 32 @ expr  @ 32 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+literal: "GMT"  @ 25 @ literal: "GMT"  @ 24 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: end  @ 31 @ name: end  @ 30 @ 
+operator: -  @ 11 @ operator: -  @ 11 @ 
+literal: 6  @ 32 @ literal: 6  @ 33 @ 
+name: tzp  @ 29 @ name: tzp  @ 28 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+argument  @ 32 @ argument  @ 32 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: )  @ 32 @ operator: )  @ 32 @ 
+literal: 0  @ 12 @ literal: 0  @ 12 @ 
+argument  @ 32 @ argument  @ 31 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+name: tzl  @ 32 @ name: tzl  @ 34 @ 
+type  @ 3 @ type  @ 3 @ 
+operator: >=  @ 32 @ operator: >=  @ 32 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+literal: 4  @ 32 @ literal: 4  @ 32 @ 
+empty_stmt  @ 8 @ empty_stmt  @ 8 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 28 @ 
+name: tzp  @ 22 @ name: tzp  @ 21 @ 
+return  @ 23 @ return  @ 22 @ 
+name: tzl  @ 4 @ name: tzl  @ 4 @ 
+literal: '0'  @ 7 @ literal: '0'  @ 7 @ 
+if_stmt  @ 22 @ if_stmt  @ 21 @ 
+operator: *  @ 24 @ operator: *  @ 23 @ 
+argument  @ 32 @ argument  @ 33 @ 
+name: tzp  @ 7 @ name: tzp  @ 7 @ 
+name: sec  @ 10 @ name: sec  @ 10 @ 
+name: tzp  @ 32 @ name: tzp  @ 34 @ 
+expr  @ 26 @ expr  @ 25 @ 
+literal: 2  @ 15 @ literal: 2  @ 14 @ 
+name: tzp  @ 25 @ name: tzp  @ 24 @ 
+expr  @ 32 @ expr  @ 31 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+expr  @ 10 @ expr  @ 10 @ 
+if  @ 22 @ if  @ 21 @ 
+operator: (  @ 32 @ operator: (  @ 32 @ 
+if  @ 24 @ if  @ 23 @ 
+name: end  @ 22 @ name: end  @ 21 @ 
+literal: '9'  @ 7 @ literal: '9'  @ 7 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+name: char  @ 5 @ name: char  @ 5 @ 
+block_content  @ 8 @ block_content  @ 8 @ 
+name: NULL  @ 23 @ name: NULL  @ 22 @ 
+expr  @ 13 @ expr  @ 13 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+return  @ 18 @ return  @ 17 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: ++  @ 29 @ operator: ++  @ 28 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+case  @ 12 @ case  @ 12 @ 
+type  @ 5 @ type  @ 5 @ 
+name: end  @ 26 @ name: end  @ 25 @ 
+expr  @ 29 @ expr  @ 28 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+type  @ 1 @ type  @ 1 @ 
+name: tzp  @ 7 @ name: tzp  @ 7 @ 
+operator: >=  @ 22 @ operator: >=  @ 21 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+name: sec  @ 13 @ name: sec  @ 13 @ 
+control  @ 7 @ control  @ 7 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+name: tzp  @ 26 @ name: tzp  @ 25 @ 
+operator: -  @ 32 @ operator: -  @ 32 @ 
+block  @ 11 @ block  @ 11 @ 
+

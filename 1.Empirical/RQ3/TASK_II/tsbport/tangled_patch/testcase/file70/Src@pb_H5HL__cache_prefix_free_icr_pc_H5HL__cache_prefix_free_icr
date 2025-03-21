@@ -1,0 +1,21 @@
+static herr_t
+H5HL__cache_prefix_free_icr(void *_thing)
+{
+    H5HL_prfx_t *prfx      = (H5HL_prfx_t *)_thing; /* Pointer to local heap prefix to query */
+    herr_t       ret_value = SUCCEED;               /* Return value */
+
+    FUNC_ENTER_STATIC
+
+    /* Check arguments */
+    HDassert(prfx);
+    HDassert(prfx->cache_info.magic == H5C__H5C_CACHE_ENTRY_T_BAD_MAGIC);
+    HDassert(prfx->cache_info.type == H5AC_LHEAP_PRFX);
+    HDassert(H5F_addr_eq(prfx->cache_info.addr, prfx->heap->prfx_addr));
+
+    /* Destroy local heap prefix */
+    if (H5HL__prfx_dest(prfx) < 0)
+        HGOTO_ERROR(H5E_HEAP, H5E_CANTRELEASE, FAIL, "can't destroy local heap prefix");
+
+done:
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5HL__cache_prefix_free_icr() */

@@ -1,0 +1,58 @@
+literal: 1  @ 3 @ literal: 1  @ 3 @ 
+expr  @ 5 @ expr  @ 5 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 5 @ expr  @ 5 @ 
+return  @ 4 @ return  @ 4 @ 
+return  @ 5 @ return  @ 5 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+type  @ 1 @ type  @ 1 @ 
+else  @ 5 @ else  @ 5 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+function  @ 1 @ function  @ 1 @ 
+name: end  @ 3 @ name: end  @ 3 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+if  @ 3 @ if  @ 3 @ 
+name: beg  @ 3 @ name: beg  @ 3 @ 
+expr  @ 4 @ expr  @ 4 @ 
+operator: *  @ 5 @ operator: *  @ 5 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+block  @ 4 @ block  @ 4 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: strdup  @ 5 @ name: strdup  @ 5 @ 
+name: beg  @ 5 @ name: beg  @ 5 @ 
+expr  @ 3 @ expr  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+call  @ 5 @ call  @ 5 @ 
+then  @ 5 @ then  @ 5 @ 
+name: beg  @ 1 @ name: beg  @ 1 @ 
+literal: "FALSE"  @ 5 @ literal: "FALSE"  @ 5 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 5 @ expr  @ 5 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: end  @ 1 @ name: end  @ 1 @ 
+operator: !=  @ 3 @ operator: !=  @ 3 @ 
+if_stmt  @ 3 @ if_stmt  @ 3 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+name: bool2str  @ 1 @ name: bool2str  @ 1 @ 
+decl  @ 1 @ decl  @ 1 @ 
+block  @ 2 @ block  @ 2 @ 
+expr  @ 5 @ expr  @ 5 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+condition  @ 5 @ condition  @ 5 @ 
+literal: "TRUE"  @ 5 @ literal: "TRUE"  @ 5 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+argument  @ 5 @ argument  @ 5 @ 
+ternary  @ 5 @ ternary  @ 5 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+name: NULL  @ 4 @ name: NULL  @ 4 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+operator: -  @ 3 @ operator: -  @ 3 @ 
+condition  @ 3 @ condition  @ 3 @ 
+

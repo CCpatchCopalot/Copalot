@@ -1,0 +1,21 @@
+static CURLcode OID2str(struct dynbuf *store,const char *beg, const char *end, bool symbolic)
+{
+  CURLcode result = CURLE_OK;
+  if(beg < end) {
+    if(symbolic) {
+      struct dynbuf buf;
+      Curl_dyn_init(&buf, MAX_X509_STR);
+      result = encodeOID(&buf, beg, end);
+
+      if(!result) {
+        const struct Curl_OID *op = searchOID(Curl_dyn_ptr(&buf));
+        if(op)
+          result = Curl_dyn_add(store, op->textoid);
+        Curl_dyn_free(&buf);
+      }
+    }
+    else
+      result = encodeOID(store, beg, end);
+  }
+  return result;
+}

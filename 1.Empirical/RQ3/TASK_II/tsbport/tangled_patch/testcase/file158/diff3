@@ -1,0 +1,10 @@
+1106a1107
+>					if (field.far_ptr)
+1122c1122
+<				} else {
+---
+>				} else if (field.far_ptr) {
+1128c1128
+<	} else {
+---
+>	} else if (field.far_ptr) {

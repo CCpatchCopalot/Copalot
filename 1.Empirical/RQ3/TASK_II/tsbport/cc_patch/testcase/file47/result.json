@@ -1,0 +1,68 @@
+{
+    "testcase": {
+        "file47": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "237 -> 269",
+                        "L2": "238 -> 270",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'cpp:directive', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "269",
+                            "verify result": "False"
+                        },
+                        "type": "cpp:directive",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "cpp:directive",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 52,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 269,
+                        "add_hunk": [
+                            "#ifndef HAVE_STRNLEN\n",
+                            "size_t bit_strnlen (const char *restrict str, const size_t maxlen);\n",
+                            "#define strnlen (str, maxlen) bit_strnlen(str, maxlen)\n",
+                            "#endif\n",
+                            "size_t bit_wcs2nlen (BITCODE_TU restrict wstr, const size_t maxlen);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "cpp:directive"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_definition",
+                "outside"
+            ]
+        }
+    }
+}

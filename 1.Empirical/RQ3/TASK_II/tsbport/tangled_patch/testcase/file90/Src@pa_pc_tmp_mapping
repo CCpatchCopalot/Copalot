@@ -1,0 +1,3 @@
+HGOTO_ERROR(H5E_SYM, H5E_CANTCREATE, FAIL, "can't create skip list for visited objects")/* Get the group's reference count */
+if (H5O_get_rc_and_type(&grp->oloc, &rc, NULL) < 0)        HGOTO_ERROR(H5E_SYM, H5E_CANTGET, FAIL, "unable to get object info")/* If its ref count is > 1, we add it to the list of visited objects *//* (because it could come up again during traversal) */
+if (rc > 1) {

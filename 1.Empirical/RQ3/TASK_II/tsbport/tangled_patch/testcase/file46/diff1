@@ -1,0 +1,4 @@
+1587c1587
+<           L->oldpc = pc + 1;  /* next opcode will be seen as a "new" line */
+---
+>           L->oldpc = 1;  /* next opcode will be seen as a "new" line */

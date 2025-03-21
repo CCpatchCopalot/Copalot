@@ -1,0 +1,105 @@
+{
+    "testcase": {
+        "file131": {
+            "match_message": {
+                "Same: gf_sg_vrml_mf_alloc -> gf_sg_vrml_mf_alloc": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1128 -> 1143",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1129->1144"
+                    }
+                },
+                "Same: gf_sg_vrml_mf_get_item -> gf_sg_vrml_mf_get_item": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1154 -> 1169",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1155->1170"
+                    }
+                },
+                "Same: gf_sg_vrml_mf_append -> gf_sg_vrml_mf_append": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1169 -> 1184",
+                        "L2": "3: Unique Matched by Source code 1170 -> 1185"
+                    }
+                },
+                "Same: gf_sg_vrml_mf_remove -> gf_sg_vrml_mf_remove": {
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1180 -> 1194",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1181->1195"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 35,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 1143,
+                        "add_hunk": [
+                            "\tif (!mffield) return GF_NON_COMPLIANT_BITSTREAM;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1169,
+                        "add_hunk": [
+                            "\tif (!mffield) return GF_NON_COMPLIANT_BITSTREAM;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 1184,
+                        "add_hunk": [
+                            "\tif (!mf) return GF_NON_COMPLIANT_BITSTREAM;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 1194,
+                        "add_hunk": [
+                            "\tif (!mffield) return GF_NON_COMPLIANT_BITSTREAM;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_sg_vrml_mf_alloc -> gf_sg_vrml_mf_alloc": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_sg_vrml_mf_get_item -> gf_sg_vrml_mf_get_item": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_sg_vrml_mf_append -> gf_sg_vrml_mf_append": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_sg_vrml_mf_remove -> gf_sg_vrml_mf_remove": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

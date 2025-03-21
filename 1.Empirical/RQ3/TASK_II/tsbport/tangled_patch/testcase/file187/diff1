@@ -1,0 +1,14 @@
+419c419
+<     if(!Curl_ssl_getsessionid(data, conn, &ssl_sessionid, NULL, sockindex)) {
+---
+>     if(!Curl_ssl_getsessionid(data, conn,SSL_IS_PROXY() ? TRUE : FALSE,&ssl_sessionid, NULL, sockindex)) {
+630a631
+>     bool isproxy = SSL_IS_PROXY() ? TRUE : FALSE;
+634c635
+<       incache = !(Curl_ssl_getsessionid(data, conn, &old_ssl_sessionid, NULL,sockindex));
+---
+>       incache = !(Curl_ssl_getsessionid(data, conn, isproxy,&old_ssl_sessionid, NULL, sockindex));
+644c645
+<         result = Curl_ssl_addsessionid(data, conn, our_ssl_sessionid, 0 /* unknown size */, sockindex);
+---
+>         result = Curl_ssl_addsessionid(data, conn, isproxy, our_ssl_sessionid, 0, sockindex);

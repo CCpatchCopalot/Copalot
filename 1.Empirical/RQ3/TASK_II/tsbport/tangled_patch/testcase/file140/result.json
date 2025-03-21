@@ -1,0 +1,85 @@
+{
+    "testcase": {
+        "file140": {
+            "match_message": {
+                "Same: gf_dump_vrml_simple_field -> gf_dump_vrml_simple_field": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 745 -> 773",
+                        "L2": "3: Unique Matched by Source code 746 -> 774"
+                    }
+                },
+                "Same: gf_dump_vrml_field -> gf_dump_vrml_field": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 888 -> 917",
+                        "L2": "3: Unique Matched by Source code 889 -> 918"
+                    }
+                },
+                "Same: gf_dump_vrml_proto_field -> gf_dump_vrml_proto_field": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1201->1233",
+                        "L2": "3: Unique Matched by Source code 1202 -> 1234"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 43,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 773,
+                        "add_hunk": [
+                            "\t\tif (field.far_ptr)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 917,
+                        "add_hunk": [
+                            "\t\tif (field.far_ptr)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 1233,
+                        "add_hunk": [
+                            "\t\t\tif (field.far_ptr)\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_dump_vrml_simple_field -> gf_dump_vrml_simple_field": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_dump_vrml_field -> gf_dump_vrml_field": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_dump_vrml_proto_field -> gf_dump_vrml_proto_field": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

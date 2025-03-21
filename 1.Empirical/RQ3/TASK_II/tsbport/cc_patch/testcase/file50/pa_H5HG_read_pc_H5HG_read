@@ -1,0 +1,420 @@
+expr  @ 7 @ expr  @ 8 @ 
+type  @ 7 @ type  @ 8 @ 
+expr  @ 44 @ expr  @ 48 @ 
+name: idx  @ 16 @ name: idx  @ 20 @ 
+name: H5F_cwfs_advance_heap  @ 31 @ name: H5F_cwfs_advance_heap  @ 35 @ 
+expr  @ 15 @ expr  @ 18 @ 
+comment: /* Size of the heap object */  @ 4 @ comment: /* Size of the heap object */  @ 5 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+name: void  @ 1 @ name: void  @ 2 @ 
+expr  @ 43 @ expr  @ 47 @ 
+block_content  @ 47 @ block_content  @ 51 @ 
+expr  @ 31 @ expr  @ 35 @ 
+expr  @ 32 @ expr  @ 36 @ 
+expr  @ 17 @ expr  @ 20 @ 
+name: H5E_HEAP  @ 44 @ name: H5E_HEAP  @ 48 @ 
+block  @ 32 @ block  @ 36 @ 
+argument  @ 49 @ argument  @ 53 @ 
+block  @ 47 @ block  @ 51 @ 
+label  @ 42 @ label  @ 46 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 20 @ 
+call  @ 32 @ call  @ 36 @ 
+name: assert  @ 10 @ name: assert  @ 13 @ 
+expr  @ 27 @ expr  @ 28 @ 
+argument  @ 9 @ argument  @ 10 @ 
+name: HDONE_ERROR  @ 44 @ name: HDONE_ERROR  @ 48 @ 
+argument  @ 43 @ argument  @ 47 @ 
+type  @ 1 @ type  @ 2 @ 
+name: ret_value  @ 46 @ name: ret_value  @ 50 @ 
+comment: /* Pointer to global heap object */  @ 3 @ comment: /* Pointer to global heap object */  @ 4 @ 
+argument_list  @ 43 @ argument_list  @ 47 @ 
+expr  @ 27 @ expr  @ 28 @ 
+operator: .  @ 18 @ operator: .  @ 21 @ 
+name: H5AC__READ_ONLY_FLAG  @ 14 @ name: H5AC__READ_ONLY_FLAG  @ 17 @ 
+name: assert  @ 11 @ name: assert  @ 14 @ 
+name: heap  @ 16 @ name: heap  @ 20 @ 
+name: H5E_NOSPACE  @ 26 @ name: H5E_NOSPACE  @ 27 @ 
+operator: =  @ 40 @ operator: =  @ 44 @ 
+modifier: *  @ 7 @ modifier: *  @ 8 @ 
+call  @ 27 @ call  @ 28 @ 
+argument  @ 27 @ argument  @ 28 @ 
+name: hobj  @ 16 @ name: hobj  @ 20 @ 
+comment: /* Keep a copy of the original object pointer */  @ 6 @ comment: /* Keep a copy of the original object pointer */  @ 7 @ 
+call  @ 17 @ call  @ 20 @ 
+name: f  @ 10 @ name: f  @ 13 @ 
+name: orig_object  @ 46 @ name: orig_object  @ 50 @ 
+argument  @ 26 @ argument  @ 27 @ 
+argument  @ 32 @ argument  @ 36 @ 
+if  @ 14 @ if  @ 17 @ 
+name: hobj  @ 22 @ name: hobj  @ 23 @ 
+operator: .  @ 21 @ operator: .  @ 22 @ 
+expr  @ 15 @ expr  @ 18 @ 
+name: heap  @ 21 @ name: heap  @ 22 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+name: HGOTO_ERROR  @ 15 @ name: HGOTO_ERROR  @ 18 @ 
+name: size  @ 25 @ name: size  @ 26 @ 
+name: uint8_t  @ 5 @ name: uint8_t  @ 6 @ 
+block  @ 44 @ block  @ 48 @ 
+operator: <  @ 31 @ operator: <  @ 35 @ 
+type  @ 1 @ type  @ 2 @ 
+operator: +  @ 22 @ operator: +  @ 23 @ 
+init  @ 3 @ init  @ 4 @ 
+block_content  @ 37 @ block_content  @ 41 @ 
+expr  @ 18 @ expr  @ 21 @ 
+argument  @ 31 @ argument  @ 35 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 36 @ 
+argument  @ 14 @ argument  @ 17 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+name: H5E_CANTPROTECT  @ 15 @ name: H5E_CANTPROTECT  @ 18 @ 
+block  @ 30 @ block  @ 34 @ 
+operator: ==  @ 14 @ operator: ==  @ 17 @ 
+name: NULL  @ 18 @ name: assert  @ 21 @ 
+argument  @ 25 @ argument  @ 26 @ 
+name  @ 16 @ name  @ 20 @ 
+name: f  @ 22 @ name: f  @ 23 @ 
+if  @ 43 @ if  @ 47 @ 
+argument  @ 43 @ argument  @ 47 @ 
+name: H5AC_GHEAP  @ 43 @ name: H5AC_GHEAP  @ 47 @ 
+name: H5E_CANTUNPROTECT  @ 44 @ name: H5E_CANTUNPROTECT  @ 48 @ 
+if  @ 31 @ if  @ 35 @ 
+name  @ 43 @ name  @ 47 @ 
+name: H5AC__NO_FLAGS_SET  @ 43 @ name: H5AC__NO_FLAGS_SET  @ 47 @ 
+name: obj  @ 22 @ name: obj  @ 23 @ 
+operator: )  @ 14 @ operator: )  @ 17 @ 
+expr  @ 15 @ expr  @ 18 @ 
+name: HGOTO_ERROR  @ 32 @ name: HGOTO_ERROR  @ 36 @ 
+argument  @ 10 @ argument  @ 13 @ 
+decl  @ 6 @ decl  @ 7 @ 
+name: NULL  @ 25 @ name: NULL  @ 26 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+decl  @ 5 @ decl  @ 6 @ 
+block  @ 26 @ block  @ 27 @ 
+name: void  @ 7 @ name: void  @ 8 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 27 @ 
+operator: ==  @ 46 @ operator: ==  @ 50 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+macro  @ 49 @ macro  @ 53 @ 
+modifier: *  @ 5 @ modifier: *  @ 6 @ 
+expr  @ 43 @ expr  @ 47 @ 
+operator: (  @ 14 @ operator: (  @ 17 @ 
+name: H5E_HEAP  @ 15 @ name: H5E_HEAP  @ 18 @ 
+call  @ 11 @ call  @ 14 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name  @ 14 @ name  @ 17 @ 
+name: buf_size  @ 1 @ name: buf_size  @ 2 @ 
+name: idx  @ 18 @ name: idx  @ 21 @ 
+if_stmt  @ 14 @ if_stmt  @ 17 @ 
+operator: =  @ 37 @ operator: =  @ 41 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: H5HG_SIZEOF_OBJHDR  @ 22 @ name: H5HG_SIZEOF_OBJHDR  @ 23 @ 
+expr  @ 44 @ expr  @ 48 @ 
+name: void  @ 6 @ name: void  @ 7 @ 
+operator: ==  @ 25 @ operator: ==  @ 26 @ 
+name: HGOTO_ERROR  @ 26 @ name: HGOTO_ERROR  @ 27 @ 
+argument  @ 32 @ argument  @ 36 @ 
+name  @ 22 @ name  @ 23 @ 
+argument  @ 14 @ argument  @ 17 @ 
+name: f  @ 14 @ name: f  @ 17 @ 
+comment: /* Pointer to object in heap buffer */  @ 5 @ comment: /* Pointer to object in heap buffer */  @ 6 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+expr  @ 22 @ expr  @ 23 @ 
+literal: "unable to protect global heap"  @ 15 @ literal: "unable to protect global heap"  @ 18 @ 
+condition  @ 25 @ condition  @ 26 @ 
+expr  @ 14 @ expr  @ 17 @ 
+expr  @ 43 @ expr  @ 47 @ 
+argument_list  @ 44 @ argument_list  @ 48 @ 
+name: f  @ 1 @ name: f  @ 2 @ 
+name: begin  @ 18 @ name: begin  @ 21 @ 
+expr  @ 31 @ expr  @ 35 @ 
+type  @ 4 @ type  @ 5 @ 
+operator: ->  @ 22 @ operator: ->  @ 23 @ 
+call  @ 15 @ call  @ 18 @ 
+type  @ 5 @ type  @ 6 @ 
+expr  @ 21 @ expr  @ 22 @ 
+expr  @ 36 @ expr  @ 40 @ 
+index  @ 18 @ index  @ 21 @ 
+condition  @ 31 @ condition  @ 35 @ 
+name  @ 30 @ name  @ 34 @ 
+expr  @ 14 @ expr  @ 17 @ 
+condition  @ 14 @ condition  @ 17 @ 
+call  @ 47 @ call  @ 51 @ 
+name: H5HG__protect  @ 14 @ name: H5HG__protect  @ 17 @ 
+block  @ 2 @ block  @ 3 @ 
+call  @ 25 @ call  @ 26 @ 
+operator: =  @ 21 @ operator: =  @ 22 @ 
+argument  @ 44 @ argument  @ 48 @ 
+if  @ 30 @ if  @ 34 @ 
+name: ret_value  @ 7 @ name: ret_value  @ 8 @ 
+argument_list  @ 17 @ argument_list  @ 20 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+comment: /* Set return value */  @ 39 @ comment: /* Set return value */  @ 43 @ 
+argument  @ 47 @ argument  @ 51 @ 
+block  @ 37 @ block  @ 41 @ 
+argument_list  @ 22 @ argument_list  @ 23 @ 
+argument  @ 43 @ argument  @ 47 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 21 @ expr  @ 22 @ 
+operator: ->  @ 43 @ operator: ->  @ 47 @ 
+comment: /* end H5HG_read() */  @ 50 @ comment: /* end H5HG_read() */  @ 54 @ 
+index  @ 30 @ index  @ 34 @ 
+name: hobj  @ 43 @ name: hobj  @ 47 @ 
+index  @ 22 @ index  @ 23 @ 
+name: H5MM_free  @ 47 @ name: H5MM_free  @ 51 @ 
+type  @ 6 @ type  @ 7 @ 
+name: heap  @ 3 @ name: heap  @ 4 @ 
+block_content  @ 44 @ block_content  @ 48 @ 
+call  @ 26 @ call  @ 27 @ 
+expr  @ 43 @ expr  @ 47 @ 
+argument  @ 44 @ argument  @ 48 @ 
+condition  @ 46 @ condition  @ 50 @ 
+name: H5HG_t  @ 1 @ name: H5HG_t  @ 2 @ 
+operator: =  @ 25 @ operator: =  @ 26 @ 
+if_stmt  @ 30 @ if_stmt  @ 34 @ 
+argument_list  @ 49 @ argument_list  @ 53 @ 
+argument  @ 15 @ argument  @ 18 @ 
+argument  @ 15 @ argument  @ 18 @ 
+name: object  @ 6 @ name: object  @ 7 @ 
+argument  @ 31 @ argument  @ 35 @ 
+argument_list  @ 14 @ argument_list  @ 17 @ 
+expr  @ 26 @ expr  @ 27 @ 
+expr  @ 37 @ expr  @ 41 @ 
+name: ret_value  @ 40 @ name: ret_value  @ 44 @ 
+call  @ 43 @ call  @ 47 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 44 @ 
+name: heap  @ 43 @ name: heap  @ 47 @ 
+if_stmt  @ 46 @ if_stmt  @ 50 @ 
+decl  @ 3 @ decl  @ 4 @ 
+name: buf_size  @ 37 @ name: buf_size  @ 41 @ 
+name: HGOTO_ERROR  @ 17 @ name: assert  @ 20 @ 
+argument  @ 43 @ argument  @ 47 @ 
+expr  @ 43 @ expr  @ 47 @ 
+type  @ 1 @ type  @ 2 @ 
+expr  @ 26 @ expr  @ 27 @ 
+condition  @ 36 @ condition  @ 40 @ 
+expr  @ 44 @ expr  @ 48 @ 
+operator: ->  @ 22 @ operator: ->  @ 23 @ 
+name: heap  @ 43 @ name: heap  @ 47 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 13 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 23 @ 
+name  @ 22 @ name  @ 23 @ 
+expr  @ 26 @ expr  @ 27 @ 
+operator: *  @ 37 @ operator: *  @ 41 @ 
+decl  @ 1 @ decl  @ 2 @ 
+operator: ->  @ 16 @ operator: ->  @ 20 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+name: addr  @ 14 @ name: addr  @ 17 @ 
+name: H5AC_unprotect  @ 43 @ name: H5AC_unprotect  @ 47 @ 
+name: NULL  @ 46 @ name: NULL  @ 50 @ 
+operator: .  @ 22 @ operator: .  @ 23 @ 
+expr  @ 22 @ expr  @ 23 @ 
+name: NULL  @ 26 @ name: NULL  @ 27 @ 
+argument  @ 43 @ argument  @ 47 @ 
+condition  @ 30 @ condition  @ 34 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 4 @ 
+macro  @ 9 @ macro  @ 10 @ 
+block_content  @ 32 @ block_content  @ 36 @ 
+argument_list  @ 47 @ argument_list  @ 51 @ 
+expr  @ 44 @ expr  @ 48 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 48 @ 
+name: H5HG_heap_t  @ 3 @ name: H5HG_heap_t  @ 4 @ 
+literal: 0  @ 43 @ literal: 0  @ 47 @ 
+call  @ 14 @ call  @ 17 @ 
+name: begin  @ 30 @ name: begin  @ 34 @ 
+decl  @ 1 @ decl  @ 2 @ 
+name: orig_object  @ 6 @ name: orig_object  @ 7 @ 
+operator: ==  @ 46 @ operator: ==  @ 50 @ 
+expr  @ 16 @ expr  @ 20 @ 
+expr  @ 27 @ expr  @ 28 @ 
+decl  @ 1 @ decl  @ 2 @ 
+name: size  @ 37 @ name: size  @ 41 @ 
+operator: &&  @ 46 @ operator: &&  @ 50 @ 
+operator: &&  @ 46 @ operator: &&  @ 50 @ 
+name  @ 18 @ name  @ 21 @ 
+operator: .  @ 30 @ operator: .  @ 34 @ 
+name: object  @ 25 @ name: object  @ 26 @ 
+type  @ 3 @ type  @ 4 @ 
+name: object  @ 47 @ name: object  @ 51 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: NULL  @ 14 @ name: NULL  @ 17 @ 
+expr  @ 31 @ expr  @ 35 @ 
+argument  @ 26 @ argument  @ 27 @ 
+if_stmt  @ 36 @ if_stmt  @ 40 @ 
+argument  @ 11 @ argument  @ 14 @ 
+name: hobj  @ 11 @ name: hobj  @ 14 @ 
+name: H5E_HEAP  @ 32 @ name: H5E_HEAP  @ 36 @ 
+expr  @ 32 @ expr  @ 36 @ 
+if  @ 25 @ if  @ 26 @ 
+argument  @ 9 @ argument  @ 10 @ 
+name: object  @ 25 @ name: object  @ 26 @ 
+call  @ 44 @ call  @ 48 @ 
+name: f  @ 31 @ name: f  @ 35 @ 
+operator: =  @ 14 @ operator: =  @ 17 @ 
+operator: ->  @ 21 @ operator: ->  @ 22 @ 
+name: obj  @ 30 @ name: obj  @ 34 @ 
+name: nused  @ 16 @ name: nused  @ 20 @ 
+expr  @ 26 @ expr  @ 27 @ 
+name: hobj  @ 21 @ name: hobj  @ 22 @ 
+name: size  @ 4 @ name: size  @ 5 @ 
+argument  @ 26 @ argument  @ 27 @ 
+name: FUNC_ENTER_NOAPI_TAG  @ 9 @ name: FUNC_ENTER_NOAPI_TAG  @ 10 @ 
+argument_list  @ 11 @ argument_list  @ 14 @ 
+expr  @ 10 @ expr  @ 13 @ 
+operator: <  @ 43 @ operator: <  @ 47 @ 
+literal: 0  @ 30 @ literal: 0  @ 34 @ 
+if  @ 36 @ if  @ 40 @ 
+name: size_t  @ 4 @ name: size_t  @ 5 @ 
+expr  @ 14 @ expr  @ 17 @ 
+name: p  @ 5 @ name: p  @ 6 @ 
+argument  @ 14 @ argument  @ 17 @ 
+call  @ 22 @ call  @ 23 @ 
+name: NULL  @ 7 @ name: NULL  @ 8 @ 
+argument  @ 44 @ argument  @ 48 @ 
+expr  @ 32 @ expr  @ 36 @ 
+if  @ 46 @ if  @ 50 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+expr  @ 25 @ expr  @ 26 @ 
+expr  @ 11 @ expr  @ 14 @ 
+operator: ->  @ 14 @ operator: ->  @ 17 @ 
+init  @ 7 @ init  @ 8 @ 
+name  @ 21 @ name  @ 22 @ 
+argument_list  @ 25 @ argument_list  @ 26 @ 
+name: size_t  @ 1 @ name: size_t  @ 2 @ 
+name: object  @ 1 @ name: object  @ 2 @ 
+operator: ->  @ 18 @ operator: ->  @ 21 @ 
+name: size  @ 21 @ name: size  @ 22 @ 
+name: NULL  @ 15 @ name: NULL  @ 18 @ 
+block_content  @ 31 @ block_content  @ 35 @ 
+argument  @ 22 @ argument  @ 23 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 14 @ 
+literal: "can't adjust file's CWFS"  @ 32 @ literal: "can't adjust file's CWFS"  @ 36 @ 
+name  @ 16 @ name  @ 20 @ 
+argument  @ 15 @ argument  @ 18 @ 
+operator: ->  @ 21 @ operator: ->  @ 22 @ 
+operator: &&  @ 25 @ operator: &&  @ 26 @ 
+literal: 0  @ 31 @ literal: 0  @ 35 @ 
+name: heap  @ 14 @ name: heap  @ 17 @ 
+argument  @ 27 @ argument  @ 28 @ 
+name: addr  @ 43 @ name: addr  @ 47 @ 
+comment: /*out*/  @ 1 @ comment: /*out*/  @ 2 @ 
+name: begin  @ 22 @ name: begin  @ 23 @ 
+block_content  @ 26 @ block_content  @ 27 @ 
+if_stmt  @ 43 @ if_stmt  @ 47 @ 
+name: f  @ 43 @ name: f  @ 47 @ 
+name: false  @ 31 @ name: false  @ 35 @ 
+comment: /* If the caller would like to know the heap object's size, set that */  @ 35 @ comment: /* If the caller would like to know the heap object's size, set that */  @ 39 @ 
+argument_list  @ 27 @ argument_list  @ 28 @ 
+name: hobj  @ 1 @ name: hobj  @ 2 @ 
+if_stmt  @ 25 @ if_stmt  @ 26 @ 
+condition  @ 43 @ condition  @ 47 @ 
+expr  @ 32 @ expr  @ 36 @ 
+expr  @ 22 @ expr  @ 23 @ 
+argument  @ 31 @ argument  @ 35 @ 
+argument_list  @ 15 @ argument_list  @ 18 @ 
+name: object  @ 40 @ name: object  @ 44 @ 
+expr  @ 15 @ expr  @ 18 @ 
+name: p  @ 27 @ name: p  @ 28 @ 
+name: p  @ 22 @ name: p  @ 23 @ 
+operator: !  @ 25 @ operator: !  @ 26 @ 
+expr  @ 18 @ expr  @ 21 @ 
+name: heap  @ 31 @ name: heap  @ 35 @ 
+name: obj  @ 21 @ name: obj  @ 22 @ 
+comment: /* Allocate a buffer for the object read in, if the user didn't give one */  @ 24 @ comment: /* Allocate a buffer for the object read in, if the user didn't give one */  @ 25 @ 
+operator: &&  @ 43 @ operator: &&  @ 47 @ 
+argument  @ 44 @ argument  @ 48 @ 
+name: heap  @ 30 @ name: heap  @ 34 @ 
+decl  @ 4 @ decl  @ 5 @ 
+operator: )  @ 25 @ operator: )  @ 26 @ 
+name: H5MM_malloc  @ 25 @ name: H5MM_malloc  @ 26 @ 
+expr_stmt  @ 47 @ expr_stmt  @ 51 @ 
+name: size  @ 21 @ name: size  @ 22 @ 
+name: object  @ 27 @ name: object  @ 28 @ 
+if_stmt  @ 31 @ if_stmt  @ 35 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 41 @ 
+name: size  @ 27 @ name: size  @ 28 @ 
+call  @ 31 @ call  @ 35 @ 
+argument  @ 26 @ argument  @ 27 @ 
+block_content  @ 3 @ block_content  @ 4 @ 
+argument_list  @ 32 @ argument_list  @ 36 @ 
+name: idx  @ 21 @ name: idx  @ 22 @ 
+argument  @ 15 @ argument  @ 18 @ 
+name: H5MM_memcpy  @ 27 @ name: H5MM_memcpy  @ 28 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 22 @ 
+decl  @ 7 @ decl  @ 8 @ 
+name: NULL  @ 46 @ name: NULL  @ 50 @ 
+operator: >=  @ 16 @ operator: <  @ 20 @ 
+argument  @ 27 @ argument  @ 28 @ 
+comment: /* Load the heap */  @ 13 @ comment: /* Load the heap */  @ 16 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+literal: "unable to release object header"  @ 44 @ literal: "unable to release object header"  @ 48 @ 
+expr  @ 44 @ expr  @ 48 @ 
+name: FUNC_LEAVE_NOAPI_TAG  @ 49 @ name: FUNC_LEAVE_NOAPI_TAG  @ 53 @ 
+name: object  @ 46 @ name: object  @ 50 @ 
+name: hobj  @ 14 @ name: hobj  @ 17 @ 
+block_content  @ 15 @ block_content  @ 18 @ 
+comment: /* Check args */  @ 9 @ comment: /* Check args */  @ 12 @ 
+name: H5HG_read  @ 1 @ name: H5HG_read  @ 2 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 28 @ 
+name: NULL  @ 3 @ name: NULL  @ 4 @ 
+name: H5E_CANTMODIFY  @ 32 @ name: H5E_CANTMODIFY  @ 36 @ 
+comment: /* Return value */  @ 7 @ comment: /* Return value */  @ 8 @ 
+expr  @ 31 @ expr  @ 35 @ 
+name: heap  @ 22 @ name: heap  @ 23 @ 
+expr  @ 30 @ expr  @ 34 @ 
+expr  @ 47 @ expr  @ 51 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: ->  @ 18 @ operator: ->  @ 21 @ 
+expr  @ 27 @ expr  @ 28 @ 
+init  @ 6 @ init  @ 7 @ 
+expr  @ 3 @ expr  @ 4 @ 
+argument  @ 32 @ argument  @ 36 @ 
+name: buf_size  @ 36 @ name: buf_size  @ 40 @ 
+operator: ->  @ 30 @ operator: ->  @ 34 @ 
+name: H5F_t  @ 1 @ name: H5F_t  @ 2 @ 
+argument_list  @ 31 @ argument_list  @ 35 @ 
+expr  @ 40 @ expr  @ 44 @ 
+expr  @ 47 @ expr  @ 51 @ 
+operator: =  @ 22 @ operator: =  @ 23 @ 
+expr  @ 15 @ expr  @ 18 @ 
+decl  @ 1 @ decl  @ 2 @ 
+operator: (  @ 25 @ operator: (  @ 26 @ 
+argument  @ 32 @ argument  @ 36 @ 
+name: done  @ 42 @ name: done  @ 46 @ 
+expr  @ 10 @ expr  @ 13 @ 
+modifier: *  @ 3 @ modifier: *  @ 4 @ 
+type  @ 1 @ type  @ 2 @ 
+comment: /* * Advance the heap in the CWFS list. We might have done this already * with the H5AC_protect(), but it won't hurt to do it twice. */  @ 29 @ comment: /*
+     * Advance the heap in the CWFS list. We might have done this already* with the H5AC_protect(), but it won't hurt to do it twice.
+     */  @ 30 @ 
+expr  @ 32 @ expr  @ 36 @ 
+expr  @ 43 @ expr  @ 47 @ 
+expr  @ 30 @ expr  @ 34 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+name: heap  @ 18 @ name: heap  @ 21 @ 
+expr  @ 25 @ expr  @ 26 @ 
+argument_list  @ 9 @ argument_list  @ 10 @ 
+expr  @ 26 @ expr  @ 27 @ 
+name: idx  @ 22 @ name: idx  @ 23 @ 
+function  @ 1 @ function  @ 1 @ 
+name: hobj  @ 18 @ name: hobj  @ 21 @ 
+argument_list  @ 26 @ argument_list  @ 27 @ 
+call  @ 10 @ call  @ 13 @ 
+expr  @ 46 @ expr  @ 50 @ 
+expr  @ 6 @ expr  @ 7 @ 
+block  @ 15 @ block  @ 18 @ 
+name: H5E_RESOURCE  @ 26 @ name: H5E_RESOURCE  @ 27 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+expr  @ 11 @ expr  @ 14 @ 
+literal: "memory allocation failed"  @ 26 @ literal: "memory allocation failed"  @ 27 @ 
+comment: /* end if */  @ 33 @ comment: /* end if */  @ 37 @ 
+expr  @ 14 @ expr  @ 17 @ 
+operator: ->  @ 16 @ operator: ->  @ 20 @ 
+name: NULL  @ 44 @ name: NULL  @ 48 @ 
+name  @ 21 @ name  @ 22 @ 
+name: NULL  @ 32 @ name: NULL  @ 36 @ 
+argument_list  @ 10 @ argument_list  @ 13 @ 
+name: obj  @ 18 @ name: obj  @ 21 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 18 @ 
+modifier: *  @ 6 @ modifier: *  @ 7 @ 
+index  @ 21 @ index  @ 22 @ 
+name  @ 18 @ name  @ 21 @ 
+

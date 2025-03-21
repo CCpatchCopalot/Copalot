@@ -1,0 +1,6 @@
+152a153,157
+>   if(index < 0 || index >= int(sen))
+>   {
+>     in.clear(std::ios_base::badbit);
+>     return false;
+>   }

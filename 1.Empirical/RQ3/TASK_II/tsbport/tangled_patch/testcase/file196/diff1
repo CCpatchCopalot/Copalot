@@ -1,0 +1,6 @@
+967c967,969
+<   mbedtls_sha256sum                 /* sha256sum */
+---
+>   mbedtls_sha256sum,                /* sha256sum */
+>   NULL,                             /* associate_connection */
+>   NULL                              /* disassociate_connection */

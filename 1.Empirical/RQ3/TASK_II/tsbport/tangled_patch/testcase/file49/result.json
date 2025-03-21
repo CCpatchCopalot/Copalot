@@ -1,0 +1,351 @@
+{
+    "testcase": {
+        "file49": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "1776 -> -1",
+                        "L2": "1776 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "1790 -> -1",
+                        "L2": "1790 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "2034 -> -1",
+                        "L2": "2034 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: read_2004_compressed_section -> read_2004_compressed_section": {
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1957->2020",
+                        "L2": "5: Matched by Syntax(AST) similarity 1958->2133"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1963->2036",
+                        "L2": "5: Matched by Syntax(AST) similarity 1963->2036"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1972 -> 2046",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1973->2047"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 2019",
+                        "L2": "7: Context line (Ignored) is empty or comment 2019"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 2031",
+                        "L2": "7: Context line (Ignored) is empty or comment 2031"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "      LOG_TRACE (\"\\nsection_info[%d] fields:\\n\", i)LOG_TRACE (\"size:%ld\\n\", (long)info->size)LOG_TRACE (\"num_sections:%u\\n\", info->num_sections)LOG_TRACE (\"max_decomp_size: %u / 0x%x\\n\", // normally 0x7400, max 0x8000 info->max_decomp_size, info->max_decomp_size)LOG_TRACE (\"unknown: %u\\n\", info->unknown)LOG_TRACE (\"compressed:%u (1=no, 2=yes)\\n\", info->compressed)LOG_TRACE (\"type:%d\\n\", (int)info->type)LOG_TRACE (\"encrypted: %d (0=no, 1=yes, 2=unknown)\\n\", info->encrypted)LOG_TRACE (\"name:%s\\n\", info->name);\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "      if (info->max_decomp_size > 0x8000)\n",
+                            "        {\n",
+                            "          LOG_ERROR (\"Skip section %s with max decompression size 0x%x > 0x8000\", info->name, info->max_decomp_size);\n",
+                            "          info->max_decomp_size = info->size = 0;\n",
+                            "          error |= DWG_ERR_VALUEOUTOFBOUNDS;\n",
+                            "        }\n",
+                            "      if (info->size > info->num_sections * info->max_decomp_size)\n",
+                            "        {\n",
+                            "          LOG_ERROR (\"Skip section %s with size %lu > %d * \" FORMAT_RL, info->name, info->size, info->num_sections, info->max_decomp_size);\n",
+                            "          info->max_decomp_size = info->size = info->num_sections = 0;\n",
+                            "          error |= DWG_ERR_VALUEOUTOFBOUNDS;\n",
+                            "        }\n",
+                            "      if (info->num_sections > 1 && info->size < info->max_decomp_size)\n",
+                            "        {\n",
+                            "          LOG_ERROR (\"Skip section %s with size %lu < max_decomp_size \" FORMAT_RL, info->name, info->size, info->max_decomp_size);\n",
+                            "          info->max_decomp_size = info->size = info->num_sections = 0;\n",
+                            "          error |= DWG_ERR_VALUEOUTOFBOUNDS;\n",
+                            "        }\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "  sec_dat->size = info->size;\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "          sec_dat->size += info->max_decomp_size;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "          sec_dat->size += MIN (bytes_left, info->max_decomp_size);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 2020,
+                        "add_hunk": [
+                            "error = decompress_R2004_section (\n",
+                            "              dat, &decomp[j * info->max_decomp_size], // offset\n",
+                            "              info->max_decomp_size, es.fields.data_size);",
+                            "return DWG_ERR_VALUEOUTOFBOUNDS;"
+                        ],
+                        "delete_location": [
+                            2020,
+                            2133
+                        ],
+                        "delete_hunk": [
+                            "                 info->name, info->num_sections, info->max_decomp_size);\n",
+                            "      return DWG_ERR_VALUEOUTOFBOUNDS;\n",
+                            "    }\n",
+                            "  if (info->size > (int64_t)info->num_sections * (int64_t)info->max_decomp_size\n",
+                            "      || info->size < 0)\n",
+                            "    {\n",
+                            "      LOG_ERROR (\"Invalid section %s size %\" PRId64 \" > %u * \" FORMAT_RL,\n",
+                            "                 info->name, info->size, info->num_sections,\n",
+                            "                 info->max_decomp_size);\n",
+                            "      return DWG_ERR_VALUEOUTOFBOUNDS;\n",
+                            "    }\n",
+                            "  LOG_HANDLE (\"Alloc section %s size %\" PRIu32 \"\\n\", info->name,\n",
+                            "              max_decomp_size);\n",
+                            "  decomp = (BITCODE_RC *)calloc (max_decomp_size, sizeof (BITCODE_RC));\n",
+                            "  if (!decomp)\n",
+                            "    {\n",
+                            "      LOG_ERROR (\"Out of memory with \" FORMAT_RL\n",
+                            "                 \" sections of size: \" FORMAT_RL,\n",
+                            "                 info->num_sections, info->max_decomp_size);\n",
+                            "      return DWG_ERR_OUTOFMEM;\n",
+                            "    }\n",
+                            "  bytes_left = max_decomp_size;\n",
+                            "  sec_dat->bit = 0;\n",
+                            "  sec_dat->byte = 0;\n",
+                            "  sec_dat->version = dat->version;\n",
+                            "  sec_dat->from_version = dat->from_version;\n",
+                            "  sec_dat->chain = decomp;\n",
+                            "  sec_dat->size = 0;\n",
+                            "  for (i = j = 0; i < info->num_sections; ++i, ++j)\n",
+                            "    {\n",
+                            "      uint32_t address, sec_mask;\n",
+                            "      if (!info->sections[i])\n",
+                            "        {\n",
+                            "          LOG_WARN (\"Skip empty section %u %s\", i, info->name);\n",
+                            "          if (i == info->num_sections - 1) // the last one\n",
+                            "            {\n",
+                            "              sec_dat->chain = NULL; // fix double-free\n",
+                            "              free (decomp);\n",
+                            "              return DWG_ERR_SECTIONNOTFOUND;\n",
+                            "            }\n",
+                            "          j--; // index for writing info->max_decomp_size chunks\n",
+                            "          continue;\n",
+                            "        }\n",
+                            "      address = info->sections[i]->address;\n",
+                            "      dat->byte = address;\n",
+                            "      bit_read_fixed (dat, es.char_data, 32);\n",
+                            "      sec_mask = htole32 (0x4164536b ^ address);\n",
+                            "      {\n",
+                            "        int k;\n",
+                            "        for (k = 0; k < 8; ++k)\n",
+                            "          es.long_data[k] = le32toh (es.long_data[k] ^ sec_mask);\n",
+                            "      }\n",
+                            "      LOG_INFO (\"=== Section %s (%u) @%u ===\\n\", info->name, i, address)\n",
+                            "      if (es.fields.tag != 0x4163043b)\n",
+                            "        {\n",
+                            "          LOG_WARN (\"Section Tag:      0x%x  (should be 0x4163043b)\",\n",
+                            "                    (unsigned)es.fields.tag);\n",
+                            "        }\n",
+                            "      else\n",
+                            "        {\n",
+                            "          LOG_INFO (\"Section Tag:      0x%x\\n\", (unsigned)es.fields.tag);\n",
+                            "        }\n",
+                            "      LOG_INFO (\"Section Type:     %u\\n\", (unsigned)es.fields.section_type)\n",
+                            "      LOG_INFO (\"Data size:        0x%x/%u\\n\", (unsigned)es.fields.data_size,\n",
+                            "                (unsigned)es.fields.data_size)\n",
+                            "      LOG_INFO (\"Comp data size:   0x%x\\n\", (unsigned)es.fields.section_size)\n",
+                            "      LOG_TRACE (\"StartOffset:      0x%x\\n\", (unsigned)es.fields.address)\n",
+                            "      LOG_HANDLE (\"Unknown:          0x%x\\n\", (unsigned)es.fields.unknown)\n",
+                            "      LOG_HANDLE (\"Checksum1:        0x%X\\n\", (unsigned)es.fields.checksum_1)\n",
+                            "      LOG_HANDLE (\"Checksum2:        0x%X\\n\", (unsigned)es.fields.checksum_2)\n",
+                            "      LOG_TRACE (\"Section start:    %\" PRIuSIZE \"\\n\\n\", dat->byte);\n",
+                            "      LOG_INSANE (\"info[%d]->max_decomp_size: %\" PRIuSIZE \" (0x%zx)\\n\", i,\n",
+                            "                  (size_t)info->max_decomp_size, (size_t)info->max_decomp_size)\n",
+                            "      LOG_INSANE (\"max_decomp_size:          %\" PRIuSIZE \" (0x%zx)\\n\",\n",
+                            "                  (size_t)max_decomp_size, (size_t)max_decomp_size)\n",
+                            "      LOG_INSANE (\"bytes_left:               %ld\\n\", bytes_left);\n",
+                            "      if (info->compressed == 2 && bytes_left > 0\n",
+                            "          && (j * info->max_decomp_size) <= max_decomp_size)\n",
+                            "        {\n",
+                            "          error = decompress_R2004_section (\n",
+                            "              dat, &decomp[j * info->max_decomp_size], // offset\n",
+                            "              info->max_decomp_size, es.fields.data_size);\n",
+                            "          if (error > DWG_ERR_CRITICAL)\n",
+                            "            {\n",
+                            "              sec_dat->chain = NULL; // fix double-free\n",
+                            "              free (decomp);\n",
+                            "              return error;\n",
+                            "            }\n",
+                            "          bytes_left -= info->max_decomp_size;\n",
+                            "          sec_dat->size += info->max_decomp_size;\n",
+                            "        }\n",
+                            "      else\n",
+                            "        {\n",
+                            "          const size_t offset = address + es.fields.address + 32;\n",
+                            "          const BITCODE_RL size = MIN (info->size, info->max_decomp_size);\n",
+                            "          if (info->compressed == 2 || bytes_left < 0\n",
+                            "              || (j * info->max_decomp_size) + size > max_decomp_size\n",
+                            "              || offset + size > dat->size)\n",
+                            "            {\n",
+                            "              LOG_ERROR (\"Some section size or address out of bounds\")\n",
+                            "              sec_dat->chain = NULL;\n",
+                            "              free (decomp);\n",
+                            "              return type < SECTION_REVHISTORY ? DWG_ERR_INVALIDDWG\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 2036,
+                        "add_hunk": [
+                            "LOG_ERROR (\"Out of memory with %u sections of size: %u\", info->num_sections, info->max_decomp_size);"
+                        ],
+                        "delete_location": [
+                            2036,
+                            2036
+                        ],
+                        "delete_hunk": [
+                            "      LOG_ERROR (\"Out of memory with \" FORMAT_RL\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 2046,
+                        "add_hunk": [
+                            "  sec_dat->size = 0;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_7": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    }
+                },
+                "Same: read_2004_compressed_section -> read_2004_compressed_section": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call",
+                "other",
+                "change_value"
+            ]
+        }
+    }
+}

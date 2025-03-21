@@ -1,0 +1,14 @@
+508c508,511
+<		if (e) return e;
+---
+>		if (e) {
+>			gf_odf_delete_descriptor(tmp);
+>			return e;
+>		}
+1027c1027,1030
+<		if (e) return e;
+---
+>		if (e) {
+>			gf_odf_delete_descriptor(tmp);
+>			return e;
+>		}

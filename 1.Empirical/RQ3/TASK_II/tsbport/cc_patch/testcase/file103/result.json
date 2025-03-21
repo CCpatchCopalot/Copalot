@@ -1,0 +1,81 @@
+{
+    "testcase": {
+        "file103": {
+            "match_message": {
+                "Same: Curl_detach_connnection -> Curl_detach_connnection": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 702 -> 875",
+                        "L2": "3: Unique Matched by Source code 702 -> 875"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 703 -> 876",
+                        "L2": "3: Unique Matched by Source code 704 -> 877"
+                    }
+                },
+                "Same: Curl_attach_connnection -> Curl_attach_connnection": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 715",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 716->893"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 875,
+                        "add_hunk": [
+                            "  if(conn) {\n"
+                        ],
+                        "delete_location": [
+                            875,
+                            875
+                        ],
+                        "delete_hunk": [
+                            "  if(conn)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 876,
+                        "add_hunk": [
+                            "    Curl_ssl_detach_conn(data, conn);\n",
+                            "  }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 892,
+                        "add_hunk": [
+                            "  Curl_ssl_associate_conn(data, conn);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: Curl_detach_connnection -> Curl_detach_connnection": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: Curl_attach_connnection -> Curl_attach_connnection": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

@@ -1,0 +1,51 @@
+80c80
+<	u32 tmp_strsize;
+---
+>	u32 tmp_strsize, strsize;
+97c97
+<	tmp_strsize =(u32)ptr->size;
+---
+>strsize = tmp_strsize
+116c116,117
+<	if (i) {
+---
+>if (i) 
+>	tmp_str[strsize-1] = 0;
+117a118
+>	}
+140a141
+>		tmp_str[strsize-1] = 0;
+170a171
+>		tmp_str[strsize-1] = 0;
+197c197,198
+<	if (i) {
+---
+>if (i) 
+>	tmp_str[strsize-1] = 0;
+198a199
+>	}
+219c219,220
+<	if (i) {
+---
+>if (i) 
+>	tmp_str[strsize-1] = 0;
+220a221
+>	}
+226c226
+<		GF_AdobeSegmentRunTableBox *asrt = NULL;
+---
+>GF_AdobeSegmentRunTableBox *asrt = NULL;
+228c228,229
+<		if (e) {
+---
+>if (e) 
+>	if (asrt) gf_isom_box_del((GF_Box*)asrt);gf_free(tmp_str);return e;
+242c242
+<		GF_AdobeFragmentRunTableBox *afrt = NULL;
+---
+>GF_AdobeFragmentRunTableBox *afrt = NULL;
+244c244,245
+<		if (e) {
+---
+>if (e) 
+>	if (afrt) gf_isom_box_del((GF_Box*)afrt);gf_free(tmp_str);return e;

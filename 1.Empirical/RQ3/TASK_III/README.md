@@ -1,0 +1,1 @@
+To get the results of impact of uncritical changes in recurring vulnerability detection, just run the script `parse_results.py` and get the results in `results.json`

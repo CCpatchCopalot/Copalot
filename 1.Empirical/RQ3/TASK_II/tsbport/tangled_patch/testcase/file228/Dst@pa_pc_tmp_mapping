@@ -1,0 +1,3 @@
+result = ssl_push_certinfo(data, certnum, "Cert", cp2);
+if(!certnum)    infof(data, "%s", cp2);
+free(cp2);

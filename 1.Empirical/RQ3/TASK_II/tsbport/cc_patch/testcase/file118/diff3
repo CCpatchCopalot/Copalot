@@ -1,0 +1,8 @@
+935a936
+>GLOBALS->yylen_vcd_recoder_c_3=len;
+936d
+<GLOBALS->yylen_vcd_recoder_c_3=len;
+1538c1538
+<			if (tok != T_END && tok != T_EOF)
+---
+>if (tok !=  && tok != T_EOF != && tok != T_EOF)

@@ -1,0 +1,134 @@
+{
+    "testcase": {
+        "file107": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "1 -> -1",
+                        "L2": "1 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: FloydSteinbergDitheringC -> FloydSteinbergDitheringC": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 562->658",
+                        "L2": "5: Matched by Syntax(AST) similarity 564->662"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 655->754",
+                        "L2": "5: Matched by Syntax(AST) similarity 657->758"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            "                   \"bjc CMY error buffer\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 658,
+                        "add_hunk": [
+                            "int v = row[0] + row[3];",
+                            "if (v > 255) v = 255;",
+                            "err_corrC = dev->bjc_gamma_tableC[v] + dev->FloydSteinbergC;\n",
+                            "v = row[1] + row[3];",
+                            "if (v > 255) v = 255;",
+                            "err_corrM = dev->bjc_gamma_tableM[v] + dev->FloydSteinbergM;",
+                            "v = row[2] + row[3];\n",
+                            "if (v > 255) v = 255;",
+                            "err_corrY = dev->bjc_gamma_tableY[v] + dev->FloydSteinbergY;\n"
+                        ],
+                        "delete_location": [
+                            658,
+                            662
+                        ],
+                        "delete_hunk": [
+                            "            err_corrC = dev->bjc_gamma_tableC[ (*row)    + (*(row+3))]\n",
+                            "                          + dev->FloydSteinbergC;\n",
+                            "            err_corrM = dev->bjc_gamma_tableM[(*(row+1)) + (*(row+3))]\n",
+                            "                          + dev->FloydSteinbergM;\n",
+                            "            err_corrY = dev->bjc_gamma_tableY[(*(row+2)) + (*(row+3))]\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 754,
+                        "add_hunk": [
+                            "int v = row[0] + row[3];",
+                            "if (v > 255) v = 255;",
+                            "err_corrC = dev->bjc_gamma_tableC[v] + dev->FloydSteinbergC;\n",
+                            "v = row[1] + row[3];",
+                            "if (v > 255) v = 255;",
+                            "err_corrM = dev->bjc_gamma_tableM[v] + dev->FloydSteinbergM;",
+                            "v = row[2] + row[3];\n",
+                            "if (v > 255) v = 255;",
+                            "err_corrY = dev->bjc_gamma_tableY[v] + dev->FloydSteinbergY;\n"
+                        ],
+                        "delete_location": [
+                            754,
+                            758
+                        ],
+                        "delete_hunk": [
+                            "            err_corrC = dev->bjc_gamma_tableC[  (*row)   + (*(row+3))]\n",
+                            "                          + dev->FloydSteinbergC;\n",
+                            "            err_corrM = dev->bjc_gamma_tableM[(*(row+1)) + (*(row+3))]\n",
+                            "                          + dev->FloydSteinbergM;\n",
+                            "            err_corrY = dev->bjc_gamma_tableY[(*(row+2)) + (*(row+3))]\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    }
+                },
+                "Same: FloydSteinbergDitheringC -> FloydSteinbergDitheringC": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "MOVE_TO",
+                "change_type",
+                "change_value"
+            ]
+        }
+    }
+}

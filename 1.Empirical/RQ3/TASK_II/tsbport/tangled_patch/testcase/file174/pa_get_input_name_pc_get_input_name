@@ -1,0 +1,102 @@
+operator: .  @ 13 @ operator: .  @ 13 @ 
+name: request  @ 13 @ name: request  @ 14 @ 
+operator: <  @ 9 @ operator: <  @ 9 @ 
+name: mk_request_t  @ 1 @ name: mk_request_t  @ 1 @ 
+argument_list  @ 9 @ argument_list  @ 9 @ 
+return  @ 7 @ return  @ 7 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+argument  @ 13 @ argument  @ 13 @ 
+operator: -  @ 13 @ operator: -  @ 14 @ 
+name: strlen  @ 9 @ name: strlen  @ 9 @ 
+argument  @ 13 @ argument  @ 13 @ 
+name  @ 13 @ name  @ 14 @ 
+if  @ 6 @ if  @ 6 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+block  @ 6 @ block  @ 6 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr  @ 9 @ expr  @ 9 @ 
+name: flb_sds_create_len  @ 13 @ name: flb_sds_create_len  @ 13 @ 
+expr  @ 13 @ expr  @ 14 @ 
+expr  @ 10 @ expr  @ 10 @ 
+return  @ 13 @ return  @ 13 @ 
+name: request  @ 13 @ name: request  @ 13 @ 
+name: strlen  @ 13 @ name: strlen  @ 13 @ 
+expr  @ 13 @ expr  @ 13 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+type  @ 1 @ type  @ 1 @ 
+name: NULL  @ 7 @ name: NULL  @ 7 @ 
+name: len  @ 9 @ name: len  @ 9 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+argument  @ 9 @ argument  @ 9 @ 
+type  @ 1 @ type  @ 1 @ 
+name: request  @ 1 @ name: request  @ 1 @ 
+name: data  @ 13 @ name: data  @ 13 @ 
+return  @ 10 @ return  @ 10 @ 
+name: flb_sds_t  @ 1 @ name: flb_sds_t  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: strlen  @ 13 @ name: strlen  @ 14 @ 
+expr  @ 13 @ expr  @ 13 @ 
+operator: &  @ 13 @ operator: &  @ 13 @ 
+block_content  @ 10 @ block_content  @ 10 @ 
+call  @ 9 @ call  @ 9 @ 
+modifier: *  @ 3 @ modifier: *  @ 3 @ 
+unit  @ 1 @ unit  @ 1 @ 
+condition  @ 9 @ condition  @ 9 @ 
+name: base  @ 9 @ name: base  @ 9 @ 
+name  @ 13 @ name  @ 13 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+operator: ==  @ 6 @ operator: ==  @ 6 @ 
+index  @ 13 @ index  @ 13 @ 
+name: real_path  @ 13 @ name: real_path  @ 14 @ 
+operator: .  @ 6 @ operator: .  @ 6 @ 
+operator: .  @ 13 @ operator: .  @ 14 @ 
+name: NULL  @ 6 @ name: NULL  @ 6 @ 
+if  @ 9 @ if  @ 9 @ 
+block  @ 2 @ block  @ 2 @ 
+name: len  @ 13 @ name: len  @ 14 @ 
+function  @ 1 @ function  @ 1 @ 
+name  @ 6 @ name  @ 6 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: ->  @ 6 @ operator: ->  @ 6 @ 
+name: real_path  @ 9 @ name: real_path  @ 9 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+expr  @ 13 @ expr  @ 13 @ 
+decl  @ 3 @ decl  @ 3 @ 
+name: data  @ 6 @ name: data  @ 6 @ 
+name: base  @ 3 @ name: base  @ 3 @ 
+name: real_path  @ 13 @ name: real_path  @ 13 @ 
+call  @ 13 @ call  @ 14 @ 
+if_stmt  @ 9 @ if_stmt  @ 9 @ 
+operator: .  @ 9 @ operator: .  @ 9 @ 
+expr  @ 6 @ expr  @ 6 @ 
+specifier: const  @ 3 @ specifier: const  @ 3 @ 
+name: base  @ 13 @ name: base  @ 14 @ 
+call  @ 13 @ call  @ 13 @ 
+call  @ 13 @ call  @ 13 @ 
+operator: ->  @ 9 @ operator: ->  @ 9 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+argument  @ 13 @ argument  @ 14 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument  @ 13 @ argument  @ 14 @ 
+operator: ->  @ 13 @ operator: ->  @ 14 @ 
+init  @ 3 @ init  @ 3 @ 
+name: real_path  @ 6 @ name: real_path  @ 6 @ 
+if_stmt  @ 6 @ if_stmt  @ 6 @ 
+expr  @ 13 @ expr  @ 14 @ 
+type  @ 3 @ type  @ 3 @ 
+expr  @ 3 @ expr  @ 3 @ 
+name: char  @ 3 @ name: char  @ 3 @ 
+name: NULL  @ 10 @ name: NULL  @ 10 @ 
+name: request  @ 9 @ name: request  @ 9 @ 
+block  @ 9 @ block  @ 9 @ 
+literal: "/api/v1/trace/"  @ 3 @ literal: "/api/v1/trace/"  @ 3 @ 
+name: base  @ 13 @ name: base  @ 13 @ 
+expr  @ 13 @ expr  @ 13 @ 
+name  @ 9 @ name  @ 9 @ 
+name: get_input_name  @ 1 @ name: get_input_name  @ 1 @ 
+argument_list  @ 13 @ argument_list  @ 14 @ 
+name: request  @ 6 @ name: request  @ 6 @ 
+condition  @ 6 @ condition  @ 6 @ 
+

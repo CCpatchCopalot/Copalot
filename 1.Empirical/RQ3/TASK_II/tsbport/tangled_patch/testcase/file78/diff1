@@ -1,0 +1,9 @@
+404,405c404
+<     /* check args */
+<     HDassert(type);
+---
+>     /* Don't assert on args since this could be called in cleanup code */
+409c408
+<         if (NULL != (type->free))
+---
+>         if (type && type->free)

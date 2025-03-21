@@ -1,0 +1,151 @@
+{
+    "testcase": {
+        "file36": {
+            "match_message": {
+                "Same: parse_chained_fixups -> parse_chained_fixups": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1387 -> 1505",
+                        "L2": "3: Unique Matched by Source code 1388 -> 1506"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1390->1508",
+                        "L2": "3: Unique Matched by Source code 1391 -> 1509"
+                    }
+                },
+                "Same: reconstruct_chained_fixup -> reconstruct_chained_fixup": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1573->1689",
+                        "L2": "3: Unique Matched by Source code 1574 -> 1690"
+                    }
+                },
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "1995 -> 2115",
+                        "L2": "1995 -> 2115",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "2115",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                },
+                "Same: MACH0_ -> MACH0_": {
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 4389",
+                        "L2": "7: Context line (Ignored) is empty or comment 4389"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 8,
+                        "add_hunk": [
+                            "\tfor (; i < bin->nsegs && i < bin->segs_count; i++) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1505,
+                        "add_hunk": [
+                            "\tut32 segs_count = r_buf_read_le32_at (bin->b, starts_at);\n",
+                            "\tif (segs_count == UT32_MAX || segs_count == 0) {\n"
+                        ],
+                        "delete_location": [
+                            1505,
+                            1506
+                        ],
+                        "delete_hunk": [
+                            "\tut32 segs_count;\n",
+                            "\tif ((segs_count = r_buf_read_le32_at (bin->b, starts_at)) == UT32_MAX) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1508,
+                        "add_hunk": [
+                            "\tbin->segs_count = segs_count;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 1689,
+                        "add_hunk": [
+                            "\tbin->segs_count = bin->nsegs;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 2115,
+                        "add_hunk": [
+                            "\t\tfor (i = 0; i < mo->nsegs && i < mo->segs_count; i++) {\n"
+                        ],
+                        "delete_location": [
+                            2115,
+                            2115
+                        ],
+                        "delete_hunk": [
+                            "\t\tfor (i = 0; i < mo->nsegs; i++) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: parse_chained_fixups -> parse_chained_fixups": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: reconstruct_chained_fixup -> reconstruct_chained_fixup": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_3": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    }
+                },
+                "Same: MACH0_ -> MACH0_": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_value",
+                "in_loop",
+                "change_type"
+            ]
+        }
+    }
+}

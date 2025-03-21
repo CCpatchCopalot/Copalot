@@ -1,0 +1,200 @@
+static CURLcode
+mesalink_connect_step1(struct connectdata *conn, int sockindex)
+{
+  char *ciphers;
+  struct Curl_easy *data = conn->data;
+  struct ssl_connect_data *connssl = &conn->ssl[sockindex];
+  struct in_addr addr4;
+#ifdef ENABLE_IPV6
+  struct in6_addr addr6;
+#endif
+  const char *const hostname =
+    SSL_IS_PROXY() ? conn->http_proxy.host.name : conn->host.name;
+  size_t hostname_len = strlen(hostname);
+
+  SSL_METHOD *req_method = NULL;
+  curl_socket_t sockfd = conn->sock[sockindex];
+
+  if(connssl->state == ssl_connection_complete)
+    return CURLE_OK;
+
+  if(SSL_CONN_CONFIG(version_max) != CURL_SSLVERSION_MAX_NONE) {
+    failf(data, "MesaLink does not support to set maximum SSL/TLS version");
+    return CURLE_SSL_CONNECT_ERROR;
+  }
+
+  switch(SSL_CONN_CONFIG(version)) {
+  case CURL_SSLVERSION_SSLv3:
+  case CURL_SSLVERSION_TLSv1:
+  case CURL_SSLVERSION_TLSv1_0:
+  case CURL_SSLVERSION_TLSv1_1:
+    failf(data, "MesaLink does not support SSL 3.0, TLS 1.0, or TLS 1.1");
+    return CURLE_NOT_BUILT_IN;
+  case CURL_SSLVERSION_DEFAULT:
+  case CURL_SSLVERSION_TLSv1_2:
+    req_method = TLSv1_2_client_method();
+    break;
+  case CURL_SSLVERSION_TLSv1_3:
+    req_method = TLSv1_3_client_method();
+    break;
+  case CURL_SSLVERSION_SSLv2:
+    failf(data, "MesaLink does not support SSLv2");
+    return CURLE_SSL_CONNECT_ERROR;
+  default:
+    failf(data, "Unrecognized parameter passed via CURLOPT_SSLVERSION");
+    return CURLE_SSL_CONNECT_ERROR;
+  }
+
+  if(!req_method) {
+    failf(data, "SSL: couldn't create a method!");
+    return CURLE_OUT_OF_MEMORY;
+  }
+
+  if(BACKEND->ctx)
+    SSL_CTX_free(BACKEND->ctx);
+  BACKEND->ctx = SSL_CTX_new(req_method);
+
+  if(!BACKEND->ctx) {
+    failf(data, "SSL: couldn't create a context!");
+    return CURLE_OUT_OF_MEMORY;
+  }
+
+  SSL_CTX_set_verify(
+    BACKEND->ctx, SSL_CONN_CONFIG(verifypeer) ?
+      SSL_VERIFY_PEER : SSL_VERIFY_NONE, NULL);
+
+  if(SSL_CONN_CONFIG(CAfile) || SSL_CONN_CONFIG(CApath)) {
+    if(!SSL_CTX_load_verify_locations(BACKEND->ctx, SSL_CONN_CONFIG(CAfile),
+                                                    SSL_CONN_CONFIG(CApath))) {
+      if(SSL_CONN_CONFIG(verifypeer)) {
+        failf(data,
+              "error setting certificate verify locations:\n"
+              "  CAfile: %s\n  CApath: %s",
+              SSL_CONN_CONFIG(CAfile) ?
+              SSL_CONN_CONFIG(CAfile) : "none",
+              SSL_CONN_CONFIG(CApath) ?
+              SSL_CONN_CONFIG(CApath) : "none");
+        return CURLE_SSL_CACERT_BADFILE;
+      }
+      infof(data,
+          "error setting certificate verify locations,"
+          " continuing anyway:\n");
+    }
+    else {
+      infof(data, "successfully set certificate verify locations:\n");
+    }
+    infof(data,
+          "  CAfile: %s\n"
+          "  CApath: %s\n",
+          SSL_CONN_CONFIG(CAfile)?
+          SSL_CONN_CONFIG(CAfile): "none",
+          SSL_CONN_CONFIG(CApath)?
+          SSL_CONN_CONFIG(CApath): "none");
+  }
+
+  if(SSL_SET_OPTION(cert) && SSL_SET_OPTION(key)) {
+    int file_type = do_file_type(SSL_SET_OPTION(cert_type));
+
+    if(SSL_CTX_use_certificate_chain_file(BACKEND->ctx, SSL_SET_OPTION(cert),
+                                     file_type) != 1) {
+      failf(data, "unable to use client certificate (no key or wrong pass"
+            " phrase?)");
+      return CURLE_SSL_CONNECT_ERROR;
+    }
+
+    file_type = do_file_type(SSL_SET_OPTION(key_type));
+    if(SSL_CTX_use_PrivateKey_file(BACKEND->ctx, SSL_SET_OPTION(key),
+                                    file_type) != 1) {
+      failf(data, "unable to set private key");
+      return CURLE_SSL_CONNECT_ERROR;
+    }
+    infof(data,
+          "client cert: %s\n",
+          SSL_CONN_CONFIG(clientcert)?
+          SSL_CONN_CONFIG(clientcert): "none");
+  }
+
+  ciphers = SSL_CONN_CONFIG(cipher_list);
+  if(ciphers) {
+#ifdef MESALINK_HAVE_CIPHER
+    if(!SSL_CTX_set_cipher_list(BACKEND->ctx, ciphers)) {
+      failf(data, "failed setting cipher list: %s", ciphers);
+      return CURLE_SSL_CIPHER;
+    }
+#endif
+    infof(data, "Cipher selection: %s\n", ciphers);
+  }
+
+  if(BACKEND->handle)
+    SSL_free(BACKEND->handle);
+  BACKEND->handle = SSL_new(BACKEND->ctx);
+  if(!BACKEND->handle) {
+    failf(data, "SSL: couldn't create a context (handle)!");
+    return CURLE_OUT_OF_MEMORY;
+  }
+
+  if((hostname_len < USHRT_MAX) &&
+     (0 == Curl_inet_pton(AF_INET, hostname, &addr4))
+#ifdef ENABLE_IPV6
+     && (0 == Curl_inet_pton(AF_INET6, hostname, &addr6))
+#endif
+  ) {
+    /* hostname is not a valid IP address */
+    if(SSL_set_tlsext_host_name(BACKEND->handle, hostname) != SSL_SUCCESS) {
+      failf(data,
+            "WARNING: failed to configure server name indication (SNI) "
+            "TLS extension\n");
+      return CURLE_SSL_CONNECT_ERROR;
+    }
+  }
+  else {
+#ifdef CURLDEBUG
+    /* Check if the hostname is 127.0.0.1 or [::1];
+     * otherwise reject because MesaLink always wants a valid DNS Name
+     * specified in RFC 5280 Section 7.2 */
+    if(strncmp(hostname, "127.0.0.1", 9) == 0
+#ifdef ENABLE_IPV6
+       || strncmp(hostname, "[::1]", 5) == 0
+#endif
+    ) {
+      SSL_set_tlsext_host_name(BACKEND->handle, "localhost");
+    }
+    else
+#endif
+    {
+      failf(data,
+            "ERROR: MesaLink does not accept an IP address as a hostname\n");
+      return CURLE_SSL_CONNECT_ERROR;
+    }
+  }
+
+#ifdef MESALINK_HAVE_SESSION
+  if(SSL_SET_OPTION(primary.sessionid)) {
+    void *ssl_sessionid = NULL;
+
+    Curl_ssl_sessionid_lock(conn);
+    if(!Curl_ssl_getsessionid(conn, &ssl_sessionid, NULL, sockindex)) {
+      /* we got a session id, use it! */
+      if(!SSL_set_session(BACKEND->handle, ssl_sessionid)) {
+        Curl_ssl_sessionid_unlock(conn);
+        failf(
+          data,
+          "SSL: SSL_set_session failed: %s",
+          ERR_error_string(SSL_get_error(BACKEND->handle, 0), error_buffer));
+        return CURLE_SSL_CONNECT_ERROR;
+      }
+      /* Informational message */
+      infof(data, "SSL re-using session ID\n");
+    }
+    Curl_ssl_sessionid_unlock(conn);
+  }
+#endif /* MESALINK_HAVE_SESSION */
+
+  if(SSL_set_fd(BACKEND->handle, (int)sockfd) != SSL_SUCCESS) {
+    failf(data, "SSL: SSL_set_fd failed");
+    return CURLE_SSL_CONNECT_ERROR;
+  }
+
+  connssl->connecting_state = ssl_connect_2;
+  return CURLE_OK;
+}

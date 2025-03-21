@@ -1,0 +1,5 @@
+49a50
+>#include "H5FLprivate.h" /* Free Lists */
+557a558,559
+>    if (0 == hobj->idx)
+>    HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, NULL, "bad heap index, heap object = {%" PRIxHADDR ", %zu}",hobj->addr, hobj->idx);

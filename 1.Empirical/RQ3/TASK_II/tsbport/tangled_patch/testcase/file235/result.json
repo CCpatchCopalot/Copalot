@@ -1,0 +1,47 @@
+{
+    "testcase": {
+        "file235": {
+            "match_message": {
+                "Same: gf_isom_set_audio_layout -> gf_isom_set_audio_layout": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2479->2481",
+                        "L2": "3: Unique Matched by Source code 2480 -> 2482"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 2481,
+                        "add_hunk": [
+                            "\tif (!layout) return GF_BAD_PARAM;\n",
+                            "\tif ((layout->stream_structure & 1) && (layout->definedLayout==0) && (layout->channels_count>=64))\n",
+                            "\t\treturn GF_BAD_PARAM;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 8189,
+                        "add_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_set_audio_layout -> gf_isom_set_audio_layout": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

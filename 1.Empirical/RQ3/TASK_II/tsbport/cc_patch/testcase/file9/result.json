@@ -1,0 +1,295 @@
+{
+    "testcase": {
+        "file9": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "166 -> -1",
+                        "L2": "166 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "402 -> -1",
+                        "L2": "402 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'src:decl', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "src:decl",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "src:decl",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: initCropMasks -> initCropMasks": {
+                    "Seg_2": {
+                        "Edit": "delete",
+                        "L1": "5: Matched by Syntax(AST) similarity 4774->5104",
+                        "L2": "5: Matched by Syntax(AST) similarity 4774->5104"
+                    }
+                },
+                "Same: correct_orientation -> correct_orientation": {
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 6038->6314",
+                        "L2": "5: Matched by Syntax(AST) similarity 6038->6314"
+                    }
+                },
+                "Same: extractCompositeRegions -> extractCompositeRegions": {
+                    "Seg_4": {
+                        "Edit": "delete",
+                        "L1": "7: Context line (Ignored) is empty or comment 6138",
+                        "L2": "7: Context line (Ignored) is empty or comment 6138"
+                    }
+                },
+                "Same: extractSeparateRegion -> extractSeparateRegion": {
+                    "Seg_5": {
+                        "Edit": "delete",
+                        "L1": "5: Matched by Syntax(AST) similarity 6331->6619",
+                        "L2": "5: Matched by Syntax(AST) similarity 6331->6619"
+                    }
+                },
+                "Same: processCropSelections -> processCropSelections": {
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 7111",
+                        "L2": "7: Context line (Ignored) is empty or comment 7111"
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 7214",
+                        "L2": "7: Context line (Ignored) is empty or comment 7214"
+                    }
+                },
+                "Same: createCroppedImage -> createCroppedImage": {
+                    "Seg_8": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 7330",
+                        "L2": "7: Context line (Ignored) is empty or comment 7330"
+                    }
+                },
+                "Same: rotateImage -> rotateImage": {
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 7954->8409",
+                        "L2": "5: Matched by Syntax(AST) similarity 7954->8409"
+                    },
+                    "Seg_10": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 8253->8676",
+                        "L2": "5: Matched by Syntax(AST) similarity 8254->8677"
+                    },
+                    "Seg_11": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 8258->8681",
+                        "L2": "5: Matched by Syntax(AST) similarity 8259->8682"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            " * End:\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static int rotateImage(uint16_t, struct image_data *, uint32_t *, uint32_t *, unsigned char **, size_t *, int);\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            " * End:\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "            if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, &crop_buff, &rot_buf_size,TRUE))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "                if (rotateImage(crop->rotation, image,&crop->regionlist[i].width,&crop->regionlist[i].length, &crop_buff,&rot_buf_size, FALSE))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 137,
+                        "add_hunk": [
+                            "        if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, crop_buff_ptr, NULL, TRUE))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            5104,
+                            5104
+                        ],
+                        "delete_hunk": [
+                            "     cps->regionlist[i].buffptr = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 6314,
+                        "add_hunk": [
+                            "uint32_t width = image->width;",
+                            "uint32_t length = image->length;",
+                            "if (rotateImage(rotation, image, &width, &length, work_buff_ptr, TRUE) )"
+                        ],
+                        "delete_location": [
+                            6314,
+                            6314
+                        ],
+                        "delete_hunk": [
+                            "    if (rotateImage(rotation, image, &image->width, &image->length, work_buff_ptr))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            6619,
+                            6619
+                        ],
+                        "delete_hunk": [
+                            "  crop->regionlist[region].buffptr = crop_buff;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 8409,
+                        "add_hunk": [
+                            "static int rotateImage(uint16_t rotation, struct image_data *image, uint32_t *img_width, uint32_t *img_length, unsigned char **ibuff_ptr, size_t *rot_buf_size, int rot_image_params)"
+                        ],
+                        "delete_location": [
+                            8409,
+                            8409
+                        ],
+                        "delete_hunk": [
+                            "rotateImage(uint16_t rotation, struct image_data *image, uint32_t *img_width,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "add",
+                        "add_location": 8676,
+                        "add_hunk": [
+                            "            if (rot_image_params)\n",
+                            "            {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "add",
+                        "add_location": 8681,
+                        "add_hunk": [
+                            "            }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "fail",
+                        "info": "local variable 'pa_add_hunk' referenced before assignment"
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl"
+                        ]
+                    }
+                },
+                "Same: initCropMasks -> initCropMasks": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: correct_orientation -> correct_orientation": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: extractCompositeRegions -> extractCompositeRegions": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: extractSeparateRegion -> extractSeparateRegion": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: processCropSelections -> processCropSelections": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: createCroppedImage -> createCroppedImage": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: rotateImage -> rotateImage": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_definition",
+                "change_type"
+            ]
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "testcase": {
+        "file58": {
+            "match_message": {
+                "Syntax: H5O__link_decode -> H5O_link_decode": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 80->123",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 81->123"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 148->200",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 148->200"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 123,
+                        "add_hunk": [
+                            "    const uint8_t       *p_end = p + p_size;  /* End of the p buffer */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 200,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, \"invalid name length\")",
+                            "if(p + len > p_end)\n",
+                            "        HGOTO_ERROR(H5E_OHDR, H5E_OVERFLOW, NULL, \"name length causes read past end of buffer\")/* Get the link's name */"
+                        ],
+                        "delete_location": [
+                            201,
+                            200
+                        ],
+                        "delete_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: H5O__link_decode -> H5O_link_decode": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call",
+                "change_type"
+            ]
+        }
+    }
+}

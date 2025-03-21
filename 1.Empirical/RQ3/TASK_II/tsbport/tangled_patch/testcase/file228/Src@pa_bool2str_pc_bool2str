@@ -1,0 +1,6 @@
+static const char *bool2str(const char *beg, const char *end)
+{
+  if(end - beg != 1)
+    return NULL;
+  return strdup(*beg? "TRUE": "FALSE");
+}

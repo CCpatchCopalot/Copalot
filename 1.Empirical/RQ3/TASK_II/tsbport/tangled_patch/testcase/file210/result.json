@@ -1,0 +1,79 @@
+{
+    "testcase": {
+        "file210": {
+            "match_message": {
+                "Same: GetNumSameData -> GetNumSameData": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 127 -> 148",
+                        "L2": "3: Unique Matched by Source code 127 -> 148"
+                    }
+                },
+                "Same: GetNumWrongData -> GetNumWrongData": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 142 -> 163",
+                        "L2": "3: Unique Matched by Source code 142 -> 163"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 26,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 148,
+                        "add_hunk": [
+                            "    while (maxnum > count && *curPtr == *(curPtr + count)) {\n"
+                        ],
+                        "delete_location": [
+                            148,
+                            148
+                        ],
+                        "delete_hunk": [
+                            "    while (*curPtr == *(curPtr + count) && maxnum > count) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 163,
+                        "add_hunk": [
+                            "    while (maxnum > count+1 && *(curPtr + count) != *(curPtr + count + 1)) {\n"
+                        ],
+                        "delete_location": [
+                            163,
+                            163
+                        ],
+                        "delete_hunk": [
+                            "    while (*(curPtr + count) != *(curPtr + count + 1) && maxnum > count) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: GetNumSameData -> GetNumSameData": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: GetNumWrongData -> GetNumWrongData": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "in_loop"
+            ]
+        }
+    }
+}

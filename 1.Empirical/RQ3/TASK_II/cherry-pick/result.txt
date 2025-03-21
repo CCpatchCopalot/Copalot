@@ -1,0 +1,2910 @@
+=====================================
+Processing CVE-2022-4645.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-4645
+
+error: commit e813112545942107551433d61afd16ac094ff246 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2022-4645......... ccpatch
+=====================================
+Auto-merging libtiff/tif_dirinfo.c
+Auto-merging libtiff/tif_dir.h
+Auto-merging libtiff/tif_dir.c
+[cmake-test 3e39d986] ccpatch
+ Date: Tue Mar 11 01:05:19 2025 +0900
+ 3 files changed, 49 insertions(+), 23 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-30774.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-30774
+
+error: commit e813112545942107551433d61afd16ac094ff246 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2023-30774......... ccpatch
+=====================================
+Auto-merging libtiff/tif_dirinfo.c
+Auto-merging libtiff/tif_dir.h
+Auto-merging libtiff/tif_dir.c
+[cmake-test 87f817aa] ccpatch
+ Date: Tue Mar 11 01:05:20 2025 +0900
+ 3 files changed, 49 insertions(+), 23 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-3598.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-3598
+
+error: commit cfbb883bf6ea7bedcb04177cc4e52d304522fdff is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2022-3598......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2022-3598
+Auto-merging tools/tiffcrop.c
+CONFLICT (content): Merge conflict in tools/tiffcrop.c
+
+error: could not apply 4e8faf8b... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing libtiff-389.....origin patch
+=====================================
+Cherry-pick failed for libtiff-389
+
+error: commit cfbb883bf6ea7bedcb04177cc4e52d304522fdff is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing libtiff-389......... ccpatch
+=====================================
+Auto-merging tools/tiffcrop.c
+[cmake-test 1e889620] ccpatch
+ Date: Tue Mar 11 01:05:21 2025 +0900
+ 1 file changed, 12 insertions(+), 11 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-0795.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-0795
+
+error: commit afaabc3e50d4e5d80a94143f7e3c997e7e410f68 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2023-0795......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-0795
+Auto-merging tools/tiffcrop.c
+CONFLICT (content): Merge conflict in tools/tiffcrop.c
+
+error: could not apply f0414d20... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-0796.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-0796
+
+error: commit afaabc3e50d4e5d80a94143f7e3c997e7e410f68 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2023-0796......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-0796
+Auto-merging tools/tiffcrop.c
+CONFLICT (content): Merge conflict in tools/tiffcrop.c
+
+error: could not apply 915d0ae3... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-0797.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-0797
+
+error: commit afaabc3e50d4e5d80a94143f7e3c997e7e410f68 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2023-0797......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-0797
+Auto-merging tools/tiffcrop.c
+CONFLICT (content): Merge conflict in tools/tiffcrop.c
+
+error: could not apply ebf656be... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-15209.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-15209
+Auto-merging libtiff/tif_dirread.c
+CONFLICT (content): Merge conflict in libtiff/tif_dirread.c
+
+error: could not apply 3719385a... ChopUpSingleUncompressedStrip: avoid memory exhaustion (CVE-2017-11613)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-15209......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2018-15209
+Auto-merging libtiff/tif_dirread.c
+CONFLICT (content): Merge conflict in libtiff/tif_dirread.c
+
+error: could not apply a411f9e8... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-15190.....origin patch
+=====================================
+[master 174b8f05aec] Fix undefined behavior in `tf.raw_ops.Switch` in eager mode.
+ Author: Mihai Maruseac <mihaimaruseac@google.com>
+ Date: Fri Sep 18 21:16:05 2020 -0700
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-15190......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-15190
+Auto-merging tensorflow/core/common_runtime/eager/kernel_and_device.cc
+CONFLICT (content): Merge conflict in tensorflow/core/common_runtime/eager/kernel_and_device.cc
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 9502 and retry the command.
+error: could not apply 1e4e15abbc8... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-29542.....origin patch
+=====================================
+Cherry-pick failed for CVE-2021-29542
+Auto-merging tensorflow/core/kernels/string_ngrams_op.cc
+CONFLICT (content): Merge conflict in tensorflow/core/kernels/string_ngrams_op.cc
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 2627 and retry the command.
+error: could not apply ba424dd8f16... Enhance validation of ngram op and handle case of 0 tokens.
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-29542......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2021-29542
+Auto-merging tensorflow/core/kernels/string_ngrams_op.cc
+CONFLICT (content): Merge conflict in tensorflow/core/kernels/string_ngrams_op.cc
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 8242 and retry the command.
+error: could not apply d59733f8750... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-15206.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-15206
+
+error: The following untracked working tree files would be overwritten by merge:
+	tensorflow/cc/saved_model/testdata/fuzz_generated/bad_node_attr/assets/empty
+Please move or remove them before you merge.
+Aborting
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2020-15206......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-15206
+Auto-merging tensorflow/cc/saved_model/loader.cc
+CONFLICT (content): Merge conflict in tensorflow/cc/saved_model/loader.cc
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 7068 and retry the command.
+error: could not apply 6e2ae8701d8... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-29591.....origin patch
+=====================================
+Auto-merging tensorflow/lite/kernels/while.cc
+[master cda43b956a9] Prevent infinite loop/stack overflow in TFLite `while` op.
+ Author: Mihai Maruseac <mihaimaruseac@google.com>
+ Date: Tue Apr 27 17:47:46 2021 -0700
+ 1 file changed, 2 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-29591......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2021-29591
+Auto-merging tensorflow/lite/kernels/while.cc
+Auto-merging tensorflow/lite/core/subgraph.h
+CONFLICT (content): Merge conflict in tensorflow/lite/core/subgraph.h
+Auto-merging tensorflow/lite/core/subgraph.cc
+CONFLICT (content): Merge conflict in tensorflow/lite/core/subgraph.cc
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 9147 and retry the command.
+error: could not apply 11a5d96957c... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-26269.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-26269
+Auto-merging tensorflow/core/platform/file_system_helper.cc
+CONFLICT (content): Merge conflict in tensorflow/core/platform/file_system_helper.cc
+
+error: could not apply 8b5b9dc9666... Completely rewrite `GetMatchingPaths`.
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-26269......... ccpatch
+=====================================
+Auto-merging tensorflow/core/platform/file_system_helper.cc
+[r1.15 d2e972d5dcf] ccpatch
+ Date: Tue Mar 11 01:06:37 2025 +0900
+ 1 file changed, 5 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-41896.....origin patch
+=====================================
+Auto-merging tensorflow/core/kernels/mfcc_op.cc
+[master 801f0fd7a30] Make MfccMelFilterbank fail initialization if num_channels is > max int value.
+ Author: Swachhand Lokhande <swachhand@google.com>
+ Date: Thu Sep 29 15:59:27 2022 -0700
+ 4 files changed, 58 insertions(+), 8 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-41896......... ccpatch
+=====================================
+[r2.5 4db170f5e7b] ccpatch
+ Date: Tue Mar 11 01:06:52 2025 +0900
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-29208.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-29208
+CONFLICT (modify/delete): tensorflow/python/kernel_tests/array_ops/edit_distance_op_test.py deleted in HEAD and modified in 30721cf564c... Fix tf.raw_ops.EditDistance vulnerability with negative indices.. Version 30721cf564c... Fix tf.raw_ops.EditDistance vulnerability with negative indices. of tensorflow/python/kernel_tests/array_ops/edit_distance_op_test.py left in tree.
+Auto-merging tensorflow/core/kernels/edit_distance_op.cc
+CONFLICT (content): Merge conflict in tensorflow/core/kernels/edit_distance_op.cc
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 6649 and retry the command.
+error: could not apply 30721cf564c... Fix tf.raw_ops.EditDistance vulnerability with negative indices.
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-29208......... ccpatch
+=====================================
+Auto-merging tensorflow/core/kernels/edit_distance_op.cc
+[r2.5 e2264313fb6] ccpatch
+ Date: Tue Mar 11 01:07:10 2025 +0900
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-29206.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-29206
+CONFLICT (modify/delete): tensorflow/python/kernel_tests/sparse_ops/sparse_ops_test.py deleted in HEAD and modified in 11ced8467ec... Fix UB in SparseTensorDenseAdd. Version 11ced8467ec... Fix UB in SparseTensorDenseAdd of tensorflow/python/kernel_tests/sparse_ops/sparse_ops_test.py left in tree.
+CONFLICT (modify/delete): tensorflow/python/kernel_tests/sparse_ops/sparse_add_op_test.py deleted in HEAD and modified in 11ced8467ec... Fix UB in SparseTensorDenseAdd. Version 11ced8467ec... Fix UB in SparseTensorDenseAdd of tensorflow/python/kernel_tests/sparse_ops/sparse_add_op_test.py left in tree.
+Auto-merging tensorflow/core/kernels/sparse_tensor_dense_add_op.cc
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 6668 and retry the command.
+error: could not apply 11ced8467ec... Fix UB in SparseTensorDenseAdd
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-29206......... ccpatch
+=====================================
+Auto-merging tensorflow/core/kernels/sparse_tensor_dense_add_op.cc
+[r2.5 24c140e747c] ccpatch
+ Date: Tue Mar 11 01:07:27 2025 +0900
+ 1 file changed, 27 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-24756.....origin patch
+=====================================
+Auto-merging libde265/motion.cc
+[include-m4-in-dist 51c600ea] fix for monochrome MC (fixes #380)
+ Author: Dirk Farin <dirk.farin@gmail.com>
+ Date: Sun Jan 29 12:18:19 2023 +0100
+ 1 file changed, 17 insertions(+), 12 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-24756......... ccpatch
+=====================================
+Auto-merging libde265/motion.cc
+[include-m4-in-dist f3a1150d] ccpatch
+ Date: Tue Mar 11 01:07:31 2025 +0900
+ 1 file changed, 9 insertions(+), 6 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-24757.....origin patch
+=====================================
+Auto-merging libde265/motion.cc
+[include-m4-in-dist cfaf705b] fix for monochrome MC (fixes #380)
+ Author: Dirk Farin <dirk.farin@gmail.com>
+ Date: Sun Jan 29 12:18:19 2023 +0100
+ 1 file changed, 17 insertions(+), 12 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-24757......... ccpatch
+=====================================
+Auto-merging libde265/motion.cc
+[include-m4-in-dist f3a1150d] ccpatch
+ Date: Tue Mar 11 01:07:31 2025 +0900
+ 1 file changed, 9 insertions(+), 6 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-24755.....origin patch
+=====================================
+Auto-merging libde265/motion.cc
+[include-m4-in-dist cfaf705b] fix for monochrome MC (fixes #380)
+ Author: Dirk Farin <dirk.farin@gmail.com>
+ Date: Sun Jan 29 12:18:19 2023 +0100
+ 1 file changed, 17 insertions(+), 12 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-24755......... ccpatch
+=====================================
+Auto-merging libde265/motion.cc
+[include-m4-in-dist 90a6dacf] ccpatch
+ Date: Tue Mar 11 01:07:31 2025 +0900
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-0559.....origin patch
+=====================================
+Auto-merging libr/io/io_bank.c
+[nopskipwarn 1175600933] Fix use-after-free in iobank rbtree usage ##io
+ Author: Sergi Àlvarez i Capilla <pancake@nowsecure.com>
+ Date: Thu Jan 6 19:33:28 2022 +0100
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-0559......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2022-0559
+Auto-merging libr/io/io_bank.c
+CONFLICT (content): Merge conflict in libr/io/io_bank.c
+
+error: could not apply 340100777c... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-1809.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-1809
+Auto-merging libr/anal/vtable.c
+CONFLICT (content): Merge conflict in libr/anal/vtable.c
+
+error: could not apply 919e3ac1a1... Fix crash in vtable analysis on UB ##crash
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-1809......... ccpatch
+=====================================
+Auto-merging libr/anal/vtable.c
+[cui 52f84832d7] ccpatch
+ Date: Tue Mar 11 01:07:39 2025 +0900
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-1437.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-1437
+Auto-merging libr/bin/p/bin_symbols.c
+CONFLICT (content): Merge conflict in libr/bin/p/bin_symbols.c
+Auto-merging libr/bin/format/mach0/coresymbolication.c
+
+error: could not apply 669a404b6d... Fix oobread and null deref in symbols file parser ##crash
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-1437......... ccpatch
+=====================================
+Auto-merging libr/bin/format/mach0/coresymbolication.c
+[fix-var-names f683764575] ccpatch
+ Date: Tue Mar 11 01:07:43 2025 +0900
+ 1 file changed, 3 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-32613.....origin patch
+=====================================
+Auto-merging libr/bin/format/pyc/marshal.c
+[fix-var-names 4712a694a1] Fix #18666 - uaf in python bin parser
+ Author: pancake <pancake@nopcode.org>
+ Date: Fri May 7 21:09:59 2021 +0200
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-32613......... ccpatch
+=====================================
+Auto-merging libr/bin/format/pyc/marshal.c
+[fix-var-names cd329b1ad9] ccpatch
+ Date: Tue Mar 11 01:07:47 2025 +0900
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-0139.....origin patch
+=====================================
+Auto-merging libr/io/io_bank.c
+[cui 7390f0800c] Fix use-after-free in iobank rbtree usage ##io
+ Author: Sergi Àlvarez i Capilla <pancake@nowsecure.com>
+ Date: Thu Jan 6 19:33:28 2022 +0100
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-0139......... ccpatch
+=====================================
+Auto-merging libr/io/io_bank.c
+[cui 9e03856f1e] ccpatch
+ Date: Tue Mar 11 01:07:50 2025 +0900
+ 1 file changed, 15 insertions(+), 6 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-0523.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-0523
+Auto-merging libr/bin/format/pyc/marshal.c
+CONFLICT (content): Merge conflict in libr/bin/format/pyc/marshal.c
+
+error: could not apply 35482cb760... Fix UAF in pyc parser ##crash
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-0523......... ccpatch
+=====================================
+Auto-merging libr/bin/format/pyc/marshal.c
+[cui 5c8aa8d12e] ccpatch
+ Date: Tue Mar 11 01:07:54 2025 +0900
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-1451.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-1451
+Auto-merging shlr/java/class.c
+CONFLICT (content): Merge conflict in shlr/java/class.c
+
+error: could not apply 0927ed3ae9... Fix oobread crash in java parser ##crash
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-1451......... ccpatch
+=====================================
+Auto-merging shlr/java/class.c
+[cui 48b96b8f15] ccpatch
+ Date: Tue Mar 11 01:07:57 2025 +0900
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-1052.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-1052
+Auto-merging libr/core/cmd_api.c
+CONFLICT (content): Merge conflict in libr/core/cmd_api.c
+Auto-merging libr/bin/format/mach0/mach0.h
+Auto-merging libr/bin/format/mach0/mach0.c
+CONFLICT (content): Merge conflict in libr/bin/format/mach0/mach0.c
+
+error: could not apply 0052500c1e... Fix heap OOB read in macho.iterate_chained_fixups ##crash
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-1052......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2022-1052
+Auto-merging libr/bin/format/mach0/mach0.h
+Auto-merging libr/bin/format/mach0/mach0.c
+CONFLICT (content): Merge conflict in libr/bin/format/mach0/mach0.c
+
+error: could not apply f57747d8bc... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2016-7131.....origin patch
+=====================================
+Auto-merging ext/wddx/wddx.c
+[PHP-5.5.35 07d9910503] Fix for bug #72790 and bug #72799
+ Author: Stanislav Malyshev <stas@php.net>
+ Date: Wed Aug 10 23:43:56 2016 -0700
+ 3 files changed, 72 insertions(+), 5 deletions(-)
+ create mode 100644 ext/wddx/tests/bug72790.phpt
+ create mode 100644 ext/wddx/tests/bug72799.phpt
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2016-7131......... ccpatch
+=====================================
+Auto-merging ext/wddx/wddx.c
+[PHP-5.5.35 5b12b4b125] ccpatch
+ Date: Tue Mar 11 01:08:13 2025 +0900
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2016-7132.....origin patch
+=====================================
+Auto-merging ext/wddx/wddx.c
+[PHP-5.5.35 5d5c3271ac] Fix for bug #72790 and bug #72799
+ Author: Stanislav Malyshev <stas@php.net>
+ Date: Wed Aug 10 23:43:56 2016 -0700
+ 3 files changed, 72 insertions(+), 5 deletions(-)
+ create mode 100644 ext/wddx/tests/bug72790.phpt
+ create mode 100644 ext/wddx/tests/bug72799.phpt
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2016-7132......... ccpatch
+=====================================
+Auto-merging ext/wddx/wddx.c
+[PHP-5.5.35 61c10a5172] ccpatch
+ Date: Tue Mar 11 01:08:25 2025 +0900
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-15945.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-15945
+Auto-merging lvm.c
+CONFLICT (content): Merge conflict in lvm.c
+Auto-merging lstate.h
+CONFLICT (content): Merge conflict in lstate.h
+Auto-merging lstate.c
+Auto-merging ldo.c
+CONFLICT (content): Merge conflict in ldo.c
+Auto-merging ldebug.h
+Auto-merging ldebug.c
+CONFLICT (content): Merge conflict in ldebug.c
+
+error: could not apply a2195644... Fixed bug: invalid 'oldpc' when returning to a function
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-15945......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-15945
+Auto-merging lvm.c
+CONFLICT (content): Merge conflict in lvm.c
+Auto-merging lstate.h
+CONFLICT (content): Merge conflict in lstate.h
+Auto-merging ldo.c
+CONFLICT (content): Merge conflict in ldo.c
+Auto-merging ldebug.c
+CONFLICT (content): Merge conflict in ldebug.c
+
+error: could not apply da71bfdc... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-33099.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-33099
+Auto-merging lvm.c
+CONFLICT (content): Merge conflict in lvm.c
+Auto-merging ldebug.c
+CONFLICT (content): Merge conflict in ldebug.c
+
+error: could not apply 42d40581... Save stack space while handling errors
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-33099......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2022-33099
+Auto-merging lvm.c
+CONFLICT (content): Merge conflict in lvm.c
+Auto-merging ldebug.c
+CONFLICT (content): Merge conflict in ldebug.c
+
+error: could not apply 2d3f48bd... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21844.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-21844
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply 6ea3bdb8... decode: check section sizes
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21844......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-21844
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply 1eecbf65... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21830.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-21830
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply 6ea3bdb8... decode: check section sizes
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21830......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-21830
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply 570b4c75... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21841.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-21841
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply 6ea3bdb8... decode: check section sizes
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21841......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-21841
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply fa6d5d32... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21840.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-21840
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply 6ea3bdb8... decode: check section sizes
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-21840......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-21840
+Auto-merging src/decode.c
+CONFLICT (content): Merge conflict in src/decode.c
+
+error: could not apply 488f8c98... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-39530.....origin patch
+=====================================
+Cherry-pick failed for CVE-2021-39530
+Auto-merging src/dwg.spec
+CONFLICT (content): Merge conflict in src/dwg.spec
+Auto-merging src/bits.h
+Auto-merging src/bits.c
+CONFLICT (content): Merge conflict in src/bits.c
+
+error: could not apply 4b99edb0... decode: protect LTYPE.dash_i from overflowing 512
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-39530......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2021-39530
+Auto-merging src/free.c
+CONFLICT (content): Merge conflict in src/free.c
+Auto-merging src/bits.h
+CONFLICT (content): Merge conflict in src/bits.h
+Auto-merging src/bits.c
+CONFLICT (content): Merge conflict in src/bits.c
+
+error: could not apply cbb8fe31... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2024-32612.....origin patch
+=====================================
+Cherry-pick failed for CVE-2024-32612
+Auto-merging src/H5Znbit.c
+Auto-merging src/H5Tprivate.h
+Auto-merging src/H5T.c
+CONFLICT (content): Merge conflict in src/H5T.c
+Auto-merging src/H5Spoint.c
+Auto-merging src/H5S.c
+Auto-merging src/H5Ostab.c
+Auto-merging src/H5Oshared.h
+Auto-merging src/H5Oshared.c
+Auto-merging src/H5Osdspace.c
+Auto-merging src/H5Oprivate.h
+Auto-merging src/H5Opkg.h
+Auto-merging src/H5Olayout.c
+Auto-merging src/H5Oefl.c
+Auto-merging src/H5Odtype.c
+Auto-merging src/H5Ocopy.c
+Auto-merging src/H5Ocache.c
+Auto-merging src/H5Lint.c
+Auto-merging src/H5HLprivate.h
+Auto-merging src/H5HL.c
+Auto-merging src/H5HG.c
+Auto-merging src/H5Gprivate.h
+Auto-merging src/H5Gpkg.h
+Auto-merging src/H5Gobj.c
+Auto-merging src/H5Glink.c
+Auto-merging src/H5Gent.c
+Auto-merging src/H5Dpkg.h
+Auto-merging src/H5Dint.c
+Auto-merging src/H5Dcontig.c
+CONFLICT (content): Merge conflict in src/H5Dcontig.c
+Auto-merging src/H5Dcompact.c
+CONFLICT (content): Merge conflict in src/H5Dcompact.c
+Auto-merging src/H5Dchunk.c
+CONFLICT (content): Merge conflict in src/H5Dchunk.c
+
+error: could not apply ce53bc020d... Fixes for file format security issues (#4283)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2024-32612......... ccpatch
+=====================================
+[hdf5_1_14_3 d4a17a960e] ccpatch
+ Date: Tue Mar 11 01:08:47 2025 +0900
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2024-29162.....origin patch
+=====================================
+Cherry-pick failed for CVE-2024-29162
+Auto-merging src/H5Znbit.c
+Auto-merging src/H5Tprivate.h
+Auto-merging src/H5T.c
+CONFLICT (content): Merge conflict in src/H5T.c
+Auto-merging src/H5Spoint.c
+Auto-merging src/H5S.c
+Auto-merging src/H5Ostab.c
+Auto-merging src/H5Oshared.h
+Auto-merging src/H5Oshared.c
+Auto-merging src/H5Osdspace.c
+Auto-merging src/H5Oprivate.h
+Auto-merging src/H5Opkg.h
+Auto-merging src/H5Olayout.c
+Auto-merging src/H5Oefl.c
+Auto-merging src/H5Odtype.c
+Auto-merging src/H5Ocopy.c
+Auto-merging src/H5Ocache.c
+Auto-merging src/H5Lint.c
+Auto-merging src/H5HLprivate.h
+Auto-merging src/H5HL.c
+Auto-merging src/H5HG.c
+Auto-merging src/H5Gprivate.h
+Auto-merging src/H5Gpkg.h
+Auto-merging src/H5Gobj.c
+Auto-merging src/H5Glink.c
+Auto-merging src/H5Gent.c
+Auto-merging src/H5Dpkg.h
+Auto-merging src/H5Dint.c
+Auto-merging src/H5Dcontig.c
+CONFLICT (content): Merge conflict in src/H5Dcontig.c
+Auto-merging src/H5Dcompact.c
+CONFLICT (content): Merge conflict in src/H5Dcompact.c
+Auto-merging src/H5Dchunk.c
+CONFLICT (content): Merge conflict in src/H5Dchunk.c
+
+error: could not apply ce53bc020d... Fixes for file format security issues (#4283)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2024-29162......... ccpatch
+=====================================
+Auto-merging src/H5HG.c
+[hdf5_1_14_3 30be962347] ccpatch
+ Date: Tue Mar 11 01:08:56 2025 +0900
+ 1 file changed, 4 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-13866.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-13866
+Auto-merging tools/src/h5dump/h5dump_ddl.c
+Auto-merging src/H5Omessage.c
+Auto-merging src/H5HLcache.c
+CONFLICT (content): Merge conflict in src/H5HLcache.c
+Auto-merging src/H5Gint.c
+Auto-merging src/H5Fsuper_cache.c
+CONFLICT (content): Merge conflict in src/H5Fsuper_cache.c
+Auto-merging src/H5Dchunk.c
+Auto-merging src/H5Dbtree.c
+Auto-merging release_docs/RELEASE.txt
+CONFLICT (content): Merge conflict in release_docs/RELEASE.txt
+
+error: could not apply 90852b28c7... Cherry-pick of CVE fixes from 1.10 (#3490)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-13866......... ccpatch
+=====================================
+Auto-merging src/H5HLcache.c
+[feature/onion_vfd caac0daf85] ccpatch
+ Date: Tue Mar 11 01:09:05 2025 +0900
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-13867.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-13867
+Auto-merging tools/src/h5dump/h5dump_ddl.c
+Auto-merging src/H5Omessage.c
+Auto-merging src/H5HLcache.c
+CONFLICT (content): Merge conflict in src/H5HLcache.c
+Auto-merging src/H5Gint.c
+Auto-merging src/H5Fsuper_cache.c
+CONFLICT (content): Merge conflict in src/H5Fsuper_cache.c
+Auto-merging src/H5Dchunk.c
+Auto-merging src/H5Dbtree.c
+Auto-merging release_docs/RELEASE.txt
+CONFLICT (content): Merge conflict in release_docs/RELEASE.txt
+
+error: could not apply 90852b28c7... Cherry-pick of CVE fixes from 1.10 (#3490)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-13867......... ccpatch
+=====================================
+Auto-merging src/H5HLcache.c
+[feature/onion_vfd 1bcb4957bc] ccpatch
+ Date: Tue Mar 11 01:09:15 2025 +0900
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-13871.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-13871
+Auto-merging tools/src/h5dump/h5dump_ddl.c
+Auto-merging src/H5Omessage.c
+Auto-merging src/H5HLcache.c
+CONFLICT (content): Merge conflict in src/H5HLcache.c
+Auto-merging src/H5Gint.c
+Auto-merging src/H5Fsuper_cache.c
+CONFLICT (content): Merge conflict in src/H5Fsuper_cache.c
+Auto-merging src/H5Dchunk.c
+Auto-merging src/H5Dbtree.c
+Auto-merging release_docs/RELEASE.txt
+CONFLICT (content): Merge conflict in release_docs/RELEASE.txt
+
+error: could not apply 90852b28c7... Cherry-pick of CVE fixes from 1.10 (#3490)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-13871......... ccpatch
+=====================================
+Auto-merging src/H5HLcache.c
+[feature/onion_vfd 376be357e4] ccpatch
+ Date: Tue Mar 11 01:09:23 2025 +0900
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-11202.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-11202
+Auto-merging tools/src/h5dump/h5dump_ddl.c
+Auto-merging src/H5Omessage.c
+Auto-merging src/H5HLcache.c
+CONFLICT (content): Merge conflict in src/H5HLcache.c
+Auto-merging src/H5Gint.c
+Auto-merging src/H5Fsuper_cache.c
+CONFLICT (content): Merge conflict in src/H5Fsuper_cache.c
+Auto-merging src/H5Dchunk.c
+Auto-merging src/H5Dbtree.c
+Auto-merging release_docs/RELEASE.txt
+CONFLICT (content): Merge conflict in release_docs/RELEASE.txt
+
+error: could not apply 90852b28c7... Cherry-pick of CVE fixes from 1.10 (#3490)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-11202......... ccpatch
+=====================================
+Auto-merging src/H5Dchunk.c
+[feature/onion_vfd 0de70d9e9a] ccpatch
+ Date: Tue Mar 11 01:09:32 2025 +0900
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-11205.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-11205
+Auto-merging tools/src/h5dump/h5dump_ddl.c
+Auto-merging src/H5Omessage.c
+Auto-merging src/H5HLcache.c
+CONFLICT (content): Merge conflict in src/H5HLcache.c
+Auto-merging src/H5Gint.c
+Auto-merging src/H5Fsuper_cache.c
+CONFLICT (content): Merge conflict in src/H5Fsuper_cache.c
+Auto-merging src/H5Dchunk.c
+Auto-merging src/H5Dbtree.c
+Auto-merging release_docs/RELEASE.txt
+CONFLICT (content): Merge conflict in release_docs/RELEASE.txt
+
+error: could not apply 90852b28c7... Cherry-pick of CVE fixes from 1.10 (#3490)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-11205......... ccpatch
+=====================================
+Auto-merging src/H5Dbtree.c
+[feature/onion_vfd f0662e398f] ccpatch
+ Date: Tue Mar 11 01:09:40 2025 +0900
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-15671.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-15671
+Auto-merging tools/src/h5dump/h5dump_ddl.c
+Auto-merging src/H5Omessage.c
+Auto-merging src/H5HLcache.c
+CONFLICT (content): Merge conflict in src/H5HLcache.c
+Auto-merging src/H5Gint.c
+Auto-merging src/H5Fsuper_cache.c
+CONFLICT (content): Merge conflict in src/H5Fsuper_cache.c
+Auto-merging src/H5Dchunk.c
+Auto-merging src/H5Dbtree.c
+Auto-merging release_docs/RELEASE.txt
+CONFLICT (content): Merge conflict in release_docs/RELEASE.txt
+
+error: could not apply 90852b28c7... Cherry-pick of CVE fixes from 1.10 (#3490)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-15671......... ccpatch
+=====================================
+Auto-merging src/H5Gint.c
+[feature/onion_vfd 2354e752d0] ccpatch
+ Date: Tue Mar 11 01:09:49 2025 +0900
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-13869.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-13869
+
+error: commit 7c3d4402d730789173e413b48951fede5f6932f3 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2018-13869......... ccpatch
+=====================================
+Auto-merging src/H5Olink.c
+[inactive/aio_vfd ebf787b348] ccpatch
+ Date: Tue Mar 11 01:09:56 2025 +0900
+ 1 file changed, 5 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-13870.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-13870
+
+error: commit 7c3d4402d730789173e413b48951fede5f6932f3 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2018-13870......... ccpatch
+=====================================
+Auto-merging src/H5Olink.c
+[inactive/aio_vfd edd7fc1e0a] ccpatch
+ Date: Tue Mar 11 01:10:03 2025 +0900
+ 1 file changed, 5 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-13873.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-13873
+
+error: commit 56b32278c4425afd8407f5b55310beed5c957d6a is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2018-13873......... ccpatch
+=====================================
+Auto-merging src/H5Ocache.c
+[inactive/aio_vfd 062527a1eb] ccpatch
+ Date: Tue Mar 11 01:10:10 2025 +0900
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-17234.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-17234
+
+error: commit 56b32278c4425afd8407f5b55310beed5c957d6a is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2018-17234......... ccpatch
+=====================================
+Auto-merging src/H5Ocache.c
+[inactive/aio_vfd 85d3189009] ccpatch
+ Date: Tue Mar 11 01:10:17 2025 +0900
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2017-17506.....origin patch
+=====================================
+Cherry-pick failed for CVE-2017-17506
+
+error: commit 1c3ba3721718c8089da65fae02f65068d8530fa7 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2017-17506......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2017-17506
+Auto-merging src/H5Opline.c
+CONFLICT (content): Merge conflict in src/H5Opline.c
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 1738 and retry the command.
+error: could not apply 310a3583f4... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2017-17505.....origin patch
+=====================================
+Cherry-pick failed for CVE-2017-17505
+
+error: commit 1c3ba3721718c8089da65fae02f65068d8530fa7 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2017-17505......... ccpatch
+=====================================
+Auto-merging src/H5Opline.c
+[inactive/aio_vfd a533fc47a4] ccpatch
+ Date: Tue Mar 11 01:10:29 2025 +0900
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2017-17508.....origin patch
+=====================================
+Cherry-pick failed for CVE-2017-17508
+
+error: commit 1c3ba3721718c8089da65fae02f65068d8530fa7 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2017-17508......... ccpatch
+=====================================
+Auto-merging src/H5T.c
+[inactive/aio_vfd 3c9808a464] ccpatch
+ Date: Tue Mar 11 01:10:36 2025 +0900
+ 1 file changed, 2 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2018-17237.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-17237
+
+error: commit 160107a97c30a759ffd4ba7fe13284d24d349301 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2018-17237......... ccpatch
+=====================================
+Auto-merging src/H5Dchunk.c
+[inactive/aio_vfd f4579b7eec] ccpatch
+ Date: Tue Mar 11 01:10:43 2025 +0900
+ 1 file changed, 2 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-36191.....origin patch
+=====================================
+Auto-merging include/gpac/internal/isomedia_dev.h
+[export-register-symbols 5103332bd] fixed #2218
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Tue Jul 12 18:43:33 2022 +0200
+ 1 file changed, 18 insertions(+), 21 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-36191......... ccpatch
+=====================================
+Auto-merging include/gpac/internal/isomedia_dev.h
+[export-register-symbols c6e601f9f] ccpatch
+ Date: Tue Mar 11 01:10:46 2025 +0900
+ 1 file changed, 10 insertions(+), 11 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-36190.....origin patch
+=====================================
+Auto-merging include/gpac/internal/isomedia_dev.h
+[export-register-symbols e67a97026] fixed #2218
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Tue Jul 12 18:43:33 2022 +0200
+ 1 file changed, 18 insertions(+), 21 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-36190......... ccpatch
+=====================================
+Auto-merging include/gpac/internal/isomedia_dev.h
+[export-register-symbols 7d4b2d2e8] ccpatch
+ Date: Tue Mar 11 01:10:49 2025 +0900
+ 1 file changed, 6 insertions(+), 10 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2019-12481.....origin patch
+=====================================
+Cherry-pick failed for CVE-2019-12481
+Auto-merging src/odf/ipmpx_code.c
+Auto-merging src/media_tools/dash_segmenter.c
+CONFLICT (content): Merge conflict in src/media_tools/dash_segmenter.c
+Auto-merging src/isomedia/drm_sample.c
+CONFLICT (content): Merge conflict in src/isomedia/drm_sample.c
+Auto-merging src/isomedia/box_code_drm.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_drm.c
+Auto-merging src/isomedia/box_code_base.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_base.c
+Auto-merging applications/mp4box/filedump.c
+CONFLICT (content): Merge conflict in applications/mp4box/filedump.c
+
+error: could not apply f40aaaf95... fixed a few memory issues (#1249)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-12481......... ccpatch
+=====================================
+Auto-merging applications/mp4box/filedump.c
+[mmt 701097b58] ccpatch
+ Date: Tue Mar 11 01:10:52 2025 +0900
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2019-12482.....origin patch
+=====================================
+Cherry-pick failed for CVE-2019-12482
+Auto-merging src/odf/ipmpx_code.c
+Auto-merging src/media_tools/dash_segmenter.c
+CONFLICT (content): Merge conflict in src/media_tools/dash_segmenter.c
+Auto-merging src/isomedia/drm_sample.c
+CONFLICT (content): Merge conflict in src/isomedia/drm_sample.c
+Auto-merging src/isomedia/box_code_drm.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_drm.c
+Auto-merging src/isomedia/box_code_base.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_base.c
+Auto-merging applications/mp4box/filedump.c
+CONFLICT (content): Merge conflict in applications/mp4box/filedump.c
+
+error: could not apply f40aaaf95... fixed a few memory issues (#1249)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-12482......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2019-12482
+Auto-merging src/isomedia/drm_sample.c
+CONFLICT (content): Merge conflict in src/isomedia/drm_sample.c
+
+error: could not apply 0b8a69b40... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-12483.....origin patch
+=====================================
+Cherry-pick failed for CVE-2019-12483
+Auto-merging src/odf/ipmpx_code.c
+Auto-merging src/media_tools/dash_segmenter.c
+CONFLICT (content): Merge conflict in src/media_tools/dash_segmenter.c
+Auto-merging src/isomedia/drm_sample.c
+CONFLICT (content): Merge conflict in src/isomedia/drm_sample.c
+Auto-merging src/isomedia/box_code_drm.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_drm.c
+Auto-merging src/isomedia/box_code_base.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_base.c
+Auto-merging applications/mp4box/filedump.c
+CONFLICT (content): Merge conflict in applications/mp4box/filedump.c
+
+error: could not apply f40aaaf95... fixed a few memory issues (#1249)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-12483......... ccpatch
+=====================================
+Auto-merging src/odf/ipmpx_code.c
+[mmt 9e03dbd99] ccpatch
+ Date: Tue Mar 11 01:10:59 2025 +0900
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-32440.....origin patch
+=====================================
+Auto-merging src/isomedia/media_odf.c
+[mmt 4123c9d56] fixed #1772 (fuzz)
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Fri Apr 30 11:05:11 2021 +0200
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-32440......... ccpatch
+=====================================
+Auto-merging src/isomedia/media_odf.c
+[mmt b823cfba0] ccpatch
+ Date: Tue Mar 11 01:11:03 2025 +0900
+ 1 file changed, 3 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-19481.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-19481
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+
+error: could not apply f0af02425... be more strict on the PMT parsing - cf #1266 #1267
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-19481......... ccpatch
+=====================================
+Auto-merging src/media_tools/mpegts.c
+[mmt 78862f881] ccpatch
+ Date: Tue Mar 11 01:11:07 2025 +0900
+ 1 file changed, 16 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-44919.....origin patch
+=====================================
+Auto-merging src/scenegraph/vrml_tools.c
+[mmt 393a0842f] fixed #1960
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Fri Dec 10 10:10:49 2021 +0100
+ 1 file changed, 4 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-44919......... ccpatch
+=====================================
+Auto-merging src/scenegraph/vrml_tools.c
+[mmt 58cbd8320] ccpatch
+ Date: Tue Mar 11 01:11:11 2025 +0900
+ 1 file changed, 1 insertion(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-2453.....origin patch
+=====================================
+Auto-merging src/bifs/field_decode.c
+[export-register-symbols 44c7cd902] fixed #2212
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Tue Jul 12 17:57:03 2022 +0200
+ 1 file changed, 53 insertions(+), 46 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-2453......... ccpatch
+=====================================
+Auto-merging src/bifs/field_decode.c
+[export-register-symbols c00e82e7d] ccpatch
+ Date: Tue Mar 11 01:11:14 2025 +0900
+ 1 file changed, 53 insertions(+), 46 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-6630.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-6630
+Auto-merging src/media_tools/m2ts_mux.c
+CONFLICT (content): Merge conflict in src/media_tools/m2ts_mux.c
+Auto-merging src/isomedia/isom_read.c
+Auto-merging applications/mp42ts/main.c
+CONFLICT (content): Merge conflict in applications/mp42ts/main.c
+
+error: could not apply c7e46e948... very ugly 'fix' for broken m2ts inputs (#1378, #1377)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-6630......... ccpatch
+=====================================
+Auto-merging src/isomedia/isom_read.c
+[mmt c7e6a9744] ccpatch
+ Date: Tue Mar 11 01:11:17 2025 +0900
+ 1 file changed, 1 insertion(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-6631.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-6631
+Auto-merging src/media_tools/m2ts_mux.c
+CONFLICT (content): Merge conflict in src/media_tools/m2ts_mux.c
+Auto-merging src/isomedia/isom_read.c
+Auto-merging applications/mp42ts/main.c
+CONFLICT (content): Merge conflict in applications/mp42ts/main.c
+
+error: could not apply c7e46e948... very ugly 'fix' for broken m2ts inputs (#1378, #1377)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-6631......... ccpatch
+=====================================
+Auto-merging src/media_tools/m2ts_mux.c
+[mmt 73310f549] ccpatch
+ Date: Tue Mar 11 01:11:21 2025 +0900
+ 1 file changed, 3 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-1795.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-1795
+Auto-merging src/bifs/memory_decoder.c
+CONFLICT (content): Merge conflict in src/bifs/memory_decoder.c
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 1364 and retry the command.
+error: could not apply c535bad50... fixed #2194
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-1795......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2022-1795
+Auto-merging src/bifs/memory_decoder.c
+CONFLICT (content): Merge conflict in src/bifs/memory_decoder.c
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 1364 and retry the command.
+error: could not apply bd585613f... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-43045.....origin patch
+=====================================
+Auto-merging src/scene_manager/scene_dump.c
+[export-register-symbols 79d7409e7] fixed #2277
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Mon Oct 10 17:18:12 2022 +0200
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-43045......... ccpatch
+=====================================
+Auto-merging src/scene_manager/scene_dump.c
+[export-register-symbols d787faec4] ccpatch
+ Date: Tue Mar 11 01:11:27 2025 +0900
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2019-20208.....origin patch
+=====================================
+Cherry-pick failed for CVE-2019-20208
+Auto-merging src/media_tools/av_parsers.c
+CONFLICT (content): Merge conflict in src/media_tools/av_parsers.c
+Auto-merging src/isomedia/box_code_3gpp.c
+
+error: could not apply bcfcb3e90... add some array checks (#1334, #1348)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-20208......... ccpatch
+=====================================
+Auto-merging src/isomedia/box_code_3gpp.c
+[mmt c0278ad34] ccpatch
+ Date: Tue Mar 11 01:11:30 2025 +0900
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-47660.....origin patch
+=====================================
+Auto-merging src/media_tools/media_import.c
+Auto-merging src/isomedia/isom_write.c
+[buildbot-dash-pto d65af43e1] fixed #2357
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Sat Dec 17 12:28:51 2022 +0100
+ 2 files changed, 18 insertions(+), 5 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-47660......... ccpatch
+=====================================
+Auto-merging src/media_tools/media_import.c
+Auto-merging src/isomedia/isom_write.c
+[buildbot-dash-pto efe5dedfe] ccpatch
+ Date: Tue Mar 11 01:11:33 2025 +0900
+ 2 files changed, 16 insertions(+), 4 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-0358.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-0358
+Auto-merging src/odf/descriptors.c
+CONFLICT (content): Merge conflict in src/odf/descriptors.c
+
+error: could not apply 9971fb125... fixed #2378
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-0358......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-0358
+Auto-merging src/odf/descriptors.c
+CONFLICT (content): Merge conflict in src/odf/descriptors.c
+
+error: could not apply e618c1d6b... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-24829.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-24829
+Auto-merging src/odf/odf_code.c
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+Auto-merging src/media_tools/media_import.c
+CONFLICT (content): Merge conflict in src/media_tools/media_import.c
+Auto-merging src/media_tools/av_parsers.c
+Auto-merging src/isomedia/isom_write.c
+Auto-merging applications/mp4box/main.c
+
+error: could not apply 8c5e84718... fixed some bugs/leaks in m2ts
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-24829......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2020-24829
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+
+error: could not apply ef8806d2a... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing gpac-1421.....origin patch
+=====================================
+Cherry-pick failed for gpac-1421
+Auto-merging src/odf/odf_code.c
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+Auto-merging src/media_tools/media_import.c
+CONFLICT (content): Merge conflict in src/media_tools/media_import.c
+Auto-merging src/media_tools/av_parsers.c
+Auto-merging src/isomedia/isom_write.c
+Auto-merging applications/mp4box/main.c
+
+error: could not apply 8c5e84718... fixed some bugs/leaks in m2ts
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing gpac-1421......... ccpatch
+=====================================
+Cherry-pick failed for gpac-1421
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+
+error: could not apply 86376a27c... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-44923.....origin patch
+=====================================
+Auto-merging src/scene_manager/scene_dump.c
+[buildbot-dash-pto 78623926d] fixed #1962 #1963
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Fri Dec 10 11:15:07 2021 +0100
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-44923......... ccpatch
+=====================================
+Auto-merging src/scene_manager/scene_dump.c
+[buildbot-dash-pto 4bbe347ff] ccpatch
+ Date: Tue Mar 11 01:11:46 2025 +0900
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-41458.....origin patch
+=====================================
+[buildbot-dash-pto 3f0b22b2d] fixed #1910 #1911
+ Author: jeanlf <jeanlf@github.com>
+ Date: Thu Sep 9 14:36:47 2021 +0200
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-41458......... ccpatch
+=====================================
+[buildbot-dash-pto b4bb6bf70] ccpatch
+ Date: Tue Mar 11 01:11:49 2025 +0900
+ 1 file changed, 2 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2019-20171.....origin patch
+=====================================
+Cherry-pick failed for CVE-2019-20171
+Auto-merging src/isomedia/box_code_adobe.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_adobe.c
+
+error: could not apply 72cdc5048... fix memleak in abst_Read (#1337)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-20171......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2019-20171
+Auto-merging src/isomedia/box_code_adobe.c
+CONFLICT (content): Merge conflict in src/isomedia/box_code_adobe.c
+
+error: could not apply 990c23515... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-24577.....origin patch
+=====================================
+Auto-merging src/isomedia/isom_write.c
+Auto-merging src/isomedia/box_code_base.c
+[export-register-symbols 6175286a9] fixed #2046
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Mon Jan 17 10:40:43 2022 +0100
+ 2 files changed, 38 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-24577......... ccpatch
+=====================================
+Auto-merging src/isomedia/isom_write.c
+[export-register-symbols 47d2fe4e7] ccpatch
+ Date: Tue Mar 11 01:11:56 2025 +0900
+ 1 file changed, 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-29340.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-29340
+Auto-merging src/isomedia/isom_intern.c
+Auto-merging src/isomedia/box_funcs.c
+CONFLICT (content): Merge conflict in src/isomedia/box_funcs.c
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 1387 and retry the command.
+error: could not apply 37592ad86... fixed #2163
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-29340......... ccpatch
+=====================================
+Auto-merging src/isomedia/isom_intern.c
+[legacy 3e7ec2328] ccpatch
+ Date: Tue Mar 11 01:11:59 2025 +0900
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-32134.....origin patch
+=====================================
+Cherry-pick failed for CVE-2021-32134
+Auto-merging src/isomedia/sample_descs.c
+CONFLICT (content): Merge conflict in src/isomedia/sample_descs.c
+Auto-merging src/isomedia/media.c
+CONFLICT (content): Merge conflict in src/isomedia/media.c
+Auto-merging src/isomedia/box_code_base.c
+
+error: could not apply 328c6d682... fixed #1756
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-32134......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2021-32134
+Auto-merging src/isomedia/media.c
+CONFLICT (content): Merge conflict in src/isomedia/media.c
+
+error: could not apply 178f4b381... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-40574.....origin patch
+=====================================
+Auto-merging src/filters/load_text.c
+[buildbot-dash-pto c1060e6e3] fixed #1897
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Mon Aug 30 16:57:38 2021 +0200
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-40574......... ccpatch
+=====================================
+Auto-merging src/filters/load_text.c
+[buildbot-dash-pto 327caef2c] ccpatch
+ Date: Tue Mar 11 01:12:07 2025 +0900
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2019-20628.....origin patch
+=====================================
+Cherry-pick failed for CVE-2019-20628
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+
+error: could not apply 1ab486060... fixed potential crash on PMT IOD parse - cf #1268 #1269
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-20628......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2019-20628
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+
+error: could not apply f78b3223a... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-20630.....origin patch
+=====================================
+Cherry-pick failed for CVE-2019-20630
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+
+error: could not apply 1ab486060... fixed potential crash on PMT IOD parse - cf #1268 #1269
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2019-20630......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2019-20630
+Auto-merging src/media_tools/mpegts.c
+CONFLICT (content): Merge conflict in src/media_tools/mpegts.c
+
+error: could not apply ebccbf6b9... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2024-4323.....origin patch
+=====================================
+Cherry-pick failed for CVE-2024-4323
+Auto-merging src/http_server/api/v1/trace.c
+CONFLICT (content): Merge conflict in src/http_server/api/v1/trace.c
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 2723 and retry the command.
+error: could not apply 9311b43a2... Merge pull request from GHSA-5rjf-prwh-pp7q
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2024-4323......... ccpatch
+=====================================
+Auto-merging src/http_server/api/v1/trace.c
+[2.1 049bcdc8b] ccpatch
+ Date: Tue Mar 11 01:12:19 2025 +0900
+ 1 file changed, 52 insertions(+), 19 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-38266.....origin patch
+=====================================
+[revert-539-one_openjpeg 4da62b43] Issue 26393: morphapp_fuzzer: Divide-by-zero in blockconvLow * Removed the code that allowed divide by zero for tiny pix * Ditto for 4 other block convolution functions.
+ Author: Dan Bloomberg <dan.bloomberg@gmail.com>
+ Date: Wed Oct 28 17:37:30 2020 -0700
+ 1 file changed, 40 insertions(+), 50 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2022-38266......... ccpatch
+=====================================
+[revert-539-one_openjpeg 02b2d40c] ccpatch
+ Date: Tue Mar 11 01:12:21 2025 +0900
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-22897.....origin patch
+=====================================
+Cherry-pick failed for CVE-2021-22897
+Auto-merging lib/vtls/schannel.h
+CONFLICT (content): Merge conflict in lib/vtls/schannel.h
+Auto-merging lib/vtls/schannel.c
+
+error: could not apply bbb71507b... schannel: don't use static to store selected ciphers
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-22897......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2021-22897
+Auto-merging lib/vtls/schannel.h
+CONFLICT (content): Merge conflict in lib/vtls/schannel.h
+Auto-merging lib/vtls/schannel.c
+
+error: could not apply d5aacfbc0... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-22890.....origin patch
+=====================================
+Cherry-pick failed for CVE-2021-22890
+Auto-merging lib/vtls/wolfssl.c
+CONFLICT (content): Merge conflict in lib/vtls/wolfssl.c
+Auto-merging lib/vtls/vtls.h
+CONFLICT (content): Merge conflict in lib/vtls/vtls.h
+Auto-merging lib/vtls/vtls.c
+CONFLICT (content): Merge conflict in lib/vtls/vtls.c
+Auto-merging lib/vtls/sectransp.c
+CONFLICT (content): Merge conflict in lib/vtls/sectransp.c
+Auto-merging lib/vtls/schannel.c
+CONFLICT (content): Merge conflict in lib/vtls/schannel.c
+Auto-merging lib/vtls/openssl.c
+CONFLICT (content): Merge conflict in lib/vtls/openssl.c
+Auto-merging lib/vtls/mesalink.c
+CONFLICT (content): Merge conflict in lib/vtls/mesalink.c
+Auto-merging lib/vtls/mbedtls.c
+CONFLICT (content): Merge conflict in lib/vtls/mbedtls.c
+Auto-merging lib/vtls/gtls.c
+CONFLICT (content): Merge conflict in lib/vtls/gtls.c
+Auto-merging lib/vtls/bearssl.c
+CONFLICT (content): Merge conflict in lib/vtls/bearssl.c
+
+error: could not apply b09c8ee15... vtls: add 'isproxy' argument to Curl_ssl_get/addsessionid()
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-22890......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2021-22890
+Auto-merging lib/vtls/vtls.h
+CONFLICT (content): Merge conflict in lib/vtls/vtls.h
+Auto-merging lib/vtls/vtls.c
+CONFLICT (content): Merge conflict in lib/vtls/vtls.c
+Auto-merging lib/vtls/openssl.c
+CONFLICT (content): Merge conflict in lib/vtls/openssl.c
+Auto-merging lib/vtls/bearssl.c
+CONFLICT (content): Merge conflict in lib/vtls/bearssl.c
+
+error: could not apply 9c4be1793... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-22576.....origin patch
+=====================================
+Cherry-pick failed for CVE-2022-22576
+Auto-merging lib/vtls/vtls.c
+Auto-merging lib/urldata.h
+CONFLICT (content): Merge conflict in lib/urldata.h
+Auto-merging lib/url.c
+Auto-merging lib/strcase.h
+Auto-merging lib/strcase.c
+
+error: could not apply 852aa5ad3... url: check sasl additional parameters for connection reuse.
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2022-22576......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2022-22576
+Auto-merging lib/urldata.h
+CONFLICT (content): Merge conflict in lib/urldata.h
+Auto-merging lib/url.c
+
+error: could not apply 22f21d02d... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-22901.....origin patch
+=====================================
+Cherry-pick failed for CVE-2021-22901
+Auto-merging lib/vtls/wolfssl.c
+CONFLICT (content): Merge conflict in lib/vtls/wolfssl.c
+Auto-merging lib/vtls/vtls.h
+Auto-merging lib/vtls/vtls.c
+CONFLICT (content): Merge conflict in lib/vtls/vtls.c
+Auto-merging lib/vtls/sectransp.c
+CONFLICT (content): Merge conflict in lib/vtls/sectransp.c
+Auto-merging lib/vtls/schannel.c
+CONFLICT (content): Merge conflict in lib/vtls/schannel.c
+CONFLICT (modify/delete): lib/vtls/rustls.c deleted in HEAD and modified in 7f4a9a9b2... openssl: associate/detach the transfer from connection. Version 7f4a9a9b2... openssl: associate/detach the transfer from connection of lib/vtls/rustls.c left in tree.
+Auto-merging lib/vtls/openssl.c
+CONFLICT (content): Merge conflict in lib/vtls/openssl.c
+Auto-merging lib/vtls/nss.c
+CONFLICT (content): Merge conflict in lib/vtls/nss.c
+Auto-merging lib/vtls/mesalink.c
+CONFLICT (content): Merge conflict in lib/vtls/mesalink.c
+Auto-merging lib/vtls/mbedtls.c
+CONFLICT (content): Merge conflict in lib/vtls/mbedtls.c
+Auto-merging lib/vtls/gtls.c
+CONFLICT (content): Merge conflict in lib/vtls/gtls.c
+Auto-merging lib/vtls/gskit.c
+CONFLICT (content): Merge conflict in lib/vtls/gskit.c
+Auto-merging lib/multi.c
+CONFLICT (content): Merge conflict in lib/multi.c
+
+error: could not apply 7f4a9a9b2... openssl: associate/detach the transfer from connection
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2021-22901......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2021-22901
+Auto-merging lib/vtls/openssl.c
+CONFLICT (content): Merge conflict in lib/vtls/openssl.c
+Auto-merging lib/multi.c
+CONFLICT (content): Merge conflict in lib/multi.c
+
+error: could not apply b76e60fdd... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-6246.....origin patch
+=====================================
+Auto-merging misc/Makefile
+[zack/remove-libcrypt 55f58e3f2e] syslog: Fix heap buffer overflow in __vsyslog_internal (CVE-2023-6246)
+ Author: Arjun Shankar <arjun@redhat.com>
+ Date: Mon Jan 15 17:44:43 2024 +0100
+ 4 files changed, 82 insertions(+), 15 deletions(-)
+ create mode 100644 misc/tst-syslog-long-progname.c
+ create mode 100644 misc/tst-syslog-long-progname.root/postclean.req
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-6246......... ccpatch
+=====================================
+[zack/remove-libcrypt de168b5e4b] ccpatch
+ Date: Tue Mar 11 01:12:42 2025 +0900
+ 1 file changed, 35 insertions(+), 14 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16310.....origin patch
+=====================================
+Auto-merging devices/gdevdm24.c
+[gs925 98d48fb22] Bug 701828: make dot24_print_page() return error instead of divide by zero.
+ Author: Julian Smith <jules@op59.net>
+ Date: Mon Nov 4 15:32:04 2019 +0000
+ 1 file changed, 32 insertions(+), 13 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16310......... ccpatch
+=====================================
+Auto-merging devices/gdevdm24.c
+[gs925 b6b3198fd] ccpatch
+ Date: Tue Mar 11 01:12:52 2025 +0900
+ 1 file changed, 4 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16297.....origin patch
+=====================================
+Auto-merging contrib/gdevbjca.c
+[gs925 80cf1ada3] Fix valgrind problems with gdevbjca.c
+ Author: Robin Watts <Robin.Watts@artifex.com>
+ Date: Thu Oct 31 10:31:24 2019 +0000
+ 1 file changed, 22 insertions(+), 14 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16297......... ccpatch
+=====================================
+Auto-merging contrib/gdevbjca.c
+[gs925 e68c3ac16] ccpatch
+ Date: Tue Mar 11 01:13:01 2025 +0900
+ 1 file changed, 19 insertions(+), 13 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-17538.....origin patch
+=====================================
+[gs925 221b0d304] Bug 701792: Avoid going beyond buffer in GetNumSameData() and GetNumWrongData().
+ Author: Julian Smith <jules@op59.net>
+ Date: Tue Oct 29 15:49:25 2019 +0000
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-17538......... ccpatch
+=====================================
+[gs925 ee4e57ff0] ccpatch
+ Date: Tue Mar 11 01:13:09 2025 +0900
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16296.....origin patch
+=====================================
+[gs925 8e4bf0fac] Bug 701792: Avoid going beyond buffer in GetNumSameData() and GetNumWrongData().
+ Author: Julian Smith <jules@op59.net>
+ Date: Tue Oct 29 15:49:25 2019 +0000
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16296......... ccpatch
+=====================================
+[gs925 dc7e053c0] ccpatch
+ Date: Tue Mar 11 01:13:17 2025 +0900
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16294.....origin patch
+=====================================
+Auto-merging devices/gdevepsc.c
+[gs925 57f95e59c] Bug 701794: check for x_dpi out of range in epsc_print_page().
+ Author: Julian Smith <jules@op59.net>
+ Date: Tue Oct 29 16:49:13 2019 +0000
+ 1 file changed, 39 insertions(+), 15 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16294......... ccpatch
+=====================================
+Auto-merging devices/gdevepsc.c
+[gs925 7581d2984] ccpatch
+ Date: Tue Mar 11 01:13:26 2025 +0900
+ 1 file changed, 11 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16291.....origin patch
+=====================================
+Cherry-pick failed for CVE-2020-16291
+Auto-merging contrib/gdevdj9.c
+CONFLICT (content): Merge conflict in contrib/gdevdj9.c
+
+error: could not apply 4f73e8b4d... Fix bugs 701787, 701806, 701810. Problems with cdj970 device.
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2020-16291......... ccpatch
+=====================================
+Auto-merging contrib/gdevdj9.c
+[gs925 10f2f4ecd] ccpatch
+ Date: Tue Mar 11 01:13:36 2025 +0900
+ 1 file changed, 1 insertion(+), 42 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16304.....origin patch
+=====================================
+Auto-merging base/gxicolor.c
+[gs925 5d8ac971c] Bug 701842: Fix misindexing in gxicolor.c
+ Author: Robin Watts <Robin.Watts@artifex.com>
+ Date: Tue Nov 5 18:18:50 2019 +0000
+ 1 file changed, 16 insertions(+), 19 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2020-16304......... ccpatch
+=====================================
+Auto-merging base/gxicolor.c
+[gs925 b4d579077] ccpatch
+ Date: Tue Mar 11 01:13:45 2025 +0900
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-37923.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-37923
+Auto-merging gtkwave3/src/version.h
+CONFLICT (content): Merge conflict in gtkwave3/src/version.h
+Auto-merging gtkwave3/src/vcd_recoder.c
+Auto-merging gtkwave3/src/vcd_partial.c
+Auto-merging gtkwave3/src/vcd.c
+Auto-merging gtkwave3/src/helpers/vcd2vzt.c
+Auto-merging gtkwave3/src/helpers/vcd2lxt2.c
+Auto-merging gtkwave3/src/helpers/vcd2lxt.c
+Auto-merging gtkwave3/contrib/bundle_for_osx/Info-gtkwave.plist
+CONFLICT (content): Merge conflict in gtkwave3/contrib/bundle_for_osx/Info-gtkwave.plist
+Auto-merging gtkwave3/configure.ac
+CONFLICT (content): Merge conflict in gtkwave3/configure.ac
+Auto-merging gtkwave3/configure
+CONFLICT (content): Merge conflict in gtkwave3/configure
+Auto-merging gtkwave3/LICENSE.TXT
+CONFLICT (content): Merge conflict in gtkwave3/LICENSE.TXT
+Auto-merging gtkwave3/ChangeLog
+CONFLICT (content): Merge conflict in gtkwave3/ChangeLog
+Auto-merging gtkwave3-gtk3/src/vcd_recoder.c
+Auto-merging gtkwave3-gtk3/src/vcd_partial.c
+Auto-merging gtkwave3-gtk3/src/vcd.c
+Auto-merging gtkwave3-gtk3/src/helpers/vcd2vzt.c
+Auto-merging gtkwave3-gtk3/src/helpers/vcd2lxt2.c
+Auto-merging gtkwave3-gtk3/src/helpers/vcd2lxt.c
+Auto-merging gtkwave3-gtk3/ChangeLog
+CONFLICT (content): Merge conflict in gtkwave3-gtk3/ChangeLog
+
+error: could not apply 9fe9d7e... VCD reader fixes for unnamed Icarus begin blocks.
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-37923......... ccpatch
+=====================================
+Auto-merging gtkwave3/src/vcd_recoder.c
+Auto-merging gtkwave3/src/vcd_partial.c
+Auto-merging gtkwave3/src/vcd.c
+Auto-merging gtkwave3/src/helpers/vcd2vzt.c
+Auto-merging gtkwave3/src/helpers/vcd2lxt2.c
+Auto-merging gtkwave3/src/helpers/vcd2lxt.c
+Auto-merging gtkwave3-gtk3/src/vcd_recoder.c
+Auto-merging gtkwave3-gtk3/src/vcd_partial.c
+Auto-merging gtkwave3-gtk3/src/vcd.c
+Auto-merging gtkwave3-gtk3/src/helpers/vcd2vzt.c
+Auto-merging gtkwave3-gtk3/src/helpers/vcd2lxt2.c
+Auto-merging gtkwave3-gtk3/src/helpers/vcd2lxt.c
+[lts 76a6749] ccpatch
+ Date: Tue Mar 11 01:13:47 2025 +0900
+ 6 files changed, 12 insertions(+), 12 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2024-6197.....origin patch
+=====================================
+Cherry-pick failed for CVE-2024-6197
+Auto-merging lib/vtls/x509asn1.c
+CONFLICT (content): Merge conflict in lib/vtls/x509asn1.c
+
+error: could not apply 623c3a8fa... x509asn1: switch from malloc to dynbuf
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2024-6197......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2024-6197
+Auto-merging lib/vtls/x509asn1.c
+CONFLICT (content): Merge conflict in lib/vtls/x509asn1.c
+
+error: could not apply 60af1a7a5... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-25139.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-25139
+Auto-merging stdio-common/vfprintf-process-arg.c
+CONFLICT (content): Merge conflict in stdio-common/vfprintf-process-arg.c
+Auto-merging stdio-common/Makefile
+
+error: could not apply c980549cc6... Account for grouping in printf width (bug 30068)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-25139......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-25139
+Auto-merging stdio-common/vfprintf-process-arg.c
+CONFLICT (content): Merge conflict in stdio-common/vfprintf-process-arg.c
+
+error: could not apply e2b1c49903... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-0804.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-0804
+
+error: commit 33aee1275d9d1384791d2206776eb8152d397f00 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2023-0804......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-0804
+Auto-merging tools/tiffcrop.c
+CONFLICT (content): Merge conflict in tools/tiffcrop.c
+
+error: could not apply 25c1850e... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-0799.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-0799
+
+error: commit afaabc3e50d4e5d80a94143f7e3c997e7e410f68 is a merge but no -m option was given.
+fatal: cherry-pick failed
+
+
+
+=====================================
+Processing CVE-2023-0799......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-0799
+Auto-merging tools/tiffcrop.c
+CONFLICT (content): Merge conflict in tools/tiffcrop.c
+
+error: could not apply 731366cc... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-5377.....origin patch
+=====================================
+Auto-merging src/isomedia/isom_write.c
+Auto-merging src/isomedia/box_code_base.c
+Auto-merging include/gpac/isomedia.h
+[release-2.2 955851f17] fixed #2606
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Wed Oct 4 11:49:06 2023 +0200
+ 3 files changed, 84 insertions(+), 8 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-5377......... ccpatch
+=====================================
+Auto-merging src/isomedia/isom_write.c
+Auto-merging src/isomedia/box_code_base.c
+[release-2.2 b04fc5e43] ccpatch
+ Date: Tue Mar 11 01:14:05 2025 +0900
+ 2 files changed, 5 insertions(+)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-26157.....origin patch
+=====================================
+Auto-merging src/decode_r2007.c
+[old/oda c03ee28a] decode_r2007: fix fuzzing out-of-bounds
+ Author: Reini Urban <rurban@cpan.org>
+ Date: Thu Oct 5 15:20:33 2023 +0200
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-26157......... ccpatch
+=====================================
+Auto-merging src/decode_r2007.c
+[old/oda 077ecde6] ccpatch
+ Date: Tue Mar 11 01:14:08 2025 +0900
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2023-39235.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-39235
+CONFLICT (modify/delete): gtkwave4/src/helpers/vzt_read.c deleted in HEAD and modified in 2ccfa86... Fix VZT reader with -fstrict-aliasing (#182). Version 2ccfa86... Fix VZT reader with -fstrict-aliasing (#182) of gtkwave4/src/helpers/vzt_read.c left in tree.
+Auto-merging gtkwave3-gtk3/src/helpers/vzt_read.c
+CONFLICT (content): Merge conflict in gtkwave3-gtk3/src/helpers/vzt_read.c
+
+error: could not apply 2ccfa86... Fix VZT reader with -fstrict-aliasing (#182)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-39235......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-39235
+Auto-merging gtkwave3-gtk3/src/helpers/vzt_read.c
+CONFLICT (content): Merge conflict in gtkwave3-gtk3/src/helpers/vzt_read.c
+
+error: could not apply d1fcec0... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-39234.....origin patch
+=====================================
+Cherry-pick failed for CVE-2023-39234
+CONFLICT (modify/delete): gtkwave4/src/helpers/vzt_read.c deleted in HEAD and modified in 2ccfa86... Fix VZT reader with -fstrict-aliasing (#182). Version 2ccfa86... Fix VZT reader with -fstrict-aliasing (#182) of gtkwave4/src/helpers/vzt_read.c left in tree.
+Auto-merging gtkwave3-gtk3/src/helpers/vzt_read.c
+CONFLICT (content): Merge conflict in gtkwave3-gtk3/src/helpers/vzt_read.c
+
+error: could not apply 2ccfa86... Fix VZT reader with -fstrict-aliasing (#182)
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2023-39234......... ccpatch
+=====================================
+Cherry-pick failed for CVE-2023-39234
+Auto-merging gtkwave3-gtk3/src/helpers/vzt_read.c
+CONFLICT (content): Merge conflict in gtkwave3-gtk3/src/helpers/vzt_read.c
+
+error: could not apply 9910630... ccpatch
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-1000001.....origin patch
+=====================================
+Cherry-pick failed for CVE-2018-1000001
+Auto-merging sysdeps/unix/sysv/linux/getcwd.c
+Auto-merging io/Makefile
+CONFLICT (content): Merge conflict in io/Makefile
+Auto-merging NEWS
+CONFLICT (content): Merge conflict in NEWS
+Auto-merging ChangeLog
+CONFLICT (content): Merge conflict in ChangeLog
+
+warning: inexact rename detection was skipped due to too many files.
+warning: you may want to set your merge.renamelimit variable to at least 2796 and retry the command.
+error: could not apply 52a713fdd0... linux: make getcwd(3) fail if it cannot obtain an absolute path [BZ #22679]
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+
+
+=====================================
+Processing CVE-2018-1000001......... ccpatch
+=====================================
+Auto-merging sysdeps/unix/sysv/linux/getcwd.c
+[release/2.22/master 781a7e6a5b] ccpatch
+ Date: Tue Mar 11 01:14:21 2025 +0900
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-4043.....origin patch
+=====================================
+Auto-merging src/isomedia/box_code_base.c
+[legacy edc8bcd4a] fixed #2092
+ Author: jeanlf <jeanlf@gpac.io>
+ Date: Tue Feb 1 15:28:23 2022 +0100
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+cherry pick success! 
+
+
+=====================================
+Processing CVE-2021-4043......... ccpatch
+=====================================
+Auto-merging src/isomedia/box_code_base.c
+[legacy 7f49b2ec2] ccpatch
+ Date: Tue Mar 11 01:14:26 2025 +0900
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+cherry pick success! 
+
+

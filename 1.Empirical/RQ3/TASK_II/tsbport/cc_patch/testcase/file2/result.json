@@ -1,0 +1,69 @@
+{
+    "testcase": {
+        "file2": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "75 -> 117",
+                        "L2": "75 -> 117",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl_stmt', 'info': [], 'ast_patch': '{ TIFFTAG_NUMBEROFINKS, 1, 1, TIFF_SHORT, 0, TIFF_SETGET_UINT16, TIFF_SETGET_UNDEFINED, FIELD_NUMBEROFINKS, 1, 0, \"NumberOfInks\", NULL }'}",
+                            "verify location": "-1",
+                            "output location": "117",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl_stmt",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl_stmt",
+                            "info": [],
+                            "ast_patch": "{ TIFFTAG_NUMBEROFINKS, 1, 1, TIFF_SHORT, 0, TIFF_SETGET_UINT16, TIFF_SETGET_UNDEFINED, FIELD_NUMBEROFINKS, 1, 0, \"NumberOfInks\", NULL }"
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 32,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 117,
+                        "add_hunk": [
+                            "{ TIFFTAG_NUMBEROFINKS, 1, 1, TIFF_SHORT, 0, TIFF_SETGET_UINT16, TIFF_SETGET_UNDEFINED, FIELD_NUMBEROFINKS, 1, 0, \"NumberOfInks\", NULL }\n"
+                        ],
+                        "delete_location": [
+                            117,
+                            117
+                        ],
+                        "delete_hunk": [
+                            "\t{ TIFFTAG_NUMBEROFINKS, 1, 1, TIFF_SHORT, 0, TIFF_SETGET_UINT16, TIFF_SETGET_UNDEFINED, FIELD_CUSTOM, 1, 0, \"NumberOfInks\", NULL },\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": []
+        }
+    }
+}

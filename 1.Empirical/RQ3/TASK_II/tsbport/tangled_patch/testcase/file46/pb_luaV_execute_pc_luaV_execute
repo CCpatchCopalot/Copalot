@@ -1,0 +1,413 @@
+name: vmcase  @ 647 @ name: vmcase  @ 309 @ 
+modifier: *  @ 3 @ modifier: *  @ 4 @ 
+operator: =  @ 13 @ operator: =  @ 9 @ 
+argument  @ 488 @ argument  @ 190 @ 
+call  @ 110 @ call  @ 17 @ 
+block_content  @ 110 @ block_content  @ 17 @ 
+argument  @ 233 @ argument  @ 31 @ 
+block_content  @ 25 @ block_content  @ 13 @ 
+argument_list  @ 261 @ argument_list  @ 62 @ 
+argument  @ 29 @ argument  @ 22 @ 
+name: cl  @ 2 @ name: cl  @ 3 @ 
+name  @ 29 @ name  @ 22 @ 
+argument_list  @ 237 @ argument_list  @ 37 @ 
+name: func  @ 12 @ name: func  @ 8 @ 
+argument  @ 245 @ argument  @ 47 @ 
+operator: ->  @ 13 @ operator: ->  @ 9 @ 
+operator: ->  @ 29 @ operator: ->  @ 22 @ 
+macro  @ 253 @ macro  @ 55 @ 
+argument  @ 315 @ argument  @ 112 @ 
+comment: /* call it */  @ 509 @ comment: /* caller function */  @ 201 @ 
+macro  @ 237 @ macro  @ 37 @ 
+argument_list  @ 233 @ argument_list  @ 31 @ 
+comment: /* top signals number of arguments */  @ 483 @ comment: /* Lua function */  @ 184 @ 
+operator: ->  @ 80 @ operator: ->  @ 16 @ 
+expr  @ 29 @ expr  @ 22 @ 
+operator: )  @ 106 @ operator: )  @ 16 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+argument  @ 363 @ argument  @ 132 @ 
+expr_stmt  @ 196 @ expr_stmt  @ 21 @ 
+literal: 0  @ 449 @ literal: 0  @ 181 @ 
+name: vmcase  @ 237 @ name: vmcase  @ 37 @ 
+name: L  @ 94 @ name: LUA_MASKLINE  @ 16 @ 
+name: vmcase  @ 245 @ name: vmcase  @ 47 @ 
+argument_list  @ 291 @ argument_list  @ 87 @ 
+name: vmdispatch  @ 32 @ name: vmdispatch  @ 23 @ 
+comment: /* previous instruction set top */  @ 495 @ comment: /* else previous instruction set top */  @ 192 @ 
+argument  @ 295 @ argument  @ 90 @ 
+decl_stmt  @ 2 @ decl_stmt  @ 3 @ 
+comment: /* other types cannot be equal to a number */  @ 444 @ comment: /* C function? */  @ 180 @ 
+comment: /* needs more space? */  @ 637 @ comment: /* needs more space? */  @ 291 @ 
+name: luaH_new  @ 201 @ name: traceexec  @ 17 @ 
+comment: /* function has new base after adjustment */  @ 664 @ comment: /* previous call may change the stack */  @ 316 @ 
+argument  @ 572 @ argument  @ 234 @ 
+expr  @ 560 @ expr  @ 2 @ 
+operator: =  @ 546 @ operator: ==  @ 7 @ 
+macro  @ 274 @ macro  @ 70 @ 
+comment: /* may there be open upvalues? */  @ 526 @ comment: /* function was tail called */  @ 213 @ 
+name: vmcase  @ 590 @ name: vmcase  @ 245 @ 
+literal: 1  @ 629 @ literal: 1  @ 283 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+comment: /* do the 'poscall' here */  @ 558 @ comment: /* 'ci' still the called one */  @ 224 @ 
+operator: &&  @ 29 @ operator: &&  @ 22 @ 
+expr  @ 29 @ expr  @ 22 @ 
+argument_list  @ 283 @ argument_list  @ 79 @ 
+macro  @ 225 @ macro  @ 24 @ 
+name: L  @ 1 @ name: L  @ 1 @ 
+function  @ 1 @ function  @ 1 @ 
+argument  @ 196 @ argument  @ 21 @ 
+argument  @ 405 @ argument  @ 176 @ 
+comment: /* main loop of interpreter */  @ 23 @ comment: /* main loop of interpreter */  @ 11 @ 
+macro  @ 287 @ macro  @ 84 @ 
+comment: /* asked for no results */  @ 562 @ comment: /* invocation via reentry: continue execution */  @ 226 @ 
+block  @ 110 @ block  @ 16 @ 
+name: L  @ 201 @ name: L  @ 17 @ 
+name: pc  @ 14 @ name: base  @ 10 @ 
+argument_list  @ 311 @ argument_list  @ 102 @ 
+name: k  @ 13 @ name: k  @ 9 @ 
+literal: 2  @ 332 @ literal: 1  @ 124 @ 
+comment: /* jump back */  @ 620 @ comment: /* jump back */  @ 275 @ 
+macro  @ 265 @ macro  @ 67 @ 
+type  @ 4 @ type  @ 5 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 196 @ expr  @ 21 @ 
+argument_list  @ 253 @ argument_list  @ 55 @ 
+init  @ 24 @ init  @ 12 @ 
+literal: 0  @ 668 @ literal: 0  @ 329 @ 
+macro  @ 401 @ macro  @ 167 @ 
+name: vmcase  @ 616 @ name: vmcase  @ 271 @ 
+literal: 0  @ 628 @ literal: 0  @ 283 @ 
+comment: /* C function? */  @ 508 @ comment: /* called function */  @ 200 @ 
+name: vmcase  @ 311 @ name: vmcase  @ 102 @ 
+macro  @ 394 @ macro  @ 161 @ 
+literal: 0  @ 492 @ literal: 0  @ 192 @ 
+operator: =  @ 54 @ operator: )  @ 15 @ 
+name: vmcase  @ 265 @ name: vmcase  @ 67 @ 
+name: L  @ 29 @ name: L  @ 22 @ 
+name: vmcase  @ 225 @ name: vmcase  @ 24 @ 
+argument  @ 12 @ argument  @ 8 @ 
+argument  @ 257 @ argument  @ 58 @ 
+comment: /* there is now one extra argument */  @ 505 @ comment: /* caller frame */  @ 199 @ 
+name: tailcall  @ 10 @ name: newframe  @ 6 @ 
+comment: /* update internal index */  @ 580 @ comment: /* update internal index... */  @ 241 @ 
+argument_list  @ 29 @ argument_list  @ 22 @ 
+argument_list  @ 299 @ argument_list  @ 93 @ 
+literal: 0  @ 575 @ literal: 0  @ 238 @ 
+block  @ 24 @ block  @ 12 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+argument  @ 372 @ argument  @ 135 @ 
+decl  @ 4 @ decl  @ 5 @ 
+decl  @ 3 @ decl  @ 4 @ 
+comment: /* save control variable */  @ 619 @ comment: /* save control variable */  @ 274 @ 
+argument  @ 311 @ argument  @ 102 @ 
+operator: ->  @ 554 @ operator: ->  @ 16 @ 
+name: cl  @ 13 @ name: cl  @ 9 @ 
+comment: /* prepare call frame */  @ 517 @ comment: /* close all upvalues from previous call */  @ 205 @ 
+literal: 0  @ 639 @ literal: 0  @ 293 @ 
+argument  @ 303 @ argument  @ 96 @ 
+incr  @ 1 @ incr  @ 1 @ 
+operator: ->  @ 29 @ operator: ->  @ 22 @ 
+argument  @ 363 @ argument  @ 133 @ 
+name  @ 560 @ name  @ 2 @ 
+literal: 3  @ 608 @ literal: 2  @ 260 @ 
+argument_list  @ 225 @ argument_list  @ 24 @ 
+argument_list  @ 394 @ argument_list  @ 161 @ 
+argument_list  @ 201 @ argument_list  @ 17 @ 
+operator: ->  @ 13 @ operator: ->  @ 9 @ 
+operator: =  @ 31 @ operator: &  @ 15 @ 
+operator: --  @ 75 @ operator: --  @ 16 @ 
+name: savedpc  @ 14 @ name: savedpc  @ 13 @ 
+comment: /* back to caller */  @ 560 @ comment: /* external invocation: return */  @ 225 @ 
+comment: /* and control variable */  @ 581 @ comment: /* ...and external index */  @ 242 @ 
+literal: 1  @ 634 @ literal: 1  @ 290 @ 
+name: l  @ 14 @ name: l  @ 13 @ 
+literal: 0  @ 363 @ literal: 0  @ 133 @ 
+operator: ->  @ 546 @ operator: ->  @ 7 @ 
+operator: ,  @ 31 @ operator: (  @ 15 @ 
+name: vmcase  @ 572 @ name: vmcase  @ 234 @ 
+name: ci  @ 1 @ name: ci  @ 2 @ 
+literal: 0  @ 523 @ literal: 0  @ 208 @ 
+name  @ 14 @ name  @ 13 @ 
+argument_list  @ 229 @ argument_list  @ 27 @ 
+operator: ->  @ 12 @ operator: ->  @ 8 @ 
+name: vmcase  @ 667 @ name: vmcase  @ 328 @ 
+argument_list  @ 601 @ argument_list  @ 20 @ 
+argument  @ 601 @ argument  @ 20 @ 
+argument_list  @ 363 @ argument_list  @ 132 @ 
+type  @ 26 @ type  @ 14 @ 
+name: p  @ 13 @ name: p  @ 9 @ 
+argument  @ 253 @ argument  @ 55 @ 
+macro  @ 315 @ macro  @ 112 @ 
+name: StkId  @ 4 @ name: StkId  @ 5 @ 
+name: vmcase  @ 295 @ name: vmcase  @ 90 @ 
+call  @ 196 @ call  @ 21 @ 
+name: L  @ 29 @ name: L  @ 22 @ 
+operator: ==  @ 196 @ operator: ==  @ 21 @ 
+comment: /* at least this result */  @ 564 @ comment: /* restart luaV_execute over new Lua function */  @ 231 @ 
+comment: /* try '__call' metamethod */  @ 504 @ comment: /* called frame */  @ 198 @ 
+argument_list  @ 303 @ argument_list  @ 96 @ 
+argument  @ 667 @ argument  @ 328 @ 
+operator: +  @ 29 @ operator: +  @ 22 @ 
+name: vmcase  @ 249 @ name: vmcase  @ 51 @ 
+operator: .  @ 14 @ operator: .  @ 13 @ 
+literal: 4  @ 608 @ literal: 2  @ 260 @ 
+argument  @ 596 @ argument  @ 258 @ 
+literal: 4  @ 609 @ literal: 1  @ 261 @ 
+literal: 3  @ 581 @ literal: 3  @ 242 @ 
+name: hookmask  @ 540 @ name: hookmask  @ 15 @ 
+comment: /* fixed number of arguments? */  @ 482 @ comment: /* adjust results */  @ 181 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 22 @ 
+literal: 3  @ 609 @ literal: 3  @ 263 @ 
+name: vmcase  @ 358 @ name: vmcase  @ 132 @ 
+argument  @ 249 @ argument  @ 51 @ 
+name: L  @ 546 @ name: L  @ 7 @ 
+name: vmcase  @ 319 @ name: vmcase  @ 117 @ 
+decl  @ 26 @ decl  @ 14 @ 
+operator: ->  @ 29 @ operator: ->  @ 22 @ 
+argument  @ 641 @ argument  @ 301 @ 
+comment: /* basic types do not use '__eq'; we can use raw equality */  @ 431 @ comment: /* else previous instruction set top */  @ 179 @ 
+literal: 1  @ 650 @ literal: 1  @ 310 @ 
+comment: /* integer loop? */  @ 573 @ comment: /* increment index */  @ 236 @ 
+operator: =  @ 14 @ operator: *  @ 13 @ 
+name  @ 12 @ name  @ 8 @ 
+comment: /* vararg function? */  @ 533 @ comment: /* remove new frame */  @ 214 @ 
+operator: (  @ 196 @ operator: ->  @ 21 @ 
+macro  @ 229 @ macro  @ 27 @ 
+name: ci  @ 12 @ name: ci  @ 8 @ 
+name: StkId  @ 26 @ name: StkId  @ 14 @ 
+comment: /* original arith. expression */  @ 350 @ comment: /* restore top */  @ 130 @ 
+macro  @ 372 @ macro  @ 135 @ 
+operator: *  @ 54 @ operator: &&  @ 15 @ 
+comment: /* else previous instruction set top */  @ 484 @ comment: /* restart luaV_execute over new Lua function */  @ 187 @ 
+name: CallInfo  @ 1 @ name: CallInfo  @ 2 @ 
+name: ra  @ 133 @ name: ra  @ 20 @ 
+macro  @ 390 @ macro  @ 153 @ 
+comment: /* number of results */  @ 521 @ comment: /* move new frame into old one */  @ 207 @ 
+argument_list  @ 590 @ argument_list  @ 245 @ 
+argument_list  @ 307 @ argument_list  @ 99 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+literal: 3  @ 598 @ literal: 3  @ 259 @ 
+macro  @ 261 @ macro  @ 62 @ 
+argument_list  @ 372 @ argument_list  @ 135 @ 
+macro  @ 291 @ macro  @ 87 @ 
+name: luaV_execute  @ 1 @ name: luaV_execute  @ 1 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr  @ 110 @ expr  @ 17 @ 
+name: L  @ 49 @ name: LUA_MASKCOUNT  @ 15 @ 
+decl  @ 1 @ decl  @ 2 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 10 @ 
+name: stack  @ 29 @ name: stack  @ 22 @ 
+operator: =  @ 157 @ operator: =  @ 20 @ 
+argument_list  @ 12 @ argument_list  @ 8 @ 
+expr_stmt  @ 546 @ expr_stmt  @ 7 @ 
+operator: ->  @ 29 @ operator: ->  @ 22 @ 
+name: vmcase  @ 303 @ name: vmcase  @ 96 @ 
+decl  @ 1 @ decl  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+name: vmcase  @ 315 @ name: vmcase  @ 112 @ 
+decl  @ 2 @ decl  @ 3 @ 
+comment: /* original arith. expression */  @ 332 @ comment: /* mark the end of concat operands */  @ 124 @ 
+call  @ 601 @ call  @ 20 @ 
+macro  @ 382 @ macro  @ 145 @ 
+argument_list  @ 196 @ argument_list  @ 21 @ 
+argument  @ 539 @ argument  @ 219 @ 
+argument  @ 274 @ argument  @ 70 @ 
+comment: /* preallocate it at once */  @ 638 @ comment: /* pre-allocate it at once */  @ 292 @ 
+macro  @ 257 @ macro  @ 58 @ 
+argument  @ 291 @ argument  @ 87 @ 
+comment: /* not fixed? */  @ 523 @ comment: /* correct base */  @ 210 @ 
+argument  @ 241 @ argument  @ 41 @ 
+comment: /* key must be a string */  @ 131 @ comment: /* WARNING: several calls may realloc the stack and invalidate `ra' */  @ 19 @ 
+name: vmcase  @ 253 @ name: vmcase  @ 55 @ 
+name: RA  @ 601 @ name: RA  @ 20 @ 
+argument  @ 225 @ argument  @ 24 @ 
+argument_list  @ 110 @ argument_list  @ 17 @ 
+name: vmcase  @ 539 @ name: vmcasenb  @ 219 @ 
+name: vmcase  @ 596 @ name: vmcasenb  @ 258 @ 
+operator: .  @ 14 @ operator: .  @ 13 @ 
+condition  @ 24 @ condition  @ 12 @ 
+comment: /* not a function? */  @ 503 @ comment: /* C function? */  @ 194 @ 
+name: base  @ 29 @ name: base  @ 22 @ 
+expr  @ 601 @ expr  @ 20 @ 
+name: trap  @ 11 @ name: ci  @ 7 @ 
+name: L  @ 554 @ name: L  @ 16 @ 
+name: L  @ 34 @ name: LUA_MASKLINE  @ 15 @ 
+name: lua_assert  @ 196 @ name: lua_assert  @ 21 @ 
+name: vmcase  @ 257 @ name: vmcase  @ 58 @ 
+name: L  @ 29 @ name: L  @ 22 @ 
+name: i  @ 601 @ name: i  @ 20 @ 
+literal: 1  @ 501 @ literal: 1  @ 193 @ 
+argument_list  @ 641 @ argument_list  @ 300 @ 
+name: Instruction  @ 25 @ name: Instruction  @ 13 @ 
+argument  @ 382 @ argument  @ 145 @ 
+argument_list  @ 401 @ argument_list  @ 167 @ 
+name  @ 29 @ name  @ 22 @ 
+name: lua_State  @ 1 @ name: lua_State  @ 1 @ 
+expr  @ 201 @ expr  @ 17 @ 
+argument  @ 110 @ argument  @ 17 @ 
+comment: /* internal index */  @ 577 @ comment: /* jump back */  @ 240 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 8 @ 
+name: top  @ 29 @ name: top  @ 22 @ 
+name: L  @ 540 @ name: L  @ 15 @ 
+comment: /* set call for 'luaD_poscall' */  @ 535 @ comment: /* restart luaV_execute over new Lua function */  @ 216 @ 
+name: s2v  @ 12 @ name: clLvalue  @ 8 @ 
+name: vmcase  @ 261 @ name: vmcase  @ 62 @ 
+literal: 0  @ 542 @ literal: 0  @ 221 @ 
+name: cl  @ 12 @ name: cl  @ 8 @ 
+literal: 1  @ 574 @ literal: 1  @ 237 @ 
+argument_list  @ 315 @ argument_list  @ 112 @ 
+literal: 2  @ 619 @ literal: 1  @ 274 @ 
+name: L  @ 29 @ name: L  @ 22 @ 
+type  @ 1 @ type  @ 2 @ 
+label  @ 10 @ label  @ 6 @ 
+name: L  @ 80 @ name: L  @ 16 @ 
+macro  @ 249 @ macro  @ 51 @ 
+macro  @ 283 @ macro  @ 79 @ 
+name: base  @ 4 @ name: base  @ 5 @ 
+argument  @ 287 @ argument  @ 84 @ 
+name: ra  @ 26 @ name: ra  @ 14 @ 
+name: ci  @ 560 @ name: ci  @ 2 @ 
+argument_list  @ 241 @ argument_list  @ 41 @ 
+operator: ->  @ 540 @ operator: ->  @ 15 @ 
+name: vmcase  @ 241 @ name: vmcase  @ 41 @ 
+macro  @ 303 @ macro  @ 96 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 9 @ 
+name: TESTARG_k  @ 196 @ name: base  @ 21 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 14 @ 
+operator: *  @ 196 @ operator: .  @ 21 @ 
+literal: 0  @ 411 @ literal: 0  @ 179 @ 
+name: stacksize  @ 29 @ name: stacksize  @ 22 @ 
+argument_list  @ 295 @ argument_list  @ 90 @ 
+macro  @ 241 @ macro  @ 41 @ 
+operator: ->  @ 560 @ operator: ->  @ 2 @ 
+type  @ 25 @ type  @ 13 @ 
+name  @ 540 @ name  @ 15 @ 
+name: vmcase  @ 274 @ name: vmcase  @ 70 @ 
+comment: /* next opcode will be seen as a "new" line */  @ 662 @ comment: /* get all var. arguments */  @ 314 @ 
+argument  @ 32 @ argument  @ 23 @ 
+literal: 1  @ 547 @ literal: 1  @ 221 @ 
+name: vmcase  @ 624 @ name: vmcase  @ 278 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 4 @ 
+name  @ 13 @ name  @ 9 @ 
+argument_list  @ 319 @ argument_list  @ 117 @ 
+literal: 0  @ 548 @ literal: 0  @ 222 @ 
+name: ci  @ 14 @ name: ci  @ 13 @ 
+name  @ 554 @ name  @ 16 @ 
+argument  @ 401 @ argument  @ 167 @ 
+argument_list  @ 32 @ argument_list  @ 23 @ 
+argument  @ 616 @ argument  @ 271 @ 
+name: TValue  @ 3 @ name: TValue  @ 4 @ 
+operator: ++  @ 54 @ operator: (  @ 16 @ 
+literal: 1  @ 654 @ literal: 1  @ 312 @ 
+name: top  @ 29 @ name: top  @ 22 @ 
+operator: +  @ 54 @ operator: )  @ 15 @ 
+argument  @ 237 @ argument  @ 37 @ 
+argument_list  @ 287 @ argument_list  @ 84 @ 
+comment: /* go to next instruction */  @ 612 @ comment: /* go to next instruction */  @ 266 @ 
+literal: 1  @ 641 @ literal: 1  @ 307 @ 
+name: vmcase  @ 229 @ name: vmcase  @ 27 @ 
+name: u  @ 14 @ name: u  @ 13 @ 
+operator: (  @ 31 @ operator: (  @ 15 @ 
+type  @ 3 @ type  @ 4 @ 
+name: t  @ 201 @ name: Protect  @ 17 @ 
+argument  @ 323 @ argument  @ 120 @ 
+argument  @ 390 @ argument  @ 153 @ 
+name: L  @ 560 @ name: L  @ 2 @ 
+comment: /* continue loop? */  @ 618 @ comment: /* continue loop? */  @ 273 @ 
+for  @ 24 @ for  @ 12 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument  @ 265 @ argument  @ 67 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: =  @ 12 @ operator: =  @ 8 @ 
+comment: /* get what is available */  @ 524 @ comment: /* correct top */  @ 211 @ 
+operator: <=  @ 29 @ operator: <=  @ 22 @ 
+name: vmcase  @ 299 @ name: vmcase  @ 93 @ 
+argument  @ 641 @ argument  @ 300 @ 
+expr  @ 201 @ expr  @ 17 @ 
+expr  @ 13 @ expr  @ 9 @ 
+argument_list  @ 265 @ argument_list  @ 67 @ 
+macro  @ 299 @ macro  @ 93 @ 
+operator: ==  @ 196 @ operator: .  @ 21 @ 
+argument_list  @ 249 @ argument_list  @ 51 @ 
+control  @ 24 @ control  @ 12 @ 
+name: LClosure  @ 2 @ name: LClosure  @ 3 @ 
+name: vmcase  @ 390 @ name: vmcase  @ 153 @ 
+argument  @ 624 @ argument  @ 278 @ 
+call  @ 201 @ call  @ 17 @ 
+expr_stmt  @ 201 @ expr_stmt  @ 17 @ 
+argument  @ 394 @ argument  @ 161 @ 
+name  @ 29 @ name  @ 22 @ 
+argument  @ 307 @ argument  @ 99 @ 
+name: vmcase  @ 401 @ name: vmcase  @ 167 @ 
+argument_list  @ 245 @ argument_list  @ 47 @ 
+argument  @ 201 @ argument  @ 17 @ 
+argument_list  @ 382 @ argument_list  @ 145 @ 
+name: vmcase  @ 488 @ name: vmcase  @ 190 @ 
+expr  @ 12 @ expr  @ 8 @ 
+name: vmcase  @ 287 @ name: vmcase  @ 84 @ 
+macro  @ 590 @ macro  @ 245 @ 
+argument  @ 668 @ argument  @ 329 @ 
+name: upvals  @ 80 @ name: hookcount  @ 16 @ 
+macro  @ 245 @ macro  @ 47 @ 
+name: k  @ 13 @ name: k  @ 9 @ 
+macro  @ 295 @ macro  @ 90 @ 
+operator: +  @ 48 @ operator: |  @ 15 @ 
+macro  @ 319 @ macro  @ 117 @ 
+call  @ 29 @ call  @ 22 @ 
+argument  @ 647 @ argument  @ 309 @ 
+name: vmcase  @ 382 @ name: vmcase  @ 145 @ 
+argument  @ 229 @ argument  @ 27 @ 
+name: vmcase  @ 291 @ name: vmcase  @ 87 @ 
+comment: /* stack may have been relocated */  @ 511 @ comment: /* last stack slot filled by 'precall' */  @ 202 @ 
+macro  @ 233 @ macro  @ 31 @ 
+argument_list  @ 257 @ argument_list  @ 58 @ 
+literal: 1  @ 564 @ literal: 1  @ 230 @ 
+argument  @ 283 @ argument  @ 79 @ 
+macro  @ 311 @ macro  @ 102 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+literal: 2  @ 573 @ literal: 2  @ 235 @ 
+name: k  @ 3 @ name: k  @ 4 @ 
+macro  @ 307 @ macro  @ 99 @ 
+name: hookmask  @ 554 @ name: hookmask  @ 16 @ 
+expr  @ 546 @ expr  @ 7 @ 
+operator: ->  @ 80 @ operator: ==  @ 16 @ 
+name: vmcase  @ 405 @ name: vmcase  @ 176 @ 
+argument_list  @ 390 @ argument_list  @ 153 @ 
+name  @ 546 @ name  @ 7 @ 
+type  @ 2 @ type  @ 3 @ 
+name: vmcase  @ 372 @ name: vmcase  @ 135 @ 
+argument  @ 590 @ argument  @ 245 @ 
+name: val  @ 640 @ name: vmcase  @ 300 @ 
+name: vmcase  @ 394 @ name: vmcase  @ 161 @ 
+expr  @ 12 @ expr  @ 8 @ 
+name: vmcase  @ 323 @ name: vmcase  @ 120 @ 
+operator: <  @ 29 @ operator: <  @ 22 @ 
+comment: /* required results */  @ 654 @ comment: /* B == 0? */  @ 313 @ 
+literal: 4  @ 618 @ literal: 1  @ 273 @ 
+argument_list  @ 274 @ argument_list  @ 70 @ 
+name: i  @ 25 @ name: i  @ 13 @ 
+name: lua_assert  @ 29 @ name: lua_assert  @ 22 @ 
+name: pc  @ 196 @ name: l  @ 21 @ 
+literal: 2  @ 350 @ literal: 1  @ 129 @ 
+comment: /* go to next instruction */  @ 600 @ comment: /* call base */  @ 259 @ 
+call  @ 12 @ call  @ 8 @ 
+name: vmcase  @ 307 @ name: vmcase  @ 99 @ 
+name: GETARG_Ax  @ 196 @ name: u  @ 21 @ 
+comment: /* do the call */  @ 610 @ comment: /* func. + 2 args (state and index) */  @ 263 @ 
+expr  @ 196 @ expr  @ 21 @ 
+name: vmcase  @ 283 @ name: vmcase  @ 79 @ 
+argument  @ 319 @ argument  @ 117 @ 
+operator: ->  @ 91 @ operator: &  @ 16 @ 
+name: vmcase  @ 233 @ name: vmcase  @ 31 @ 
+comment: /* original arith. expression */  @ 341 @ comment: /* 'luav_concat' may invoke TMs and move the stack */  @ 126 @ 
+literal: 2  @ 341 @ literal: 1  @ 125 @ 
+name  @ 29 @ name  @ 22 @ 
+macro  @ 32 @ macro  @ 23 @ 
+operator: ->  @ 84 @ operator: ||  @ 16 @ 
+operator: ->  @ 14 @ operator: ->  @ 13 @ 
+argument  @ 299 @ argument  @ 93 @ 
+literal: 1  @ 521 @ literal: 0  @ 206 @ 
+expr  @ 14 @ expr  @ 13 @ 
+name: ci  @ 546 @ name: ci  @ 7 @ 
+argument  @ 261 @ argument  @ 62 @ 
+

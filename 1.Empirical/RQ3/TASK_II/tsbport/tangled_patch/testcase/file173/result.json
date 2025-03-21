@@ -1,0 +1,80 @@
+{
+    "testcase": {
+        "file173": {
+            "match_message": {
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1130 -> 2180",
+                        "L2": "3: Unique Matched by Source code 1130 -> 2180"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1137 -> 2188",
+                        "L2": "3: Unique Matched by Source code 1138 -> 2189"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1151->2214",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1152->2215"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 2180,
+                        "add_hunk": [
+                            "\tif (info_length + 4 > data_size) {\n",
+                            "\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"Broken PMT first loop, %d bytes avail but first loop size %d\\n\", data_size, info_length));\n",
+                            "\t\treturn;\n",
+                            "\t} else if (info_length != 0) {\n"
+                        ],
+                        "delete_location": [
+                            2180,
+                            2180
+                        ],
+                        "delete_hunk": [
+                            "\tif (info_length != 0) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 2188,
+                        "add_hunk": [
+                            "\t\t\t\tif ((len>2) && (len - 2 <= info_length)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 2214,
+                        "add_hunk": [
+                            "\t\t\t\t\t}\n",
+                            "\t\t\t\t} else {\n",
+                            "\t\t\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"Broken IOD! len %d less than 2 bytes to declare IOD\\n\", len));\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "sanity_check"
+            ]
+        }
+    }
+}

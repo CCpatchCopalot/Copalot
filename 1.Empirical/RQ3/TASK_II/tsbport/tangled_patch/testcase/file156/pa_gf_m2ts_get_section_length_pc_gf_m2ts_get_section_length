@@ -1,0 +1,94 @@
+call  @ 4 @ call  @ 4 @ 
+name: byte1  @ 7 @ name: byte1  @ 7 @ 
+operator: )  @ 7 @ operator: )  @ 7 @ 
+literal: 8  @ 5 @ literal: 8  @ 5 @ 
+name: length  @ 9 @ name: length  @ 9 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+argument  @ 4 @ argument  @ 4 @ 
+block  @ 4 @ block  @ 4 @ 
+name: length  @ 5 @ name: length  @ 5 @ 
+name: byte0  @ 1 @ name: byte0  @ 1 @ 
+operator: &  @ 7 @ operator: &  @ 7 @ 
+operator: |  @ 5 @ operator: |  @ 5 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: length  @ 7 @ name: length  @ 7 @ 
+function  @ 1 @ function  @ 1 @ 
+if_stmt  @ 4 @ if_stmt  @ 4 @ 
+literal: 0x3ff  @ 7 @ literal: 0x3ff  @ 7 @ 
+decl  @ 1 @ decl  @ 1 @ 
+type  @ 3 @ type  @ 3 @ 
+condition  @ 4 @ condition  @ 4 @ 
+expr  @ 7 @ expr  @ 7 @ 
+expr  @ 4 @ expr  @ 4 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+operator: (  @ 7 @ operator: (  @ 7 @ 
+literal: 0xff  @ 7 @ literal: 0xff  @ 7 @ 
+name: byte1  @ 1 @ name: byte1  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+name: gf_m2ts_is_long_section  @ 4 @ name: gf_m2ts_is_long_section  @ 4 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+operator: &  @ 5 @ operator: &  @ 5 @ 
+name: byte2  @ 1 @ name: byte2  @ 1 @ 
+operator: (  @ 7 @ operator: (  @ 7 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 7 @ 
+expr  @ 5 @ expr  @ 5 @ 
+literal: 0xfff  @ 5 @ literal: 0xfff  @ 5 @ 
+else  @ 6 @ else  @ 6 @ 
+operator: (  @ 7 @ operator: (  @ 7 @ 
+operator: (  @ 7 @ operator: (  @ 7 @ 
+operator: )  @ 7 @ operator: )  @ 7 @ 
+name: byte1  @ 5 @ name: byte1  @ 5 @ 
+name: byte2  @ 7 @ name: byte2  @ 7 @ 
+name: length  @ 3 @ name: length  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr_stmt  @ 5 @ expr_stmt  @ 5 @ 
+operator: <<  @ 5 @ operator: <<  @ 5 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+operator: |  @ 7 @ operator: |  @ 7 @ 
+name: byte2  @ 5 @ name: byte2  @ 5 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: <<  @ 7 @ operator: <<  @ 7 @ 
+literal: 3  @ 5 @ literal: 3  @ 5 @ 
+operator: )  @ 7 @ operator: )  @ 7 @ 
+return  @ 9 @ return  @ 9 @ 
+block  @ 2 @ block  @ 2 @ 
+expr  @ 4 @ expr  @ 4 @ 
+operator: &  @ 5 @ operator: &  @ 5 @ 
+decl  @ 3 @ decl  @ 3 @ 
+name: u32  @ 1 @ name: u32  @ 1 @ 
+operator: &  @ 7 @ operator: &  @ 7 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+block_content  @ 5 @ block_content  @ 5 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+block  @ 6 @ block  @ 6 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+literal: 3  @ 7 @ literal: 3  @ 7 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+operator: )  @ 7 @ operator: )  @ 7 @ 
+operator: =  @ 5 @ operator: =  @ 5 @ 
+literal: 0xff  @ 5 @ literal: 0xff  @ 5 @ 
+operator: =  @ 7 @ operator: =  @ 7 @ 
+operator: +  @ 7 @ operator: +  @ 7 @ 
+operator: +  @ 5 @ operator: +  @ 5 @ 
+name: gf_m2ts_get_section_length  @ 1 @ name: gf_m2ts_get_section_length  @ 1 @ 
+name: byte0  @ 4 @ name: byte0  @ 4 @ 
+argument_list  @ 4 @ argument_list  @ 4 @ 
+if  @ 4 @ if  @ 4 @ 
+name: u32  @ 3 @ name: u32  @ 3 @ 
+literal: 8  @ 7 @ literal: 8  @ 7 @ 
+expr  @ 9 @ expr  @ 9 @ 
+

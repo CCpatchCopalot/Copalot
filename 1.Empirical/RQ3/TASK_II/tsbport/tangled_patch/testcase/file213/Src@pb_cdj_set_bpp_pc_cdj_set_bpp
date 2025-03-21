@@ -1,0 +1,182 @@
+static int
+cdj_set_bpp(gx_device * pdev, int bpp, int ccomps)
+{
+    gx_device_color_info *ci = &pdev->color_info;
+
+    if (ccomps && bpp == 0) {
+        if (cprn_device->cmyk) {
+            switch (ccomps) {
+
+                default:
+                    return_error(gs_error_rangecheck);
+                    /*NOTREACHED */
+                    break;
+
+                case 1:
+                    bpp = 1;
+                    break;
+
+                case 3:
+                    bpp = 24;
+                    break;
+
+                case 4:
+                    switch (ci->depth) {
+                        case 8:
+                        case 16:
+                        case 24:
+                        case 32:
+                            break;
+
+                        default:
+                            bpp = cprn_device->default_depth;
+                            break;
+                    }
+                    break;
+            }
+        }
+    }
+
+    if (bpp == 0) {
+        bpp = ci->depth;        /* Use the current setting. */
+    }
+
+    if (cprn_device->cmyk < 0) {
+        /* Reset procedures because we may have been in another mode. */
+        dev_proc(pdev, map_cmyk_color) = gdev_cmyk_map_cmyk_color;
+        dev_proc(pdev, map_rgb_color) = NULL;
+        dev_proc(pdev, map_color_rgb) = gdev_cmyk_map_color_rgb;
+
+        if (pdev->is_open)
+            gs_closedevice(pdev);
+    }
+    /* Check for valid bpp values */
+
+    switch (bpp) {
+        case 16:
+        case 32:
+            if (cprn_device->cmyk && ccomps && ccomps != 4)
+                goto bppe;
+            break;
+
+        case 24:
+            if (!cprn_device->cmyk || ccomps == 0 || ccomps == 4) {
+                break;
+            } else if (ccomps == 1) {
+                goto bppe;
+            } else {
+                /* 3 components 24 bpp printing for CMYK device. */
+                cprn_device->cmyk = -1;
+            }
+            break;
+
+        case 8:
+            if (cprn_device->cmyk) {
+                if (ccomps) {
+                    if (ccomps == 3) {
+                        cprn_device->cmyk = -1;
+                        bpp = 3;
+                    } else if (ccomps != 1 && ccomps != 4) {
+                        goto bppe;
+                    }
+                }
+
+                if (ccomps != 1)
+                    break;
+            } else {
+                break;
+            }
+        case 1:
+            if (ccomps != 1)
+                goto bppe;
+
+            if (cprn_device->cmyk && bpp != pdev->color_info.depth) {
+                dev_proc(pdev, map_cmyk_color) = NULL;
+                dev_proc(pdev, map_rgb_color) = gdev_cmyk_map_rgb_color;
+
+                if (pdev->is_open) {
+                    gs_closedevice(pdev);
+                }
+            }
+            break;
+
+        case 3:
+            if (!cprn_device->cmyk) {
+                break;
+            }
+        default:
+          bppe:return_error(gs_error_rangecheck);
+    }
+
+    if (cprn_device->cmyk == -1) {
+        dev_proc(pdev, map_cmyk_color) = NULL;
+        dev_proc(pdev, map_rgb_color) = gdev_pcl_map_rgb_color;
+        dev_proc(pdev, map_color_rgb) = gdev_pcl_map_color_rgb;
+
+        if (pdev->is_open) {
+            gs_closedevice(pdev);
+        }
+    }
+
+    switch (ccomps) {
+        case 0:
+            break;
+
+        case 1:
+            if (bpp != 1 && bpp != 8)
+                goto cce;
+            break;
+
+        case 4:
+            if (cprn_device->cmyk) {
+                if (bpp >= 8)
+                    break;
+            }
+
+        case 3:
+            if (bpp == 1 || bpp == 3 || bpp == 8 || bpp == 16 || bpp == 24|| bpp == 32) {
+                break;
+            }
+
+          cce:
+        default:
+            return_error(gs_error_rangecheck);
+    }
+
+    if (cprn_device->cmyk) {
+        if (cprn_device->cmyk > 0) {
+            ci->num_components = ccomps ? ccomps : (bpp < 8 ? 1 : 4);
+        } else {
+            ci->num_components = ccomps ? ccomps : (bpp < 8 ? 1 : 3);
+        }
+
+        if (bpp != 1 && ci->num_components == 1) {      /* We do dithered grays. */
+            bpp = bpp < 8 ? 8 : bpp;
+        }
+
+        ci->max_color = (1 << (bpp >> 2)) - 1;
+        ci->max_gray = (bpp >= 8 ? 255 : 1);
+
+        if (ci->num_components == 1) {
+            ci->dither_grays = (bpp >= 8 ? 5 : 2);
+            ci->dither_colors = (bpp >= 8 ? 5 : bpp > 1 ? 2 : 0);
+        } else {
+            ci->dither_grays = (bpp > 8 ? 5 : 2);
+            ci->dither_colors = (bpp > 8 ? 5 : bpp > 1 ? 2 : 0);
+        }
+    } else {
+        ci->num_components = (bpp == 1 || bpp == 8 ? 1 : 3);
+        ci->max_color = (bpp >= 8 ? 255 : bpp > 1 ? 1 : 0);
+        ci->max_gray = (bpp >= 8 ? 255 : 1);
+        ci->dither_grays = (bpp >= 8 ? 5 : 2);
+        ci->dither_colors = (bpp >= 8 ? 5 : bpp > 1 ? 2 : 0);
+    }
+
+    if (ci->depth != ((bpp > 1) && (bpp < 8) ? 8 : bpp)) {
+        if (pdev->is_open)
+            gs_closedevice(pdev); 	/* depth changed, make sure we re-open */
+    }
+    ci->depth = ((bpp > 1) && (bpp < 8) ? 8 : bpp);
+
+    return (0);
+}

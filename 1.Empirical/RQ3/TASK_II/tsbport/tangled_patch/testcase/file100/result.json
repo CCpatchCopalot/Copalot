@@ -1,0 +1,65 @@
+{
+    "testcase": {
+        "file100": {
+            "match_message": {
+                "Same: dump_group -> dump_group": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 750 -> 860",
+                        "L2": "3: Unique Matched by Source code 750 -> 860"
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 772->883",
+                        "L2": "3: Unique Matched by Source code 775 -> 886"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 860,
+                        "add_hunk": [
+                            "    {\n"
+                        ],
+                        "delete_location": [
+                            860,
+                            860
+                        ],
+                        "delete_hunk": [
+                            "    if (oinfo.rc > 1 || hit_elink) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "add_location": 22,
+                        "add_hunk": [],
+                        "delete_location": [
+                            883,
+                            886
+                        ],
+                        "delete_hunk": [
+                            "    }\n",
+                            "    else {\n",
+                            "        attr_iteration(gid, attr_crt_order_flags);\n",
+                            "        link_iteration(gid, crt_order_flags);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: dump_group -> dump_group": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": []
+        }
+    }
+}

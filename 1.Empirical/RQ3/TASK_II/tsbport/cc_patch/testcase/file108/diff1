@@ -1,0 +1,4 @@
+127c127
+<     while (*curPtr == *(curPtr + count) && maxnum > count) {
+---
+>     while (maxnum > count && *curPtr == *(curPtr + count)) {

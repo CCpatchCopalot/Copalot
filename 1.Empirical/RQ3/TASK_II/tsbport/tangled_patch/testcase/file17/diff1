@@ -1,0 +1,9 @@
+244c244,249
+<       outputs->push_back(Tensor(*context.mutable_output(i)));
+---
+>       const auto* output_tensor = context.mutable_output(i);
+>       if (output_tensor != nullptr) {
+>         outputs->push_back(Tensor(*output_tensor));
+>       } else {
+>         outputs->push_back(Tensor());
+>       }

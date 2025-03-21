@@ -1,0 +1,18 @@
+void *
+H5O_msg_free_real(const H5O_msg_class_t *type, void *msg_native)
+{
+    FUNC_ENTER_NOAPI_NOINIT_NOERR
+
+    /* check args */
+    HDassert(type);
+
+    if (msg_native) {
+        H5O__msg_reset_real(type, msg_native);
+        if (NULL != (type->free))
+            (type->free)(msg_native);
+        else
+            H5MM_xfree(msg_native);
+    } /* end if */
+
+    FUNC_LEAVE_NOAPI(NULL)
+} /* end H5O_msg_free_real() */

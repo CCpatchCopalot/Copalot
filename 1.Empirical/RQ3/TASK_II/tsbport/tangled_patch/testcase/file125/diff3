@@ -1,0 +1,5 @@
+1393a1394,1397
+>					if (gf_bs_get_size(bs) - gf_bs_get_position(bs) < 6) {
+>						gf_isom_cenc_samp_aux_info_del(sai);
+>						return GF_ISOM_INVALID_FILE;
+>					}

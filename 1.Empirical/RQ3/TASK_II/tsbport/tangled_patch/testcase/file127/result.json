@@ -1,0 +1,51 @@
+{
+    "testcase": {
+        "file127": {
+            "match_message": {
+                "Same: gf_media_get_rfc_6381_codec_name -> gf_media_get_rfc_6381_codec_name": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 456",
+                        "L2": "7: Context line (Ignored) is empty or comment 456"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 507",
+                        "L2": "7: Context line (Ignored) is empty or comment 508"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "\t\tif (esd && esd->decoderConfig) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 37,
+                        "add_hunk": [
+                            "\t\t\tif (esd) gf_odf_desc_del((GF_Descriptor *)esd);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_media_get_rfc_6381_codec_name -> gf_media_get_rfc_6381_codec_name": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

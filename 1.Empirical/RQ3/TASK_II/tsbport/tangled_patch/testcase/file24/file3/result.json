@@ -1,0 +1,49 @@
+{
+    "testcase": {
+        "file3": {
+            "match_message": {
+                "Same: TIFFWriteDirectorySec -> TIFFWriteDirectorySec": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 514->704",
+                        "L2": "3: Unique Matched by Source code 515 -> 705"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 33,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 704,
+                        "add_hunk": [
+                            "\t\t\tif (TIFFFieldSet(tif, FIELD_NUMBEROFINKS))\n",
+                            "\t\t\t{\n",
+                            "\t\t\t\tif (!TIFFWriteDirectoryTagShort(tif, &ndir, dir, TIFFTAG_NUMBEROFINKS, tif->tif_dir.td_numberofinks))\n",
+                            "\t\t\t\t\tgoto bad;\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: TIFFWriteDirectorySec -> TIFFWriteDirectorySec": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+180a181,182
+>		if (!node->sgprivate->num_instances) {
+>			node->sgprivate->num_instances = 1;
+181a182
+>		}
+191c191,192
+<		node->sgprivate->num_instances = 2;
+---
+>	gf_node_unregister(node, NULL);
+>	gf_node_unregister(node, NULL);

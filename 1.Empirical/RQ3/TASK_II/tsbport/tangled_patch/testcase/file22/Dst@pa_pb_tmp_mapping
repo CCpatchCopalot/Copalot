@@ -1,0 +1,2 @@
+const std::string path = io::JoinPath(parent, children[j]);
+if (index == dirs.size() - 1) {          mutex_lock l(result_mutex);          results->emplace_back(path);        } else if (children_status[j].ok()) {          mutex_lock l(queue_mutex);          next_expand_queue.emplace_back(path, index);

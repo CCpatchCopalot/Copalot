@@ -1,0 +1,322 @@
+static herr_t
+H5O_chunk_deserialize(H5O_t *oh, haddr_t addr, size_t len, const uint8_t *image,
+    H5O_common_cache_ud_t *udata, hbool_t *dirty)
+{
+    const uint8_t *p;           /* Pointer into buffer to decode */
+    uint8_t *eom_ptr;           /* Pointer to end of messages for a chunk */
+    unsigned curmesg;           /* Current message being decoded in object header */
+    unsigned merged_null_msgs = 0;  /* Number of null messages merged together */
+    unsigned chunkno;           /* Current chunk's index */
+#ifndef NDEBUG
+    unsigned nullcnt;           /* Count of null messages (for sanity checking gaps in chunks) */
+#endif /* NDEBUG */
+    herr_t ret_value = SUCCEED; /* Return value */
+
+    FUNC_ENTER_NOAPI_NOINIT
+
+    /* Check arguments */
+    HDassert(oh);
+    HDassert(H5F_addr_defined(addr));
+    HDassert(image);
+    HDassert(udata->f);
+    HDassert(udata->cont_msg_info);
+
+    /* Increase chunk array size, if necessary */
+    if(oh->nchunks >= oh->alloc_nchunks) {
+        size_t na = MAX(H5O_NCHUNKS, oh->alloc_nchunks * 2);        /* Double # of chunks allocated */
+        H5O_chunk_t *x;
+
+        if(NULL == (x = H5FL_SEQ_REALLOC(H5O_chunk_t, oh->chunk, na)))
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTALLOC, FAIL, "memory allocation failed")
+        oh->alloc_nchunks = na;
+        oh->chunk = x;
+    } /* end if */
+
+    /* Init the chunk data info */
+    chunkno = oh->nchunks++;
+    oh->chunk[chunkno].gap = 0;
+    if(chunkno == 0) {
+        /* First chunk's 'image' includes room for the object header prefix */
+        oh->chunk[0].addr = addr;
+        oh->chunk[0].size = len + (size_t)H5O_SIZEOF_HDR(oh);
+    } /* end if */
+    else {
+        oh->chunk[chunkno].addr = addr;
+        oh->chunk[chunkno].size = len;
+    } /* end else */
+    if(NULL == (oh->chunk[chunkno].image = H5FL_BLK_MALLOC(chunk_image, oh->chunk[chunkno].size)))
+        HGOTO_ERROR(H5E_OHDR, H5E_CANTALLOC, FAIL, "memory allocation failed")
+
+    /* Copy disk image into chunk's image */
+    HDmemcpy(oh->chunk[chunkno].image, image, oh->chunk[chunkno].size);
+
+    /* Point into chunk image to decode */
+    p = oh->chunk[chunkno].image;
+
+    /* Handle chunk 0 as special case */
+    if(chunkno == 0)
+        /* Skip over [already decoded] prefix */
+        p += (size_t)(H5O_SIZEOF_HDR(oh) - H5O_SIZEOF_CHKSUM_OH(oh));
+    /* Check for magic # on chunks > 0 in later versions of the format */
+    else if(chunkno > 0 && oh->version > H5O_VERSION_1) {
+        /* Magic number */
+        if(HDmemcmp(p, H5O_CHK_MAGIC, (size_t)H5_SIZEOF_MAGIC))
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "wrong object header chunk signature")
+        p += H5_SIZEOF_MAGIC;
+    } /* end if */
+
+    /* Save # of messages already inspected */
+    curmesg = oh->nmesgs;
+
+    /* Decode messages from this chunk */
+    eom_ptr = oh->chunk[chunkno].image + (oh->chunk[chunkno].size - H5O_SIZEOF_CHKSUM_OH(oh));
+#ifndef NDEBUG
+    nullcnt = 0;
+#endif /* NDEBUG */
+    while(p < eom_ptr) {
+        unsigned mesgno;        /* Current message to operate on */
+        size_t mesg_size;       /* Size of message read in */
+        unsigned id;            /* ID (type) of current message */
+        uint8_t	flags;          /* Flags for current message */
+        H5O_msg_crt_idx_t crt_idx = 0;  /* Creation index for current message */
+
+        /* Decode message prefix info */
+
+        /* Version # */
+        if(oh->version == H5O_VERSION_1)
+            UINT16DECODE(p, id)
+        else
+            id = *p++;
+
+        /* Check for unknown message ID getting encoded in file */
+        if(id == H5O_UNKNOWN_ID)
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "'unknown' message ID encoded in file?!?")
+
+        /* Message size */
+        UINT16DECODE(p, mesg_size);
+        HDassert(mesg_size == H5O_ALIGN_OH(oh, mesg_size));
+
+        /* Message flags */
+        flags = *p++;
+        if(flags & ~H5O_MSG_FLAG_BITS)
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "unknown flag for message")
+        if((flags & H5O_MSG_FLAG_SHARED) && (flags & H5O_MSG_FLAG_DONTSHARE))
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "bad flag combination for message")
+        if((flags & H5O_MSG_FLAG_WAS_UNKNOWN) && (flags & H5O_MSG_FLAG_FAIL_IF_UNKNOWN))
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "bad flag combination for message")
+        if((flags & H5O_MSG_FLAG_WAS_UNKNOWN) && !(flags & H5O_MSG_FLAG_MARK_IF_UNKNOWN))
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "bad flag combination for message")
+
+        /* Reserved bytes/creation index */
+        if(oh->version == H5O_VERSION_1)
+            p += 3; /*reserved*/
+        else {
+            /* Only decode creation index if they are being tracked */
+            if(oh->flags & H5O_HDR_ATTR_CRT_ORDER_TRACKED)
+                UINT16DECODE(p, crt_idx);
+        } /* end else */
+
+        /* Try to detect invalidly formatted object header message that
+         *  extends past end of chunk.
+         */
+        if(p + mesg_size > eom_ptr)
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTINIT, FAIL, "corrupt object header")
+
+#ifndef NDEBUG
+        /* Increment count of null messages */
+        if(H5O_NULL_ID == id)
+            nullcnt++;
+#endif /* NDEBUG */
+
+        /* Check for combining two adjacent 'null' messages */
+        if((udata->file_intent & H5F_ACC_RDWR) &&
+                H5O_NULL_ID == id && oh->nmesgs > 0 &&
+                H5O_NULL_ID == oh->mesg[oh->nmesgs - 1].type->id &&
+                oh->mesg[oh->nmesgs - 1].chunkno == chunkno) {
+
+            /* Combine adjacent null messages */
+            mesgno = oh->nmesgs - 1;
+            oh->mesg[mesgno].raw_size += H5O_SIZEOF_MSGHDR_OH(oh) + mesg_size;
+            oh->mesg[mesgno].dirty = TRUE;
+            merged_null_msgs++;
+            udata->merged_null_msgs++;
+        } /* end if */
+        else {
+            /* Check if we need to extend message table to hold the new message */
+            if(oh->nmesgs >= oh->alloc_nmesgs)
+                if(H5O_alloc_msgs(oh, (size_t)1) < 0)
+                    HGOTO_ERROR(H5E_OHDR, H5E_CANTALLOC, FAIL, "can't allocate more space for messages")
+
+            /* Get index for message */
+            mesgno = oh->nmesgs++;
+
+            /* Initialize information about message */
+            oh->mesg[mesgno].dirty = FALSE;
+            oh->mesg[mesgno].flags = flags;
+            oh->mesg[mesgno].crt_idx = crt_idx;
+            oh->mesg[mesgno].native = NULL;
+            oh->mesg[mesgno].raw = (uint8_t *)p;        /* Casting away const OK - QAK */
+            oh->mesg[mesgno].raw_size = mesg_size;
+            oh->mesg[mesgno].chunkno = chunkno;
+
+            /* Point unknown messages at 'unknown' message class */
+            /* (Usually from future versions of the library) */
+            if(id >= NELMTS(H5O_msg_class_g) || NULL == H5O_msg_class_g[id]) {
+                H5O_unknown_t *unknown;     /* Pointer to "unknown" message info */
+
+                /* Allocate "unknown" message info */
+                if(NULL == (unknown = H5FL_MALLOC(H5O_unknown_t)))
+                    HGOTO_ERROR(H5E_OHDR, H5E_CANTALLOC, FAIL, "memory allocation failed")
+
+                /* Save the original message type ID */
+                *unknown = id;
+
+                /* Save 'native' form of unknown message */
+                oh->mesg[mesgno].native = unknown;
+
+                /* Set message to "unknown" class */
+                oh->mesg[mesgno].type = H5O_msg_class_g[H5O_UNKNOWN_ID];
+
+                /* Check for "fail if unknown" message flag */
+                if(flags & H5O_MSG_FLAG_FAIL_IF_UNKNOWN)
+                    HGOTO_ERROR(H5E_OHDR, H5E_BADMESG, FAIL, "unknown message with 'fail if unknown' flag found")
+                /* Check for "mark if unknown" message flag, etc. */
+                else if((flags & H5O_MSG_FLAG_MARK_IF_UNKNOWN) &&
+                        !(flags & H5O_MSG_FLAG_WAS_UNKNOWN) &&
+                        (udata->file_intent & H5F_ACC_RDWR)) {
+
+                    /* Mark the message as "unknown" */
+                    /* This is a bit aggressive, since the application may
+                     * never change anything about the object (metadata or
+                     * raw data), but we can sort out the finer details
+                     * when/if we start using the flag - QAK
+                     */
+                    /* Also, it's possible that this functionality may not
+                     * get invoked if the object header is brought into
+                     * the metadata cache in some other "weird" way, like
+                     * using H5Ocopy() - QAK
+                     */
+                    oh->mesg[mesgno].flags |= H5O_MSG_FLAG_WAS_UNKNOWN;
+
+                    /* Mark the message and chunk as dirty */
+                    oh->mesg[mesgno].dirty = TRUE;
+                    udata->mesgs_modified = TRUE;
+                    *dirty = TRUE;
+                } /* end if */
+            } /* end if */
+            else
+                /* Set message class for "known" messages */
+                oh->mesg[mesgno].type = H5O_msg_class_g[id];
+        } /* end else */
+
+        /* Advance decode pointer past message */
+        p += mesg_size;
+
+        /* Check for 'gap' at end of chunk */
+        if((eom_ptr - p) > 0 && (eom_ptr - p) < H5O_SIZEOF_MSGHDR_OH(oh)) {
+            /* Gaps can only occur in later versions of the format */
+            HDassert(oh->version > H5O_VERSION_1);
+
+            /* Gaps should only occur in chunks with no null messages */
+            HDassert(nullcnt == 0);
+
+            /* Set gap information for chunk */
+            oh->chunk[chunkno].gap = (size_t)(eom_ptr - p);
+
+            /* Increment location in chunk */
+            p += oh->chunk[chunkno].gap;
+        } /* end if */
+    } /* end while */
+
+    /* Check for correct checksum on chunks, in later versions of the format */
+    if(oh->version > H5O_VERSION_1) {
+        uint32_t stored_chksum;     /* Checksum from file */
+        uint32_t computed_chksum;   /* Checksum computed in memory */
+
+        /* Metadata checksum */
+        UINT32DECODE(p, stored_chksum);
+
+        /* Compute checksum on chunk */
+        computed_chksum = H5_checksum_metadata(oh->chunk[chunkno].image, (oh->chunk[chunkno].size - H5O_SIZEOF_CHKSUM), 0);
+
+        /* Verify checksum */
+        if(stored_chksum != computed_chksum)
+            HGOTO_ERROR(H5E_OHDR, H5E_BADVALUE, FAIL, "incorrect metadata checksum for object header chunk")
+    } /* end if */
+
+    /* Sanity check */
+    HDassert(p == oh->chunk[chunkno].image + oh->chunk[chunkno].size);
+
+    /* Do some inspection/interpretation of new messages from this chunk */
+    /* (detect continuation messages, ref. count messages, etc.) */
+    while(curmesg < oh->nmesgs) {
+        /* Check if next message to examine is a continuation message */
+        if(H5O_CONT_ID == oh->mesg[curmesg].type->id) {
+            H5O_cont_t *cont;
+            unsigned ioflags = 0;   /* Flags for decode routine */
+
+            /* Decode continuation message */
+            cont = (H5O_cont_t *)(H5O_MSG_CONT->decode)(udata->f, udata->dxpl_id, NULL, 0, &ioflags, oh->mesg[curmesg].raw);
+            cont->chunkno = udata->cont_msg_info->nmsgs + 1;	/*the next continuation message/chunk */
+
+            /* Save 'native' form of continuation message */
+            oh->mesg[curmesg].native = cont;
+
+            /* Add to continuation messages left to interpret */
+            if(H5O_add_cont_msg(udata->cont_msg_info, cont) < 0)
+                HGOTO_ERROR(H5E_OHDR, H5E_CANTSET, FAIL, "can't add continuation message")
+
+            /* Mark the message & chunk as dirty if the message was changed by decoding */
+            if((ioflags & H5O_DECODEIO_DIRTY) && (udata->file_intent & H5F_ACC_RDWR)) {
+                oh->mesg[curmesg].dirty = TRUE;
+                udata->mesgs_modified = TRUE;
+                *dirty = TRUE;
+            } /* end if */
+        } /* end if */
+        /* Check if next message to examine is a ref. count message */
+        else if(H5O_REFCOUNT_ID == oh->mesg[curmesg].type->id) {
+            H5O_refcount_t *refcount;
+            unsigned ioflags = 0;   /* Flags for decode routine */
+
+            /* Decode ref. count message */
+            HDassert(oh->version > H5O_VERSION_1);
+            refcount = (H5O_refcount_t *)(H5O_MSG_REFCOUNT->decode)(udata->f, udata->dxpl_id, NULL, 0, &ioflags, oh->mesg[curmesg].raw);
+
+            /* Save 'native' form of ref. count message */
+            oh->mesg[curmesg].native = refcount;
+
+            /* Set object header values */
+            oh->has_refcount_msg = TRUE;
+            oh->nlink = *refcount;
+
+            /* Mark the message & chunk as dirty if the message was changed by decoding */
+            if((ioflags & H5O_DECODEIO_DIRTY) && (udata->file_intent & H5F_ACC_RDWR)) {
+                oh->mesg[curmesg].dirty = TRUE;
+                udata->mesgs_modified = TRUE;
+                *dirty = TRUE;
+            } /* end if */
+        } /* end if */
+        /* Check if next message to examine is a link message */
+        else if(H5O_LINK_ID == oh->mesg[curmesg].type->id) {
+            /* Increment the count of link messages */
+            oh->link_msgs_seen++;
+        } /* end if */
+        /* Check if next message to examine is an attribute message */
+        else if(H5O_ATTR_ID == oh->mesg[curmesg].type->id) {
+            /* Increment the count of attribute messages */
+            oh->attr_msgs_seen++;
+        } /* end if */
+
+        /* Advance to next message */
+        curmesg++;
+    } /* end while */
+
+    /* Mark the chunk dirty if we've merged null messages */
+    if(merged_null_msgs) {
+        udata->mesgs_modified = TRUE;
+	*dirty = TRUE;
+    } /* end if */
+
+done:
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* H5O_chunk_deserialize() */

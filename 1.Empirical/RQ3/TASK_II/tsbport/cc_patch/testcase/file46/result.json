@@ -1,0 +1,143 @@
+{
+    "testcase": {
+        "file46": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "1466 -> 1948",
+                        "L2": "1467 -> 1949",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:function', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1948",
+                            "verify result": "False"
+                        },
+                        "type": "src:function",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:function",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "1571 -> 2114",
+                        "L2": "1572 -> 2115",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:function', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "2114",
+                            "verify result": "False"
+                        },
+                        "type": "src:function",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:function",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 1948,
+                        "add_hunk": [
+                            "size_t\n",
+                            "bit_wcs2nlen (BITCODE_TU restrict wstr, const size_t maxlen)\n",
+                            "{\n",
+                            "  size_t len;\n",
+                            "  if (!wstr)\n",
+                            "    return 0;\n",
+                            "  len = 0;\n",
+                            "#  ifdef HAVE_ALIGNED_ACCESS_REQUIRED\n",
+                            "  if ((uintptr_t)wstr % SIZEOF_SIZE_T)\n",
+                            "    {\n",
+                            "      unsigned char *b = (unsigned char *)wstr;\n",
+                            "      uint16_t c = (b[0] << 8) + b[1];\n",
+                            "      while (c)\n",
+                            "        {\n",
+                            "          len++;\n",
+                            "          if (len >= maxlen)\n",
+                            "            return 0;\n",
+                            "          b += 2;\n",
+                            "          c = (b[0] << 8) + b[1];\n",
+                            "        }\n",
+                            "      return len;\n",
+                            "    }\n",
+                            "  else\n",
+                            "#  endif\n",
+                            "  {\n",
+                            "    BITCODE_TU c = wstr;\n",
+                            "    while (*c)\n",
+                            "      {\n",
+                            "        len++;\n",
+                            "        if (len >= maxlen)\n",
+                            "          return 0;\n",
+                            "        c++;\n",
+                            "      }\n",
+                            "    return len;\n",
+                            "  }\n",
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 2114,
+                        "add_hunk": [
+                            "#ifndef HAVE_STRNLEN\n",
+                            "size_t\n",
+                            "bit_strnlen (const char *restrict str, const size_t maxlen)\n",
+                            "{\n",
+                            "  size_t len;\n",
+                            "  char *c = str;\n",
+                            "  if (!str)\n",
+                            "    return 0;\n",
+                            "  len = 0;\n",
+                            "  while (*c)\n",
+                            "    {\n",
+                            "      len++;\n",
+                            "      if (len >= maxlen)\n",
+                            "        return 0;\n",
+                            "      c++;\n",
+                            "    }\n",
+                            "  return len;\n",
+                            "}\n",
+                            "#endif\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:function"
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:function"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_definition",
+                "outside"
+            ]
+        }
+    }
+}

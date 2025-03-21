@@ -1,0 +1,8 @@
+static const char *string2str(int type, const char *beg, const char *end)
+{
+  struct dynbuf buf;
+  Curl_dyn_init(&buf, MAX_X509_STR);
+  if(utf8asn1str(&buf, type, beg, end) < 0)
+    return NULL;
+  return Curl_dyn_ptr(&buf);
+}

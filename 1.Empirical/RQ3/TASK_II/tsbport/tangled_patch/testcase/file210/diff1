@@ -1,0 +1,8 @@
+127c127
+<     while (*curPtr == *(curPtr + count) && maxnum > count) {
+---
+>     while (maxnum > count && *curPtr == *(curPtr + count)) {
+142c142
+<     while (*(curPtr + count) != *(curPtr + count + 1) && maxnum > count) {
+---
+>     while (maxnum > count+1 && *(curPtr + count) != *(curPtr + count + 1)) {

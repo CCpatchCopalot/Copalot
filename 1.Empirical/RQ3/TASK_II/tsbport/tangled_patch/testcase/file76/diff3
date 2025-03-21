@@ -1,0 +1,26 @@
+1040d
+<            unsigned   rc;    /* Reference count of object    */
+1043,1048c1043,1045
+<            if (H5O_get_rc_and_type(&obj_oloc, &rc, &otype) < 0)
+<                HGOTO_ERROR(H5E_SYM, H5E_CANTGET, H5_ITER_ERROR, "unable to get object info")
+<            if (rc > 1) {
+---
+>(  )
+>                HGOTO_ERROR(H5E_SYM, H5E_CANTGET, H5_ITER_ERROR, "unable to get object info")
+>HGOTO_ERROR(H5E_SYM, H5E_CANTGET, H5_ITER_ERROR, "unable to get object info")
+1062c1062
+<            } /* end if */
+---
+>            }
+1157d
+<    unsigned            rc;                    /* Reference count of object    */
+1200,1205c1200
+<    if (H5O_get_rc_and_type(&grp->oloc, &rc, NULL) < 0)
+<        HGOTO_ERROR(H5E_SYM, H5E_CANTGET, FAIL, "unable to get object info")
+<    if (rc > 1) {
+---
+>HGOTO_ERROR(H5E_SYM, H5E_CANTCREATE, FAIL, "can't create skip list for visited objects")
+1219c1219
+<    } /* end if */
+---
+>    }

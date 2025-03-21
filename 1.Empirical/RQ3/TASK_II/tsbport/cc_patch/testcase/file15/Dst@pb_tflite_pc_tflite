@@ -1,0 +1,156 @@
+namespace tflite {
+
+namespace {
+
+struct TfLiteQuantizationDeleter {
+  void operator()(TfLiteQuantization* q) {
+    if (q) TfLiteQuantizationFree(q);
+  }
+};
+
+using ScopedTfLiteQuantization =
+    std::unique_ptr<TfLiteQuantization, TfLiteQuantizationDeleter>;
+
+TfLiteStatus ReportOpError(TfLiteContext* context, const TfLiteNode& node,
+                           const TfLiteRegistration& registration,
+                           int node_index, const char* message) {
+  context->ReportError(
+      context, "Node number %d (%s) %s.\n", node_index,
+      registration.custom_name
+          ? registration.custom_name
+          : EnumNameBuiltinOperator(
+                static_cast<BuiltinOperator>(registration.builtin_code)),
+      message);
+  return kTfLiteError;
+}
+
+// Stub method which returns kTfLiteError when the function is forbidden.
+// We're registering this function to several different function to save
+// compiled binary size. Please note the restrictions:
+// * The type of first parameter have to be `TfLiteContext*`.
+// * All parameters must be trivially destructible. (E.g. No C++ class)
+TfLiteStatus ForbiddenContextFunction(TfLiteContext* context, ...) {
+  context->ReportError(context,
+                       "The function is forbidden if not calling in delegate.");
+  return kTfLiteError;
+}
+
+// Set the ForbiddenContextFunction to a compatible function pointer.
+template <typename FunctionType>
+void SetForbiddenContextFunction(FunctionType* func) {
+  *func = reinterpret_cast<FunctionType>(ForbiddenContextFunction);
+}
+
+// Returns true if at least one tensor in the given list is kTfLiteDynamic.
+template <typename TensorIntArray>
+bool HasDynamicTensorImpl(const TfLiteContext& context,
+                          const TensorIntArray& int_array) {
+  for (int i : int_array) {
+    const TfLiteTensor& tensor = context.tensors[i];
+    if (tensor.allocation_type == kTfLiteDynamic) {
+      return true;
+    }
+  }
+  return false;
+}
+
+bool HasDynamicTensor(const TfLiteContext& context,
+                      const TfLiteIntArray* int_array) {
+  return HasDynamicTensorImpl(context, TfLiteIntArrayView{int_array});
+}
+
+// Gets the legacy TfLiteQuantizationParams from the current TfLiteQuantization.
+TfLiteQuantizationParams GetLegacyQuantization(
+    const TfLiteQuantization& quantization) {
+  TfLiteQuantizationParams legacy_quantization;
+  legacy_quantization.scale = 0;
+  legacy_quantization.zero_point = 0;
+
+  // If the quantization type isn't affine, return the empty
+  // legacy_quantization.
+  if (quantization.type != kTfLiteAffineQuantization) {
+    return legacy_quantization;
+  }
+
+  auto* affine_quantization =
+      reinterpret_cast<TfLiteAffineQuantization*>(quantization.params);
+  if (!affine_quantization || !affine_quantization->scale ||
+      !affine_quantization->zero_point ||
+      affine_quantization->scale->size != 1 ||
+      affine_quantization->zero_point->size != 1) {
+    return legacy_quantization;
+  }
+
+  // We know its per-layer quantization now.
+  legacy_quantization.scale = affine_quantization->scale->data[0];
+  legacy_quantization.zero_point = affine_quantization->zero_point->data[0];
+  return legacy_quantization;
+}
+
+}  // namespace
+
+// A trivial implementation of GraphInfo around the Interpreter.
+// NOTE: this interpreter info represents the subset of the
+// graph that is executed according to execution plan. Thus,
+// the indices are execution plan indices rather than raw node
+// indices.
+class InterpreterInfo : public GraphInfo {
+ public:
+  explicit InterpreterInfo(Subgraph* subgraph) : subgraph_(subgraph) {}
+
+  size_t num_tensors() const override { return subgraph_->tensors().size(); }
+  TfLiteTensor* tensor(size_t index) override {
+    return &subgraph_->tensors()[index];
+  }
+  size_t num_nodes() const override {
+    return subgraph_->execution_plan().size();
+  }
+  const TfLiteNode& node(size_t index) const override {
+    int node_index = subgraph_->execution_plan()[index];
+    return subgraph_->nodes_and_registration()[node_index].first;
+  }
+  size_t node_index(size_t index) const override {
+    return subgraph_->execution_plan()[index];
+  }
+  const std::vector<int>& inputs() const override {
+    return subgraph_->inputs();
+  }
+  const std::vector<int>& outputs() const override {
+    return subgraph_->outputs();
+  }
+  const std::vector<int>& variables() const override {
+    return subgraph_->variables();
+  }
+
+ public:
+  Subgraph* subgraph_;
+};
+
+Subgraph::Subgraph(ErrorReporter* error_reporter,
+                   TfLiteExternalContext** external_contexts,
+                   std::vector<std::unique_ptr<Subgraph>>* subgraphs,
+                   ResourceVariableMap* resource_variables)
+    : external_contexts_(external_contexts),
+      error_reporter_(error_reporter),
+      next_execution_plan_index_to_prepare_(0),
+      next_execution_plan_index_to_plan_allocation_(0),
+      subgraphs_(subgraphs),
+      resource_variables_(resource_variables) {
+  context_.impl_ = static_cast<void*>(this);
+  context_.ResizeTensor = ResizeTensor;
+  context_.ReportError = ReportErrorC;
+  context_.AddTensors = AddTensors;
+  context_.tensors = nullptr;
+  context_.tensors_size = 0;
+  context_.allow_fp32_relax_to_fp16 = false;
+  context_.recommended_num_threads = -1;
+  context_.GetExternalContext = GetExternalContext;
+  context_.SetExternalContext = SetExternalContext;
+  context_.profiler = nullptr;
+
+  // Reserve some space for the tensors to avoid excessive resizing.
+  tensors_.reserve(kTensorsReservedCapacity);
+  nodes_and_registration().reserve(kTensorsReservedCapacity);
+  // Invalid to call these these except from TfLiteDelegate
+  SwitchToKernelContext();
+}

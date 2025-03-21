@@ -1,0 +1,237 @@
+{
+    "testcase": {
+        "file93": {
+            "match_message": {
+                "Same: find_input -> find_input": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 27 -> 42",
+                        "L2": "3: Unique Matched by Source code 27 -> 42"
+                    }
+                },
+                "Same: get_input_name -> get_input_name": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 77 -> 92",
+                        "L2": "3: Unique Matched by Source code 77 -> 92"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 81->96",
+                        "L2": "5: Matched by Syntax(AST) similarity 81->96"
+                    }
+                },
+                "Same: cb_traces -> cb_traces": {
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 505 -> 527",
+                        "L2": "3: Unique Matched by Source code 511 -> 533"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 532 -> 554",
+                        "L2": "3: Unique Matched by Source code 532 -> 554"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 534 -> 556",
+                        "L2": "3: Unique Matched by Source code 537 -> 559"
+                    },
+                    "Seg_6": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 539->561",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 540->562"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 540->562",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 541->563"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 42,
+                        "add_hunk": [
+                            "        if (strlen(in->name) != nlen) {\n",
+                            "                continue;\n",
+                            "            }\n",
+                            "        if (strncmp(name, in->name, nlen) == 0) {\n"
+                        ],
+                        "delete_location": [
+                            42,
+                            42
+                        ],
+                        "delete_hunk": [
+                            "        if (strcmp(name, in->name) == 0) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 92,
+                        "add_hunk": [
+                            "    if (request->real_path.len < sizeof(base)-1) {\n"
+                        ],
+                        "delete_location": [
+                            92,
+                            92
+                        ],
+                        "delete_hunk": [
+                            "    if (request->real_path.len < strlen(base)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 96,
+                        "add_hunk": [
+                            "return flb_sds_create_len(&request->real_path.data[sizeof(base)-1],request->real_path.len - sizeof(base)-1);"
+                        ],
+                        "delete_location": [
+                            96,
+                            96
+                        ],
+                        "delete_hunk": [
+                            "    return flb_sds_create_len(&request->real_path.data[strlen(base)],\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 527,
+                        "add_hunk": [
+                            "        if (inputs->ptr[i].type != MSGPACK_OBJECT_STR || inputs->ptr[i].via.str.ptr == NULL) {\n",
+                            "                response = 503;\n",
+                            "                error_msg = flb_sds_create(\"invalid input\");\n",
+                            "                msgpack_sbuffer_clear(&mp_sbuf);\n",
+                            "                goto unpack_error;\n"
+                        ],
+                        "delete_location": [
+                            527,
+                            533
+                        ],
+                        "delete_hunk": [
+                            "        input_name = flb_sds_create_len(inputs->ptr[i].via.str.ptr, inputs->ptr[i].via.str.size);\n",
+                            "        msgpack_pack_str_with_body(&mp_pck, input_name, flb_sds_len(input_name));\n",
+                            "        if (inputs->ptr[i].type != MSGPACK_OBJECT_STR) {\n",
+                            "            msgpack_pack_map(&mp_pck, 1);\n",
+                            "            msgpack_pack_str_with_body(&mp_pck, \"status\", strlen(\"status\"));\n",
+                            "            msgpack_pack_str_with_body(&mp_pck, \"error\", strlen(\"error\"));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 554,
+                        "add_hunk": [
+                            "            for (i = 0; i < inputs->size; i++) {\n",
+                            "                input_name = inputs->ptr[i].via.str.ptr;\n",
+                            "                input_nlen = inputs->ptr[i].via.str.size;\n",
+                            "                msgpack_pack_str_with_body(&mp_pck, input_name, input_nlen);\n",
+                            "                if (request->method == MK_METHOD_POST) {\n",
+                            "                    ret = msgpack_params_enable_trace((struct flb_hs *)data, &result,input_name, input_nlen);\n",
+                            "                    if (ret != 0) {\n"
+                        ],
+                        "delete_location": [
+                            554,
+                            554
+                        ],
+                        "delete_hunk": [
+                            "            else {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 556,
+                        "add_hunk": [
+                            "                        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);\n",
+                            "                        msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_ERROR, HTTP_RESULT_ERROR_LEN);\n",
+                            "                        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_RETURNCODE, HTTP_FIELD_RETURNCODE_LEN);\n",
+                            "                        msgpack_pack_int64(&mp_pck, ret);\n",
+                            "                             }\n",
+                            "            else {\n",
+                            "                msgpack_pack_map(&mp_pck, 1);\n",
+                            "msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);\n",
+                            "msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);\n"
+                        ],
+                        "delete_location": [
+                            556,
+                            559
+                        ],
+                        "delete_hunk": [
+                            "                msgpack_pack_str_with_body(&mp_pck, \"status\", strlen(\"status\"));\n",
+                            "                msgpack_pack_str_with_body(&mp_pck, \"error\", strlen(\"error\"));\n",
+                            "                msgpack_pack_str_with_body(&mp_pck, \"message\", strlen(\"message\"));\n",
+                            "                msgpack_pack_str_with_body(&mp_pck, \"method not allowed\", strlen(\"method not allowed\"));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "add",
+                        "add_location": 561,
+                        "add_hunk": [
+                            "else if (request->method == MK_METHOD_DELETE) {\n",
+                            "    disable_trace_input((struct flb_hs *)data, input_name, input_nlen);\n",
+                            "    msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);\n",
+                            "    msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 562,
+                        "add_hunk": [
+                            "else {\n",
+                            "    msgpack_pack_map(&mp_pck, 2);\n",
+                            "    msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);\n",
+                            "    msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_ERROR, HTTP_RESULT_ERROR_LEN);\n",
+                            "    msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_MESSAGE, HTTP_FIELD_MESSAGE_LEN);\n",
+                            "    msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_METHODNOTALLOWED, HTTP_RESULT_METHODNOTALLOWED_LEN);\n",
+                            "}\n",
+                            "     }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: find_input -> find_input": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: get_input_name -> get_input_name": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: cb_traces -> cb_traces": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "function_call",
+                "change_value",
+                "sanity_check",
+                "function_definition"
+            ]
+        }
+    }
+}

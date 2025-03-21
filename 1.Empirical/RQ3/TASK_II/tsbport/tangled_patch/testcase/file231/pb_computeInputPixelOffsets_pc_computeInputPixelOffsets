@@ -1,0 +1,396 @@
+decl  @ 4 @ decl  @ 6 @ 
+operator: ->  @ 20 @ operator: ->  @ 26 @ 
+expr  @ 15 @ expr  @ 18 @ 
+name: endy  @ 8 @ name: endy  @ 11 @ 
+name  @ 1 @ name  @ 2 @ 
+name: rmargin  @ 6 @ name: rmargin  @ 9 @ 
+operator: ->  @ 13 @ operator: ->  @ 16 @ 
+name  @ 20 @ name  @ 23 @ 
+name: uint32_t  @ 6 @ name: uint32_t  @ 9 @ 
+type  @ 3 @ type  @ 5 @ 
+literal: ","  @ 269 @ literal: "computeInputPixelOffsets"  @ 255 @ 
+name  @ 1 @ name  @ 2 @ 
+operator: )  @ 20 @ operator: )  @ 26 @ 
+argument  @ 22 @ argument  @ 28 @ 
+operator: ||  @ 20 @ operator: ||  @ 26 @ 
+name: x1  @ 11 @ name: x1  @ 14 @ 
+literal: ","  @ 165 @ literal: "computeInputPixelOffsets"  @ 154 @ 
+name: starty  @ 8 @ name: starty  @ 11 @ 
+operator: )  @ 20 @ operator: )  @ 23 @ 
+name: uint32_t  @ 8 @ name: uint32_t  @ 11 @ 
+decl  @ 4 @ decl  @ 6 @ 
+name  @ 13 @ name  @ 16 @ 
+operator: )  @ 20 @ operator: )  @ 25 @ 
+name  @ 20 @ name  @ 26 @ 
+operator: (  @ 20 @ operator: (  @ 26 @ 
+operator: ==  @ 20 @ operator: ==  @ 23 @ 
+name: image_data  @ 1 @ name: image_data  @ 2 @ 
+name: crop_mode  @ 20 @ name: crop_mode  @ 26 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 19 @ 
+decl  @ 6 @ decl  @ 9 @ 
+decl  @ 10 @ decl  @ 13 @ 
+type  @ 1 @ type  @ 3 @ 
+literal: ""  @ 133 @ literal: "Specify units in pixels and try again"  @ 29 @ 
+name: bmargin  @ 6 @ name: bmargin  @ 9 @ 
+type  @ 11 @ type  @ 14 @ 
+type  @ 1 @ type  @ 1 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 13 @ 
+operator: =  @ 15 @ operator: =  @ 18 @ 
+decl  @ 11 @ decl  @ 14 @ 
+name: zwidth  @ 10 @ name: zwidth  @ 13 @ 
+name: uint32_t  @ 9 @ name: uint32_t  @ 12 @ 
+block  @ 14 @ block  @ 17 @ 
+literal: ");
+            lmargin = (uint32_t)0;rmargin = (uint32_t)0;
+            return (-1);}
+        if ((tmargin + bmargin)>image->length)
+        {TIFFError("  @ 165 @ literal: "Combined top and bottom margins exceed image length"  @ 154 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+operator: ||  @ 20 @ operator: ||  @ 25 @ 
+name: i  @ 10 @ name: i  @ 13 @ 
+type  @ 6 @ type  @ 9 @ 
+decl  @ 11 @ decl  @ 14 @ 
+name: res_unit  @ 13 @ name: res_unit  @ 16 @ 
+name: crop_length  @ 9 @ name: crop_length  @ 12 @ 
+name: double  @ 3 @ name: double  @ 5 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 14 @ 
+operator: )  @ 20 @ operator: )  @ 25 @ 
+name: crop  @ 20 @ name: crop  @ 25 @ 
+name: yres  @ 4 @ name: yres  @ 6 @ 
+name: image  @ 20 @ name: image  @ 23 @ 
+literal: ""  @ 122 @ literal: "computeInputPixelOffsets"  @ 29 @ 
+block_content  @ 15 @ block_content  @ 18 @ 
+name: buffsize  @ 10 @ name: buffsize  @ 13 @ 
+type  @ 11 @ type  @ 14 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+decl  @ 9 @ decl  @ 12 @ 
+name: crop  @ 20 @ name: crop  @ 26 @ 
+decl  @ 1 @ decl  @ 2 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 10 @ 
+type  @ 9 @ type  @ 12 @ 
+decl  @ 11 @ decl  @ 14 @ 
+operator: (  @ 20 @ operator: (  @ 23 @ 
+operator: !=  @ 13 @ operator: !=  @ 16 @ 
+name: res_unit  @ 20 @ name: res_unit  @ 24 @ 
+type  @ 10 @ type  @ 13 @ 
+type  @ 1 @ type  @ 2 @ 
+operator: &  @ 20 @ operator: &  @ 25 @ 
+name: TIFFError  @ 22 @ name: TIFFError  @ 28 @ 
+name: x2  @ 11 @ name: x2  @ 14 @ 
+operator: &&  @ 13 @ operator: &&  @ 16 @ 
+decl  @ 7 @ decl  @ 10 @ 
+literal: ","  @ 278 @ literal: "computeInputPixelOffsets"  @ 264 @ 
+name: lmargin  @ 6 @ name: lmargin  @ 9 @ 
+name: xres  @ 20 @ name: xres  @ 23 @ 
+decl  @ 10 @ decl  @ 13 @ 
+name: offset  @ 1 @ name: offset  @ 3 @ 
+type  @ 7 @ type  @ 10 @ 
+type  @ 6 @ type  @ 9 @ 
+type  @ 9 @ type  @ 12 @ 
+name: startx  @ 7 @ name: startx  @ 10 @ 
+if_stmt  @ 13 @ if_stmt  @ 16 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+name: CROP_MARGINS  @ 20 @ name: CROP_MARGINS  @ 25 @ 
+literal: ");
+                            return (-1);}
+                        crop->combined_length = zlength;
+                        crop->combined_width += zwidth;
+                        break;case EDGE_BOTTOM:
+                    case EDGE_TOP: /* width from left, length from top */default:
+                        if (i>0&&zwidth != crop->combined_width)
+                        {TIFFError("  @ 122 @ literal: 0  @ 55 @ 
+block  @ 21 @ block  @ 27 @ 
+operator: ->  @ 20 @ operator: ->  @ 24 @ 
+literal: ");
+                            return (-1);}
+                        crop->combined_width = zwidth;
+                        crop->combined_length += zlength;
+                        break;}
+            }}
+        return (0);} /* crop_mode == CROP_REGIONS */
+
+    /* Convert crop margins into offsets into image * Margins are expressed as pixel rows and columns, not bytes */if (crop->crop_mode&CROP_MARGINS)
+    {if (crop->res_unit != RESUNIT_INCH&&crop->res_unit != RESUNIT_CENTIMETER)
+        { /* User has specified pixels as reference unit */tmargin = _TIFFClampDoubleToUInt32(crop->margins[0]);lmargin = _TIFFClampDoubleToUInt32(crop->margins[1]);bmargin = _TIFFClampDoubleToUInt32(crop->margins[2]);rmargin = _TIFFClampDoubleToUInt32(crop->margins[3]);}
+        else{ /* inches or centimeters specified */
+            tmargin = _TIFFClampDoubleToUInt32(crop->margins[0] * scale * yres);lmargin = _TIFFClampDoubleToUInt32(crop->margins[1] * scale * xres);bmargin = _TIFFClampDoubleToUInt32(crop->margins[2] * scale * yres);rmargin = _TIFFClampDoubleToUInt32(crop->margins[3] * scale * xres);}
+
+        if ((lmargin + rmargin)>image->width)
+        {TIFFError("  @ 133 @ literal: 0  @ 148 @ 
+decl  @ 6 @ decl  @ 9 @ 
+name: crop_width  @ 9 @ name: crop_width  @ 12 @ 
+operator: (  @ 20 @ operator: (  @ 25 @ 
+decl  @ 1 @ decl  @ 2 @ 
+literal: 1.0  @ 15 @ literal: 1.0  @ 18 @ 
+type  @ 4 @ type  @ 6 @ 
+decl  @ 9 @ decl  @ 12 @ 
+operator: ->  @ 20 @ operator: ->  @ 23 @ 
+else  @ 18 @ else  @ 21 @ 
+operator: ->  @ 13 @ operator: ->  @ 16 @ 
+operator: (  @ 20 @ operator: (  @ 25 @ 
+operator: (  @ 20 @ operator: (  @ 26 @ 
+name: RESUNIT_INCH  @ 13 @ name: RESUNIT_INCH  @ 16 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 6 @ 
+operator: &&  @ 20 @ operator: &&  @ 24 @ 
+operator: ->  @ 20 @ operator: ->  @ 23 @ 
+name: image  @ 1 @ name: image  @ 2 @ 
+name: width  @ 9 @ name: width  @ 12 @ 
+block_content  @ 3 @ block_content  @ 5 @ 
+literal: ");
+            return (-1);}
+        xres = image->xres;
+        yres = image->yres;
+    }/* Translate user units to image units */
+    scale = 1.0;switch (crop->res_unit)
+    {case RESUNIT_CENTIMETER:
+            if (image->res_unit == RESUNIT_INCH)
+                scale = 1.0 / 2.54;break;
+        case RESUNIT_INCH:if (image->res_unit == RESUNIT_CENTIMETER)
+                scale = 2.54;break;
+        case RESUNIT_NONE: /* Dimensions in pixels */default:
+            break;}
+
+    if (crop->crop_mode&CROP_REGIONS)
+    {max_width = max_length = 0;
+        for (i = 0; i<crop->regions; i++)
+        {if ((crop->res_unit == RESUNIT_INCH) ||(crop->res_unit == RESUNIT_CENTIMETER))
+            {x1 = _TIFFClampDoubleToUInt32(crop->corners[i].X1 * scale *xres);x2 = _TIFFClampDoubleToUInt32(crop->corners[i].X2 * scale *xres);y1 = _TIFFClampDoubleToUInt32(crop->corners[i].Y1 * scale *yres);y2 = _TIFFClampDoubleToUInt32(crop->corners[i].Y2 * scale *yres);}
+            else{
+                x1 = _TIFFClampDoubleToUInt32(crop->corners[i].X1);x2 = _TIFFClampDoubleToUInt32(crop->corners[i].X2);y1 = _TIFFClampDoubleToUInt32(crop->corners[i].Y1);y2 = _TIFFClampDoubleToUInt32(crop->corners[i].Y2);}
+            /* a) Region needs to be within image sizes 0.. width-1; 0..length-1 * b) Corners are expected to be submitted as top-left to * bottom-right. Therefore, check that and reorder input. (be aware * x,y are already casted to (uint32_t) and avoid (0 - 1) ) */uint32_t aux;
+            if (x1>x2)
+            {aux = x1;
+                x1 = x2;x2 = aux;
+            }if (y1>y2)
+            {aux = y1;
+                y1 = y2;y2 = aux;
+            }if (x1>image->width - 1)
+                crop->regionlist[i].x1 = image->width - 1;
+            else if (x1>0)
+                crop->regionlist[i].x1 = (uint32_t)(x1 - 1);if (x2>image->width - 1)
+                crop->regionlist[i].x2 = image->width - 1;
+            else if (x2>0)
+                crop->regionlist[i].x2 = (uint32_t)(x2 - 1);zwidth = crop->regionlist[i].x2 - crop->regionlist[i].x1 + 1;if (y1>image->length - 1)
+                crop->regionlist[i].y1 = image->length - 1;
+            else if (y1>0)
+                crop->regionlist[i].y1 = (uint32_t)(y1 - 1);if (y2>image->length - 1)
+                crop->regionlist[i].y2 = image->length - 1;
+            else if (y2>0)crop->regionlist[i].y2 = (uint32_t)(y2 - 1);zlength = crop->regionlist[i].y2 - crop->regionlist[i].y1 + 1;if (zwidth>max_width)
+                max_width = zwidth;if (zlength>max_length)
+                max_length = zlength;buffsize = (uint32_t)(((zwidth * image->bps * image->spp + 7) / 8) *(zlength + 1));
+
+            crop->regionlist[i].buffsize = buffsize;crop->bufftotal += buffsize;
+
+            /* For composite images with more than one region, the * combined_length or combined_width always needs to be equal, * respectively. * Otherwise, even the first section/region copy * action might cause buffer overrun. */if (crop->img_mode == COMPOSITE_IMAGES)
+            {switch (crop->edge_ref)
+                {case EDGE_LEFT:
+                    case EDGE_RIGHT:if (i>0&&zlength != crop->combined_length)
+                        {TIFFError("  @ 23 @ literal: 2.54  @ 41 @ 
+name: yres  @ 16 @ name: yres  @ 19 @ 
+operator: ->  @ 20 @ operator: ->  @ 25 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 9 @ 
+type  @ 10 @ type  @ 13 @ 
+name  @ 20 @ name  @ 26 @ 
+type  @ 1 @ type  @ 2 @ 
+literal: ""  @ 133 @ literal: 1  @ 30 @ 
+decl  @ 7 @ decl  @ 10 @ 
+type  @ 10 @ type  @ 13 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 5 @ 
+block  @ 2 @ block  @ 4 @ 
+name: length  @ 9 @ name: length  @ 12 @ 
+name: uint32_t  @ 10 @ name: uint32_t  @ 13 @ 
+name: crop_mode  @ 20 @ name: crop_mode  @ 25 @ 
+literal: 0  @ 20 @ literal: 0  @ 23 @ 
+decl  @ 10 @ decl  @ 13 @ 
+type  @ 6 @ type  @ 9 @ 
+operator: !=  @ 13 @ operator: !=  @ 16 @ 
+name: crop  @ 20 @ name: crop  @ 26 @ 
+expr  @ 20 @ expr  @ 23 @ 
+name: CROP_REGIONS  @ 20 @ name: CROP_REGIONS  @ 25 @ 
+literal: 0  @ 20 @ literal: 0  @ 23 @ 
+operator: )  @ 20 @ operator: )  @ 26 @ 
+condition  @ 13 @ condition  @ 16 @ 
+literal: ");
+            tmargin = (uint32_t)0;bmargin = (uint32_t)0;
+            return (-1);}
+    } /* crop_mode == CROP_MARGINS */else
+    { /* no margins requested */tmargin = (uint32_t)0;
+        lmargin = (uint32_t)0;bmargin = (uint32_t)0;
+        rmargin = (uint32_t)0;}
+
+    /* Width, height, and margins are expressed as pixel offsets into image */if (crop->res_unit != RESUNIT_INCH&&crop->res_unit != RESUNIT_CENTIMETER)
+    {if (crop->crop_mode&CROP_WIDTH)
+            width = _TIFFClampDoubleToUInt32(crop->width);
+        elsewidth = image->width - lmargin - rmargin;
+
+        if (crop->crop_mode&CROP_LENGTH)
+            length = _TIFFClampDoubleToUInt32(crop->length);
+        elselength = image->length - tmargin - bmargin;
+    }else
+    {if (crop->crop_mode&CROP_WIDTH)
+            width = _TIFFClampDoubleToUInt32(crop->width * scale * image->xres);
+        elsewidth = image->width - lmargin - rmargin;
+
+        if (crop->crop_mode&CROP_LENGTH)
+            length =_TIFFClampDoubleToUInt32(crop->length * scale * image->yres);
+        elselength = image->length - tmargin - bmargin;
+    }off->tmargin = tmargin;
+    off->bmargin = bmargin;
+    off->lmargin = lmargin;
+    off->rmargin = rmargin;
+
+    /* Calculate regions defined by margins, width, and length. * Coordinates expressed as 0 to imagewidth - 1, imagelength - 1, * since they are used to compute offsets into buffers */switch (crop->edge_ref)
+    {case EDGE_BOTTOM:
+            startx = lmargin;if ((startx + width)>= (image->width - rmargin))
+                endx = image->width - rmargin - 1;
+            elseendx = startx + width - 1;
+
+            endy = image->length - bmargin - 1;
+            if ((endy - length)<= tmargin)
+                starty = tmargin;else
+                starty = endy - length + 1;break;
+        case EDGE_RIGHT:endx = image->width - rmargin - 1;
+            if ((endx - width)<= lmargin)
+                startx = lmargin;else
+                startx = endx - width + 1;starty = tmargin;
+            if ((starty + length)>= (image->length - bmargin))
+                endy = image->length - bmargin - 1;
+            elseendy = starty + length - 1;
+            break;case EDGE_TOP: /* width from left, length from top */
+        case EDGE_LEFT:default:
+            startx = lmargin;if ((startx + width)>= (image->width - rmargin))
+                endx = image->width - rmargin - 1;
+            elseendx = startx + width - 1;
+
+            starty = tmargin;if ((starty + length)>= (image->length - bmargin))
+                endy = image->length - bmargin - 1;
+            elseendy = starty + length - 1;
+            break;}
+    off->startx = startx;
+    off->starty = starty;
+    off->endx = endx;
+    off->endy = endy;
+
+    if (endx + 1<= startx)
+    {TIFFError("  @ 172 @ literal: 0  @ 156 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+block_content  @ 22 @ block_content  @ 28 @ 
+literal: ");
+        return (-1);}
+    crop_width = endx - startx + 1;if (crop_width>image->width)
+        crop_width = image->width;
+
+    if (endy + 1<= starty)
+    {TIFFError("  @ 269 @ literal: "Invalid left/right margins and /or image crop width requested"  @ 256 @ 
+name: tmargin  @ 6 @ name: tmargin  @ 9 @ 
+operator: (  @ 20 @ operator: (  @ 23 @ 
+operator: &&  @ 20 @ operator: &&  @ 23 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+if  @ 13 @ if  @ 16 @ 
+type  @ 8 @ type  @ 11 @ 
+expr  @ 13 @ expr  @ 16 @ 
+literal: ","  @ 172 @ literal: 0  @ 155 @ 
+decl  @ 8 @ decl  @ 11 @ 
+name: CROP_LENGTH  @ 20 @ name: CROP_LENGTH  @ 26 @ 
+name: xres  @ 4 @ name: xres  @ 6 @ 
+literal: "computeInputPixelOffsets"  @ 22 @ literal: "computeInputPixelOffsets"  @ 28 @ 
+name: float  @ 4 @ name: float  @ 6 @ 
+operator: ->  @ 20 @ operator: ->  @ 25 @ 
+literal: 1.0  @ 16 @ literal: 1.0  @ 19 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+block_content  @ 20 @ block_content  @ 23 @ 
+name: image  @ 20 @ name: image  @ 23 @ 
+name: scale  @ 3 @ name: scale  @ 5 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+name: uint32_t  @ 11 @ name: uint32_t  @ 14 @ 
+decl  @ 9 @ decl  @ 12 @ 
+decl  @ 3 @ decl  @ 5 @ 
+type  @ 11 @ type  @ 14 @ 
+name: crop_mode  @ 20 @ name: crop_mode  @ 26 @ 
+comment: /* offsets of first and last row to extract */  @ 8 @ comment: /* offsets of first and last row to extract */  @ 11 @ 
+decl  @ 10 @ decl  @ 13 @ 
+type  @ 10 @ type  @ 13 @ 
+decl  @ 10 @ decl  @ 13 @ 
+name: crop  @ 20 @ name: crop  @ 25 @ 
+decl  @ 8 @ decl  @ 11 @ 
+operator: !=  @ 20 @ operator: !=  @ 24 @ 
+operator: &  @ 20 @ operator: &  @ 26 @ 
+name: yres  @ 20 @ name: yres  @ 23 @ 
+block  @ 19 @ block  @ 22 @ 
+literal: ","  @ 133 @ literal: 1  @ 71 @ 
+decl  @ 1 @ decl  @ 3 @ 
+modifier: *  @ 1 @ modifier: *  @ 3 @ 
+type  @ 4 @ type  @ 6 @ 
+unit  @ 1 @ unit  @ 1 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+operator: ==  @ 20 @ operator: ==  @ 23 @ 
+name: xres  @ 15 @ name: xres  @ 18 @ 
+decl  @ 11 @ decl  @ 14 @ 
+type  @ 10 @ type  @ 13 @ 
+operator: )  @ 20 @ operator: )  @ 23 @ 
+name  @ 20 @ name  @ 24 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 12 @ 
+name: off  @ 1 @ name: off  @ 3 @ 
+name  @ 20 @ name  @ 25 @ 
+type  @ 9 @ type  @ 12 @ 
+operator: )  @ 20 @ operator: )  @ 26 @ 
+decl  @ 6 @ decl  @ 9 @ 
+name  @ 13 @ name  @ 16 @ 
+type  @ 10 @ type  @ 13 @ 
+operator: )  @ 20 @ operator: )  @ 24 @ 
+literal: "Cannot compute margins or fixed size sections without ""  @ 22 @ literal: "Cannot compute margins or fixed size sections without image resolution"  @ 28 @ 
+literal: ","  @ 122 @ literal: 2.54  @ 45 @ 
+name: RESUNIT_NONE  @ 20 @ name: RESUNIT_NONE  @ 24 @ 
+decl  @ 6 @ decl  @ 9 @ 
+name: RESUNIT_CENTIMETER  @ 13 @ name: RESUNIT_CENTIMETER  @ 16 @ 
+name  @ 20 @ name  @ 23 @ 
+name: res_unit  @ 13 @ name: res_unit  @ 16 @ 
+decl  @ 9 @ decl  @ 12 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 11 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+literal: "  @ 278 @ literal: "Invalid top/bottom margins and /or image crop length requested"  @ 265 @ 
+operator: &  @ 20 @ operator: &  @ 26 @ 
+name: computeInputPixelOffsets  @ 1 @ name: computeInputPixelOffsets  @ 2 @ 
+comment: /* Values for these offsets are in pixels from start of image, not bytes, * and are indexed from zero to width - 1 or length - 1 */  @ 5 @ comment: /* Values for these offsets are in pixels from start of image, not bytes,
+   * and are indexed from zero to width - 1 or length - 1 */  @ 7 @ 
+operator: &  @ 20 @ operator: &  @ 25 @ 
+name: crop_mask  @ 1 @ name: crop_mask  @ 2 @ 
+name: y2  @ 11 @ name: y2  @ 14 @ 
+name: crop  @ 20 @ name: crop  @ 24 @ 
+operator: (  @ 20 @ operator: (  @ 25 @ 
+operator: ->  @ 20 @ operator: ->  @ 26 @ 
+name: CROP_WIDTH  @ 20 @ name: CROP_WIDTH  @ 26 @ 
+name: image  @ 13 @ name: image  @ 16 @ 
+name: uint32_t  @ 7 @ name: uint32_t  @ 10 @ 
+name  @ 20 @ name  @ 25 @ 
+if  @ 20 @ if  @ 23 @ 
+operator: )  @ 20 @ operator: )  @ 23 @ 
+name: image  @ 13 @ name: image  @ 16 @ 
+expr  @ 16 @ expr  @ 19 @ 
+name: max_length  @ 10 @ name: max_length  @ 13 @ 
+decl  @ 10 @ decl  @ 13 @ 
+name: crop  @ 1 @ name: crop  @ 2 @ 
+if_stmt  @ 20 @ if_stmt  @ 23 @ 
+operator: ||  @ 20 @ operator: ||  @ 23 @ 
+name: crop_mode  @ 20 @ name: crop_mode  @ 25 @ 
+function  @ 1 @ function  @ 1 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 18 @ 
+name: zlength  @ 10 @ name: zlength  @ 13 @ 
+operator: (  @ 20 @ operator: (  @ 24 @ 
+name: y1  @ 11 @ name: y1  @ 14 @ 
+type  @ 11 @ type  @ 14 @ 
+type  @ 7 @ type  @ 10 @ 
+comment: /* offsets of first and last columns to extract */  @ 7 @ comment: /* offsets of first and last columns to extract */  @ 10 @ 
+type  @ 8 @ type  @ 11 @ 
+name: struct  @ 1 @ name: struct  @ 3 @ 
+type  @ 6 @ type  @ 9 @ 
+name: max_width  @ 10 @ name: max_width  @ 13 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+type  @ 9 @ type  @ 12 @ 
+name  @ 1 @ name  @ 3 @ 
+operator: (  @ 20 @ operator: (  @ 23 @ 
+name: endx  @ 7 @ name: endx  @ 10 @ 
+operator: =  @ 16 @ operator: =  @ 19 @ 
+condition  @ 20 @ condition  @ 23 @ 
+operator: ||  @ 20 @ operator: ||  @ 25 @ 
+

@@ -1,0 +1,248 @@
+{
+    "testcase": {
+        "file0": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "99 -> -1",
+                        "L2": "101 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: checkInkNamesString -> checkInkNamesString": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 103 -> 147",
+                        "L2": "3: Unique Matched by Source code 106 -> 150"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 109 -> 153",
+                        "L2": "3: Unique Matched by Source code 109 -> 153"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 114->158",
+                        "L2": "3: Unique Matched by Source code 115 -> 159"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 118->162",
+                        "L2": "5: Matched by Syntax(AST) similarity 118->162"
+                    }
+                },
+                "Same: _TIFFVSetField -> _TIFFVSetField": {
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 398 -> 479",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 399->480 ([[480, 1.0], [269, 0.5140388768898488], [256, 0.5074626865671642], [490, 0.497737556561086], [361, 0.4963235294117647], [262, 0.4873949579831933], [229, 0.4844961240310077], [349, 0.48], [420, 0.476], [431, 0.47410358565737054]])"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 401 -> 482",
+                        "L2": "3: Unique Matched by Source code 403 -> 484"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 405 -> 486",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 406->487"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static uint16_t\n",
+                            "countInkNamesString(TIFF *tif, uint32_t slen, const char *s)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            " * End:\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 147,
+                        "add_hunk": [
+                            "\tuint16_t i = 0;\n"
+                        ],
+                        "delete_location": [
+                            147,
+                            150
+                        ],
+                        "delete_hunk": [
+                            "\tTIFFDirectory* td = &tif->tif_dir;\n",
+                            "\tuint16_t i = td->td_samplesperpixel;\n",
+                            "\tif (slen > 0) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 153,
+                        "add_hunk": [
+                            "\tif (slen > 0) {\n",
+                            "\t\tdo {\n"
+                        ],
+                        "delete_location": [
+                            153,
+                            153
+                        ],
+                        "delete_hunk": [
+                            "\t\tfor (; i > 0; i--) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 158,
+                        "add_hunk": [
+                            "\t\t\ti++;\n",
+                            "\t\t} while (cp < ep);\n",
+                            "\t\treturn (i);\n"
+                        ],
+                        "delete_location": [
+                            158,
+                            159
+                        ],
+                        "delete_hunk": [
+                            "\t\t}\n",
+                            "\t\treturn ((uint32_t)(cp - s));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 162,
+                        "add_hunk": [
+                            "TIFFErrorExt(tif->tif_clientdata, \"TIFFSetField\",\"%s: Invalid InkNames value; no NUL at given buffer end location %\"PRIu32\", after %\"PRIu16\" ink\",tif->tif_name, slen, i);"
+                        ],
+                        "delete_location": [
+                            162,
+                            162
+                        ],
+                        "delete_hunk": [
+                            "\tTIFFErrorExt(tif->tif_clientdata, \"TIFFSetField\",\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 479,
+                        "add_hunk": [
+                            "\t\t{\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 482,
+                        "add_hunk": [
+                            "\t\t\tuint16_t ninksinstring;\n",
+                            "\t\t\tninksinstring = countInkNamesString(tif, v, s);\n",
+                            "\t\t\tstatus = ninksinstring > 0;\n",
+                            "\t\t\tif(ninksinstring > 0 ) {\n"
+                        ],
+                        "delete_location": [
+                            482,
+                            484
+                        ],
+                        "delete_hunk": [
+                            "\t\tv = checkInkNamesString(tif, v, s);\n",
+                            "\t\tstatus = v > 0;\n",
+                            "\t\tif( v > 0 ) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 486,
+                        "add_hunk": [
+                            "\t\t\t\tif (TIFFFieldSet(tif, FIELD_NUMBEROFINKS))\n",
+                            "\t\t\t\t{\n",
+                            "\t\t\t\t\tif (td->td_numberofinks != ninksinstring) {\n",
+                            "\t\t\t\t\t\tTIFFErrorExt(tif->tif_clientdata, module,\"Warning %s; Tag %s:\\nValue %\"PRIu16\" of NumberOfInks is different from the number of inks %\"PRIu16\".\\n-> NumberOfInks value adapted to %\"PRIu16\"\",tif->tif_name, fip->field_name, td->td_numberofinks, ninksinstring, ninksinstring);\n",
+                            "\t\t\t\t\t\ttd->td_numberofinks = ninksinstring;\n",
+                            "\t\t\t\t\t}\n",
+                            "\t\t\t\t} else {\n",
+                            "\t\t\t\t\ttd->td_numberofinks = ninksinstring;\n",
+                            "\t\t\t\t\tTIFFSetFieldBit(tif, FIELD_NUMBEROFINKS);\n",
+                            "\t\t\t\t}\n",
+                            "\t\t\t\tif (TIFFFieldSet(tif, FIELD_SAMPLESPERPIXEL))\n",
+                            "\t\t\t\t{\n",
+                            "\t\t\t\t\tif (td->td_numberofinks != td->td_samplesperpixel) {\n",
+                            "\t\t\t\t\t\tTIFFErrorExt(tif->tif_clientdata, module,\"Warning %s; Tag %s:\\nValue %\"PRIu16\" of NumberOfInks is different from the SamplesPerPixel value %\"PRIu16\"\",tif->tif_name, fip->field_name, td->td_numberofinks, td->td_samplesperpixel);\n",
+                            "\t\t\t\t\t}\n",
+                            "\t\t\t\t}\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown",
+                            "unknown"
+                        ]
+                    }
+                },
+                "Same: checkInkNamesString -> checkInkNamesString": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: _TIFFVSetField -> _TIFFVSetField": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "function_call",
+                "change_type",
+                "in_loop",
+                "change_value",
+                "Func_Definition",
+                "Func_Invocation",
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "testcase": {
+        "file32": {
+            "match_message": {
+                "Same: r_anal_vtable_begin -> r_anal_vtable_begin": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 60 -> 59",
+                        "L2": "3: Unique Matched by Source code 61 -> 60"
+                    }
+                },
+                "Same: vtable_is_value_in_text_section -> vtable_is_value_in_text_section": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 75 -> 74",
+                        "L2": "3: Unique Matched by Source code 75 -> 74"
+                    }
+                },
+                "Same: vtable_is_addr_vtable_start_msvc -> vtable_is_addr_vtable_start_msvc": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 128 -> 133",
+                        "L2": "3: Unique Matched by Source code 129 -> 134"
+                    },
+                    "Seg_3": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 147 -> 152",
+                        "L2": "3: Unique Matched by Source code 147 -> 152"
+                    }
+                },
+                "Same: r_anal_list_vtables -> r_anal_list_vtables": {
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 282 -> 288",
+                        "L2": "3: Unique Matched by Source code 282 -> 288"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 59,
+                        "add_hunk": [
+                            "\t\tcontext->read_addr = be? vtable_read_addr_be32 : vtable_read_addr_le32;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 74,
+                        "add_hunk": [
+                            "\tut64 curAddressValue = UT64_MAX;\n"
+                        ],
+                        "delete_location": [
+                            74,
+                            74
+                        ],
+                        "delete_hunk": [
+                            "\tut64 curAddressValue;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 133,
+                        "add_hunk": [
+                            "\tut8 buf[VTABLE_BUFF_SIZE];\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            152,
+                            152
+                        ],
+                        "delete_hunk": [
+                            "\t\t\tut8 buf[VTABLE_BUFF_SIZE];\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 288,
+                        "add_hunk": [
+                            "\tRVTableContext context = {0};\n"
+                        ],
+                        "delete_location": [
+                            288,
+                            288
+                        ],
+                        "delete_hunk": [
+                            "\tRVTableContext context;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: r_anal_vtable_begin -> r_anal_vtable_begin": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: vtable_is_value_in_text_section -> vtable_is_value_in_text_section": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: vtable_is_addr_vtable_start_msvc -> vtable_is_addr_vtable_start_msvc": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: r_anal_list_vtables -> r_anal_list_vtables": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_value",
+                "change_type"
+            ]
+        }
+    }
+}

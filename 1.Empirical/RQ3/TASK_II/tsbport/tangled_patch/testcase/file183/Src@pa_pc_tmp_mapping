@@ -1,0 +1,1 @@
+result = Curl_ssl_addsessionid(data, conn, (void *)BACKEND->cred, sizeof(struct Curl_schannel_cred), sockindex);

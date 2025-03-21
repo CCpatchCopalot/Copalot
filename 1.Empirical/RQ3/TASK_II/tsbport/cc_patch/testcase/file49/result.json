@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file49": {
+            "match_message": {
+                "Same: H5HL__fl_deserialize -> H5HL__fl_deserialize": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 195 -> 235",
+                        "L2": "3: Unique Matched by Source code 195 -> 235"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 39,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 235,
+                        "add_hunk": [
+                            "        if ((free_block + (2 * heap->sizeof_size)) > heap->dblk_size)\n"
+                        ],
+                        "delete_location": [
+                            235,
+                            235
+                        ],
+                        "delete_hunk": [
+                            "        if (free_block >= heap->dblk_size)\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: H5HL__fl_deserialize -> H5HL__fl_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

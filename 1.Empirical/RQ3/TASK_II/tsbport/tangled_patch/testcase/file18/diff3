@@ -1,0 +1,16 @@
+23a24,28
+>    if (splits_vec_size > 0) {
+>      int prev_split = splits_vec(0);
+>      OP_REQUIRES(context, prev_split == 0,errors::InvalidArgument("First split value must be 0, got ",prev_split));
+>      for (int i = 1; i < splits_vec_size; ++i) {
+>        bool valid_splits = splits_vec(i) >= prev_split;
+187a188
+>      if (num_tokens > 0) {
+212a213,219
+>          ngram->append(right_pad_);
+>        }
+>      } else {
+>        for (int n = 0; n < right_padding - 1; ++n) {
+>          ngram->append(right_pad_);
+>          ngram->append(separator_);
+>        }

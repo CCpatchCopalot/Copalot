@@ -1,0 +1,19 @@
+1521a1522,1525
+>		if (sec->length < 2) {
+>			GF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, ("[MPEG-2 TS] M2TS Table parsing error, length %d is too small\n", sec->length) );
+>			return;
+>		}
+1544a1545,1548
+>			if (sec->length < 5) {
+>				GF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, ("[MPEG-2 TS] M2TS Table parsing error, length %d is too small\n", sec->length) );
+>				return;
+>			}
+2230a2231,2234
+>	if (data_size < 6) {
+>		GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("[MPEG-2 TS] Invalid PMT header data size %d\n", data_size ) );
+>		return;
+>	}
+2294c2294
+<	while (pos<data_size) {
+---
+>	while (pos<data_size-5) {

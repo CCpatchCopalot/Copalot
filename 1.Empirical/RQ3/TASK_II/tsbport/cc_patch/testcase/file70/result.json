@@ -1,0 +1,67 @@
+{
+    "testcase": {
+        "file70": {
+            "match_message": {
+                "Same: Media_RewriteODFrame -> Media_RewriteODFrame": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 110 -> 133",
+                        "L2": "3: Unique Matched by Source code 111 -> 134"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 139 -> 162",
+                        "L2": "3: Unique Matched by Source code 140 -> 163"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 166 -> 189",
+                        "L2": "3: Unique Matched by Source code 167 -> 190"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 133,
+                        "add_hunk": [
+                            "\t\t\t\t\tif (!ref->trackRef || (ref->trackRef>mpod->trackIDCount)) continue;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 162,
+                        "add_hunk": [
+                            "\t\t\t\tif (!mpod->trackIDs || !ref->trackRef || (ref->trackRef>mpod->trackIDCount)) continue;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 189,
+                        "add_hunk": [
+                            "\t\t\t\tif (!mpod->trackIDs || !esdR->ES_ID[i] || (esdR->ES_ID[i]>mpod->trackIDCount)) continue;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: Media_RewriteODFrame -> Media_RewriteODFrame": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

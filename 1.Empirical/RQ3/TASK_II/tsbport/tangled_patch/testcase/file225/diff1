@@ -1,0 +1,8 @@
+364a365
+> GLOBALS->yylen_vcd_partial_c_2=len;
+368d368
+< 	GLOBALS->yylen_vcd_partial_c_2=len;
+1093c1093
+< 			if(tok==T_STRING)
+---
+> 			if (tok!= T_END && tok != T_EOF)

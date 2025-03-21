@@ -1,0 +1,9 @@
+91,93c91
+<	pyc_object *ret;
+<	ret = R_NEW0 (pyc_object);
+---
+>	pyc_object *ret = R_NEW0 (pyc_object);
+1130a1131
+>		if (ref_idx->data != ret) {
+1131a1132
+>		}

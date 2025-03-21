@@ -1,0 +1,74 @@
+{
+    "testcase": {
+        "file31": {
+            "match_message": {
+                "Same: r_bin_java_constant_value_attr_new -> r_bin_java_constant_value_attr_new": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3425 -> 3573",
+                        "L2": "3: Unique Matched by Source code 3426 -> 3574"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3426 -> 3574",
+                        "L2": "3: Unique Matched by Source code 3427 -> 3575"
+                    }
+                },
+                "Same: r_bin_java_rti_annotations_attr_new -> r_bin_java_rti_annotations_attr_new": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 6855 -> 7204",
+                        "L2": "3: Unique Matched by Source code 6856 -> 7205"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 3573,
+                        "add_hunk": [
+                            "\t\tif (offset + 4 < sz) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 3574,
+                        "add_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 7204,
+                        "add_hunk": [
+                            "\tif (buf_offset + 32 >= sz) {\n",
+                            "\t\treturn NULL;\n",
+                            "\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: r_bin_java_constant_value_attr_new -> r_bin_java_constant_value_attr_new": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: r_bin_java_rti_annotations_attr_new -> r_bin_java_rti_annotations_attr_new": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

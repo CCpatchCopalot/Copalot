@@ -1,0 +1,804 @@
+argument_list  @ 76 @ argument_list  @ 89 @ 
+name: region  @ 1 @ name: region  @ 4 @ 
+block_content  @ 76 @ block_content  @ 89 @ 
+name: regionlist  @ 41 @ name: regionlist  @ 44 @ 
+name  @ 33 @ name  @ 36 @ 
+name: img_width  @ 90 @ name: img_width  @ 106 @ 
+expr  @ 50 @ expr  @ 54 @ 
+expr  @ 25 @ expr  @ 28 @ 
+name: bps  @ 19 @ name: bps  @ 22 @ 
+expr  @ 81 @ expr  @ 96 @ 
+type  @ 1 @ type  @ 3 @ 
+operator: =  @ 15 @ operator: =  @ 18 @ 
+decl  @ 7 @ decl  @ 10 @ 
+operator: +  @ 90 @ operator: +  @ 108 @ 
+name: row  @ 50 @ name: row  @ 54 @ 
+expr  @ 40 @ expr  @ 43 @ 
+argument  @ 90 @ argument  @ 107 @ 
+name: bytes_per_pixel  @ 4 @ name: bytes_per_pixel  @ 7 @ 
+name: first_row  @ 51 @ name: first_row  @ 55 @ 
+name: char  @ 1 @ name: char  @ 3 @ 
+decl  @ 10 @ decl  @ 13 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 56 @ 
+if  @ 25 @ if  @ 28 @ 
+argument  @ 58 @ argument  @ 62 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+name: dst  @ 90 @ name: dst  @ 106 @ 
+if_stmt  @ 58 @ if_stmt  @ 61 @ 
+expr  @ 16 @ expr  @ 19 @ 
+operator: =  @ 13 @ operator: =  @ 16 @ 
+literal: "Unsupported bit depth %"  @ 97 @ literal: "Unsupported bit depth %"  @ 116 @ 
+else  @ 27 @ else  @ 30 @ 
+literal: "extractSeparateRegion"  @ 97 @ literal: "extractSeparateRegion"  @ 116 @ 
+operator: .  @ 33 @ operator: .  @ 36 @ 
+expr  @ 67 @ expr  @ 73 @ 
+decl  @ 3 @ decl  @ 6 @ 
+argument  @ 81 @ argument  @ 95 @ 
+expr  @ 67 @ expr  @ 72 @ 
+call  @ 74 @ call  @ 84 @ 
+type  @ 6 @ type  @ 9 @ 
+argument  @ 67 @ argument  @ 73 @ 
+expr  @ 58 @ expr  @ 62 @ 
+name: img_width  @ 74 @ name: img_width  @ 84 @ 
+literal: 1  @ 77 @ literal: 1  @ 91 @ 
+argument  @ 69 @ argument  @ 78 @ 
+block_content  @ 69 @ block_content  @ 77 @ 
+type  @ 6 @ type  @ 9 @ 
+block_content  @ 57 @ block_content  @ 61 @ 
+expr  @ 81 @ expr  @ 95 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 12 @ 
+comment: /* end extractSeparateRegion */  @ 103 @ comment: /* end extractSeparateRegion */  @ 122 @ 
+argument  @ 90 @ argument  @ 106 @ 
+expr  @ 60 @ expr  @ 65 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 18 @ 
+operator: *  @ 51 @ operator: *  @ 55 @ 
+name: extractContigSamplesShifted24bits  @ 81 @ name: extractContigSamplesShifted24bits  @ 94 @ 
+name: first_col  @ 81 @ name: first_col  @ 96 @ 
+operator: /  @ 20 @ operator: /  @ 23 @ 
+name: crop  @ 40 @ name: crop  @ 43 @ 
+type  @ 7 @ type  @ 10 @ 
+if  @ 65 @ if  @ 70 @ 
+operator: =  @ 37 @ operator: =  @ 40 @ 
+literal: "extractSeparateRegion"  @ 60 @ literal: "extractSeparateRegion"  @ 65 @ 
+expr  @ 83 @ expr  @ 100 @ 
+break  @ 86 @ break  @ 103 @ 
+expr  @ 87 @ expr  @ 104 @ 
+expr  @ 33 @ expr  @ 36 @ 
+operator: +  @ 28 @ operator: +  @ 31 @ 
+expr  @ 81 @ expr  @ 96 @ 
+name: spp  @ 58 @ name: spp  @ 62 @ 
+argument  @ 67 @ argument  @ 74 @ 
+operator: .  @ 32 @ operator: .  @ 35 @ 
+expr  @ 44 @ expr  @ 48 @ 
+operator: (  @ 70 @ operator: (  @ 79 @ 
+expr  @ 41 @ expr  @ 44 @ 
+name: y2  @ 33 @ name: y2  @ 36 @ 
+block  @ 66 @ block  @ 71 @ 
+break  @ 72 @ break  @ 81 @ 
+operator: +  @ 45 @ operator: +  @ 49 @ 
+comment: /* img_length = image->length; */  @ 14 @ comment: /* img_length = image->length; */  @ 17 @ 
+name  @ 41 @ name  @ 44 @ 
+argument  @ 58 @ argument  @ 61 @ 
+name: prev_trailing_bits  @ 74 @ name: prev_trailing_bits  @ 87 @ 
+argument  @ 90 @ argument  @ 108 @ 
+operator: ->  @ 34 @ operator: ->  @ 37 @ 
+expr  @ 77 @ expr  @ 91 @ 
+call  @ 58 @ call  @ 61 @ 
+name: src  @ 10 @ name: src  @ 13 @ 
+name: TIFFError  @ 60 @ name: TIFFError  @ 65 @ 
+operator: )  @ 46 @ operator: )  @ 50 @ 
+name: bps  @ 90 @ name: bps  @ 107 @ 
+name: dst  @ 44 @ name: dst  @ 48 @ 
+decl  @ 1 @ decl  @ 3 @ 
+literal: 1  @ 61 @ literal: 1  @ 67 @ 
+name: dst  @ 53 @ name: dst  @ 57 @ 
+expr  @ 81 @ expr  @ 94 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 10 @ 
+name: PRIu16  @ 97 @ name: PRIu16  @ 116 @ 
+operator: =  @ 32 @ operator: =  @ 35 @ 
+expr  @ 58 @ expr  @ 63 @ 
+argument  @ 81 @ argument  @ 97 @ 
+expr  @ 32 @ expr  @ 35 @ 
+block_content  @ 25 @ block_content  @ 28 @ 
+argument  @ 60 @ argument  @ 66 @ 
+name: PRIu32  @ 83 @ name: PRIu32  @ 100 @ 
+argument  @ 90 @ argument  @ 106 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 25 @ 
+case  @ 57 @ case  @ 61 @ 
+name: crop_buff  @ 1 @ name: crop_buff  @ 3 @ 
+operator: =  @ 51 @ operator: =  @ 55 @ 
+name: spp  @ 20 @ name: spp  @ 23 @ 
+type  @ 7 @ type  @ 10 @ 
+name: row  @ 69 @ name: row  @ 78 @ 
+argument  @ 81 @ argument  @ 95 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: (  @ 46 @ operator: (  @ 50 @ 
+literal: 1  @ 70 @ literal: 1  @ 79 @ 
+decl  @ 6 @ decl  @ 9 @ 
+argument  @ 76 @ argument  @ 90 @ 
+block  @ 49 @ block  @ 53 @ 
+expr  @ 48 @ expr  @ 52 @ 
+return  @ 102 @ return  @ 121 @ 
+expr  @ 92 @ expr  @ 112 @ 
+operator: =  @ 45 @ operator: =  @ 49 @ 
+operator: )  @ 77 @ operator: )  @ 91 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 49 @ 
+expr  @ 81 @ expr  @ 94 @ 
+expr  @ 64 @ expr  @ 70 @ 
+expr  @ 43 @ expr  @ 47 @ 
+operator: *  @ 45 @ operator: *  @ 49 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 47 @ 
+name: tsample_t  @ 11 @ name: tsample_t  @ 14 @ 
+name: img_width  @ 58 @ name: img_width  @ 61 @ 
+type  @ 8 @ type  @ 11 @ 
+literal: "Unable to extract row %"  @ 76 @ literal: "Unable to extract row %"  @ 90 @ 
+literal: 0  @ 102 @ literal: 0  @ 121 @ 
+argument_list  @ 60 @ argument_list  @ 65 @ 
+operator: /  @ 45 @ operator: /  @ 49 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 14 @ 
+name: TIFFError  @ 69 @ name: TIFFError  @ 77 @ 
+literal: 1  @ 28 @ literal: 1  @ 31 @ 
+case  @ 89 @ case  @ 106 @ 
+condition  @ 48 @ condition  @ 52 @ 
+literal: 8  @ 46 @ literal: 8  @ 50 @ 
+type  @ 6 @ type  @ 9 @ 
+name: unsigned  @ 1 @ name: unsigned  @ 3 @ 
+literal: 4  @ 88 @ literal: 4  @ 105 @ 
+argument  @ 58 @ argument  @ 63 @ 
+expr  @ 90 @ expr  @ 108 @ 
+name: bytes_per_sample  @ 28 @ name: bytes_per_sample  @ 31 @ 
+expr_stmt  @ 83 @ expr_stmt  @ 99 @ 
+operator: (  @ 19 @ operator: (  @ 22 @ 
+expr  @ 38 @ expr  @ 41 @ 
+expr  @ 90 @ expr  @ 106 @ 
+literal: 1  @ 84 @ literal: 1  @ 101 @ 
+if  @ 58 @ if  @ 61 @ 
+case  @ 64 @ case  @ 70 @ 
+name: uint32_t  @ 4 @ name: uint32_t  @ 7 @ 
+argument  @ 81 @ argument  @ 95 @ 
+literal: 1  @ 67 @ literal: 1  @ 74 @ 
+name: bytes_per_pixel  @ 20 @ name: bytes_per_pixel  @ 23 @ 
+operator: =  @ 50 @ operator: =  @ 54 @ 
+call  @ 81 @ call  @ 94 @ 
+argument  @ 90 @ argument  @ 109 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 37 @ 
+index  @ 33 @ index  @ 36 @ 
+expr  @ 15 @ expr  @ 18 @ 
+operator: )  @ 20 @ operator: )  @ 23 @ 
+name: region  @ 40 @ name: region  @ 43 @ 
+name: src_rowsize  @ 45 @ name: src_rowsize  @ 49 @ 
+expr  @ 40 @ expr  @ 43 @ 
+operator: +  @ 20 @ operator: +  @ 23 @ 
+operator: *  @ 46 @ operator: *  @ 50 @ 
+if_stmt  @ 90 @ if_stmt  @ 106 @ 
+operator: *  @ 45 @ operator: *  @ 49 @ 
+expr  @ 34 @ expr  @ 37 @ 
+name: regionlist  @ 32 @ name: regionlist  @ 35 @ 
+literal: "extractSeparateRegion"  @ 76 @ literal: "extractSeparateRegion"  @ 89 @ 
+name: TIFFError  @ 97 @ name: TIFFError  @ 116 @ 
+name: sample  @ 90 @ name: sample  @ 107 @ 
+index  @ 34 @ index  @ 37 @ 
+operator: (  @ 98 @ operator: (  @ 117 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 43 @ 
+name: uint16_t  @ 9 @ name: uint16_t  @ 12 @ 
+operator: (  @ 93 @ operator: (  @ 113 @ 
+name: crop  @ 32 @ name: crop  @ 35 @ 
+expr  @ 32 @ expr  @ 35 @ 
+operator: -  @ 38 @ operator: -  @ 41 @ 
+expr  @ 55 @ expr  @ 59 @ 
+type  @ 5 @ type  @ 8 @ 
+name  @ 1 @ name  @ 2 @ 
+argument  @ 74 @ argument  @ 86 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 19 @ 
+name: img_width  @ 45 @ name: img_width  @ 49 @ 
+argument  @ 81 @ argument  @ 94 @ 
+literal: 0  @ 21 @ literal: 0  @ 24 @ 
+index  @ 35 @ index  @ 38 @ 
+name: src  @ 74 @ name: src  @ 84 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 31 @ 
+name: src_offset  @ 7 @ name: src_offset  @ 10 @ 
+decl  @ 8 @ decl  @ 11 @ 
+block_content  @ 60 @ block_content  @ 65 @ 
+expr  @ 67 @ expr  @ 72 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 22 @ 
+name: first_col  @ 90 @ name: first_col  @ 108 @ 
+block  @ 22 @ block  @ 25 @ 
+name: bytes_per_sample  @ 25 @ name: bytes_per_sample  @ 28 @ 
+name: spp  @ 16 @ name: spp  @ 19 @ 
+operator: )  @ 51 @ operator: )  @ 55 @ 
+name: bps  @ 74 @ name: bps  @ 85 @ 
+operator: .  @ 35 @ operator: .  @ 38 @ 
+name: spp  @ 90 @ name: spp  @ 107 @ 
+name: src  @ 90 @ name: src  @ 106 @ 
+argument_list  @ 90 @ argument_list  @ 106 @ 
+type  @ 10 @ type  @ 13 @ 
+condition  @ 81 @ condition  @ 94 @ 
+argument  @ 74 @ argument  @ 84 @ 
+expr  @ 67 @ expr  @ 73 @ 
+operator: (  @ 77 @ operator: (  @ 91 @ 
+operator: =  @ 17 @ operator: =  @ 20 @ 
+name: dst  @ 74 @ name: dst  @ 84 @ 
+operator: <=  @ 48 @ operator: <=  @ 52 @ 
+return  @ 61 @ return  @ 67 @ 
+expr  @ 98 @ expr  @ 117 @ 
+expr  @ 57 @ expr  @ 61 @ 
+decl  @ 8 @ decl  @ 11 @ 
+block_content  @ 50 @ block_content  @ 54 @ 
+operator: %  @ 21 @ operator: %  @ 24 @ 
+block  @ 91 @ block  @ 110 @ 
+literal: 1  @ 90 @ literal: 1  @ 108 @ 
+operator: +  @ 52 @ operator: +  @ 56 @ 
+name: dst_offset  @ 53 @ name: dst_offset  @ 57 @ 
+decl  @ 6 @ decl  @ 9 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+operator: (  @ 46 @ operator: (  @ 50 @ 
+expr  @ 69 @ expr  @ 77 @ 
+comment: /* Byte aligned data only */  @ 22 @ comment: /* Byte aligned data only */  @ 25 @ 
+operator: =  @ 34 @ operator: =  @ 37 @ 
+operator: /  @ 19 @ operator: /  @ 22 @ 
+name: first_row  @ 48 @ name: first_row  @ 52 @ 
+literal: 1  @ 38 @ literal: 1  @ 41 @ 
+literal: "Unable to extract row %"  @ 60 @ literal: "Unable to extract row %"  @ 66 @ 
+argument  @ 67 @ argument  @ 72 @ 
+expr  @ 70 @ expr  @ 79 @ 
+expr  @ 67 @ expr  @ 72 @ 
+argument  @ 83 @ argument  @ 99 @ 
+argument  @ 58 @ argument  @ 62 @ 
+name: extractContigSamplesShifted32bits  @ 90 @ name: extractContigSamplesShifted32bits  @ 106 @ 
+name: count  @ 90 @ name: count  @ 107 @ 
+name: row  @ 48 @ name: row  @ 52 @ 
+call  @ 92 @ call  @ 111 @ 
+name: crop  @ 1 @ name: crop  @ 2 @ 
+literal: 7  @ 20 @ literal: 7  @ 23 @ 
+name  @ 13 @ name  @ 16 @ 
+if  @ 74 @ if  @ 83 @ 
+type  @ 10 @ type  @ 13 @ 
+default  @ 96 @ default  @ 116 @ 
+argument  @ 76 @ argument  @ 89 @ 
+name  @ 16 @ name  @ 19 @ 
+expr  @ 90 @ expr  @ 107 @ 
+name: dst_rowsize  @ 51 @ name: dst_rowsize  @ 55 @ 
+name: prev_trailing_bits  @ 90 @ name: prev_trailing_bits  @ 109 @ 
+expr  @ 60 @ expr  @ 66 @ 
+name: prev_trailing_bits  @ 3 @ name: prev_trailing_bits  @ 6 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+argument_list  @ 69 @ argument_list  @ 77 @ 
+expr  @ 93 @ expr  @ 113 @ 
+condition  @ 21 @ condition  @ 24 @ 
+name: first_row  @ 32 @ name: first_row  @ 35 @ 
+expr  @ 58 @ expr  @ 61 @ 
+name: count  @ 11 @ name: count  @ 14 @ 
+name: last_col  @ 81 @ name: last_col  @ 96 @ 
+expr  @ 48 @ expr  @ 52 @ 
+operator: )  @ 46 @ operator: )  @ 50 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 48 @ 
+switch  @ 55 @ switch  @ 59 @ 
+index  @ 32 @ index  @ 35 @ 
+argument  @ 81 @ argument  @ 96 @ 
+name: sample  @ 11 @ name: sample  @ 14 @ 
+operator: ->  @ 16 @ operator: ->  @ 19 @ 
+expr_stmt  @ 69 @ expr_stmt  @ 77 @ 
+name: shift_width  @ 26 @ name: shift_width  @ 29 @ 
+expr  @ 61 @ expr  @ 67 @ 
+if_stmt  @ 81 @ if_stmt  @ 94 @ 
+expr  @ 90 @ expr  @ 107 @ 
+expr  @ 89 @ expr  @ 106 @ 
+argument  @ 58 @ argument  @ 61 @ 
+name: crop_length  @ 8 @ name: crop_length  @ 11 @ 
+literal: 1  @ 65 @ literal: 1  @ 70 @ 
+name: image  @ 15 @ name: image  @ 18 @ 
+operator: )  @ 84 @ operator: )  @ 101 @ 
+operator: =  @ 20 @ operator: =  @ 23 @ 
+name: sample  @ 67 @ name: sample  @ 73 @ 
+operator: (  @ 20 @ operator: (  @ 23 @ 
+decl  @ 4 @ decl  @ 7 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+literal: "Unable to extract row %"  @ 83 @ literal: "Unable to extract row %"  @ 100 @ 
+name: read_buff  @ 52 @ name: read_buff  @ 56 @ 
+name: bps  @ 58 @ name: bps  @ 62 @ 
+name: bps  @ 81 @ name: bps  @ 95 @ 
+name: extractContigSamplesShifted16bits  @ 74 @ name: extractContigSamplesShifted16bits  @ 84 @ 
+name: regionlist  @ 33 @ name: regionlist  @ 36 @ 
+operator: ->  @ 15 @ operator: ->  @ 18 @ 
+name: bps  @ 67 @ name: bps  @ 73 @ 
+argument  @ 58 @ argument  @ 62 @ 
+parameter  @ 1 @ parameter  @ 4 @ 
+literal: 0  @ 11 @ literal: 0  @ 14 @ 
+name: dst_offset  @ 7 @ name: dst_offset  @ 10 @ 
+type  @ 4 @ type  @ 7 @ 
+name: crop_width  @ 40 @ name: crop_width  @ 43 @ 
+expr  @ 83 @ expr  @ 100 @ 
+name: crop  @ 41 @ name: crop  @ 44 @ 
+expr  @ 90 @ expr  @ 107 @ 
+expr  @ 69 @ expr  @ 78 @ 
+name: char  @ 1 @ name: char  @ 3 @ 
+name: bps  @ 65 @ name: bps  @ 70 @ 
+name: dst_rowsize  @ 5 @ name: dst_rowsize  @ 8 @ 
+expr  @ 67 @ expr  @ 75 @ 
+name: extractSeparateRegion  @ 1 @ name: extractSeparateRegion  @ 2 @ 
+name: crop_width  @ 8 @ name: crop_width  @ 11 @ 
+operator: +  @ 81 @ operator: +  @ 96 @ 
+decl  @ 6 @ decl  @ 9 @ 
+expr  @ 67 @ expr  @ 73 @ 
+type  @ 6 @ type  @ 9 @ 
+block  @ 75 @ block  @ 88 @ 
+argument  @ 74 @ argument  @ 84 @ 
+expr  @ 97 @ expr  @ 116 @ 
+name: width  @ 13 @ name: width  @ 16 @ 
+argument  @ 67 @ argument  @ 73 @ 
+name: shift_width  @ 28 @ name: shift_width  @ 31 @ 
+expr  @ 97 @ expr  @ 116 @ 
+name: bytes_per_sample  @ 4 @ name: bytes_per_sample  @ 7 @ 
+argument  @ 90 @ argument  @ 107 @ 
+argument  @ 90 @ argument  @ 106 @ 
+decl  @ 1 @ decl  @ 2 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 16 @ 
+type  @ 11 @ type  @ 14 @ 
+name  @ 1 @ name  @ 2 @ 
+operator: =  @ 28 @ operator: =  @ 31 @ 
+name: TIFFError  @ 83 @ name: TIFFError  @ 99 @ 
+name: PRIu32  @ 92 @ name: PRIu32  @ 112 @ 
+expr  @ 53 @ expr  @ 57 @ 
+argument  @ 97 @ argument  @ 116 @ 
+name: spp  @ 74 @ name: spp  @ 85 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: uint8_t  @ 10 @ name: uint8_t  @ 13 @ 
+call  @ 83 @ call  @ 99 @ 
+expr  @ 76 @ expr  @ 90 @ 
+operator: =  @ 48 @ operator: =  @ 52 @ 
+block  @ 56 @ block  @ 60 @ 
+block_content  @ 92 @ block_content  @ 111 @ 
+decl  @ 3 @ decl  @ 6 @ 
+expr  @ 74 @ expr  @ 85 @ 
+expr  @ 58 @ expr  @ 62 @ 
+name: dst_rowsize  @ 46 @ name: dst_rowsize  @ 50 @ 
+literal: 1  @ 81 @ literal: 1  @ 96 @ 
+name: last_col  @ 35 @ name: last_col  @ 38 @ 
+operator: )  @ 61 @ operator: )  @ 67 @ 
+name: src_offset  @ 52 @ name: src_offset  @ 56 @ 
+argument_list  @ 83 @ argument_list  @ 99 @ 
+type  @ 1 @ type  @ 1 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 7 @ 
+block_content  @ 83 @ block_content  @ 99 @ 
+argument  @ 58 @ argument  @ 61 @ 
+argument  @ 92 @ argument  @ 112 @ 
+name: first_col  @ 74 @ name: first_col  @ 86 @ 
+condition  @ 65 @ condition  @ 70 @ 
+literal: 1  @ 93 @ literal: 1  @ 113 @ 
+operator: ==  @ 21 @ operator: ==  @ 24 @ 
+expr  @ 83 @ expr  @ 99 @ 
+block  @ 59 @ block  @ 64 @ 
+operator: (  @ 45 @ operator: (  @ 49 @ 
+function  @ 1 @ function  @ 1 @ 
+name: region  @ 35 @ name: region  @ 38 @ 
+expr  @ 74 @ expr  @ 84 @ 
+operator: ->  @ 41 @ operator: ->  @ 44 @ 
+operator: =  @ 40 @ operator: =  @ 43 @ 
+modifier: *  @ 1 @ modifier: *  @ 3 @ 
+decl  @ 9 @ decl  @ 12 @ 
+expr  @ 22 @ expr  @ 25 @ 
+argument  @ 97 @ argument  @ 116 @ 
+argument  @ 90 @ argument  @ 107 @ 
+name: crop_buff  @ 53 @ name: crop_buff  @ 57 @ 
+name: spp  @ 16 @ name: spp  @ 19 @ 
+name: uint32_t  @ 8 @ name: uint32_t  @ 11 @ 
+operator: =  @ 33 @ operator: =  @ 36 @ 
+expr  @ 74 @ expr  @ 86 @ 
+argument  @ 67 @ argument  @ 74 @ 
+name: uint32_t  @ 7 @ name: uint32_t  @ 10 @ 
+expr  @ 17 @ expr  @ 20 @ 
+literal: 8  @ 20 @ literal: 8  @ 23 @ 
+init  @ 3 @ init  @ 6 @ 
+expr_stmt  @ 92 @ expr_stmt  @ 111 @ 
+name: length  @ 41 @ name: length  @ 44 @ 
+literal: 7  @ 19 @ literal: 7  @ 22 @ 
+name: image  @ 1 @ name: image  @ 2 @ 
+name: first_col  @ 34 @ name: first_col  @ 37 @ 
+operator: )  @ 25 @ operator: )  @ 28 @ 
+argument  @ 58 @ argument  @ 61 @ 
+case  @ 87 @ case  @ 104 @ 
+expr  @ 11 @ expr  @ 14 @ 
+argument  @ 74 @ argument  @ 85 @ 
+decl  @ 6 @ decl  @ 9 @ 
+name: int  @ 1 @ name: int  @ 4 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 57 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 13 @ 
+name: shift_width  @ 3 @ name: shift_width  @ 6 @ 
+return  @ 93 @ return  @ 113 @ 
+operator: <  @ 25 @ operator: <  @ 28 @ 
+operator: +  @ 46 @ operator: +  @ 50 @ 
+argument  @ 69 @ argument  @ 78 @ 
+name: sample  @ 74 @ name: sample  @ 85 @ 
+name: bps  @ 15 @ name: bps  @ 18 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 6 @ 
+literal: "Unable to extract row %"  @ 92 @ literal: "Unable to extract row %"  @ 112 @ 
+type  @ 9 @ type  @ 12 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 29 @ 
+decl  @ 6 @ decl  @ 9 @ 
+expr  @ 67 @ expr  @ 73 @ 
+argument  @ 83 @ argument  @ 100 @ 
+operator: (  @ 20 @ operator: (  @ 23 @ 
+operator: (  @ 84 @ operator: (  @ 101 @ 
+type  @ 6 @ type  @ 9 @ 
+expr  @ 74 @ expr  @ 84 @ 
+expr  @ 84 @ expr  @ 101 @ 
+literal: 8  @ 21 @ literal: 8  @ 24 @ 
+operator: ->  @ 40 @ operator: ->  @ 43 @ 
+name: read_buff  @ 43 @ name: read_buff  @ 47 @ 
+argument  @ 60 @ argument  @ 66 @ 
+name: bps  @ 20 @ name: bps  @ 23 @ 
+name: x2  @ 35 @ name: x2  @ 38 @ 
+operator: )  @ 46 @ operator: )  @ 50 @ 
+expr  @ 76 @ expr  @ 89 @ 
+decl  @ 11 @ decl  @ 14 @ 
+argument  @ 67 @ argument  @ 73 @ 
+modifier: *  @ 1 @ modifier: *  @ 3 @ 
+literal: 1  @ 25 @ literal: 1  @ 28 @ 
+argument  @ 92 @ argument  @ 112 @ 
+comment: /* Update to extract more or more samples */  @ 11 @ comment: /* Update to extract more or more samples */  @ 14 @ 
+literal: 8  @ 45 @ literal: 8  @ 49 @ 
+operator: =  @ 43 @ operator: =  @ 47 @ 
+argument_list  @ 67 @ argument_list  @ 72 @ 
+operator: +  @ 53 @ operator: +  @ 57 @ 
+operator: +  @ 58 @ operator: +  @ 63 @ 
+name: spp  @ 81 @ name: spp  @ 95 @ 
+operator: *  @ 46 @ operator: *  @ 50 @ 
+else  @ 23 @ else  @ 26 @ 
+expr  @ 65 @ expr  @ 70 @ 
+expr  @ 92 @ expr  @ 111 @ 
+operator: )  @ 70 @ operator: )  @ 79 @ 
+literal: 7  @ 46 @ literal: 7  @ 50 @ 
+name: row  @ 51 @ name: row  @ 55 @ 
+argument_list  @ 58 @ argument_list  @ 61 @ 
+expr  @ 83 @ expr  @ 99 @ 
+name: bps  @ 97 @ name: bps  @ 116 @ 
+name: PRIu32  @ 76 @ name: PRIu32  @ 90 @ 
+name: dst_offset  @ 51 @ name: dst_offset  @ 55 @ 
+type  @ 9 @ type  @ 12 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 40 @ 
+incr  @ 48 @ incr  @ 52 @ 
+expr  @ 80 @ expr  @ 94 @ 
+name: regionlist  @ 35 @ name: regionlist  @ 38 @ 
+argument  @ 90 @ argument  @ 107 @ 
+operator: ++  @ 48 @ operator: ++  @ 52 @ 
+expr  @ 88 @ expr  @ 105 @ 
+call  @ 90 @ call  @ 106 @ 
+name: first_col  @ 58 @ name: first_col  @ 62 @ 
+expr  @ 81 @ expr  @ 95 @ 
+call  @ 97 @ call  @ 116 @ 
+expr  @ 52 @ expr  @ 56 @ 
+name: src  @ 43 @ name: src  @ 47 @ 
+operator: (  @ 61 @ operator: (  @ 67 @ 
+name: last_row  @ 6 @ name: last_row  @ 9 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 20 @ 
+operator: ==  @ 65 @ operator: ==  @ 70 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+literal: 1  @ 98 @ literal: 1  @ 117 @ 
+name: crop_length  @ 41 @ name: crop_length  @ 44 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 89 @ 
+name: image  @ 16 @ name: image  @ 19 @ 
+expr  @ 74 @ expr  @ 84 @ 
+literal: 0  @ 22 @ literal: 0  @ 25 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 23 @ 
+operator: (  @ 25 @ operator: (  @ 28 @ 
+case  @ 88 @ case  @ 105 @ 
+literal: 2  @ 80 @ literal: 2  @ 94 @ 
+name: count  @ 81 @ name: count  @ 95 @ 
+name: shift_width  @ 22 @ name: shift_width  @ 25 @ 
+expr  @ 74 @ expr  @ 86 @ 
+argument  @ 81 @ argument  @ 94 @ 
+literal: 0  @ 3 @ literal: 0  @ 6 @ 
+operator: +  @ 25 @ operator: +  @ 28 @ 
+operator: (  @ 45 @ operator: (  @ 49 @ 
+if_stmt  @ 21 @ if_stmt  @ 24 @ 
+name: last_row  @ 38 @ name: last_row  @ 41 @ 
+operator: +  @ 38 @ operator: +  @ 41 @ 
+name: first_col  @ 67 @ name: first_col  @ 74 @ 
+if  @ 67 @ if  @ 72 @ 
+operator: )  @ 21 @ operator: )  @ 24 @ 
+expr  @ 34 @ expr  @ 37 @ 
+operator: =  @ 16 @ operator: =  @ 19 @ 
+expr  @ 46 @ expr  @ 50 @ 
+expr  @ 90 @ expr  @ 109 @ 
+name: count  @ 17 @ name: count  @ 20 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 9 @ 
+name: row  @ 6 @ name: row  @ 9 @ 
+name: last_col  @ 58 @ name: last_col  @ 63 @ 
+name: bps  @ 15 @ name: bps  @ 18 @ 
+argument  @ 81 @ argument  @ 94 @ 
+condition  @ 55 @ condition  @ 59 @ 
+decl  @ 7 @ decl  @ 10 @ 
+name: img_width  @ 81 @ name: img_width  @ 94 @ 
+operator: *  @ 20 @ operator: *  @ 23 @ 
+operator: )  @ 45 @ operator: )  @ 49 @ 
+name  @ 34 @ name  @ 37 @ 
+literal: 1  @ 58 @ literal: 1  @ 63 @ 
+block_content  @ 26 @ block_content  @ 29 @ 
+argument  @ 67 @ argument  @ 75 @ 
+modifier: *  @ 10 @ modifier: *  @ 13 @ 
+name: last_col  @ 74 @ name: last_col  @ 86 @ 
+name: src  @ 81 @ name: src  @ 94 @ 
+if  @ 21 @ if  @ 24 @ 
+argument  @ 74 @ argument  @ 85 @ 
+operator: ->  @ 33 @ operator: ->  @ 36 @ 
+name: regionlist  @ 34 @ name: regionlist  @ 37 @ 
+block  @ 2 @ block  @ 5 @ 
+name: prev_trailing_bits  @ 67 @ name: prev_trailing_bits  @ 75 @ 
+name: image_data  @ 1 @ name: image_data  @ 2 @ 
+name: bps  @ 45 @ name: bps  @ 49 @ 
+name: dst  @ 10 @ name: dst  @ 13 @ 
+expr  @ 90 @ expr  @ 107 @ 
+name: crop_buff  @ 44 @ name: crop_buff  @ 48 @ 
+call  @ 76 @ call  @ 89 @ 
+name: x1  @ 34 @ name: x1  @ 37 @ 
+name  @ 35 @ name  @ 38 @ 
+argument  @ 74 @ argument  @ 85 @ 
+condition  @ 90 @ condition  @ 106 @ 
+operator: =  @ 41 @ operator: =  @ 44 @ 
+type  @ 8 @ type  @ 11 @ 
+name: first_col  @ 37 @ name: first_col  @ 40 @ 
+literal: 1  @ 37 @ literal: 1  @ 40 @ 
+type  @ 11 @ type  @ 14 @ 
+expr  @ 74 @ expr  @ 85 @ 
+expr  @ 67 @ expr  @ 74 @ 
+type  @ 5 @ type  @ 8 @ 
+name: spp  @ 45 @ name: spp  @ 49 @ 
+operator: =  @ 38 @ operator: =  @ 41 @ 
+name: first_row  @ 38 @ name: first_row  @ 41 @ 
+if_stmt  @ 67 @ if_stmt  @ 72 @ 
+expr  @ 90 @ expr  @ 106 @ 
+argument  @ 74 @ argument  @ 84 @ 
+for  @ 48 @ for  @ 52 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: PRIu32  @ 69 @ name: PRIu32  @ 78 @ 
+argument  @ 81 @ argument  @ 96 @ 
+argument  @ 90 @ argument  @ 108 @ 
+argument  @ 67 @ argument  @ 72 @ 
+expr  @ 76 @ expr  @ 90 @ 
+expr  @ 74 @ expr  @ 84 @ 
+name: spp  @ 46 @ name: spp  @ 50 @ 
+name: row  @ 83 @ name: row  @ 100 @ 
+if  @ 90 @ if  @ 106 @ 
+operator: .  @ 34 @ operator: .  @ 37 @ 
+expr  @ 81 @ expr  @ 97 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 36 @ 
+name: bps  @ 9 @ name: bps  @ 12 @ 
+return  @ 77 @ return  @ 91 @ 
+operator: =  @ 19 @ operator: =  @ 22 @ 
+operator: (  @ 21 @ operator: (  @ 24 @ 
+literal: 5  @ 89 @ literal: 5  @ 106 @ 
+operator: (  @ 46 @ operator: (  @ 50 @ 
+name: width  @ 40 @ name: width  @ 43 @ 
+name: shift_width  @ 55 @ name: shift_width  @ 59 @ 
+call  @ 67 @ call  @ 72 @ 
+operator: )  @ 20 @ operator: )  @ 23 @ 
+literal: 8  @ 19 @ literal: 8  @ 22 @ 
+expr  @ 58 @ expr  @ 62 @ 
+argument  @ 83 @ argument  @ 100 @ 
+expr  @ 45 @ expr  @ 49 @ 
+name: count  @ 58 @ name: count  @ 62 @ 
+decl  @ 4 @ decl  @ 7 @ 
+argument  @ 67 @ argument  @ 72 @ 
+argument_list  @ 97 @ argument_list  @ 116 @ 
+name: row  @ 76 @ name: row  @ 90 @ 
+init  @ 11 @ init  @ 14 @ 
+decl  @ 5 @ decl  @ 8 @ 
+expr  @ 60 @ expr  @ 66 @ 
+block_content  @ 22 @ block_content  @ 25 @ 
+return  @ 84 @ return  @ 101 @ 
+name: crop_width  @ 37 @ name: crop_width  @ 40 @ 
+type  @ 1 @ type  @ 2 @ 
+operator: =  @ 22 @ operator: =  @ 25 @ 
+name: crop  @ 34 @ name: crop  @ 37 @ 
+expr  @ 60 @ expr  @ 65 @ 
+literal: 3  @ 87 @ literal: 3  @ 104 @ 
+name: last_col  @ 90 @ name: last_col  @ 108 @ 
+argument  @ 92 @ argument  @ 111 @ 
+control  @ 48 @ control  @ 52 @ 
+name: region  @ 32 @ name: region  @ 35 @ 
+name: last_row  @ 33 @ name: last_row  @ 36 @ 
+expr  @ 3 @ expr  @ 6 @ 
+block  @ 82 @ block  @ 98 @ 
+name: row  @ 92 @ name: row  @ 112 @ 
+name: last_row  @ 48 @ name: last_row  @ 52 @ 
+literal: 0  @ 57 @ literal: 0  @ 61 @ 
+expr  @ 67 @ expr  @ 74 @ 
+name: uint32_t  @ 6 @ name: uint32_t  @ 9 @ 
+name: dst  @ 58 @ name: dst  @ 61 @ 
+argument  @ 74 @ argument  @ 85 @ 
+operator: .  @ 40 @ operator: .  @ 43 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 41 @ 
+name: prev_trailing_bits  @ 81 @ name: prev_trailing_bits  @ 97 @ 
+name: spp  @ 17 @ name: spp  @ 20 @ 
+name: count  @ 74 @ name: count  @ 85 @ 
+case  @ 80 @ case  @ 94 @ 
+type  @ 3 @ type  @ 6 @ 
+name: dst  @ 67 @ name: dst  @ 72 @ 
+expr  @ 97 @ expr  @ 116 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 38 @ 
+name: PRIu32  @ 60 @ name: PRIu32  @ 66 @ 
+literal: "extractSeparateRegion"  @ 83 @ literal: "extractSeparateRegion"  @ 99 @ 
+break  @ 63 @ break  @ 69 @ 
+expr  @ 90 @ expr  @ 106 @ 
+operator: *  @ 50 @ operator: *  @ 54 @ 
+if  @ 81 @ if  @ 94 @ 
+comment: /* rows, columns, width, length are expressed in pixels */  @ 31 @ comment: /* rows, columns, width, length are expressed in pixels */  @ 34 @ 
+name: uint32_t  @ 5 @ name: uint32_t  @ 8 @ 
+expr  @ 92 @ expr  @ 111 @ 
+expr  @ 97 @ expr  @ 116 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 8 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 11 @ 
+operator: (  @ 102 @ operator: (  @ 121 @ 
+argument  @ 69 @ argument  @ 77 @ 
+block  @ 26 @ block  @ 29 @ 
+expr  @ 76 @ expr  @ 89 @ 
+return  @ 70 @ return  @ 79 @ 
+argument_list  @ 81 @ argument_list  @ 94 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 44 @ 
+name  @ 32 @ name  @ 35 @ 
+expr  @ 81 @ expr  @ 94 @ 
+call  @ 60 @ call  @ 65 @ 
+name: src_rowsize  @ 5 @ name: src_rowsize  @ 8 @ 
+comment: /*, img_length */  @ 8 @ comment: /*, img_length */  @ 11 @ 
+name: region  @ 34 @ name: region  @ 37 @ 
+expr  @ 19 @ expr  @ 22 @ 
+argument_list  @ 74 @ argument_list  @ 84 @ 
+expr  @ 58 @ expr  @ 61 @ 
+name: dst  @ 81 @ name: dst  @ 94 @ 
+name: TIFFError  @ 76 @ name: TIFFError  @ 89 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+if_stmt  @ 65 @ if_stmt  @ 70 @ 
+decl  @ 1 @ decl  @ 3 @ 
+name: image  @ 13 @ name: image  @ 16 @ 
+name: src  @ 58 @ name: src  @ 61 @ 
+expr  @ 74 @ expr  @ 87 @ 
+name: int  @ 3 @ name: int  @ 6 @ 
+expr  @ 69 @ expr  @ 78 @ 
+literal: 7  @ 45 @ literal: 7  @ 49 @ 
+literal: "extractSeparateRegion"  @ 92 @ literal: "extractSeparateRegion"  @ 111 @ 
+argument  @ 60 @ argument  @ 65 @ 
+operator: -  @ 37 @ operator: -  @ 40 @ 
+condition  @ 25 @ condition  @ 28 @ 
+operator: =  @ 35 @ operator: =  @ 38 @ 
+operator: -  @ 51 @ operator: -  @ 55 @ 
+block_content  @ 28 @ block_content  @ 31 @ 
+argument  @ 67 @ argument  @ 73 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 65 @ 
+name: crop  @ 33 @ name: crop  @ 36 @ 
+operator: )  @ 93 @ operator: )  @ 113 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+name: bytes_per_pixel  @ 25 @ name: bytes_per_pixel  @ 28 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 35 @ 
+name: crop  @ 35 @ name: crop  @ 38 @ 
+operator: (  @ 51 @ operator: (  @ 55 @ 
+index  @ 41 @ index  @ 44 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+expr  @ 58 @ expr  @ 61 @ 
+operator: .  @ 41 @ operator: .  @ 44 @ 
+name: src_rowsize  @ 50 @ name: src_rowsize  @ 54 @ 
+type  @ 8 @ type  @ 11 @ 
+name: region  @ 33 @ name: region  @ 36 @ 
+block  @ 24 @ block  @ 27 @ 
+expr  @ 33 @ expr  @ 36 @ 
+expr  @ 81 @ expr  @ 95 @ 
+expr_stmt  @ 97 @ expr_stmt  @ 116 @ 
+name: row  @ 60 @ name: row  @ 66 @ 
+operator: +  @ 74 @ operator: +  @ 86 @ 
+expr  @ 51 @ expr  @ 55 @ 
+expr  @ 69 @ expr  @ 77 @ 
+name: bps  @ 21 @ name: bps  @ 24 @ 
+operator: )  @ 98 @ operator: )  @ 117 @ 
+name: row  @ 48 @ name: row  @ 52 @ 
+operator: )  @ 102 @ operator: )  @ 121 @ 
+literal: 1  @ 64 @ literal: 1  @ 70 @ 
+expr  @ 74 @ expr  @ 85 @ 
+name: spp  @ 67 @ name: spp  @ 73 @ 
+name: read_buff  @ 1 @ name: read_buff  @ 3 @ 
+name: row  @ 48 @ name: row  @ 52 @ 
+argument  @ 76 @ argument  @ 90 @ 
+name: count  @ 67 @ name: count  @ 73 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 54 @ 
+name: src  @ 67 @ name: src  @ 72 @ 
+block_content  @ 3 @ block_content  @ 6 @ 
+name: src  @ 52 @ name: src  @ 56 @ 
+literal: "extractSeparateRegion"  @ 69 @ literal: "extractSeparateRegion"  @ 77 @ 
+operator: )  @ 19 @ operator: )  @ 22 @ 
+operator: /  @ 46 @ operator: /  @ 50 @ 
+argument  @ 97 @ argument  @ 116 @ 
+expr  @ 26 @ expr  @ 29 @ 
+name: bytes_per_pixel  @ 26 @ name: bytes_per_pixel  @ 29 @ 
+name: last_col  @ 37 @ name: last_col  @ 40 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+decl  @ 10 @ decl  @ 13 @ 
+name: first_row  @ 6 @ name: first_row  @ 9 @ 
+expr  @ 41 @ expr  @ 44 @ 
+decl  @ 5 @ decl  @ 8 @ 
+decl  @ 1 @ decl  @ 4 @ 
+expr  @ 58 @ expr  @ 61 @ 
+literal: "Unable to extract row %"  @ 69 @ literal: "Unable to extract row %"  @ 78 @ 
+expr  @ 74 @ expr  @ 85 @ 
+expr  @ 81 @ expr  @ 94 @ 
+name: y1  @ 32 @ name: y1  @ 35 @ 
+argument  @ 81 @ argument  @ 95 @ 
+expr  @ 90 @ expr  @ 108 @ 
+name  @ 15 @ name  @ 18 @ 
+operator: =  @ 44 @ operator: =  @ 48 @ 
+name: img_width  @ 8 @ name: img_width  @ 11 @ 
+operator: )  @ 45 @ operator: )  @ 49 @ 
+decl  @ 11 @ decl  @ 14 @ 
+operator: +  @ 19 @ operator: +  @ 22 @ 
+expr_stmt  @ 51 @ expr_stmt  @ 55 @ 
+argument  @ 58 @ argument  @ 62 @ 
+expr  @ 48 @ expr  @ 52 @ 
+return  @ 98 @ return  @ 117 @ 
+operator: ->  @ 13 @ operator: ->  @ 16 @ 
+argument  @ 74 @ argument  @ 86 @ 
+name: img_width  @ 67 @ name: img_width  @ 72 @ 
+name: last_col  @ 67 @ name: last_col  @ 74 @ 
+operator: =  @ 52 @ operator: =  @ 56 @ 
+modifier: *  @ 10 @ modifier: *  @ 13 @ 
+type  @ 1 @ type  @ 4 @ 
+name: src_offset  @ 50 @ name: src_offset  @ 54 @ 
+condition  @ 74 @ condition  @ 84 @ 
+operator: ->  @ 32 @ operator: ->  @ 35 @ 
+name: spp  @ 9 @ name: spp  @ 12 @ 
+name: crop_width  @ 46 @ name: crop_width  @ 50 @ 
+name: TIFFError  @ 92 @ name: TIFFError  @ 111 @ 
+name: extractContigSamplesBytes  @ 58 @ name: extractContigSamplesBytes  @ 61 @ 
+operator: =  @ 26 @ operator: =  @ 29 @ 
+expr  @ 92 @ expr  @ 112 @ 
+expr  @ 58 @ expr  @ 61 @ 
+name  @ 40 @ name  @ 43 @ 
+expr  @ 13 @ expr  @ 16 @ 
+type  @ 1 @ type  @ 2 @ 
+decl  @ 9 @ decl  @ 12 @ 
+name: img_width  @ 13 @ name: img_width  @ 16 @ 
+break  @ 95 @ break  @ 115 @ 
+name: crop_mask  @ 1 @ name: crop_mask  @ 2 @ 
+name: unsigned  @ 1 @ name: unsigned  @ 3 @ 
+operator: +  @ 37 @ operator: +  @ 40 @ 
+operator: =  @ 53 @ operator: =  @ 57 @ 
+name: first_col  @ 6 @ name: first_col  @ 9 @ 
+expr  @ 90 @ expr  @ 106 @ 
+init  @ 48 @ init  @ 52 @ 
+condition  @ 58 @ condition  @ 61 @ 
+argument_list  @ 92 @ argument_list  @ 111 @ 
+type  @ 1 @ type  @ 3 @ 
+block_content  @ 67 @ block_content  @ 72 @ 
+name: bps  @ 46 @ name: bps  @ 50 @ 
+block  @ 28 @ block  @ 31 @ 
+name: bytes_per_sample  @ 19 @ name: bytes_per_sample  @ 22 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 50 @ 
+decl  @ 1 @ decl  @ 2 @ 
+name: crop_length  @ 38 @ name: crop_length  @ 41 @ 
+argument  @ 74 @ argument  @ 87 @ 
+condition  @ 67 @ condition  @ 72 @ 
+name: sample  @ 58 @ name: sample  @ 61 @ 
+name: region  @ 41 @ name: region  @ 44 @ 
+expr  @ 37 @ expr  @ 40 @ 
+operator: +  @ 67 @ operator: +  @ 74 @ 
+expr  @ 20 @ expr  @ 23 @ 
+type  @ 4 @ type  @ 7 @ 
+name: regionlist  @ 40 @ name: regionlist  @ 43 @ 
+name: sample  @ 81 @ name: sample  @ 95 @ 
+name: extractContigSamplesShifted8bits  @ 67 @ name: extractContigSamplesShifted8bits  @ 72 @ 
+index  @ 40 @ index  @ 43 @ 
+expr  @ 35 @ expr  @ 38 @ 
+expr  @ 67 @ expr  @ 72 @ 
+type  @ 3 @ type  @ 6 @ 
+decl  @ 8 @ decl  @ 11 @ 
+if_stmt  @ 25 @ if_stmt  @ 28 @ 
+break  @ 79 @ break  @ 93 @ 
+operator: =  @ 46 @ operator: =  @ 50 @ 
+block  @ 68 @ block  @ 76 @ 
+expr  @ 58 @ expr  @ 62 @ 
+operator: ->  @ 35 @ operator: ->  @ 38 @ 
+expr  @ 21 @ expr  @ 24 @ 
+expr  @ 102 @ expr  @ 121 @ 
+expr  @ 35 @ expr  @ 38 @ 
+expr  @ 81 @ expr  @ 95 @ 
+call  @ 69 @ call  @ 77 @ 
+expr  @ 28 @ expr  @ 31 @ 
+name: last_col  @ 6 @ name: last_col  @ 9 @ 
+literal: 1  @ 74 @ literal: 1  @ 86 @ 
+

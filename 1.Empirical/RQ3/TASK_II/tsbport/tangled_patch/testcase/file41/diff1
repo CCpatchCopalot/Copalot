@@ -1,0 +1,32 @@
+32,35c32,33
+< 
+< /* Active Lua function (given call info) */
+< #define ci_func(ci)		(clLvalue(s2v((ci)->func)))
+< 
+---
+> /* inverse of 'pcRel' */
+> #define invpcRel(pc, p)		((p)->code + (pc) + 1)
+102c100
+< /*** This function can be called during a signal, under "reasonable"** assumptions.** Fields 'oldpc', 'basehookcount', and 'hookcount' (set by** 'resethookcount') are for debug only, and it is no problem if they** get arbitrary values (causes at most one wrong hook call). 'hookmask'** is an atomic value. We assume that pointers are atomic too (e.g., gcc** ensures that for all platforms where it runs). Moreover, 'hook' is** always checked before being called (see 'luaD_hook').*/
+---
+> /*** This function can be called during a signal, under "reasonable"** assumptions.** Fields 'basehookcount' and 'hookcount' (set by 'resethookcount')** are for debug only, and it is no problem if they get arbitrary** values (causes at most one wrong hook call). 'hookmask' is an atomic** value. We assume that pointers are atomic too (e.g., gcc ensures that** for all platforms where it runs). Moreover, 'hook' is always checked** before being called (see 'luaD_hook').*/
+108,109d105
+<   if (isLua(L->ci))
+<     L->oldpc = L->ci->u.l.savedpc;
+721a718
+> /*** Traces the execution of a Lua function. Called before the execution** of each opcode, when debug is on. 'L->oldpc' stores the last** instruction traced, to detect line changes. When entering a new** function, 'npci' will be zero and will test as a new line without** the need for 'oldpc'; so, 'oldpc' does not need to be initialized** before. Some exceptional conditions may return to a function without** updating 'oldpc'. In that case, 'oldpc' may be invalid; if so, it is** reset to zero.(A wrong but valid 'oldpc' at most causes an extra** call to a line hook.)*/
+724a722
+>   const Proto *p = ci_func(ci)->p;
+725a724,725
+>   /* 'L->oldpc' may be invalid; reset it in this case */
+>   int oldpc = (L->oldpc < p->sizecode) ? L->oldpc : 0;
+746d745
+<     const Proto *p = ci_func(ci)->p;
+748c747
+<     if (npci == 0 ||/* call linehook when enter a new function, */pc <= L->oldpc ||/* when jump back (loop), or when */changedline(p, pcRel(L->oldpc, p), npci)) {  /* enter new line */
+---
+>     if (npci == 0 ||/* call linehook when enter a new function, */pc <= invpcRel(oldpc, p) ||/* when jump back (loop), or when */changedline(p, oldpc, npci)) {  /* enter new line */
+752c751
+<     L->oldpc = pc;  /* 'pc' of last call to line hook */
+---
+>     L->oldpc = npci;  /* 'pc' of last call to line hook */

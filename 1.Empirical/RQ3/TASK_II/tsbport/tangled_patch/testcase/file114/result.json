@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file114": {
+            "match_message": {
+                "Same: gf_isom_get_original_format_type -> gf_isom_get_original_format_type": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 533 -> 538",
+                        "L2": "3: Unique Matched by Source code 533 -> 538"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 27,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 538,
+                        "add_hunk": [
+                            "\tif (outOriginalFormat && sinf && sinf->original_format) {\n"
+                        ],
+                        "delete_location": [
+                            538,
+                            538
+                        ],
+                        "delete_hunk": [
+                            "\tif (outOriginalFormat && sinf->original_format) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_get_original_format_type -> gf_isom_get_original_format_type": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

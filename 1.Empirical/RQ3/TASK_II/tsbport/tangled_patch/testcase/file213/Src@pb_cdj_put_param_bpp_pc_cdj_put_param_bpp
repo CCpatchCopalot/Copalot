@@ -1,0 +1,48 @@
+static int
+cdj_put_param_bpp(gx_device * pdev,gs_param_list * plist,int new_bpp, int real_bpp, int ccomps)
+{
+    int code = 0;
+    int save_bpp;
+    gx_device_color_info save_info;
+
+    save_info = pdev->color_info;
+    save_bpp = save_info.depth;
+
+    if (new_bpp == 0 && ccomps == 0) {
+       code = gdev_prn_put_params(pdev, plist);
+    } else {
+        if (save_bpp == 8 && save_ccomps == 3 && !cprn_device->cmyk)
+            save_bpp = 3;
+
+        code = cdj_set_bpp(pdev, real_bpp, ccomps);
+
+        if (code < 0) {
+            param_signal_error(plist, "BitsPerPixel", code);
+            param_signal_error(plist, "ProcessColorModel", code);
+            return (code);
+        }
+
+        pdev->color_info.depth = new_bpp;       /* cdj_set_bpp maps 3/6 to 8 */
+        code = gdev_prn_put_params(pdev, plist);
+
+        if (code < 0) {
+            cdj_set_bpp(pdev, save_bpp, save_ccomps);
+            return (code);
+        }
+
+        cdj_set_bpp(pdev, real_bpp, ccomps);    /* reset depth if needed */
+        if ((cdj970->color_info.depth != save_bpp || (ccomps != 0 && ccomps != save_ccomps))&& pdev->is_open)
+            gs_closedevice(pdev);
+    }
+
+    /* check for valid resolutions */
+    if (pdev->HWResolution[0] != pdev->HWResolution[1] ||(pdev->HWResolution[0] != 300.0 && pdev->HWResolution[0] != 600.0) ) {
+        param_signal_error(plist, "HWResolution", gs_error_rangecheck);
+        emprintf1(pdev->memory, "\ncdj970: Invalid resolution: '%f'. Only 300 or 600 supported.\n\n",pdev->HWResolution[0]);
+        cdj_set_bpp(pdev, save_bpp, save_ccomps);
+        return gs_error_rangecheck;
+    }
+    return code;
+
+#undef save_ccomps
+}

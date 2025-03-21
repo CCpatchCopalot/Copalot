@@ -1,0 +1,21 @@
+1869c1869
+< 	ut8 *attr_buf = NULL;
+---
+> 	// XXX this pending is wrong and too expensive
+1872c1872
+< 	attr_buf = (ut8 *) calloc (pending + 1, 1);
+---
+> 	ut8 *attr_buf = (ut8 *) calloc (pending + 1, 1);
+3425a3426
+> 		if (offset + 4 < sz) {
+3426a3428
+> 		}
+6854d6855
+< 	RBinJavaAttrInfo *attr = NULL;
+6856c6857,6860
+< 	attr = r_bin_java_default_attr_new (bin, buffer, sz, buf_offset);
+---
+> 	if (buf_offset + 32 >= sz) {
+> 		return NULL;
+> 	}
+> 	RBinJavaAttrInfo *attr = r_bin_java_default_attr_new (bin, buffer, sz, buf_offset);

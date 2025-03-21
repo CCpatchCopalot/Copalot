@@ -1,0 +1,15 @@
+-1c-1,4
+---
+>      if (info->size > info->num_sections * info->max_decomp_size)
+>      {
+>        LOG_ERROR ("Skip section %s with size %lu > %d * " FORMAT_RL,info->name, info->size, info->num_sections, info->max_decomp_size);
+>        info->max_decomp_size = info->size = info->num_sections = 0;
+>        error |= DWG_ERR_VALUEOUTOFBOUNDS;
+>      }
+-1c-1
+---
+>    sec_dat->size = info->size;
+2049a2050
+>  sec_dat->size = 0;
+5055a5056
+>          sec_dat->size += info->max_decomp_size;

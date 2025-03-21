@@ -1,0 +1,245 @@
+name: Sampler  @ 32 @ name: Sampler  @ 33 @ 
+operator: ::  @ 31 @ operator: ::  @ 32 @ 
+literal: " elements"  @ 57 @ literal: " elements"  @ 57 @ 
+expr  @ 31 @ expr  @ 32 @ 
+directive: include  @ 19 @ directive: include  @ 20 @ 
+comment: //  @ 87 @ comment: //  @ 96 @ 
+file: <unordered_set>  @ 5 @ file: <unordered_set>  @ 5 @ 
+comment: // A pathological case of this would be if say the initialization op  @ 92 @ comment: // A pathological case of this would be if say the initialization op  @ 101 @ 
+literal: 1  @ 31 @ literal: 1  @ 32 @ 
+literal: "Session::Create()"  @ 216 @ literal: "Session::Create()"  @ 223 @ 
+expr  @ 31 @ expr  @ 32 @ 
+literal: "/tensorflow/cc/saved_model/load_latency_by_stage"  @ 34 @ literal: "/tensorflow/cc/saved_model/load_latency_by_stage"  @ 35 @ 
+include  @ 25 @ include  @ 26 @ 
+literal: "\") which initializes from a tensor with "  @ 57 @ literal: "\") which initializes from a tensor with "  @ 57 @ 
+include  @ 17 @ include  @ 18 @ 
+literal: "/tensorflow/cc/saved_model/load_latency"  @ 31 @ literal: "/tensorflow/cc/saved_model/load_latency"  @ 32 @ 
+directive: include  @ 21 @ directive: include  @ 22 @ 
+name  @ 32 @ name  @ 33 @ 
+argument_list  @ 32 @ argument_list  @ 33 @ 
+argument_list  @ 30 @ argument_list  @ 31 @ 
+include  @ 13 @ include  @ 14 @ 
+literal: 0  @ 42 @ literal: 0  @ 43 @ 
+comment: // Limiting the available methods on a returned Session gives us the option  @ 204 @ comment: // Limiting the available methods on a returned Session gives us the option  @ 211 @ 
+literal: "Session::Create()"  @ 237 @ literal: "Session::Create()"  @ 244 @ 
+literal: "model_path"  @ 31 @ literal: "model_path"  @ 32 @ 
+argument_list  @ 30 @ argument_list  @ 31 @ 
+block  @ 28 @ block  @ 29 @ 
+name: Counter  @ 31 @ name: Counter  @ 32 @ 
+expr  @ 32 @ expr  @ 33 @ 
+include  @ 20 @ include  @ 21 @ 
+comment: // Be sure to call ReleaseCallable() regardless of the outcome of  @ 115 @ comment: // Be sure to call ReleaseCallable() regardless of the outcome of  @ 122 @ 
+include  @ 23 @ include  @ 24 @ 
+comment: //  @ 203 @ comment: //  @ 210 @ 
+directive: include  @ 25 @ directive: include  @ 26 @ 
+directive: include  @ 8 @ directive: include  @ 8 @ 
+comment: /* Copyright 2016 The TensorFlow Authors. All Rights Reserved.Licensed under the Apache License, Version 2.0 (the "License");you may not use this file except in compliance with the License.You may obtain a copy of the License athttp://www.apache.org/licenses/LICENSE-2.0Unless required by applicable law or agreed to in writing, softwaredistributed under the License is distributed on an "AS IS" BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.See the License for the specific language governing permissions andlimitations under the License.==============================================================================*/  @ 1 @ comment: /* Copyright 2016 The TensorFlow Authors. All Rights Reserved.Licensed under the Apache License, Version 2.0 (the "License");you may not use this file except in compliance with the License.You may obtain a copy of the License athttp://www.apache.org/licenses/LICENSE-2.0Unless required by applicable law or agreed to in writing, softwaredistributed under the License is distributed on an "AS IS" BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.See the License for the specific language governing permissions andlimitations under the License.==============================================================================*/  @ 1 @ 
+literal: "Const"  @ 60 @ literal: "Const"  @ 60 @ 
+comment: // RAM consumption by using `Session::Create(GraphDef&&)`.  @ 316 @ comment: // RAM consumption by using `Session::Create(GraphDef&&)`.  @ 323 @ 
+comment: // An empty init_op_name indicates that there are no init ops to run.  @ 122 @ comment: // An empty init_op_name indicates that there are no init ops to run.  @ 129 @ 
+expr  @ 30 @ expr  @ 31 @ 
+expr  @ 31 @ expr  @ 32 @ 
+include  @ 15 @ include  @ 16 @ 
+include  @ 18 @ include  @ 19 @ 
+name: load_attempt_count  @ 30 @ name: load_attempt_count  @ 31 @ 
+directive: include  @ 22 @ directive: include  @ 23 @ 
+literal: "model_path"  @ 30 @ literal: "model_path"  @ 31 @ 
+expr  @ 30 @ expr  @ 31 @ 
+literal: " "  @ 188 @ literal: " "  @ 195 @ 
+comment: // Session wrapper that prevents calls to Session::Create(), Session::Extend(),  @ 201 @ comment: // Session wrapper that prevents calls to Session::Create(), Session::Extend(),  @ 208 @ 
+directive: include  @ 20 @ directive: include  @ 21 @ 
+name: New  @ 30 @ name: New  @ 31 @ 
+argument  @ 32 @ argument  @ 33 @ 
+comment: // Each call to Session::Run() that identifies a new subgraph (based on feeds  @ 88 @ comment: // Each call to Session::Run() that identifies a new subgraph (based on feeds  @ 97 @ 
+directive: include  @ 23 @ directive: include  @ 24 @ 
+comment: // users.  @ 206 @ comment: // users.  @ 213 @ 
+file: "tensorflow/cc/saved_model/reader.h"  @ 9 @ file: "tensorflow/cc/saved_model/reader.h"  @ 9 @ 
+file: "tensorflow/core/framework/attr_value.pb.h"  @ 10 @ file: "tensorflow/core/framework/attr_value.pb.h"  @ 10 @ 
+comment: // namespace  @ 283 @ comment: // namespace  @ 290 @ 
+comment: // allocate memory for that large constant that will just stick around till the  @ 94 @ comment: // allocate memory for that large constant that will just stick around till the  @ 103 @ 
+argument  @ 30 @ argument  @ 31 @ 
+comment: // and fetches) creates some datastructures that live as long as the session  @ 89 @ comment: // and fetches) creates some datastructures that live as long as the session  @ 98 @ 
+literal: "Running initialization op on SavedModel bundle at path: "  @ 124 @ literal: "Running initialization op on SavedModel bundle at path: "  @ 131 @ 
+name: New  @ 31 @ name: New  @ 32 @ 
+literal: ". Took "  @ 189 @ literal: ". Took "  @ 196 @ 
+type  @ 27 @ type  @ 28 @ 
+expr  @ 30 @ expr  @ 31 @ 
+comment: // Ensure that constant tensors loaded from the saved model have valid shape.  @ 46 @ comment: // Ensure that constant tensors loaded from the saved model have valid shape.  @ 47 @ 
+directive: include  @ 7 @ directive: include  @ 7 @ 
+comment: // Avoid clock skew.  @ 41 @ comment: // Avoid clock skew.  @ 42 @ 
+argument  @ 155 @ argument  @ 162 @ 
+directive: include  @ 18 @ directive: include  @ 19 @ 
+expr  @ 30 @ expr  @ 31 @ 
+literal: "Saved model contains node \""  @ 57 @ literal: "Saved model contains node \""  @ 57 @ 
+file: "tensorflow/core/platform/env.h"  @ 18 @ file: "tensorflow/core/platform/env.h"  @ 19 @ 
+literal: "restore_graph"  @ 299 @ literal: "restore_graph"  @ 306 @ 
+include  @ 24 @ include  @ 25 @ 
+literal: "Session::Extend()"  @ 220 @ literal: "Session::Extend()"  @ 227 @ 
+operator: ::  @ 32 @ operator: ::  @ 33 @ 
+file: "tensorflow/core/lib/strings/strcat.h"  @ 17 @ file: "tensorflow/core/lib/strings/strcat.h"  @ 18 @ 
+comment: // (the partitioned graph, associated executors etc.).  @ 90 @ comment: // (the partitioned graph, associated executors etc.).  @ 99 @ 
+argument  @ 30 @ argument  @ 31 @ 
+comment: // TODO(robson): Add tests for the counters.  @ 184 @ comment: // TODO(robson): Add tests for the counters.  @ 191 @ 
+name: monitoring  @ 32 @ name: monitoring  @ 33 @ 
+comment: // Detailed motivation behind this approach, from ashankar@:  @ 86 @ comment: // Detailed motivation behind this approach, from ashankar@:  @ 95 @ 
+literal: "SavedModel load for tags { "  @ 188 @ literal: "SavedModel load for tags { "  @ 195 @ 
+operator: *  @ 32 @ operator: *  @ 33 @ 
+block_content  @ 30 @ block_content  @ 31 @ 
+argument_list  @ 32 @ argument_list  @ 33 @ 
+call  @ 31 @ call  @ 32 @ 
+comment: // Record walltime spent in restoring graph from disk, but postpone metric  @ 290 @ comment: // Record walltime spent in restoring graph from disk, but postpone metric  @ 297 @ 
+literal: 1  @ 191 @ literal: 1  @ 198 @ 
+name: auto  @ 30 @ name: auto  @ 31 @ 
+argument  @ 31 @ argument  @ 32 @ 
+comment: // We disallow calls to Session::Extend() on the returned session, so we can  @ 308 @ comment: // We disallow calls to Session::Extend() on the returned session, so we can  @ 315 @ 
+comment: // variables are stored in the variables.data-?????-of-????? files.  @ 141 @ comment: // variables are stored in the variables.data-?????-of-????? files.  @ 148 @ 
+include  @ 10 @ include  @ 10 @ 
+operator: =  @ 32 @ operator: =  @ 33 @ 
+literal: 2  @ 32 @ literal: 2  @ 33 @ 
+comment: // RunInitOp will return OK if the initialization op was run successfully.  @ 121 @ comment: // RunInitOp will return OK if the initialization op was run successfully.  @ 128 @ 
+directive: include  @ 24 @ directive: include  @ 25 @ 
+literal: "Session::Extend()"  @ 223 @ literal: "Session::Extend()"  @ 230 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 32 @ 
+comment: // namespace tensorflow  @ 330 @ comment: // namespace tensorflow  @ 337 @ 
+literal: "init_graph"  @ 301 @ literal: "init_graph"  @ 308 @ 
+directive: include  @ 17 @ directive: include  @ 18 @ 
+comment: // Like Session::Run(), but uses the Make/Run/ReleaseCallable() API to avoid  @ 83 @ comment: // Like Session::Run(), but uses the Make/Run/ReleaseCallable() API to avoid  @ 92 @ 
+include  @ 9 @ include  @ 9 @ 
+name: New  @ 32 @ name: New  @ 33 @ 
+comment: // reduce memory consumption by not storing the original GraphDef.  @ 309 @ comment: // reduce memory consumption by not storing the original GraphDef.  @ 316 @ 
+argument  @ 126 @ argument  @ 133 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 33 @ 
+directive: include  @ 9 @ directive: include  @ 9 @ 
+comment: // right after ReleaseCallable returns.  @ 96 @ comment: // right after ReleaseCallable returns.  @ 105 @ 
+comment: /* outputs */  @ 129 @ comment: /* outputs */  @ 136 @ 
+literal: "Session::Create()"  @ 213 @ literal: "Session::Create()"  @ 220 @ 
+name: auto  @ 32 @ name: auto  @ 33 @ 
+directive: include  @ 11 @ directive: include  @ 12 @ 
+include  @ 8 @ include  @ 8 @ 
+comment: // leaving behind non-GC'ed state.  @ 84 @ comment: // leaving behind non-GC'ed state.  @ 93 @ 
+literal: " }; Status: "  @ 189 @ literal: " }; Status: "  @ 196 @ 
+expr  @ 30 @ expr  @ 31 @ 
+expr  @ 31 @ expr  @ 32 @ 
+operator: ::  @ 31 @ operator: ::  @ 32 @ 
+directive: include  @ 12 @ directive: include  @ 13 @ 
+literal: "Session::Create()"  @ 231 @ literal: "Session::Create()"  @ 238 @ 
+comment: // Record wall time spent in init op.  @ 300 @ comment: // Record wall time spent in init op.  @ 307 @ 
+literal: "Session::PRun()"  @ 255 @ literal: "Session::PRun()"  @ 262 @ 
+comment: // not storing the rewritten subgraph for each signature.  @ 313 @ comment: // not storing the rewritten subgraph for each signature.  @ 320 @ 
+argument  @ 36 @ argument  @ 37 @ 
+file: "tensorflow/core/lib/io/path.h"  @ 13 @ file: "tensorflow/core/lib/io/path.h"  @ 14 @ 
+file: "tensorflow/core/protobuf/saver.pb.h"  @ 22 @ file: "tensorflow/core/protobuf/saver.pb.h"  @ 23 @ 
+operator: =  @ 30 @ operator: =  @ 31 @ 
+include  @ 21 @ include  @ 22 @ 
+comment: // Add variables to the graph.  @ 151 @ comment: // Add variables to the graph.  @ 158 @ 
+argument_list  @ 31 @ argument_list  @ 32 @ 
+include  @ 22 @ include  @ 23 @ 
+file: "tensorflow/cc/saved_model/loader_util.h"  @ 8 @ file: "tensorflow/cc/saved_model/loader_util.h"  @ 8 @ 
+argument  @ 31 @ argument  @ 32 @ 
+file: "tensorflow/core/protobuf/graph_debug_info.pb.h"  @ 20 @ file: "tensorflow/core/protobuf/graph_debug_info.pb.h"  @ 21 @ 
+include  @ 5 @ include  @ 5 @ 
+operator: ::  @ 32 @ operator: ::  @ 33 @ 
+comment: // Also ensure that constant nodes have a value assigned to them.  @ 47 @ comment: // Also ensure that constant nodes have a value assigned to them.  @ 48 @ 
+literal: "were restored. File does not exist: "  @ 144 @ literal: "were restored. File does not exist: "  @ 151 @ 
+file: "tensorflow/core/public/session.h"  @ 23 @ file: "tensorflow/core/public/session.h"  @ 24 @ 
+name: namespace  @ 28 @ name: namespace  @ 29 @ 
+comment: // to replace the Session with a cut-down implementation, without breaking any  @ 205 @ comment: // to replace the Session with a cut-down implementation, without breaking any  @ 212 @ 
+literal: "/tensorflow/cc/saved_model/load_attempt_count"  @ 30 @ literal: "/tensorflow/cc/saved_model/load_attempt_count"  @ 31 @ 
+literal: "\" (op \""  @ 57 @ literal: "\" (op \""  @ 57 @ 
+name: load_latency_by_stage  @ 32 @ name: load_latency_by_stage  @ 33 @ 
+argument  @ 156 @ argument  @ 163 @ 
+name: Counter  @ 30 @ name: Counter  @ 31 @ 
+literal: "status"  @ 30 @ literal: "status"  @ 31 @ 
+directive: include  @ 5 @ directive: include  @ 5 @ 
+directive: include  @ 13 @ directive: include  @ 14 @ 
+comment: //  @ 91 @ comment: //  @ 100 @ 
+expr  @ 31 @ expr  @ 32 @ 
+name: monitoring  @ 31 @ name: monitoring  @ 32 @ 
+block  @ 27 @ block  @ 28 @ 
+block_content  @ 28 @ block_content  @ 29 @ 
+name: namespace  @ 27 @ name: namespace  @ 28 @ 
+include  @ 3 @ include  @ 3 @ 
+literal: "Session::PRunSetup()"  @ 251 @ literal: "Session::PRunSetup()"  @ 258 @ 
+directive: include  @ 15 @ directive: include  @ 16 @ 
+operator: *  @ 31 @ operator: *  @ 32 @ 
+decl  @ 27 @ decl  @ 28 @ 
+name: auto  @ 31 @ name: auto  @ 32 @ 
+comment: // session dies. With this Callable mechanism, that memory will be released  @ 95 @ comment: // session dies. With this Callable mechanism, that memory will be released  @ 104 @ 
+comment: // metric name"Distribution of wall time spent (in microseconds) in each stage ""(restore graph from disk, run init graph op, etc) when loading the ""model","model_path","stage",},// Scale of 10, power of 1.8 with bucket count 33 (~20 minutes).monitoring::Buckets::Exponential(10, 1.8, 33));  @ 34 @ comment: // metric name"Distribution of wall time spent (in microseconds) in each stage ""(restore graph from disk, run init graph op, etc) when loading the ""model","model_path","stage",},// Scale of 10, power of 1.8 with bucket count 33 (~20 minutes).monitoring::Buckets::Exponential(10, 1.8, 33));  @ 35 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 31 @ 
+literal: ": "  @ 189 @ literal: ": "  @ 196 @ 
+expr  @ 32 @ expr  @ 33 @ 
+directive: include  @ 10 @ directive: include  @ 10 @ 
+comment: // Check for saver checkpoints in v2 format. Models exported in the checkpoint  @ 139 @ comment: // Check for saver checkpoints in v2 format. Models exported in the checkpoint  @ 146 @ 
+macro  @ 28 @ macro  @ 29 @ 
+argument  @ 31 @ argument  @ 32 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument_list  @ 31 @ argument_list  @ 32 @ 
+argument  @ 30 @ argument  @ 31 @ 
+expr  @ 30 @ expr  @ 31 @ 
+file: "tensorflow/core/lib/monitoring/counter.h"  @ 14 @ file: "tensorflow/core/lib/monitoring/counter.h"  @ 15 @ 
+file: "tensorflow/core/platform/errors.h"  @ 19 @ file: "tensorflow/core/platform/errors.h"  @ 20 @ 
+macro  @ 32 @ macro  @ 33 @ 
+literal: "The specified SavedModel has no variables; no checkpoints "  @ 143 @ literal: "The specified SavedModel has no variables; no checkpoints "  @ 150 @ 
+file: "tensorflow/core/public/session_options.h"  @ 24 @ file: "tensorflow/core/public/session_options.h"  @ 25 @ 
+name  @ 31 @ name  @ 32 @ 
+literal: 0  @ 56 @ literal: 0  @ 56 @ 
+literal: "Latency in microseconds for SavedModels that were successfully loaded."  @ 31 @ literal: "Latency in microseconds for SavedModels that were successfully loaded."  @ 32 @ 
+comment: // in debugging and tests) allows us to reduce memory consumption further by  @ 312 @ comment: // in debugging and tests) allows us to reduce memory consumption further by  @ 319 @ 
+literal: "Restoring SavedModel bundle."  @ 135 @ literal: "Restoring SavedModel bundle."  @ 142 @ 
+name: monitoring  @ 30 @ name: monitoring  @ 31 @ 
+argument  @ 30 @ argument  @ 31 @ 
+literal: "Saved model contains node \""  @ 61 @ literal: "Saved model contains node \""  @ 61 @ 
+literal: "Session::Extend()"  @ 240 @ literal: "Session::Extend()"  @ 247 @ 
+include  @ 7 @ include  @ 7 @ 
+comment: //  @ 85 @ comment: //  @ 94 @ 
+file: "tensorflow/core/lib/strings/str_util.h"  @ 16 @ file: "tensorflow/core/lib/strings/str_util.h"  @ 17 @ 
+argument  @ 31 @ argument  @ 32 @ 
+literal: "Session::Extend()"  @ 234 @ literal: "Session::Extend()"  @ 241 @ 
+file: "tensorflow/core/protobuf/meta_graph.pb.h"  @ 21 @ file: "tensorflow/core/protobuf/meta_graph.pb.h"  @ 22 @ 
+call  @ 30 @ call  @ 31 @ 
+argument  @ 33 @ argument  @ 34 @ 
+comment: //  @ 97 @ comment: //  @ 106 @ 
+include  @ 12 @ include  @ 13 @ 
+include  @ 19 @ include  @ 20 @ 
+literal: "The number of times a SavedModel was successfully loaded."  @ 30 @ literal: "The number of times a SavedModel was successfully loaded."  @ 31 @ 
+include  @ 11 @ include  @ 12 @ 
+comment: // (main_op/legacy_init_op) involves the use of a large constant. Then we  @ 93 @ comment: // (main_op/legacy_init_op) involves the use of a large constant. Then we  @ 102 @ 
+argument  @ 30 @ argument  @ 31 @ 
+literal: "fail"  @ 36 @ literal: "fail"  @ 37 @ 
+operator: ::  @ 30 @ operator: ::  @ 31 @ 
+operator: *  @ 30 @ operator: *  @ 31 @ 
+operator: =  @ 31 @ operator: =  @ 32 @ 
+literal: "\" which is a constant tensor but no value has been provided"  @ 61 @ literal: "\" which is a constant tensor but no value has been provided"  @ 61 @ 
+name  @ 30 @ name  @ 31 @ 
+comment: // increments until graph init finishes.  @ 291 @ comment: // increments until graph init finishes.  @ 298 @ 
+literal: "value"  @ 51 @ literal: "value"  @ 51 @ 
+directive: include  @ 3 @ directive: include  @ 3 @ 
+comment: // Disallowing the `RunOptions.output_partition_graphs` option (typically used  @ 311 @ comment: // Disallowing the `RunOptions.output_partition_graphs` option (typically used  @ 318 @ 
+literal: 2  @ 30 @ literal: 2  @ 31 @ 
+comment: /* outputs */  @ 161 @ comment: /* outputs */  @ 168 @ 
+name: tensorflow  @ 27 @ name: tensorflow  @ 28 @ 
+decl_stmt  @ 27 @ decl_stmt  @ 28 @ 
+comment: // v2 format will have a variables.index file. The corresponding  @ 140 @ comment: // v2 format will have a variables.index file. The corresponding  @ 147 @ 
+include  @ 14 @ include  @ 15 @ 
+comment: // TODO(mrry): Consider specializing the session creation to reduce peak  @ 315 @ comment: // TODO(mrry): Consider specializing the session creation to reduce peak  @ 322 @ 
+comment: // However, the resource manager state remains.  @ 98 @ comment: // However, the resource manager state remains.  @ 107 @ 
+comment: // Find path to variables to be restored in export directory.  @ 136 @ comment: // Find path to variables to be restored in export directory.  @ 143 @ 
+file: "tensorflow/cc/saved_model/constants.h"  @ 7 @ file: "tensorflow/cc/saved_model/constants.h"  @ 7 @ 
+directive: include  @ 16 @ directive: include  @ 17 @ 
+file: "tensorflow/cc/saved_model/loader.h"  @ 3 @ file: "tensorflow/cc/saved_model/loader.h"  @ 3 @ 
+comment: // TODO(b/154763635): this is temporary and will be replaced with a better audit  @ 48 @ comment: // TODO(b/154763635): this is temporary and will be replaced with a better audit  @ 49 @ 
+comment: // and the deprecated partial-run methods.  @ 202 @ comment: // and the deprecated partial-run methods.  @ 209 @ 
+directive: include  @ 14 @ directive: include  @ 15 @ 
+operator: ::  @ 30 @ operator: ::  @ 31 @ 
+comment: // namespace  @ 164 @ comment: // namespace  @ 171 @ 
+literal: " microseconds."  @ 190 @ literal: " microseconds."  @ 197 @ 
+file: "tensorflow/core/util/tensor_bundle/naming.h"  @ 25 @ file: "tensorflow/core/util/tensor_bundle/naming.h"  @ 26 @ 
+file: "tensorflow/core/lib/monitoring/sampler.h"  @ 15 @ file: "tensorflow/core/lib/monitoring/sampler.h"  @ 16 @ 
+literal: "success"  @ 37 @ literal: "success"  @ 38 @ 
+comment: // RunCallable().  @ 116 @ comment: // RunCallable().  @ 123 @ 
+include  @ 16 @ include  @ 17 @ 
+name: load_latency  @ 31 @ name: load_latency  @ 32 @ 
+file: "tensorflow/core/framework/tensor.pb.h"  @ 12 @ file: "tensorflow/core/framework/tensor.pb.h"  @ 13 @ 
+file: "tensorflow/core/framework/node_def.pb.h"  @ 11 @ file: "tensorflow/core/framework/node_def.pb.h"  @ 12 @ 
+

@@ -1,0 +1,326 @@
+decl  @ 1 @ decl  @ 1 @ 
+type  @ 5 @ type  @ 5 @ 
+operator: (  @ 23 @ operator: (  @ 22 @ 
+name: old_ssl_sessionid  @ 35 @ name: old_ssl_sessionid  @ 29 @ 
+call  @ 15 @ call  @ 14 @ 
+argument  @ 15 @ argument  @ 14 @ 
+expr  @ 40 @ expr  @ 35 @ 
+name: res  @ 55 @ name: res  @ 51 @ 
+expr  @ 29 @ expr  @ 26 @ 
+argument  @ 38 @ argument  @ 33 @ 
+argument  @ 31 @ argument  @ 28 @ 
+condition  @ 37 @ condition  @ 32 @ 
+literal: 0  @ 3 @ literal: 0  @ 3 @ 
+expr  @ 17 @ expr  @ 16 @ 
+expr  @ 15 @ expr  @ 14 @ 
+expr  @ 39 @ expr  @ 34 @ 
+argument_list  @ 50 @ argument_list  @ 46 @ 
+expr  @ 50 @ expr  @ 46 @ 
+name: int  @ 9 @ name: int  @ 8 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 33 @ 
+name: incache  @ 28 @ name: incache  @ 25 @ 
+argument  @ 45 @ argument  @ 41 @ 
+decl  @ 10 @ decl  @ 9 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+init  @ 29 @ init  @ 26 @ 
+name: conn  @ 35 @ name: conn  @ 29 @ 
+block_content  @ 37 @ block_content  @ 32 @ 
+condition  @ 12 @ condition  @ 11 @ 
+if  @ 37 @ if  @ 32 @ 
+condition  @ 36 @ condition  @ 31 @ 
+name: conn  @ 16 @ name: conn  @ 15 @ 
+argument_list  @ 35 @ argument_list  @ 29 @ 
+name: sock  @ 23 @ name: sock  @ 22 @ 
+expr  @ 38 @ expr  @ 33 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+expr  @ 45 @ expr  @ 41 @ 
+name: sockindex_idx  @ 22 @ name: sockindex_idx  @ 21 @ 
+init  @ 9 @ init  @ 8 @ 
+expr  @ 13 @ expr  @ 12 @ 
+if  @ 36 @ if  @ 31 @ 
+call  @ 10 @ call  @ 9 @ 
+argument  @ 39 @ argument  @ 34 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+operator: )  @ 35 @ operator: )  @ 30 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 9 @ 
+if_stmt  @ 45 @ if_stmt  @ 40 @ 
+expr  @ 45 @ expr  @ 40 @ 
+name: data  @ 38 @ name: data  @ 33 @ 
+operator: .  @ 27 @ operator: .  @ 24 @ 
+name: SSL_SET_OPTION  @ 27 @ name: SSL_SET_OPTION  @ 24 @ 
+name: NULL  @ 29 @ name: NULL  @ 26 @ 
+operator: &  @ 35 @ operator: &  @ 29 @ 
+argument_list  @ 45 @ argument_list  @ 40 @ 
+argument  @ 45 @ argument  @ 41 @ 
+name: conn  @ 45 @ name: conn  @ 40 @ 
+block  @ 36 @ block  @ 31 @ 
+name: data  @ 19 @ name: data  @ 18 @ 
+name: ssl  @ 22 @ name: ssl  @ 21 @ 
+block  @ 17 @ block  @ 16 @ 
+name  @ 5 @ name  @ 5 @ 
+name: data  @ 39 @ name: conn  @ 34 @ 
+expr  @ 31 @ expr  @ 28 @ 
+argument_list  @ 31 @ argument_list  @ 28 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+call  @ 52 @ call  @ 48 @ 
+name: data  @ 52 @ name: conn  @ 48 @ 
+argument  @ 50 @ argument  @ 46 @ 
+argument_list  @ 9 @ argument_list  @ 8 @ 
+name  @ 23 @ name  @ 22 @ 
+type  @ 6 @ type  @ 6 @ 
+expr  @ 15 @ expr  @ 14 @ 
+operator: =  @ 19 @ operator: =  @ 18 @ 
+name: infof  @ 38 @ name: infof  @ 33 @ 
+expr  @ 50 @ expr  @ 46 @ 
+if  @ 45 @ if  @ 40 @ 
+argument_list  @ 52 @ argument_list  @ 48 @ 
+type  @ 28 @ type  @ 25 @ 
+decl  @ 9 @ decl  @ 8 @ 
+expr  @ 52 @ expr  @ 48 @ 
+literal: 0  @ 13 @ literal: 0  @ 12 @ 
+name: old_ssl_sessionid  @ 37 @ name: old_ssl_sessionid  @ 32 @ 
+literal: 0  @ 45 @ literal: 0  @ 41 @ 
+argument  @ 35 @ argument  @ 29 @ 
+expr  @ 36 @ expr  @ 31 @ 
+argument  @ 22 @ argument  @ 21 @ 
+expr_stmt  @ 47 @ expr_stmt  @ 43 @ 
+if_stmt  @ 37 @ if_stmt  @ 32 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 28 @ 
+name: ossl_get_ssl_sockindex_index  @ 10 @ name: ossl_get_ssl_sockindex_index  @ 9 @ 
+name: res  @ 47 @ name: res  @ 43 @ 
+operator: *  @ 22 @ operator: *  @ 21 @ 
+call  @ 38 @ call  @ 33 @ 
+expr  @ 22 @ expr  @ 21 @ 
+expr  @ 10 @ expr  @ 9 @ 
+name: ssl_sessionid  @ 37 @ name: ssl_sessionid  @ 32 @ 
+operator: <  @ 12 @ operator: <  @ 11 @ 
+modifier: *  @ 29 @ modifier: *  @ 26 @ 
+block  @ 45 @ block  @ 41 @ 
+expr  @ 35 @ expr  @ 29 @ 
+name: incache  @ 36 @ name: incache  @ 31 @ 
+if  @ 16 @ if  @ 15 @ 
+name: Curl_ssl_getsessionid  @ 35 @ name: Curl_ssl_getsessionid  @ 29 @ 
+name: old_ssl_sessionid  @ 39 @ name: old_ssl_sessionid  @ 34 @ 
+call  @ 31 @ call  @ 28 @ 
+name: data  @ 50 @ name: data  @ 46 @ 
+operator: (  @ 35 @ operator: (  @ 29 @ 
+call  @ 39 @ call  @ 34 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+name: failf  @ 50 @ name: failf  @ 46 @ 
+expr  @ 52 @ expr  @ 48 @ 
+operator: (  @ 23 @ operator: (  @ 22 @ 
+init  @ 3 @ init  @ 3 @ 
+name: struct  @ 5 @ name: struct  @ 5 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 21 @ 
+argument  @ 35 @ argument  @ 29 @ 
+expr  @ 35 @ expr  @ 30 @ 
+call  @ 9 @ call  @ 8 @ 
+decl  @ 28 @ decl  @ 25 @ 
+type  @ 7 @ type  @ 7 @ 
+block_content  @ 17 @ block_content  @ 16 @ 
+argument  @ 38 @ argument  @ 33 @ 
+name: connectdata_idx  @ 12 @ name: connectdata_idx  @ 11 @ 
+name: data_idx  @ 19 @ name: data  @ 18 @ 
+operator: !  @ 45 @ operator: !  @ 40 @ 
+block_content  @ 38 @ block_content  @ 33 @ 
+name: connectdata_idx  @ 15 @ name: connectdata_idx  @ 14 @ 
+expr  @ 39 @ expr  @ 34 @ 
+expr  @ 45 @ expr  @ 40 @ 
+expr  @ 38 @ expr  @ 33 @ 
+name: data  @ 31 @ name: conn  @ 28 @ 
+block_content  @ 28 @ block_content  @ 25 @ 
+expr  @ 55 @ expr  @ 51 @ 
+name: incache  @ 40 @ name: incache  @ 35 @ 
+name: curl_socket_t  @ 22 @ name: curl_socket_t  @ 21 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+expr  @ 45 @ expr  @ 41 @ 
+name: sockindex_ptr  @ 22 @ name: sockindex_ptr  @ 21 @ 
+call  @ 27 @ call  @ 24 @ 
+operator: )  @ 23 @ operator: )  @ 22 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 46 @ 
+block  @ 27 @ block  @ 24 @ 
+literal: 0  @ 12 @ literal: 0  @ 11 @ 
+name: NULL  @ 35 @ name: NULL  @ 29 @ 
+if_stmt  @ 16 @ if_stmt  @ 15 @ 
+argument  @ 52 @ argument  @ 48 @ 
+expr  @ 35 @ expr  @ 29 @ 
+operator: =  @ 15 @ operator: =  @ 14 @ 
+operator: <  @ 12 @ operator: <  @ 11 @ 
+argument_list  @ 38 @ argument_list  @ 33 @ 
+type  @ 1 @ type  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+name  @ 4 @ name  @ 4 @ 
+decl  @ 7 @ decl  @ 7 @ 
+return  @ 13 @ return  @ 12 @ 
+operator: =  @ 40 @ operator: =  @ 35 @ 
+if  @ 44 @ if  @ 39 @ 
+if  @ 27 @ if  @ 24 @ 
+expr  @ 50 @ expr  @ 46 @ 
+name: ssl  @ 15 @ name: ssl  @ 14 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 7 @ 
+argument  @ 15 @ argument  @ 14 @ 
+type  @ 3 @ type  @ 3 @ 
+literal: 1  @ 47 @ literal: 1  @ 43 @ 
+operator: -  @ 23 @ operator: -  @ 22 @ 
+name: int  @ 10 @ name: int  @ 9 @ 
+name  @ 27 @ name  @ 24 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+name: Curl_ssl_addsessionid  @ 45 @ name: Curl_ssl_addsessionid  @ 40 @ 
+operator: !  @ 44 @ operator: !  @ 39 @ 
+argument  @ 35 @ argument  @ 30 @ 
+return  @ 17 @ return  @ 16 @ 
+name: sockindex  @ 45 @ name: sockindex  @ 41 @ 
+comment: /* unknown size */  @ 45 @ comment: /* unknown size */  @ 41 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+expr  @ 12 @ expr  @ 11 @ 
+name: SSL_get_ex_data  @ 22 @ name: SSL_get_ex_data  @ 21 @ 
+operator: ||  @ 12 @ operator: ||  @ 11 @ 
+name: conn  @ 15 @ name: conn  @ 14 @ 
+argument_list  @ 10 @ argument_list  @ 9 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 8 @ 
+expr  @ 44 @ expr  @ 39 @ 
+name: ossl_get_ssl_conn_index  @ 9 @ name: ossl_get_ssl_conn_index  @ 8 @ 
+name: conn  @ 23 @ name: conn  @ 22 @ 
+name: sockindex_idx  @ 12 @ name: sockindex_idx  @ 11 @ 
+condition  @ 44 @ condition  @ 39 @ 
+name: old_ssl_sessionid  @ 29 @ name: old_ssl_sessionid  @ 26 @ 
+operator: )  @ 23 @ operator: )  @ 22 @ 
+expr  @ 22 @ expr  @ 21 @ 
+argument  @ 22 @ argument  @ 21 @ 
+name: sockindex_ptr  @ 23 @ name: sockindex_ptr  @ 22 @ 
+type  @ 9 @ type  @ 8 @ 
+modifier: *  @ 7 @ modifier: *  @ 7 @ 
+name: Curl_ssl_delsessionid  @ 39 @ name: Curl_ssl_delsessionid  @ 34 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+name: sockindex  @ 35 @ name: sockindex  @ 30 @ 
+operator: )  @ 22 @ operator: )  @ 21 @ 
+argument  @ 39 @ argument  @ 34 @ 
+argument_list  @ 39 @ argument_list  @ 34 @ 
+call  @ 22 @ call  @ 21 @ 
+comment: /* The sockindex has been stored as a pointer to an array element */  @ 21 @ comment: /* The sockindex has been stored as a pointer to an array element */  @ 20 @ 
+argument  @ 50 @ argument  @ 46 @ 
+name: SSL  @ 1 @ name: SSL  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+block  @ 37 @ block  @ 32 @ 
+condition  @ 45 @ condition  @ 40 @ 
+call  @ 35 @ call  @ 29 @ 
+name: SSL_get_ex_data  @ 15 @ name: SSL_get_ex_data  @ 14 @ 
+expr  @ 38 @ expr  @ 33 @ 
+name: conn  @ 4 @ name: conn  @ 4 @ 
+expr  @ 45 @ expr  @ 40 @ 
+block  @ 2 @ block  @ 2 @ 
+name: int  @ 23 @ name: int  @ 22 @ 
+name: ssl_sessionid  @ 1 @ name: ssl_sessionid  @ 1 @ 
+name: sockindex  @ 6 @ name: sockindex  @ 6 @ 
+operator: )  @ 15 @ operator: )  @ 14 @ 
+name: ossl_new_session_cb  @ 1 @ name: ossl_new_session_cb  @ 1 @ 
+if_stmt  @ 12 @ if_stmt  @ 11 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+block_content  @ 47 @ block_content  @ 43 @ 
+type  @ 10 @ type  @ 9 @ 
+operator: =  @ 35 @ operator: =  @ 29 @ 
+if  @ 12 @ if  @ 11 @ 
+decl  @ 1 @ decl  @ 1 @ 
+block_content  @ 13 @ block_content  @ 12 @ 
+block_content  @ 45 @ block_content  @ 40 @ 
+expr  @ 23 @ expr  @ 22 @ 
+expr  @ 31 @ expr  @ 28 @ 
+operator: =  @ 47 @ operator: =  @ 43 @ 
+expr  @ 27 @ expr  @ 24 @ 
+expr  @ 3 @ expr  @ 3 @ 
+argument  @ 45 @ argument  @ 40 @ 
+operator: !  @ 35 @ operator: !  @ 29 @ 
+name: Curl_ssl_sessionid_unlock  @ 52 @ name: Curl_ssl_sessionid_unlock  @ 48 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: struct  @ 4 @ name: struct  @ 4 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+name: res  @ 3 @ name: res  @ 3 @ 
+expr  @ 39 @ expr  @ 34 @ 
+decl  @ 3 @ decl  @ 3 @ 
+argument_list  @ 27 @ argument_list  @ 24 @ 
+block  @ 44 @ block  @ 39 @ 
+name: Curl_easy  @ 5 @ name: Curl_easy  @ 5 @ 
+name: incache  @ 35 @ name: incache  @ 29 @ 
+operator: =  @ 22 @ operator: =  @ 21 @ 
+condition  @ 27 @ condition  @ 24 @ 
+expr  @ 27 @ expr  @ 24 @ 
+name: sockindex  @ 23 @ name: sockindex  @ 22 @ 
+operator: *  @ 15 @ operator: *  @ 14 @ 
+type  @ 4 @ type  @ 4 @ 
+name: connectdata  @ 15 @ name: connectdata  @ 14 @ 
+argument  @ 45 @ argument  @ 40 @ 
+name: void  @ 29 @ name: void  @ 26 @ 
+name: ssl_sessionid  @ 45 @ name: ssl_sessionid  @ 40 @ 
+decl  @ 5 @ decl  @ 5 @ 
+argument  @ 35 @ argument  @ 29 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: *  @ 19 @ operator: ->  @ 18 @ 
+name: connectdata  @ 4 @ name: connectdata  @ 4 @ 
+operator: (  @ 15 @ operator: (  @ 14 @ 
+name: incache  @ 44 @ name: incache  @ 39 @ 
+decl_stmt  @ 29 @ decl_stmt  @ 26 @ 
+block  @ 50 @ block  @ 46 @ 
+literal: 0  @ 17 @ literal: 0  @ 16 @ 
+if_stmt  @ 27 @ if_stmt  @ 24 @ 
+argument_list  @ 15 @ argument_list  @ 14 @ 
+call  @ 50 @ call  @ 46 @ 
+name: SSL_SESSION  @ 1 @ name: SSL_SESSION  @ 1 @ 
+argument  @ 27 @ argument  @ 24 @ 
+operator: !  @ 16 @ operator: !  @ 15 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 22 @ 
+if_stmt  @ 36 @ if_stmt  @ 31 @ 
+literal: "failed to store ssl session"  @ 50 @ literal: "failed to store ssl session"  @ 46 @ 
+argument_list  @ 22 @ argument_list  @ 21 @ 
+decl_stmt  @ 28 @ decl_stmt  @ 25 @ 
+expr  @ 19 @ expr  @ 18 @ 
+name: sockindex_idx  @ 10 @ name: sockindex_idx  @ 9 @ 
+name: sockindex_ptr  @ 7 @ name: sockindex_ptr  @ 7 @ 
+expr  @ 16 @ expr  @ 15 @ 
+expr  @ 9 @ expr  @ 8 @ 
+expr  @ 35 @ expr  @ 29 @ 
+expr  @ 15 @ expr  @ 14 @ 
+block_content  @ 50 @ block_content  @ 46 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+name: int  @ 3 @ name: int  @ 3 @ 
+call  @ 45 @ call  @ 40 @ 
+type  @ 29 @ type  @ 26 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: curl_socket_t  @ 7 @ name: curl_socket_t  @ 7 @ 
+block  @ 13 @ block  @ 12 @ 
+literal: "old SSL session ID is stale, removing\n"  @ 38 @ literal: "old SSL session ID is stale, removing\n"  @ 33 @ 
+return  @ 55 @ return  @ 51 @ 
+decl  @ 6 @ decl  @ 6 @ 
+name: ssl  @ 1 @ name: ssl  @ 1 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 29 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 47 @ expr  @ 43 @ 
+operator: =  @ 23 @ operator: =  @ 22 @ 
+expr  @ 22 @ expr  @ 21 @ 
+literal: 0  @ 12 @ literal: 0  @ 11 @ 
+else  @ 49 @ else  @ 45 @ 
+expr  @ 37 @ expr  @ 32 @ 
+operator: (  @ 22 @ operator: (  @ 21 @ 
+name: FALSE  @ 40 @ name: FALSE  @ 35 @ 
+name: connectdata_idx  @ 9 @ name: connectdata_idx  @ 8 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 48 @ 
+decl  @ 29 @ decl  @ 26 @ 
+name: Curl_ssl_sessionid_lock  @ 31 @ name: Curl_ssl_sessionid_lock  @ 28 @ 
+comment: /* the session has been put into the session cache */  @ 46 @ comment: /* the session has been put into the session cache */  @ 42 @ 
+condition  @ 16 @ condition  @ 15 @ 
+operator: !=  @ 37 @ operator: !=  @ 32 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 18 @ 
+name: Curl_easy  @ 19 @ name: conn  @ 18 @ 
+expr  @ 35 @ expr  @ 29 @ 
+name: int  @ 6 @ name: int  @ 6 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+if_stmt  @ 44 @ if_stmt  @ 39 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 35 @ 
+init  @ 10 @ init  @ 9 @ 
+name: bool  @ 28 @ name: bool  @ 25 @ 
+name: primary  @ 27 @ name: primary  @ 24 @ 
+name: data  @ 5 @ name: data  @ 5 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 14 @ 
+name: sessionid  @ 27 @ name: sessionid  @ 24 @ 
+expr_stmt  @ 39 @ expr_stmt  @ 34 @ 
+

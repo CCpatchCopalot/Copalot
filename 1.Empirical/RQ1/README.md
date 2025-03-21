@@ -1,0 +1,1 @@
+To get the taxonomy of uncritical changes, just run the script `taxonomy.py` and get the num of each taxonomy in `taxonomy_results.json` and the cve list of each taxonomy in `taxonomy_cve_lists.json`

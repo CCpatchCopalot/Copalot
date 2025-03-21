@@ -1,0 +1,59 @@
+{
+    "testcase": {
+        "file13": {
+            "match_message": {
+                "Same: tensorflow -> tensorflow": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 141->187)",
+                        "L2": "5: Matched by Syntax(AST) similarity 142->199"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 144->186 ([[186, 0.552346570397112], [191, 0.5043478260869565]]))",
+                        "L2": "3: Unique Matched by Source code 145 -> 213"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 198,
+                        "add_hunk": [
+                            "      if (num_tokens > 0) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 212,
+                        "add_hunk": [
+                            "            ngram->append(right_pad_);\n",
+                            "          }\n",
+                            "        } else {\n",
+                            "          for (int n = 0; n < right_padding - 1; ++n) {\n",
+                            "            ngram->append(right_pad_);\n",
+                            "            ngram->append(separator_);\n",
+                            "          }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: tensorflow -> tensorflow": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "in_loop"
+            ]
+        }
+    }
+}

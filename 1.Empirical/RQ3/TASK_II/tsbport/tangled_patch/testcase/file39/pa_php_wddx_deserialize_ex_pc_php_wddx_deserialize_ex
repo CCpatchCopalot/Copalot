@@ -1,0 +1,203 @@
+literal: 1  @ 19 @ literal: 1  @ 19 @ 
+block_content  @ 20 @ block_content  @ 20 @ 
+expr  @ 8 @ expr  @ 8 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 9 @ 
+name: retval  @ 23 @ name: retval  @ 23 @ 
+operator: &  @ 28 @ operator: &  @ 28 @ 
+argument_list  @ 11 @ argument_list  @ 11 @ 
+operator: ==  @ 19 @ operator: ==  @ 19 @ 
+argument  @ 12 @ argument  @ 12 @ 
+name: ent  @ 20 @ name: ent  @ 20 @ 
+decl  @ 3 @ decl  @ 3 @ 
+type  @ 5 @ type  @ 5 @ 
+name  @ 21 @ name  @ 21 @ 
+name: XML_ParserFree  @ 17 @ name: XML_ParserFree  @ 17 @ 
+type  @ 1 @ type  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+call  @ 11 @ call  @ 11 @ 
+operator: *  @ 20 @ operator: *  @ 20 @ 
+name: parser  @ 15 @ name: parser  @ 15 @ 
+argument  @ 9 @ argument  @ 9 @ 
+literal: "UTF-8"  @ 9 @ literal: "UTF-8"  @ 9 @ 
+argument  @ 12 @ argument  @ 12 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 25 @ 
+argument  @ 28 @ argument  @ 28 @ 
+operator: ->  @ 21 @ operator: ->  @ 21 @ 
+name: vallen  @ 15 @ name: vallen  @ 15 @ 
+type  @ 1 @ type  @ 1 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 17 @ 
+expr  @ 9 @ expr  @ 9 @ 
+expr  @ 15 @ expr  @ 15 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+expr  @ 30 @ expr  @ 30 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 28 @ expr  @ 28 @ 
+argument_list  @ 9 @ argument_list  @ 9 @ 
+call  @ 17 @ call  @ 17 @ 
+name: stack  @ 19 @ name: stack  @ 19 @ 
+name: php_wddx_deserialize_ex  @ 1 @ name: php_wddx_deserialize_ex  @ 1 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: *  @ 20 @ operator: *  @ 20 @ 
+expr  @ 15 @ expr  @ 15 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: XML_ParserCreate  @ 9 @ name: XML_ParserCreate  @ 9 @ 
+block_content  @ 25 @ block_content  @ 25 @ 
+expr  @ 22 @ expr  @ 22 @ 
+expr  @ 15 @ expr  @ 15 @ 
+operator: =  @ 9 @ operator: =  @ 9 @ 
+name: parser  @ 11 @ name: parser  @ 11 @ 
+else  @ 24 @ else  @ 24 @ 
+call  @ 28 @ call  @ 28 @ 
+expr  @ 15 @ expr  @ 15 @ 
+operator: .  @ 19 @ operator: .  @ 19 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+operator: *  @ 21 @ operator: *  @ 21 @ 
+operator: *  @ 21 @ operator: *  @ 21 @ 
+name: zval_copy_ctor  @ 22 @ name: zval_copy_ctor  @ 22 @ 
+name: XML_Parser  @ 4 @ name: XML_Parser  @ 4 @ 
+argument_list  @ 20 @ argument_list  @ 20 @ 
+argument  @ 17 @ argument  @ 17 @ 
+expr  @ 20 @ expr  @ 20 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 28 @ expr  @ 28 @ 
+type  @ 6 @ type  @ 6 @ 
+condition  @ 19 @ condition  @ 19 @ 
+operator: =  @ 21 @ operator: =  @ 21 @ 
+call  @ 15 @ call  @ 15 @ 
+decl  @ 1 @ decl  @ 1 @ 
+argument  @ 20 @ argument  @ 20 @ 
+name: wddx_stack_init  @ 8 @ name: wddx_stack_init  @ 8 @ 
+name: return_value  @ 22 @ name: return_value  @ 22 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+name: vallen  @ 1 @ name: vallen  @ 1 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 20 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+operator: &  @ 11 @ operator: &  @ 11 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+decl  @ 6 @ decl  @ 6 @ 
+operator: )  @ 21 @ operator: )  @ 21 @ 
+operator: )  @ 20 @ operator: )  @ 20 @ 
+argument_list  @ 28 @ argument_list  @ 28 @ 
+name: wddx_stack  @ 3 @ name: wddx_stack  @ 3 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 13 @ expr  @ 13 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 28 @ 
+name: XML_SetElementHandler  @ 12 @ name: XML_SetElementHandler  @ 12 @ 
+call  @ 22 @ call  @ 22 @ 
+call  @ 8 @ call  @ 8 @ 
+expr  @ 25 @ expr  @ 25 @ 
+name: parser  @ 13 @ name: parser  @ 13 @ 
+name: retval  @ 6 @ name: retval  @ 6 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: return_value  @ 1 @ name: return_value  @ 1 @ 
+type  @ 4 @ type  @ 4 @ 
+name: php_wddx_push_element  @ 12 @ name: php_wddx_push_element  @ 12 @ 
+name: wddx_stack_destroy  @ 28 @ name: wddx_stack_destroy  @ 28 @ 
+expr  @ 8 @ expr  @ 8 @ 
+call  @ 9 @ call  @ 9 @ 
+if_stmt  @ 19 @ if_stmt  @ 19 @ 
+expr  @ 15 @ expr  @ 15 @ 
+argument  @ 12 @ argument  @ 12 @ 
+expr  @ 17 @ expr  @ 17 @ 
+expr  @ 20 @ expr  @ 20 @ 
+expr  @ 13 @ expr  @ 13 @ 
+if  @ 19 @ if  @ 19 @ 
+name: stack  @ 20 @ name: stack  @ 20 @ 
+name: stack  @ 11 @ name: stack  @ 11 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: SUCCESS  @ 23 @ name: SUCCESS  @ 23 @ 
+expr  @ 17 @ expr  @ 17 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+operator: =  @ 25 @ operator: =  @ 25 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+argument_list  @ 17 @ argument_list  @ 17 @ 
+operator: &  @ 20 @ operator: &  @ 20 @ 
+name: value  @ 1 @ name: value  @ 1 @ 
+name: parser  @ 17 @ name: parser  @ 17 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: XML_SetCharacterDataHandler  @ 13 @ name: XML_SetCharacterDataHandler  @ 13 @ 
+name: stack  @ 8 @ name: stack  @ 8 @ 
+argument  @ 15 @ argument  @ 15 @ 
+name: retval  @ 25 @ name: retval  @ 25 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 22 @ 
+block  @ 24 @ block  @ 24 @ 
+name: XML_SetUserData  @ 11 @ name: XML_SetUserData  @ 11 @ 
+expr  @ 23 @ expr  @ 23 @ 
+block  @ 19 @ block  @ 19 @ 
+operator: =  @ 23 @ operator: =  @ 23 @ 
+argument  @ 15 @ argument  @ 15 @ 
+operator: (  @ 21 @ operator: (  @ 21 @ 
+name: parser  @ 9 @ name: parser  @ 9 @ 
+argument  @ 13 @ argument  @ 13 @ 
+argument  @ 11 @ argument  @ 11 @ 
+argument_list  @ 12 @ argument_list  @ 12 @ 
+call  @ 12 @ call  @ 12 @ 
+name: value  @ 15 @ name: value  @ 15 @ 
+argument  @ 15 @ argument  @ 15 @ 
+argument  @ 8 @ argument  @ 8 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+name: stack  @ 28 @ name: stack  @ 28 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 23 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 12 @ 
+call  @ 20 @ call  @ 20 @ 
+name: ent  @ 5 @ name: ent  @ 5 @ 
+argument  @ 13 @ argument  @ 13 @ 
+argument_list  @ 22 @ argument_list  @ 22 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+operator: &  @ 20 @ operator: &  @ 20 @ 
+operator: &  @ 8 @ operator: &  @ 8 @ 
+name: zval  @ 1 @ name: zval  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: int  @ 6 @ name: int  @ 6 @ 
+argument  @ 22 @ argument  @ 22 @ 
+name  @ 19 @ name  @ 19 @ 
+name: st_entry  @ 5 @ name: st_entry  @ 5 @ 
+name: retval  @ 30 @ name: retval  @ 30 @ 
+expr  @ 12 @ expr  @ 12 @ 
+literal: 1  @ 15 @ literal: 1  @ 15 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+name: FAILURE  @ 25 @ name: FAILURE  @ 25 @ 
+expr  @ 13 @ expr  @ 13 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 21 @ 
+call  @ 13 @ call  @ 13 @ 
+name: void  @ 20 @ name: void  @ 20 @ 
+function  @ 1 @ function  @ 1 @ 
+name: stack  @ 3 @ name: stack  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 19 @ expr  @ 19 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: parser  @ 12 @ name: parser  @ 12 @ 
+name: parser  @ 4 @ name: parser  @ 4 @ 
+operator: (  @ 20 @ operator: (  @ 20 @ 
+name: data  @ 21 @ name: data  @ 21 @ 
+name: XML_Parse  @ 15 @ name: XML_Parse  @ 15 @ 
+argument_list  @ 8 @ argument_list  @ 8 @ 
+return  @ 30 @ return  @ 30 @ 
+expr  @ 11 @ expr  @ 11 @ 
+argument  @ 20 @ argument  @ 20 @ 
+expr  @ 22 @ expr  @ 22 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+expr  @ 21 @ expr  @ 21 @ 
+argument  @ 15 @ argument  @ 15 @ 
+name: php_wddx_pop_element  @ 12 @ name: php_wddx_pop_element  @ 12 @ 
+name: ent  @ 21 @ name: ent  @ 21 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+block  @ 2 @ block  @ 2 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 9 @ expr  @ 9 @ 
+name: wddx_stack_top  @ 20 @ name: wddx_stack_top  @ 20 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: return_value  @ 21 @ name: return_value  @ 21 @ 
+name: php_wddx_process_data  @ 13 @ name: php_wddx_process_data  @ 13 @ 
+argument  @ 11 @ argument  @ 11 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 8 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+type  @ 3 @ type  @ 3 @ 
+name: top  @ 19 @ name: top  @ 19 @ 
+

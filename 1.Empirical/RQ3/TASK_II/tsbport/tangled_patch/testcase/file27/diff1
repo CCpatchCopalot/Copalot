@@ -1,0 +1,20 @@
+134c134
+< 0});        OP_REQUIRES(ctx, loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+---
+> 0});        OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+142c142
+< 0});        OP_REQUIRES(ctx, loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+---
+> 0});        OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+150c150
+<         OP_REQUIRES(ctx, loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+---
+>         OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+160c160
+< 0});      OP_REQUIRES(ctx, loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of the " "buffer for the output tensor (max elements ", output_elements, ")"));
+---
+> 0});      OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require writing to outside of the " "buffer for the output tensor (max elements ", output_elements, ")"));
+172c172
+< 0});      OP_REQUIRES(ctx, loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of the " "buffer for the output tensor (max elements ", output_elements, ")"));
+---
+> 0});      OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require writing to outside of the " "buffer for the output tensor (max elements ", output_elements, ")"));

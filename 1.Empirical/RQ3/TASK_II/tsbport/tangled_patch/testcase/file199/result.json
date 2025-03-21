@@ -1,0 +1,326 @@
+{
+    "testcase": {
+        "file199": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "194 -> 227",
+                        "L2": "195 -> 228",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "227",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "3869 -> 4416",
+                        "L2": "3870 -> 4417",
+                        "debug": {
+                            "runtime info": "True,{'state': 'default', 'type': 'src:function', 'info': ['missing context,appeded at last']}",
+                            "verify location": "-1",
+                            "output location": "4416",
+                            "verify result": "False"
+                        },
+                        "type": "src:function",
+                        "raw_match_info": {
+                            "state": "default",
+                            "type": "src:function",
+                            "info": [
+                                "missing context,appeded at last"
+                            ]
+                        }
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3905 -> -1",
+                        "L2": "3905 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3907 -> -1",
+                        "L2": "3907 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3908 -> -1",
+                        "L2": "3909 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'default', 'type': 'unknown', 'info': ['unknown out block']}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "default",
+                            "type": "unknown",
+                            "info": [
+                                "unknown out block"
+                            ]
+                        }
+                    }
+                },
+                "Syntax: ossl_check_cxn -> ossl_connect_step1": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2234 -> 2458",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2235->2459"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2765 -> 3147",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2783->3160"
+                    },
+                    "Seg_3": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2797->3173",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2797->3173"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "  ossl_sha256sum,           /* sha256sum */\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "  NULL,                     /* sha256sum */\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "  ossl_associate_connection, /* associate_connection */\n",
+                            "  ossl_disassociate_connection /* disassociate_connection */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 227,
+                        "add_hunk": [
+                            "static void ossl_associate_connection(struct Curl_easy *data,struct connectdata *conn,int sockindex);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 2458,
+                        "add_hunk": [
+                            "  void *ssl_sessionid = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 3147,
+                        "add_hunk": [
+                            "ossl_associate_connection(data, conn, sockindex);"
+                        ],
+                        "delete_location": [
+                            3147,
+                            3160
+                        ],
+                        "delete_hunk": [
+                            "  if(SSL_SET_OPTION(primary.sessionid)) {\n",
+                            "    void *ssl_sessionid = NULL;\n",
+                            "    int connectdata_idx = ossl_get_ssl_conn_index();\n",
+                            "    int sockindex_idx = ossl_get_ssl_sockindex_index();\n",
+                            "    if(connectdata_idx >= 0 && sockindex_idx >= 0) {\n",
+                            "      SSL_set_ex_data(backend->handle, connectdata_idx, conn);\n",
+                            "      SSL_set_ex_data(backend->handle, sockindex_idx, conn->sock + sockindex);\n",
+                            "    }\n",
+                            "    Curl_ssl_sessionid_lock(conn);\n",
+                            "    if(!Curl_ssl_getsessionid(conn, &ssl_sessionid, NULL, sockindex)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            3173,
+                            3173
+                        ],
+                        "delete_hunk": [
+                            "  }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 4416,
+                        "add_hunk": [
+                            "static void ossl_associate_connection(struct Curl_easy *data,struct connectdata *conn,int sockindex)\n",
+                            "{\n",
+                            "  struct ssl_connect_data *connssl = &conn->ssl[sockindex];\n",
+                            "  struct ssl_backend_data *backend = connssl->backend;\n",
+                            "  if(!backend->handle)\n",
+                            "    return;\n",
+                            "  if(SSL_SET_OPTION(primary.sessionid)) {\n",
+                            "    int data_idx = ossl_get_ssl_data_index();\n",
+                            "    int connectdata_idx = ossl_get_ssl_conn_index();\n",
+                            "    int sockindex_idx = ossl_get_ssl_sockindex_index();\n",
+                            "    int proxy_idx = ossl_get_proxy_index();\n",
+                            "    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {\n",
+                            "      SSL_set_ex_data(backend->handle, data_idx, data);\n",
+                            "      SSL_set_ex_data(backend->handle, connectdata_idx, conn);\n",
+                            "      SSL_set_ex_data(backend->handle, sockindex_idx, conn->sock + sockindex);\n",
+                            "#ifndef CURL_DISABLE_PROXY\n",
+                            "      SSL_set_ex_data(backend->handle, proxy_idx, SSL_IS_PROXY() ? (void *) 1:NULL);\n",
+                            "#else\n",
+                            "      SSL_set_ex_data(backend->handle, proxy_idx, NULL);\n",
+                            "#endif\n",
+                            "    }\n",
+                            "  }\n",
+                            "}\n",
+                            "static void ossl_disassociate_connection(struct Curl_easy *data, int sockindex)\n",
+                            "{\n",
+                            "  struct connectdata *conn = data->conn;\n",
+                            "  struct ssl_connect_data *connssl = &conn->ssl[sockindex];\n",
+                            "  struct ssl_backend_data *backend = connssl->backend;\n",
+                            "  if(!backend->handle)\n",
+                            "    return;\n",
+                            "  if(SSL_SET_OPTION(primary.sessionid)) {\n",
+                            "    bool isproxy = FALSE;\n",
+                            "    bool incache;\n",
+                            "    void *old_ssl_sessionid = NULL;\n",
+                            "    int data_idx = ossl_get_ssl_data_index();\n",
+                            "    int connectdata_idx = ossl_get_ssl_conn_index();\n",
+                            "    int sockindex_idx = ossl_get_ssl_sockindex_index();\n",
+                            "    int proxy_idx = ossl_get_proxy_index();\n",
+                            "    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {\n",
+                            "      isproxy = SSL_get_ex_data(backend->handle, proxy_idx) ? TRUE : FALSE;\n",
+                            "      SSL_set_ex_data(backend->handle, data_idx, NULL);\n",
+                            "      SSL_set_ex_data(backend->handle, connectdata_idx, NULL);\n",
+                            "      SSL_set_ex_data(backend->handle, sockindex_idx, NULL);\n",
+                            "      SSL_set_ex_data(backend->handle, proxy_idx, NULL);\n",
+                            "    }\n",
+                            "    Curl_ssl_sessionid_lock(data);\n",
+                            "    incache = !(Curl_ssl_getsessionid(data, conn, isproxy,&old_ssl_sessionid, NULL, sockindex));\n",
+                            "    if(incache)\n",
+                            "      Curl_ssl_delsessionid(data, old_ssl_sessionid);\n",
+                            "    Curl_ssl_sessionid_unlock(data);\n",
+                            "  }\n",
+                            "}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:decl"
+                    },
+                    "Seg_4": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:function"
+                    },
+                    "Seg_5": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_6": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_7": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "unknown"
+                    }
+                },
+                "Syntax: ossl_check_cxn -> ossl_connect_step1": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "function_definition",
+                "Func_Definition",
+                "Func_Invocation",
+                "change_type"
+            ]
+        }
+    }
+}

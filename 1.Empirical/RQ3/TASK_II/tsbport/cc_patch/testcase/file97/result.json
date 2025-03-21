@@ -1,0 +1,86 @@
+{
+    "testcase": {
+        "file97": {
+            "match_message": {
+                "Same: bearssl_connect_step1 -> bearssl_connect_step1": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 348",
+                        "L2": "7: Context line (Ignored) is empty or comment 348"
+                    }
+                },
+                "Same: bearssl_connect_step3 -> bearssl_connect_step3": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 522->572",
+                        "L2": "5: Matched by Syntax(AST) similarity 522->572"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 525->575",
+                        "L2": "5: Matched by Syntax(AST) similarity 525->575"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "    if(!Curl_ssl_getsessionid(data, conn, SSL_IS_PROXY() ? TRUE : FALSE,&session, NULL, sockindex)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 572,
+                        "add_hunk": [
+                            "incache = !(Curl_ssl_getsessionid(conn, SSL_IS_PROXY() ? TRUE : FALSE, &oldsession, NULL, sockindex));"
+                        ],
+                        "delete_location": [
+                            572,
+                            572
+                        ],
+                        "delete_hunk": [
+                            "    incache = !(Curl_ssl_getsessionid(conn, &oldsession, NULL, sockindex));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 575,
+                        "add_hunk": [
+                            "ret = Curl_ssl_addsessionid(conn, SSL_IS_PROXY() ? TRUE : FALSE, session, 0, sockindex);"
+                        ],
+                        "delete_location": [
+                            575,
+                            575
+                        ],
+                        "delete_hunk": [
+                            "    ret = Curl_ssl_addsessionid(conn, session, 0, sockindex);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: bearssl_connect_step1 -> bearssl_connect_step1": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: bearssl_connect_step3 -> bearssl_connect_step3": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

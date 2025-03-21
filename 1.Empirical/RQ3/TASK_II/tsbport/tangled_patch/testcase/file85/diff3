@@ -1,0 +1,7 @@
+680c680,679
+<    HDassert(type);
+---
+684c684
+<        if (NULL != (type->free))
+---
+>        if (type && type->free)

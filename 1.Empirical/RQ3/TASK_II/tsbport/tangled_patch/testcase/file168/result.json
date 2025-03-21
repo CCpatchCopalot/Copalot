@@ -1,0 +1,47 @@
+{
+    "testcase": {
+        "file168": {
+            "match_message": {
+                "Syntax: gf_isom_parse_movie_boxes_internal -> gf_isom_parse_movie_boxes": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 352 -> 220",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 351->219"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 28,
+                        "add_hunk": [
+                            "#include <gpac/thread.h>\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 220,
+                        "add_hunk": [
+                            "\t\t\tif (!a) return GF_ISOM_INVALID_FILE;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: gf_isom_parse_movie_boxes_internal -> gf_isom_parse_movie_boxes": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

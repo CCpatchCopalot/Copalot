@@ -1,0 +1,18 @@
+GF_EXPORT
+GF_Err gf_sg_vrml_mf_get_item(void *mf, u32 FieldType, void **new_ptr, u32 ItemPos)
+{
+	u32 FieldSize;
+	GenMFField *mffield = (GenMFField *)mf;
+
+	*new_ptr = NULL;
+	if (gf_sg_vrml_is_sf_field(FieldType)) return GF_BAD_PARAM;
+	if (FieldType == GF_SG_VRML_MFNODE) return GF_BAD_PARAM;
+
+	FieldSize = gf_sg_vrml_get_sf_size(FieldType);
+
+	//field we can't copy
+	if (!FieldSize) return GF_BAD_PARAM;
+	if (ItemPos >= mffield->count) return GF_BAD_PARAM;
+	*new_ptr = mffield->array + ItemPos * FieldSize;
+	return GF_OK;
+}

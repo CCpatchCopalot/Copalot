@@ -1,0 +1,5 @@
+52a53
+>#include "H5Tmodule.h"      /* This source code file is part of the H5T module */
+5055a5056,5057
+>                                if (0 == old_size)
+>                                    HGOTO_ERROR(H5E_DATATYPE, H5E_BADVALUE, FAIL, "old_size of zero would cause division by zero");

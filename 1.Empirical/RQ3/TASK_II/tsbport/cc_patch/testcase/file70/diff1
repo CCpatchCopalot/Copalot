@@ -1,0 +1,6 @@
+110a111
+> 					if (!ref->trackRef || (ref->trackRef>mpod->trackIDCount)) continue;
+139a141
+> 				if (!mpod->trackIDs || !ref->trackRef || (ref->trackRef>mpod->trackIDCount)) continue;
+166a169
+> 				if (!mpod->trackIDs || !esdR->ES_ID[i] || (esdR->ES_ID[i]>mpod->trackIDCount)) continue;

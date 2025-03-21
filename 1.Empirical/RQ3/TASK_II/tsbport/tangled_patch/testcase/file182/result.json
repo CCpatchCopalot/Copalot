@@ -1,0 +1,369 @@
+{
+    "testcase": {
+        "file182": {
+            "match_message": {
+                "Same: ossl_get_ssl_sockindex_index -> ossl_get_ssl_sockindex_index": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 327 -> 363",
+                        "L2": "5: Matched by Syntax(AST) similarity 329->365"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 331 -> 368",
+                        "L2": "3: Unique Matched by Source code 331 -> 368"
+                    }
+                },
+                "Syntax: ossl_init -> Curl_ossl_init": {
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 996->1138",
+                        "L2": "5: Matched by Syntax(AST) similarity 996->1138"
+                    }
+                },
+                "Same: ossl_new_session_cb -> ossl_new_session_cb": {
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2093 -> 2404",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2094->2405"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 2095->2406",
+                        "L2": "5: Matched by Syntax(AST) similarity 2095->2406"
+                    },
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2107->2418",
+                        "L2": "3: Unique Matched by Source code 2108 -> 2419"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 2113->2424",
+                        "L2": "5: Matched by Syntax(AST) similarity 2113->2424"
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2123->2435",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2123->2435"
+                    }
+                },
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_8": {
+                        "Edit": "add",
+                        "L1": "2733 -> 3150",
+                        "L2": "2734 -> 3151",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:call', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "3150",
+                            "verify result": "False"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:call",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "2735 -> -1",
+                        "L2": "2735 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_10": {
+                        "Edit": "add",
+                        "L1": "2739 -> 3156",
+                        "L2": "2740 -> 3157",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'cpp:directive', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "3156",
+                            "verify result": "False"
+                        },
+                        "type": "cpp:directive",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "cpp:directive",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_11": {
+                        "Edit": "change",
+                        "L1": "2743 -> -1",
+                        "L2": "2743 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'src:call', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "src:call",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "    if(!Curl_ssl_getsessionid(data, conn, SSL_IS_PROXY() ? TRUE : FALSE,&ssl_sessionid, NULL, sockindex)) {\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 363,
+                        "add_hunk": [
+                            "static int sockindex_index = -1;",
+                            "( sockindex_index< 0)"
+                        ],
+                        "delete_location": [
+                            363,
+                            365
+                        ],
+                        "delete_hunk": [
+                            "  static int ssl_ex_data_sockindex_index = -1;\n",
+                            "  if(ssl_ex_data_sockindex_index < 0) {\n",
+                            "    ssl_ex_data_sockindex_index = SSL_get_ex_new_index(0, NULL, NULL, NULL,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 368,
+                        "add_hunk": [
+                            "  return sockindex_index;\n",
+                            "}\n",
+                            "static int ossl_get_proxy_index(void)\n",
+                            "{\n",
+                            "  static int proxy_index = -1;\n",
+                            "  if(proxy_index < 0) {\n",
+                            "    proxy_index = SSL_get_ex_new_index(0, NULL, NULL, NULL,\n",
+                            "        NULL);\n",
+                            "  }\n",
+                            "  return proxy_index;\n"
+                        ],
+                        "delete_location": [
+                            368,
+                            368
+                        ],
+                        "delete_hunk": [
+                            "  return ssl_ex_data_sockindex_index;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 1138,
+                        "add_hunk": [
+                            "if(ossl_get_ssl_conn_index() < 0 || ossl_get_ssl_sockindex_index() < 0 || ossl_get_proxy_index() < 0)"
+                        ],
+                        "delete_location": [
+                            1138,
+                            1138
+                        ],
+                        "delete_hunk": [
+                            "  if(ossl_get_ssl_conn_index() < 0 || ossl_get_ssl_sockindex_index() < 0)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 2404,
+                        "add_hunk": [
+                            "  int proxy_idx = ossl_get_proxy_index();\n",
+                            "  bool isproxy;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 2406,
+                        "add_hunk": [
+                            "if(connectdata_idx < 0 || sockindex_idx < 0 || proxy_idx < 0)"
+                        ],
+                        "delete_location": [
+                            2406,
+                            2406
+                        ],
+                        "delete_hunk": [
+                            "  if(connectdata_idx < 0 || sockindex_idx < 0)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 2418,
+                        "add_hunk": [
+                            "  isproxy = SSL_get_ex_data(ssl, proxy_idx) ? TRUE : FALSE;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 2424,
+                        "add_hunk": [
+                            "if(isproxy)\n",
+                            "      incache = FALSE;\n",
+                            "    else\n",
+                            "      incache = !(Curl_ssl_getsessionid(data, conn, isproxy,&old_ssl_sessionid, NULL, sockindex));"
+                        ],
+                        "delete_location": [
+                            2424,
+                            2424
+                        ],
+                        "delete_hunk": [
+                            "    incache = !(Curl_ssl_getsessionid(conn, &old_ssl_sessionid, NULL,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": 2435,
+                        "add_hunk": [
+                            "if(!Curl_ssl_addsessionid(data, conn, isproxy, ssl_sessionid,0 /* unknown size */, sockindex)) {"
+                        ],
+                        "delete_location": [
+                            2435,
+                            2435
+                        ],
+                        "delete_hunk": [
+                            "      if(!Curl_ssl_addsessionid(conn, ssl_sessionid,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 3150,
+                        "add_hunk": [
+                            "    int proxy_idx = ossl_get_proxy_index();\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "add",
+                        "add_location": 3156,
+                        "add_hunk": [
+                            "#ifndef CURL_DISABLE_PROXY\n",
+                            "      SSL_set_ex_data(backend->handle, proxy_idx, SSL_IS_PROXY() ? (void *) 1:NULL);\n",
+                            "#else\n",
+                            "      SSL_set_ex_data(backend->handle, proxy_idx, NULL);\n",
+                            "#endif\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: ossl_get_ssl_sockindex_index -> ossl_get_ssl_sockindex_index": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Syntax: ossl_init -> Curl_ossl_init": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: ossl_new_session_cb -> ossl_new_session_cb": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_8": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:call"
+                    },
+                    "Seg_9": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_10": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "cpp:directive"
+                    },
+                    "Seg_11": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "outside",
+                "function_definition",
+                "sanity_check",
+                "change_type",
+                "DEF",
+                "USE"
+            ]
+        }
+    }
+}

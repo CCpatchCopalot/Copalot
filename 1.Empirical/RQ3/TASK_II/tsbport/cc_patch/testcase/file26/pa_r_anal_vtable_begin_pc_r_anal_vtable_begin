@@ -1,0 +1,210 @@
+expr  @ 18 @ expr  @ 17 @ 
+operator: =  @ 18 @ operator: =  @ 17 @ 
+name: be  @ 15 @ name: big_endian  @ 14 @ 
+name: vtable_read_addr_le16  @ 15 @ name: vtable_read_addr_le16  @ 14 @ 
+literal: 4  @ 17 @ literal: 4  @ 16 @ 
+expr  @ 5 @ expr  @ 5 @ 
+condition  @ 12 @ condition  @ 11 @ 
+name  @ 6 @ name  @ 6 @ 
+literal: 4  @ 6 @ literal: 4  @ 6 @ 
+case  @ 11 @ case  @ 10 @ 
+condition  @ 10 @ condition  @ 9 @ 
+expr  @ 15 @ expr  @ 14 @ 
+name: vtable_read_addr_be32  @ 18 @ name: vtable_read_addr_be32  @ 17 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 24 @ expr  @ 23 @ 
+name: arch  @ 5 @ name: arch  @ 5 @ 
+name: cxxabi  @ 3 @ name: cpp_abi  @ 3 @ 
+literal: 2  @ 14 @ literal: 2  @ 13 @ 
+name: ut8  @ 4 @ name: ut8  @ 4 @ 
+then  @ 18 @ then  @ 17 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 12 @ expr  @ 11 @ 
+operator: ->  @ 7 @ operator: ->  @ 7 @ 
+literal: 8  @ 20 @ literal: 8  @ 19 @ 
+operator: =  @ 4 @ operator: =  @ 4 @ 
+expr  @ 21 @ expr  @ 20 @ 
+name: read_addr  @ 15 @ name: read_addr  @ 14 @ 
+literal: 4  @ 7 @ literal: 4  @ 7 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 14 @ 
+condition  @ 15 @ condition  @ 14 @ 
+type  @ 5 @ type  @ 5 @ 
+else  @ 21 @ else  @ 20 @ 
+name: true  @ 26 @ name: true  @ 25 @ 
+name: vtable_read_addr_le8  @ 12 @ name: vtable_read_addr_le8  @ 11 @ 
+name  @ 3 @ name  @ 3 @ 
+name: context  @ 6 @ name: context  @ 6 @ 
+decl  @ 1 @ decl  @ 1 @ 
+specifier: const  @ 5 @ specifier: const  @ 5 @ 
+operator: =  @ 12 @ operator: =  @ 11 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+operator: ->  @ 6 @ operator: ->  @ 6 @ 
+ternary  @ 12 @ ternary  @ 11 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 11 @ expr  @ 10 @ 
+expr  @ 12 @ expr  @ 11 @ 
+literal: 8  @ 4 @ literal: 8  @ 4 @ 
+case  @ 17 @ case  @ 16 @ 
+expr  @ 21 @ expr  @ 20 @ 
+expr  @ 2 @ expr  @ 2 @ 
+expr  @ 4 @ expr  @ 4 @ 
+expr  @ 14 @ expr  @ 13 @ 
+name  @ 12 @ name  @ 11 @ 
+name: context  @ 10 @ name: context  @ 9 @ 
+operator: ->  @ 4 @ operator: ->  @ 4 @ 
+name: RAnal  @ 1 @ name: RAnal  @ 1 @ 
+name: read_addr  @ 18 @ name: read_addr  @ 17 @ 
+operator: =  @ 2 @ operator: =  @ 2 @ 
+name  @ 15 @ name  @ 14 @ 
+name: be  @ 18 @ name: big_endian  @ 17 @ 
+expr_stmt  @ 2 @ expr_stmt  @ 2 @ 
+name: word_size  @ 6 @ name: word_size  @ 6 @ 
+expr  @ 15 @ expr  @ 14 @ 
+name: vtable_read_addr_le32  @ 18 @ name: vtable_read_addr_le32  @ 17 @ 
+operator: ->  @ 21 @ operator: ->  @ 20 @ 
+operator: &&  @ 6 @ operator: &&  @ 6 @ 
+expr  @ 26 @ expr  @ 25 @ 
+name: anal  @ 1 @ name: anal  @ 1 @ 
+switch  @ 10 @ switch  @ 9 @ 
+else  @ 18 @ else  @ 17 @ 
+return  @ 26 @ return  @ 25 @ 
+init  @ 5 @ init  @ 5 @ 
+argument  @ 5 @ argument  @ 5 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 12 @ expr  @ 11 @ 
+ternary  @ 21 @ ternary  @ 20 @ 
+name: word_size  @ 4 @ name: word_size  @ 4 @ 
+break  @ 19 @ break  @ 18 @ 
+expr  @ 3 @ expr  @ 3 @ 
+expr  @ 21 @ expr  @ 20 @ 
+operator: =  @ 7 @ operator: =  @ 7 @ 
+name: cur  @ 5 @ name: cur  @ 5 @ 
+name  @ 4 @ name  @ 4 @ 
+name: context  @ 12 @ name: context  @ 11 @ 
+name: context  @ 4 @ name: context  @ 4 @ 
+condition  @ 6 @ condition  @ 6 @ 
+literal: 1  @ 11 @ literal: 1  @ 10 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+argument  @ 5 @ argument  @ 5 @ 
+operator: )  @ 4 @ operator: )  @ 4 @ 
+name: r_anal_vtable_begin  @ 1 @ name: r_anal_vtable_begin  @ 1 @ 
+name  @ 3 @ name  @ 3 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: context  @ 3 @ name: context  @ 3 @ 
+name: r_str_startswith  @ 5 @ name: r_str_startswith  @ 5 @ 
+operator: =  @ 3 @ operator: =  @ 3 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: R_API  @ 1 @ name: R_API  @ 1 @ 
+literal: "arm"  @ 5 @ literal: "arm"  @ 5 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name  @ 5 @ name  @ 5 @ 
+operator: ->  @ 12 @ operator: ->  @ 11 @ 
+operator: ->  @ 15 @ operator: ->  @ 14 @ 
+condition  @ 21 @ condition  @ 20 @ 
+name: be  @ 12 @ name: big_endian  @ 11 @ 
+expr  @ 18 @ expr  @ 17 @ 
+name  @ 10 @ name  @ 9 @ 
+operator: &&  @ 5 @ operator: &&  @ 5 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+name: arch  @ 5 @ name: arch  @ 5 @ 
+operator: (  @ 4 @ operator: (  @ 4 @ 
+name  @ 2 @ name  @ 2 @ 
+expr  @ 10 @ expr  @ 9 @ 
+expr  @ 15 @ expr  @ 14 @ 
+else  @ 15 @ else  @ 14 @ 
+name: read_addr  @ 12 @ name: read_addr  @ 11 @ 
+expr  @ 17 @ expr  @ 16 @ 
+name: anal  @ 2 @ name: anal  @ 2 @ 
+operator: ->  @ 10 @ operator: ->  @ 9 @ 
+operator: ->  @ 4 @ operator: ->  @ 4 @ 
+name: bool  @ 5 @ name: bool  @ 5 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+name: be  @ 21 @ name: big_endian  @ 20 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+operator: <  @ 6 @ operator: <  @ 6 @ 
+name: context  @ 1 @ name: context  @ 1 @ 
+name: anal  @ 3 @ name: anal  @ 3 @ 
+then  @ 12 @ then  @ 11 @ 
+operator: ->  @ 18 @ operator: ->  @ 17 @ 
+name: RVTableContext  @ 1 @ name: RVTableContext  @ 1 @ 
+operator: /  @ 4 @ operator: /  @ 4 @ 
+else  @ 12 @ else  @ 11 @ 
+case  @ 20 @ case  @ 19 @ 
+expr  @ 12 @ expr  @ 11 @ 
+operator: =  @ 21 @ operator: =  @ 20 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 3 @ 
+block  @ 1 @ block  @ 1 @ 
+operator: =  @ 15 @ operator: =  @ 14 @ 
+name: bits  @ 4 @ name: bits  @ 4 @ 
+name  @ 5 @ name  @ 5 @ 
+case  @ 14 @ case  @ 13 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 7 @ 
+then  @ 21 @ then  @ 20 @ 
+ternary  @ 18 @ ternary  @ 17 @ 
+name: bool  @ 1 @ name: bool  @ 1 @ 
+operator: (  @ 4 @ operator: (  @ 4 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 15 @ expr  @ 14 @ 
+name: false  @ 24 @ name: false  @ 23 @ 
+then  @ 15 @ then  @ 14 @ 
+unit  @ 1 @ unit  @ 1 @ 
+break  @ 16 @ break  @ 15 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 17 @ 
+name: vtable_read_addr_le64  @ 21 @ name: vtable_read_addr_le64  @ 20 @ 
+expr_stmt  @ 4 @ expr_stmt  @ 4 @ 
+name: anal  @ 2 @ name: anal  @ 2 @ 
+condition  @ 18 @ condition  @ 17 @ 
+default  @ 23 @ default  @ 22 @ 
+name: anal  @ 5 @ name: anal  @ 5 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+operator: ->  @ 3 @ operator: ->  @ 3 @ 
+name: cur  @ 5 @ name: cur  @ 5 @ 
+name: vtable_read_addr_be64  @ 21 @ name: vtable_read_addr_be64  @ 20 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+operator: )  @ 4 @ operator: )  @ 4 @ 
+name: is_arm  @ 6 @ name: is_arm  @ 6 @ 
+name: read_addr  @ 21 @ name: read_addr  @ 20 @ 
+name: anal  @ 4 @ name: anal  @ 4 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+name  @ 7 @ name  @ 7 @ 
+name: is_arm  @ 5 @ name: is_arm  @ 5 @ 
+if_stmt  @ 6 @ if_stmt  @ 6 @ 
+block  @ 6 @ block  @ 6 @ 
+call  @ 5 @ call  @ 5 @ 
+break  @ 13 @ break  @ 12 @ 
+if  @ 6 @ if  @ 6 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name  @ 4 @ name  @ 4 @ 
+operator: ->  @ 2 @ operator: ->  @ 2 @ 
+name  @ 21 @ name  @ 20 @ 
+expr  @ 18 @ expr  @ 17 @ 
+name: word_size  @ 10 @ name: word_size  @ 9 @ 
+return  @ 24 @ return  @ 23 @ 
+function  @ 1 @ function  @ 1 @ 
+name: vtable_read_addr_be16  @ 15 @ name: vtable_read_addr_be16  @ 14 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr  @ 21 @ expr  @ 20 @ 
+name: context  @ 7 @ name: context  @ 7 @ 
+name: abi  @ 3 @ name: abi  @ 3 @ 
+name: context  @ 21 @ name: context  @ 20 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: anal  @ 5 @ name: anal  @ 5 @ 
+name: context  @ 2 @ name: context  @ 2 @ 
+expr  @ 20 @ expr  @ 19 @ 
+ternary  @ 15 @ ternary  @ 14 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: context  @ 15 @ name: context  @ 14 @ 
+block_content  @ 11 @ block_content  @ 10 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 18 @ expr  @ 17 @ 
+name: vtable_read_addr_be8  @ 12 @ name: vtable_read_addr_be8  @ 11 @ 
+name: context  @ 18 @ name: context  @ 17 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 11 @ 
+name  @ 18 @ name  @ 17 @ 
+name: word_size  @ 7 @ name: word_size  @ 7 @ 
+break  @ 22 @ break  @ 21 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 20 @ 
+block  @ 10 @ block  @ 9 @ 
+operator: ->  @ 3 @ operator: ->  @ 3 @ 
+

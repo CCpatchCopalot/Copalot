@@ -1,0 +1,935 @@
+expr  @ 64 @ expr  @ 77 @ 
+decl  @ 4 @ decl  @ 9 @ 
+name: pixc  @ 4 @ name: pixc  @ 9 @ 
+name: pixrc  @ 76 @ name: pixrc  @ 89 @ 
+name: pixt  @ 72 @ name: pixt  @ 85 @ 
+expr  @ 22 @ expr  @ 27 @ 
+block_content  @ 13 @ block_content  @ 18 @ 
+argument_list  @ 76 @ argument_list  @ 89 @ 
+expr_stmt  @ 83 @ expr_stmt  @ 96 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+operator: (  @ 53 @ operator: (  @ 66 @ 
+name: COLOR_GREEN  @ 69 @ name: COLOR_GREEN  @ 82 @ 
+expr  @ 64 @ expr  @ 77 @ 
+expr  @ 75 @ expr  @ 88 @ 
+name: COLOR_RED  @ 66 @ name: COLOR_RED  @ 79 @ 
+operator: *  @ 49 @ operator: *  @ 56 @ 
+name: pix  @ 39 @ name: pix  @ 46 @ 
+decl  @ 1 @ decl  @ 3 @ 
+name: h  @ 28 @ name: h  @ 35 @ 
+operator: <  @ 15 @ operator: <  @ 20 @ 
+name: L_WARNING  @ 18 @ name: L_WARNING  @ 23 @ 
+argument  @ 16 @ argument  @ 21 @ 
+literal: 0  @ 21 @ literal: 0  @ 26 @ 
+argument_list  @ 31 @ argument_list  @ 38 @ 
+expr  @ 16 @ expr  @ 21 @ 
+name: pixDestroy  @ 77 @ name: pixDestroy  @ 90 @ 
+expr  @ 54 @ expr  @ 67 @ 
+argument  @ 57 @ argument  @ 70 @ 
+expr  @ 66 @ expr  @ 79 @ 
+name: pixg  @ 71 @ name: pixg  @ 84 @ 
+name: pixr  @ 67 @ name: pixr  @ 80 @ 
+argument_list  @ 35 @ argument_list  @ 42 @ 
+block  @ 63 @ block  @ 76 @ 
+expr  @ 60 @ expr  @ 73 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 42 @ 
+operator: )  @ 34 @ operator: )  @ 41 @ 
+modifier: *  @ 6 @ modifier: *  @ 11 @ 
+literal: 2  @ 57 @ literal: 2  @ 70 @ 
+name: i  @ 81 @ name: i  @ 94 @ 
+expr  @ 55 @ expr  @ 68 @ 
+block_content  @ 44 @ block_content  @ 51 @ 
+call  @ 19 @ call  @ 24 @ 
+call  @ 18 @ call  @ 23 @ 
+operator: ==  @ 63 @ operator: ==  @ 76 @ 
+type  @ 6 @ type  @ 11 @ 
+control  @ 58 @ control  @ 71 @ 
+name: hc  @ 17 @ name: hc  @ 22 @ 
+argument_list  @ 22 @ argument_list  @ 27 @ 
+argument  @ 69 @ argument  @ 82 @ 
+name: pixBlockconvGrayTile  @ 70 @ name: pixBlockconvGrayTile  @ 83 @ 
+block  @ 24 @ block  @ 29 @ 
+name: pixBlockconvGrayTile  @ 67 @ name: pixBlockconvGrayTile  @ 80 @ 
+name: wc  @ 67 @ name: wc  @ 80 @ 
+argument_list  @ 82 @ argument_list  @ 95 @ 
+name: pixb  @ 73 @ name: pixb  @ 86 @ 
+expr  @ 66 @ expr  @ 79 @ 
+expr  @ 70 @ expr  @ 83 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 47 @ 
+name: w  @ 14 @ name: w  @ 19 @ 
+literal: 2  @ 30 @ literal: 2  @ 37 @ 
+name: w  @ 3 @ name: w  @ 8 @ 
+name: ERROR_PTR  @ 49 @ name: ERROR_PTR  @ 56 @ 
+operator: (  @ 55 @ operator: (  @ 68 @ 
+name: pixTilingDestroy  @ 88 @ name: pixTilingDestroy  @ 101 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+expr  @ 81 @ expr  @ 94 @ 
+expr  @ 13 @ expr  @ 18 @ 
+name: pixDestroy  @ 83 @ name: pixDestroy  @ 96 @ 
+name: NULL  @ 73 @ name: NULL  @ 86 @ 
+name: wc  @ 12 @ name: wc  @ 17 @ 
+name: pix  @ 14 @ name: pix  @ 19 @ 
+operator: &  @ 14 @ operator: &  @ 19 @ 
+name: d  @ 47 @ name: d  @ 54 @ 
+expr_stmt  @ 68 @ expr_stmt  @ 81 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 10 @ 
+name: PIX  @ 1 @ name: PIX  @ 2 @ 
+type  @ 1 @ type  @ 6 @ 
+name: REMOVE_CMAP_BASED_ON_SRC  @ 41 @ name: REMOVE_CMAP_BASED_ON_SRC  @ 48 @ 
+operator: =  @ 41 @ operator: =  @ 48 @ 
+operator: )  @ 49 @ operator: )  @ 56 @ 
+name: pixs  @ 44 @ name: pixs  @ 51 @ 
+operator: +  @ 15 @ operator: +  @ 20 @ 
+comment: /* Test to see if the tiles are too small.The required * condition is that the tile dimensions must be at least * (wc + 2) x (hc + 2). */  @ 26 @ comment: /* Test to see if the tiles are too small.  The required
+         * condition is that the tile dimensions must be at least* (wc + 2) x (hc + 2). */  @ 31 @ 
+argument  @ 66 @ argument  @ 79 @ 
+name: pixDestroy  @ 54 @ name: pixDestroy  @ 67 @ 
+operator: *  @ 55 @ operator: *  @ 68 @ 
+literal: "pix has colormap; removing\n"  @ 40 @ literal: "pix has colormap; removing\n"  @ 47 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+expr  @ 76 @ expr  @ 89 @ 
+name: h  @ 3 @ name: h  @ 8 @ 
+name: yrat  @ 3 @ name: yrat  @ 8 @ 
+name: pixGetRGBComponent  @ 69 @ name: pixGetRGBComponent  @ 82 @ 
+name: xrat  @ 27 @ name: xrat  @ 34 @ 
+expr  @ 54 @ expr  @ 67 @ 
+expr  @ 53 @ expr  @ 66 @ 
+argument  @ 70 @ argument  @ 83 @ 
+decl  @ 4 @ decl  @ 9 @ 
+decl  @ 3 @ decl  @ 8 @ 
+name: j  @ 59 @ name: j  @ 72 @ 
+argument  @ 39 @ argument  @ 46 @ 
+type  @ 1 @ type  @ 5 @ 
+operator: <  @ 59 @ operator: <  @ 72 @ 
+name: pixrc  @ 75 @ name: pixrc  @ 88 @ 
+condition  @ 53 @ condition  @ 66 @ 
+name: pixt  @ 4 @ name: pixt  @ 9 @ 
+operator: =  @ 16 @ operator: =  @ 21 @ 
+literal: 0  @ 16 @ literal: 0  @ 21 @ 
+name: pixs  @ 54 @ name: pixs  @ 67 @ 
+call  @ 11 @ call  @ 16 @ 
+literal: 0  @ 12 @ literal: 0  @ 17 @ 
+name: pixTilingCreate  @ 57 @ name: pixTilingCreate  @ 70 @ 
+operator: =  @ 28 @ operator: =  @ 35 @ 
+name: pixDestroy  @ 76 @ name: pixDestroy  @ 89 @ 
+expr  @ 12 @ expr  @ 17 @ 
+argument  @ 74 @ argument  @ 87 @ 
+argument  @ 64 @ argument  @ 77 @ 
+name: PROCNAME  @ 8 @ name: PROCNAME  @ 13 @ 
+name: NULL  @ 53 @ name: NULL  @ 66 @ 
+name: hc  @ 57 @ name: hc  @ 70 @ 
+name: pt  @ 81 @ name: pt  @ 94 @ 
+argument  @ 19 @ argument  @ 24 @ 
+name: pixDestroy  @ 78 @ name: pixDestroy  @ 91 @ 
+name: wc  @ 16 @ name: wc  @ 21 @ 
+expr  @ 66 @ expr  @ 79 @ 
+expr  @ 49 @ expr  @ 56 @ 
+expr_stmt  @ 87 @ expr_stmt  @ 100 @ 
+comment: /* Note that the overlaps in the width and height that* are added to the tile are (wc + 2) and (hc + 2).* These overlaps are removed by pixTilingPaintTile().* They are larger than the extent of the filter because* although the filter is symmetric with respect to its origin,* the implementation is asymmetric -- see the implementation in* pixBlockconvGrayTile(). */  @ 52 @ comment: /* Note that the overlaps in the width and height that
+        * are added to the tile are (wc + 2) and (hc + 2).* These overlaps are removed by pixTilingPaintTile().
+        * They are larger than the extent of the filter because* although the filter is symmetric with respect to its origin,
+        * the implementation is asymmetric -- see the implementation in* pixBlockconvGrayTile(). */  @ 59 @ 
+expr  @ 71 @ expr  @ 84 @ 
+literal: 2  @ 57 @ literal: 2  @ 70 @ 
+name: yrat  @ 33 @ name: yrat  @ 40 @ 
+comment: /* no-op */  @ 21 @ comment: /* no-op */  @ 26 @ 
+expr  @ 82 @ expr  @ 95 @ 
+name: d  @ 39 @ name: d  @ 46 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 37 @ 
+name: procName  @ 11 @ name: procName  @ 16 @ 
+condition  @ 10 @ condition  @ 15 @ 
+argument_list  @ 68 @ argument_list  @ 81 @ 
+block_content  @ 16 @ block_content  @ 21 @ 
+argument_list  @ 67 @ argument_list  @ 80 @ 
+name: pixCreateRGBImage  @ 75 @ name: pixCreateRGBImage  @ 88 @ 
+name: pixs  @ 42 @ name: pixs  @ 49 @ 
+expr  @ 49 @ expr  @ 56 @ 
+literal: 2  @ 17 @ literal: 2  @ 22 @ 
+type  @ 3 @ type  @ 8 @ 
+name: L_MIN  @ 16 @ name: L_MIN  @ 21 @ 
+name: w  @ 30 @ name: w  @ 37 @ 
+decl  @ 1 @ decl  @ 6 @ 
+argument  @ 14 @ argument  @ 19 @ 
+argument  @ 19 @ argument  @ 24 @ 
+expr  @ 81 @ expr  @ 94 @ 
+expr  @ 87 @ expr  @ 100 @ 
+expr  @ 41 @ expr  @ 48 @ 
+expr  @ 70 @ expr  @ 83 @ 
+call  @ 42 @ call  @ 49 @ 
+argument  @ 73 @ argument  @ 86 @ 
+name: wc  @ 57 @ name: wc  @ 70 @ 
+argument  @ 77 @ argument  @ 90 @ 
+operator: =  @ 30 @ operator: =  @ 37 @ 
+expr  @ 24 @ expr  @ 29 @ 
+name: pixg  @ 5 @ name: pixg  @ 10 @ 
+name: L_WARNING  @ 40 @ name: L_WARNING  @ 47 @ 
+literal: 0  @ 58 @ literal: 0  @ 71 @ 
+name: pixr  @ 66 @ name: pixr  @ 79 @ 
+type  @ 4 @ type  @ 9 @ 
+operator: &  @ 74 @ operator: &  @ 87 @ 
+argument_list  @ 74 @ argument_list  @ 87 @ 
+type  @ 4 @ type  @ 9 @ 
+call  @ 77 @ call  @ 90 @ 
+expr  @ 70 @ expr  @ 83 @ 
+operator: (  @ 39 @ operator: (  @ 46 @ 
+name: pixgc  @ 75 @ name: pixgc  @ 88 @ 
+name: ny  @ 28 @ name: ny  @ 35 @ 
+argument  @ 16 @ argument  @ 21 @ 
+name: wc  @ 24 @ name: wc  @ 29 @ 
+expr  @ 17 @ expr  @ 22 @ 
+argument  @ 57 @ argument  @ 70 @ 
+decl  @ 3 @ decl  @ 8 @ 
+operator: /  @ 30 @ operator: /  @ 37 @ 
+name: ny  @ 34 @ name: ny  @ 41 @ 
+type  @ 3 @ type  @ 8 @ 
+call  @ 54 @ call  @ 67 @ 
+call  @ 82 @ call  @ 95 @ 
+operator: *  @ 11 @ operator: *  @ 16 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 51 @ 
+block  @ 59 @ block  @ 72 @ 
+if_stmt  @ 29 @ if_stmt  @ 36 @ 
+type  @ 1 @ type  @ 3 @ 
+expr  @ 31 @ expr  @ 38 @ 
+name: wc  @ 12 @ name: wc  @ 17 @ 
+name: ERROR_PTR  @ 11 @ name: ERROR_PTR  @ 16 @ 
+expr  @ 30 @ expr  @ 37 @ 
+call  @ 31 @ call  @ 38 @ 
+operator: &&  @ 21 @ operator: &&  @ 26 @ 
+argument  @ 31 @ argument  @ 38 @ 
+argument_list  @ 54 @ argument_list  @ 67 @ 
+argument  @ 76 @ argument  @ 89 @ 
+expr  @ 14 @ expr  @ 19 @ 
+expr  @ 74 @ expr  @ 87 @ 
+expr  @ 41 @ expr  @ 48 @ 
+call  @ 87 @ call  @ 100 @ 
+comment: /* Remove colormap if necessary */  @ 38 @ comment: /* Remove colormap if necessary */  @ 45 @ 
+operator: )  @ 17 @ operator: )  @ 22 @ 
+operator: =  @ 73 @ operator: =  @ 86 @ 
+type  @ 5 @ type  @ 10 @ 
+type  @ 3 @ type  @ 8 @ 
+name: pixd  @ 89 @ name: pixd  @ 102 @ 
+argument  @ 11 @ argument  @ 16 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 79 @ 
+if_stmt  @ 39 @ if_stmt  @ 46 @ 
+operator: ||  @ 39 @ operator: ||  @ 46 @ 
+decl  @ 6 @ decl  @ 11 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 11 @ 
+argument  @ 24 @ argument  @ 29 @ 
+literal: 3  @ 15 @ literal: 3  @ 20 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 34 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+expr  @ 81 @ expr  @ 94 @ 
+argument_list  @ 60 @ argument_list  @ 73 @ 
+name: hc  @ 15 @ name: hc  @ 20 @ 
+argument  @ 35 @ argument  @ 42 @ 
+modifier: *  @ 4 @ modifier: *  @ 9 @ 
+operator: &  @ 78 @ operator: &  @ 91 @ 
+call  @ 88 @ call  @ 101 @ 
+name: pixRemoveColormap  @ 41 @ name: pixRemoveColormap  @ 48 @ 
+if_stmt  @ 53 @ if_stmt  @ 66 @ 
+parameter  @ 1 @ parameter  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+argument  @ 64 @ argument  @ 77 @ 
+operator: *  @ 15 @ operator: *  @ 20 @ 
+operator: &  @ 14 @ operator: &  @ 19 @ 
+argument  @ 82 @ argument  @ 95 @ 
+operator: )  @ 30 @ operator: )  @ 37 @ 
+expr  @ 33 @ expr  @ 40 @ 
+name: hc  @ 21 @ name: hc  @ 26 @ 
+argument  @ 78 @ argument  @ 91 @ 
+literal: 3  @ 17 @ literal: 3  @ 22 @ 
+expr  @ 42 @ expr  @ 49 @ 
+argument  @ 75 @ argument  @ 88 @ 
+expr  @ 16 @ expr  @ 21 @ 
+operator: =  @ 53 @ operator: =  @ 66 @ 
+argument  @ 17 @ argument  @ 22 @ 
+argument  @ 67 @ argument  @ 80 @ 
+argument  @ 16 @ argument  @ 21 @ 
+name: pix  @ 41 @ name: pix  @ 48 @ 
+expr  @ 64 @ expr  @ 77 @ 
+name: pix  @ 24 @ name: pix  @ 29 @ 
+expr  @ 58 @ expr  @ 71 @ 
+expr  @ 60 @ expr  @ 73 @ 
+expr  @ 58 @ expr  @ 71 @ 
+block_content  @ 22 @ block_content  @ 27 @ 
+operator: &  @ 14 @ operator: &  @ 19 @ 
+literal: "tile width too small; nx reduced to %d\n"  @ 31 @ literal: "tile width too small; nx reduced to %d\n"  @ 38 @ 
+expr_stmt  @ 82 @ expr_stmt  @ 95 @ 
+expr  @ 35 @ expr  @ 42 @ 
+block  @ 29 @ block  @ 36 @ 
+block_content  @ 40 @ block_content  @ 47 @ 
+decl  @ 3 @ decl  @ 8 @ 
+name: pixgc  @ 70 @ name: pixgc  @ 83 @ 
+operator: =  @ 12 @ operator: =  @ 17 @ 
+name: j  @ 3 @ name: j  @ 8 @ 
+name: j  @ 81 @ name: j  @ 94 @ 
+expr  @ 82 @ expr  @ 95 @ 
+expr  @ 72 @ expr  @ 85 @ 
+expr  @ 41 @ expr  @ 48 @ 
+if_stmt  @ 12 @ if_stmt  @ 17 @ 
+argument_list  @ 41 @ argument_list  @ 48 @ 
+expr_stmt  @ 77 @ expr_stmt  @ 90 @ 
+argument  @ 18 @ argument  @ 23 @ 
+operator: (  @ 34 @ operator: (  @ 41 @ 
+name: l_int32nx  @ 1 @ name: l_int32  @ 5 @ 
+name: pixr  @ 68 @ name: pixr  @ 81 @ 
+operator: /  @ 16 @ operator: /  @ 21 @ 
+argument  @ 19 @ argument  @ 24 @ 
+expr  @ 11 @ expr  @ 16 @ 
+argument  @ 67 @ argument  @ 80 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 94 @ 
+argument_list  @ 17 @ argument_list  @ 22 @ 
+expr  @ 58 @ expr  @ 71 @ 
+expr  @ 68 @ expr  @ 81 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 55 @ 
+expr  @ 35 @ expr  @ 42 @ 
+call  @ 76 @ call  @ 89 @ 
+name: procName  @ 31 @ name: procName  @ 38 @ 
+operator: &  @ 82 @ operator: &  @ 95 @ 
+name: NULL  @ 49 @ name: NULL  @ 56 @ 
+condition  @ 63 @ condition  @ 76 @ 
+name: pixgc  @ 77 @ name: pixgc  @ 90 @ 
+argument  @ 11 @ argument  @ 16 @ 
+name: L_MAX  @ 17 @ name: L_MAX  @ 22 @ 
+condition  @ 29 @ condition  @ 36 @ 
+expr  @ 71 @ expr  @ 84 @ 
+comment: /* d == 32 */  @ 65 @ comment: /* d == 32 */  @ 78 @ 
+operator: =  @ 64 @ operator: =  @ 77 @ 
+return  @ 55 @ return  @ 68 @ 
+name: ny  @ 35 @ name: ny  @ 42 @ 
+call  @ 67 @ call  @ 80 @ 
+argument  @ 55 @ argument  @ 68 @ 
+block_content  @ 34 @ block_content  @ 41 @ 
+argument  @ 14 @ argument  @ 19 @ 
+call  @ 66 @ call  @ 79 @ 
+modifier: *  @ 5 @ modifier: *  @ 10 @ 
+operator: !=  @ 47 @ operator: !=  @ 54 @ 
+argument  @ 81 @ argument  @ 94 @ 
+call  @ 22 @ call  @ 27 @ 
+expr  @ 77 @ expr  @ 90 @ 
+expr  @ 60 @ expr  @ 73 @ 
+name: nx  @ 31 @ name: nx  @ 38 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 73 @ 
+expr  @ 28 @ expr  @ 35 @ 
+operator: =  @ 75 @ operator: =  @ 88 @ 
+name: L_INFO  @ 19 @ name: L_INFO  @ 24 @ 
+expr  @ 14 @ expr  @ 19 @ 
+name: pixTilingGetTile  @ 60 @ name: pixTilingGetTile  @ 73 @ 
+type  @ 3 @ type  @ 8 @ 
+argument_list  @ 16 @ argument_list  @ 21 @ 
+name: pixs  @ 41 @ name: pixs  @ 48 @ 
+operator: )  @ 39 @ operator: )  @ 46 @ 
+call  @ 78 @ call  @ 91 @ 
+name: wc  @ 29 @ name: wc  @ 36 @ 
+modifier: *  @ 5 @ modifier: *  @ 10 @ 
+expr  @ 11 @ expr  @ 16 @ 
+operator: =  @ 44 @ operator: =  @ 51 @ 
+if_stmt  @ 10 @ if_stmt  @ 15 @ 
+name: PIX  @ 4 @ name: PIX  @ 9 @ 
+block  @ 33 @ block  @ 40 @ 
+name: procName  @ 35 @ name: procName  @ 42 @ 
+operator: ==  @ 21 @ operator: ==  @ 26 @ 
+expr_stmt  @ 78 @ expr_stmt  @ 91 @ 
+name: pixCreateTemplate  @ 53 @ name: pixCreateTemplate  @ 66 @ 
+argument  @ 24 @ argument  @ 29 @ 
+argument  @ 81 @ argument  @ 94 @ 
+operator: &  @ 87 @ operator: &  @ 100 @ 
+argument_list  @ 11 @ argument_list  @ 16 @ 
+argument_list  @ 64 @ argument_list  @ 77 @ 
+name: pixc  @ 75 @ name: pixc  @ 88 @ 
+expr  @ 77 @ expr  @ 90 @ 
+block_content  @ 54 @ block_content  @ 67 @ 
+name: PIX  @ 5 @ name: PIX  @ 10 @ 
+expr  @ 83 @ expr  @ 96 @ 
+type  @ 5 @ type  @ 10 @ 
+call  @ 17 @ call  @ 22 @ 
+expr  @ 76 @ expr  @ 89 @ 
+name: procName  @ 55 @ name: procName  @ 68 @ 
+name: wc  @ 16 @ name: wc  @ 21 @ 
+block_content  @ 59 @ block_content  @ 72 @ 
+argument  @ 68 @ argument  @ 81 @ 
+name: w  @ 16 @ name: w  @ 21 @ 
+if  @ 53 @ if  @ 66 @ 
+name: pixc  @ 64 @ name: pixc  @ 77 @ 
+expr  @ 81 @ expr  @ 94 @ 
+literal: 2  @ 39 @ literal: 2  @ 46 @ 
+literal: 0  @ 59 @ literal: 0  @ 72 @ 
+condition  @ 21 @ condition  @ 26 @ 
+modifier: *  @ 4 @ modifier: *  @ 9 @ 
+expr  @ 75 @ expr  @ 88 @ 
+name: d  @ 63 @ name: d  @ 76 @ 
+name: xrat  @ 29 @ name: xrat  @ 36 @ 
+expr  @ 87 @ expr  @ 100 @ 
+call  @ 68 @ call  @ 81 @ 
+name: nx  @ 23 @ name: nx  @ 28 @ 
+expr  @ 81 @ expr  @ 94 @ 
+argument  @ 49 @ argument  @ 56 @ 
+argument  @ 64 @ argument  @ 77 @ 
+argument  @ 31 @ argument  @ 38 @ 
+expr  @ 18 @ expr  @ 23 @ 
+name: NULL  @ 55 @ name: NULL  @ 68 @ 
+argument  @ 35 @ argument  @ 42 @ 
+type  @ 5 @ type  @ 10 @ 
+expr  @ 48 @ expr  @ 55 @ 
+call  @ 60 @ call  @ 73 @ 
+name: i  @ 58 @ name: i  @ 71 @ 
+name: j  @ 59 @ name: j  @ 72 @ 
+if  @ 23 @ if  @ 28 @ 
+call  @ 48 @ call  @ 55 @ 
+literal: 0  @ 57 @ literal: 0  @ 70 @ 
+operator: +  @ 33 @ operator: +  @ 40 @ 
+expr  @ 14 @ expr  @ 19 @ 
+argument  @ 48 @ argument  @ 55 @ 
+operator: /  @ 27 @ operator: /  @ 34 @ 
+literal: 2  @ 16 @ literal: 2  @ 21 @ 
+name: pixbc  @ 75 @ name: pixbc  @ 88 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 9 @ 
+expr_stmt  @ 70 @ expr_stmt  @ 83 @ 
+name: l_int32ny  @ 1 @ name: l_int32  @ 6 @ 
+argument  @ 81 @ argument  @ 94 @ 
+operator: =  @ 27 @ operator: =  @ 34 @ 
+argument  @ 75 @ argument  @ 88 @ 
+argument_list  @ 53 @ argument_list  @ 66 @ 
+argument  @ 55 @ argument  @ 68 @ 
+call  @ 73 @ call  @ 86 @ 
+literal: 1  @ 23 @ literal: 1  @ 28 @ 
+argument  @ 73 @ argument  @ 86 @ 
+expr  @ 22 @ expr  @ 27 @ 
+name: pixTilingPaintTile  @ 81 @ name: pixTilingPaintTile  @ 94 @ 
+name: pixGetDimensions  @ 14 @ name: pixGetDimensions  @ 19 @ 
+operator: )  @ 16 @ operator: )  @ 21 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 8 @ expr  @ 13 @ 
+type  @ 5 @ type  @ 10 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 18 @ 
+name: pixr  @ 5 @ name: pixr  @ 10 @ 
+argument  @ 16 @ argument  @ 21 @ 
+expr  @ 67 @ expr  @ 80 @ 
+operator: /  @ 34 @ operator: /  @ 41 @ 
+argument  @ 64 @ argument  @ 77 @ 
+if  @ 15 @ if  @ 20 @ 
+expr  @ 75 @ expr  @ 88 @ 
+name: L_MIN  @ 17 @ name: L_MIN  @ 22 @ 
+operator: &  @ 76 @ operator: &  @ 89 @ 
+literal: 8  @ 63 @ literal: 8  @ 76 @ 
+expr  @ 89 @ expr  @ 102 @ 
+operator: )  @ 11 @ operator: )  @ 16 @ 
+argument  @ 49 @ argument  @ 56 @ 
+argument  @ 87 @ argument  @ 100 @ 
+condition  @ 13 @ condition  @ 18 @ 
+if_stmt  @ 13 @ if_stmt  @ 18 @ 
+name: pixt  @ 64 @ name: pixt  @ 77 @ 
+literal: 2  @ 34 @ literal: 2  @ 41 @ 
+expr  @ 19 @ expr  @ 24 @ 
+return  @ 22 @ return  @ 27 @ 
+expr  @ 53 @ expr  @ 66 @ 
+name: pixGetDepth  @ 42 @ name: pixGetDepth  @ 49 @ 
+literal: 2  @ 33 @ literal: 2  @ 40 @ 
+name: ny  @ 23 @ name: ny  @ 28 @ 
+argument_list  @ 66 @ argument_list  @ 79 @ 
+argument_list  @ 55 @ argument_list  @ 68 @ 
+operator: (  @ 17 @ operator: (  @ 22 @ 
+argument  @ 60 @ argument  @ 73 @ 
+argument_list  @ 83 @ argument_list  @ 96 @ 
+name: L_MAX  @ 16 @ name: L_MAX  @ 21 @ 
+operator: -  @ 17 @ operator: -  @ 22 @ 
+call  @ 75 @ call  @ 88 @ 
+call  @ 53 @ call  @ 66 @ 
+argument  @ 14 @ argument  @ 19 @ 
+condition  @ 39 @ condition  @ 46 @ 
+expr  @ 39 @ expr  @ 46 @ 
+name: pixbc  @ 73 @ name: pixbc  @ 86 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: &  @ 71 @ operator: &  @ 84 @ 
+name: pixs  @ 53 @ name: pixs  @ 66 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 41 @ 
+name: wc  @ 70 @ name: wc  @ 83 @ 
+block  @ 11 @ block  @ 16 @ 
+name: i  @ 60 @ name: i  @ 73 @ 
+expr  @ 59 @ expr  @ 72 @ 
+expr  @ 67 @ expr  @ 80 @ 
+argument  @ 81 @ argument  @ 94 @ 
+argument  @ 41 @ argument  @ 48 @ 
+argument  @ 57 @ argument  @ 70 @ 
+name: i  @ 58 @ name: i  @ 71 @ 
+name: procName  @ 18 @ name: procName  @ 23 @ 
+expr  @ 40 @ expr  @ 47 @ 
+argument  @ 17 @ argument  @ 22 @ 
+argument  @ 42 @ argument  @ 49 @ 
+operator: +  @ 57 @ operator: +  @ 70 @ 
+name: pixGetRGBComponent  @ 66 @ name: pixGetRGBComponent  @ 79 @ 
+operator: =  @ 67 @ operator: =  @ 80 @ 
+name: ny  @ 57 @ name: ny  @ 70 @ 
+operator: =  @ 57 @ operator: =  @ 70 @ 
+argument  @ 72 @ argument  @ 85 @ 
+name: ny  @ 58 @ name: ny  @ 71 @ 
+argument_list  @ 14 @ argument_list  @ 19 @ 
+name: L_WARNING  @ 35 @ name: L_WARNING  @ 42 @ 
+name: l_int32wc  @ 1 @ name: l_int32  @ 3 @ 
+expr  @ 74 @ expr  @ 87 @ 
+name: hc  @ 33 @ name: hc  @ 40 @ 
+expr  @ 78 @ expr  @ 91 @ 
+modifier: *  @ 5 @ modifier: *  @ 10 @ 
+block  @ 12 @ block  @ 17 @ 
+name: pixDestroy  @ 74 @ name: pixDestroy  @ 87 @ 
+argument  @ 24 @ argument  @ 29 @ 
+decl  @ 1 @ decl  @ 5 @ 
+literal: 32  @ 47 @ literal: 32  @ 54 @ 
+name: wc  @ 64 @ name: wc  @ 77 @ 
+operator: )  @ 55 @ operator: )  @ 68 @ 
+literal: 8  @ 39 @ literal: 8  @ 46 @ 
+expr  @ 75 @ expr  @ 88 @ 
+name: pixClone  @ 44 @ name: pixClone  @ 51 @ 
+expr  @ 15 @ expr  @ 20 @ 
+operator: <  @ 58 @ operator: <  @ 71 @ 
+expr  @ 31 @ expr  @ 38 @ 
+argument  @ 44 @ argument  @ 51 @ 
+expr  @ 19 @ expr  @ 24 @ 
+call  @ 24 @ call  @ 29 @ 
+operator: (  @ 30 @ operator: (  @ 37 @ 
+literal: 1  @ 23 @ literal: 1  @ 28 @ 
+block_content  @ 48 @ block_content  @ 55 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 8 @ 
+operator: ==  @ 53 @ operator: ==  @ 66 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 17 @ 
+operator: &  @ 83 @ operator: &  @ 96 @ 
+argument  @ 69 @ argument  @ 82 @ 
+operator: +  @ 30 @ operator: +  @ 37 @ 
+expr  @ 63 @ expr  @ 76 @ 
+expr  @ 18 @ expr  @ 23 @ 
+name: wc  @ 15 @ name: wc  @ 20 @ 
+expr  @ 17 @ expr  @ 22 @ 
+name: pt  @ 88 @ name: pt  @ 101 @ 
+expr  @ 48 @ expr  @ 55 @ 
+type  @ 1 @ type  @ 4 @ 
+decl  @ 4 @ decl  @ 9 @ 
+argument_list  @ 40 @ argument_list  @ 47 @ 
+expr  @ 69 @ expr  @ 82 @ 
+argument_list  @ 18 @ argument_list  @ 23 @ 
+modifier: *  @ 5 @ modifier: *  @ 10 @ 
+expr  @ 17 @ expr  @ 22 @ 
+operator: +  @ 15 @ operator: +  @ 20 @ 
+name: pixb  @ 5 @ name: pixb  @ 10 @ 
+expr  @ 13 @ expr  @ 18 @ 
+argument  @ 71 @ argument  @ 84 @ 
+name: pixBlockconvTiled  @ 1 @ name: pixBlockconvTiled  @ 2 @ 
+name: pixt  @ 66 @ name: pixt  @ 79 @ 
+literal: "pixBlockconvTiled"  @ 8 @ literal: "pixBlockconvTiled"  @ 13 @ 
+expr  @ 81 @ expr  @ 94 @ 
+operator: <  @ 13 @ operator: <  @ 18 @ 
+literal: 3  @ 16 @ literal: 3  @ 21 @ 
+operator: ||  @ 39 @ operator: ||  @ 46 @ 
+argument  @ 60 @ argument  @ 73 @ 
+argument  @ 57 @ argument  @ 70 @ 
+call  @ 44 @ call  @ 51 @ 
+argument  @ 41 @ argument  @ 48 @ 
+expr  @ 57 @ expr  @ 70 @ 
+expr  @ 44 @ expr  @ 51 @ 
+name: NULL  @ 64 @ name: NULL  @ 77 @ 
+argument  @ 60 @ argument  @ 73 @ 
+expr  @ 18 @ expr  @ 23 @ 
+name: pixrc  @ 67 @ name: pixrc  @ 80 @ 
+expr  @ 57 @ expr  @ 70 @ 
+literal: 4  @ 39 @ literal: 4  @ 46 @ 
+expr  @ 22 @ expr  @ 27 @ 
+decl  @ 5 @ decl  @ 10 @ 
+name: hc  @ 34 @ name: hc  @ 41 @ 
+argument_list  @ 71 @ argument_list  @ 84 @ 
+expr  @ 55 @ expr  @ 68 @ 
+name: d  @ 39 @ name: d  @ 46 @ 
+argument  @ 57 @ argument  @ 70 @ 
+argument  @ 73 @ argument  @ 86 @ 
+operator: ==  @ 39 @ operator: ==  @ 46 @ 
+name: pixb  @ 74 @ name: pixb  @ 87 @ 
+return  @ 24 @ return  @ 29 @ 
+condition  @ 33 @ condition  @ 40 @ 
+expr  @ 35 @ expr  @ 42 @ 
+expr  @ 49 @ expr  @ 56 @ 
+name: pixt  @ 69 @ name: pixt  @ 82 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 48 @ 
+argument  @ 17 @ argument  @ 22 @ 
+expr  @ 59 @ expr  @ 72 @ 
+expr  @ 67 @ expr  @ 80 @ 
+type  @ 5 @ type  @ 10 @ 
+argument  @ 8 @ argument  @ 13 @ 
+literal: 2  @ 15 @ literal: 2  @ 20 @ 
+operator: =  @ 60 @ operator: =  @ 73 @ 
+expr  @ 57 @ expr  @ 70 @ 
+name: NULL  @ 11 @ name: NULL  @ 16 @ 
+expr  @ 78 @ expr  @ 91 @ 
+operator: ==  @ 21 @ operator: ==  @ 26 @ 
+parameter  @ 1 @ parameter  @ 6 @ 
+literal: 3  @ 15 @ literal: 3  @ 20 @ 
+name: hc  @ 13 @ name: hc  @ 18 @ 
+argument  @ 17 @ argument  @ 22 @ 
+expr  @ 35 @ expr  @ 42 @ 
+name: COLOR_BLUE  @ 72 @ name: COLOR_BLUE  @ 85 @ 
+expr  @ 31 @ expr  @ 38 @ 
+name: pixs  @ 4 @ name: pixs  @ 9 @ 
+name: pixb  @ 72 @ name: pixb  @ 85 @ 
+comment: /* Convolve over the tile */  @ 62 @ comment: /* Convolve over the tile */  @ 75 @ 
+expr  @ 55 @ expr  @ 68 @ 
+expr  @ 88 @ expr  @ 101 @ 
+expr  @ 59 @ expr  @ 72 @ 
+expr  @ 40 @ expr  @ 47 @ 
+if_stmt  @ 15 @ if_stmt  @ 20 @ 
+block_content  @ 64 @ block_content  @ 77 @ 
+else  @ 65 @ else  @ 78 @ 
+operator: &  @ 48 @ operator: &  @ 55 @ 
+argument  @ 22 @ argument  @ 27 @ 
+literal: "wc = %d, hc = %d\n"  @ 19 @ literal: "wc = %d, hc = %d\n"  @ 24 @ 
+name: pixt  @ 60 @ name: pixt  @ 73 @ 
+decl  @ 3 @ decl  @ 8 @ 
+incr  @ 59 @ incr  @ 72 @ 
+block_content  @ 30 @ block_content  @ 37 @ 
+operator: =  @ 69 @ operator: =  @ 82 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 70 @ 
+name: nx  @ 27 @ name: nx  @ 34 @ 
+name: pixBlockconvGrayTile  @ 64 @ name: pixBlockconvGrayTile  @ 77 @ 
+operator: &  @ 68 @ operator: &  @ 81 @ 
+call  @ 14 @ call  @ 19 @ 
+name: PIXTILING  @ 6 @ name: PIXTILING  @ 11 @ 
+name: pixDestroy  @ 71 @ name: pixDestroy  @ 84 @ 
+argument_list  @ 39 @ argument_list  @ 46 @ 
+expr  @ 34 @ expr  @ 41 @ 
+if  @ 63 @ if  @ 76 @ 
+expr  @ 24 @ expr  @ 29 @ 
+type  @ 4 @ type  @ 9 @ 
+argument_list  @ 87 @ argument_list  @ 100 @ 
+argument  @ 81 @ argument  @ 94 @ 
+operator: &&  @ 23 @ operator: &&  @ 28 @ 
+name: pixbc  @ 5 @ name: pixbc  @ 10 @ 
+call  @ 40 @ call  @ 47 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 84 @ 
+literal: 0  @ 57 @ literal: 0  @ 70 @ 
+name: PIX  @ 49 @ name: PIX  @ 56 @ 
+expr_stmt  @ 73 @ expr_stmt  @ 86 @ 
+name: pix  @ 22 @ name: pix  @ 27 @ 
+expr  @ 29 @ expr  @ 36 @ 
+expr  @ 49 @ expr  @ 56 @ 
+condition  @ 15 @ condition  @ 20 @ 
+call  @ 39 @ call  @ 46 @ 
+argument_list  @ 72 @ argument_list  @ 85 @ 
+literal: "tile height too small; ny reduced to %d\n"  @ 35 @ literal: "tile height too small; ny reduced to %d\n"  @ 42 @ 
+block  @ 2 @ block  @ 7 @ 
+name: pixCopy  @ 22 @ name: pixCopy  @ 27 @ 
+expr  @ 68 @ expr  @ 81 @ 
+expr  @ 73 @ expr  @ 86 @ 
+for  @ 59 @ for  @ 72 @ 
+name: pixbc  @ 78 @ name: pixbc  @ 91 @ 
+literal: 0  @ 21 @ literal: 0  @ 26 @ 
+name: nx  @ 30 @ name: nx  @ 37 @ 
+block  @ 65 @ block  @ 78 @ 
+block  @ 15 @ block  @ 20 @ 
+if  @ 39 @ if  @ 46 @ 
+literal: 8  @ 47 @ literal: 8  @ 54 @ 
+operator: ==  @ 39 @ operator: ==  @ 46 @ 
+name: PIX  @ 11 @ name: PIX  @ 16 @ 
+name: w  @ 15 @ name: w  @ 20 @ 
+argument  @ 67 @ argument  @ 80 @ 
+expr_stmt  @ 75 @ expr_stmt  @ 88 @ 
+decl  @ 3 @ decl  @ 8 @ 
+argument  @ 40 @ argument  @ 47 @ 
+name: h  @ 14 @ name: h  @ 19 @ 
+parameter  @ 1 @ parameter  @ 5 @ 
+name: hc  @ 17 @ name: hc  @ 22 @ 
+decl  @ 5 @ decl  @ 10 @ 
+call  @ 35 @ call  @ 42 @ 
+expr  @ 10 @ expr  @ 15 @ 
+argument  @ 19 @ argument  @ 24 @ 
+expr  @ 72 @ expr  @ 85 @ 
+expr  @ 19 @ expr  @ 24 @ 
+argument  @ 83 @ argument  @ 96 @ 
+expr  @ 24 @ expr  @ 29 @ 
+name: l_int32hc  @ 1 @ name: l_int32  @ 4 @ 
+expr  @ 40 @ expr  @ 47 @ 
+argument  @ 11 @ argument  @ 16 @ 
+name: j  @ 59 @ name: j  @ 72 @ 
+else  @ 43 @ else  @ 50 @ 
+argument  @ 22 @ argument  @ 27 @ 
+call  @ 72 @ call  @ 85 @ 
+name: h  @ 15 @ name: h  @ 20 @ 
+operator: ++  @ 59 @ operator: ++  @ 72 @ 
+for  @ 58 @ for  @ 71 @ 
+name: PIX  @ 1 @ name: PIX  @ 1 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 89 @ 
+argument_list  @ 73 @ argument_list  @ 86 @ 
+name: hc  @ 24 @ name: hc  @ 29 @ 
+argument  @ 53 @ argument  @ 66 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 67 @ 
+name: hc  @ 13 @ name: hc  @ 18 @ 
+name: w  @ 27 @ name: w  @ 34 @ 
+name: nx  @ 57 @ name: nx  @ 70 @ 
+operator: *  @ 15 @ operator: *  @ 20 @ 
+operator: !=  @ 47 @ operator: !=  @ 54 @ 
+expr  @ 19 @ expr  @ 24 @ 
+operator: ++  @ 58 @ operator: ++  @ 71 @ 
+name: h  @ 34 @ name: h  @ 41 @ 
+if_stmt  @ 23 @ if_stmt  @ 28 @ 
+call  @ 71 @ call  @ 84 @ 
+expr  @ 17 @ expr  @ 22 @ 
+argument  @ 54 @ argument  @ 67 @ 
+argument  @ 67 @ argument  @ 80 @ 
+name: d  @ 47 @ name: d  @ 54 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 22 @ 
+argument_list  @ 19 @ argument_list  @ 24 @ 
+if  @ 29 @ if  @ 36 @ 
+decl  @ 5 @ decl  @ 10 @ 
+name: pix  @ 1 @ name: pix  @ 2 @ 
+argument  @ 35 @ argument  @ 42 @ 
+name: hc  @ 67 @ name: hc  @ 80 @ 
+operator: /  @ 17 @ operator: /  @ 22 @ 
+decl  @ 3 @ decl  @ 8 @ 
+block  @ 13 @ block  @ 18 @ 
+condition  @ 23 @ condition  @ 28 @ 
+expr  @ 55 @ expr  @ 68 @ 
+operator: -  @ 16 @ operator: -  @ 21 @ 
+name: d  @ 42 @ name: d  @ 49 @ 
+expr  @ 23 @ expr  @ 28 @ 
+call  @ 41 @ call  @ 48 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 35 @ 
+name: pixd  @ 53 @ name: pixd  @ 66 @ 
+argument_list  @ 8 @ argument_list  @ 13 @ 
+condition  @ 47 @ condition  @ 54 @ 
+decl  @ 3 @ decl  @ 8 @ 
+literal: 2  @ 29 @ literal: 2  @ 36 @ 
+expr  @ 72 @ expr  @ 85 @ 
+name: pixDestroy  @ 68 @ name: pixDestroy  @ 81 @ 
+expr  @ 57 @ expr  @ 70 @ 
+name: procName  @ 49 @ name: procName  @ 56 @ 
+if  @ 12 @ if  @ 17 @ 
+argument_list  @ 88 @ argument_list  @ 101 @ 
+name: nx  @ 59 @ name: nx  @ 72 @ 
+argument_list  @ 24 @ argument_list  @ 29 @ 
+argument  @ 70 @ argument  @ 83 @ 
+decl  @ 5 @ decl  @ 10 @ 
+operator: (  @ 49 @ operator: (  @ 56 @ 
+expr  @ 57 @ expr  @ 70 @ 
+operator: (  @ 16 @ operator: (  @ 21 @ 
+operator: !  @ 10 @ operator: !  @ 15 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 13 @ 
+operator: =  @ 58 @ operator: =  @ 71 @ 
+name: wc  @ 21 @ name: wc  @ 26 @ 
+operator: =  @ 59 @ operator: =  @ 72 @ 
+expr_stmt  @ 69 @ expr_stmt  @ 82 @ 
+expr  @ 73 @ expr  @ 86 @ 
+operator: +  @ 29 @ operator: +  @ 36 @ 
+operator: &  @ 77 @ operator: &  @ 90 @ 
+if_stmt  @ 33 @ if_stmt  @ 40 @ 
+expr  @ 17 @ expr  @ 22 @ 
+argument_list  @ 17 @ argument_list  @ 22 @ 
+operator: )  @ 53 @ operator: )  @ 66 @ 
+argument_list  @ 81 @ argument_list  @ 94 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 38 @ 
+operator: =  @ 13 @ operator: =  @ 18 @ 
+argument_list  @ 42 @ argument_list  @ 49 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 19 @ 
+expr_stmt  @ 88 @ expr_stmt  @ 101 @ 
+call  @ 74 @ call  @ 87 @ 
+name: wc  @ 73 @ name: wc  @ 86 @ 
+expr  @ 14 @ expr  @ 19 @ 
+call  @ 55 @ call  @ 68 @ 
+init  @ 58 @ init  @ 71 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 77 @ 
+expr  @ 64 @ expr  @ 77 @ 
+if_stmt  @ 47 @ if_stmt  @ 54 @ 
+block_content  @ 12 @ block_content  @ 17 @ 
+name: xrat  @ 3 @ name: xrat  @ 8 @ 
+name: NULL  @ 22 @ name: NULL  @ 27 @ 
+name: pt  @ 6 @ name: pt  @ 11 @ 
+name: d  @ 39 @ name: d  @ 46 @ 
+call  @ 57 @ call  @ 70 @ 
+incr  @ 58 @ incr  @ 71 @ 
+name: ERROR_PTR  @ 55 @ name: ERROR_PTR  @ 68 @ 
+argument  @ 49 @ argument  @ 56 @ 
+modifier: *  @ 4 @ modifier: *  @ 9 @ 
+name: pixg  @ 70 @ name: pixg  @ 83 @ 
+literal: 2  @ 15 @ literal: 2  @ 20 @ 
+name: yrat  @ 28 @ name: yrat  @ 35 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 23 @ 
+name: PIX  @ 55 @ name: PIX  @ 68 @ 
+literal: "pixd not made"  @ 55 @ literal: "pixd not made"  @ 68 @ 
+operator: &  @ 54 @ operator: &  @ 67 @ 
+literal: "kernel too large; reducing!\n"  @ 18 @ literal: "kernel too large; reducing!\n"  @ 23 @ 
+operator: <=  @ 23 @ operator: <=  @ 28 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 21 @ 
+argument  @ 88 @ argument  @ 101 @ 
+name: pixs  @ 48 @ name: pixs  @ 55 @ 
+literal: 0  @ 13 @ literal: 0  @ 18 @ 
+expr  @ 42 @ expr  @ 49 @ 
+argument_list  @ 69 @ argument_list  @ 82 @ 
+argument_list  @ 57 @ argument_list  @ 70 @ 
+operator: <=  @ 23 @ operator: <=  @ 28 @ 
+decl  @ 4 @ decl  @ 9 @ 
+expr  @ 64 @ expr  @ 77 @ 
+literal: 0  @ 12 @ literal: 0  @ 17 @ 
+name: pt  @ 60 @ name: pt  @ 73 @ 
+expr  @ 19 @ expr  @ 24 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 49 @ 
+operator: (  @ 11 @ operator: (  @ 16 @ 
+type  @ 4 @ type  @ 9 @ 
+operator: +  @ 57 @ operator: +  @ 70 @ 
+call  @ 16 @ call  @ 21 @ 
+name: pixGetRGBComponent  @ 72 @ name: pixGetRGBComponent  @ 85 @ 
+block  @ 47 @ block  @ 54 @ 
+name: hc  @ 64 @ name: hc  @ 77 @ 
+expr  @ 11 @ expr  @ 16 @ 
+argument  @ 55 @ argument  @ 68 @ 
+block  @ 58 @ block  @ 71 @ 
+operator: &&  @ 47 @ operator: &&  @ 54 @ 
+expr  @ 67 @ expr  @ 80 @ 
+call  @ 70 @ call  @ 83 @ 
+operator: &  @ 88 @ operator: &  @ 101 @ 
+operator: <  @ 12 @ operator: <  @ 17 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 24 @ 
+expr  @ 57 @ expr  @ 70 @ 
+literal: "depth not 8 or 32 bpp"  @ 49 @ literal: "depth not 8 or 32 bpp"  @ 56 @ 
+block  @ 43 @ block  @ 50 @ 
+argument  @ 57 @ argument  @ 70 @ 
+if_stmt  @ 21 @ if_stmt  @ 26 @ 
+argument_list  @ 78 @ argument_list  @ 91 @ 
+decl  @ 1 @ decl  @ 2 @ 
+argument  @ 70 @ argument  @ 83 @ 
+expr  @ 73 @ expr  @ 86 @ 
+condition  @ 12 @ condition  @ 17 @ 
+expr  @ 69 @ expr  @ 82 @ 
+name: hc  @ 19 @ name: hc  @ 24 @ 
+name: d  @ 14 @ name: d  @ 19 @ 
+name: pixs  @ 57 @ name: pixs  @ 70 @ 
+expr  @ 69 @ expr  @ 82 @ 
+if  @ 13 @ if  @ 18 @ 
+name: pixBlockconvGrayTile  @ 73 @ name: pixBlockconvGrayTile  @ 86 @ 
+name: wc  @ 30 @ name: wc  @ 37 @ 
+type  @ 3 @ type  @ 8 @ 
+name: h  @ 17 @ name: h  @ 22 @ 
+type  @ 1 @ type  @ 2 @ 
+operator: +  @ 34 @ operator: +  @ 41 @ 
+type  @ 3 @ type  @ 8 @ 
+if  @ 47 @ if  @ 54 @ 
+operator: ||  @ 15 @ operator: ||  @ 20 @ 
+literal: "pix not defined"  @ 11 @ literal: "pix not defined"  @ 16 @ 
+operator: =  @ 66 @ operator: =  @ 79 @ 
+expr_stmt  @ 74 @ expr_stmt  @ 87 @ 
+call  @ 64 @ call  @ 77 @ 
+modifier: *  @ 5 @ modifier: *  @ 10 @ 
+expr  @ 16 @ expr  @ 21 @ 
+call  @ 81 @ call  @ 94 @ 
+expr  @ 39 @ expr  @ 46 @ 
+name: procName  @ 40 @ name: procName  @ 47 @ 
+block  @ 53 @ block  @ 66 @ 
+block_content  @ 3 @ block_content  @ 8 @ 
+block_content  @ 60 @ block_content  @ 73 @ 
+call  @ 16 @ call  @ 21 @ 
+argument_list  @ 16 @ argument_list  @ 21 @ 
+expr  @ 57 @ expr  @ 70 @ 
+name: pixg  @ 69 @ name: pixg  @ 82 @ 
+name: NULL  @ 67 @ name: NULL  @ 80 @ 
+expr  @ 44 @ expr  @ 51 @ 
+argument  @ 31 @ argument  @ 38 @ 
+expr  @ 24 @ expr  @ 29 @ 
+name: i  @ 58 @ name: i  @ 71 @ 
+name: d  @ 3 @ name: d  @ 8 @ 
+name: NULL  @ 70 @ name: NULL  @ 83 @ 
+expr  @ 88 @ expr  @ 101 @ 
+call  @ 8 @ call  @ 13 @ 
+name: L_WARNING  @ 31 @ name: L_WARNING  @ 38 @ 
+expr  @ 8 @ expr  @ 13 @ 
+block_content  @ 24 @ block_content  @ 29 @ 
+expr  @ 21 @ expr  @ 26 @ 
+expr  @ 16 @ expr  @ 21 @ 
+name: pixt  @ 82 @ name: pixt  @ 95 @ 
+name: pix  @ 10 @ name: pix  @ 15 @ 
+name: hc  @ 70 @ name: hc  @ 83 @ 
+call  @ 17 @ call  @ 22 @ 
+init  @ 59 @ init  @ 72 @ 
+literal: 0  @ 17 @ literal: 0  @ 22 @ 
+if_stmt  @ 63 @ if_stmt  @ 76 @ 
+expr  @ 31 @ expr  @ 38 @ 
+if  @ 21 @ if  @ 26 @ 
+argument  @ 72 @ argument  @ 85 @ 
+name: j  @ 60 @ name: j  @ 73 @ 
+name: pixBlockconv  @ 24 @ name: pixBlockconv  @ 29 @ 
+name: pixd  @ 4 @ name: pixd  @ 9 @ 
+expr  @ 47 @ expr  @ 54 @ 
+operator: <  @ 33 @ operator: <  @ 40 @ 
+operator: =  @ 17 @ operator: =  @ 22 @ 
+name: pix  @ 44 @ name: pix  @ 51 @ 
+name: wc  @ 19 @ name: wc  @ 24 @ 
+call  @ 49 @ call  @ 56 @ 
+argument  @ 57 @ argument  @ 70 @ 
+expr  @ 12 @ expr  @ 17 @ 
+name: pt  @ 57 @ name: pt  @ 70 @ 
+operator: <  @ 15 @ operator: <  @ 20 @ 
+argument_list  @ 44 @ argument_list  @ 51 @ 
+argument_list  @ 48 @ argument_list  @ 55 @ 
+expr  @ 11 @ expr  @ 16 @ 
+expr  @ 57 @ expr  @ 70 @ 
+name: pixs  @ 87 @ name: pixs  @ 100 @ 
+return  @ 49 @ return  @ 56 @ 
+operator: /  @ 28 @ operator: /  @ 35 @ 
+expr  @ 60 @ expr  @ 73 @ 
+name: i  @ 3 @ name: i  @ 8 @ 
+if  @ 33 @ if  @ 40 @ 
+block  @ 22 @ block  @ 27 @ 
+operator: =  @ 72 @ operator: =  @ 85 @ 
+if  @ 10 @ if  @ 15 @ 
+expr  @ 73 @ expr  @ 86 @ 
+argument  @ 73 @ argument  @ 86 @ 
+operator: =  @ 42 @ operator: =  @ 49 @ 
+name: hc  @ 73 @ name: hc  @ 86 @ 
+block_content  @ 11 @ block_content  @ 16 @ 
+operator: =  @ 70 @ operator: =  @ 83 @ 
+name: pixc  @ 81 @ name: pixc  @ 94 @ 
+control  @ 59 @ control  @ 72 @ 
+name: pixc  @ 83 @ name: pixc  @ 96 @ 
+argument  @ 75 @ argument  @ 88 @ 
+call  @ 69 @ call  @ 82 @ 
+operator: ==  @ 39 @ operator: ==  @ 46 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 80 @ 
+operator: =  @ 34 @ operator: =  @ 41 @ 
+call  @ 83 @ call  @ 96 @ 
+expr  @ 73 @ expr  @ 86 @ 
+argument  @ 66 @ argument  @ 79 @ 
+decl  @ 5 @ decl  @ 10 @ 
+expr_stmt  @ 72 @ expr_stmt  @ 85 @ 
+argument  @ 18 @ argument  @ 23 @ 
+block  @ 39 @ block  @ 46 @ 
+name: pixDestroy  @ 48 @ name: pixDestroy  @ 55 @ 
+condition  @ 59 @ condition  @ 72 @ 
+operator: <  @ 29 @ operator: <  @ 36 @ 
+modifier: *  @ 5 @ modifier: *  @ 10 @ 
+operator: &&  @ 39 @ operator: &&  @ 46 @ 
+argument_list  @ 75 @ argument_list  @ 88 @ 
+return  @ 11 @ return  @ 16 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+modifier: *  @ 4 @ modifier: *  @ 9 @ 
+name: pixgc  @ 5 @ name: pixgc  @ 10 @ 
+literal: 0  @ 13 @ literal: 0  @ 18 @ 
+expr  @ 16 @ expr  @ 21 @ 
+expr  @ 70 @ expr  @ 83 @ 
+name: pixGetColormap  @ 39 @ name: pixGetColormap  @ 46 @ 
+type  @ 5 @ type  @ 10 @ 
+condition  @ 58 @ condition  @ 71 @ 
+expr  @ 70 @ expr  @ 83 @ 
+decl  @ 1 @ decl  @ 4 @ 
+name: pixDestroy  @ 87 @ name: pixDestroy  @ 100 @ 
+expr  @ 67 @ expr  @ 80 @ 
+name: pixDestroy  @ 82 @ name: pixDestroy  @ 95 @ 
+return  @ 89 @ return  @ 102 @ 
+argument_list  @ 49 @ argument_list  @ 56 @ 
+name: procName  @ 19 @ name: procName  @ 24 @ 
+name: l_int32  @ 3 @ name: l_int32  @ 8 @ 
+decl  @ 5 @ decl  @ 10 @ 
+block_content  @ 66 @ block_content  @ 79 @ 
+name: pixd  @ 81 @ name: pixd  @ 94 @ 
+expr  @ 14 @ expr  @ 19 @ 
+argument  @ 40 @ argument  @ 47 @ 
+argument  @ 70 @ argument  @ 83 @ 
+argument_list  @ 70 @ argument_list  @ 83 @ 
+argument_list  @ 77 @ argument_list  @ 90 @ 
+expr  @ 27 @ expr  @ 34 @ 
+type  @ 3 @ type  @ 8 @ 
+argument  @ 14 @ argument  @ 19 @ 
+name: pixrc  @ 5 @ name: pixrc  @ 10 @ 
+expr  @ 83 @ expr  @ 96 @ 
+

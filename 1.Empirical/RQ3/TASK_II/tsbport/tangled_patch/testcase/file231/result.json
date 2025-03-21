@@ -1,0 +1,140 @@
+{
+    "testcase": {
+        "file231": {
+            "match_message": {
+                "Same: computeInputPixelOffsets -> computeInputPixelOffsets": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 4905",
+                        "L2": "7: Context line (Ignored) is empty or comment 4906"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 4911",
+                        "L2": "7: Context line (Ignored) is empty or comment 4912"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 4917",
+                        "L2": "7: Context line (Ignored) is empty or comment 4918"
+                    }
+                },
+                "Same: extractCompositeRegions -> extractCompositeRegions": {
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 6076->6367",
+                        "L2": "5: Matched by Syntax(AST) similarity 6077->6368"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 6101->6392",
+                        "L2": "5: Matched by Syntax(AST) similarity 6101->6392"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 6166",
+                        "L2": "7: Context line (Ignored) is empty or comment 6166"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "                if ((crop->selections > i + 1) &&(crop_length != crop->regionlist[i + 1].length))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 137,
+                        "add_hunk": [
+                            "                        if (i > 0 && zwidth != crop->combined_width)\n",
+                            "                        {\n",
+                            "                            TIFFError(\"computeInputPixelOffsets\",\"Only equal width regions can be \"\"combined for -E \"\"top or bottom\");\n",
+                            "                            return (-1);\n",
+                            "                        }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 6367,
+                        "add_hunk": [
+                            "    switch (crop->edge_ref)\n",
+                            "    {\n",
+                            "        default:\n",
+                            "        case EDGE_TOP:\n",
+                            "        case EDGE_BOTTOM:\n",
+                            "            for (i = 1; i < crop->selections; i++)\n",
+                            "            {\n",
+                            "                uint32_t crop_width0 =\n",
+                            "                    crop->regionlist[i - 1].x2 - crop->regionlist[i - 1].x1 + 1;\n",
+                            "                uint32_t crop_width1 =\n",
+                            "                    crop->regionlist[i].x2 - crop->regionlist[i].x1 + 1;\n",
+                            "                if (crop_width0 != crop_width1)\n",
+                            "                {\n",
+                            "                    TIFFError(\"extractCompositeRegions\",\"Only equal width regions can be combined for -E \"\"top or bottom\");\n",
+                            "                    return (1);\n",
+                            "                }\n",
+                            "            }\n",
+                            "            break;\n",
+                            "        case EDGE_LEFT:\n",
+                            "        case EDGE_RIGHT:\n",
+                            "            for (i = 1; i < crop->selections; i++)\n",
+                            "            {\n",
+                            "                uint32_t crop_length0 =\n",
+                            "                    crop->regionlist[i - 1].y2 - crop->regionlist[i - 1].y1 + 1;\n",
+                            "                uint32_t crop_length1 =\n",
+                            "                    crop->regionlist[i].y2 - crop->regionlist[i].y1 + 1;\n",
+                            "                if (crop_length0 != crop_length1)\n",
+                            "                {\n",
+                            "                    TIFFError(\"extractCompositeRegions\",\"Only equal length regions can be combined for \"\"-E left or right\");\n",
+                            "                    return (1);\n",
+                            "                }\n",
+                            "            }\n",
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 6392,
+                        "add_hunk": [
+                            "                if ((crop->selections > i + 1) &&(crop_width != crop->regionlist[i + 1].width))\n"
+                        ],
+                        "delete_location": [
+                            6392,
+                            6392
+                        ],
+                        "delete_hunk": [
+                            "\t   if ((i > 0) && (crop_width != crop->regionlist[i - 1].width))\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: computeInputPixelOffsets -> computeInputPixelOffsets": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: extractCompositeRegions -> extractCompositeRegions": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "control_flow",
+                "sanity_check"
+            ]
+        }
+    }
+}

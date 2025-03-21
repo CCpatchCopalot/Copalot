@@ -1,0 +1,258 @@
+if_stmt  @ 16 @ if_stmt  @ 16 @ 
+condition  @ 16 @ condition  @ 16 @ 
+block  @ 6 @ block  @ 6 @ 
+name: gf_odf_size_field_size  @ 27 @ name: gf_odf_size_field_size  @ 27 @ 
+expr  @ 6 @ expr  @ 6 @ 
+expr  @ 22 @ expr  @ 22 @ 
+operator: +  @ 27 @ operator: +  @ 27 @ 
+if  @ 24 @ if  @ 24 @ 
+name: bs  @ 8 @ name: bs  @ 8 @ 
+name: read  @ 15 @ name: read  @ 15 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: DescSize  @ 20 @ name: DescSize  @ 20 @ 
+decl  @ 3 @ decl  @ 3 @ 
+type  @ 5 @ type  @ 5 @ 
+name: tmp  @ 21 @ name: tmp  @ 21 @ 
+expr  @ 24 @ expr  @ 24 @ 
+argument  @ 15 @ argument  @ 15 @ 
+type  @ 1 @ type  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument  @ 8 @ argument  @ 8 @ 
+condition  @ 20 @ condition  @ 20 @ 
+block_content  @ 14 @ block_content  @ 14 @ 
+name: objectDescriptorID  @ 8 @ name: objectDescriptorID  @ 8 @ 
+call  @ 8 @ call  @ 8 @ 
+name: bs  @ 9 @ name: bs  @ 9 @ 
+name: tmpSize  @ 22 @ name: tmpSize  @ 22 @ 
+name: e  @ 23 @ name: e  @ 23 @ 
+expr  @ 27 @ expr  @ 27 @ 
+block  @ 26 @ block  @ 26 @ 
+expr  @ 21 @ expr  @ 21 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+type  @ 1 @ type  @ 1 @ 
+type  @ 5 @ type  @ 5 @ 
+call  @ 15 @ call  @ 15 @ 
+name: GF_BAD_PARAM  @ 6 @ name: GF_BAD_PARAM  @ 6 @ 
+if_stmt  @ 13 @ if_stmt  @ 13 @ 
+name: GF_BitStream  @ 1 @ name: GF_BitStream  @ 1 @ 
+operator: !  @ 24 @ operator: !  @ 24 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+if_stmt  @ 24 @ if_stmt  @ 24 @ 
+return  @ 30 @ return  @ 30 @ 
+name: tmpSize  @ 27 @ name: tmpSize  @ 27 @ 
+operator: ->  @ 8 @ operator: ->  @ 8 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+argument  @ 15 @ argument  @ 15 @ 
+name: gf_odf_read_isom_od  @ 1 @ name: gf_odf_read_isom_od  @ 1 @ 
+decl  @ 1 @ decl  @ 1 @ 
+condition  @ 26 @ condition  @ 26 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: e  @ 15 @ name: e  @ 15 @ 
+expr  @ 8 @ expr  @ 8 @ 
+name: od  @ 8 @ name: od  @ 8 @ 
+operator: &  @ 22 @ operator: &  @ 22 @ 
+name: e  @ 22 @ name: e  @ 22 @ 
+block  @ 13 @ block  @ 13 @ 
+expr  @ 8 @ expr  @ 8 @ 
+literal: 10  @ 8 @ literal: 10  @ 8 @ 
+argument  @ 22 @ argument  @ 22 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 25 @ 
+block_content  @ 23 @ block_content  @ 23 @ 
+name: read  @ 14 @ name: read  @ 14 @ 
+expr  @ 15 @ expr  @ 15 @ 
+literal: 2  @ 11 @ literal: 2  @ 11 @ 
+block_content  @ 24 @ block_content  @ 24 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name: GF_Descriptor  @ 21 @ name: GF_Descriptor  @ 21 @ 
+decl_stmt  @ 21 @ decl_stmt  @ 21 @ 
+call  @ 22 @ call  @ 22 @ 
+name: u32  @ 4 @ name: u32  @ 4 @ 
+name: DescSize  @ 29 @ name: DescSize  @ 29 @ 
+expr  @ 26 @ expr  @ 26 @ 
+return  @ 16 @ return  @ 16 @ 
+name: bs  @ 15 @ name: bs  @ 15 @ 
+name: e  @ 16 @ name: e  @ 16 @ 
+expr  @ 25 @ expr  @ 25 @ 
+decl  @ 5 @ decl  @ 5 @ 
+block  @ 23 @ block  @ 23 @ 
+if  @ 26 @ if  @ 26 @ 
+init  @ 5 @ init  @ 5 @ 
+name: od  @ 15 @ name: od  @ 15 @ 
+type  @ 21 @ type  @ 21 @ 
+if  @ 13 @ if  @ 13 @ 
+decl  @ 1 @ decl  @ 1 @ 
+block  @ 29 @ block  @ 29 @ 
+name: nbBytes  @ 17 @ name: nbBytes  @ 17 @ 
+expr  @ 6 @ expr  @ 6 @ 
+return  @ 29 @ return  @ 29 @ 
+expr  @ 27 @ expr  @ 27 @ 
+expr  @ 22 @ expr  @ 22 @ 
+expr  @ 13 @ expr  @ 13 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+expr  @ 16 @ expr  @ 16 @ 
+name: u32  @ 1 @ name: u32  @ 1 @ 
+name: urlflag  @ 9 @ name: urlflag  @ 9 @ 
+argument  @ 10 @ argument  @ 10 @ 
+name: nbBytes  @ 5 @ name: nbBytes  @ 5 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 22 @ 
+block  @ 24 @ block  @ 24 @ 
+name: nbBytes  @ 20 @ name: nbBytes  @ 20 @ 
+expr  @ 23 @ expr  @ 23 @ 
+name: GF_Err  @ 3 @ name: GF_Err  @ 3 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: nbBytes  @ 11 @ name: nbBytes  @ 11 @ 
+name: e  @ 23 @ name: e  @ 23 @ 
+argument  @ 25 @ argument  @ 25 @ 
+argument  @ 9 @ argument  @ 9 @ 
+operator: =  @ 22 @ operator: =  @ 22 @ 
+call  @ 25 @ call  @ 25 @ 
+condition  @ 6 @ condition  @ 6 @ 
+name: GF_ODF_INVALID_DESCRIPTOR  @ 29 @ name: GF_ODF_INVALID_DESCRIPTOR  @ 29 @ 
+if_stmt  @ 23 @ if_stmt  @ 23 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+literal: 0  @ 5 @ literal: 0  @ 5 @ 
+comment: /*reserved = */  @ 10 @ comment: /*reserved = */  @ 10 @ 
+name: DescSize  @ 1 @ name: DescSize  @ 1 @ 
+type  @ 4 @ type  @ 4 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+return  @ 23 @ return  @ 23 @ 
+condition  @ 29 @ condition  @ 29 @ 
+argument_list  @ 27 @ argument_list  @ 27 @ 
+if  @ 6 @ if  @ 6 @ 
+expr  @ 26 @ expr  @ 26 @ 
+name  @ 8 @ name  @ 8 @ 
+operator: &  @ 15 @ operator: &  @ 15 @ 
+decl  @ 14 @ decl  @ 14 @ 
+literal: 1  @ 9 @ literal: 1  @ 9 @ 
+name: gf_odf_read_url_string  @ 15 @ name: gf_odf_read_url_string  @ 15 @ 
+name: e  @ 16 @ name: e  @ 16 @ 
+literal: 5  @ 10 @ literal: 5  @ 10 @ 
+name  @ 15 @ name  @ 15 @ 
+expr  @ 17 @ expr  @ 17 @ 
+operator: =  @ 9 @ operator: =  @ 9 @ 
+call  @ 10 @ call  @ 10 @ 
+name: tmp  @ 22 @ name: tmp  @ 22 @ 
+argument  @ 15 @ argument  @ 15 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+condition  @ 23 @ condition  @ 23 @ 
+name: tmpSize  @ 5 @ name: tmpSize  @ 5 @ 
+expr  @ 15 @ expr  @ 15 @ 
+operator: <  @ 20 @ operator: <  @ 20 @ 
+name: bs  @ 1 @ name: bs  @ 1 @ 
+expr  @ 15 @ expr  @ 15 @ 
+argument  @ 9 @ argument  @ 9 @ 
+name: bs  @ 10 @ name: bs  @ 10 @ 
+expr  @ 25 @ expr  @ 25 @ 
+return  @ 6 @ return  @ 6 @ 
+expr  @ 15 @ expr  @ 15 @ 
+if  @ 23 @ if  @ 23 @ 
+expr  @ 22 @ expr  @ 22 @ 
+expr  @ 22 @ expr  @ 22 @ 
+expr  @ 8 @ expr  @ 8 @ 
+argument  @ 22 @ argument  @ 22 @ 
+operator: =  @ 25 @ operator: =  @ 25 @ 
+if_stmt  @ 26 @ if_stmt  @ 26 @ 
+if  @ 16 @ if  @ 16 @ 
+operator: &  @ 22 @ operator: &  @ 22 @ 
+name: u32  @ 14 @ name: u32  @ 14 @ 
+modifier: *  @ 21 @ modifier: *  @ 21 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 8 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: od  @ 25 @ name: od  @ 25 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 9 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument  @ 25 @ argument  @ 25 @ 
+argument_list  @ 9 @ argument_list  @ 9 @ 
+type  @ 14 @ type  @ 14 @ 
+argument  @ 27 @ argument  @ 27 @ 
+call  @ 27 @ call  @ 27 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 14 @ 
+name: od  @ 6 @ name: od  @ 6 @ 
+name: GF_IsomObjectDescriptor  @ 1 @ name: GF_IsomObjectDescriptor  @ 1 @ 
+condition  @ 24 @ condition  @ 24 @ 
+name: nbBytes  @ 27 @ name: nbBytes  @ 27 @ 
+name: bs  @ 22 @ name: bs  @ 22 @ 
+operator: !=  @ 29 @ operator: !=  @ 29 @ 
+call  @ 9 @ call  @ 9 @ 
+name: e  @ 25 @ name: e  @ 25 @ 
+name: nbBytes  @ 29 @ name: nbBytes  @ 29 @ 
+block  @ 16 @ block  @ 16 @ 
+if  @ 29 @ if  @ 29 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: gf_odf_parse_descriptor  @ 22 @ name: gf_odf_parse_descriptor  @ 22 @ 
+name: gf_bs_read_int  @ 8 @ name: gf_bs_read_int  @ 8 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 17 @ 
+expr  @ 29 @ expr  @ 29 @ 
+block_content  @ 6 @ block_content  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: e  @ 26 @ name: e  @ 26 @ 
+block_content  @ 29 @ block_content  @ 29 @ 
+expr  @ 30 @ expr  @ 30 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: AddDescriptorToIsomOD  @ 25 @ name: AddDescriptorToIsomOD  @ 25 @ 
+argument_list  @ 22 @ argument_list  @ 22 @ 
+name: URLString  @ 15 @ name: URLString  @ 15 @ 
+return  @ 26 @ return  @ 26 @ 
+name: u32  @ 5 @ name: u32  @ 5 @ 
+name: tmp  @ 24 @ name: tmp  @ 24 @ 
+name: gf_bs_read_int  @ 9 @ name: gf_bs_read_int  @ 9 @ 
+operator: =  @ 15 @ operator: =  @ 15 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 27 @ 
+expr  @ 23 @ expr  @ 23 @ 
+argument  @ 10 @ argument  @ 10 @ 
+block  @ 20 @ block  @ 20 @ 
+expr  @ 29 @ expr  @ 29 @ 
+name: GF_OK  @ 30 @ name: GF_OK  @ 30 @ 
+expr  @ 10 @ expr  @ 10 @ 
+while  @ 20 @ while  @ 20 @ 
+function  @ 1 @ function  @ 1 @ 
+name: e  @ 3 @ name: e  @ 3 @ 
+block_content  @ 26 @ block_content  @ 26 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 4 @ decl  @ 4 @ 
+operator: ->  @ 15 @ operator: ->  @ 15 @ 
+expr  @ 9 @ expr  @ 9 @ 
+name: tmp  @ 25 @ name: tmp  @ 25 @ 
+expr  @ 9 @ expr  @ 9 @ 
+name: urlflag  @ 4 @ name: urlflag  @ 4 @ 
+name: read  @ 17 @ name: read  @ 17 @ 
+name: NULL  @ 21 @ name: NULL  @ 21 @ 
+condition  @ 13 @ condition  @ 13 @ 
+operator: !  @ 6 @ operator: !  @ 6 @ 
+if_stmt  @ 29 @ if_stmt  @ 29 @ 
+expr  @ 24 @ expr  @ 24 @ 
+argument_list  @ 8 @ argument_list  @ 8 @ 
+name: GF_ODF_INVALID_DESCRIPTOR  @ 24 @ name: GF_ODF_INVALID_DESCRIPTOR  @ 24 @ 
+name: tmpSize  @ 27 @ name: tmpSize  @ 27 @ 
+expr  @ 16 @ expr  @ 16 @ 
+argument  @ 22 @ argument  @ 22 @ 
+name: e  @ 26 @ name: e  @ 26 @ 
+name: GF_Err  @ 1 @ name: GF_Err  @ 1 @ 
+block_content  @ 21 @ block_content  @ 21 @ 
+argument_list  @ 25 @ argument_list  @ 25 @ 
+name: urlflag  @ 13 @ name: urlflag  @ 13 @ 
+name: gf_bs_read_int  @ 10 @ name: gf_bs_read_int  @ 10 @ 
+init  @ 21 @ init  @ 21 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+name: od  @ 1 @ name: od  @ 1 @ 
+block  @ 2 @ block  @ 2 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: =  @ 8 @ operator: =  @ 8 @ 
+block_content  @ 16 @ block_content  @ 16 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: +=  @ 17 @ operator: +=  @ 17 @ 
+decl  @ 21 @ decl  @ 21 @ 
+operator: +=  @ 11 @ operator: +=  @ 11 @ 
+operator: +=  @ 27 @ operator: +=  @ 27 @ 
+expr  @ 25 @ expr  @ 25 @ 
+argument  @ 8 @ argument  @ 8 @ 
+if_stmt  @ 6 @ if_stmt  @ 6 @ 
+return  @ 24 @ return  @ 24 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+type  @ 3 @ type  @ 3 @ 
+operator: &  @ 15 @ operator: &  @ 15 @ 
+

@@ -1,0 +1,98 @@
+{
+    "testcase": {
+        "file25": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "4 -> 17",
+                        "L2": "5 -> 18",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'cpp:include', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "17",
+                            "verify result": "False"
+                        },
+                        "type": "cpp:include",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "cpp:include",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                },
+                "Same: tensorflow -> tensorflow": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 64->84",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 65->85"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 17,
+                        "add_hunk": [
+                            "#include <limits>\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 22,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 84,
+                        "add_hunk": [
+                            "}\n",
+                            "TEST(MfccMelFilterbankTest, FailsWhenChannelsGreaterThanMaxIntValue) {\n",
+                            "  MfccMelFilterbank filterbank;\n",
+                            "  const int kSampleCount = 513;\n",
+                            "  std::size_t num_channels = std::numeric_limits<int>::max();\n",
+                            "  bool initialized = filterbank.Initialize(kSampleCount, 2 /* sample rate */, num_channels /* channels */,1.0 /*lower frequency limit */, 5.0 /* upper frequency limit */);\n",
+                            "  EXPECT_FALSE(initialized);\n",
+                            "}\n",
+                            "TEST(MfccMelFilterbankTest, FailsWhenChannelsGreaterThanMaxSize) {\n",
+                            "  MfccMelFilterbank filterbank;\n",
+                            "  const int kSampleCount = 513;\n",
+                            "  std::size_t num_channels = std::vector<double>().max_size() + 1;\n",
+                            "  bool initialized = filterbank.Initialize(kSampleCount, 2 /* sample rate */, num_channels /* channels */,1.0 /*lower frequency limit */, 5.0 /* upper frequency limit */);\n",
+                            "  EXPECT_FALSE(initialized);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "cpp:include"
+                    }
+                },
+                "Same: tensorflow -> tensorflow": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "outside",
+                "function_call",
+                "change_type"
+            ]
+        }
+    }
+}

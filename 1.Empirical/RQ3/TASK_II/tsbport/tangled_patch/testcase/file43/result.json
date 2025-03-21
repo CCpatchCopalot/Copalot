@@ -1,0 +1,76 @@
+{
+    "testcase": {
+        "file43": {
+            "match_message": {
+                "Syntax: rethook -> luaD_poscall": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 298->370",
+                        "L2": "5: Matched by Syntax(AST) similarity 298->370"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 311->381",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 312->373"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 370,
+                        "add_hunk": [
+                            "Proto *p = ci_func(ci)->p;"
+                        ],
+                        "delete_location": [
+                            370,
+                            370
+                        ],
+                        "delete_hunk": [
+                            "      firstResult = restorestack(L, fr);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 381,
+                        "add_hunk": [
+                            "if (isLua(ci = ci->previous))\n",
+                            "    L->oldpc = pcRel(ci->u.l.savedpc, ci_func(ci)->p);"
+                        ],
+                        "delete_location": [
+                            372,
+                            381
+                        ],
+                        "delete_hunk": [
+                            "    L->oldpc = ci->previous->u.l.savedpc;  /* 'oldpc' for caller function */\n",
+                            "  }\n",
+                            "  res = ci->func;  /* res == final position of 1st result */\n",
+                            "  wanted = ci->nresults;\n",
+                            "  L->ci = ci = ci->previous;  /* back to caller */\n",
+                            "  for (i = wanted; i != 0 && firstResult < L->top; i--)\n",
+                            "    setobjs2s(L, res++, firstResult++);\n",
+                            "  while (i-- > 0)\n",
+                            "    setnilvalue(res++);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: rethook -> luaD_poscall": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

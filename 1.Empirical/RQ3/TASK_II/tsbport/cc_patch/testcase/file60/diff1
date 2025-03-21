@@ -1,0 +1,5 @@
+1028c1028,1029
+<     nullcnt = 0;
+---
+>         if(mesg_size != H5O_ALIGN_OH(oh, mesg_size))
+>             HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "message not aligned")

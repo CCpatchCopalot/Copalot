@@ -1,0 +1,4 @@
+417a418,420
+>     if (0 == hobj->idx)
+>     HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, NULL, "bad heap index, heap object = {%" PRIxHADDR ", %zu}",hobj->addr, hobj->idx);
+> 

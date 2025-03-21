@@ -1,0 +1,164 @@
+CURLcode Curl_extract_certinfo(struct Curl_easy *data, int certnum, const char *beg, const char *end)
+{
+  struct Curl_X509certificate cert;
+  struct Curl_asn1Element param;
+  char *certptr;
+  size_t clen;
+  struct dynbuf out;
+  CURLcode result = CURLE_OK;
+  unsigned int version;
+  const char *ptr;
+  int rc;
+
+  if(!data->set.ssl.certinfo)
+    if(certnum)
+      return CURLE_OK;
+
+  Curl_dyn_init(&out, MAX_X509_STR);
+  /* Prepare the certificate information for curl_easy_getinfo(). */
+
+  /* Extract the certificate ASN.1 elements. */
+  if(Curl_parseX509(&cert, beg, end))
+    return CURLE_PEER_FAILED_VERIFICATION;
+
+  /* Subject. */
+  result = DNtostr(&out, &cert.subject);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Subject", &out);
+    if(result)
+      goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Issuer. */
+  result = DNtostr(&out, &cert.issuer);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Issuer", &out);
+    if(result)
+      goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Version (always fits in less than 32 bits). */
+  version = 0;
+  for(ptr = cert.version.beg; ptr < cert.version.end; ptr++)
+    version = (version << 8) | *(const unsigned char *) ptr;
+  if(data->set.ssl.certinfo) {
+    result = Curl_dyn_addf(&out, "%x", version);
+    if(result)
+      goto done;
+    result = ssl_push_certinfo_dyn(data, certnum, "Version", &out);
+    if(result)
+      goto done;
+    Curl_dyn_reset(&out);
+  }
+
+  /* Serial number. */
+  result = ASN1tostr(&out, &cert.serialNumber, 0);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Serial Number", &out);
+    if(result)
+      goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Signature algorithm .*/
+  result = dumpAlgo(&out, &param, cert.signatureAlgorithm.beg,cert.signatureAlgorithm.end);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Signature Algorithm", &out);
+    if(result)
+      goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Start Date. */
+  result = ASN1tostr(&out, &cert.notBefore, 0);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Start Date", &out);
+    if(result)
+      goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Expire Date. */
+  result = ASN1tostr(&out, &cert.notAfter, 0);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Expire Date", &out);
+    if(result)
+      goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Public Key Algorithm. */
+  result = dumpAlgo(&out, &param, cert.subjectPublicKeyAlgorithm.beg,cert.subjectPublicKeyAlgorithm.end);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Public Key Algorithm", &out);
+    if(result)
+      goto done;
+  }
+
+  rc = do_pubkey(data, certnum, Curl_dyn_ptr(&out), &param, &cert.subjectPublicKey);
+  if(rc) {
+    result = CURLE_OUT_OF_MEMORY; /* the most likely error */
+    goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Signature. */
+  result = ASN1tostr(&out, &cert.signature, 0);
+  if(result)
+    goto done;
+  if(data->set.ssl.certinfo) {
+    result = ssl_push_certinfo_dyn(data, certnum, "Signature", &out);
+    if(result)
+      goto done;
+  }
+  Curl_dyn_reset(&out);
+
+  /* Generate PEM certificate. */
+  result = Curl_base64_encode(cert.certificate.beg,cert.certificate.end - cert.certificate.beg,&certptr, &clen);
+  if(result)
+    goto done;
+
+  /* Generate the final output certificate string. Format is: -----BEGIN CERTIFICATE-----\n <max 64 base64 characters>\n . . . -----END CERTIFICATE-----\n */
+
+  Curl_dyn_reset(&out);
+
+  /* Build the certificate string. */
+  result = Curl_dyn_add(&out, "-----BEGIN CERTIFICATE-----\n");
+  if(!result) {
+    size_t j = 0;
+
+    while(!result && (j < clen)) {
+      size_t chunksize = (clen - j) > 64 ? 64 : (clen - j);
+      result = Curl_dyn_addn(&out, &certptr[j], chunksize);
+      if(!result)
+        result = Curl_dyn_addn(&out, "\n", 1);
+      j += chunksize;
+    }
+    if(!result)
+      result = Curl_dyn_add(&out, "-----END CERTIFICATE-----\n");
+  }
+  free(certptr);
+  if(!result)
+    if(data->set.ssl.certinfo)
+      result = ssl_push_certinfo_dyn(data, certnum, "Cert", &out);
+
+done:
+  Curl_dyn_free(&out);
+  return result;
+}

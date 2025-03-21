@@ -1,0 +1,60 @@
+{
+    "testcase": {
+        "file167": {
+            "match_message": {
+                "Same: gf_isom_box_parse_ex -> gf_isom_box_parse_ex": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 289 -> 216",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 290->225)"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 291->226 ([[226, 0.8307692307692307], [234, 0.5798816568047338], [241, 0.4893617021276596]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 291->226 ([[226, 0.8307692307692307], [234, 0.5798816568047338], [241, 0.4893617021276596]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 216,
+                        "add_hunk": [
+                            "\t\tif (is_root_box && (e==GF_SKIP_BOX))\n",
+                            "\t\t\te = GF_ISOM_INVALID_FILE;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 226,
+                        "add_hunk": [
+                            "\t\tif (!skip_logs && (e!=GF_SKIP_BOX)) {\n"
+                        ],
+                        "delete_location": [
+                            226,
+                            226
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (!skip_logs) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_box_parse_ex -> gf_isom_box_parse_ex": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "testcase": {
+        "file65": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "1486 -> 1509",
+                        "L2": "1486 -> 1509",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1509",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "1518 -> 1541",
+                        "L2": "1519 -> 1542",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1541",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "1527 -> 1550",
+                        "L2": "1536 -> 1559",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "1550",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1509,
+                        "add_hunk": [
+                            "typedef struct __full_video_sample_entry\n"
+                        ],
+                        "delete_location": [
+                            1509,
+                            1509
+                        ],
+                        "delete_hunk": [
+                            "typedef struct\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1541,
+                        "add_hunk": [
+                            "\tu32 EntryType;\n",
+                            "\tu8 *data;\n",
+                            "\tu32 data_size;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 1550,
+                        "add_hunk": [
+                            "typedef struct __full_video_sample_entry GF_GenericVisualSampleEntryBox;\n"
+                        ],
+                        "delete_location": [
+                            1550,
+                            1559
+                        ],
+                        "delete_hunk": [
+                            "typedef struct\n",
+                            "{\n",
+                            "\tGF_ISOM_VISUAL_SAMPLE_ENTRY\n",
+                            "\tu32 EntryType;\n",
+                            "\tu8 *data;\n",
+                            "\tu32 data_size;\n",
+                            "} GF_GenericVisualSampleEntryBox;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "unknown"
+                    },
+                    "Seg_2": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown",
+                            "unknown",
+                            "unknown",
+                            "src:struct",
+                            "src:struct",
+                            "src:struct",
+                            "src:struct"
+                        ]
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "change_type",
+                "outside"
+            ]
+        }
+    }
+}

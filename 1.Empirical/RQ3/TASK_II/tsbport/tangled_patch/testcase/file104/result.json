@@ -1,0 +1,56 @@
+{
+    "testcase": {
+        "file104": {
+            "match_message": {
+                "Syntax: H5O__chunk_deserialize -> H5O_chunk_deserialize": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1046 -> 1127",
+                        "L2": "5: Matched by Syntax(AST) similarity 1049->1130"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 43,
+                        "add_hunk": [
+                            "#include \"H5Omodule.h\"          /* This source code file is part of the H5O module */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1127,
+                        "add_hunk": [
+                            "if(mesg_size != H5O_ALIGN_OH(oh, mesg_size))\n",
+                            "            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, \"message not aligned\")/* Message flags */flags = *chunk_image++;"
+                        ],
+                        "delete_location": [
+                            1127,
+                            1130
+                        ],
+                        "delete_hunk": [
+                            "        HDassert(mesg_size == H5O_ALIGN_OH(oh, mesg_size));\n",
+                            "        flags = *p++;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: H5O__chunk_deserialize -> H5O_chunk_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

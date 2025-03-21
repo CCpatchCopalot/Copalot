@@ -1,0 +1,4475 @@
+{
+    "CVE-2024-4323": {
+        "cvci": 7,
+        "cvco": 0,
+        "uvci": 136,
+        "uvco": 17,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 3,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/http_server/api/v1/trace.c_cb_trace",
+            "src/http_server/api/v1/trace.c_http_disable_trace",
+            "src/http_server/api/v1/trace.c_get_input_name",
+            "src/http_server/api/v1/trace.c_http_enable_trace",
+            "src/http_server/api/v1/trace.c_api_v1_trace",
+            "src/http_server/api/v1/trace.c_cb_traces",
+            "src/http_server/api/v1/trace.c_disable_trace_input"
+        ],
+        "f_mixlist": [
+            "src/http_server/api/v1/trace.c_find_input",
+            "src/http_server/api/v1/trace.c_enable_trace_input",
+            "src/http_server/api/v1/trace.c_msgpack_params_enable_trace"
+        ],
+        "cvc": 7,
+        "uvc": 153,
+        "all": 160,
+        "ratio": 0.95625
+    },
+    "CVE-2024-6197": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 481,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 17,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "lib/vtls/x509asn1.c_ASN1tostr",
+            "lib/vtls/x509asn1.c_bit2str",
+            "lib/vtls/x509asn1.c_encodeDN",
+            "lib/vtls/x509asn1.c_bool2str",
+            "lib/vtls/x509asn1.c_int2str",
+            "lib/vtls/x509asn1.c_octet2str",
+            "lib/vtls/x509asn1.c_string2str",
+            "lib/vtls/x509asn1.c_encodeOID",
+            "lib/vtls/x509asn1.c_DNtostr",
+            "lib/vtls/x509asn1.c_ssl_push_certinfo_dyn",
+            "lib/vtls/x509asn1.c_Curl_extract_certinfo",
+            "lib/vtls/x509asn1.c_encodeUint",
+            "lib/vtls/x509asn1.c_dumpAlgo",
+            "lib/vtls/x509asn1.c_OID2str",
+            "lib/vtls/x509asn1.c_UTime2str",
+            "lib/vtls/x509asn1.c_do_pubkey_field",
+            "lib/vtls/x509asn1.c_GTime2str"
+        ],
+        "f_mixlist": [
+            "lib/vtls/x509asn1.c_utf8asn1str"
+        ],
+        "cvc": 2,
+        "uvc": 481,
+        "all": 483,
+        "ratio": 0.9958592132505176
+    },
+    "CVE-2024-0207": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 54,
+        "uvco": 4,
+        "fcvc": 0,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "epan/dissectors/packet-http3.c_dissect_http3_qpack_enc",
+            "epan/dissectors/packet-http3.c_read_qpack_prefixed_integer",
+            "epan/dissectors/packet-http3.c_dissect_http3_qpack_encoder_stream",
+            "epan/dissectors/packet-http3.c_(ReportedBoundsError)"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 58,
+        "all": 58,
+        "ratio": 1.0
+    },
+    "CVE-2023-6246": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 30,
+        "uvco": 5,
+        "fcvc": 0,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "misc/tst-syslog-long-progname.c_do_test",
+            "misc/syslog.c___vsyslog_internal"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 35,
+        "all": 35,
+        "ratio": 1.0
+    },
+    "libtiff-389": {
+        "cvci": 11,
+        "cvco": 1,
+        "uvci": 175,
+        "uvco": 6,
+        "fcvc": 1,
+        "fuvc": 18,
+        "fmix": 4,
+        "f_cvclist": [
+            "tools/tiffcrop.c_readSeparateTilesIntoBuffer"
+        ],
+        "f_uvclist": [
+            "tools/tiffcrop.c_combineSeparateSamples32bits",
+            "tools/tiffcrop.c_rotateContigSamples32bits",
+            "tools/tiffcrop.c_process_command_opts",
+            "tools/tiffcrop.c_rotateImage",
+            "tools/tiffcrop.c_reverseSamples32bits",
+            "tools/tiffcrop.c_writeBufferToSeparateTiles",
+            "tools/tiffcrop.c_extractContigSamples32bits",
+            "tools/tiffcrop.c_createCroppedImage",
+            "tools/tiffcrop.c_readSeparateStripsIntoBuffer",
+            "tools/tiffcrop.c_writeCroppedImage",
+            "tools/tiffcrop.c_readContigStripsIntoBuffer",
+            "tools/tiffcrop.c_writeSingleSection",
+            "tools/tiffcrop.c_combineSeparateTileSamples32bits",
+            "tools/tiffcrop.c_extractContigSamplesShifted32bits",
+            "tools/tiffcrop.c_processCropSelections",
+            "tools/tiffcrop.c_createImageSection",
+            "tools/tiffcrop.c_main",
+            "tools/tiffcrop.c_mirrorImage"
+        ],
+        "f_mixlist": [
+            "tools/tiffcrop.c_writeBufferToSeparateStrips",
+            "tools/tiffcrop.c_writeBufferToContigTiles",
+            "tools/tiffcrop.c_readContigTilesIntoBuffer",
+            "tools/tiffcrop.c_loadImage"
+        ],
+        "cvc": 12,
+        "uvc": 181,
+        "all": 193,
+        "ratio": 0.9378238341968912
+    },
+    "libtiff-2646": {
+        "cvci": 15,
+        "cvco": 1,
+        "uvci": 82,
+        "uvco": 2,
+        "fcvc": 2,
+        "fuvc": 11,
+        "fmix": 0,
+        "f_cvclist": [
+            "libtiff/tif_dir.c__TIFFVSetField",
+            "libtiff/tif_dir.c_TIFFClampDoubleToFloat"
+        ],
+        "f_uvclist": [
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt32",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt8",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagCheckedRational",
+            "libtiff/tif_dirread.c_TIFFReadDirEntryFloatArray",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt16",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt32",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagSampleformatArray",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt16",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt8",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagCheckedRationalArray",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToFloat"
+        ],
+        "f_mixlist": [],
+        "cvc": 16,
+        "uvc": 84,
+        "all": 100,
+        "ratio": 0.84
+    },
+    "CVE-2023-39235": {
+        "cvci": 24,
+        "cvco": 0,
+        "uvci": 28,
+        "uvco": 0,
+        "fcvc": 2,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [
+            "gtkwave3-gtk3/src/helpers/vzt_read.c_vzt_rd_get_v64",
+            "gtkwave3-gtk3/src/helpers/vzt_read.c_vzt_rd_get_v32"
+        ],
+        "f_uvclist": [
+            "gtkwave4/src/helpers/vzt_read.c_vzt_rd_block_vch_decode",
+            "gtkwave4/src/helpers/vzt_read.c_vzt_rd_get_v64",
+            "gtkwave4/src/helpers/vzt_read.c_vzt_rd_get_v32",
+            "gtkwave3-gtk3/src/helpers/vzt_read.c_vzt_rd_block_vch_decode"
+        ],
+        "f_mixlist": [],
+        "cvc": 24,
+        "uvc": 28,
+        "all": 52,
+        "ratio": 0.5384615384615384
+    },
+    "CVE-2024-22667": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 63,
+        "uvco": 4,
+        "fcvc": 0,
+        "fuvc": 20,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/optionstr.c_did_set_guioptions",
+            "src/optionstr.c_set_string_option",
+            "src/map.c_did_set_langmap",
+            "src/option.c_do_set_option_string",
+            "src/optionstr.c_did_set_option_listflag",
+            "src/option.c_do_set_option_value",
+            "src/optionstr.c_did_set_mouse",
+            "src/optionstr.c_check_stl_option",
+            "src/optionstr.c_did_set_whichwrap",
+            "src/optionstr.c_did_set_viminfo",
+            "src/optionstr.c_did_set_shortmess",
+            "src/option.c_do_set",
+            "src/optionstr.c_did_set_concealcursor",
+            "src/optionstr.c_did_set_complete",
+            "src/option.c_set_option_value",
+            "src/optionstr.c_illegal_char",
+            "src/optionstr.c_did_set_formatoptions",
+            "src/optionstr.c_did_set_string_option",
+            "src/optionstr.c_did_set_cpoptions",
+            "src/optionstr.c_did_set_comments"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 67,
+        "all": 67,
+        "ratio": 1.0
+    },
+    "CVE-2023-39234": {
+        "cvci": 12,
+        "cvco": 0,
+        "uvci": 40,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "gtkwave3-gtk3/src/helpers/vzt_read.c_vzt_rd_get_v32"
+        ],
+        "f_uvclist": [
+            "gtkwave3-gtk3/src/helpers/vzt_read.c_vzt_rd_get_v64",
+            "gtkwave4/src/helpers/vzt_read.c_vzt_rd_block_vch_decode",
+            "gtkwave4/src/helpers/vzt_read.c_vzt_rd_get_v64",
+            "gtkwave4/src/helpers/vzt_read.c_vzt_rd_get_v32",
+            "gtkwave3-gtk3/src/helpers/vzt_read.c_vzt_rd_block_vch_decode"
+        ],
+        "f_mixlist": [],
+        "cvc": 12,
+        "uvc": 40,
+        "all": 52,
+        "ratio": 0.7692307692307693
+    },
+    "CVE-2023-5377": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 66,
+        "uvco": 4,
+        "fcvc": 0,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/isomedia/box_code_base.c_chnl_box_size",
+            "src/isomedia/box_code_base.c_chnl_box_read",
+            "src/isomedia/box_code_base.c_chnl_box_write",
+            "src/isomedia/isom_write.c_gf_isom_set_audio_layout"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 70,
+        "all": 70,
+        "ratio": 1.0
+    },
+    "CVE-2023-5595": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 13,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/filters/mux_isom.c_mp4_mux_setup_pid"
+        ],
+        "f_uvclist": [
+            "src/isomedia/media.c_Media_GetESD",
+            "src/isomedia/tx3g.c_gf_isom_get_text_description",
+            "src/filters/isoffin_load.c_isor_get_chapters",
+            "src/isomedia/tx3g.c_gf_isom_parse_text_sample"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 13,
+        "all": 15,
+        "ratio": 0.8666666666666667
+    },
+    "CVE-2023-37837": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 27,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "cmd/bitmaphook.cpp_AlphaHook",
+            "interface/bitmaphook.cpp_Release",
+            "interface/bitmaphook.cpp_Request",
+            "cmd/iohelpers.cpp_OpenPNMFile",
+            "cmd/bitmaphook.cpp_BitmapHook"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 27,
+        "all": 27,
+        "ratio": 1.0
+    },
+    "CVE-2023-37836": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 27,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "cmd/bitmaphook.cpp_AlphaHook",
+            "interface/bitmaphook.cpp_Release",
+            "interface/bitmaphook.cpp_Request",
+            "cmd/iohelpers.cpp_OpenPNMFile",
+            "cmd/bitmaphook.cpp_BitmapHook"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 27,
+        "all": 27,
+        "ratio": 1.0
+    },
+    "CVE-2023-36915": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 123,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 8,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "lib/libfst/fstapi.c_unlink_fopen",
+            "lib/libfst/fstapi.c_chk_report_abort",
+            "lib/libfst/fstapi.c_fstReaderVarint64",
+            "lib/libfst/fstapi.c_fstWriterFlushContextPrivate",
+            "lib/libfst/fstapi.c_fstReaderVarint32",
+            "lib/libfst/fstapi.c_fstWritex",
+            "lib/libfst/fstapi.c_fstReaderIterBlocks2",
+            "lib/libfst/fstapi.c_fstReaderVarint32WithSkip"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 123,
+        "all": 123,
+        "ratio": 1.0
+    },
+    "gpac-1421": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 47,
+        "uvco": 28,
+        "fcvc": 1,
+        "fuvc": 12,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/mpegts.c_gf_m2ts_section_complete"
+        ],
+        "f_uvclist": [
+            "src/isomedia/isom_write.c_gf_isom_new_mpeg4_description",
+            "src/odf/odf_code.c_gf_odf_read_iod",
+            "src/media_tools/mpegts.c_gf_m2ts_demux_del",
+            "src/media_tools/mpegts.c_gf_m2ts_process_pat",
+            "src/media_tools/av_parsers.c_gf_mp3_get_next_header_mem",
+            "applications/mp4box/main.c_if",
+            "src/media_tools/mpegts.c_gf_m2ts_reframe_mpeg_video",
+            "src/odf/odf_code.c_gf_odf_read_isom_od",
+            "src/media_tools/mpegts.c_gf_m2ts_get_section_length",
+            "src/media_tools/mpegts.c_gf_m2ts_get_adaptation_field",
+            "src/media_tools/mpegts.c_gf_m2ts_pes_header",
+            "src/media_tools/mpegts.c_gf_m2ts_crc32_check"
+        ],
+        "f_mixlist": [],
+        "cvc": 8,
+        "uvc": 75,
+        "all": 83,
+        "ratio": 0.9036144578313253
+    },
+    "CVE-2023-36274": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/out_dxf.c_dwg_convert_SAB_to_SAT1"
+        ],
+        "cvc": 2,
+        "uvc": 4,
+        "all": 6,
+        "ratio": 0.6666666666666666
+    },
+    "CVE-2023-36746": {
+        "cvci": 6,
+        "cvco": 0,
+        "uvci": 117,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "lib/libfst/fstapi.c_unlink_fopen",
+            "lib/libfst/fstapi.c_chk_report_abort",
+            "lib/libfst/fstapi.c_fstReaderVarint64",
+            "lib/libfst/fstapi.c_fstWriterFlushContextPrivate",
+            "lib/libfst/fstapi.c_fstReaderVarint32",
+            "lib/libfst/fstapi.c_fstWritex",
+            "lib/libfst/fstapi.c_fstReaderVarint32WithSkip"
+        ],
+        "f_mixlist": [
+            "lib/libfst/fstapi.c_fstReaderIterBlocks2"
+        ],
+        "cvc": 6,
+        "uvc": 117,
+        "all": 123,
+        "ratio": 0.9512195121951219
+    },
+    "CVE-2023-36271": {
+        "cvci": 10,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/bits.c_bit_utf8_to_TU"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 10,
+        "uvc": 0,
+        "all": 10,
+        "ratio": 0.0
+    },
+    "CVE-2023-36272": {
+        "cvci": 5,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/bits.c_bit_utf8_to_TU"
+        ],
+        "cvc": 5,
+        "uvc": 5,
+        "all": 10,
+        "ratio": 0.5
+    },
+    "CVE-2023-35704": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 120,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "lib/libfst/fstapi.c_unlink_fopen",
+            "lib/libfst/fstapi.c_chk_report_abort",
+            "lib/libfst/fstapi.c_fstReaderVarint64",
+            "lib/libfst/fstapi.c_fstWriterFlushContextPrivate",
+            "lib/libfst/fstapi.c_fstReaderVarint32",
+            "lib/libfst/fstapi.c_fstWritex",
+            "lib/libfst/fstapi.c_fstReaderIterBlocks2"
+        ],
+        "f_mixlist": [
+            "lib/libfst/fstapi.c_fstReaderVarint32WithSkip"
+        ],
+        "cvc": 3,
+        "uvc": 120,
+        "all": 123,
+        "ratio": 0.975609756097561
+    },
+    "CVE-2023-35703": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 120,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "lib/libfst/fstapi.c_unlink_fopen",
+            "lib/libfst/fstapi.c_chk_report_abort",
+            "lib/libfst/fstapi.c_fstWriterFlushContextPrivate",
+            "lib/libfst/fstapi.c_fstReaderVarint32",
+            "lib/libfst/fstapi.c_fstWritex",
+            "lib/libfst/fstapi.c_fstReaderIterBlocks2",
+            "lib/libfst/fstapi.c_fstReaderVarint32WithSkip"
+        ],
+        "f_mixlist": [
+            "lib/libfst/fstapi.c_fstReaderVarint64"
+        ],
+        "cvc": 3,
+        "uvc": 120,
+        "all": 123,
+        "ratio": 0.975609756097561
+    },
+    "CVE-2023-34153": {
+        "cvci": 11,
+        "cvco": 0,
+        "uvci": 26,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 2,
+        "fmix": 2,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "coders/pdf.c_ReadPDFImage",
+            "MagickCore/delegate-private.h_FormatSanitizedDelegateOption"
+        ],
+        "f_mixlist": [
+            "coders/video.c_ReadVIDEOImage",
+            "coders/video.c_WriteVIDEOImage"
+        ],
+        "cvc": 11,
+        "uvc": 28,
+        "all": 39,
+        "ratio": 0.717948717948718
+    },
+    "CVE-2023-29574": {
+        "cvci": 0,
+        "cvco": 5,
+        "uvci": 0,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 5,
+        "uvc": 0,
+        "all": 5,
+        "ratio": 0.0
+    },
+    "CVE-2023-30774": {
+        "cvci": 5,
+        "cvco": 5,
+        "uvci": 85,
+        "uvco": -1,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "libtiff/tif_dir.c_checkInkNamesString",
+            "libtiff/tif_dir.c_countInkNamesString",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectorySec",
+            "libtiff/tif_dir.c__TIFFVGetField",
+            "libtiff/tif_print.c_TIFFPrintDirectory"
+        ],
+        "f_mixlist": [
+            "libtiff/tif_dir.c__TIFFVSetField"
+        ],
+        "cvc": 10,
+        "uvc": 84,
+        "all": 94,
+        "ratio": 0.8936170212765957
+    },
+    "CVE-2023-2857": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 80,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "wiretap/blf.c_blf_read_bytes_or_eof",
+            "wiretap/blf.c_blf_pull_logcontainer_into_memory"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 80,
+        "all": 82,
+        "ratio": 0.975609756097561
+    },
+    "CVE-2023-26157": {
+        "cvci": 5,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/decode_r2007.c_read_data_section"
+        ],
+        "f_mixlist": [
+            "src/decode_r2007.c_read_sections_map"
+        ],
+        "cvc": 5,
+        "uvc": 5,
+        "all": 10,
+        "ratio": 0.5
+    },
+    "CVE-2023-2905": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 53,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/mqtt.c_decode_varint",
+            "mongoose.c_mg_mqtt_parse",
+            "mongoose.c_mg_mqtt_next_prop",
+            "src/mqtt.c_mg_mqtt_next_prop",
+            "mongoose.c_decode_varint",
+            "src/mqtt.c_decode_variable_length",
+            "mongoose.c_decode_variable_length"
+        ],
+        "f_mixlist": [
+            "src/mqtt.c_mg_mqtt_parse"
+        ],
+        "cvc": 3,
+        "uvc": 53,
+        "all": 56,
+        "ratio": 0.9464285714285714
+    },
+    "CVE-2023-25139": {
+        "cvci": 0,
+        "cvco": 10,
+        "uvci": 7,
+        "uvco": 6,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "stdio-common/tst-grouping3.c_do_test"
+        ],
+        "f_mixlist": [],
+        "cvc": 10,
+        "uvc": 13,
+        "all": 23,
+        "ratio": 0.5652173913043478
+    },
+    "CVE-2023-2610": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 18,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/regexp.c_regtilde"
+        ],
+        "cvc": 4,
+        "uvc": 20,
+        "all": 24,
+        "ratio": 0.8333333333333334
+    },
+    "CVE-2023-24757": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "libde265/motion.cc_generate_inter_prediction_samples"
+        ],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2023-25434": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 15,
+        "uvco": 3,
+        "fcvc": 1,
+        "fuvc": 6,
+        "fmix": 0,
+        "f_cvclist": [
+            "tools/tiffcrop.c_correct_orientation"
+        ],
+        "f_uvclist": [
+            "tools/tiffcrop.c_extractCompositeRegions",
+            "tools/tiffcrop.c_initCropMasks",
+            "tools/tiffcrop.c_createCroppedImage",
+            "tools/tiffcrop.c_processCropSelections",
+            "tools/tiffcrop.c_extractSeparateRegion",
+            "tools/tiffcrop.c_rotateImage"
+        ],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 18,
+        "all": 22,
+        "ratio": 0.8181818181818182
+    },
+    "CVE-2023-24756": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "libde265/motion.cc_generate_inter_prediction_samples"
+        ],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2023-24755": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "libde265/motion.cc_generate_inter_prediction_samples"
+        ],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2023-37923": {
+        "cvci": 12,
+        "cvco": 0,
+        "uvci": 36,
+        "uvco": 2,
+        "fcvc": 6,
+        "fuvc": 18,
+        "fmix": 0,
+        "f_cvclist": [
+            "gtkwave3-gtk3/src/helpers/vcd2lxt.c_vcd_parse",
+            "gtkwave3-gtk3/src/helpers/vcd2lxt2.c_vcd_parse",
+            "gtkwave3-gtk3/src/vcd.c_vcd_parse",
+            "gtkwave3-gtk3/src/helpers/vcd2vzt.c_vcd_parse",
+            "gtkwave3-gtk3/src/vcd_partial.c_vcd_parse",
+            "gtkwave3-gtk3/src/vcd_recoder.c_vcd_parse"
+        ],
+        "f_uvclist": [
+            "gtkwave3/src/vcd.c_get_token",
+            "gtkwave3-gtk3/src/vcd_recoder.c_get_token",
+            "gtkwave3/src/vcd.c_vcd_parse",
+            "gtkwave3/src/helpers/vcd2vzt.c_vcd_parse",
+            "gtkwave3/src/vcd_recoder.c_get_token",
+            "gtkwave3-gtk3/src/vcd_partial.c_get_token",
+            "gtkwave3/src/vcd_partial.c_get_token",
+            "gtkwave3-gtk3/src/helpers/vcd2vzt.c_get_token",
+            "gtkwave3-gtk3/src/helpers/vcd2lxt.c_get_token",
+            "gtkwave3-gtk3/src/vcd.c_get_token",
+            "gtkwave3/src/vcd_recoder.c_vcd_parse",
+            "gtkwave3/src/helpers/vcd2vzt.c_get_token",
+            "gtkwave3/src/helpers/vcd2lxt.c_get_token",
+            "gtkwave3/src/helpers/vcd2lxt.c_vcd_parse",
+            "gtkwave3/src/helpers/vcd2lxt2.c_get_token",
+            "gtkwave3/src/helpers/vcd2lxt2.c_vcd_parse",
+            "gtkwave3-gtk3/src/helpers/vcd2lxt2.c_get_token",
+            "gtkwave3/src/vcd_partial.c_vcd_parse"
+        ],
+        "f_mixlist": [],
+        "cvc": 12,
+        "uvc": 38,
+        "all": 50,
+        "ratio": 0.76
+    },
+    "CVE-2023-36273": {
+        "cvci": 10,
+        "cvco": 0,
+        "uvci": 188,
+        "uvco": 27,
+        "fcvc": 0,
+        "fuvc": 21,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/bits.c_bit_write_T32",
+            "src/bits.c_bit_write_T",
+            "src/bits.c_bit_write_TV",
+            "src/in_json.c_json_OBJECTS",
+            "src/decode.c_decode_R13_R2000",
+            "src/out_dxf.c_dwg_convert_SAB_to_SAT1",
+            "src/in_json.c_json_HEADER",
+            "src/encode.c_dwg_encode_unknown_rest",
+            "src/bits.c_bit_utf8_to_TU",
+            "src/decode.c_dwg_dim_blockname",
+            "src/bits.c_bit_write_TU16",
+            "src/bits.c_bit_chain_alloc_size",
+            "src/encode.c_dwg_encode_eed_data",
+            "src/bits.c_bit_read_B",
+            "test/unit-testing/dxf_test.c_test_subclass",
+            "src/classes.c_entity_alias",
+            "src/bits.c_bit_write_TU",
+            "src/bits.c_bit_write_TU32",
+            "src/decode.c_dwg_decode_unknown_rest",
+            "src/decode.c_(R_2000)",
+            "src/classes.c_object_alias"
+        ],
+        "f_mixlist": [
+            "src/decode.c_decode_preR13_auxheader"
+        ],
+        "cvc": 10,
+        "uvc": 215,
+        "all": 225,
+        "ratio": 0.9555555555555556
+    },
+    "CVE-2023-1264": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 10,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/getchar.c_vgetc"
+        ],
+        "cvc": 4,
+        "uvc": 12,
+        "all": 16,
+        "ratio": 0.75
+    },
+    "CVE-2023-2426": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 10,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/quickfix.c_vgr_match_buflines"
+        ],
+        "f_uvclist": [
+            "src/search.c_fuzzy_match_recursive"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 12,
+        "all": 15,
+        "ratio": 0.8
+    },
+    "CVE-2023-0804": {
+        "cvci": 24,
+        "cvco": 0,
+        "uvci": 12,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tools/tiffcrop.c_computeInputPixelOffsets"
+        ],
+        "f_mixlist": [
+            "tools/tiffcrop.c_extractCompositeRegions"
+        ],
+        "cvc": 24,
+        "uvc": 12,
+        "all": 36,
+        "ratio": 0.3333333333333333
+    },
+    "CVE-2023-0797": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 19,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tools/tiffcrop.c_extractCompositeRegions",
+            "tools/tiffcrop.c_initCropMasks",
+            "tools/tiffcrop.c_createCroppedImage",
+            "tools/tiffcrop.c_correct_orientation",
+            "tools/tiffcrop.c_processCropSelections",
+            "tools/tiffcrop.c_extractSeparateRegion",
+            "tools/tiffcrop.c_rotateImage"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 22,
+        "all": 22,
+        "ratio": 1.0
+    },
+    "CVE-2023-0796": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 19,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tools/tiffcrop.c_extractCompositeRegions",
+            "tools/tiffcrop.c_initCropMasks",
+            "tools/tiffcrop.c_createCroppedImage",
+            "tools/tiffcrop.c_correct_orientation",
+            "tools/tiffcrop.c_processCropSelections",
+            "tools/tiffcrop.c_extractSeparateRegion",
+            "tools/tiffcrop.c_rotateImage"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 22,
+        "all": 22,
+        "ratio": 1.0
+    },
+    "CVE-2023-0799": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 17,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 6,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tools/tiffcrop.c_extractCompositeRegions",
+            "tools/tiffcrop.c_initCropMasks",
+            "tools/tiffcrop.c_createCroppedImage",
+            "tools/tiffcrop.c_correct_orientation",
+            "tools/tiffcrop.c_extractSeparateRegion",
+            "tools/tiffcrop.c_rotateImage"
+        ],
+        "f_mixlist": [
+            "tools/tiffcrop.c_processCropSelections"
+        ],
+        "cvc": 2,
+        "uvc": 20,
+        "all": 22,
+        "ratio": 0.9090909090909091
+    },
+    "CVE-2023-0795": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 19,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tools/tiffcrop.c_extractCompositeRegions",
+            "tools/tiffcrop.c_initCropMasks",
+            "tools/tiffcrop.c_createCroppedImage",
+            "tools/tiffcrop.c_correct_orientation",
+            "tools/tiffcrop.c_processCropSelections",
+            "tools/tiffcrop.c_extractSeparateRegion",
+            "tools/tiffcrop.c_rotateImage"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 22,
+        "all": 22,
+        "ratio": 1.0
+    },
+    "CVE-2023-0358": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/odf/descriptors.c_gf_odf_vvc_cfg_read_bs"
+        ],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2023-23915": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 71,
+        "uvco": 14,
+        "fcvc": 1,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "lib/transfer.c_Curl_pretransfer"
+        ],
+        "f_uvclist": [
+            "lib/hsts.c_Curl_hsts_loadfiles",
+            "lib/share.c_curl_share_setopt",
+            "lib/share.c_curl_share_cleanup",
+            "lib/url.c_Curl_close",
+            "lib/setopt.c_Curl_vsetopt"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 85,
+        "all": 86,
+        "ratio": 0.9883720930232558
+    },
+    "CVE-2024-32612": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 696,
+        "uvco": 33,
+        "fcvc": 1,
+        "fuvc": 73,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5HLcache.c_H5HL__fl_deserialize"
+        ],
+        "f_uvclist": [
+            "src/H5Oshared.c_H5O__shared_decode",
+            "src/H5Gstab.c_H5G__stab_remove",
+            "src/H5Oshared.h_H5O_SHARED_DECODE",
+            "src/H5Dcompact.c_H5D__compact_is_space_alloc",
+            "src/H5T.c_H5T_init",
+            "src/H5Gobj.c_H5G__obj_stab_to_new_cb",
+            "tools/lib/h5tools_utils.c_dump_table",
+            "src/H5HG.c_H5HG_get_obj_size",
+            "src/H5Dchunk.c_FUNC_LEAVE_NOAPI",
+            "src/H5Glink.c_H5G__link_to_loc",
+            "src/H5Gstab.c_H5G__stab_get_name_by_idx_cb",
+            "src/H5Dcompact.c_H5D__compact_init",
+            "src/H5Gloc.c_H5G__loc_find_by_idx_cb",
+            "src/H5Gtest.c_H5G__verify_cached_stabs_test",
+            "src/H5Gstab.c_H5G__stab_insert_real",
+            "src/H5HG.c_H5HG_link",
+            "src/H5HL.c_H5HL_get_size",
+            "src/H5Oefl.c_H5O__efl_decode",
+            "src/H5Glink.c_H5G_link_to_info",
+            "src/H5Gnode.c_H5G__node_cmp3",
+            "src/H5HG.c_H5HG_remove",
+            "src/H5Glink.c_H5G__link_to_ent",
+            "src/H5Ocache.c_H5O__cache_deserialize",
+            "src/H5Spoint.c_H5S__point_deserialize",
+            "src/H5Gstab.c_H5G__stab_lookup_by_idx_cb",
+            "src/H5Znbit.c_H5Z__nbit_decompress_one_compound",
+            "src/H5Znbit.c_H5Z__filter_nbit",
+            "src/H5Oefl.c_H5O_efl_total_size",
+            "src/H5VLnative_blob.c_H5VL__native_blob_get",
+            "src/H5Dcontig.c_H5D__contig_construct",
+            "src/H5Olayout.c_H5O__layout_copy_file",
+            "src/H5Lint.c_H5L__link_cb",
+            "src/H5Gent.c_H5G__ent_to_link",
+            "src/H5Odtype.c_H5O__dtype_decode_helper",
+            "src/H5Gstab.c_H5G__stab_insert",
+            "src/H5S.c_H5S_get_simple_extent",
+            "src/H5Gnode.c_H5G__node_copy",
+            "src/H5Gstab.c_H5G__stab_lookup",
+            "src/H5Defl.c_H5D__efl_construct",
+            "src/H5Gnode.c_H5G__node_iterate",
+            "src/H5Dint.c_H5D__open_oid",
+            "src/H5S.c_H5S_get_simple_extent_type",
+            "src/H5Lint.c_if",
+            "src/H5T.c_H5T_noop_conv",
+            "src/H5Dcontig.c_H5D__contig_init",
+            "src/H5HG.c_H5HG_read",
+            "src/H5Gnode.c_H5G__node_build_table",
+            "src/H5HL.c_H5HL_protect",
+            "src/H5HL.c_H5HL_heap_get_size",
+            "src/H5Ocopy.c_H5O__copy_header_real",
+            "src/H5Gnode.c_H5G__node_insert",
+            "src/H5Osdspace.c_H5O__sdspace_decode",
+            "src/H5S.c_H5S_set_extent_simple",
+            "src/H5Dcontig.c_H5D__contig_check",
+            "src/H5Dcontig.c_H5D__contig_copy",
+            "src/H5Defl.c_H5D__efl_init",
+            "src/H5Gnode.c_H5G__node_remove",
+            "src/H5T.c_H5T__path_find_real",
+            "src/H5Gstab.c_H5G__stab_lookup_cb",
+            "src/H5T.c_H5T__bsearch_path_table",
+            "src/H5T.c_H5T__path_table_search",
+            "src/H5T.c_H5T_path_compound_subset",
+            "src/H5Defl.c_H5D__efl_is_space_alloc",
+            "src/H5Gnode.c_H5G__node_cmp2",
+            "src/H5Gnode.c_H5G_node_debug",
+            "src/H5Ostab.c_H5O__stab_copy_file",
+            "src/H5Gnode.c_H5G__node_found",
+            "src/H5Dcompact.c_H5D__compact_iovv_memmanage_cb",
+            "src/H5Gobj.c_H5G_obj_insert",
+            "src/H5T.c_H5T__path_find_init_path_table",
+            "src/H5Gstab.c_H5G__stab_remove_by_idx",
+            "src/H5Glink.c_H5G__ent_to_link",
+            "src/H5Gent.c_H5G__ent_convert"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 729,
+        "all": 731,
+        "ratio": 0.9972640218878249
+    },
+    "CVE-2022-47660": {
+        "cvci": 15,
+        "cvco": 0,
+        "uvci": 10,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/isom_write.c_gf_isom_shift_cts_offset"
+        ],
+        "f_uvclist": [
+            "src/isomedia/isom_write.c_gf_isom_set_ctts_v0",
+            "src/media_tools/media_import.c_gf_media_update_bitrate_ex"
+        ],
+        "f_mixlist": [],
+        "cvc": 15,
+        "uvc": 10,
+        "all": 25,
+        "ratio": 0.4
+    },
+    "CVE-2024-29162": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 696,
+        "uvco": 33,
+        "fcvc": 1,
+        "fuvc": 72,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5HG.c_H5HG_read"
+        ],
+        "f_uvclist": [
+            "src/H5Oshared.c_H5O__shared_decode",
+            "src/H5Gstab.c_H5G__stab_remove",
+            "src/H5Oshared.h_H5O_SHARED_DECODE",
+            "src/H5Dcompact.c_H5D__compact_is_space_alloc",
+            "src/H5T.c_H5T_init",
+            "src/H5Gobj.c_H5G__obj_stab_to_new_cb",
+            "tools/lib/h5tools_utils.c_dump_table",
+            "src/H5HG.c_H5HG_get_obj_size",
+            "src/H5Dchunk.c_FUNC_LEAVE_NOAPI",
+            "src/H5Glink.c_H5G__link_to_loc",
+            "src/H5Gstab.c_H5G__stab_get_name_by_idx_cb",
+            "src/H5Dcompact.c_H5D__compact_init",
+            "src/H5Gloc.c_H5G__loc_find_by_idx_cb",
+            "src/H5Gtest.c_H5G__verify_cached_stabs_test",
+            "src/H5Gstab.c_H5G__stab_insert_real",
+            "src/H5HG.c_H5HG_link",
+            "src/H5HL.c_H5HL_get_size",
+            "src/H5Oefl.c_H5O__efl_decode",
+            "src/H5Glink.c_H5G_link_to_info",
+            "src/H5Gnode.c_H5G__node_cmp3",
+            "src/H5HG.c_H5HG_remove",
+            "src/H5Glink.c_H5G__link_to_ent",
+            "src/H5Ocache.c_H5O__cache_deserialize",
+            "src/H5Spoint.c_H5S__point_deserialize",
+            "src/H5Gstab.c_H5G__stab_lookup_by_idx_cb",
+            "src/H5Znbit.c_H5Z__nbit_decompress_one_compound",
+            "src/H5Znbit.c_H5Z__filter_nbit",
+            "src/H5Oefl.c_H5O_efl_total_size",
+            "src/H5VLnative_blob.c_H5VL__native_blob_get",
+            "src/H5Dcontig.c_H5D__contig_construct",
+            "src/H5Olayout.c_H5O__layout_copy_file",
+            "src/H5Lint.c_H5L__link_cb",
+            "src/H5Gent.c_H5G__ent_to_link",
+            "src/H5Odtype.c_H5O__dtype_decode_helper",
+            "src/H5Gstab.c_H5G__stab_insert",
+            "src/H5S.c_H5S_get_simple_extent",
+            "src/H5Gnode.c_H5G__node_copy",
+            "src/H5Gstab.c_H5G__stab_lookup",
+            "src/H5Defl.c_H5D__efl_construct",
+            "src/H5Gnode.c_H5G__node_iterate",
+            "src/H5Dint.c_H5D__open_oid",
+            "src/H5S.c_H5S_get_simple_extent_type",
+            "src/H5Lint.c_if",
+            "src/H5T.c_H5T_noop_conv",
+            "src/H5Dcontig.c_H5D__contig_init",
+            "src/H5HL.c_H5HL_heap_get_size",
+            "src/H5Gnode.c_H5G__node_build_table",
+            "src/H5HL.c_H5HL_protect",
+            "src/H5Ocopy.c_H5O__copy_header_real",
+            "src/H5Osdspace.c_H5O__sdspace_decode",
+            "src/H5Gnode.c_H5G__node_insert",
+            "src/H5S.c_H5S_set_extent_simple",
+            "src/H5Dcontig.c_H5D__contig_check",
+            "src/H5Dcontig.c_H5D__contig_copy",
+            "src/H5Defl.c_H5D__efl_init",
+            "src/H5Gnode.c_H5G__node_remove",
+            "src/H5T.c_H5T__path_find_real",
+            "src/H5Gstab.c_H5G__stab_lookup_cb",
+            "src/H5T.c_H5T__bsearch_path_table",
+            "src/H5T.c_H5T__path_table_search",
+            "src/H5T.c_H5T_path_compound_subset",
+            "src/H5Defl.c_H5D__efl_is_space_alloc",
+            "src/H5Gnode.c_H5G__node_cmp2",
+            "src/H5HLcache.c_H5HL__fl_deserialize",
+            "src/H5Gnode.c_H5G__node_found",
+            "src/H5Ostab.c_H5O__stab_copy_file",
+            "src/H5Dcompact.c_H5D__compact_iovv_memmanage_cb",
+            "src/H5Gobj.c_H5G_obj_insert",
+            "src/H5T.c_H5T__path_find_init_path_table",
+            "src/H5Gstab.c_H5G__stab_remove_by_idx",
+            "src/H5Glink.c_H5G__ent_to_link",
+            "src/H5Gent.c_H5G__ent_convert"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 729,
+        "all": 731,
+        "ratio": 0.9972640218878249
+    },
+    "CVE-2022-43045": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/scene_manager/scene_dump.c_gf_dump_vrml_simple_field"
+        ],
+        "f_uvclist": [
+            "src/scene_manager/scene_dump.c_gf_dump_vrml_field",
+            "src/scene_manager/scene_dump.c_gf_dump_vrml_proto_field"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 2,
+        "all": 3,
+        "ratio": 0.6666666666666666
+    },
+    "CVE-2022-4645": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 90,
+        "uvco": 4,
+        "fcvc": 0,
+        "fuvc": 6,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "libtiff/tif_print.c_TIFFPrintDirectory",
+            "libtiff/tif_dir.c__TIFFVSetField",
+            "libtiff/tif_dir.c_checkInkNamesString",
+            "libtiff/tif_dir.c_countInkNamesString",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectorySec",
+            "libtiff/tif_dir.c__TIFFVGetField"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 94,
+        "all": 94,
+        "ratio": 1.0
+    },
+    "CVE-2022-41325": {
+        "cvci": 5,
+        "cvco": 0,
+        "uvci": 15,
+        "uvco": 1,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "modules/access/vnc.c_set_description"
+        ],
+        "f_mixlist": [
+            "modules/access/vnc.c_mallocFrameBufferHandler"
+        ],
+        "cvc": 5,
+        "uvc": 16,
+        "all": 21,
+        "ratio": 0.7619047619047619
+    },
+    "CVE-2022-38266": {
+        "cvci": 12,
+        "cvco": 0,
+        "uvci": 51,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/convolve.c_pixBlockconv"
+        ],
+        "f_uvclist": [
+            "src/convolve.c_pixBlockconvTiled",
+            "src/convolve.c_pixBlockconvGrayTile",
+            "src/convolve.c_pixBlockconvGrayUnnormalized",
+            "src/convolve.c_pixBlockconvGray"
+        ],
+        "f_mixlist": [],
+        "cvc": 12,
+        "uvc": 51,
+        "all": 63,
+        "ratio": 0.8095238095238095
+    },
+    "CVE-2022-41896": {
+        "cvci": 8,
+        "cvco": 1,
+        "uvci": 22,
+        "uvco": 1,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "tensorflow/core/kernels/mfcc_mel_filterbank.cc_tensorflow"
+        ],
+        "f_uvclist": [
+            "tensorflow/core/kernels/mfcc.cc_tensorflow",
+            "tensorflow/core/kernels/mfcc_op.cc_tensorflow",
+            "tensorflow/core/kernels/mfcc_mel_filterbank_test.cc_tensorflow"
+        ],
+        "f_mixlist": [],
+        "cvc": 9,
+        "uvc": 23,
+        "all": 32,
+        "ratio": 0.71875
+    },
+    "CVE-2022-47090": {
+        "cvci": 10,
+        "cvco": 0,
+        "uvci": 68,
+        "uvco": 8,
+        "fcvc": 0,
+        "fuvc": 4,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/filters/reframe_nalu.c_naludmx_create_avc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_create_hevc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_create_vvc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_check_pid"
+        ],
+        "f_mixlist": [
+            "src/media_tools/av_parsers.c_gf_vvc_read_pps_bs_internal"
+        ],
+        "cvc": 10,
+        "uvc": 76,
+        "all": 86,
+        "ratio": 0.8837209302325582
+    },
+    "CVE-2022-36190": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 20,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 20,
+        "all": 20,
+        "ratio": 1.0
+    },
+    "CVE-2022-47088": {
+        "cvci": 42,
+        "cvco": 0,
+        "uvci": 36,
+        "uvco": 8,
+        "fcvc": 1,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/av_parsers.c_gf_vvc_read_pps_bs_internal"
+        ],
+        "f_uvclist": [
+            "src/filters/reframe_nalu.c_naludmx_create_avc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_create_hevc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_create_vvc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_check_pid"
+        ],
+        "f_mixlist": [],
+        "cvc": 42,
+        "uvc": 44,
+        "all": 86,
+        "ratio": 0.5116279069767442
+    },
+    "CVE-2022-36191": {
+        "cvci": 0,
+        "cvco": 11,
+        "uvci": 0,
+        "uvco": 9,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 11,
+        "uvc": 9,
+        "all": 20,
+        "ratio": 0.45
+    },
+    "CVE-2022-47087": {
+        "cvci": 42,
+        "cvco": 0,
+        "uvci": 36,
+        "uvco": 8,
+        "fcvc": 1,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/av_parsers.c_gf_vvc_read_pps_bs_internal"
+        ],
+        "f_uvclist": [
+            "src/filters/reframe_nalu.c_naludmx_create_avc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_create_hevc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_create_vvc_decoder_config",
+            "src/filters/reframe_nalu.c_naludmx_check_pid"
+        ],
+        "f_mixlist": [],
+        "cvc": 42,
+        "uvc": 44,
+        "all": 86,
+        "ratio": 0.5116279069767442
+    },
+    "CVE-2022-33103": {
+        "cvci": 5,
+        "cvco": 0,
+        "uvci": 1,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "fs/squashfs/sqfs.c_sqfs_readdir"
+        ],
+        "cvc": 5,
+        "uvc": 4,
+        "all": 9,
+        "ratio": 0.4444444444444444
+    },
+    "CVE-2022-3598": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 178,
+        "uvco": 7,
+        "fcvc": 1,
+        "fuvc": 22,
+        "fmix": 0,
+        "f_cvclist": [
+            "tools/tiffcrop.c_readContigTilesIntoBuffer"
+        ],
+        "f_uvclist": [
+            "tools/tiffcrop.c_writeBufferToContigTiles",
+            "tools/tiffcrop.c_loadImage",
+            "tools/tiffcrop.c_extractContigSamples32bits",
+            "tools/tiffcrop.c_createImageSection",
+            "tools/tiffcrop.c_combineSeparateSamples32bits",
+            "tools/tiffcrop.c_readContigStripsIntoBuffer",
+            "tools/tiffcrop.c_extractContigSamplesShifted32bits",
+            "tools/tiffcrop.c_combineSeparateTileSamples32bits",
+            "tools/tiffcrop.c_writeBufferToSeparateStrips",
+            "tools/tiffcrop.c_rotateContigSamples32bits",
+            "tools/tiffcrop.c_writeBufferToSeparateTiles",
+            "tools/tiffcrop.c_createCroppedImage",
+            "tools/tiffcrop.c_readSeparateTilesIntoBuffer",
+            "tools/tiffcrop.c_readSeparateStripsIntoBuffer",
+            "tools/tiffcrop.c_writeCroppedImage",
+            "tools/tiffcrop.c_writeSingleSection",
+            "tools/tiffcrop.c_processCropSelections",
+            "tools/tiffcrop.c_rotateImage",
+            "tools/tiffcrop.c_process_command_opts",
+            "tools/tiffcrop.c_reverseSamples32bits",
+            "tools/tiffcrop.c_main",
+            "tools/tiffcrop.c_mirrorImage"
+        ],
+        "f_mixlist": [],
+        "cvc": 8,
+        "uvc": 185,
+        "all": 193,
+        "ratio": 0.9585492227979274
+    },
+    "CVE-2022-29208": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 8,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tensorflow/core/kernels/edit_distance_op.cc_if"
+        ],
+        "f_mixlist": [
+            "tensorflow/core/kernels/edit_distance_op.cc_inner_product"
+        ],
+        "cvc": 2,
+        "uvc": 8,
+        "all": 10,
+        "ratio": 0.8
+    },
+    "CVE-2022-33099": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 7,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "ldebug.c_luaG_runerror"
+        ],
+        "f_mixlist": [
+            "lvm.c_luaV_concat"
+        ],
+        "cvc": 4,
+        "uvc": 7,
+        "all": 11,
+        "ratio": 0.6363636363636364
+    },
+    "CVE-2022-3256": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/mark.c_movemark"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 7,
+        "all": 9,
+        "ratio": 0.7777777777777778
+    },
+    "CVE-2022-2453": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 21,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/bifs/field_decode.c_BD_DecMFFieldVec"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 21,
+        "all": 21,
+        "ratio": 1.0
+    },
+    "CVE-2022-29206": {
+        "cvci": 17,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 1,
+        "fcvc": 1,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "tensorflow/core/kernels/sparse_tensor_dense_add_op.cc_tensorflow"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 17,
+        "uvc": 1,
+        "all": 18,
+        "ratio": 0.05555555555555555
+    },
+    "CVE-2022-29340": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/isom_intern.c_gf_isom_parse_movie_boxes_internal"
+        ],
+        "f_uvclist": [
+            "src/isomedia/box_funcs.c_gf_isom_box_parse_ex"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 4,
+        "all": 5,
+        "ratio": 0.8
+    },
+    "CVE-2022-1809": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 6,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "libr/anal/vtable.c_r_anal_vtable_begin"
+        ],
+        "f_uvclist": [
+            "libr/anal/vtable.c_r_anal_list_vtables",
+            "libr/anal/vtable.c_vtable_is_value_in_text_section",
+            "libr/anal/vtable.c_vtable_is_addr_vtable_start_msvc"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 6,
+        "all": 7,
+        "ratio": 0.8571428571428571
+    },
+    "CVE-2022-3297": {
+        "cvci": 19,
+        "cvco": 5,
+        "uvci": 2,
+        "uvco": -2,
+        "fcvc": 0,
+        "fuvc": 3,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/insexpand.c_ins_compl_next",
+            "src/move.c_validate_cursor",
+            "src/insexpand.c_ins_compl_next_buf"
+        ],
+        "f_mixlist": [
+            "src/insexpand.c_ins_compl_get_exp"
+        ],
+        "cvc": 24,
+        "uvc": 0,
+        "all": 24,
+        "ratio": 0.0
+    },
+    "CVE-2022-1795": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 6,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/bifs/memory_decoder.c_BM_ParseGlobalQuantizer"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 6,
+        "all": 6,
+        "ratio": 1.0
+    },
+    "CVE-2022-31620": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 45,
+        "uvco": 8,
+        "fcvc": 1,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "codestream/aclosslessscan.cpp_ParseMCU"
+        ],
+        "f_uvclist": [
+            "codestream/losslessscan.cpp_ParseMCU",
+            "codestream/aclosslessscan.hpp_ACLosslessScan",
+            "codestream/rectanglerequest.hpp_Explicit",
+            "codestream/acsequentialscan.cpp_DecodeBlock",
+            "codestream/acsequentialscan.hpp_ACSequentialScan"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 53,
+        "all": 56,
+        "ratio": 0.9464285714285714
+    },
+    "CVE-2022-0523": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 25,
+        "uvco": 6,
+        "fcvc": 0,
+        "fuvc": 3,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "libr/bin/format/pyc/marshal.c_get_tuple_object",
+            "libr/bin/format/pyc/marshal.c_get_list_object",
+            "libr/bin/format/pyc/marshal.c_get_set_object"
+        ],
+        "f_mixlist": [
+            "libr/bin/format/pyc/marshal.c_get_array_object_generic"
+        ],
+        "cvc": 3,
+        "uvc": 31,
+        "all": 34,
+        "ratio": 0.9117647058823529
+    },
+    "CVE-2022-0676": {
+        "cvci": 7,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 2,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "libr/bin/p/bin_dyldcache.c_read_cache_accel",
+            "libr/bin/p/bin_dyldcache.c_load_buffer"
+        ],
+        "f_uvclist": [
+            "libr/bin/p/bin_dyldcache.c_create_cache_bins"
+        ],
+        "f_mixlist": [],
+        "cvc": 7,
+        "uvc": 4,
+        "all": 11,
+        "ratio": 0.36363636363636365
+    },
+    "CVE-2022-22576": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 28,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 6,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "lib/vtls/vtls.c_Curl_ssl_config_matches",
+            "lib/url.c_create_conn",
+            "lib/strcase.c_curl_strequal",
+            "lib/url.c_conn_free",
+            "lib/vtls/vtls.c_safecmp",
+            "lib/strcase.c_Curl_safecmp"
+        ],
+        "f_mixlist": [
+            "lib/url.c_ConnectionExists"
+        ],
+        "cvc": 2,
+        "uvc": 30,
+        "all": 32,
+        "ratio": 0.9375
+    },
+    "CVE-2022-1451": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 7,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 2,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "shlr/java/class.c_r_bin_java_rti_annotations_attr_new",
+            "shlr/java/class.c_r_bin_java_get_attr_buf"
+        ],
+        "f_mixlist": [
+            "shlr/java/class.c_r_bin_java_constant_value_attr_new"
+        ],
+        "cvc": 4,
+        "uvc": 7,
+        "all": 11,
+        "ratio": 0.6363636363636364
+    },
+    "CVE-2022-1052": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 9,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 3,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "libr/bin/format/mach0/mach0.h_(obj_t)",
+            "libr/bin/format/mach0/mach0.c_parse_chained_fixups",
+            "libr/bin/format/mach0/mach0.c_reconstruct_chained_fixup"
+        ],
+        "f_mixlist": [
+            "libr/bin/format/mach0/mach0.c_MACH0_"
+        ],
+        "cvc": 2,
+        "uvc": 9,
+        "all": 11,
+        "ratio": 0.8181818181818182
+    },
+    "CVE-2022-24577": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 34,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/isom_write.c_gf_isom_remove_track"
+        ],
+        "f_uvclist": [
+            "src/isomedia/box_code_base.c_stbl_box_read",
+            "src/isomedia/box_code_base.c_iods_box_read"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 34,
+        "all": 35,
+        "ratio": 0.9714285714285714
+    },
+    "CVE-2022-0521": {
+        "cvci": 8,
+        "cvco": 6,
+        "uvci": 78,
+        "uvco": -6,
+        "fcvc": 0,
+        "fuvc": 15,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "shlr/java/class.c_r_bin_java_annotation_new",
+            "shlr/java/class.c_r_bin_java_rtv_annotations_attr_new",
+            "shlr/java/class.c_r_bin_java_local_variable_type_table_attr_new",
+            "shlr/java/class.c_r_bin_java_local_variable_table_attr_new",
+            "shlr/java/class.c_r_bin_java_source_debug_attr_new",
+            "shlr/java/class.c_r_bin_java_stack_map_table_attr_new",
+            "shlr/java/class.c_r_bin_java_synthetic_attr_new",
+            "shlr/java/class.c_r_bin_java_source_code_file_attr_new",
+            "shlr/java/class.c_r_bin_java_stack_map_frame_new",
+            "shlr/java/class.c_r_bin_java_annotation_default_attr_new",
+            "shlr/java/class.c_r_bin_java_read_from_buffer_verification_info_new",
+            "shlr/java/class.c_r_bin_java_enclosing_methods_attr_new",
+            "shlr/java/class.c_r_bin_java_element_value_new",
+            "shlr/java/class.c_r_bin_java_verification_info_from_type",
+            "shlr/java/class.c_r_bin_java_element_pair_calc_size"
+        ],
+        "f_mixlist": [
+            "shlr/java/class.c_r_bin_java_inner_classes_attr_new"
+        ],
+        "cvc": 14,
+        "uvc": 72,
+        "all": 86,
+        "ratio": 0.8372093023255814
+    },
+    "CVE-2022-0519": {
+        "cvci": 14,
+        "cvco": 0,
+        "uvci": 72,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 15,
+        "fmix": 0,
+        "f_cvclist": [
+            "shlr/java/class.c_r_bin_java_inner_classes_attr_new"
+        ],
+        "f_uvclist": [
+            "shlr/java/class.c_r_bin_java_rtv_annotations_attr_new",
+            "shlr/java/class.c_r_bin_java_local_variable_type_table_attr_new",
+            "shlr/java/class.c_r_bin_java_local_variable_table_attr_new",
+            "shlr/java/class.c_r_bin_java_source_debug_attr_new",
+            "shlr/java/class.c_r_bin_java_stack_map_table_attr_new",
+            "shlr/java/class.c_r_bin_java_synthetic_attr_new",
+            "shlr/java/class.c_r_bin_java_source_code_file_attr_new",
+            "shlr/java/class.c_r_bin_java_stack_map_frame_new",
+            "shlr/java/class.c_r_bin_java_element_pair_calc_size",
+            "shlr/java/class.c_r_bin_java_annotation_default_attr_new",
+            "shlr/java/class.c_r_bin_java_read_from_buffer_verification_info_new",
+            "shlr/java/class.c_r_bin_java_enclosing_methods_attr_new",
+            "shlr/java/class.c_r_bin_java_element_value_new",
+            "shlr/java/class.c_r_bin_java_verification_info_from_type",
+            "shlr/java/class.c_r_bin_java_annotation_new"
+        ],
+        "f_mixlist": [],
+        "cvc": 14,
+        "uvc": 72,
+        "all": 86,
+        "ratio": 0.8372093023255814
+    },
+    "CVE-2021-44919": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 3,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/scenegraph/vrml_tools.c_gf_sg_vrml_mf_alloc"
+        ],
+        "f_uvclist": [
+            "src/scenegraph/vrml_tools.c_gf_sg_vrml_mf_remove",
+            "src/scenegraph/vrml_tools.c_gf_sg_vrml_mf_get_item",
+            "src/scenegraph/vrml_tools.c_gf_sg_vrml_mf_append"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 3,
+        "all": 4,
+        "ratio": 0.75
+    },
+    "CVE-2021-41458": {
+        "cvci": 11,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/filters/dmx_nhml.c_nhmldmx_send_sample"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 11,
+        "uvc": 0,
+        "all": 11,
+        "ratio": 0.0
+    },
+    "CVE-2021-44923": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/scene_manager/scene_dump.c_gf_dump_vrml_dyn_field"
+        ],
+        "cvc": 1,
+        "uvc": 4,
+        "all": 5,
+        "ratio": 0.8
+    },
+    "CVE-2022-0393": {
+        "cvci": 5,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/getchar.c_delete_buff_tail"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 5,
+        "uvc": 2,
+        "all": 7,
+        "ratio": 0.2857142857142857
+    },
+    "CVE-2022-0417": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 12,
+        "uvco": 3,
+        "fcvc": 2,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/indent.c_ex_retab",
+            "src/indent.c_tabstop_set"
+        ],
+        "f_uvclist": [
+            "src/option.c_buf_copy_options",
+            "src/option.c_(buf)",
+            "src/option.c_paste_option_changed",
+            "src/option.c_set_num_option"
+        ],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 15,
+        "all": 19,
+        "ratio": 0.7894736842105263
+    },
+    "CVE-2021-32440": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/isomedia/media_odf.c_Media_RewriteODFrame"
+        ],
+        "cvc": 3,
+        "uvc": 2,
+        "all": 5,
+        "ratio": 0.4
+    },
+    "CVE-2021-32613": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 3,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "libr/bin/format/pyc/marshal.c_get_object"
+        ],
+        "f_uvclist": [
+            "libr/bin/format/pyc/marshal.c_get_none_object"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 3,
+        "all": 5,
+        "ratio": 0.6
+    },
+    "CVE-2021-32439": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 58,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/isomedia/stbl_write.c_stbl_AppendTime",
+            "src/isomedia/stbl_write.c_stbl_AddDTS",
+            "src/isomedia/stbl_write.c_stbl_AddChunkOffset",
+            "src/isomedia/stbl_write.c_if",
+            "src/isomedia/stbl_write.c_stbl_AddSize"
+        ],
+        "f_mixlist": [
+            "src/isomedia/stbl_write.c_stbl_AppendSize"
+        ],
+        "cvc": 2,
+        "uvc": 58,
+        "all": 60,
+        "ratio": 0.9666666666666667
+    },
+    "CVE-2021-4043": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/box_code_base.c_gitn_box_del"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 0,
+        "all": 4,
+        "ratio": 0.0
+    },
+    "CVE-2021-3770": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 39,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/option.c_didset_options2",
+            "src/indent.c_tabstop_set",
+            "src/optionstr.c_did_set_string_option",
+            "src/option.c_paste_option_changed",
+            "src/option.c_buf_copy_options",
+            "src/indent.c_ex_retab",
+            "src/option.c_(buf)"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 41,
+        "all": 41,
+        "ratio": 1.0
+    },
+    "CVE-2021-29542": {
+        "cvci": 0,
+        "cvco": 14,
+        "uvci": 0,
+        "uvco": 27,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 14,
+        "uvc": 27,
+        "all": 41,
+        "ratio": 0.6585365853658537
+    },
+    "CVE-2022-0156": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 79,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 14,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/message.c_ignore_error_for_testing"
+        ],
+        "f_uvclist": [
+            "src/userfunc.c_get_function_line",
+            "src/userfunc.c_define_function",
+            "src/alloc.c_ga_add_string",
+            "src/userfunc.c_get_function_args",
+            "src/userfunc.c_ex_function",
+            "src/viminfo.c_read_viminfo_barline",
+            "src/alloc.c_ga_copy_string",
+            "src/usercmd.c_may_get_cmd_block",
+            "src/alloc.c_ga_concat",
+            "src/vim9compile.c_compile_nested_function",
+            "src/vim9compile.c_compile_def_function",
+            "src/userfunc.c_lambda_function_body",
+            "src/alloc.c_ga_init2",
+            "src/userfunc.c_get_function_body"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 81,
+        "all": 83,
+        "ratio": 0.9759036144578314
+    },
+    "CVE-2021-30022": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 25,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 9,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/media_tools/av_parsers.c_vvc_parse_picture_header",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_pps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_hevc_read_vps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_hevc_read_pps_bs_internal",
+            "src/media_tools/av_parsers.c_hevc_parse_slice_segment",
+            "src/media_tools/av_parsers.c_gf_hevc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_avc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_vps_bs_internal"
+        ],
+        "f_mixlist": [
+            "src/media_tools/av_parsers.c_gf_avc_read_pps_bs_internal"
+        ],
+        "cvc": 2,
+        "uvc": 25,
+        "all": 27,
+        "ratio": 0.9259259259259259
+    },
+    "CVE-2021-30020": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 25,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 9,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/media_tools/av_parsers.c_gf_avc_read_pps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_pps_bs_internal",
+            "src/media_tools/av_parsers.c_vvc_parse_picture_header",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_hevc_read_vps_bs_internal",
+            "src/media_tools/av_parsers.c_hevc_parse_slice_segment",
+            "src/media_tools/av_parsers.c_gf_hevc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_vps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_avc_read_sps_bs_internal"
+        ],
+        "f_mixlist": [
+            "src/media_tools/av_parsers.c_gf_hevc_read_pps_bs_internal"
+        ],
+        "cvc": 2,
+        "uvc": 25,
+        "all": 27,
+        "ratio": 0.9259259259259259
+    },
+    "CVE-2021-32134": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 42,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/isomedia/box_code_base.c_mp4s_box_new",
+            "src/isomedia/box_code_base.c_encs_box_new",
+            "src/isomedia/sample_descs.c_gf_isom_sample_entry_init",
+            "src/isomedia/media.c_Media_GetESD"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 42,
+        "all": 42,
+        "ratio": 1.0
+    },
+    "CVE-2021-30014": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 25,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 9,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/media_tools/av_parsers.c_vvc_parse_picture_header",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_pps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_avc_read_pps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_hevc_read_vps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_hevc_read_pps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_hevc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_avc_read_sps_bs_internal",
+            "src/media_tools/av_parsers.c_gf_media_vvc_read_vps_bs_internal"
+        ],
+        "f_mixlist": [
+            "src/media_tools/av_parsers.c_hevc_parse_slice_segment"
+        ],
+        "cvc": 2,
+        "uvc": 25,
+        "all": 27,
+        "ratio": 0.9259259259259259
+    },
+    "CVE-2020-6018": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 16,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/common/crypto_libsodium.cpp_Encrypt"
+        ],
+        "f_mixlist": [
+            "src/common/crypto_libsodium.cpp_Decrypt"
+        ],
+        "cvc": 4,
+        "uvc": 16,
+        "all": 20,
+        "ratio": 0.8
+    },
+    "CVE-2021-39530": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 92,
+        "uvco": 51,
+        "fcvc": 0,
+        "fuvc": 7,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/bits.c_bit_wcs2len",
+            "test/unit-testing/material.c_(R_2007)",
+            "src/bits.c_bit_embed_TU",
+            "test/unit-testing/material.c_api_process",
+            "src/free.c_dwg_free_header_vars",
+            "src/bits.c_bit_strnlen",
+            "src/bits.c_bit_wcs2nlen"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 143,
+        "all": 143,
+        "ratio": 1.0
+    },
+    "CVE-2021-22897": {
+        "cvci": 7,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 2,
+        "fcvc": 2,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "lib/vtls/schannel.c_get_alg_id_by_name",
+            "lib/vtls/schannel.c_schannel_connect_step1"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 7,
+        "uvc": 2,
+        "all": 9,
+        "ratio": 0.2222222222222222
+    },
+    "CVE-2020-35633": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 170,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 170,
+        "all": 170,
+        "ratio": 1.0
+    },
+    "CVE-2020-35635": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-35632": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-6630": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "applications/mp42ts/main.c_fill_isom_es_ifce"
+        ],
+        "f_uvclist": [
+            "applications/mp42ts/main.c_open_source",
+            "src/isomedia/isom_read.c_gf_isom_get_media_data_size",
+            "src/media_tools/m2ts_mux.c_gf_m2ts_stream_process_pmt"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 4,
+        "all": 5,
+        "ratio": 0.8
+    },
+    "CVE-2020-6631": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 3,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/m2ts_mux.c_gf_m2ts_stream_process_pmt"
+        ],
+        "f_uvclist": [
+            "applications/mp42ts/main.c_fill_isom_es_ifce",
+            "applications/mp42ts/main.c_open_source",
+            "src/isomedia/isom_read.c_gf_isom_get_media_data_size"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 3,
+        "all": 5,
+        "ratio": 0.6
+    },
+    "CVE-2020-35631": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28635": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28634": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28633": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28629": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28632": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28626": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28625": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28623": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28621": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 170,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 170,
+        "all": 170,
+        "ratio": 1.0
+    },
+    "CVE-2021-22890": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 92,
+        "uvco": 16,
+        "fcvc": 0,
+        "fuvc": 18,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "lib/vtls/openssl.c_ossl_init",
+            "lib/vtls/schannel.c_schannel_connect_step3",
+            "lib/vtls/mbedtls.c_mbed_connect_step3",
+            "lib/vtls/openssl.c_ossl_new_session_cb",
+            "lib/vtls/bearssl.c_bearssl_connect_step3",
+            "lib/vtls/schannel.c_schannel_connect_step1",
+            "lib/vtls/vtls.c_Curl_ssl_addsessionid",
+            "lib/vtls/mesalink.c_mesalink_connect_step1",
+            "lib/vtls/openssl.c_ossl_connect_step1",
+            "lib/vtls/wolfssl.c_wolfssl_connect_step1",
+            "lib/vtls/openssl.c_ossl_get_proxy_index",
+            "lib/vtls/mbedtls.c_mbed_connect_step1",
+            "lib/vtls/wolfssl.c_wolfssl_connect_step3",
+            "lib/vtls/openssl.c_ossl_get_ssl_sockindex_index",
+            "lib/vtls/vtls.c_Curl_ssl_getsessionid",
+            "lib/vtls/gtls.c_gtls_connect_step3",
+            "lib/vtls/bearssl.c_bearssl_connect_step1",
+            "lib/vtls/mesalink.c_mesalink_connect_step3"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 108,
+        "all": 108,
+        "ratio": 1.0
+    },
+    "CVE-2020-28613": {
+        "cvci": 0,
+        "cvco": 28,
+        "uvci": 0,
+        "uvco": 142,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 28,
+        "uvc": 142,
+        "all": 170,
+        "ratio": 0.8352941176470589
+    },
+    "CVE-2020-28612": {
+        "cvci": 0,
+        "cvco": 28,
+        "uvci": 0,
+        "uvco": 142,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 28,
+        "uvc": 142,
+        "all": 170,
+        "ratio": 0.8352941176470589
+    },
+    "CVE-2020-28615": {
+        "cvci": 0,
+        "cvco": 4,
+        "uvci": 0,
+        "uvco": 166,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 166,
+        "all": 170,
+        "ratio": 0.9764705882352941
+    },
+    "CVE-2020-28609": {
+        "cvci": 9,
+        "cvco": 23,
+        "uvci": -9,
+        "uvco": 147,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 32,
+        "uvc": 138,
+        "all": 170,
+        "ratio": 0.8117647058823529
+    },
+    "CVE-2021-22901": {
+        "cvci": 5,
+        "cvco": 0,
+        "uvci": 86,
+        "uvco": 33,
+        "fcvc": 2,
+        "fuvc": 7,
+        "fmix": 0,
+        "f_cvclist": [
+            "lib/multi.c_Curl_attach_connnection",
+            "lib/multi.c_Curl_detach_connnection"
+        ],
+        "f_uvclist": [
+            "lib/vtls/schannel.c_get_alg_id_by_name",
+            "lib/vtls/vtls.c_Curl_ssl_detach_conn",
+            "lib/vtls/vtls.c_Curl_ssl_associate_conn",
+            "lib/vtls/openssl.c_ossl_connect_step1",
+            "lib/vtls/vtls.c_Curl_ssl_close_all",
+            "lib/vtls/openssl.c_ossl_associate_connection",
+            "lib/vtls/openssl.c_ossl_disassociate_connection"
+        ],
+        "f_mixlist": [],
+        "cvc": 5,
+        "uvc": 119,
+        "all": 124,
+        "ratio": 0.9596774193548387
+    },
+    "CVE-2020-28608": {
+        "cvci": 9,
+        "cvco": 23,
+        "uvci": -9,
+        "uvco": 147,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 32,
+        "uvc": 138,
+        "all": 170,
+        "ratio": 0.8117647058823529
+    },
+    "CVE-2020-26269": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 151,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tensorflow/core/platform/file_system_helper.cc_AllDirectoryPrefixes",
+            "tensorflow/core/platform/file_system_helper.cc_IsGlobbingPattern",
+            "tensorflow/core/platform/file_system_helper.cc_tensorflow"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 151,
+        "all": 151,
+        "ratio": 1.0
+    },
+    "CVE-2020-28606": {
+        "cvci": 0,
+        "cvco": 16,
+        "uvci": 0,
+        "uvco": 154,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 16,
+        "uvc": 154,
+        "all": 170,
+        "ratio": 0.9058823529411765
+    },
+    "CVE-2020-28603": {
+        "cvci": 0,
+        "cvco": 32,
+        "uvci": 0,
+        "uvco": 138,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 32,
+        "uvc": 138,
+        "all": 170,
+        "ratio": 0.8117647058823529
+    },
+    "CVE-2020-23323": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "jerry-core/parser/regexp/re-parser.c_re_parse_char_escape"
+        ],
+        "f_uvclist": [
+            "jerry-core/parser/regexp/re-parser.c_re_parse_next_token"
+        ],
+        "f_mixlist": [],
+        "cvc": 8,
+        "uvc": 2,
+        "all": 10,
+        "ratio": 0.2
+    },
+    "CVE-2020-23321": {
+        "cvci": 6,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 2,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "jerry-core/parser/regexp/re-parser.c_re_parse_char_escape",
+            "jerry-core/parser/regexp/re-parser.c_re_parse_next_token"
+        ],
+        "cvc": 6,
+        "uvc": 4,
+        "all": 10,
+        "ratio": 0.4
+    },
+    "CVE-2020-21840": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 29,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/decode.c_read_2004_compressed_section",
+            "src/decode.c_read_R2004_section_info"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 29,
+        "all": 29,
+        "ratio": 1.0
+    },
+    "CVE-2020-19481": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 28,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/media_tools/mpegts.c_gf_m2ts_process_pmt"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 28,
+        "all": 28,
+        "ratio": 1.0
+    },
+    "CVE-2020-17538": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "contrib/lips4/gdevlips.c_GetNumSameData",
+            "contrib/lips4/gdevlips.c_GetNumWrongData"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 4,
+        "all": 4,
+        "ratio": 1.0
+    },
+    "CVE-2020-21844": {
+        "cvci": 15,
+        "cvco": 0,
+        "uvci": 14,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/decode.c_read_R2004_section_info"
+        ],
+        "f_uvclist": [
+            "src/decode.c_read_2004_compressed_section"
+        ],
+        "f_mixlist": [],
+        "cvc": 15,
+        "uvc": 14,
+        "all": 29,
+        "ratio": 0.4827586206896552
+    },
+    "CVE-2020-21841": {
+        "cvci": 7,
+        "cvco": 0,
+        "uvci": 22,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/decode.c_read_R2004_section_info"
+        ],
+        "f_mixlist": [
+            "src/decode.c_read_2004_compressed_section"
+        ],
+        "cvc": 7,
+        "uvc": 22,
+        "all": 29,
+        "ratio": 0.7586206896551724
+    },
+    "CVE-2020-21831": {
+        "cvci": 13,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/decode.c_read_2004_compressed_section"
+        ],
+        "cvc": 13,
+        "uvc": 4,
+        "all": 17,
+        "ratio": 0.23529411764705882
+    },
+    "CVE-2020-21830": {
+        "cvci": 15,
+        "cvco": 0,
+        "uvci": 14,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/decode.c_read_R2004_section_info"
+        ],
+        "f_uvclist": [
+            "src/decode.c_read_2004_compressed_section"
+        ],
+        "f_mixlist": [],
+        "cvc": 15,
+        "uvc": 14,
+        "all": 29,
+        "ratio": 0.4827586206896552
+    },
+    "CVE-2020-18771": {
+        "cvci": 0,
+        "cvco": 6,
+        "uvci": 0,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 6,
+        "uvc": 0,
+        "all": 6,
+        "ratio": 0.0
+    },
+    "CVE-2020-16294": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 37,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "devices/gdevepsc.c_epsc_print_page"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 37,
+        "all": 37,
+        "ratio": 1.0
+    },
+    "CVE-2020-16297": {
+        "cvci": 12,
+        "cvco": 0,
+        "uvci": 16,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "contrib/gdevbjca.c_bjc_compress"
+        ],
+        "f_mixlist": [
+            "contrib/gdevbjca.c_FloydSteinbergDitheringC"
+        ],
+        "cvc": 12,
+        "uvc": 16,
+        "all": 28,
+        "ratio": 0.5714285714285714
+    },
+    "CVE-2020-16296": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "contrib/lips4/gdevlips.c_GetNumWrongData"
+        ],
+        "f_uvclist": [
+            "contrib/lips4/gdevlips.c_GetNumSameData"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2020-16291": {
+        "cvci": 2,
+        "cvco": 2,
+        "uvci": 125,
+        "uvco": -2,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "contrib/gdevdj9.c_cdj_put_param_bpp",
+            "contrib/gdevdj9.c_cdj_set_bpp",
+            "contrib/gdevdj9.c_hp_colour_open",
+            "contrib/gdevdj9.c_cdj970_one_time_initialisation",
+            "contrib/gdevdj9.c_cdj970_put_params"
+        ],
+        "f_mixlist": [
+            "contrib/gdevdj9.c_cdj970_print_page"
+        ],
+        "cvc": 4,
+        "uvc": 123,
+        "all": 127,
+        "ratio": 0.968503937007874
+    },
+    "CVE-2020-15190": {
+        "cvci": 7,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "tensorflow/core/common_runtime/eager/kernel_and_device.cc_Run"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 7,
+        "uvc": 0,
+        "all": 7,
+        "ratio": 0.0
+    },
+    "CVE-2020-15206": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 26,
+        "uvco": 1,
+        "fcvc": 0,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tensorflow/cc/saved_model/loader.cc_tensorflow",
+            "tensorflow/cc/saved_model/loader.cc_ValidateNode",
+            "tensorflow/cc/saved_model/saved_model_bundle_test.cc_tensorflow",
+            "tensorflow/cc/saved_model/loader.cc_ValidateSavedTensors"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 27,
+        "all": 27,
+        "ratio": 1.0
+    },
+    "CVE-2020-15214": {
+        "cvci": 15,
+        "cvco": 0,
+        "uvci": 24,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "tensorflow/lite/kernels/segment_sum_test.cc_tflite"
+        ],
+        "f_mixlist": [
+            "tensorflow/lite/kernels/segment_sum.cc_ResizeOutputTensor"
+        ],
+        "cvc": 15,
+        "uvc": 24,
+        "all": 39,
+        "ratio": 0.6153846153846154
+    },
+    "CVE-2019-20628": {
+        "cvci": 9,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/mpegts.c_gf_m2ts_process_pmt"
+        ],
+        "f_uvclist": [
+            "src/media_tools/mpegts.c_gf_m2ts_process_pat"
+        ],
+        "f_mixlist": [],
+        "cvc": 9,
+        "uvc": 4,
+        "all": 13,
+        "ratio": 0.3076923076923077
+    },
+    "CVE-2019-20630": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/mpegts.c_gf_m2ts_process_pmt"
+        ],
+        "f_uvclist": [
+            "src/media_tools/mpegts.c_gf_m2ts_process_pat"
+        ],
+        "f_mixlist": [],
+        "cvc": 8,
+        "uvc": 5,
+        "all": 13,
+        "ratio": 0.38461538461538464
+    },
+    "CVE-2020-15945": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 14,
+        "uvco": 5,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "ldebug.c_lua_sethook",
+            "lstate.c_preinit_thread",
+            "ldebug.c_luaG_traceexec",
+            "lvm.c_(OP_VARARGPREP)",
+            "lvm.c_luaV_execute"
+        ],
+        "f_mixlist": [
+            "ldo.c_rethook"
+        ],
+        "cvc": 4,
+        "uvc": 19,
+        "all": 23,
+        "ratio": 0.8260869565217391
+    },
+    "CVE-2019-20208": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/box_code_3gpp.c_dimC_Read"
+        ],
+        "f_uvclist": [
+            "src/media_tools/av_parsers.c_av1_parse_tile_group"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2019-20167": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 6,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 3,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/odf/descriptors.c_gf_odf_avc_cfg_write_bs",
+            "src/isomedia/box_code_apple.c_ilst_item_Read",
+            "src/isomedia/box_code_drm.c_tenc_Read"
+        ],
+        "f_mixlist": [
+            "src/isomedia/box_code_drm.c_senc_Parse"
+        ],
+        "cvc": 2,
+        "uvc": 6,
+        "all": 8,
+        "ratio": 0.75
+    },
+    "CVE-2019-20166": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/box_code_apple.c_ilst_item_Read"
+        ],
+        "f_uvclist": [
+            "src/odf/descriptors.c_gf_odf_avc_cfg_write_bs",
+            "src/isomedia/box_code_drm.c_senc_Parse",
+            "src/isomedia/box_code_drm.c_tenc_Read"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 5,
+        "all": 8,
+        "ratio": 0.625
+    },
+    "CVE-2019-20165": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/box_code_apple.c_ilst_item_Read"
+        ],
+        "f_uvclist": [
+            "src/odf/descriptors.c_gf_odf_avc_cfg_write_bs",
+            "src/isomedia/box_code_drm.c_senc_Parse",
+            "src/isomedia/box_code_drm.c_tenc_Read"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 5,
+        "all": 8,
+        "ratio": 0.625
+    },
+    "CVE-2020-24829": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 47,
+        "uvco": 28,
+        "fcvc": 1,
+        "fuvc": 12,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/mpegts.c_gf_m2ts_section_complete"
+        ],
+        "f_uvclist": [
+            "src/isomedia/isom_write.c_gf_isom_new_mpeg4_description",
+            "src/odf/odf_code.c_gf_odf_read_iod",
+            "src/media_tools/mpegts.c_gf_m2ts_demux_del",
+            "src/media_tools/mpegts.c_gf_m2ts_process_pat",
+            "src/media_tools/av_parsers.c_gf_mp3_get_next_header_mem",
+            "applications/mp4box/main.c_if",
+            "src/media_tools/mpegts.c_gf_m2ts_reframe_mpeg_video",
+            "src/odf/odf_code.c_gf_odf_read_isom_od",
+            "src/media_tools/mpegts.c_gf_m2ts_get_section_length",
+            "src/media_tools/mpegts.c_gf_m2ts_get_adaptation_field",
+            "src/media_tools/mpegts.c_gf_m2ts_pes_header",
+            "src/media_tools/mpegts.c_gf_m2ts_crc32_check"
+        ],
+        "f_mixlist": [],
+        "cvc": 8,
+        "uvc": 75,
+        "all": 83,
+        "ratio": 0.9036144578313253
+    },
+    "CVE-2019-20164": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/box_code_apple.c_ilst_item_Read"
+        ],
+        "f_uvclist": [
+            "src/odf/descriptors.c_gf_odf_avc_cfg_write_bs",
+            "src/isomedia/box_code_drm.c_senc_Parse",
+            "src/isomedia/box_code_drm.c_tenc_Read"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 5,
+        "all": 8,
+        "ratio": 0.625
+    },
+    "CVE-2019-13454": {
+        "cvci": 2,
+        "cvco": 4,
+        "uvci": 18,
+        "uvco": -4,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "MagickCore/layer.c_RemoveDuplicateLayers"
+        ],
+        "cvc": 6,
+        "uvc": 14,
+        "all": 20,
+        "ratio": 0.7
+    },
+    "CVE-2018-20458": {
+        "cvci": 7,
+        "cvco": 0,
+        "uvci": 32,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 3,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "libr/bin/format/mach0/dyldcache.c_r_bin_dyldcache_from_bytes_new",
+            "libr/bin/format/mach0/dyldcache.c_r_buf_read_string",
+            "libr/bin/format/mach0/dyldcache.c_r_buf_read64le"
+        ],
+        "f_mixlist": [
+            "libr/bin/format/mach0/dyldcache.c_r_bin_dyldcache_extract"
+        ],
+        "cvc": 7,
+        "uvc": 32,
+        "all": 39,
+        "ratio": 0.8205128205128205
+    },
+    "CVE-2019-20163": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 7,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 3,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/odf/descriptors.c_gf_odf_avc_cfg_write_bs"
+        ],
+        "f_uvclist": [
+            "src/isomedia/box_code_apple.c_ilst_item_Read",
+            "src/isomedia/box_code_drm.c_senc_Parse",
+            "src/isomedia/box_code_drm.c_tenc_Read"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 7,
+        "all": 8,
+        "ratio": 0.875
+    },
+    "CVE-2019-20171": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 90,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/utils/xml_parser.c_gf_xml_dump_string",
+            "src/isomedia/box_code_base.c_audio_sample_entry_AddBox",
+            "src/isomedia/box_code_adobe.c_abst_Read",
+            "src/media_tools/dash_segmenter.c_write_mpd_header"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 93,
+        "all": 93,
+        "ratio": 1.0
+    },
+    "CVE-2019-20160": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/media_tools/av_parsers.c_av1_parse_tile_group"
+        ],
+        "f_uvclist": [
+            "src/isomedia/box_code_3gpp.c_dimC_Read"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2018-19607": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/easyaccess.cpp_Exiv2"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 2,
+        "all": 4,
+        "ratio": 0.5
+    },
+    "CVE-2018-20456": {
+        "cvci": 6,
+        "cvco": 0,
+        "uvci": -2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "libr/asm/p/asm_x86_nz.c_parseOperand"
+        ],
+        "cvc": 6,
+        "uvc": -2,
+        "all": 4,
+        "ratio": -0.5
+    },
+    "CVE-2018-20455": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 0,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 0,
+        "fmix": 0,
+        "f_cvclist": [
+            "libr/asm/p/asm_x86_nz.c_parseOperand"
+        ],
+        "f_uvclist": [],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 0,
+        "all": 4,
+        "ratio": 0.0
+    },
+    "CVE-2018-17237": {
+        "cvci": 1,
+        "cvco": 0,
+        "uvci": 5,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5Dchunk.c_H5D__chunk_set_info_real"
+        ],
+        "f_uvclist": [
+            "src/H5Olayout.c_H5O__layout_decode"
+        ],
+        "f_mixlist": [],
+        "cvc": 1,
+        "uvc": 5,
+        "all": 6,
+        "ratio": 0.8333333333333334
+    },
+    "CVE-2018-14016": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "libr/bin/format/mdmp/mdmp.c_r_bin_mdmp_init_directory"
+        ],
+        "cvc": 8,
+        "uvc": 4,
+        "all": 12,
+        "ratio": 0.3333333333333333
+    },
+    "CVE-2018-17234": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 14,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5Ocache.c_H5O__chunk_deserialize"
+        ],
+        "f_uvclist": [
+            "tools/lib/h5tools_utils.c_init_objs"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 14,
+        "all": 17,
+        "ratio": 0.8235294117647058
+    },
+    "CVE-2018-15209": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 10,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 4,
+        "fmix": 0,
+        "f_cvclist": [
+            "libtiff/tif_dirread.c_ChopUpSingleUncompressedStrip"
+        ],
+        "f_uvclist": [
+            "libtiff/tif_luv.c_LogLuvDecode32",
+            "libtiff/tif_luv.c_LogL16Encode",
+            "libtiff/tif_luv.c_LogLuvEncode32",
+            "libtiff/tif_luv.c_LogL16Decode"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 10,
+        "all": 13,
+        "ratio": 0.7692307692307693
+    },
+    "CVE-2019-12483": {
+        "cvci": 7,
+        "cvco": 0,
+        "uvci": 15,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/odf/ipmpx_code.c_ReadGF_IPMPX_RemoveToolNotificationListener"
+        ],
+        "f_uvclist": [
+            "src/isomedia/box_code_drm.c_senc_Parse",
+            "src/isomedia/drm_sample.c_gf_isom_get_original_format_type",
+            "src/isomedia/box_code_base.c_audio_sample_entry_Read",
+            "src/media_tools/dash_segmenter.c_gf_media_get_rfc_6381_codec_name",
+            "applications/mp4box/filedump.c_DumpTrackInfo"
+        ],
+        "f_mixlist": [],
+        "cvc": 7,
+        "uvc": 15,
+        "all": 22,
+        "ratio": 0.6818181818181818
+    },
+    "CVE-2019-12482": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 20,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/isomedia/drm_sample.c_gf_isom_get_original_format_type"
+        ],
+        "f_uvclist": [
+            "src/isomedia/box_code_drm.c_senc_Parse",
+            "src/isomedia/box_code_base.c_audio_sample_entry_Read",
+            "src/media_tools/dash_segmenter.c_gf_media_get_rfc_6381_codec_name",
+            "src/odf/ipmpx_code.c_ReadGF_IPMPX_RemoveToolNotificationListener",
+            "applications/mp4box/filedump.c_DumpTrackInfo"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 20,
+        "all": 22,
+        "ratio": 0.9090909090909091
+    },
+    "CVE-2019-12481": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 19,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "applications/mp4box/filedump.c_DumpTrackInfo"
+        ],
+        "f_uvclist": [
+            "src/isomedia/box_code_drm.c_senc_Parse",
+            "src/isomedia/drm_sample.c_gf_isom_get_original_format_type",
+            "src/isomedia/box_code_base.c_audio_sample_entry_Read",
+            "src/media_tools/dash_segmenter.c_gf_media_get_rfc_6381_codec_name",
+            "src/odf/ipmpx_code.c_ReadGF_IPMPX_RemoveToolNotificationListener"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 19,
+        "all": 22,
+        "ratio": 0.8636363636363636
+    },
+    "CVE-2018-13873": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 14,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5Ocache.c_H5O__chunk_deserialize"
+        ],
+        "f_uvclist": [
+            "tools/lib/h5tools_utils.c_init_objs"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 14,
+        "all": 17,
+        "ratio": 0.8235294117647058
+    },
+    "CVE-2018-10186": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 8,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "libr/util/hex.c_r_hex_bin2str",
+            "libr/asm/asm.c_r_asm_disassemble"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 8,
+        "all": 8,
+        "ratio": 1.0
+    },
+    "CVE-2018-1000001": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 20,
+        "uvco": 13,
+        "fcvc": 1,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [
+            "sysdeps/unix/sysv/linux/getcwd.c___getcwd"
+        ],
+        "f_uvclist": [
+            "io/tst-getcwd-abspath.c_do_test",
+            "io/tst-getcwd-abspath.c_getcwd_callback"
+        ],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 33,
+        "all": 37,
+        "ratio": 0.8918918918918919
+    },
+    "CVE-2018-15671": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 164,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 11,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5Dchunk.c_H5D__chunk_init"
+        ],
+        "f_uvclist": [
+            "src/H5Fsuper_cache.c_H5F__cache_superblock_deserialize",
+            "src/H5HLcache.c_H5HL__hdr_deserialize",
+            "src/H5HLcache.c_H5HL__fl_serialize",
+            "src/H5Gint.c_H5G__visit_cb",
+            "src/H5Dbtree.c_H5D__btree_decode_key",
+            "src/H5HLcache.c_H5HL__cache_prefix_free_icr",
+            "src/H5Gint.c_H5G_visit",
+            "src/H5Dchunk.c_H5D__chunk_set_info_real",
+            "src/H5HLcache.c_H5HL__fl_deserialize",
+            "src/H5Omessage.c_H5O_msg_free_real",
+            "tools/src/h5dump/h5dump_ddl.c_dump_group"
+        ],
+        "f_mixlist": [],
+        "cvc": 8,
+        "uvc": 166,
+        "all": 174,
+        "ratio": 0.9540229885057471
+    },
+    "CVE-2018-13867": {
+        "cvci": 71,
+        "cvco": 0,
+        "uvci": 101,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 12,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5Fsuper_cache.c_H5F__cache_superblock_deserialize"
+        ],
+        "f_uvclist": [
+            "src/H5HLcache.c_H5HL__hdr_deserialize",
+            "src/H5HLcache.c_H5HL__fl_serialize",
+            "src/H5Gint.c_H5G__visit_cb",
+            "src/H5Dbtree.c_H5D__btree_decode_key",
+            "src/H5HLcache.c_H5HL__cache_prefix_free_icr",
+            "src/H5Omessage.c_if",
+            "src/H5Gint.c_H5G_visit",
+            "src/H5Dchunk.c_H5D__chunk_set_info_real",
+            "src/H5HLcache.c_H5HL__fl_deserialize",
+            "src/H5Omessage.c_H5O_msg_free_real",
+            "tools/src/h5dump/h5dump_ddl.c_dump_group",
+            "src/H5Dchunk.c_H5D__chunk_init"
+        ],
+        "f_mixlist": [],
+        "cvc": 71,
+        "uvc": 103,
+        "all": 174,
+        "ratio": 0.5919540229885057
+    },
+    "CVE-2018-13871": {
+        "cvci": 3,
+        "cvco": 0,
+        "uvci": 169,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 12,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5Dchunk.c_H5D__chunk_set_info_real"
+        ],
+        "f_uvclist": [
+            "src/H5Fsuper_cache.c_H5F__cache_superblock_deserialize",
+            "src/H5HLcache.c_H5HL__hdr_deserialize",
+            "src/H5HLcache.c_H5HL__fl_serialize",
+            "src/H5Gint.c_H5G__visit_cb",
+            "src/H5HLcache.c_H5HL__cache_prefix_deserialize",
+            "src/H5Dbtree.c_H5D__btree_decode_key",
+            "src/H5HLcache.c_H5HL__cache_prefix_free_icr",
+            "src/H5Gint.c_H5G_visit",
+            "src/H5HLcache.c_H5HL__fl_deserialize",
+            "src/H5Omessage.c_H5O_msg_free_real",
+            "tools/src/h5dump/h5dump_ddl.c_dump_group",
+            "src/H5Dchunk.c_H5D__chunk_init"
+        ],
+        "f_mixlist": [],
+        "cvc": 3,
+        "uvc": 171,
+        "all": 174,
+        "ratio": 0.9827586206896551
+    },
+    "CVE-2017-6387": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 8,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 2,
+        "fmix": 0,
+        "f_cvclist": [
+            "libr/bin/p/bin_dex.c_dex_loadcode"
+        ],
+        "f_uvclist": [
+            "libr/bin/p/bin_dex.c_already_entry",
+            "libr/core/cbin.c_r_core_bin_info"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 8,
+        "all": 10,
+        "ratio": 0.8
+    },
+    "CVE-2018-13866": {
+        "cvci": 65,
+        "cvco": 0,
+        "uvci": 107,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 11,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/H5HLcache.c_H5HL__hdr_deserialize",
+            "src/H5HLcache.c_H5HL__fl_serialize",
+            "src/H5Gint.c_H5G__visit_cb",
+            "src/H5Dbtree.c_H5D__btree_decode_key",
+            "src/H5HLcache.c_H5HL__cache_prefix_free_icr",
+            "src/H5Gint.c_H5G_visit",
+            "src/H5Dchunk.c_H5D__chunk_set_info_real",
+            "src/H5HLcache.c_H5HL__fl_deserialize",
+            "src/H5Omessage.c_H5O_msg_free_real",
+            "tools/src/h5dump/h5dump_ddl.c_dump_group",
+            "src/H5Dchunk.c_H5D__chunk_init"
+        ],
+        "f_mixlist": [
+            "src/H5Fsuper_cache.c_H5F__cache_superblock_deserialize"
+        ],
+        "cvc": 65,
+        "uvc": 109,
+        "all": 174,
+        "ratio": 0.6264367816091954
+    },
+    "CVE-2017-7597": {
+        "cvci": 10,
+        "cvco": 0,
+        "uvci": 87,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 12,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "libtiff/tif_dir.c__TIFFVSetField",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt32",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt8",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagCheckedRational",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt16",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt32",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagSampleformatArray",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt16",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt8",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagCheckedRationalArray",
+            "libtiff/tif_dir.c_TIFFClampDoubleToFloat",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToFloat"
+        ],
+        "f_mixlist": [
+            "libtiff/tif_dirread.c_TIFFReadDirEntryFloatArray"
+        ],
+        "cvc": 10,
+        "uvc": 90,
+        "all": 100,
+        "ratio": 0.9
+    },
+    "CVE-2018-11202": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 172,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 13,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/H5Fsuper_cache.c_H5F__cache_superblock_deserialize",
+            "src/H5HLcache.c_H5HL__hdr_deserialize",
+            "src/H5HLcache.c_H5HL__fl_serialize",
+            "src/H5Gint.c_H5G__visit_cb",
+            "src/H5HLcache.c_H5HL__cache_prefix_deserialize",
+            "src/H5Dbtree.c_H5D__btree_decode_key",
+            "src/H5HLcache.c_H5HL__cache_prefix_free_icr",
+            "src/H5Gint.c_H5G_visit",
+            "src/H5Dchunk.c_H5D__chunk_set_info_real",
+            "src/H5HLcache.c_H5HL__fl_deserialize",
+            "src/H5Omessage.c_H5O_msg_free_real",
+            "tools/src/h5dump/h5dump_ddl.c_dump_group",
+            "src/H5Dchunk.c_H5D__chunk_init"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 174,
+        "all": 174,
+        "ratio": 1.0
+    },
+    "CVE-2017-7596": {
+        "cvci": 63,
+        "cvco": 1,
+        "uvci": 34,
+        "uvco": 2,
+        "fcvc": 8,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt32",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt8",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToUInt16",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagSampleformatArray",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt16",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt8",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToInt32",
+            "libtiff/tif_dirwrite.c_TIFFClampDoubleToFloat"
+        ],
+        "f_uvclist": [
+            "libtiff/tif_dir.c__TIFFVSetField",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagCheckedRational",
+            "libtiff/tif_dirread.c_TIFFReadDirEntryFloatArray",
+            "libtiff/tif_dirwrite.c_TIFFWriteDirectoryTagCheckedRationalArray",
+            "libtiff/tif_dir.c_TIFFClampDoubleToFloat"
+        ],
+        "f_mixlist": [],
+        "cvc": 64,
+        "uvc": 36,
+        "all": 100,
+        "ratio": 0.36
+    },
+    "CVE-2018-11205": {
+        "cvci": 71,
+        "cvco": 0,
+        "uvci": 101,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 13,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/H5Fsuper_cache.c_H5F__cache_superblock_deserialize"
+        ],
+        "f_uvclist": [
+            "src/H5HLcache.c_H5HL__hdr_deserialize",
+            "src/H5HLcache.c_H5HL__fl_serialize",
+            "src/H5Gint.c_H5G__visit_cb",
+            "src/H5HLcache.c_H5HL__cache_prefix_deserialize",
+            "src/H5Dbtree.c_H5D__btree_decode_key",
+            "src/H5HLcache.c_H5HL__cache_prefix_free_icr",
+            "src/H5Omessage.c_if",
+            "src/H5Gint.c_H5G_visit",
+            "src/H5Dchunk.c_H5D__chunk_set_info_real",
+            "src/H5HLcache.c_H5HL__fl_deserialize",
+            "src/H5Omessage.c_H5O_msg_free_real",
+            "tools/src/h5dump/h5dump_ddl.c_dump_group",
+            "src/H5Dchunk.c_H5D__chunk_init"
+        ],
+        "f_mixlist": [],
+        "cvc": 71,
+        "uvc": 103,
+        "all": 174,
+        "ratio": 0.5919540229885057
+    },
+    "CVE-2017-14862": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 14,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/tiffvisitor.cpp_readTiffEntry"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 17,
+        "all": 17,
+        "ratio": 1.0
+    },
+    "CVE-2017-14864": {
+        "cvci": 10,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/tiffvisitor.cpp_readTiffEntry"
+        ],
+        "cvc": 10,
+        "uvc": 7,
+        "all": 17,
+        "ratio": 0.4117647058823529
+    },
+    "CVE-2017-14860": {
+        "cvci": 5,
+        "cvco": 0,
+        "uvci": 2,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/jp2image.cpp_readMetadata"
+        ],
+        "cvc": 5,
+        "uvc": 2,
+        "all": 7,
+        "ratio": 0.2857142857142857
+    },
+    "CVE-2017-14861": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 1,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 0,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [],
+        "f_mixlist": [
+            "src/image.cpp_printIFDStructure"
+        ],
+        "cvc": 2,
+        "uvc": 3,
+        "all": 5,
+        "ratio": 0.6
+    },
+    "CVE-2017-14859": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 14,
+        "uvco": 3,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/tiffvisitor.cpp_readTiffEntry"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 17,
+        "all": 17,
+        "ratio": 1.0
+    },
+    "CVE-2017-14858": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 3,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/image.cpp_printIFDStructure"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 5,
+        "all": 5,
+        "ratio": 1.0
+    },
+    "CVE-2016-7132": {
+        "cvci": 2,
+        "cvco": 0,
+        "uvci": 6,
+        "uvco": 0,
+        "fcvc": 0,
+        "fuvc": 1,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "ext/wddx/wddx.c_php_wddx_deserialize_ex"
+        ],
+        "f_mixlist": [
+            "ext/wddx/wddx.c_php_wddx_pop_element"
+        ],
+        "cvc": 2,
+        "uvc": 6,
+        "all": 8,
+        "ratio": 0.75
+    },
+    "CVE-2016-7131": {
+        "cvci": 4,
+        "cvco": 0,
+        "uvci": 4,
+        "uvco": 0,
+        "fcvc": 1,
+        "fuvc": 1,
+        "fmix": 0,
+        "f_cvclist": [
+            "ext/wddx/wddx.c_php_wddx_deserialize_ex"
+        ],
+        "f_uvclist": [
+            "ext/wddx/wddx.c_php_wddx_pop_element"
+        ],
+        "f_mixlist": [],
+        "cvc": 4,
+        "uvc": 4,
+        "all": 8,
+        "ratio": 0.5
+    },
+    "CVE-2017-11661": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 187,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 6,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/f_hmp.c__WM_ParseNewHmp",
+            "src/f_mus.c__WM_ParseNewMus",
+            "src/f_midi.c__WM_ParseNewMidi",
+            "src/f_hmi.c__WM_ParseNewHmi",
+            "src/internal_midi.c__WM_SetupMidiEvent",
+            "src/f_xmidi.c__WM_ParseNewXmi"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 189,
+        "all": 189,
+        "ratio": 1.0
+    },
+    "CVE-2017-11662": {
+        "cvci": 46,
+        "cvco": 0,
+        "uvci": 141,
+        "uvco": 2,
+        "fcvc": 1,
+        "fuvc": 5,
+        "fmix": 0,
+        "f_cvclist": [
+            "src/f_midi.c__WM_ParseNewMidi"
+        ],
+        "f_uvclist": [
+            "src/f_hmp.c__WM_ParseNewHmp",
+            "src/f_mus.c__WM_ParseNewMus",
+            "src/f_hmi.c__WM_ParseNewHmi",
+            "src/internal_midi.c__WM_SetupMidiEvent",
+            "src/f_xmidi.c__WM_ParseNewXmi"
+        ],
+        "f_mixlist": [],
+        "cvc": 46,
+        "uvc": 143,
+        "all": 189,
+        "ratio": 0.7566137566137566
+    },
+    "CVE-2017-11664": {
+        "cvci": 8,
+        "cvco": 0,
+        "uvci": 179,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/f_hmp.c__WM_ParseNewHmp",
+            "src/f_mus.c__WM_ParseNewMus",
+            "src/f_midi.c__WM_ParseNewMidi",
+            "src/f_hmi.c__WM_ParseNewHmi",
+            "src/f_xmidi.c__WM_ParseNewXmi"
+        ],
+        "f_mixlist": [
+            "src/internal_midi.c__WM_SetupMidiEvent"
+        ],
+        "cvc": 8,
+        "uvc": 181,
+        "all": 189,
+        "ratio": 0.9576719576719577
+    },
+    "CVE-2017-11663": {
+        "cvci": 74,
+        "cvco": 0,
+        "uvci": 113,
+        "uvco": 2,
+        "fcvc": 0,
+        "fuvc": 5,
+        "fmix": 1,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/f_hmp.c__WM_ParseNewHmp",
+            "src/f_mus.c__WM_ParseNewMus",
+            "src/f_midi.c__WM_ParseNewMidi",
+            "src/f_hmi.c__WM_ParseNewHmi",
+            "src/f_xmidi.c__WM_ParseNewXmi"
+        ],
+        "f_mixlist": [
+            "src/internal_midi.c__WM_SetupMidiEvent"
+        ],
+        "cvc": 74,
+        "uvc": 115,
+        "all": 189,
+        "ratio": 0.6084656084656085
+    },
+    "CVE-2016-5036": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 875,
+        "uvco": 18,
+        "fcvc": 0,
+        "fuvc": 59,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "dwarfdump/print_sections.c_local_dwarf_decode_s_leb128",
+            "libdwarf/dwarf_util.c_inthissection",
+            "libdwarf/dwarf_form.c_dwarf_formsdata",
+            "libdwarf/dwarf_macro5.c_dwarf_get_macro_startend_file",
+            "dwarfdump/print_frames.c_get_abstract_origin_funcname",
+            "libdwarf/dwarf_loc.c__dwarf_get_locdesc",
+            "dwarfdump/print_frames.c_local_dwarf_decode_s_leb128_chk",
+            "libdwarf/dwarf_macro5.c_dwarf_get_macro_defundef",
+            "libdwarf/dwarf_loc.c_dwarf_loclist_from_expr_b",
+            "libdwarf/dwarf_line.c__dwarf_internal_srclines",
+            "libdwarf/dwarf_line_table_reader_common.c_read_line_table_program",
+            "libdwarf/dwarf_form.c_dwarf_formref",
+            "libdwarf/dwarf_query.c_dwarf_lowpc",
+            "libdwarf/dwarf_xu_index.c_dwarf_get_xu_section_names",
+            "libdwarf/dwarf_form.c_dwarf_formudata",
+            "libdwarf/dwarf_die_deliv.c__dwarf_make_CU_Context",
+            "libdwarf/dwarf_query.c__dwarf_die_attr_unsigned_constant",
+            "dwarfdump/print_frames.c_local_dwarf_decode_u_leb128_chk",
+            "libdwarf/dwarf_form.c_dwarf_global_formref",
+            "libdwarf/dwarf_form.c_dwarf_formaddr",
+            "libdwarf/dwarf_loc.c__dwarf_read_loc_section",
+            "libdwarf/dwarf_frame2.c_dwarf_read_cie_fde_prefix",
+            "libdwarf/dwarf_loc.c_dwarf_loclist_n",
+            "libdwarf/dwarf_loc2.c__dwarf_read_loc_section_dwo",
+            "libdwarf/dwarf_loc.c_dwarf_loclist",
+            "libdwarf/dwarf_die_deliv.c__dwarf_next_die_info_ptr",
+            "libdwarf/dwarf_macro5.c_dwarf_get_macro_import",
+            "dwarfdump/print_die.c_dwarfdump_print_one_locdesc",
+            "libdwarf/dwarf_line.c_dwarf_srcfiles",
+            "libdwarf/dwarf_loc.c_read_encoded_addr",
+            "libdwarf/dwarf_line_table_reader_common.c__dwarf_read_line_table_header",
+            "libdwarf/dwarf_global.c_dwarf_global_name_offsets",
+            "libdwarf/dwarf_arange.c_dwarf_get_arange_info_b",
+            "dwarfdump/print_sections.c_dump_block",
+            "libdwarf/dwarf_arange.c_dwarf_get_aranges_list",
+            "libdwarf/dwarf_global.c__dwarf_internal_get_pubnames_like_data",
+            "dwarfdump/print_frames.c_print_frame_inst_bytes",
+            "libdwarf/dwarf_query.c_dwarf_highpc_b",
+            "libdwarf/dwarf_global.c_dwarf_get_cu_die_offset_given_cu_header_offset",
+            "libdwarf/dwarf_line.c__dwarf_decode_line_string_form",
+            "libdwarf/dwarf_util.c__dwarf_length_of_cu_header",
+            "libdwarf/dwarf_ranges.c_dwarf_get_ranges_a",
+            "libdwarf/dwarf_print_lines.c__dwarf_internal_printlines",
+            "libdwarf/dwarf_query.c__dwarf_extract_address_from_debug_addr",
+            "libdwarf/dwarf_xu_index.c_dwarf_get_xu_section_offset",
+            "libdwarf/dwarf_global.c_dwarf_get_cu_die_offset_given_cu_header_offset_b",
+            "libdwarf/dwarf_xu_index.c_dwarf_get_xu_index_header",
+            "libdwarf/dwarf_die_deliv.c_dwarf_siblingof_b",
+            "libdwarf/dwarf_frame.c__dwarf_exec_frame_instr",
+            "dwarfdump/print_aranges.c_do_checking",
+            "dwarfdump/print_sections.c_local_dwarf_decode_u_leb128",
+            "libdwarf/dwarf_loc.c__dwarf_read_loc_expr_op",
+            "libdwarf/dwarf_arange.c_dwarf_get_arange_info",
+            "libdwarf/dwarf_loc2.c__dwarf_get_locdesc_c",
+            "libdwarf/dwarf_macro5.c_read_operands_table",
+            "libdwarf/dwarf_arange.c_dwarf_get_cu_die_offset",
+            "libdwarf/dwarf_macro5.c__dwarf_skim_forms",
+            "libdwarf/dwarf_xu_index.c_dwarf_get_xu_hash_entry",
+            "libdwarf/dwarf_util.c__dwarf_what_section_are_we"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 893,
+        "all": 893,
+        "ratio": 1.0
+    },
+    "CVE-2017-17506": {
+        "cvci": 0,
+        "cvco": 0,
+        "uvci": 142,
+        "uvco": 63,
+        "fcvc": 0,
+        "fuvc": 43,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/H5Oshared.h_H5O_SHARED_DECODE",
+            "src/H5Odtype.c_H5O_dtype_decode",
+            "src/H5Ofill.c_H5O_fill_old_decode",
+            "src/H5Oname.c_H5O_name_decode",
+            "src/H5Opline.c_H5O_pline_decode",
+            "src/H5Ocache_image.c_H5O__mdci_decode",
+            "src/H5Olayout.c_H5O__layout_decode",
+            "src/H5Oshmesg.c_H5O_shmesg_decode",
+            "src/H5SM.c_H5SM_delete",
+            "src/H5S.c_H5S_decode",
+            "src/H5Odrvinfo.c_H5O_drvinfo_decode",
+            "src/H5SM.c_H5SM_delete_from_index",
+            "src/H5Opline.c_H5O_pline_reset",
+            "src/H5Pdcpl.c_H5P__dcrt_fill_value_dec",
+            "src/H5Ofill.c_H5O_fill_new_decode",
+            "src/H5Abtree2.c_H5A__dense_fh_name_cmp",
+            "src/H5Omessage.c_H5O_msg_decode",
+            "src/H5Olinfo.c_H5O_linfo_decode",
+            "src/H5Osdspace.c_H5O_sdspace_decode",
+            "src/H5Gdense.c_if",
+            "src/H5HFcache.c_H5HF__cache_hdr_deserialize",
+            "src/H5Gdense.c_H5G_dense_remove_by_idx_fh_cb",
+            "src/H5Gbtree2.c_H5G_dense_fh_name_cmp",
+            "src/H5Oattr.c_H5O_attr_decode",
+            "src/H5Oefl.c_H5O_efl_decode",
+            "src/H5Gdense.c_H5G_dense_iterate_fh_cb",
+            "src/H5Orefcount.c_H5O_refcount_decode",
+            "src/H5Ostab.c_H5O_stab_decode",
+            "src/H5T.c_H5Tdecode",
+            "src/H5T.c_H5T_decode",
+            "src/H5Oginfo.c_H5O_ginfo_decode",
+            "src/H5Adense.c_if",
+            "src/H5Ofsinfo.c_H5O_fsinfo_decode",
+            "src/H5Gdense.c_H5G_dense_lookup_by_idx_fh_cb",
+            "src/H5Omtime.c_H5O_mtime_decode",
+            "src/H5Ocache.c_H5O__chunk_deserialize",
+            "src/H5Oainfo.c_H5O_ainfo_decode",
+            "src/H5Ocont.c_H5O_cont_decode",
+            "src/H5Obogus.c_H5O_bogus_decode",
+            "src/H5Olink.c_H5O_link_decode",
+            "src/H5Oshared.c_H5O_shared_read",
+            "src/H5Obtreek.c_H5O_btreek_decode",
+            "src/H5Omtime.c_H5O_mtime_new_decode"
+        ],
+        "f_mixlist": [],
+        "cvc": 0,
+        "uvc": 205,
+        "all": 205,
+        "ratio": 1.0
+    },
+    "CVE-2017-17508": {
+        "cvci": 0,
+        "cvco": 2,
+        "uvci": 142,
+        "uvco": 61,
+        "fcvc": 0,
+        "fuvc": 45,
+        "fmix": 0,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/H5Oshared.h_H5O_SHARED_DECODE",
+            "src/H5Odtype.c_H5O_dtype_decode",
+            "src/H5Ofill.c_H5O_fill_old_decode",
+            "src/H5Oname.c_H5O_name_decode",
+            "src/H5Opline.c_H5O_pline_decode",
+            "src/H5Ocache_image.c_H5O__mdci_decode",
+            "src/H5Olayout.c_H5O__layout_decode",
+            "src/H5Oshmesg.c_H5O_shmesg_decode",
+            "src/H5SM.c_H5SM_delete",
+            "src/H5S.c_H5S_decode",
+            "src/H5Odrvinfo.c_H5O_drvinfo_decode",
+            "src/H5SM.c_H5SM_delete_from_index",
+            "src/H5Opline.c_H5O_pline_reset",
+            "src/H5Pdcpl.c_H5P__dcrt_fill_value_dec",
+            "src/H5Ofill.c_H5O_fill_new_decode",
+            "src/H5Abtree2.c_H5A__dense_fh_name_cmp",
+            "src/H5Omessage.c_H5O_msg_decode",
+            "src/H5Olinfo.c_H5O_linfo_decode",
+            "src/H5Osdspace.c_H5O_sdspace_decode",
+            "src/H5Gdense.c_if",
+            "src/H5HFcache.c_H5HF__cache_hdr_deserialize",
+            "src/H5Gdense.c_H5G_dense_remove_by_idx_fh_cb",
+            "src/H5Gbtree2.c_H5G_dense_fh_name_cmp",
+            "src/H5Oattr.c_H5O_attr_decode",
+            "src/H5Oefl.c_H5O_efl_decode",
+            "src/H5Gdense.c_H5G_dense_iterate_fh_cb",
+            "src/H5Orefcount.c_H5O_refcount_decode",
+            "src/H5Ostab.c_H5O_stab_decode",
+            "src/H5T.c_H5Tdecode",
+            "src/H5T.c_H5T_decode",
+            "src/H5Gdense.c_H5G_dense_remove_fh_cb",
+            "src/H5Oginfo.c_H5O_ginfo_decode",
+            "src/H5Adense.c_if",
+            "src/H5Ofsinfo.c_H5O_fsinfo_decode",
+            "src/H5Gdense.c_H5G_dense_lookup_by_idx_fh_cb",
+            "src/H5Omtime.c_H5O_mtime_decode",
+            "src/H5Ocache.c_H5O__chunk_deserialize",
+            "src/H5Oainfo.c_H5O_ainfo_decode",
+            "src/H5Gdense.c_H5G_dense_get_name_by_idx_fh_cb",
+            "src/H5Ocont.c_H5O_cont_decode",
+            "src/H5Obogus.c_H5O_bogus_decode",
+            "src/H5Olink.c_H5O_link_decode",
+            "src/H5Oshared.c_H5O_shared_read",
+            "src/H5Obtreek.c_H5O_btreek_decode",
+            "src/H5Omtime.c_H5O_mtime_new_decode"
+        ],
+        "f_mixlist": [],
+        "cvc": 2,
+        "uvc": 203,
+        "all": 205,
+        "ratio": 0.9902439024390244
+    },
+    "CVE-2017-17505": {
+        "cvci": 11,
+        "cvco": 1,
+        "uvci": 131,
+        "uvco": 62,
+        "fcvc": 0,
+        "fuvc": 43,
+        "fmix": 2,
+        "f_cvclist": [],
+        "f_uvclist": [
+            "src/H5Oshared.h_H5O_SHARED_DECODE",
+            "src/H5Odtype.c_H5O_dtype_decode",
+            "src/H5Ofill.c_H5O_fill_old_decode",
+            "src/H5Oname.c_H5O_name_decode",
+            "src/H5Ocache_image.c_H5O__mdci_decode",
+            "src/H5Olayout.c_H5O__layout_decode",
+            "src/H5Oshmesg.c_H5O_shmesg_decode",
+            "src/H5SM.c_H5SM_delete",
+            "src/H5S.c_H5S_decode",
+            "src/H5Odrvinfo.c_H5O_drvinfo_decode",
+            "src/H5SM.c_H5SM_delete_from_index",
+            "src/H5Pdcpl.c_H5P__dcrt_fill_value_dec",
+            "src/H5Ofill.c_H5O_fill_new_decode",
+            "src/H5Abtree2.c_H5A__dense_fh_name_cmp",
+            "src/H5Omessage.c_H5O_msg_decode",
+            "src/H5Olinfo.c_H5O_linfo_decode",
+            "src/H5Osdspace.c_H5O_sdspace_decode",
+            "src/H5Gdense.c_if",
+            "src/H5HFcache.c_H5HF__cache_hdr_deserialize",
+            "src/H5Gdense.c_H5G_dense_remove_by_idx_fh_cb",
+            "src/H5Gbtree2.c_H5G_dense_fh_name_cmp",
+            "src/H5Oattr.c_H5O_attr_decode",
+            "src/H5Oefl.c_H5O_efl_decode",
+            "src/H5Gdense.c_H5G_dense_iterate_fh_cb",
+            "src/H5Orefcount.c_H5O_refcount_decode",
+            "src/H5Ostab.c_H5O_stab_decode",
+            "src/H5T.c_H5Tdecode",
+            "src/H5T.c_H5T_decode",
+            "src/H5Gdense.c_H5G_dense_remove_fh_cb",
+            "src/H5Oginfo.c_H5O_ginfo_decode",
+            "src/H5Adense.c_if",
+            "src/H5Ofsinfo.c_H5O_fsinfo_decode",
+            "src/H5Gdense.c_H5G_dense_lookup_by_idx_fh_cb",
+            "src/H5Omtime.c_H5O_mtime_decode",
+            "src/H5Ocache.c_H5O__chunk_deserialize",
+            "src/H5Oainfo.c_H5O_ainfo_decode",
+            "src/H5Gdense.c_H5G_dense_get_name_by_idx_fh_cb",
+            "src/H5Ocont.c_H5O_cont_decode",
+            "src/H5Obogus.c_H5O_bogus_decode",
+            "src/H5Olink.c_H5O_link_decode",
+            "src/H5Oshared.c_H5O_shared_read",
+            "src/H5Obtreek.c_H5O_btreek_decode",
+            "src/H5Omtime.c_H5O_mtime_new_decode"
+        ],
+        "f_mixlist": [
+            "src/H5Opline.c_H5O_pline_decode",
+            "src/H5Opline.c_H5O_pline_reset"
+        ],
+        "cvc": 12,
+        "uvc": 193,
+        "all": 205,
+        "ratio": 0.9414634146341463
+    }
+}

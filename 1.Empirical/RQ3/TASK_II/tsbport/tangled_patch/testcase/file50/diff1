@@ -1,0 +1,51 @@
+1776c1776
+<       LOG_TRACE ("\nsection_info[%d] fields:\n", i)LOG_TRACE ("size:%ld\n", (long)info->size)LOG_TRACE ("num_sections:%u\n", info->num_sections)LOG_TRACE ("max_decomp_size: %u / 0x%x\n", // normally 0x7400 info->max_decomp_size, info->max_decomp_size)LOG_TRACE ("unknown: %u\n", info->unknown)LOG_TRACE ("compressed:%u (1=no, 2=yes)\n", info->compressed)LOG_TRACE ("type:%d\n", (int)info->type)LOG_TRACE ("encrypted: %d (0=no, 1=yes, 2=unknown)\n", info->encrypted)LOG_TRACE ("name:%s\n", info->name);
+---
+>       LOG_TRACE ("\nsection_info[%d] fields:\n", i)LOG_TRACE ("size:%ld\n", (long)info->size)LOG_TRACE ("num_sections:%u\n", info->num_sections)LOG_TRACE ("max_decomp_size: %u / 0x%x\n", // normally 0x7400, max 0x8000 info->max_decomp_size, info->max_decomp_size)LOG_TRACE ("unknown: %u\n", info->unknown)LOG_TRACE ("compressed:%u (1=no, 2=yes)\n", info->compressed)LOG_TRACE ("type:%d\n", (int)info->type)LOG_TRACE ("encrypted: %d (0=no, 1=yes, 2=unknown)\n", info->encrypted)LOG_TRACE ("name:%s\n", info->name);
+1790c1790,1809
+< 
+---
+>       // max_decomp_size is the decompressed block size (max 0x7c00)
+>       if (info->max_decomp_size > 0x8000)
+>         {
+>           LOG_ERROR ("Skip section %s with max decompression size 0x%x > 0x8000", info->name, info->max_decomp_size);
+>           info->max_decomp_size = info->size = 0;
+>           error |= DWG_ERR_VALUEOUTOFBOUNDS;
+>         }
+>       if (info->size > info->num_sections * info->max_decomp_size)
+>         {
+>           LOG_ERROR ("Skip section %s with size %lu > %d * " FORMAT_RL, info->name, info->size, info->num_sections, info->max_decomp_size);
+>           info->max_decomp_size = info->size = info->num_sections = 0;
+>           error |= DWG_ERR_VALUEOUTOFBOUNDS;
+>         }
+>       if (info->num_sections > 1 && info->size < info->max_decomp_size)
+>         {
+>           // on mult. blocks, size must exceed the size of the first block
+>           LOG_ERROR ("Skip section %s with size %lu < max_decomp_size " FORMAT_RL, info->name, info->size, info->max_decomp_size);
+>           info->max_decomp_size = info->size = info->num_sections = 0;
+>           error |= DWG_ERR_VALUEOUTOFBOUNDS;
+>         }
+1957,1958c1976,1977
+<       LOG_ERROR ("Invalid section %s count or max decompression size. " "Sections: %u, Max size: %u", info->name, info->num_sections, info->max_decomp_size);
+<       return DWG_ERR_INVALIDDWG;
+---
+>       LOG_ERROR ("Invalid section %s count or max decompression size. " "Sections: %u, Max size: " FORMAT_RL, info->name, info->num_sections, info->max_decomp_size);
+>       return DWG_ERR_VALUEOUTOFBOUNDS;
+1963c1982
+<       LOG_ERROR ("Out of memory with %u sections", info->num_sections);
+---
+>       LOG_ERROR ("Out of memory with %u sections of size: %u", info->num_sections, info->max_decomp_size);
+1972a1992
+>   sec_dat->size = 0;
+2019c2039
+<           sec_dat->size = info->size;
+---
+>           sec_dat->size += info->max_decomp_size;
+2031c2051
+<           sec_dat->size = info->size;
+---
+>           sec_dat->size += MIN (bytes_left, info->max_decomp_size);
+2034c2054
+< 
+---
+>   sec_dat->size = info->size;

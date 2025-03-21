@@ -1,0 +1,24 @@
+136c136
+< 		GF_AdobeSegmentRunTableBox *asrt;
+---
+> 		GF_AdobeSegmentRunTableBox *asrt = NULL;
+138c138,142
+< 		if (e) return e;
+---
+> 		if (e) {
+> 			if (asrt) gf_isom_box_del((GF_Box*)asrt);
+> 			gf_free(tmp_str);
+> 			return e;
+> 		}
+144c148
+< 		GF_AdobeFragmentRunTableBox *afrt;
+---
+> 		GF_AdobeFragmentRunTableBox *afrt = NULL;
+146c150,154
+< 		if (e) return e;
+---
+> 		if (e) {
+> 			if (afrt) gf_isom_box_del((GF_Box*)afrt);
+> 			gf_free(tmp_str);
+> 			return e;
+> 		}

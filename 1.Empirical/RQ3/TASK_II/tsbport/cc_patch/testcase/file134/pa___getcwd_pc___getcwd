@@ -1,0 +1,356 @@
+name: buf  @ 71 @ name: buf  @ 77 @ 
+name: NULL  @ 19 @ name: NULL  @ 20 @ 
+block_content  @ 23 @ block_content  @ 24 @ 
+expr  @ 22 @ expr  @ 23 @ 
+type  @ 31 @ type  @ 32 @ 
+operator: =  @ 16 @ operator: =  @ 17 @ 
+argument  @ 39 @ argument  @ 40 @ 
+expr  @ 16 @ expr  @ 17 @ 
+call  @ 64 @ call  @ 68 @ 
+type  @ 1 @ type  @ 1 @ 
+literal: 2  @ 33 @ literal: 2  @ 34 @ 
+expr  @ 74 @ expr  @ 80 @ 
+name: NULL  @ 63 @ name: NULL  @ 67 @ 
+block_content  @ 75 @ block_content  @ 81 @ 
+value  @ 27 @ value  @ 28 @ 
+name: alloc_size  @ 33 @ name: alloc_size  @ 34 @ 
+expr  @ 33 @ expr  @ 34 @ 
+name: alloc_size  @ 16 @ name: alloc_size  @ 17 @ 
+if  @ 19 @ if  @ 20 @ 
+expr_stmt  @ 55 @ expr_stmt  @ 59 @ 
+argument_list  @ 16 @ argument_list  @ 17 @ 
+name: alloc_size  @ 7 @ name: alloc_size  @ 8 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 22 @ 
+name: path  @ 39 @ name: path  @ 40 @ 
+expr  @ 29 @ expr  @ 30 @ 
+block  @ 39 @ block  @ 40 @ 
+name: PATH_MAX  @ 16 @ name: PATH_MAX  @ 17 @ 
+name: NO_ALLOCATION  @ 62 @ name: NO_ALLOCATION  @ 66 @ 
+operator: ||  @ 71 @ operator: ||  @ 77 @ 
+type  @ 7 @ type  @ 8 @ 
+operator: ==  @ 8 @ operator: ==  @ 9 @ 
+name: size  @ 1 @ name: size  @ 2 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+if_stmt  @ 19 @ if_stmt  @ 20 @ 
+expr  @ 39 @ expr  @ 40 @ 
+operator: ==  @ 53 @ operator: ==  @ 57 @ 
+argument  @ 55 @ argument  @ 59 @ 
+expr  @ 71 @ expr  @ 77 @ 
+decl  @ 31 @ decl  @ 32 @ 
+name: char  @ 3 @ name: char  @ 4 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+endif  @ 44 @ endif  @ 46 @ 
+expr  @ 13 @ expr  @ 14 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 77 @ 
+operator: ||  @ 71 @ operator: ||  @ 77 @ 
+expr  @ 75 @ expr  @ 81 @ 
+if  @ 41 @ if  @ 42 @ 
+name: size  @ 53 @ name: size  @ 57 @ 
+ifndef  @ 62 @ ifndef  @ 66 @ 
+operator: !=  @ 63 @ operator: !=  @ 67 @ 
+name: char  @ 1 @ name: char  @ 2 @ 
+name: buf  @ 43 @ name: buf  @ 45 @ 
+directive: ifndef  @ 36 @ directive: ifndef  @ 37 @ 
+expr  @ 39 @ expr  @ 40 @ 
+argument_list  @ 60 @ argument_list  @ 64 @ 
+name: retval  @ 34 @ name: retval  @ 35 @ 
+argument  @ 33 @ argument  @ 34 @ 
+name: buf  @ 10 @ name: buf  @ 11 @ 
+expr  @ 16 @ expr  @ 17 @ 
+expr  @ 23 @ expr  @ 24 @ 
+expr  @ 43 @ expr  @ 45 @ 
+type  @ 4 @ type  @ 5 @ 
+if_stmt  @ 37 @ if_stmt  @ 38 @ 
+block_content  @ 39 @ block_content  @ 40 @ 
+operator: &&  @ 63 @ operator: &&  @ 67 @ 
+operator: !=  @ 10 @ operator: !=  @ 11 @ 
+operator: =  @ 33 @ operator: =  @ 34 @ 
+operator: &&  @ 37 @ operator: &&  @ 38 @ 
+operator: ==  @ 37 @ operator: ==  @ 38 @ 
+if_stmt  @ 53 @ if_stmt  @ 57 @ 
+name: NULL  @ 53 @ name: NULL  @ 57 @ 
+return  @ 23 @ return  @ 24 @ 
+expr  @ 60 @ expr  @ 64 @ 
+argument_list  @ 33 @ argument_list  @ 34 @ 
+name: size  @ 8 @ name: size  @ 9 @ 
+name: NULL  @ 71 @ name: NULL  @ 77 @ 
+expr  @ 33 @ expr  @ 34 @ 
+operator: ==  @ 22 @ operator: ==  @ 23 @ 
+name: buf  @ 74 @ name: buf  @ 80 @ 
+expr  @ 63 @ expr  @ 67 @ 
+block  @ 54 @ block  @ 58 @ 
+operator: ==  @ 37 @ operator: ==  @ 38 @ 
+name: size  @ 63 @ name: size  @ 67 @ 
+block  @ 23 @ block  @ 24 @ 
+type  @ 1 @ type  @ 2 @ 
+expr  @ 56 @ expr  @ 60 @ 
+expr  @ 75 @ expr  @ 81 @ 
+name: NULL  @ 10 @ name: NULL  @ 11 @ 
+operator: ==  @ 74 @ operator: ==  @ 80 @ 
+if_stmt  @ 22 @ if_stmt  @ 23 @ 
+decl  @ 1 @ decl  @ 2 @ 
+comment: /* The system call cannot handle paths longer than a page. Neither can the magic symlink in /proc/self.Just use the generic implementation right away.*/  @ 49 @ comment: /* The system call cannot handle paths longer than a page.
+     Neither can the magic symlink in /proc/self.  Just use thegeneric implementation right away.  */  @ 51 @ 
+operator: >=  @ 34 @ operator: >=  @ 35 @ 
+name: MAX  @ 16 @ name: MAX  @ 17 @ 
+expr  @ 53 @ expr  @ 57 @ 
+expr  @ 33 @ expr  @ 34 @ 
+block  @ 9 @ block  @ 10 @ 
+name: buf  @ 39 @ name: buf  @ 40 @ 
+name: path  @ 60 @ name: path  @ 64 @ 
+name: NULL  @ 78 @ name: NULL  @ 84 @ 
+endif  @ 28 @ endif  @ 29 @ 
+name: NO_ALLOCATION  @ 36 @ name: NO_ALLOCATION  @ 37 @ 
+name: ENAMETOOLONG  @ 50 @ name: ENAMETOOLONG  @ 54 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+return  @ 67 @ return  @ 71 @ 
+name: path  @ 3 @ name: path  @ 4 @ 
+argument  @ 39 @ argument  @ 40 @ 
+expr  @ 67 @ expr  @ 71 @ 
+name: NULL  @ 56 @ name: NULL  @ 60 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+expr  @ 33 @ expr  @ 34 @ 
+expr  @ 55 @ expr  @ 59 @ 
+directive: ifndef  @ 6 @ directive: ifndef  @ 7 @ 
+name: ERANGE  @ 71 @ name: ERANGE  @ 77 @ 
+name: buf  @ 29 @ name: buf  @ 30 @ 
+name: NULL  @ 63 @ name: NULL  @ 67 @ 
+name: NULL  @ 74 @ name: NULL  @ 80 @ 
+literal: 0  @ 8 @ literal: 0  @ 9 @ 
+directive: ifndef  @ 52 @ directive: ifndef  @ 56 @ 
+comment: /* Ensure that the buffer is only as large as necessary.*/  @ 38 @ comment: /* Ensure that the buffer is only as large as necessary.  */  @ 39 @ 
+name: NO_ALLOCATION  @ 73 @ name: NO_ALLOCATION  @ 79 @ 
+operator: !=  @ 71 @ operator: !=  @ 77 @ 
+condition  @ 74 @ condition  @ 80 @ 
+name: NO_ALLOCATION  @ 52 @ name: NO_ALLOCATION  @ 56 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 4 @ 
+else  @ 26 @ else  @ 27 @ 
+argument  @ 71 @ argument  @ 77 @ 
+operator: !=  @ 71 @ operator: !=  @ 77 @ 
+decl  @ 4 @ decl  @ 5 @ 
+condition  @ 34 @ condition  @ 35 @ 
+name: NO_ALLOCATION  @ 6 @ name: NO_ALLOCATION  @ 7 @ 
+call  @ 16 @ call  @ 17 @ 
+name: path  @ 29 @ name: path  @ 30 @ 
+name: path  @ 56 @ name: path  @ 60 @ 
+operator: ==  @ 53 @ operator: ==  @ 57 @ 
+decl_stmt  @ 31 @ decl_stmt  @ 32 @ 
+argument  @ 16 @ argument  @ 17 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 64 @ 
+condition  @ 50 @ condition  @ 54 @ 
+if  @ 34 @ if  @ 35 @ 
+name: errno  @ 71 @ name: errno  @ 77 @ 
+literal: 0  @ 37 @ literal: 0  @ 38 @ 
+comment: /* Either buf was NULL all along, or `realloc' failed but we still have the original string.*/  @ 42 @ comment: /* Either buf was NULL all along, or `realloc' failed but
+	   we still have the original string.  */  @ 43 @ 
+name: size  @ 71 @ name: size  @ 77 @ 
+expr  @ 34 @ expr  @ 35 @ 
+block  @ 64 @ block  @ 68 @ 
+call  @ 55 @ call  @ 59 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 13 @ 
+operator: =  @ 43 @ operator: =  @ 45 @ 
+directive: endif  @ 58 @ directive: endif  @ 62 @ 
+operator: ==  @ 63 @ operator: ==  @ 67 @ 
+operator: )  @ 39 @ operator: )  @ 40 @ 
+name: path  @ 22 @ name: path  @ 23 @ 
+if_stmt  @ 34 @ if_stmt  @ 35 @ 
+decl  @ 7 @ decl  @ 8 @ 
+expr  @ 60 @ expr  @ 64 @ 
+argument  @ 33 @ argument  @ 34 @ 
+literal: 0  @ 34 @ literal: 0  @ 35 @ 
+call  @ 71 @ call  @ 77 @ 
+return  @ 46 @ return  @ 48 @ 
+argument  @ 33 @ argument  @ 34 @ 
+name: retval  @ 33 @ name: retval  @ 34 @ 
+operator: =  @ 29 @ operator: =  @ 30 @ 
+name: path  @ 21 @ name: path  @ 22 @ 
+operator: &&  @ 63 @ operator: &&  @ 67 @ 
+expr  @ 37 @ expr  @ 38 @ 
+name: free  @ 75 @ name: free  @ 81 @ 
+expr  @ 41 @ expr  @ 42 @ 
+block_content  @ 55 @ block_content  @ 59 @ 
+argument  @ 21 @ argument  @ 22 @ 
+argument_list  @ 71 @ argument_list  @ 77 @ 
+if  @ 22 @ if  @ 23 @ 
+name: result  @ 67 @ name: result  @ 71 @ 
+if_stmt  @ 50 @ if_stmt  @ 54 @ 
+name: alloc_size  @ 27 @ name: alloc_size  @ 28 @ 
+name: retval  @ 39 @ name: retval  @ 40 @ 
+if  @ 53 @ if  @ 57 @ 
+if  @ 10 @ if  @ 11 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: EINVAL  @ 12 @ name: EINVAL  @ 13 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 68 @ 
+expr  @ 46 @ expr  @ 48 @ 
+name: free  @ 55 @ name: free  @ 59 @ 
+endif  @ 58 @ endif  @ 62 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 60 @ 
+call  @ 60 @ call  @ 64 @ 
+condition  @ 19 @ condition  @ 20 @ 
+expr  @ 7 @ expr  @ 8 @ 
+name: path  @ 64 @ name: path  @ 68 @ 
+name: buf  @ 63 @ name: buf  @ 67 @ 
+expr_stmt  @ 39 @ expr_stmt  @ 40 @ 
+operator: ==  @ 50 @ operator: ==  @ 54 @ 
+argument_list  @ 16 @ argument_list  @ 17 @ 
+directive: else  @ 26 @ directive: else  @ 27 @ 
+modifier: *  @ 4 @ modifier: *  @ 5 @ 
+name: char  @ 4 @ name: char  @ 5 @ 
+if_stmt  @ 41 @ if_stmt  @ 42 @ 
+literal: 0  @ 63 @ literal: 0  @ 67 @ 
+argument  @ 16 @ argument  @ 17 @ 
+name: size  @ 60 @ name: size  @ 64 @ 
+block_content  @ 3 @ block_content  @ 4 @ 
+operator: !=  @ 71 @ operator: !=  @ 77 @ 
+name: buf  @ 1 @ name: buf  @ 2 @ 
+directive: ifndef  @ 73 @ directive: ifndef  @ 79 @ 
+operator: =  @ 39 @ operator: =  @ 40 @ 
+name: __getcwd  @ 1 @ name: __getcwd  @ 2 @ 
+name: errno  @ 50 @ name: errno  @ 54 @ 
+name: result  @ 63 @ name: result  @ 67 @ 
+literal: 0  @ 53 @ literal: 0  @ 57 @ 
+name: size  @ 37 @ name: size  @ 38 @ 
+block_content  @ 10 @ block_content  @ 11 @ 
+expr  @ 39 @ expr  @ 40 @ 
+expr  @ 71 @ expr  @ 77 @ 
+condition  @ 22 @ condition  @ 23 @ 
+name: buf  @ 46 @ name: buf  @ 48 @ 
+block  @ 51 @ block  @ 55 @ 
+type  @ 3 @ type  @ 4 @ 
+name: path  @ 33 @ name: path  @ 34 @ 
+name: path  @ 43 @ name: path  @ 45 @ 
+block_content  @ 12 @ block_content  @ 13 @ 
+operator: ==  @ 63 @ operator: ==  @ 67 @ 
+expr  @ 64 @ expr  @ 68 @ 
+block  @ 75 @ block  @ 81 @ 
+else  @ 25 @ else  @ 26 @ 
+argument_list  @ 21 @ argument_list  @ 22 @ 
+expr  @ 16 @ expr  @ 17 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: result  @ 4 @ name: result  @ 5 @ 
+type  @ 1 @ type  @ 2 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+directive: endif  @ 28 @ directive: endif  @ 29 @ 
+name: buf  @ 37 @ name: buf  @ 38 @ 
+name: buf  @ 19 @ name: buf  @ 20 @ 
+name: int  @ 31 @ name: int  @ 32 @ 
+block  @ 43 @ block  @ 45 @ 
+block  @ 2 @ block  @ 3 @ 
+name: path  @ 55 @ name: path  @ 59 @ 
+endif  @ 65 @ endif  @ 69 @ 
+name: __set_errno  @ 12 @ name: __set_errno  @ 13 @ 
+call  @ 12 @ call  @ 13 @ 
+name: NULL  @ 22 @ name: NULL  @ 23 @ 
+call  @ 75 @ call  @ 81 @ 
+init  @ 7 @ init  @ 8 @ 
+block  @ 20 @ block  @ 21 @ 
+block_content  @ 29 @ block_content  @ 30 @ 
+condition  @ 53 @ condition  @ 57 @ 
+name: assert  @ 71 @ name: assert  @ 77 @ 
+decl  @ 1 @ decl  @ 2 @ 
+name: NULL  @ 41 @ name: NULL  @ 42 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 17 @ 
+endif  @ 76 @ endif  @ 82 @ 
+return  @ 78 @ return  @ 84 @ 
+expr  @ 19 @ expr  @ 20 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: NULL  @ 13 @ name: NULL  @ 14 @ 
+if_stmt  @ 10 @ if_stmt  @ 11 @ 
+block  @ 11 @ block  @ 12 @ 
+call  @ 21 @ call  @ 22 @ 
+condition  @ 63 @ condition  @ 67 @ 
+name: free  @ 64 @ name: free  @ 68 @ 
+literal: 0  @ 71 @ literal: 0  @ 77 @ 
+expr  @ 50 @ expr  @ 54 @ 
+block  @ 29 @ block  @ 30 @ 
+operator: ==  @ 19 @ operator: ==  @ 20 @ 
+block_content  @ 64 @ block_content  @ 68 @ 
+return  @ 13 @ return  @ 14 @ 
+argument_list  @ 39 @ argument_list  @ 40 @ 
+call  @ 16 @ call  @ 17 @ 
+call  @ 33 @ call  @ 34 @ 
+block_content  @ 21 @ block_content  @ 22 @ 
+operator: =  @ 60 @ operator: =  @ 64 @ 
+name: buf  @ 41 @ name: buf  @ 42 @ 
+name: getcwd  @ 33 @ name: getcwd  @ 34 @ 
+modifier: *  @ 3 @ modifier: *  @ 4 @ 
+operator: (  @ 39 @ operator: (  @ 40 @ 
+expr  @ 55 @ expr  @ 59 @ 
+directive: endif  @ 76 @ directive: endif  @ 82 @ 
+if_stmt  @ 8 @ if_stmt  @ 9 @ 
+name: size_t  @ 1 @ name: size_t  @ 2 @ 
+if  @ 74 @ if  @ 80 @ 
+argument  @ 64 @ argument  @ 68 @ 
+name: __getpagesize  @ 16 @ name: __getpagesize  @ 17 @ 
+name: retval  @ 31 @ name: retval  @ 32 @ 
+argument_list  @ 55 @ argument_list  @ 59 @ 
+if_stmt  @ 63 @ if_stmt  @ 67 @ 
+define  @ 27 @ define  @ 28 @ 
+name: INLINE_SYSCALL  @ 33 @ name: INLINE_SYSCALL  @ 34 @ 
+expr  @ 8 @ expr  @ 9 @ 
+name: size_t  @ 7 @ name: size_t  @ 8 @ 
+argument_list  @ 75 @ argument_list  @ 81 @ 
+ifndef  @ 73 @ ifndef  @ 79 @ 
+block_content  @ 37 @ block_content  @ 38 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 34 @ 
+condition  @ 10 @ condition  @ 11 @ 
+ifndef  @ 36 @ ifndef  @ 37 @ 
+block  @ 35 @ block  @ 36 @ 
+expr_stmt  @ 75 @ expr_stmt  @ 81 @ 
+macro  @ 27 @ macro  @ 28 @ 
+expr  @ 10 @ expr  @ 11 @ 
+name: size  @ 7 @ name: size  @ 8 @ 
+condition  @ 8 @ condition  @ 9 @ 
+argument  @ 12 @ argument  @ 13 @ 
+name: size_t  @ 39 @ name: size_t  @ 40 @ 
+operator: =  @ 21 @ operator: =  @ 22 @ 
+decl  @ 3 @ decl  @ 4 @ 
+operator: =  @ 56 @ operator: =  @ 60 @ 
+name: realloc  @ 39 @ name: realloc  @ 40 @ 
+argument  @ 60 @ argument  @ 64 @ 
+name: result  @ 60 @ name: result  @ 64 @ 
+if  @ 8 @ if  @ 9 @ 
+name: NULL  @ 23 @ name: NULL  @ 24 @ 
+block_content  @ 53 @ block_content  @ 57 @ 
+function  @ 1 @ function  @ 1 @ 
+if  @ 50 @ if  @ 54 @ 
+name: alloc_size  @ 21 @ name: alloc_size  @ 22 @ 
+if_stmt  @ 74 @ if_stmt  @ 80 @ 
+name: generic_getcwd  @ 60 @ name: generic_getcwd  @ 64 @ 
+argument  @ 75 @ argument  @ 81 @ 
+operator: ==  @ 41 @ operator: ==  @ 42 @ 
+argument  @ 60 @ argument  @ 64 @ 
+argument  @ 33 @ argument  @ 34 @ 
+argument_list  @ 64 @ argument_list  @ 68 @ 
+directive: define  @ 27 @ directive: define  @ 28 @ 
+expr  @ 60 @ expr  @ 64 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 45 @ 
+call  @ 39 @ call  @ 40 @ 
+operator: &&  @ 53 @ operator: &&  @ 57 @ 
+expr  @ 21 @ expr  @ 22 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+name: NULL  @ 37 @ name: NULL  @ 38 @ 
+condition  @ 37 @ condition  @ 38 @ 
+block_content  @ 43 @ block_content  @ 45 @ 
+if  @ 63 @ if  @ 67 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 30 @ 
+condition  @ 41 @ condition  @ 42 @ 
+expr  @ 33 @ expr  @ 34 @ 
+comment: /* It should never happen that the `getcwd' syscall failed because the buffer is too small if we allocated the buffer ourselves large enough.*/  @ 70 @ comment: /* It should never happen that the `getcwd' syscall failed because
+     the buffer is too small if we allocated the buffer ourselveslarge enough.  */  @ 74 @ 
+ifndef  @ 52 @ ifndef  @ 56 @ 
+name: buf  @ 53 @ name: buf  @ 57 @ 
+directive: ifndef  @ 62 @ directive: ifndef  @ 66 @ 
+directive: endif  @ 65 @ directive: endif  @ 69 @ 
+expr  @ 78 @ expr  @ 84 @ 
+name: path  @ 75 @ name: path  @ 81 @ 
+name: malloc  @ 21 @ name: malloc  @ 22 @ 
+if  @ 37 @ if  @ 38 @ 
+argument_list  @ 12 @ argument_list  @ 13 @ 
+expr  @ 64 @ expr  @ 68 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+directive: endif  @ 44 @ directive: endif  @ 46 @ 
+ifndef  @ 6 @ ifndef  @ 7 @ 
+expr  @ 21 @ expr  @ 22 @ 
+

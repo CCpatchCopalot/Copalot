@@ -1,0 +1,41 @@
+GF_Err gf_odf_read_iod(GF_BitStream *bs, GF_InitialObjectDescriptor *iod, u32 DescSize)
+{
+	GF_Err e;
+	u32 urlflag, read;
+	u32 tmp_size, nbBytes = 0;
+	if (! iod) return GF_BAD_PARAM;
+
+	iod->objectDescriptorID = gf_bs_read_int(bs, 10);
+	urlflag = gf_bs_read_int(bs, 1);
+	iod->inlineProfileFlag = gf_bs_read_int(bs, 1);
+	/*reserved = */gf_bs_read_int(bs, 4);
+	nbBytes += 2;
+
+	if (urlflag) {
+		e = gf_odf_read_url_string(bs, & iod->URLString, &read);
+		if (e) return e;
+		nbBytes += read;
+	} else {
+		iod->OD_profileAndLevel = gf_bs_read_int(bs, 8);
+		iod->scene_profileAndLevel = gf_bs_read_int(bs, 8);
+		iod->audio_profileAndLevel = gf_bs_read_int(bs, 8);
+		iod->visual_profileAndLevel = gf_bs_read_int(bs, 8);
+		iod->graphics_profileAndLevel = gf_bs_read_int(bs, 8);
+		nbBytes += 5;
+	}
+
+	while (nbBytes < DescSize) {
+		GF_Descriptor *tmp = NULL;
+		e = gf_odf_parse_descriptor(bs, &tmp, &tmp_size);
+		if (e) return e;
+		if (!tmp) return GF_ODF_INVALID_DESCRIPTOR;
+		e = AddDescriptorToIOD(iod, tmp);
+		if (e) {
+			gf_odf_delete_descriptor(tmp);
+			return e;
+		}
+		nbBytes += tmp_size + gf_odf_size_field_size(tmp_size);
+	}
+	if (DescSize != nbBytes) return GF_ODF_INVALID_DESCRIPTOR;
+	return GF_OK;
+}

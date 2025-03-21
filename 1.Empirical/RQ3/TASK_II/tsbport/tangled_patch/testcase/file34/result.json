@@ -1,0 +1,360 @@
+{
+    "testcase": {
+        "file34": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "1 -> 0",
+                        "L2": "1 -> 0",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "0",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "12 -> 11",
+                        "L2": "14 -> 13",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "11",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                },
+                "Same: get_array_object_generic -> get_array_object_generic": {
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 503 -> 498",
+                        "L2": "3: Unique Matched by Source code 508 -> 503"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 509 -> 504",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 510->505 ([[505, 1.0], [499, 0.6341463414634146]])"
+                    }
+                },
+                "Same: get_tuple_object -> get_tuple_object": {
+                    "Seg_5": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 538 -> 533",
+                        "L2": "3: Unique Matched by Source code 538 -> 533"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 540 -> 535",
+                        "L2": "3: Unique Matched by Source code 542 -> 537"
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 550 -> 545",
+                        "L2": "3: Unique Matched by Source code 550 -> 545"
+                    },
+                    "Seg_8": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 553 -> 548",
+                        "L2": "3: Unique Matched by Source code 553 -> 548"
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 555 -> 550",
+                        "L2": "3: Unique Matched by Source code 555 -> 550"
+                    }
+                },
+                "Same: get_list_object -> get_list_object": {
+                    "Seg_10": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 561 -> 556",
+                        "L2": "3: Unique Matched by Source code 563 -> 558"
+                    }
+                },
+                "Same: get_set_object -> get_set_object": {
+                    "Seg_11": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 619 -> 615",
+                        "L2": "3: Unique Matched by Source code 619 -> 615"
+                    },
+                    "Seg_12": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 629 -> 627",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 632->630"
+                    },
+                    "Seg_13": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 633 -> 631",
+                        "L2": "3: Unique Matched by Source code 634 -> 632"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 0,
+                        "add_hunk": [],
+                        "delete_location": [
+                            0,
+                            0
+                        ],
+                        "delete_hunk": [
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 11,
+                        "add_hunk": [
+                            "static R_TH_LOCAL ut32 magic_int;\n",
+                            "static R_TH_LOCAL ut32 symbols_ordinal = 0;\n",
+                            "static R_TH_LOCAL RList *refs = NULL; // If you don't have a good reason, do not change this. And also checkout !refs in get_code_object()\n"
+                        ],
+                        "delete_location": [
+                            11,
+                            13
+                        ],
+                        "delete_hunk": [
+                            "static ut32 magic_int;\n",
+                            "static ut32 symbols_ordinal = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 498,
+                        "add_hunk": [
+                            "\t\tif (!tmp || !r_list_append (ret->data, tmp)) {\n"
+                        ],
+                        "delete_location": [
+                            498,
+                            503
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (!tmp) {\n",
+                            "\t\t\tr_list_free (ret->data);\n",
+                            "\t\t\tR_FREE (ret);\n",
+                            "\t\t\treturn NULL;\n",
+                            "\t\t}\n",
+                            "\t\tif (!r_list_append (ret->data, tmp)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 504,
+                        "add_hunk": [
+                            "\t\t\t((RList*)ret->data)->free = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "delete",
+                        "add_location": 7,
+                        "add_hunk": [],
+                        "delete_location": [
+                            533,
+                            533
+                        ],
+                        "delete_hunk": [
+                            "\tpyc_object *ret = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 535,
+                        "add_hunk": [
+                            "\tut32 n = get_ut32 (buffer, &error);\n"
+                        ],
+                        "delete_location": [
+                            535,
+                            537
+                        ],
+                        "delete_hunk": [
+                            "\tut32 n = 0;\n",
+                            "\tn = get_ut32 (buffer, &error);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": 545,
+                        "add_hunk": [
+                            "\tpyc_object *ret = get_array_object_generic (buffer, n);\n"
+                        ],
+                        "delete_location": [
+                            545,
+                            545
+                        ],
+                        "delete_hunk": [
+                            "\tret = get_array_object_generic (buffer, n);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            548,
+                            548
+                        ],
+                        "delete_hunk": [
+                            "\t\treturn ret;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 550,
+                        "add_hunk": [
+                            "\treturn ret;\n"
+                        ],
+                        "delete_location": [
+                            550,
+                            550
+                        ],
+                        "delete_hunk": [
+                            "\treturn NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "change",
+                        "add_location": 556,
+                        "add_hunk": [
+                            "\tut32 n = get_ut32 (buffer, &error);\n"
+                        ],
+                        "delete_location": [
+                            556,
+                            558
+                        ],
+                        "delete_hunk": [
+                            "\tut32 n = 0;\n",
+                            "\tn = get_ut32 (buffer, &error);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            615,
+                            615
+                        ],
+                        "delete_hunk": [
+                            "\tpyc_object *ret = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "change",
+                        "add_location": 627,
+                        "add_hunk": [
+                            "\tpyc_object *ret = get_array_object_generic (buffer, n);\n",
+                            "\tif (ret) {\n"
+                        ],
+                        "delete_location": [
+                            627,
+                            630
+                        ],
+                        "delete_hunk": [
+                            "\tret = get_array_object_generic (buffer, n);\n",
+                            "\tif (!ret) {\n",
+                            "\t\treturn NULL;\n",
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "add",
+                        "add_location": 631,
+                        "add_hunk": [
+                            "\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt",
+                            "src:decl_stmt",
+                            "src:decl_stmt"
+                        ]
+                    }
+                },
+                "Same: get_array_object_generic -> get_array_object_generic": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: get_tuple_object -> get_tuple_object": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: get_list_object -> get_list_object": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: get_set_object -> get_set_object": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "MOVE_TO",
+                "sanity_check",
+                "change_value",
+                "change_type"
+            ]
+        }
+    }
+}

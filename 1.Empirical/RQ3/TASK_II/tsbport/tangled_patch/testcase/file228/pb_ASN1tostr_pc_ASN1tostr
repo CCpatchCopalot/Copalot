@@ -1,0 +1,255 @@
+name: CURL_ASN1_TELETEX_STRING  @ 39 @ name: CURL_ASN1_TELETEX_STRING  @ 30 @ 
+name: CURL_ASN1_OCTET_STRING  @ 21 @ name: CURL_ASN1_OCTET_STRING  @ 17 @ 
+name: beg  @ 28 @ name: beg  @ 22 @ 
+name: utf8asn1str  @ 44 @ name: string2str  @ 35 @ 
+name: elem  @ 12 @ name: elem  @ 11 @ 
+argument  @ 16 @ argument  @ 14 @ 
+argument  @ 28 @ argument  @ 22 @ 
+operator: ->  @ 22 @ operator: ->  @ 18 @ 
+name  @ 31 @ name  @ 24 @ 
+expr  @ 42 @ expr  @ 33 @ 
+operator: ->  @ 28 @ operator: ->  @ 22 @ 
+name: beg  @ 19 @ name: beg  @ 16 @ 
+name: end  @ 12 @ name: end  @ 11 @ 
+name: beg  @ 16 @ name: beg  @ 14 @ 
+case  @ 27 @ case  @ 21 @ 
+expr  @ 39 @ expr  @ 30 @ 
+expr  @ 43 @ expr  @ 34 @ 
+expr  @ 44 @ expr  @ 35 @ 
+name: octet2str  @ 22 @ name: octet2str  @ 18 @ 
+if  @ 7 @ if  @ 6 @ 
+name: elem  @ 34 @ name: elem  @ 26 @ 
+call  @ 34 @ call  @ 26 @ 
+expr  @ 44 @ expr  @ 35 @ 
+name: Curl_asn1Element  @ 1 @ name: Curl_asn1Element  @ 1 @ 
+name: CURL_ASN1_IA5_STRING  @ 40 @ name: CURL_ASN1_IA5_STRING  @ 31 @ 
+name: end  @ 31 @ name: end  @ 24 @ 
+return  @ 5 @ return  @ 4 @ 
+expr  @ 44 @ expr  @ 35 @ 
+case  @ 21 @ case  @ 17 @ 
+expr  @ 37 @ expr  @ 28 @ 
+condition  @ 10 @ condition  @ 9 @ 
+case  @ 14 @ case  @ 12 @ 
+argument  @ 25 @ argument  @ 20 @ 
+expr  @ 16 @ expr  @ 14 @ 
+expr  @ 7 @ expr  @ 6 @ 
+name: CURL_ASN1_VISIBLE_STRING  @ 41 @ name: CURL_ASN1_VISIBLE_STRING  @ 32 @ 
+name  @ 22 @ name  @ 18 @ 
+operator: ->  @ 44 @ operator: ->  @ 35 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+call  @ 25 @ call  @ 20 @ 
+argument  @ 31 @ argument  @ 24 @ 
+expr  @ 12 @ expr  @ 11 @ 
+expr  @ 34 @ expr  @ 26 @ 
+name: elem  @ 16 @ name: elem  @ 14 @ 
+name: end  @ 16 @ name: end  @ 14 @ 
+name: result  @ 48 @ name: NULL  @ 38 @ 
+name: struct  @ 1 @ name: struct  @ 1 @ 
+expr  @ 34 @ expr  @ 26 @ 
+argument  @ 44 @ argument  @ 35 @ 
+name  @ 12 @ name  @ 11 @ 
+name: CURL_ASN1_ENUMERATED  @ 15 @ name: CURL_ASN1_ENUMERATED  @ 13 @ 
+name: CURL_ASN1_NUMERIC_STRING  @ 37 @ name: CURL_ASN1_NUMERIC_STRING  @ 28 @ 
+operator: ->  @ 31 @ operator: ->  @ 24 @ 
+name: CURL_ASN1_OBJECT_IDENTIFIER  @ 27 @ name: CURL_ASN1_OBJECT_IDENTIFIER  @ 21 @ 
+case  @ 33 @ case  @ 25 @ 
+argument_list  @ 31 @ argument_list  @ 24 @ 
+block_content  @ 5 @ block_content  @ 4 @ 
+name: beg  @ 12 @ name: beg  @ 11 @ 
+name: elem  @ 22 @ name: elem  @ 18 @ 
+block_content  @ 8 @ block_content  @ 7 @ 
+case  @ 36 @ case  @ 27 @ 
+argument  @ 44 @ argument  @ 35 @ 
+name: CURL_ASN1_BIT_STRING  @ 18 @ name: CURL_ASN1_BIT_STRING  @ 15 @ 
+expr  @ 12 @ expr  @ 11 @ 
+expr  @ 19 @ expr  @ 16 @ 
+expr  @ 41 @ expr  @ 32 @ 
+operator: ->  @ 31 @ operator: ->  @ 24 @ 
+argument_list  @ 25 @ argument_list  @ 20 @ 
+expr  @ 33 @ expr  @ 25 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+argument_list  @ 34 @ argument_list  @ 26 @ 
+operator: ->  @ 22 @ operator: ->  @ 18 @ 
+literal: ""  @ 25 @ literal: ""  @ 20 @ 
+expr  @ 8 @ expr  @ 7 @ 
+argument_list  @ 19 @ argument_list  @ 16 @ 
+operator: ->  @ 34 @ operator: ->  @ 26 @ 
+expr  @ 4 @ expr  @ 3 @ 
+argument  @ 16 @ argument  @ 14 @ 
+name: elem  @ 1 @ name: elem  @ 1 @ 
+name: elem  @ 4 @ name: elem  @ 3 @ 
+expr  @ 11 @ expr  @ 10 @ 
+argument  @ 12 @ argument  @ 11 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 10 @ expr  @ 9 @ 
+expr  @ 5 @ expr  @ 4 @ 
+comment: /* No conversion of structured elements. */  @ 5 @ comment: /* No conversion of structured elements. */  @ 4 @ 
+name: Curl_dyn_addn  @ 25 @ name: strdup  @ 20 @ 
+name: elem  @ 8 @ name: elem  @ 7 @ 
+expr  @ 31 @ expr  @ 24 @ 
+expr  @ 30 @ expr  @ 23 @ 
+argument_list  @ 16 @ argument_list  @ 14 @ 
+call  @ 22 @ call  @ 18 @ 
+call  @ 28 @ call  @ 22 @ 
+case  @ 39 @ case  @ 30 @ 
+condition  @ 4 @ condition  @ 3 @ 
+name: type  @ 7 @ name: type  @ 6 @ 
+operator: ->  @ 34 @ operator: ->  @ 26 @ 
+expr  @ 44 @ expr  @ 35 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+operator: ->  @ 19 @ operator: ->  @ 16 @ 
+argument_list  @ 44 @ argument_list  @ 35 @ 
+if_stmt  @ 7 @ if_stmt  @ 6 @ 
+name: elem  @ 12 @ name: elem  @ 11 @ 
+operator: ->  @ 12 @ operator: ->  @ 11 @ 
+argument  @ 28 @ argument  @ 22 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 7 @ 
+if  @ 4 @ if  @ 3 @ 
+expr  @ 22 @ expr  @ 18 @ 
+block_content  @ 11 @ block_content  @ 10 @ 
+name  @ 34 @ name  @ 26 @ 
+name  @ 12 @ name  @ 11 @ 
+call  @ 19 @ call  @ 16 @ 
+argument_list  @ 12 @ argument_list  @ 11 @ 
+name: int2str  @ 16 @ name: int2str  @ 14 @ 
+call  @ 31 @ call  @ 24 @ 
+name: beg  @ 44 @ name: beg  @ 35 @ 
+expr  @ 38 @ expr  @ 29 @ 
+operator: ->  @ 19 @ operator: ->  @ 16 @ 
+name  @ 34 @ name  @ 26 @ 
+name: beg  @ 22 @ name: beg  @ 18 @ 
+name: elem  @ 31 @ name: elem  @ 24 @ 
+block  @ 10 @ block  @ 9 @ 
+name  @ 1 @ name  @ 1 @ 
+name: CURL_ASN1_UTC_TIME  @ 30 @ name: CURL_ASN1_UTC_TIME  @ 23 @ 
+name: elem  @ 19 @ name: elem  @ 16 @ 
+argument  @ 28 @ argument  @ 22 @ 
+name: end  @ 28 @ name: end  @ 22 @ 
+name: CURL_ASN1_PRINTABLE_STRING  @ 38 @ name: CURL_ASN1_PRINTABLE_STRING  @ 29 @ 
+name: constructed  @ 4 @ name: constructed  @ 3 @ 
+case  @ 40 @ case  @ 31 @ 
+expr  @ 18 @ expr  @ 15 @ 
+name: elem  @ 44 @ name: elem  @ 35 @ 
+expr  @ 16 @ expr  @ 14 @ 
+name: TRUE  @ 28 @ name: TRUE  @ 22 @ 
+expr  @ 12 @ expr  @ 11 @ 
+expr  @ 24 @ expr  @ 19 @ 
+expr  @ 19 @ expr  @ 16 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: type  @ 44 @ name: type  @ 35 @ 
+expr  @ 28 @ expr  @ 22 @ 
+name: CURL_ASN1_NULL  @ 24 @ name: CURL_ASN1_NULL  @ 19 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+return  @ 48 @ return  @ 38 @ 
+name: elem  @ 44 @ name: elem  @ 35 @ 
+argument  @ 22 @ argument  @ 18 @ 
+expr  @ 27 @ expr  @ 21 @ 
+expr  @ 16 @ expr  @ 14 @ 
+block  @ 8 @ block  @ 7 @ 
+case  @ 24 @ case  @ 19 @ 
+argument  @ 19 @ argument  @ 16 @ 
+name: tag  @ 8 @ name: tag  @ 7 @ 
+name: bit2str  @ 19 @ name: bit2str  @ 16 @ 
+expr  @ 21 @ expr  @ 17 @ 
+name: CURL_ASN1_UNIVERSAL_STRING  @ 42 @ name: CURL_ASN1_UNIVERSAL_STRING  @ 33 @ 
+name: type  @ 1 @ name: type  @ 1 @ 
+name: elem  @ 34 @ name: elem  @ 26 @ 
+name  @ 22 @ name  @ 18 @ 
+argument  @ 34 @ argument  @ 26 @ 
+name: beg  @ 34 @ name: beg  @ 26 @ 
+case  @ 37 @ case  @ 28 @ 
+argument  @ 44 @ argument  @ 35 @ 
+case  @ 43 @ case  @ 34 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+expr  @ 31 @ expr  @ 24 @ 
+name  @ 44 @ name  @ 35 @ 
+expr  @ 28 @ expr  @ 22 @ 
+expr  @ 28 @ expr  @ 22 @ 
+name  @ 16 @ name  @ 14 @ 
+block  @ 2 @ block  @ 2 @ 
+operator: ->  @ 8 @ operator: ->  @ 7 @ 
+case  @ 41 @ case  @ 32 @ 
+name  @ 28 @ name  @ 22 @ 
+name: end  @ 22 @ name: end  @ 18 @ 
+expr  @ 31 @ expr  @ 24 @ 
+expr  @ 36 @ expr  @ 27 @ 
+expr  @ 28 @ expr  @ 22 @ 
+name  @ 28 @ name  @ 22 @ 
+argument_list  @ 22 @ argument_list  @ 18 @ 
+name: elem  @ 22 @ name: elem  @ 18 @ 
+name: type  @ 8 @ name: type  @ 7 @ 
+case  @ 15 @ case  @ 13 @ 
+operator: ->  @ 4 @ operator: ->  @ 3 @ 
+argument  @ 19 @ argument  @ 16 @ 
+name: end  @ 44 @ name: end  @ 35 @ 
+call  @ 16 @ call  @ 14 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 22 @ argument  @ 18 @ 
+name: elem  @ 19 @ name: elem  @ 16 @ 
+name: elem  @ 31 @ name: elem  @ 24 @ 
+name: ASN1tostr  @ 1 @ name: ASN1tostr  @ 1 @ 
+name: elem  @ 28 @ name: elem  @ 22 @ 
+operator: =  @ 8 @ operator: =  @ 7 @ 
+expr  @ 15 @ expr  @ 13 @ 
+operator: ->  @ 44 @ operator: ->  @ 35 @ 
+name: bool2str  @ 12 @ name: bool2str  @ 11 @ 
+operator: ->  @ 28 @ operator: ->  @ 22 @ 
+decl  @ 1 @ decl  @ 1 @ 
+case  @ 42 @ case  @ 33 @ 
+operator: ->  @ 16 @ operator: ->  @ 14 @ 
+type  @ 1 @ type  @ 1 @ 
+name  @ 44 @ name  @ 35 @ 
+name: CURL_ASN1_BMP_STRING  @ 43 @ name: CURL_ASN1_BMP_STRING  @ 34 @ 
+name: OID2str  @ 28 @ name: OID2str  @ 22 @ 
+expr  @ 48 @ expr  @ 38 @ 
+switch  @ 10 @ switch  @ 9 @ 
+name: elem  @ 28 @ name: elem  @ 22 @ 
+name: CURLE_OK  @ 5 @ name: NULL  @ 4 @ 
+expr  @ 40 @ expr  @ 31 @ 
+name: CURL_ASN1_INTEGER  @ 14 @ name: CURL_ASN1_INTEGER  @ 12 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+if_stmt  @ 4 @ if_stmt  @ 3 @ 
+name: CURL_ASN1_BOOLEAN  @ 11 @ name: CURL_ASN1_BOOLEAN  @ 10 @ 
+argument  @ 31 @ argument  @ 24 @ 
+block  @ 5 @ block  @ 4 @ 
+name: GTime2str  @ 34 @ name: GTime2str  @ 26 @ 
+case  @ 38 @ case  @ 29 @ 
+argument  @ 34 @ argument  @ 26 @ 
+argument_list  @ 28 @ argument_list  @ 22 @ 
+name: end  @ 34 @ name: end  @ 26 @ 
+argument  @ 12 @ argument  @ 11 @ 
+expr  @ 14 @ expr  @ 12 @ 
+operator: !  @ 7 @ operator: !  @ 6 @ 
+name  @ 19 @ name  @ 16 @ 
+expr  @ 19 @ expr  @ 16 @ 
+name: UTime2str  @ 31 @ name: UTime2str  @ 24 @ 
+expr  @ 34 @ expr  @ 26 @ 
+name  @ 16 @ name  @ 14 @ 
+operator: ->  @ 12 @ operator: ->  @ 11 @ 
+operator: ->  @ 16 @ operator: ->  @ 14 @ 
+case  @ 18 @ case  @ 15 @ 
+function  @ 1 @ function  @ 1 @ 
+name  @ 4 @ name  @ 3 @ 
+name  @ 8 @ name  @ 7 @ 
+name  @ 31 @ name  @ 24 @ 
+name: elem  @ 16 @ name: elem  @ 14 @ 
+expr  @ 22 @ expr  @ 18 @ 
+expr  @ 25 @ expr  @ 20 @ 
+condition  @ 7 @ condition  @ 6 @ 
+name  @ 19 @ name  @ 16 @ 
+call  @ 44 @ call  @ 35 @ 
+case  @ 11 @ case  @ 10 @ 
+expr  @ 25 @ expr  @ 20 @ 
+name: CURL_ASN1_UTF8_STRING  @ 36 @ name: CURL_ASN1_UTF8_STRING  @ 27 @ 
+name: type  @ 10 @ name: type  @ 9 @ 
+decl  @ 1 @ decl  @ 1 @ 
+case  @ 30 @ case  @ 23 @ 
+name: end  @ 19 @ name: end  @ 16 @ 
+expr  @ 22 @ expr  @ 18 @ 
+call  @ 12 @ call  @ 11 @ 
+comment: /* Type not forced: use element tag as type. */  @ 8 @ comment: /* Type not forced: use element tag as type. */  @ 7 @ 
+name: CURLcode  @ 1 @ name: char  @ 1 @ 
+name: CURL_ASN1_GENERALIZED_TIME  @ 33 @ name: CURL_ASN1_GENERALIZED_TIME  @ 25 @ 
+name: beg  @ 31 @ name: beg  @ 24 @ 
+

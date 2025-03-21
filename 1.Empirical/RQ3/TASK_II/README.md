@@ -1,0 +1,1 @@
+To get the results of impact of uncritical changes in patch backporting, just run the script `get_results.py` and get the results in `results.json`

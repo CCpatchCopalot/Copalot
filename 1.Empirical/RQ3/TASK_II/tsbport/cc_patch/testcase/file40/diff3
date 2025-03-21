@@ -1,0 +1,8 @@
+661c661
+<  if (isLua(ci))  /* if Lua function, add source:line information */
+---
+>  if (isLua(ci)) {  /* if Lua function, add source:line information */
+662a663,665
+>    setobjs2s(L, L->top - 2, L->top - 1);  /* remove 'msg' from the stack */
+>    L->top--;
+>  }

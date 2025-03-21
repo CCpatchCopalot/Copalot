@@ -1,0 +1,860 @@
+call  @ 44 @ call  @ 66 @ 
+comment: /* the name of the cipher suite used, e.g. ECDHE_RSA_AES_256_GCM_SHA384. */  @ 28 @ comment: /* the name of the cipher suite used, e.g. ECDHE_RSA_AES_256_GCM_SHA384. */  @ 37 @ 
+decl_stmt  @ 19 @ decl_stmt  @ 21 @ 
+name: certverifyresult  @ 26 @ name: certverifyresult  @ 30 @ 
+decl  @ 15 @ decl  @ 17 @ 
+expr  @ 65 @ expr  @ 87 @ 
+endif  @ 43 @ endif  @ 65 @ 
+expr  @ 71 @ expr  @ 93 @ 
+type  @ 2 @ type  @ 15 @ 
+name: ptr  @ 29 @ name: ptr  @ 38 @ 
+directive: ifdef  @ 47 @ directive: ifdef  @ 69 @ 
+decl  @ 19 @ decl  @ 21 @ 
+specifier: const  @ 26 @ specifier: const  @ 34 @ 
+literal: ", certclock);
+
+    certclock = gnutls_x509_crt_get_expiration_time(x509_cert);showtime(data, "  @ 365 @ literal: "expire date"  @ 433 @ 
+argument  @ 37 @ argument  @ 55 @ 
+operator: ->  @ 16 @ operator: ->  @ 18 @ 
+argument  @ 31 @ argument  @ 42 @ 
+call  @ 51 @ call  @ 73 @ 
+argument  @ 31 @ argument  @ 42 @ 
+name: certverifyresult  @ 77 @ name: certverifyresult  @ 104 @ 
+operator: =  @ 65 @ operator: =  @ 87 @ 
+decl  @ 26 @ decl  @ 30 @ 
+literal: ",certname, SSL_HOST_DISPNAME());
+  }else
+    infof(data, "  @ 277 @ literal: "\t common name: %s (matched)\n"  @ 334 @ 
+name: size  @ 11 @ name: size  @ 12 @ 
+specifier: const  @ 25 @ specifier: const  @ 33 @ 
+operator: &&  @ 39 @ operator: &&  @ 60 @ 
+name: ssl_connect_data  @ 14 @ name: ssl_connect_data  @ 16 @ 
+name: SSL_CONN_CONFIG  @ 71 @ name: SSL_CONN_CONFIG  @ 93 @ 
+block_content  @ 37 @ block_content  @ 53 @ 
+call  @ 35 @ call  @ 51 @ 
+name: certclock  @ 12 @ name: certclock  @ 13 @ 
+expr  @ 29 @ expr  @ 39 @ 
+literal: 0  @ 6 @ literal: 0  @ 7 @ 
+operator: ++  @ 61 @ operator: ++  @ 83 @ 
+literal: '%s'  @ 277 @ literal: "target host name '%s'"  @ 325 @ 
+call  @ 31 @ call  @ 42 @ 
+argument  @ 76 @ argument  @ 103 @ 
+literal: ");
+  }else {
+    if(certclock>time(NULL)) {
+      if(SSL_CONN_CONFIG(verifypeer)) {failf(data, "  @ 320 @ literal: "server certificate not activated yet."  @ 379 @ 
+name: data  @ 31 @ name: data  @ 42 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 103 @ 
+name: rc  @ 77 @ name: rc  @ 104 @ 
+expr  @ 36 @ expr  @ 52 @ 
+argument  @ 74 @ argument  @ 101 @ 
+name: ssl  @ 14 @ name: ssl  @ 16 @ 
+modifier: *  @ 13 @ modifier: *  @ 14 @ 
+expr  @ 62 @ expr  @ 84 @ 
+argument_list  @ 29 @ argument_list  @ 40 @ 
+name: hostname  @ 25 @ name: hostname  @ 28 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 108 @ 
+block  @ 75 @ block  @ 102 @ 
+name: i  @ 55 @ name: i  @ 77 @ 
+if_stmt  @ 75 @ if_stmt  @ 102 @ 
+decl  @ 8 @ decl  @ 9 @ 
+decl  @ 2 @ decl  @ 3 @ 
+argument_list  @ 35 @ argument_list  @ 51 @ 
+name: unsigned  @ 4 @ name: unsigned  @ 5 @ 
+type  @ 2 @ type  @ 3 @ 
+expr  @ 85 @ expr  @ 112 @ 
+name: username  @ 39 @ name: username  @ 58 @ 
+name: i  @ 61 @ name: i  @ 83 @ 
+name: CURLE_PEER_FAILED_VERIFICATION  @ 46 @ name: CURLE_PEER_FAILED_VERIFICATION  @ 68 @ 
+directive: endif  @ 43 @ directive: endif  @ 65 @ 
+name: gnutls_datum_t  @ 5 @ name: gnutls_datum_t  @ 6 @ 
+name: session  @ 29 @ name: session  @ 39 @ 
+expr  @ 85 @ expr  @ 112 @ 
+expr  @ 37 @ expr  @ 54 @ 
+name: unsigned  @ 22 @ name: unsigned  @ 24 @ 
+name: struct  @ 2 @ name: struct  @ 2 @ 
+name: certname  @ 10 @ name: certname  @ 11 @ 
+name: infof  @ 31 @ name: infof  @ 42 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_AACOMPROMISE:
+            crl_reason = "  @ 172 @ literal: "will be removed from delta CRL"  @ 199 @ 
+name: algo  @ 21 @ name: algo  @ 23 @ 
+name: set  @ 54 @ name: set  @ 76 @ 
+argument_list  @ 37 @ argument_list  @ 54 @ 
+type  @ 4 @ type  @ 5 @ 
+control  @ 61 @ control  @ 83 @ 
+name: struct  @ 2 @ name: struct  @ 15 @ 
+expr  @ 65 @ expr  @ 87 @ 
+argument  @ 39 @ argument  @ 58 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_REMOVEFROMCRL:
+            crl_reason = "  @ 164 @ literal: "operation has ceased"  @ 191 @ 
+name: Curl_easy  @ 2 @ name: Curl_easy  @ 15 @ 
+operator: !  @ 39 @ operator: !  @ 59 @ 
+name: end  @ 63 @ name: end  @ 85 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+operator: =  @ 61 @ operator: =  @ 83 @ 
+literal: ");
+  }else
+    infof(data, "  @ 93 @ literal: "\t server certificate verification SKIPPED\n"  @ 126 @ 
+expr  @ 76 @ expr  @ 103 @ 
+name: result  @ 59 @ name: result  @ 81 @ 
+expr  @ 61 @ expr  @ 83 @ 
+modifier: *  @ 15 @ modifier: *  @ 17 @ 
+call  @ 76 @ call  @ 103 @ 
+name: backend  @ 16 @ name: backend  @ 18 @ 
+argument_list  @ 44 @ argument_list  @ 66 @ 
+index  @ 14 @ index  @ 16 @ 
+decl_stmt  @ 13 @ decl_stmt  @ 14 @ 
+name  @ 16 @ name  @ 18 @ 
+name: gnutls_x509_crt_t  @ 7 @ name: gnutls_x509_crt_t  @ 8 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: gnutls_cipher_get  @ 39 @ name: gnutls_cipher_get  @ 60 @ 
+name: data  @ 62 @ name: data  @ 84 @ 
+call  @ 74 @ call  @ 101 @ 
+operator: =  @ 29 @ operator: =  @ 38 @ 
+name: failf  @ 76 @ name: failf  @ 103 @ 
+expr  @ 29 @ expr  @ 38 @ 
+init  @ 26 @ init  @ 30 @ 
+block_content  @ 62 @ block_content  @ 84 @ 
+return  @ 67 @ return  @ 89 @ 
+name: rc  @ 17 @ name: rc  @ 19 @ 
+call  @ 71 @ call  @ 93 @ 
+type  @ 63 @ type  @ 85 @ 
+name: verify_status  @ 74 @ name: verify_status  @ 101 @ 
+expr  @ 74 @ expr  @ 101 @ 
+return  @ 46 @ return  @ 68 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_CACOMPROMISE:
+            crl_reason = "  @ 144 @ literal: "unspecified reason"  @ 171 @ 
+name: session  @ 29 @ name: session  @ 40 @ 
+name: connssl  @ 14 @ name: connssl  @ 16 @ 
+literal: ");
+  }size = sizeof(certname);
+  rc = gnutls_x509_crt_get_dn_by_oid(x509_cert, GNUTLS_OID_X520_COMMON_NAME, 0, /* the first and only one */ FALSE, certname,&size);
+  if(rc) {infof(data, "  @ 219 @ literal: "none"  @ 248 @ 
+name: sockindex  @ 14 @ name: sockindex  @ 16 @ 
+name: conn  @ 2 @ name: conn  @ 2 @ 
+argument_list  @ 65 @ argument_list  @ 87 @ 
+name: int  @ 22 @ name: int  @ 24 @ 
+name: certverifyresult  @ 26 @ name: certverifyresult  @ 31 @ 
+operator: &  @ 14 @ operator: &  @ 16 @ 
+expr  @ 54 @ expr  @ 76 @ 
+name: infof  @ 51 @ name: infof  @ 73 @ 
+type  @ 26 @ type  @ 34 @ 
+argument  @ 57 @ argument  @ 79 @ 
+name: SSL_CONN_CONFIG  @ 37 @ name: SSL_CONN_CONFIG  @ 53 @ 
+decl  @ 12 @ decl  @ 13 @ 
+if_stmt  @ 58 @ if_stmt  @ 80 @ 
+literal: ""  @ 272 @ literal: "none"  @ 253 @ 
+expr  @ 6 @ expr  @ 7 @ 
+argument_list  @ 39 @ argument_list  @ 59 @ 
+operator: =  @ 57 @ operator: =  @ 79 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+decl_stmt  @ 22 @ decl_stmt  @ 24 @ 
+if  @ 66 @ if  @ 88 @ 
+name: cert_list_size  @ 57 @ name: cert_list_size  @ 79 @ 
+argument  @ 51 @ argument  @ 73 @ 
+expr  @ 76 @ expr  @ 103 @ 
+expr  @ 74 @ expr  @ 101 @ 
+expr  @ 51 @ expr  @ 73 @ 
+literal: ";
+            break;}
+
+        failf(data, "  @ 176 @ literal: "privilege withdrawn"  @ 203 @ 
+name: char  @ 63 @ name: char  @ 85 @ 
+expr  @ 39 @ expr  @ 57 @ 
+name: verifypeer  @ 85 @ name: verifypeer  @ 112 @ 
+literal: ""  @ 10 @ literal: ""  @ 11 @ 
+block_content  @ 39 @ block_content  @ 57 @ 
+if  @ 58 @ if  @ 80 @ 
+expr  @ 39 @ expr  @ 57 @ 
+argument  @ 71 @ argument  @ 93 @ 
+name: result  @ 65 @ name: result  @ 87 @ 
+argument_list  @ 25 @ argument_list  @ 28 @ 
+literal: ");
+
+  if(SSL_CONN_CONFIG(verifystatus)) {if(gnutls_ocsp_status_request_is_checked(session, 0) == 0) {
+      gnutls_datum_t status_request;gnutls_ocsp_resp_t ocsp_resp;
+
+      gnutls_ocsp_cert_status_t status;gnutls_x509_crl_reason_t reason;
+
+      rc = gnutls_ocsp_status_request_get(session,&status_request);
+
+      infof(data, "  @ 96 @ literal: "\t server certificate status verification FAILED\n"  @ 138 @ 
+operator: ->  @ 15 @ operator: ->  @ 17 @ 
+name: gnutls_datum_t  @ 9 @ name: gnutls_datum_t  @ 10 @ 
+name: conn  @ 14 @ name: conn  @ 16 @ 
+operator: ->  @ 54 @ operator: ->  @ 76 @ 
+expr  @ 65 @ expr  @ 226 @ 
+operator: =  @ 81 @ operator: =  @ 108 @ 
+name: SSL_SET_OPTION_LVALUE  @ 26 @ name: data  @ 31 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 12 @ 
+name: gnutls_protocol_get_name  @ 31 @ name: gnutls_protocol_get_name  @ 43 @ 
+argument  @ 57 @ argument  @ 79 @ 
+expr  @ 57 @ expr  @ 79 @ 
+operator: .  @ 54 @ operator: .  @ 76 @ 
+type  @ 6 @ type  @ 7 @ 
+name: data  @ 51 @ name: data  @ 73 @ 
+expr  @ 77 @ expr  @ 104 @ 
+name: NULL  @ 39 @ name: NULL  @ 58 @ 
+decl  @ 14 @ decl  @ 16 @ 
+name: gnutls_datum_t  @ 8 @ name: gnutls_datum_t  @ 9 @ 
+name  @ 62 @ name  @ 84 @ 
+name: cert_list_size  @ 35 @ name: cert_list_size  @ 51 @ 
+comment: /* This function will try to verify the peer's certificate and return its status (trusted, invalid etc.). The value of status should be one or more of the gnutls_certificate_status_t enumerated elements bitwise or'd. To avoid denial of service attacks some default upper limits regarding the certificate key size and chain size are set. To override them use gnutls_certificate_set_verify_limits(). */  @ 72 @ comment: /* This function will try to verify the peer's certificate and return its
+       status (trusted, invalid etc.). The value of status should be one ormore of the gnutls_certificate_status_t enumerated elements bitwise
+       or'd. To avoid denial of service attacks some default upper limitsregarding the certificate key size and chain size are set. To override
+       them use gnutls_certificate_set_verify_limits(). */  @ 94 @ 
+name: session  @ 29 @ name: session  @ 38 @ 
+argument_list  @ 31 @ argument_list  @ 43 @ 
+expr  @ 35 @ expr  @ 51 @ 
+expr  @ 25 @ expr  @ 28 @ 
+operator: ||  @ 37 @ operator: ||  @ 53 @ 
+decl  @ 62 @ decl  @ 84 @ 
+init  @ 61 @ init  @ 83 @ 
+name: beg  @ 62 @ name: beg  @ 84 @ 
+expr  @ 16 @ expr  @ 18 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 87 @ 
+name: session  @ 16 @ name: session  @ 18 @ 
+name: i  @ 63 @ name: i  @ 85 @ 
+literal: ");
+        return CURLE_SSL_INVALIDCERTSTATUS;}
+
+      gnutls_ocsp_resp_init(&ocsp_resp);
+
+      rc = gnutls_ocsp_resp_import(ocsp_resp,&status_request);
+      if(rc<0) {
+        failf(data, "  @ 116 @ literal: "Invalid OCSP response received"  @ 146 @ 
+argument  @ 39 @ argument  @ 60 @ 
+name: gnutls_protocol_t  @ 23 @ name: gnutls_protocol_t  @ 25 @ 
+endif  @ 24 @ endif  @ 314 @ 
+literal: ");
+  }certclock = gnutls_x509_crt_get_activation_time(x509_cert);
+
+  if(certclock == (time_t)-1) {if(SSL_CONN_CONFIG(verifypeer)) {
+      failf(data, "  @ 307 @ literal: "server cert activation date verify failed"  @ 368 @ 
+specifier: const  @ 63 @ specifier: const  @ 85 @ 
+operator: +  @ 63 @ operator: +  @ 85 @ 
+type  @ 7 @ type  @ 8 @ 
+name: long  @ 26 @ name: long  @ 34 @ 
+operator: )  @ 62 @ operator: )  @ 84 @ 
+name: session  @ 74 @ name: session  @ 101 @ 
+decl  @ 21 @ decl  @ 23 @ 
+name: certinfo  @ 54 @ name: certinfo  @ 76 @ 
+literal: ");
+        break;}
+
+      gnutls_ocsp_resp_deinit(ocsp_resp);return CURLE_SSL_INVALIDCERTSTATUS;
+    }else
+      infof(data, "  @ 186 @ literal: "Server certificate was revoked: %s"  @ 211 @ 
+operator: <  @ 75 @ operator: <  @ 102 @ 
+decl_stmt  @ 16 @ decl_stmt  @ 18 @ 
+name: SSL_SET_OPTION  @ 37 @ name: SSL_SET_OPTION  @ 55 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 78 @ name: CURLE_SSL_CONNECT_ERROR  @ 105 @ 
+block  @ 3 @ block  @ 4 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_SUPERSEDED:
+            crl_reason = "  @ 152 @ literal: "CA compromised"  @ 179 @ 
+expr  @ 37 @ expr  @ 53 @ 
+name: connectdata  @ 2 @ name: connectdata  @ 2 @ 
+literal: "failed to get server cert"  @ 44 @ literal: "failed to get server cert"  @ 66 @ 
+expr  @ 57 @ expr  @ 79 @ 
+argument  @ 31 @ argument  @ 43 @ 
+name: data  @ 54 @ name: data  @ 76 @ 
+incr  @ 61 @ incr  @ 83 @ 
+comment: /* limited to 64 chars by ASN.1 */  @ 10 @ comment: /* limited to 64 chars by ASN.1 */  @ 11 @ 
+literal: ");
+      gnutls_x509_crt_deinit(x509_cert);return CURLE_SSL_ISSUER_ERROR;
+    }infof(data, "  @ 215 @ literal: 0  @ 246 @ 
+name: data  @ 65 @ name: data  @ 226 @ 
+call  @ 29 @ call  @ 39 @ 
+operator: *  @ 77 @ operator: *  @ 104 @ 
+argument  @ 44 @ argument  @ 66 @ 
+call  @ 29 @ call  @ 40 @ 
+expr  @ 46 @ expr  @ 68 @ 
+expr  @ 84 @ expr  @ 111 @ 
+literal: ");
+  }ptr = SSL_IS_PROXY() ? data->set.str[STRING_SSL_PINNEDPUBLICKEY_PROXY] :data->set.str[STRING_SSL_PINNEDPUBLICKEY];if(ptr) {
+    result = pkp_pin_peer_pubkey(data, x509_cert, ptr);if(result != CURLE_OK) {
+      failf(data, "  @ 334 @ literal: "SSL: public key does not match pinned public key!"  @ 396 @ 
+condition  @ 39 @ condition  @ 57 @ 
+operator: .  @ 63 @ operator: .  @ 85 @ 
+decl  @ 6 @ decl  @ 7 @ 
+name: CURL_TLSAUTH_SRP  @ 39 @ name: CURL_TLSAUTH_SRP  @ 57 @ 
+name: SSL_SET_OPTION  @ 39 @ name: SSL_SET_OPTION  @ 58 @ 
+if_stmt  @ 37 @ if_stmt  @ 53 @ 
+expr  @ 29 @ expr  @ 38 @ 
+operator: ==  @ 39 @ operator: ==  @ 57 @ 
+name: failf  @ 86 @ name: failf  @ 113 @ 
+specifier: const  @ 62 @ specifier: const  @ 84 @ 
+expr  @ 39 @ expr  @ 59 @ 
+name: ptr  @ 13 @ name: ptr  @ 14 @ 
+name: certverifyresult  @ 45 @ name: certverifyresult  @ 67 @ 
+block_content  @ 59 @ block_content  @ 81 @ 
+argument  @ 65 @ argument  @ 87 @ 
+literal: ");
+        return CURLE_SSL_INVALIDCERTSTATUS;}
+
+      (void)gnutls_ocsp_resp_get_single(ocsp_resp, 0, NULL, NULL, NULL, NULL,&status, NULL, NULL, NULL,&reason);
+
+      switch(status) {case GNUTLS_OCSP_CERT_GOOD:
+        break;case GNUTLS_OCSP_CERT_REVOKED: {
+        const char *crl_reason;switch(reason) {
+          default:case GNUTLS_X509_CRLREASON_UNSPECIFIED:
+            crl_reason = "  @ 124 @ literal: 0  @ 153 @ 
+expr  @ 59 @ expr  @ 81 @ 
+type  @ 55 @ type  @ 77 @ 
+literal: 65  @ 10 @ literal: 65  @ 11 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+argument  @ 29 @ argument  @ 40 @ 
+index  @ 63 @ index  @ 85 @ 
+operator: !=  @ 39 @ operator: !=  @ 58 @ 
+expr  @ 31 @ expr  @ 43 @ 
+decl_stmt  @ 55 @ decl_stmt  @ 77 @ 
+init  @ 16 @ init  @ 18 @ 
+name: int  @ 2 @ name: int  @ 3 @ 
+argument  @ 37 @ argument  @ 53 @ 
+call  @ 39 @ call  @ 60 @ 
+name: verify_status  @ 6 @ name: verify_status  @ 7 @ 
+modifier: *  @ 14 @ modifier: *  @ 16 @ 
+block_content  @ 4 @ block_content  @ 5 @ 
+decl  @ 17 @ decl  @ 19 @ 
+name: ssl  @ 54 @ name: ssl  @ 76 @ 
+decl_stmt  @ 15 @ decl_stmt  @ 17 @ 
+call  @ 23 @ call  @ 25 @ 
+name: CURLE_OK  @ 19 @ name: CURLE_OK  @ 21 @ 
+type  @ 13 @ type  @ 14 @ 
+name: struct  @ 14 @ name: struct  @ 16 @ 
+condition  @ 84 @ condition  @ 111 @ 
+name: char  @ 62 @ name: char  @ 84 @ 
+type  @ 25 @ type  @ 33 @ 
+condition  @ 54 @ condition  @ 76 @ 
+block_content  @ 1 @ block_content  @ 1 @ 
+argument_list  @ 23 @ argument_list  @ 25 @ 
+type  @ 21 @ type  @ 23 @ 
+name: unsigned  @ 55 @ name: unsigned  @ 77 @ 
+name: rc  @ 74 @ name: rc  @ 101 @ 
+comment: /* no peer cert, but auth is ok if we have SRP user and cipher and no peer verify */  @ 40 @ comment: /* no peer cert, but auth is ok if we have SRP user and cipher and no
+           peer verify */  @ 61 @ 
+literal: ");
+  else {infof(data, "  @ 375 @ literal: "\t issuer: %s\n"  @ 440 @ 
+argument  @ 31 @ argument  @ 43 @ 
+modifier: *  @ 2 @ modifier: *  @ 15 @ 
+decl  @ 4 @ decl  @ 5 @ 
+decl  @ 5 @ decl  @ 6 @ 
+expr  @ 14 @ expr  @ 16 @ 
+expr_stmt  @ 51 @ expr_stmt  @ 73 @ 
+init  @ 14 @ init  @ 16 @ 
+name: verifypeer  @ 71 @ name: verifypeer  @ 93 @ 
+block  @ 54 @ block  @ 76 @ 
+expr  @ 39 @ expr  @ 60 @ 
+literal: ",SSL_SET_OPTION(issuercert)?SSL_SET_OPTION(issuercert):"  @ 219 @ literal: "server certificate issuer check failed (IssuerCert: %s)"  @ 247 @ 
+literal: ",SSL_SET_OPTION(issuercert)?SSL_SET_OPTION(issuercert):"  @ 215 @ literal: "\t server certificate status verification SKIPPED\n"  @ 229 @ 
+name: i  @ 61 @ name: i  @ 83 @ 
+call  @ 31 @ call  @ 43 @ 
+expr  @ 31 @ expr  @ 43 @ 
+expr  @ 35 @ expr  @ 51 @ 
+operator: &&  @ 39 @ operator: &&  @ 58 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_PRIVILEGEWITHDRAWN:
+            crl_reason = "  @ 168 @ literal: "certificate is on hold"  @ 195 @ 
+decl  @ 10 @ decl  @ 11 @ 
+literal: 0  @ 61 @ literal: 0  @ 83 @ 
+literal: ",gnutls_x509_crt_get_version(x509_cert));
+
+
+  rc = gnutls_x509_crt_get_dn2(x509_cert,&certfields);
+  if(rc)infof(data, "  @ 355 @ literal: "Failed to get certificate name\n"  @ 425 @ 
+literal: ",gnutls_pk_algorithm_get_name(algo));
+
+  /* version of the X.509 certificate. */infof(data, "  @ 352 @ literal: "\t certificate version: #%d\n"  @ 419 @ 
+literal: ");
+      gnutls_x509_crt_deinit(x509_cert);return result;
+    }}
+
+  /* Show:- subject- start date- expire date- common name- issuer*/#ifndef CURL_DISABLE_VERBOSE_STRINGS
+  /* public key algorithm's parameters */algo = gnutls_x509_crt_get_pk_algorithm(x509_cert,&bits);
+  infof(data, "  @ 341 @ literal: "\t certificate public key: %s\n"  @ 415 @ 
+literal: '%s'  @ 272 @ literal: 0  @ 258 @ 
+if  @ 36 @ if  @ 52 @ 
+expr  @ 51 @ expr  @ 73 @ 
+expr  @ 44 @ expr  @ 66 @ 
+expr  @ 15 @ expr  @ 17 @ 
+name: failf  @ 44 @ name: failf  @ 66 @ 
+name: verify_status  @ 81 @ name: verify_status  @ 108 @ 
+name: gtls_connect_step3  @ 2 @ name: gtls_connect_step3  @ 2 @ 
+decl  @ 63 @ decl  @ 85 @ 
+expr  @ 35 @ expr  @ 51 @ 
+comment: /* This function will return the peer's raw certificate (chain) as sent by the peer. These certificates are in raw format (DER encoded for X.509). In case of a X.509 then a certificate list may be present. The first certificate in the list is the peer's certificate, following the issuer's certificate, then the issuer's issuer etc. */  @ 33 @ comment: /* This function will return the peer's raw certificate (chain) as sent by
+     the peer. These certificates are in raw format (DER encoded forX.509). In case of a X.509 then a certificate list may be present. The
+     first certificate in the list is the peer's certificate, following theissuer's certificate, then the issuer's issuer etc. */  @ 45 @ 
+literal: ");
+  }else
+    infof(data, "  @ 195 @ literal: "Server certificate status is unknown"  @ 217 @ 
+decl  @ 16 @ decl  @ 18 @ 
+literal: ",SSL_SET_OPTION(CRLfile)?SSL_SET_OPTION(CRLfile):"  @ 86 @ literal: "none"  @ 115 @ 
+if_stmt  @ 66 @ if_stmt  @ 88 @ 
+literal: ");
+        *certverifyresult = GNUTLS_CERT_EXPIRED;gnutls_x509_crt_deinit(x509_cert);
+        return CURLE_PEER_FAILED_VERIFICATION;}
+      elseinfof(data, "  @ 298 @ literal: "\t server certificate expiration date FAILED\n"  @ 358 @ 
+operator: (  @ 62 @ operator: (  @ 84 @ 
+literal: 0  @ 75 @ literal: 0  @ 102 @ 
+name: Curl_extract_certinfo  @ 65 @ name: Curl_extract_certinfo  @ 87 @ 
+name: certverifyresult  @ 81 @ name: certverifyresult  @ 108 @ 
+if_stmt  @ 54 @ if_stmt  @ 76 @ 
+argument  @ 85 @ argument  @ 112 @ 
+operator: <  @ 61 @ operator: <  @ 83 @ 
+name: version  @ 31 @ name: version  @ 43 @ 
+expr  @ 74 @ expr  @ 101 @ 
+name: SSL_CONN_CONFIG  @ 37 @ name: SSL_CONN_CONFIG  @ 54 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 51 @ 
+block_content  @ 55 @ block_content  @ 77 @ 
+type  @ 19 @ type  @ 21 @ 
+name: gnutls_datum_t  @ 18 @ name: gnutls_datum_t  @ 20 @ 
+directive: endif  @ 24 @ directive: endif  @ 314 @ 
+name: chainp  @ 5 @ name: chainp  @ 6 @ 
+expr  @ 76 @ expr  @ 103 @ 
+index  @ 62 @ index  @ 84 @ 
+specifier: const  @ 5 @ specifier: const  @ 6 @ 
+endif  @ 49 @ endif  @ 71 @ 
+operator: =  @ 74 @ operator: =  @ 101 @ 
+name: CURL_DISABLE_VERBOSE_STRINGS  @ 20 @ name: CURL_DISABLE_VERBOSE_STRINGS  @ 412 @ 
+modifier: *  @ 26 @ modifier: *  @ 34 @ 
+call  @ 29 @ call  @ 38 @ 
+name: gnutls_certificate_verify_peers2  @ 74 @ name: gnutls_certificate_verify_peers2  @ 101 @ 
+argument  @ 23 @ argument  @ 25 @ 
+decl  @ 55 @ decl  @ 77 @ 
+block_content  @ 67 @ block_content  @ 89 @ 
+call  @ 37 @ call  @ 53 @ 
+argument_list  @ 39 @ argument_list  @ 60 @ 
+expr  @ 37 @ expr  @ 53 @ 
+literal: ");
+      *certverifyresult = GNUTLS_CERT_NOT_ACTIVATED;gnutls_x509_crt_deinit(x509_cert);
+      return CURLE_SSL_CONNECT_ERROR;}
+    elseinfof(data, "  @ 314 @ literal: "\t server certificate activation date verify FAILED\n"  @ 374 @ 
+name: chainp  @ 54 @ name: chainp  @ 76 @ 
+name: CURLcode  @ 19 @ name: CURLcode  @ 21 @ 
+argument  @ 29 @ argument  @ 38 @ 
+literal: ");
+      *certverifyresult = GNUTLS_CERT_EXPIRED;gnutls_x509_crt_deinit(x509_cert);
+      return CURLE_SSL_CONNECT_ERROR;}
+    elseinfof(data, "  @ 287 @ literal: "\t server certificate expiration date verify FAILED\n"  @ 347 @ 
+name: verify_status  @ 84 @ name: verify_status  @ 111 @ 
+specifier: const  @ 25 @ specifier: const  @ 33 @ 
+condition  @ 66 @ condition  @ 88 @ 
+argument  @ 65 @ argument  @ 87 @ 
+ifdef  @ 47 @ ifdef  @ 69 @ 
+argument  @ 65 @ argument  @ 87 @ 
+operator: .  @ 62 @ operator: .  @ 84 @ 
+expr  @ 10 @ expr  @ 11 @ 
+expr  @ 23 @ expr  @ 25 @ 
+argument  @ 76 @ argument  @ 103 @ 
+name: GNUTLS_E_NO_CERTIFICATE_FOUND  @ 45 @ name: GNUTLS_E_NO_CERTIFICATE_FOUND  @ 67 @ 
+name: char  @ 62 @ name: char  @ 84 @ 
+decl  @ 18 @ decl  @ 20 @ 
+init  @ 62 @ init  @ 84 @ 
+name: GNUTLS_CERT_INVALID  @ 84 @ name: GNUTLS_CERT_INVALID  @ 111 @ 
+name: issuerp  @ 8 @ name: issuerp  @ 9 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 66 @ 
+literal: ", proto.size,proto.data);
+
+#ifdef USE_NGHTTP2if(proto.size == NGHTTP2_PROTO_VERSION_ID_LEN&&!memcmp(NGHTTP2_PROTO_VERSION_ID, proto.data, NGHTTP2_PROTO_VERSION_ID_LEN)) {
+        conn->negnpn = CURL_HTTP_VERSION_2;
+      }else
+#endifif(proto.size == ALPN_HTTP_1_1_LENGTH&&!memcmp(ALPN_HTTP_1_1, proto.data, ALPN_HTTP_1_1_LENGTH)) {
+        conn->negnpn = CURL_HTTP_VERSION_1_1;
+      }}
+    elseinfof(data, "  @ 388 @ literal: "ALPN, server accepted to use %.*s\n"  @ 448 @ 
+name: chainp  @ 35 @ name: chainp  @ 51 @ 
+directive: ifdef  @ 38 @ directive: ifdef  @ 56 @ 
+name: time_t  @ 12 @ name: time_t  @ 13 @ 
+name: session  @ 23 @ name: session  @ 25 @ 
+literal: ", certname, SSL_HOST_DISPNAME());
+      gnutls_x509_crt_deinit(x509_cert);return CURLE_PEER_FAILED_VERIFICATION;
+    }else
+      infof(data, "  @ 272 @ literal: "SSL: certificate subject name (%s) does not match "  @ 324 @ 
+name: end  @ 65 @ name: end  @ 87 @ 
+name: size_t  @ 11 @ name: size_t  @ 12 @ 
+name: data  @ 44 @ name: data  @ 66 @ 
+expr  @ 31 @ expr  @ 42 @ 
+argument  @ 51 @ argument  @ 73 @ 
+type  @ 15 @ type  @ 17 @ 
+decl_stmt  @ 25 @ decl_stmt  @ 28 @ 
+name: beg  @ 65 @ name: beg  @ 87 @ 
+name: beg  @ 63 @ name: beg  @ 85 @ 
+name: size  @ 63 @ name: size  @ 85 @ 
+else  @ 42 @ else  @ 64 @ 
+if  @ 39 @ if  @ 57 @ 
+name: SSL_SET_OPTION  @ 39 @ name: SSL_SET_OPTION  @ 57 @ 
+name: rc  @ 76 @ name: rc  @ 103 @ 
+type  @ 5 @ type  @ 6 @ 
+argument_list  @ 71 @ argument_list  @ 93 @ 
+block  @ 37 @ block  @ 55 @ 
+for  @ 61 @ for  @ 83 @ 
+argument_list  @ 29 @ argument_list  @ 38 @ 
+expr  @ 44 @ expr  @ 66 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 10 @ 
+name  @ 15 @ name  @ 17 @ 
+expr  @ 29 @ expr  @ 40 @ 
+operator: *  @ 62 @ operator: *  @ 84 @ 
+argument_list  @ 39 @ argument_list  @ 58 @ 
+call  @ 29 @ call  @ 38 @ 
+decl  @ 23 @ decl  @ 25 @ 
+expr  @ 44 @ expr  @ 66 @ 
+name  @ 2 @ name  @ 15 @ 
+argument  @ 29 @ argument  @ 38 @ 
+block  @ 42 @ block  @ 64 @ 
+literal: "\t common name: WARNING couldn't obtain\n"  @ 51 @ literal: "\t common name: WARNING couldn't obtain\n"  @ 73 @ 
+argument  @ 74 @ argument  @ 101 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 79 @ 
+block_content  @ 44 @ block_content  @ 66 @ 
+name: int  @ 21 @ name: int  @ 23 @ 
+decl  @ 7 @ decl  @ 8 @ 
+expr  @ 14 @ expr  @ 16 @ 
+type  @ 18 @ type  @ 20 @ 
+type  @ 1 @ type  @ 1 @ 
+name: backend  @ 15 @ name: backend  @ 17 @ 
+expr  @ 31 @ expr  @ 42 @ 
+if_stmt  @ 39 @ if_stmt  @ 57 @ 
+name  @ 14 @ name  @ 16 @ 
+argument_list  @ 31 @ argument_list  @ 42 @ 
+name: session  @ 16 @ name: session  @ 18 @ 
+expr  @ 61 @ expr  @ 83 @ 
+condition  @ 61 @ condition  @ 83 @ 
+decl  @ 25 @ decl  @ 28 @ 
+expr  @ 67 @ expr  @ 89 @ 
+expr  @ 65 @ expr  @ 87 @ 
+argument  @ 29 @ argument  @ 39 @ 
+name: unsigned  @ 6 @ name: unsigned  @ 7 @ 
+directive: endif  @ 49 @ directive: endif  @ 71 @ 
+block  @ 36 @ block  @ 52 @ 
+operator: ->  @ 14 @ operator: ->  @ 16 @ 
+decl_stmt  @ 12 @ decl_stmt  @ 13 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 16 @ 
+type  @ 7 @ type  @ 8 @ 
+init  @ 15 @ init  @ 17 @ 
+argument  @ 39 @ argument  @ 59 @ 
+modifier: *  @ 5 @ modifier: *  @ 6 @ 
+expr  @ 71 @ expr  @ 93 @ 
+name: chainp  @ 62 @ name: chainp  @ 84 @ 
+name: HAVE_GNUTLS_SRP  @ 47 @ name: USE_TLS_SRP  @ 69 @ 
+if  @ 75 @ if  @ 102 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_CESSATIONOFOPERATION:
+            crl_reason = "  @ 156 @ literal: "affiliation has changed"  @ 183 @ 
+condition  @ 71 @ condition  @ 93 @ 
+modifier: *  @ 25 @ modifier: *  @ 33 @ 
+modifier: *  @ 62 @ modifier: *  @ 84 @ 
+comment: /* verify_status is a bitmask of gnutls_certificate_status bits */  @ 83 @ comment: /* verify_status is a bitmask of gnutls_certificate_status bits */  @ 110 @ 
+argument  @ 76 @ argument  @ 103 @ 
+name: verifyhost  @ 37 @ name: verifyhost  @ 54 @ 
+condition  @ 75 @ condition  @ 102 @ 
+literal: ");
+    }else
+      infof(data, "  @ 90 @ literal: "\t server certificate verification OK\n"  @ 123 @ 
+operator: ||  @ 37 @ operator: ||  @ 54 @ 
+name: session  @ 35 @ name: session  @ 51 @ 
+name: connssl  @ 15 @ name: connssl  @ 17 @ 
+name: i  @ 62 @ name: i  @ 84 @ 
+expr  @ 78 @ expr  @ 105 @ 
+name: gnutls_mac_get  @ 29 @ name: gnutls_mac_get  @ 40 @ 
+expr_stmt  @ 74 @ expr_stmt  @ 101 @ 
+name: int  @ 4 @ name: int  @ 5 @ 
+name: certfields  @ 9 @ name: certfields  @ 10 @ 
+if  @ 37 @ if  @ 53 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_KEYCOMPROMISE:
+            crl_reason = "  @ 140 @ literal: "Invalid OCSP response received"  @ 154 @ 
+decl  @ 7 @ decl  @ 8 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 30 @ 
+condition  @ 36 @ condition  @ 52 @ 
+name: version  @ 23 @ name: version  @ 25 @ 
+decl_stmt  @ 21 @ decl_stmt  @ 23 @ 
+init  @ 25 @ init  @ 28 @ 
+decl  @ 13 @ decl  @ 14 @ 
+operator: =  @ 35 @ operator: =  @ 51 @ 
+argument  @ 37 @ argument  @ 54 @ 
+modifier: *  @ 63 @ modifier: *  @ 85 @ 
+argument_list  @ 85 @ argument_list  @ 112 @ 
+name  @ 2 @ name  @ 2 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_AFFILIATIONCHANGED:
+            crl_reason = "  @ 148 @ literal: "private key compromised"  @ 175 @ 
+argument  @ 39 @ argument  @ 57 @ 
+argument_list  @ 57 @ argument_list  @ 79 @ 
+type  @ 62 @ type  @ 84 @ 
+type  @ 2 @ type  @ 2 @ 
+return  @ 59 @ return  @ 81 @ 
+call  @ 65 @ call  @ 87 @ 
+name: SSL_CONN_CONFIG  @ 39 @ name: SSL_CONN_CONFIG  @ 59 @ 
+argument  @ 401 @ argument  @ 465 @ 
+argument  @ 29 @ argument  @ 39 @ 
+literal: "  @ 401 @ literal: "ALPN, server did not agree to a protocol\n"  @ 465 @ 
+operator: &  @ 84 @ operator: &  @ 111 @ 
+init  @ 19 @ init  @ 21 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+ifdef  @ 38 @ ifdef  @ 56 @ 
+name: char  @ 13 @ name: char  @ 14 @ 
+decl_stmt  @ 18 @ decl_stmt  @ 20 @ 
+name: char  @ 10 @ name: char  @ 11 @ 
+expr  @ 37 @ expr  @ 55 @ 
+name  @ 54 @ name  @ 76 @ 
+name  @ 14 @ name  @ 16 @ 
+name: data  @ 2 @ name: data  @ 15 @ 
+name: gnutls_certificate_get_peers  @ 35 @ name: gnutls_certificate_get_peers  @ 51 @ 
+type  @ 22 @ type  @ 24 @ 
+argument  @ 388 @ argument  @ 448 @ 
+operator: *  @ 45 @ operator: *  @ 67 @ 
+literal: ");
+    }else
+      infof(data, "  @ 331 @ literal: "\t server certificate activation date OK\n"  @ 388 @ 
+call  @ 25 @ call  @ 28 @ 
+name: unsigned  @ 21 @ name: unsigned  @ 23 @ 
+literal: ", crl_reason);
+        break;}
+
+      default:case GNUTLS_OCSP_CERT_UNKNOWN:
+        failf(data, "  @ 180 @ literal: "AA compromised"  @ 207 @ 
+name: result  @ 66 @ name: result  @ 88 @ 
+literal: ", certclock);
+
+    gnutls_free(certfields.data);}
+
+  rc = gnutls_x509_crt_get_issuer_dn2(x509_cert,&certfields);
+  if(rc)infof(data, "  @ 368 @ literal: "Failed to get certificate issuer\n"  @ 438 @ 
+name: x509_issuer  @ 7 @ name: x509_issuer  @ 8 @ 
+operator: &  @ 35 @ operator: &  @ 51 @ 
+init  @ 23 @ init  @ 25 @ 
+operator: &  @ 26 @ operator: &  @ 31 @ 
+name: proto  @ 18 @ name: proto  @ 20 @ 
+literal: "server certificate verification failed. CAfile: %s ""  @ 86 @ literal: "server certificate verification failed. CAfile: %s "  @ 113 @ 
+name  @ 15 @ name  @ 17 @ 
+name: result  @ 57 @ name: result  @ 79 @ 
+block  @ 67 @ block  @ 89 @ 
+literal: ");
+    }else
+      infof(data, "  @ 304 @ literal: "\t server certificate expiration date OK\n"  @ 361 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+call  @ 37 @ call  @ 55 @ 
+expr  @ 29 @ expr  @ 38 @ 
+argument_list  @ 29 @ argument_list  @ 39 @ 
+type  @ 14 @ type  @ 16 @ 
+type  @ 23 @ type  @ 25 @ 
+name: result  @ 67 @ name: result  @ 89 @ 
+decl_stmt  @ 17 @ decl_stmt  @ 19 @ 
+expr  @ 57 @ expr  @ 79 @ 
+name: x509_cert  @ 7 @ name: x509_cert  @ 8 @ 
+type  @ 10 @ type  @ 11 @ 
+condition  @ 37 @ condition  @ 53 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 67 @ 
+operator: !  @ 36 @ operator: !  @ 52 @ 
+expr  @ 63 @ expr  @ 85 @ 
+decl  @ 22 @ decl  @ 24 @ 
+name: verifypeer  @ 37 @ name: verifypeer  @ 53 @ 
+expr  @ 63 @ expr  @ 85 @ 
+name: backend  @ 15 @ name: backend  @ 17 @ 
+call  @ 37 @ call  @ 54 @ 
+name  @ 10 @ name  @ 11 @ 
+name: result  @ 58 @ name: result  @ 80 @ 
+expr  @ 45 @ expr  @ 67 @ 
+literal: ", SSL_CONN_CONFIG(CAfile) ? SSL_CONN_CONFIG(CAfile):"  @ 86 @ literal: "CRLfile: %s"  @ 114 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+call  @ 57 @ call  @ 79 @ 
+condition  @ 58 @ condition  @ 80 @ 
+type  @ 17 @ type  @ 19 @ 
+call  @ 85 @ call  @ 112 @ 
+block  @ 39 @ block  @ 60 @ 
+decl_stmt  @ 23 @ decl_stmt  @ 25 @ 
+expr  @ 75 @ expr  @ 102 @ 
+operator: =  @ 77 @ operator: =  @ 104 @ 
+literal: ", certfields.data);
+
+    certclock = gnutls_x509_crt_get_activation_time(x509_cert);showtime(data, "  @ 362 @ literal: "start date"  @ 430 @ 
+literal: ", certfields.data);
+
+    gnutls_free(certfields.data);}
+#endifgnutls_x509_crt_deinit(x509_cert);if(conn->bits.tls_enable_alpn) {
+    rc = gnutls_alpn_get_selected_protocol(session,&proto);
+    if(rc == 0) {infof(data, "  @ 377 @ literal: 0  @ 447 @ 
+literal: ");
+        *certverifyresult = GNUTLS_CERT_NOT_ACTIVATED;gnutls_x509_crt_deinit(x509_cert);
+        return CURLE_PEER_FAILED_VERIFICATION;}
+      elseinfof(data, "  @ 325 @ literal: "\t server certificate activation date FAILED\n"  @ 385 @ 
+specifier: const  @ 13 @ specifier: const  @ 14 @ 
+operator: *  @ 81 @ operator: *  @ 108 @ 
+expr  @ 81 @ expr  @ 108 @ 
+name: HAVE_GNUTLS_SRP  @ 38 @ name: USE_TLS_SRP  @ 56 @ 
+argument  @ 44 @ argument  @ 66 @ 
+call  @ 39 @ call  @ 57 @ 
+literal: ");
+        return CURLE_SSL_INVALIDCERTSTATUS;}
+
+      if(rc<0) {
+        failf(data, "  @ 111 @ literal: 0  @ 145 @ 
+expr  @ 29 @ expr  @ 40 @ 
+name: gnutls_protocol_get_version  @ 23 @ name: gnutls_protocol_get_version  @ 25 @ 
+name: cert_list_size  @ 61 @ name: cert_list_size  @ 83 @ 
+decl  @ 2 @ decl  @ 15 @ 
+expr  @ 19 @ expr  @ 21 @ 
+name: gnutls_kx_get  @ 29 @ name: gnutls_kx_get  @ 38 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+name: CURLcode  @ 1 @ name: CURLcode  @ 1 @ 
+argument  @ 65 @ argument  @ 226 @ 
+decl  @ 11 @ decl  @ 12 @ 
+ifndef  @ 20 @ ifndef  @ 412 @ 
+name: ssl_backend_data  @ 15 @ name: ssl_backend_data  @ 17 @ 
+block_content  @ 76 @ block_content  @ 103 @ 
+expr  @ 29 @ expr  @ 39 @ 
+operator: &&  @ 39 @ operator: &&  @ 59 @ 
+argument_list  @ 37 @ argument_list  @ 53 @ 
+type  @ 8 @ type  @ 9 @ 
+argument_list  @ 76 @ argument_list  @ 103 @ 
+name: data  @ 76 @ name: data  @ 103 @ 
+block  @ 61 @ block  @ 83 @ 
+literal: ");
+  }else {
+    if(certclock<time(NULL)) {
+      if(SSL_CONN_CONFIG(verifypeer)) {failf(data, "  @ 293 @ literal: "server certificate expiration date has passed."  @ 352 @ 
+index  @ 10 @ index  @ 11 @ 
+argument_list  @ 39 @ argument_list  @ 57 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 65 @ expr  @ 87 @ 
+literal: ");
+
+      if(rc == GNUTLS_E_REQUESTED_DATA_NOT_AVAILABLE) {failf(data, "  @ 108 @ literal: "No OCSP response received"  @ 141 @ 
+argument  @ 31 @ argument  @ 43 @ 
+expr  @ 31 @ expr  @ 43 @ 
+operator: &  @ 74 @ operator: &  @ 101 @ 
+init  @ 63 @ init  @ 85 @ 
+condition  @ 85 @ condition  @ 112 @ 
+name: verifypeer  @ 39 @ name: verifypeer  @ 59 @ 
+decl_stmt  @ 63 @ decl_stmt  @ 85 @ 
+operator: &&  @ 54 @ operator: &&  @ 76 @ 
+literal: ");
+
+  /* initialize an X.509 certificate structure. */gnutls_x509_crt_init(&x509_cert);
+
+  if(chainp)/* convert the given DER or PEM encoded Certificate to the native gnutls_x509_crt_t format */
+    gnutls_x509_crt_import(x509_cert, chainp, GNUTLS_X509_FMT_DER);if(SSL_SET_OPTION(issuercert)) {
+    gnutls_x509_crt_init(&x509_issuer);
+    issuerp = load_file(SSL_SET_OPTION(issuercert));gnutls_x509_crt_import(x509_issuer,&issuerp, GNUTLS_X509_FMT_PEM);
+    rc = gnutls_x509_crt_check_issuer(x509_cert, x509_issuer);gnutls_x509_crt_deinit(x509_issuer);
+    unload_file(issuerp);if(rc<= 0) {
+      failf(data, "  @ 198 @ literal: "\t server certificate status verification OK\n"  @ 226 @ 
+expr  @ 31 @ expr  @ 42 @ 
+type  @ 11 @ type  @ 12 @ 
+name: int  @ 55 @ name: int  @ 77 @ 
+expr  @ 76 @ expr  @ 103 @ 
+argument_list  @ 51 @ argument_list  @ 73 @ 
+name: i  @ 65 @ name: i  @ 87 @ 
+name: rc  @ 75 @ name: rc  @ 102 @ 
+expr  @ 39 @ expr  @ 58 @ 
+name: i  @ 61 @ name: i  @ 83 @ 
+name: data  @ 57 @ name: data  @ 79 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 38 @ 
+decl_stmt  @ 62 @ decl_stmt  @ 84 @ 
+name: char  @ 25 @ name: char  @ 33 @ 
+if_stmt  @ 36 @ if_stmt  @ 52 @ 
+expr  @ 61 @ expr  @ 83 @ 
+argument  @ 86 @ argument  @ 113 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 42 @ 
+name: session  @ 39 @ name: session  @ 60 @ 
+literal: ");
+  else {infof(data, "  @ 360 @ literal: "\t subject: %s\n"  @ 427 @ 
+literal: ");
+        return CURLE_PEER_FAILED_VERIFICATION;}
+      elseinfof(data, "  @ 86 @ literal: "\t server certificate verification FAILED\n"  @ 120 @ 
+argument  @ 35 @ argument  @ 51 @ 
+name: struct  @ 15 @ name: struct  @ 17 @ 
+expr  @ 58 @ expr  @ 80 @ 
+expr  @ 51 @ expr  @ 73 @ 
+name: gnutls_cipher_suite_get_name  @ 29 @ name: gnutls_cipher_suite_get_name  @ 38 @ 
+call  @ 39 @ call  @ 58 @ 
+init  @ 6 @ init  @ 7 @ 
+expr  @ 23 @ expr  @ 25 @ 
+name: SSL_HOST_NAME  @ 25 @ name: SSL_IS_PROXY  @ 28 @ 
+name: result  @ 19 @ name: result  @ 21 @ 
+argument_list  @ 74 @ argument_list  @ 101 @ 
+name: bits  @ 22 @ name: bits  @ 24 @ 
+expr_stmt  @ 77 @ expr_stmt  @ 104 @ 
+name: gnutls_cipher_get  @ 29 @ name: gnutls_cipher_get  @ 39 @ 
+argument  @ 35 @ argument  @ 51 @ 
+function  @ 1 @ function  @ 1 @ 
+type  @ 12 @ type  @ 13 @ 
+operator: .  @ 54 @ operator: .  @ 76 @ 
+expr  @ 66 @ expr  @ 88 @ 
+block  @ 59 @ block  @ 81 @ 
+decl  @ 2 @ decl  @ 2 @ 
+literal: ", certname);
+
+  /* Check for time-based validity */certclock = gnutls_x509_crt_get_expiration_time(x509_cert);
+
+  if(certclock == (time_t)-1) {if(SSL_CONN_CONFIG(verifypeer)) {
+      failf(data, "  @ 280 @ literal: "server cert expiration date verify failed"  @ 341 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 11 @ 
+call  @ 39 @ call  @ 59 @ 
+directive: ifndef  @ 20 @ directive: ifndef  @ 412 @ 
+literal: "server cert verify failed: %d"  @ 76 @ literal: "server cert verify failed: %d"  @ 103 @ 
+type  @ 16 @ type  @ 18 @ 
+argument  @ 29 @ argument  @ 40 @ 
+expr  @ 62 @ expr  @ 84 @ 
+argument_list  @ 37 @ argument_list  @ 55 @ 
+name: sockindex  @ 2 @ name: sockindex  @ 3 @ 
+name: chainp  @ 63 @ name: chainp  @ 85 @ 
+name: chainp  @ 36 @ name: chainp  @ 52 @ 
+name: cert_list_size  @ 4 @ name: cert_list_size  @ 5 @ 
+name  @ 63 @ name  @ 85 @ 
+expr  @ 10 @ expr  @ 11 @ 
+name: Curl_ssl_init_certinfo  @ 57 @ name: Curl_ssl_init_certinfo  @ 79 @ 
+literal: ";
+            break;case GNUTLS_X509_CRLREASON_CERTIFICATEHOLD:
+            crl_reason = "  @ 160 @ literal: "certificate superseded"  @ 187 @ 
+type  @ 9 @ type  @ 10 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 9 @ 
+name: int  @ 6 @ name: int  @ 7 @ 
+name: ptr  @ 31 @ name: ptr  @ 43 @ 
+expr  @ 26 @ expr  @ 30 @ 
+name: SSL_CONN_CONFIG  @ 85 @ name: SSL_CONN_CONFIG  @ 112 @ 
+operator: =  @ 45 @ operator: =  @ 67 @ 
+argument_list  @ 29 @ argument_list  @ 38 @ 
+init  @ 10 @ init  @ 11 @ 
+literal: "SSL connection using %s / %s\n"  @ 31 @ literal: "SSL connection using %s / %s\n"  @ 42 @ 
+name: int  @ 17 @ name: int  @ 19 @ 
+name: gnutls_session_t  @ 16 @ name: gnutls_session_t  @ 18 @ 
+decl  @ 9 @ decl  @ 10 @ 
+name: issuercert  @ 37 @ name: issuercert  @ 55 @ 
+specifier: const  @ 62 @ specifier: const  @ 84 @ 
+expr  @ 26 @ expr  @ 31 @ 
+literal: ",gnutls_strerror(rc));
+  }/* This function will check if the given certificate's subject matches the given hostname. This is a basic implementation of the matching described in RFC2818 (HTTPS), which takes into account wildcards, and the subject alternative name PKIX extension. Returns non zero on success, and zero on failure. */
+  rc = gnutls_x509_crt_check_hostname(x509_cert, hostname);#if GNUTLS_VERSION_NUMBER<0x030306
+  /* Before 3.3.6, gnutls_x509_crt_check_hostname() didn't check IP addresses. */if(!rc) {
+#ifdef ENABLE_IPV6#define use_addr in6_addr
+#else#define use_addr in_addr
+#endifunsigned char addrbuf[sizeof(struct use_addr)];size_t addrlen = 0;
+
+    if(Curl_inet_pton(AF_INET, hostname, addrbuf)>0)
+      addrlen = 4;#ifdef ENABLE_IPV6
+    else if(Curl_inet_pton(AF_INET6, hostname, addrbuf)>0)
+      addrlen = 16;#endif
+
+    if(addrlen) {unsigned char certaddr[sizeof(struct use_addr)];int i;
+
+      for(i = 0; ; i++) {size_t certaddrlen = sizeof(certaddr);
+        int ret = gnutls_x509_crt_get_subject_alt_name(x509_cert, i, certaddr,&certaddrlen, NULL);
+        /* If this happens, it wasn't an IP address. */if(ret == GNUTLS_E_SHORT_MEMORY_BUFFER)
+          continue;if(ret<0)
+          break;if(ret != GNUTLS_SAN_IPADDRESS)
+          continue;if(certaddrlen == addrlen&&!memcmp(addrbuf, certaddr, addrlen)) {
+          rc = 1;break;
+        }}
+    }}
+#endifif(!rc) {
+    if(SSL_CONN_CONFIG(verifyhost)) {failf(data, "  @ 225 @ literal: "\t server certificate issuer check OK (Issuer Cert: %s)\n"  @ 252 @ 
+return  @ 78 @ return  @ 105 @ 
+name: authtype  @ 39 @ name: authtype  @ 57 @ 
+if  @ 54 @ if  @ 76 @ 
+

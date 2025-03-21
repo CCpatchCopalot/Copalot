@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file108": {
+            "match_message": {
+                "Same: GetNumSameData -> GetNumSameData": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 127 -> 148",
+                        "L2": "3: Unique Matched by Source code 127 -> 148"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 26,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 148,
+                        "add_hunk": [
+                            "    while (maxnum > count && *curPtr == *(curPtr + count)) {\n"
+                        ],
+                        "delete_location": [
+                            148,
+                            148
+                        ],
+                        "delete_hunk": [
+                            "    while (*curPtr == *(curPtr + count) && maxnum > count) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: GetNumSameData -> GetNumSameData": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "in_loop"
+            ]
+        }
+    }
+}

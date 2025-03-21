@@ -1,0 +1,5 @@
+180a181,182
+>		if (!node->sgprivate->num_instances) {
+>			node->sgprivate->num_instances = 1;
+181a182
+>		}

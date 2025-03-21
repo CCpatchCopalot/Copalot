@@ -1,0 +1,62 @@
+{
+    "testcase": {
+        "file191": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "808 -> 983",
+                        "L2": "809 -> 983",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:struct', 'info': [], 'ast_patch': 'char *oauth_bearer;/* OAUTH2 bearer, allocated */'}",
+                            "verify location": "-1",
+                            "output location": "983",
+                            "verify result": "False"
+                        },
+                        "type": "src:struct",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:struct",
+                            "info": [],
+                            "ast_patch": "char *oauth_bearer;/* OAUTH2 bearer, allocated */"
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 381,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 983,
+                        "add_hunk": [
+                            "  char *oauth_bearer; /* OAUTH2 bearer, allocated */\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:struct"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_type"
+            ]
+        }
+    }
+}

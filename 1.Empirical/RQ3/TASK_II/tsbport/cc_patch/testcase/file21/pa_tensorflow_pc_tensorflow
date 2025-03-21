@@ -1,0 +1,185 @@
+argument_list  @ 9 @ argument_list  @ 11 @ 
+name: IsVector  @ 12 @ name: IsVector  @ 16 @ 
+decl  @ 8 @ decl  @ 10 @ 
+name: namespace  @ 6 @ name: namespace  @ 6 @ 
+name  @ 8 @ name  @ 8 @ 
+literal: ""  @ 71 @ literal: "Only tensors with ranks between 1 and 5 "  @ 89 @ 
+name: shape  @ 12 @ name: shape  @ 16 @ 
+literal: ",&a_shape_t));
+    OP_REQUIRES_OK(ctx, ctx->input("  @ 37 @ literal: "a_shape"  @ 52 @ 
+call  @ 10 @ call  @ 14 @ 
+operator: .  @ 10 @ operator: .  @ 14 @ 
+operator: ->  @ 12 @ operator: ->  @ 16 @ 
+decl  @ 1 @ decl  @ 1 @ 
+argument  @ 12 @ argument  @ 16 @ 
+argument_list  @ 10 @ argument_list  @ 12 @ 
+block_content  @ 10 @ block_content  @ 12 @ 
+name: InvalidArgument  @ 10 @ name: InvalidArgument  @ 12 @ 
+name: a_values  @ 8 @ name: a_values  @ 9 @ 
+specifier: const  @ 8 @ specifier: const  @ 9 @ 
+name: TensorShapeUtils  @ 12 @ name: TensorShapeUtils  @ 17 @ 
+typedef  @ 3 @ typedef  @ 3 @ 
+expr  @ 8 @ expr  @ 8 @ 
+operator: ::  @ 10 @ operator: ::  @ 12 @ 
+argument  @ 12 @ argument  @ 17 @ 
+name: Tensor  @ 8 @ name: Tensor  @ 10 @ 
+type  @ 8 @ type  @ 9 @ 
+specifier: const  @ 8 @ specifier: const  @ 10 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 12 @ expr  @ 16 @ 
+parameter  @ 8 @ parameter  @ 9 @ 
+name  @ 10 @ name  @ 14 @ 
+operator: ||  @ 12 @ operator: ||  @ 16 @ 
+argument_list  @ 12 @ argument_list  @ 17 @ 
+literal: ", i,"  @ 21 @ literal: "Dimension "  @ 33 @ 
+argument_list  @ 12 @ argument_list  @ 17 @ 
+name: shape  @ 12 @ name: shape  @ 17 @ 
+name: ThreadPoolDevice  @ 3 @ name: ThreadPoolDevice  @ 3 @ 
+expr  @ 10 @ expr  @ 14 @ 
+call  @ 12 @ call  @ 17 @ 
+expr  @ 9 @ expr  @ 11 @ 
+specifier: const  @ 8 @ specifier: const  @ 9 @ 
+name: TensorShapeUtils  @ 9 @ name: TensorShapeUtils  @ 11 @ 
+name  @ 12 @ name  @ 16 @ 
+parameter_list  @ 8 @ parameter_list  @ 9 @ 
+modifier: *  @ 8 @ modifier: *  @ 10 @ 
+operator: ::  @ 3 @ operator: ::  @ 3 @ 
+literal: ",&a_indices_t));
+    OP_REQUIRES_OK(ctx, ctx->input("  @ 35 @ literal: "a_indices"  @ 50 @ 
+literal: ", b->dim_size(i));
+    }}
+  return Status::OK();}
+
+}  // namespacetemplate<typename Device, typename T, typename Index>class SparseTensorDenseAddOp : public OpKernel {
+ public:explicit SparseTensorDenseAddOp(OpKernelConstruction *ctx) : OpKernel(ctx) {}
+
+  void Compute(OpKernelContext *ctx) override {const Tensor *a_indices_t, *a_values_t, *a_shape_t, *b;
+    OP_REQUIRES_OK(ctx, ctx->input("  @ 21 @ literal: " vs dense side "  @ 35 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 3 @ 
+literal: "  @ 71 @ literal: "are currently supported.  Tensor rank: "  @ 90 @ 
+name: Index  @ 8 @ name: Index  @ 8 @ 
+literal: ",a_shape->shape().DebugString());
+  }if (a_shape->NumElements() != b->dims()) {
+    return errors::InvalidArgument("  @ 13 @ literal: "Two operands have different ranks; received: "  @ 26 @ 
+block  @ 1 @ block  @ 1 @ 
+name: template  @ 8 @ name: template  @ 8 @ 
+expr  @ 9 @ expr  @ 11 @ 
+block  @ 9 @ block  @ 11 @ 
+literal: 5  @ 71 @ literal: 5  @ 85 @ 
+argument_list  @ 12 @ argument_list  @ 16 @ 
+name: a_shape  @ 12 @ name: a_shape  @ 17 @ 
+modifier: *  @ 8 @ modifier: *  @ 9 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: shape  @ 9 @ name: shape  @ 11 @ 
+type  @ 8 @ type  @ 8 @ 
+if  @ 9 @ if  @ 11 @ 
+name  @ 9 @ name  @ 11 @ 
+name: a_values  @ 12 @ name: a_values  @ 16 @ 
+operator: ::  @ 9 @ operator: ::  @ 11 @ 
+argument  @ 8 @ argument  @ 8 @ 
+literal: ", b->shape().DebugString()));         \
+  } break;NDIMS_CASE(1);
+      NDIMS_CASE(2);NDIMS_CASE(3);
+      NDIMS_CASE(4);NDIMS_CASE(5);
+      default:OP_REQUIRES(ctx, false,errors::InvalidArgument("  @ 62 @ literal: 1  @ 60 @ 
+name: IsMatrix  @ 9 @ name: IsMatrix  @ 11 @ 
+argument  @ 10 @ argument  @ 14 @ 
+name: errors  @ 13 @ name: errors  @ 18 @ 
+name: shape  @ 10 @ name: shape  @ 14 @ 
+literal: "Input a_indices should be a matrix but received shape: "  @ 10 @ literal: "Input a_indices should be a matrix but received shape: "  @ 13 @ 
+literal: 1  @ 71 @ literal: 1  @ 81 @ 
+operator: !  @ 12 @ operator: !  @ 16 @ 
+argument_list  @ 10 @ argument_list  @ 14 @ 
+operator: ->  @ 12 @ operator: ->  @ 17 @ 
+name: a_indices  @ 8 @ name: a_indices  @ 9 @ 
+name: CPUDevice  @ 3 @ name: CPUDevice  @ 3 @ 
+expr  @ 10 @ expr  @ 13 @ 
+name: a_indices  @ 10 @ name: a_indices  @ 14 @ 
+name: tensorflow  @ 1 @ name: tensorflow  @ 1 @ 
+name: Tensor  @ 8 @ name: Tensor  @ 9 @ 
+name: a_shape  @ 8 @ name: a_shape  @ 10 @ 
+name: Eigen  @ 3 @ name: Eigen  @ 3 @ 
+call  @ 9 @ call  @ 11 @ 
+name: IsVector  @ 12 @ name: IsVector  @ 17 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+specifier: const  @ 8 @ specifier: const  @ 10 @ 
+condition  @ 9 @ condition  @ 11 @ 
+literal: "Inputs a_values and a_shape should be vectors ""  @ 13 @ literal: "Inputs a_values and a_shape should be vectors "  @ 19 @ 
+operator: !  @ 12 @ operator: !  @ 17 @ 
+literal: ", result, \
+            "  @ 61 @ literal: 0  @ 58 @ 
+argument_list  @ 9 @ argument_list  @ 11 @ 
+argument_list  @ 8 @ argument_list  @ 8 @ 
+call  @ 10 @ call  @ 12 @ 
+name: Tensor  @ 8 @ name: Tensor  @ 10 @ 
+macro  @ 6 @ macro  @ 6 @ 
+literal: ", b->dims());
+  }const auto a_shape_flat = a_shape->flat<Index>();
+  for (int i = 0; i<b->dims(); ++i) {
+    if (a_shape_flat(i) != b->dim_size(i)) {
+      return errors::InvalidArgument("  @ 16 @ literal: 0  @ 30 @ 
+call  @ 10 @ call  @ 14 @ 
+operator: ::  @ 13 @ operator: ::  @ 18 @ 
+operator: ->  @ 9 @ operator: ->  @ 11 @ 
+expr  @ 10 @ expr  @ 12 @ 
+name: b  @ 8 @ name: b  @ 10 @ 
+name: errors  @ 10 @ name: errors  @ 12 @ 
+comment: // NOTE: does not support GPU yet.  @ 4 @ comment: // NOTE: does not support GPU yet.  @ 4 @ 
+name: InvalidArgument  @ 13 @ name: InvalidArgument  @ 18 @ 
+name: DebugString  @ 10 @ name: DebugString  @ 14 @ 
+literal: ",a_shape_flat(i), "  @ 21 @ literal: " does not equal (no broadcasting is supported): sparse side "  @ 34 @ 
+literal: ",&a_values_t));
+    OP_REQUIRES_OK(ctx, ctx->input("  @ 36 @ literal: "a_values"  @ 51 @ 
+argument_list  @ 12 @ argument_list  @ 16 @ 
+literal: ",&b));
+    OP_REQUIRES_OK(ctx, ValidateInputs<Index>(a_indices_t, a_values_t, a_shape_t, b));
+
+    Tensor *out_t;OP_REQUIRES_OK(ctx, ctx->allocate_output(0, b->shape(),&out_t));
+
+    const int ndims = static_cast<int>(a_indices_t->dim_size(1));
+    const auto a_indices_mat = a_indices_t->flat_inner_dims<Index>();
+    const auto a_values_flat = a_values_t->flat<T>();
+
+    switch (ndims) {#define NDIMS_CASE(N)                                                     \
+  case N: {                                                               \auto out_tensor = out_t->tensor<T, N>();                              \
+    out_tensor.device(ctx->eigen_device<Device>()) = b->tensor<T, N>();   \
+    const Index result =                                                  \functor::ScatterNdFunctor<Device, T, Index, N,                    \
+                                  scatter_op::UpdateOp::ADD>()(           \
+            ctx->eigen_device<Device>(), a_indices_mat, a_values_flat,    \
+            out_tensor);                                                  \OP_REQUIRES(                                                          \
+        ctx, result == -1,                                                \errors::InvalidArgument(                                          \
+            "  @ 38 @ literal: "b"  @ 53 @ 
+modifier: *  @ 8 @ modifier: *  @ 10 @ 
+call  @ 12 @ call  @ 16 @ 
+operator: !  @ 9 @ operator: !  @ 11 @ 
+if_stmt  @ 9 @ if_stmt  @ 11 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: ::  @ 12 @ operator: ::  @ 16 @ 
+parameter  @ 8 @ parameter  @ 10 @ 
+name: TensorShapeUtils  @ 12 @ name: TensorShapeUtils  @ 16 @ 
+modifier: *  @ 8 @ modifier: *  @ 9 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+call  @ 12 @ call  @ 17 @ 
+argument  @ 10 @ argument  @ 13 @ 
+name  @ 12 @ name  @ 17 @ 
+condition  @ 12 @ condition  @ 16 @ 
+name: Tensor  @ 8 @ name: Tensor  @ 9 @ 
+expr  @ 3 @ expr  @ 3 @ 
+type  @ 8 @ type  @ 10 @ 
+name: ValidateInputs  @ 8 @ name: ValidateInputs  @ 9 @ 
+return  @ 10 @ return  @ 12 @ 
+name: Status  @ 8 @ name: Status  @ 9 @ 
+literal: ", a_shape->NumElements(),"  @ 16 @ literal: " and "  @ 27 @ 
+operator: ::  @ 12 @ operator: ::  @ 17 @ 
+expr  @ 12 @ expr  @ 17 @ 
+call  @ 12 @ call  @ 16 @ 
+argument_list  @ 10 @ argument_list  @ 14 @ 
+argument  @ 9 @ argument  @ 11 @ 
+name: typename  @ 8 @ name: typename  @ 8 @ 
+operator: ->  @ 10 @ operator: ->  @ 14 @ 
+name: a_indices  @ 9 @ name: a_indices  @ 11 @ 
+expr  @ 12 @ expr  @ 16 @ 
+call  @ 9 @ call  @ 11 @ 
+literal: ",a_values->shape().DebugString(), "  @ 13 @ literal: "but received shapes: "  @ 20 @ 
+decl  @ 8 @ decl  @ 9 @ 
+

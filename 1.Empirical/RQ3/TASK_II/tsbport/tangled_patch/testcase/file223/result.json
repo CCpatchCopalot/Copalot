@@ -1,0 +1,83 @@
+{
+    "testcase": {
+        "file223": {
+            "match_message": {
+                "Same: get_token -> get_token": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 400->491",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 401->492"
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 404 -> 495",
+                        "L2": "3: Unique Matched by Source code 404 -> 495"
+                    }
+                },
+                "Same: vcd_parse -> vcd_parse": {
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1052 -> 1152",
+                        "L2": "3: Unique Matched by Source code 1052 -> 1152"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 491,
+                        "add_hunk": [
+                            "yylen=len;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            495,
+                            495
+                        ],
+                        "delete_hunk": [
+                            "\tyylen=len;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 1152,
+                        "add_hunk": [
+                            "\t\t\tif (tok!= T_END && tok != T_EOF)\n"
+                        ],
+                        "delete_location": [
+                            1152,
+                            1152
+                        ],
+                        "delete_hunk": [
+                            "\t\t\tif(tok==T_STRING)\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: get_token -> get_token": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: vcd_parse -> vcd_parse": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_value"
+            ]
+        }
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "testcase": {
+        "file132": {
+            "match_message": {
+                "Same: vzt_rd_get_v32 -> vzt_rd_get_v32": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 144 -> 185",
+                        "L2": "3: Unique Matched by Source code 144 -> 185"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 146->187",
+                        "L2": "5: Matched by Syntax(AST) similarity 147->188"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 149->190",
+                        "L2": "5: Matched by Syntax(AST) similarity 149->190"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 154->195",
+                        "L2": "5: Matched by Syntax(AST) similarity 154->195"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 156->197",
+                        "L2": "5: Matched by Syntax(AST) similarity 156->197"
+                    }
+                },
+                "Same: vzt_rd_block_vch_decode -> vzt_rd_block_vch_decode": {
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 276 -> 328",
+                        "L2": "3: Unique Matched by Source code 276 -> 328"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 185,
+                        "add_hunk": [
+                            "static vztint32_t vzt_rd_get_v32(unsigned char **mmx)\n"
+                        ],
+                        "delete_location": [
+                            185,
+                            185
+                        ],
+                        "delete_hunk": [
+                            "static vztint32_t vzt_rd_get_v32(char **mmx)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 187,
+                        "add_hunk": [
+                            "unsigned char  *c;",
+                            "unsigned char  *beg;"
+                        ],
+                        "delete_location": [
+                            187,
+                            188
+                        ],
+                        "delete_hunk": [
+                            "char *c;\n",
+                            "char *beg;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 190,
+                        "add_hunk": [
+                            "unsigned char  **mm = mmx;"
+                        ],
+                        "delete_location": [
+                            190,
+                            190
+                        ],
+                        "delete_hunk": [
+                            "char **mm = mmx;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 195,
+                        "add_hunk": [
+                            "if(!(!*c & & x8) 0x80)"
+                        ],
+                        "delete_location": [
+                            195,
+                            195
+                        ],
+                        "delete_hunk": [
+                            "if(!(*c & 0x80))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 197,
+                        "add_hunk": [
+                            "while(!(*c & 0x80)) c++;"
+                        ],
+                        "delete_location": [
+                            197,
+                            197
+                        ],
+                        "delete_hunk": [
+                            "\twhile(!(*c & 0x80)) c++;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 328,
+                        "add_hunk": [
+                            "unsigned char *pnt = b->mem;\n"
+                        ],
+                        "delete_location": [
+                            328,
+                            328
+                        ],
+                        "delete_hunk": [
+                            "char *pnt = b->mem;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: vzt_rd_get_v32 -> vzt_rd_get_v32": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: vzt_rd_block_vch_decode -> vzt_rd_block_vch_decode": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_definition",
+                "change_type",
+                "in_loop"
+            ]
+        }
+    }
+}

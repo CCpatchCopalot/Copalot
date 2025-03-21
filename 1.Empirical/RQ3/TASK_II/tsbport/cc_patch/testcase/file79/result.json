@@ -1,0 +1,134 @@
+{
+    "testcase": {
+        "file79": {
+            "match_message": {
+                "Same: gf_isom_shift_cts_offset -> gf_isom_shift_cts_offset": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 4881 -> 4743",
+                        "L2": "3: Unique Matched by Source code 4882 -> 4744"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 4883 -> 4745",
+                        "L2": "3: Unique Matched by Source code 4883 -> 4745"
+                    },
+                    "Seg_2": {
+                        "Edit": "delete",
+                        "L1": "7: Context line (Ignored) is empty or comment 4885",
+                        "L2": "7: Context line (Ignored) is empty or comment 4886"
+                    }
+                },
+                "Same: gf_isom_set_ctts_v0 -> gf_isom_set_ctts_v0": {
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7429 -> 6939",
+                        "L2": "3: Unique Matched by Source code 7429 -> 6939"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7438 -> 6948",
+                        "L2": "3: Unique Matched by Source code 7438 -> 6948"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 4743,
+                        "add_hunk": [
+                            "\t\ts64 new_ts = trak->Media->information->sampleTable->CompositionOffset->entries[i].decodingOffset;\n",
+                            "\t\tnew_ts -= offset_shift;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 4745,
+                        "add_hunk": [
+                            "\t\ttrak->Media->information->sampleTable->CompositionOffset->entries[i].decodingOffset = (s32) new_ts;\n",
+                            "\t}\n",
+                            "\tif (trak->Media->mediaHeader->duration >= -offset_shift){\n",
+                            "\t\ts64 new_dur = trak->Media->mediaHeader->duration;\n",
+                            "\t\tnew_dur -= offset_shift;\n",
+                            "\t\tif (new_dur<0) new_dur = 0;\n",
+                            "\t\ttrak->Media->mediaHeader->duration = (u32) new_dur;\n"
+                        ],
+                        "delete_location": [
+                            4745,
+                            4745
+                        ],
+                        "delete_hunk": [
+                            "\t\ttrak->Media->information->sampleTable->CompositionOffset->entries[i].decodingOffset -= offset_shift;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 6939,
+                        "add_hunk": [
+                            "\t\t\t\ts64 new_ts = ctts->entries[i].decodingOffset;\n",
+                            "\t\t\t\tnew_ts += shift;\n",
+                            "\t\t\t\tctts->entries[i].decodingOffset = (u32) shift;\n"
+                        ],
+                        "delete_location": [
+                            6939,
+                            6939
+                        ],
+                        "delete_hunk": [
+                            "\t\t\t\tctts->entries[i].decodingOffset += shift;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 6948,
+                        "add_hunk": [
+                            "\t\t\ts64 new_ts = ctts->entries[i].decodingOffset;\n",
+                            "\t\t\tnew_ts += shift;\n",
+                            "\t\t\tctts->entries[i].decodingOffset = (u32) shift;\n"
+                        ],
+                        "delete_location": [
+                            6948,
+                            6948
+                        ],
+                        "delete_hunk": [
+                            "\t\t\tctts->entries[i].decodingOffset += shift;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 7561,
+                        "add_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_shift_cts_offset -> gf_isom_shift_cts_offset": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_isom_set_ctts_v0 -> gf_isom_set_ctts_v0": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_type",
+                "change_value"
+            ]
+        }
+    }
+}

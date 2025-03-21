@@ -1,0 +1,64 @@
+{
+    "testcase": {
+        "file112": {
+            "match_message": {
+                "Same: image_render_color_thresh -> image_render_color_thresh": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 813->790 ([[790, 1.0], [810, 0.7770700636942676], [819, 0.7450980392156863]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 813->790 ([[790, 1.0], [810, 0.7770700636942676], [819, 0.7450980392156863]])"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 816->793",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 816->793"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 790,
+                        "add_hunk": [
+                            "                                for (j = 0; j < spp_out; j++) \n"
+                        ],
+                        "delete_location": [
+                            790,
+                            790
+                        ],
+                        "delete_hunk": [
+                            "                                for (j = 0; j < spp_out; j++) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 793,
+                        "add_hunk": [],
+                        "delete_location": [
+                            793,
+                            793
+                        ],
+                        "delete_hunk": [
+                            "                                }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: image_render_color_thresh -> image_render_color_thresh": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "in_loop"
+            ]
+        }
+    }
+}

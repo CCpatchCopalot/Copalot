@@ -1,0 +1,6 @@
+184a185,189
+>    int max_dpi = 60 * ((y_24pin) ?sizeof(graphics_modes_24) / sizeof(graphics_modes_24[0]):sizeof(graphics_modes_9) / sizeof(graphics_modes_9[0]))
+>        - 1;
+>    if (x_dpi > max_dpi) {
+>        return_error(gs_error_rangecheck);
+>    }

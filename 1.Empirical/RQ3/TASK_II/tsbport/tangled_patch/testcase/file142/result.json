@@ -1,0 +1,35 @@
+{
+    "testcase": {
+        "file142": {
+            "match_message": {
+                "Syntax: av1_parse_tile_group -> if": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 3768",
+                        "L2": "7: Context line (Ignored) is empty or comment 3769"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 33,
+                        "add_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: av1_parse_tile_group -> if": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+860c860
+<    if (oinfo.rc > 1 || hit_elink) {
+---
+>    {
+883,886d
+<    }
+<    else {
+<        attr_iteration(gid, attr_crt_order_flags);
+<        link_iteration(gid, crt_order_flags);

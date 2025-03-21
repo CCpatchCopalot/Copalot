@@ -1,0 +1,132 @@
+name: struct  @ 11 @ name: struct  @ 13 @ 
+expr  @ 3 @ expr  @ 3 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+name: CURLE_OK  @ 3 @ name: NULL  @ 3 @ 
+name: store  @ 18 @ name: NULL  @ 5 @ 
+init  @ 11 @ init  @ 13 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: <  @ 4 @ operator: <  @ 4 @ 
+name: textoid  @ 13 @ name: textoid  @ 16 @ 
+expr  @ 7 @ expr  @ 7 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 11 @ decl  @ 13 @ 
+name: beg  @ 18 @ name: beg  @ 5 @ 
+name: CURLcode  @ 1 @ name: char  @ 1 @ 
+condition  @ 4 @ condition  @ 4 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: op  @ 13 @ name: op  @ 16 @ 
+name: Curl_dyn_init  @ 7 @ name: malloc  @ 7 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: ->  @ 13 @ operator: ->  @ 16 @ 
+block  @ 10 @ block  @ 12 @ 
+block  @ 13 @ block  @ 14 @ 
+argument  @ 11 @ argument  @ 13 @ 
+name: result  @ 3 @ name: buf  @ 3 @ 
+name  @ 11 @ name  @ 13 @ 
+name: op  @ 12 @ name: op  @ 14 @ 
+name: op  @ 11 @ name: op  @ 13 @ 
+block_content  @ 13 @ block_content  @ 15 @ 
+block  @ 5 @ block  @ 8 @ 
+name: symbolic  @ 5 @ name: symbolic  @ 12 @ 
+name: OID2str  @ 1 @ name: OID2str  @ 1 @ 
+call  @ 13 @ call  @ 16 @ 
+call  @ 11 @ call  @ 13 @ 
+block  @ 2 @ block  @ 2 @ 
+expr  @ 4 @ expr  @ 4 @ 
+if_stmt  @ 12 @ if_stmt  @ 14 @ 
+name: beg  @ 8 @ name: beg  @ 9 @ 
+name: encodeOID  @ 8 @ name: encodeOID  @ 9 @ 
+name: result  @ 20 @ name: buf  @ 22 @ 
+argument  @ 18 @ argument  @ 5 @ 
+argument  @ 8 @ argument  @ 9 @ 
+decl  @ 1 @ decl  @ 1 @ 
+argument  @ 18 @ argument  @ 5 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 16 @ 
+if_stmt  @ 10 @ if_stmt  @ 12 @ 
+block_content  @ 11 @ block_content  @ 13 @ 
+name: CURLcode  @ 3 @ name: char  @ 3 @ 
+argument  @ 7 @ argument  @ 9 @ 
+expr  @ 20 @ expr  @ 22 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: result  @ 13 @ name: buf  @ 16 @ 
+type  @ 1 @ type  @ 1 @ 
+condition  @ 5 @ condition  @ 12 @ 
+return  @ 20 @ return  @ 22 @ 
+modifier: *  @ 11 @ modifier: *  @ 13 @ 
+argument_list  @ 11 @ argument_list  @ 13 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: =  @ 13 @ operator: =  @ 16 @ 
+name: end  @ 4 @ name: end  @ 4 @ 
+expr  @ 18 @ expr  @ 5 @ 
+name: searchOID  @ 11 @ name: searchOID  @ 13 @ 
+name: buf  @ 11 @ name: buf  @ 13 @ 
+argument  @ 18 @ argument  @ 5 @ 
+expr  @ 13 @ expr  @ 16 @ 
+name: encodeOID  @ 18 @ name: encodeOID  @ 5 @ 
+call  @ 8 @ call  @ 9 @ 
+expr  @ 7 @ expr  @ 9 @ 
+expr  @ 18 @ expr  @ 5 @ 
+name: Curl_dyn_add  @ 13 @ name: strdup  @ 16 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+decl  @ 1 @ decl  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 8 @ expr  @ 9 @ 
+name: end  @ 18 @ name: end  @ 5 @ 
+if_stmt  @ 4 @ if_stmt  @ 4 @ 
+name: MAX_X509_STR  @ 7 @ name: buflen  @ 9 @ 
+call  @ 18 @ call  @ 5 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 5 @ expr  @ 12 @ 
+name: beg  @ 1 @ name: beg  @ 1 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name  @ 13 @ name  @ 16 @ 
+expr  @ 11 @ expr  @ 13 @ 
+decl  @ 1 @ decl  @ 1 @ 
+if  @ 5 @ if  @ 8 @ 
+specifier: const  @ 11 @ specifier: const  @ 13 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 13 @ 
+condition  @ 12 @ condition  @ 14 @ 
+argument_list  @ 18 @ argument_list  @ 5 @ 
+type  @ 3 @ type  @ 3 @ 
+if_stmt  @ 5 @ if_stmt  @ 8 @ 
+name: buf  @ 6 @ name: buf  @ 7 @ 
+argument  @ 8 @ argument  @ 9 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: Curl_OID  @ 11 @ name: Curl_OID  @ 13 @ 
+expr  @ 8 @ expr  @ 9 @ 
+argument_list  @ 13 @ argument_list  @ 16 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 18 @ expr  @ 5 @ 
+name: symbolic  @ 1 @ name: symbolic  @ 1 @ 
+expr  @ 18 @ expr  @ 5 @ 
+block_content  @ 5 @ block_content  @ 5 @ 
+name: beg  @ 4 @ name: beg  @ 4 @ 
+expr  @ 11 @ expr  @ 13 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 8 @ expr  @ 9 @ 
+argument_list  @ 8 @ argument_list  @ 9 @ 
+block_content  @ 6 @ block_content  @ 9 @ 
+if  @ 12 @ if  @ 14 @ 
+name: buf  @ 8 @ name: buf  @ 9 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+block  @ 4 @ block  @ 4 @ 
+argument  @ 13 @ argument  @ 16 @ 
+expr  @ 12 @ expr  @ 14 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 9 @ 
+expr  @ 13 @ expr  @ 16 @ 
+name: bool  @ 1 @ name: bool  @ 1 @ 
+init  @ 3 @ init  @ 3 @ 
+argument  @ 8 @ argument  @ 9 @ 
+name: buf  @ 7 @ name: buflen  @ 7 @ 
+if  @ 4 @ if  @ 4 @ 
+name: end  @ 1 @ name: end  @ 1 @ 
+decl  @ 3 @ decl  @ 3 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: end  @ 8 @ name: end  @ 9 @ 
+type  @ 11 @ type  @ 13 @ 
+if  @ 10 @ if  @ 12 @ 
+argument  @ 7 @ argument  @ 7 @ 
+expr  @ 8 @ expr  @ 9 @ 
+

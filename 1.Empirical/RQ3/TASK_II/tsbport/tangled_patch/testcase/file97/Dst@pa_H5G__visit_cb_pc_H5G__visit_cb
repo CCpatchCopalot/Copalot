@@ -1,0 +1,149 @@
+static herr_t
+H5G__visit_cb(const H5O_link_t *lnk, void *_udata)
+{
+    H5G_iter_visit_ud_t *udata = (H5G_iter_visit_ud_t *)_udata; /* User data for callback */
+    H5L_info2_t          info;                                  /* Link info */
+    H5G_loc_t            obj_loc;                               /* Location of object */
+    H5G_name_t           obj_path;                              /* Object's group hier. path */
+    H5O_loc_t            obj_oloc;                              /* Object's object location */
+    hbool_t              obj_found = FALSE;                     /* Object at 'name' found */
+    size_t old_path_len = udata->curr_path_len; /* Length of path before appending this link's name */
+    size_t link_name_len;                       /* Length of link's name */
+    size_t len_needed;                          /* Length of path string needed */
+    herr_t ret_value = H5_ITER_CONT;            /* Return value */
+
+    FUNC_ENTER_PACKAGE
+
+    /* Sanity check */
+    HDassert(lnk);
+    HDassert(udata);
+
+    /* Check if we will need more space to store this link's relative path */
+    /* ("+2" is for string terminator and possible '/' for group separator later) */
+    link_name_len = HDstrlen(lnk->name);
+    len_needed    = udata->curr_path_len + link_name_len + 2;
+    if (len_needed > udata->path_buf_size) {
+        void *new_path; /* Pointer to new path buffer */
+
+        /* Attempt to allocate larger buffer for path */
+        if (NULL == (new_path = H5MM_realloc(udata->path, len_needed)))
+            HGOTO_ERROR(H5E_SYM, H5E_NOSPACE, H5_ITER_ERROR, "can't allocate path string")
+        udata->path          = (char *)new_path;
+        udata->path_buf_size = len_needed;
+    } /* end if */
+
+    /* Build the link's relative path name */
+    HDassert(udata->path[old_path_len] == '\0');
+    HDstrncpy(&(udata->path[old_path_len]), lnk->name, link_name_len + 1);
+    udata->curr_path_len += link_name_len;
+
+    /* Construct the link info from the link message */
+    if (H5G_link_to_info(udata->curr_loc->oloc, lnk, &info) < 0)
+        HGOTO_ERROR(H5E_SYM, H5E_CANTGET, H5_ITER_ERROR, "unable to get info for link")
+
+    /* Make the application callback */
+    ret_value = (udata->op)(udata->gid, udata->path, &info, udata->op_data);
+
+    /* Check for doing more work */
+    if (ret_value == H5_ITER_CONT && lnk->type == H5L_TYPE_HARD) {
+        H5_obj_t obj_pos; /* Object "position" for this object */
+
+        /* Set up opened group location to fill in */
+        obj_loc.oloc = &obj_oloc;
+        obj_loc.path = &obj_path;
+        H5G_loc_reset(&obj_loc);
+
+        /* Find the object using the LAPL passed in */
+        /* (Correctly handles mounted files) */
+        if (H5G_loc_find(udata->curr_loc, lnk->name, &obj_loc /*out*/) < 0)
+            HGOTO_ERROR(H5E_SYM, H5E_NOTFOUND, H5_ITER_ERROR, "object not found")
+        obj_found = TRUE;
+
+        /* Construct unique "position" for this object */
+        H5F_GET_FILENO(obj_oloc.file, obj_pos.fileno);
+        obj_pos.addr = obj_oloc.addr;
+
+        /* Check if we've seen the object the link references before */
+        if (NULL == H5SL_search(udata->visited, &obj_pos)) {
+            H5O_type_t otype; /* Basic object type (group, dataset, etc.) */
+            unsigned   rc;    /* Reference count of object    */
+
+            /* Get the object's reference count and type */
+            if (H5O_get_rc_and_type(&obj_oloc, &rc, &otype) < 0)
+                HGOTO_ERROR(H5E_SYM, H5E_CANTGET, H5_ITER_ERROR, "unable to get object info")
+
+            /* If its ref count is > 1, we add it to the list of visited objects */
+            /* (because it could come up again during traversal) */
+            if (rc > 1) {
+                H5_obj_t *new_node; /* New object node for visited list */
+
+                /* Allocate new object "position" node */
+                if ((new_node = H5FL_MALLOC(H5_obj_t)) == NULL)
+                    HGOTO_ERROR(H5E_SYM, H5E_NOSPACE, H5_ITER_ERROR, "can't allocate object node")
+
+                /* Set node information */
+                *new_node = obj_pos;
+
+                /* Add to list of visited objects */
+                if (H5SL_insert(udata->visited, new_node, new_node) < 0)
+                    HGOTO_ERROR(H5E_SYM, H5E_CANTINSERT, H5_ITER_ERROR,
+                                "can't insert object node into visited list")
+            } /* end if */
+
+            /* If it's a group, we recurse into it */
+            if (otype == H5O_TYPE_GROUP) {
+                H5G_loc_t * old_loc  = udata->curr_loc; /* Pointer to previous group location info */
+                H5_index_t  idx_type = udata->idx_type; /* Type of index to use */
+                H5O_linfo_t linfo;                      /* Link info message */
+                htri_t      linfo_exists;               /* Whether the link info message exists */
+
+                /* Add the path separator to the current path */
+                HDassert(udata->path[udata->curr_path_len] == '\0');
+                HDstrncpy(&(udata->path[udata->curr_path_len]), "/", (size_t)2);
+                udata->curr_path_len++;
+
+                /* Attempt to get the link info for this group */
+                if ((linfo_exists = H5G__obj_get_linfo(&obj_oloc, &linfo)) < 0)
+                    HGOTO_ERROR(H5E_SYM, H5E_CANTGET, H5_ITER_ERROR, "can't check for link info message")
+                if (linfo_exists) {
+                    /* Check for creation order tracking, if creation order index lookup requested */
+                    if (idx_type == H5_INDEX_CRT_ORDER) {
+                        /* Check if creation order is tracked */
+                        if (!linfo.track_corder)
+                            /* Switch to name order for this group */
+                            idx_type = H5_INDEX_NAME;
+                    } /* end if */
+                    else
+                        HDassert(idx_type == H5_INDEX_NAME);
+                } /* end if */
+                else {
+                    /* Can only perform name lookups on groups with symbol tables */
+                    if (idx_type != H5_INDEX_NAME)
+                        /* Switch to name order for this group */
+                        idx_type = H5_INDEX_NAME;
+                } /* end if */
+
+                /* Point to this group's location info */
+                udata->curr_loc = &obj_loc;
+
+                /* Iterate over links in group */
+                ret_value = H5G__obj_iterate(&obj_oloc, idx_type, udata->order, (hsize_t)0, NULL,
+                                             H5G__visit_cb, udata);
+
+                /* Restore location */
+                udata->curr_loc = old_loc;
+            } /* end if */
+        }     /* end if */
+    }         /* end if */
+
+done:
+    /* Reset path back to incoming path */
+    udata->path[old_path_len] = '\0';
+    udata->curr_path_len      = old_path_len;
+
+    /* Release resources */
+    if (obj_found && H5G_loc_free(&obj_loc) < 0)
+        HDONE_ERROR(H5E_SYM, H5E_CANTRELEASE, H5_ITER_ERROR, "can't free location")
+
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5G__visit_cb() */

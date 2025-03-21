@@ -1,0 +1,61 @@
+{
+    "testcase": {
+        "file40": {
+            "match_message": {
+                "Same: luaG_runerror -> luaG_runerror": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 729->661",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 729->661"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 730->662",
+                        "L2": "3: Unique Matched by Source code 731 -> 663"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 661,
+                        "add_hunk": [
+                            "  if (isLua(ci)) {  /* if Lua function, add source:line information */\n"
+                        ],
+                        "delete_location": [
+                            661,
+                            661
+                        ],
+                        "delete_hunk": [
+                            "  if (isLua(ci))  /* if Lua function, add source:line information */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 662,
+                        "add_hunk": [
+                            "    setobjs2s(L, L->top - 2, L->top - 1);  /* remove 'msg' from the stack */\n",
+                            "    L->top--;\n",
+                            "  }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: luaG_runerror -> luaG_runerror": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

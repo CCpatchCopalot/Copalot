@@ -1,0 +1,68 @@
+{
+    "testcase": {
+        "file188": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "91 -> 253",
+                        "L2": "92 -> 254",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:function', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "253",
+                            "verify result": "False"
+                        },
+                        "type": "src:function",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:function",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 28,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 253,
+                        "add_hunk": [
+                            "bool Curl_safecmp(char *a, char *b)\n",
+                            "{\n",
+                            "  if(a && b)\n",
+                            "    return !strcmp(a, b);\n",
+                            "  return !a && !b;\n",
+                            "}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:function"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_definition"
+            ]
+        }
+    }
+}

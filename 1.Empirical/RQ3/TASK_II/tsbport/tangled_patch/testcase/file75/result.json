@@ -1,0 +1,668 @@
+{
+    "testcase": {
+        "file75": {
+            "match_message": {
+                "Same: H5F__cache_superblock_deserialize -> H5F__cache_superblock_deserialize": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 297->413",
+                        "L2": "5: Matched by Syntax(AST) similarity 297->413"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 302->419",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 302->419"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 314->435",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 314->435"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 316->437",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 316->437"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 323 -> 444",
+                        "L2": "3: Unique Matched by Source code 324 -> 445"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 325->447",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 325->447"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 327->448",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 327->448"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 329 -> 455",
+                        "L2": "3: Unique Matched by Source code 330 -> 456"
+                    },
+                    "Seg_8": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 331->460",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 331->460"
+                    },
+                    "Seg_9": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 334->463 ([[463, 0.8181818181818181], [549, 0.8181818181818181]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 335->464 ([[464, 0.813953488372093], [550, 0.769620253164557], [460, 0.7434679334916865], [546, 0.6449086161879896], [468, 0.5436337625178826], [453, 0.45549738219895286]])"
+                    },
+                    "Seg_10": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 338->467 ([[467, 1.0], [452, 0.5537918871252205]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 339->468 ([[468, 1.0], [464, 0.6846846846846847], [550, 0.6760070052539404], [453, 0.5247706422018348], [546, 0.5191956124314443], [460, 0.4558587479935795]])"
+                    },
+                    "Seg_11": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 341 -> 470",
+                        "L2": "3: Unique Matched by Source code 342 -> 471"
+                    },
+                    "Seg_12": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 344->474",
+                        "L2": "7: Context line (Ignored) is empty or comment 345"
+                    },
+                    "Seg_13": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 346 -> 476",
+                        "L2": "3: Unique Matched by Source code 347 -> 477"
+                    },
+                    "Seg_14": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 349->480",
+                        "L2": "5: Matched by Syntax(AST) similarity 349->480"
+                    },
+                    "Seg_15": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 352->482",
+                        "L2": "7: Context line (Ignored) is empty or comment 351"
+                    },
+                    "Seg_16": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 353->487 ([[487, 0.8034188034188035], [553, 0.44999999999999996]])",
+                        "L2": "3: Unique Matched by Source code 354 -> 488"
+                    },
+                    "Seg_17": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 355 -> 489",
+                        "L2": "3: Unique Matched by Source code 355 -> 489"
+                    },
+                    "Seg_18": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 358->492",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 358->492"
+                    },
+                    "Seg_19": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 359 -> 498",
+                        "L2": "3: Unique Matched by Source code 360 -> 499"
+                    },
+                    "Seg_20": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 363 -> 502",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 365->504"
+                    },
+                    "Seg_21": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 370 -> 509",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 371->510"
+                    },
+                    "Seg_22": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 377 -> 516",
+                        "L2": "3: Unique Matched by Source code 377 -> 516"
+                    },
+                    "Seg_23": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 379->520",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 379->520"
+                    },
+                    "Seg_25": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 388->537",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 388->537"
+                    },
+                    "Seg_26": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 392->541",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 392->541"
+                    },
+                    "Seg_27": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 403->552",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 404->553 ([[553, 0.9086859688195991], [487, 0.4755077658303465]])"
+                    },
+                    "Seg_28": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 407->558",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 407->558"
+                    },
+                    "Seg_29": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 414->565",
+                        "L2": "3: Unique Matched by Source code 415 -> 566"
+                    },
+                    "Seg_30": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 420->571",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 420->571"
+                    },
+                    "Seg_31": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 423 -> 578",
+                        "L2": "3: Unique Matched by Source code 423 -> 578"
+                    },
+                    "Seg_33": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 432 -> 587",
+                        "L2": "3: Unique Matched by Source code 432 -> 587"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 413,
+                        "add_hunk": [
+                            "static void *H5F__cache_superblock_deserialize(const void *_image, size_t len, void *_udata, hbool_t H5_ATTR_UNUSED *dirty)"
+                        ],
+                        "delete_location": [
+                            413,
+                            413
+                        ],
+                        "delete_hunk": [
+                            "H5F__cache_superblock_deserialize(const void *_image, size_t H5_ATTR_NDEBUG_UNUSED len, void *_udata,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 419,
+                        "add_hunk": [
+                            "    const uint8_t             *end       = image + len - 1; /* Pointer to end of buffer */\n",
+                            "    H5F_super_t               *ret_value = NULL;\n"
+                        ],
+                        "delete_location": [
+                            419,
+                            419
+                        ],
+                        "delete_hunk": [
+                            "    H5F_super_t *              ret_value = NULL;   /* Return value */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 435,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, \"memory allocation failed\");HGOTO_ERROR(H5E_FILE, H5E_CANTDECODE, NULL, \"can't decode file superblock prefix\")"
+                        ],
+                        "delete_location": [
+                            435,
+                            435
+                        ],
+                        "delete_hunk": [
+                            "        HGOTO_ERROR(H5E_FILE, H5E_CANTDECODE, NULL, \"can't decode file superblock prefix\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 437,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_CANTDECODE, NULL, \"can't decode file superblock prefix\");"
+                        ],
+                        "delete_location": [
+                            438,
+                            437
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 444,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 447,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad free space version number\");",
+                            "if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");"
+                        ],
+                        "delete_location": [
+                            448,
+                            447
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 448,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad object directory version number\");",
+                            "if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");",
+                            "image++;"
+                        ],
+                        "delete_location": [
+                            449,
+                            448
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 455,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "change",
+                        "add_location": 460,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad shared-header format version number\");",
+                            "if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");",
+                            "image++;"
+                        ],
+                        "delete_location": [
+                            460,
+                            460
+                        ],
+                        "delete_hunk": [
+                            "        image++;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "add",
+                        "add_location": 463,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "add",
+                        "add_location": 467,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "add",
+                        "add_location": 470,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 2, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "change",
+                        "add_location": 474,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, \"bad symbol table leaf node 1/2 rank\");HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, \"bad symbol table leaf node 1/2 rank\")",
+                            "udata->sym_leaf_k = sym_leaf_k;"
+                        ],
+                        "delete_location": [
+                            473,
+                            473
+                        ],
+                        "delete_hunk": [
+                            "            HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, \"bad symbol table leaf node 1/2 rank\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "add",
+                        "add_location": 476,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 2, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "change",
+                        "add_location": 480,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_BADRANGE, NULL, \"bad 1/2 rank for btree internal nodes\");",
+                            "udata->btree_k[H5B_SNODE_ID] = snode_btree_k;"
+                        ],
+                        "delete_location": [
+                            480,
+                            480
+                        ],
+                        "delete_hunk": [
+                            "        udata->btree_k[H5B_SNODE_ID] = snode_btree_k;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_15",
+                    {
+                        "Edit": "add",
+                        "add_location": 482,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_16",
+                    {
+                        "Edit": "add",
+                        "add_location": 487,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 4, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_17",
+                    {
+                        "Edit": "change",
+                        "add_location": 489,
+                        "add_hunk": [
+                            "        if (status_flags > 255)\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad superblock status flags\");\n"
+                        ],
+                        "delete_location": [
+                            489,
+                            489
+                        ],
+                        "delete_hunk": [
+                            "        HDassert(status_flags <= 255);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_18",
+                    {
+                        "Edit": "change",
+                        "add_location": 492,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad flag value for superblock\");HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad flag value for superblock\")"
+                        ],
+                        "delete_location": [
+                            492,
+                            492
+                        ],
+                        "delete_hunk": [
+                            "            HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad flag value for superblock\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_19",
+                    {
+                        "Edit": "add",
+                        "add_location": 498,
+                        "add_hunk": [
+                            "            if (H5_IS_BUFFER_OVERFLOW(image, 2, end))\n",
+                            "                HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_20",
+                    {
+                        "Edit": "change",
+                        "add_location": 502,
+                        "add_hunk": [
+                            "            if (sblock->super_vers == HDF5_SUPERBLOCK_VERSION_1) {\n",
+                            "                if (H5_IS_BUFFER_OVERFLOW(image, 2, end))\n",
+                            "                    HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n",
+                            "                image += 2;\n",
+                            "            }\n",
+                            "        }\n"
+                        ],
+                        "delete_location": [
+                            502,
+                            504
+                        ],
+                        "delete_hunk": [
+                            "            if (sblock->super_vers == HDF5_SUPERBLOCK_VERSION_1)\n",
+                            "                image += 2; /* reserved */\n",
+                            "        }                   /* end if */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_21",
+                    {
+                        "Edit": "add",
+                        "add_location": 509,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, H5F_sizeof_addr(udata->f) * 4, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_22",
+                    {
+                        "Edit": "change",
+                        "add_location": 516,
+                        "add_hunk": [
+                            "        if (sblock->root_ent)\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"root entry should not exist yet\");\n"
+                        ],
+                        "delete_location": [
+                            516,
+                            516
+                        ],
+                        "delete_hunk": [
+                            "        HDassert(!sblock->root_ent);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_23",
+                    {
+                        "Edit": "change",
+                        "add_location": 520,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_CANTALLOC, NULL,\"can't allocate space for root group symbol table entry\");"
+                        ],
+                        "delete_location": [
+                            521,
+                            520
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_25",
+                    {
+                        "Edit": "change",
+                        "add_location": 537,
+                        "add_hunk": [
+                            "        }\n"
+                        ],
+                        "delete_location": [
+                            537,
+                            537
+                        ],
+                        "delete_hunk": [
+                            "        } /* end if */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_26",
+                    {
+                        "Edit": "change",
+                        "add_location": 541,
+                        "add_hunk": [
+                            "    }\n"
+                        ],
+                        "delete_location": [
+                            541,
+                            541
+                        ],
+                        "delete_hunk": [
+                            "    } /* end if */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_27",
+                    {
+                        "Edit": "add",
+                        "add_location": 552,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, 1, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_28",
+                    {
+                        "Edit": "change",
+                        "add_location": 558,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad flag value for superblock\");",
+                            "if (H5_IS_BUFFER_OVERFLOW(image, H5F_SIZEOF_ADDR(udata->f) * 4, end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");"
+                        ],
+                        "delete_location": [
+                            559,
+                            558
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_29",
+                    {
+                        "Edit": "add",
+                        "add_location": 565,
+                        "add_hunk": [
+                            "        if (H5_IS_BUFFER_OVERFLOW(image, sizeof(uint32_t), end))\n",
+                            "            HGOTO_ERROR(H5E_FILE, H5E_OVERFLOW, NULL, \"image pointer is out of bounds\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_30",
+                    {
+                        "Edit": "change",
+                        "add_location": 571,
+                        "add_hunk": [],
+                        "delete_location": [
+                            571,
+                            571
+                        ],
+                        "delete_hunk": [
+                            "         * core representation of the super block HADDR_UNDEF to prevent\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_31",
+                    {
+                        "Edit": "change",
+                        "add_location": 578,
+                        "add_hunk": [
+                            "    if ((size_t)(image - (const uint8_t *)_image) > len)\n",
+                            "        HDONE_ERROR(H5E_FILE, H5E_BADVALUE, NULL, \"bad decoded superblock size\");\n"
+                        ],
+                        "delete_location": [
+                            578,
+                            578
+                        ],
+                        "delete_hunk": [
+                            "    HDassert((size_t)(image - (const uint8_t *)_image) <= len);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_33",
+                    {
+                        "Edit": "change",
+                        "add_location": 587,
+                        "add_hunk": [
+                            "            HDONE_ERROR(H5E_FILE, H5E_CANTFREE, NULL, \"unable to destroy superblock data\");\n"
+                        ],
+                        "delete_location": [
+                            587,
+                            587
+                        ],
+                        "delete_hunk": [
+                            "            HDONE_ERROR(H5E_FILE, H5E_CANTFREE, NULL, \"unable to destroy superblock data\")\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: H5F__cache_superblock_deserialize -> H5F__cache_superblock_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_type",
+                "function_call",
+                "sanity_check",
+                "MOVE_TO",
+                "function_definition",
+                "change_value",
+                "other"
+            ]
+        }
+    }
+}

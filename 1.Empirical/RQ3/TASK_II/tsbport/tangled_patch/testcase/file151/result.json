@@ -1,0 +1,29 @@
+{
+    "testcase": {
+        "file151": {
+            "match_message": {
+                "Same: gf_odf_read_iod -> gf_odf_read_iod": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 483->508 ([[508, 1.0], [505, 0.6552380952380952], [491, 0.3892339544513458]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 483->508 ([[508, 1.0], [505, 0.6552380952380952], [491, 0.3892339544513458]])"
+                    }
+                },
+                "Same: gf_odf_read_isom_od -> gf_odf_read_isom_od": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 998->1027 ([[1027, 1.0], [1024, 0.6590476190476191], [1017, 0.3657957244655582]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 998->1027 ([[1027, 1.0], [1024, 0.6590476190476191], [1017, 0.3657957244655582]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": {},
+            "semanic_check": {},
+            "verify_patch": {},
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

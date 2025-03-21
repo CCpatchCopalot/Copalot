@@ -1,0 +1,749 @@
+name: layout  @ 66 @ name: layout  @ 77 @ 
+name: u  @ 66 @ name: u  @ 77 @ 
+argument  @ 17 @ argument  @ 17 @ 
+operator: )  @ 17 @ operator: )  @ 17 @ 
+block_content  @ 49 @ block_content  @ 53 @ 
+comment: /* Reset any cached chunk info for this dataset */  @ 40 @ comment: /* Reset any cached chunk info for this dataset */  @ 44 @ 
+name: H5O_storage_chunk_t  @ 7 @ name: H5O_storage_chunk_t  @ 7 @ 
+argument_list  @ 56 @ argument_list  @ 64 @ 
+name: dset  @ 48 @ name: dset  @ 52 @ 
+expr  @ 48 @ expr  @ 52 @ 
+expr  @ 53 @ expr  @ 60 @ 
+operator: ->  @ 65 @ operator: ->  @ 76 @ 
+expr  @ 38 @ expr  @ 40 @ 
+name  @ 26 @ name  @ 28 @ 
+condition  @ 19 @ condition  @ 21 @ 
+operator: ->  @ 66 @ operator: ->  @ 77 @ 
+name: done  @ 75 @ name: done  @ 88 @ 
+comment: /* Local index value */  @ 46 @ comment: /* Local index value */  @ 50 @ 
+name: f  @ 64 @ name: f  @ 75 @ 
+operator: .  @ 65 @ operator: .  @ 76 @ 
+name: rdcc  @ 5 @ name: rdcc  @ 5 @ 
+expr  @ 56 @ expr  @ 67 @ 
+literal: "can't get data cache byte size"  @ 25 @ literal: "can't get data cache byte size"  @ 27 @ 
+name  @ 27 @ name  @ 29 @ 
+name: H5D_ACS_PREEMPT_READ_CHUNKS_NAME  @ 29 @ name: H5D_ACS_PREEMPT_READ_CHUNKS_NAME  @ 31 @ 
+argument  @ 73 @ argument  @ 86 @ 
+name: dset  @ 72 @ name: dset  @ 85 @ 
+argument  @ 29 @ argument  @ 31 @ 
+operator: .  @ 7 @ operator: .  @ 7 @ 
+comment: /* Data access property list object pointer */  @ 6 @ comment: /* Data access property list object pointer */  @ 6 @ 
+name: hsize_t  @ 49 @ name: hsize_t  @ 53 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 77 @ 
+expr  @ 53 @ expr  @ 61 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 64 @ expr  @ 75 @ 
+name: shared  @ 53 @ name: shared  @ 60 @ 
+block_content  @ 38 @ block_content  @ 40 @ 
+block  @ 40 @ block  @ 42 @ 
+expr  @ 35 @ expr  @ 37 @ 
+literal: 0  @ 72 @ literal: 0  @ 85 @ 
+operator: ->  @ 22 @ operator: ->  @ 24 @ 
+name: H5D_CHUNK_CACHE_NBYTES_DEFAULT  @ 26 @ name: H5D_CHUNK_CACHE_NBYTES_DEFAULT  @ 28 @ 
+operator: ==  @ 17 @ operator: ==  @ 17 @ 
+name: init  @ 70 @ name: init  @ 81 @ 
+operator: )  @ 7 @ operator: )  @ 7 @ 
+name: H5F_RDCC_NSLOTS  @ 22 @ name: H5F_RDCC_NSLOTS  @ 24 @ 
+block  @ 18 @ block  @ 18 @ 
+name  @ 21 @ name  @ 23 @ 
+type  @ 2 @ type  @ 2 @ 
+argument_list  @ 55 @ argument_list  @ 63 @ 
+name: u  @ 56 @ name: u  @ 67 @ 
+block  @ 53 @ block  @ 57 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 40 @ 
+name: w0  @ 32 @ name: w0  @ 34 @ 
+operator: =  @ 65 @ operator: =  @ 76 @ 
+operator: =  @ 27 @ operator: =  @ 29 @ 
+operator: =  @ 32 @ operator: =  @ 34 @ 
+name: sc  @ 7 @ name: sc  @ 7 @ 
+name: rdcc  @ 39 @ name: rdcc  @ 41 @ 
+name  @ 64 @ name  @ 75 @ 
+argument  @ 25 @ argument  @ 27 @ 
+operator: =  @ 22 @ operator: =  @ 24 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+argument_list  @ 18 @ argument_list  @ 18 @ 
+argument  @ 53 @ argument  @ 57 @ 
+name: SUCCEED  @ 8 @ name: SUCCEED  @ 8 @ 
+block_content  @ 56 @ block_content  @ 64 @ 
+name: H5D_CHUNK_CACHE_NSLOTS_DEFAULT  @ 21 @ name: H5D_CHUNK_CACHE_NSLOTS_DEFAULT  @ 23 @ 
+name: scaled_power2up  @ 55 @ name: scaled_power2up  @ 63 @ 
+name: shared  @ 65 @ name: shared  @ 76 @ 
+argument  @ 59 @ argument  @ 70 @ 
+operator: .  @ 53 @ operator: .  @ 61 @ 
+name: pline  @ 65 @ name: pline  @ 76 @ 
+literal: 0  @ 36 @ literal: 0  @ 38 @ 
+operator: ->  @ 66 @ operator: ->  @ 77 @ 
+expr  @ 21 @ expr  @ 23 @ 
+call  @ 38 @ call  @ 40 @ 
+expr  @ 29 @ expr  @ 31 @ 
+comment: /* Allocate any indexing structures */  @ 69 @ comment: /* Allocate any indexing structures */  @ 80 @ 
+expr  @ 13 @ expr  @ 13 @ 
+modifier: *  @ 6 @ modifier: *  @ 6 @ 
+decl  @ 6 @ decl  @ 6 @ 
+operator: ||  @ 35 @ operator: ||  @ 37 @ 
+name  @ 53 @ name  @ 60 @ 
+name: u  @ 53 @ name: u  @ 60 @ 
+name: sc  @ 67 @ name: sc  @ 78 @ 
+name: last  @ 41 @ name: last  @ 45 @ 
+block  @ 56 @ block  @ 64 @ 
+expr  @ 15 @ expr  @ 15 @ 
+if_stmt  @ 39 @ if_stmt  @ 41 @ 
+operator: ->  @ 56 @ operator: ->  @ 67 @ 
+name: w0  @ 31 @ name: w0  @ 33 @ 
+name: f  @ 13 @ name: f  @ 13 @ 
+name  @ 39 @ name  @ 41 @ 
+name: layout  @ 53 @ name: layout  @ 60 @ 
+block  @ 73 @ block  @ 86 @ 
+macro  @ 56 @ macro  @ 64 @ 
+expr  @ 24 @ expr  @ 26 @ 
+name: dset  @ 53 @ name: dset  @ 61 @ 
+operator: &  @ 5 @ operator: &  @ 5 @ 
+name  @ 70 @ name  @ 81 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 76 @ 
+literal: 0  @ 52 @ literal: 0  @ 56 @ 
+operator: )  @ 41 @ operator: )  @ 45 @ 
+init  @ 8 @ init  @ 8 @ 
+operator: (  @ 53 @ operator: (  @ 60 @ 
+condition  @ 45 @ condition  @ 49 @ 
+name: H5D_t  @ 2 @ name: H5D_t  @ 2 @ 
+name: dset  @ 53 @ name: dset  @ 60 @ 
+operator: ->  @ 53 @ operator: ->  @ 60 @ 
+operator: .  @ 7 @ operator: .  @ 7 @ 
+name: HGOTO_ERROR  @ 56 @ name: HGOTO_ERROR  @ 64 @ 
+operator: ->  @ 35 @ operator: ->  @ 37 @ 
+name: unsigned  @ 46 @ name: unsigned  @ 50 @ 
+argument  @ 29 @ argument  @ 31 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+name: dset  @ 5 @ name: dset  @ 5 @ 
+name  @ 59 @ name  @ 70 @ 
+index  @ 59 @ index  @ 70 @ 
+init  @ 5 @ init  @ 5 @ 
+operator: (  @ 17 @ operator: (  @ 17 @ 
+name: dset  @ 65 @ name: dset  @ 76 @ 
+block  @ 27 @ block  @ 29 @ 
+name: idx_info  @ 64 @ name: idx_info  @ 75 @ 
+block  @ 37 @ block  @ 39 @ 
+comment: /* Return value */  @ 8 @ comment: /* Return value */  @ 8 @ 
+comment: /* Number of bits required to encode scaled dimension size */  @ 58 @ comment: /* Number of bits required to encode scaled dimension size */  @ 69 @ 
+type  @ 10 @ type  @ 10 @ 
+operator: ++  @ 48 @ operator: ++  @ 52 @ 
+name: rdcc  @ 59 @ name: rdcc  @ 70 @ 
+expr  @ 24 @ expr  @ 26 @ 
+operator: <  @ 24 @ operator: <  @ 26 @ 
+name: nslots  @ 36 @ name: nslots  @ 38 @ 
+name: HGOTO_ERROR  @ 30 @ name: HGOTO_ERROR  @ 32 @ 
+comment: /* If nbytes_max or nslots is 0, set them both to 0 and avoid allocating space */  @ 34 @ comment: /* If nbytes_max or nslots is 0, set them both to 0 and avoid allocating space */  @ 36 @ 
+argument  @ 19 @ argument  @ 21 @ 
+name: nbytes_max  @ 35 @ name: nbytes_max  @ 37 @ 
+name  @ 38 @ name  @ 40 @ 
+operator: )  @ 17 @ operator: )  @ 17 @ 
+name: H5F_RDCC_W0  @ 32 @ name: H5F_RDCC_W0  @ 34 @ 
+name: HGOTO_ERROR  @ 25 @ name: HGOTO_ERROR  @ 27 @ 
+name: nbytes_max  @ 26 @ name: nbytes_max  @ 28 @ 
+literal: "can't get data cache number of slots"  @ 20 @ literal: "can't get data cache number of slots"  @ 22 @ 
+expr  @ 32 @ expr  @ 34 @ 
+name: layout  @ 53 @ name: layout  @ 61 @ 
+name: HGOTO_ERROR  @ 71 @ name: HGOTO_ERROR  @ 82 @ 
+expr  @ 52 @ expr  @ 56 @ 
+name: nslots  @ 19 @ name: nslots  @ 21 @ 
+comment: /* Initial 'power2up' values for scaled dimensions */  @ 56 @ comment: /* Initial 'power2up' values for scaled dimensions */  @ 66 @ 
+operator: =  @ 67 @ operator: =  @ 78 @ 
+call  @ 27 @ call  @ 29 @ 
+init  @ 7 @ init  @ 7 @ 
+operator: <  @ 19 @ operator: <  @ 21 @ 
+condition  @ 48 @ condition  @ 52 @ 
+call  @ 41 @ call  @ 45 @ 
+argument_list  @ 76 @ argument_list  @ 89 @ 
+operator: *  @ 17 @ operator: *  @ 17 @ 
+name: HGOTO_ERROR  @ 40 @ name: HGOTO_ERROR  @ 42 @ 
+name: HGOTO_ERROR  @ 18 @ name: HGOTO_ERROR  @ 18 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 24 @ 
+name: dset  @ 70 @ name: dset  @ 81 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+name: ops  @ 70 @ name: ops  @ 81 @ 
+operator: ->  @ 19 @ operator: ->  @ 21 @ 
+name: scaled_power2up  @ 56 @ name: scaled_power2up  @ 67 @ 
+operator: /  @ 53 @ operator: /  @ 60 @ 
+if_stmt  @ 45 @ if_stmt  @ 49 @ 
+argument  @ 25 @ argument  @ 27 @ 
+argument_list  @ 22 @ argument_list  @ 24 @ 
+name: chunk  @ 66 @ name: chunk  @ 77 @ 
+expr  @ 14 @ expr  @ 14 @ 
+incr  @ 48 @ incr  @ 52 @ 
+type  @ 2 @ type  @ 2 @ 
+argument  @ 20 @ argument  @ 22 @ 
+decl_stmt  @ 46 @ decl_stmt  @ 50 @ 
+name: layout  @ 66 @ name: layout  @ 77 @ 
+block_content  @ 25 @ block_content  @ 27 @ 
+call  @ 55 @ call  @ 63 @ 
+literal: "chunk size must be>0, dim = %u "  @ 53 @ literal: "chunk size must be>0, dim = %u "  @ 57 @ 
+expr  @ 24 @ expr  @ 26 @ 
+block  @ 20 @ block  @ 22 @ 
+condition  @ 72 @ condition  @ 85 @ 
+name: dset  @ 52 @ name: dset  @ 56 @ 
+name: FUNC_ENTER_STATIC  @ 10 @ name: FUNC_ENTER_PACKAGE  @ 10 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+name: rdcc  @ 36 @ name: rdcc  @ 38 @ 
+expr  @ 17 @ expr  @ 17 @ 
+operator: .  @ 64 @ operator: .  @ 75 @ 
+type  @ 5 @ type  @ 5 @ 
+argument  @ 30 @ argument  @ 32 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+name: idx_info  @ 66 @ name: idx_info  @ 77 @ 
+expr  @ 39 @ expr  @ 41 @ 
+operator: (  @ 55 @ operator: (  @ 63 @ 
+name: rdcc  @ 36 @ name: rdcc  @ 38 @ 
+operator: ->  @ 53 @ operator: ->  @ 60 @ 
+name: u  @ 55 @ name: u  @ 63 @ 
+index  @ 53 @ index  @ 60 @ 
+expr  @ 72 @ expr  @ 85 @ 
+decl  @ 2 @ decl  @ 2 @ 
+block  @ 71 @ block  @ 82 @ 
+operator: ==  @ 39 @ operator: ==  @ 41 @ 
+operator: (  @ 70 @ operator: (  @ 81 @ 
+literal: "unable to get the next power of 2"  @ 56 @ literal: "unable to get the next power of 2"  @ 64 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 38 @ 
+argument_list  @ 27 @ argument_list  @ 29 @ 
+name  @ 22 @ name  @ 24 @ 
+name: w0  @ 29 @ name: w0  @ 31 @ 
+name: dapl  @ 6 @ name: dapl  @ 6 @ 
+expr  @ 48 @ expr  @ 52 @ 
+name: idx_info  @ 65 @ name: idx_info  @ 76 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+comment: /* end else */  @ 42 @ comment: /* end else */  @ 46 @ 
+name  @ 24 @ name  @ 26 @ 
+block_content  @ 18 @ block_content  @ 18 @ 
+name: sc  @ 70 @ name: sc  @ 81 @ 
+block_content  @ 53 @ block_content  @ 57 @ 
+call  @ 29 @ call  @ 31 @ 
+argument  @ 32 @ argument  @ 34 @ 
+index  @ 56 @ index  @ 67 @ 
+condition  @ 39 @ condition  @ 41 @ 
+index  @ 53 @ index  @ 61 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+name: H5D__chunk_cinfo_cache_reset  @ 41 @ name: H5D__chunk_cinfo_cache_reset  @ 45 @ 
+argument  @ 72 @ argument  @ 85 @ 
+operator: .  @ 53 @ operator: .  @ 60 @ 
+argument  @ 71 @ argument  @ 82 @ 
+name: chunk  @ 5 @ name: chunk  @ 5 @ 
+expr  @ 26 @ expr  @ 28 @ 
+argument  @ 56 @ argument  @ 64 @ 
+argument  @ 40 @ argument  @ 42 @ 
+argument  @ 53 @ argument  @ 57 @ 
+name: ops  @ 70 @ name: ops  @ 81 @ 
+block  @ 3 @ block  @ 3 @ 
+name: nslots  @ 35 @ name: nslots  @ 37 @ 
+operator: ->  @ 41 @ operator: ->  @ 45 @ 
+name: H5VM_log2_gen  @ 59 @ name: H5VM_log2_gen  @ 70 @ 
+argument  @ 19 @ argument  @ 21 @ 
+argument  @ 38 @ argument  @ 40 @ 
+operator: .  @ 52 @ operator: .  @ 56 @ 
+expr  @ 59 @ expr  @ 70 @ 
+name: rdcc  @ 41 @ name: rdcc  @ 45 @ 
+name: H5D__chunk_set_info  @ 72 @ name: H5D__chunk_set_info  @ 85 @ 
+decl  @ 4 @ decl  @ 4 @ 
+name: H5F_RDCC_NBYTES  @ 27 @ name: H5F_RDCC_NBYTES  @ 29 @ 
+expr  @ 55 @ expr  @ 63 @ 
+argument  @ 55 @ argument  @ 63 @ 
+operator: ->  @ 7 @ operator: ->  @ 7 @ 
+name: scaled_dims  @ 55 @ name: scaled_dims  @ 63 @ 
+comment: /* Scaled value, rounded to next power of 2 */  @ 49 @ comment: /* Scaled value, rounded to next power of 2 */  @ 53 @ 
+name: space  @ 70 @ name: space  @ 81 @ 
+argument_list  @ 72 @ argument_list  @ 85 @ 
+block  @ 30 @ block  @ 32 @ 
+name: rdcc  @ 26 @ name: rdcc  @ 28 @ 
+block  @ 32 @ block  @ 34 @ 
+name: NULL  @ 17 @ name: NULL  @ 17 @ 
+operator: !  @ 35 @ operator: !  @ 37 @ 
+expr  @ 56 @ expr  @ 67 @ 
+literal: "can't find object for fapl ID"  @ 18 @ literal: "can't find object for fapl ID"  @ 18 @ 
+call  @ 15 @ call  @ 15 @ 
+name: u  @ 46 @ name: u  @ 50 @ 
+argument_list  @ 24 @ argument_list  @ 26 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 70 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: chunk  @ 53 @ name: chunk  @ 60 @ 
+type  @ 46 @ type  @ 50 @ 
+block_content  @ 46 @ block_content  @ 50 @ 
+operator: =  @ 17 @ operator: =  @ 17 @ 
+type  @ 49 @ type  @ 53 @ 
+block_content  @ 32 @ block_content  @ 34 @ 
+name: rdcc  @ 38 @ name: rdcc  @ 40 @ 
+name: rdcc  @ 55 @ name: rdcc  @ 63 @ 
+operator: &  @ 70 @ operator: &  @ 81 @ 
+operator: <  @ 48 @ operator: <  @ 52 @ 
+macro  @ 40 @ macro  @ 42 @ 
+if  @ 26 @ if  @ 28 @ 
+name: dset  @ 53 @ name: dset  @ 60 @ 
+expr  @ 29 @ expr  @ 31 @ 
+comment: /* Chunked index info */  @ 4 @ comment: /* Chunked index info */  @ 4 @ 
+condition  @ 17 @ condition  @ 17 @ 
+operator: <  @ 29 @ operator: <  @ 31 @ 
+expr  @ 59 @ expr  @ 70 @ 
+operator: .  @ 70 @ operator: .  @ 81 @ 
+name: u  @ 53 @ name: u  @ 61 @ 
+operator: ->  @ 24 @ operator: ->  @ 26 @ 
+expr  @ 72 @ expr  @ 85 @ 
+macro  @ 20 @ macro  @ 22 @ 
+operator: .  @ 65 @ operator: .  @ 76 @ 
+name: nbytes_max  @ 24 @ name: nbytes_max  @ 26 @ 
+argument  @ 40 @ argument  @ 42 @ 
+expr  @ 27 @ expr  @ 29 @ 
+name: HGOTO_ERROR  @ 20 @ name: HGOTO_ERROR  @ 22 @ 
+if_stmt  @ 17 @ if_stmt  @ 17 @ 
+name: shared  @ 48 @ name: shared  @ 52 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 60 @ 
+operator: ,  @ 70 @ operator: ,  @ 81 @ 
+name  @ 41 @ name  @ 45 @ 
+block_content  @ 30 @ block_content  @ 32 @ 
+operator: &  @ 65 @ operator: &  @ 76 @ 
+argument_list  @ 20 @ argument_list  @ 22 @ 
+expr  @ 8 @ expr  @ 8 @ 
+argument  @ 30 @ argument  @ 32 @ 
+operator: .  @ 53 @ operator: .  @ 61 @ 
+operator: ==  @ 26 @ operator: ==  @ 28 @ 
+if_stmt  @ 70 @ if_stmt  @ 81 @ 
+name: shared  @ 7 @ name: shared  @ 7 @ 
+name: storage  @ 67 @ name: storage  @ 78 @ 
+name: HGOTO_ERROR  @ 73 @ name: HGOTO_ERROR  @ 86 @ 
+argument  @ 19 @ argument  @ 21 @ 
+if_stmt  @ 29 @ if_stmt  @ 31 @ 
+name: NULL  @ 39 @ name: NULL  @ 41 @ 
+name: H5F_t  @ 2 @ name: H5F_t  @ 2 @ 
+operator: ->  @ 70 @ operator: ->  @ 81 @ 
+call  @ 72 @ call  @ 85 @ 
+argument_list  @ 73 @ argument_list  @ 86 @ 
+operator: !  @ 35 @ operator: !  @ 37 @ 
+label  @ 75 @ label  @ 88 @ 
+operator: ->  @ 7 @ operator: ->  @ 7 @ 
+name: u  @ 48 @ name: u  @ 52 @ 
+name: u  @ 53 @ name: u  @ 60 @ 
+decl  @ 46 @ decl  @ 50 @ 
+operator: ->  @ 59 @ operator: ->  @ 70 @ 
+argument_list  @ 71 @ argument_list  @ 82 @ 
+operator: (  @ 70 @ operator: (  @ 81 @ 
+expr  @ 41 @ expr  @ 45 @ 
+expr  @ 31 @ expr  @ 33 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 34 @ 
+argument  @ 24 @ argument  @ 26 @ 
+type  @ 8 @ type  @ 8 @ 
+operator: <  @ 70 @ operator: <  @ 81 @ 
+name: idx_info  @ 4 @ name: idx_info  @ 4 @ 
+name: rdcc  @ 35 @ name: rdcc  @ 37 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+operator: &  @ 24 @ operator: &  @ 26 @ 
+comment: /* Compose chunked index info struct */  @ 63 @ comment: /* Compose chunked index info struct */  @ 74 @ 
+type  @ 7 @ type  @ 7 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+expr  @ 55 @ expr  @ 63 @ 
+name: dset  @ 2 @ name: dset  @ 2 @ 
+name: scaled_power2up  @ 59 @ name: scaled_power2up  @ 70 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+expr  @ 59 @ expr  @ 70 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: ->  @ 29 @ operator: ->  @ 31 @ 
+block_content  @ 27 @ block_content  @ 29 @ 
+comment: /* Sanity check */  @ 12 @ comment: /* Sanity check */  @ 12 @ 
+macro  @ 53 @ macro  @ 57 @ 
+condition  @ 21 @ condition  @ 23 @ 
+name: nbytes_max  @ 27 @ name: nbytes_max  @ 29 @ 
+name: H5P_genplist_t  @ 17 @ name: H5P_genplist_t  @ 17 @ 
+name: layout  @ 52 @ name: layout  @ 56 @ 
+expr  @ 70 @ expr  @ 81 @ 
+name: u  @ 59 @ name: u  @ 70 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 7 @ 
+macro  @ 25 @ macro  @ 27 @ 
+name  @ 7 @ name  @ 7 @ 
+operator: .  @ 67 @ operator: .  @ 78 @ 
+name: H5D_ACS_DATA_CACHE_BYTE_SIZE_NAME  @ 24 @ name: H5D_ACS_DATA_CACHE_BYTE_SIZE_NAME  @ 26 @ 
+name: shared  @ 66 @ name: shared  @ 77 @ 
+operator: ->  @ 27 @ operator: ->  @ 29 @ 
+if_stmt  @ 72 @ if_stmt  @ 85 @ 
+index  @ 53 @ index  @ 60 @ 
+expr  @ 41 @ expr  @ 45 @ 
+name: rdcc  @ 53 @ name: rdcc  @ 60 @ 
+block_content  @ 73 @ block_content  @ 86 @ 
+block_content  @ 36 @ block_content  @ 38 @ 
+condition  @ 55 @ condition  @ 63 @ 
+name: cache  @ 5 @ name: cache  @ 5 @ 
+name: shared  @ 52 @ name: shared  @ 56 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: sc  @ 70 @ name: sc  @ 81 @ 
+name  @ 65 @ name  @ 76 @ 
+literal: 0  @ 19 @ literal: 0  @ 21 @ 
+operator: =  @ 48 @ operator: =  @ 52 @ 
+expr  @ 29 @ expr  @ 31 @ 
+if  @ 17 @ if  @ 17 @ 
+if  @ 35 @ if  @ 37 @ 
+name: HDassert  @ 13 @ name: HDassert  @ 13 @ 
+argument_list  @ 38 @ argument_list  @ 40 @ 
+argument_list  @ 59 @ argument_list  @ 70 @ 
+expr  @ 22 @ expr  @ 24 @ 
+argument  @ 30 @ argument  @ 32 @ 
+name: H5D_rdcc_t  @ 5 @ name: H5D_rdcc_t  @ 5 @ 
+name: u  @ 53 @ name: u  @ 61 @ 
+name: rdcc  @ 29 @ name: rdcc  @ 31 @ 
+name: idx_info  @ 70 @ name: idx_info  @ 81 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 10 @ 
+if_stmt  @ 19 @ if_stmt  @ 21 @ 
+block  @ 22 @ block  @ 24 @ 
+argument  @ 18 @ argument  @ 18 @ 
+argument  @ 18 @ argument  @ 18 @ 
+operator: .  @ 53 @ operator: .  @ 60 @ 
+literal: "unable to set # of chunks for dataset"  @ 73 @ literal: "unable to set # of chunks for dataset"  @ 86 @ 
+operator: &  @ 19 @ operator: &  @ 21 @ 
+name: nbytes_max  @ 36 @ name: nbytes_max  @ 38 @ 
+argument_list  @ 41 @ argument_list  @ 45 @ 
+argument  @ 53 @ argument  @ 57 @ 
+comment: /* Set the number of chunks in dataset, etc. */  @ 71 @ comment: /* Set the number of chunks in dataset, etc. */  @ 84 @ 
+if_stmt  @ 52 @ if_stmt  @ 56 @ 
+if  @ 72 @ if  @ 85 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+name: rdcc  @ 56 @ name: rdcc  @ 67 @ 
+name: dim  @ 52 @ name: dim  @ 56 @ 
+macro  @ 73 @ macro  @ 86 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: dapl  @ 24 @ name: dapl  @ 26 @ 
+comment: /* end for */  @ 60 @ comment: /* end for */  @ 71 @ 
+decl  @ 10 @ decl  @ 10 @ 
+operator: ->  @ 38 @ operator: ->  @ 40 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 75 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: H5P_get  @ 24 @ name: H5P_get  @ 26 @ 
+name: HGOTO_ERROR  @ 53 @ name: HGOTO_ERROR  @ 57 @ 
+literal: 1  @ 45 @ literal: 1  @ 49 @ 
+comment: /* Round up to the next integer # of chunks, to accommodate partial chunks */  @ 53 @ comment: /* Round up to the next integer # of chunks, to accommodate partial chunks */  @ 59 @ 
+name: dset  @ 45 @ name: dset  @ 49 @ 
+name  @ 53 @ name  @ 60 @ 
+literal: "memory allocation failed"  @ 40 @ literal: "memory allocation failed"  @ 42 @ 
+argument  @ 18 @ argument  @ 18 @ 
+argument  @ 22 @ argument  @ 24 @ 
+expr  @ 59 @ expr  @ 70 @ 
+name: dset  @ 66 @ name: dset  @ 77 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: rdcc  @ 24 @ name: rdcc  @ 26 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name: hid_t  @ 2 @ name: hid_t  @ 2 @ 
+operator: =  @ 59 @ operator: =  @ 70 @ 
+decl_stmt  @ 49 @ decl_stmt  @ 53 @ 
+operator: ->  @ 55 @ operator: ->  @ 63 @ 
+operator: )  @ 53 @ operator: )  @ 60 @ 
+call  @ 19 @ call  @ 21 @ 
+operator: ->  @ 36 @ operator: ->  @ 38 @ 
+operator: .  @ 5 @ operator: .  @ 5 @ 
+macro  @ 71 @ macro  @ 82 @ 
+operator: ->  @ 35 @ operator: ->  @ 37 @ 
+name: u  @ 52 @ name: u  @ 56 @ 
+macro  @ 18 @ macro  @ 18 @ 
+name: H5P_get  @ 19 @ name: H5P_get  @ 21 @ 
+name  @ 36 @ name  @ 38 @ 
+name: chunk  @ 7 @ name: chunk  @ 7 @ 
+expr  @ 38 @ expr  @ 40 @ 
+name: rdcc  @ 27 @ name: rdcc  @ 29 @ 
+argument  @ 25 @ argument  @ 27 @ 
+comment: /* end if */  @ 61 @ comment: /* end if */  @ 72 @ 
+name: ndims  @ 48 @ name: ndims  @ 52 @ 
+macro  @ 76 @ macro  @ 89 @ 
+name: scaled_dims  @ 53 @ name: scaled_dims  @ 60 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+name: rdcc  @ 22 @ name: rdcc  @ 24 @ 
+comment: /* end H5D__chunk_init() */  @ 77 @ comment: /* end H5D__chunk_init() */  @ 90 @ 
+if  @ 52 @ if  @ 56 @ 
+block_content  @ 71 @ block_content  @ 82 @ 
+condition  @ 29 @ condition  @ 31 @ 
+argument  @ 27 @ argument  @ 29 @ 
+argument  @ 71 @ argument  @ 82 @ 
+operator: ->  @ 70 @ operator: ->  @ 81 @ 
+name: dset  @ 14 @ name: dset  @ 14 @ 
+decl  @ 7 @ decl  @ 7 @ 
+operator: ->  @ 39 @ operator: ->  @ 41 @ 
+operator: ->  @ 59 @ operator: ->  @ 70 @ 
+name: H5D_chk_idx_info_t  @ 4 @ name: H5D_chk_idx_info_t  @ 4 @ 
+expr  @ 66 @ expr  @ 77 @ 
+operator: =  @ 36 @ operator: =  @ 38 @ 
+name  @ 53 @ name  @ 61 @ 
+argument_list  @ 29 @ argument_list  @ 31 @ 
+name: dapl  @ 17 @ name: dapl  @ 17 @ 
+operator: =  @ 66 @ operator: =  @ 77 @ 
+name: H5P_genplist_t  @ 6 @ name: H5P_genplist_t  @ 6 @ 
+name: f  @ 2 @ name: f  @ 2 @ 
+name: rdcc  @ 21 @ name: rdcc  @ 23 @ 
+name: rdcc  @ 59 @ name: rdcc  @ 70 @ 
+operator: +  @ 53 @ operator: +  @ 60 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+argument_list  @ 32 @ argument_list  @ 34 @ 
+operator: ->  @ 70 @ operator: ->  @ 81 @ 
+name: storage  @ 7 @ name: storage  @ 7 @ 
+call  @ 17 @ call  @ 17 @ 
+index  @ 52 @ index  @ 56 @ 
+operator: !  @ 55 @ operator: !  @ 63 @ 
+argument  @ 40 @ argument  @ 42 @ 
+decl  @ 49 @ decl  @ 53 @ 
+name: nslots  @ 21 @ name: nslots  @ 23 @ 
+name: u  @ 7 @ name: u  @ 7 @ 
+operator: .  @ 66 @ operator: .  @ 77 @ 
+literal: 0  @ 70 @ literal: 0  @ 81 @ 
+argument  @ 76 @ argument  @ 89 @ 
+expr  @ 19 @ expr  @ 21 @ 
+argument  @ 20 @ argument  @ 22 @ 
+name: layout  @ 7 @ name: layout  @ 7 @ 
+argument  @ 25 @ argument  @ 27 @ 
+name  @ 35 @ name  @ 37 @ 
+operator: =  @ 38 @ operator: =  @ 40 @ 
+control  @ 48 @ control  @ 52 @ 
+operator: ->  @ 70 @ operator: ->  @ 81 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name  @ 67 @ name  @ 78 @ 
+name: curr_dims  @ 53 @ name: curr_dims  @ 60 @ 
+operator: =  @ 55 @ operator: =  @ 63 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+if  @ 21 @ if  @ 23 @ 
+name: pline  @ 65 @ name: pline  @ 76 @ 
+call  @ 24 @ call  @ 26 @ 
+operator: ->  @ 53 @ operator: ->  @ 61 @ 
+name: scaled_encode_bits  @ 59 @ name: scaled_encode_bits  @ 70 @ 
+if_stmt  @ 24 @ if_stmt  @ 26 @ 
+name: H5D__chunk_init  @ 2 @ name: H5D__chunk_init  @ 2 @ 
+operator: ->  @ 52 @ operator: ->  @ 56 @ 
+name: nslots  @ 38 @ name: nslots  @ 40 @ 
+argument  @ 56 @ argument  @ 64 @ 
+name  @ 52 @ name  @ 56 @ 
+literal: "can't initialize indexing information"  @ 71 @ literal: "can't initialize indexing information"  @ 82 @ 
+expr  @ 32 @ expr  @ 34 @ 
+name  @ 45 @ name  @ 49 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: =  @ 36 @ operator: =  @ 38 @ 
+name: shared  @ 70 @ name: shared  @ 81 @ 
+operator: ->  @ 65 @ operator: ->  @ 76 @ 
+if_stmt  @ 35 @ if_stmt  @ 37 @ 
+operator: (  @ 17 @ operator: (  @ 17 @ 
+condition  @ 52 @ condition  @ 56 @ 
+expr  @ 53 @ expr  @ 60 @ 
+operator: &  @ 29 @ operator: &  @ 31 @ 
+name: shared  @ 53 @ name: shared  @ 61 @ 
+argument_list  @ 53 @ argument_list  @ 57 @ 
+operator: ->  @ 70 @ operator: ->  @ 81 @ 
+else  @ 37 @ else  @ 39 @ 
+name: herr_t  @ 8 @ name: herr_t  @ 8 @ 
+operator: (  @ 41 @ operator: (  @ 45 @ 
+name: oloc  @ 70 @ name: oloc  @ 81 @ 
+operator: <  @ 72 @ operator: <  @ 85 @ 
+operator: .  @ 66 @ operator: .  @ 77 @ 
+argument  @ 24 @ argument  @ 26 @ 
+for  @ 48 @ for  @ 52 @ 
+comment: /* Initial scaled dimension sizes */  @ 51 @ comment: /* Initial scaled dimension sizes */  @ 55 @ 
+if_stmt  @ 31 @ if_stmt  @ 33 @ 
+name: u  @ 53 @ name: u  @ 60 @ 
+literal: "can't get preempt read chunks"  @ 30 @ literal: "can't get preempt read chunks"  @ 32 @ 
+argument  @ 24 @ argument  @ 26 @ 
+operator: (  @ 7 @ operator: (  @ 7 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 29 @ 
+operator: ->  @ 48 @ operator: ->  @ 52 @ 
+operator: )  @ 70 @ operator: )  @ 81 @ 
+name: f  @ 27 @ name: f  @ 29 @ 
+name: H5D_CHUNK_STORAGE_INDEX_CHK  @ 15 @ name: H5D_CHUNK_STORAGE_INDEX_CHK  @ 15 @ 
+name: dapl  @ 19 @ name: dapl  @ 21 @ 
+expr  @ 36 @ expr  @ 38 @ 
+name: ndims  @ 45 @ name: ndims  @ 49 @ 
+name  @ 66 @ name  @ 77 @ 
+literal: 0  @ 31 @ literal: 0  @ 33 @ 
+expr  @ 27 @ expr  @ 29 @ 
+name: f  @ 22 @ name: f  @ 24 @ 
+name: chunk  @ 52 @ name: chunk  @ 56 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 67 @ 
+name  @ 59 @ name  @ 70 @ 
+operator: .  @ 52 @ operator: .  @ 56 @ 
+index  @ 55 @ index  @ 63 @ 
+name  @ 19 @ name  @ 21 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+argument  @ 20 @ argument  @ 22 @ 
+operator: ->  @ 53 @ operator: ->  @ 61 @ 
+name: dapl_id  @ 17 @ name: dapl_id  @ 17 @ 
+literal: 0  @ 48 @ literal: 0  @ 52 @ 
+name: nslots  @ 22 @ name: nslots  @ 24 @ 
+argument  @ 71 @ argument  @ 82 @ 
+name  @ 36 @ name  @ 38 @ 
+operator: &&  @ 70 @ operator: &&  @ 81 @ 
+name: rdcc  @ 35 @ name: rdcc  @ 37 @ 
+name  @ 65 @ name  @ 76 @ 
+name: FUNC_LEAVE_NOAPI  @ 76 @ name: FUNC_LEAVE_NOAPI  @ 89 @ 
+name  @ 29 @ name  @ 31 @ 
+if  @ 19 @ if  @ 21 @ 
+expr  @ 24 @ expr  @ 26 @ 
+block  @ 36 @ block  @ 38 @ 
+if  @ 29 @ if  @ 31 @ 
+expr  @ 38 @ expr  @ 40 @ 
+expr  @ 52 @ expr  @ 56 @ 
+condition  @ 70 @ condition  @ 81 @ 
+block  @ 25 @ block  @ 27 @ 
+argument  @ 73 @ argument  @ 86 @ 
+name  @ 5 @ name  @ 5 @ 
+operator: .  @ 66 @ operator: .  @ 77 @ 
+argument  @ 73 @ argument  @ 86 @ 
+argument_list  @ 25 @ argument_list  @ 27 @ 
+name: dapl  @ 29 @ name: dapl  @ 31 @ 
+index  @ 53 @ index  @ 60 @ 
+operator: ->  @ 32 @ operator: ->  @ 34 @ 
+operator: ,  @ 70 @ operator: ,  @ 81 @ 
+argument  @ 14 @ argument  @ 14 @ 
+if_stmt  @ 21 @ if_stmt  @ 23 @ 
+if  @ 39 @ if  @ 41 @ 
+argument_list  @ 19 @ argument_list  @ 21 @ 
+expr  @ 19 @ expr  @ 21 @ 
+name: dapl_id  @ 2 @ name: dapl_id  @ 2 @ 
+name: H5D_ACS_DATA_CACHE_NUM_SLOTS_NAME  @ 19 @ name: H5D_ACS_DATA_CACHE_NUM_SLOTS_NAME  @ 21 @ 
+expr  @ 14 @ expr  @ 14 @ 
+expr  @ 22 @ expr  @ 24 @ 
+argument  @ 73 @ argument  @ 86 @ 
+if_stmt  @ 55 @ if_stmt  @ 63 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 45 @ 
+block_content  @ 22 @ block_content  @ 24 @ 
+name: dim  @ 53 @ name: dim  @ 60 @ 
+argument_list  @ 14 @ argument_list  @ 14 @ 
+argument  @ 30 @ argument  @ 32 @ 
+argument  @ 29 @ argument  @ 31 @ 
+argument_list  @ 17 @ argument_list  @ 17 @ 
+name: dset  @ 7 @ name: dset  @ 7 @ 
+operator: ->  @ 48 @ operator: ->  @ 52 @ 
+comment: /* Compute scaled dimension info, if dataset dims>1 */  @ 44 @ comment: /* Compute scaled dimension info, if dataset dims>1 */  @ 48 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 78 @ 
+name  @ 38 @ name  @ 40 @ 
+if  @ 70 @ if  @ 81 @ 
+expr  @ 5 @ expr  @ 5 @ 
+argument  @ 53 @ argument  @ 57 @ 
+operator: .  @ 53 @ operator: .  @ 61 @ 
+argument_list  @ 30 @ argument_list  @ 32 @ 
+name  @ 48 @ name  @ 52 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+operator: -  @ 53 @ operator: -  @ 60 @ 
+operator: ->  @ 26 @ operator: ->  @ 28 @ 
+name: dcpl_cache  @ 65 @ name: dcpl_cache  @ 76 @ 
+name: HDassert  @ 14 @ name: HDassert  @ 14 @ 
+operator: &  @ 41 @ operator: &  @ 45 @ 
+name: addr  @ 70 @ name: addr  @ 81 @ 
+name: dim  @ 53 @ name: dim  @ 61 @ 
+name: init  @ 70 @ name: init  @ 81 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 29 @ expr  @ 31 @ 
+if_stmt  @ 26 @ if_stmt  @ 28 @ 
+argument  @ 20 @ argument  @ 22 @ 
+condition  @ 24 @ condition  @ 26 @ 
+expr  @ 45 @ expr  @ 49 @ 
+operator: .  @ 52 @ operator: .  @ 56 @ 
+expr  @ 53 @ expr  @ 60 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument_list  @ 40 @ argument_list  @ 42 @ 
+literal: 0  @ 24 @ literal: 0  @ 26 @ 
+operator: )  @ 70 @ operator: )  @ 81 @ 
+if  @ 45 @ if  @ 49 @ 
+name  @ 31 @ name  @ 33 @ 
+operator: ->  @ 45 @ operator: ->  @ 49 @ 
+modifier: *  @ 7 @ modifier: *  @ 7 @ 
+index  @ 59 @ index  @ 70 @ 
+condition  @ 31 @ condition  @ 33 @ 
+operator: ->  @ 45 @ operator: ->  @ 49 @ 
+name  @ 35 @ name  @ 37 @ 
+name: dset  @ 70 @ name: dset  @ 81 @ 
+name  @ 66 @ name  @ 77 @ 
+condition  @ 26 @ condition  @ 28 @ 
+name: u  @ 48 @ name: u  @ 52 @ 
+name: slot  @ 38 @ name: slot  @ 40 @ 
+block  @ 48 @ block  @ 52 @ 
+argument  @ 53 @ argument  @ 57 @ 
+expr  @ 19 @ expr  @ 21 @ 
+call  @ 22 @ call  @ 24 @ 
+operator: ->  @ 53 @ operator: ->  @ 60 @ 
+decl  @ 8 @ decl  @ 8 @ 
+expr  @ 48 @ expr  @ 52 @ 
+operator: ->  @ 36 @ operator: ->  @ 38 @ 
+operator: )  @ 55 @ operator: )  @ 63 @ 
+name  @ 70 @ name  @ 81 @ 
+operator: =  @ 64 @ operator: =  @ 75 @ 
+name: shared  @ 5 @ name: shared  @ 5 @ 
+operator: =  @ 53 @ operator: =  @ 60 @ 
+name: shared  @ 45 @ name: shared  @ 49 @ 
+operator: ->  @ 70 @ operator: ->  @ 81 @ 
+name: ret_value  @ 8 @ name: ret_value  @ 8 @ 
+name: sc  @ 15 @ name: sc  @ 15 @ 
+name: rdcc  @ 32 @ name: rdcc  @ 34 @ 
+name: idx_info  @ 67 @ name: idx_info  @ 78 @ 
+block_content  @ 40 @ block_content  @ 42 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+operator: &  @ 66 @ operator: &  @ 77 @ 
+name  @ 56 @ name  @ 67 @ 
+call  @ 14 @ call  @ 14 @ 
+name: rdcc  @ 19 @ name: rdcc  @ 21 @ 
+argument  @ 71 @ argument  @ 82 @ 
+name: rdcc  @ 31 @ name: rdcc  @ 33 @ 
+argument  @ 56 @ argument  @ 64 @ 
+argument  @ 13 @ argument  @ 13 @ 
+name: u  @ 59 @ name: u  @ 70 @ 
+name: u  @ 48 @ name: u  @ 52 @ 
+operator: ->  @ 70 @ operator: ->  @ 81 @ 
+name: H5P_get  @ 29 @ name: H5P_get  @ 31 @ 
+expr  @ 15 @ expr  @ 15 @ 
+operator: ->  @ 21 @ operator: ->  @ 23 @ 
+name: H5I_object  @ 17 @ name: H5I_object  @ 17 @ 
+name  @ 53 @ name  @ 60 @ 
+init  @ 48 @ init  @ 52 @ 
+name  @ 32 @ name  @ 34 @ 
+operator: .  @ 53 @ operator: .  @ 60 @ 
+operator: &  @ 7 @ operator: &  @ 7 @ 
+name: rdcc  @ 38 @ name: rdcc  @ 40 @ 
+expr  @ 55 @ expr  @ 63 @ 
+name  @ 55 @ name  @ 63 @ 
+argument  @ 56 @ argument  @ 64 @ 
+operator: <  @ 31 @ operator: <  @ 33 @ 
+comment: /* Use the properties in dapl_id if they have been set, otherwise use the properties from the file */  @ 18 @ comment: /* Use the properties in dapl_id if they have been set, otherwise use the properties from the file */  @ 20 @ 
+argument  @ 38 @ argument  @ 40 @ 
+argument  @ 41 @ argument  @ 45 @ 
+name  @ 70 @ name  @ 81 @ 
+function  @ 1 @ function  @ 1 @ 
+name: slot  @ 39 @ name: slot  @ 41 @ 
+name: f  @ 64 @ name: f  @ 75 @ 
+operator: ->  @ 38 @ operator: ->  @ 40 @ 
+name  @ 70 @ name  @ 81 @ 
+operator: ==  @ 21 @ operator: ==  @ 23 @ 
+block_content  @ 20 @ block_content  @ 22 @ 
+condition  @ 35 @ condition  @ 37 @ 
+expr  @ 53 @ expr  @ 60 @ 
+operator: ==  @ 52 @ operator: ==  @ 56 @ 
+call  @ 59 @ call  @ 70 @ 
+if  @ 55 @ if  @ 63 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+argument  @ 18 @ argument  @ 18 @ 
+name: scaled_power2up  @ 56 @ name: scaled_power2up  @ 67 @ 
+expr  @ 65 @ expr  @ 76 @ 
+name: H5VM_power2up  @ 55 @ name: H5VM_power2up  @ 63 @ 
+if  @ 24 @ if  @ 26 @ 
+call  @ 32 @ call  @ 34 @ 
+type  @ 4 @ type  @ 4 @ 
+argument  @ 15 @ argument  @ 15 @ 
+type  @ 6 @ type  @ 6 @ 
+name: u  @ 52 @ name: u  @ 56 @ 
+name: chunk  @ 53 @ name: chunk  @ 61 @ 
+name: shared  @ 53 @ name: shared  @ 60 @ 
+literal: 1  @ 53 @ literal: 1  @ 60 @ 
+argument  @ 40 @ argument  @ 42 @ 
+operator: =  @ 56 @ operator: =  @ 67 @ 
+name: H5D_rdcc_ent_ptr_t  @ 38 @ name: H5D_rdcc_ent_ptr_t  @ 40 @ 
+expr  @ 19 @ expr  @ 21 @ 
+name: u  @ 53 @ name: u  @ 60 @ 
+name: H5FL_SEQ_CALLOC  @ 38 @ name: H5FL_SEQ_CALLOC  @ 40 @ 
+comment: /* Convenience pointer to dataset's chunk cache */  @ 5 @ comment: /* Convenience pointer to dataset's chunk cache */  @ 5 @ 
+operator: >  @ 45 @ operator: >  @ 49 @ 
+name: scaled_power2up  @ 49 @ name: scaled_power2up  @ 53 @ 
+macro  @ 30 @ macro  @ 32 @ 
+name: f  @ 32 @ name: f  @ 34 @ 
+operator: ->  @ 52 @ operator: ->  @ 56 @ 
+if  @ 31 @ if  @ 33 @ 
+operator: ->  @ 53 @ operator: ->  @ 60 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: ->  @ 31 @ operator: ->  @ 33 @ 
+block  @ 45 @ block  @ 49 @ 
+literal: 0  @ 29 @ literal: 0  @ 31 @ 
+expr  @ 67 @ expr  @ 78 @ 
+operator: .  @ 7 @ operator: .  @ 7 @ 
+operator: ->  @ 53 @ operator: ->  @ 60 @ 
+

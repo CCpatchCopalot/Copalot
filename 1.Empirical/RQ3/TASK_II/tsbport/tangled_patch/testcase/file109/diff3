@@ -1,0 +1,35 @@
+1509c1509
+<typedef struct
+---
+>typedef struct __full_video_sample_entry
+1542a1543,1545
+>	u32 EntryType;
+>	u8 *data;
+>	u32 data_size;
+1550,1559c1550
+<typedef struct
+<{
+<	GF_ISOM_VISUAL_SAMPLE_ENTRY
+<	u32 EntryType;
+<	u8 *data;
+<	u32 data_size;
+<} GF_GenericVisualSampleEntryBox;
+---
+>typedef struct __full_video_sample_entry GF_GenericVisualSampleEntryBox;
+1705c1705
+<typedef struct
+---
+>typedef struct __full_audio_sample_entry
+1729,1735c1729,1728
+<} GF_MPEGAudioSampleEntryBox;
+<typedef struct
+<{
+<	GF_ISOM_AUDIO_SAMPLE_ENTRY
+---
+1737c1737,1736
+---
+1740c1740,1741
+<} GF_GenericAudioSampleEntryBox;
+---
+>} GF_MPEGAudioSampleEntryBox;
+>typedef struct __full_audio_sample_entry GF_GenericAudioSampleEntryBox;

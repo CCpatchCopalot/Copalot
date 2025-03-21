@@ -1,0 +1,27 @@
+-1d
+< * End:
+-1c-1
+< * End:
+---
+>static int rotateImage(uint16_t, struct image_data *, uint32_t *, uint32_t *,unsigned char **, size_t *, int);
+137a138
+>        if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, crop_buff_ptr, NULL, TRUE))
+6314,6315c6314,6318
+<    if (rotateImage(rotation, image, &image->width, &image->length, work_buff_ptr))
+<      {
+---
+>uint32_t width = image->width;
+>uint32_t length = image->length;
+>if (rotateImage(rotation, image, &width, &length, work_buff_ptr, TRUE) )
+>      
+>	
+8599a8600,8601
+>            if (rot_image_params)
+>            {
+8604a8605
+>            }
+8676a8677,8678
+>            if (rot_image_params)
+>            {
+8681a8682
+>            }

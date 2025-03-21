@@ -1,0 +1,15 @@
+static flb_sds_t get_input_name(mk_request_t *request)
+{
+    const char *base = "/api/v1/trace/";
+
+
+    if (request->real_path.data == NULL) {
+        return NULL;
+    }
+    if (request->real_path.len < strlen(base)) {
+        return NULL;
+    }
+
+    return flb_sds_create_len(&request->real_path.data[strlen(base)],
+                              request->real_path.len - strlen(base));
+}

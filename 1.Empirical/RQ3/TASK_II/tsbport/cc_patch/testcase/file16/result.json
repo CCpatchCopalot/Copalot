@@ -1,0 +1,73 @@
+{
+    "testcase": {
+        "file16": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "673 -> -1",
+                        "L2": "674 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'default', 'type': 'unknown', 'info': ['unknown out block']}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "default",
+                            "type": "unknown",
+                            "info": [
+                                "unknown out block"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "  bool is_subgraph_in_use_ = false;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 29,
+                        "add_hunk": [
+                            "#include <stdarg.h>\n",
+                            "#include <stddef.h>\n",
+                            "#include <cstdint>\n",
+                            "#include <memory>\n",
+                            "#include <utility>\n",
+                            "#include \"tensorflow/lite/c/common.h\"\n",
+                            "#include \"tensorflow/lite/core/api/error_reporter.h\"\n",
+                            "#include \"tensorflow/lite/core/macros.h\"\n",
+                            "#include \"tensorflow/lite/experimental/resource/resource_base.h\"\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "unknown"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_type"
+            ]
+        }
+    }
+}

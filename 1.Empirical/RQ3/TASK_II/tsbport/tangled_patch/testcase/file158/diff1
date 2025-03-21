@@ -1,0 +1,10 @@
+1075a1076
+> 					if (field.far_ptr)
+1091c1092
+< 				} else {
+---
+> 				} else if (field.far_ptr) {
+1097c1098
+< 	} else {
+---
+> 	} else if (field.far_ptr) {

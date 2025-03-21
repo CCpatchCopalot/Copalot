@@ -1,0 +1,12 @@
+157a158,161
+> 		//if node was just created (num_instances == 0), unregister
+> 		//otherwise (USE node) don't do anything
+> 		if (!node->sgprivate->num_instances) {
+> 			node->sgprivate->num_instances = 1;
+158a163
+> 		}
+168c173,174
+< 	node->sgprivate->num_instances = 2;
+---
+> 	gf_node_unregister(node, NULL);
+> 	gf_node_unregister(node, NULL);

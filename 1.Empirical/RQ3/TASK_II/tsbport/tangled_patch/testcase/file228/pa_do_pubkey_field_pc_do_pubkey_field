@@ -1,0 +1,159 @@
+parameter  @ 1 @ parameter  @ 1 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+operator: =  @ 11 @ operator: =  @ 12 @ 
+name: ssl_push_certinfo  @ 11 @ name: ssl_push_certinfo  @ 12 @ 
+name: free  @ 14 @ name: free  @ 15 @ 
+operator: ->  @ 10 @ operator: ->  @ 11 @ 
+expr  @ 14 @ expr  @ 15 @ 
+expr  @ 13 @ expr  @ 14 @ 
+expr  @ 16 @ expr  @ 17 @ 
+name  @ 10 @ name  @ 11 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+name: set  @ 10 @ name: set  @ 11 @ 
+name: data  @ 1 @ name: data  @ 1 @ 
+block_content  @ 3 @ block_content  @ 4 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+argument  @ 14 @ argument  @ 15 @ 
+name: CURLE_OK  @ 4 @ name: CURLE_OK  @ 5 @ 
+expr  @ 13 @ expr  @ 14 @ 
+name: result  @ 11 @ name: result  @ 12 @ 
+name: certnum  @ 1 @ name: certnum  @ 1 @ 
+expr  @ 4 @ expr  @ 5 @ 
+operator: !  @ 12 @ operator: !  @ 13 @ 
+call  @ 11 @ call  @ 12 @ 
+argument  @ 8 @ argument  @ 9 @ 
+expr  @ 10 @ expr  @ 11 @ 
+argument_list  @ 13 @ argument_list  @ 14 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 15 @ 
+name: char  @ 14 @ name: char  @ 15 @ 
+init  @ 4 @ init  @ 5 @ 
+name  @ 1 @ name  @ 2 @ 
+expr  @ 13 @ expr  @ 14 @ 
+argument_list  @ 8 @ argument_list  @ 9 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+type  @ 4 @ type  @ 5 @ 
+name: char  @ 3 @ name: char  @ 4 @ 
+name: Curl_easy  @ 1 @ name: Curl_easy  @ 1 @ 
+name  @ 1 @ name  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: elem  @ 8 @ name: elem  @ 9 @ 
+comment: /* Generate a certificate information record for the public key. */  @ 6 @ comment: /* Generate a certificate information record for the public key. */  @ 7 @ 
+literal: 0  @ 8 @ literal: 0  @ 9 @ 
+argument  @ 8 @ argument  @ 9 @ 
+if  @ 12 @ if  @ 13 @ 
+condition  @ 16 @ condition  @ 17 @ 
+call  @ 14 @ call  @ 15 @ 
+name: data  @ 13 @ name: data  @ 14 @ 
+condition  @ 9 @ condition  @ 10 @ 
+operator: (  @ 14 @ operator: (  @ 15 @ 
+name: elem  @ 1 @ name: elem  @ 2 @ 
+block  @ 2 @ block  @ 3 @ 
+return  @ 16 @ return  @ 17 @ 
+call  @ 13 @ call  @ 14 @ 
+decl  @ 1 @ decl  @ 1 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+condition  @ 10 @ condition  @ 11 @ 
+expr  @ 11 @ expr  @ 12 @ 
+block_content  @ 11 @ block_content  @ 12 @ 
+block_content  @ 13 @ block_content  @ 14 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 14 @ 
+ternary  @ 16 @ ternary  @ 17 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: output  @ 13 @ name: output  @ 14 @ 
+name: CURLcode  @ 4 @ name: CURLcode  @ 5 @ 
+argument  @ 11 @ argument  @ 12 @ 
+name: label  @ 13 @ name: label  @ 14 @ 
+type  @ 3 @ type  @ 4 @ 
+name: do_pubkey_field  @ 1 @ name: do_pubkey_field  @ 1 @ 
+name: output  @ 14 @ name: output  @ 15 @ 
+argument_list  @ 14 @ argument_list  @ 15 @ 
+argument  @ 13 @ argument  @ 14 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: ASN1tostr  @ 8 @ name: ASN1tostr  @ 9 @ 
+then  @ 16 @ then  @ 17 @ 
+operator: *  @ 14 @ operator: *  @ 15 @ 
+specifier: const  @ 3 @ specifier: const  @ 4 @ 
+block  @ 11 @ block  @ 12 @ 
+expr  @ 8 @ expr  @ 9 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 12 @ 
+name: result  @ 12 @ name: result  @ 13 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+name: certnum  @ 12 @ name: certnum  @ 13 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 13 @ expr  @ 14 @ 
+type  @ 1 @ type  @ 2 @ 
+expr  @ 12 @ expr  @ 13 @ 
+argument  @ 11 @ argument  @ 12 @ 
+specifier: const  @ 1 @ specifier: const  @ 2 @ 
+name: data  @ 10 @ name: data  @ 11 @ 
+name: certnum  @ 11 @ name: certnum  @ 12 @ 
+if_stmt  @ 9 @ if_stmt  @ 10 @ 
+operator: &&  @ 12 @ operator: &&  @ 13 @ 
+name: result  @ 16 @ name: result  @ 17 @ 
+operator: .  @ 10 @ operator: .  @ 11 @ 
+expr  @ 8 @ expr  @ 9 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 4 @ 
+name: char  @ 1 @ name: char  @ 2 @ 
+name: output  @ 11 @ name: output  @ 12 @ 
+if_stmt  @ 12 @ if_stmt  @ 13 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: label  @ 11 @ name: label  @ 12 @ 
+expr  @ 9 @ expr  @ 10 @ 
+name: certinfo  @ 10 @ name: certinfo  @ 11 @ 
+literal: 0  @ 16 @ literal: 0  @ 17 @ 
+modifier: *  @ 3 @ modifier: *  @ 4 @ 
+if_stmt  @ 10 @ if_stmt  @ 11 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: =  @ 8 @ operator: =  @ 9 @ 
+condition  @ 12 @ condition  @ 13 @ 
+argument_list  @ 11 @ argument_list  @ 12 @ 
+operator: !  @ 12 @ operator: !  @ 13 @ 
+type  @ 1 @ type  @ 1 @ 
+name: output  @ 3 @ name: output  @ 4 @ 
+name: label  @ 1 @ name: label  @ 2 @ 
+expr  @ 11 @ expr  @ 12 @ 
+literal: " %s: %s"  @ 13 @ literal: "   %s: %s"  @ 14 @ 
+expr  @ 16 @ expr  @ 17 @ 
+name: output  @ 8 @ name: output  @ 9 @ 
+expr  @ 14 @ expr  @ 15 @ 
+argument  @ 13 @ argument  @ 14 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+block_content  @ 10 @ block_content  @ 11 @ 
+name: result  @ 4 @ name: result  @ 5 @ 
+name: struct  @ 1 @ name: struct  @ 1 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 11 @ expr  @ 12 @ 
+expr  @ 16 @ expr  @ 17 @ 
+block  @ 13 @ block  @ 14 @ 
+type  @ 1 @ type  @ 2 @ 
+block  @ 9 @ block  @ 10 @ 
+expr  @ 16 @ expr  @ 17 @ 
+call  @ 8 @ call  @ 9 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 1 @ decl  @ 2 @ 
+name: output  @ 9 @ name: output  @ 10 @ 
+expr  @ 13 @ expr  @ 14 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+argument  @ 13 @ argument  @ 14 @ 
+decl  @ 4 @ decl  @ 5 @ 
+argument  @ 13 @ argument  @ 14 @ 
+else  @ 16 @ else  @ 17 @ 
+operator: )  @ 14 @ operator: )  @ 15 @ 
+operator: .  @ 10 @ operator: .  @ 11 @ 
+expr  @ 8 @ expr  @ 9 @ 
+name: data  @ 11 @ name: data  @ 12 @ 
+argument  @ 11 @ argument  @ 12 @ 
+name: Curl_asn1Element  @ 1 @ name: Curl_asn1Element  @ 2 @ 
+decl  @ 1 @ decl  @ 1 @ 
+decl  @ 3 @ decl  @ 4 @ 
+if  @ 9 @ if  @ 10 @ 
+if  @ 10 @ if  @ 11 @ 
+literal: 1  @ 16 @ literal: 1  @ 17 @ 
+argument  @ 11 @ argument  @ 12 @ 
+name: infof  @ 13 @ name: infof  @ 14 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 9 @ 
+decl  @ 1 @ decl  @ 2 @ 
+name: ssl  @ 10 @ name: ssl  @ 11 @ 
+expr  @ 11 @ expr  @ 12 @ 
+expr  @ 11 @ expr  @ 12 @ 
+

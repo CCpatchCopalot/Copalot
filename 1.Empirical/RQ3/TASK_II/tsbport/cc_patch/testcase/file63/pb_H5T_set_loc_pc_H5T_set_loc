@@ -1,0 +1,788 @@
+expr  @ 65 @ expr  @ 57 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+expr  @ 69 @ expr  @ 61 @ 
+block  @ 31 @ block  @ 30 @ 
+name  @ 48 @ name  @ 44 @ 
+name: dt  @ 56 @ name: dt  @ 48 @ 
+operator: =  @ 97 @ operator: =  @ 84 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+expr  @ 18 @ expr  @ 19 @ 
+operator: .  @ 59 @ operator: .  @ 51 @ 
+expr  @ 70 @ expr  @ 62 @ 
+argument  @ 29 @ argument  @ 28 @ 
+name: dt  @ 48 @ name: dt  @ 44 @ 
+comment: /* Local index variable */  @ 6 @ comment: /* Local index variable */  @ 6 @ 
+name: old_size  @ 7 @ name: old_size  @ 8 @ 
+decl  @ 4 @ decl  @ 4 @ 
+comment: /* Recurse on VL, compound and array base element type */  @ 18 @ comment: /* Recurse on VL, compound and array base element type */  @ 19 @ 
+if  @ 106 @ if  @ 93 @ 
+expr  @ 48 @ expr  @ 44 @ 
+name: dt  @ 23 @ name: dt  @ 22 @ 
+name: unsigned  @ 6 @ name: unsigned  @ 6 @ 
+operator: -  @ 79 @ operator: -  @ 71 @ 
+expr  @ 119 @ expr  @ 106 @ 
+if  @ 70 @ if  @ 62 @ 
+operator: .  @ 56 @ operator: .  @ 48 @ 
+name: parent  @ 96 @ name: parent  @ 83 @ 
+type  @ 7 @ type  @ 8 @ 
+decl_stmt  @ 49 @ decl_stmt  @ 45 @ 
+operator: .  @ 116 @ operator: .  @ 103 @ 
+name: dt  @ 11 @ name: dt  @ 12 @ 
+name: done  @ 138 @ name: done  @ 116 @ 
+if_stmt  @ 74 @ if_stmt  @ 66 @ 
+comment: /* Apply the accumulated size change to the datatype */  @ 88 @ comment: /* Apply the accumulated size change to the datatype */  @ 76 @ 
+name: shared  @ 76 @ name: shared  @ 68 @ 
+expr  @ 48 @ expr  @ 44 @ 
+comment: /* Recurse on the VL information if it's VL, compound or array, then free VL sequence */  @ 93 @ comment: /* Recurse on the VL information if it's VL, compound or array, then free VL sequence */  @ 80 @ 
+expr  @ 68 @ expr  @ 60 @ 
+name  @ 17 @ name  @ 18 @ 
+block_content  @ 29 @ block_content  @ 28 @ 
+expr  @ 96 @ expr  @ 83 @ 
+expr  @ 63 @ expr  @ 55 @ 
+operator: =  @ 48 @ operator: =  @ 44 @ 
+operator: ->  @ 63 @ operator: ->  @ 55 @ 
+name: size  @ 36 @ name: size  @ 35 @ 
+if_stmt  @ 97 @ if_stmt  @ 84 @ 
+argument  @ 23 @ argument  @ 22 @ 
+if_stmt  @ 68 @ if_stmt  @ 60 @ 
+comment: /* Apply the accumulated size change to the offset of the field */  @ 55 @ comment: /* Apply the accumulated size change to the offset of the field */  @ 47 @ 
+condition  @ 30 @ condition  @ 29 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+operator: !=  @ 34 @ operator: !=  @ 33 @ 
+expr_stmt  @ 100 @ expr_stmt  @ 87 @ 
+operator: .  @ 112 @ operator: .  @ 99 @ 
+operator: &&  @ 96 @ operator: &&  @ 83 @ 
+call  @ 97 @ call  @ 84 @ 
+argument  @ 105 @ argument  @ 92 @ 
+name: ret_value  @ 107 @ name: ret_value  @ 94 @ 
+block_content  @ 105 @ block_content  @ 92 @ 
+name: shared  @ 36 @ name: shared  @ 35 @ 
+name: u  @ 114 @ name: u  @ 101 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+expr  @ 46 @ expr  @ 42 @ 
+block  @ 112 @ block  @ 99 @ 
+block  @ 98 @ block  @ 85 @ 
+expr  @ 98 @ expr  @ 85 @ 
+argument  @ 98 @ argument  @ 85 @ 
+argument_list  @ 9 @ argument_list  @ 10 @ 
+name: old_size  @ 74 @ name: old_size  @ 66 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 51 @ 
+expr  @ 59 @ expr  @ 51 @ 
+name: shared  @ 76 @ name: shared  @ 68 @ 
+argument_list  @ 97 @ argument_list  @ 84 @ 
+name: htri_t  @ 4 @ name: htri_t  @ 4 @ 
+name: loc  @ 12 @ name: loc  @ 13 @ 
+name: htri_t  @ 5 @ name: htri_t  @ 5 @ 
+name: loc  @ 104 @ name: loc  @ 91 @ 
+block_content  @ 116 @ block_content  @ 103 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 89 @ expr  @ 77 @ 
+condition  @ 17 @ condition  @ 18 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: ->  @ 25 @ operator: ->  @ 24 @ 
+comment: /* end if */  @ 37 @ comment: /* end if */  @ 36 @ 
+name: H5E_CANTINIT  @ 69 @ name: H5E_CANTINIT  @ 61 @ 
+default  @ 133 @ default  @ 111 @ 
+name: compnd  @ 59 @ name: compnd  @ 51 @ 
+if  @ 96 @ if  @ 83 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: .  @ 112 @ operator: .  @ 99 @ 
+name  @ 36 @ name  @ 35 @ 
+name: nmembs  @ 48 @ name: nmembs  @ 44 @ 
+name  @ 59 @ name  @ 51 @ 
+operator: ->  @ 114 @ operator: ->  @ 101 @ 
+argument_list  @ 96 @ argument_list  @ 83 @ 
+expr  @ 36 @ expr  @ 35 @ 
+if_stmt  @ 112 @ if_stmt  @ 99 @ 
+name: shared  @ 112 @ name: shared  @ 99 @ 
+name: dt  @ 97 @ name: dt  @ 84 @ 
+break  @ 91 @ break  @ 78 @ 
+condition  @ 114 @ condition  @ 101 @ 
+expr_stmt  @ 98 @ expr_stmt  @ 85 @ 
+name: i  @ 48 @ name: i  @ 44 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name: changed  @ 28 @ name: changed  @ 27 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 24 @ 
+condition  @ 23 @ condition  @ 22 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+name: type  @ 63 @ name: type  @ 55 @ 
+block_content  @ 97 @ block_content  @ 84 @ 
+name: shared  @ 74 @ name: shared  @ 66 @ 
+name: ret_value  @ 5 @ name: ret_value  @ 5 @ 
+name: memb_type  @ 65 @ name: memb_type  @ 57 @ 
+comment: /* end if */  @ 81 @ comment: /* end if */  @ 73 @ 
+name: loc  @ 28 @ name: loc  @ 27 @ 
+expr_stmt  @ 89 @ expr_stmt  @ 77 @ 
+condition  @ 70 @ condition  @ 62 @ 
+name  @ 96 @ name  @ 83 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+name: type  @ 23 @ name: type  @ 22 @ 
+operator: .  @ 114 @ operator: .  @ 101 @ 
+expr  @ 71 @ expr  @ 63 @ 
+argument_list  @ 105 @ argument_list  @ 92 @ 
+condition  @ 63 @ condition  @ 55 @ 
+name: FAIL  @ 105 @ name: FAIL  @ 92 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: shared  @ 65 @ name: shared  @ 57 @ 
+if  @ 104 @ if  @ 91 @ 
+name: rtype  @ 112 @ name: rtype  @ 99 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name  @ 76 @ name  @ 68 @ 
+comment: /* end if */  @ 80 @ comment: /* end if */  @ 72 @ 
+operator: ->  @ 76 @ operator: ->  @ 68 @ 
+operator: &&  @ 63 @ operator: &&  @ 55 @ 
+name: shared  @ 17 @ name: shared  @ 18 @ 
+literal: "Unable to set VL location"  @ 98 @ literal: "Unable to set VL location"  @ 85 @ 
+name: HDassert  @ 12 @ name: assert  @ 13 @ 
+expr  @ 98 @ expr  @ 85 @ 
+expr  @ 106 @ expr  @ 93 @ 
+operator: ->  @ 112 @ operator: ->  @ 99 @ 
+argument  @ 97 @ argument  @ 84 @ 
+index  @ 59 @ index  @ 51 @ 
+expr  @ 100 @ expr  @ 87 @ 
+operator: =  @ 76 @ operator: =  @ 68 @ 
+name: size  @ 74 @ name: size  @ 66 @ 
+operator: )  @ 28 @ operator: )  @ 27 @ 
+literal: 0  @ 106 @ literal: 0  @ 93 @ 
+name: H5E_DATATYPE  @ 98 @ name: H5E_DATATYPE  @ 85 @ 
+name: htri_t  @ 1 @ name: htri_t  @ 1 @ 
+name: i  @ 6 @ name: i  @ 6 @ 
+name: u  @ 114 @ name: u  @ 101 @ 
+operator: >  @ 106 @ operator: >  @ 93 @ 
+condition  @ 97 @ condition  @ 84 @ 
+expr  @ 41 @ expr  @ 40 @ 
+operator: ->  @ 25 @ operator: ->  @ 24 @ 
+name: force_conv  @ 96 @ name: force_conv  @ 83 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+block_content  @ 76 @ block_content  @ 68 @ 
+call  @ 29 @ call  @ 28 @ 
+comment: /* Mark the VL, compound, enum or array type */  @ 67 @ comment: /* Mark the VL, compound, enum or array type */  @ 59 @ 
+name: dt  @ 36 @ name: dt  @ 35 @ 
+name: size  @ 25 @ name: size  @ 24 @ 
+name: f  @ 28 @ name: f  @ 27 @ 
+name: HGOTO_ERROR  @ 29 @ name: HGOTO_ERROR  @ 28 @ 
+expr  @ 56 @ expr  @ 48 @ 
+expr  @ 29 @ expr  @ 28 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 68 @ 
+condition  @ 99 @ condition  @ 86 @ 
+modifier: *  @ 49 @ modifier: *  @ 45 @ 
+name: parent  @ 23 @ name: parent  @ 22 @ 
+comment: /* Check if the field changed size */  @ 73 @ comment: /* Check if the field changed size */  @ 65 @ 
+operator: )  @ 76 @ operator: )  @ 68 @ 
+name: i  @ 48 @ name: i  @ 44 @ 
+literal: "Unable to set VL location"  @ 29 @ literal: "Unable to set VL location"  @ 28 @ 
+name  @ 65 @ name  @ 57 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name: shared  @ 48 @ name: shared  @ 44 @ 
+for  @ 48 @ for  @ 44 @ 
+decl  @ 7 @ decl  @ 8 @ 
+expr_stmt  @ 69 @ expr_stmt  @ 61 @ 
+block_content  @ 71 @ block_content  @ 63 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+operator: .  @ 76 @ operator: .  @ 68 @ 
+name: NULL  @ 46 @ name: NULL  @ 42 @ 
+name: changed  @ 68 @ name: changed  @ 60 @ 
+comment: /* end if */  @ 38 @ comment: /* end if */  @ 37 @ 
+operator: .  @ 112 @ operator: .  @ 99 @ 
+name: u  @ 116 @ name: u  @ 103 @ 
+argument_list  @ 23 @ argument_list  @ 22 @ 
+expr  @ 105 @ expr  @ 92 @ 
+block_content  @ 49 @ block_content  @ 45 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 42 @ 
+operator: <  @ 68 @ operator: <  @ 60 @ 
+operator: .  @ 48 @ operator: .  @ 44 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 28 @ 
+name: ret_value  @ 100 @ name: ret_value  @ 87 @ 
+block_content  @ 100 @ block_content  @ 87 @ 
+name: shared  @ 96 @ name: shared  @ 83 @ 
+if  @ 23 @ if  @ 22 @ 
+operator: =  @ 68 @ operator: =  @ 60 @ 
+name: TRUE  @ 119 @ name: TRUE  @ 106 @ 
+condition  @ 96 @ condition  @ 83 @ 
+name: H5T_set_loc  @ 68 @ name: H5T_set_loc  @ 60 @ 
+case  @ 18 @ case  @ 19 @ 
+operator: !=  @ 114 @ operator: !=  @ 101 @ 
+argument  @ 105 @ argument  @ 92 @ 
+name: i  @ 76 @ name: i  @ 68 @ 
+decl  @ 6 @ decl  @ 6 @ 
+condition  @ 74 @ condition  @ 66 @ 
+argument  @ 29 @ argument  @ 28 @ 
+name: parent  @ 28 @ name: parent  @ 27 @ 
+argument_list  @ 63 @ argument_list  @ 55 @ 
+expr  @ 17 @ expr  @ 18 @ 
+literal: 0  @ 48 @ literal: 0  @ 44 @ 
+name: memb  @ 56 @ name: memb  @ 48 @ 
+if_stmt  @ 114 @ if_stmt  @ 101 @ 
+operator: .  @ 116 @ operator: .  @ 103 @ 
+name: size  @ 36 @ name: size  @ 35 @ 
+operator: ->  @ 15 @ operator: ->  @ 16 @ 
+type  @ 5 @ type  @ 5 @ 
+name: dt  @ 116 @ name: dt  @ 103 @ 
+name: loc  @ 97 @ name: loc  @ 84 @ 
+name: changed  @ 4 @ name: changed  @ 4 @ 
+name: H5E_DATATYPE  @ 105 @ name: H5E_DATATYPE  @ 92 @ 
+block  @ 100 @ block  @ 87 @ 
+macro  @ 139 @ macro  @ 117 @ 
+if_stmt  @ 96 @ if_stmt  @ 83 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 48 @ 
+literal: 0  @ 5 @ literal: 0  @ 5 @ 
+call  @ 105 @ call  @ 92 @ 
+name: changed  @ 71 @ name: changed  @ 63 @ 
+break  @ 108 @ break  @ 95 @ 
+name: old_size  @ 65 @ name: old_size  @ 57 @ 
+name: u  @ 48 @ name: u  @ 44 @ 
+call  @ 28 @ call  @ 27 @ 
+name  @ 79 @ name  @ 71 @ 
+expr  @ 114 @ expr  @ 101 @ 
+name: shared  @ 89 @ name: shared  @ 77 @ 
+name: offset  @ 56 @ name: offset  @ 48 @ 
+operator: ->  @ 34 @ operator: ->  @ 33 @ 
+call  @ 63 @ call  @ 55 @ 
+argument  @ 29 @ argument  @ 28 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: .  @ 36 @ operator: .  @ 35 @ 
+argument  @ 97 @ argument  @ 84 @ 
+operator: =  @ 28 @ operator: =  @ 27 @ 
+name: i  @ 56 @ name: i  @ 48 @ 
+argument  @ 28 @ argument  @ 27 @ 
+case  @ 110 @ case  @ 97 @ 
+block  @ 74 @ block  @ 66 @ 
+name: H5T_set_loc  @ 97 @ name: H5T_set_loc  @ 84 @ 
+name: shared  @ 63 @ name: shared  @ 55 @ 
+literal: 0  @ 104 @ literal: 0  @ 91 @ 
+name  @ 114 @ name  @ 101 @ 
+name: parent  @ 96 @ name: parent  @ 83 @ 
+argument  @ 104 @ argument  @ 91 @ 
+if_stmt  @ 99 @ if_stmt  @ 86 @ 
+name  @ 34 @ name  @ 33 @ 
+type  @ 2 @ type  @ 2 @ 
+argument  @ 29 @ argument  @ 28 @ 
+name: u  @ 59 @ name: u  @ 51 @ 
+operator: )  @ 79 @ operator: )  @ 71 @ 
+name  @ 89 @ name  @ 77 @ 
+block  @ 114 @ block  @ 101 @ 
+name: shared  @ 15 @ name: shared  @ 16 @ 
+argument  @ 98 @ argument  @ 85 @ 
+name: memb_type  @ 49 @ name: memb_type  @ 45 @ 
+comment: /* Mark this VL sequence */  @ 103 @ comment: /* Mark this VL sequence */  @ 90 @ 
+operator: ->  @ 28 @ operator: ->  @ 27 @ 
+operator: /  @ 76 @ operator: /  @ 68 @ 
+comment: /* Indicate that the location changed */  @ 118 @ comment: /* Indicate that the location changed */  @ 105 @ 
+name: shared  @ 25 @ name: shared  @ 24 @ 
+name: parent  @ 23 @ name: parent  @ 22 @ 
+switch  @ 17 @ switch  @ 18 @ 
+block_content  @ 98 @ block_content  @ 85 @ 
+operator: )  @ 104 @ operator: )  @ 91 @ 
+name: i  @ 48 @ name: i  @ 44 @ 
+if  @ 97 @ if  @ 84 @ 
+if  @ 68 @ if  @ 60 @ 
+break  @ 122 @ break  @ 109 @ 
+index  @ 76 @ index  @ 68 @ 
+operator: <  @ 104 @ operator: <  @ 91 @ 
+block  @ 23 @ block  @ 22 @ 
+comment: /* Mark the VL, compound or array type */  @ 27 @ comment: /* Mark the VL, compound or array type */  @ 26 @ 
+comment: /* end if */  @ 120 @ comment: /* end if */  @ 107 @ 
+operator: ++  @ 48 @ operator: ++  @ 44 @ 
+index  @ 76 @ index  @ 68 @ 
+name: memb  @ 76 @ name: memb  @ 68 @ 
+index  @ 56 @ index  @ 48 @ 
+call  @ 98 @ call  @ 85 @ 
+operator: .  @ 48 @ operator: .  @ 44 @ 
+operator: ->  @ 63 @ operator: ->  @ 55 @ 
+operator: .  @ 114 @ operator: .  @ 101 @ 
+expr  @ 63 @ expr  @ 55 @ 
+expr  @ 97 @ expr  @ 84 @ 
+name: loc  @ 116 @ name: loc  @ 103 @ 
+name  @ 28 @ name  @ 27 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+name: size  @ 79 @ name: size  @ 71 @ 
+name  @ 36 @ name  @ 35 @ 
+expr  @ 29 @ expr  @ 28 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 63 @ 
+comment: /* end for */  @ 82 @ comment: /* end for */  @ 74 @ 
+argument  @ 69 @ argument  @ 61 @ 
+argument_list  @ 68 @ argument_list  @ 60 @ 
+expr  @ 104 @ expr  @ 91 @ 
+block  @ 107 @ block  @ 94 @ 
+block  @ 34 @ block  @ 33 @ 
+expr  @ 48 @ expr  @ 44 @ 
+operator: =  @ 119 @ operator: =  @ 106 @ 
+operator: ->  @ 79 @ operator: ->  @ 71 @ 
+operator: ->  @ 34 @ operator: ->  @ 33 @ 
+operator: (  @ 104 @ operator: (  @ 91 @ 
+operator: =  @ 100 @ operator: =  @ 87 @ 
+if_stmt  @ 104 @ if_stmt  @ 91 @ 
+name: size  @ 34 @ name: size  @ 33 @ 
+operator: .  @ 76 @ operator: .  @ 68 @ 
+if_stmt  @ 70 @ if_stmt  @ 62 @ 
+operator: ->  @ 76 @ operator: ->  @ 68 @ 
+argument  @ 97 @ argument  @ 84 @ 
+name: H5T_VLEN  @ 93 @ name: H5T_VLEN  @ 80 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 13 @ 
+expr  @ 68 @ expr  @ 60 @ 
+block  @ 3 @ block  @ 3 @ 
+name: memb_type  @ 59 @ name: memb_type  @ 51 @ 
+name: size  @ 76 @ name: size  @ 68 @ 
+block_content  @ 31 @ block_content  @ 30 @ 
+name: i  @ 76 @ name: i  @ 68 @ 
+name: f  @ 97 @ name: f  @ 84 @ 
+operator: ->  @ 65 @ operator: ->  @ 57 @ 
+operator: =  @ 107 @ operator: =  @ 94 @ 
+expr  @ 59 @ expr  @ 51 @ 
+operator: +=  @ 89 @ operator: +=  @ 77 @ 
+block  @ 69 @ block  @ 61 @ 
+expr  @ 29 @ expr  @ 28 @ 
+if  @ 112 @ if  @ 99 @ 
+name: shared  @ 25 @ name: shared  @ 24 @ 
+expr  @ 46 @ expr  @ 42 @ 
+name  @ 97 @ name  @ 84 @ 
+name: shared  @ 36 @ name: shared  @ 35 @ 
+name: shared  @ 114 @ name: shared  @ 101 @ 
+expr  @ 97 @ expr  @ 84 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+if  @ 30 @ if  @ 29 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 12 @ 
+if_stmt  @ 63 @ if_stmt  @ 55 @ 
+name: parent  @ 97 @ name: parent  @ 84 @ 
+name: f  @ 2 @ name: f  @ 2 @ 
+argument  @ 105 @ argument  @ 92 @ 
+operator: =  @ 104 @ operator: =  @ 91 @ 
+name  @ 76 @ name  @ 68 @ 
+call  @ 69 @ call  @ 61 @ 
+operator: .  @ 114 @ operator: .  @ 101 @ 
+operator: )  @ 97 @ operator: )  @ 84 @ 
+name: atomic  @ 112 @ name: atomic  @ 99 @ 
+name: changed  @ 70 @ name: changed  @ 62 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+comment: /* Indicate that success, but no location change */  @ 5 @ comment: /* Indicate that success, but no location change */  @ 5 @ 
+operator: (  @ 68 @ operator: (  @ 60 @ 
+condition  @ 106 @ condition  @ 93 @ 
+name  @ 25 @ name  @ 24 @ 
+name: HGOTO_ERROR  @ 105 @ name: HGOTO_ERROR  @ 92 @ 
+condition  @ 48 @ condition  @ 44 @ 
+name: accum_change  @ 79 @ name: accum_change  @ 71 @ 
+name: FUNC_ENTER_NOAPI  @ 9 @ name: FUNC_ENTER_NOAPI  @ 10 @ 
+literal: "Unable to set VL location"  @ 105 @ literal: "Unable to set VL location"  @ 92 @ 
+name: compnd  @ 48 @ name: compnd  @ 44 @ 
+comment: /* Whether H5T_set_loc changed the type (even if the size didn't change) */  @ 4 @ comment: /* Whether H5T_set_loc changed the type (even if the size didn't change) */  @ 4 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument_list  @ 69 @ argument_list  @ 61 @ 
+comment: /* end if */  @ 101 @ comment: /* end if */  @ 88 @ 
+expr  @ 76 @ expr  @ 68 @ 
+operator: &&  @ 12 @ operator: &&  @ 13 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+operator: (  @ 76 @ operator: (  @ 68 @ 
+if_stmt  @ 106 @ if_stmt  @ 93 @ 
+name: dt  @ 34 @ name: dt  @ 33 @ 
+name: size  @ 89 @ name: size  @ 77 @ 
+name: shared  @ 23 @ name: shared  @ 22 @ 
+comment: /* Datatypes can't change in size if the force_conv flag is not set */  @ 14 @ comment: /* Datatypes can't change in size if the force_conv flag is not set */  @ 15 @ 
+operator: .  @ 59 @ operator: .  @ 51 @ 
+name: u  @ 56 @ name: u  @ 48 @ 
+name: H5E_CANTINIT  @ 29 @ name: H5E_CANTINIT  @ 28 @ 
+name: force_conv  @ 23 @ name: force_conv  @ 22 @ 
+name: dt  @ 2 @ name: dt  @ 2 @ 
+name: H5E_CANTINIT  @ 98 @ name: H5E_CANTINIT  @ 85 @ 
+name: compnd  @ 76 @ name: compnd  @ 68 @ 
+name: f  @ 68 @ name: f  @ 60 @ 
+operator: <  @ 28 @ operator: <  @ 27 @ 
+operator: ->  @ 76 @ operator: ->  @ 68 @ 
+name: shared  @ 34 @ name: shared  @ 33 @ 
+name: accum_change  @ 56 @ name: accum_change  @ 48 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+block  @ 29 @ block  @ 28 @ 
+name: shared  @ 63 @ name: shared  @ 55 @ 
+comment: /* Adjust the size of the member */  @ 75 @ comment: /* Adjust the size of the member */  @ 67 @ 
+expr  @ 68 @ expr  @ 60 @ 
+argument  @ 46 @ argument  @ 42 @ 
+name: shared  @ 23 @ name: shared  @ 22 @ 
+name: parent  @ 34 @ name: parent  @ 33 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+operator: ->  @ 17 @ operator: ->  @ 18 @ 
+argument  @ 12 @ argument  @ 13 @ 
+literal: 0  @ 97 @ literal: 0  @ 84 @ 
+operator: >  @ 70 @ operator: >  @ 62 @ 
+name: dt  @ 104 @ name: dt  @ 91 @ 
+expr  @ 98 @ expr  @ 85 @ 
+call  @ 68 @ call  @ 60 @ 
+argument  @ 104 @ argument  @ 91 @ 
+argument  @ 98 @ argument  @ 85 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 30 @ 
+operator: ->  @ 59 @ operator: ->  @ 51 @ 
+name: changed  @ 30 @ name: changed  @ 29 @ 
+block_content  @ 114 @ block_content  @ 101 @ 
+argument  @ 69 @ argument  @ 61 @ 
+call  @ 46 @ call  @ 42 @ 
+operator: =  @ 116 @ operator: =  @ 103 @ 
+name: H5T_set_loc  @ 2 @ name: H5T_set_loc  @ 2 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+expr  @ 105 @ expr  @ 92 @ 
+operator: &&  @ 23 @ operator: &&  @ 22 @ 
+comment: /* Keep the old field size for later */  @ 64 @ comment: /* Keep the old field size for later */  @ 56 @ 
+comment: /* end switch */  @ 135 @ comment: /* end switch */  @ 113 @ 
+operator: ->  @ 116 @ operator: ->  @ 103 @ 
+name: memb_type  @ 76 @ name: memb_type  @ 68 @ 
+comment: /* end if */  @ 121 @ comment: /* end if */  @ 108 @ 
+comment: /* Sort the fields based on offsets */  @ 45 @ comment: /* Sort the fields based on offsets */  @ 41 @ 
+name: u  @ 112 @ name: u  @ 99 @ 
+block  @ 96 @ block  @ 83 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name: r  @ 114 @ name: r  @ 101 @ 
+init  @ 5 @ init  @ 5 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+expr  @ 97 @ expr  @ 84 @ 
+name: u  @ 76 @ name: u  @ 68 @ 
+operator: ->  @ 65 @ operator: ->  @ 57 @ 
+name: dt  @ 36 @ name: dt  @ 35 @ 
+name: shared  @ 96 @ name: shared  @ 83 @ 
+case  @ 93 @ case  @ 80 @ 
+operator: ->  @ 48 @ operator: ->  @ 44 @ 
+name: H5T_t  @ 49 @ name: H5T_t  @ 45 @ 
+argument  @ 98 @ argument  @ 85 @ 
+literal: 0  @ 99 @ literal: 0  @ 86 @ 
+name: dt  @ 112 @ name: dt  @ 99 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+name: dt  @ 114 @ name: dt  @ 101 @ 
+name: loc  @ 114 @ name: loc  @ 101 @ 
+name: f  @ 104 @ name: f  @ 91 @ 
+operator: ->  @ 59 @ operator: ->  @ 51 @ 
+expr  @ 46 @ expr  @ 42 @ 
+label  @ 138 @ label  @ 116 @ 
+name: FAIL  @ 69 @ name: FAIL  @ 61 @ 
+name: H5T_set_loc  @ 28 @ name: H5T_set_loc  @ 27 @ 
+argument  @ 68 @ argument  @ 60 @ 
+name: FAIL  @ 98 @ name: FAIL  @ 85 @ 
+expr  @ 31 @ expr  @ 30 @ 
+comment: /* Recurse if it's VL, compound, enum or array */  @ 19 @ comment: /* Recurse if it's VL, compound, enum or array */  @ 20 @ 
+name: accum_change  @ 89 @ name: accum_change  @ 77 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+operator: (  @ 97 @ operator: (  @ 84 @ 
+comment: /* Check each field and recurse on VL, compound and array type */  @ 41 @ comment: /* Check each field and recurse on VL, compound and array type */  @ 40 @ 
+name: FAIL  @ 29 @ name: FAIL  @ 28 @ 
+control  @ 48 @ control  @ 44 @ 
+expr  @ 69 @ expr  @ 61 @ 
+expr  @ 96 @ expr  @ 83 @ 
+comment: /* (If the force_conv flag is _not_ set, the type cannot change in size, so don't recurse) */  @ 62 @ comment: /* (If the force_conv flag is _not_ set, the type cannot change in size, so don't recurse) */  @ 54 @ 
+name: dt  @ 23 @ name: dt  @ 22 @ 
+name: dt  @ 17 @ name: dt  @ 18 @ 
+literal: 0  @ 70 @ literal: 0  @ 62 @ 
+block_content  @ 17 @ block_content  @ 18 @ 
+block_content  @ 36 @ block_content  @ 35 @ 
+type  @ 1 @ type  @ 1 @ 
+name: H5T_LOC_BADLOC  @ 12 @ name: H5T_LOC_BADLOC  @ 13 @ 
+operator: ->  @ 15 @ operator: ->  @ 16 @ 
+expr  @ 116 @ expr  @ 103 @ 
+argument  @ 28 @ argument  @ 27 @ 
+expr  @ 11 @ expr  @ 12 @ 
+block  @ 63 @ block  @ 55 @ 
+operator: ->  @ 112 @ operator: ->  @ 99 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: compnd  @ 76 @ name: compnd  @ 68 @ 
+name: H5T_IS_COMPLEX  @ 96 @ name: H5T_IS_COMPLEX  @ 83 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+name: size_t  @ 7 @ name: size_t  @ 8 @ 
+name: changed  @ 106 @ name: changed  @ 93 @ 
+name: size  @ 76 @ name: size  @ 68 @ 
+operator: +=  @ 79 @ operator: +=  @ 71 @ 
+operator: .  @ 112 @ operator: .  @ 99 @ 
+name: shared  @ 23 @ name: shared  @ 22 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+expr  @ 76 @ expr  @ 68 @ 
+expr  @ 104 @ expr  @ 91 @ 
+operator: ->  @ 17 @ operator: ->  @ 18 @ 
+name: H5T_COMPOUND  @ 41 @ name: H5T_COMPOUND  @ 40 @ 
+argument  @ 69 @ argument  @ 61 @ 
+name: dt  @ 36 @ name: dt  @ 35 @ 
+argument  @ 96 @ argument  @ 83 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name: array  @ 36 @ name: array  @ 35 @ 
+name: i  @ 59 @ name: i  @ 51 @ 
+name: loc  @ 68 @ name: loc  @ 60 @ 
+if_stmt  @ 15 @ if_stmt  @ 16 @ 
+name  @ 63 @ name  @ 55 @ 
+comment: /* Check the datatype of this element */  @ 16 @ comment: /* Check the datatype of this element */  @ 17 @ 
+operator: =  @ 71 @ operator: =  @ 63 @ 
+operator: ->  @ 48 @ operator: ->  @ 44 @ 
+argument_list  @ 12 @ argument_list  @ 13 @ 
+expr  @ 69 @ expr  @ 61 @ 
+argument  @ 28 @ argument  @ 27 @ 
+literal: 0  @ 68 @ literal: 0  @ 60 @ 
+expr  @ 34 @ expr  @ 33 @ 
+name: parent  @ 25 @ name: parent  @ 24 @ 
+name: type  @ 59 @ name: type  @ 51 @ 
+name: changed  @ 99 @ name: changed  @ 86 @ 
+name: changed  @ 107 @ name: changed  @ 94 @ 
+expr  @ 104 @ expr  @ 91 @ 
+name: force_conv  @ 15 @ name: force_conv  @ 16 @ 
+argument  @ 9 @ argument  @ 10 @ 
+block  @ 105 @ block  @ 92 @ 
+operator: .  @ 56 @ operator: .  @ 48 @ 
+name: size  @ 76 @ name: size  @ 68 @ 
+break  @ 134 @ break  @ 112 @ 
+expr  @ 25 @ expr  @ 24 @ 
+operator: )  @ 68 @ operator: )  @ 60 @ 
+operator: >=  @ 12 @ operator: >=  @ 13 @ 
+comment: /* Add that change to the accumulated size change */  @ 78 @ comment: /* Add that change to the accumulated size change */  @ 70 @ 
+operator: .  @ 76 @ operator: .  @ 68 @ 
+decl  @ 49 @ decl  @ 45 @ 
+if_stmt  @ 28 @ if_stmt  @ 27 @ 
+expr_stmt  @ 116 @ expr_stmt  @ 103 @ 
+expr  @ 23 @ expr  @ 22 @ 
+operator: <  @ 48 @ operator: <  @ 44 @ 
+expr  @ 68 @ expr  @ 60 @ 
+name: H5T_REFERENCE  @ 110 @ name: H5T_REFERENCE  @ 97 @ 
+block  @ 15 @ block  @ 16 @ 
+comment: /* Previous size of a field */  @ 7 @ comment: /* Previous size of a field */  @ 8 @ 
+operator: ->  @ 63 @ operator: ->  @ 55 @ 
+name: changed  @ 97 @ name: changed  @ 84 @ 
+name: r  @ 116 @ name: r  @ 103 @ 
+name: FUNC_LEAVE_NOAPI  @ 139 @ name: FUNC_LEAVE_NOAPI  @ 117 @ 
+expr  @ 11 @ expr  @ 12 @ 
+name: dt  @ 76 @ name: dt  @ 68 @ 
+call  @ 11 @ call  @ 12 @ 
+name: changed  @ 104 @ name: changed  @ 91 @ 
+expr  @ 30 @ expr  @ 29 @ 
+name: u  @ 76 @ name: u  @ 68 @ 
+name: HGOTO_ERROR  @ 98 @ name: HGOTO_ERROR  @ 85 @ 
+name: dt  @ 46 @ name: dt  @ 42 @ 
+condition  @ 34 @ condition  @ 33 @ 
+expr  @ 99 @ expr  @ 86 @ 
+expr  @ 107 @ expr  @ 94 @ 
+operator: ->  @ 97 @ operator: ->  @ 84 @ 
+block_content  @ 18 @ block_content  @ 19 @ 
+argument  @ 139 @ argument  @ 117 @ 
+operator: ->  @ 89 @ operator: ->  @ 77 @ 
+comment: /* (If the force_conv flag is _not_ set, the type cannot change in size, so don't recurse) */  @ 95 @ comment: /* (If the force_conv flag is _not_ set, the type cannot change in size, so don't recurse) */  @ 82 @ 
+if  @ 99 @ if  @ 86 @ 
+if  @ 34 @ if  @ 33 @ 
+operator: ->  @ 56 @ operator: ->  @ 48 @ 
+argument_list  @ 28 @ argument_list  @ 27 @ 
+operator: ->  @ 116 @ operator: ->  @ 103 @ 
+operator: .  @ 76 @ operator: .  @ 68 @ 
+expr  @ 56 @ expr  @ 48 @ 
+name: HDassert  @ 11 @ name: assert  @ 12 @ 
+name  @ 112 @ name  @ 99 @ 
+expr  @ 98 @ expr  @ 85 @ 
+operator: ->  @ 74 @ operator: ->  @ 66 @ 
+condition  @ 112 @ condition  @ 99 @ 
+name: u  @ 116 @ name: u  @ 103 @ 
+literal: 0  @ 30 @ literal: 0  @ 29 @ 
+name: shared  @ 79 @ name: shared  @ 71 @ 
+argument_list  @ 139 @ argument_list  @ 117 @ 
+argument  @ 105 @ argument  @ 92 @ 
+operator: ->  @ 79 @ operator: ->  @ 71 @ 
+comment: /* Mark this reference */  @ 113 @ comment: /* Mark this reference */  @ 100 @ 
+expr_stmt  @ 105 @ expr_stmt  @ 92 @ 
+argument_list  @ 98 @ argument_list  @ 85 @ 
+name: H5R_OBJECT  @ 112 @ name: H5R_OBJECT  @ 99 @ 
+expr  @ 98 @ expr  @ 85 @ 
+name: dt  @ 59 @ name: dt  @ 51 @ 
+argument_list  @ 46 @ argument_list  @ 42 @ 
+comment: /* Check if the field changed size */  @ 33 @ comment: /* Check if the field changed size */  @ 32 @ 
+operator: !=  @ 74 @ operator: !=  @ 66 @ 
+operator: ->  @ 28 @ operator: ->  @ 27 @ 
+operator: ->  @ 97 @ operator: ->  @ 84 @ 
+name: u  @ 36 @ name: u  @ 35 @ 
+type  @ 6 @ type  @ 6 @ 
+case  @ 41 @ case  @ 40 @ 
+name: loc  @ 12 @ name: loc  @ 13 @ 
+name: nelem  @ 36 @ name: nelem  @ 35 @ 
+expr  @ 23 @ expr  @ 22 @ 
+name: memb  @ 76 @ name: memb  @ 68 @ 
+expr  @ 79 @ expr  @ 71 @ 
+comment: /* Only need to change location of object references */  @ 111 @ comment: /* Only need to change location of object references */  @ 98 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: memb_type  @ 68 @ name: memb_type  @ 60 @ 
+name: shared  @ 97 @ name: shared  @ 84 @ 
+operator: .  @ 76 @ operator: .  @ 68 @ 
+name  @ 36 @ name  @ 35 @ 
+block_content  @ 69 @ block_content  @ 61 @ 
+name: old_size  @ 25 @ name: old_size  @ 24 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+if_stmt  @ 23 @ if_stmt  @ 22 @ 
+operator: +=  @ 56 @ operator: +=  @ 48 @ 
+operator: .  @ 116 @ operator: .  @ 103 @ 
+name  @ 56 @ name  @ 48 @ 
+name: shared  @ 28 @ name: shared  @ 27 @ 
+if  @ 114 @ if  @ 101 @ 
+operator: <  @ 97 @ operator: <  @ 84 @ 
+operator: ->  @ 114 @ operator: ->  @ 101 @ 
+name: changed  @ 100 @ name: changed  @ 87 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+operator: ->  @ 56 @ operator: ->  @ 48 @ 
+expr  @ 29 @ expr  @ 28 @ 
+name: ret_value  @ 31 @ name: ret_value  @ 30 @ 
+expr  @ 105 @ expr  @ 92 @ 
+if  @ 63 @ if  @ 55 @ 
+block_content  @ 65 @ block_content  @ 57 @ 
+name: H5T_IS_COMPLEX  @ 63 @ name: H5T_IS_COMPLEX  @ 55 @ 
+comment: /* (If the force_conv flag is _not_ set, the type cannot change in size, so don't recurse) */  @ 22 @ comment: /* (If the force_conv flag is _not_ set, the type cannot change in size, so don't recurse) */  @ 21 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 57 @ 
+operator: =  @ 65 @ operator: =  @ 57 @ 
+decl  @ 5 @ decl  @ 5 @ 
+call  @ 96 @ call  @ 83 @ 
+name: parent  @ 36 @ name: parent  @ 35 @ 
+operator: ->  @ 74 @ operator: ->  @ 66 @ 
+block  @ 48 @ block  @ 44 @ 
+name: memb_type  @ 79 @ name: memb_type  @ 71 @ 
+name: shared  @ 96 @ name: shared  @ 83 @ 
+name: r  @ 112 @ name: r  @ 99 @ 
+break  @ 39 @ break  @ 38 @ 
+comment: /* end if */  @ 136 @ comment: /* end if */  @ 114 @ 
+operator: .  @ 36 @ operator: .  @ 35 @ 
+condition  @ 68 @ condition  @ 60 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+condition  @ 15 @ condition  @ 16 @ 
+name: dt  @ 96 @ name: dt  @ 83 @ 
+literal: "Unable to set VL location"  @ 69 @ literal: "Unable to set VL location"  @ 61 @ 
+operator: .  @ 59 @ operator: .  @ 51 @ 
+operator: .  @ 114 @ operator: .  @ 101 @ 
+comment: /* Member's datatype pointer */  @ 49 @ comment: /* Member's datatype pointer */  @ 45 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr  @ 69 @ expr  @ 61 @ 
+name  @ 63 @ name  @ 55 @ 
+name: ret_value  @ 71 @ name: ret_value  @ 63 @ 
+expr  @ 93 @ expr  @ 80 @ 
+operator: ==  @ 112 @ operator: ==  @ 99 @ 
+name  @ 23 @ name  @ 22 @ 
+comment: /* Adjust the size of the array */  @ 35 @ comment: /* Adjust the size of the array */  @ 34 @ 
+operator: >  @ 30 @ operator: >  @ 29 @ 
+name: H5E_CANTINIT  @ 105 @ name: H5E_CANTINIT  @ 92 @ 
+name: dt  @ 76 @ name: dt  @ 68 @ 
+name: shared  @ 36 @ name: shared  @ 35 @ 
+expr  @ 105 @ expr  @ 92 @ 
+expr_stmt  @ 119 @ expr_stmt  @ 106 @ 
+operator: ->  @ 25 @ operator: ->  @ 24 @ 
+call  @ 12 @ call  @ 13 @ 
+name: u  @ 112 @ name: u  @ 99 @ 
+operator: ->  @ 34 @ operator: ->  @ 33 @ 
+operator: (  @ 28 @ operator: (  @ 27 @ 
+if  @ 74 @ if  @ 66 @ 
+comment: /* Set the member type pointer (for convenience) */  @ 58 @ comment: /* Set the member type pointer (for convenience) */  @ 50 @ 
+name: old_size  @ 34 @ name: old_size  @ 33 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+operator: (  @ 79 @ operator: (  @ 71 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+name  @ 23 @ name  @ 22 @ 
+block  @ 17 @ block  @ 18 @ 
+operator: *  @ 36 @ operator: *  @ 35 @ 
+decl  @ 2 @ decl  @ 2 @ 
+if_stmt  @ 30 @ if_stmt  @ 29 @ 
+literal: 0  @ 28 @ literal: 0  @ 27 @ 
+expr  @ 97 @ expr  @ 84 @ 
+expr  @ 74 @ expr  @ 66 @ 
+name: loc  @ 114 @ name: loc  @ 101 @ 
+expr  @ 69 @ expr  @ 61 @ 
+operator: ->  @ 63 @ operator: ->  @ 55 @ 
+name  @ 74 @ name  @ 66 @ 
+name: changed  @ 31 @ name: changed  @ 30 @ 
+expr  @ 110 @ expr  @ 97 @ 
+condition  @ 28 @ condition  @ 27 @ 
+expr_stmt  @ 79 @ expr_stmt  @ 71 @ 
+comment: /* Recurse if it's VL, compound, enum or array */  @ 61 @ comment: /* Recurse if it's VL, compound, enum or array */  @ 53 @ 
+name: atomic  @ 114 @ name: atomic  @ 101 @ 
+argument  @ 68 @ argument  @ 60 @ 
+name: ret_value  @ 119 @ name: ret_value  @ 106 @ 
+name: shared  @ 76 @ name: shared  @ 68 @ 
+incr  @ 48 @ incr  @ 44 @ 
+name: size  @ 65 @ name: size  @ 57 @ 
+type  @ 49 @ type  @ 45 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: atomic  @ 116 @ name: atomic  @ 103 @ 
+if  @ 15 @ if  @ 16 @ 
+argument  @ 63 @ argument  @ 55 @ 
+name: compnd  @ 56 @ name: compnd  @ 48 @ 
+condition  @ 104 @ condition  @ 91 @ 
+name: shared  @ 23 @ name: shared  @ 22 @ 
+expr  @ 29 @ expr  @ 28 @ 
+expr  @ 76 @ expr  @ 68 @ 
+name: memb_type  @ 74 @ name: memb_type  @ 66 @ 
+name: H5T_IS_COMPLEX  @ 23 @ name: H5T_IS_COMPLEX  @ 22 @ 
+operator: =  @ 59 @ operator: =  @ 51 @ 
+argument_list  @ 29 @ argument_list  @ 28 @ 
+name: shared  @ 59 @ name: shared  @ 51 @ 
+operator: ->  @ 76 @ operator: ->  @ 68 @ 
+operator: =  @ 25 @ operator: =  @ 24 @ 
+operator: ->  @ 89 @ operator: ->  @ 77 @ 
+name: H5F_t  @ 2 @ name: H5F_t  @ 2 @ 
+name: H5E_DATATYPE  @ 29 @ name: H5E_DATATYPE  @ 28 @ 
+name: H5T__vlen_set_loc  @ 104 @ name: H5T_vlen_set_loc  @ 91 @ 
+name: memb_type  @ 63 @ name: memb_type  @ 55 @ 
+argument  @ 68 @ argument  @ 60 @ 
+operator: .  @ 76 @ operator: .  @ 68 @ 
+name  @ 96 @ name  @ 83 @ 
+if_stmt  @ 34 @ if_stmt  @ 33 @ 
+operator: ->  @ 96 @ operator: ->  @ 83 @ 
+comment: /* Recurse if it's VL, compound, enum or array */  @ 94 @ comment: /* Recurse if it's VL, compound, enum or array */  @ 81 @ 
+operator: .  @ 56 @ operator: .  @ 48 @ 
+call  @ 23 @ call  @ 22 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+name: shared  @ 36 @ name: shared  @ 35 @ 
+argument  @ 46 @ argument  @ 42 @ 
+argument_list  @ 11 @ argument_list  @ 12 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+name: old_size  @ 79 @ name: old_size  @ 71 @ 
+name: shared  @ 56 @ name: shared  @ 48 @ 
+operator: ->  @ 34 @ operator: ->  @ 33 @ 
+if  @ 28 @ if  @ 27 @ 
+block_content  @ 25 @ block_content  @ 24 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 35 @ 
+name: memb  @ 59 @ name: memb  @ 51 @ 
+name: dt  @ 15 @ name: dt  @ 16 @ 
+expr  @ 112 @ expr  @ 99 @ 
+macro  @ 9 @ macro  @ 10 @ 
+comment: /* Keep the old base element size for later */  @ 24 @ comment: /* Keep the old base element size for later */  @ 23 @ 
+name: HGOTO_ERROR  @ 69 @ name: HGOTO_ERROR  @ 61 @ 
+name: loc  @ 116 @ name: loc  @ 103 @ 
+expr  @ 105 @ expr  @ 92 @ 
+operator: <  @ 12 @ operator: <  @ 13 @ 
+name: dt  @ 25 @ name: dt  @ 24 @ 
+name: H5T__sort_value  @ 46 @ name: H5T_sort_value  @ 42 @ 
+init  @ 48 @ init  @ 44 @ 
+argument  @ 11 @ argument  @ 12 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+block_content  @ 107 @ block_content  @ 94 @ 
+name: H5T_t  @ 2 @ name: H5T_t  @ 2 @ 
+name: H5T_loc_t  @ 2 @ name: H5T_loc_t  @ 2 @ 
+argument  @ 104 @ argument  @ 91 @ 
+block  @ 71 @ block  @ 63 @ 
+name: H5T_ARRAY  @ 18 @ name: H5T_ARRAY  @ 19 @ 
+name: shared  @ 34 @ name: shared  @ 33 @ 
+name: dt  @ 28 @ name: dt  @ 27 @ 
+operator: *  @ 76 @ operator: *  @ 68 @ 
+operator: ->  @ 25 @ operator: ->  @ 24 @ 
+operator: >  @ 99 @ operator: >  @ 86 @ 
+argument_list  @ 104 @ argument_list  @ 91 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+call  @ 104 @ call  @ 91 @ 
+comment: /* end H5T_set_loc() */  @ 140 @ comment: /* end H5T_set_loc() */  @ 118 @ 
+comment: /* Set the location */  @ 115 @ comment: /* Set the location */  @ 102 @ 
+name: old_size  @ 76 @ name: old_size  @ 68 @ 
+operator: =  @ 31 @ operator: =  @ 30 @ 
+operator: ->  @ 76 @ operator: ->  @ 68 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+argument  @ 69 @ argument  @ 61 @ 
+name  @ 116 @ name  @ 103 @ 
+name: loc  @ 2 @ name: loc  @ 2 @ 
+name: H5T_LOC_MAXLOC  @ 12 @ name: H5T_LOC_MAXLOC  @ 13 @ 
+name: shared  @ 96 @ name: shared  @ 83 @ 
+name: shared  @ 116 @ name: shared  @ 103 @ 
+operator: =  @ 36 @ operator: =  @ 35 @ 
+operator: .  @ 116 @ operator: .  @ 103 @ 
+name: dt  @ 89 @ name: dt  @ 77 @ 
+name  @ 15 @ name  @ 16 @ 
+expr  @ 104 @ expr  @ 91 @ 
+name: dt  @ 96 @ name: dt  @ 83 @ 
+name: type  @ 17 @ name: type  @ 18 @ 
+name: memb_type  @ 63 @ name: memb_type  @ 55 @ 
+type  @ 4 @ type  @ 4 @ 
+expr_stmt  @ 107 @ expr_stmt  @ 94 @ 
+operator: ->  @ 76 @ operator: ->  @ 68 @ 
+expr  @ 15 @ expr  @ 16 @ 
+name: type  @ 96 @ name: type  @ 83 @ 
+name: force_conv  @ 63 @ name: force_conv  @ 55 @ 
+name  @ 76 @ name  @ 68 @ 
+name: H5E_DATATYPE  @ 69 @ name: H5E_DATATYPE  @ 61 @ 
+

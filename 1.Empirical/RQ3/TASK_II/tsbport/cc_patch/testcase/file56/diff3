@@ -1,0 +1,14 @@
+1040d
+<            unsigned   rc;    /* Reference count of object    */
+1043c1043
+<            if (H5O_get_rc_and_type(&obj_oloc, &rc, &otype) < 0)
+---
+>            if (H5O_get_rc_and_type(&obj_oloc, NULL, &otype) < 0)
+1048c1048
+<            if (rc > 1) {
+---
+>            {
+1062c1062
+<            } /* end if */
+---
+>            }

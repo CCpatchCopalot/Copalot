@@ -1,0 +1,78 @@
+{
+    "testcase": {
+        "file15": {
+            "match_message": {
+                "Same: tflite -> tflite": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 112->118",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 113->119"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 537",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 538->166"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 822",
+                        "L2": "7: Context line (Ignored) is empty or comment 823"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 118,
+                        "add_hunk": [
+                            "class SubgraphGuard {\n",
+                            "  public:\n",
+                            "   SubgraphGuard(TfLiteContext* context, bool* is_subgraph_in_use)\n",
+                            "       : is_subgraph_in_use_(is_subgraph_in_use) { if (*is_subgraph_in_use_) {\n",
+                            "       TF_LITE_KERNEL_LOG( context, \"Subgraph is already in use. Using an interpreter or a subgraph in \" \"multiple threads is not supported. Recursion in the graph is not \" \"supported.\");\n",
+                            "       status_ = kTfLiteError;\n",
+                            "     } else {\n",
+                            "       *is_subgraph_in_use_ = true;\n",
+                            "     }\n",
+                            "   }\n",
+                            "   ~SubgraphGuard() { // If tht original status was OK, recover the boolean flag. if (status_ == kTfLiteOk) {\n",
+                            "       *is_subgraph_in_use_ = false;\n",
+                            "     }\n",
+                            "   }\n",
+                            "   TfLiteStatus status() const { return status_; }\n",
+                            "  private:\n",
+                            "   TfLiteStatus status_ = kTfLiteOk;\n",
+                            "   bool* is_subgraph_in_use_;\n",
+                            " };\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 165,
+                        "add_hunk": [
+                            "  SubgraphGuard guard(&context_, &is_subgraph_in_use_);\n",
+                            "  TF_LITE_ENSURE_OK(&context_, guard.status());\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: tflite -> tflite": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "function_definition",
+                "function_call"
+            ]
+        }
+    }
+}

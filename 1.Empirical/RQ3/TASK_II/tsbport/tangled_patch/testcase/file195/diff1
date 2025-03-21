@@ -1,0 +1,6 @@
+1408c1408,1410
+<   gtls_sha256sum                 /* sha256sum */
+---
+>   gtls_sha256sum,                /* sha256sum */
+>   NULL,                          /* associate_connection */
+>   NULL                           /* disassociate_connection */

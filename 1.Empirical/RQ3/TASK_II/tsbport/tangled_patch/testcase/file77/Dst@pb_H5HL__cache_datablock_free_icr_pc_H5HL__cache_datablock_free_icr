@@ -1,0 +1,20 @@
+static herr_t
+H5HL__cache_datablock_free_icr(void *_thing)
+{
+    H5HL_dblk_t *dblk      = (H5HL_dblk_t *)_thing; /* Pointer to the local heap data block */
+    herr_t       ret_value = SUCCEED;               /* Return value */
+
+    FUNC_ENTER_PACKAGE
+
+    /* Check arguments */
+    HDassert(dblk);
+    HDassert(dblk->cache_info.magic == H5C__H5C_CACHE_ENTRY_T_BAD_MAGIC);
+    HDassert(dblk->cache_info.type == H5AC_LHEAP_DBLK);
+
+    /* Destroy the data block */
+    if (H5HL__dblk_dest(dblk) < 0)
+        HGOTO_ERROR(H5E_HEAP, H5E_CANTFREE, FAIL, "unable to destroy local heap data block")
+
+done:
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5HL__cache_datablock_free_icr() */

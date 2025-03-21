@@ -1,0 +1,22 @@
+#define FSdither9704(inP, outa, outb, errP, Err, Bit, Offset, Element)\
+{\
+        oldErr = Err;\
+        Err = (*(errP + Element)\
+               + ((Err * 7 + C) >> 4)\
+               + ((int) *(inP + Element) << SHIFT));\
+        if ((Err > THRESHOLDS) && (Err <= THRESHOLDM)) {\
+          outa |= Bit;\
+          Err -= MAXVALUES;\
+        }\
+        if ((Err > THRESHOLDM) && (Err <= THRESHOLDL)) {\
+          outb |= Bit;\
+          Err -= MAXVALUEM;\
+        }\
+        if (Err > THRESHOLDL) {\
+          outa |= Bit;\
+          outb |= Bit;\
+          Err -= MAXVALUEL;\
+        }\
+        *(errP + (Element + Offset)) += ((Err * 3 + C) >> 4);\
+        *(errP + Element) = ((Err * 5 + oldErr + C) >> 4);\
+}

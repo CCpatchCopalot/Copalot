@@ -1,0 +1,4 @@
+342a343,345
+> 	if (TIFFFieldSet(tif, FIELD_NUMBEROFINKS)) {
+> 		fprintf(fd, "NumberOfInks: %d\n",td->td_numberofinks);
+> 	}

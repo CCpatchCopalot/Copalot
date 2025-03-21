@@ -1,0 +1,1 @@
+byte *out =        (byte *) gs_malloc(pdev->memory, out_size + 1, 1, "epsc_print_page(out)");

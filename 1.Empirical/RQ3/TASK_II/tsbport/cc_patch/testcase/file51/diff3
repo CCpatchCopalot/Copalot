@@ -1,0 +1,16 @@
+85c85
+<static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata);
+---
+>static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len,H5HL_cache_prfx_ud_t *udata);
+151c151,152
+<static herr_t
+---
+>const uint8_t *p_end     = image + len - 1;
+>herr_t         ret_value = SUCCEED;
+152c152
+<H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata)
+---
+>H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len, H5HL_cache_prfx_ud_t *udata)
+187a188,189
+>    if (H5_IS_BUFFER_OVERFLOW(image, udata->sizeof_addr, p_end))
+>        HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, "ran off end of input buffer while decoding");

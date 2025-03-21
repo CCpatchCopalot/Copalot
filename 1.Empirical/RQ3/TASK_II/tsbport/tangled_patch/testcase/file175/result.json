@@ -1,0 +1,532 @@
+{
+    "testcase": {
+        "file175": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "23 -> -1",
+                        "L2": "23 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "83 -> -1",
+                        "L2": "83 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "365 -> -1",
+                        "L2": "365 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_11": {
+                        "Edit": "change",
+                        "L1": "421 -> -1",
+                        "L2": "421 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_14": {
+                        "Edit": "change",
+                        "L1": "514 -> -1",
+                        "L2": "514 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: pixBlockconv -> pixBlockconv": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 33 -> 142",
+                        "L2": "3: Unique Matched by Source code 34 -> 143"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 37 -> 146",
+                        "L2": "3: Unique Matched by Source code 40 -> 149"
+                    },
+                    "Seg_3": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 42->151",
+                        "L2": "3: Unique Matched by Source code 43 -> 152"
+                    }
+                },
+                "Same: pixBlockconvGray -> pixBlockconvGray": {
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 97 -> 230",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 99->232"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 102 -> 235",
+                        "L2": "3: Unique Matched by Source code 103 -> 236"
+                    }
+                },
+                "Same: pixBlockconvGrayUnnormalized -> pixBlockconvGrayUnnormalized": {
+                    "Seg_8": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 379 -> 653",
+                        "L2": "3: Unique Matched by Source code 380 -> 654"
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 382 -> 656",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 387->661"
+                    },
+                    "Seg_10": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 388 -> 662",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 389->663"
+                    }
+                },
+                "Same: pixBlockconvTiled -> pixBlockconvTiled": {
+                    "Seg_12": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 433 -> 744",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 442->753"
+                    },
+                    "Seg_13": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 445 -> 756",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 446->757"
+                    }
+                },
+                "Same: pixBlockconvGrayTile -> pixBlockconvGrayTile": {
+                    "Seg_15": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 530 -> 873",
+                        "L2": "3: Unique Matched by Source code 531 -> 874"
+                    },
+                    "Seg_16": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 533 -> 876",
+                        "L2": "3: Unique Matched by Source code 538 -> 881"
+                    },
+                    "Seg_17": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 539 -> 882",
+                        "L2": "3: Unique Matched by Source code 540 -> 883"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 142,
+                        "add_hunk": [
+                            "    if (wc <= 0 || hc <= 0)\n",
+                            "        return pixCopy(NULL, pix);\n"
+                        ],
+                        "delete_location": [
+                            142,
+                            143
+                        ],
+                        "delete_hunk": [
+                            "    if (wc < 0) wc = 0;\n",
+                            "    if (hc < 0) hc = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 146,
+                        "add_hunk": [
+                            "        L_ERROR(\"kernel is too large: w = %d, wc = %d, h = %d, hc = %d\\n\",procName, w, wc, h, hc);\n",
+                            "        return pixCopy(NULL, pix);  /* no-op */\n"
+                        ],
+                        "delete_location": [
+                            146,
+                            149
+                        ],
+                        "delete_hunk": [
+                            "        wc = L_MIN(wc, (w - 1) / 2);\n",
+                            "        hc = L_MIN(hc, (h - 1) / 2);\n",
+                            "        L_WARNING(\"kernel too large; reducing!\\n\", procName);\n",
+                            "        L_INFO(\"wc = %d, hc = %d\\n\", procName, wc, hc);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            151,
+                            152
+                        ],
+                        "delete_hunk": [
+                            "    if (wc == 0 && hc == 0)   /* no-op */\n",
+                            "        return pixCopy(NULL, pix);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 230,
+                        "add_hunk": [
+                            "    if (wc <= 0 || hc <= 0)   /* no-op */\n"
+                        ],
+                        "delete_location": [
+                            230,
+                            232
+                        ],
+                        "delete_hunk": [
+                            "    if (wc < 0) wc = 0;\n",
+                            "    if (hc < 0) hc = 0;\n",
+                            "    if (wc == 0 && hc == 0)   /* no-op */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 235,
+                        "add_hunk": [
+                            "        L_ERROR(\"kernel is too large: w = %d, wc = %d, h = %d, hc = %d\\n\",procName, w, wc, h, hc);\n"
+                        ],
+                        "delete_location": [
+                            235,
+                            236
+                        ],
+                        "delete_hunk": [
+                            "        L_WARNING(\"kernel too large; returning a copy\\n\", procName);\n",
+                            "        L_INFO(\"w = %d, wc = %d, h = %d, hc = %d\\n\", procName, w, wc, h, hc);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "change",
+                        "add_location": 653,
+                        "add_hunk": [
+                            "    if (wc <= 0 || hc <= 0)  /* no-op */\n",
+                            "        return pixCopy(NULL, pixs);\n"
+                        ],
+                        "delete_location": [
+                            653,
+                            654
+                        ],
+                        "delete_hunk": [
+                            "    if (wc < 0) wc = 0;\n",
+                            "    if (hc < 0) hc = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 656,
+                        "add_hunk": [
+                            "        L_ERROR(\"kernel is too large: w = %d, wc = %d, h = %d, hc = %d\\n\",procName, w, wc, h, hc);\n"
+                        ],
+                        "delete_location": [
+                            656,
+                            661
+                        ],
+                        "delete_hunk": [
+                            "        wc = L_MIN(wc, (w - 1) / 2);\n",
+                            "        hc = L_MIN(hc, (h - 1) / 2);\n",
+                            "        L_WARNING(\"kernel too large; reducing!\\n\", procName);\n",
+                            "        L_INFO(\"wc = %d, hc = %d\\n\", procName, wc, hc);\n",
+                            "    }\n",
+                            "    if (wc == 0 && hc == 0)   /* no-op */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "add",
+                        "add_location": 662,
+                        "add_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "change",
+                        "add_location": 744,
+                        "add_hunk": [
+                            "    if (wc <= 0 || hc <= 0)   /* no-op */\n"
+                        ],
+                        "delete_location": [
+                            744,
+                            753
+                        ],
+                        "delete_hunk": [
+                            "    if (wc < 0) wc = 0;\n",
+                            "    if (hc < 0) hc = 0;\n",
+                            "    pixGetDimensions(pix, &w, &h, &d);\n",
+                            "    if (w < 2 * wc + 3 || h < 2 * hc + 3) {\n",
+                            "        wc = L_MAX(0, L_MIN(wc, (w - 3) / 2));\n",
+                            "        hc = L_MAX(0, L_MIN(hc, (h - 3) / 2));\n",
+                            "        L_WARNING(\"kernel too large; reducing!\\n\", procName);\n",
+                            "        L_INFO(\"wc = %d, hc = %d\\n\", procName, wc, hc);\n",
+                            "    }\n",
+                            "    if (wc == 0 && hc == 0)   /* no-op */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "add",
+                        "add_location": 756,
+                        "add_hunk": [
+                            "    pixGetDimensions(pix, &w, &h, &d);\n",
+                            "    if (w < 2 * wc + 3 || h < 2 * hc + 3) {\n",
+                            "        L_ERROR(\"kernel is too large: w = %d, wc = %d, h = %d, hc = %d\\n\",procName, w, wc, h, hc);\n",
+                            "        return pixCopy(NULL, pix);\n",
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_15",
+                    {
+                        "Edit": "change",
+                        "add_location": 873,
+                        "add_hunk": [
+                            "    if (wc <= 0 || hc <= 0)  /* no-op */\n",
+                            "        return pixCopy(NULL, pixs);\n"
+                        ],
+                        "delete_location": [
+                            873,
+                            874
+                        ],
+                        "delete_hunk": [
+                            "    if (wc < 0) wc = 0;\n",
+                            "    if (hc < 0) hc = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_16",
+                    {
+                        "Edit": "change",
+                        "add_location": 876,
+                        "add_hunk": [
+                            "        L_ERROR(\"kernel is too large: w = %d, wc = %d, h = %d, hc = %d\\n\",procName, w, wc, h, hc);\n"
+                        ],
+                        "delete_location": [
+                            876,
+                            881
+                        ],
+                        "delete_hunk": [
+                            "        wc = L_MAX(0, L_MIN(wc, (w - 3) / 2));\n",
+                            "        hc = L_MAX(0, L_MIN(hc, (h - 3) / 2));\n",
+                            "        L_WARNING(\"kernel too large; reducing!\\n\", procName);\n",
+                            "        L_INFO(\"wc = %d, hc = %d\\n\", procName, wc, hc);\n",
+                            "    }\n",
+                            "    if (wc == 0 && hc == 0)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_17",
+                    {
+                        "Edit": "add",
+                        "add_location": 882,
+                        "add_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_4": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_7": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_11": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_14": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    }
+                },
+                "Same: pixBlockconv -> pixBlockconv": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: pixBlockconvGray -> pixBlockconvGray": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: pixBlockconvGrayUnnormalized -> pixBlockconvGrayUnnormalized": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: pixBlockconvTiled -> pixBlockconvTiled": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: pixBlockconvGrayTile -> pixBlockconvGrayTile": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "MOVE_TO",
+                "sanity_check",
+                "change_value"
+            ]
+        }
+    }
+}
