@@ -1,0 +1,63 @@
+static int get_token(void)
+{
+int ch;
+int i, len=0;
+int is_string=0;
+char *yyshadow;
+
+for(;;)
+	{
+	ch=getch();
+	if(ch<0) return(T_EOF);
+	if(ch<=' ') continue;	/* val<=' ' is a quick whitespace check*/
+	break;			/* (take advantage of fact that vcd is text) */
+	}
+if(ch=='$')
+	{
+	yytext[len++]=ch;
+	for(;;)
+		{
+		ch=getch();
+		if(ch<0) return(T_EOF);
+		if(ch<=' ') continue;
+		break;
+		}
+	}
+	else
+	{
+	is_string=1;
+	}
+
+for(yytext[len++]=ch;;yytext[len++]=ch)
+	{
+	if(len==T_MAX_STR)
+		{
+		yytext=(char *)realloc_2(yytext, (T_MAX_STR=T_MAX_STR*2)+1);
+		}
+	ch=getch();
+	if(ch<=' ') break;
+	}
+yytext[len]=0;	/* terminator */
+yylen=len;
+
+if(is_string)
+	{
+	return(T_STRING);
+	}
+
+yyshadow=yytext;
+do
+{
+yyshadow++;
+for(i=0;i<NUM_TOKENS;i++)
+        {
+        if(!strcmp(yyshadow,tokens[i]))
+                {
+                return(i);
+                }
+        }
+
+} while(*yyshadow=='$'); /* fix for RCS ids in version strings */
+
+return(T_UNKNOWN_KEY);
+}

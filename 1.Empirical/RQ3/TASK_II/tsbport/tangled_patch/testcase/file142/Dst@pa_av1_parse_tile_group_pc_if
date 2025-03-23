@@ -1,0 +1,10 @@
+			} else if( sps->num_short_term_ref_pic_sets > 1 ) {
+				u32 numbits = 0;
+				s32 short_term_ref_pic_set_idx;
+				while ( (u32) (1 << numbits) < sps->num_short_term_ref_pic_sets)
+					numbits++;
+				if (numbits > 0)
+					short_term_ref_pic_set_idx = gf_bs_read_int(bs, numbits);
+				else
+					short_term_ref_pic_set_idx = 0;
+			}

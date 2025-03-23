@@ -1,0 +1,62 @@
+99,101c99,101
+< /* * Confirm we have "samplesperpixel" ink names separated by \0.Returns* zero if the ink names are not as expected. */
+< static uint32_t
+< checkInkNamesString(TIFF* tif, uint32_t slen, const char* s)
+---
+> /* * Count ink names separated by \0.Returns * zero if the ink names are not as expected. */
+> static uint16_t
+> countInkNamesString(TIFF *tif, uint32_t slen, const char *s)
+103,106c103
+< 	TIFFDirectory* td = &tif->tif_dir;
+< 	uint16_t i = td->td_samplesperpixel;
+< 
+< 	if (slen > 0) {
+---
+> 	uint16_t i = 0;
+109c106,108
+< 		for (; i > 0; i--) {
+---
+> 
+> 	if (slen > 0) {
+> 		do {
+114,115c113,115
+< 		}
+< 		return ((uint32_t)(cp - s));
+---
+> 			i++;
+> 		} while (cp < ep);
+> 		return (i);
+118c118
+< 	TIFFErrorExt(tif->tif_clientdata, "TIFFSetField","%s: Invalid InkNames value; expecting %"PRIu16" names, found %"PRIu16,tif->tif_name,td->td_samplesperpixel,(uint16_t)(td->td_samplesperpixel-i));
+---
+> 	TIFFErrorExt(tif->tif_clientdata, "TIFFSetField","%s: Invalid InkNames value; no NUL at given buffer end location %"PRIu32", after %"PRIu16" ink",tif->tif_name, slen, i);
+398a399
+> 		{
+401,403c402,405
+< 		v = checkInkNamesString(tif, v, s);
+< 		status = v > 0;
+< 		if( v > 0 ) {
+---
+> 			uint16_t ninksinstring;
+> 			ninksinstring = countInkNamesString(tif, v, s);
+> 			status = ninksinstring > 0;
+> 			if(ninksinstring > 0 ) {
+405a408,425
+> 				/* Set NumberOfInks to the value ninksinstring */
+> 				if (TIFFFieldSet(tif, FIELD_NUMBEROFINKS))
+> 				{
+> 					if (td->td_numberofinks != ninksinstring) {
+> 						TIFFErrorExt(tif->tif_clientdata, module,"Warning %s; Tag %s:\nValue %"PRIu16" of NumberOfInks is different from the number of inks %"PRIu16".\n-> NumberOfInks value adapted to %"PRIu16"",tif->tif_name, fip->field_name, td->td_numberofinks, ninksinstring, ninksinstring);
+> 						td->td_numberofinks = ninksinstring;
+> 					}
+> 				} else {
+> 					td->td_numberofinks = ninksinstring;
+> 					TIFFSetFieldBit(tif, FIELD_NUMBEROFINKS);
+> 				}
+> 				if (TIFFFieldSet(tif, FIELD_SAMPLESPERPIXEL))
+> 				{
+> 					if (td->td_numberofinks != td->td_samplesperpixel) {
+> 						TIFFErrorExt(tif->tif_clientdata, module,"Warning %s; Tag %s:\nValue %"PRIu16" of NumberOfInks is different from the SamplesPerPixel value %"PRIu16"",tif->tif_name, fip->field_name, td->td_numberofinks, td->td_samplesperpixel);
+> 					}
+> 				}
+> 			}

@@ -1,0 +1,85 @@
+12529c12529,12536
+< 	ISOM_DECREASE_SIZE(s, 1)ptr->layout.stream_structure = gf_bs_read_u8(bs);
+---
+> 	ISOM_DECREASE_SIZE(s, 1)
+> 	if (ptr->version==0) {
+> 		ptr->layout.stream_structure = gf_bs_read_u8(bs);
+> 	} else {
+> 		ptr->layout.stream_structure = gf_bs_read_int(bs, 4);
+> 		ptr->layout.format_ordering = gf_bs_read_int(bs, 4);
+> 		ISOM_DECREASE_SIZE(s, 1)ptr->layout.base_channel_count = gf_bs_read_u8(bs);
+> 	}
+12535a12543,12547
+> 			u32 nb_channels = 0;
+> 			if (ptr->version) {
+> 				ISOM_DECREASE_SIZE(s, 1)
+> 				nb_channels = gf_bs_read_u8(bs);
+> 			}
+12536a12549,12550
+> 				if (ptr->layout.channels_count==64) return GF_ISOM_INVALID_FILE;
+> 
+12543a12558,12562
+> 				ptr->layout.channels_count++;
+> 				if (ptr->version) {
+> 					nb_channels--;
+> 					if (!nb_channels) break;
+> 				}
+12545a12565
+> 			if (ptr->version==0) {
+12546a12567,12576
+> 				ptr->layout.omitted_channels_present = 1;
+> 				ptr->layout.channel_order_definition = 0;
+> 			} else {
+> 				ISOM_DECREASE_SIZE(s, 1)
+> 				gf_bs_read_int(bs, 4);
+> 				ptr->layout.channel_order_definition = gf_bs_read_int(bs, 3);
+> 				ptr->layout.omitted_channels_present = gf_bs_read_int(bs, 1);
+> 				if (ptr->layout.omitted_channels_present) {
+> 					ISOM_DECREASE_SIZE(s, 8)ptr->layout.omittedChannelsMap = gf_bs_read_u64(bs);
+> 				}
+12549c12579,12580
+< 	if (ptr->layout.stream_structure & 2) {
+---
+> 	}
+> 	if ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {
+12571a12603,12609
+> 	if (ptr->version==0) {
+> 		gf_bs_write_u8(bs, ptr->layout.stream_structure);
+> 	} else {
+> 		gf_bs_write_int(bs, ptr->layout.stream_structure, 4);
+> 		gf_bs_write_int(bs, ptr->layout.format_ordering, 4);
+> 		gf_bs_write_u8(bs, ptr->layout.base_channel_count);
+> 	}
+12575a12614,12616
+> 			if (ptr->version==1) {
+> 				gf_bs_write_u8(bs, ptr->layout.channels_count);
+> 			}
+12583a12625,12631
+> 			if (ptr->version==1) {
+> 				gf_bs_write_int(bs, 0, 4);
+> 				gf_bs_write_int(bs, ptr->layout.channel_order_definition, 3);
+> 				gf_bs_write_int(bs, ptr->layout.omitted_channels_present, 1);
+> 				if (ptr->layout.omitted_channels_present)
+> 					gf_bs_write_u64(bs, ptr->layout.omittedChannelsMap);
+> 			} else {
+12587c12635,12636
+< 	if (ptr->layout.stream_structure & 2) {
+---
+> 	}
+> 	if ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {
+12596a12646
+> 	if (ptr->version==1) s->size++;
+12600a12651
+> 			if (ptr->version==1) s->size++;
+12606a12658,12660
+> 			if (ptr->version==1) {
+> 				s->size += 1;
+> 				if (ptr->layout.omitted_channels_present)
+12607a12662,12664
+> 			} else {
+> 				s->size += 8;
+> 			}
+12610c12667
+< 	if (ptr->layout.stream_structure & 2) {
+---
+> 	if ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {

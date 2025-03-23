@@ -1,0 +1,148 @@
+{
+    "testcase": {
+        "file35": {
+            "match_message": {
+                "Same: r_bin_java_get_attr_buf -> r_bin_java_get_attr_buf": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1869 -> 1968",
+                        "L2": "3: Unique Matched by Source code 1869 -> 1968"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1872 -> 1971",
+                        "L2": "3: Unique Matched by Source code 1872 -> 1971"
+                    }
+                },
+                "Same: r_bin_java_constant_value_attr_new -> r_bin_java_constant_value_attr_new": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3425 -> 3573",
+                        "L2": "3: Unique Matched by Source code 3426 -> 3574"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3426 -> 3574",
+                        "L2": "3: Unique Matched by Source code 3427 -> 3575"
+                    }
+                },
+                "Same: r_bin_java_rti_annotations_attr_new -> r_bin_java_rti_annotations_attr_new": {
+                    "Seg_4": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 6854 -> 7203",
+                        "L2": "3: Unique Matched by Source code 6854 -> 7203"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6856 -> 7205",
+                        "L2": "3: Unique Matched by Source code 6856 -> 7205"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1968,
+                        "add_hunk": [],
+                        "delete_location": [
+                            1968,
+                            1968
+                        ],
+                        "delete_hunk": [
+                            "\tut8 *attr_buf = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 1971,
+                        "add_hunk": [
+                            "\tut8 *attr_buf = (ut8 *) calloc (pending + 1, 1);\n"
+                        ],
+                        "delete_location": [
+                            1971,
+                            1971
+                        ],
+                        "delete_hunk": [
+                            "\tattr_buf = (ut8 *) calloc (pending + 1, 1);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 3573,
+                        "add_hunk": [
+                            "\t\tif (offset + 4 < sz) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 3574,
+                        "add_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            7203,
+                            7203
+                        ],
+                        "delete_hunk": [
+                            "\tRBinJavaAttrInfo *attr = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 7205,
+                        "add_hunk": [
+                            "\tif (buf_offset + 32 >= sz) {\n",
+                            "\t\treturn NULL;\n",
+                            "\t}\n",
+                            "\tRBinJavaAttrInfo *attr = r_bin_java_default_attr_new (bin, buffer, sz, buf_offset);\n"
+                        ],
+                        "delete_location": [
+                            7205,
+                            7205
+                        ],
+                        "delete_hunk": [
+                            "\tattr = r_bin_java_default_attr_new (bin, buffer, sz, buf_offset);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: r_bin_java_get_attr_buf -> r_bin_java_get_attr_buf": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: r_bin_java_constant_value_attr_new -> r_bin_java_constant_value_attr_new": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: r_bin_java_rti_annotations_attr_new -> r_bin_java_rti_annotations_attr_new": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

@@ -1,0 +1,61 @@
+1c1
+< /* radare - LGPL3 - Copyright 2016-2021 - Matthieu (c0riolis) Tardy - l0stb1t*/
+---
+> /* radare - LGPL3 - Copyright 2016-2022 - Matthieu (c0riolis) Tardy - l0stb1t */
+12,14c12,14
+< static ut32 magic_int;
+< static ut32 symbols_ordinal = 0;
+< static RList *refs = NULL; // If you don't have a good reason, do not change this. And also checkout !refs in get_code_object()
+---
+> static R_TH_LOCAL ut32 magic_int;
+> static R_TH_LOCAL ut32 symbols_ordinal = 0;
+> static R_TH_LOCAL RList *refs = NULL; // If you don't have a good reason, do not change this. And also checkout !refs in get_code_object()
+503,508c503
+< 		if (!tmp) {
+< 			r_list_free (ret->data);
+< 			R_FREE (ret);
+< 			return NULL;
+< 		}
+< 		if (!r_list_append (ret->data, tmp)) {
+---
+> 		if (!tmp || !r_list_append (ret->data, tmp)) {
+509a505
+> 			((RList*)ret->data)->free = NULL;
+519d514
+< /* */
+538d532
+< 	pyc_object *ret = NULL;
+540,542c534
+< 	ut32 n = 0;
+< 
+< 	n = get_ut32 (buffer, &error);
+---
+> 	ut32 n = get_ut32 (buffer, &error);
+550c542
+< 	ret = get_array_object_generic (buffer, n);
+---
+> 	pyc_object *ret = get_array_object_generic (buffer, n);
+553d544
+< 		return ret;
+555c546
+< 	return NULL;
+---
+> 	return ret;
+561,563c552
+< 	ut32 n = 0;
+< 
+< 	n = get_ut32 (buffer, &error);
+---
+> 	ut32 n = get_ut32 (buffer, &error);
+619d607
+< 	pyc_object *ret = NULL;
+629,632c617,618
+< 	ret = get_array_object_generic (buffer, n);
+< 	if (!ret) {
+< 		return NULL;
+< 	}
+---
+> 	pyc_object *ret = get_array_object_generic (buffer, n);
+> 	if (ret) {
+633a620
+> 	}

@@ -1,0 +1,225 @@
+name: HDassert  @ 15 @ name: HDassert  @ 16 @ 
+argument  @ 15 @ argument  @ 16 @ 
+name: heap  @ 18 @ name: heap  @ 19 @ 
+name: H5HL_t  @ 6 @ name: H5HL_t  @ 7 @ 
+argument_list  @ 14 @ argument_list  @ 15 @ 
+name: uint8_t  @ 18 @ name: uint8_t  @ 19 @ 
+condition  @ 27 @ condition  @ 28 @ 
+call  @ 15 @ call  @ 16 @ 
+name: actual_len  @ 22 @ name: actual_len  @ 23 @ 
+expr  @ 27 @ expr  @ 28 @ 
+expr  @ 19 @ expr  @ 20 @ 
+operator: *  @ 22 @ operator: *  @ 23 @ 
+name: SUCCEED  @ 7 @ name: SUCCEED  @ 8 @ 
+name: actual_len  @ 2 @ name: actual_len  @ 3 @ 
+decl  @ 5 @ decl  @ 6 @ 
+call  @ 18 @ call  @ 19 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 10 @ 
+if_stmt  @ 27 @ if_stmt  @ 28 @ 
+argument  @ 19 @ argument  @ 20 @ 
+modifier: *  @ 4 @ modifier: *  @ 5 @ 
+operator: .  @ 25 @ operator: .  @ 26 @ 
+block  @ 27 @ block  @ 28 @ 
+name  @ 27 @ name  @ 28 @ 
+name: void  @ 2 @ name: void  @ 3 @ 
+operator: (  @ 18 @ operator: (  @ 19 @ 
+argument_list  @ 32 @ argument_list  @ 33 @ 
+name: uint8_t  @ 4 @ name: uint8_t  @ 5 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 15 @ 
+argument  @ 12 @ argument  @ 13 @ 
+name  @ 22 @ name  @ 23 @ 
+name: heap  @ 6 @ name: heap  @ 7 @ 
+operator: .  @ 29 @ operator: .  @ 30 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+name: image  @ 18 @ name: image  @ 19 @ 
+call  @ 19 @ call  @ 20 @ 
+specifier: const  @ 18 @ specifier: const  @ 19 @ 
+operator: <  @ 18 @ operator: <  @ 19 @ 
+comment: /* Local heap */  @ 6 @ comment: /* Local heap */  @ 7 @ 
+comment: /* User data for callback */  @ 5 @ comment: /* User data for callback */  @ 6 @ 
+name: heap  @ 25 @ name: heap  @ 26 @ 
+name: image  @ 12 @ name: image  @ 13 @ 
+operator: =  @ 22 @ operator: =  @ 23 @ 
+operator: )  @ 5 @ operator: )  @ 6 @ 
+condition  @ 18 @ condition  @ 19 @ 
+expr  @ 19 @ expr  @ 20 @ 
+name: H5HL__hdr_deserialize  @ 18 @ name: H5HL__hdr_deserialize  @ 19 @ 
+expr  @ 19 @ expr  @ 20 @ 
+operator: )  @ 4 @ operator: )  @ 5 @ 
+call  @ 27 @ call  @ 28 @ 
+name  @ 25 @ name  @ 26 @ 
+type  @ 2 @ type  @ 3 @ 
+call  @ 13 @ call  @ 14 @ 
+name: uint8_t  @ 4 @ name: uint8_t  @ 5 @ 
+condition  @ 25 @ condition  @ 26 @ 
+name: H5F_addr_eq  @ 27 @ name: H5F_addr_eq  @ 28 @ 
+name: actual_len  @ 14 @ name: actual_len  @ 15 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+specifier: const  @ 4 @ specifier: const  @ 5 @ 
+name: _udata  @ 5 @ name: _udata  @ 6 @ 
+name: heap  @ 29 @ name: heap  @ 30 @ 
+name: size_t  @ 2 @ name: size_t  @ 3 @ 
+init  @ 7 @ init  @ 8 @ 
+type  @ 7 @ type  @ 8 @ 
+argument_list  @ 13 @ argument_list  @ 14 @ 
+type  @ 2 @ type  @ 2 @ 
+argument  @ 18 @ argument  @ 19 @ 
+name: image_len  @ 15 @ name: image_len  @ 16 @ 
+name: H5HL_cache_prfx_ud_t  @ 5 @ name: H5HL_cache_prfx_ud_t  @ 6 @ 
+argument_list  @ 19 @ argument_list  @ 20 @ 
+name: void  @ 2 @ name: void  @ 2 @ 
+expr  @ 18 @ expr  @ 19 @ 
+operator: (  @ 5 @ operator: (  @ 6 @ 
+name: ret_value  @ 7 @ name: ret_value  @ 8 @ 
+name: dblk_size  @ 29 @ name: dblk_size  @ 30 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name: H5E_HEAP  @ 19 @ name: H5E_HEAP  @ 20 @ 
+name: prfx_size  @ 22 @ name: prfx_size  @ 23 @ 
+expr  @ 14 @ expr  @ 15 @ 
+type  @ 4 @ type  @ 5 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+expr  @ 15 @ expr  @ 16 @ 
+type  @ 9 @ type  @ 10 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+expr  @ 27 @ expr  @ 28 @ 
+comment: /* Note that the heap should be a single object in the cache */  @ 28 @ comment: /* Note that the heap should be a single object in the cache */  @ 29 @ 
+name: done  @ 31 @ name: done  @ 32 @ 
+type  @ 2 @ type  @ 3 @ 
+comment: /* end H5HL__cache_prefix_get_final_load_size() */  @ 33 @ comment: /* end H5HL__cache_prefix_get_final_load_size() */  @ 34 @ 
+name: FAIL  @ 19 @ name: FAIL  @ 20 @ 
+expr  @ 18 @ expr  @ 19 @ 
+decl  @ 2 @ decl  @ 2 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+operator: +=  @ 29 @ operator: +=  @ 30 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+block  @ 19 @ block  @ 20 @ 
+name: prfx_addr  @ 27 @ name: prfx_addr  @ 28 @ 
+name: HDassert  @ 13 @ name: HDassert  @ 14 @ 
+operator: .  @ 22 @ operator: .  @ 23 @ 
+comment: /* Pointer into raw data buffer */  @ 4 @ comment: /* Pointer into raw data buffer */  @ 5 @ 
+comment: /* Return value */  @ 7 @ comment: /* Return value */  @ 8 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+operator: *  @ 29 @ operator: *  @ 30 @ 
+if  @ 18 @ if  @ 19 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: )  @ 27 @ operator: )  @ 28 @ 
+argument_list  @ 18 @ argument_list  @ 19 @ 
+argument  @ 27 @ argument  @ 28 @ 
+name: _image  @ 2 @ name: _image  @ 2 @ 
+name: heap  @ 22 @ name: heap  @ 23 @ 
+expr  @ 25 @ expr  @ 26 @ 
+init  @ 5 @ init  @ 6 @ 
+comment: /* Check if heap block exists */  @ 24 @ comment: /* Check if heap block exists */  @ 25 @ 
+init  @ 4 @ init  @ 5 @ 
+name: prfx_size  @ 27 @ name: prfx_size  @ 28 @ 
+if_stmt  @ 18 @ if_stmt  @ 19 @ 
+expr  @ 12 @ expr  @ 13 @ 
+operator: *  @ 15 @ operator: *  @ 16 @ 
+expr  @ 29 @ expr  @ 30 @ 
+expr  @ 5 @ expr  @ 6 @ 
+expr  @ 19 @ expr  @ 20 @ 
+operator: (  @ 27 @ operator: (  @ 28 @ 
+name  @ 27 @ name  @ 28 @ 
+expr  @ 14 @ expr  @ 15 @ 
+comment: /* Deserialize the heap's header */  @ 17 @ comment: /* Deserialize the heap's header */  @ 18 @ 
+name: H5HL__cache_prefix_get_final_load_size  @ 2 @ name: H5HL__cache_prefix_get_final_load_size  @ 2 @ 
+modifier: *  @ 5 @ modifier: *  @ 6 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+decl  @ 2 @ decl  @ 2 @ 
+type  @ 5 @ type  @ 6 @ 
+argument  @ 19 @ argument  @ 20 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+name: udata  @ 5 @ name: udata  @ 6 @ 
+name: heap  @ 27 @ name: heap  @ 28 @ 
+block_content  @ 4 @ block_content  @ 5 @ 
+block_content  @ 29 @ block_content  @ 30 @ 
+name: size_t  @ 2 @ name: size_t  @ 2 @ 
+type  @ 6 @ type  @ 7 @ 
+operator: *  @ 4 @ operator: *  @ 5 @ 
+label  @ 31 @ label  @ 32 @ 
+name: _udata  @ 2 @ name: _udata  @ 3 @ 
+expr  @ 13 @ expr  @ 14 @ 
+decl  @ 2 @ decl  @ 3 @ 
+if  @ 27 @ if  @ 28 @ 
+name: HDassert  @ 14 @ name: HDassert  @ 15 @ 
+argument_list  @ 15 @ argument_list  @ 16 @ 
+argument  @ 14 @ argument  @ 15 @ 
+operator: (  @ 4 @ operator: (  @ 5 @ 
+expr  @ 7 @ expr  @ 8 @ 
+if  @ 25 @ if  @ 26 @ 
+name: actual_len  @ 29 @ name: actual_len  @ 30 @ 
+comment: /* Sanity checks */  @ 11 @ comment: /* Sanity checks */  @ 12 @ 
+argument_list  @ 27 @ argument_list  @ 28 @ 
+operator: +  @ 27 @ operator: +  @ 28 @ 
+name: image_len  @ 2 @ name: image_len  @ 2 @ 
+operator: .  @ 27 @ operator: .  @ 28 @ 
+expr  @ 4 @ expr  @ 5 @ 
+name: image  @ 4 @ name: image  @ 5 @ 
+argument  @ 18 @ argument  @ 19 @ 
+operator: &  @ 18 @ operator: &  @ 19 @ 
+operator: *  @ 18 @ operator: *  @ 19 @ 
+block  @ 3 @ block  @ 4 @ 
+call  @ 14 @ call  @ 15 @ 
+name  @ 27 @ name  @ 28 @ 
+macro  @ 32 @ macro  @ 33 @ 
+name: actual_len  @ 15 @ name: actual_len  @ 16 @ 
+expr  @ 18 @ expr  @ 19 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 30 @ 
+argument  @ 13 @ argument  @ 14 @ 
+block_content  @ 27 @ block_content  @ 28 @ 
+argument  @ 19 @ argument  @ 20 @ 
+comment: /* Set the final size for the cache image */  @ 21 @ comment: /* Set the final size for the cache image */  @ 22 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 6 @ decl  @ 7 @ 
+argument_list  @ 12 @ argument_list  @ 13 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: FUNC_ENTER_STATIC  @ 9 @ name: FUNC_ENTER_PACKAGE  @ 10 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 20 @ 
+name: udata  @ 18 @ name: udata  @ 19 @ 
+expr  @ 13 @ expr  @ 14 @ 
+operator: *  @ 5 @ operator: *  @ 6 @ 
+decl  @ 2 @ decl  @ 3 @ 
+name: heap  @ 27 @ name: heap  @ 28 @ 
+name: _image  @ 4 @ name: _image  @ 5 @ 
+operator: .  @ 27 @ operator: .  @ 28 @ 
+type  @ 2 @ type  @ 2 @ 
+name: dblk_addr  @ 27 @ name: dblk_addr  @ 28 @ 
+literal: "can't decode local heap header"  @ 19 @ literal: "can't decode local heap header"  @ 20 @ 
+if_stmt  @ 25 @ if_stmt  @ 26 @ 
+literal: 0  @ 18 @ literal: 0  @ 19 @ 
+name: HDassert  @ 12 @ name: HDassert  @ 13 @ 
+block  @ 29 @ block  @ 30 @ 
+name: H5E_CANTDECODE  @ 19 @ name: H5E_CANTDECODE  @ 20 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 14 @ 
+name: H5HL_cache_prfx_ud_t  @ 5 @ name: H5HL_cache_prfx_ud_t  @ 6 @ 
+argument  @ 27 @ argument  @ 28 @ 
+block_content  @ 19 @ block_content  @ 20 @ 
+operator: .  @ 27 @ operator: .  @ 28 @ 
+expr  @ 19 @ expr  @ 20 @ 
+argument  @ 32 @ argument  @ 33 @ 
+decl  @ 4 @ decl  @ 5 @ 
+expr  @ 18 @ expr  @ 19 @ 
+operator: )  @ 18 @ operator: )  @ 19 @ 
+comment: /* Check if heap data block is contiguous with header */  @ 26 @ comment: /* Check if heap data block is contiguous with header */  @ 27 @ 
+argument  @ 18 @ argument  @ 19 @ 
+decl  @ 9 @ decl  @ 10 @ 
+function  @ 1 @ function  @ 1 @ 
+name: HGOTO_ERROR  @ 19 @ name: HGOTO_ERROR  @ 20 @ 
+name: udata  @ 13 @ name: udata  @ 14 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 16 @ 
+decl  @ 7 @ decl  @ 8 @ 
+specifier: const  @ 4 @ specifier: const  @ 5 @ 
+name: heap  @ 27 @ name: heap  @ 28 @ 
+name: FUNC_LEAVE_NOAPI  @ 32 @ name: FUNC_LEAVE_NOAPI  @ 33 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: dblk_size  @ 25 @ name: dblk_size  @ 26 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+operator: ==  @ 15 @ operator: ==  @ 16 @ 
+argument  @ 19 @ argument  @ 20 @ 
+name: herr_t  @ 7 @ name: herr_t  @ 8 @ 
+name  @ 29 @ name  @ 30 @ 
+expr  @ 27 @ expr  @ 28 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+expr  @ 15 @ expr  @ 16 @ 
+

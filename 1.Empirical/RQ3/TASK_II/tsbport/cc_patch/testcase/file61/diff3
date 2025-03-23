@@ -1,0 +1,18 @@
+-1c-1
+<} /* end H5O_pline_set_latest_version() */
+---
+>static void *H5O_pline_decode(H5F_t *f, hid_t dxpl_id, H5O_t *open_oh,unsigned mesg_flags, unsigned *ioflags, size_t p_size, const uint8_t *p);
+111c111,112
+<H5O_pline_decode(H5F_t UNUSED *f, hid_t UNUSED dxpl_id, H5O_t UNUSED *open_oh,
+---
+>uint8_t
+>*p
+115a116
+>    const uint8_t *p_end = p + p_size - 1;  /* End of the p buffer */
+205,209c205,204
+<	    for(j = 0; j < filter->cd_nelmts; j++)
+<		UINT32DECODE(p, filter->cd_values[j]);
+<            if(pline->version == H5O_PLINE_VERSION_1)
+<                if(filter->cd_nelmts % 2)
+<                    p += 4; /*padding*/
+---

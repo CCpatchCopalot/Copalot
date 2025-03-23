@@ -1,0 +1,110 @@
+{
+    "testcase": {
+        "file180": {
+            "match_message": {
+                "Same: mbed_connect_step1 -> mbed_connect_step1": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 407->461",
+                        "L2": "5: Matched by Syntax(AST) similarity 407->461"
+                    }
+                },
+                "Same: mbed_connect_step3 -> mbed_connect_step3": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 641 -> 723",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 642->724"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 660->742",
+                        "L2": "5: Matched by Syntax(AST) similarity 660->742"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 663->745",
+                        "L2": "5: Matched by Syntax(AST) similarity 663->745"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 461,
+                        "add_hunk": [
+                            "if(!Curl_ssl_getsessionid(conn, SSL_IS_PROXY() ? TRUE : FALSE, &old_session, NULL, sockindex) ) {"
+                        ],
+                        "delete_location": [
+                            461,
+                            461
+                        ],
+                        "delete_hunk": [
+                            "    if(!Curl_ssl_getsessionid(conn, &old_session, NULL, sockindex)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 723,
+                        "add_hunk": [
+                            "    bool isproxy = SSL_IS_PROXY() ? TRUE : FALSE;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 742,
+                        "add_hunk": [
+                            "if(!Curl_ssl_getsessionid(conn, isproxy, &old_ssl_sessionid, NULL, sockindex) )"
+                        ],
+                        "delete_location": [
+                            742,
+                            742
+                        ],
+                        "delete_hunk": [
+                            "    if(!Curl_ssl_getsessionid(conn, &old_ssl_sessionid, NULL, sockindex))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 745,
+                        "add_hunk": [
+                            "retcode = Curl_ssl_addsessionid(conn, isproxy, our_ssl_sessionid, 0, sockindex);"
+                        ],
+                        "delete_location": [
+                            745,
+                            745
+                        ],
+                        "delete_hunk": [
+                            "    retcode = Curl_ssl_addsessionid(conn, our_ssl_sessionid, 0, sockindex);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: mbed_connect_step1 -> mbed_connect_step1": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: mbed_connect_step3 -> mbed_connect_step3": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

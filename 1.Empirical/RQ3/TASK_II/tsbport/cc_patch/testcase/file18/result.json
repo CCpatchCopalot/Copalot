@@ -1,0 +1,74 @@
+{
+    "testcase": {
+        "file18": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "152 -> 130",
+                        "L2": "153 -> 131",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:call', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "130",
+                            "verify result": "False"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:call",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 29,
+                        "add_hunk": [
+                            "#include \"tensorflow/core/platform/cpu_info.h\"\n",
+                            "#include \"tensorflow/core/platform/mutex.h\"\n",
+                            "#include \"tensorflow/core/platform/path.h\"\n",
+                            "#include \"tensorflow/core/platform/status.h\"\n",
+                            "#include \"tensorflow/core/platform/str_util.h\"\n",
+                            "#include \"tensorflow/core/platform/threadpool.h\"\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 130,
+                        "add_hunk": [
+                            "  if(index < 0 || index >= int(sen))\n",
+                            "  {\n",
+                            "    in.clear(std::ios_base::badbit);\n",
+                            "    return false;\n",
+                            "  }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:call"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

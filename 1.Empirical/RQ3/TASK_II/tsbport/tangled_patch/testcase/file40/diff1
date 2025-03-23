@@ -1,0 +1,14 @@
+889a890
+> 				efree(ent1);
+893d893
+< 			efree(ent1);
+932c932
+< 			if (ent2->type == ST_FIELD && ent2->data == NULL) {
+---
+> 			if (ent2->data == NULL) {
+1114a1115,1117
+> 		if(ent->data == NULL) {
+> 			retval = FAILURE;
+> 		} else {
+1117a1121
+> 		}

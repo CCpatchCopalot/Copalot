@@ -1,0 +1,78 @@
+static CURLcode encodeDN(struct dynbuf *store, struct Curl_asn1Element *dn)
+{
+  struct Curl_asn1Element rdn;
+  struct Curl_asn1Element atv;
+  struct Curl_asn1Element oid;
+  struct Curl_asn1Element value;
+  const char *p1;
+  const char *p2;
+  const char *p3;
+  const char *str;
+  CURLcode result = CURLE_OK;
+  bool added = FALSE;
+  struct dynbuf temp;
+  Curl_dyn_init(&temp, MAX_X509_STR);
+
+  for(p1 = dn->beg; p1 < dn->end;) {
+    p1 = getASN1Element(&rdn, p1, dn->end);
+    if(!p1) {
+      result = CURLE_BAD_FUNCTION_ARGUMENT;
+      goto error;
+    }
+    for(p2 = rdn.beg; p2 < rdn.end;) {
+      p2 = getASN1Element(&atv, p2, rdn.end);
+      if(!p2) {
+        result = CURLE_BAD_FUNCTION_ARGUMENT;
+        goto error;
+      }
+      p3 = getASN1Element(&oid, atv.beg, atv.end);
+      if(!p3) {
+        result = CURLE_BAD_FUNCTION_ARGUMENT;
+        goto error;
+      }
+      if(!getASN1Element(&value, p3, atv.end)) {
+        result = CURLE_BAD_FUNCTION_ARGUMENT;
+        goto error;
+      }
+      Curl_dyn_reset(&temp);
+      result = ASN1tostr(&temp, &oid, 0);
+      if(result)
+        goto error;
+
+      str = Curl_dyn_ptr(&temp);
+
+      /* Encode delimiter. If attribute has a short uppercase name, delimiter is ", ". */
+      for(p3 = str; ISUPPER(*p3); p3++)
+        ;
+      if(added) {
+        if(p3 - str > 2)
+          result = Curl_dyn_addn(store, "/", 1);
+        else
+          result = Curl_dyn_addn(store, ", ", 2);
+        if(result)
+          goto error;
+      }
+
+      /* Encode attribute name. */
+      result = Curl_dyn_add(store, str);
+      if(result)
+        goto error;
+
+      /* Generate equal sign. */
+      result = Curl_dyn_addn(store, "=", 1);
+      if(result)
+        goto error;
+
+      /* Generate value. */
+      result = ASN1tostr(store, &value, 0);
+      if(result)
+        goto error;
+      Curl_dyn_reset(&temp);
+      added = TRUE; /* use separator for next */
+    }
+  }
+error:
+  Curl_dyn_free(&temp);
+
+  return result;
+}

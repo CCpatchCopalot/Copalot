@@ -1,0 +1,11 @@
+3868,3869c3868
+< 			return mp4box_cleanup(1);
+< 			return GF_OUT_OF_MEM;
+---
+> 			return mp4box_cleanup(GF_OUT_OF_MEM);
+3873a3873
+> 			gf_dasher_del(dasher);
+3883a3884
+> 				gf_dasher_del(dasher);
+3924a3926
+> 			gf_dasher_del(dasher);

@@ -1,0 +1,18 @@
+static const char *dumpAlgo(struct Curl_asn1Element *param,
+                            const char *beg, const char *end)
+{
+  struct Curl_asn1Element oid;
+
+  /* Get algorithm parameters and return algorithm name. */
+
+  beg = getASN1Element(&oid, beg, end);
+  if(!beg)
+    return NULL;
+  param->header = NULL;
+  param->tag = 0;
+  param->beg = param->end = end;
+  if(beg < end)
+    if(!getASN1Element(param, beg, end))
+      return NULL;
+  return OID2str(oid.beg, oid.end, TRUE);
+}

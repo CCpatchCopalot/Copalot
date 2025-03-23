@@ -1,0 +1,32 @@
+-1d
+< * End:
+-1c-1
+< * End:
+---
+>static int rotateImage(uint16_t, struct image_data *, uint32_t *, uint32_t *, unsigned char **, size_t *, int);
+137a138
+>        if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, crop_buff_ptr, NULL, TRUE))
+5104d
+<     cps->regionlist[i].buffptr = NULL;
+6314c6314,6316
+<    if (rotateImage(rotation, image, &image->width, &image->length, work_buff_ptr))
+---
+>uint32_t width = image->width;
+>uint32_t length = image->length;
+>if (rotateImage(rotation, image, &width, &length, work_buff_ptr, TRUE) )
+6619d
+<  crop->regionlist[region].buffptr = crop_buff;
+8409c8409
+<rotateImage(uint16_t rotation, struct image_data *image, uint32_t *img_width,
+---
+>static int rotateImage(uint16_t rotation, struct image_data *image, uint32_t *img_width, uint32_t *img_length, unsigned char **ibuff_ptr, size_t *rot_buf_size, int rot_image_params)
+8599a8600,8601
+>            if (rot_image_params)
+>            {
+8604a8605
+>            }
+8676a8677,8678
+>            if (rot_image_params)
+>            {
+8681a8682
+>            }

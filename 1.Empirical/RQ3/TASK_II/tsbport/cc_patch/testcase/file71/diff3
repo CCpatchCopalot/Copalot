@@ -1,0 +1,14 @@
+2300a2301,2304
+>		if (pos + 5 > data_size) {
+>			GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("Broken PMT! size %d but position %d and need at least 5 bytes to declare es\n", data_size, pos));
+>			break;
+>		}
+2426a2427,2430
+>			if (pos + 2 > data_size) {
+>				GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("Broken PMT descriptor! size %d but position %d and need at least 2 bytes to parse descritpor\n", data_size, pos));
+>				break;
+>			}
+2577a2578
+>		}
+2578d
+<		}

@@ -1,0 +1,81 @@
+{
+    "testcase": {
+        "file101": {
+            "match_message": {
+                "Same: ConnectionExists -> ConnectionExists": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1132->1334",
+                        "L2": "3: Unique Matched by Source code 1133 -> 1336"
+                    }
+                },
+                "Same: create_conn -> create_conn": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3034 -> 3600",
+                        "L2": "3: Unique Matched by Source code 3035 -> 3601"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 139,
+                        "add_hunk": [
+                            "#include \"headers.h\"\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1334,
+                        "add_hunk": [
+                            "        if(strcmp(needle->user, check->user) ||/* one of them was different */ strcmp(needle->passwd, check->passwd) || !Curl_safecmp(needle->sasl_authzid, check->sasl_authzid) || !Curl_safecmp(needle->oauth_bearer, check->oauth_bearer)) {\n"
+                        ],
+                        "delete_location": [
+                            1334,
+                            1336
+                        ],
+                        "delete_hunk": [
+                            "        if(strcmp(needle->user, check->user) ||\n",
+                            "           strcmp(needle->passwd, check->passwd)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 3600,
+                        "add_hunk": [
+                            "  if(data->set.str[STRING_BEARER]) {\n",
+                            "    conn->oauth_bearer = strdup(data->set.str[STRING_BEARER]);\n",
+                            "    if(!conn->oauth_bearer) {\n",
+                            "      result = CURLE_OUT_OF_MEMORY;\n",
+                            "      goto out;\n",
+                            "    }\n",
+                            "  }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: ConnectionExists -> ConnectionExists": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: create_conn -> create_conn": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

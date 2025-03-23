@@ -1,0 +1,35 @@
+diff --git a/src/media_tools/mpegts.c b/src/media_tools/mpegts.c
+index 809e14dec..b82939420 100644
+--- a/src/media_tools/mpegts.c
++++ b/src/media_tools/mpegts.c
+@@ -2159,6 +2159,10 @@ static void gf_m2ts_process_pmt(GF_M2TS_Demuxer *ts, GF_M2TS_SECTION_ES *pmt, GF
+ 	section = (GF_M2TS_Section *)gf_list_get(sections, 0);
+ 	data = section->data;
+ 	data_size = section->data_size;
++	if (data_size < 6) {
++		GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("[MPEG-2 TS] Invalid PMT header data size %d\n", data_size ) );
++		return;
++	}
+ 
+ 	pmt->program->pcr_pid = ((data[0] & 0x1f) << 8) | data[1];
+ 
+@@ -2225,7 +2229,7 @@ static void gf_m2ts_process_pmt(GF_M2TS_Demuxer *ts, GF_M2TS_SECTION_ES *pmt, GF
+ 	}
+ 
+ 	nb_hevc = nb_hevc_temp = nb_shvc = nb_shvc_temp = nb_mhvc = nb_mhvc_temp = 0;
+-	while (pos<data_size) {
++	while (pos<data_size-5) {
+ 		GF_M2TS_PES *pes = NULL;
+ 		GF_M2TS_SECTION_ES *ses = NULL;
+ 		GF_M2TS_ES *es = NULL;
+@@ -2235,6 +2239,10 @@ static void gf_m2ts_process_pmt(GF_M2TS_Demuxer *ts, GF_M2TS_SECTION_ES *pmt, GF
+ 		stream_type = data[0];
+ 		pid = ((data[1] & 0x1f) << 8) | data[2];
+ 		desc_len = ((data[3] & 0xf) << 8) | data[4];
++		if (desc_len > data_size-5) {
++			GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("[MPEG-2 TS] Invalid PMT es descriptor size for PID %d\n", pid ) );
++			break;
++		}
+ 
+ 		GF_LOG(GF_LOG_DEBUG, GF_LOG_CONTAINER, ("stream_type :%d \n",stream_type));
+ 		switch (stream_type) {

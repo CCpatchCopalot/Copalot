@@ -1,0 +1,19 @@
+static CURLcode dumpAlgo(struct dynbuf *store, struct Curl_asn1Element *param, const char *beg, const char *end)
+{
+  struct Curl_asn1Element oid;
+
+  /* Get algorithm parameters and return algorithm name. */
+
+  beg = getASN1Element(&oid, beg, end);
+  if(!beg)
+    return CURLE_BAD_FUNCTION_ARGUMENT;
+  param->header = NULL;
+  param->tag = 0;
+  param->beg = param->end = end;
+  if(beg < end) {
+    const char *p = getASN1Element(param, beg, end);
+    if(!p)
+      return CURLE_BAD_FUNCTION_ARGUMENT;
+  }
+  return OID2str(store, oid.beg, oid.end, TRUE);
+}

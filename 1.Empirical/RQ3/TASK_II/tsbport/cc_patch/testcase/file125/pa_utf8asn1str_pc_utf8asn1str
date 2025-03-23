@@ -1,0 +1,445 @@
+name: CURL_ASN1_UTF8_STRING  @ 29 @ name: CURL_ASN1_UTF8_STRING  @ 36 @ 
+name: CURL_ASN1_VISIBLE_STRING  @ 19 @ name: CURL_ASN1_VISIBLE_STRING  @ 21 @ 
+operator: |  @ 43 @ operator: |  @ 51 @ 
+decl  @ 5 @ decl  @ 5 @ 
+literal: 1  @ 5 @ literal: 1  @ 5 @ 
+specifier: const  @ 49 @ specifier: const  @ 57 @ 
+name: wc  @ 43 @ name: wc  @ 51 @ 
+literal: 0x00000800  @ 52 @ literal: 0x00000800  @ 61 @ 
+operator: )  @ 74 @ operator: =  @ 84 @ 
+name: end  @ 4 @ name: end  @ 4 @ 
+expr  @ 26 @ expr  @ 28 @ 
+operator: (  @ 70 @ operator: (  @ 79 @ 
+name: wc  @ 46 @ name: wc  @ 54 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 80 @ 
+literal: 0x3F  @ 66 @ literal: 0x3F  @ 75 @ 
+name: result  @ 6 @ name: outlength  @ 6 @ 
+type  @ 2 @ type  @ 2 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 54 @ 
+block  @ 29 @ block  @ 36 @ 
+operator: (  @ 43 @ operator: (  @ 51 @ 
+operator: )  @ 66 @ operator: )  @ 75 @ 
+operator: >=  @ 53 @ operator: >=  @ 62 @ 
+name: wc  @ 52 @ name: wc  @ 61 @ 
+expr  @ 16 @ expr  @ 18 @ 
+name: unsigned  @ 38 @ name: unsigned  @ 45 @ 
+expr  @ 31 @ expr  @ 39 @ 
+expr_stmt  @ 70 @ expr_stmt  @ 79 @ 
+comment: /* Invalid char. size for target encoding. */  @ 56 @ comment: /* Invalid char. size for target encoding. */  @ 65 @ 
+operator: >=  @ 52 @ operator: >=  @ 61 @ 
+name: char  @ 62 @ name: char  @ 71 @ 
+name: char  @ 42 @ name: char  @ 50 @ 
+name: charsize  @ 37 @ name: charsize  @ 44 @ 
+name: char  @ 66 @ name: char  @ 75 @ 
+decl  @ 38 @ decl  @ 45 @ 
+operator: =  @ 66 @ operator: =  @ 75 @ 
+expr  @ 15 @ expr  @ 17 @ 
+literal: 0x00010000  @ 53 @ literal: 0x00010000  @ 62 @ 
+name  @ 70 @ name  @ 79 @ 
+name: buf  @ 70 @ name: buf  @ 79 @ 
+operator: =  @ 43 @ operator: =  @ 51 @ 
+operator: (  @ 66 @ operator: (  @ 75 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+block_content  @ 54 @ block_content  @ 63 @ 
+case  @ 9 @ case  @ 11 @ 
+return  @ 27 @ return  @ 29 @ 
+expr  @ 32 @ expr  @ 40 @ 
+name: size  @ 26 @ name: size  @ 28 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: )  @ 58 @ operator: )  @ 67 @ 
+operator: =  @ 67 @ operator: =  @ 76 @ 
+expr_stmt  @ 58 @ expr_stmt  @ 67 @ 
+expr  @ 43 @ expr  @ 51 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 15 @ 
+operator: (  @ 46 @ operator: (  @ 54 @ 
+case  @ 15 @ case  @ 17 @ 
+name: CURLcode  @ 6 @ name: size_t  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+name: wc  @ 43 @ name: wc  @ 51 @ 
+literal: 0x80  @ 62 @ literal: 0x80  @ 71 @ 
+expr  @ 66 @ expr  @ 75 @ 
+expr  @ 38 @ expr  @ 47 @ 
+name: char  @ 49 @ name: char  @ 57 @ 
+literal: 1  @ 56 @ literal: 1  @ 65 @ 
+operator: (  @ 67 @ operator: (  @ 76 @ 
+operator: >>  @ 67 @ operator: >>  @ 76 @ 
+operator: (  @ 42 @ operator: (  @ 50 @ 
+literal: 8  @ 43 @ literal: 8  @ 51 @ 
+index  @ 66 @ index  @ 75 @ 
+expr  @ 63 @ expr  @ 72 @ 
+init  @ 4 @ init  @ 4 @ 
+operator: |  @ 58 @ operator: |  @ 67 @ 
+block_content  @ 31 @ block_content  @ 38 @ 
+expr_stmt  @ 62 @ expr_stmt  @ 71 @ 
+operator: &&  @ 35 @ operator: =  @ 43 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 73 @ 
+name: from  @ 49 @ name: from  @ 57 @ 
+operator: )  @ 70 @ operator: )  @ 79 @ 
+comment: /* Length inconsistent with character size. */  @ 27 @ comment: /* Length inconsistent with character size. */  @ 29 @ 
+if  @ 26 @ if  @ 28 @ 
+expr  @ 52 @ expr  @ 61 @ 
+operator: (  @ 62 @ operator: (  @ 71 @ 
+name: wc  @ 66 @ name: wc  @ 75 @ 
+operator: )  @ 66 @ operator: )  @ 75 @ 
+operator: =  @ 49 @ operator: =  @ 57 @ 
+if_stmt  @ 54 @ if_stmt  @ 63 @ 
+operator: *  @ 43 @ operator: *  @ 51 @ 
+name: type  @ 29 @ name: type  @ 36 @ 
+operator: (  @ 49 @ operator: (  @ 57 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+condition  @ 53 @ condition  @ 62 @ 
+literal: 0x00000080  @ 51 @ literal: 0x00000080  @ 60 @ 
+break  @ 11 @ break  @ 13 @ 
+name: struct  @ 2 @ name: char  @ 2 @ 
+expr  @ 64 @ expr  @ 73 @ 
+expr  @ 54 @ expr  @ 63 @ 
+expr  @ 46 @ expr  @ 54 @ 
+if  @ 31 @ if  @ 39 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 75 @ 
+operator: >>  @ 59 @ operator: >>  @ 68 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 51 @ 
+name: CURL_ASN1_UTF8_STRING  @ 20 @ name: CURL_ASN1_UTF8_STRING  @ 22 @ 
+expr  @ 17 @ expr  @ 19 @ 
+block_content  @ 41 @ block_content  @ 49 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: unsigned  @ 46 @ name: unsigned  @ 54 @ 
+operator: (  @ 62 @ operator: (  @ 71 @ 
+operator: )  @ 46 @ operator: )  @ 54 @ 
+else  @ 34 @ else  @ 42 @ 
+expr  @ 5 @ expr  @ 5 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+index  @ 62 @ index  @ 71 @ 
+type  @ 4 @ type  @ 4 @ 
+expr  @ 32 @ expr  @ 40 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 57 @ 
+operator: (  @ 74 @ operator: *  @ 84 @ 
+operator: >=  @ 54 @ operator: >=  @ 63 @ 
+operator: (  @ 49 @ operator: (  @ 57 @ 
+decl  @ 2 @ decl  @ 2 @ 
+block_content  @ 53 @ block_content  @ 62 @ 
+condition  @ 26 @ condition  @ 28 @ 
+if_stmt  @ 53 @ if_stmt  @ 62 @ 
+operator: =  @ 13 @ operator: =  @ 15 @ 
+operator: )  @ 63 @ operator: )  @ 72 @ 
+operator: *  @ 42 @ operator: *  @ 50 @ 
+operator: )  @ 42 @ operator: )  @ 50 @ 
+name: wc  @ 62 @ name: wc  @ 71 @ 
+break  @ 14 @ break  @ 16 @ 
+operator: =  @ 70 @ operator: =  @ 79 @ 
+name: wc  @ 63 @ name: wc  @ 72 @ 
+name: char  @ 70 @ name: char  @ 79 @ 
+expr  @ 27 @ expr  @ 29 @ 
+name: wc  @ 59 @ name: wc  @ 68 @ 
+name: Curl_dyn_len  @ 74 @ name: buf  @ 84 @ 
+name: int  @ 37 @ name: int  @ 44 @ 
+operator: *  @ 46 @ operator: *  @ 54 @ 
+name: size  @ 13 @ name: size  @ 15 @ 
+operator: &  @ 66 @ operator: &  @ 75 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+condition  @ 40 @ condition  @ 48 @ 
+break  @ 21 @ break  @ 23 @ 
+operator: )  @ 58 @ operator: )  @ 67 @ 
+switch  @ 40 @ switch  @ 48 @ 
+operator: *  @ 43 @ operator: *  @ 51 @ 
+name: CURL_ASN1_IA5_STRING  @ 18 @ name: CURL_ASN1_IA5_STRING  @ 20 @ 
+block  @ 3 @ block  @ 3 @ 
+name: wc  @ 63 @ name: wc  @ 72 @ 
+name: wc  @ 67 @ name: wc  @ 76 @ 
+operator: =  @ 10 @ operator: =  @ 12 @ 
+operator: <<  @ 43 @ operator: <<  @ 51 @ 
+expr  @ 55 @ expr  @ 64 @ 
+block_content  @ 32 @ block_content  @ 40 @ 
+expr  @ 67 @ expr  @ 76 @ 
+block  @ 40 @ block  @ 48 @ 
+operator: |  @ 42 @ operator: |  @ 50 @ 
+name: char  @ 2 @ name: char  @ 2 @ 
+name: utf8asn1str  @ 2 @ name: utf8asn1str  @ 2 @ 
+name: ssize_t  @ 1 @ name: ssize_t  @ 1 @ 
+name: from  @ 46 @ name: from  @ 54 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: wc  @ 49 @ name: wc  @ 57 @ 
+operator: (  @ 58 @ operator: (  @ 67 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 76 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: inlength  @ 4 @ name: inlength  @ 4 @ 
+decl  @ 4 @ decl  @ 4 @ 
+decl  @ 2 @ decl  @ 2 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+case  @ 12 @ case  @ 14 @ 
+name: wc  @ 42 @ name: wc  @ 50 @ 
+operator: )  @ 46 @ operator: )  @ 54 @ 
+operator: |  @ 59 @ operator: |  @ 68 @ 
+operator: (  @ 58 @ operator: (  @ 67 @ 
+case  @ 17 @ case  @ 19 @ 
+operator: <<  @ 42 @ operator: <<  @ 50 @ 
+literal: 8  @ 49 @ literal: 8  @ 57 @ 
+literal: 1  @ 66 @ literal: 1  @ 75 @ 
+operator: (  @ 66 @ operator: (  @ 75 @ 
+operator: ++  @ 42 @ operator: ++  @ 50 @ 
+case  @ 18 @ case  @ 20 @ 
+condition  @ 31 @ condition  @ 39 @ 
+if_stmt  @ 29 @ if_stmt  @ 36 @ 
+name: int  @ 5 @ name: int  @ 5 @ 
+name: char  @ 46 @ name: char  @ 54 @ 
+case  @ 45 @ case  @ 53 @ 
+comment: /* Conversion not supported. */  @ 23 @ comment: /* Conversion not supported. */  @ 25 @ 
+call  @ 32 @ call  @ 40 @ 
+name: charsize  @ 64 @ name: charsize  @ 73 @ 
+operator: ++  @ 64 @ operator: ++  @ 73 @ 
+name: wc  @ 49 @ name: wc  @ 57 @ 
+block  @ 35 @ block  @ 43 @ 
+name: wc  @ 70 @ name: wc  @ 79 @ 
+literal: 4  @ 13 @ literal: 4  @ 15 @ 
+operator: =  @ 71 @ operator: +=  @ 80 @ 
+name: Curl_dyn_addn  @ 32 @ name: memcpy  @ 40 @ 
+name: int  @ 38 @ name: int  @ 45 @ 
+expr  @ 29 @ expr  @ 36 @ 
+name: size_t  @ 4 @ name: size_t  @ 4 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name: unsigned  @ 49 @ name: unsigned  @ 57 @ 
+expr  @ 74 @ expr  @ 83 @ 
+expr  @ 23 @ expr  @ 25 @ 
+name: result  @ 74 @ name: outlength  @ 83 @ 
+operator: )  @ 43 @ operator: )  @ 51 @ 
+literal: 2  @ 45 @ literal: 2  @ 53 @ 
+literal: 0x3F  @ 62 @ literal: 0x3F  @ 71 @ 
+if_stmt  @ 51 @ if_stmt  @ 60 @ 
+name: unsigned  @ 42 @ name: unsigned  @ 50 @ 
+name: buf  @ 66 @ name: buf  @ 75 @ 
+if_stmt  @ 31 @ if_stmt  @ 39 @ 
+expr  @ 71 @ expr  @ 40 @ 
+argument  @ 32 @ argument  @ 40 @ 
+expr_stmt  @ 55 @ expr_stmt  @ 64 @ 
+expr  @ 62 @ expr  @ 71 @ 
+name: charsize  @ 68 @ name: charsize  @ 77 @ 
+operator: ++  @ 46 @ operator: ++  @ 54 @ 
+block  @ 51 @ block  @ 60 @ 
+specifier: const  @ 46 @ specifier: const  @ 54 @ 
+operator: (  @ 58 @ operator: (  @ 67 @ 
+expr  @ 20 @ expr  @ 22 @ 
+name: char  @ 43 @ name: char  @ 51 @ 
+name: CURLE_OK  @ 6 @ name: to  @ 9 @ 
+operator: (  @ 63 @ operator: (  @ 72 @ 
+operator: )  @ 42 @ operator: )  @ 50 @ 
+name: wc  @ 42 @ name: wc  @ 50 @ 
+operator: =  @ 58 @ operator: =  @ 67 @ 
+block  @ 54 @ block  @ 63 @ 
+expr_stmt  @ 63 @ expr_stmt  @ 72 @ 
+expr  @ 58 @ expr  @ 67 @ 
+operator: (  @ 59 @ operator: (  @ 68 @ 
+operator: -  @ 27 @ operator: -  @ 29 @ 
+name: CURL_ASN1_BMP_STRING  @ 9 @ name: CURL_ASN1_BMP_STRING  @ 11 @ 
+condition  @ 52 @ condition  @ 61 @ 
+name: buf  @ 58 @ name: buf  @ 67 @ 
+literal: 0  @ 38 @ literal: 0  @ 47 @ 
+expr  @ 68 @ expr  @ 77 @ 
+expr  @ 66 @ expr  @ 75 @ 
+block_content  @ 52 @ block_content  @ 61 @ 
+case  @ 41 @ case  @ 49 @ 
+if  @ 53 @ if  @ 62 @ 
+operator: )  @ 49 @ operator: )  @ 57 @ 
+argument_list  @ 32 @ argument_list  @ 40 @ 
+comment: /* case 1: */  @ 48 @ comment: /* case 1: */  @ 56 @ 
+literal: 3  @ 58 @ literal: 3  @ 67 @ 
+literal: 0x00000800  @ 63 @ literal: 0x00000800  @ 72 @ 
+default  @ 22 @ default  @ 24 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 69 @ 
+name: from  @ 2 @ name: from  @ 2 @ 
+block_content  @ 36 @ block_content  @ 44 @ 
+type  @ 37 @ type  @ 44 @ 
+operator: =  @ 62 @ operator: =  @ 71 @ 
+specifier: const  @ 42 @ specifier: const  @ 50 @ 
+argument  @ 71 @ argument  @ 40 @ 
+decl_stmt  @ 38 @ decl_stmt  @ 45 @ 
+operator: |  @ 46 @ operator: |  @ 54 @ 
+name: to  @ 74 @ name: outlength  @ 85 @ 
+expr  @ 55 @ expr  @ 64 @ 
+comment: /* Just copy. */  @ 30 @ comment: /* Just copy. */  @ 37 @ 
+condition  @ 51 @ condition  @ 60 @ 
+block  @ 52 @ block  @ 61 @ 
+name: type  @ 8 @ name: type  @ 10 @ 
+if  @ 29 @ if  @ 36 @ 
+name: buf  @ 71 @ name: buf  @ 40 @ 
+expr  @ 41 @ expr  @ 49 @ 
+operator: |  @ 67 @ operator: |  @ 76 @ 
+expr  @ 19 @ expr  @ 21 @ 
+name: charsize  @ 60 @ name: charsize  @ 69 @ 
+name  @ 62 @ name  @ 71 @ 
+operator: <<  @ 46 @ operator: <<  @ 54 @ 
+operator: )  @ 49 @ operator: )  @ 57 @ 
+if  @ 51 @ if  @ 60 @ 
+if_stmt  @ 52 @ if_stmt  @ 61 @ 
+expr  @ 40 @ expr  @ 48 @ 
+literal: 8  @ 42 @ literal: 8  @ 50 @ 
+literal: 2  @ 62 @ literal: 2  @ 71 @ 
+operator: |  @ 63 @ operator: |  @ 72 @ 
+specifier: const  @ 43 @ specifier: const  @ 51 @ 
+operator: <<  @ 49 @ operator: <<  @ 57 @ 
+operator: >=  @ 51 @ operator: >=  @ 60 @ 
+call  @ 55 @ call  @ 64 @ 
+decl  @ 37 @ decl  @ 44 @ 
+literal: 6  @ 63 @ literal: 6  @ 72 @ 
+expr  @ 10 @ expr  @ 12 @ 
+init  @ 5 @ init  @ 5 @ 
+name  @ 66 @ name  @ 75 @ 
+if  @ 54 @ if  @ 63 @ 
+name: CURL_ASN1_NUMERIC_STRING  @ 15 @ name: CURL_ASN1_NUMERIC_STRING  @ 17 @ 
+if_stmt  @ 26 @ if_stmt  @ 28 @ 
+type  @ 38 @ type  @ 45 @ 
+expr  @ 62 @ expr  @ 71 @ 
+name: char  @ 2 @ name: char  @ 2 @ 
+operator: )  @ 62 @ operator: )  @ 71 @ 
+decl_stmt  @ 37 @ decl_stmt  @ 44 @ 
+block_content  @ 27 @ block_content  @ 29 @ 
+index  @ 58 @ index  @ 67 @ 
+operator: (  @ 46 @ operator: (  @ 54 @ 
+name: buf  @ 55 @ name: buf  @ 64 @ 
+expr  @ 18 @ expr  @ 20 @ 
+name: size  @ 40 @ name: size  @ 48 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 51 @ expr  @ 60 @ 
+block_content  @ 9 @ block_content  @ 11 @ 
+name: from  @ 4 @ name: from  @ 4 @ 
+literal: 1  @ 74 @ literal: '\0'  @ 83 @ 
+operator: *  @ 49 @ operator: *  @ 57 @ 
+operator: )  @ 62 @ operator: )  @ 71 @ 
+operator: |  @ 66 @ operator: |  @ 75 @ 
+block_content  @ 35 @ block_content  @ 43 @ 
+literal: 0x00200000  @ 54 @ literal: 0x00200000  @ 63 @ 
+name: CURL_ASN1_UNIVERSAL_STRING  @ 12 @ name: CURL_ASN1_UNIVERSAL_STRING  @ 14 @ 
+operator: (  @ 43 @ operator: (  @ 51 @ 
+name: wc  @ 54 @ name: wc  @ 63 @ 
+operator: )  @ 67 @ operator: )  @ 76 @ 
+expr  @ 32 @ expr  @ 40 @ 
+name: wc  @ 38 @ name: wc  @ 45 @ 
+block  @ 34 @ block  @ 42 @ 
+operator: |  @ 62 @ operator: |  @ 71 @ 
+expr  @ 70 @ expr  @ 79 @ 
+argument  @ 32 @ argument  @ 40 @ 
+condition  @ 54 @ condition  @ 63 @ 
+block  @ 32 @ block  @ 40 @ 
+operator: &  @ 58 @ operator: &  @ 67 @ 
+operator: &  @ 62 @ operator: &  @ 71 @ 
+name: end  @ 2 @ name: end  @ 2 @ 
+literal: 1  @ 23 @ literal: 1  @ 25 @ 
+expr  @ 74 @ expr  @ 85 @ 
+operator: -  @ 4 @ operator: -  @ 4 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: inlength  @ 31 @ name: outlength  @ 39 @ 
+operator: )  @ 62 @ operator: )  @ 71 @ 
+operator: ++  @ 43 @ operator: ++  @ 51 @ 
+name: size  @ 5 @ name: size  @ 5 @ 
+operator: >>  @ 63 @ operator: >>  @ 72 @ 
+name: int  @ 2 @ name: int  @ 2 @ 
+expr  @ 70 @ expr  @ 79 @ 
+argument_list  @ 55 @ argument_list  @ 64 @ 
+operator: =  @ 46 @ operator: =  @ 54 @ 
+operator: |  @ 49 @ operator: |  @ 57 @ 
+name: free  @ 55 @ name: free  @ 64 @ 
+operator: (  @ 42 @ operator: (  @ 50 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 50 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+operator: (  @ 62 @ operator: (  @ 71 @ 
+name: wc  @ 59 @ name: wc  @ 68 @ 
+name: from  @ 32 @ name: from  @ 40 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name: wc  @ 51 @ name: wc  @ 60 @ 
+operator: =  @ 63 @ operator: =  @ 72 @ 
+literal: 2  @ 10 @ literal: 2  @ 12 @ 
+return  @ 56 @ return  @ 65 @ 
+name: inlength  @ 32 @ name: outlength  @ 40 @ 
+operator: (  @ 74 @ operator: =  @ 83 @ 
+operator: <  @ 35 @ operator: <  @ 43 @ 
+expr  @ 13 @ expr  @ 15 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 68 @ 
+condition  @ 29 @ condition  @ 36 @ 
+operator: ++  @ 68 @ operator: ++  @ 77 @ 
+case  @ 20 @ case  @ 22 @ 
+name: wc  @ 46 @ name: wc  @ 54 @ 
+operator: *  @ 42 @ operator: *  @ 50 @ 
+block  @ 53 @ block  @ 62 @ 
+literal: 0x80  @ 58 @ literal: 0x80  @ 67 @ 
+type  @ 5 @ type  @ 5 @ 
+condition  @ 8 @ condition  @ 10 @ 
+name: result  @ 71 @ name: outlength  @ 80 @ 
+operator: *  @ 46 @ operator: *  @ 54 @ 
+literal: 0x80  @ 66 @ literal: 0x80  @ 75 @ 
+literal: 0x00010000  @ 59 @ literal: 0x00010000  @ 68 @ 
+expr  @ 60 @ expr  @ 69 @ 
+literal: 0x3F  @ 58 @ literal: 0x3F  @ 67 @ 
+name: result  @ 35 @ name: outlength  @ 43 @ 
+operator: -  @ 23 @ operator: -  @ 25 @ 
+operator: (  @ 66 @ operator: (  @ 75 @ 
+index  @ 70 @ index  @ 79 @ 
+literal: 6  @ 67 @ literal: 6  @ 76 @ 
+switch  @ 8 @ switch  @ 10 @ 
+expr_stmt  @ 68 @ expr_stmt  @ 77 @ 
+argument  @ 55 @ argument  @ 64 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: CURL_ASN1_TELETEX_STRING  @ 17 @ name: CURL_ASN1_TELETEX_STRING  @ 19 @ 
+name  @ 58 @ name  @ 67 @ 
+name: wc  @ 67 @ name: wc  @ 76 @ 
+literal: 0x000000C0  @ 67 @ literal: 0x000000C0  @ 76 @ 
+name: wc  @ 58 @ name: wc  @ 67 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 45 @ expr  @ 53 @ 
+operator: )  @ 59 @ operator: )  @ 68 @ 
+operator: *  @ 49 @ operator: *  @ 57 @ 
+expr  @ 6 @ expr  @ 9 @ 
+block  @ 8 @ block  @ 10 @ 
+operator: ==  @ 29 @ operator: ==  @ 36 @ 
+type  @ 6 @ type  @ 6 @ 
+literal: 6  @ 59 @ literal: 6  @ 68 @ 
+type  @ 2 @ type  @ 2 @ 
+name: from  @ 42 @ name: from  @ 50 @ 
+name: to  @ 2 @ name: to  @ 2 @ 
+name: from  @ 35 @ name: from  @ 43 @ 
+name: inlength  @ 26 @ name: inlength  @ 28 @ 
+operator: ++  @ 49 @ operator: ++  @ 57 @ 
+name: ssize_t  @ 74 @ name: to  @ 84 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: )  @ 58 @ operator: )  @ 67 @ 
+name: wc  @ 53 @ name: wc  @ 62 @ 
+name: CURL_ASN1_PRINTABLE_STRING  @ 16 @ name: CURL_ASN1_PRINTABLE_STRING  @ 18 @ 
+if  @ 52 @ if  @ 61 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+literal: 8  @ 46 @ literal: 8  @ 54 @ 
+name: char  @ 58 @ name: char  @ 67 @ 
+name: unsigned  @ 43 @ name: unsigned  @ 51 @ 
+expr  @ 71 @ expr  @ 80 @ 
+operator: =  @ 59 @ operator: =  @ 68 @ 
+expr  @ 53 @ expr  @ 62 @ 
+expr  @ 59 @ expr  @ 68 @ 
+name: buf  @ 62 @ name: buf  @ 71 @ 
+expr  @ 58 @ expr  @ 67 @ 
+expr  @ 8 @ expr  @ 10 @ 
+expr  @ 42 @ expr  @ 50 @ 
+name: from  @ 43 @ name: from  @ 51 @ 
+operator: =  @ 42 @ operator: =  @ 50 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 12 @ 
+return  @ 23 @ return  @ 25 @ 
+function  @ 1 @ function  @ 1 @ 
+case  @ 16 @ case  @ 18 @ 
+operator: %  @ 26 @ operator: %  @ 28 @ 
+expr  @ 12 @ expr  @ 14 @ 
+name: end  @ 35 @ name: end  @ 43 @ 
+literal: 1  @ 27 @ literal: 1  @ 29 @ 
+operator: -  @ 56 @ operator: -  @ 65 @ 
+name: charsize  @ 71 @ name: charsize  @ 80 @ 
+expr  @ 49 @ expr  @ 57 @ 
+block  @ 27 @ block  @ 29 @ 
+expr  @ 56 @ expr  @ 65 @ 
+operator: )  @ 66 @ operator: )  @ 75 @ 
+operator: ++  @ 60 @ operator: ++  @ 69 @ 
+case  @ 19 @ case  @ 21 @ 
+default  @ 48 @ default  @ 56 @ 
+name: size  @ 10 @ name: size  @ 12 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+operator: )  @ 43 @ operator: )  @ 51 @ 
+expr  @ 9 @ expr  @ 11 @ 
+name: type  @ 2 @ name: type  @ 2 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+block_content  @ 55 @ block_content  @ 64 @ 
+literal: 4  @ 41 @ literal: 4  @ 49 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 40 @ 
+

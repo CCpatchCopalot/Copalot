@@ -1,0 +1,14 @@
+407c407
+<     if(!Curl_ssl_getsessionid(data, conn, &old_session, NULL, sockindex)) {
+---
+>     if(!Curl_ssl_getsessionid(data, conn,SSL_IS_PROXY() ? TRUE : FALSE,&old_session, NULL, sockindex)) {
+641a642
+>     bool isproxy = SSL_IS_PROXY() ? TRUE : FALSE;
+660c661
+<     if(!Curl_ssl_getsessionid(data, conn, &old_ssl_sessionid, NULL, sockindex))
+---
+>     if(!Curl_ssl_getsessionid(data, conn, isproxy, &old_ssl_sessionid, NULL,sockindex))
+663c664
+<     retcode = Curl_ssl_addsessionid(data, conn,our_ssl_sessionid, 0, sockindex);
+---
+>     retcode = Curl_ssl_addsessionid(data, conn, isproxy, our_ssl_sessionid,0, sockindex);

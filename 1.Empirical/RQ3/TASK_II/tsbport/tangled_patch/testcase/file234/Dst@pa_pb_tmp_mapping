@@ -1,0 +1,2 @@
+ISOM_DECREASE_SIZE(s, 1)
+if (ptr->version==0) {		ptr->layout.stream_structure = gf_bs_read_u8(bs);	} else {		ptr->layout.stream_structure = gf_bs_read_int(bs, 4);		ptr->layout.format_ordering = gf_bs_read_int(bs, 4);		ISOM_DECREASE_SIZE(s, 1)ptr->layout.base_channel_count = gf_bs_read_u8(bs);	}

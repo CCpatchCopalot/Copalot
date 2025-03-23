@@ -1,0 +1,27 @@
+    FUNC_LEAVE_NOAPI(SUCCEED)
+} /* end H5O_pline_debug() */
+
+
+/*------------------------------------------------------------------------- * Function:H5O_pline_set_version * * Purpose: Set the version to encode an I/O filter pipeline with. * * Return:Non-negative on success/Negative on failure * * Programmer:Vailin Choi; December 2017 * *------------------------------------------------------------------------- */
+herr_t
+H5O_pline_set_version(H5F_t *f, H5O_pline_t *pline)
+{
+    unsigned version;           /* Message version */
+    herr_t ret_value = SUCCEED; /* Return value */
+
+    FUNC_ENTER_NOAPI(FAIL)
+
+    /* Sanity check */
+    HDassert(f);
+    HDassert(pline);
+
+    /* Upgrade to the version indicated by the file's low bound if higher */
+    version = MAX(pline->version, H5O_pline_ver_bounds[H5F_LOW_BOUND(f)]);
+
+    /* Version bounds check */
+    if(version > H5O_pline_ver_bounds[H5F_HIGH_BOUND(f)])
+        HGOTO_ERROR(H5E_PLINE, H5E_BADRANGE, FAIL, "Filter pipeline version out of bounds")/* Set the message version */pline->version = version;
+
+done:
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5O_pline_set_version() */

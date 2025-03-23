@@ -1,0 +1,328 @@
+modifier: *  @ 4 @ modifier: *  @ 9 @ 
+operator: ->  @ 13 @ operator: ->  @ 18 @ 
+operator: !  @ 13 @ operator: !  @ 19 @ 
+return  @ 10 @ return  @ 15 @ 
+name: e  @ 28 @ name: e  @ 35 @ 
+name: dref  @ 16 @ name: dref  @ 23 @ 
+block  @ 13 @ block  @ 20 @ 
+expr  @ 23 @ expr  @ 30 @ 
+name: e  @ 9 @ name: e  @ 14 @ 
+argument  @ 29 @ argument  @ 36 @ 
+name  @ 16 @ name  @ 23 @ 
+operator: )  @ 29 @ operator: )  @ 36 @ 
+condition  @ 20 @ condition  @ 27 @ 
+expr  @ 9 @ expr  @ 14 @ 
+call  @ 9 @ call  @ 14 @ 
+expr  @ 9 @ expr  @ 14 @ 
+type  @ 2 @ type  @ 4 @ 
+name: GF_Err  @ 2 @ name: GF_Err  @ 2 @ 
+call  @ 19 @ call  @ 26 @ 
+expr  @ 28 @ expr  @ 35 @ 
+comment: //duplicate our desc  @ 22 @ comment: //duplicate our desc  @ 29 @ 
+name: dataInformation  @ 19 @ name: dataInformation  @ 26 @ 
+if_stmt  @ 20 @ if_stmt  @ 27 @ 
+operator: ->  @ 13 @ operator: ->  @ 20 @ 
+argument  @ 12 @ argument  @ 17 @ 
+name: decoderConfig  @ 13 @ name: decoderConfig  @ 19 @ 
+operator: !  @ 13 @ operator: !  @ 20 @ 
+name: e  @ 23 @ name: e  @ 30 @ 
+decl  @ 7 @ decl  @ 12 @ 
+name: keep_utc  @ 25 @ name: keep_utc  @ 32 @ 
+if_stmt  @ 25 @ if_stmt  @ 32 @ 
+argument  @ 9 @ argument  @ 14 @ 
+expr  @ 19 @ expr  @ 26 @ 
+name: u32  @ 2 @ name: u32  @ 3 @ 
+decl  @ 2 @ decl  @ 5 @ 
+expr  @ 24 @ expr  @ 31 @ 
+condition  @ 25 @ condition  @ 32 @ 
+name: new_esd  @ 7 @ name: new_esd  @ 12 @ 
+name: esd  @ 13 @ name: esd  @ 19 @ 
+expr  @ 12 @ expr  @ 17 @ 
+name: Media_CreateDataRef  @ 19 @ name: Media_CreateDataRef  @ 26 @ 
+expr  @ 27 @ expr  @ 34 @ 
+if  @ 24 @ if  @ 31 @ 
+type  @ 2 @ type  @ 3 @ 
+name: information  @ 19 @ name: information  @ 26 @ 
+name: Media  @ 16 @ name: Media  @ 23 @ 
+if  @ 25 @ if  @ 32 @ 
+return  @ 24 @ return  @ 31 @ 
+expr  @ 26 @ expr  @ 33 @ 
+block  @ 28 @ block  @ 35 @ 
+name: outDescriptionIndex  @ 2 @ name: outDescriptionIndex  @ 7 @ 
+operator: ->  @ 13 @ operator: ->  @ 19 @ 
+call  @ 27 @ call  @ 34 @ 
+operator: =  @ 9 @ operator: =  @ 14 @ 
+name: e  @ 10 @ name: e  @ 15 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 33 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 14 @ 
+argument_list  @ 16 @ argument_list  @ 23 @ 
+operator: ->  @ 26 @ operator: ->  @ 33 @ 
+name: GF_ESD  @ 7 @ name: GF_ESD  @ 12 @ 
+return  @ 13 @ return  @ 20 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: esd  @ 13 @ name: esd  @ 19 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+condition  @ 10 @ condition  @ 15 @ 
+name: Media  @ 19 @ name: Media  @ 26 @ 
+name: modificationTime  @ 26 @ name: modificationTime  @ 33 @ 
+call  @ 26 @ call  @ 33 @ 
+expr  @ 29 @ expr  @ 36 @ 
+name: e  @ 16 @ name: e  @ 23 @ 
+argument_list  @ 12 @ argument_list  @ 17 @ 
+parameter  @ 2 @ parameter  @ 4 @ 
+name: e  @ 17 @ name: e  @ 24 @ 
+operator: !  @ 13 @ operator: !  @ 19 @ 
+expr  @ 13 @ expr  @ 20 @ 
+operator: ->  @ 16 @ operator: ->  @ 23 @ 
+name: dataRefIndex  @ 19 @ name: dataRefIndex  @ 26 @ 
+name: URLname  @ 2 @ name: URLname  @ 5 @ 
+return  @ 30 @ return  @ 37 @ 
+name: trackNumber  @ 12 @ name: trackNumber  @ 17 @ 
+operator: (  @ 29 @ operator: (  @ 36 @ 
+argument_list  @ 19 @ argument_list  @ 26 @ 
+name: new_esd  @ 23 @ name: new_esd  @ 30 @ 
+name  @ 25 @ name  @ 32 @ 
+name: Track_SetStreamDescriptor  @ 27 @ name: Track_SetStreamDescriptor  @ 34 @ 
+name: GF_ISOFile  @ 2 @ name: GF_ISOFile  @ 2 @ 
+argument  @ 9 @ argument  @ 14 @ 
+if_stmt  @ 13 @ if_stmt  @ 18 @ 
+condition  @ 18 @ condition  @ 25 @ 
+name: trak  @ 19 @ name: trak  @ 26 @ 
+if  @ 13 @ if  @ 18 @ 
+name: e  @ 20 @ name: e  @ 27 @ 
+argument  @ 27 @ argument  @ 34 @ 
+operator: !  @ 25 @ operator: !  @ 32 @ 
+name: trak  @ 12 @ name: trak  @ 17 @ 
+expr  @ 16 @ expr  @ 23 @ 
+if  @ 28 @ if  @ 35 @ 
+operator: &  @ 16 @ operator: &  @ 23 @ 
+type  @ 2 @ type  @ 6 @ 
+expr  @ 19 @ expr  @ 26 @ 
+operator: ->  @ 26 @ operator: ->  @ 33 @ 
+name: e  @ 20 @ name: e  @ 27 @ 
+name: GF_ESD  @ 2 @ name: GF_ESD  @ 4 @ 
+block_content  @ 24 @ block_content  @ 31 @ 
+name: Media_FindDataRef  @ 16 @ name: Media_FindDataRef  @ 23 @ 
+operator: !  @ 13 @ operator: !  @ 18 @ 
+name: GF_Descriptor  @ 29 @ name: GF_Descriptor  @ 36 @ 
+if  @ 20 @ if  @ 27 @ 
+expr  @ 27 @ expr  @ 34 @ 
+argument_list  @ 29 @ argument_list  @ 36 @ 
+name: outDescriptionIndex  @ 27 @ name: outDescriptionIndex  @ 34 @ 
+call  @ 12 @ call  @ 17 @ 
+expr  @ 17 @ expr  @ 24 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 12 @ 
+operator: !  @ 18 @ operator: !  @ 25 @ 
+expr  @ 23 @ expr  @ 30 @ 
+condition  @ 24 @ condition  @ 31 @ 
+name: URNname  @ 19 @ name: URNname  @ 26 @ 
+parameter  @ 2 @ parameter  @ 6 @ 
+name: movie  @ 2 @ name: movie  @ 2 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 9 @ 
+operator: )  @ 23 @ operator: )  @ 30 @ 
+name: URNname  @ 2 @ name: URNname  @ 6 @ 
+literal: 0  @ 27 @ literal: 0  @ 34 @ 
+block  @ 18 @ block  @ 25 @ 
+block  @ 10 @ block  @ 15 @ 
+operator: =  @ 27 @ operator: =  @ 34 @ 
+name: information  @ 16 @ name: information  @ 23 @ 
+if  @ 10 @ if  @ 15 @ 
+name: dataRefIndex  @ 6 @ name: dataRefIndex  @ 11 @ 
+modifier: *  @ 2 @ modifier: *  @ 4 @ 
+operator: ||  @ 13 @ operator: ||  @ 18 @ 
+name  @ 26 @ name  @ 33 @ 
+modifier: *  @ 2 @ modifier: *  @ 6 @ 
+call  @ 16 @ call  @ 23 @ 
+operator: *  @ 23 @ operator: *  @ 30 @ 
+expr  @ 29 @ expr  @ 36 @ 
+if  @ 18 @ if  @ 25 @ 
+expr  @ 13 @ expr  @ 18 @ 
+name: gf_isom_new_mpeg4_description  @ 2 @ name: gf_isom_new_mpeg4_description  @ 2 @ 
+parameter  @ 2 @ parameter  @ 7 @ 
+argument_list  @ 9 @ argument_list  @ 14 @ 
+argument_list  @ 27 @ argument_list  @ 34 @ 
+argument_list  @ 23 @ argument_list  @ 30 @ 
+argument  @ 19 @ argument  @ 26 @ 
+operator: =  @ 26 @ operator: =  @ 33 @ 
+name: Media  @ 26 @ name: Media  @ 33 @ 
+argument  @ 23 @ argument  @ 30 @ 
+name: e  @ 24 @ name: e  @ 31 @ 
+name: e  @ 24 @ name: e  @ 31 @ 
+name: trak  @ 13 @ name: trak  @ 18 @ 
+name  @ 13 @ name  @ 19 @ 
+name: URLname  @ 19 @ name: URLname  @ 26 @ 
+name: movie  @ 12 @ name: movie  @ 17 @ 
+name: trak  @ 16 @ name: trak  @ 23 @ 
+name: e  @ 30 @ name: e  @ 37 @ 
+argument  @ 27 @ argument  @ 34 @ 
+decl  @ 2 @ decl  @ 4 @ 
+name: gf_odf_desc_copy  @ 23 @ name: gf_odf_desc_copy  @ 30 @ 
+name: dataRefIndex  @ 16 @ name: dataRefIndex  @ 23 @ 
+if_stmt  @ 28 @ if_stmt  @ 35 @ 
+call  @ 29 @ call  @ 36 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: GF_Descriptor  @ 23 @ name: GF_Descriptor  @ 30 @ 
+name: dataInformation  @ 16 @ name: dataInformation  @ 23 @ 
+block  @ 26 @ block  @ 33 @ 
+name: esd  @ 2 @ name: esd  @ 4 @ 
+name: char  @ 2 @ name: char  @ 6 @ 
+name: dataRefIndex  @ 18 @ name: dataRefIndex  @ 25 @ 
+operator: (  @ 23 @ operator: (  @ 30 @ 
+modifier: *  @ 2 @ modifier: *  @ 5 @ 
+name: u32  @ 2 @ name: u32  @ 7 @ 
+name: GF_ISOM_OPEN_WRITE  @ 9 @ name: GF_ISOM_OPEN_WRITE  @ 14 @ 
+expr  @ 16 @ expr  @ 23 @ 
+argument  @ 16 @ argument  @ 23 @ 
+expr  @ 10 @ expr  @ 15 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 30 @ 
+name: dataRefIndex  @ 27 @ name: dataRefIndex  @ 34 @ 
+block  @ 17 @ block  @ 24 @ 
+expr  @ 17 @ expr  @ 24 @ 
+if_stmt  @ 24 @ if_stmt  @ 31 @ 
+operator: ->  @ 16 @ operator: ->  @ 23 @ 
+block_content  @ 17 @ block_content  @ 24 @ 
+operator: =  @ 23 @ operator: =  @ 30 @ 
+operator: ->  @ 19 @ operator: ->  @ 26 @ 
+block_content  @ 4 @ block_content  @ 9 @ 
+argument  @ 23 @ argument  @ 30 @ 
+expr  @ 25 @ expr  @ 32 @ 
+operator: ||  @ 13 @ operator: ||  @ 18 @ 
+type  @ 7 @ type  @ 12 @ 
+expr  @ 27 @ expr  @ 34 @ 
+operator: =  @ 16 @ operator: =  @ 23 @ 
+if_stmt  @ 17 @ if_stmt  @ 24 @ 
+name: trackNumber  @ 2 @ name: trackNumber  @ 3 @ 
+name: slConfig  @ 13 @ name: slConfig  @ 20 @ 
+condition  @ 28 @ condition  @ 35 @ 
+expr  @ 20 @ expr  @ 27 @ 
+expr  @ 12 @ expr  @ 17 @ 
+block_content  @ 26 @ block_content  @ 33 @ 
+expr  @ 27 @ expr  @ 34 @ 
+operator: ||  @ 13 @ operator: ||  @ 19 @ 
+name: CanAccessMovie  @ 9 @ name: CanAccessMovie  @ 14 @ 
+expr  @ 24 @ expr  @ 31 @ 
+operator: *  @ 23 @ operator: *  @ 30 @ 
+name: trak  @ 26 @ name: trak  @ 33 @ 
+name: GF_BAD_PARAM  @ 13 @ name: GF_BAD_PARAM  @ 20 @ 
+expr  @ 23 @ expr  @ 30 @ 
+expr  @ 16 @ expr  @ 23 @ 
+argument  @ 16 @ argument  @ 23 @ 
+name: u32  @ 6 @ name: u32  @ 11 @ 
+operator: *  @ 29 @ operator: *  @ 36 @ 
+expr  @ 10 @ expr  @ 15 @ 
+argument  @ 12 @ argument  @ 17 @ 
+name: e  @ 5 @ name: e  @ 10 @ 
+argument  @ 19 @ argument  @ 26 @ 
+expr  @ 12 @ expr  @ 17 @ 
+name: movie  @ 25 @ name: movie  @ 32 @ 
+name: movie  @ 9 @ name: movie  @ 14 @ 
+argument  @ 19 @ argument  @ 26 @ 
+block_content  @ 20 @ block_content  @ 27 @ 
+name: trak  @ 13 @ name: trak  @ 18 @ 
+type  @ 4 @ type  @ 9 @ 
+block  @ 3 @ block  @ 8 @ 
+name: char  @ 2 @ name: char  @ 5 @ 
+name: URNname  @ 16 @ name: URNname  @ 23 @ 
+decl  @ 6 @ decl  @ 11 @ 
+return  @ 32 @ return  @ 42 @ 
+condition  @ 17 @ condition  @ 24 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 34 @ 
+expr  @ 30 @ expr  @ 37 @ 
+name: trak  @ 4 @ name: trak  @ 9 @ 
+if  @ 17 @ if  @ 24 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: (  @ 23 @ operator: (  @ 30 @ 
+operator: &  @ 19 @ operator: &  @ 26 @ 
+argument  @ 27 @ argument  @ 34 @ 
+name  @ 13 @ name  @ 20 @ 
+name: e  @ 19 @ name: e  @ 26 @ 
+name: Media  @ 13 @ name: Media  @ 18 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 11 @ 
+decl  @ 4 @ decl  @ 9 @ 
+unit  @ 1 @ unit  @ 1 @ 
+type  @ 5 @ type  @ 10 @ 
+expr  @ 16 @ expr  @ 23 @ 
+condition  @ 13 @ condition  @ 18 @ 
+argument  @ 16 @ argument  @ 23 @ 
+argument  @ 27 @ argument  @ 34 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name: GF_TrackBox  @ 4 @ name: GF_TrackBox  @ 9 @ 
+operator: ->  @ 16 @ operator: ->  @ 23 @ 
+name: mediaHeader  @ 26 @ name: mediaHeader  @ 33 @ 
+name: GF_EXPORT  @ 1 @ name: GF_EXPORT  @ 1 @ 
+type  @ 6 @ type  @ 11 @ 
+modifier: *  @ 7 @ modifier: *  @ 12 @ 
+type  @ 2 @ type  @ 7 @ 
+operator: *  @ 23 @ operator: *  @ 30 @ 
+expr  @ 27 @ expr  @ 34 @ 
+name: gf_isom_get_mp4time  @ 26 @ name: gf_isom_get_mp4time  @ 33 @ 
+operator: )  @ 23 @ operator: )  @ 30 @ 
+block_content  @ 29 @ block_content  @ 36 @ 
+type  @ 2 @ type  @ 5 @ 
+if_stmt  @ 18 @ if_stmt  @ 25 @ 
+operator: ->  @ 25 @ operator: ->  @ 32 @ 
+name: gf_odf_desc_del  @ 29 @ name: gf_odf_desc_del  @ 36 @ 
+name: URLname  @ 16 @ name: URLname  @ 23 @ 
+parameter  @ 2 @ parameter  @ 5 @ 
+operator: ->  @ 19 @ operator: ->  @ 26 @ 
+return  @ 17 @ return  @ 24 @ 
+operator: ->  @ 26 @ operator: ->  @ 33 @ 
+name: esd  @ 23 @ name: esd  @ 30 @ 
+expr  @ 32 @ expr  @ 42 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 23 @ 
+expr  @ 18 @ expr  @ 25 @ 
+block_content  @ 19 @ block_content  @ 26 @ 
+name: new_esd  @ 29 @ name: new_esd  @ 36 @ 
+operator: =  @ 19 @ operator: =  @ 26 @ 
+call  @ 23 @ call  @ 30 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 36 @ 
+decl  @ 5 @ decl  @ 10 @ 
+operator: =  @ 12 @ operator: =  @ 17 @ 
+name  @ 13 @ name  @ 18 @ 
+decl  @ 2 @ decl  @ 6 @ 
+expr  @ 19 @ expr  @ 26 @ 
+decl  @ 2 @ decl  @ 7 @ 
+block_content  @ 10 @ block_content  @ 15 @ 
+name: esd  @ 13 @ name: esd  @ 20 @ 
+name: new_esd  @ 27 @ name: new_esd  @ 34 @ 
+argument  @ 19 @ argument  @ 26 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 27 @ expr  @ 34 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 17 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 26 @ 
+modifier: *  @ 2 @ modifier: *  @ 7 @ 
+name: e  @ 32 @ name: e  @ 42 @ 
+name: trak  @ 27 @ name: trak  @ 34 @ 
+operator: ->  @ 19 @ operator: ->  @ 26 @ 
+argument_list  @ 26 @ argument_list  @ 33 @ 
+expr  @ 16 @ expr  @ 23 @ 
+name: gf_isom_get_track_from_file  @ 12 @ name: gf_isom_get_track_from_file  @ 17 @ 
+name: e  @ 17 @ name: e  @ 24 @ 
+name: GF_Descriptor  @ 23 @ name: GF_Descriptor  @ 30 @ 
+name  @ 19 @ name  @ 26 @ 
+decl  @ 2 @ decl  @ 3 @ 
+return  @ 20 @ return  @ 27 @ 
+expr  @ 19 @ expr  @ 26 @ 
+operator: ||  @ 13 @ operator: ||  @ 19 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 10 @ 
+name: dref  @ 19 @ name: dref  @ 26 @ 
+expr  @ 20 @ expr  @ 27 @ 
+expr  @ 9 @ expr  @ 14 @ 
+block  @ 24 @ block  @ 31 @ 
+block  @ 20 @ block  @ 27 @ 
+operator: &  @ 23 @ operator: &  @ 30 @ 
+block_content  @ 13 @ block_content  @ 20 @ 
+argument  @ 27 @ argument  @ 34 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+operator: ->  @ 19 @ operator: ->  @ 26 @ 
+argument  @ 16 @ argument  @ 23 @ 
+operator: !  @ 13 @ operator: !  @ 18 @ 
+comment: //get or create the data ref  @ 15 @ comment: //get or create the data ref  @ 22 @ 
+name: e  @ 27 @ name: e  @ 34 @ 
+name: GF_Err  @ 5 @ name: GF_Err  @ 10 @ 
+if_stmt  @ 10 @ if_stmt  @ 15 @ 
+name: e  @ 10 @ name: e  @ 15 @ 
+operator: ->  @ 16 @ operator: ->  @ 23 @ 
+expr  @ 19 @ expr  @ 26 @ 
+type  @ 1 @ type  @ 1 @ 
+

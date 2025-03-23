@@ -1,0 +1,535 @@
+block  @ 25 @ block  @ 25 @ 
+comment: /* Generate equal sign. */  @ 49 @ comment: /* Generate equal sign. */  @ 50 @ 
+operator: &  @ 21 @ operator: &  @ 21 @ 
+expr  @ 21 @ expr  @ 21 @ 
+expr  @ 24 @ expr  @ 24 @ 
+if  @ 56 @ if  @ 57 @ 
+name: str  @ 47 @ name: str  @ 48 @ 
+return  @ 23 @ return  @ 23 @ 
+expr  @ 61 @ expr  @ 62 @ 
+operator: -  @ 34 @ operator: -  @ 35 @ 
+init  @ 42 @ init  @ 43 @ 
+control  @ 17 @ control  @ 17 @ 
+name: p1  @ 13 @ name: p1  @ 13 @ 
+name: buf  @ 36 @ name: buf  @ 37 @ 
+name: l  @ 60 @ name: l  @ 61 @ 
+decl  @ 9 @ decl  @ 9 @ 
+name: buflen  @ 59 @ name: buflen  @ 60 @ 
+comment: /* Encode delimiter. If attribute has a short uppercase name, delimiter is ", ". */  @ 30 @ comment: /* Encode delimiter.
+         If attribute has a short uppercase name, delimiter is ", ". */  @ 30 @ 
+literal: 1  @ 23 @ literal: 1  @ 23 @ 
+name: oid  @ 26 @ name: oid  @ 26 @ 
+if_stmt  @ 27 @ if_stmt  @ 27 @ 
+operator: -  @ 20 @ operator: -  @ 20 @ 
+block_content  @ 60 @ block_content  @ 61 @ 
+name: l  @ 50 @ name: l  @ 51 @ 
+literal: 0  @ 7 @ literal: 0  @ 7 @ 
+expr  @ 42 @ expr  @ 43 @ 
+name  @ 21 @ name  @ 21 @ 
+operator: =  @ 26 @ operator: =  @ 26 @ 
+name: p3  @ 10 @ name: p3  @ 10 @ 
+decl  @ 1 @ decl  @ 1 @ 
+block_content  @ 35 @ block_content  @ 36 @ 
+modifier: *  @ 8 @ modifier: *  @ 8 @ 
+block_content  @ 36 @ block_content  @ 37 @ 
+argument  @ 47 @ argument  @ 48 @ 
+operator: =  @ 13 @ operator: =  @ 13 @ 
+name: atv  @ 4 @ name: atv  @ 4 @ 
+block  @ 36 @ block  @ 37 @ 
+expr  @ 56 @ expr  @ 57 @ 
+type  @ 6 @ type  @ 6 @ 
+control  @ 34 @ control  @ 35 @ 
+argument  @ 21 @ argument  @ 21 @ 
+expr  @ 28 @ expr  @ 28 @ 
+name: beg  @ 17 @ name: beg  @ 17 @ 
+operator: =  @ 55 @ operator: =  @ 56 @ 
+operator: =  @ 51 @ operator: =  @ 52 @ 
+name: atv  @ 24 @ name: atv  @ 24 @ 
+argument  @ 55 @ argument  @ 56 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: )  @ 47 @ operator: )  @ 48 @ 
+expr  @ 63 @ expr  @ 64 @ 
+expr  @ 42 @ expr  @ 43 @ 
+call  @ 18 @ call  @ 18 @ 
+type  @ 1 @ type  @ 1 @ 
+name: l  @ 7 @ name: l  @ 7 @ 
+expr  @ 55 @ expr  @ 56 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 61 @ 
+type  @ 5 @ type  @ 5 @ 
+init  @ 32 @ init  @ 33 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name: rdn  @ 3 @ name: rdn  @ 3 @ 
+ternary  @ 34 @ ternary  @ 35 @ 
+name: struct  @ 1 @ name: struct  @ 1 @ 
+operator: ++  @ 52 @ operator: ++  @ 53 @ 
+expr  @ 34 @ expr  @ 35 @ 
+condition  @ 42 @ condition  @ 43 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 26 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name  @ 51 @ name  @ 52 @ 
+block_content  @ 28 @ block_content  @ 28 @ 
+comment: /* Generate value. */  @ 54 @ comment: /* Generate value. */  @ 55 @ 
+name: str  @ 11 @ name: str  @ 11 @ 
+return  @ 20 @ return  @ 20 @ 
+expr  @ 13 @ expr  @ 13 @ 
+init  @ 17 @ init  @ 17 @ 
+operator: *  @ 34 @ operator: *  @ 35 @ 
+condition  @ 31 @ condition  @ 32 @ 
+name: p2  @ 19 @ name: p2  @ 19 @ 
+expr  @ 26 @ expr  @ 26 @ 
+expr  @ 32 @ expr  @ 33 @ 
+name: str  @ 34 @ name: str  @ 35 @ 
+name: free  @ 63 @ name: free  @ 64 @ 
+if  @ 22 @ if  @ 22 @ 
+name: str  @ 32 @ name: str  @ 33 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+argument_list  @ 14 @ argument_list  @ 14 @ 
+name: char  @ 47 @ name: char  @ 48 @ 
+operator: .  @ 17 @ operator: .  @ 17 @ 
+if_stmt  @ 35 @ if_stmt  @ 36 @ 
+name  @ 36 @ name  @ 37 @ 
+index  @ 36 @ index  @ 37 @ 
+if_stmt  @ 56 @ if_stmt  @ 57 @ 
+operator: !  @ 22 @ operator: !  @ 22 @ 
+operator: =  @ 36 @ operator: =  @ 37 @ 
+specifier: const  @ 11 @ specifier: const  @ 11 @ 
+argument  @ 18 @ argument  @ 18 @ 
+init  @ 34 @ init  @ 35 @ 
+literal: 2  @ 34 @ literal: 2  @ 35 @ 
+call  @ 26 @ call  @ 26 @ 
+name: p2  @ 18 @ name: p2  @ 18 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+incr  @ 1 @ incr  @ 1 @ 
+expr_stmt  @ 63 @ expr_stmt  @ 64 @ 
+name: getASN1Element  @ 21 @ name: getASN1Element  @ 21 @ 
+expr_stmt  @ 51 @ expr_stmt  @ 52 @ 
+name: rdn  @ 14 @ name: rdn  @ 14 @ 
+name  @ 24 @ name  @ 24 @ 
+name: str  @ 58 @ name: str  @ 59 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: size_t  @ 7 @ name: size_t  @ 7 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 53 @ 
+name: buf  @ 51 @ name: buf  @ 52 @ 
+name: l  @ 36 @ name: l  @ 37 @ 
+operator: !  @ 56 @ operator: !  @ 57 @ 
+condition  @ 32 @ condition  @ 33 @ 
+operator: ||  @ 34 @ operator: ||  @ 35 @ 
+if  @ 27 @ if  @ 27 @ 
+call  @ 21 @ call  @ 21 @ 
+name: beg  @ 21 @ name: beg  @ 21 @ 
+call  @ 24 @ call  @ 24 @ 
+name: p3  @ 32 @ name: p3  @ 33 @ 
+specifier: const  @ 10 @ specifier: const  @ 10 @ 
+operator: *  @ 44 @ operator: *  @ 45 @ 
+name: p3  @ 24 @ name: p3  @ 24 @ 
+name: p3  @ 42 @ name: p3  @ 43 @ 
+block  @ 13 @ block  @ 13 @ 
+for  @ 32 @ for  @ 33 @ 
+name: beg  @ 13 @ name: beg  @ 13 @ 
+name: p2  @ 17 @ name: p2  @ 17 @ 
+name: buf  @ 1 @ name: buf  @ 1 @ 
+expr  @ 67 @ expr  @ 68 @ 
+expr  @ 14 @ expr  @ 14 @ 
+block_content  @ 59 @ block_content  @ 60 @ 
+expr  @ 26 @ expr  @ 26 @ 
+if_stmt  @ 15 @ if_stmt  @ 15 @ 
+argument  @ 18 @ argument  @ 18 @ 
+incr  @ 32 @ incr  @ 33 @ 
+if_stmt  @ 19 @ if_stmt  @ 19 @ 
+name: p3  @ 32 @ name: p3  @ 33 @ 
+name: Curl_asn1Element  @ 5 @ name: Curl_asn1Element  @ 5 @ 
+name: p2  @ 18 @ name: p2  @ 18 @ 
+literal: "/"  @ 34 @ literal: "/"  @ 35 @ 
+operator: <  @ 17 @ operator: <  @ 17 @ 
+for  @ 34 @ for  @ 35 @ 
+condition  @ 35 @ condition  @ 36 @ 
+name: p1  @ 8 @ name: p1  @ 8 @ 
+init  @ 13 @ init  @ 13 @ 
+if_stmt  @ 59 @ if_stmt  @ 60 @ 
+expr  @ 58 @ expr  @ 59 @ 
+operator: <  @ 43 @ operator: <  @ 44 @ 
+block  @ 20 @ block  @ 20 @ 
+call  @ 47 @ call  @ 48 @ 
+name: buflen  @ 50 @ name: buflen  @ 51 @ 
+name  @ 18 @ name  @ 18 @ 
+condition  @ 34 @ condition  @ 35 @ 
+name: atv  @ 21 @ name: atv  @ 21 @ 
+block_content  @ 43 @ block_content  @ 44 @ 
+expr  @ 51 @ expr  @ 52 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: -  @ 25 @ operator: -  @ 25 @ 
+expr  @ 24 @ expr  @ 24 @ 
+name: p3  @ 22 @ name: p3  @ 22 @ 
+expr  @ 15 @ expr  @ 15 @ 
+name: l  @ 59 @ name: l  @ 60 @ 
+expr  @ 32 @ expr  @ 33 @ 
+operator: *  @ 58 @ operator: *  @ 59 @ 
+expr  @ 32 @ expr  @ 33 @ 
+name: char  @ 9 @ name: char  @ 9 @ 
+argument_list  @ 32 @ argument_list  @ 33 @ 
+if  @ 43 @ if  @ 44 @ 
+block  @ 2 @ block  @ 2 @ 
+operator: =  @ 14 @ operator: =  @ 14 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: .  @ 24 @ operator: .  @ 24 @ 
+name: char  @ 63 @ name: char  @ 64 @ 
+type  @ 10 @ type  @ 10 @ 
+condition  @ 59 @ condition  @ 60 @ 
+if  @ 24 @ if  @ 24 @ 
+if  @ 31 @ if  @ 32 @ 
+name: encodeDN  @ 1 @ name: encodeDN  @ 1 @ 
+operator: =  @ 17 @ operator: =  @ 17 @ 
+expr  @ 44 @ expr  @ 45 @ 
+expr  @ 59 @ expr  @ 60 @ 
+decl  @ 11 @ decl  @ 11 @ 
+decl  @ 3 @ decl  @ 3 @ 
+name: end  @ 21 @ name: end  @ 21 @ 
+name: p3  @ 36 @ name: p3  @ 37 @ 
+name: oid  @ 21 @ name: oid  @ 21 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+block_content  @ 16 @ block_content  @ 16 @ 
+for  @ 58 @ for  @ 59 @ 
+expr  @ 21 @ expr  @ 21 @ 
+operator: *  @ 36 @ operator: *  @ 37 @ 
+expr  @ 18 @ expr  @ 18 @ 
+expr_stmt  @ 47 @ expr_stmt  @ 48 @ 
+name: buflen  @ 43 @ name: buflen  @ 44 @ 
+modifier: *  @ 9 @ modifier: *  @ 9 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+expr  @ 34 @ expr  @ 35 @ 
+decl  @ 8 @ decl  @ 8 @ 
+expr  @ 45 @ expr  @ 46 @ 
+argument  @ 14 @ argument  @ 14 @ 
+operator: <  @ 59 @ operator: <  @ 60 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 37 @ 
+name: free  @ 47 @ name: free  @ 48 @ 
+type  @ 4 @ type  @ 4 @ 
+name  @ 13 @ name  @ 13 @ 
+name: p1  @ 14 @ name: p1  @ 14 @ 
+for  @ 13 @ for  @ 13 @ 
+expr  @ 50 @ expr  @ 51 @ 
+operator: *  @ 34 @ operator: *  @ 35 @ 
+name: p3  @ 34 @ name: p3  @ 35 @ 
+name: buflen  @ 1 @ name: buflen  @ 1 @ 
+operator: -  @ 23 @ operator: -  @ 23 @ 
+name: l  @ 44 @ name: l  @ 45 @ 
+argument  @ 32 @ argument  @ 33 @ 
+expr  @ 55 @ expr  @ 56 @ 
+name: l  @ 31 @ name: l  @ 32 @ 
+name: l  @ 51 @ name: l  @ 52 @ 
+expr  @ 47 @ expr  @ 48 @ 
+return  @ 28 @ return  @ 28 @ 
+operator: <  @ 35 @ operator: <  @ 36 @ 
+block_content  @ 18 @ block_content  @ 18 @ 
+literal: 1  @ 57 @ literal: 1  @ 58 @ 
+return  @ 67 @ return  @ 68 @ 
+operator: ++  @ 37 @ operator: ++  @ 38 @ 
+name: buf  @ 60 @ name: buf  @ 61 @ 
+else  @ 34 @ else  @ 35 @ 
+block  @ 17 @ block  @ 17 @ 
+block_content  @ 32 @ block_content  @ 33 @ 
+name: p3  @ 44 @ name: p3  @ 45 @ 
+if  @ 59 @ if  @ 60 @ 
+index  @ 60 @ index  @ 61 @ 
+expr  @ 37 @ expr  @ 38 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 62 @ 
+operator: -  @ 57 @ operator: -  @ 58 @ 
+name: l  @ 37 @ name: l  @ 38 @ 
+condition  @ 58 @ condition  @ 59 @ 
+operator: ++  @ 42 @ operator: ++  @ 43 @ 
+expr  @ 52 @ expr  @ 53 @ 
+operator: ->  @ 14 @ operator: ->  @ 14 @ 
+operator: !  @ 27 @ operator: !  @ 27 @ 
+expr  @ 25 @ expr  @ 25 @ 
+control  @ 58 @ control  @ 59 @ 
+name: atv  @ 18 @ name: atv  @ 18 @ 
+expr  @ 35 @ expr  @ 36 @ 
+for  @ 42 @ for  @ 43 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name: str  @ 55 @ name: str  @ 56 @ 
+literal: 1  @ 28 @ literal: 1  @ 28 @ 
+block  @ 31 @ block  @ 32 @ 
+expr  @ 63 @ expr  @ 64 @ 
+name: oid  @ 5 @ name: oid  @ 5 @ 
+condition  @ 17 @ condition  @ 17 @ 
+expr_stmt  @ 55 @ expr_stmt  @ 56 @ 
+operator: !  @ 24 @ operator: !  @ 24 @ 
+block_content  @ 33 @ block_content  @ 34 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: buflen  @ 35 @ name: buflen  @ 36 @ 
+name: struct  @ 4 @ name: struct  @ 4 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 7 @ 
+operator: .  @ 18 @ operator: .  @ 18 @ 
+name: rdn  @ 17 @ name: rdn  @ 17 @ 
+argument_list  @ 55 @ argument_list  @ 56 @ 
+operator: =  @ 21 @ operator: =  @ 21 @ 
+name: str  @ 42 @ name: str  @ 43 @ 
+expr  @ 36 @ expr  @ 37 @ 
+if_stmt  @ 24 @ if_stmt  @ 24 @ 
+if  @ 15 @ if  @ 15 @ 
+return  @ 57 @ return  @ 58 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 11 @ 
+operator: ++  @ 58 @ operator: ++  @ 59 @ 
+literal: 1  @ 20 @ literal: 1  @ 20 @ 
+name: p2  @ 9 @ name: p2  @ 9 @ 
+expr  @ 60 @ expr  @ 61 @ 
+type  @ 8 @ type  @ 8 @ 
+literal: ", "  @ 34 @ literal: ", "  @ 35 @ 
+modifier: *  @ 11 @ modifier: *  @ 11 @ 
+name: ISUPPER  @ 32 @ name: ISUPPER  @ 33 @ 
+literal: 1  @ 16 @ literal: 1  @ 16 @ 
+name: p1  @ 13 @ name: p1  @ 13 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 42 @ expr  @ 43 @ 
+expr  @ 47 @ expr  @ 48 @ 
+name: Curl_asn1Element  @ 4 @ name: Curl_asn1Element  @ 4 @ 
+name: Curl_asn1Element  @ 6 @ name: Curl_asn1Element  @ 6 @ 
+name: end  @ 13 @ name: end  @ 13 @ 
+control  @ 32 @ control  @ 33 @ 
+init  @ 7 @ init  @ 7 @ 
+decl  @ 7 @ decl  @ 7 @ 
+operator: -  @ 16 @ operator: -  @ 16 @ 
+operator: .  @ 17 @ operator: .  @ 17 @ 
+expr  @ 34 @ expr  @ 35 @ 
+expr  @ 24 @ expr  @ 24 @ 
+expr  @ 13 @ expr  @ 13 @ 
+block  @ 44 @ block  @ 45 @ 
+if_stmt  @ 50 @ if_stmt  @ 51 @ 
+operator: =  @ 32 @ operator: =  @ 33 @ 
+block  @ 23 @ block  @ 23 @ 
+argument  @ 55 @ argument  @ 56 @ 
+name  @ 21 @ name  @ 21 @ 
+operator: .  @ 21 @ operator: .  @ 21 @ 
+expr  @ 26 @ expr  @ 26 @ 
+name: p3  @ 60 @ name: p3  @ 61 @ 
+name: p3  @ 58 @ name: p3  @ 59 @ 
+if_stmt  @ 31 @ if_stmt  @ 32 @ 
+block  @ 58 @ block  @ 59 @ 
+name  @ 5 @ name  @ 5 @ 
+name: p2  @ 17 @ name: p2  @ 17 @ 
+block  @ 34 @ block  @ 35 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: char  @ 8 @ name: char  @ 8 @ 
+if  @ 19 @ if  @ 19 @ 
+call  @ 32 @ call  @ 33 @ 
+name: struct  @ 3 @ name: struct  @ 3 @ 
+name  @ 60 @ name  @ 61 @ 
+name: str  @ 56 @ name: str  @ 57 @ 
+operator: )  @ 63 @ operator: )  @ 64 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 21 @ 
+block  @ 16 @ block  @ 16 @ 
+if_stmt  @ 22 @ if_stmt  @ 22 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: ASN1tostr  @ 55 @ name: ASN1tostr  @ 56 @ 
+name  @ 3 @ name  @ 3 @ 
+block_content  @ 51 @ block_content  @ 52 @ 
+name: dn  @ 14 @ name: dn  @ 14 @ 
+name: p3  @ 34 @ name: p3  @ 35 @ 
+expr  @ 21 @ expr  @ 21 @ 
+operator: =  @ 18 @ operator: =  @ 18 @ 
+call  @ 63 @ call  @ 64 @ 
+name: char  @ 11 @ name: char  @ 11 @ 
+expr  @ 16 @ expr  @ 16 @ 
+return  @ 25 @ return  @ 25 @ 
+block  @ 51 @ block  @ 52 @ 
+operator: *  @ 32 @ operator: *  @ 33 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+index  @ 51 @ index  @ 52 @ 
+empty_stmt  @ 33 @ empty_stmt  @ 34 @ 
+expr  @ 17 @ expr  @ 17 @ 
+block_content  @ 25 @ block_content  @ 25 @ 
+name: str  @ 26 @ name: str  @ 26 @ 
+decl  @ 4 @ decl  @ 4 @ 
+operator: =  @ 58 @ operator: =  @ 59 @ 
+operator: <  @ 13 @ operator: <  @ 13 @ 
+name  @ 17 @ name  @ 17 @ 
+operator: .  @ 21 @ operator: .  @ 21 @ 
+block  @ 33 @ block  @ 34 @ 
+name: end  @ 24 @ name: end  @ 24 @ 
+type  @ 3 @ type  @ 3 @ 
+name: l  @ 61 @ name: l  @ 62 @ 
+name: getASN1Element  @ 14 @ name: getASN1Element  @ 14 @ 
+decl  @ 10 @ decl  @ 10 @ 
+name  @ 13 @ name  @ 13 @ 
+expr  @ 24 @ expr  @ 24 @ 
+if  @ 50 @ if  @ 51 @ 
+operator: )  @ 34 @ operator: )  @ 35 @ 
+name: p3  @ 58 @ name: p3  @ 59 @ 
+expr  @ 58 @ expr  @ 59 @ 
+condition  @ 22 @ condition  @ 22 @ 
+name  @ 17 @ name  @ 17 @ 
+operator: *  @ 42 @ operator: *  @ 43 @ 
+operator: -  @ 28 @ operator: -  @ 28 @ 
+argument  @ 63 @ argument  @ 64 @ 
+name: struct  @ 5 @ name: struct  @ 5 @ 
+name: ssize_t  @ 1 @ name: ssize_t  @ 1 @ 
+operator: >  @ 34 @ operator: >  @ 35 @ 
+name: Curl_asn1Element  @ 1 @ name: Curl_asn1Element  @ 1 @ 
+argument_list  @ 63 @ argument_list  @ 64 @ 
+name: end  @ 17 @ name: end  @ 17 @ 
+expr  @ 20 @ expr  @ 20 @ 
+expr  @ 32 @ expr  @ 33 @ 
+decl  @ 6 @ decl  @ 6 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 38 @ 
+index  @ 44 @ index  @ 45 @ 
+argument_list  @ 21 @ argument_list  @ 21 @ 
+name: dn  @ 13 @ name: dn  @ 13 @ 
+name: end  @ 18 @ name: end  @ 18 @ 
+init  @ 58 @ init  @ 59 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+condition  @ 27 @ condition  @ 27 @ 
+comment: /* Encode attribute name. */  @ 41 @ comment: /* Encode attribute name. */  @ 42 @ 
+incr  @ 42 @ incr  @ 43 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 9 @ 
+argument  @ 14 @ argument  @ 14 @ 
+argument_list  @ 47 @ argument_list  @ 48 @ 
+expr  @ 36 @ expr  @ 37 @ 
+for  @ 17 @ for  @ 17 @ 
+block_content  @ 20 @ block_content  @ 20 @ 
+expr  @ 58 @ expr  @ 59 @ 
+literal: 0  @ 55 @ literal: 0  @ 56 @ 
+name: buf  @ 44 @ name: buf  @ 45 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+operator: *  @ 47 @ operator: *  @ 48 @ 
+block_content  @ 14 @ block_content  @ 14 @ 
+name: p3  @ 21 @ name: p3  @ 21 @ 
+if  @ 35 @ if  @ 36 @ 
+argument  @ 26 @ argument  @ 26 @ 
+name: getASN1Element  @ 18 @ name: getASN1Element  @ 18 @ 
+condition  @ 19 @ condition  @ 19 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+operator: (  @ 34 @ operator: (  @ 35 @ 
+literal: '='  @ 51 @ literal: '='  @ 52 @ 
+condition  @ 43 @ condition  @ 44 @ 
+name: str  @ 27 @ name: str  @ 27 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 46 @ 
+block  @ 60 @ block  @ 61 @ 
+name: p3  @ 34 @ name: p3  @ 35 @ 
+name: value  @ 6 @ name: value  @ 6 @ 
+argument_list  @ 18 @ argument_list  @ 18 @ 
+name: rdn  @ 17 @ name: rdn  @ 17 @ 
+operator: &  @ 24 @ operator: &  @ 24 @ 
+operator: !  @ 19 @ operator: !  @ 19 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: l  @ 35 @ name: l  @ 36 @ 
+block_content  @ 57 @ block_content  @ 58 @ 
+operator: ++  @ 45 @ operator: ++  @ 46 @ 
+operator: !  @ 15 @ operator: !  @ 15 @ 
+operator: <  @ 50 @ operator: <  @ 51 @ 
+operator: &  @ 14 @ operator: &  @ 14 @ 
+call  @ 14 @ call  @ 14 @ 
+type  @ 9 @ type  @ 9 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name  @ 6 @ name  @ 6 @ 
+expr  @ 22 @ expr  @ 22 @ 
+expr  @ 31 @ expr  @ 32 @ 
+type  @ 1 @ type  @ 1 @ 
+block_content  @ 23 @ block_content  @ 23 @ 
+call  @ 55 @ call  @ 56 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+name: ASN1tostr  @ 26 @ name: ASN1tostr  @ 26 @ 
+name: Curl_asn1Element  @ 3 @ name: Curl_asn1Element  @ 3 @ 
+then  @ 34 @ then  @ 35 @ 
+argument  @ 21 @ argument  @ 21 @ 
+expr  @ 55 @ expr  @ 56 @ 
+name: p3  @ 58 @ name: p3  @ 59 @ 
+name: p3  @ 42 @ name: p3  @ 43 @ 
+operator: (  @ 47 @ operator: (  @ 48 @ 
+operator: ++  @ 61 @ operator: ++  @ 62 @ 
+operator: =  @ 42 @ operator: =  @ 43 @ 
+expr  @ 60 @ expr  @ 61 @ 
+operator: =  @ 60 @ operator: =  @ 61 @ 
+argument  @ 24 @ argument  @ 24 @ 
+type  @ 7 @ type  @ 7 @ 
+block_content  @ 44 @ block_content  @ 45 @ 
+name: struct  @ 6 @ name: struct  @ 6 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+operator: *  @ 60 @ operator: *  @ 61 @ 
+specifier: const  @ 8 @ specifier: const  @ 8 @ 
+condition  @ 50 @ condition  @ 51 @ 
+expr  @ 7 @ expr  @ 7 @ 
+operator: ++  @ 32 @ operator: ++  @ 33 @ 
+expr  @ 21 @ expr  @ 21 @ 
+expr  @ 57 @ expr  @ 58 @ 
+name: p3  @ 34 @ name: p3  @ 35 @ 
+name: p3  @ 42 @ name: p3  @ 43 @ 
+control  @ 42 @ control  @ 43 @ 
+incr  @ 34 @ incr  @ 35 @ 
+argument  @ 26 @ argument  @ 26 @ 
+name: l  @ 45 @ name: l  @ 46 @ 
+expr  @ 43 @ expr  @ 44 @ 
+expr  @ 19 @ expr  @ 19 @ 
+operator: &  @ 18 @ operator: &  @ 18 @ 
+return  @ 16 @ return  @ 16 @ 
+specifier: const  @ 9 @ specifier: const  @ 9 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: l  @ 43 @ name: l  @ 44 @ 
+argument_list  @ 24 @ argument_list  @ 24 @ 
+name: value  @ 55 @ name: value  @ 56 @ 
+condition  @ 56 @ condition  @ 57 @ 
+operator: (  @ 63 @ operator: (  @ 64 @ 
+type  @ 1 @ type  @ 1 @ 
+name: p3  @ 34 @ name: p3  @ 35 @ 
+argument_list  @ 26 @ argument_list  @ 26 @ 
+literal: 1  @ 25 @ literal: 1  @ 25 @ 
+expr  @ 44 @ expr  @ 45 @ 
+name: p1  @ 15 @ name: p1  @ 15 @ 
+name: l  @ 52 @ name: l  @ 53 @ 
+expr  @ 23 @ expr  @ 23 @ 
+expr  @ 51 @ expr  @ 52 @ 
+condition  @ 24 @ condition  @ 24 @ 
+expr  @ 27 @ expr  @ 27 @ 
+argument  @ 18 @ argument  @ 18 @ 
+operator: =  @ 44 @ operator: =  @ 45 @ 
+expr  @ 34 @ expr  @ 35 @ 
+condition  @ 13 @ condition  @ 13 @ 
+name: l  @ 67 @ name: l  @ 68 @ 
+operator: &  @ 26 @ operator: &  @ 26 @ 
+expr  @ 34 @ expr  @ 35 @ 
+name: char  @ 10 @ name: char  @ 10 @ 
+if_stmt  @ 43 @ if_stmt  @ 44 @ 
+block  @ 28 @ block  @ 28 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 10 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 18 @ 
+condition  @ 34 @ condition  @ 35 @ 
+incr  @ 1 @ incr  @ 1 @ 
+incr  @ 58 @ incr  @ 59 @ 
+operator: *  @ 63 @ operator: *  @ 64 @ 
+literal: 0  @ 26 @ literal: 0  @ 26 @ 
+name  @ 44 @ name  @ 45 @ 
+type  @ 11 @ type  @ 11 @ 
+condition  @ 15 @ condition  @ 15 @ 
+name: dn  @ 13 @ name: dn  @ 13 @ 
+name: getASN1Element  @ 24 @ name: getASN1Element  @ 24 @ 
+argument  @ 21 @ argument  @ 21 @ 
+argument  @ 14 @ argument  @ 14 @ 
+operator: ++  @ 34 @ operator: ++  @ 35 @ 
+name: p1  @ 14 @ name: p1  @ 14 @ 
+block  @ 57 @ block  @ 58 @ 
+name: rdn  @ 18 @ name: rdn  @ 18 @ 
+block  @ 42 @ block  @ 43 @ 
+function  @ 1 @ function  @ 1 @ 
+argument  @ 24 @ argument  @ 24 @ 
+name  @ 14 @ name  @ 14 @ 
+modifier: *  @ 10 @ modifier: *  @ 10 @ 
+name  @ 4 @ name  @ 4 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 45 @ 
+name: size_t  @ 1 @ name: size_t  @ 1 @ 
+expr  @ 34 @ expr  @ 35 @ 
+name: end  @ 14 @ name: end  @ 14 @ 
+control  @ 13 @ control  @ 13 @ 
+name: atv  @ 21 @ name: atv  @ 21 @ 
+operator: &  @ 55 @ operator: &  @ 56 @ 
+name: str  @ 63 @ name: str  @ 64 @ 
+name: p3  @ 32 @ name: p3  @ 33 @ 
+name  @ 1 @ name  @ 1 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 18 @ expr  @ 18 @ 
+argument  @ 24 @ argument  @ 24 @ 
+operator: =  @ 34 @ operator: =  @ 35 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: dn  @ 1 @ name: dn  @ 1 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+name: value  @ 24 @ name: value  @ 24 @ 
+

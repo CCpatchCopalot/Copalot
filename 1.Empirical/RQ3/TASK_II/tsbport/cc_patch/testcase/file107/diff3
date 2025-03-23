@@ -1,0 +1,35 @@
+-1c-1,-2
+<                   "bjc CMY error buffer");
+---
+658,662c658,666
+<            err_corrC = dev->bjc_gamma_tableC[ (*row)    + (*(row+3))]
+<                          + dev->FloydSteinbergC;
+<            err_corrM = dev->bjc_gamma_tableM[(*(row+1)) + (*(row+3))]
+<                          + dev->FloydSteinbergM;
+<            err_corrY = dev->bjc_gamma_tableY[(*(row+2)) + (*(row+3))]
+---
+>int v = row[0] + row[3];
+>if (v > 255) v = 255;
+>err_corrC = dev->bjc_gamma_tableC[v] + dev->FloydSteinbergC;
+>v = row[1] + row[3];
+>if (v > 255) v = 255;
+>err_corrM = dev->bjc_gamma_tableM[v] + dev->FloydSteinbergM;
+>v = row[2] + row[3];
+>if (v > 255) v = 255;
+>err_corrY = dev->bjc_gamma_tableY[v] + dev->FloydSteinbergY;
+754,758c754,762
+<            err_corrC = dev->bjc_gamma_tableC[  (*row)   + (*(row+3))]
+<                          + dev->FloydSteinbergC;
+<            err_corrM = dev->bjc_gamma_tableM[(*(row+1)) + (*(row+3))]
+<                          + dev->FloydSteinbergM;
+<            err_corrY = dev->bjc_gamma_tableY[(*(row+2)) + (*(row+3))]
+---
+>int v = row[0] + row[3];
+>if (v > 255) v = 255;
+>err_corrC = dev->bjc_gamma_tableC[v] + dev->FloydSteinbergC;
+>v = row[1] + row[3];
+>if (v > 255) v = 255;
+>err_corrM = dev->bjc_gamma_tableM[v] + dev->FloydSteinbergM;
+>v = row[2] + row[3];
+>if (v > 255) v = 255;
+>err_corrY = dev->bjc_gamma_tableY[v] + dev->FloydSteinbergY;

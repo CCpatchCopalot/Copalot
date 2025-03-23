@@ -1,0 +1,63 @@
+static int get_token(void)
+{
+int ch;
+int i, len=0;
+int is_string=0;
+char *yyshadow;
+
+for(;;)
+	{
+	ch=getch();
+	if(ch<0) return(T_EOF);
+	if(ch<=' ') continue;	/* val<=' ' is a quick whitespace check*/
+	break;			/* (take advantage of fact that vcd is text) */
+	}
+if(ch=='$')
+	{
+	GLOBALS->yytext_vcd_c_1[len++]=ch;
+	for(;;)
+		{
+		ch=getch();
+		if(ch<0) return(T_EOF);
+		if(ch<=' ') continue;
+		break;
+		}
+	}
+	else
+	{
+	is_string=1;
+	}
+
+for(GLOBALS->yytext_vcd_c_1[len++]=ch;;GLOBALS->yytext_vcd_c_1[len++]=ch)
+	{
+	if(len==GLOBALS->T_MAX_STR_vcd_c_1)
+		{
+		GLOBALS->yytext_vcd_c_1=(char *)realloc_2(GLOBALS->yytext_vcd_c_1, (GLOBALS->T_MAX_STR_vcd_c_1=GLOBALS->T_MAX_STR_vcd_c_1*2)+1);
+		}
+	ch=getch();
+	if(ch<=' ') break;
+	}
+GLOBALS->yytext_vcd_c_1[len]=0;	/* terminator */
+GLOBALS->yylen_vcd_c_1=len;
+
+if(is_string)
+	{
+	return(T_STRING);
+	}
+
+yyshadow=GLOBALS->yytext_vcd_c_1;
+do
+{
+yyshadow++;
+for(i=0;i<NUM_TOKENS;i++)
+	{
+	if(!strcmp(yyshadow,tokens[i]))
+		{
+		return(i);
+		}
+	}
+
+} while(*yyshadow=='$'); /* fix for RCS ids in version strings */
+
+return(T_UNKNOWN_KEY);
+}

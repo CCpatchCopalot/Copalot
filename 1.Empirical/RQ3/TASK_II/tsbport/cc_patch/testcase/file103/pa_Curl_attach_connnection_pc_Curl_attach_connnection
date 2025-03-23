@@ -1,0 +1,83 @@
+block  @ 2 @ block  @ 3 @ 
+name: conn  @ 3 @ name: conn  @ 4 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: connectdata  @ 1 @ name: connectdata  @ 2 @ 
+name: Curl_easy  @ 1 @ name: Curl_easy  @ 1 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 4 @ 
+name: conn  @ 4 @ name: conn  @ 5 @ 
+name  @ 6 @ name  @ 8 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+decl  @ 1 @ decl  @ 2 @ 
+argument  @ 6 @ argument  @ 8 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+operator: =  @ 5 @ operator: =  @ 6 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+call  @ 6 @ call  @ 7 @ 
+expr_stmt  @ 4 @ expr_stmt  @ 5 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+function  @ 1 @ function  @ 1 @ 
+name: data  @ 3 @ name: data  @ 4 @ 
+name: data  @ 6 @ name: data  @ 7 @ 
+name: Curl_llist_insert_next  @ 6 @ name: Curl_llist_insert_next  @ 7 @ 
+expr  @ 4 @ expr  @ 5 @ 
+name  @ 3 @ name  @ 4 @ 
+name: conn_queue  @ 6 @ name: conn_queue  @ 8 @ 
+name  @ 1 @ name  @ 1 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+expr  @ 6 @ expr  @ 8 @ 
+argument  @ 4 @ argument  @ 5 @ 
+name  @ 6 @ name  @ 7 @ 
+name  @ 6 @ name  @ 7 @ 
+type  @ 1 @ type  @ 1 @ 
+name  @ 1 @ name  @ 2 @ 
+operator: ->  @ 6 @ operator: ->  @ 8 @ 
+name: conn  @ 6 @ name: conn  @ 7 @ 
+name: data  @ 5 @ name: data  @ 6 @ 
+expr  @ 3 @ expr  @ 4 @ 
+argument_list  @ 4 @ argument_list  @ 5 @ 
+name: data  @ 6 @ name: data  @ 8 @ 
+operator: ->  @ 5 @ operator: ->  @ 6 @ 
+name: struct  @ 1 @ name: struct  @ 1 @ 
+name: data  @ 1 @ name: data  @ 1 @ 
+expr  @ 5 @ expr  @ 6 @ 
+name  @ 5 @ name  @ 6 @ 
+name: conn  @ 5 @ name: conn  @ 6 @ 
+argument  @ 3 @ argument  @ 4 @ 
+operator: .  @ 6 @ operator: .  @ 7 @ 
+name: conn  @ 6 @ name: conn  @ 7 @ 
+argument  @ 6 @ argument  @ 7 @ 
+operator: ->  @ 3 @ operator: ->  @ 4 @ 
+name: easyq  @ 6 @ name: easyq  @ 7 @ 
+operator: !  @ 3 @ operator: !  @ 4 @ 
+argument_list  @ 6 @ argument_list  @ 7 @ 
+argument_list  @ 3 @ argument_list  @ 4 @ 
+call  @ 4 @ call  @ 5 @ 
+expr  @ 6 @ expr  @ 7 @ 
+expr_stmt  @ 5 @ expr_stmt  @ 6 @ 
+expr  @ 4 @ expr  @ 5 @ 
+argument  @ 6 @ argument  @ 7 @ 
+name: conn  @ 5 @ name: conn  @ 6 @ 
+argument  @ 6 @ argument  @ 7 @ 
+name: DEBUGASSERT  @ 4 @ name: DEBUGASSERT  @ 5 @ 
+block_content  @ 3 @ block_content  @ 4 @ 
+name: tail  @ 6 @ name: tail  @ 7 @ 
+name: conn  @ 1 @ name: conn  @ 2 @ 
+operator: &  @ 6 @ operator: &  @ 7 @ 
+type  @ 1 @ type  @ 2 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 7 @ 
+type  @ 1 @ type  @ 1 @ 
+call  @ 3 @ call  @ 4 @ 
+expr  @ 6 @ expr  @ 7 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: DEBUGASSERT  @ 3 @ name: DEBUGASSERT  @ 4 @ 
+expr  @ 6 @ expr  @ 7 @ 
+name: Curl_attach_connnection  @ 1 @ name: Curl_attach_connnection  @ 1 @ 
+expr  @ 3 @ expr  @ 4 @ 
+expr  @ 6 @ expr  @ 7 @ 
+name: easyq  @ 6 @ name: easyq  @ 7 @ 
+operator: ->  @ 6 @ operator: ->  @ 7 @ 
+operator: ->  @ 6 @ operator: ->  @ 7 @ 
+operator: &  @ 6 @ operator: &  @ 8 @ 
+

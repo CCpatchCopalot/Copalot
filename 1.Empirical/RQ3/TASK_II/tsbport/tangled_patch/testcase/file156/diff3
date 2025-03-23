@@ -1,0 +1,95 @@
+540c540
+<		unsigned char *start = (unsigned char*)memchr(data+sc_pos, 0, data_len-sc_pos);
+---
+>		unsigned char *start = (unsigned char*)memchr(data+sc_pos, 0, data_len-sc_pos-3);
+1349c1349
+<	u32 crc_val = GF_4CC((u8) data[len], (u8) data[len+1], (u8) data[len+2], (u8) data[len+3]);
+---
+>	u32 crc_val = GF_4CC((u32) data[len], (u8) data[len+1], (u8) data[len+2], (u8) data[len+3]);
+1521a1522,1525
+>		if (sec->length < 2) {
+>			GF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, ("[MPEG-2 TS] M2TS Table parsing error, length %d is too small\n", sec->length) );
+>			return;
+>		}
+1544a1545,1548
+>			if (sec->length < 5) {
+>				GF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, ("[MPEG-2 TS] M2TS Table parsing error, length %d is too small\n", sec->length) );
+>				return;
+>			}
+1727c1727
+<		length = 3 + ( ((byte1<<8) | (byte2&0xff)) & 0xfff );
+---
+>		length = 3 + ( (((u8)byte1<<8) | (byte2&0xff)) & 0xfff );
+1729c1729
+<		length = 3 + ( ((byte1<<8) | (byte2&0xff)) & 0x3ff );
+---
+>		length = 3 + ( (((u8)byte1<<8) | (byte2&0xff)) & 0x3ff );
+2230a2231,2234
+>	if (data_size < 6) {
+>		GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("[MPEG-2 TS] Invalid PMT header data size %d\n", data_size ) );
+>		return;
+>	}
+2246c2246,2249
+<				if (pmt->program->pmt_iod) gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
+---
+>				if (pmt->program->pmt_iod) {
+>					gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
+>					pmt->program->pmt_iod = NULL;
+>				}
+2249c2249,2250
+<				if (pmt->program->pmt_iod) pmt->program->pmt_iod->ServiceID = pmt->program->number;
+---
+>					if (pmt->program->pmt_iod) {
+>						pmt->program->pmt_iod->ServiceID = pmt->program->number;
+2250a2251,2255
+>				if (pmt->program->pmt_iod && pmt->program->pmt_iod->tag != GF_ODF_IOD_TAG) {
+>					GF_LOG( GF_LOG_ERROR, GF_LOG_CONTAINER, ("pmt iod has wrong tag %d\n", pmt->program->pmt_iod->tag) );
+>					gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
+>					pmt->program->pmt_iod = NULL;
+>				}
+2256a2257
+>				}
+2294c2294
+<	while (pos<data_size) {
+---
+>	while (pos<data_size-5) {
+2304a2305,2308
+>		if (desc_len > data_size-5) {
+>			GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("[MPEG-2 TS] Invalid PMT es descriptor size for PID %d\n", pid ) );
+>			break;
+>		}
+2431a2432
+>					if (pes) {
+2432a2433
+>					}
+2468a2469
+>					if (pes) {
+2474a2475
+>					}
+2669a2670,2673
+>			if (ts->ess[pmt->pid]) {
+>				GF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, ("Redefinition of pmt for pid %d\n", pid));
+>				gf_m2ts_es_del(ts->ess[pmt->pid], ts);
+>			}
+2759a2760,2763
+>	if (data_size < 6) {
+>		GF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, ("PES Header is too small (%d < 6)\n", data_size));
+>		return;
+>	}
+3083c3083
+<		u32 base = (data[1] << 24) | (data[2] << 16) | (data[3] << 8) | data[4];
+---
+>		u32 base = ((u32)data[1] << 24) | (data[2] << 16) | (data[3] << 8) | data[4];
+3821c3821,3823
+<		if (ts->ess[i] && (ts->ess[i]->pid==i)) gf_m2ts_es_del(ts->ess[i], ts);
+---
+>		if (ts->ess[i] && (ts->ess[i]->pid==i)) {
+>			gf_m2ts_es_del(ts->ess[i], ts);
+>		}
+3833c3833,3836
+<		if (p->pmt_iod) gf_odf_desc_del((GF_Descriptor *)p->pmt_iod);
+---
+>		if (p->pmt_iod) {
+>			gf_odf_desc_del((GF_Descriptor *)p->pmt_iod);
+>			p->pmt_iod = NULL;
+>		}

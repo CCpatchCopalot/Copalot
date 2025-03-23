@@ -1,0 +1,302 @@
+{
+    "testcase": {
+        "file86": {
+            "match_message": {
+                "Syntax: abst_Read -> abst_box_read": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 54 -> 80",
+                        "L2": "3: Unique Matched by Source code 54 -> 80"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 69->97",
+                        "L2": "5: Matched by Syntax(AST) similarity 69->97"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 79->116",
+                        "L2": "5: Matched by Syntax(AST) similarity 79->116"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 80 -> 117",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 81->120)"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 92->139)",
+                        "L2": "5: Matched by Syntax(AST) similarity 93->141"
+                    },
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 106->169)",
+                        "L2": "5: Matched by Syntax(AST) similarity 107->171"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 119->197",
+                        "L2": "5: Matched by Syntax(AST) similarity 119->197"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 120 -> 198",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 121->201)"
+                    },
+                    "Seg_8": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 131->219",
+                        "L2": "5: Matched by Syntax(AST) similarity 131->219"
+                    },
+                    "Seg_9": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 132 -> 220",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 133->223)"
+                    },
+                    "Seg_10": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 136->226",
+                        "L2": "5: Matched by Syntax(AST) similarity 136->226"
+                    },
+                    "Seg_11": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 138->228",
+                        "L2": "5: Matched by Syntax(AST) similarity 138->228"
+                    },
+                    "Seg_12": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 144->242",
+                        "L2": "5: Matched by Syntax(AST) similarity 144->242"
+                    },
+                    "Seg_13": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 146->244",
+                        "L2": "5: Matched by Syntax(AST) similarity 146->244"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 80,
+                        "add_hunk": [
+                            "\tu32 tmp_strsize, strsize;\n"
+                        ],
+                        "delete_location": [
+                            80,
+                            80
+                        ],
+                        "delete_hunk": [
+                            "\tu32 tmp_strsize;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 97,
+                        "add_hunk": [
+                            "strsize = tmp_strsize\n"
+                        ],
+                        "delete_location": [
+                            97,
+                            97
+                        ],
+                        "delete_hunk": [
+                            "\ttmp_strsize =(u32)ptr->size;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 116,
+                        "add_hunk": [
+                            "if (i) \n",
+                            "\ttmp_str[strsize-1] = 0;"
+                        ],
+                        "delete_location": [
+                            116,
+                            116
+                        ],
+                        "delete_hunk": [
+                            "\tif (i) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 117,
+                        "add_hunk": [
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 140,
+                        "add_hunk": [
+                            "\t\ttmp_str[strsize-1] = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 170,
+                        "add_hunk": [
+                            "\t\ttmp_str[strsize-1] = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 197,
+                        "add_hunk": [
+                            "if (i) \n",
+                            "\ttmp_str[strsize-1] = 0;"
+                        ],
+                        "delete_location": [
+                            197,
+                            197
+                        ],
+                        "delete_hunk": [
+                            "\tif (i) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 198,
+                        "add_hunk": [
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "change",
+                        "add_location": 219,
+                        "add_hunk": [
+                            "if (i) \n",
+                            "\ttmp_str[strsize-1] = 0;"
+                        ],
+                        "delete_location": [
+                            219,
+                            219
+                        ],
+                        "delete_hunk": [
+                            "\tif (i) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "add",
+                        "add_location": 220,
+                        "add_hunk": [
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "change",
+                        "add_location": 226,
+                        "add_hunk": [
+                            "GF_AdobeSegmentRunTableBox *asrt = NULL;"
+                        ],
+                        "delete_location": [
+                            226,
+                            226
+                        ],
+                        "delete_hunk": [
+                            "\t\tGF_AdobeSegmentRunTableBox *asrt = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "change",
+                        "add_location": 228,
+                        "add_hunk": [
+                            "if (e) \n",
+                            "\tif (asrt) gf_isom_box_del((GF_Box*)asrt);gf_free(tmp_str);return e;"
+                        ],
+                        "delete_location": [
+                            228,
+                            228
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (e) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "change",
+                        "add_location": 242,
+                        "add_hunk": [
+                            "GF_AdobeFragmentRunTableBox *afrt = NULL;"
+                        ],
+                        "delete_location": [
+                            242,
+                            242
+                        ],
+                        "delete_hunk": [
+                            "\t\tGF_AdobeFragmentRunTableBox *afrt = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "change",
+                        "add_location": 244,
+                        "add_hunk": [
+                            "if (e) \n",
+                            "\tif (afrt) gf_isom_box_del((GF_Box*)afrt);gf_free(tmp_str);return e;"
+                        ],
+                        "delete_location": [
+                            244,
+                            244
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (e) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: abst_Read -> abst_box_read": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_type",
+                "change_value"
+            ]
+        }
+    }
+}

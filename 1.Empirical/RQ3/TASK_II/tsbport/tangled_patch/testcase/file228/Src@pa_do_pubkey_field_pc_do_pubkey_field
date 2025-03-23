@@ -1,0 +1,17 @@
+static int do_pubkey_field(struct Curl_easy *data, int certnum, const char *label, struct Curl_asn1Element *elem)
+{
+  const char *output;
+  CURLcode result = CURLE_OK;
+
+  /* Generate a certificate information record for the public key. */
+
+  output = ASN1tostr(elem, 0);
+  if(output) {
+    if(data->set.ssl.certinfo)
+      result = ssl_push_certinfo(data, certnum, label, output);
+    if(!certnum && !result)
+      infof(data, " %s: %s", label, output);
+    free((char *) output);
+  }
+  return result ? 1 : 0;
+}

@@ -1,0 +1,44 @@
+137a138,142
+>                        if (i > 0 && zwidth != crop->combined_width)
+>                        {
+>                            TIFFError("computeInputPixelOffsets","Only equal width regions can be ""combined for -E ""top or bottom");
+>                            return (-1);
+>                        }
+6367a6368,6400
+>    switch (crop->edge_ref)
+>    {
+>        default:
+>        case EDGE_TOP:
+>        case EDGE_BOTTOM:
+>            for (i = 1; i < crop->selections; i++)
+>            {
+>                uint32_t crop_width0 =
+>                    crop->regionlist[i - 1].x2 - crop->regionlist[i - 1].x1 + 1;
+>                uint32_t crop_width1 =
+>                    crop->regionlist[i].x2 - crop->regionlist[i].x1 + 1;
+>                if (crop_width0 != crop_width1)
+>                {
+>                    TIFFError("extractCompositeRegions","Only equal width regions can be combined for -E ""top or bottom");
+>                    return (1);
+>                }
+>            }
+>            break;
+>        case EDGE_LEFT:
+>        case EDGE_RIGHT:
+>            for (i = 1; i < crop->selections; i++)
+>            {
+>                uint32_t crop_length0 =
+>                    crop->regionlist[i - 1].y2 - crop->regionlist[i - 1].y1 + 1;
+>                uint32_t crop_length1 =
+>                    crop->regionlist[i].y2 - crop->regionlist[i].y1 + 1;
+>                if (crop_length0 != crop_length1)
+>                {
+>                    TIFFError("extractCompositeRegions","Only equal length regions can be combined for ""-E left or right");
+>                    return (1);
+>                }
+>            }
+>    }
+6392c6392
+<	   if ((i > 0) && (crop_width != crop->regionlist[i - 1].width))
+---
+>                if ((crop->selections > i + 1) &&(crop_width != crop->regionlist[i + 1].width))

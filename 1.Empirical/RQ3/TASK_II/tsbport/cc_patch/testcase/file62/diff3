@@ -1,0 +1,10 @@
+67a68
+>#include "H5Omodule.h"          /* This source code file is part of the H5O module */
+130,134c129,131
+<    pline->version = *p++;
+<    if(pline->version < H5O_PLINE_VERSION_1 || pline->version > H5O_PLINE_VERSION_LATEST)
+<	HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "bad version number for filter pipeline message")
+---
+>HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "bad version number for filter pipeline message")/* Number of filters */
+>if(pline->version < H5O_PLINE_VERSION_1 || pline->version > H5O_PLINE_VERSION_LATEST)
+>	pline->nused = 0;HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "filter pipeline message has too many filters")

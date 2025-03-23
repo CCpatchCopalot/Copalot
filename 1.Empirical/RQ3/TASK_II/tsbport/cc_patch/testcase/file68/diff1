@@ -1,0 +1,4 @@
+533c533
+< 	if (outOriginalFormat && sinf->original_format) {
+---
+> 	if (outOriginalFormat && sinf && sinf->original_format) {

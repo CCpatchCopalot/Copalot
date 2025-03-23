@@ -1,0 +1,5 @@
+res = ci->func;
+wanted = ci->nresults;
+L->ci = ci = ci->previous;
+for (i = wanted; i != 0 && firstResult < L->top; i--)    setobjs2s(L, res++, firstResult++);
+while (i-- > 0)    setnilvalue(res++);

@@ -1,0 +1,151 @@
+{
+    "testcase": {
+        "file43": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "1790 -> -1",
+                        "L2": "1790 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "2034 -> -1",
+                        "L2": "2034 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: read_2004_compressed_section -> read_2004_compressed_section": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1974 -> 2049",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1973->2047"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 2019",
+                        "L2": "7: Context line (Ignored) is empty or comment 2019"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 2031",
+                        "L2": "7: Context line (Ignored) is empty or comment 2031"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "      if (info->size > info->num_sections * info->max_decomp_size)\n",
+                            "      {\n",
+                            "        LOG_ERROR (\"Skip section %s with size %lu > %d * \" FORMAT_RL,info->name, info->size, info->num_sections, info->max_decomp_size);\n",
+                            "        info->max_decomp_size = info->size = info->num_sections = 0;\n",
+                            "        error |= DWG_ERR_VALUEOUTOFBOUNDS;\n",
+                            "      }\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "    sec_dat->size = info->size;\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "           sec_dat->size += MIN (bytes_left, info->max_decomp_size);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 2049,
+                        "add_hunk": [
+                            "  sec_dat->size = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 5055,
+                        "add_hunk": [
+                            "          sec_dat->size += info->max_decomp_size;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_4": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    }
+                },
+                "Same: read_2004_compressed_section -> read_2004_compressed_section": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call",
+                "change_value"
+            ]
+        }
+    }
+}

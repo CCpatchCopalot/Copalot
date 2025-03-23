@@ -1,0 +1,156 @@
+static r2007_section *read_sections_map (Bit_Chain *dat, int64_t size_comp, int64_t size_uncomp, int64_t correction)
+{
+  BITCODE_RC *data;
+  r2007_section *sections = NULL, *last_section = NULL, *section = NULL;
+  //BITCODE_RC *ptr, *ptr_end;
+  Bit_Chain page = { 0 };
+  int i, j = 0;
+
+  if (!read_system_page (&page, dat, size_comp, size_uncomp, correction))
+    {
+      LOG_ERROR ("Failed to read system page")
+      return NULL;
+    }
+
+  LOG_TRACE ("\n=== System Section (Section Map) ===\n");
+  while (page.byte < (size_t)size_uncomp)
+    {
+      section = (r2007_section *)calloc (1, sizeof (r2007_section));
+      if (!section)
+        {
+          LOG_ERROR ("Out of memory");
+          bit_chain_free (&page);
+          sections_destroy (sections); // the root
+          return NULL;
+        }
+      LOG_TRACE ("\nSection [%d]:\n", j);
+      section->data_size = bit_read_RLL (&page);
+      section->max_size = bit_read_RLL (&page);
+      section->encrypted = bit_read_RLL (&page);
+      section->hashcode = bit_read_RLL (&page);
+      section->name_length = bit_read_RLL (&page);
+      section->unknown = bit_read_RLL (&page);
+      section->encoded = bit_read_RLL (&page);
+      section->num_pages = bit_read_RLL (&page);
+      LOG_TRACE ("data size: %" PRIu64 "\n", section->data_size)LOG_TRACE ("max size:%" PRIu64 "\n", section->max_size)LOG_TRACE ("encryption:%" PRIu64 "\n", section->encrypted)LOG_HANDLE ("hashcode:%" PRIx64 "\n", section->hashcode)LOG_HANDLE ("name length: %" PRIu64 "\n", section->name_length)LOG_TRACE ("unknown: %" PRIu64 "\n", section->unknown)LOG_TRACE ("encoding:%" PRIu64 "\n", section->encoded)LOG_TRACE ("num pages: %" PRIu64, section->num_pages);
+      LOG_POS_DAT (&page)// debugging sanity
+#if 1
+      /* compressed */
+      if (section->data_size > 10 * dat->size|| section->name_length >= (int64_t)dat->size|| section->name_length >= 48)
+        {
+          LOG_ERROR ("Invalid System Section");
+          free (section);
+          bit_chain_free (&page);
+          sections_destroy (sections); // the root
+          return NULL;
+        }
+        // assert(section->data_size < dat->size + 0x100000);
+        // assert(section->max_size< dat->size + 0x100000);
+        // assert(section->num_pages < DBG_MAX_COUNT);
+#endif
+      // section->next = NULL;
+      // section->pages = NULL;
+      // section->name = NULL;
+
+      if (!sections)
+        {
+          sections = last_section = section;
+        }
+      else
+        {
+          last_section->next = section;
+          last_section = section;
+        }
+
+      j++;
+      if (page.byte >= page.size)
+        break;
+
+      // Section Name (wchar)
+      {
+        uint64_t sz = section->name_length;
+        section->name = (DWGCHAR *)calloc (1, sz + 2);
+        bit_read_fixed (&page, (BITCODE_RC*)section->name, sz);
+      }
+#ifdef HAVE_NATIVE_WCHAR2
+      LOG_TRACE ("name:" FORMAT_TU, (BITCODE_TU)section->name)
+#else
+      LOG_TRACE ("name:")
+      LOG_TEXT_UNICODE (TRACE, section->name)
+#endif
+      LOG_POS_DAT (&page)LOG_TRACE ("\n")section->type = dwg_section_wtype (section->name);
+
+      if (section->num_pages <= 0 || section->num_pages > 0xf0000)
+        {
+          LOG_ERROR ("Invalid num_pages %zu, skip", (size_t)section->num_pages);
+          section->num_pages = 0;
+          continue;
+        }
+
+      section->pages = (r2007_section_page **)calloc ((size_t)section->num_pages, sizeof (r2007_section_page *));
+      if (!section->pages)
+        {
+          LOG_ERROR ("Out of memory");
+          bit_chain_free (&page);
+          if (sections)
+            sections_destroy (sections); // the root
+          else
+            sections_destroy (section);
+          return NULL;
+        }
+
+      for (i = 0; i < section->num_pages; i++)
+        {
+          section->pages[i]= (r2007_section_page *)calloc (1, sizeof (r2007_section_page));
+          if (!section->pages[i])
+            {
+              LOG_ERROR ("Out of memory");
+              bit_chain_free (&page);
+              if (sections)
+                sections_destroy (sections); // the root
+              else
+                sections_destroy (section);
+              return NULL;
+            }
+
+          if (page.byte + 56 > page.size)
+            {
+              LOG_ERROR ("Section[%d]->pages[%d] overflow (%zu > %zu)", j, i, page.byte + 56, page.size);
+              free (section->pages[i]);
+              section->num_pages = i; // skip this last section
+              break;
+            }
+
+          section->pages[i]->offset = bit_read_RLL (&page);
+          section->pages[i]->size = bit_read_RLL (&page);
+          section->pages[i]->id = (int64_t)bit_read_RLL (&page);
+          section->pages[i]->uncomp_size = bit_read_RLL (&page);
+          section->pages[i]->comp_size = bit_read_RLL (&page);
+          section->pages[i]->checksum = bit_read_RLL (&page);
+          section->pages[i]->crc = bit_read_RLL (&page);
+
+          LOG_TRACE (" Page[%d]: ", i)LOG_TRACE (" offset: 0x%07" PRIx64, section->pages[i]->offset);
+          LOG_TRACE (" size: %5" PRIu64, section->pages[i]->size);
+          LOG_TRACE (" id: %4" PRId64, section->pages[i]->id);
+          LOG_TRACE (" uncomp_size: %5" PRIu64 "\n", section->pages[i]->uncomp_size);
+          LOG_HANDLE (" comp_size: %5" PRIu64, section->pages[i]->comp_size);
+          LOG_HANDLE (" checksum: %016" PRIx64, section->pages[i]->checksum);
+          LOG_HANDLE (" crc64: %016" PRIx64 "\n", section->pages[i]->crc);
+          // debugging sanity
+          if (section->pages[i]->size >= DBG_MAX_SIZE|| section->pages[i]->uncomp_size >= DBG_MAX_SIZE|| section->pages[i]->comp_size >= DBG_MAX_SIZE)
+            {
+              LOG_ERROR ("Invalid section->pages[%d] size", i);
+              bit_chain_free (&page);
+              free (section->pages[i]);
+              section->num_pages = i; // skip this last section
+              return sections;
+            }
+          assert (section->pages[i]->size < DBG_MAX_SIZE);
+          assert (section->pages[i]->uncomp_size < DBG_MAX_SIZE);
+          assert (section->pages[i]->comp_size < DBG_MAX_SIZE);
+        }
+    }
+
+  bit_chain_free (&page);
+  return sections;
+}

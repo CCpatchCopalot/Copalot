@@ -1,0 +1,59 @@
+{
+    "testcase": {
+        "file118": {
+            "match_message": {
+                "Syntax: audio_sample_entry_Read -> mp4a_Read": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 3953 -> 3658",
+                        "L2": "3: Unique Matched by Source code 3953 -> 3658"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 3955->3660",
+                        "L2": "3: Unique Matched by Source code 3956 -> 3661"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 3658,
+                        "add_hunk": [
+                            "\t\tif (GF_4CC((u32)data[i+4], (u8)data[i+5], (u8)data[i+6], (u8)data[i+7]) == GF_ISOM_BOX_TYPE_ESDS) {\n"
+                        ],
+                        "delete_location": [
+                            3658,
+                            3658
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (GF_4CC(data[i+4], data[i+5], data[i+6], data[i+7]) == GF_ISOM_BOX_TYPE_ESDS) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 3660,
+                        "add_hunk": [
+                            "\t\t\tif (!e) gf_isom_box_add_for_dump_mode((GF_Box*)ptr, (GF_Box*)ptr->esd);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: audio_sample_entry_Read -> mp4a_Read": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

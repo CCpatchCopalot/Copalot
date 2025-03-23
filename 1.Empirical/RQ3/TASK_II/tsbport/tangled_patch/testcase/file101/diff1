@@ -1,0 +1,8 @@
+1046,1049c1046,1047
+<         HDassert(mesg_size == H5O_ALIGN_OH(oh, mesg_size));
+< 
+<         /* Message flags */
+<         flags = *chunk_image++;
+---
+>         if(mesg_size != H5O_ALIGN_OH(oh, mesg_size))
+>             HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "message not aligned")/* Message flags */flags = *chunk_image++;

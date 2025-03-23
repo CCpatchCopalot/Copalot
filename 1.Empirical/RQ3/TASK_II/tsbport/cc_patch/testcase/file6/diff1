@@ -1,0 +1,33 @@
+6659c6659
+<     sect_buff = (unsigned char *)limitMalloc(sectsize);
+---
+>     sect_buff = (unsigned char *)limitMalloc(sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6665c6665
+<     _TIFFmemset(sect_buff, 0, sectsize);
+---
+>     _TIFFmemset(sect_buff, 0, sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6671c6671
+<       new_buff = _TIFFrealloc(sect_buff, sectsize);
+---
+>       new_buff = _TIFFrealloc(sect_buff, sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6675c6675
+<         sect_buff = (unsigned char *)limitMalloc(sectsize);
+---
+>         sect_buff = (unsigned char *)limitMalloc(sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6685c6685
+<       _TIFFmemset(sect_buff, 0, sectsize);
+---
+>       _TIFFmemset(sect_buff, 0, sectsize + NUM_BUFF_OVERSIZE_BYTES);
+7665c7665,7666
+<   if (!(rbuff = (unsigned char *)limitMalloc(buffsize)))
+---
+>   /* Add 3 padding bytes for extractContigSamplesShifted32bits */
+>   if (!(rbuff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES)))
+7667c7668
+<     TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize);
+---
+>     TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize + NUM_BUFF_OVERSIZE_BYTES);
+7670c7671
+<   _TIFFmemset(rbuff, '\0', buffsize);
+---
+>   _TIFFmemset(rbuff, '\0', buffsize + NUM_BUFF_OVERSIZE_BYTES);

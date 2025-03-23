@@ -1,0 +1,46 @@
+{
+    "testcase": {
+        "file75": {
+            "match_message": {
+                "Same: gf_m2ts_stream_process_pmt -> gf_m2ts_stream_process_pmt": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 650->714",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 651->715"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 29,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 714,
+                        "add_hunk": [
+                            "\t\tif (!stream->program->pcr)\n",
+                            "\t\t\tabort();\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_m2ts_stream_process_pmt -> gf_m2ts_stream_process_pmt": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

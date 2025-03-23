@@ -1,0 +1,79 @@
+{
+    "testcase": {
+        "file99": {
+            "match_message": {
+                "Same: Curl_ssl_getsessionid -> Curl_ssl_getsessionid": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 300->361",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 300->361"
+                    }
+                },
+                "Same: Curl_ssl_addsessionid -> Curl_ssl_addsessionid": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 391->474",
+                        "L2": "5: Matched by Syntax(AST) similarity 391->474"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 71,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 361,
+                        "add_hunk": [
+                            "bool Curl_ssl_getsessionid(struct Curl_easy *data, struct connectdata *conn, const bool isProxy, void **ssl_sessionid, size_t *idsize, /* set 0 if unknown */ int sockindex)"
+                        ],
+                        "delete_location": [
+                            361,
+                            361
+                        ],
+                        "delete_hunk": [
+                            "                           void **ssl_sessionid,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 474,
+                        "add_hunk": [
+                            "CURLcode Curl_ssl_addsessionid(struct Curl_easy *data, struct connectdata *conn, bool isProxy, void *ssl_sessionid, size_t idsize, int sockindex)"
+                        ],
+                        "delete_location": [
+                            474,
+                            474
+                        ],
+                        "delete_hunk": [
+                            "CURLcode Curl_ssl_addsessionid(struct connectdata *conn,\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: Curl_ssl_getsessionid -> Curl_ssl_getsessionid": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: Curl_ssl_addsessionid -> Curl_ssl_addsessionid": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_definition"
+            ]
+        }
+    }
+}

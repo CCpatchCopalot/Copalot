@@ -1,0 +1,25 @@
+4743a4744,4745
+>		s64 new_ts = trak->Media->information->sampleTable->CompositionOffset->entries[i].decodingOffset;
+>		new_ts -= offset_shift;
+4745c4745,4751
+<		trak->Media->information->sampleTable->CompositionOffset->entries[i].decodingOffset -= offset_shift;
+---
+>		trak->Media->information->sampleTable->CompositionOffset->entries[i].decodingOffset = (s32) new_ts;
+>	}
+>	if (trak->Media->mediaHeader->duration >= -offset_shift){
+>		s64 new_dur = trak->Media->mediaHeader->duration;
+>		new_dur -= offset_shift;
+>		if (new_dur<0) new_dur = 0;
+>		trak->Media->mediaHeader->duration = (u32) new_dur;
+6939c6939,6941
+<				ctts->entries[i].decodingOffset += shift;
+---
+>				s64 new_ts = ctts->entries[i].decodingOffset;
+>				new_ts += shift;
+>				ctts->entries[i].decodingOffset = (u32) shift;
+6948c6948,6950
+<			ctts->entries[i].decodingOffset += shift;
+---
+>			s64 new_ts = ctts->entries[i].decodingOffset;
+>			new_ts += shift;
+>			ctts->entries[i].decodingOffset = (u32) shift;

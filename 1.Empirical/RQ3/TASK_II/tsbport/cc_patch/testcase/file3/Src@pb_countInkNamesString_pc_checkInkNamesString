@@ -1,0 +1,21 @@
+static uint16_t
+countInkNamesString(TIFF *tif, uint32_t slen, const char *s)
+{
+	uint16_t i = 0;
+	const char *ep = s + slen;
+	const char *cp = s;
+
+	if (slen > 0) {
+		do {
+			for (; cp < ep && *cp != '\0'; cp++) {}
+			if (cp >= ep)
+				goto bad;
+			cp++;				/* skip \0 */
+			i++;
+		} while (cp < ep);
+		return (i);
+	}
+bad:
+	TIFFErrorExt(tif->tif_clientdata, "TIFFSetField","%s: Invalid InkNames value; no NUL at given buffer end location %"PRIu32", after %"PRIu16" ink",tif->tif_name, slen, i);
+	return (0);
+}

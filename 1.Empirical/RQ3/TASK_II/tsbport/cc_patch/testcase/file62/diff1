@@ -1,0 +1,13 @@
+102,104c102,109
+< 	HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "bad version number for filter pipeline message")/* Number of filters */pline->nused = *p++;
+<     if(pline->nused > H5Z_MAX_NFILTERS)
+< 	HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "filter pipeline message has too many filters")/* Reserved */
+---
+> 	HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "bad version number for filter pipeline message")/* Number of filters */
+>     if(pline->nused > H5Z_MAX_NFILTERS) {
+>         /* Reset the number of filters used to avoid array traversal in error * handling code. */
+>         pline->nused = 0;
+>         HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "filter pipeline message has too many filters")
+>     }
+> 
+>     /* Reserved */

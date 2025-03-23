@@ -1,0 +1,204 @@
+{
+    "testcase": {
+        "file6": {
+            "match_message": {
+                "Same: createImageSection -> createImageSection": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6659 -> 7377",
+                        "L2": "3: Unique Matched by Source code 6659 -> 7377"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6665 -> 7379",
+                        "L2": "3: Unique Matched by Source code 6665 -> 7379"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6671 -> 7385",
+                        "L2": "3: Unique Matched by Source code 6671 -> 7385"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6675 -> 7389",
+                        "L2": "3: Unique Matched by Source code 6675 -> 7389"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6685 -> 7394",
+                        "L2": "3: Unique Matched by Source code 6685 -> 7394"
+                    }
+                },
+                "Same: rotateImage -> rotateImage": {
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7665 -> 8454",
+                        "L2": "3: Unique Matched by Source code 7665 -> 8454"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7667 -> 8456",
+                        "L2": "3: Unique Matched by Source code 7667 -> 8456"
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7670 -> 8459",
+                        "L2": "3: Unique Matched by Source code 7670 -> 8459"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 7377,
+                        "add_hunk": [
+                            "    sect_buff = (unsigned char *)limitMalloc(sectsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7377,
+                            7377
+                        ],
+                        "delete_hunk": [
+                            "    sect_buff = (unsigned char *)limitMalloc(sectsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 7379,
+                        "add_hunk": [
+                            "    _TIFFmemset(sect_buff, 0, sectsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7379,
+                            7379
+                        ],
+                        "delete_hunk": [
+                            "    _TIFFmemset(sect_buff, 0, sectsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 7385,
+                        "add_hunk": [
+                            "      new_buff = _TIFFrealloc(sect_buff, sectsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7385,
+                            7385
+                        ],
+                        "delete_hunk": [
+                            "      new_buff = _TIFFrealloc(sect_buff, sectsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 7389,
+                        "add_hunk": [
+                            "        sect_buff = (unsigned char *)limitMalloc(sectsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7389,
+                            7389
+                        ],
+                        "delete_hunk": [
+                            "        sect_buff = (unsigned char *)limitMalloc(sectsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 7394,
+                        "add_hunk": [
+                            "      _TIFFmemset(sect_buff, 0, sectsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7394,
+                            7394
+                        ],
+                        "delete_hunk": [
+                            "      _TIFFmemset(sect_buff, 0, sectsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 8454,
+                        "add_hunk": [
+                            "  if (!(rbuff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES)))\n"
+                        ],
+                        "delete_location": [
+                            8454,
+                            8454
+                        ],
+                        "delete_hunk": [
+                            "  if (!(rbuff = (unsigned char *)limitMalloc(buffsize)))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 8456,
+                        "add_hunk": [
+                            "    TIFFError(\"rotateImage\", \"Unable to allocate rotation buffer of %1u bytes\", buffsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            8456,
+                            8456
+                        ],
+                        "delete_hunk": [
+                            "    TIFFError(\"rotateImage\", \"Unable to allocate rotation buffer of %1u bytes\", buffsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": 8459,
+                        "add_hunk": [
+                            "  _TIFFmemset(rbuff, '\\0', buffsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            8459,
+                            8459
+                        ],
+                        "delete_hunk": [
+                            "  _TIFFmemset(rbuff, '\\0', buffsize);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: createImageSection -> createImageSection": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: rotateImage -> rotateImage": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

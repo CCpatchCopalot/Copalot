@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file28": {
+            "match_message": {
+                "Same: get_object -> get_object": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1139 -> 1130",
+                        "L2": "3: Unique Matched by Source code 1140 -> 1131"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1140 -> 1131",
+                        "L2": "3: Unique Matched by Source code 1141 -> 1132"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 1130,
+                        "add_hunk": [
+                            "\t\tif (ref_idx->data != ret) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1131,
+                        "add_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: get_object -> get_object": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

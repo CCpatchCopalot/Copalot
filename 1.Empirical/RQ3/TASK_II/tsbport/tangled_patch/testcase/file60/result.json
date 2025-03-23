@@ -1,0 +1,118 @@
+{
+    "testcase": {
+        "file60": {
+            "match_message": {
+                "Same: H5D__chunk_set_info_real -> H5D__chunk_set_info_real": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 539 -> 707",
+                        "L2": "3: Unique Matched by Source code 539 -> 707"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 543 -> 711",
+                        "L2": "3: Unique Matched by Source code 542 -> 710"
+                    }
+                },
+                "Same: H5D__chunk_init -> H5D__chunk_init": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 688 -> 920",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 689->921"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 752->996",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 752->996"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 756 -> 1001",
+                        "L2": "3: Unique Matched by Source code 757 -> 1002"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            707,
+                            707
+                        ],
+                        "delete_hunk": [
+                            "    HDassert(ndims > 0);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 711,
+                        "add_hunk": [
+                            "    if (ndims == 0)\n",
+                            "        HGOTO_ERROR(H5E_DATASET, H5E_BADVALUE, FAIL, \"number of dimensions cannot be zero\")/* Compute the # of chunks in dataset dimensions */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 920,
+                        "add_hunk": [
+                            "    hbool_t              idx_init  = FALSE;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 996,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_DATASET, H5E_CANTINIT, FAIL, \"can't initialize indexing information\")idx_init = TRUE;"
+                        ],
+                        "delete_location": [
+                            997,
+                            996
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 1001,
+                        "add_hunk": [
+                            "    if (FAIL == ret_value) {\n",
+                            "        if (rdcc->slot)\n",
+                            "            rdcc->slot = H5FL_SEQ_FREE(H5D_rdcc_ent_ptr_t, rdcc->slot);\n",
+                            "        if (idx_init && sc->ops->dest && (sc->ops->dest)(&idx_info) < 0)\n",
+                            "            HDONE_ERROR(H5E_DATASET, H5E_CANTFREE, FAIL, \"unable to release chunk index info\");\n",
+                            "    }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: H5D__chunk_set_info_real -> H5D__chunk_set_info_real": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5D__chunk_init -> H5D__chunk_init": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call",
+                "change_type"
+            ]
+        }
+    }
+}

@@ -1,0 +1,138 @@
+
+
+The vulnerability-related modifications in the patch primarily address memory leaks, buffer overflow prevention, and proper error handling. Here's the relevant diff:
+
+```diff
+diff --git a/applications/mp4box/main.c b/applications/mp4box/main.c
+--- a/applications/mp4box/main.c
++++ b/applications/mp4box/main.c
+@@ -4648,7 +4648,6 @@
+ 		/*setup dash*/
+ 		dasher = gf_dasher_new(szMPD, dash_profile, tmpdir, dash_scale, dash_ctx);
+ 		if (!dasher) {
+-			return mp4box_cleanup(1);
+ 			return mp4box_cleanup(GF_OUT_OF_MEM);
+ 		}
+ 		e = gf_dasher_set_info(dasher, dash_title, cprt, dash_more_info, dash_source);
+@@ -4664,6 +4663,7 @@
+ 			e = gf_dasher_add_base_url(dasher, mpd_base_urls[i]);
+ 			if (e) {
+ 				fprintf(stderr, "DASH Error: %s\n", gf_error_to_string(e));
++				gf_dasher_del(dasher);
+ 				return mp4box_cleanup(1);
+ 			}
+ 		}
+
+diff --git a/src/media_tools/mpegts.c b/src/media_tools/mpegts.c
+--- a/src/media_tools/mpegts.c
++++ b/src/media_tools/mpegts.c
+@@ -539,7 +539,7 @@
+ 	pck.flags = 0;
+ 
+ 	while (sc_pos+4<data_len) {
+-		unsigned char *start = (unsigned char*)memchr(data+sc_pos, 0, data_len-sc_pos);
++		unsigned char *start = (unsigned char*)memchr(data+sc_pos, 0, data_len-sc_pos-3);
+ 		if (!start) break;
+ 		sc_pos = (u32) (start - (unsigned char*)data);
+ 
+@@ -1445,6 +1445,11 @@
+ 		/*parse header*/
+ 		data = (u8 *)sec->section;
+ 
++		if (sec->length < 2) {
++			GF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, ("[MPEG-2 TS] M2TS Table parsing error, length %d is too small\n", sec->length) );
++			return;
++		}
++
+ 		/*look for proper table*/
+ 		table_id = data[0];
+ 
+@@ -2175,16 +2180,26 @@
+ 				u32 size;
+ 				GF_BitStream *iod_bs;
+ 				iod_bs = gf_bs_new((char *)data+8, len-2, GF_BITSTREAM_READ);
+-				if (pmt->program->pmt_iod) gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
++				if (pmt->program->pmt_iod) {
++					gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
++					pmt->program->pmt_iod = NULL;
++				}
+ 				e = gf_odf_parse_descriptor(iod_bs , (GF_Descriptor **) &pmt->program->pmt_iod, &size);
+ 				gf_bs_del(iod_bs );
++				if (pmt->program->pmt_iod && pmt->program->pmt_iod->tag != GF_ODF_IOD_TAG) {
++					GF_LOG( GF_LOG_ERROR, GF_LOG_CONTAINER, ("pmt iod has wrong tag %d\n", pmt->program->pmt_iod->tag) );
++					gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
++					pmt->program->pmt_iod = NULL;
++				}
+ 				if (e==GF_OK) {
+ 					/*remember program number for service/program selection*/
+-					if (pmt->program->pmt_iod) pmt->program->pmt_iod->ServiceID = pmt->program->number;
+-					/*if empty IOD (freebox case), discard it and use dynamic declaration of object*/
+-					if (!gf_list_count(pmt->program->pmt_iod->ESDescriptors)) {
+-						gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
+-						pmt->program->pmt_iod = NULL;
++					if (pmt->program->pmt_iod) {
++						pmt->program->pmt_iod->ServiceID = pmt->program->number;
++						/*if empty IOD (freebox case), discard it and use dynamic declaration of object*/
++						if (!gf_list_count(pmt->program->pmt_iod->ESDescriptors)) {
++							gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);
++							pmt->program->pmt_iod = NULL;
++						}
+ 					}
+ 				}
+ 			} else if (tag == GF_M2TS_METADATA_POINTER_DESCRIPTOR) {
+@@ -2225,7 +2240,7 @@
+ 	}
+ 
+ 	nb_hevc = nb_hevc_temp = nb_shvc = nb_shvc_temp = nb_mhvc = nb_mhvc_temp = 0;
+-	while (pos<data_size) {
++	while (pos<data_size-5) {
+ 		GF_M2TS_PES *pes = NULL;
+ 		GF_M2TS_SECTION_ES *ses = NULL;
+ 		GF_M2TS_ES *es = NULL;
+@@ -2236,6 +2251,11 @@
+ 		pid = ((data[1] & 0x1f) << 8) | data[2];
+ 		desc_len = ((data[3] & 0xf) << 8) | data[4];
+ 
++		if (desc_len > data_size-5) {
++			GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("[MPEG-2 TS] Invalid PMT es descriptor size for PID %d\n", pid ) );
++			break;
++		}
++
+ 		GF_LOG(GF_LOG_DEBUG, GF_LOG_CONTAINER, ("stream_type :%d \n",stream_type));
+ 		switch (stream_type) {
+ 
+diff --git a/src/odf/odf_code.c b/src/odf/odf_code.c
+--- a/src/odf/odf_code.c
++++ b/src/odf/odf_code.c
+@@ -506,7 +506,10 @@
+ 		if (e) return e;
+ 		if (!tmp) return GF_ODF_INVALID_DESCRIPTOR;
+ 		e = AddDescriptorToIOD(iod, tmp);
+-		if (e) return e;
++		if (e) {
++			gf_odf_delete_descriptor(tmp);
++			return e;
++		}
+ 		nbBytes += tmp_size + gf_odf_size_field_size(tmp_size);
+ 	}
+ 	if (DescSize != nbBytes) return GF_ODF_INVALID_DESCRIPTOR;
+@@ -1025,7 +1028,10 @@
+ 		if (e) return e;
+ 		if (!tmp) return GF_ODF_INVALID_DESCRIPTOR;
+ 		e = AddDescriptorToIsomOD(od, tmp);
+-		if (e) return e;
++		if (e) {
++			gf_odf_delete_descriptor(tmp);
++			return e;
++		}
+ 		nbBytes += tmpSize + gf_odf_size_field_size(tmpSize);
+ 	}
+ 	if (nbBytes != DescSize) return GF_ODF_INVALID_DESCRIPTOR;
+```
+
+These changes primarily address:
+1. Memory management fixes (proper cleanup in error paths)
+2. Buffer boundary checks in MPEG-TS processing
+3. Validation of descriptor tags and sizes
+4. Proper error handling for invalid PMT/IOD structures
+5. Prevention of memory leaks in ODF descriptor processing

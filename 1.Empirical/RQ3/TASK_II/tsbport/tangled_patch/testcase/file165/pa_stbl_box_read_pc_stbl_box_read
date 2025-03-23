@@ -1,0 +1,178 @@
+argument_list  @ 14 @ argument_list  @ 14 @ 
+name: CHECK_BOX  @ 29 @ name: TimeToSample  @ 21 @ 
+name: ptr  @ 10 @ name: ptr  @ 10 @ 
+block_content  @ 33 @ block_content  @ 25 @ 
+return  @ 36 @ return  @ 28 @ 
+name: GF_ISOM_BS_COOKIE_CLONE_TRACK  @ 16 @ name: GF_ISOM_BS_COOKIE_CLONE_TRACK  @ 16 @ 
+name: e  @ 3 @ name: e  @ 3 @ 
+name: e  @ 8 @ name: e  @ 8 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+decl  @ 3 @ decl  @ 3 @ 
+operator: ->  @ 14 @ operator: ->  @ 14 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+block  @ 8 @ block  @ 8 @ 
+expr  @ 11 @ expr  @ 11 @ 
+operator: &  @ 16 @ operator: &  @ 16 @ 
+expr  @ 32 @ expr  @ 24 @ 
+name  @ 13 @ name  @ 13 @ 
+name: ptr  @ 33 @ name: ptr  @ 25 @ 
+operator: =  @ 11 @ operator: =  @ 11 @ 
+type  @ 1 @ type  @ 1 @ 
+type  @ 5 @ type  @ 5 @ 
+operator: ->  @ 14 @ operator: ->  @ 14 @ 
+name: GF_OK  @ 36 @ name: GF_OK  @ 28 @ 
+name: sampleGroupsDescription  @ 13 @ name: sampleGroupsDescription  @ 13 @ 
+expr  @ 8 @ expr  @ 8 @ 
+operator: !  @ 10 @ operator: !  @ 10 @ 
+literal: 1  @ 11 @ literal: 1  @ 11 @ 
+block_content  @ 17 @ block_content  @ 17 @ 
+expr  @ 8 @ expr  @ 8 @ 
+expr  @ 33 @ expr  @ 25 @ 
+name: GF_ISOM_INVALID_FILE  @ 34 @ name: GF_ISOM_INVALID_FILE  @ 26 @ 
+decl  @ 5 @ decl  @ 5 @ 
+name: gf_list_count  @ 14 @ name: gf_list_count  @ 14 @ 
+condition  @ 10 @ condition  @ 10 @ 
+operator: ||  @ 33 @ operator: ||  @ 25 @ 
+condition  @ 8 @ condition  @ 8 @ 
+argument  @ 7 @ argument  @ 7 @ 
+if_stmt  @ 8 @ if_stmt  @ 8 @ 
+type  @ 1 @ type  @ 1 @ 
+block_content  @ 11 @ block_content  @ 11 @ 
+expr  @ 13 @ expr  @ 13 @ 
+name: e  @ 8 @ name: e  @ 8 @ 
+if  @ 32 @ if  @ 24 @ 
+operator: !  @ 33 @ operator: !  @ 25 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name  @ 32 @ name  @ 24 @ 
+block  @ 2 @ block  @ 2 @ 
+argument  @ 7 @ argument  @ 7 @ 
+name  @ 14 @ name  @ 14 @ 
+name: GF_SampleTableBox  @ 5 @ name: GF_SampleTableBox  @ 5 @ 
+argument  @ 13 @ argument  @ 13 @ 
+call  @ 7 @ call  @ 7 @ 
+operator: =  @ 7 @ operator: =  @ 7 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: ptr  @ 5 @ name: ptr  @ 5 @ 
+name: s  @ 5 @ name: s  @ 5 @ 
+block  @ 34 @ block  @ 26 @ 
+name  @ 10 @ name  @ 10 @ 
+operator: ->  @ 32 @ operator: ->  @ 24 @ 
+expr  @ 36 @ expr  @ 28 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+block  @ 32 @ block  @ 24 @ 
+expr  @ 14 @ expr  @ 14 @ 
+block_content  @ 34 @ block_content  @ 26 @ 
+argument_list  @ 16 @ argument_list  @ 16 @ 
+condition  @ 32 @ condition  @ 24 @ 
+name: bs  @ 7 @ name: bs  @ 7 @ 
+name: SampleSize  @ 32 @ name: SampleSize  @ 24 @ 
+name  @ 13 @ name  @ 13 @ 
+name: gf_list_count  @ 13 @ name: gf_list_count  @ 13 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 7 @ expr  @ 7 @ 
+operator: ->  @ 33 @ operator: ->  @ 25 @ 
+expr  @ 34 @ expr  @ 26 @ 
+name: nb_entries  @ 33 @ name: nb_entries  @ 25 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: GF_BitStream  @ 1 @ name: GF_BitStream  @ 1 @ 
+name: ptr  @ 13 @ name: ptr  @ 13 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: child_boxes  @ 14 @ name: child_boxes  @ 14 @ 
+name: bs  @ 16 @ name: bs  @ 16 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+comment: //return GF_OK;  @ 18 @ comment: //	return GF_OK;  @ 18 @ 
+return  @ 34 @ return  @ 26 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: s  @ 7 @ name: s  @ 7 @ 
+operator: ->  @ 11 @ operator: ->  @ 11 @ 
+block_content  @ 8 @ block_content  @ 8 @ 
+if  @ 16 @ if  @ 16 @ 
+name: CHECK_BOX  @ 28 @ name: ptr  @ 21 @ 
+name: GF_Err  @ 3 @ name: GF_Err  @ 3 @ 
+name: nb_sgpd_in_stbl  @ 13 @ name: nb_sgpd_in_stbl  @ 13 @ 
+call  @ 16 @ call  @ 16 @ 
+if_stmt  @ 33 @ if_stmt  @ 25 @ 
+name  @ 33 @ name  @ 25 @ 
+name  @ 33 @ name  @ 25 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+type  @ 1 @ type  @ 1 @ 
+if_stmt  @ 32 @ if_stmt  @ 24 @ 
+name: stbl_box_read  @ 1 @ name: stbl_box_read  @ 1 @ 
+block  @ 11 @ block  @ 11 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+return  @ 8 @ return  @ 8 @ 
+block  @ 17 @ block  @ 17 @ 
+operator: ->  @ 33 @ operator: ->  @ 25 @ 
+name: ptr  @ 33 @ name: ptr  @ 25 @ 
+name: no_sync_found  @ 11 @ name: no_sync_found  @ 11 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 7 @ 
+call  @ 14 @ call  @ 14 @ 
+operator: ->  @ 33 @ operator: ->  @ 25 @ 
+name: bs  @ 1 @ name: bs  @ 1 @ 
+operator: !  @ 33 @ operator: !  @ 25 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+name: GF_OK  @ 17 @ name: GF_OK  @ 17 @ 
+name: GF_SampleTableBox  @ 5 @ name: GF_SampleTableBox  @ 5 @ 
+operator: =  @ 14 @ operator: =  @ 14 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 13 @ expr  @ 13 @ 
+name: nb_entries  @ 33 @ name: nb_entries  @ 25 @ 
+name: ptr  @ 14 @ name: ptr  @ 14 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+name: ptr  @ 32 @ name: ptr  @ 24 @ 
+argument  @ 14 @ argument  @ 14 @ 
+name: TimeToSample  @ 33 @ name: TimeToSample  @ 25 @ 
+type  @ 3 @ type  @ 3 @ 
+name: sampleCount  @ 32 @ name: sampleCount  @ 24 @ 
+argument_list  @ 7 @ argument_list  @ 7 @ 
+name: GF_Box  @ 1 @ name: GF_Box  @ 1 @ 
+condition  @ 33 @ condition  @ 25 @ 
+call  @ 13 @ call  @ 13 @ 
+name: ptr  @ 11 @ name: ptr  @ 11 @ 
+operator: ->  @ 32 @ operator: ->  @ 24 @ 
+if  @ 8 @ if  @ 8 @ 
+name: _name  @ 20 @ name: SampleSize  @ 21 @ 
+name: CHECK_BOX  @ 27 @ name: ChunkOffset  @ 21 @ 
+operator: ->  @ 33 @ operator: ->  @ 25 @ 
+expr  @ 16 @ expr  @ 16 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+name: nb_stbl_boxes  @ 14 @ name: nb_stbl_boxes  @ 14 @ 
+name: ptr  @ 14 @ name: ptr  @ 14 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+return  @ 17 @ return  @ 17 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 7 @ expr  @ 7 @ 
+argument  @ 16 @ argument  @ 16 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+comment: //sanity check  @ 31 @ comment: //sanity check  @ 23 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+name: gf_bs_get_cookie  @ 16 @ name: gf_bs_get_cookie  @ 16 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+if_stmt  @ 10 @ if_stmt  @ 10 @ 
+if  @ 10 @ if  @ 10 @ 
+name: CHECK_BOX  @ 26 @ name: ptr  @ 21 @ 
+condition  @ 16 @ condition  @ 16 @ 
+name: GF_Err  @ 1 @ name: GF_Err  @ 1 @ 
+name  @ 11 @ name  @ 11 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+name: CHECK_BOX  @ 20 @ name: ptr  @ 21 @ 
+init  @ 5 @ init  @ 5 @ 
+expr  @ 16 @ expr  @ 16 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+name  @ 14 @ name  @ 14 @ 
+if  @ 33 @ if  @ 25 @ 
+if_stmt  @ 16 @ if_stmt  @ 16 @ 
+expr  @ 17 @ expr  @ 17 @ 
+operator: =  @ 13 @ operator: =  @ 13 @ 
+name: SyncSample  @ 10 @ name: SyncSample  @ 10 @ 
+name: s  @ 1 @ name: s  @ 1 @ 
+operator: *  @ 5 @ operator: *  @ 5 @ 
+name: ptr  @ 13 @ name: ptr  @ 13 @ 
+name: SampleToChunk  @ 33 @ name: SampleToChunk  @ 25 @ 
+name: gf_isom_box_array_read  @ 7 @ name: gf_isom_box_array_read  @ 7 @ 
+name: e  @ 7 @ name: e  @ 7 @ 
+expr  @ 7 @ expr  @ 7 @ 
+comment: //we need to parse DegPrior in a special way  @ 4 @ comment: //we need to parse DegPrior in a special way  @ 4 @ 
+

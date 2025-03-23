@@ -1,0 +1,16 @@
+8a9
+>	for (; i < bin->nsegs && i < bin->segs_count; i++) {
+1505,1506c1505,1506
+<	ut32 segs_count;
+<	if ((segs_count = r_buf_read_le32_at (bin->b, starts_at)) == UT32_MAX) {
+---
+>	ut32 segs_count = r_buf_read_le32_at (bin->b, starts_at);
+>	if (segs_count == UT32_MAX || segs_count == 0) {
+1508a1509
+>	bin->segs_count = segs_count;
+1689a1690
+>	bin->segs_count = bin->nsegs;
+2115c2115
+<		for (i = 0; i < mo->nsegs; i++) {
+---
+>		for (i = 0; i < mo->nsegs && i < mo->segs_count; i++) {

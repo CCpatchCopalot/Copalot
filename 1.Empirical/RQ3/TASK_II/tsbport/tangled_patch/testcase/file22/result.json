@@ -1,0 +1,25 @@
+{
+    "testcase": {
+        "file22": {
+            "runtime_info": {
+                "Global": [
+                    "Error in dealing testcase : file22",
+                    "AttributeError(\"'NoneType' object has no attribute 'sourceline'\") : Traceback (most recent call last):\n  File \"src/Main.py\", line 117, in runing_file\n    translator.prepare()\n  File \"/tsbport/src/Translator.py\", line 822, in prepare\n    pc_add_set = semantic_transfer(self.project,pa_delete_hunk,pa_add_hunk,pc_delete_hunk,pa_pc_namespace_mapping)\n  File \"/tsbport/src/SemanticChecker.py\", line 214, in semantic_transfer\n    pc_add_set = construct_backport(project,pa_pc_namespace_mapping,pa_delete_set,pa_add_set,pc_delete_set,pa_del_add_match,pa_pc_match)\n  File \"/tsbport/src/SemanticChecker.py\", line 254, in construct_backport\n    pc_add_stmt = BackportHunk(project,patch_type,_pa_delete_hunk,_pa_add_hunk,_pc_delete_hunk,pa_pc_namespace_mapping)\n  File \"/tsbport/src/SemanticChecker.py\", line 263, in BackportHunk\n    pc_add_hunk = Backport_Sanity_Check(project,pa_delete_hunk,pa_add_hunk,pc_delete_hunk,pa_pc_namespace_mapping)\n  File \"/tsbport/src/SemanticChecker.py\", line 649, in Backport_Sanity_Check\n    pc_dst_funcs = Backport_Function_Call(project,pa_src_funcs,pa_dst_funcs,pc_src_funcs,pa_pc_namespace_mapping)\n  File \"/tsbport/src/SemanticChecker.py\", line 1148, in Backport_Function_Call\n    add_funcs = ParseCallHunk(pa_add_hunk)\n  File \"/tsbport/src/SemanticChecker.py\", line 1088, in ParseCallHunk\n    call_location = int(call.sourceline-4)\nAttributeError: 'NoneType' object has no attribute 'sourceline'\n"
+                ]
+            },
+            "prepare_info": {},
+            "semanic_check": {},
+            "verify_patch": {},
+            "patch_types": [
+                "change_type",
+                "sanity_check",
+                "function_call",
+                "function_definition",
+                "in_loop",
+                "change_value",
+                "other",
+                "error_handle"
+            ]
+        }
+    }
+}

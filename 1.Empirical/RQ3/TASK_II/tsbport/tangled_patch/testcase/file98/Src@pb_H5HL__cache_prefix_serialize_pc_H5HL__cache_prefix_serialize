@@ -1,0 +1,74 @@
+static herr_t
+H5HL__cache_prefix_serialize(const H5_ATTR_NDEBUG_UNUSED H5F_t *f, void *_image, size_t H5_ATTR_NDEBUG_UNUSED len, void *_thing)
+{
+    H5HL_prfx_t *prfx = (H5HL_prfx_t *)_thing; /* Pointer to local heap prefix to query */
+    H5HL_t      *heap;                         /* Pointer to the local heap */
+    uint8_t     *image = (uint8_t *)_image;    /* Pointer into image buffer */
+
+    FUNC_ENTER_STATIC_NOERR
+
+    /* Check arguments */
+    HDassert(f);
+    HDassert(image);
+    HDassert(prfx);
+    HDassert(prfx->cache_info.magic == H5C__H5C_CACHE_ENTRY_T_MAGIC);
+    HDassert(prfx->cache_info.type == H5AC_LHEAP_PRFX);
+    HDassert(H5F_addr_eq(prfx->cache_info.addr, prfx->heap->prfx_addr));
+    HDassert(prfx->heap);
+
+    /* Get the pointer to the heap */
+    heap = prfx->heap;
+    HDassert(heap);
+
+#ifndef NDEBUG
+    /* Compute the buffer size */
+    size_t buf_size = heap->prfx_size; /* expected size of the image buffer */
+    if (heap->single_cache_obj)
+        buf_size += heap->dblk_size;
+    HDassert(len == buf_size);
+#endif
+
+    /* Update the free block value from the free list */
+    heap->free_block = heap->freelist ? heap->freelist->offset : H5HL_FREE_NULL;
+
+    /* Serialize the heap prefix */
+    H5MM_memcpy(image, H5HL_MAGIC, (size_t)H5_SIZEOF_MAGIC);
+    image += H5_SIZEOF_MAGIC;
+    *image++ = H5HL_VERSION;
+    *image++ = 0; /*reserved*/
+    *image++ = 0; /*reserved*/
+    *image++ = 0; /*reserved*/
+    H5F_ENCODE_LENGTH_LEN(image, heap->dblk_size, heap->sizeof_size);
+    H5F_ENCODE_LENGTH_LEN(image, heap->free_block, heap->sizeof_size);
+    H5F_addr_encode_len(heap->sizeof_addr, &image, heap->dblk_addr);
+
+    /* Check if the local heap is a single object in cache */
+    if (heap->single_cache_obj) {
+        if ((size_t)(image - (uint8_t *)_image) < heap->prfx_size) {
+            size_t gap; /* Size of gap between prefix and data block */
+
+            /* Set image to the start of the data block.This is necessary * because there may be a gap between the used portion of * the prefix and the data block due to alignment constraints. */
+            gap = heap->prfx_size - (size_t)(image - (uint8_t *)_image);
+            HDmemset(image, 0, gap);
+            image += gap;
+        }
+
+        /* Serialize the free list into the heap data's image */
+        H5HL__fl_serialize(heap);
+
+        /* Copy the heap data block into the cache image */
+        H5MM_memcpy(image, heap->dblk_image, heap->dblk_size);
+
+        /* Sanity check */
+        HDassert((size_t)(image - (uint8_t *)_image) + heap->dblk_size == len);
+    }
+    else {
+        /* Sanity check */
+        HDassert((size_t)(image - (uint8_t *)_image) <= len);
+
+        /* Clear rest of local heap */
+        HDmemset(image, 0, len - (size_t)(image - (uint8_t *)_image));
+    }
+
+    FUNC_LEAVE_NOAPI(SUCCEED)
+} /* end H5HL__cache_prefix_serialize() */

@@ -1,0 +1,84 @@
+12457c12457,12464
+<	ptr->layout.stream_structure = gf_bs_read_u8(bs);
+---
+>ISOM_DECREASE_SIZE(s, 1)
+>if (ptr->version==0) {
+>		ptr->layout.stream_structure = gf_bs_read_u8(bs);
+>	} else {
+>		ptr->layout.stream_structure = gf_bs_read_int(bs, 4);
+>		ptr->layout.format_ordering = gf_bs_read_int(bs, 4);
+>		ISOM_DECREASE_SIZE(s, 1)ptr->layout.base_channel_count = gf_bs_read_u8(bs);
+>	}
+12464a12465,12469
+>			u32 nb_channels = 0;
+>			if (ptr->version) {
+>				ISOM_DECREASE_SIZE(s, 1)
+>				nb_channels = gf_bs_read_u8(bs);
+>			}
+12465a12466
+>				if (ptr->layout.channels_count==64) return GF_ISOM_INVALID_FILE;
+12473a12474,12478
+>				ptr->layout.channels_count++;
+>				if (ptr->version) {
+>					nb_channels--;
+>					if (!nb_channels) break;
+>				}
+12476a12477
+>			if (ptr->version==0) {
+12478a12479,12488
+>				ptr->layout.omitted_channels_present = 1;
+>				ptr->layout.channel_order_definition = 0;
+>			} else {
+>				ISOM_DECREASE_SIZE(s, 1)
+>				gf_bs_read_int(bs, 4);
+>				ptr->layout.channel_order_definition = gf_bs_read_int(bs, 3);
+>				ptr->layout.omitted_channels_present = gf_bs_read_int(bs, 1);
+>				if (ptr->layout.omitted_channels_present) {
+>					ISOM_DECREASE_SIZE(s, 8)ptr->layout.omittedChannelsMap = gf_bs_read_u64(bs);
+>				}
+12481c12481,12482
+<	if (ptr->layout.stream_structure & 2) {
+---
+>	}
+>	if ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {
+12504a12505,12511
+>	if (ptr->version==0) {
+>		gf_bs_write_u8(bs, ptr->layout.stream_structure);
+>	} else {
+>		gf_bs_write_int(bs, ptr->layout.stream_structure, 4);
+>		gf_bs_write_int(bs, ptr->layout.format_ordering, 4);
+>		gf_bs_write_u8(bs, ptr->layout.base_channel_count);
+>	}
+12508a12509,12511
+>			if (ptr->version==1) {
+>				gf_bs_write_u8(bs, ptr->layout.channels_count);
+>			}
+12516a12517,12523
+>			if (ptr->version==1) {
+>				gf_bs_write_int(bs, 0, 4);
+>				gf_bs_write_int(bs, ptr->layout.channel_order_definition, 3);
+>				gf_bs_write_int(bs, ptr->layout.omitted_channels_present, 1);
+>				if (ptr->layout.omitted_channels_present)
+>					gf_bs_write_u64(bs, ptr->layout.omittedChannelsMap);
+>			} else {
+12520c12520,12521
+<	if (ptr->layout.stream_structure & 2) {
+---
+>	}
+>	if ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {
+12529a12530
+>	if (ptr->version==1) s->size++;
+12533a12534
+>			if (ptr->version==1) s->size++;
+12539a12540,12542
+>			if (ptr->version==1) {
+>				s->size += 1;
+>				if (ptr->layout.omitted_channels_present)
+12540a12541,12543
+>			} else {
+>				s->size += 8;
+>			}
+12543c12543
+<	if (ptr->layout.stream_structure & 2) {
+---
+>	if ((ptr->version==0) && (ptr->layout.stream_structure & 2)) {

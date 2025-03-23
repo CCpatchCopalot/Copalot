@@ -1,0 +1,141 @@
+call  @ 16 @ call  @ 16 @ 
+type  @ 6 @ type  @ 6 @ 
+name: gf_malloc  @ 10 @ name: gf_malloc  @ 10 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+name: ptr  @ 14 @ name: ptr  @ 14 @ 
+name: desc  @ 16 @ name: desc  @ 16 @ 
+name: u32  @ 4 @ name: u32  @ 4 @ 
+name: s  @ 1 @ name: s  @ 1 @ 
+operator: (  @ 6 @ operator: (  @ 6 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: u32  @ 9 @ name: u32  @ 9 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 13 @ expr  @ 13 @ 
+argument  @ 13 @ argument  @ 13 @ 
+name: GF_Err  @ 3 @ name: GF_Err  @ 3 @ 
+name  @ 14 @ name  @ 14 @ 
+type  @ 1 @ type  @ 1 @ 
+name: desc  @ 5 @ name: desc  @ 5 @ 
+comment: //OK, free our desc  @ 15 @ comment: //OK, free our desc  @ 15 @ 
+type  @ 4 @ type  @ 4 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+name: GF_Box  @ 1 @ name: GF_Box  @ 1 @ 
+sizeof  @ 10 @ sizeof  @ 10 @ 
+name: e  @ 14 @ name: e  @ 14 @ 
+name: desc  @ 13 @ name: desc  @ 13 @ 
+expr  @ 16 @ expr  @ 16 @ 
+name: char  @ 5 @ name: char  @ 5 @ 
+name: descSize  @ 9 @ name: descSize  @ 9 @ 
+type  @ 1 @ type  @ 1 @ 
+name: desc  @ 14 @ name: desc  @ 14 @ 
+init  @ 6 @ init  @ 6 @ 
+name: GF_BitStream  @ 1 @ name: GF_BitStream  @ 1 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: desc  @ 10 @ name: desc  @ 10 @ 
+block  @ 2 @ block  @ 2 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 9 @ 
+name: descSize  @ 14 @ name: descSize  @ 14 @ 
+argument  @ 16 @ argument  @ 16 @ 
+name: desc  @ 11 @ name: desc  @ 11 @ 
+argument_list  @ 14 @ argument_list  @ 14 @ 
+name: gf_odf_desc_read  @ 14 @ name: gf_odf_desc_read  @ 14 @ 
+return  @ 18 @ return  @ 17 @ 
+name: descSize  @ 4 @ name: descSize  @ 4 @ 
+if  @ 11 @ if  @ 11 @ 
+return  @ 11 @ return  @ 11 @ 
+operator: ->  @ 9 @ operator: ->  @ 9 @ 
+decl  @ 6 @ decl  @ 6 @ 
+operator: (  @ 10 @ operator: (  @ 10 @ 
+operator: &  @ 14 @ operator: &  @ 14 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+call  @ 10 @ call  @ 10 @ 
+name: bs  @ 1 @ name: bs  @ 1 @ 
+name: size  @ 9 @ name: size  @ 9 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: char  @ 10 @ name: char  @ 10 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 14 @ argument  @ 14 @ 
+operator: )  @ 9 @ operator: )  @ 9 @ 
+expr  @ 14 @ expr  @ 14 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument_list  @ 16 @ argument_list  @ 16 @ 
+name: bs  @ 13 @ name: bs  @ 13 @ 
+decl  @ 5 @ decl  @ 5 @ 
+name: descSize  @ 13 @ name: descSize  @ 13 @ 
+operator: )  @ 9 @ operator: )  @ 9 @ 
+argument  @ 13 @ argument  @ 13 @ 
+expr  @ 14 @ expr  @ 14 @ 
+operator: )  @ 6 @ operator: )  @ 6 @ 
+name: iods_box_read  @ 1 @ name: iods_box_read  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: descriptor  @ 14 @ name: descriptor  @ 14 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+operator: (  @ 9 @ operator: (  @ 9 @ 
+argument  @ 10 @ argument  @ 10 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: GF_Err  @ 1 @ name: GF_Err  @ 1 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+name: ptr  @ 6 @ name: ptr  @ 6 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: descSize  @ 10 @ name: descSize  @ 10 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: s  @ 6 @ name: s  @ 6 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+expr  @ 11 @ expr  @ 11 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 16 @ 
+name: e  @ 18 @ name: e  @ 17 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name  @ 9 @ name  @ 9 @ 
+expr  @ 13 @ expr  @ 13 @ 
+operator: =  @ 9 @ operator: =  @ 9 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+expr  @ 13 @ expr  @ 13 @ 
+expr  @ 18 @ expr  @ 17 @ 
+argument  @ 13 @ argument  @ 13 @ 
+name: ptr  @ 9 @ name: ptr  @ 9 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+type  @ 3 @ type  @ 3 @ 
+name: GF_ObjectDescriptorBox  @ 6 @ name: GF_ObjectDescriptorBox  @ 6 @ 
+operator: =  @ 10 @ operator: =  @ 10 @ 
+name: gf_free  @ 16 @ name: gf_free  @ 16 @ 
+operator: *  @ 10 @ operator: *  @ 10 @ 
+operator: ->  @ 14 @ operator: ->  @ 14 @ 
+operator: )  @ 10 @ operator: )  @ 10 @ 
+expr  @ 14 @ expr  @ 14 @ 
+expr  @ 13 @ expr  @ 13 @ 
+expr  @ 10 @ expr  @ 10 @ 
+operator: *  @ 6 @ operator: *  @ 6 @ 
+operator: *  @ 10 @ operator: *  @ 10 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: char  @ 10 @ name: char  @ 10 @ 
+if_stmt  @ 11 @ if_stmt  @ 11 @ 
+name: e  @ 3 @ name: e  @ 3 @ 
+expr  @ 16 @ expr  @ 16 @ 
+block_content  @ 11 @ block_content  @ 11 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: =  @ 14 @ operator: =  @ 14 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+operator: !  @ 11 @ operator: !  @ 11 @ 
+call  @ 13 @ call  @ 13 @ 
+type  @ 5 @ type  @ 5 @ 
+name: GF_OUT_OF_MEM  @ 11 @ name: GF_OUT_OF_MEM  @ 11 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: GF_ObjectDescriptorBox  @ 6 @ name: GF_ObjectDescriptorBox  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+condition  @ 11 @ condition  @ 11 @ 
+decl  @ 3 @ decl  @ 3 @ 
+argument  @ 10 @ argument  @ 10 @ 
+comment: //use the OD codec...  @ 8 @ comment: //use the OD codec...  @ 8 @ 
+modifier: *  @ 6 @ modifier: *  @ 6 @ 
+name: gf_bs_read_data  @ 13 @ name: gf_bs_read_data  @ 13 @ 
+block  @ 11 @ block  @ 11 @ 
+operator: (  @ 9 @ operator: (  @ 9 @ 
+argument  @ 14 @ argument  @ 14 @ 
+call  @ 14 @ call  @ 14 @ 
+argument  @ 14 @ argument  @ 14 @ 
+

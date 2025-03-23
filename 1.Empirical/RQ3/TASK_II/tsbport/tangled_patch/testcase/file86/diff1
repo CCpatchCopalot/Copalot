@@ -1,0 +1,10 @@
+749,750c749
+<     /* Must check for uniqueness of all objects if we've traversed an elink, * otherwise only check if the reference count > 1. */
+<     if (oinfo.rc > 1 || hit_elink) {
+---
+>     {
+772,775d770
+<     }
+<     else {
+<         attr_iteration(gid, attr_crt_order_flags);
+<         link_iteration(gid, crt_order_flags);

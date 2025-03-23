@@ -1,0 +1,379 @@
+3,4c3,4
+< static   char tiffcrop_version_id[] = "2.5.3";
+< static   char tiffcrop_rev_date[] = "26-08-2022";
+---
+> static   char tiffcrop_version_id[] = "2.5.4";
+> static   char tiffcrop_rev_date[] = "27-08-2022";
+97a98,100
+> /* Some conversion subroutines require image buffers, which are at least 3 bytes * larger than the necessary size for the image itself. */
+> #define NUM_BUFF_OVERSIZE_BYTES   3
+> 
+115c118
+<   uint32_t size;           /* size of this buffer */
+---
+>   size_t size;           /* size of this buffer */
+494,495c497,498
+<   uint32_t tile_rowsize  = TIFFTileRowSize(in);
+<   uint32_t src_offset, dst_offset;
+---
+>   tmsize_t tile_rowsize  = TIFFTileRowSize(in);
+>   tmsize_t src_offset, dst_offset;
+543c546
+<   tilebuf = limitMalloc(tile_buffsize + 3);
+---
+>   tilebuf = limitMalloc(tile_buffsize + NUM_BUFF_OVERSIZE_BYTES);
+670c673
+<     tbuff = (unsigned char *)limitMalloc(tilesize + 8);
+---
+>     tbuff = (unsigned char *)limitMalloc(tilesize + NUM_BUFF_OVERSIZE_BYTES);
+828c831,832
+<   obuf = limitMalloc (rowstripsize);
+---
+>   /* Add 3 padding bytes for extractContigSamples32bits */
+>   obuf = limitMalloc (rowstripsize + NUM_BUFF_OVERSIZE_BYTES);
+840c844
+<       memset (obuf, '\0', rowstripsize);
+---
+>       memset (obuf, '\0',rowstripsize + NUM_BUFF_OVERSIZE_BYTES);
+848,849c852,856
+<         dump_info(dump->outfile, dump->format,"", "Sample %2d, Strip: %2d, bytes: %4d, Row %4d, bytes: %4d, Input offset: %6d", s + 1, strip + 1, stripsize, row + 1, scanlinesize, src - buf);
+<         dump_buffer(dump->outfile, dump->format, nrows, scanlinesize, row, obuf);
+---
+>           if (scanlinesize > 0x0ffffffffULL) {
+>               dump_info(dump->infile, dump->format, "loadImage","Attention: scanlinesize %"PRIu64" is larger than UINT32_MAX.\nFollowing dump might be wrong.",scanlinesize);
+>           }
+>           dump_info(dump->outfile, dump->format,"","Sample %2d, Strip: %2d, bytes: %4d, Row %4d, bytes: %4d, Input offset: %6d", s + 1, strip + 1, stripsize, row + 1, (uint32_t)scanlinesize, src - buf);
+>         dump_buffer(dump->outfile, dump->format, nrows, (uint32_t)scanlinesize, row, obuf);
+872c879
+<   uint32_t tile_rowsize  = TIFFTileRowSize(out);
+---
+>   tmsize_t tile_rowsize  = TIFFTileRowSize(out);
+908c915,916
+<   tilebuf = limitMalloc(tile_buffsize);
+---
+>   /* Add 3 padding bytes for extractContigSamples32bits */
+>   tilebuf = limitMalloc(tile_buffsize + NUM_BUFF_OVERSIZE_BYTES);
+910a919
+>   memset(tilebuf, 0, tile_buffsize + NUM_BUFF_OVERSIZE_BYTES);
+947c956,957
+<   tdata_t obuf = limitMalloc(TIFFTileSize(out));
+---
+>   /* Add 3 padding bytes for extractContigSamples32bits */
+>   tdata_t obuf = limitMalloc(TIFFTileSize(out) + NUM_BUFF_OVERSIZE_BYTES);
+956a967
+>   memset(obuf, 0, TIFFTileSize(out) + NUM_BUFF_OVERSIZE_BYTES);
+1361c1372
+<                     end = strlen (opt_ptr);
+---
+>                     end = (unsigned int)strlen (opt_ptr);
+1368c1379
+<                       end = strlen (opt_offset + 1);
+---
+>                       end = (unsigned int)strlen (opt_offset + 1);
+1822a1834,1835
+>   assert(NUM_BUFF_OVERSIZE_BYTES >= 3);
+> 
+2718c2731
+<         bytebuff1 = (buff2 >> 56);
+---
+>         bytebuff1 = (uint8_t)(buff2 >> 56);
+2720c2733
+<         bytebuff2 = (buff2 >> 48);
+---
+>         bytebuff2 = (uint8_t)(buff2 >> 48);
+2722c2735
+<         bytebuff3 = (buff2 >> 40);
+---
+>         bytebuff3 = (uint8_t)(buff2 >> 40);
+2724c2737
+<         bytebuff4 = (buff2 >> 32);
+---
+>         bytebuff4 = (uint8_t)(buff2 >> 32);
+3100c3113
+<         bytebuff1 = (buff2 >> 56);
+---
+>         bytebuff1 = (uint8_t)(buff2 >> 56);
+3102c3115
+<         bytebuff2 = (buff2 >> 48);
+---
+>         bytebuff2 = (uint8_t)(buff2 >> 48);
+3104c3117
+<         bytebuff3 = (buff2 >> 40);
+---
+>         bytebuff3 = (uint8_t)(buff2 >> 40);
+3106c3119
+<         bytebuff4 = (buff2 >> 32);
+---
+>         bytebuff4 = (uint8_t)(buff2 >> 32);
+3267c3280
+<         int32_t  bytes_read = 0;
+---
+>         tmsize_t  bytes_read = 0;
+3269,3270c3282,3283
+<         uint32_t stripsize = TIFFStripSize(in);
+<         uint32_t rows = 0;
+---
+>         tmsize_t stripsize = TIFFStripSize(in);
+>         tmsize_t rows = 0;
+3283c3296
+<                         TIFFError("", "Strip %"PRIu32": read %"PRId32" bytes, strip size %"PRIu32,strip + 1, bytes_read, stripsize);
+---
+>                         TIFFError("", "Strip %"PRIu32": read %"PRId64" bytes, strip size %"PRIu64,strip + 1, bytes_read, stripsize);
+3286c3299
+<                         TIFFError("", "Error reading strip %"PRIu32" after %"PRIu32" rows",strip, rows);
+---
+>                         TIFFError("", "Error reading strip %"PRIu32" after %"PRIu64" rows",strip, rows);
+3728c3741
+< 	  bytebuff1 = (buff2 >> 56);
+---
+> 	  bytebuff1 = (uint8_t)(buff2 >> 56);
+3730c3743
+< 	  bytebuff2 = (buff2 >> 48);
+---
+> 	  bytebuff2 = (uint8_t)(buff2 >> 48);
+3732c3745
+< 	  bytebuff3 = (buff2 >> 40);
+---
+> 	  bytebuff3 = (uint8_t)(buff2 >> 40);
+3734c3747
+< 	  bytebuff4 = (buff2 >> 32);
+---
+> 	  bytebuff4 = (uint8_t)(buff2 >> 32);
+3773c3786
+<       dump_long (dumpfile, format, "Match bits ", matchbits);
+---
+>       dump_wide (dumpfile, format, "Match bits ", matchbits);
+3775,3776c3788,3789
+<       dump_long (dumpfile, format, "Buff1 bits ", buff1);
+<       dump_long (dumpfile, format, "Buff2 bits ", buff2);
+---
+>       dump_wide (dumpfile, format, "Buff1 bits ", buff1);
+>       dump_wide (dumpfile, format, "Buff2 bits ", buff2);
+4221c4234
+< 	  bytebuff1 = (buff2 >> 56);
+---
+> 	  bytebuff1 = (uint8_t)(buff2 >> 56);
+4223c4236
+< 	  bytebuff2 = (buff2 >> 48);
+---
+> 	  bytebuff2 = (uint8_t)(buff2 >> 48);
+4225c4238
+< 	  bytebuff3 = (buff2 >> 40);
+---
+> 	  bytebuff3 = (uint8_t)(buff2 >> 40);
+4227c4240
+< 	  bytebuff4 = (buff2 >> 32);
+---
+> 	  bytebuff4 = (uint8_t)(buff2 >> 32);
+4266c4279
+<       dump_long (dumpfile, format, "Match bits ", matchbits);
+---
+>       dump_wide (dumpfile, format, "Match bits ", matchbits);
+4268,4269c4281,4282
+<       dump_long (dumpfile, format, "Buff1 bits ", buff1);
+<       dump_long (dumpfile, format, "Buff2 bits ", buff2);
+---
+>       dump_wide (dumpfile, format, "Buff1 bits ", buff1);
+>       dump_wide (dumpfile, format, "Buff2 bits ", buff2);
+4290c4303
+<   int32_t  bytes_read = 0;
+---
+>   tmsize_t  bytes_read = 0;
+4348c4361
+<     buff = limitMalloc(stripsize + 3);
+---
+>     buff = limitMalloc(stripsize + NUM_BUFF_OVERSIZE_BYTES);
+4370c4383
+<       rows_this_strip = bytes_read / src_rowsize;
+---
+>       rows_this_strip = (uint32_t)(bytes_read / src_rowsize);
+5350c5363,5364
+<   uint32_t   stsize = 0, tlsize = 0, buffsize = 0, scanlinesize = 0;
+---
+>   tmsize_t   stsize = 0, tlsize = 0, buffsize = 0;
+>   tmsize_t   scanlinesize = 0;
+5352c5366
+<   uint32_t   tile_rowsize = 0;
+---
+>   tmsize_t   tile_rowsize = 0;
+5356c5370
+<   static   uint32_t  prev_readsize = 0;
+---
+>   static   tmsize_t  prev_readsize = 0;
+5605c5619
+<     /* The buffsize_check and the possible adaptation of buffsize* has to account also for padding of each line to a byte boundary.* This is assumed by mirrorImage() and rotateImage(). * Otherwise buffer-overflow might occur there. */
+---
+>     /* The buffsize_check and the possible adaptation of buffsize* has to account also for padding of each line to a byte boundary.* This is assumed by mirrorImage() and rotateImage(). * Furthermore, functions like extractContigSamplesShifted32bits() * need a buffer, which is at least 3 bytes larger than the actual image. * Otherwise buffer-overflow might occur there. */
+5648c5662
+<     read_buff = (unsigned char *)limitMalloc(buffsize+3);
+---
+>     read_buff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES);
+5659c5673
+<       new_buff = _TIFFrealloc(read_buff, buffsize+3);
+---
+>       new_buff = _TIFFrealloc(read_buff, buffsize + NUM_BUFF_OVERSIZE_BYTES);
+5663c5677
+<         read_buff = (unsigned char *)limitMalloc(buffsize+3);
+---
+>         read_buff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES);
+5729a5744,5746
+>     if (scanlinesize > 0x0ffffffffULL) {
+>         dump_info(dump->infile, dump->format, "loadImage","Attention: scanlinesize %"PRIu64" is larger than UINT32_MAX.\nFollowing dump might be wrong.",scanlinesize);
+>     }
+5731c5748
+<       dump_buffer(dump->infile, dump->format, 1, scanlinesize, i, read_buff + (i * scanlinesize));
+---
+>       dump_buffer(dump->infile, dump->format, 1, (uint32_t)scanlinesize, i, read_buff + (i * scanlinesize));
+6590c6607
+< 	 int inknameslen = strlen(inknames) + 1;
+---
+> 	 int inknameslen = (int)strlen(inknames) + 1;
+6596c6613
+< 	     inknameslen += (strlen(cp) + 1);
+---
+> 	     inknameslen += ((int)strlen(cp) + 1);
+6659c6676
+<     sect_buff = (unsigned char *)limitMalloc(sectsize);
+---
+>     sect_buff = (unsigned char *)limitMalloc(sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6665c6682
+<     _TIFFmemset(sect_buff, 0, sectsize);
+---
+>     _TIFFmemset(sect_buff, 0, sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6671c6688
+<       new_buff = _TIFFrealloc(sect_buff, sectsize);
+---
+>       new_buff = _TIFFrealloc(sect_buff, sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6675c6692
+<         sect_buff = (unsigned char *)limitMalloc(sectsize);
+---
+>         sect_buff = (unsigned char *)limitMalloc(sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6685c6702
+<       _TIFFmemset(sect_buff, 0, sectsize);
+---
+>       _TIFFmemset(sect_buff, 0, sectsize + NUM_BUFF_OVERSIZE_BYTES);
+6715c6732
+<       crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>       crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6721c6738
+<         next_buff = _TIFFrealloc(crop_buff, cropsize);
+---
+>         next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6725c6742
+<           crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>           crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6738c6755
+<     _TIFFmemset(crop_buff, 0, cropsize);
+---
+>     _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6811c6828
+<         crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>         crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6817c6834
+<           next_buff = _TIFFrealloc(crop_buff, cropsize);
+---
+>           next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6821c6838
+<             crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>             crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6834c6851
+<       _TIFFmemset(crop_buff, 0, cropsize);
+---
+>       _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6933c6950
+<     crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>     crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6939c6956
+<     _TIFFmemset(crop_buff, 0, cropsize);
+---
+>     _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6946c6963
+<       new_buff = _TIFFrealloc(crop_buff, cropsize);
+---
+>       new_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6950c6967
+<         crop_buff = (unsigned char *)limitMalloc(cropsize);
+---
+>         crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+6959c6976
+<       _TIFFmemset(crop_buff, 0, cropsize);
+---
+>       _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+7204c7221
+< 	 int inknameslen = strlen(inknames) + 1;
+---
+> 	 int inknameslen = (int)strlen(inknames) + 1;
+7210c7227
+< 	     inknameslen += (strlen(cp) + 1);
+---
+> 	     inknameslen += ((int)strlen(cp) + 1);
+7591c7608
+<         bytebuff1 = (buff2 >> 56);
+---
+>         bytebuff1 = (uint8_t)(buff2 >> 56);
+7593c7610
+<         bytebuff2 = (buff2 >> 48);
+---
+>         bytebuff2 = (uint8_t)(buff2 >> 48);
+7595c7612
+<         bytebuff3 = (buff2 >> 40);
+---
+>         bytebuff3 = (uint8_t)(buff2 >> 40);
+7597c7614
+<         bytebuff4 = (buff2 >> 32);
+---
+>         bytebuff4 = (uint8_t)(buff2 >> 32);
+7665c7682,7683
+<   if (!(rbuff = (unsigned char *)limitMalloc(buffsize)))
+---
+>   /* Add 3 padding bytes for extractContigSamplesShifted32bits */
+>   if (!(rbuff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES)))
+7667c7685
+<     TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize);
+---
+>     TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize + NUM_BUFF_OVERSIZE_BYTES);
+7670c7688
+<   _TIFFmemset(rbuff, '\0', buffsize);
+---
+>   _TIFFmemset(rbuff, '\0', buffsize + NUM_BUFF_OVERSIZE_BYTES);
+8186c8204
+<         bytebuff1 = (buff2 >> 56);
+---
+>         bytebuff1 = (uint8_t)(buff2 >> 56);
+8188c8206
+<         bytebuff2 = (buff2 >> 48);
+---
+>         bytebuff2 = (uint8_t)(buff2 >> 48);
+8190c8208
+<         bytebuff3 = (buff2 >> 40);
+---
+>         bytebuff3 = (uint8_t)(buff2 >> 40);
+8192c8210
+<         bytebuff4 = (buff2 >> 32);
+---
+>         bytebuff4 = (uint8_t)(buff2 >> 32);
+8282c8300
+<              line_buff = (unsigned char *)limitMalloc(rowsize);
+---
+>              line_buff = (unsigned char *)limitMalloc(rowsize + NUM_BUFF_OVERSIZE_BYTES);
+8285c8303
+< 	       TIFFError ("mirrorImage", "Unable to allocate mirror line buffer of %1u bytes", rowsize);
+---
+> 	       TIFFError ("mirrorImage", "Unable to allocate mirror line buffer of %1u bytes", rowsize + NUM_BUFF_OVERSIZE_BYTES);
+8287a8306
+>              _TIFFmemset(line_buff, '\0', rowsize + NUM_BUFF_OVERSIZE_BYTES);
+8319c8338
+<                 if (!(line_buff = (unsigned char *)limitMalloc(rowsize + 1)))
+---
+>                 if (!(line_buff = (unsigned char *)limitMalloc(rowsize + NUM_BUFF_OVERSIZE_BYTES)))
+8323a8343
+>                 _TIFFmemset(line_buff, '\0', rowsize + NUM_BUFF_OVERSIZE_BYTES);
+8335c8355
+<                   _TIFFmemset (line_buff, '\0', rowsize);
+---
+>                   _TIFFmemset (line_buff, '\0', rowsize + NUM_BUFF_OVERSIZE_BYTES);

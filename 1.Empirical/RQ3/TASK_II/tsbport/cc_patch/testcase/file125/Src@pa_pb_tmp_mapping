@@ -1,0 +1,1 @@
+return result ? (ssize_t) -1 : (ssize_t)Curl_dyn_len(to);

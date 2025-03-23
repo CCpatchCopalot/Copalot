@@ -1,0 +1,10 @@
+769a770
+>    bool isproxy = SSL_IS_PROXY() ? TRUE : FALSE;
+772c772
+<    incache = !(Curl_ssl_getsessionid(conn, &old_ssl_sessionid, NULL,
+---
+>incache = !(Curl_ssl_getsessionid(data, conn, isproxy,&old_ssl_sessionid, NULL, sockindex));
+784c784
+<                                     0 /* unknown size */, sockindex);
+---
+>result = Curl_ssl_addsessionid(data, conn, isproxy, our_ssl_sessionid, 0, sockindex);

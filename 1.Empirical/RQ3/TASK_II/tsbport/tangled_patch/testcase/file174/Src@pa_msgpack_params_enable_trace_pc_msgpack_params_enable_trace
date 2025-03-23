@@ -1,0 +1,93 @@
+static int msgpack_params_enable_trace(struct flb_hs *hs, msgpack_unpacked *result, const char *input_name)
+{
+    int ret = -1;
+    int i;
+    int x;
+    flb_sds_t prefix = NULL;
+    flb_sds_t output_name = NULL;
+    int toggled_on = -1;
+    msgpack_object *key;
+    msgpack_object *val;
+    struct mk_list *props = NULL;
+    msgpack_object_kv *param;
+    msgpack_object_str *param_key;
+    msgpack_object_str *param_val;
+
+
+    if (result->data.type == MSGPACK_OBJECT_MAP) {    
+        for (i = 0; i < result->data.via.map.size; i++) {
+            key = &result->data.via.map.ptr[i].key;
+            val = &result->data.via.map.ptr[i].val;
+            
+            if (key->type != MSGPACK_OBJECT_STR) {
+                ret = -1;
+                goto parse_error;
+            }
+
+            if (strncmp(key->via.str.ptr, "prefix", key->via.str.size) == 0) {
+                if (val->type != MSGPACK_OBJECT_STR) {
+                    ret = -1;
+                    goto parse_error;
+                }
+                if (prefix != NULL) {
+                    flb_sds_destroy(prefix);
+                }
+                prefix = flb_sds_create_len(val->via.str.ptr, val->via.str.size);
+            }
+            else if (strncmp(key->via.str.ptr, "output", key->via.str.size) == 0) {
+                if (val->type != MSGPACK_OBJECT_STR) {
+                    ret = -1;
+                    goto parse_error;
+                }
+                if (output_name != NULL) {
+                    flb_sds_destroy(output_name);
+                }
+                output_name = flb_sds_create_len(val->via.str.ptr, val->via.str.size);
+            }
+            else if (strncmp(key->via.str.ptr, "params", key->via.str.size) == 0) {
+                if (val->type != MSGPACK_OBJECT_MAP) {
+                    ret = -1;
+                    goto parse_error;
+                }
+                if (props != NULL) {
+                    flb_free(props);
+                }
+                props = flb_calloc(1, sizeof(struct mk_list));
+                flb_kv_init(props);
+                for (x = 0; x < val->via.map.size; x++) {
+                    param = &val->via.map.ptr[x];
+                    if (param->val.type != MSGPACK_OBJECT_STR) {
+                        ret = -1;
+                        goto parse_error;
+                    }
+                    if (param->key.type != MSGPACK_OBJECT_STR) {
+                        ret = -1;
+                        goto parse_error;
+                    }
+                    param_key = &param->key.via.str;
+                    param_val = &param->val.via.str;
+                    flb_kv_item_create_len(props,(char *)param_key->ptr, param_key->size,(char *)param_val->ptr, param_val->size);
+                }
+            }
+        }
+
+        if (output_name == NULL) {
+            output_name = flb_sds_create("stdout");
+        }
+
+        toggled_on = enable_trace_input(hs, input_name, prefix, output_name, props);
+        if (!toggled_on) {
+            ret = -1;
+            goto parse_error;
+        }
+    }
+
+parse_error:
+    if (prefix) flb_sds_destroy(prefix);
+    if (output_name) flb_sds_destroy(output_name);
+    if (props != NULL) {
+        flb_kv_release(props);
+        flb_free(props);
+    }
+    return ret;
+}

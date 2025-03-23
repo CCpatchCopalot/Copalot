@@ -1,0 +1,1220 @@
+{
+    "CVE-2016-5036": {
+        "poc": "http://www.openwall.com/lists/oss-security/2016/05/25/1",
+        "patch": "https://github.com/davea42/libdwarf-code/commit/82d8e007851805af0dcaaff41f49a2d48473334b",
+        "ccpatch": "ccpatch/libdwarf-code/CVE-2016-5036.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2016-7131": {
+        "poc": "https://bugs.php.net/bug.php?id=72790",
+        "patch": "https://github.com/php/php-src/commit/5a34bd6d1e6b4d31221c50bcf477c9508553a646",
+        "ccpatch": "ccpatch/php-src/CVE-2016-7131.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2016-7132": {
+        "poc": "https://bugs.php.net/bug.php?id=72799",
+        "patch": "https://github.com/php/php-src/commit/5a34bd6d1e6b4d31221c50bcf477c9508553a646",
+        "ccpatch": "ccpatch/php-src/CVE-2016-7132.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2017-11661": {
+        "poc": "https://www.exploit-db.com/exploits/42433",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1",
+        "ccpatch": "ccpatch/wildmidi/CVE-2017-11661.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2017-11662": {
+        "poc": "http://seclists.org/fulldisclosure/2017/Aug/12",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1",
+        "ccpatch": "ccpatch/wildmidi/CVE-2017-11662.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2017-11663": {
+        "poc": "http://seclists.org/fulldisclosure/2017/Aug/12",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1",
+        "ccpatch": "ccpatch/wildmidi/CVE-2017-11663.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2017-11664": {
+        "poc": "http://seclists.org/fulldisclosure/2017/Aug/12",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1",
+        "ccpatch": "ccpatch/wildmidi/CVE-2017-11664.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2017-14858": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494782",
+        "patch": "https://github.com/Exiv2/exiv2/commit/d3c2b9938583440f87ce9115de5a7e8cd8f8db57",
+        "ccpatch": "ccpatch/exiv2/CVE-2017-14858.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2017-14859": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494780",
+        "patch": "https://github.com/Exiv2/exiv2/commit/549cac47af7e0e5762b164512eff30d116bd4f2c",
+        "ccpatch": "ccpatch/exiv2/CVE-2017-14859.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change,All,Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change"
+    },
+    "CVE-2017-14860": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494776",
+        "patch": "https://github.com/Exiv2/exiv2/commit/ff18fec24b119579df26fd2ebb8bb012cde102ce",
+        "ccpatch": "ccpatch/exiv2/CVE-2017-14860.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2017-14861": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494787",
+        "patch": "https://github.com/Exiv2/exiv2/commit/d3c2b9938583440f87ce9115de5a7e8cd8f8db57",
+        "ccpatch": "ccpatch/exiv2/CVE-2017-14861.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2017-14862": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494786",
+        "patch": "https://github.com/Exiv2/exiv2/commit/549cac47af7e0e5762b164512eff30d116bd4f2c",
+        "ccpatch": "ccpatch/exiv2/CVE-2017-14862.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change,All,Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change"
+    },
+    "CVE-2017-14864": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494467",
+        "patch": "https://github.com/Exiv2/exiv2/commit/549cac47af7e0e5762b164512eff30d116bd4f2c",
+        "ccpatch": "ccpatch/exiv2/CVE-2017-14864.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change,All,Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change"
+    },
+    "CVE-2017-15932": {
+        "poc": "https://github.com/radare/radare2/issues/8743",
+        "patch": "https://github.com/radareorg/radare2/commit/44ded3ff35b8264f54b5a900cab32ec489d9e5b9\nhttps://github.com/radareorg/radare2/commit/62e39f34b2705131a2d08aff0c2e542c6a52cf0e",
+        "ccpatch": "ccpatch/radare2/CVE-2017-15932.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2017-17505": {
+        "poc": "https://github.com/xiaoqx/pocs/tree/master/hdf5/readme.md",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/1c3ba3721718c8089da65fae02f65068d8530fa7",
+        "ccpatch": "ccpatch/hdf5/CVE-2017-17505.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2017-17506": {
+        "poc": "https://github.com/xiaoqx/pocs/tree/master/hdf5/readme.md",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/1c3ba3721718c8089da65fae02f65068d8530fa7",
+        "ccpatch": "ccpatch/hdf5/CVE-2017-17506.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2017-17508": {
+        "poc": "https://github.com/xiaoqx/pocs/tree/master/hdf5/readme.md",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/1c3ba3721718c8089da65fae02f65068d8530fa7",
+        "ccpatch": "ccpatch/hdf5/CVE-2017-17508.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2017-6387": {
+        "poc": "https://github.com/radare/radare2/issues/6857",
+        "patch": "https://github.com/radareorg/radare2/commit/ead645853a63bf83d8386702cad0cf23b31d7eeb\nhttps://github.com/radareorg/radare2/commit/1cb8dcf905de47bc8c4534ac45692be1dce300c0",
+        "ccpatch": "ccpatch/radare2/CVE-2017-6387.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2017-7596": {
+        "poc": "https://blogs.gentoo.org/ago/2017/04/01/libtiff-multiple-ubsan-crashes",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/d2e6964efcb785b8566a6b538133299870082768",
+        "ccpatch": "ccpatch/libtiff/CVE-2017-7596.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2017-7597": {
+        "poc": "https://blogs.gentoo.org/ago/2017/04/01/libtiff-multiple-ubsan-crashes",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/d2e6964efcb785b8566a6b538133299870082768",
+        "ccpatch": "ccpatch/libtiff/CVE-2017-7597.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2018-1000001": {
+        "poc": "https://www.exploit-db.com/exploits/43775",
+        "patch": "https://github.com/bminor/glibc/commit/52a713fdd0a30e1bd79818e2e3c4ab44ddca1a94",
+        "ccpatch": "ccpatch/glibc/CVE-2018-1000001.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2018-10186": {
+        "poc": "https://github.com/radare/radare2/issues/9915",
+        "patch": "https://github.com/radareorg/radare2/commit/a0348bb1b512ef27301dd7cdfb327ef5e14813fc",
+        "ccpatch": "ccpatch/radare2/CVE-2018-10186.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2018-11202": {
+        "poc": "https://github.com/Twi1ight/fuzzing-pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-11202.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-11205": {
+        "poc": "https://github.com/Twi1ight/fuzzing-pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-11205.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-13866": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-13866.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-13867": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-13867.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-13869": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/7c3d4402d730789173e413b48951fede5f6932f3",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-13869.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-13870": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/7c3d4402d730789173e413b48951fede5f6932f3",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-13870.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-13871": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-13871.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-13873": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/56b32278c4425afd8407f5b55310beed5c957d6a",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-13873.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-14015": {
+        "poc": "https://github.com/radare/radare2/issues/10465",
+        "patch": "https://github.com/radareorg/radare2/commit/d37d2b858ac47f2f108034be0bcecadaddfbc8b3\nhttps://github.com/radareorg/radare2/commit/ebe148a6702542f12ca4c677325df5d435d0ef4d",
+        "ccpatch": "ccpatch/radare2/CVE-2018-14015.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-14016": {
+        "poc": "https://github.com/radare/radare2/issues/10464",
+        "patch": "https://github.com/radareorg/radare2/commit/eb7deb281df54771fb8ecf5890dc325a7d22d3e2",
+        "ccpatch": "ccpatch/radare2/CVE-2018-14016.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2018-15209": {
+        "poc": "http://bugzilla.maptools.org/show_bug.cgi?id=2808",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/3719385a3fac5cfb20b487619a5f08abbf967cf8\nhttps://gitlab.com/libtiff/libtiff/-/commit/7a092f8af2568d61993a8cc2e7a35a998d7d37be",
+        "ccpatch": "ccpatch/libtiff/CVE-2018-15209.diff",
+        "taxonomy": "Feature Modification,Feature Introduction,Functional Change,All,Feature Modification,Feature Introduction,Functional Change"
+    },
+    "CVE-2018-15671": {
+        "poc": "https://github.com/SegfaultMasters/covering360/tree/master/HDF5#stack-overflow---stackoverflow_h5p__get_cb",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-15671.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-17234": {
+        "poc": "https://github.com/SegfaultMasters/covering360/tree/master/HDF5/vuln3#memory-leak---h5o__chunk_deserialize_memory_leak",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/56b32278c4425afd8407f5b55310beed5c957d6a",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-17234.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2018-17237": {
+        "poc": "https://github.com/SegfaultMasters/covering360/blob/master/HDF5/README.md#divided-by-zero---h5d__chunk_set_info_real_div_by_zero",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/160107a97c30a759ffd4ba7fe13284d24d349301",
+        "ccpatch": "ccpatch/hdf5/CVE-2018-17237.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2018-19607": {
+        "poc": "https://github.com/Exiv2/exiv2/issues/561",
+        "patch": "https://github.com/Exiv2/exiv2/commit/6e42c1b55e0fc4f360cc56010b0ffe19aa6062d9",
+        "ccpatch": "ccpatch/exiv2/CVE-2018-19607.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2018-20455": {
+        "poc": "https://github.com/radare/radare2/issues/12373",
+        "patch": "https://github.com/radareorg/radare2/commit/9b46d38dd3c4de6048a488b655c7319f845af185",
+        "ccpatch": "ccpatch/radare2/CVE-2018-20455.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2018-20456": {
+        "poc": "https://github.com/radare/radare2/issues/12372",
+        "patch": "https://github.com/radareorg/radare2/commit/9b46d38dd3c4de6048a488b655c7319f845af185",
+        "ccpatch": "ccpatch/radare2/CVE-2018-20456.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2018-20458": {
+        "poc": "https://github.com/radare/radare2/issues/12374",
+        "patch": "https://github.com/radare/radare2/commit/30f4c7b52a4e2dc0d0b1bae487d90f5437c69d19",
+        "ccpatch": "ccpatch/radare2/CVE-2018-20458.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Global Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Global Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2019-12481": {
+        "poc": "https://github.com/gpac/gpac/issues/1249",
+        "patch": "https://github.com/gpac/gpac/commit/f40aaaf959d4d1f7fa0dcd04c0666592e615c8f1",
+        "ccpatch": "ccpatch/gpac/CVE-2019-12481.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-12482": {
+        "poc": "https://github.com/gpac/gpac/issues/1249",
+        "patch": "https://github.com/gpac/gpac/commit/f40aaaf959d4d1f7fa0dcd04c0666592e615c8f1",
+        "ccpatch": "ccpatch/gpac/CVE-2019-12482.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-12483": {
+        "poc": "https://github.com/gpac/gpac/issues/1249",
+        "patch": "https://github.com/gpac/gpac/commit/f40aaaf959d4d1f7fa0dcd04c0666592e615c8f1",
+        "ccpatch": "ccpatch/gpac/CVE-2019-12483.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-13454": {
+        "poc": "https://github.com/ImageMagick/ImageMagick/issues/1629",
+        "patch": "https://github.com/ImageMagick/ImageMagick/commit/1ddcf2e4f28029a888cadef2e757509ef5047ad8",
+        "ccpatch": "ccpatch/ImageMagick/CVE-2019-13454.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2019-20160": {
+        "poc": "https://github.com/gpac/gpac/issues/1334",
+        "patch": "https://github.com/gpac/gpac/commit/bcfcb3e90476692fe0d2bb532ea8deeb2a77580e",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20160.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20163": {
+        "poc": "https://github.com/gpac/gpac/issues/1335",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20163.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20164": {
+        "poc": "https://github.com/gpac/gpac/issues/1332",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20164.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20165": {
+        "poc": "https://github.com/gpac/gpac/issues/1338",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20165.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20166": {
+        "poc": "https://github.com/gpac/gpac/issues/1331",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20166.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20167": {
+        "poc": "https://github.com/gpac/gpac/issues/1330",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20167.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20171": {
+        "poc": "https://github.com/gpac/gpac/issues/1337",
+        "patch": "https://github.com/gpac/gpac/commit/72cdc5048dead86bb1df7d21e0b9975e49cf2d97\nhttps://github.com/gpac/gpac/commit/2bcca3f1d4605100bb27d3ed7be25b53cddbc75c",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20171.diff",
+        "taxonomy": "Feature Modification,Non-Security Bug Fix,Functional Change,Fixing Change,All,Feature Modification,Non-Security Bug Fix,Functional Change,Fixing Change"
+    },
+    "CVE-2019-20208": {
+        "poc": "https://github.com/gpac/gpac/issues/1348",
+        "patch": "https://github.com/gpac/gpac/commit/bcfcb3e90476692fe0d2bb532ea8deeb2a77580e",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20208.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20628": {
+        "poc": "https://github.com/gpac/gpac/issues/1269",
+        "patch": "https://github.com/gpac/gpac/commit/1ab4860609f2e7a35634930571e7d0531297e090\nhttps://github.com/gpac/gpac/commit/98b727637e32d1d4824101d8947e2dbd573d4fc8",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20628.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2019-20630": {
+        "poc": "https://github.com/gpac/gpac/issues/1268",
+        "patch": "https://github.com/gpac/gpac/commit/1ab4860609f2e7a35634930571e7d0531297e090\nhttps://github.com/gpac/gpac/commit/98b727637e32d1d4824101d8947e2dbd573d4fc8",
+        "ccpatch": "ccpatch/gpac/CVE-2019-20630.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-15190": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4g9f-63rx-5cw4",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/da8558533d925694483d2c136a9220d6d49d843c",
+        "ccpatch": "ccpatch/tensorflow/CVE-2020-15190.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2020-15206": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-w5gh-2wr2-pm6g",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/adf095206f25471e864a8e63a0f1caef53a0e3a6",
+        "ccpatch": "ccpatch/tensorflow/CVE-2020-15206.diff",
+        "taxonomy": "Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Equivalent Change,All,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Equivalent Change"
+    },
+    "CVE-2020-15214": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-p2cq-cprg-frvm",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/204945b19e44b57906c9344c0d00120eeeae178a",
+        "ccpatch": "ccpatch/tensorflow/CVE-2020-15214.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2020-15945": {
+        "poc": "http://lua-users.org/lists/lua-l/2020-07/msg00123.html",
+        "patch": "https://github.com/lua/lua/commit/a2195644d89812e5b157ce7bac35543e06db05e3",
+        "ccpatch": "ccpatch/lua/CVE-2020-15945.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2020-16291": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701787",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=4f73e8b4d578e69a17f452fa60d2130c5faaefd6",
+        "ccpatch": "ccpatch/ghostscript/CVE-2020-16291.diff",
+        "taxonomy": "Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change,All,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change"
+    },
+    "CVE-2020-16294": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701794",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=89f58f1aa95b3482cadf6977da49457194ee5358",
+        "ccpatch": "ccpatch/ghostscript/CVE-2020-16294.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2020-16296": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701792",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=9f39ed4a92578a020ae10459643e1fe72573d134",
+        "ccpatch": "ccpatch/ghostscript/CVE-2020-16296.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-16297": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701800",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=bf72f1a3dd5392ee8291e3b1518a0c2c5dc6ba39",
+        "ccpatch": "ccpatch/ghostscript/CVE-2020-16297.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2020-16304": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701816",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=027c546e0dd11e0526f1780a7f3c2c66acffe209",
+        "ccpatch": "ccpatch/ghostscript/CVE-2020-16304.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Local Equivalent Change,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Local Equivalent Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2020-16310": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701828",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=eaba1d97b62831b42c51840cc8ee2bc4576c942e",
+        "ccpatch": "ccpatch/ghostscript/CVE-2020-16310.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2020-17538": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701792",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=9f39ed4a92578a020ae10459643e1fe72573d134",
+        "ccpatch": "ccpatch/ghostscript/CVE-2020-17538.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-18771": {
+        "poc": "https://github.com/Exiv2/exiv2/issues/756",
+        "patch": "https://github.com/Exiv2/exiv2/commit/b148cfaa1ab1a6a0ce8eb90d3b18b660a7620a34",
+        "ccpatch": "ccpatch/exiv2/CVE-2020-18771.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2020-19481": {
+        "poc": "https://github.com/gpac/gpac/issues/1267",
+        "patch": "https://github.com/gpac/gpac/commit/f0af02425883b2e1c651c6d0c602e1259b67a6b6",
+        "ccpatch": "ccpatch/gpac/CVE-2020-19481.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2020-21830": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493134",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31",
+        "ccpatch": "ccpatch/libredwg/CVE-2020-21830.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2020-21831": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493267",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/185889b5abc6ff68b071758b82cf20be11102326",
+        "ccpatch": "ccpatch/libredwg/CVE-2020-21831.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-21840": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493513",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31",
+        "ccpatch": "ccpatch/libredwg/CVE-2020-21840.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2020-21841": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493775",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31",
+        "ccpatch": "ccpatch/libredwg/CVE-2020-21841.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2020-21844": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493607",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31",
+        "ccpatch": "ccpatch/libredwg/CVE-2020-21844.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2020-23321": {
+        "poc": "https://github.com/jerryscript-project/jerryscript/issues/3870",
+        "patch": "https://github.com/jerryscript-project/jerryscript/commit/fed1b0c8270ffb172c9bfb2744e9d5bca8d11dfb",
+        "ccpatch": "ccpatch/jerryscript/CVE-2020-23321.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-23323": {
+        "poc": "https://github.com/jerryscript-project/jerryscript/issues/3871",
+        "patch": "https://github.com/jerryscript-project/jerryscript/commit/fed1b0c8270ffb172c9bfb2744e9d5bca8d11dfb",
+        "ccpatch": "ccpatch/jerryscript/CVE-2020-23323.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-23931": {
+        "poc": "https://github.com/gpac/gpac/issues/1564",
+        "patch": "https://github.com/gpac/gpac/commit/093283e727f396130651280609e687cd4778e0d1\nhttps://github.com/gpac/gpac/commit/e74be5976a6fee059c638050a237893f7e9a3b23",
+        "ccpatch": "ccpatch/gpac/CVE-2020-23931.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change,All,Irrelevant Vulnerability Fix,Feature Introduction,Functional Change,Fixing Change"
+    },
+    "CVE-2020-24829": {
+        "poc": "https://github.com/gpac/gpac/issues/1422",
+        "patch": "https://github.com/gpac/gpac/commit/8c5e847185d74462d674ee7d28fb46c29dae6dd2",
+        "ccpatch": "ccpatch/gpac/CVE-2020-24829.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2020-26269": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-9jjw-hf72-3mxw",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/8b5b9dc96666a3a5d27fad7179ff215e3b74b67c",
+        "ccpatch": "ccpatch/tensorflow/CVE-2020-26269.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2020-28603": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28603.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28606": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28606.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28608": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28608.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28609": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28609.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28612": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28612.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28613": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28613.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28615": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28615.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28621": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28621.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28623": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28623.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28625": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28625.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28626": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28626.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28629": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28629.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28632": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28632.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28633": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28633.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28634": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28634.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-28635": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-28635.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-35631": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-35631.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-35632": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-35632.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-35633": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch/cgal/CVE-2020-35633.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-35635": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal//commit/5a1ab45058112f8647c14c02f58905ecc597ec76",
+        "ccpatch": "ccpatch//CVE-2020-35635.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2020-6018": {
+        "poc": "https://research.checkpoint.com/2020/game-on-finding-vulnerabilities-in-valves-steam-sockets/",
+        "patch": "https://github.com/ValveSoftware/GameNetworkingSockets/commit/bea84e2844b647532a9b7fbc3a6a8989d66e49e3",
+        "ccpatch": "ccpatch/GameNetworkingSockets/CVE-2020-6018.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2020-6630": {
+        "poc": "https://github.com/gpac/gpac/issues/1377",
+        "patch": "https://github.com/gpac/gpac/commit/c7e46e948ebe2d4a532539c7e714cdf655b84521",
+        "ccpatch": "ccpatch/gpac/CVE-2020-6630.diff",
+        "taxonomy": "Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change,All,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change"
+    },
+    "CVE-2020-6631": {
+        "poc": "https://github.com/gpac/gpac/issues/1378",
+        "patch": "https://github.com/gpac/gpac/commit/c7e46e948ebe2d4a532539c7e714cdf655b84521",
+        "ccpatch": "ccpatch/gpac/CVE-2020-6631.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2021-22890": {
+        "poc": "https://hackerone.com/reports/1129529",
+        "patch": "https://github.com/curl/curl/commit/b09c8ee15771c614c4bf3ddac893cdb12187c844",
+        "ccpatch": "ccpatch/curl/CVE-2021-22890.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2021-22897": {
+        "poc": "https://hackerone.com/reports/1172857",
+        "patch": "https://github.com/curl/curl/commit/bbb71507b7bab52002f9b1e0880bed6a32834511",
+        "ccpatch": "ccpatch/curl/CVE-2021-22897.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2021-22901": {
+        "poc": "https://curl.se/docs/CVE-2021-22901.html",
+        "patch": "https://github.com/curl/curl/commit/7f4a9a9b2a49547eae24d2e19bc5c346e9026479",
+        "ccpatch": "ccpatch/curl/CVE-2021-22901.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2021-29542": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4hrh-9vmp-2jgg",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/ba424dd8f16f7110eea526a8086f1a155f14f22b",
+        "ccpatch": "ccpatch/tensorflow/CVE-2021-29542.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2021-29591": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-cwv3-863g-39vx",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/9c1dc920d8ffb4893d6c9d27d1f039607b326743\nhttps://github.com/tensorflow/tensorflow/commit/c6173f5fe66cdbab74f4f869311fe6aae2ba35f4",
+        "ccpatch": "ccpatch/tensorflow/CVE-2021-29591.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2021-30014": {
+        "poc": "https://github.com/gpac/gpac/issues/1721",
+        "patch": "https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788#diff-85593a2543dbc09dce05fbe45b933dcc7a837880b482bd12858c4497ae796314L9660",
+        "ccpatch": "ccpatch/gpac/CVE-2021-30014.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change"
+    },
+    "CVE-2021-30020": {
+        "poc": "https://github.com/gpac/gpac/issues/1722",
+        "patch": "https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788#diff-85593a2543dbc09dce05fbe45b933dcc7a837880b482bd12858c4497ae796314L9660",
+        "ccpatch": "ccpatch/gpac/CVE-2021-30020.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change"
+    },
+    "CVE-2021-30022": {
+        "poc": "https://github.com/gpac/gpac/issues/1720",
+        "patch": "https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788#diff-85593a2543dbc09dce05fbe45b933dcc7a837880b482bd12858c4497ae796314L9660",
+        "ccpatch": "ccpatch/gpac/CVE-2021-30022.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change"
+    },
+    "CVE-2021-32134": {
+        "poc": "https://github.com/gpac/gpac/issues/1756",
+        "patch": "https://github.com/gpac/gpac/commit/328c6d682698fdb9878dbb4f282963d42c538c01",
+        "ccpatch": "ccpatch/gpac/CVE-2021-32134.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2021-32439": {
+        "poc": "https://github.com/gpac/gpac/issues/1774",
+        "patch": "https://github.com/gpac/gpac/commit/77ed81c069e10b3861d88f72e1c6be1277ee7eae",
+        "ccpatch": "ccpatch/gpac/CVE-2021-32439.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2021-32440": {
+        "poc": "https://github.com/gpac/gpac/issues/1772",
+        "patch": "https://github.com/gpac/gpac/commit/f0ba83717b6e4d7a15a1676d1fe06152e199b011",
+        "ccpatch": "ccpatch/gpac/CVE-2021-32440.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2021-32613": {
+        "poc": "https://github.com/radareorg/radare2/issues/18679",
+        "patch": "https://github.com/radareorg/radare2/commit/5e16e2d1c9fe245e4c17005d779fde91ec0b9c05",
+        "ccpatch": "ccpatch/radare2/CVE-2021-32613.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2021-3770": {
+        "poc": "https://huntr.dev/bounties/016ad2f2-07c1-4d14-a8ce-6eed10729365",
+        "patch": "https://github.com/vim/vim/commit/b7081e135a16091c93f6f5f7525a5c58fb7ca9f9",
+        "ccpatch": "ccpatch/vim/CVE-2021-3770.diff",
+        "taxonomy": "Feature Modification,Feature Introduction,Local Equivalent Change,Functional Change,Equivalent Change,All,Feature Modification,Feature Introduction,Local Equivalent Change,Functional Change,Equivalent Change"
+    },
+    "CVE-2021-39530": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/258",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/4b99edb0ea26e99ef65c5fe68670e6b1f9382d44\nhttps://github.com/LibreDWG/libredwg/commit/dac8fcc4be1007ccf4412ae5e90303e335fdb412",
+        "ccpatch": "ccpatch/libredwg/CVE-2021-39530.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2021-4043": {
+        "poc": "https://github.com/cyberark/PwnKit-Hunter",
+        "patch": "https://github.com/gpac/gpac/commit/64a2e1b799352ac7d7aad1989bc06e7b0f2b01db",
+        "ccpatch": "ccpatch/gpac/CVE-2021-4043.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2021-40574": {
+        "poc": "https://github.com/gpac/gpac/issues/1897",
+        "patch": "https://github.com/gpac/gpac/commit/30ac5e5236b790accd1f25347eebf2dc8c6c1bcb\nhttps://github.com/gpac/gpac/commit/0bfa7667ecd1e08951c452c32d4d246d9b20e435",
+        "ccpatch": "ccpatch/gpac/CVE-2021-40574.diff",
+        "taxonomy": "Feature Modification,Feature Introduction,Functional Change,All,Feature Modification,Feature Introduction,Functional Change"
+    },
+    "CVE-2021-41458": {
+        "poc": "https://github.com/gpac/gpac/issues/1910",
+        "patch": "https://github.com/gpac/gpac/commit/74695dea7278e78af3db467e586233fe8773c07e",
+        "ccpatch": "ccpatch/gpac/CVE-2021-41458.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2021-44919": {
+        "poc": "https://github.com/gpac/gpac/issues/1963",
+        "patch": "https://github.com/gpac/gpac/commit/eaea647cc7dec7b452c17e72f4ce46be35348c92",
+        "ccpatch": "ccpatch/gpac/CVE-2021-44919.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2021-44923": {
+        "poc": "https://github.com/gpac/gpac/issues/1962",
+        "patch": "https://github.com/gpac/gpac/commit/8a3c021109d26894c3cb85c9d7cda5780a3a2229",
+        "ccpatch": "ccpatch/gpac/CVE-2021-44923.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2022-0139": {
+        "poc": "https://huntr.dev/bounties/3dcb6f40-45cd-403b-929f-db123fde32c0",
+        "patch": "https://github.com/radareorg/radare2/commit/37897226a1a31f982bfefdc4aeefc2e50355c73c \\n\nhttps://github.com/radareorg/radare2/commit/3345147916b9bb3da225248d571cdbac690c0c4d",
+        "ccpatch": "ccpatch/radare2/CVE-2022-0139.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Global Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Global Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2022-0156": {
+        "poc": "https://huntr.dev/bounties/47dded34-3767-4725-8c7c-9dcb68c70b36",
+        "patch": "https://github.com/vim/vim/commit/9f1a39a5d1cd7989ada2d1cb32f97d84360e050f",
+        "ccpatch": "ccpatch/vim/CVE-2022-0156.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-0393": {
+        "poc": "https://huntr.dev/bounties/ecc8f488-01a0-477f-848f-e30b8e524bba",
+        "patch": "https://github.com/vim/vim/commit/a4bc2dd7cccf5a4a9f78b58b6f35a45d17164323",
+        "ccpatch": "ccpatch/vim/CVE-2022-0393.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-0417": {
+        "poc": "https://huntr.dev/bounties/fc86bc8d-c866-4ade-8b7f-e49cec306d1a",
+        "patch": "https://github.com/vim/vim/commit/652dee448618589de5528a9e9a36995803f5557a",
+        "ccpatch": "ccpatch/vim/CVE-2022-0417.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-0481": {
+        "poc": "https://huntr.dev/bounties/54725c8c-87f4-41b6-878c-01d8e0ee7027",
+        "patch": "https://github.com/mruby/mruby/commit/ae3c99767a27f5c6c584162e2adc6a5d0eb2c54e\nhttps://github.com/mruby/mruby/commit/12d51807a397545d5cf423d2f9bd9b52b7e4a786",
+        "ccpatch": "ccpatch/mruby/CVE-2022-0481.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2022-0519": {
+        "poc": "https://huntr.dev/bounties/af85b9e1-d1cf-4c0e-ba12-525b82b7c1e3",
+        "patch": "https://github.com/radareorg/radare2/commit/6c4428f018d385fc80a33ecddcb37becea685dd5",
+        "ccpatch": "ccpatch/radare2/CVE-2022-0519.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2022-0521": {
+        "poc": "https://huntr.dev/bounties/4d436311-bbf1-45a3-8774-bdb666d7f7ca",
+        "patch": "https://github.com/radareorg/radare2/commit/6c4428f018d385fc80a33ecddcb37becea685dd5",
+        "ccpatch": "ccpatch/radare2/CVE-2022-0521.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-0523": {
+        "poc": "https://huntr.dev/bounties/9d8d6ae0-fe00-40b9-ae1e-b0e8103bac69",
+        "patch": "https://github.com/radareorg/radare2/commit/35482cb760db10f87a62569e2f8872dbd95e9269",
+        "ccpatch": "ccpatch/radare2/CVE-2022-0523.diff",
+        "taxonomy": "Local Equivalent Change,Global Equivalent Change,Equivalent Change,All,Local Equivalent Change,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-0559": {
+        "poc": "https://huntr.dev/bounties/aa80adb7-e900-44a5-ad05-91f3ccdfc81e",
+        "patch": "https://github.com/radareorg/radare2/commit/b5cb90b28ec71fda3504da04e3cc94a362807f5e\nhttps://github.com/radareorg/radare2/commit/3345147916b9bb3da225248d571cdbac690c0c4d\nhttps://github.com/radareorg/radare2/commit/ead0cee8265df7d019065b82d36284addbf05a75",
+        "ccpatch": "ccpatch/radare2/CVE-2022-0559.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2022-0676": {
+        "poc": "https://huntr.dev/bounties/5ad814a1-5dd3-43f4-869b-33b8dab78485",
+        "patch": "https://github.com/radareorg/radare2/commit/c84b7232626badd075caf3ae29661b609164bac6",
+        "ccpatch": "ccpatch/radare2/CVE-2022-0676.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-1052": {
+        "poc": "https://huntr.dev/bounties/3b3b7f77-ab8d-4de3-999b-eeec0a3eebe7",
+        "patch": "https://github.com/radareorg/radare2/commit/0052500c1ed5bf8263b26b9fd7773dbdc6f170c4",
+        "ccpatch": "ccpatch/radare2/CVE-2022-1052.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2022-1437": {
+        "poc": "https://huntr.dev/bounties/af6c3e9e-b7df-4d80-b48f-77fdd17b4038",
+        "patch": "https://github.com/radareorg/radare2/commit/669a404b6d98d5db409a5ebadae4e94b34ef5136 \\n \nhttps://github.com/radareorg/radare2/commit/cfd66d0d28e399ec5d2a6b0d84900ea393b93b15",
+        "ccpatch": "ccpatch/radare2/CVE-2022-1437.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Non-Security Bug Fix,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2022-1451": {
+        "poc": "https://huntr.dev/bounties/229a2e0d-9e5c-402f-9a24-57fa2eb1aaa7",
+        "patch": "https://github.com/radareorg/radare2/commit/0927ed3ae99444e7b47b84e43118deb10fe37529",
+        "ccpatch": "ccpatch/radare2/CVE-2022-1451.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-1795": {
+        "poc": "https://huntr.dev/bounties/9c312763-41a6-4fc7-827b-269eb86efcbc",
+        "patch": "https://github.com/gpac/gpac/commit/c535bad50d5812d27ee5b22b54371bddec41151",
+        "ccpatch": "ccpatch/gpac/CVE-2022-1795.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-1809": {
+        "poc": "https://huntr.dev/bounties/0730a95e-c485-4ff2-9a5d-bb3abfda0b17",
+        "patch": "https://github.com/radareorg/radare2/commit/919e3ac1a13f753c73e7a8e8d8bb4a143218732d",
+        "ccpatch": "ccpatch/radare2/CVE-2022-1809.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-22576": {
+        "poc": "https://hackerone.com/reports/1526328",
+        "patch": "https://github.com/curl/curl/commit/852aa5ad351ea53e5f01d2f44b5b4370c2bf5425",
+        "ccpatch": "ccpatch/curl/CVE-2022-22576.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-2453": {
+        "poc": "https://huntr.dev/bounties/c8c964de-046a-41b2-9ff5-e25cfdb36b5a",
+        "patch": "https://github.com/gpac/gpac/commit/dc7de8d3d604426c7a6e628d90cb9fb88e7b4c2c",
+        "ccpatch": "ccpatch/gpac/CVE-2022-2453.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-24577": {
+        "poc": "https://huntr.dev/bounties/0758b3a2-8ff2-45fc-8543-7633d605d24e/",
+        "patch": "https://github.com/gpac/gpac/commit/586e817dcd531bb3e75438390f1f753cfe6e940a",
+        "ccpatch": "ccpatch/gpac/CVE-2022-24577.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2022-29206": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-rc9w-5c64-9vqq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/11ced8467eccad9c7cb94867708be8fa5c66c730",
+        "ccpatch": "ccpatch/tensorflow/CVE-2022-29206.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2022-29208": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-2r2f-g8mw-9gvr",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/30721cf564cb029d34535446d6a5a6357bebc8e7",
+        "ccpatch": "ccpatch/tensorflow/CVE-2022-29208.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2022-29340": {
+        "poc": "https://github.com/gpac/gpac/issues/2163",
+        "patch": "https://github.com/gpac/gpac/commit/37592ad86c6ca934d34740012213e467acc4a3b0",
+        "ccpatch": "ccpatch/gpac/CVE-2022-29340.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-31620": {
+        "poc": "https://github.com/thorfdbg/libjpeg/issues/70",
+        "patch": "https://github.com/thorfdbg/libjpeg/commit/ef4a29a62ab48b8dc235f4af52cfd6319eda9a6a",
+        "ccpatch": "ccpatch/libjpeg/CVE-2022-31620.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-3256": {
+        "poc": "https://huntr.dev/bounties/8336a3df-212a-4f8d-ae34-76ef1f936bb3",
+        "patch": "https://github.com/vim/vim/commit/8ecfa2c56b4992c7f067b92488aa9acea5a454ad",
+        "ccpatch": "ccpatch/vim/CVE-2022-3256.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-3297": {
+        "poc": "https://huntr.dev/bounties/1aa9ec92-0355-4710-bf85-5bce9effa01c",
+        "patch": "https://github.com/vim/vim/commit/0ff01835a40f549c5c4a550502f62a2ac9ac447c",
+        "ccpatch": "ccpatch/vim/CVE-2022-3297.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-33099": {
+        "poc": "https://lua-users.org/lists/lua-l/2022-05/msg00073.html",
+        "patch": "https://github.com/lua/lua/commit/42d40581dd919fb134c07027ca1ce0844c670daf",
+        "ccpatch": "ccpatch/lua/CVE-2022-33099.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-33103": {
+        "poc": "https://lore.kernel.org/all/20220609140206.297405-1-miquel.raynal@bootlin.com/",
+        "patch": "https://github.com/u-boot/u-boot/commit/2ac0baab4aff1a0b45067d0b62f00c15f4e86856",
+        "ccpatch": "ccpatch/u-boot/CVE-2022-33103.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-3598": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/435",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/cfbb883bf6ea7bedcb04177cc4e52d304522fdff#7553",
+        "ccpatch": "ccpatch/libtiff/CVE-2022-3598.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2022-36190": {
+        "poc": "https://github.com/gpac/gpac/issues/2220",
+        "patch": "https://github.com/gpac/gpac/commit/fef6242c69be4f7ba22b32578e4b62648a3d4ed3",
+        "ccpatch": "ccpatch/gpac/CVE-2022-36190.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2022-36191": {
+        "poc": "https://github.com/gpac/gpac/issues/2218",
+        "patch": "https://github.com/gpac/gpac/commit/fef6242c69be4f7ba22b32578e4b62648a3d4ed3",
+        "ccpatch": "ccpatch/gpac/CVE-2022-36191.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2022-38266": {
+        "poc": "https://github.com/tesseract-ocr/tesseract/issues/3498",
+        "patch": "https://github.com/DanBloomberg/leptonica/commit/f062b42c0ea8dddebdc6a152fd16152de215d614",
+        "ccpatch": "ccpatch/leptonica/CVE-2022-38266.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2022-41325": {
+        "poc": "https://www.synacktiv.com/sites/default/files/2022-11/vlc_vnc_int_overflow-CVE-2022-41325.pdf",
+        "patch": "https://github.com/videolan/vlc/commit/5eb783fd44ed6298db3e38f7765f21c42e4405f9",
+        "ccpatch": "ccpatch/vlc/CVE-2022-41325.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2022-41896": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-rmg2-f698-wq35",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/39ec7eaf1428e90c37787e5b3fbd68ebd3c48860",
+        "ccpatch": "ccpatch/tensorflow/CVE-2022-41896.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2022-43045": {
+        "poc": "https://github.com/gpac/gpac/issues/2277",
+        "patch": "https://github.com/gpac/gpac/commit/c5249ee4b62dfc604fecb4dce2fc480b3e388bbb",
+        "ccpatch": "ccpatch/gpac/CVE-2022-43045.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2022-4645": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/277",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/e813112545942107551433d61afd16ac094ff246",
+        "ccpatch": "ccpatch/libtiff/CVE-2022-4645.diff",
+        "taxonomy": "Feature Introduction,Non-Security Bug Fix,Functional Change,Fixing Change,All,Feature Introduction,Non-Security Bug Fix,Functional Change,Fixing Change"
+    },
+    "CVE-2022-47087": {
+        "poc": "https://github.com/gpac/gpac/issues/2339",
+        "patch": "https://github.com/gpac/gpac/commit/48760768611f6766bf9e7378bb7cc66cebd6e49d",
+        "ccpatch": "ccpatch/gpac/CVE-2022-47087.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Global Equivalent Change,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Global Equivalent Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2022-47088": {
+        "poc": "https://github.com/gpac/gpac/issues/2340",
+        "patch": "https://github.com/gpac/gpac/commit/48760768611f6766bf9e7378bb7cc66cebd6e49d",
+        "ccpatch": "ccpatch/gpac/CVE-2022-47088.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Global Equivalent Change,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Global Equivalent Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2022-47090": {
+        "poc": "https://github.com/gpac/gpac/issues/2341",
+        "patch": "https://github.com/gpac/gpac/commit/48760768611f6766bf9e7378bb7cc66cebd6e49d",
+        "ccpatch": "ccpatch/gpac/CVE-2022-47090.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Global Equivalent Change,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Global Equivalent Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2022-47660": {
+        "poc": "https://github.com/gpac/gpac/issues/2357",
+        "patch": "https://github.com/gpac/gpac/commit/a8f438d201fb165961ba1d5d3b80daa3637735f4?w=1",
+        "ccpatch": "ccpatch/gpac/CVE-2022-47660.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2023-0358": {
+        "poc": "https://huntr.dev/bounties/93e128ed-253f-4c42-81ff-fbac7fd8f355",
+        "patch": "https://github.com/gpac/gpac/commit/9971fb125cf91cefd081a080c417b90bbe4a467b",
+        "ccpatch": "ccpatch/gpac/CVE-2023-0358.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2023-0795": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/493",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68",
+        "ccpatch": "ccpatch/libtiff/CVE-2023-0795.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-0796": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/499",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68",
+        "ccpatch": "ccpatch/libtiff/CVE-2023-0796.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-0797": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/495",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68",
+        "ccpatch": "ccpatch/libtiff/CVE-2023-0797.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-0799": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/494",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68",
+        "ccpatch": "ccpatch/libtiff/CVE-2023-0799.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-0804": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/497",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/33aee1275d9d1384791d2206776eb8152d397f00",
+        "ccpatch": "ccpatch/libtiff/CVE-2023-0804.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2023-1264": {
+        "poc": "https://huntr.dev/bounties/b2989095-88f3-413a-9a39-c1c58a6e6815",
+        "patch": "https://github.com/vim/vim/commit/7ac5023a5f1a37baafbe1043645f97ba3443d9f6",
+        "ccpatch": "ccpatch/vim/CVE-2023-1264.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2023-23915": {
+        "poc": "https://hackerone.com/reports/1874716",
+        "patch": "https://github.com/curl/curl/commit/076a2f629119222aeeb50f",
+        "ccpatch": "ccpatch/curl/CVE-2023-23915.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2023-2426": {
+        "poc": "https://huntr.dev/bounties/3451be4c-91c8-4d08-926b-cbff7396f425",
+        "patch": "https://github.com/vim/vim/commit/caf642c25de526229264cab9425e7c9979f3509b",
+        "ccpatch": "ccpatch/vim/CVE-2023-2426.diff",
+        "taxonomy": "Feature Introduction,Local Equivalent Change,Functional Change,Equivalent Change,All,Feature Introduction,Local Equivalent Change,Functional Change,Equivalent Change"
+    },
+    "CVE-2023-24755": {
+        "poc": "https://github.com/strukturag/libde265/issues/384",
+        "patch": "https://github.com/strukturag/libde265/commit/48eb7dafe204b825b4a62948ed171a0cd3f1bda2",
+        "ccpatch": "ccpatch/libde265/CVE-2023-24755.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-24756": {
+        "poc": "https://github.com/strukturag/libde265/issues/380",
+        "patch": "https://github.com/strukturag/libde265/commit/48eb7dafe204b825b4a62948ed171a0cd3f1bda2",
+        "ccpatch": "ccpatch/libde265/CVE-2023-24756.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-24757": {
+        "poc": "https://github.com/strukturag/libde265/issues/385",
+        "patch": "https://github.com/strukturag/libde265/commit/48eb7dafe204b825b4a62948ed171a0cd3f1bda2",
+        "ccpatch": "ccpatch/libde265/CVE-2023-24757.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-25139": {
+        "poc": "https://sourceware.org/bugzilla/show_bug.cgi?id=30068",
+        "patch": "https://github.com/bminor/glibc/commit/c980549cc6a1c03c23cc2fe3e7b0fe626a0364b0",
+        "ccpatch": "ccpatch/glibc/CVE-2023-25139.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2023-25434": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/519",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/69818e2f2d246e6631ac2a2da692c3706b849c38",
+        "ccpatch": "ccpatch/libtiff/CVE-2023-25434.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2023-2610": {
+        "poc": "https://huntr.dev/bounties/31e67340-935b-4f6c-a923-f7246bc29c7d",
+        "patch": "https://github.com/vim/vim/commit/ab9a2d884b3a4abe319606ea95a5a6d6b01cd73a",
+        "ccpatch": "ccpatch/vim/CVE-2023-2610.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2023-26157": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/850",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/c8cf03ce4c2315b146caf582ea061c0460193bcc",
+        "ccpatch": "ccpatch/libredwg/CVE-2023-26157.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2023-2857": {
+        "poc": "https://gitlab.com/wireshark/wireshark/-/issues/19063",
+        "patch": "https://gitlab.com/wireshark/wireshark/-/commit/c899be35a94440b6c46cf5715c5f24eda597f4c1",
+        "ccpatch": "ccpatch/-/CVE-2023-2857.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2023-2905": {
+        "poc": "https://takeonme.org/cves/CVE-2023-2905.html",
+        "patch": "https://github.com/cesanta/mongoose/commit/d56e5bea626fd7d1baad52af0aa7cfc4f399382c",
+        "ccpatch": "ccpatch/mongoose/CVE-2023-2905.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2023-29574": {
+        "poc": "https://github.com/axiomatic-systems/Bento4/issues/841",
+        "patch": "https://github.com/axiomatic-systems/Bento4/commit/c9f5d42a260ff76b768e06bfa400d8bd6be965a2",
+        "ccpatch": "ccpatch/Bento4/CVE-2023-29574.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2023-30774": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/463",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/e813112545942107551433d61afd16ac094ff246",
+        "ccpatch": "ccpatch/libtiff/CVE-2023-30774.diff",
+        "taxonomy": "Feature Modification,Non-Security Bug Fix,Functional Change,Fixing Change,All,Feature Modification,Non-Security Bug Fix,Functional Change,Fixing Change"
+    },
+    "CVE-2023-34153": {
+        "poc": "https://github.com/ImageMagick/ImageMagick/issues/6338",
+        "patch": "https://github.com/ImageMagick/ImageMagick/commit/d31c80d15a2c82fc1dd8e889e0f97b0219079a57",
+        "ccpatch": "ccpatch/ImageMagick/CVE-2023-34153.diff",
+        "taxonomy": "Global Equivalent Change,Equivalent Change,All,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2023-35703": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1783",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476",
+        "ccpatch": "ccpatch/gtkwave/CVE-2023-35703.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-35704": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1783",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476",
+        "ccpatch": "ccpatch/gtkwave/CVE-2023-35704.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-36271": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/681#BUG2",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/c1ed1d91e28a6ddc7a9b5479d4795d58fb6be0ca",
+        "ccpatch": "ccpatch/libredwg/CVE-2023-36271.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change"
+    },
+    "CVE-2023-36272": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/681#BUG1",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/c1ed1d91e28a6ddc7a9b5479d4795d58fb6be0ca",
+        "ccpatch": "ccpatch/libredwg/CVE-2023-36272.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Local Equivalent Change,Non-Security Bug Fix,Fixing Change,Equivalent Change"
+    },
+    "CVE-2023-36273": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/677#BUG1",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/8651fa27dd2de731e706e2ba09f0d28e4e0dce33\nhttps://github.com/LibreDWG/libredwg/commit/e30686bed32c20915fb789cb49dcc09e7512a56f",
+        "ccpatch": "ccpatch/libredwg/CVE-2023-36273.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Local Equivalent Change,Fixing Change,Equivalent Change,All,Irrelevant Vulnerability Fix,Local Equivalent Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2023-36274": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/677#BUG2",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/e04b89578882bab6e5ca94bd70519b5f25c36d4b",
+        "ccpatch": "ccpatch/libredwg/CVE-2023-36274.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-36746": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1793",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476",
+        "ccpatch": "ccpatch/gtkwave/CVE-2023-36746.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-36915": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1798",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476",
+        "ccpatch": "ccpatch/gtkwave/CVE-2023-36915.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-37836": {
+        "poc": "https://github.com/thorfdbg/libjpeg/issues/87#BUG1",
+        "patch": "https://github.com/thorfdbg/libjpeg/commit/9e0cea29d7ba7a2c1e763865391bc94b336da25e",
+        "ccpatch": "ccpatch/libjpeg/CVE-2023-37836.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2023-37837": {
+        "poc": "https://github.com/thorfdbg/libjpeg/issues/87#BUG0",
+        "patch": "https://github.com/thorfdbg/libjpeg/commit/9e0cea29d7ba7a2c1e763865391bc94b336da25e",
+        "ccpatch": "ccpatch/libjpeg/CVE-2023-37837.diff",
+        "taxonomy": "Non-Security Bug Fix,Fixing Change,All,Non-Security Bug Fix,Fixing Change"
+    },
+    "CVE-2023-37923": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1807",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/9fe9d7e8fdba44b5378f2e893fe634c17c83184b",
+        "ccpatch": "ccpatch/gtkwave/CVE-2023-37923.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "CVE-2023-39234": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1817",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/2ccfa8636b5cb05c57415d7cdde0390f55ac47f1",
+        "ccpatch": "ccpatch/gtkwave/CVE-2023-39234.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-39235": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1817",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/2ccfa8636b5cb05c57415d7cdde0390f55ac47f1",
+        "ccpatch": "ccpatch/gtkwave/CVE-2023-39235.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-5377": {
+        "poc": "https://huntr.dev/bounties/fe778df4-3867-41d6-954b-211c81bccbbf",
+        "patch": "https://github.com/gpac/gpac/commit/8e9d6b38c036a97020c462ad48e1132e0ddc57ce",
+        "ccpatch": "ccpatch/gpac/CVE-2023-5377.diff",
+        "taxonomy": "Feature Introduction,Functional Change,All,Feature Introduction,Functional Change"
+    },
+    "CVE-2023-5595": {
+        "poc": "https://huntr.dev/bounties/0064cf76-ece1-495d-82b4-e4a1bebeb28e",
+        "patch": "https://github.com/gpac/gpac/commit/7a6f636db3360bb16d18078d51e8c596f31302a1",
+        "ccpatch": "ccpatch/gpac/CVE-2023-5595.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "CVE-2023-6246": {
+        "poc": "https://www.openwall.com/lists/oss-security/2024/01/30/6",
+        "patch": "https://github.com/bminor/glibc/commit/6bd0e4efcc78f3c0115e5ea9739a1642807450da",
+        "ccpatch": "ccpatch/glibc/CVE-2023-6246.diff",
+        "taxonomy": "Feature Introduction,Global Equivalent Change,Functional Change,Equivalent Change,All,Feature Introduction,Global Equivalent Change,Functional Change,Equivalent Change"
+    },
+    "CVE-2024-0207": {
+        "poc": "https://www.wireshark.org/security/wnpa-sec-2024-03.html",
+        "patch": "https://gitlab.com/wireshark/wireshark/-/commit/e9e71ca8c7b394483d046772d86b476593a2f888?expanded=1",
+        "ccpatch": "ccpatch/-/CVE-2024-0207.diff",
+        "taxonomy": "Feature Modification,Non-Security Bug Fix,Functional Change,Fixing Change,All,Feature Modification,Non-Security Bug Fix,Functional Change,Fixing Change"
+    },
+    "CVE-2024-22667": {
+        "poc": "https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt",
+        "patch": "https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47",
+        "ccpatch": "ccpatch/vim/CVE-2024-22667.diff",
+        "taxonomy": "Local Equivalent Change,Global Equivalent Change,Equivalent Change,All,Local Equivalent Change,Global Equivalent Change,Equivalent Change"
+    },
+    "CVE-2024-29162": {
+        "poc": "https://www.hdfgroup.org/2024/05/new-hdf5-cve-issues-fixed-in-1-14-4/",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "ccpatch": "ccpatch/hdf5/CVE-2024-29162.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2024-32612": {
+        "poc": "https://www.hdfgroup.org/2024/05/new-hdf5-cve-issues-fixed-in-1-14-4/",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "ccpatch": "ccpatch/hdf5/CVE-2024-32612.diff",
+        "taxonomy": "Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change,All,Feature Modification,Irrelevant Vulnerability Fix,Feature Introduction,Local Equivalent Change,Global Equivalent Change,Functional Change,Fixing Change,Equivalent Change"
+    },
+    "CVE-2024-4323": {
+        "poc": "https://github.com/skilfoy/CVE-2024-4323-Exploit-POC",
+        "patch": "https://github.com/fluent/fluent-bit/commit/9311b43a258352797af40749ab31a63c32acfd04",
+        "ccpatch": "ccpatch/fluent-bit/CVE-2024-4323.diff",
+        "taxonomy": "Local Equivalent Change,Equivalent Change,All,Local Equivalent Change,Equivalent Change"
+    },
+    "CVE-2024-6197": {
+        "poc": "https://hackerone.com/reports/2559516",
+        "patch": "https://github.com/curl/curl/commit/623c3a8fa0bdb2751f1",
+        "ccpatch": "ccpatch/curl/CVE-2024-6197.diff",
+        "taxonomy": "Feature Modification,Functional Change,All,Feature Modification,Functional Change"
+    },
+    "gpac-1421": {
+        "poc": "https://github.com/gpac/gpac/issues/1421",
+        "patch": "https://github.com/gpac/gpac/commit/8c5e847185d74462d674ee7d28fb46c29dae6dd2",
+        "ccpatch": "ccpatch/gpac/gpac-1421.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Non-Security Bug Fix,Fixing Change"
+    },
+    "libtiff-2646": {
+        "poc": "http://bugzilla.maptools.org/show_bug.cgi?id=2643",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/d2e6964efcb785b8566a6b538133299870082768",
+        "ccpatch": "ccpatch/libtiff/libtiff-2646.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    },
+    "libtiff-389": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/389",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/cfbb883bf6ea7bedcb04177cc4e52d304522fdff#7553",
+        "ccpatch": "ccpatch/libtiff/libtiff-389.diff",
+        "taxonomy": "Irrelevant Vulnerability Fix,Fixing Change,All,Irrelevant Vulnerability Fix,Fixing Change"
+    }
+}

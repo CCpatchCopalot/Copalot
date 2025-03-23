@@ -1,0 +1,244 @@
+32a33,34
+>#define STR_INPUTS "inputs"
+>#define STR_INPUTS_LEN (sizeof(STR_INPUTS)-1)
+34c34,50
+<static struct flb_input_instance *find_input(struct flb_hs *hs, const char *name)
+---
+>#define HTTP_FIELD_MESSAGE        "message"
+>#define HTTP_FIELD_MESSAGE_LEN    (sizeof(HTTP_FIELD_MESSAGE)-1)
+>#define HTTP_FIELD_STATUS         "status"
+>#define HTTP_FIELD_STATUS_LEN     (sizeof(HTTP_FIELD_STATUS)-1)
+>#define HTTP_FIELD_RETURNCODE     "returncode"
+>#define HTTP_FIELD_RETURNCODE_LEN (sizeof(HTTP_FIELD_RETURNCODE)-1)
+>#define HTTP_RESULT_OK                   "ok"
+>#define HTTP_RESULT_OK_LEN               (sizeof(HTTP_RESULT_OK)-1)
+>#define HTTP_RESULT_ERROR                "error"
+>#define HTTP_RESULT_ERROR_LEN            (sizeof(HTTP_RESULT_ERROR)-1)
+>#define HTTP_RESULT_NOTFOUND             "not found"
+>#define HTTP_RESULT_NOTFOUND_LEN         (sizeof(HTTP_RESULT_NOTFOUND)-1)
+>#define HTTP_RESULT_METHODNOTALLOWED     "method not allowed"
+>#define HTTP_RESULT_METHODNOTALLOWED_LEN (sizeof(HTTP_RESULT_METHODNOTALLOWED)-1)
+>#define HTTP_RESULT_UNKNOWNERROR         "unknown error"
+>#define HTTP_RESULT_UNKNOWNERROR_LEN     (sizeof(HTTP_RESULT_UNKNOWNERROR)-1)
+>static struct flb_input_instance *find_input(struct flb_hs *hs, const char *name, size_t nlen)
+42c42,45
+<        if (strcmp(name, in->name) == 0) {
+---
+>        if (strlen(in->name) != nlen) {
+>            continue;
+>        }
+>        if (strncmp(name, in->name, nlen) == 0) {
+54c54
+<static int enable_trace_input(struct flb_hs *hs, const char *name, const char *prefix, const char *output_name, struct mk_list *props)
+---
+>static int enable_trace_input(struct flb_hs *hs, const char *name, ssize_t nlen, const char *prefix,const char *output_name, struct mk_list *props)
+59c59
+<    in = find_input(hs, name);
+---
+>    in = find_input(hs, name, nlen);
+60a61
+>        flb_error("unable to find input: [%d]%.*s", (int)nlen, (int)nlen, name);
+65c65,69
+<    return (in->chunk_trace_ctxt == NULL ? 503 : 0);
+---
+>    if (in->chunk_trace_ctxt == NULL) {
+>        flb_error("unable to start tracing");
+>        return 503;
+>    }
+>    return 0;
+68c68
+<static int disable_trace_input(struct flb_hs *hs, const char *name)
+---
+>static int disable_trace_input(struct flb_hs *hs, const char *name, size_t nlen)
+73c73
+<    in = find_input(hs, name);
+---
+>    in = find_input(hs, name, nlen);
+92c92
+<    if (request->real_path.len < strlen(base)) {
+---
+>    if (request->real_path.len < sizeof(base)-1) {
+96c96
+<    return flb_sds_create_len(&request->real_path.data[strlen(base)],
+---
+>return flb_sds_create_len(&request->real_path.data[sizeof(base)-1],request->real_path.len - sizeof(base)-1);
+100c100
+<static int http_disable_trace(mk_request_t *request, void *data, const char *input_name, msgpack_packer *mp_pck)
+---
+>static int http_disable_trace(mk_request_t *request, void *data,const char *input_name, size_t input_nlen,msgpack_packer *mp_pck)
+106c106
+<    toggled_on = disable_trace_input(hs, input_name);
+---
+>    toggled_on = disable_trace_input(hs, input_name, input_nlen);
+109,110c109,110
+<        msgpack_pack_str_with_body(mp_pck, "status", strlen("status"));
+<        msgpack_pack_str_with_body(mp_pck, "ok", strlen("ok"));
+---
+>        msgpack_pack_str_with_body(mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>        msgpack_pack_str_with_body(mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+117c117
+<static int msgpack_params_enable_trace(struct flb_hs *hs, msgpack_unpacked *result, const char *input_name)
+---
+>static int msgpack_params_enable_trace(struct flb_hs *hs, msgpack_unpacked *result, const char *input_name, ssize_t input_nlen)
+196c196
+<        toggled_on = enable_trace_input(hs, input_name, prefix, output_name, props);
+---
+>        toggled_on = enable_trace_input(hs, input_name, input_nlen, prefix, output_name, props);
+213c213
+<static int http_enable_trace(mk_request_t *request, void *data, const char *input_name, msgpack_packer *mp_pck)
+---
+>static int http_enable_trace(mk_request_t *request, void *data, const char *input_name, ssize_t input_nlen, msgpack_packer *mp_pck)
+235c235
+<        ret = enable_trace_input(hs, input_name, "trace.", "stdout", NULL);
+---
+>        ret = enable_trace_input(hs, input_name, input_nlen, "trace.", "stdout", NULL);
+238,239c238,239
+<                msgpack_pack_str_with_body(mp_pck, "status", strlen("status"));
+<                msgpack_pack_str_with_body(mp_pck, "ok", strlen("ok"));
+---
+>                msgpack_pack_str_with_body(mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>                msgpack_pack_str_with_body(mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+243c243
+<            flb_error("unable to enable tracing for %s", input_name);
+---
+>            flb_error("unable to enable tracing for %.*s", (int)input_nlen, input_name);
+260c260
+<        flb_error("unable to unpack msgpack parameters for %s", input_name);
+---
+>        flb_error("unable to unpack msgpack parameters for %.*s", (int)input_nlen, input_name);
+362c362
+<        ret = enable_trace_input(hs, input_name, prefix, output_name, props);
+---
+>        ret = enable_trace_input(hs, input_name, input_nlen, prefix, output_name, props);
+369c369
+<            input_instance = find_input(hs, input_name);
+---
+>            input_instance = find_input(hs, input_name, input_nlen);
+380,381c380,381
+<    msgpack_pack_str_with_body(mp_pck, "status", strlen("status"));
+<    msgpack_pack_str_with_body(mp_pck, "ok", strlen("ok"));
+---
+>    msgpack_pack_str_with_body(mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>    msgpack_pack_str_with_body(mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+420c420
+<        response = http_enable_trace(request, data, input_name, &mp_pck);
+---
+>        response = http_enable_trace(request, data, input_name, flb_sds_len(input_name), &mp_pck);
+423c423
+<        response = http_disable_trace(request, data, input_name, &mp_pck);
+---
+>        response = http_disable_trace(request, data, input_name, flb_sds_len(input_name), &mp_pck);
+428,429c428,429
+<        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<        msgpack_pack_str_with_body(&mp_pck, "not found", strlen("not found"));
+---
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_NOTFOUND, HTTP_RESULT_NOTFOUND_LEN);
+433,434c433,434
+<        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<        msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+---
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_ERROR, HTTP_RESULT_ERROR_LEN);
+469c469,470
+<    flb_sds_t input_name;
+---
+>    const char *input_name;
+>    ssize_t input_nlen;
+506c506
+<        if (result.data.via.map.ptr[i].key.via.str.size < strlen("inputs")) {
+---
+>        if (result.data.via.map.ptr[i].key.via.str.size < STR_INPUTS_LEN) {
+509c509
+<        if (strncmp(result.data.via.map.ptr[i].key.via.str.ptr, "inputs", strlen("inputs"))) {
+---
+>        if (strncmp(result.data.via.map.ptr[i].key.via.str.ptr, STR_INPUTS, STR_INPUTS_LEN)) {
+523c523
+<    msgpack_pack_str_with_body(&mp_pck, "inputs", strlen("inputs"));
+---
+>    msgpack_pack_str_with_body(&mp_pck, STR_INPUTS, STR_INPUTS_LEN);
+527,528d
+<        input_name = flb_sds_create_len(inputs->ptr[i].via.str.ptr, inputs->ptr[i].via.str.size);
+<        msgpack_pack_str_with_body(&mp_pck, input_name, flb_sds_len(input_name));
+530,533c530,534
+<        if (inputs->ptr[i].type != MSGPACK_OBJECT_STR) {
+<            msgpack_pack_map(&mp_pck, 1);
+<            msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<            msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+---
+>        if (inputs->ptr[i].type != MSGPACK_OBJECT_STR || inputs->ptr[i].via.str.ptr == NULL) {
+>            response = 503;
+>            error_msg = flb_sds_create("invalid input");
+>            msgpack_sbuffer_clear(&mp_sbuf);
+>            goto unpack_error;
+535,537c535,541
+<        else {
+<            if (request->method == MK_METHOD_POST || request->method == MK_METHOD_GET) {
+<                ret = msgpack_params_enable_trace((struct flb_hs *)data, &result, input_name);
+---
+>    }
+>    for (i = 0; i < inputs->size; i++) {
+>        input_name = inputs->ptr[i].via.str.ptr;
+>        input_nlen = inputs->ptr[i].via.str.size;
+>        msgpack_pack_str_with_body(&mp_pck, input_name, input_nlen);
+>        if (request->method == MK_METHOD_POST) {
+>            ret = msgpack_params_enable_trace((struct flb_hs *)data, &result,input_name, input_nlen);
+540,542c540,542
+<                    msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<                    msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+<                    msgpack_pack_str_with_body(&mp_pck, "returncode", strlen("returncode"));
+---
+>                msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>                msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_ERROR, HTTP_RESULT_ERROR_LEN);
+>                msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_RETURNCODE, HTTP_FIELD_RETURNCODE_LEN);
+547,548c547,548
+<                    msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<                    msgpack_pack_str_with_body(&mp_pck, "ok", strlen("ok"));
+---
+>                msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>                msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+552c552,554
+<                disable_trace_input((struct flb_hs *)data, input_name);
+---
+>            disable_trace_input((struct flb_hs *)data, input_name, input_nlen);
+>            msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>            msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+556,560c556,559
+<                msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<                msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+<                msgpack_pack_str_with_body(&mp_pck, "message", strlen("message"));
+<                msgpack_pack_str_with_body(&mp_pck, "method not allowed", strlen("method not allowed"));
+<            }
+---
+>            msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>            msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_ERROR, HTTP_RESULT_ERROR_LEN);
+>            msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_MESSAGE, HTTP_FIELD_MESSAGE_LEN);
+>            msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_METHODNOTALLOWED, HTTP_RESULT_METHODNOTALLOWED_LEN);
+572,573c572,573
+<        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<        msgpack_pack_str_with_body(&mp_pck, "not found", strlen("not found"));
+---
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_NOTFOUND, HTTP_RESULT_NOTFOUND_LEN);
+577,579c577,579
+<        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<        msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+<        msgpack_pack_str_with_body(&mp_pck, "message", strlen("message"));
+---
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_MESSAGE, HTTP_FIELD_MESSAGE_LEN);
+585c585
+<            msgpack_pack_str_with_body(&mp_pck, "unknown error", strlen("unknown error"));
+---
+>            msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_UNKNOWNERROR, HTTP_RESULT_UNKNOWNERROR_LEN);
+590,591c590,591
+<        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+<        msgpack_pack_str_with_body(&mp_pck, "ok", strlen("ok"));
+---
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+>        msgpack_pack_str_with_body(&mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+611a612
+>    if (hs->config->enable_chunk_trace == FLB_TRUE) {
+613a614
+>    }

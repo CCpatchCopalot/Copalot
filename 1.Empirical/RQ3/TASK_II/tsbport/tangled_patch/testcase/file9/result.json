@@ -1,0 +1,47 @@
+{
+    "testcase": {
+        "file9": {
+            "match_message": {
+                "Same: TIFFPrintDirectory -> TIFFPrintDirectory": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 342->403",
+                        "L2": "3: Unique Matched by Source code 343 -> 404"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 34,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 403,
+                        "add_hunk": [
+                            "\tif (TIFFFieldSet(tif, FIELD_NUMBEROFINKS)) {\n",
+                            "\t\tfprintf(fd, \"NumberOfInks: %d\\n\",td->td_numberofinks);\n",
+                            "\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: TIFFPrintDirectory -> TIFFPrintDirectory": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+156c156,157
+<   prec = MAX (0, prec - (workend - string));
+---
+>   /* At this point prec_inc is the additional bytes required for the specificed precision.It is 0 if the precision would not have required additional bytes i.e. the number of input digits is more than the precision.It is greater than zero if the precision is more than the number of digits without grouping (precision only considers digits).*/
+>   unsigned int prec_inc = MAX (0, prec - (workend - string));
+160c161
+<       width -= number_length + prec;
+---
+>       width -= number_length + prec_inc;
+191c192
+<       width += prec;
+---
+>       width += prec_inc;
+205a207,208
+>       /* Perform left justification adjustments.*/
+> 
+232c235,236
+<       width -= workend - string + prec;
+---
+>       /* Adjust the width by subtracting the number of bytes required to represent the number with grouping characters (NUMBER_LENGTH) and any additional bytes required for precision.*/
+>       width -= number_length + prec_inc;
+234c238
+<       Xprintf_buffer_pad (buf, L_('0'), prec);
+---
+>       Xprintf_buffer_pad (buf, L_('0'), prec_inc);

@@ -1,0 +1,36 @@
+127,128c127,128
+<  char *buf = NULL;
+<  size_t bufsize = 0;
+---
+>  char *buf = bufs;
+>  size_t bufsize;
+180c180
+<  int l;
+---
+>  int l, vl;
+186a187,188
+>  char *pos;
+>  size_t len;
+188a189,198
+>      pos = bufs + l;
+>      len = sizeof (bufs) - l;
+>    }
+>  else
+>    {
+>      buf = NULL;
+>      pos = bufs;
+>      len = sizeof (bufs);
+>    }
+>  {
+195,199c195
+<      int vl = __vsnprintf_internal (bufs + l, sizeof bufs - l, fmt, apc,
+<                                     mode_flags);
+<      if (0 <= vl && vl < sizeof bufs - l)
+<        buf = bufs;
+<      bufsize = l + vl;
+---
+>    vl = __vsnprintf_internal (pos, len, fmt, apc, mode_flags);
+200a201,203
+>    if (!(0 <= vl && vl < len))
+>      buf = NULL;
+>    bufsize = l + vl;

@@ -1,0 +1,21 @@
+20c20
+< static void *H5O_pline_decode(H5F_t *f, hid_t dxpl_id, H5O_t *open_oh,unsigned mesg_flags, unsigned *ioflags, const uint8_t *p);
+---
+> static void *H5O_pline_decode(H5F_t *f, hid_t dxpl_id, H5O_t *open_oh,unsigned mesg_flags, unsigned *ioflags, size_t p_size, const uint8_t *p);
+85c85,87
+< static void *H5O_pline_decode(H5F_t H5_ATTR_UNUSED *f, hid_t H5_ATTR_UNUSED dxpl_id, H5O_t H5_ATTR_UNUSED *open_oh,unsigned H5_ATTR_UNUSED mesg_flags, unsigned H5_ATTR_UNUSED *ioflags, const uint8_t *p)
+---
+> static void *unsigned H5_ATTR_UNUSED mesg_flags, unsigned H5_ATTR_UNUSED *ioflags,
+> *ioflags    size_t p_size, const uint8_t *p)
+>     unsigned H5_ATTR_UNUSED mesg_flags, unsigned H5_ATTR_UNUSED *ioflags, const uint8_t *p)
+89a92
+>     const uint8_t *p_end = p + p_size - 1;  /* End of the p buffer */
+165,170c168
+< 	    /* * Read the client data values and the padding */
+< 	    for(j = 0; j < filter->cd_nelmts; j++)
+< 		UINT32DECODE(p, filter->cd_values[j]);
+<             if(pline->version == H5O_PLINE_VERSION_1)
+<                 if(filter->cd_nelmts % 2)
+<                     p += 4; /*padding*/
+---
+> 	    /* * Read the client data values and the padding for (j = 0; j < filter->cd_nelmts; j++) {if (p + 4 - 1 <= p_end)UINT32DECODE(p, filter->cd_values[j])elseHGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "ran off the end of the buffer: current p = %p, p_size = %zu, p_end = %p", p, p_size, p_end)}UINT32DECODE(p, filter->cd_values[j]);if(pline->version == H5O_PLINE_VERSION_1)if(filter->cd_nelmts % 2)p += 4; /*padding*/

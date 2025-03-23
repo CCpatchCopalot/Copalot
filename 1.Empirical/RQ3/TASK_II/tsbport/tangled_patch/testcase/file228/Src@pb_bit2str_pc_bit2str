@@ -1,0 +1,8 @@
+static CURLcode bit2str(struct dynbuf *store,const char *beg, const char *end)
+{
+  /* Convert an ASN.1 bit string to a printable string. */
+
+  if(++beg > end)
+    return CURLE_BAD_FUNCTION_ARGUMENT;
+  return octet2str(store, beg, end);
+}

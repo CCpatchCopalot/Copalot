@@ -1,0 +1,30 @@
+static vztint64_t vzt_rd_get_v64(char **mmx)
+{
+signed char *c;
+signed char *beg;
+vztint64_t val;
+signed char **mm = (signed char **)mmx;
+
+c = *mm;
+beg = c;
+
+if(*c>=0)
+	{
+	while(*c>=0) c++;
+	*mm = c+1;
+
+	val = (vztint64_t)(*c&0x7f);
+	do
+		{
+		val <<= 7;
+		val |= (vztint64_t)*(--c);
+		} while (c!=beg);
+	}
+	else
+	{
+	val = (vztint64_t)(*c&0x7f);
+	*mm = c+1;
+	}
+
+return(val);
+}

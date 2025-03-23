@@ -1,0 +1,7 @@
+11104a11105
+>	if (ptr->entries) {
+11108c11108,11109
+<	if (ptr->entries) gf_free(ptr->entries);
+---
+>		gf_free(ptr->entries);
+>	}

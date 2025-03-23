@@ -1,0 +1,47 @@
+static int
+cdj970_put_params(gx_device * pdev, gs_param_list * plist)
+{
+    int quality = cdj970->quality;
+    int papertype = cdj970->papertype;
+    int duplex = cdj970->duplex;
+    float mastergamma = cdj970->mastergamma;
+    float gammavalc = cdj970->gammavalc;
+    float gammavalm = cdj970->gammavalm;
+    float gammavaly = cdj970->gammavaly;
+    float gammavalk = cdj970->gammavalk;
+    float blackcorrect = cdj970->blackcorrect;
+
+    int bpp = 0;
+    int code = 0;
+
+    code = cdj_put_param_int(plist, "BitsPerPixel", &bpp, 1, 32, code);
+    code = cdj_put_param_int(plist, "Quality", &quality, 0, 2, code);
+    code = cdj_put_param_int(plist, "Papertype", &papertype, 0, 4, code);
+    code = cdj_put_param_int(plist, "Duplex", &duplex, 0, 2, code);
+    code =cdj_put_param_float(plist, "MasterGamma", &mastergamma, 0.1f, 9.0f,code);
+    code =cdj_put_param_float(plist, "GammaValC", &gammavalc, 0.0f, 9.0f, code);
+    code =cdj_put_param_float(plist, "GammaValM", &gammavalm, 0.0f, 9.0f, code);
+    code =cdj_put_param_float(plist, "GammaValY", &gammavaly, 0.0f, 9.0f, code);
+    code =cdj_put_param_float(plist, "GammaValK", &gammavalk, 0.0f, 9.0f, code);
+    code =cdj_put_param_float(plist, "BlackCorrect", &blackcorrect, 0.0f, 9.0f,code);
+
+    if (code < 0)
+        return code;
+
+    code = cdj_put_param_bpp(pdev, plist, bpp, bpp, 0);
+
+    if (code < 0)
+        return code;
+
+    cdj970->quality = quality;
+    cdj970->papertype = papertype;
+    cdj970->duplex = duplex;
+    cdj970->mastergamma = mastergamma;
+    cdj970->gammavalc = gammavalc;
+    cdj970->gammavalm = gammavalm;
+    cdj970->gammavaly = gammavaly;
+    cdj970->gammavalk = gammavalk;
+    cdj970->blackcorrect = blackcorrect;
+
+    return 0;
+}

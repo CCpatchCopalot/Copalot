@@ -1,0 +1,204 @@
+static int
+read_2004_compressed_section (Bit_Chain *dat, Dwg_Data *restrict dwg,
+                              Bit_Chain *sec_dat, Dwg_Section_Type type)
+{
+  uint32_t max_decomp_size;
+  long bytes_left;
+  Dwg_Section_Info *info = NULL;
+  encrypted_section_header es;
+  BITCODE_RC *decomp;
+  BITCODE_BL i, j;
+  int error = 0;
+
+  for (i = 0; i < dwg->header.section_infohdr.num_desc && !info; ++i)
+    {
+      if (dwg->header.section_info[i].fixedtype == type)
+        {
+          info = &dwg->header.section_info[i];
+          break;
+        }
+    }
+  sec_dat->chain = NULL; // fixes double-free
+  if (!info)
+    {
+      if (type < SECTION_REVHISTORY && type != SECTION_TEMPLATE
+          && type != SECTION_OBJFREESPACE)
+        {
+          LOG_WARN ("Failed to find section_info[%u] with type %d", i, type)
+          return DWG_ERR_SECTIONNOTFOUND;
+        }
+      else
+        {
+          LOG_TRACE ("Found no section_info[%u] with type %d\n", i, type)
+          return DWG_ERR_VALUEOUTOFBOUNDS;
+        }
+    }
+  else
+    {
+      LOG_TRACE ("\nFound section_info[" FORMAT_BL
+                 "] %s type %d with %d sections (%scompressed):\n",
+                 i, info->name, type, info->num_sections,
+                 info->compressed == 2 ? "" : "un");
+    }
+  if (info->num_sections == 0)
+    {
+      // XXX: This Teigha bug is already fixed up before
+      if (type == SECTION_TEMPLATE && is_teigha && info->size >= 4
+          && info->unknown == 1)
+        info->num_sections
+            = 1; // bug in Teigha with Template, with num_sections=0
+      /*
+      else if (type == SECTION_UNKNOWN)
+        {
+          Dwg_Section *sec = calloc (1, sizeof (Dwg_Section));
+          info->num_sections = 1; // hidden. enable it
+          info->size = 128;
+          sec->type = SECTION_UNKNOWN;
+          sec->compression_type = info->compressed;
+          sec->address = 128;
+          sec->size = 128;
+          if (info->sections) // [0] is NULL anyway
+            free (info->sections);
+          info->sections = calloc (1, sizeof (Dwg_Section*));
+          info->sections[0] = sec;
+        }
+      */
+      else
+        return 0;
+    }
+  if (!info->sections)
+    {
+      LOG_ERROR ("Empty sections for %s", info->name);
+      return DWG_ERR_VALUEOUTOFBOUNDS;
+    }
+  max_decomp_size = info->num_sections * info->max_decomp_size;
+  if (max_decomp_size == 0 || max_decomp_size > 0x2f000000) // 790Mb
+    {
+      LOG_ERROR ("Invalid section %s count or max decompression size. "
+                 "Sections: " FORMAT_RL ", Max size: " FORMAT_RL,
+                 info->name, info->num_sections, info->max_decomp_size);
+      return DWG_ERR_VALUEOUTOFBOUNDS;
+    }
+  if (info->size > (int64_t)info->num_sections * (int64_t)info->max_decomp_size
+      || info->size < 0)
+    {
+      LOG_ERROR ("Invalid section %s size %" PRId64 " > %u * " FORMAT_RL,
+                 info->name, info->size, info->num_sections,
+                 info->max_decomp_size);
+      return DWG_ERR_VALUEOUTOFBOUNDS;
+    }
+  LOG_HANDLE ("Alloc section %s size %" PRIu32 "\n", info->name,
+              max_decomp_size);
+  decomp = (BITCODE_RC *)calloc (max_decomp_size, sizeof (BITCODE_RC));
+  if (!decomp)
+    {
+      LOG_ERROR ("Out of memory with " FORMAT_RL
+                 " sections of size: " FORMAT_RL,
+                 info->num_sections, info->max_decomp_size);
+      return DWG_ERR_OUTOFMEM;
+    }
+  bytes_left = max_decomp_size;
+  sec_dat->bit = 0;
+  sec_dat->byte = 0;
+  sec_dat->version = dat->version;
+  sec_dat->from_version = dat->from_version;
+  sec_dat->chain = decomp;
+  sec_dat->size = 0;
+
+  for (i = j = 0; i < info->num_sections; ++i, ++j)
+    {
+      uint32_t address, sec_mask;
+      if (!info->sections[i])
+        {
+          LOG_WARN ("Skip empty section %u %s", i, info->name);
+          if (i == info->num_sections - 1) // the last one
+            {
+              sec_dat->chain = NULL; // fix double-free
+              free (decomp);
+              return DWG_ERR_SECTIONNOTFOUND;
+            }
+          j--; // index for writing info->max_decomp_size chunks
+          continue;
+        }
+      address = info->sections[i]->address;
+      dat->byte = address;
+      bit_read_fixed (dat, es.char_data, 32);
+
+      //? if encrypted properties: security_type & 2 ??
+      sec_mask = htole32 (0x4164536b ^ address);
+      {
+        int k;
+        for (k = 0; k < 8; ++k)
+          es.long_data[k] = le32toh (es.long_data[k] ^ sec_mask);
+      }
+
+      LOG_INFO ("=== Section %s (%u) @%u ===\n", info->name, i, address)
+      if (es.fields.tag != 0x4163043b)
+        {
+          LOG_WARN ("Section Tag:      0x%x  (should be 0x4163043b)",
+                    (unsigned)es.fields.tag);
+        }
+      else
+        {
+          LOG_INFO ("Section Tag:      0x%x\n", (unsigned)es.fields.tag);
+        }
+      LOG_INFO ("Section Type:     %u\n", (unsigned)es.fields.section_type)
+      // this is the number of bytes that is read in decompress_R2004_section
+      // (+ 2bytes)
+      LOG_INFO ("Data size:        0x%x/%u\n", (unsigned)es.fields.data_size,
+                (unsigned)es.fields.data_size)
+      LOG_INFO ("Comp data size:   0x%x\n", (unsigned)es.fields.section_size)
+      LOG_TRACE ("StartOffset:      0x%x\n", (unsigned)es.fields.address)
+      LOG_HANDLE ("Unknown:          0x%x\n", (unsigned)es.fields.unknown)
+      LOG_HANDLE ("Checksum1:        0x%X\n", (unsigned)es.fields.checksum_1)
+      LOG_HANDLE ("Checksum2:        0x%X\n", (unsigned)es.fields.checksum_2)
+      LOG_TRACE ("Section start:    %" PRIuSIZE "\n\n", dat->byte);
+
+      // GH #126 part 4
+      LOG_INSANE ("info[%d]->max_decomp_size: %" PRIuSIZE " (0x%zx)\n", i,
+                  (size_t)info->max_decomp_size, (size_t)info->max_decomp_size)
+      LOG_INSANE ("max_decomp_size:          %" PRIuSIZE " (0x%zx)\n",
+                  (size_t)max_decomp_size, (size_t)max_decomp_size)
+      LOG_INSANE ("bytes_left:               %ld\n", bytes_left);
+
+      // check if compressed at all
+      if (info->compressed == 2 && bytes_left > 0
+          && (j * info->max_decomp_size) <= max_decomp_size)
+        {
+          error = decompress_R2004_section (
+              dat, &decomp[j * info->max_decomp_size], // offset
+              info->max_decomp_size, es.fields.data_size);
+          if (error > DWG_ERR_CRITICAL)
+            {
+              sec_dat->chain = NULL; // fix double-free
+              free (decomp);
+              return error;
+            }
+          bytes_left -= info->max_decomp_size;
+          sec_dat->size += info->max_decomp_size;
+        }
+      else
+        {
+          const size_t offset = address + es.fields.address + 32;
+          // the remaining uncompressed size to read from
+          const BITCODE_RL size = MIN (info->size, info->max_decomp_size);
+          if (info->compressed == 2 || bytes_left < 0
+              || (j * info->max_decomp_size) + size > max_decomp_size
+              || offset + size > dat->size)
+            {
+              LOG_ERROR ("Some section size or address out of bounds")
+              sec_dat->chain = NULL;
+              free (decomp);
+              return type < SECTION_REVHISTORY ? DWG_ERR_INVALIDDWG
+                                               : DWG_ERR_VALUEOUTOFBOUNDS;
+            }
+          assert (j < info->num_sections);
+          memcpy (&decomp[j * info->max_decomp_size], &dat->chain[offset],
+                  size);
+          bytes_left -= size;
+          sec_dat->size += size;
+        }
+    }
+  sec_dat->size = info->size;
+  return error;
+}

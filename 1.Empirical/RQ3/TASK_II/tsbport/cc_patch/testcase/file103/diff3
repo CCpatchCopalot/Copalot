@@ -1,0 +1,9 @@
+875c875
+<  if(conn)
+---
+>  if(conn) {
+876a877,878
+>    Curl_ssl_detach_conn(data, conn);
+>  }
+892a893
+>  Curl_ssl_associate_conn(data, conn);

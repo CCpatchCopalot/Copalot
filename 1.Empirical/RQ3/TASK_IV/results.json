@@ -1,0 +1,82 @@
+{
+    "all": {
+        "aflgo": {
+            "rt_raw": 24021.77,
+            "rt_cc": 9447.12,
+            "rt_count": 26,
+            "rr_raw": 0.29,
+            "rr_cc": 0.43,
+            "rr_ratio": 0.48,
+            "rt_ratio": 0.61
+        },
+        "beacon": {
+            "rt_raw": 26855.23,
+            "rt_cc": 13320.23,
+            "rt_count": 26,
+            "rr_raw": 0.25,
+            "rr_cc": 0.47,
+            "rr_ratio": 0.88,
+            "rt_ratio": 0.5
+        }
+    },
+    "Equivalence Change": {
+        "aflgo": {
+            "rt_raw": 21136.45,
+            "rt_cc": 7209.64,
+            "rt_count": 11,
+            "rr_raw": 0.28,
+            "rr_cc": 0.44,
+            "rr_ratio": 0.57,
+            "rt_ratio": 0.66
+        },
+        "beacon": {
+            "rr_cc": 0.48,
+            "rt_raw": 22944.58,
+            "rt_cc": 9518.08,
+            "rt_count": 12,
+            "rr_raw": 0.28,
+            "rr_ratio": 0.71,
+            "rt_ratio": 0.59
+        }
+    },
+    "Defects Fix": {
+        "aflgo": {
+            "rt_raw": 16153.0,
+            "rt_cc": 6921.0,
+            "rt_count": 1,
+            "rr_raw": 0.34,
+            "rr_cc": 0.48,
+            "rr_ratio": 0.41,
+            "rt_ratio": 0.57
+        },
+        "beacon": {
+            "rt_raw": 26093.64,
+            "rt_cc": 13137.86,
+            "rt_count": 22,
+            "rr_raw": 0.28,
+            "rr_cc": 0.53,
+            "rr_ratio": 0.89,
+            "rt_ratio": 0.5
+        }
+    },
+    "Functional Change": {
+        "aflgo": {
+            "rt_raw": 29296.7,
+            "rt_cc": 9053.2,
+            "rt_count": 10,
+            "rr_raw": 0.31,
+            "rr_cc": 0.63,
+            "rr_ratio": 1.03,
+            "rt_ratio": 0.69
+        },
+        "beacon": {
+            "rr_cc": 0.63,
+            "rt_raw": 23293.22,
+            "rt_cc": 8227.67,
+            "rt_count": 9,
+            "rr_raw": 0.29,
+            "rr_ratio": 1.17,
+            "rt_ratio": 0.65
+        }
+    }
+}

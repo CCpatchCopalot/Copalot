@@ -1,0 +1,46 @@
+{
+    "testcase": {
+        "file85": {
+            "match_message": {
+                "Same: nhmldmx_send_sample -> nhmldmx_send_sample": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 978->1001",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 979->1002 ([[1002, 1.0], [1140, 0.3823008849557522]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 371,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 1001,
+                        "add_hunk": [
+                            "\t\t\t\t} else if (!strnicmp(att->value, \"gmem://\", 7)) {\n",
+                            "\t\t\t\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_PARSER, (\"[NHMLDmx] Invalid url %s for NHML import\\n\", att->value));\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: nhmldmx_send_sample -> nhmldmx_send_sample": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+static const char *string2str(int type, const char *beg, const char *end)
+{
+  char *buf;
+  if(utf8asn1str(&buf, type, beg, end) < 0)
+    return NULL;
+  return buf;
+}

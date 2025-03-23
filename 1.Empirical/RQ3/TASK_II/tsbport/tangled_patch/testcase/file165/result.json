@@ -1,0 +1,107 @@
+{
+    "testcase": {
+        "file165": {
+            "match_message": {
+                "Same: iods_box_read -> iods_box_read": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2769 -> 2838",
+                        "L2": "3: Unique Matched by Source code 2769 -> 2838"
+                    }
+                },
+                "Same: stbl_box_read -> stbl_box_read": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 4967 -> 5063",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 4968->5064"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 27,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 2838,
+                        "add_hunk": [
+                            "\tif (e) return e;\n",
+                            "\tswitch (ptr->descriptor->tag) {\n",
+                            "\tcase GF_ODF_ISOM_OD_TAG:\n",
+                            "\tcase GF_ODF_ISOM_IOD_TAG:\n",
+                            "\t\tbreak;\n",
+                            "\tdefault:\n",
+                            "\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[iso file] Invalid descriptor in iods, tag %u found but only %u or %u allowed\\n\", ptr->descriptor->tag, GF_ODF_ISOM_IOD_TAG, GF_ODF_ISOM_OD_TAG ));\n",
+                            "\t\treturn GF_ISOM_INVALID_FILE;\n",
+                            "\t}\n",
+                            "\treturn GF_OK;\n"
+                        ],
+                        "delete_location": [
+                            2838,
+                            2838
+                        ],
+                        "delete_hunk": [
+                            "\treturn e;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 5063,
+                        "add_hunk": [
+                            "\t}\n",
+                            "\tu32 i, max_chunks=0;\n",
+                            "\tif (ptr->ChunkOffset->type == GF_ISOM_BOX_TYPE_STCO) {\n",
+                            "\t\tmax_chunks = ((GF_ChunkOffsetBox *)ptr->ChunkOffset)->nb_entries;\n",
+                            "\t}\n",
+                            "\telse if (ptr->ChunkOffset->type == GF_ISOM_BOX_TYPE_CO64) {\n",
+                            "\t\tmax_chunks = ((GF_ChunkOffsetBox *)ptr->ChunkOffset)->nb_entries;\n",
+                            "\t}\n",
+                            "\tfor (i=0; i<ptr->SampleToChunk->nb_entries; i++) {\n",
+                            "\t\tGF_StscEntry *ent = &ptr->SampleToChunk->entries[i];\n",
+                            "\t\tif (!i && (ent->firstChunk!=1)) {\n",
+                            "\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[iso file] first_chunk of first entry shall be 1 but is %u\\n\", ent->firstChunk));\n",
+                            "\t\t\treturn GF_ISOM_INVALID_FILE;\n",
+                            "\t\t}\n",
+                            "\t\tif (ptr->SampleToChunk->entries[i].firstChunk > max_chunks) {\n",
+                            "\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[iso file] first_chunk is %u but number of chunks defined %u\\n\", ptr->SampleToChunk->entries[i].firstChunk, max_chunks));\n",
+                            "\t\t\treturn GF_ISOM_INVALID_FILE;\n",
+                            "\t\t}\n",
+                            "\t\tif (i+1 == ptr->SampleToChunk->nb_entries) break;\n",
+                            "\t\tGF_StscEntry *next_ent = &ptr->SampleToChunk->entries[i+1];\n",
+                            "\t\tif (next_ent->firstChunk < ent->firstChunk) {\n",
+                            "\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[iso file] first_chunk (%u) for entry %u is greater than first_chunk (%u) for entry %u\\n\", i+1, ent->firstChunk, i+2, next_ent->firstChunk));\n",
+                            "\t\t\treturn GF_ISOM_INVALID_FILE;\n",
+                            "\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: iods_box_read -> iods_box_read": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: stbl_box_read -> stbl_box_read": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "control_flow",
+                "sanity_check",
+                "USE",
+                "change_value"
+            ]
+        }
+    }
+}

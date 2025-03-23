@@ -1,0 +1,4 @@
+2481a2482,2484
+>	if (!layout) return GF_BAD_PARAM;
+>	if ((layout->stream_structure & 1) && (layout->definedLayout==0) && (layout->channels_count>=64))
+>		return GF_BAD_PARAM;

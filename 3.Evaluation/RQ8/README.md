@@ -1,0 +1,1 @@
+Copalot takes 21.7 seconds to construct a CC patch on average, demonstrating its efficiency in real-world applications. The results is shown in [results.json](efficiency.json)

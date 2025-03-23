@@ -1,0 +1,8 @@
+493c493,495
+<        if (l >= (MAX_SIZE/sizeof(char)) - tl)
+---
+>if (l >= (MAX_SIZE/sizeof(char)) - tl)
+>	{
+>          L->top = top - total;
+494a495
+>        }

@@ -1,0 +1,148 @@
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: ci  @ 9 @ name: ci  @ 9 @ 
+call  @ 14 @ call  @ 11 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name  @ 2 @ name  @ 2 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+decl  @ 2 @ decl  @ 2 @ 
+modifier: ...  @ 1 @ modifier: ...  @ 1 @ 
+argument  @ 7 @ argument  @ 7 @ 
+name: L  @ 2 @ name: L  @ 2 @ 
+name: msg  @ 3 @ name: msg  @ 3 @ 
+condition  @ 9 @ condition  @ 9 @ 
+argument  @ 8 @ argument  @ 8 @ 
+name: luaO_pushvfstring  @ 7 @ name: luaO_pushvfstring  @ 7 @ 
+name: l_noret  @ 1 @ name: l_noret  @ 1 @ 
+name: argp  @ 7 @ name: argp  @ 7 @ 
+argument  @ 6 @ argument  @ 6 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument  @ 10 @ argument  @ 10 @ 
+name: msg  @ 10 @ name: msg  @ 10 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument  @ 9 @ argument  @ 9 @ 
+argument_list  @ 7 @ argument_list  @ 7 @ 
+expr  @ 2 @ expr  @ 2 @ 
+name: ci  @ 10 @ name: ci  @ 10 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+name: isLua  @ 9 @ name: isLua  @ 9 @ 
+call  @ 8 @ call  @ 8 @ 
+init  @ 2 @ init  @ 2 @ 
+call  @ 5 @ call  @ 5 @ 
+expr  @ 10 @ expr  @ 10 @ 
+call  @ 10 @ call  @ 10 @ 
+argument_list  @ 14 @ argument_list  @ 11 @ 
+name: char  @ 3 @ name: char  @ 3 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 6 @ 
+block  @ 1 @ block  @ 1 @ 
+argument  @ 5 @ argument  @ 5 @ 
+decl  @ 1 @ decl  @ 1 @ 
+type  @ 4 @ type  @ 4 @ 
+argument  @ 10 @ argument  @ 10 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+name: p  @ 10 @ name: p  @ 10 @ 
+argument  @ 10 @ argument  @ 10 @ 
+expr  @ 7 @ expr  @ 7 @ 
+argument  @ 6 @ argument  @ 6 @ 
+name: ci_func  @ 10 @ name: ci_func  @ 10 @ 
+expr  @ 9 @ expr  @ 9 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 7 @ 
+name: lua_State  @ 1 @ name: lua_State  @ 1 @ 
+name: luaG_errormsg  @ 14 @ name: luaG_errormsg  @ 11 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: L  @ 5 @ name: L  @ 5 @ 
+name: luaG_addinfo  @ 10 @ name: luaG_addinfo  @ 10 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 8 @ expr  @ 8 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr  @ 8 @ expr  @ 8 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 6 @ expr  @ 6 @ 
+comment: /* error message uses memory */  @ 5 @ comment: /* error message uses memory */  @ 5 @ 
+expr_stmt  @ 5 @ expr_stmt  @ 5 @ 
+name: L  @ 14 @ name: L  @ 11 @ 
+expr  @ 9 @ expr  @ 9 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: argp  @ 6 @ name: argp  @ 6 @ 
+argument  @ 10 @ argument  @ 10 @ 
+call  @ 6 @ call  @ 6 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+expr  @ 14 @ expr  @ 11 @ 
+operator: =  @ 7 @ operator: =  @ 7 @ 
+operator: ->  @ 2 @ operator: ->  @ 2 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: CallInfo  @ 2 @ name: CallInfo  @ 2 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 11 @ 
+argument_list  @ 8 @ argument_list  @ 8 @ 
+modifier: *  @ 3 @ modifier: *  @ 3 @ 
+name: L  @ 7 @ name: L  @ 7 @ 
+if_stmt  @ 9 @ if_stmt  @ 9 @ 
+expr  @ 14 @ expr  @ 11 @ 
+specifier: const  @ 3 @ specifier: const  @ 3 @ 
+argument  @ 7 @ argument  @ 7 @ 
+name: ci  @ 2 @ name: ci  @ 2 @ 
+name: L  @ 10 @ name: L  @ 10 @ 
+name: ci  @ 10 @ name: ci  @ 10 @ 
+call  @ 7 @ call  @ 7 @ 
+decl_stmt  @ 2 @ decl_stmt  @ 2 @ 
+argument_list  @ 9 @ argument_list  @ 9 @ 
+name: fmt  @ 6 @ name: fmt  @ 6 @ 
+expr  @ 10 @ expr  @ 10 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: va_start  @ 6 @ name: va_start  @ 6 @ 
+name: va_end  @ 8 @ name: va_end  @ 8 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+expr  @ 6 @ expr  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 7 @ expr  @ 7 @ 
+call  @ 10 @ call  @ 10 @ 
+name: L  @ 1 @ name: L  @ 1 @ 
+decl  @ 3 @ decl  @ 3 @ 
+name: fmt  @ 1 @ name: fmt  @ 1 @ 
+expr  @ 10 @ expr  @ 10 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 5 @ expr  @ 5 @ 
+argument  @ 7 @ argument  @ 7 @ 
+argument  @ 14 @ argument  @ 11 @ 
+comment: /* format message */  @ 7 @ comment: /* format message */  @ 7 @ 
+name: msg  @ 7 @ name: msg  @ 7 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+name: ci  @ 2 @ name: ci  @ 2 @ 
+argument  @ 10 @ argument  @ 10 @ 
+block_content  @ 10 @ block_content  @ 10 @ 
+decl  @ 1 @ decl  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+name: argp  @ 4 @ name: argp  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+function  @ 1 @ function  @ 1 @ 
+comment: /* if Lua function, add source:line information */  @ 9 @ comment: /* if Lua function, add source:line information */  @ 9 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 8 @ 
+argument  @ 10 @ argument  @ 10 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 7 @ expr  @ 7 @ 
+block  @ 9 @ block  @ 10 @ 
+call  @ 9 @ call  @ 9 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 7 @ expr  @ 7 @ 
+call  @ 10 @ call  @ 10 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: getcurrentline  @ 10 @ name: currentline  @ 10 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+if  @ 9 @ if  @ 9 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: luaG_runerror  @ 1 @ name: luaG_runerror  @ 1 @ 
+type  @ 3 @ type  @ 3 @ 
+name: fmt  @ 7 @ name: fmt  @ 7 @ 
+name: va_list  @ 4 @ name: va_list  @ 4 @ 
+name: argp  @ 8 @ name: argp  @ 8 @ 
+name: source  @ 10 @ name: source  @ 10 @ 
+name  @ 10 @ name  @ 10 @ 
+name: luaC_checkGC  @ 5 @ name: luaC_checkGC  @ 5 @ 
+

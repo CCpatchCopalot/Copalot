@@ -1,0 +1,125 @@
+name: mask  @ 2 @ name: mask  @ 2 @ 
+name: func  @ 4 @ name: func  @ 4 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: L  @ 7 @ name: L  @ 7 @ 
+operator: =  @ 9 @ operator: =  @ 9 @ 
+expr  @ 3 @ expr  @ 3 @ 
+name: L  @ 11 @ name: L  @ 11 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+if  @ 2 @ if  @ 2 @ 
+operator: =  @ 8 @ operator: =  @ 8 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: L  @ 6 @ name: L  @ 6 @ 
+name: count  @ 1 @ name: count  @ 1 @ 
+operator: =  @ 7 @ operator: =  @ 7 @ 
+name: lua_sethook  @ 1 @ name: lua_sethook  @ 1 @ 
+name: void  @ 1 @ name: int  @ 1 @ 
+name: L  @ 8 @ name: L  @ 8 @ 
+name: basehookcount  @ 9 @ name: basehookcount  @ 9 @ 
+name: lua_Hook  @ 1 @ name: lua_Hook  @ 1 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+name: cast_byte  @ 11 @ name: cast_byte  @ 11 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: ==  @ 2 @ operator: ==  @ 2 @ 
+comment: /* turn off hooks? */  @ 2 @ comment: /* turn off hooks? */  @ 2 @ 
+block  @ 2 @ block  @ 2 @ 
+name: LUA_API  @ 1 @ name: LUA_API  @ 1 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 3 @ 
+name  @ 8 @ name  @ 8 @ 
+name: hook  @ 8 @ name: hook  @ 8 @ 
+name: L  @ 10 @ name: L  @ 10 @ 
+name: ci  @ 7 @ name: ci  @ 7 @ 
+name: lua_State  @ 1 @ name: lua_State  @ 1 @ 
+name  @ 9 @ name  @ 9 @ 
+type  @ 1 @ type  @ 1 @ 
+name: mask  @ 11 @ name: mask  @ 11 @ 
+operator: ==  @ 2 @ operator: ==  @ 2 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: ->  @ 9 @ operator: ->  @ 9 @ 
+expr  @ 12 @ expr  @ 12 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: ->  @ 7 @ operator: ->  @ 7 @ 
+name: hookmask  @ 11 @ name: hookmask  @ 11 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: func  @ 8 @ name: func  @ 8 @ 
+expr  @ 2 @ expr  @ 2 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: L  @ 1 @ name: L  @ 1 @ 
+call  @ 6 @ call  @ 6 @ 
+block  @ 1 @ block  @ 1 @ 
+argument  @ 10 @ argument  @ 10 @ 
+operator: .  @ 7 @ operator: .  @ 7 @ 
+name: func  @ 1 @ name: func  @ 1 @ 
+name: func  @ 2 @ name: func  @ 2 @ 
+operator: ->  @ 8 @ operator: ->  @ 8 @ 
+name  @ 7 @ name  @ 7 @ 
+expr  @ 11 @ expr  @ 11 @ 
+operator: ->  @ 7 @ operator: ->  @ 7 @ 
+literal: 0  @ 2 @ literal: 0  @ 2 @ 
+expr  @ 9 @ expr  @ 9 @ 
+name: NULL  @ 4 @ name: NULL  @ 4 @ 
+name  @ 7 @ name  @ 7 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: count  @ 9 @ name: count  @ 9 @ 
+if_stmt  @ 6 @ if_stmt  @ 6 @ 
+name: oldpc  @ 7 @ name: oldpc  @ 7 @ 
+name: u  @ 7 @ name: u  @ 7 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name  @ 11 @ name  @ 11 @ 
+block  @ 7 @ block  @ 7 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 7 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: NULL  @ 2 @ name: NULL  @ 2 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+name: mask  @ 3 @ name: mask  @ 3 @ 
+name: resethookcount  @ 10 @ name: resethookcount  @ 10 @ 
+name: L  @ 7 @ name: L  @ 7 @ 
+if_stmt  @ 2 @ if_stmt  @ 2 @ 
+name: isLua  @ 6 @ name: isLua  @ 6 @ 
+operator: ||  @ 2 @ operator: ||  @ 2 @ 
+operator: ->  @ 11 @ operator: ->  @ 11 @ 
+operator: ->  @ 7 @ operator: ->  @ 7 @ 
+call  @ 10 @ call  @ 10 @ 
+type  @ 1 @ type  @ 1 @ 
+name: ci  @ 6 @ name: ci  @ 6 @ 
+condition  @ 6 @ condition  @ 6 @ 
+argument_list  @ 11 @ argument_list  @ 11 @ 
+type  @ 1 @ type  @ 1 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+call  @ 11 @ call  @ 11 @ 
+name: l  @ 7 @ name: l  @ 7 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+literal: 0  @ 3 @ literal: 0  @ 3 @ 
+operator: =  @ 4 @ operator: =  @ 4 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name  @ 6 @ name  @ 6 @ 
+expr_stmt  @ 4 @ expr_stmt  @ 4 @ 
+if  @ 6 @ if  @ 6 @ 
+argument  @ 6 @ argument  @ 6 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: mask  @ 1 @ name: mask  @ 1 @ 
+name: savedpc  @ 7 @ name: savedpc  @ 7 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 8 @ expr  @ 8 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 6 @ expr  @ 6 @ 
+argument  @ 11 @ argument  @ 11 @ 
+operator: =  @ 3 @ operator: =  @ 3 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 8 @ 
+condition  @ 2 @ condition  @ 2 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 9 @ 
+name: L  @ 9 @ name: L  @ 9 @ 
+operator: .  @ 7 @ operator: .  @ 7 @ 
+operator: =  @ 11 @ operator: =  @ 11 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+operator: ->  @ 6 @ operator: ->  @ 6 @ 
+

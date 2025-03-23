@@ -1,0 +1,233 @@
+{
+    "testcase": {
+        "file20": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "134 -> 205",
+                        "L2": "134 -> 205",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl_stmt', 'info': [], 'ast_patch': 'OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));'}",
+                            "verify location": "-1",
+                            "output location": "205",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl_stmt",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl_stmt",
+                            "info": [],
+                            "ast_patch": "OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));"
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "142 -> 220",
+                        "L2": "142 -> 220",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl_stmt', 'info': [], 'ast_patch': 'OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));'}",
+                            "verify location": "-1",
+                            "output location": "220",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl_stmt",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl_stmt",
+                            "info": [],
+                            "ast_patch": "OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));"
+                        }
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "150 -> 218",
+                        "L2": "150 -> 218",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl_stmt', 'info': [], 'ast_patch': 'auto loc = std::inner_product(g_hypothesis.begin(), g_hypothesis.end(),output_strides.begin(), int64_t{0});\\n0});        OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));\\n        output_t(loc) = hypothesis_seq.size();\\n        if (normalize_ && output_t(loc) != 0.0f) {\\n          output_t(loc) = std::numeric_limits<float>::infinity();\\n        }\\n        ++hypothesis_iter;\\n      }OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));'}",
+                            "verify location": "-1",
+                            "output location": "218",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl_stmt",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl_stmt",
+                            "info": [],
+                            "ast_patch": "auto loc = std::inner_product(g_hypothesis.begin(), g_hypothesis.end(),output_strides.begin(), int64_t{0});\n0});        OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));\n        output_t(loc) = hypothesis_seq.size();\n        if (normalize_ && output_t(loc) != 0.0f) {\n          output_t(loc) = std::numeric_limits<float>::infinity();\n        }\n        ++hypothesis_iter;\n      }OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));"
+                        }
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "160 -> -1",
+                        "L2": "160 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'src:call', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "src:call",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "172 -> -1",
+                        "L2": "172 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'src:call', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "src:call",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "0});      OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of the \" \"buffer for the output tensor (max elements \", output_elements, \")\"));\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "0});      OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of the \" \"buffer for the output tensor (max elements \", output_elements, \")\"));\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 205,
+                        "add_hunk": [
+                            "OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));\n"
+                        ],
+                        "delete_location": [
+                            205,
+                            205
+                        ],
+                        "delete_hunk": [
+                            "        OP_REQUIRES(\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 218,
+                        "add_hunk": [
+                            "auto loc = std::inner_product(g_hypothesis.begin(), g_hypothesis.end(),output_strides.begin(), int64_t{0});\n",
+                            "0});        OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));\n",
+                            "        output_t(loc) = hypothesis_seq.size();\n",
+                            "        if (normalize_ && output_t(loc) != 0.0f) {\n",
+                            "          output_t(loc) = std::numeric_limits<float>::infinity();\n",
+                            "        }\n",
+                            "        ++hypothesis_iter;\n",
+                            "      }OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));\n"
+                        ],
+                        "delete_location": [
+                            218,
+                            218
+                        ],
+                        "delete_hunk": [
+                            "        auto loc = std::inner_product(g_hypothesis.begin(), g_hypothesis.end(),\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 220,
+                        "add_hunk": [
+                            "OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal(\"Got an inner product \", loc, \" which would require in writing to outside of \" \"the buffer for the output tensor (max elements \", output_elements, \")\"));\n"
+                        ],
+                        "delete_location": [
+                            220,
+                            220
+                        ],
+                        "delete_hunk": [
+                            "        OP_REQUIRES(\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    },
+                    "Seg_2": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    },
+                    "Seg_3": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    },
+                    "Seg_4": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "function_call"
+            ]
+        }
+    }
+}

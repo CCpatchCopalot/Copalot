@@ -1,0 +1,54 @@
+static herr_t
+H5HL__cache_datablock_notify(H5C_notify_action_t action, void *_thing)
+{
+    H5HL_dblk_t *dblk      = (H5HL_dblk_t *)_thing; /* Pointer to the local heap data block */
+    herr_t       ret_value = SUCCEED;               /* Return value */
+
+    FUNC_ENTER_STATIC
+
+    /* Sanity check */
+    HDassert(dblk);
+
+    switch (action) {
+        case H5AC_NOTIFY_ACTION_AFTER_INSERT:
+            /* do nothing */
+            break;
+
+        case H5AC_NOTIFY_ACTION_AFTER_LOAD:
+            /* Sanity checks */
+            HDassert(dblk->heap);
+            HDassert(dblk->heap->prfx);
+
+            /* Pin the heap's prefix */
+            if (FAIL == H5AC_pin_protected_entry(dblk->heap->prfx))
+                HGOTO_ERROR(H5E_HEAP, H5E_CANTPIN, FAIL, "unable to pin local heap prefix");
+            break;
+
+        case H5AC_NOTIFY_ACTION_AFTER_FLUSH:
+        case H5AC_NOTIFY_ACTION_ENTRY_DIRTIED:
+        case H5AC_NOTIFY_ACTION_ENTRY_CLEANED:
+        case H5AC_NOTIFY_ACTION_CHILD_DIRTIED:
+        case H5AC_NOTIFY_ACTION_CHILD_CLEANED:
+        case H5AC_NOTIFY_ACTION_CHILD_UNSERIALIZED:
+        case H5AC_NOTIFY_ACTION_CHILD_SERIALIZED:
+            /* do nothing */
+            break;
+
+        case H5AC_NOTIFY_ACTION_BEFORE_EVICT:
+            /* Sanity checks */
+            HDassert(dblk->heap);
+            HDassert(dblk->heap->prfx);
+
+            /* Unpin the local heap prefix */
+            if (FAIL == H5AC_unpin_entry(dblk->heap->prfx))
+                HGOTO_ERROR(H5E_HEAP, H5E_CANTUNPIN, FAIL, "unable to unpin local heap prefix");
+            break;
+
+        default:
+            HGOTO_ERROR(H5E_ARGS, H5E_BADVALUE, FAIL, "unknown action from metadata cache");
+            break;
+    }
+
+done:
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5HL__cache_datablock_notify() */

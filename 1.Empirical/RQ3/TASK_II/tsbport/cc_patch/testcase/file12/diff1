@@ -1,0 +1,6 @@
+243a244
+>       if (context.mutable_output(i) != nullptr) {
+244a246,248
+>       else{
+>         outputs->push_back(Tensor());
+>       }

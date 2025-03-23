@@ -1,0 +1,80 @@
+{
+    "testcase": {
+        "file34": {
+            "match_message": {
+                "Same: php_wddx_pop_element -> php_wddx_pop_element": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 889 -> 941",
+                        "L2": "3: Unique Matched by Source code 890 -> 942"
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 893->945 ([[945, 1.0], [1039, 0.4816326530612245]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 893->945 ([[945, 1.0], [1039, 0.4816326530612245]])"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 932 -> 980",
+                        "L2": "3: Unique Matched by Source code 932 -> 980"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 941,
+                        "add_hunk": [
+                            "\t\t\t\tefree(ent1);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "add_location": 260,
+                        "add_hunk": [],
+                        "delete_location": [
+                            945,
+                            945
+                        ],
+                        "delete_hunk": [
+                            "\t\t\tefree(ent1);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 980,
+                        "add_hunk": [
+                            "\t\t\tif (ent2->data == NULL) {\n"
+                        ],
+                        "delete_location": [
+                            980,
+                            980
+                        ],
+                        "delete_hunk": [
+                            "\t\t\tif (ent2->type == ST_FIELD && ent2->data == NULL) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: php_wddx_pop_element -> php_wddx_pop_element": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

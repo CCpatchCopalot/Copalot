@@ -1,0 +1,14 @@
+1c1
+< /* radare - LGPL3 - Copyright 2016-2020 - Matthieu (c0riolis) Tardy - l0stb1t*/
+---
+> /* radare - LGPL3 - Copyright 2016-2021 - Matthieu (c0riolis) Tardy - l0stb1t*/
+91,93c91
+< 	pyc_object *ret;
+< 
+< 	ret = R_NEW0 (pyc_object);
+---
+> 	pyc_object *ret = R_NEW0 (pyc_object);
+1139a1138
+> 		if (ref_idx->data != ret) {
+1140a1140
+> 		}

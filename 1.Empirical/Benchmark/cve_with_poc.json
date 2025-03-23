@@ -1,0 +1,2390 @@
+{
+    "CVE-2016-5036": {
+        "poc": "http://www.openwall.com/lists/oss-security/2016/05/25/1",
+        "patch": "https://github.com/davea42/libdwarf-code/commit/82d8e007851805af0dcaaff41f49a2d48473334b"
+    },
+    "CVE-2016-7131": {
+        "poc": "https://bugs.php.net/bug.php?id=72790",
+        "patch": "https://github.com/php/php-src/commit/5a34bd6d1e6b4d31221c50bcf477c9508553a646"
+    },
+    "CVE-2016-7132": {
+        "poc": "https://bugs.php.net/bug.php?id=72799",
+        "patch": "https://github.com/php/php-src/commit/5a34bd6d1e6b4d31221c50bcf477c9508553a646"
+    },
+    "CVE-2017-11661": {
+        "poc": "https://www.exploit-db.com/exploits/42433",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1"
+    },
+    "CVE-2017-11662": {
+        "poc": "http://seclists.org/fulldisclosure/2017/Aug/12",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1"
+    },
+    "CVE-2017-11663": {
+        "poc": "http://seclists.org/fulldisclosure/2017/Aug/12",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1"
+    },
+    "CVE-2017-11664": {
+        "poc": "http://seclists.org/fulldisclosure/2017/Aug/12",
+        "patch": "https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1"
+    },
+    "CVE-2017-14858": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494782",
+        "patch": "https://github.com/Exiv2/exiv2/commit/d3c2b9938583440f87ce9115de5a7e8cd8f8db57"
+    },
+    "CVE-2017-14859": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494780",
+        "patch": "https://github.com/Exiv2/exiv2/commit/549cac47af7e0e5762b164512eff30d116bd4f2c"
+    },
+    "CVE-2017-14860": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494776",
+        "patch": "https://github.com/Exiv2/exiv2/commit/ff18fec24b119579df26fd2ebb8bb012cde102ce"
+    },
+    "CVE-2017-14861": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494787",
+        "patch": "https://github.com/Exiv2/exiv2/commit/d3c2b9938583440f87ce9115de5a7e8cd8f8db57"
+    },
+    "CVE-2017-14862": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494786",
+        "patch": "https://github.com/Exiv2/exiv2/commit/549cac47af7e0e5762b164512eff30d116bd4f2c"
+    },
+    "CVE-2017-14864": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1494467",
+        "patch": "https://github.com/Exiv2/exiv2/commit/549cac47af7e0e5762b164512eff30d116bd4f2c"
+    },
+    "CVE-2017-15932": {
+        "poc": "https://github.com/radare/radare2/issues/8743",
+        "patch": "https://github.com/radareorg/radare2/commit/44ded3ff35b8264f54b5a900cab32ec489d9e5b9\nhttps://github.com/radareorg/radare2/commit/62e39f34b2705131a2d08aff0c2e542c6a52cf0e"
+    },
+    "CVE-2017-17505": {
+        "poc": "https://github.com/xiaoqx/pocs/tree/master/hdf5/readme.md",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/1c3ba3721718c8089da65fae02f65068d8530fa7"
+    },
+    "CVE-2017-17506": {
+        "poc": "https://github.com/xiaoqx/pocs/tree/master/hdf5/readme.md",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/1c3ba3721718c8089da65fae02f65068d8530fa7"
+    },
+    "CVE-2017-17508": {
+        "poc": "https://github.com/xiaoqx/pocs/tree/master/hdf5/readme.md",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/1c3ba3721718c8089da65fae02f65068d8530fa7"
+    },
+    "CVE-2017-6387": {
+        "poc": "https://github.com/radare/radare2/issues/6857",
+        "patch": "https://github.com/radareorg/radare2/commit/ead645853a63bf83d8386702cad0cf23b31d7eeb\nhttps://github.com/radareorg/radare2/commit/1cb8dcf905de47bc8c4534ac45692be1dce300c0"
+    },
+    "CVE-2017-7596": {
+        "poc": "https://blogs.gentoo.org/ago/2017/04/01/libtiff-multiple-ubsan-crashes",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/d2e6964efcb785b8566a6b538133299870082768"
+    },
+    "CVE-2017-7597": {
+        "poc": "https://blogs.gentoo.org/ago/2017/04/01/libtiff-multiple-ubsan-crashes",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/d2e6964efcb785b8566a6b538133299870082768"
+    },
+    "CVE-2018-1000001": {
+        "poc": "https://www.exploit-db.com/exploits/43775",
+        "patch": "https://github.com/bminor/glibc/commit/52a713fdd0a30e1bd79818e2e3c4ab44ddca1a94"
+    },
+    "CVE-2018-10186": {
+        "poc": "https://github.com/radare/radare2/issues/9915",
+        "patch": "https://github.com/radareorg/radare2/commit/a0348bb1b512ef27301dd7cdfb327ef5e14813fc"
+    },
+    "CVE-2018-11202": {
+        "poc": "https://github.com/Twi1ight/fuzzing-pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b"
+    },
+    "CVE-2018-11205": {
+        "poc": "https://github.com/Twi1ight/fuzzing-pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b"
+    },
+    "CVE-2018-13866": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b"
+    },
+    "CVE-2018-13867": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b"
+    },
+    "CVE-2018-13869": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/7c3d4402d730789173e413b48951fede5f6932f3"
+    },
+    "CVE-2018-13870": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/7c3d4402d730789173e413b48951fede5f6932f3"
+    },
+    "CVE-2018-13871": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b"
+    },
+    "CVE-2018-13873": {
+        "poc": "https://github.com/TeamSeri0us/pocs/tree/master/hdf5",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/56b32278c4425afd8407f5b55310beed5c957d6a"
+    },
+    "CVE-2018-14015": {
+        "poc": "https://github.com/radare/radare2/issues/10465",
+        "patch": "https://github.com/radareorg/radare2/commit/d37d2b858ac47f2f108034be0bcecadaddfbc8b3\nhttps://github.com/radareorg/radare2/commit/ebe148a6702542f12ca4c677325df5d435d0ef4d"
+    },
+    "CVE-2018-14016": {
+        "poc": "https://github.com/radare/radare2/issues/10464",
+        "patch": "https://github.com/radareorg/radare2/commit/eb7deb281df54771fb8ecf5890dc325a7d22d3e2"
+    },
+    "CVE-2018-15209": {
+        "poc": "http://bugzilla.maptools.org/show_bug.cgi?id=2808",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/3719385a3fac5cfb20b487619a5f08abbf967cf8\nhttps://gitlab.com/libtiff/libtiff/-/commit/7a092f8af2568d61993a8cc2e7a35a998d7d37be"
+    },
+    "CVE-2018-15671": {
+        "poc": "https://github.com/SegfaultMasters/covering360/tree/master/HDF5#stack-overflow---stackoverflow_h5p__get_cb",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/90852b28c729e963a7ebf4b21fe216a44ce7ad2b"
+    },
+    "CVE-2018-17234": {
+        "poc": "https://github.com/SegfaultMasters/covering360/tree/master/HDF5/vuln3#memory-leak---h5o__chunk_deserialize_memory_leak",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/56b32278c4425afd8407f5b55310beed5c957d6a"
+    },
+    "CVE-2018-17237": {
+        "poc": "https://github.com/SegfaultMasters/covering360/blob/master/HDF5/README.md#divided-by-zero---h5d__chunk_set_info_real_div_by_zero",
+        "patch": "https://github.com/HDFGroup/hdf5/commit/160107a97c30a759ffd4ba7fe13284d24d349301"
+    },
+    "CVE-2018-19607": {
+        "poc": "https://github.com/Exiv2/exiv2/issues/561",
+        "patch": "https://github.com/Exiv2/exiv2/commit/6e42c1b55e0fc4f360cc56010b0ffe19aa6062d9"
+    },
+    "CVE-2018-20455": {
+        "poc": "https://github.com/radare/radare2/issues/12373",
+        "patch": "https://github.com/radareorg/radare2/commit/9b46d38dd3c4de6048a488b655c7319f845af185"
+    },
+    "CVE-2018-20456": {
+        "poc": "https://github.com/radare/radare2/issues/12372",
+        "patch": "https://github.com/radareorg/radare2/commit/9b46d38dd3c4de6048a488b655c7319f845af185"
+    },
+    "CVE-2018-20458": {
+        "poc": "https://github.com/radare/radare2/issues/12374",
+        "patch": "https://github.com/radare/radare2/commit/30f4c7b52a4e2dc0d0b1bae487d90f5437c69d19"
+    },
+    "CVE-2019-12481": {
+        "poc": "https://github.com/gpac/gpac/issues/1249",
+        "patch": "https://github.com/gpac/gpac/commit/f40aaaf959d4d1f7fa0dcd04c0666592e615c8f1"
+    },
+    "CVE-2019-12482": {
+        "poc": "https://github.com/gpac/gpac/issues/1249",
+        "patch": "https://github.com/gpac/gpac/commit/f40aaaf959d4d1f7fa0dcd04c0666592e615c8f1"
+    },
+    "CVE-2019-12483": {
+        "poc": "https://github.com/gpac/gpac/issues/1249",
+        "patch": "https://github.com/gpac/gpac/commit/f40aaaf959d4d1f7fa0dcd04c0666592e615c8f1"
+    },
+    "CVE-2019-13454": {
+        "poc": "https://github.com/ImageMagick/ImageMagick/issues/1629",
+        "patch": "https://github.com/ImageMagick/ImageMagick/commit/1ddcf2e4f28029a888cadef2e757509ef5047ad8"
+    },
+    "CVE-2019-20160": {
+        "poc": "https://github.com/gpac/gpac/issues/1334",
+        "patch": "https://github.com/gpac/gpac/commit/bcfcb3e90476692fe0d2bb532ea8deeb2a77580e"
+    },
+    "CVE-2019-20163": {
+        "poc": "https://github.com/gpac/gpac/issues/1335",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80"
+    },
+    "CVE-2019-20164": {
+        "poc": "https://github.com/gpac/gpac/issues/1332",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80"
+    },
+    "CVE-2019-20165": {
+        "poc": "https://github.com/gpac/gpac/issues/1338",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80"
+    },
+    "CVE-2019-20166": {
+        "poc": "https://github.com/gpac/gpac/issues/1331",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80"
+    },
+    "CVE-2019-20167": {
+        "poc": "https://github.com/gpac/gpac/issues/1330",
+        "patch": "https://github.com/gpac/gpac/commit/5250afecbc770c8f26829e9566d5b226a3c5fa80"
+    },
+    "CVE-2019-20171": {
+        "poc": "https://github.com/gpac/gpac/issues/1337",
+        "patch": "https://github.com/gpac/gpac/commit/72cdc5048dead86bb1df7d21e0b9975e49cf2d97\nhttps://github.com/gpac/gpac/commit/2bcca3f1d4605100bb27d3ed7be25b53cddbc75c"
+    },
+    "CVE-2019-20208": {
+        "poc": "https://github.com/gpac/gpac/issues/1348",
+        "patch": "https://github.com/gpac/gpac/commit/bcfcb3e90476692fe0d2bb532ea8deeb2a77580e"
+    },
+    "CVE-2019-20628": {
+        "poc": "https://github.com/gpac/gpac/issues/1269",
+        "patch": "https://github.com/gpac/gpac/commit/1ab4860609f2e7a35634930571e7d0531297e090\nhttps://github.com/gpac/gpac/commit/98b727637e32d1d4824101d8947e2dbd573d4fc8"
+    },
+    "CVE-2019-20630": {
+        "poc": "https://github.com/gpac/gpac/issues/1268",
+        "patch": "https://github.com/gpac/gpac/commit/1ab4860609f2e7a35634930571e7d0531297e090\nhttps://github.com/gpac/gpac/commit/98b727637e32d1d4824101d8947e2dbd573d4fc8"
+    },
+    "CVE-2020-15190": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4g9f-63rx-5cw4",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/da8558533d925694483d2c136a9220d6d49d843c"
+    },
+    "CVE-2020-15206": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-w5gh-2wr2-pm6g",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/adf095206f25471e864a8e63a0f1caef53a0e3a6"
+    },
+    "CVE-2020-15214": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-p2cq-cprg-frvm",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/204945b19e44b57906c9344c0d00120eeeae178a"
+    },
+    "CVE-2020-15945": {
+        "poc": "http://lua-users.org/lists/lua-l/2020-07/msg00123.html",
+        "patch": "https://github.com/lua/lua/commit/a2195644d89812e5b157ce7bac35543e06db05e3"
+    },
+    "CVE-2020-16291": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701787",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=4f73e8b4d578e69a17f452fa60d2130c5faaefd6"
+    },
+    "CVE-2020-16294": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701794",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=89f58f1aa95b3482cadf6977da49457194ee5358"
+    },
+    "CVE-2020-16296": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701792",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=9f39ed4a92578a020ae10459643e1fe72573d134"
+    },
+    "CVE-2020-16297": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701800",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=bf72f1a3dd5392ee8291e3b1518a0c2c5dc6ba39"
+    },
+    "CVE-2020-16304": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701816",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=027c546e0dd11e0526f1780a7f3c2c66acffe209"
+    },
+    "CVE-2020-16310": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701828",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=eaba1d97b62831b42c51840cc8ee2bc4576c942e"
+    },
+    "CVE-2020-17538": {
+        "poc": "https://bugs.ghostscript.com/show_bug.cgi?id=701792",
+        "patch": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=9f39ed4a92578a020ae10459643e1fe72573d134"
+    },
+    "CVE-2020-18771": {
+        "poc": "https://github.com/Exiv2/exiv2/issues/756",
+        "patch": "https://github.com/Exiv2/exiv2/commit/b148cfaa1ab1a6a0ce8eb90d3b18b660a7620a34"
+    },
+    "CVE-2020-19481": {
+        "poc": "https://github.com/gpac/gpac/issues/1267",
+        "patch": "https://github.com/gpac/gpac/commit/f0af02425883b2e1c651c6d0c602e1259b67a6b6"
+    },
+    "CVE-2020-21830": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493134",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31"
+    },
+    "CVE-2020-21831": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493267",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/185889b5abc6ff68b071758b82cf20be11102326"
+    },
+    "CVE-2020-21840": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493513",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31"
+    },
+    "CVE-2020-21841": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493775",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31"
+    },
+    "CVE-2020-21844": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/188#issuecomment-574493607",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/6ea3bdb8836e4c9833c78c1a983dab7b2ba88b31"
+    },
+    "CVE-2020-23321": {
+        "poc": "https://github.com/jerryscript-project/jerryscript/issues/3870",
+        "patch": "https://github.com/jerryscript-project/jerryscript/commit/fed1b0c8270ffb172c9bfb2744e9d5bca8d11dfb"
+    },
+    "CVE-2020-23323": {
+        "poc": "https://github.com/jerryscript-project/jerryscript/issues/3871",
+        "patch": "https://github.com/jerryscript-project/jerryscript/commit/fed1b0c8270ffb172c9bfb2744e9d5bca8d11dfb"
+    },
+    "CVE-2020-23931": {
+        "poc": "https://github.com/gpac/gpac/issues/1564",
+        "patch": "https://github.com/gpac/gpac/commit/093283e727f396130651280609e687cd4778e0d1\nhttps://github.com/gpac/gpac/commit/e74be5976a6fee059c638050a237893f7e9a3b23"
+    },
+    "CVE-2020-24829": {
+        "poc": "https://github.com/gpac/gpac/issues/1422",
+        "patch": "https://github.com/gpac/gpac/commit/8c5e847185d74462d674ee7d28fb46c29dae6dd2"
+    },
+    "CVE-2020-26269": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-9jjw-hf72-3mxw",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/8b5b9dc96666a3a5d27fad7179ff215e3b74b67c"
+    },
+    "CVE-2020-28603": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28606": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28608": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28609": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28612": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28613": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28615": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28621": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28623": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28625": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28626": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28629": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28632": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28633": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28634": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-28635": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-35631": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-35632": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-35633": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal/commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-35635": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1225",
+        "patch": "https://github.com/CGAL/cgal//commit/5a1ab45058112f8647c14c02f58905ecc597ec76"
+    },
+    "CVE-2020-6018": {
+        "poc": "https://research.checkpoint.com/2020/game-on-finding-vulnerabilities-in-valves-steam-sockets/",
+        "patch": "https://github.com/ValveSoftware/GameNetworkingSockets/commit/bea84e2844b647532a9b7fbc3a6a8989d66e49e3"
+    },
+    "CVE-2020-6630": {
+        "poc": "https://github.com/gpac/gpac/issues/1377",
+        "patch": "https://github.com/gpac/gpac/commit/c7e46e948ebe2d4a532539c7e714cdf655b84521"
+    },
+    "CVE-2020-6631": {
+        "poc": "https://github.com/gpac/gpac/issues/1378",
+        "patch": "https://github.com/gpac/gpac/commit/c7e46e948ebe2d4a532539c7e714cdf655b84521"
+    },
+    "CVE-2021-22890": {
+        "poc": "https://hackerone.com/reports/1129529",
+        "patch": "https://github.com/curl/curl/commit/b09c8ee15771c614c4bf3ddac893cdb12187c844"
+    },
+    "CVE-2021-22897": {
+        "poc": "https://hackerone.com/reports/1172857",
+        "patch": "https://github.com/curl/curl/commit/bbb71507b7bab52002f9b1e0880bed6a32834511"
+    },
+    "CVE-2021-22901": {
+        "poc": "https://curl.se/docs/CVE-2021-22901.html",
+        "patch": "https://github.com/curl/curl/commit/7f4a9a9b2a49547eae24d2e19bc5c346e9026479"
+    },
+    "CVE-2021-29542": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4hrh-9vmp-2jgg",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/ba424dd8f16f7110eea526a8086f1a155f14f22b"
+    },
+    "CVE-2021-29591": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-cwv3-863g-39vx",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/9c1dc920d8ffb4893d6c9d27d1f039607b326743\nhttps://github.com/tensorflow/tensorflow/commit/c6173f5fe66cdbab74f4f869311fe6aae2ba35f4"
+    },
+    "CVE-2021-30014": {
+        "poc": "https://github.com/gpac/gpac/issues/1721",
+        "patch": "https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788#diff-85593a2543dbc09dce05fbe45b933dcc7a837880b482bd12858c4497ae796314L9660"
+    },
+    "CVE-2021-30020": {
+        "poc": "https://github.com/gpac/gpac/issues/1722",
+        "patch": "https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788#diff-85593a2543dbc09dce05fbe45b933dcc7a837880b482bd12858c4497ae796314L9660"
+    },
+    "CVE-2021-30022": {
+        "poc": "https://github.com/gpac/gpac/issues/1720",
+        "patch": "https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788#diff-85593a2543dbc09dce05fbe45b933dcc7a837880b482bd12858c4497ae796314L9660"
+    },
+    "CVE-2021-32134": {
+        "poc": "https://github.com/gpac/gpac/issues/1756",
+        "patch": "https://github.com/gpac/gpac/commit/328c6d682698fdb9878dbb4f282963d42c538c01"
+    },
+    "CVE-2021-32439": {
+        "poc": "https://github.com/gpac/gpac/issues/1774",
+        "patch": "https://github.com/gpac/gpac/commit/77ed81c069e10b3861d88f72e1c6be1277ee7eae"
+    },
+    "CVE-2021-32440": {
+        "poc": "https://github.com/gpac/gpac/issues/1772",
+        "patch": "https://github.com/gpac/gpac/commit/f0ba83717b6e4d7a15a1676d1fe06152e199b011"
+    },
+    "CVE-2021-32613": {
+        "poc": "https://github.com/radareorg/radare2/issues/18679",
+        "patch": "https://github.com/radareorg/radare2/commit/5e16e2d1c9fe245e4c17005d779fde91ec0b9c05"
+    },
+    "CVE-2021-3770": {
+        "poc": "https://huntr.dev/bounties/016ad2f2-07c1-4d14-a8ce-6eed10729365",
+        "patch": "https://github.com/vim/vim/commit/b7081e135a16091c93f6f5f7525a5c58fb7ca9f9"
+    },
+    "CVE-2021-39530": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/258",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/4b99edb0ea26e99ef65c5fe68670e6b1f9382d44\nhttps://github.com/LibreDWG/libredwg/commit/dac8fcc4be1007ccf4412ae5e90303e335fdb412"
+    },
+    "CVE-2021-4043": {
+        "poc": "https://github.com/cyberark/PwnKit-Hunter",
+        "patch": "https://github.com/gpac/gpac/commit/64a2e1b799352ac7d7aad1989bc06e7b0f2b01db"
+    },
+    "CVE-2021-40574": {
+        "poc": "https://github.com/gpac/gpac/issues/1897",
+        "patch": "https://github.com/gpac/gpac/commit/30ac5e5236b790accd1f25347eebf2dc8c6c1bcb\nhttps://github.com/gpac/gpac/commit/0bfa7667ecd1e08951c452c32d4d246d9b20e435"
+    },
+    "CVE-2021-41458": {
+        "poc": "https://github.com/gpac/gpac/issues/1910",
+        "patch": "https://github.com/gpac/gpac/commit/74695dea7278e78af3db467e586233fe8773c07e"
+    },
+    "CVE-2021-44919": {
+        "poc": "https://github.com/gpac/gpac/issues/1963",
+        "patch": "https://github.com/gpac/gpac/commit/eaea647cc7dec7b452c17e72f4ce46be35348c92"
+    },
+    "CVE-2021-44923": {
+        "poc": "https://github.com/gpac/gpac/issues/1962",
+        "patch": "https://github.com/gpac/gpac/commit/8a3c021109d26894c3cb85c9d7cda5780a3a2229"
+    },
+    "CVE-2022-0139": {
+        "poc": "https://huntr.dev/bounties/3dcb6f40-45cd-403b-929f-db123fde32c0",
+        "patch": "https://github.com/radareorg/radare2/commit/37897226a1a31f982bfefdc4aeefc2e50355c73c \\n\nhttps://github.com/radareorg/radare2/commit/3345147916b9bb3da225248d571cdbac690c0c4d"
+    },
+    "CVE-2022-0156": {
+        "poc": "https://huntr.dev/bounties/47dded34-3767-4725-8c7c-9dcb68c70b36",
+        "patch": "https://github.com/vim/vim/commit/9f1a39a5d1cd7989ada2d1cb32f97d84360e050f"
+    },
+    "CVE-2022-0393": {
+        "poc": "https://huntr.dev/bounties/ecc8f488-01a0-477f-848f-e30b8e524bba",
+        "patch": "https://github.com/vim/vim/commit/a4bc2dd7cccf5a4a9f78b58b6f35a45d17164323"
+    },
+    "CVE-2022-0417": {
+        "poc": "https://huntr.dev/bounties/fc86bc8d-c866-4ade-8b7f-e49cec306d1a",
+        "patch": "https://github.com/vim/vim/commit/652dee448618589de5528a9e9a36995803f5557a"
+    },
+    "CVE-2022-0481": {
+        "poc": "https://huntr.dev/bounties/54725c8c-87f4-41b6-878c-01d8e0ee7027",
+        "patch": "https://github.com/mruby/mruby/commit/ae3c99767a27f5c6c584162e2adc6a5d0eb2c54e\nhttps://github.com/mruby/mruby/commit/12d51807a397545d5cf423d2f9bd9b52b7e4a786"
+    },
+    "CVE-2022-0519": {
+        "poc": "https://huntr.dev/bounties/af85b9e1-d1cf-4c0e-ba12-525b82b7c1e3",
+        "patch": "https://github.com/radareorg/radare2/commit/6c4428f018d385fc80a33ecddcb37becea685dd5"
+    },
+    "CVE-2022-0521": {
+        "poc": "https://huntr.dev/bounties/4d436311-bbf1-45a3-8774-bdb666d7f7ca",
+        "patch": "https://github.com/radareorg/radare2/commit/6c4428f018d385fc80a33ecddcb37becea685dd5"
+    },
+    "CVE-2022-0523": {
+        "poc": "https://huntr.dev/bounties/9d8d6ae0-fe00-40b9-ae1e-b0e8103bac69",
+        "patch": "https://github.com/radareorg/radare2/commit/35482cb760db10f87a62569e2f8872dbd95e9269"
+    },
+    "CVE-2022-0559": {
+        "poc": "https://huntr.dev/bounties/aa80adb7-e900-44a5-ad05-91f3ccdfc81e",
+        "patch": "https://github.com/radareorg/radare2/commit/b5cb90b28ec71fda3504da04e3cc94a362807f5e\nhttps://github.com/radareorg/radare2/commit/3345147916b9bb3da225248d571cdbac690c0c4d\nhttps://github.com/radareorg/radare2/commit/ead0cee8265df7d019065b82d36284addbf05a75"
+    },
+    "CVE-2022-0676": {
+        "poc": "https://huntr.dev/bounties/5ad814a1-5dd3-43f4-869b-33b8dab78485",
+        "patch": "https://github.com/radareorg/radare2/commit/c84b7232626badd075caf3ae29661b609164bac6"
+    },
+    "CVE-2022-1052": {
+        "poc": "https://huntr.dev/bounties/3b3b7f77-ab8d-4de3-999b-eeec0a3eebe7",
+        "patch": "https://github.com/radareorg/radare2/commit/0052500c1ed5bf8263b26b9fd7773dbdc6f170c4"
+    },
+    "CVE-2022-1437": {
+        "poc": "https://huntr.dev/bounties/af6c3e9e-b7df-4d80-b48f-77fdd17b4038",
+        "patch": "https://github.com/radareorg/radare2/commit/669a404b6d98d5db409a5ebadae4e94b34ef5136 \\n \nhttps://github.com/radareorg/radare2/commit/cfd66d0d28e399ec5d2a6b0d84900ea393b93b15"
+    },
+    "CVE-2022-1451": {
+        "poc": "https://huntr.dev/bounties/229a2e0d-9e5c-402f-9a24-57fa2eb1aaa7",
+        "patch": "https://github.com/radareorg/radare2/commit/0927ed3ae99444e7b47b84e43118deb10fe37529"
+    },
+    "CVE-2022-1795": {
+        "poc": "https://huntr.dev/bounties/9c312763-41a6-4fc7-827b-269eb86efcbc",
+        "patch": "https://github.com/gpac/gpac/commit/c535bad50d5812d27ee5b22b54371bddec41151"
+    },
+    "CVE-2022-1809": {
+        "poc": "https://huntr.dev/bounties/0730a95e-c485-4ff2-9a5d-bb3abfda0b17",
+        "patch": "https://github.com/radareorg/radare2/commit/919e3ac1a13f753c73e7a8e8d8bb4a143218732d"
+    },
+    "CVE-2022-22576": {
+        "poc": "https://hackerone.com/reports/1526328",
+        "patch": "https://github.com/curl/curl/commit/852aa5ad351ea53e5f01d2f44b5b4370c2bf5425"
+    },
+    "CVE-2022-2453": {
+        "poc": "https://huntr.dev/bounties/c8c964de-046a-41b2-9ff5-e25cfdb36b5a",
+        "patch": "https://github.com/gpac/gpac/commit/dc7de8d3d604426c7a6e628d90cb9fb88e7b4c2c"
+    },
+    "CVE-2022-24577": {
+        "poc": "https://huntr.dev/bounties/0758b3a2-8ff2-45fc-8543-7633d605d24e/",
+        "patch": "https://github.com/gpac/gpac/commit/586e817dcd531bb3e75438390f1f753cfe6e940a"
+    },
+    "CVE-2022-29206": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-rc9w-5c64-9vqq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/11ced8467eccad9c7cb94867708be8fa5c66c730"
+    },
+    "CVE-2022-29208": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-2r2f-g8mw-9gvr",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/30721cf564cb029d34535446d6a5a6357bebc8e7"
+    },
+    "CVE-2022-29340": {
+        "poc": "https://github.com/gpac/gpac/issues/2163",
+        "patch": "https://github.com/gpac/gpac/commit/37592ad86c6ca934d34740012213e467acc4a3b0"
+    },
+    "CVE-2022-31620": {
+        "poc": "https://github.com/thorfdbg/libjpeg/issues/70",
+        "patch": "https://github.com/thorfdbg/libjpeg/commit/ef4a29a62ab48b8dc235f4af52cfd6319eda9a6a"
+    },
+    "CVE-2022-3256": {
+        "poc": "https://huntr.dev/bounties/8336a3df-212a-4f8d-ae34-76ef1f936bb3",
+        "patch": "https://github.com/vim/vim/commit/8ecfa2c56b4992c7f067b92488aa9acea5a454ad"
+    },
+    "CVE-2022-3297": {
+        "poc": "https://huntr.dev/bounties/1aa9ec92-0355-4710-bf85-5bce9effa01c",
+        "patch": "https://github.com/vim/vim/commit/0ff01835a40f549c5c4a550502f62a2ac9ac447c"
+    },
+    "CVE-2022-33099": {
+        "poc": "https://lua-users.org/lists/lua-l/2022-05/msg00073.html",
+        "patch": "https://github.com/lua/lua/commit/42d40581dd919fb134c07027ca1ce0844c670daf"
+    },
+    "CVE-2022-33103": {
+        "poc": "https://lore.kernel.org/all/20220609140206.297405-1-miquel.raynal@bootlin.com/",
+        "patch": "https://github.com/u-boot/u-boot/commit/2ac0baab4aff1a0b45067d0b62f00c15f4e86856"
+    },
+    "CVE-2022-3598": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/435",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/cfbb883bf6ea7bedcb04177cc4e52d304522fdff#7553"
+    },
+    "CVE-2022-36190": {
+        "poc": "https://github.com/gpac/gpac/issues/2220",
+        "patch": "https://github.com/gpac/gpac/commit/fef6242c69be4f7ba22b32578e4b62648a3d4ed3"
+    },
+    "CVE-2022-36191": {
+        "poc": "https://github.com/gpac/gpac/issues/2218",
+        "patch": "https://github.com/gpac/gpac/commit/fef6242c69be4f7ba22b32578e4b62648a3d4ed3"
+    },
+    "CVE-2022-38266": {
+        "poc": "https://github.com/tesseract-ocr/tesseract/issues/3498",
+        "patch": "https://github.com/DanBloomberg/leptonica/commit/f062b42c0ea8dddebdc6a152fd16152de215d614"
+    },
+    "CVE-2022-41325": {
+        "poc": "https://www.synacktiv.com/sites/default/files/2022-11/vlc_vnc_int_overflow-CVE-2022-41325.pdf",
+        "patch": "https://github.com/videolan/vlc/commit/5eb783fd44ed6298db3e38f7765f21c42e4405f9"
+    },
+    "CVE-2022-41896": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-rmg2-f698-wq35",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/39ec7eaf1428e90c37787e5b3fbd68ebd3c48860"
+    },
+    "CVE-2022-43045": {
+        "poc": "https://github.com/gpac/gpac/issues/2277",
+        "patch": "https://github.com/gpac/gpac/commit/c5249ee4b62dfc604fecb4dce2fc480b3e388bbb"
+    },
+    "CVE-2022-4645": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/277",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/e813112545942107551433d61afd16ac094ff246"
+    },
+    "CVE-2022-47087": {
+        "poc": "https://github.com/gpac/gpac/issues/2339",
+        "patch": "https://github.com/gpac/gpac/commit/48760768611f6766bf9e7378bb7cc66cebd6e49d"
+    },
+    "CVE-2022-47088": {
+        "poc": "https://github.com/gpac/gpac/issues/2340",
+        "patch": "https://github.com/gpac/gpac/commit/48760768611f6766bf9e7378bb7cc66cebd6e49d"
+    },
+    "CVE-2022-47090": {
+        "poc": "https://github.com/gpac/gpac/issues/2341",
+        "patch": "https://github.com/gpac/gpac/commit/48760768611f6766bf9e7378bb7cc66cebd6e49d"
+    },
+    "CVE-2022-47660": {
+        "poc": "https://github.com/gpac/gpac/issues/2357",
+        "patch": "https://github.com/gpac/gpac/commit/a8f438d201fb165961ba1d5d3b80daa3637735f4?w=1"
+    },
+    "CVE-2023-0358": {
+        "poc": "https://huntr.dev/bounties/93e128ed-253f-4c42-81ff-fbac7fd8f355",
+        "patch": "https://github.com/gpac/gpac/commit/9971fb125cf91cefd081a080c417b90bbe4a467b"
+    },
+    "CVE-2023-0795": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/493",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68"
+    },
+    "CVE-2023-0796": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/499",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68"
+    },
+    "CVE-2023-0797": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/495",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68"
+    },
+    "CVE-2023-0799": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/494",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/afaabc3e50d4e5d80a94143f7e3c997e7e410f68"
+    },
+    "CVE-2023-0804": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/497",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/33aee1275d9d1384791d2206776eb8152d397f00"
+    },
+    "CVE-2023-1264": {
+        "poc": "https://huntr.dev/bounties/b2989095-88f3-413a-9a39-c1c58a6e6815",
+        "patch": "https://github.com/vim/vim/commit/7ac5023a5f1a37baafbe1043645f97ba3443d9f6"
+    },
+    "CVE-2023-23915": {
+        "poc": "https://hackerone.com/reports/1874716",
+        "patch": "https://github.com/curl/curl/commit/076a2f629119222aeeb50f"
+    },
+    "CVE-2023-2426": {
+        "poc": "https://huntr.dev/bounties/3451be4c-91c8-4d08-926b-cbff7396f425",
+        "patch": "https://github.com/vim/vim/commit/caf642c25de526229264cab9425e7c9979f3509b"
+    },
+    "CVE-2023-24755": {
+        "poc": "https://github.com/strukturag/libde265/issues/384",
+        "patch": "https://github.com/strukturag/libde265/commit/48eb7dafe204b825b4a62948ed171a0cd3f1bda2"
+    },
+    "CVE-2023-24756": {
+        "poc": "https://github.com/strukturag/libde265/issues/380",
+        "patch": "https://github.com/strukturag/libde265/commit/48eb7dafe204b825b4a62948ed171a0cd3f1bda2"
+    },
+    "CVE-2023-24757": {
+        "poc": "https://github.com/strukturag/libde265/issues/385",
+        "patch": "https://github.com/strukturag/libde265/commit/48eb7dafe204b825b4a62948ed171a0cd3f1bda2"
+    },
+    "CVE-2023-25139": {
+        "poc": "https://sourceware.org/bugzilla/show_bug.cgi?id=30068",
+        "patch": "https://github.com/bminor/glibc/commit/c980549cc6a1c03c23cc2fe3e7b0fe626a0364b0"
+    },
+    "CVE-2023-25434": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/519",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/69818e2f2d246e6631ac2a2da692c3706b849c38"
+    },
+    "CVE-2023-2610": {
+        "poc": "https://huntr.dev/bounties/31e67340-935b-4f6c-a923-f7246bc29c7d",
+        "patch": "https://github.com/vim/vim/commit/ab9a2d884b3a4abe319606ea95a5a6d6b01cd73a"
+    },
+    "CVE-2023-26157": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/850",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/c8cf03ce4c2315b146caf582ea061c0460193bcc"
+    },
+    "CVE-2023-2857": {
+        "poc": "https://gitlab.com/wireshark/wireshark/-/issues/19063",
+        "patch": "https://gitlab.com/wireshark/wireshark/-/commit/c899be35a94440b6c46cf5715c5f24eda597f4c1"
+    },
+    "CVE-2023-2905": {
+        "poc": "https://takeonme.org/cves/CVE-2023-2905.html",
+        "patch": "https://github.com/cesanta/mongoose/commit/d56e5bea626fd7d1baad52af0aa7cfc4f399382c"
+    },
+    "CVE-2023-29574": {
+        "poc": "https://github.com/axiomatic-systems/Bento4/issues/841",
+        "patch": "https://github.com/axiomatic-systems/Bento4/commit/c9f5d42a260ff76b768e06bfa400d8bd6be965a2"
+    },
+    "CVE-2023-30774": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/463",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/e813112545942107551433d61afd16ac094ff246"
+    },
+    "CVE-2023-34153": {
+        "poc": "https://github.com/ImageMagick/ImageMagick/issues/6338",
+        "patch": "https://github.com/ImageMagick/ImageMagick/commit/d31c80d15a2c82fc1dd8e889e0f97b0219079a57"
+    },
+    "CVE-2023-35703": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1783",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476"
+    },
+    "CVE-2023-35704": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1783",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476"
+    },
+    "CVE-2023-36271": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/681#BUG2",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/c1ed1d91e28a6ddc7a9b5479d4795d58fb6be0ca"
+    },
+    "CVE-2023-36272": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/681#BUG1",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/c1ed1d91e28a6ddc7a9b5479d4795d58fb6be0ca"
+    },
+    "CVE-2023-36273": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/677#BUG1",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/8651fa27dd2de731e706e2ba09f0d28e4e0dce33\nhttps://github.com/LibreDWG/libredwg/commit/e30686bed32c20915fb789cb49dcc09e7512a56f"
+    },
+    "CVE-2023-36274": {
+        "poc": "https://github.com/LibreDWG/libredwg/issues/677#BUG2",
+        "patch": "https://github.com/LibreDWG/libredwg/commit/e04b89578882bab6e5ca94bd70519b5f25c36d4b"
+    },
+    "CVE-2023-36746": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1793",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476"
+    },
+    "CVE-2023-36915": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1798",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/0d20555c6b4bff5f83673bc3dda580bccf033476"
+    },
+    "CVE-2023-37836": {
+        "poc": "https://github.com/thorfdbg/libjpeg/issues/87#BUG1",
+        "patch": "https://github.com/thorfdbg/libjpeg/commit/9e0cea29d7ba7a2c1e763865391bc94b336da25e"
+    },
+    "CVE-2023-37837": {
+        "poc": "https://github.com/thorfdbg/libjpeg/issues/87#BUG0",
+        "patch": "https://github.com/thorfdbg/libjpeg/commit/9e0cea29d7ba7a2c1e763865391bc94b336da25e"
+    },
+    "CVE-2023-37923": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1807",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/9fe9d7e8fdba44b5378f2e893fe634c17c83184b"
+    },
+    "CVE-2023-39234": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1817",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/2ccfa8636b5cb05c57415d7cdde0390f55ac47f1"
+    },
+    "CVE-2023-39235": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1817",
+        "patch": "https://github.com/gtkwave/gtkwave/commit/2ccfa8636b5cb05c57415d7cdde0390f55ac47f1"
+    },
+    "CVE-2023-5377": {
+        "poc": "https://huntr.dev/bounties/fe778df4-3867-41d6-954b-211c81bccbbf",
+        "patch": "https://github.com/gpac/gpac/commit/8e9d6b38c036a97020c462ad48e1132e0ddc57ce"
+    },
+    "CVE-2023-5595": {
+        "poc": "https://huntr.dev/bounties/0064cf76-ece1-495d-82b4-e4a1bebeb28e",
+        "patch": "https://github.com/gpac/gpac/commit/7a6f636db3360bb16d18078d51e8c596f31302a1"
+    },
+    "CVE-2023-6246": {
+        "poc": "https://www.openwall.com/lists/oss-security/2024/01/30/6",
+        "patch": "https://github.com/bminor/glibc/commit/6bd0e4efcc78f3c0115e5ea9739a1642807450da"
+    },
+    "CVE-2024-0207": {
+        "poc": "https://www.wireshark.org/security/wnpa-sec-2024-03.html",
+        "patch": "https://gitlab.com/wireshark/wireshark/-/commit/e9e71ca8c7b394483d046772d86b476593a2f888?expanded=1"
+    },
+    "CVE-2024-22667": {
+        "poc": "https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt",
+        "patch": "https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47"
+    },
+    "CVE-2024-4323": {
+        "poc": "https://github.com/skilfoy/CVE-2024-4323-Exploit-POC",
+        "patch": "https://github.com/fluent/fluent-bit/commit/9311b43a258352797af40749ab31a63c32acfd04"
+    },
+    "CVE-2024-6197": {
+        "poc": "https://hackerone.com/reports/2559516",
+        "patch": "https://github.com/curl/curl/commit/623c3a8fa0bdb2751f1"
+    },
+    "gpac-1421": {
+        "poc": "https://github.com/gpac/gpac/issues/1421",
+        "patch": "https://github.com/gpac/gpac/commit/8c5e847185d74462d674ee7d28fb46c29dae6dd2"
+    },
+    "libtiff-2646": {
+        "poc": "http://bugzilla.maptools.org/show_bug.cgi?id=2643",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/d2e6964efcb785b8566a6b538133299870082768"
+    },
+    "libtiff-389": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/389",
+        "patch": "https://gitlab.com/libtiff/libtiff/-/commit/cfbb883bf6ea7bedcb04177cc4e52d304522fdff#7553"
+    },
+    "CVE-2021-3618": {
+        "poc": "https://ubuntu.com/security/CVE-2021-3618",
+        "patch": "https://github.com/nginx/nginx/commit/173f16f736c10eae46cd15dd861b04b82d91a37a"
+    },
+    "CVE-2022-0326": {
+        "poc": "https://huntr.dev/bounties/795dcbd9-1695-44bb-8c59-ad327c97c976",
+        "patch": "https://github.com/mruby/mruby/commit/b611c43a5de061ec21b343967e1b64c45c373d7e"
+    },
+    "CVE-2022-0382": {
+        "poc": "https://github.com/torvalds/linux/commit/d6d86830705f173fca6087a3e67ceaf68db80523",
+        "patch": "https://github.com/torvalds/linux/commit/d6d86830705f173fca6087a3e67ceaf68db80523"
+    },
+    "CVE-2022-0496": {
+        "poc": "https://github.com/openscad/openscad/issues/4037",
+        "patch": "https://github.com/openscad/openscad/commit/00a4692989c4e2f191525f73f24ad8727bacdf41"
+    },
+    "CVE-2022-0534": {
+        "poc": "https://github.com/michaelrsweet/htmldoc/issues/463",
+        "patch": "https://github.com/michaelrsweet/htmldoc/commit/312f0f9c12f26fbe015cd0e6cefa40e4b99017d9"
+    },
+    "CVE-2022-0712": {
+        "poc": "https://huntr.dev/bounties/1e572820-e502-49d1-af0e-81833e2eb466",
+        "patch": "https://github.com/radareorg/radare2/commit/515e592b9bea0612bc63d8e93239ff35bcf645c7"
+    },
+    "CVE-2022-1244": {
+        "poc": "https://huntr.dev/bounties/8ae2c61a-2220-47a5-bfe8-fe6d41ab1f82",
+        "patch": "https://github.com/radareorg/radare2/commit/2b77b277d67ce061ee6ef839e7139ebc2103c1e3"
+    },
+    "CVE-2022-1289": {
+        "poc": "https://github.com/tildearrow/furnace/issues/325#issuecomment-1094139655",
+        "patch": "https://github.com/tildearrow/furnace/commit/0eb02422d5161767e9983bdaa5c429762d3477ce"
+    },
+    "CVE-2022-1534": {
+        "poc": "https://huntr.dev/bounties/9a90ffa1-38f5-4685-9c00-68ba9068ce3d",
+        "patch": "https://github.com/bfabiszewski/libmobi/commit/fb1ab50e448ddbed746fd27ae07469bc506d838b"
+    },
+    "CVE-2022-1934": {
+        "poc": "https://huntr.dev/bounties/99e6df06-b9f7-4c53-a722-6bb89fbfb51f",
+        "patch": "https://github.com/mruby/mruby/commit/aa7f98dedb68d735a1665d3a289036c88b0c47ce"
+    },
+    "CVE-2022-3008": {
+        "poc": "https://github.com/syoyo/tinygltf/issues/368",
+        "patch": "https://github.com/syoyo/tinygltf/commit/52ff00a38447f06a17eab1caa2cf0730a119c751"
+    },
+    "CVE-2022-3755": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=52382",
+        "patch": "https://github.com/Exiv2/exiv2/commit/6bb956ad808590ce2321b9ddf6772974da27c4ca"
+    },
+    "CVE-2022-4398": {
+        "poc": "https://huntr.com/bounties/c6f8d3ef-5420-4eba-9a5f-aba5e2b5fea2",
+        "patch": "https://github.com/radareorg/radare2/commit/b53a1583d05c3a5bfe5fa60da133fe59dfbb02b8"
+    },
+    "CVE-2023-5590": {
+        "poc": "https://huntr.dev/bounties/e268cd68-4f34-49bd-878b-82b96dcc0c99",
+        "patch": "https://github.com/seleniumhq/selenium/commit/023a0d52f106321838ab1c0997e76693f4dcbdf6"
+    },
+    "CVE-2023-5686": {
+        "poc": "https://huntr.com/bounties/bbfe1f76-8fa1-4a8c-909d-65b16e970be0",
+        "patch": "https://github.com/radareorg/radare2/commit/1bdda93e348c160c84e30da3637acef26d0348de"
+    },
+    "CVE-2020-12607": {
+        "poc": "https://github.com/AntonKueltz/fastecdsa/issues/52",
+        "patch": "https://github.com/AntonKueltz/fastecdsa/commit/e592f106edd5acf6dacedfab2ad16fe6c735c9d1"
+    },
+    "CVE-2020-13790": {
+        "poc": "https://github.com/libjpeg-turbo/libjpeg-turbo/issues/433",
+        "patch": "https://github.com/libjpeg-turbo/libjpeg-turbo/commit/3de15e0c344d11d4b90f4a47136467053eb2d09a"
+    },
+    "CVE-2020-15889": {
+        "poc": "http://lua-users.org/lists/lua-l/2020-07/msg00078.html",
+        "patch": "https://github.com/lua/lua/commit/127e7a6c8942b362aa3c6627f44d660a4fb75312"
+    },
+    "CVE-2020-18750": {
+        "poc": "https://github.com/flexpaper/pdf2json/issues/22",
+        "patch": "https://github.com/flexpaper/pdf2json/commit/80bf71f16c804108fd933e267fe31692aaa509b4"
+    },
+    "CVE-2020-20740": {
+        "poc": "https://github.com/enferex/pdfresurrect/issues/14",
+        "patch": "https://github.com/enferex/pdfresurrect/commit/1b422459f07353adce2878806d5247d9e91fb397"
+    },
+    "CVE-2020-21048": {
+        "poc": "https://github.com/saitoha/libsixel/issues/73",
+        "patch": "https://github.com/saitoha/libsixel/commit/cb373ab6614c910407c5e5a93ab935144e62b037"
+    },
+    "CVE-2020-21049": {
+        "poc": "https://github.com/saitoha/libsixel/issues/74",
+        "patch": "https://github.com/saitoha/libsixel/commit/0b1e0b3f7b44233f84e5c9f512f8c90d6bbbe33d"
+    },
+    "CVE-2020-22037": {
+        "poc": "https://trac.ffmpeg.org/ticket/8281",
+        "patch": "https://github.com/FFmpeg/FFmpeg/commit/7bba0dd6382e30d646cb406034a66199e071d713"
+    },
+    "CVE-2020-22875": {
+        "poc": "https://github.com/pcmacdon/jsish/issues/10",
+        "patch": "https://github.com/pcmacdon/jsish/commit/5408a6d93f45bf1f7acd9ae5d44e0ebd77379e98"
+    },
+    "CVE-2020-27152": {
+        "poc": "https://bugzilla.kernel.org/show_bug.cgi?id=208767",
+        "patch": "https://github.com/raspberrypi/linux/commit/77377064c3a94911339f13ce113b3abf265e06da"
+    },
+    "CVE-2020-35605": {
+        "poc": "https://github.com/kovidgoyal/kitty/issues/3128",
+        "patch": "https://github.com/kovidgoyal/kitty/commit/82c137878c2b99100a3cdc1c0f0efea069313901"
+    },
+    "CVE-2020-36316": {
+        "poc": "https://github.com/relic-toolkit/relic/issues/155",
+        "patch": "https://github.com/relic-toolkit/relic/commit/76c9a1fdf19d9e92e566a77376673e522aae9f80"
+    },
+    "CVE-2021-23191": {
+        "poc": "https://github.com/michaelrsweet/htmldoc/issues/415",
+        "patch": "https://github.com/michaelrsweet/htmldoc/commit/369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc"
+    },
+    "CVE-2021-23521": {
+        "poc": "https://snyk.io/vuln/SNYK-UNMANAGED-JUCEFRAMEWORKJUCE-2388608",
+        "patch": "https://github.com/juce-framework/JUCE/commit/2e874e80cba0152201aff6a4d0dc407997d10a7f"
+    },
+    "CVE-2021-26911": {
+        "poc": "https://census-labs.com/news/2021/02/17/canary-mail-app-missing-certificate-validation-check-on-imap-starttls/",
+        "patch": "https://github.com/canarymail/mailcore2/commit/45acb4efbcaa57a20ac5127dc976538671fce018"
+    },
+    "CVE-2021-30027": {
+        "poc": "https://github.com/mity/md4c/issues/155",
+        "patch": "https://github.com/mity/md4c/commit/4fc808d8fe8d8904f8525bb4231d854f45e23a19"
+    },
+    "CVE-2021-32435": {
+        "poc": "https://github.com/leesavide/abcm2ps/issues/84",
+        "patch": "https://github.com/leesavide/abcm2ps/commit/3169ace6d63f6f517a64e8df0298f44a490c4a15"
+    },
+    "CVE-2021-32436": {
+        "poc": "https://github.com/leesavide/abcm2ps/issues/85",
+        "patch": "https://github.com/leesavide/abcm2ps/commit/2f56e1179cab6affeb8afa9d6c324008fe40d8e3"
+    },
+    "CVE-2021-36082": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=30393",
+        "patch": "https://github.com/ntop/nDPI/commit/1ec621c85b9411cc611652fd57a892cfef478af3"
+    },
+    "CVE-2021-36086": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=32177",
+        "patch": "https://github.com/SELinuxProject/selinux/commit/c49a8ea09501ad66e799ea41b8154b6770fec2c8"
+    },
+    "CVE-2021-36370": {
+        "poc": "https://github.com/MidnightCommander/mc/blob/master/src/vfs/sftpfs/connection.c",
+        "patch": "https://github.com/MidnightCommander/mc/commit/b0450a1e185aab1a2df0cd03bed93577d1f6a0b4"
+    },
+    "CVE-2021-36692": {
+        "poc": "https://github.com/libjxl/libjxl/issues/308",
+        "patch": "https://github.com/libjxl/libjxl/commit/7dfa400ded53919d986c5d3d23446a09e0cf481b"
+    },
+    "CVE-2021-39191": {
+        "poc": "https://github.com/zmartzone/mod_auth_openidc/issues/672",
+        "patch": "https://github.com/zmartzone/mod_auth_openidc/commit/03e6bfb446f4e3f27c003d30d6a433e5dd8e2b3d"
+    },
+    "CVE-2021-41253": {
+        "poc": "https://huntr.dev/bounties/96b0a482-7041-45b1-9327-c6a4a8f32d3a",
+        "patch": "https://github.com/zyantific/zydis/commit/55dd08c210722aed81b38132f5fd4a04ec1943b5"
+    },
+    "CVE-2021-43523": {
+        "poc": "https://www.openwall.com/lists/oss-security/2021/11/09/1",
+        "patch": "https://github.com/wbx-github/uclibc-ng/commit/0f822af0445e5348ce7b7bd8ce1204244f31d174"
+    },
+    "CVE-2021-45098": {
+        "poc": "https://redmine.openinfosecfoundation.org/issues/4710",
+        "patch": "https://github.com/OISF/suricata/commit/50e2b973eeec7172991bf8f544ab06fb782b97df"
+    },
+    "CVE-2021-45931": {
+        "poc": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/harfbuzz/OSV-2021-1159.yaml",
+        "patch": "https://github.com/harfbuzz/harfbuzz/commit/d3e09bf4654fe5478b6dbf2b26ebab6271317d81"
+    },
+    "CVE-2021-45939": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=39103",
+        "patch": "https://github.com/wolfSSL/wolfMQTT/commit/84d4b53122e0fa0280c7872350b89d5777dabbb2"
+    },
+    "CVE-2022-21732": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/5100e359aef5c8021f2e71c7b986420b85ce7b3d/tensorflow/core/kernels/data/experimental/threadpool_dataset_op.cc#L79-L135",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/e3749a6d5d1e8d11806d4a2e9cc3123d1a90b75e"
+    },
+    "CVE-2022-21733": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/5100e359aef5c8021f2e71c7b986420b85ce7b3d/tensorflow/core/kernels/string_ngrams_op.cc#L29-L161",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/f68fdab93fb7f4ddb4eb438c8fe052753c9413e8"
+    },
+    "CVE-2022-24756": {
+        "poc": "https://huntr.dev/bounties/480121f2-bc3c-427e-986e-5acffb1606c5/",
+        "patch": "https://github.com/bareos/bareos/commit/e8e79984410f5d4f65e199e9e677443c88808a66"
+    },
+    "CVE-2022-25309": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=2047896",
+        "patch": "https://github.com/fribidi/fribidi/commit/f22593b82b5d1668d1997dbccd10a9c31ffea3b3"
+    },
+    "CVE-2022-27774": {
+        "poc": "https://hackerone.com/reports/1543773",
+        "patch": "https://github.com/curl/curl/commit/620ea21410030a9977396b4661806bc187231b79"
+    },
+    "CVE-2022-27775": {
+        "poc": "https://hackerone.com/reports/1546268",
+        "patch": "https://github.com/curl/curl/commit/058f98dc3fe595f21dc26a5b9b1699e519ba5705"
+    },
+    "CVE-2022-27782": {
+        "poc": "https://hackerone.com/reports/1555796",
+        "patch": "https://github.com/curl/curl/commit/1645e9b44505abd5cbaf65da5282c3f33b5924a5"
+    },
+    "CVE-2022-28066": {
+        "poc": "https://github.com/libarchive/libarchive/issues/1672",
+        "patch": "https://github.com/libarchive/libarchive/commit/cfaa28168a07ea4a53276b63068f94fce37d6aff"
+    },
+    "CVE-2022-32168": {
+        "poc": "https://www.mend.io/vulnerability-database/CVE-2022-32168",
+        "patch": "https://github.com/notepad-plus-plus/notepad-plus-plus/commit/85d7215d9b3e0d5a8433fc31aec4f2966821051e"
+    },
+    "CVE-2022-32298": {
+        "poc": "https://github.com/landley/toybox/issues/346",
+        "patch": "https://github.com/landley/toybox/commit/6d4847934fc0fe47a3254ce6c0396d197a780cf4"
+    },
+    "CVE-2022-35414": {
+        "poc": "https://sick.codes/sick-2022-113",
+        "patch": "https://github.com/qemu/qemu/commit/3517fb726741c109cae7995f9ea46f0cab6187d6"
+    },
+    "CVE-2022-36647": {
+        "poc": "https://github.com/pkuvcl/davs2/issues/29",
+        "patch": "https://github.com/pkuvcl/davs2/commit/b41cf117452e2d73d827f02d3e30aa20f1c721ac"
+    },
+    "CVE-2022-38072": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1594",
+        "patch": "https://github.com/admesh/admesh/commit/5fab257268a0ee6f832c18d72af89810a29fbd5f"
+    },
+    "CVE-2022-38667": {
+        "poc": "https://gynvael.coldwind.pl/?id=753",
+        "patch": "https://github.com/CrowCpp/Crow/commit/fba01dc76d6ea940ad7c8392e8f39f9647241d8e"
+    },
+    "CVE-2022-40299": {
+        "poc": "https://github.com/Singular/Singular/issues/1137",
+        "patch": "https://github.com/Singular/Singular/commit/5f28fbf066626fa9c4a8f0e6408c0bb362fb386c"
+    },
+    "CVE-2022-43272": {
+        "poc": "https://www.wolai.com/vaVuMxU4gGqFakbzvc9NYw",
+        "patch": "https://github.com/DCMTK/dcmtk/commit/c34f4e46e672ad21accf04da0dc085e43be6f5e1"
+    },
+    "CVE-2022-43604": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1661",
+        "patch": "https://github.com/EIPStackGroup/OpENer/commit/58ee13c62ccf629cf5380f011de659085e86f149"
+    },
+    "CVE-2022-43605": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1662",
+        "patch": "https://github.com/EIPStackGroup/OpENer/commit/58ee13c62ccf629cf5380f011de659085e86f149"
+    },
+    "CVE-2022-45474": {
+        "poc": "https://github.com/drachtio/drachtio-server/issues/240",
+        "patch": "https://github.com/drachtio/drachtio-server/commit/860f025468feb31c43227153d8fb3f34210a522e"
+    },
+    "CVE-2022-47517": {
+        "poc": "https://github.com/drachtio/drachtio-server/issues/243",
+        "patch": "https://github.com/davehorton/sofia-sip/commit/bfc79d85c8f3a4798a3305fb98f5a11c11d0d29f"
+    },
+    "CVE-2023-22325": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1736",
+        "patch": "https://github.com/SoftEtherVPN/SoftEtherVPN/commit/c49e462ed1e7df813bc14022896bb26fa75546de"
+    },
+    "CVE-2023-24824": {
+        "poc": "https://github.com/github/cmark-gfm/security/advisories/GHSA-66g8-4hjf-77xh",
+        "patch": "https://github.com/github/cmark-gfm/commit/2300c1bd2c8226108885bf019655c4159cf26b59"
+    },
+    "CVE-2023-25181": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1726",
+        "patch": "https://github.com/weston-embedded/uC-HTTP/commit/b12e49cdd86681d1df4c6f10a5bc367b063a5e2d"
+    },
+    "CVE-2023-25725": {
+        "poc": "https://git.haproxy.org/?p=haproxy-2.7.git;a=commit;h=a0e561ad7f29ed50c473f5a9da664267b60d1112",
+        "patch": "https://github.com/haproxy/haproxy/commit/a8598a2eb11b6c989e81f0dbf10be361782e8d32"
+    },
+    "CVE-2023-25824": {
+        "poc": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=942737#25",
+        "patch": "https://github.com/airtower-luna/mod_gnutls/commit/d7eec4e598158ab6a98bf505354e84352f9715ec"
+    },
+    "CVE-2023-27772": {
+        "poc": "https://github.com/mz-automation/libiec61850/issues/442",
+        "patch": "https://github.com/mz-automation/libiec61850/commit/79a8eaf26070e02044afc4b2ffbfe777dfdf3e0b"
+    },
+    "CVE-2023-29416": {
+        "poc": "https://github.com/kspalaiologos/bzip3/issues/92",
+        "patch": "https://github.com/kspalaiologos/bzip3/commit/bfa5bf82b53715dfedf048e5859a46cf248668ff"
+    },
+    "CVE-2023-30845": {
+        "poc": "https://github.com/himori123/-CVE-2023-30845",
+        "patch": "https://github.com/GoogleCloudPlatform/esp-v2/commit/e98061ee4527a564506ba4e814c0ecf324dc2c6f"
+    },
+    "CVE-2023-31470": {
+        "poc": "https://github.com/pymumu/smartdns/issues/1378",
+        "patch": "https://github.com/pymumu/smartdns/commit/56d0332bf91104cfc877635f6c82e9348587df04"
+    },
+    "CVE-2023-37463": {
+        "poc": "https://github.com/github/cmark-gfm/security/advisories/GHSA-w4qg-3vf7-m9x5",
+        "patch": "https://github.com/github/cmark-gfm/commit/38d1cfeba3ce457da53e77f9712dfbce95d8558c"
+    },
+    "CVE-2023-42465": {
+        "poc": "https://www.openwall.com/lists/oss-security/2023/12/21/9",
+        "patch": "https://github.com/sudo-project/sudo/commit/7873f8334c8d31031f8cfa83bd97ac6029309e4f"
+    },
+    "CVE-2023-43628": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1860",
+        "patch": "https://github.com/ntpsec/gpsd/commit/3e5c6c28c422102dd453e31912e1e79d1f7ff7f2"
+    },
+    "CVE-2023-45239": {
+        "poc": "https://github.com/facebook/tac_plus/pull/41",
+        "patch": "https://github.com/facebook/tac_plus/commit/68ba2a19472da0a3de28c41b7a2e222438dca359"
+    },
+    "CVE-2023-46569": {
+        "poc": "https://github.com/radareorg/radare2/issues/22334",
+        "patch": "https://github.com/radareorg/radare2/commit/2e2f2a9b1800d09be09461e7536ac03a301f97f2"
+    },
+    "CVE-2023-48951": {
+        "poc": "https://github.com/openlink/virtuoso-opensource/issues/1177",
+        "patch": "https://github.com/openlink/virtuoso-opensource/commit/fe7d70667a1f0e7d0f6787754a0b766e24537444"
+    },
+    "CVE-2023-49549": {
+        "poc": "https://github.com/cesanta/mjs/issues/251",
+        "patch": "https://github.com/cesanta/mjs/commit/b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551"
+    },
+    "CVE-2023-49550": {
+        "poc": "https://github.com/cesanta/mjs/issues/252",
+        "patch": "https://github.com/cesanta/mjs/commit/b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551"
+    },
+    "CVE-2023-49551": {
+        "poc": "https://github.com/cesanta/mjs/issues/257",
+        "patch": "https://github.com/cesanta/mjs/commit/b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551"
+    },
+    "CVE-2023-49556": {
+        "poc": "https://github.com/yasm/yasm/issues/250",
+        "patch": "https://github.com/yasm/yasm/commit/9defefae9fbcb6958cddbfa778c1ea8605da8b8b"
+    },
+    "CVE-2023-49558": {
+        "poc": "https://github.com/yasm/yasm/issues/252",
+        "patch": "https://github.com/yasm/yasm/commit/9defefae9fbcb6958cddbfa778c1ea8605da8b8b"
+    },
+    "CVE-2023-50019": {
+        "poc": "https://github.com/open5gs/open5gs/issues/2733",
+        "patch": "https://github.com/open5gs/open5gs/commit/7278714133422cee46c32c7523f81ec2cecad9e2"
+    },
+    "CVE-2023-50245": {
+        "poc": "https://github.com/afichet/openexr-viewer/security/advisories/GHSA-99jg-r3f4-rpxj",
+        "patch": "https://github.com/afichet/openexr-viewer/commit/d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9"
+    },
+    "CVE-2023-50980": {
+        "poc": "https://github.com/weidai11/cryptopp/issues/1248",
+        "patch": "https://github.com/weidai11/cryptopp/commit/eb383b8e1622c07da2d5d6599a8b0e17a0deee0f"
+    },
+    "CVE-2022-0778": {
+        "poc": "https://github.com/drago-96/CVE-2022-0778",
+        "patch": "https://github.com/freebsd/freebsd-src/commit/fdc418f15e92732a3551832bcb625ba9b47242df"
+    },
+    "CVE-2020-8286": {
+        "poc": "https://hackerone.com/reports/1048457",
+        "patch": "https://github.com/curl/curl/commit/d9d01672785b8ac04aab1abb6de95fe3072ae199"
+    },
+    "CVE-2022-23587": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/grappler/costs/op_level_cost_estimator.cc#L2621-L2689",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/0aaaae6eca5a7175a193696383f582f53adab23f"
+    },
+    "CVE-2023-1655": {
+        "poc": "https://huntr.dev/bounties/05f1d1de-bbfd-43fe-bdf9-7f73419ce7c9",
+        "patch": "https://github.com/gpac/gpac/commit/e7f96c2d3774e4ea25f952bcdf55af1dd6e919f4"
+    },
+    "CVE-2023-0770": {
+        "poc": "https://huntr.dev/bounties/e0fdeee5-7909-446e-9bd0-db80fd80e8dd",
+        "patch": "https://github.com/gpac/gpac/commit/c31941822ee275a35bc148382bafef1c53ec1c26"
+    },
+    "CVE-2021-22925": {
+        "poc": "https://hackerone.com/reports/1223882",
+        "patch": "https://github.com/curl/curl/commit/894f6ec730597eb243618d33cc84d71add8d6a8a"
+    },
+    "CVE-2023-46871": {
+        "poc": "https://github.com/gpac/gpac/issues/2658",
+        "patch": "https://github.com/gpac/gpac/commit/03760e34d32e502a0078b20d15ea83ecaf453a5c"
+    },
+    "CVE-2022-46489": {
+        "poc": "https://github.com/gpac/gpac/issues/2328",
+        "patch": "https://github.com/gpac/gpac/commit/44e8616ec6d0c37498cdacb81375b09249fa9daa"
+    },
+    "CVE-2021-29600": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-j8qh-3xrq-c825",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/3ebedd7e345453d68e279cfc3e4072648e5e12e5"
+    },
+    "CVE-2022-1283": {
+        "poc": "https://huntr.dev/bounties/bfeb8fb8-644d-4587-80d4-cb704c404013",
+        "patch": "https://github.com/radareorg/radare2/commit/18d1d064bf599a255d55f09fca3104776fc34a67"
+    },
+    "CVE-2022-23578": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/common_runtime/immutable_executor_state.cc#L84-L262",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/c79ccba517dbb1a0ccb9b01ee3bd2a63748b60dd"
+    },
+    "CVE-2021-29616": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4hvv-7x94-7vq8",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/e6340f0665d53716ef3197ada88936c2a5f7a2d3"
+    },
+    "CVE-2022-46490": {
+        "poc": "https://github.com/gpac/gpac/issues/2327",
+        "patch": "https://github.com/gpac/gpac/commit/8968a510250e8c70a611221d63fe0a45b7d3a551"
+    },
+    "CVE-2023-3291": {
+        "poc": "https://huntr.dev/bounties/526954e6-8683-4697-bfa2-886c3204a1d5",
+        "patch": "https://github.com/gpac/gpac/commit/6a748ccc3f76ff10e3ae43014967ea4b0c088aaf"
+    },
+    "CVE-2022-1284": {
+        "poc": "https://huntr.dev/bounties/e98ad92c-3a64-48fb-84d4-d13afdbcbdd7",
+        "patch": "https://github.com/radareorg/radare2/commit/64a82e284dddabaeb549228380103b57dead32a6"
+    },
+    "CVE-2023-4681": {
+        "poc": "https://huntr.dev/bounties/d67c5619-ab36-41cc-93b7-04828e25f60e",
+        "patch": "https://github.com/gpac/gpac/commit/4bac19ad854159b21ba70d8ab7c4e1cd1db8ea1c"
+    },
+    "CVE-2022-24578": {
+        "poc": "https://huntr.dev/bounties/1691cca3-ab54-4259-856b-751be2395b11/",
+        "patch": "https://github.com/gpac/gpac/commit/b5741da08e88e8dcc8da0a7669b92405b9862850"
+    },
+    "CVE-2022-21731": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/5100e359aef5c8021f2e71c7b986420b85ce7b3d/tensorflow/core/framework/common_shape_fns.cc#L1961-L2059",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/08d7b00c0a5a20926363849f611729f53f3ec022"
+    },
+    "CVE-2023-1448": {
+        "poc": "https://github.com/xxy1126/Vuln/blob/main/gpac/3",
+        "patch": "https://github.com/gpac/gpac/commit/8db20cb634a546c536c31caac94e1f74b778b463"
+    },
+    "CVE-2023-28320": {
+        "poc": "https://hackerone.com/reports/1929597",
+        "patch": "https://github.com/curl/curl/commit/13718030ad4b3209a7583b"
+    },
+    "CVE-2022-27147": {
+        "poc": "https://github.com/gpac/gpac/issues/2109",
+        "patch": "https://github.com/gpac/gpac/commit/9723dd0955894f2cb7be13b94cf7a47f2754b893"
+    },
+    "CVE-2022-1172": {
+        "poc": "https://huntr.dev/bounties/a26cb79c-9257-4fbf-98c5-a5a331efa264",
+        "patch": "https://github.com/gpac/gpac/commit/55a183e6b8602369c04ea3836e05436a79fbc7f8"
+    },
+    "CVE-2022-41886": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-54pp-c6pp-7fpx",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/8faa6ea692985dbe6ce10e1a3168e0bd60a723ba"
+    },
+    "CVE-2020-36281": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=22140",
+        "patch": "https://github.com/DanBloomberg/leptonica/commit/5ee24b398bb67666f6d173763eaaedd9c36fb1e5"
+    },
+    "CVE-2023-23145": {
+        "poc": "https://github.com/gpac/gpac/commit/4ade98128cbc41d5115b97a41ca2e59529c8dd5f",
+        "patch": "https://github.com/gpac/gpac/commit/4ade98128cbc41d5115b97a41ca2e59529c8dd5f"
+    },
+    "CVE-2021-22945": {
+        "poc": "https://hackerone.com/reports/1269242",
+        "patch": "https://github.com/curl/curl/commit/43157490a5054bd24256fe12876931e8abc9df49"
+    },
+    "CVE-2023-23144": {
+        "poc": "https://github.com/gpac/gpac/commit/3a2458a49b3e6399709d456d7b35e7a6f50cfb86",
+        "patch": "https://github.com/gpac/gpac/commit/3a2458a49b3e6399709d456d7b35e7a6f50cfb86"
+    },
+    "CVE-2021-32268": {
+        "poc": "https://github.com/gpac/gpac/issues/1587",
+        "patch": "https://github.com/gpac/gpac/commit/388ecce75d05e11fc8496aa4857b91245007d26e"
+    },
+    "CVE-2022-1061": {
+        "poc": "https://huntr.dev/bounties/a7546dae-01c5-4fb0-8a8e-c04ea4e9bac7",
+        "patch": "https://github.com/radareorg/radare2/commit/d4ce40b516ffd70cf2e9e36832d8de139117d522"
+    },
+    "CVE-2022-3358": {
+        "poc": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssl/ssl_version.rb",
+        "patch": "https://github.com/openssl/openssl/commit/25d47cccf203c3b71171e78865e48ea061a039a8"
+    },
+    "CVE-2022-29201": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-pqhm-4wvf-2jg8",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/0f0b080ecde4d3dfec158d6f60da34d5e31693c4"
+    },
+    "CVE-2022-1452": {
+        "poc": "https://huntr.dev/bounties/c8f4c2de-7d96-4ad4-857a-c099effca2d6",
+        "patch": "https://github.com/radareorg/radare2/commit/ecc44b6a2f18ee70ac133365de0e509d26d5e168"
+    },
+    "CVE-2020-35981": {
+        "poc": "https://github.com/gpac/gpac/issues/1659",
+        "patch": "https://github.com/gpac/gpac/commit/dae9900580a8888969481cd72035408091edb11b"
+    },
+    "CVE-2022-21741": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/5100e359aef5c8021f2e71c7b986420b85ce7b3d/tensorflow/lite/kernels/depthwise_conv.cc#L96",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/e5b0eec199c2d03de54fd6a7fd9275692218e2bc"
+    },
+    "CVE-2020-8231": {
+        "poc": "https://hackerone.com/reports/948876",
+        "patch": "https://github.com/curl/curl/commit/3c9e021f86872baae412a427e807fbfa2f3e8a22"
+    },
+    "CVE-2022-23588": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/grappler/optimizers/constant_folding.cc#L1328-L1402",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/6b5adc0877de832b2a7c189532dbbbc64622eeb6"
+    },
+    "CVE-2021-32135": {
+        "poc": "https://github.com/gpac/gpac/issues/1757",
+        "patch": "https://github.com/gpac/gpac/commit/b8f8b202d4fc23eb0ab4ce71ae96536ca6f5d3f8"
+    },
+    "CVE-2022-0240": {
+        "poc": "https://huntr.dev/bounties/5857eced-aad9-417d-864e-0bdf17226cbb",
+        "patch": "https://github.com/mruby/mruby/commit/31fa3304049fc406a201a72293cce140f0557dca"
+    },
+    "CVE-2023-25221": {
+        "poc": "https://github.com/strukturag/libde265/issues/388",
+        "patch": "https://github.com/strukturag/libde265/commit/857290982330e82d9e25d9d39527c6737021aa7d"
+    },
+    "CVE-2023-48011": {
+        "poc": "https://github.com/gpac/gpac/issues/2611",
+        "patch": "https://github.com/gpac/gpac/commit/c70f49dda4946d6db6aa55588f6a756b76bd84ea"
+    },
+    "CVE-2022-23560": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/ca6f96b62ad84207fbec580404eaa7dd7403a550/tensorflow/lite/kernels/internal/utils/sparsity_format_converter.cc#L252-L293",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/6364463d6f5b6254cac3d6aedf999b6a96225038"
+    },
+    "CVE-2021-29526": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4vf2-4xcg-65cx",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/b12aa1d44352de21d1a6faaf04172d8c2508b42b"
+    },
+    "CVE-2020-15202": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-h6fg-mjxg-hqq4",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/ca8c013b5e97b1373b3bb1c97ea655e69f31a575"
+    },
+    "CVE-2021-29598": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-pmpr-55fj-r229",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/6841e522a3e7d48706a02e8819836e809f738682"
+    },
+    "CVE-2021-29539": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-g4h2-gqm3-c9wq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/4f663d4b8f0bec1b48da6fa091a7d29609980fa4"
+    },
+    "CVE-2022-23575": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/grappler/costs/op_level_cost_estimator.cc#L1552-L1558",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/fcd18ce3101f245b083b30655c27b239dc72221e"
+    },
+    "CVE-2023-48014": {
+        "poc": "https://github.com/gpac/gpac/issues/2613",
+        "patch": "https://github.com/gpac/gpac/commit/66abf0887c89c29a484d9e65e70882794e9e3a1b"
+    },
+    "CVE-2022-23570": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/framework/full_type_util.cc#L104-L106",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/8a513cec4bec15961fbfdedcaa5376522980455c"
+    },
+    "CVE-2022-1441": {
+        "poc": "https://github.com/gpac/gpac/issues/2175",
+        "patch": "https://github.com/gpac/gpac/commit/3dbe11b37d65c8472faf0654410068e5500b3adb"
+    },
+    "CVE-2023-0819": {
+        "poc": "https://huntr.dev/bounties/35793610-dccc-46c8-9f55-6a24c621e4ef",
+        "patch": "https://github.com/gpac/gpac/commit/d067ab3ccdeaa340e8c045a0fd5bcfc22b809e8f"
+    },
+    "CVE-2021-31262": {
+        "poc": "https://github.com/gpac/gpac/issues/1738",
+        "patch": "https://github.com/gpac/gpac/commit/b2eab95e07cb5819375a50358d4806a8813b6e50"
+    },
+    "CVE-2020-35963": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=27261",
+        "patch": "https://github.com/fluent/fluent-bit/commit/cadff53c093210404aed01c4cf586adb8caa07af"
+    },
+    "CVE-2023-0760": {
+        "poc": "https://huntr.dev/bounties/d06223df-a473-4c82-96d0-23726b844b21",
+        "patch": "https://github.com/gpac/gpac/commit/ea7395f39f601a7750d48d606e9d10ea0b7beefe"
+    },
+    "CVE-2022-0173": {
+        "poc": "https://huntr.dev/bounties/727d8600-88bc-4dde-8dea-ee3d192600e5",
+        "patch": "https://github.com/radareorg/radare2/commit/37897226a1a31f982bfefdc4aeefc2e50355c73c"
+    },
+    "CVE-2020-35982": {
+        "poc": "https://github.com/gpac/gpac/issues/1660",
+        "patch": "https://github.com/gpac/gpac/commit/a4eb327049132359cae54b59faec9e2f14c5a619"
+    },
+    "CVE-2023-28319": {
+        "poc": "https://hackerone.com/reports/1913733",
+        "patch": "https://github.com/curl/curl/commit/8e21b1a05f3c0ee098dbcb6c"
+    },
+    "CVE-2023-50120": {
+        "poc": "https://github.com/gpac/gpac/issues/2698",
+        "patch": "https://github.com/gpac/gpac/commit/b655955b840ccd7c7198bb15375aa510e76208eb"
+    },
+    "CVE-2021-29517": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-772p-x54p-hjrv",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/799f835a3dfa00a4d852defa29b15841eea9d64f"
+    },
+    "CVE-2023-1605": {
+        "poc": "https://huntr.dev/bounties/9dddcf5b-7dd4-46cc-abf9-172dce20bab2",
+        "patch": "https://github.com/radareorg/radare2/commit/508a6307045441defd1bef0999a1f7052097613f"
+    },
+    "CVE-2023-43887": {
+        "poc": "https://github.com/strukturag/libde265/issues/418",
+        "patch": "https://github.com/strukturag/libde265/commit/63b596c915977f038eafd7647d1db25488a8c133"
+    },
+    "CVE-2021-31616": {
+        "poc": "https://blog.inhq.net/posts/keepkey-CVE-2021-31616/",
+        "patch": "https://github.com/keepkey/keepkey-firmware/commit/e49d45594002d4d3fbc1f03488e6dfc0a0a65836"
+    },
+    "CVE-2020-24370": {
+        "poc": "http://lua-users.org/lists/lua-l/2020-07/msg00324.html",
+        "patch": "https://github.com/lua/lua/commit/a585eae6e7ada1ca9271607a4f48dfb17868ab7b"
+    },
+    "CVE-2020-8597": {
+        "poc": "https://github.com/marcinguy/CVE-2020-8597",
+        "patch": "https://github.com/paulusmack/ppp/commit/8d7970b8f3db727fe798b65f3377fe6787575426"
+    },
+    "CVE-2021-29605": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-jf7h-7m85-w2v2",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/7c8cc4ec69cd348e44ad6a2699057ca88faad3e5"
+    },
+    "CVE-2021-29595": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-vf94-36g5-69v8",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/106d8f4fb89335a2c52d7c895b7a7485465ca8d9"
+    },
+    "CVE-2021-29594": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-3qgw-p4fm-x7gf",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/ff489d95a9006be080ad14feb378f2b4dac35552"
+    },
+    "CVE-2021-3753": {
+        "poc": "https://www.openwall.com/lists/oss-security/2021/09/01/4",
+        "patch": "https://github.com/torvalds/linux/commit/2287a51ba822384834dafc1c798453375d1107c7"
+    },
+    "CVE-2021-3609": {
+        "poc": "https://github.com/nrb547/kernel-exploitation/blob/main/cve-2021-3609/cve-2021-3609.md",
+        "patch": "https://github.com/torvalds/linux/commit/d5f9023fa61ee8b94f37a93f08e94b136cf1e463"
+    },
+    "CVE-2022-23558": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/ca6f96b62ad84207fbec580404eaa7dd7403a550/tensorflow/lite/c/common.c#L24-L33",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/a1e1511dde36b3f8aa27a6ec630838e7ea40e091"
+    },
+    "CVE-2022-28044": {
+        "poc": "https://github.com/ckolivas/lrzip/issues/216",
+        "patch": "https://github.com/ckolivas/lrzip/commit/5faf80cd53ecfd16b636d653483144cd12004f46"
+    },
+    "CVE-2022-34299": {
+        "poc": "https://github.com/davea42/libdwarf-code/issues/119",
+        "patch": "https://github.com/davea42/libdwarf-code/commit/7ef09e1fc9ba07653dd078edb2408631c7969162"
+    },
+    "CVE-2023-3012": {
+        "poc": "https://huntr.dev/bounties/916b787a-c603-409d-afc6-25bb02070e69",
+        "patch": "https://github.com/gpac/gpac/commit/53387aa86c1af1228d0fa57c67f9c7330716d5a7"
+    },
+    "CVE-2023-0817": {
+        "poc": "https://huntr.dev/bounties/cb730bc5-d79c-4de6-9e57-10e8c3ce2cf3",
+        "patch": "https://github.com/gpac/gpac/commit/be9f8d395bbd196e3812e9cd80708f06bcc206f7"
+    },
+    "CVE-2022-27470": {
+        "poc": "https://github.com/libsdl-org/SDL_ttf/issues/187",
+        "patch": "https://github.com/libsdl-org/SDL_ttf/commit/db1b41ab8bde6723c24b866e466cad78c2fa0448"
+    },
+    "CVE-2022-4843": {
+        "poc": "https://huntr.dev/bounties/075b2760-66a0-4d38-b3b5-e9934956ab7f",
+        "patch": "https://github.com/radareorg/radare2/commit/842f809d4ec6a12af2906f948657281c9ebc8a24"
+    },
+    "CVE-2022-24122": {
+        "poc": "https://github.com/meowmeowxw/CVE-2022-24122",
+        "patch": "https://github.com/torvalds/linux/commit/f9d87929d451d3e649699d0f1d74f71f77ad38f5"
+    },
+    "CVE-2022-2652": {
+        "poc": "https://huntr.dev/bounties/1b055da5-7a9e-4409-99d7-030280d242d5",
+        "patch": "https://github.com/umlaeute/v4l2loopback/commit/e4cd225557486c420f6a34411f98c575effd43dd"
+    },
+    "CVE-2023-23456": {
+        "poc": "https://github.com/upx/upx/issues/632",
+        "patch": "https://github.com/upx/upx/commit/510505a85cbe45e51fbd470f1aa8b02157c429d4"
+    },
+    "CVE-2022-47021": {
+        "poc": "https://github.com/xiph/opusfile/issues/36",
+        "patch": "https://github.com/xiph/opusfile/commit/0a4cd796df5b030cb866f3f4a5e41a4b92caddf5"
+    },
+    "CVE-2021-29657": {
+        "poc": "https://bugs.chromium.org/p/project-zero/issues/detail?id=2177",
+        "patch": "https://github.com/torvalds/linux/commit/a58d9166a756a0f4a6618e4f593232593d6df134"
+    },
+    "CVE-2021-3392": {
+        "poc": "https://bugs.launchpad.net/qemu/+bug/1914236",
+        "patch": "https://github.com/qemu/qemu/commit/3791642c8d60029adf9b00bcb4e34d7d8a1aea4d"
+    },
+    "CVE-2020-6061": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-0984",
+        "patch": "https://github.com/coturn/coturn/commit/51a7c2b9bf924890c7a3ff4db9c4976c5a93340a"
+    },
+    "CVE-2022-27781": {
+        "poc": "https://hackerone.com/reports/1555441",
+        "patch": "https://github.com/curl/curl/commit/5c7da89d404bf59c8dd82a001119a16d18365917"
+    },
+    "CVE-2022-27779": {
+        "poc": "https://hackerone.com/reports/1553301",
+        "patch": "https://github.com/curl/curl/commit/7e92d12b4e6911f424678a133b19de670e183a59"
+    },
+    "CVE-2022-27778": {
+        "poc": "https://hackerone.com/reports/1553598",
+        "patch": "https://github.com/curl/curl/commit/8c7ee9083d0d719d0a77ab20d9cc2ae84eeea7f3"
+    },
+    "CVE-2020-22019": {
+        "poc": "https://trac.ffmpeg.org/ticket/8241",
+        "patch": "https://github.com/FFmpeg/FFmpeg/commit/82ad1b76751bcfad5005440db48c46a4de5d6f02"
+    },
+    "CVE-2020-22033": {
+        "poc": "https://trac.ffmpeg.org/ticket/8246",
+        "patch": "https://github.com/FFmpeg/FFmpeg/commit/82ad1b76751bcfad5005440db48c46a4de5d6f02"
+    },
+    "CVE-2021-36159": {
+        "poc": "https://gitlab.alpinelinux.org/alpine/apk-tools/-/issues/10749",
+        "patch": "https://github.com/freebsd/freebsd-src/commit/64ae2f785e0672286901c15045a24cbc533538d3"
+    },
+    "CVE-2020-11526": {
+        "poc": "https://pub.freerdp.com/cve/CVE-2020-11526/pocAnalysis_4.pdf",
+        "patch": "https://github.com/FreeRDP/FreeRDP/commit/192856cb59974ee4d7d3e72cbeafa676aa7565cf"
+    },
+    "CVE-2020-25671": {
+        "poc": "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+        "patch": "https://github.com/raspberrypi/linux/commit/8a4cd82d62b5ec7e5482333a72b58a4eea4979f0"
+    },
+    "CVE-2020-14331": {
+        "poc": "https://www.openwall.com/lists/oss-security/2020/07/28/2",
+        "patch": "https://github.com/raspberrypi/linux/commit/ebfdfeeae8c01fcb2b3b74ffaf03876e20835d2d"
+    },
+    "CVE-2020-25670": {
+        "poc": "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+        "patch": "https://github.com/raspberrypi/linux/commit/c33b1cc62ac05c1dbb1cdafe2eb66da01c76ca8d"
+    },
+    "CVE-2020-14386": {
+        "poc": "https://github.com/cgwalters/cve-2020-14386",
+        "patch": "https://github.com/raspberrypi/linux/commit/acf69c946233259ab4d64f8869d4037a198c7f06"
+    },
+    "CVE-2021-3564": {
+        "poc": "http://www.openwall.com/lists/oss-security/2021/06/01/2",
+        "patch": "https://github.com/raspberrypi/linux/commit/6a137caec23aeb9e036cdfd8a46dd8a366460e5d"
+    },
+    "CVE-2022-2588": {
+        "poc": "https://github.com/Markakd/CVE-2022-2588",
+        "patch": "https://github.com/raspberrypi/linux/commit/57bbb691a93bd39d0644c5c879b354232d0e0eed"
+    },
+    "CVE-2020-10757": {
+        "poc": "https://www.openwall.com/lists/oss-security/2020/06/04/4",
+        "patch": "https://github.com/raspberrypi/linux/commit/5bfea2d9b17f1034a68147a8b03b9789af5700f9"
+    },
+    "CVE-2021-3449": {
+        "poc": "https://github.com/terorie/cve-2021-3449",
+        "patch": "https://github.com/openssl/openssl/commit/02b1636fe3db274497304a3e95a4e32ced7e841b"
+    },
+    "CVE-2020-1967": {
+        "poc": "https://github.com/irsl/CVE-2020-1967",
+        "patch": "https://github.com/openssl/openssl/commit/a87f3fe01a5a894aa27ccd6a239155fd129988e4"
+    },
+    "CVE-2020-14871": {
+        "poc": "https://www.exploit-db.com/exploits/49261",
+        "patch": "https://github.com/openssh/openssh-portable/commit/fcf429a4c69d30d8725612a55b37181594da8ddf"
+    },
+    "CVE-2021-29513": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-452g-f7fp-9jf7",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/030af767d357d1b4088c4a25c72cb3906abac489"
+    },
+    "CVE-2021-29545": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-hmg3-c7xj-6qwm",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/1e922ccdf6bf46a3a52641f99fd47d54c1decd13"
+    },
+    "CVE-2021-29571": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-whr9-vfh2-7hm6",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/79865b542f9ffdc9caeb255631f7c56f1d4b6517"
+    },
+    "CVE-2021-29587": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-j7rm-8ww4-xx2g",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/0d45ea1ca641b21b73bcf9c00e0179cda284e7e7"
+    },
+    "CVE-2021-29567": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-wp3c-xw9g-gpcg",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/7ae2af34087fb4b5c8915279efd03da3b81028bc"
+    },
+    "CVE-2021-29553": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-h9px-9vqg-222h",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/99085e8ff02c3763a0ec2263e44daec416f6a387"
+    },
+    "CVE-2021-29573": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-9vpm-rcf4-9wqw",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/376c352a37ce5a68b721406dc7e77ac4b6cf483d"
+    },
+    "CVE-2021-41219": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4f99-p9c2-3j8x",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/e6cf28c72ba2eb949ca950d834dd6d66bb01cfae"
+    },
+    "CVE-2021-29610": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-mq5c-prh3-3f3h",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/c5b0d5f8ac19888e46ca14b0e27562e7fbbee9a9"
+    },
+    "CVE-2021-29557": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-xw93-v57j-fcgh",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/7f283ff806b2031f407db64c4d3edcda8fb9f9f5"
+    },
+    "CVE-2021-29549": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-x83m-p7pv-ch8v",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/744009c9e5cc5d0447f0dc39d055f917e1fd9e16"
+    },
+    "CVE-2021-29546": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-m34j-p8rj-wjxq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/67784700869470d65d5f2ef20aeb5e97c31673cb"
+    },
+    "CVE-2021-29569": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-3h8m-483j-7xxm",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/ef0c008ee84bad91ec6725ddc42091e19a30cf0e"
+    },
+    "CVE-2021-29588": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-vfr4-x8j2-3rf9",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/801c1c6be5324219689c98e1bd3e0ca365ee834d"
+    },
+    "CVE-2021-29563": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-ph87-fvjr-v33w",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/31bd5026304677faa8a0b77602c6154171b9aec1"
+    },
+    "CVE-2021-29599": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-97wf-p777-86jq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/b22786e7e9b7bdb6a56936ff29cc7e9968d7bc1d"
+    },
+    "CVE-2021-29556": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-fxqh-cfjm-fp93",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/4071d8e2f6c45c1955a811fee757ca2adbe462c1"
+    },
+    "CVE-2021-29562": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-36vm-xw34-x4pj",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/1c56f53be0b722ca657cbc7df461ed676c8642a2"
+    },
+    "CVE-2021-41224": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-rg3m-hqc5-344v",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/67bfd9feeecfb3c61d80f0e46d89c170fbee682b"
+    },
+    "CVE-2021-29597": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-v52p-hfjf-wg88",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/6d36ba65577006affb272335b7c1abd829010708"
+    },
+    "CVE-2021-29606": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-h4pc-gx2w-f2xv",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/ae2daeb45abfe2c6dda539cf8d0d6f653d3ef412"
+    },
+    "CVE-2021-29612": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-2xgj-xhgf-ggjv",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/0ab290774f91a23bebe30a358fde4e53ab4876a0"
+    },
+    "CVE-2021-29529": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-jfp7-4j67-8r3q",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/f851613f8f0fb0c838d160ced13c134f778e3ce7"
+    },
+    "CVE-2021-29544": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-6g85-3hm8-83f9",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/20431e9044cf2ad3c0323c34888b192f3289af6b"
+    },
+    "CVE-2021-41217": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-5crj-c72x-m7gq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/05cbebd3c6bb8f517a158b0155debb8df79017ff"
+    },
+    "CVE-2021-29575": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-6qgm-fv6v-rfpv",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/ecf768cbe50cedc0a45ce1ee223146a3d3d26d23"
+    },
+    "CVE-2021-29561": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-gvm4-h8j3-rjrq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/77dd114513d7796e1e2b8aece214a380af26fbf4"
+    },
+    "CVE-2021-29537": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-8c89-2vwr-chcq",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/f6c40f0c6cbf00d46c7717a26419f2062f2f8694"
+    },
+    "CVE-2020-26268": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-hhvc-g5hv-48c6",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/c1e1fc899ad5f8c725dcbb6470069890b5060bc7"
+    },
+    "CVE-2021-29596": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-4vrf-ff7v-hpgr",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/f61c57bd425878be108ec787f4d96390579fb83e"
+    },
+    "CVE-2021-29613": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-vvg4-vgrv-xfr7",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/4504a081af71514bb1828048363e6540f797005b"
+    },
+    "CVE-2021-29589": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-3w67-q784-6w7c",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/8e45822aa0b9f5df4b4c64f221e64dc930a70a9d"
+    },
+    "CVE-2021-29516": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-84mw-34w6-2q43",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/b055b9c474cd376259dde8779908f9eeaf097d93"
+    },
+    "CVE-2021-29524": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-r4pj-74mg-8868",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/fca9874a9b42a2134f907d2fb46ab774a831404a"
+    },
+    "CVE-2021-29609": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-cjc7-49v2-jp64",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/6fd02f44810754ae7481838b6a67c5df7f909ca3"
+    },
+    "CVE-2021-41211": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-cvgx-3v3q-m36c",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/a0d64445116c43cf46a5666bd4eee28e7a82f244"
+    },
+    "CVE-2021-29550": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-f78g-q7r4-9wcv",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/548b5eaf23685d86f722233d8fbc21d0a4aecb96"
+    },
+    "CVE-2021-29604": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-8rm6-75mf-7r7r",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/5117e0851348065ed59c991562c0ec80d9193db2"
+    },
+    "CVE-2021-29521": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-hr84-fqvp-48mm",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/c57c0b9f3a4f8684f3489dd9a9ec627ad8b599f5"
+    },
+    "CVE-2021-29581": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-vq2r-5xvm-3hc3",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/b1b323042264740c398140da32e93fb9c2c9f33e"
+    },
+    "CVE-2021-29552": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-jhq9-wm9m-cf89",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/704866eabe03a9aeda044ec91a8d0c83fc1ebdbe"
+    },
+    "CVE-2021-29531": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-3qxp-qjq7-w4hf",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/26eb323554ffccd173e8a79a8c05c15b685ae4d1"
+    },
+    "CVE-2021-41226": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-374m-jm66-3vj8",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/f410212e373eb2aec4c9e60bf3702eba99a38aba"
+    },
+    "CVE-2021-29593": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-cfx7-2xpc-8w4h",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/2c74674348a4708ced58ad6eb1b23354df8ee044"
+    },
+    "CVE-2021-29528": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-6f84-42vf-ppwp",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/a1b11d2fdd1e51bfe18bb1ede804f60abfa92da6"
+    },
+    "CVE-2021-29603": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-crch-j389-5f84",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/c59c37e7b2d563967da813fa50fe20b21f4da683"
+    },
+    "CVE-2021-29514": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-8h46-5m9h-7553",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/eebb96c2830d48597d055d247c0e9aebaea94cd5"
+    },
+    "CVE-2021-29560": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-8gv3-57p6-g35r",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/a84358aa12f0b1518e606095ab9cfddbf597c121"
+    },
+    "CVE-2021-29565": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-r6pg-pjwc-j585",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/faa76f39014ed3b5e2c158593b1335522e573c7f"
+    },
+    "CVE-2021-29554": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-qg48-85hg-mqc5",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/da5ff2daf618591f64b2b62d9d9803951b945e9f"
+    },
+    "CVE-2020-15476": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=21780",
+        "patch": "https://github.com/ntop/nDPI/commit/b69177be2fbe01c2442239a61832c44e40136c05"
+    },
+    "CVE-2021-36085": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=31124",
+        "patch": "https://github.com/SELinuxProject/selinux/commit/2d35fcc7e9e976a2346b1de20e54f8663e8a6cba"
+    },
+    "CVE-2021-36084": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=31065",
+        "patch": "https://github.com/SELinuxProject/selinux/commit/f34d3d30c8325e4847a6b696fe7a3936a8a361f3"
+    },
+    "CVE-2020-16588": {
+        "poc": "https://github.com/AcademySoftwareFoundation/openexr/issues/493",
+        "patch": "https://github.com/AcademySoftwareFoundation/openexr/commit/74504503cff86e986bac441213c403b0ba28d58f"
+    },
+    "CVE-2020-16587": {
+        "poc": "https://github.com/AcademySoftwareFoundation/openexr/issues/491",
+        "patch": "https://github.com/AcademySoftwareFoundation/openexr/commit/8b5370c688a7362673c3a5256d93695617a4cd9a"
+    },
+    "CVE-2021-27815": {
+        "poc": "https://github.com/libexif/exif/issues/4",
+        "patch": "https://github.com/libexif/exif/commit/f6334d9d32437ef13dc902f0a88a2be0063d9d1c"
+    },
+    "CVE-2021-23180": {
+        "poc": "https://github.com/michaelrsweet/htmldoc/issues/418",
+        "patch": "https://github.com/michaelrsweet/htmldoc/commit/19c582fb32eac74b57e155cffbb529377a9e751a"
+    },
+    "CVE-2020-26243": {
+        "poc": "https://github.com/nanopb/nanopb/issues/615",
+        "patch": "https://github.com/nanopb/nanopb/commit/4fe23595732b6f1254cfc11a9b8d6da900b55b0c"
+    },
+    "CVE-2021-33909": {
+        "poc": "https://www.openwall.com/lists/oss-security/2021/07/20/1",
+        "patch": "https://github.com/torvalds/linux/commit/8cae8cd89f05f6de223d63e6d15e31c8ba9cf53b"
+    },
+    "CVE-2021-3743": {
+        "poc": "https://www.openwall.com/lists/oss-security/2021/08/27/2",
+        "patch": "https://github.com/torvalds/linux/commit/7e78c597c3ebfd0cb329aa09a838734147e4f117"
+    },
+    "CVE-2020-27194": {
+        "poc": "https://github.com/xmzyshypnc/CVE-2020-27194",
+        "patch": "https://github.com/torvalds/linux/commit/5b9fbeb75b6a98955f628e205ac26689bcb1383e"
+    },
+    "CVE-2020-12659": {
+        "poc": "https://bugzilla.kernel.org/show_bug.cgi?id=207225",
+        "patch": "https://github.com/torvalds/linux/commit/99e3a236dd43d06c65af0a2ef9cb44306aef6e02"
+    },
+    "CVE-2020-12464": {
+        "poc": "https://lkml.org/lkml/2020/3/23/52",
+        "patch": "https://github.com/torvalds/linux/commit/056ad39ee9253873522f6469c3364964a322912b"
+    },
+    "CVE-2020-14354": {
+        "poc": "https://bugzilla.redhat.com/show_bug.cgi?id=1866838",
+        "patch": "https://github.com/c-ares/c-ares/commit/1cc7e83c3bdfaafbc5919c95025592d8de3a170e"
+    },
+    "CVE-2021-40524": {
+        "poc": "https://github.com/jedisct1/pure-ftpd/pull/158",
+        "patch": "https://github.com/jedisct1/pure-ftpd/commit/37ad222868e52271905b94afea4fc780d83294b4"
+    },
+    "CVE-2020-11047": {
+        "poc": "https://github.com/FreeRDP/FreeRDP/issues/6009",
+        "patch": "https://github.com/FreeRDP/FreeRDP/commit/f5e73cc7c9cd973b516a618da877c87b80950b65"
+    },
+    "CVE-2020-11044": {
+        "poc": "https://github.com/FreeRDP/FreeRDP/issues/6013",
+        "patch": "https://github.com/FreeRDP/FreeRDP/commit/67c2aa52b2ae0341d469071d1bc8aab91f8d2ed8"
+    },
+    "CVE-2020-20739": {
+        "poc": "https://github.com/libvips/libvips/issues/1419",
+        "patch": "https://github.com/libvips/libvips/commit/2ab5aa7bf515135c2b02d42e9a72e4c98e17031a"
+    },
+    "CVE-2021-37600": {
+        "poc": "https://github.com/karelzak/util-linux/issues/1395",
+        "patch": "https://github.com/karelzak/util-linux/commit/1c9143d0c1f979c3daf10e1c37b5b1e916c22a1c"
+    },
+    "CVE-2020-5260": {
+        "poc": "https://github.com/brompwnie/cve-2020-5260",
+        "patch": "https://github.com/git/git/commit/9a6bbee8006c24b46a85d29e7b38cfa79e9ab21b"
+    },
+    "CVE-2020-19499": {
+        "poc": "https://github.com/strukturag/libheif/issues/138",
+        "patch": "https://github.com/strukturag/libheif/commit/f7399b62d7fbc596f1b2871578c1d2053bedf1dd"
+    },
+    "CVE-2021-37847": {
+        "poc": "https://gist.github.com/gquere/816dfadbad98745090034100a8a651eb",
+        "patch": "https://github.com/saschahauer/barebox/commit/0a9f9a7410681e55362f8311537ebc7be9ad0fbe"
+    },
+    "CVE-2021-37848": {
+        "poc": "https://gist.github.com/gquere/816dfadbad98745090034100a8a651eb",
+        "patch": "https://github.com/saschahauer/barebox/commit/a3337563c705bc8e0cf32f910b3e9e3c43d962ff"
+    },
+    "CVE-2020-11683": {
+        "poc": "https://labs.f-secure.com/advisories/microchip-at91bootstrap/",
+        "patch": "https://github.com/linux4sam/at91bootstrap/commit/7753914c9a622c245f3a3cf2af5e24b6a9904213"
+    },
+    "CVE-2020-36401": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=23801",
+        "patch": "https://github.com/mruby/mruby/commit/97319697c8f9f6ff27b32589947e1918e3015503"
+    },
+    "CVE-2021-4188": {
+        "poc": "https://huntr.dev/bounties/78533fb9-f3e0-47c2-86dc-d1f96d5bea28",
+        "patch": "https://github.com/mruby/mruby/commit/27d1e0132a0804581dca28df042e7047fd27eaa8"
+    },
+    "CVE-2020-27347": {
+        "poc": "https://www.openwall.com/lists/oss-security/2020/11/05/3",
+        "patch": "https://github.com/tmux/tmux/commit/a868bacb46e3c900530bed47a1c6f85b0fbe701c"
+    },
+    "CVE-2021-36088": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=33750",
+        "patch": "https://github.com/fluent/fluent-bit/commit/22346a74c07ceb90296be872be2d53eb92252a54"
+    },
+    "CVE-2021-32438": {
+        "poc": "https://github.com/gpac/gpac/issues/1769",
+        "patch": "https://github.com/gpac/gpac/commit/00194f5fe462123f70b0bae7987317b52898b868"
+    },
+    "CVE-2020-35980": {
+        "poc": "https://github.com/gpac/gpac/issues/1661",
+        "patch": "https://github.com/gpac/gpac/commit/5aba27604d957e960d8069d85ccaf868f8a7b07a"
+    },
+    "CVE-2021-40575": {
+        "poc": "https://github.com/gpac/gpac/issues/1905",
+        "patch": "https://github.com/gpac/gpac/commit/5f2c2a16d30229b6241f02fa28e3d6b810d64858"
+    },
+    "CVE-2021-30199": {
+        "poc": "https://github.com/gpac/gpac/issues/1728",
+        "patch": "https://github.com/gpac/gpac/commit/b2db2f99b4c30f96e17b9a14537c776da6cb5dca"
+    },
+    "CVE-2021-40567": {
+        "poc": "https://github.com/gpac/gpac/issues/1889",
+        "patch": "https://github.com/gpac/gpac/commit/f5a038e6893019ee471b6a57490cf7a495673816"
+    },
+    "CVE-2021-31261": {
+        "poc": "https://github.com/gpac/gpac/issues/1737",
+        "patch": "https://github.com/gpac/gpac/commit/cd3738dea038dbd12e603ad48cd7373ae0440f65"
+    },
+    "CVE-2021-32136": {
+        "poc": "https://github.com/gpac/gpac/issues/1765",
+        "patch": "https://github.com/gpac/gpac/commit/eb71812fcc10e9c5348a5d1c61bd25b6fa06eaed"
+    },
+    "CVE-2021-32137": {
+        "poc": "https://github.com/gpac/gpac/issues/1766",
+        "patch": "https://github.com/gpac/gpac/commit/328def7d3b93847d64ecb6e9e0399684e57c3eca"
+    },
+    "CVE-2020-35979": {
+        "poc": "https://github.com/gpac/gpac/issues/1662",
+        "patch": "https://github.com/gpac/gpac/commit/b15020f54aff24aaeb64b80771472be8e64a7adc"
+    },
+    "CVE-2021-33364": {
+        "poc": "https://github.com/gpac/gpac/issues/1783",
+        "patch": "https://github.com/gpac/gpac/commit/fe5155cf047252d1c4cb91602048bfa682af0ea7"
+    },
+    "CVE-2021-40573": {
+        "poc": "https://github.com/gpac/gpac/issues/1891",
+        "patch": "https://github.com/gpac/gpac/commit/b03c9f252526bb42fbd1b87b9f5e339c3cf2390a"
+    },
+    "CVE-2020-19488": {
+        "poc": "https://github.com/gpac/gpac/issues/1263",
+        "patch": "https://github.com/gpac/gpac/commit/6170024568f4dda310e98ef7508477b425c58d09"
+    },
+    "CVE-2021-31256": {
+        "poc": "https://github.com/gpac/gpac/issues/1705",
+        "patch": "https://github.com/gpac/gpac/commit/2da2f68bffd51d89b1d272d22aa8cc023c1c066e"
+    },
+    "CVE-2020-11558": {
+        "poc": "https://github.com/gpac/gpac/issues/1440",
+        "patch": "https://github.com/gpac/gpac/commit/6063b1a011c3f80cee25daade18154e15e4c058c"
+    },
+    "CVE-2021-40576": {
+        "poc": "https://github.com/gpac/gpac/issues/1904",
+        "patch": "https://github.com/gpac/gpac/commit/ad18ece95fa064efc0995c4ab2c985f77fb166ec"
+    },
+    "CVE-2021-32437": {
+        "poc": "https://github.com/gpac/gpac/issues/1770",
+        "patch": "https://github.com/gpac/gpac/commit/1653f31cf874eb6df964bea88d58d8e9b98b485e"
+    },
+    "CVE-2021-31260": {
+        "poc": "https://github.com/gpac/gpac/issues/1736",
+        "patch": "https://github.com/gpac/gpac/commit/df8fffd839fe5ae9acd82d26fd48280a397411d9"
+    },
+    "CVE-2021-33366": {
+        "poc": "https://github.com/gpac/gpac/issues/1785",
+        "patch": "https://github.com/gpac/gpac/commit/0a85029d694f992f3631e2f249e4999daee15cbf"
+    },
+    "CVE-2021-40571": {
+        "poc": "https://github.com/gpac/gpac/issues/1895",
+        "patch": "https://github.com/gpac/gpac/commit/a69b567b8c95c72f9560c873c5ab348be058f340"
+    },
+    "CVE-2021-31257": {
+        "poc": "https://github.com/gpac/gpac/issues/1734",
+        "patch": "https://github.com/gpac/gpac/commit/87afe070cd6866df7fe80f11b26ef75161de85e0"
+    },
+    "CVE-2021-32272": {
+        "poc": "https://github.com/knik0/faad2/issues/57",
+        "patch": "https://github.com/knik0/faad2/commit/1b71a6ba963d131375f5e489b3b25e36f19f3f24"
+    },
+    "CVE-2020-24342": {
+        "poc": "http://lua-users.org/lists/lua-l/2020-07/msg00052.html",
+        "patch": "https://github.com/lua/lua/commit/34affe7a63fc5d842580a9f23616d057e17dfe27"
+    },
+    "CVE-2020-24753": {
+        "poc": "https://warcollar.com/cve-2020-24753.html",
+        "patch": "https://github.com/objsys/oocborrt/commit/539851c66778f68a244633985f6f8d0df94ea3b3"
+    },
+    "CVE-2020-6019": {
+        "poc": "https://research.checkpoint.com/2020/game-on-finding-vulnerabilities-in-valves-steam-sockets/",
+        "patch": "https://github.com/ValveSoftware/GameNetworkingSockets/commit/d944a10808891d202bb1d5e1998de6e0423af678"
+    },
+    "CVE-2021-44273": {
+        "poc": "https://github.com/e2guardian/e2guardian/issues/707",
+        "patch": "https://github.com/e2guardian/e2guardian/commit/eae46a7e2a57103aadca903c4a24cca94dc502a2"
+    },
+    "CVE-2021-3751": {
+        "poc": "https://huntr.dev/bounties/fcb4383c-bc27-4b89-bfce-6b041f0cb769",
+        "patch": "https://github.com/bfabiszewski/libmobi/commit/ab5bf0e37e540eac682a14e628853b918626e72b"
+    },
+    "CVE-2021-3888": {
+        "poc": "https://huntr.dev/bounties/722b3acb-792b-4429-a98d-bb80efb8938d",
+        "patch": "https://github.com/bfabiszewski/libmobi/commit/c78e186739b50d156cb3da5d08d70294f0490853"
+    },
+    "CVE-2020-23907": {
+        "poc": "https://github.com/avast/retdec/issues/637",
+        "patch": "https://github.com/avast/retdec/commit/517298bafaaff0a8e3dd60dd055a67c41b545807"
+    },
+    "CVE-2020-5221": {
+        "poc": "https://github.com/troglobit/uftpd/security/advisories/GHSA-wmx8-v7mx-6x9h",
+        "patch": "https://github.com/troglobit/uftpd/commit/455b47d3756aed162d2d0ef7f40b549f3b5b30fe"
+    },
+    "CVE-2021-22552": {
+        "poc": "https://github.com/google/asylo/commit/90d7619e9dd99bcdb6cd28c7649d741d254d9a1a",
+        "patch": "https://github.com/google/asylo/commit/90d7619e9dd99bcdb6cd28c7649d741d254d9a1a"
+    },
+    "CVE-2020-15261": {
+        "poc": "https://www.exploit-db.com/exploits/49925",
+        "patch": "https://github.com/veyon/veyon/commit/f231ec511b9a09f43f49b2c7bb7c60b8046276b1"
+    },
+    "CVE-2021-30219": {
+        "poc": "https://github.com/michaelforney/samurai/issues/68",
+        "patch": "https://github.com/michaelforney/samurai/commit/d2af3bc375e2a77139c3a28d6128c60cd8d08655"
+    },
+    "CVE-2021-30218": {
+        "poc": "https://github.com/michaelforney/samurai/issues/67",
+        "patch": "https://github.com/michaelforney/samurai/commit/e84b6d99c85043fa1ba54851ee500540ec206918"
+    },
+    "CVE-2020-12284": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=19734",
+        "patch": "https://github.com/FFmpeg/FFmpeg/commit/a3a3730b5456ca00587455004d40c047f7b20a99"
+    },
+    "CVE-2022-23462": {
+        "poc": "https://securitylab.github.com/advisories/GHSL-2022-066_iowow/",
+        "patch": "https://github.com/Softmotions/iowow/commit/a79d31e4cff1d5a08f665574b29fd885897a28fd"
+    },
+    "CVE-2022-23589": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/grappler/mutable_graph_view.cc#L59-L74",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/045deec1cbdebb27d817008ad5df94d96a08b1bf"
+    },
+    "CVE-2022-29197": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-hrg5-737c-2p56",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/13d38a07ce9143e044aa737cfd7bb759d0e9b400"
+    },
+    "CVE-2022-23590": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/274df9b02330b790aa8de1cee164b70f72b9b244/tensorflow/core/graph/graph.cc#L560-L567",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/955059813cc325dc1db5e2daa6221271406d4439"
+    },
+    "CVE-2022-29193": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-2p9q-h29j-3f5v",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/290bb05c80c327ed74fae1d089f1001b1e2a4ef7"
+    },
+    "CVE-2022-21738": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/5100e359aef5c8021f2e71c7b986420b85ce7b3d/tensorflow/core/kernels/count_ops.cc#L168-L273",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/6f4d3e8139ec724dbbcb40505891c81dd1052c4a"
+    },
+    "CVE-2022-23566": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/framework/shape_inference.h#L394",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/97282c6d0d34476b6ba033f961590b783fa184cd"
+    },
+    "CVE-2022-23584": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/kernels/image/decode_image_op.cc#L339-L346",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/e746adbfcfee15e9cfdb391ff746c765b99bdf9b"
+    },
+    "CVE-2022-29205": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-54ch-gjq5-4976",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/237822b59fc504dda2c564787f5d3ad9c4aa62d9"
+    },
+    "CVE-2022-23579": {
+        "poc": "https://github.com/tensorflow/tensorflow/blob/a1320ec1eac186da1d03f033109191f715b2b130/tensorflow/core/grappler/optimizers/dependency_optimizer.cc#L59-L98",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/92dba16749fae36c246bec3f9ba474d9ddeb7662"
+    },
+    "CVE-2021-3889": {
+        "poc": "https://huntr.dev/bounties/efb3e261-3f7d-4a45-8114-e0ace6b21516",
+        "patch": "https://github.com/bfabiszewski/libmobi/commit/bec783e6212439a335ba6e8df7ab8ed610ca9a21"
+    },
+    "CVE-2021-4022": {
+        "poc": "https://github.com/rizinorg/rizin/issues/2015",
+        "patch": "https://github.com/rizinorg/rizin/commit/21584e416cdcef2fa7d855c5aabf592a965f0e8d"
+    },
+    "CVE-2022-0435": {
+        "poc": "https://www.openwall.com/lists/oss-security/2022/02/10/1",
+        "patch": "https://github.com/torvalds/linux/commit/1f1788616157b0222b0c2153828b475d95e374a7"
+    },
+    "CVE-2022-0443": {
+        "poc": "https://huntr.dev/bounties/b987c8cb-bbbe-4601-8a6c-54ff907c6b51",
+        "patch": "https://github.com/vim/vim/commit/9b4a80a66544f2782040b641498754bcb5b8d461"
+    },
+    "CVE-2022-0695": {
+        "poc": "https://huntr.dev/bounties/bdbddc0e-fb06-4211-a90b-7cbedcee2bea",
+        "patch": "https://github.com/radareorg/radare2/commit/634b886e84a5c568d243e744becc6b3223e089cf"
+    },
+    "CVE-2022-0995": {
+        "poc": "https://github.com/Bonfee/CVE-2022-0995",
+        "patch": "https://github.com/torvalds/linux/commit/93ce93587d36493f2f86921fa79921b3cba63fbb"
+    },
+    "CVE-2022-2301": {
+        "poc": "https://huntr.dev/bounties/f6b9114b-671d-4948-b946-ffe5c9aeb816",
+        "patch": "https://github.com/hpjansson/chafa/commit/56fabfa18a6880b4cb66047fa6557920078048d9"
+    },
+    "CVE-2022-2598": {
+        "poc": "https://huntr.dev/bounties/2f08363a-47a2-422d-a7de-ce96a89ad08e",
+        "patch": "https://github.com/vim/vim/commit/4e677b9c40ccbc5f090971b31dc2fe07bf05541d"
+    },
+    "CVE-2022-3299": {
+        "poc": "https://github.com/open5gs/open5gs/issues/1769",
+        "patch": "https://github.com/open5gs/open5gs/commit/724fa568435dae45ef0c3a48b2aabde052afae88"
+    },
+    "CVE-2022-3757": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=50901",
+        "patch": "https://github.com/Exiv2/exiv2/commit/d3651fdbd352cbaf259f89abf7557da343339378"
+    },
+    "CVE-2022-4254": {
+        "poc": "https://github.com/SSSD/sssd/issues/5135",
+        "patch": "https://github.com/SSSD/sssd/commit/a2b9a84460429181f2a4fa7e2bb5ab49fd561274"
+    },
+    "CVE-2022-4415": {
+        "poc": "https://github.com/systemd/systemd/commit/b7641425659243c09473cd8fb3aef2c0d4a3eb9c",
+        "patch": "https://github.com/systemd/systemd/commit/b7641425659243c09473cd8fb3aef2c0d4a3eb9c"
+    },
+    "CVE-2023-0302": {
+        "poc": "https://huntr.dev/bounties/583133af-7ae6-4a21-beef-a4b0182cf82e",
+        "patch": "https://github.com/radareorg/radare2/commit/961f0e723903011d4f54c2396e44efa91fcc74ce"
+    },
+    "CVE-2023-0397": {
+        "poc": "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-wc2h-h868-q7hj",
+        "patch": "https://github.com/zephyrproject-rtos/zephyr/commit/c3f512d60673b53692b59e832ea62162d22fced1"
+    },
+    "CVE-2023-1570": {
+        "poc": "https://github.com/syoyo/tinydng/issues/29",
+        "patch": "https://github.com/syoyo/tinydng/commit/38d3a8ba987f2993428649ad4dfa0a4bfb2deffe"
+    },
+    "CVE-2023-2241": {
+        "poc": "https://github.com/podofo/podofo/issues/69",
+        "patch": "https://github.com/podofo/podofo/commit/535a786f124b739e3c857529cecc29e4eeb79778"
+    },
+    "CVE-2023-2731": {
+        "poc": "https://gitlab.com/libtiff/libtiff/-/issues/548",
+        "patch": "https://github.com/libsdl-org/libtiff/commit/9be22b639ea69e102d3847dca4c53ef025e9527b"
+    },
+    "CVE-2023-4322": {
+        "poc": "https://huntr.dev/bounties/06e2484c-d6f1-4497-af67-26549be9fffd",
+        "patch": "https://github.com/radareorg/radare2/commit/ba919adb74ac368bf76b150a00347ded78b572dd"
+    },
+    "CVE-2023-5841": {
+        "poc": "https://takeonme.org/cves/CVE-2023-5841.html",
+        "patch": "https://github.com/AcademySoftwareFoundation/openexr/commit/8bedf106ef14d97c6e383c1052659e4f3b5b487d"
+    },
+    "CVE-2020-11521": {
+        "poc": "https://pub.freerdp.com/cve/CVE-2020-11521/pocAnalysis_6.pdf",
+        "patch": "https://github.com/FreeRDP/FreeRDP/commit/17f547ae11835bb11baa3d045245dc1694866845"
+    },
+    "CVE-2020-11525": {
+        "poc": "https://pub.freerdp.com/cve/CVE-2020-11525/pocAnalysis_1.pdf",
+        "patch": "https://github.com/FreeRDP/FreeRDP/commit/0b6b92a25a77d533b8a92d6acc840a81e103684e"
+    },
+    "CVE-2020-15201": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-p5f8-gfw5-33w4",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/3cbb917b4714766030b28eba9fb41bb97ce9ee02"
+    },
+    "CVE-2020-21050": {
+        "poc": "https://github.com/saitoha/libsixel/issues/75",
+        "patch": "https://github.com/saitoha/libsixel/commit/7808a06b88c11dbc502318cdd51fa374f8cd47ee"
+    },
+    "CVE-2021-43848": {
+        "poc": "https://github.com/neex/hui2ochko",
+        "patch": "https://github.com/h2o/h2o/commit/8c0eca3"
+    },
+    "CVE-2021-44109": {
+        "poc": "https://github.com/open5gs/open5gs/issues/1247",
+        "patch": "https://github.com/open5gs/open5gs/commit/d919b2744cd05abae043490f0a3dd1946c1ccb8c"
+    },
+    "CVE-2021-45958": {
+        "poc": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/ujson/OSV-2021-955.yaml",
+        "patch": "https://github.com/ultrajson/ultrajson/commit/61dd6f19e83ed0dc8ce58a2389759a10267a86de"
+    },
+    "CVE-2021-46225": {
+        "poc": "https://github.com/LoicMarechal/libMeshb/issues/21",
+        "patch": "https://github.com/LoicMarechal/libMeshb/commit/8cd68c54e0647c0030ae4506a225ad4a2655c316"
+    },
+    "CVE-2022-24795": {
+        "poc": "https://github.com/brianmario/yajl-ruby/security/advisories/GHSA-jj47-x69x-mxrm",
+        "patch": "https://github.com/brianmario/yajl-ruby/commit/7168bd79b888900aa94523301126f968a93eb3a6"
+    },
+    "CVE-2022-24950": {
+        "poc": "https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-85gw-pchc-4rf3",
+        "patch": "https://github.com/MisterTea/EternalTerminal/commit/900348bb8bc96e1c7ba4888ac8480f643c43d3c3"
+    },
+    "CVE-2022-25044": {
+        "poc": "https://github.com/espruino/Espruino/issues/2142",
+        "patch": "https://github.com/espruino/Espruino/commit/e069be2ecc5060ef47391716e4de94999595b260"
+    },
+    "CVE-2022-25882": {
+        "poc": "https://gist.github.com/jnovikov/02a9aff9bf2188033e77bd91ff062856",
+        "patch": "https://github.com/onnx/onnx/commit/f369b0e859024095d721f1d1612da5a8fa38988d"
+    },
+    "CVE-2022-26128": {
+        "poc": "https://github.com/FRRouting/frr/issues/10502",
+        "patch": "https://github.com/FRRouting/frr/commit/c3793352a8d76d2eee1edc38a9a16c1c8a6573f4"
+    },
+    "CVE-2022-26129": {
+        "poc": "https://github.com/FRRouting/frr/issues/10503",
+        "patch": "https://github.com/FRRouting/frr/commit/c3793352a8d76d2eee1edc38a9a16c1c8a6573f4"
+    },
+    "CVE-2022-27114": {
+        "poc": "https://github.com/michaelrsweet/htmldoc/issues/471",
+        "patch": "https://github.com/michaelrsweet/htmldoc/commit/31f780487e5ddc426888638786cdc47631687275"
+    },
+    "CVE-2022-28550": {
+        "poc": "https://github.com/Matthias-Wandel/jhead/issues/51",
+        "patch": "https://github.com/Matthias-Wandel/jhead/commit/64894dbc7d8e1e232e85f1cab25c64290b2fc167"
+    },
+    "CVE-2022-28927": {
+        "poc": "https://gist.github.com/CwithW/01a726e5af709655d6ee0b2067cdae03",
+        "patch": "https://github.com/tindy2013/subconverter/commit/ce8d2bd0f13f05fcbd2ed90755d097f402393dd3"
+    },
+    "CVE-2022-29225": {
+        "poc": "https://github.com/envoyproxy/envoy/security/advisories/GHSA-75hv-2jjj-89hh",
+        "patch": "https://github.com/envoyproxy/envoy/commit/cb4ef0b09200c720dfdb07e097092dd105450343"
+    },
+    "CVE-2022-29776": {
+        "poc": "https://github.com/moehw/poc_exploits/tree/master/CVE-2022-29776",
+        "patch": "https://github.com/ONLYOFFICE/core/commit/88cf60a3ed4a2b40d71a1c2ced72fa3902a30967"
+    },
+    "CVE-2022-32208": {
+        "poc": "https://hackerone.com/reports/1590071",
+        "patch": "https://github.com/curl/curl/commit/6ecdf5136b52af747e7bda08db9a748256b1cd09"
+    },
+    "CVE-2022-34295": {
+        "poc": "http://www.hit.bme.hu/~lencse/publications/JCST-Apr14-2.pdf",
+        "patch": "https://github.com/fwdillema/totd/commit/afd8a10a6a21f82a70940d1b43cff48143250399"
+    },
+    "CVE-2022-38307": {
+        "poc": "https://github.com/lief-project/LIEF/issues/764",
+        "patch": "https://github.com/lief-project/LIEF/commit/7acf0bc4224081d4f425fcc8b2e361b95291d878"
+    },
+    "CVE-2022-38932": {
+        "poc": "https://github.com/klange/toaruos/issues/243",
+        "patch": "https://github.com/klange/toaruos/commit/5d36d27bb9da768ae45dadd5a6b50c8981935d82"
+    },
+    "CVE-2022-38934": {
+        "poc": "https://github.com/klange/toaruos/issues/244",
+        "patch": "https://github.com/klange/toaruos/commit/5d36d27bb9da768ae45dadd5a6b50c8981935d82"
+    },
+    "CVE-2022-40320": {
+        "poc": "https://github.com/libconfuse/libconfuse/issues/163",
+        "patch": "https://github.com/libconfuse/libconfuse/commit/d73777c2c3566fb2647727bb56d9a2295b81669b"
+    },
+    "CVE-2022-43606": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1663",
+        "patch": "https://github.com/EIPStackGroup/OpENer/commit/58ee13c62ccf629cf5380f011de659085e86f149"
+    },
+    "CVE-2022-45866": {
+        "poc": "https://github.com/PierreLvx/qpress/pull/6",
+        "patch": "https://github.com/EvgeniyPatlan/qpress/commit/ddb312090ebd5794e81bc6fb1dfb4e79eda48761"
+    },
+    "CVE-2023-23108": {
+        "poc": "https://github.com/WhatTheFuzz/crasm-fuzz/tree/a020ad6ad99a72ca373f7dd1aab3a61a7c87fd66/bug-null-pointer",
+        "patch": "https://github.com/colinbourassa/crasm/commit/5471a9f991fa795a1e86568cf5b4433e6c169047"
+    },
+    "CVE-2023-23457": {
+        "poc": "https://github.com/upx/upx/issues/631",
+        "patch": "https://github.com/upx/upx/commit/779b648c5f6aa9b33f4728f79dd4d0efec0bf860"
+    },
+    "CVE-2023-24805": {
+        "poc": "https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-gpxc-v2m8-fr3x",
+        "patch": "https://github.com/OpenPrinting/cups-filters/commit/8f274035756c04efeb77eb654e9d4c4447287d65"
+    },
+    "CVE-2023-24808": {
+        "poc": "https://github.com/michaelrsweet/pdfio/security/advisories/GHSA-cjc4-x96x-fvgf",
+        "patch": "https://github.com/michaelrsweet/pdfio/commit/4f10021e7ee527c1aa24853e2947e38e154d9ccb"
+    },
+    "CVE-2023-25076": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1731",
+        "patch": "https://github.com/dlundquist/sniproxy/commit/f8d9a433fe22ab2fa15c00179048ab02ae23d583"
+    },
+    "CVE-2023-26123": {
+        "poc": "https://security.snyk.io/vuln/SNYK-UNMANAGED-RAYSAN5RAYLIB-5421188",
+        "patch": "https://github.com/raysan5/raylib/commit/b436c8d7e5346a241b00511a11585936895d959d"
+    },
+    "CVE-2023-27395": {
+        "poc": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1735",
+        "patch": "https://github.com/SoftEtherVPN/SoftEtherVPN/commit/b8e542105f748b88e518a969c2189eca2e92f7dd"
+    },
+    "CVE-2023-27478": {
+        "poc": "https://github.com/php-memcached-dev/php-memcached/issues/531",
+        "patch": "https://github.com/awesomized/libmemcached/commit/48dcc61a"
+    },
+    "CVE-2023-27784": {
+        "poc": "https://github.com/appneta/tcpreplay/issues/787",
+        "patch": "https://github.com/appneta/tcpreplay/commit/df18c48812462ea802d639d2477887055666ee58"
+    },
+    "CVE-2023-27785": {
+        "poc": "https://github.com/appneta/tcpreplay/issues/785",
+        "patch": "https://github.com/appneta/tcpreplay/commit/df18c48812462ea802d639d2477887055666ee58"
+    },
+    "CVE-2023-27786": {
+        "poc": "https://github.com/appneta/tcpreplay/issues/782",
+        "patch": "https://github.com/appneta/tcpreplay/commit/df18c48812462ea802d639d2477887055666ee58"
+    },
+    "CVE-2023-27787": {
+        "poc": "https://github.com/appneta/tcpreplay/issues/788",
+        "patch": "https://github.com/appneta/tcpreplay/commit/df18c48812462ea802d639d2477887055666ee58"
+    },
+    "CVE-2023-27789": {
+        "poc": "https://github.com/appneta/tcpreplay/issues/784",
+        "patch": "https://github.com/appneta/tcpreplay/commit/df18c48812462ea802d639d2477887055666ee58"
+    },
+    "CVE-2023-29418": {
+        "poc": "https://github.com/kspalaiologos/bzip3/issues/92",
+        "patch": "https://github.com/kspalaiologos/bzip3/commit/aae16d107f804f69000c09cd92027a140968cc9d"
+    },
+    "CVE-2023-29994": {
+        "poc": "https://github.com/emqx/nanomq/issues/1042",
+        "patch": "https://github.com/nanomq/NanoNNG/commit/0e215b8d3de29dcec8b02ee9196ca3bfd5a8c653"
+    },
+    "CVE-2023-29995": {
+        "poc": "https://github.com/emqx/nanomq/issues/1043",
+        "patch": "https://github.com/nanomq/NanoNNG/commit/4d269e68c19967b1da8c3e85b0f6485ce69b1be2"
+    },
+    "CVE-2023-31556": {
+        "poc": "https://github.com/podofo/podofo/issues/66",
+        "patch": "https://github.com/podofo/podofo/commit/8d3e9104ea10f8b53a0b5a2a806e6388acd41a40"
+    },
+    "CVE-2023-32233": {
+        "poc": "https://github.com/Liuk3r/CVE-2023-32233",
+        "patch": "https://github.com/torvalds/linux/commit/c1592a89942e9678f7d9c8030efa777c0d57edab"
+    },
+    "CVE-2023-33457": {
+        "poc": "https://github.com/sogou/workflow/issues/1272",
+        "patch": "https://github.com/sogou/workflow/commit/a1b83adfd0174e8d9fd5e67092f41b4bcade14ce"
+    },
+    "CVE-2023-33658": {
+        "poc": "https://github.com/emqx/nanomq/issues/1153",
+        "patch": "https://github.com/nanomq/NanoNNG/commit/657e6c81c474bdee0e6413483b990e90610030c1"
+    },
+    "CVE-2023-33717": {
+        "poc": "https://github.com/enzo1982/mp4v2/issues/37",
+        "patch": "https://github.com/enzo1982/mp4v2/commit/c724815a541b763455ff38922af96f652627bce6"
+    },
+    "CVE-2023-33718": {
+        "poc": "https://github.com/enzo1982/mp4v2/issues/37",
+        "patch": "https://github.com/enzo1982/mp4v2/commit/c724815a541b763455ff38922af96f652627bce6"
+    },
+    "CVE-2023-33719": {
+        "poc": "https://github.com/enzo1982/mp4v2/issues/37",
+        "patch": "https://github.com/enzo1982/mp4v2/commit/c724815a541b763455ff38922af96f652627bce6"
+    },
+    "CVE-2023-33720": {
+        "poc": "https://github.com/enzo1982/mp4v2/issues/36",
+        "patch": "https://github.com/enzo1982/mp4v2/commit/0f97a87685c8fcf9d7b9b21167265b21b1c34cc5"
+    },
+    "CVE-2023-34823": {
+        "poc": "https://github.com/nu774/fdkaac/issues/55",
+        "patch": "https://github.com/nu774/fdkaac/commit/22dbf72491541aa854835fdf2a9a0d92532728d8"
+    },
+    "CVE-2023-36193": {
+        "poc": "https://github.com/kohler/gifsicle/issues/191",
+        "patch": "https://github.com/kohler/gifsicle/commit/e21a05a00855b3e647302f06683aca743ae08deb"
+    },
+    "CVE-2023-37187": {
+        "poc": "https://github.com/Blosc/c-blosc2/issues/520",
+        "patch": "https://github.com/Blosc/c-blosc2/commit/425e8a9a59d49378d57e2116b6c9b0190a5986f5"
+    },
+    "CVE-2023-39355": {
+        "poc": "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-hvwj-vmg6-2f5h",
+        "patch": "https://github.com/FreeRDP/FreeRDP/commit/d6f9d33a7db0b346195b6a15b5b99944ba41beee"
+    },
+    "CVE-2023-40187": {
+        "poc": "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-pwf9-v5p9-ch4f",
+        "patch": "https://github.com/FreeRDP/FreeRDP/commit/ab31e8ba6ab3b4dd0183929cfb00bd5e797c402c"
+    },
+    "CVE-2023-42299": {
+        "poc": "https://github.com/OpenImageIO/oiio/issues/3840",
+        "patch": "https://github.com/AcademySoftwareFoundation/OpenImageIO/commit/5ff2c56dd28e96f67ed8f80d8a3d1235e51f9957"
+    },
+    "CVE-2023-48105": {
+        "poc": "https://github.com/bytecodealliance/wasm-micro-runtime/issues/2726",
+        "patch": "https://github.com/bytecodealliance/wasm-micro-runtime/commit/7f8292ffd12b0881ce7b9797a9075da09c849cae"
+    },
+    "CVE-2023-51713": {
+        "poc": "https://github.com/proftpd/proftpd/issues/1683",
+        "patch": "https://github.com/proftpd/proftpd/commit/97bbe68363ccf2de0c07f67170ec64a8b4d62592"
+    },
+    "CVE-2023-52284": {
+        "poc": "https://github.com/bytecodealliance/wasm-micro-runtime/issues/2586",
+        "patch": "https://github.com/bytecodealliance/wasm-micro-runtime/commit/6382162711a9cfaedc63de9065b0bc6eda8123f3"
+    },
+    "CVE-2024-21640": {
+        "poc": "https://github.com/chromiumembedded/cef/security/advisories/GHSA-3h3j-38xq-v7hh",
+        "patch": "https://github.com/chromiumembedded/cef/commit/1f55d2e12f62cfdfbf9da6968fde2f928982670b"
+    },
+    "CVE-2024-40130": {
+        "poc": "https://github.com/open5gs/open5gs/issues/2577",
+        "patch": "https://github.com/open5gs/open5gs/commit/2f8ae91b0b9467f94f128090c88cae91bd73e008"
+    },
+    "CVE-2021-43784": {
+        "poc": "https://bugs.chromium.org/p/project-zero/issues/detail?id=2241",
+        "patch": "https://github.com/opencontainers/runc/commit/9c444070ec7bb83995dbc0185da68284da71c554"
+    },
+    "CVE-2021-42341": {
+        "poc": "https://github.com/OpenRC/openrc/issues/459",
+        "patch": "https://github.com/OpenRC/openrc/commit/63db2d99e730547339d1bdd28e8437999c380cae"
+    },
+    "CVE-2022-42898": {
+        "poc": "https://bugzilla.samba.org/show_bug.cgi?id=15203",
+        "patch": "https://github.com/krb5/krb5/commit/ea92d2f0fcceb54a70910fa32e9a0d7a5afc3583"
+    },
+    "CVE-2021-22543": {
+        "poc": "https://github.com/google/security-research/security/advisories/GHSA-7wq5-phmq-m584",
+        "patch": "https://github.com/torvalds/linux/commit/f8be156be163a052a067306417cd0ff679068c97"
+    },
+    "CVE-2021-29536": {
+        "poc": "https://github.com/tensorflow/tensorflow/security/advisories/GHSA-2gfx-95x2-5v3x",
+        "patch": "https://github.com/tensorflow/tensorflow/commit/a324ac84e573fba362a5e53d4e74d5de6729933e"
+    },
+    "CVE-2020-23932": {
+        "poc": "https://github.com/gpac/gpac/issues/1566",
+        "patch": "https://github.com/gpac/gpac/commit/ce01bd15f711d4575b7424b54b3a395ec64c1784"
+    },
+    "CVE-2020-12268": {
+        "poc": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=20332",
+        "patch": "https://github.com/ArtifexSoftware/jbig2dec/commit/0726320a4b55078e9d8deb590e477d598b3da66e"
+    },
+    "CVE-2022-0318": {
+        "poc": "https://huntr.dev/bounties/0d10ba02-b138-4e68-a284-67f781a62d08",
+        "patch": "https://github.com/vim/vim/commit/57df9e8a9f9ae1aafdde9b86b10ad907627a87dc"
+    }
+}

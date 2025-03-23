@@ -1,0 +1,61 @@
+{
+    "testcase": {
+        "file41": {
+            "match_message": {
+                "Same: luaV_concat -> luaV_concat": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 534->493",
+                        "L2": "5: Matched by Syntax(AST) similarity 534->493"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 535 -> 494",
+                        "L2": "3: Unique Matched by Source code 536 -> 495"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 493,
+                        "add_hunk": [
+                            "if (l >= (MAX_SIZE/sizeof(char)) - tl)\n",
+                            "\t{\n",
+                            "          L->top = top - total;"
+                        ],
+                        "delete_location": [
+                            493,
+                            493
+                        ],
+                        "delete_hunk": [
+                            "        if (l >= (MAX_SIZE/sizeof(char)) - tl)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 494,
+                        "add_hunk": [
+                            "        }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: luaV_concat -> luaV_concat": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

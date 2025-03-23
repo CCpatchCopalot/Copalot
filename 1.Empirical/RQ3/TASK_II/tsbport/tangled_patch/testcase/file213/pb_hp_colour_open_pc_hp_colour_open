@@ -1,0 +1,114 @@
+operator: .  @ 42 @ operator: .  @ 10 @ 
+argument  @ 42 @ argument  @ 11 @ 
+operator: <  @ 44 @ operator: <  @ 22 @ 
+name: retCode  @ 42 @ name: code  @ 10 @ 
+name: cdj_set_bpp  @ 42 @ name: cdj_set_bpp  @ 10 @ 
+name: true  @ 50 @ name: true  @ 21 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+argument_list  @ 42 @ argument_list  @ 10 @ 
+comment: /* Set up colour params if put_params has not already done so */  @ 40 @ comment: /* Set up colour params if put_params has not already done so */  @ 8 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+literal: 0  @ 16 @ literal: 0  @ 6 @ 
+name: color_info  @ 42 @ name: color_info  @ 10 @ 
+expr  @ 50 @ expr  @ 21 @ 
+block_content  @ 50 @ block_content  @ 21 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+literal: 0  @ 49 @ literal: 0  @ 18 @ 
+name: depth  @ 42 @ name: depth  @ 10 @ 
+expr  @ 44 @ expr  @ 22 @ 
+operator: ->  @ 16 @ operator: ->  @ 6 @ 
+name: gx_device  @ 2 @ name: gx_device  @ 2 @ 
+name: retCode  @ 48 @ name: retCode  @ 17 @ 
+block_content  @ 42 @ block_content  @ 10 @ 
+expr  @ 45 @ expr  @ 14 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 21 @ 
+expr  @ 41 @ expr  @ 9 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+expr  @ 49 @ expr  @ 18 @ 
+name: cdj970  @ 16 @ name: cdj970  @ 6 @ 
+condition  @ 49 @ condition  @ 18 @ 
+operator: =  @ 16 @ operator: =  @ 6 @ 
+expr  @ 16 @ expr  @ 6 @ 
+block  @ 41 @ block  @ 9 @ 
+decl  @ 4 @ decl  @ 4 @ 
+block_content  @ 45 @ block_content  @ 14 @ 
+block  @ 49 @ block  @ 20 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+if_stmt  @ 44 @ if_stmt  @ 13 @ 
+name: color_info  @ 41 @ name: color_info  @ 9 @ 
+block  @ 3 @ block  @ 3 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 17 @ 
+expr  @ 50 @ expr  @ 21 @ 
+return  @ 45 @ return  @ 14 @ 
+type  @ 2 @ type  @ 2 @ 
+name: pdev  @ 42 @ name: pdev  @ 11 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 6 @ 
+expr  @ 42 @ expr  @ 10 @ 
+name  @ 42 @ name  @ 10 @ 
+name: pdev  @ 48 @ name: pdev  @ 17 @ 
+argument  @ 50 @ argument  @ 21 @ 
+expr  @ 53 @ expr  @ 26 @ 
+block  @ 45 @ block  @ 14 @ 
+condition  @ 41 @ condition  @ 9 @ 
+argument  @ 48 @ argument  @ 17 @ 
+unit  @ 1 @ unit  @ 1 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: retCode  @ 45 @ name: code  @ 14 @ 
+argument  @ 50 @ argument  @ 21 @ 
+expr  @ 42 @ expr  @ 10 @ 
+name: PageCtr  @ 16 @ name: PageCtr  @ 6 @ 
+name: pdev  @ 42 @ name: pdev  @ 10 @ 
+operator: ->  @ 41 @ operator: ->  @ 9 @ 
+name: retCode  @ 50 @ name: retCode  @ 21 @ 
+literal: 0  @ 53 @ literal: 0  @ 26 @ 
+name: gdev_prn_open_printer  @ 50 @ name: gdev_prn_open_printer  @ 21 @ 
+name: color_info  @ 42 @ name: color_info  @ 11 @ 
+name: pdev  @ 2 @ name: pdev  @ 2 @ 
+name: num_components  @ 42 @ name: num_components  @ 11 @ 
+if_stmt  @ 41 @ if_stmt  @ 9 @ 
+name: hp_colour_open  @ 2 @ name: hp_colour_open  @ 2 @ 
+name: pdev  @ 42 @ name: pdev  @ 10 @ 
+expr  @ 48 @ expr  @ 17 @ 
+operator: .  @ 41 @ operator: .  @ 9 @ 
+argument  @ 42 @ argument  @ 10 @ 
+condition  @ 44 @ condition  @ 22 @ 
+operator: >=  @ 49 @ operator: <  @ 18 @ 
+name: gdev_prn_open  @ 48 @ name: gdev_prn_open  @ 17 @ 
+argument_list  @ 48 @ argument_list  @ 17 @ 
+operator: ==  @ 41 @ operator: ==  @ 9 @ 
+expr  @ 42 @ expr  @ 11 @ 
+if_stmt  @ 49 @ if_stmt  @ 18 @ 
+name: num_components  @ 41 @ name: num_components  @ 9 @ 
+name  @ 41 @ name  @ 9 @ 
+name: pdev  @ 50 @ name: pdev  @ 21 @ 
+operator: =  @ 48 @ operator: =  @ 17 @ 
+name: retCode  @ 44 @ name: retCode  @ 22 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: .  @ 42 @ operator: .  @ 11 @ 
+return  @ 53 @ return  @ 26 @ 
+expr  @ 50 @ expr  @ 21 @ 
+name: int  @ 4 @ name: int  @ 4 @ 
+argument_list  @ 50 @ argument_list  @ 21 @ 
+if  @ 41 @ if  @ 9 @ 
+literal: 0  @ 41 @ literal: 0  @ 9 @ 
+operator: =  @ 50 @ operator: =  @ 21 @ 
+if  @ 44 @ if  @ 13 @ 
+name: retCode  @ 4 @ name: retCode  @ 4 @ 
+argument  @ 42 @ argument  @ 10 @ 
+name  @ 16 @ name  @ 6 @ 
+operator: ->  @ 42 @ operator: ->  @ 11 @ 
+call  @ 50 @ call  @ 21 @ 
+name: pdev  @ 41 @ name: pdev  @ 9 @ 
+type  @ 4 @ type  @ 4 @ 
+decl  @ 2 @ decl  @ 2 @ 
+call  @ 48 @ call  @ 17 @ 
+name  @ 42 @ name  @ 11 @ 
+name: retCode  @ 49 @ name: retCode  @ 18 @ 
+expr  @ 48 @ expr  @ 17 @ 
+call  @ 42 @ call  @ 10 @ 
+expr  @ 42 @ expr  @ 10 @ 
+operator: ->  @ 42 @ operator: ->  @ 10 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+literal: 0  @ 44 @ literal: 0  @ 22 @ 
+

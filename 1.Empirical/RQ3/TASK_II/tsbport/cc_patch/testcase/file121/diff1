@@ -1,0 +1,8 @@
+400a401
+> yylen=len;
+404d404
+< 	yylen=len;
+1052c1052
+< 			if(tok==T_STRING)
+---
+> 			if (tok!= T_END && tok != T_EOF)

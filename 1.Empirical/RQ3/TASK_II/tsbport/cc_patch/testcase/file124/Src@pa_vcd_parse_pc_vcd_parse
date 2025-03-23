@@ -1,0 +1,752 @@
+static void vcd_parse(void)
+{
+int tok;
+unsigned char ttype;
+int disable_autocoalesce = 0;
+
+for(;;)
+	{
+	switch(get_token())
+		{
+		case T_COMMENT:
+			sync_end("COMMENT:");
+			break;
+		case T_DATE:
+			sync_end("DATE:");
+			break;
+		case T_VERSION:
+			disable_autocoalesce = version_sync_end("VERSION:");
+			break;
+		case T_TIMEZERO:
+			{
+			int vtok=get_token();
+			if((vtok==T_END)||(vtok==T_EOF)) break;
+			GLOBALS->global_time_offset=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+
+			DEBUG(fprintf(stderr,"TIMEZERO: "TTFormat"\n",GLOBALS->global_time_offset));
+			sync_end(NULL);
+			}
+			break;
+		case T_TIMESCALE:
+			{
+			int vtok;
+			int i;
+			char prefix=' ';
+
+			vtok=get_token();
+			if((vtok==T_END)||(vtok==T_EOF)) break;
+			fractional_timescale_fix(GLOBALS->yytext_vcd_recoder_c_3);
+			GLOBALS->time_scale=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+			if(!GLOBALS->time_scale) GLOBALS->time_scale=1;
+			for(i=0;i<GLOBALS->yylen_vcd_recoder_c_3;i++)
+				{
+				if((GLOBALS->yytext_vcd_recoder_c_3[i]<'0')||(GLOBALS->yytext_vcd_recoder_c_3[i]>'9'))
+					{
+					prefix=GLOBALS->yytext_vcd_recoder_c_3[i];
+					break;
+					}
+				}
+			if(prefix==' ')
+				{
+				vtok=get_token();
+				if((vtok==T_END)||(vtok==T_EOF)) break;
+				prefix=GLOBALS->yytext_vcd_recoder_c_3[0];
+				}
+			switch(prefix)
+				{
+				case ' ':
+				case 'm':
+				case 'u':
+				case 'n':
+				case 'p':
+				case 'f':
+				case 'a':
+				case 'z':
+					GLOBALS->time_dimension=prefix;
+					break;
+				case 's':
+					GLOBALS->time_dimension=' ';
+					break;
+				default:	/* unknown */
+					GLOBALS->time_dimension='n';
+					break;
+				}
+
+			DEBUG(fprintf(stderr,"TIMESCALE: "TTFormat" %cs\n",GLOBALS->time_scale, GLOBALS->time_dimension));
+			sync_end(NULL);
+			}
+			break;
+		case T_SCOPE:
+			T_GET;
+				{
+				switch(GLOBALS->yytext_vcd_recoder_c_3[0])
+					{
+					case 'm':	ttype = TREE_VCD_ST_MODULE; break;
+					case 't':	ttype = TREE_VCD_ST_TASK; break;
+					case 'f':	ttype = (GLOBALS->yytext_vcd_recoder_c_3[1] == 'u') ? TREE_VCD_ST_FUNCTION : TREE_VCD_ST_FORK; break;
+					case 'b':	ttype = TREE_VCD_ST_BEGIN; break;
+					case 'g':       ttype = TREE_VCD_ST_GENERATE; break;
+					case 's':       ttype = TREE_VCD_ST_STRUCT; break;
+					case 'u':       ttype = TREE_VCD_ST_UNION; break;
+					case 'c':       ttype = TREE_VCD_ST_CLASS; break;
+					case 'i':       ttype = TREE_VCD_ST_INTERFACE; break;
+					case 'p':       ttype = (GLOBALS->yytext_vcd_recoder_c_3[1] == 'r') ? TREE_VCD_ST_PROGRAM : TREE_VCD_ST_PACKAGE; break;
+
+					case 'v':	{
+							char *vht = GLOBALS->yytext_vcd_recoder_c_3;
+				                       	if(!strncmp(vht, "vhdl_", 5))
+                                				{
+				                                switch(vht[5])
+				                                        {
+				                                        case 'a':       ttype = TREE_VHDL_ST_ARCHITECTURE; break;
+				                                        case 'r':       ttype = TREE_VHDL_ST_RECORD; break;
+				                                        case 'b':       ttype = TREE_VHDL_ST_BLOCK; break;
+				                                        case 'g':       ttype = TREE_VHDL_ST_GENERATE; break;
+				                                        case 'i':       ttype = TREE_VHDL_ST_GENIF; break;
+				                                        case 'f':       ttype = (vht[6] == 'u') ? TREE_VHDL_ST_FUNCTION : TREE_VHDL_ST_GENFOR; break;
+				                                        case 'p':       ttype = (!strncmp(vht+6, "roces", 5)) ? TREE_VHDL_ST_PROCESS: TREE_VHDL_ST_PROCEDURE; break;
+				                                        default:        ttype = TREE_UNKNOWN; break;
+				                                        }
+								}
+								else
+								{
+								ttype = TREE_UNKNOWN;
+								}
+                                			}
+							break;
+
+					default:	ttype = TREE_UNKNOWN;
+							break;
+					}
+				}
+			T_GET;
+			if(tok==T_STRING)
+				{
+				struct slist *s;
+				s=(struct slist *)calloc_2(1,sizeof(struct slist));
+				s->len=GLOBALS->yylen_vcd_recoder_c_3;
+				s->str=(char *)malloc_2(GLOBALS->yylen_vcd_recoder_c_3+1);
+				strcpy(s->str, GLOBALS->yytext_vcd_recoder_c_3);
+				s->mod_tree_parent = GLOBALS->mod_tree_parent;
+
+				allocate_and_decorate_module_tree_node(ttype, GLOBALS->yytext_vcd_recoder_c_3, NULL, GLOBALS->yylen_vcd_recoder_c_3, 0, 0, 0);
+
+				if(GLOBALS->slistcurr)
+					{
+					GLOBALS->slistcurr->next=s;
+					GLOBALS->slistcurr=s;
+					}
+					else
+					{
+					GLOBALS->slistcurr=GLOBALS->slistroot=s;
+					}
+
+				build_slisthier();
+				DEBUG(fprintf(stderr, "SCOPE: %s\n",GLOBALS->slisthier));
+				}
+			sync_end(NULL);
+			break;
+		case T_UPSCOPE:
+			if(GLOBALS->slistroot)
+				{
+				struct slist *s;
+
+				GLOBALS->mod_tree_parent = GLOBALS->slistcurr->mod_tree_parent;
+				s=GLOBALS->slistroot;
+				if(!s->next)
+					{
+					free_2(s->str);
+					free_2(s);
+					GLOBALS->slistroot=GLOBALS->slistcurr=NULL;
+					}
+				else
+				for(;;)
+					{
+					if(!s->next->next)
+						{
+						free_2(s->next->str);
+						free_2(s->next);
+						s->next=NULL;
+						GLOBALS->slistcurr=s;
+						break;
+						}
+					s=s->next;
+					}
+				build_slisthier();
+				DEBUG(fprintf(stderr, "SCOPE: %s\n",GLOBALS->slisthier));
+				}
+				else
+				{
+				GLOBALS->mod_tree_parent = NULL;
+				}
+			sync_end(NULL);
+			break;
+		case T_VAR:
+			if((GLOBALS->header_over_vcd_recoder_c_3)&&(0))
+			{
+			fprintf(stderr,"$VAR encountered after $ENDDEFINITIONS near byte %d.VCD is malformed, exiting.\n",(int)(GLOBALS->vcdbyteno_vcd_recoder_c_3+(GLOBALS->vst_vcd_recoder_c_3-GLOBALS->vcdbuf_vcd_recoder_c_3)));
+			vcd_exit(255);
+			}
+			else
+			{
+			int vtok;
+			struct vcdsymbol *v=NULL;
+
+			GLOBALS->var_prevch_vcd_recoder_c_3=0;
+                        if(GLOBALS->varsplit_vcd_recoder_c_3)
+                                {
+                                free_2(GLOBALS->varsplit_vcd_recoder_c_3);
+                                GLOBALS->varsplit_vcd_recoder_c_3=NULL;
+                                }
+			vtok=get_vartoken(1);
+			if(vtok>V_STRINGTYPE) goto bail;
+
+			v=(struct vcdsymbol *)calloc_2(1,sizeof(struct vcdsymbol));
+			v->vartype=vtok;
+			v->msi=v->lsi=GLOBALS->vcd_explicit_zero_subscripts; /* indicate [un]subscripted status */
+
+			if(vtok==V_PORT)
+				{
+				vtok=get_vartoken(1);
+				if(vtok==V_STRING)
+					{
+					v->size=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+					if(!v->size) v->size=1;
+					}
+					else
+					if(vtok==V_LB)
+					{
+					vtok=get_vartoken(1);
+					if(vtok==V_END) goto err;
+					if(vtok!=V_STRING) goto err;
+					v->msi=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+					vtok=get_vartoken(0);
+					if(vtok==V_RB)
+						{
+						v->lsi=v->msi;
+						v->size=1;
+						}
+						else
+						{
+						if(vtok!=V_COLON) goto err;
+						vtok=get_vartoken(0);
+						if(vtok!=V_STRING) goto err;
+						v->lsi=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+						vtok=get_vartoken(0);
+						if(vtok!=V_RB) goto err;
+
+						if(v->msi>v->lsi)
+							{
+							v->size=v->msi-v->lsi+1;
+							}
+							else
+							{
+							v->size=v->lsi-v->msi+1;
+							}
+						}
+					}
+					else goto err;
+
+				vtok=get_strtoken();
+				if(vtok==V_END) goto err;
+				v->id=(char *)malloc_2(GLOBALS->yylen_vcd_recoder_c_3+1);
+				strcpy(v->id, GLOBALS->yytext_vcd_recoder_c_3);
+                                v->nid=vcdid_hash(GLOBALS->yytext_vcd_recoder_c_3,GLOBALS->yylen_vcd_recoder_c_3);
+
+		                if(v->nid == (GLOBALS->vcd_hash_max+1))
+                		        {
+		                        GLOBALS->vcd_hash_max = v->nid;
+		                        }
+		                else
+		                if((v->nid>0)&&(v->nid<=GLOBALS->vcd_hash_max))
+		                        {
+		                        /* general case with aliases */
+		                        }
+		                else
+		                        {
+		                        GLOBALS->vcd_hash_kill = 1;
+		                        }
+
+                                if(v->nid < GLOBALS->vcd_minid_vcd_recoder_c_3) GLOBALS->vcd_minid_vcd_recoder_c_3 = v->nid;
+                                if(v->nid > GLOBALS->vcd_maxid_vcd_recoder_c_3) GLOBALS->vcd_maxid_vcd_recoder_c_3 = v->nid;
+
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+				if(GLOBALS->slisthier_len)
+					{
+					v->name=(char *)malloc_2(GLOBALS->slisthier_len+1+GLOBALS->yylen_vcd_recoder_c_3+1);
+					strcpy(v->name,GLOBALS->slisthier);
+					strcpy(v->name+GLOBALS->slisthier_len,GLOBALS->vcd_hier_delimeter);
+					if(GLOBALS->alt_hier_delimeter)
+						{
+						strcpy_vcdalt(v->name+GLOBALS->slisthier_len+1,GLOBALS->yytext_vcd_recoder_c_3,GLOBALS->alt_hier_delimeter);
+						}
+						else
+						{
+						if((strcpy_delimfix(v->name+GLOBALS->slisthier_len+1,GLOBALS->yytext_vcd_recoder_c_3)) && (GLOBALS->yytext_vcd_recoder_c_3[0] != '\\'))
+							{
+							char *sd=(char *)malloc_2(GLOBALS->slisthier_len+1+GLOBALS->yylen_vcd_recoder_c_3+2);
+							strcpy(sd,GLOBALS->slisthier);
+							strcpy(sd+GLOBALS->slisthier_len,GLOBALS->vcd_hier_delimeter);
+							sd[GLOBALS->slisthier_len+1] = '\\';
+							strcpy(sd+GLOBALS->slisthier_len+2,v->name+GLOBALS->slisthier_len+1);
+							free_2(v->name);
+							v->name = sd;
+							}
+						}
+					}
+					else
+					{
+					v->name=(char *)malloc_2(GLOBALS->yylen_vcd_recoder_c_3+1);
+					if(GLOBALS->alt_hier_delimeter)
+						{
+						strcpy_vcdalt(v->name,GLOBALS->yytext_vcd_recoder_c_3,GLOBALS->alt_hier_delimeter);
+						}
+						else
+						{
+						if((strcpy_delimfix(v->name,GLOBALS->yytext_vcd_recoder_c_3)) && (GLOBALS->yytext_vcd_recoder_c_3[0] != '\\'))
+							{
+							char *sd=(char *)malloc_2(GLOBALS->yylen_vcd_recoder_c_3+2);
+							sd[0] = '\\';
+							strcpy(sd+1,v->name);
+							free_2(v->name);
+							v->name = sd;
+							}
+						}
+					}
+
+                                if(GLOBALS->pv_vcd_recoder_c_3)
+                                        {
+                                        if(!strcmp(GLOBALS->prev_hier_uncompressed_name,v->name) && !disable_autocoalesce && (!strchr(v->name, '\\')))
+                                                {
+                                                GLOBALS->pv_vcd_recoder_c_3->chain=v;
+                                                v->root=GLOBALS->rootv_vcd_recoder_c_3;
+                                                if(GLOBALS->pv_vcd_recoder_c_3==GLOBALS->rootv_vcd_recoder_c_3) GLOBALS->pv_vcd_recoder_c_3->root=GLOBALS->rootv_vcd_recoder_c_3;
+                                                }
+                                                else
+                                                {
+                                                GLOBALS->rootv_vcd_recoder_c_3=v;
+                                                }
+
+					free_2(GLOBALS->prev_hier_uncompressed_name);
+                                        }
+					else
+					{
+					GLOBALS->rootv_vcd_recoder_c_3=v;
+					}
+
+                                GLOBALS->pv_vcd_recoder_c_3=v;
+				GLOBALS->prev_hier_uncompressed_name = strdup_2(v->name);
+				}
+				else	/* regular vcd var, not an evcd port var */
+				{
+				vtok=get_vartoken(1);
+				if(vtok==V_END) goto err;
+				v->size=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+				vtok=get_strtoken();
+				if(vtok==V_END) goto err;
+				v->id=(char *)malloc_2(GLOBALS->yylen_vcd_recoder_c_3+1);
+				strcpy(v->id, GLOBALS->yytext_vcd_recoder_c_3);
+                                v->nid=vcdid_hash(GLOBALS->yytext_vcd_recoder_c_3,GLOBALS->yylen_vcd_recoder_c_3);
+
+                                if(v->nid == (GLOBALS->vcd_hash_max+1))
+                                        {
+                                        GLOBALS->vcd_hash_max = v->nid;
+                                        }
+                                else
+                                if((v->nid>0)&&(v->nid<=GLOBALS->vcd_hash_max))
+                                        {
+                                        /* general case with aliases */
+                                        }
+                                else
+                                        {
+                                        GLOBALS->vcd_hash_kill = 1;
+                                        }
+
+                                if(v->nid < GLOBALS->vcd_minid_vcd_recoder_c_3) GLOBALS->vcd_minid_vcd_recoder_c_3 = v->nid;
+                                if(v->nid > GLOBALS->vcd_maxid_vcd_recoder_c_3) GLOBALS->vcd_maxid_vcd_recoder_c_3 = v->nid;
+
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+
+				if(GLOBALS->slisthier_len)
+					{
+					v->name=(char *)malloc_2(GLOBALS->slisthier_len+1+GLOBALS->yylen_vcd_recoder_c_3+1);
+					strcpy(v->name,GLOBALS->slisthier);
+					strcpy(v->name+GLOBALS->slisthier_len,GLOBALS->vcd_hier_delimeter);
+					if(GLOBALS->alt_hier_delimeter)
+						{
+						strcpy_vcdalt(v->name+GLOBALS->slisthier_len+1,GLOBALS->yytext_vcd_recoder_c_3,GLOBALS->alt_hier_delimeter);
+						}
+						else
+						{
+						if((strcpy_delimfix(v->name+GLOBALS->slisthier_len+1,GLOBALS->yytext_vcd_recoder_c_3)) && (GLOBALS->yytext_vcd_recoder_c_3[0] != '\\'))
+							{
+                                                        char *sd=(char *)malloc_2(GLOBALS->slisthier_len+1+GLOBALS->yylen_vcd_recoder_c_3+2);
+                                                        strcpy(sd,GLOBALS->slisthier);
+                                                        strcpy(sd+GLOBALS->slisthier_len,GLOBALS->vcd_hier_delimeter);
+                                                        sd[GLOBALS->slisthier_len+1] = '\\';
+                                                        strcpy(sd+GLOBALS->slisthier_len+2,v->name+GLOBALS->slisthier_len+1);
+                                                        free_2(v->name);
+                                                        v->name = sd;
+							}
+						}
+					}
+					else
+					{
+					v->name=(char *)malloc_2(GLOBALS->yylen_vcd_recoder_c_3+1);
+					if(GLOBALS->alt_hier_delimeter)
+						{
+						strcpy_vcdalt(v->name,GLOBALS->yytext_vcd_recoder_c_3,GLOBALS->alt_hier_delimeter);
+						}
+						else
+						{
+                                                if((strcpy_delimfix(v->name,GLOBALS->yytext_vcd_recoder_c_3)) && (GLOBALS->yytext_vcd_recoder_c_3[0] != '\\'))
+                                                        {
+                                                        char *sd=(char *)malloc_2(GLOBALS->yylen_vcd_recoder_c_3+2);
+                                                        sd[0] = '\\';
+                                                        strcpy(sd+1,v->name);
+                                                        free_2(v->name);
+                                                        v->name = sd;
+                                                        }
+						}
+					}
+
+                                if(GLOBALS->pv_vcd_recoder_c_3)
+                                        {
+                                        if(!strcmp(GLOBALS->prev_hier_uncompressed_name,v->name))
+                                                {
+                                                GLOBALS->pv_vcd_recoder_c_3->chain=v;
+                                                v->root=GLOBALS->rootv_vcd_recoder_c_3;
+                                                if(GLOBALS->pv_vcd_recoder_c_3==GLOBALS->rootv_vcd_recoder_c_3) GLOBALS->pv_vcd_recoder_c_3->root=GLOBALS->rootv_vcd_recoder_c_3;
+                                                }
+                                                else
+                                                {
+                                                GLOBALS->rootv_vcd_recoder_c_3=v;
+                                                }
+
+					free_2(GLOBALS->prev_hier_uncompressed_name);
+                                        }
+					else
+					{
+					GLOBALS->rootv_vcd_recoder_c_3=v;
+					}
+                                GLOBALS->pv_vcd_recoder_c_3=v;
+				GLOBALS->prev_hier_uncompressed_name = strdup_2(v->name);
+
+				vtok=get_vartoken(1);
+				if(vtok==V_END) goto dumpv;
+				if(vtok!=V_LB) goto err;
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+				v->msi=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+				vtok=get_vartoken(0);
+				if(vtok==V_RB)
+					{
+					v->lsi=v->msi;
+					goto dumpv;
+					}
+				if(vtok!=V_COLON) goto err;
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+				v->lsi=atoi_64(GLOBALS->yytext_vcd_recoder_c_3);
+				vtok=get_vartoken(0);
+				if(vtok!=V_RB) goto err;
+				}
+
+			dumpv:
+			if(v->size == 0)
+				{
+				if(v->vartype != V_EVENT)
+					{
+					if(v->vartype != V_STRINGTYPE)
+						{
+						v->vartype = V_REAL;
+						}
+					}
+					else
+					{
+					v->size = 1;
+					}
+
+				} /* MTI fix */
+
+
+			if((v->vartype==V_REAL)||(v->vartype==V_STRINGTYPE))
+				{
+				v->size=1;		/* override any data we parsed in */
+				v->msi=v->lsi=0;
+				}
+			else
+			if((v->size>1)&&(v->msi<=0)&&(v->lsi<=0))
+				{
+				if(v->vartype==V_EVENT)
+					{
+					v->size=1;
+					}
+					else
+					{
+					/* any criteria for the direction here? */
+					v->msi=v->size-1;
+					v->lsi=0;
+					}
+				}
+			else
+			if((v->msi>v->lsi)&&((v->msi-v->lsi+1)!=v->size))
+				{
+				if((v->vartype!=V_EVENT)&&(v->vartype!=V_PARAMETER))
+					{
+					if((v->msi-v->lsi+1) > v->size) /* if() is 2d add */
+						{
+						v->msi = v->size-1; v->lsi = 0;
+						}
+					/* all this formerly was goto err; */
+					}
+					else
+					{
+					v->size=v->msi-v->lsi+1;
+					}
+				}
+			else
+			if((v->lsi>=v->msi)&&((v->lsi-v->msi+1)!=v->size))
+				{
+				if((v->vartype!=V_EVENT)&&(v->vartype!=V_PARAMETER))
+					{
+					if((v->lsi-v->msi+1) > v->size) /* if() is 2d add */
+						{
+						v->lsi = v->size-1; v->msi = 0;
+						}
+					/* all this formerly was goto err; */
+					}
+					else
+					{
+					v->size=v->lsi-v->msi+1;
+					}
+				}
+
+			/* initial conditions */
+			v->narray=(struct Node **)calloc_2(1,sizeof(struct Node *));
+			v->narray[0]=(struct Node *)calloc_2(1,sizeof(struct Node));
+			v->narray[0]->head.time=-1;
+			v->narray[0]->head.v.h_val=AN_X;
+
+			if(!GLOBALS->vcdsymroot_vcd_recoder_c_3)
+				{
+				GLOBALS->vcdsymroot_vcd_recoder_c_3=GLOBALS->vcdsymcurr_vcd_recoder_c_3=v;
+				}
+				else
+				{
+				GLOBALS->vcdsymcurr_vcd_recoder_c_3->next=v;
+				GLOBALS->vcdsymcurr_vcd_recoder_c_3=v;
+				}
+			GLOBALS->numsyms_vcd_recoder_c_3++;
+
+			if(GLOBALS->vcd_save_handle)
+				{
+				if(v->msi==v->lsi)
+					{
+					if((v->vartype==V_REAL)||(v->vartype==V_STRINGTYPE))
+						{
+						fprintf(GLOBALS->vcd_save_handle,"%s\n",v->name);
+						}
+						else
+						{
+						if(v->msi>=0)
+							{
+							if(!GLOBALS->vcd_explicit_zero_subscripts)
+								fprintf(GLOBALS->vcd_save_handle,"%s%c%d\n",v->name,GLOBALS->hier_delimeter,v->msi);
+								else
+								fprintf(GLOBALS->vcd_save_handle,"%s[%d]\n",v->name,v->msi);
+							}
+							else
+							{
+							fprintf(GLOBALS->vcd_save_handle,"%s\n",v->name);
+							}
+						}
+					}
+					else
+					{
+					fprintf(GLOBALS->vcd_save_handle,"%s[%d:%d]\n",v->name,v->msi,v->lsi);
+					}
+				}
+
+			goto bail;
+			err:
+			if(v)
+				{
+				GLOBALS->error_count_vcd_recoder_c_3++;
+				if(v->name)
+					{
+					fprintf(stderr, "Near byte %d, $VAR parse error encountered with '%s'\n", (int)(GLOBALS->vcdbyteno_vcd_recoder_c_3+(GLOBALS->vst_vcd_recoder_c_3-GLOBALS->vcdbuf_vcd_recoder_c_3)), v->name);
+					free_2(v->name);
+					}
+					else
+					{
+					fprintf(stderr, "Near byte %d, $VAR parse error encountered\n", (int)(GLOBALS->vcdbyteno_vcd_recoder_c_3+(GLOBALS->vst_vcd_recoder_c_3-GLOBALS->vcdbuf_vcd_recoder_c_3)));
+					}
+				if(v->id) free_2(v->id);
+				free_2(v); v=NULL;
+				GLOBALS->pv_vcd_recoder_c_3 = NULL;
+				}
+
+			bail:
+			if(vtok!=V_END) sync_end(NULL);
+			break;
+			}
+		case T_ENDDEFINITIONS:
+			GLOBALS->header_over_vcd_recoder_c_3=1;	/* do symbol table management here */
+			create_sorted_table();
+			if((!GLOBALS->sorted_vcd_recoder_c_3)&&(!GLOBALS->indexed_vcd_recoder_c_3))
+				{
+				fprintf(stderr, "No symbols in VCD file..nothing to do!\n");
+				vcd_exit(255);
+				}
+			if(GLOBALS->error_count_vcd_recoder_c_3)
+				{
+				fprintf(stderr, "\n%d VCD parse errors encountered, exiting.\n", GLOBALS->error_count_vcd_recoder_c_3);
+				vcd_exit(255);
+				}
+
+			if(GLOBALS->use_fastload == VCD_FSL_READ)
+				{
+				read_fastload_body();
+				fprintf(stderr, "VCDLOAD | Using fastload file.\n");
+				return;
+				}
+
+			break;
+		case T_STRING:
+			if(!GLOBALS->header_over_vcd_recoder_c_3)
+				{
+				GLOBALS->header_over_vcd_recoder_c_3=1;	/* do symbol table management here */
+				create_sorted_table();
+				if((!GLOBALS->sorted_vcd_recoder_c_3)&&(!GLOBALS->indexed_vcd_recoder_c_3)) break;
+				}
+				{
+				/* catchall for events when header over */
+				if(GLOBALS->yytext_vcd_recoder_c_3[0]=='#')
+					{
+					TimeType tim;
+					TimeType *tt;
+
+					tim=atoi_64(GLOBALS->yytext_vcd_recoder_c_3+1);
+
+					if(GLOBALS->start_time_vcd_recoder_c_3<0)
+						{
+						GLOBALS->start_time_vcd_recoder_c_3=tim;
+
+						if(GLOBALS->time_vlist_vcd_recoder_write)
+							{
+							vlist_packer_emit_utt((struct vlist_packer_t **)(void *)&GLOBALS->time_vlist_vcd_recoder_write, tim);
+							}
+						}
+						else
+						{
+/* backtracking fix */
+						if(tim < GLOBALS->current_time_vcd_recoder_c_3)
+							{
+							if(!GLOBALS->vcd_already_backtracked)
+								{
+								GLOBALS->vcd_already_backtracked = 1;
+								fprintf(stderr, "VCDLOAD | Time backtracking detected in VCD file!\n");
+								}
+							}
+#if 0
+						if(tim < GLOBALS->current_time_vcd_recoder_c_3) /* avoid backtracking time counts which can happen on malformed files */
+							{
+							tim = GLOBALS->current_time_vcd_recoder_c_3;
+							}
+#endif
+
+						if(GLOBALS->time_vlist_vcd_recoder_write)
+							{
+							vlist_packer_emit_utt((struct vlist_packer_t **)(void *)&GLOBALS->time_vlist_vcd_recoder_write, tim - GLOBALS->current_time_vcd_recoder_c_3);
+							}
+						}
+
+					GLOBALS->current_time_vcd_recoder_c_3=tim;
+					if(GLOBALS->end_time_vcd_recoder_c_3<tim) GLOBALS->end_time_vcd_recoder_c_3=tim;	/* in case of malformed vcd files */
+					DEBUG(fprintf(stderr,"#"TTFormat"\n",tim));
+
+					tt = vlist_alloc(&GLOBALS->time_vlist_vcd_recoder_c_1, 0);
+					*tt = tim;
+					GLOBALS->time_vlist_count_vcd_recoder_c_1++;
+					}
+					else
+					{
+					if(GLOBALS->time_vlist_count_vcd_recoder_c_1)
+						{
+						/* OK, otherwise fix for System C which doesn't emit time zero... */
+						}
+						else
+						{
+						TimeType tim = LLDescriptor(0);
+						TimeType *tt;
+
+						GLOBALS->start_time_vcd_recoder_c_3=GLOBALS->current_time_vcd_recoder_c_3=GLOBALS->end_time_vcd_recoder_c_3=tim;
+
+						if(GLOBALS->time_vlist_vcd_recoder_write)
+							{
+							vlist_packer_emit_utt((struct vlist_packer_t **)(void *)&GLOBALS->time_vlist_vcd_recoder_write, tim);
+							}
+
+						tt = vlist_alloc(&GLOBALS->time_vlist_vcd_recoder_c_1, 0);
+						*tt = tim;
+						GLOBALS->time_vlist_count_vcd_recoder_c_1=1;
+						}
+					parse_valuechange();
+					}
+				}
+			break;
+		case T_DUMPALL:	/* dump commands modify vals anyway so */
+		case T_DUMPPORTSALL:
+			break;	/* just loop through.. */
+		case T_DUMPOFF:
+		case T_DUMPPORTSOFF:
+			GLOBALS->dumping_off_vcd_recoder_c_3=1;
+                        /* if((!GLOBALS->blackout_regions)||((GLOBALS->blackout_regions)&&(GLOBALS->blackout_regions->bstart<=GLOBALS->blackout_regions->bend))) : remove redundant condition */
+                        if((!GLOBALS->blackout_regions)||(GLOBALS->blackout_regions->bstart<=GLOBALS->blackout_regions->bend))
+				{
+				struct blackout_region_t *bt = calloc_2(1, sizeof(struct blackout_region_t));
+
+				bt->bstart = GLOBALS->current_time_vcd_recoder_c_3;
+				bt->next = GLOBALS->blackout_regions;
+				GLOBALS->blackout_regions = bt;
+				}
+			break;
+		case T_DUMPON:
+		case T_DUMPPORTSON:
+			GLOBALS->dumping_off_vcd_recoder_c_3=0;
+			if((GLOBALS->blackout_regions)&&(GLOBALS->blackout_regions->bstart>GLOBALS->blackout_regions->bend))
+				{
+				GLOBALS->blackout_regions->bend = GLOBALS->current_time_vcd_recoder_c_3;
+				}
+			break;
+		case T_DUMPVARS:
+		case T_DUMPPORTS:
+			if(GLOBALS->current_time_vcd_recoder_c_3<0)
+				{ GLOBALS->start_time_vcd_recoder_c_3=GLOBALS->current_time_vcd_recoder_c_3=GLOBALS->end_time_vcd_recoder_c_3=0; }
+			break;
+		case T_VCDCLOSE:
+			sync_end("VCDCLOSE:");
+			break;	/* next token will be '#' time related followed by $end */
+		case T_END:	/* either closure for dump commands or */
+			break;	/* it's spurious */
+		case T_UNKNOWN_KEY:
+			sync_end(NULL);	/* skip over unknown keywords */
+			break;
+		case T_EOF:
+			if((GLOBALS->blackout_regions)&&(GLOBALS->blackout_regions->bstart>GLOBALS->blackout_regions->bend))
+				{
+				GLOBALS->blackout_regions->bend = GLOBALS->current_time_vcd_recoder_c_3;
+				}
+
+			GLOBALS->pv_vcd_recoder_c_3 = NULL;
+			if(GLOBALS->prev_hier_uncompressed_name) { free_2(GLOBALS->prev_hier_uncompressed_name); GLOBALS->prev_hier_uncompressed_name = NULL; }
+
+			return;
+		default:
+			DEBUG(fprintf(stderr,"UNKNOWN TOKEN\n"));
+		}
+	}
+}

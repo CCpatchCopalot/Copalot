@@ -1,0 +1,618 @@
+condition  @ 64 @ condition  @ 66 @ 
+operator: =  @ 48 @ operator: =  @ 50 @ 
+name  @ 43 @ name  @ 45 @ 
+decl  @ 9 @ decl  @ 11 @ 
+type  @ 6 @ type  @ 8 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;case 3:
+                        case 4:case 5:
+                            if (extractContigSamplesShifted32bits(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1,prev_trailing_bits)){
+                                TIFFError("  @ 173 @ literal: "extractCompositeRegions"  @ 204 @ 
+name: unsigned  @ 1 @ name: unsigned  @ 3 @ 
+name: read_buff  @ 30 @ name: read_buff  @ 32 @ 
+name: src_rowsize  @ 6 @ name: src_rowsize  @ 8 @ 
+literal: ","  @ 107 @ literal: "Unable to extract row %"  @ 113 @ 
+name: trailing_bits  @ 4 @ name: trailing_bits  @ 6 @ 
+name: y1  @ 43 @ name: y1  @ 45 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+name: crop_buff  @ 1 @ name: crop_buff  @ 3 @ 
+decl  @ 5 @ decl  @ 7 @ 
+operator: ->  @ 53 @ operator: ->  @ 55 @ 
+name: i  @ 40 @ name: i  @ 42 @ 
+expr  @ 40 @ expr  @ 42 @ 
+type  @ 5 @ type  @ 7 @ 
+name: crop_width  @ 52 @ name: crop_width  @ 54 @ 
+name: length  @ 53 @ name: length  @ 55 @ 
+expr  @ 62 @ expr  @ 64 @ 
+operator: +  @ 49 @ operator: +  @ 51 @ 
+expr  @ 64 @ expr  @ 66 @ 
+operator: <  @ 40 @ operator: <  @ 42 @ 
+decl  @ 1 @ decl  @ 3 @ 
+index  @ 54 @ index  @ 56 @ 
+decl  @ 10 @ decl  @ 12 @ 
+name  @ 38 @ name  @ 40 @ 
+name: combined_width  @ 37 @ name: combined_width  @ 39 @ 
+operator: .  @ 46 @ operator: .  @ 48 @ 
+name: combined_width  @ 36 @ name: combined_width  @ 38 @ 
+expr  @ 26 @ expr  @ 28 @ 
+name: prev_length  @ 34 @ name: prev_length  @ 36 @ 
+operator: +  @ 20 @ operator: +  @ 22 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 59 @ 
+name: last_row  @ 44 @ name: last_row  @ 46 @ 
+name: shift_width  @ 26 @ name: shift_width  @ 28 @ 
+operator: -  @ 48 @ operator: -  @ 50 @ 
+name: width  @ 13 @ name: width  @ 15 @ 
+type  @ 1 @ type  @ 2 @ 
+name: crop  @ 37 @ name: crop  @ 39 @ 
+comment: /*, img_length */  @ 7 @ comment: /*, img_length */  @ 9 @ 
+expr  @ 59 @ expr  @ 61 @ 
+expr  @ 43 @ expr  @ 45 @ 
+expr  @ 54 @ expr  @ 56 @ 
+literal: " PRIu32,row);
+                                    return (1);}
+                                break;}
+                            else if (extractContigSamplesShifted16bits( src, dst, img_width, sample, spp, bps, count, first_col, last_col + 1, prev_trailing_bits)){
+                                TIFFError("  @ 93 @ literal: "extractCompositeRegions"  @ 100 @ 
+name: regionlist  @ 46 @ name: regionlist  @ 48 @ 
+decl  @ 6 @ decl  @ 8 @ 
+expr  @ 35 @ expr  @ 37 @ 
+operator: +  @ 19 @ operator: +  @ 21 @ 
+decl  @ 6 @ decl  @ 8 @ 
+block_content  @ 61 @ block_content  @ 63 @ 
+name: last_row  @ 5 @ name: last_row  @ 7 @ 
+operator: ->  @ 13 @ operator: ->  @ 15 @ 
+literal: ","  @ 159 @ literal: "Unable to extract row %"  @ 171 @ 
+operator: )  @ 64 @ operator: )  @ 66 @ 
+comment: /* img_length = image->length; */  @ 14 @ comment: /* img_length = image->length; */  @ 16 @ 
+name: bytes_per_pixel  @ 3 @ name: bytes_per_pixel  @ 5 @ 
+operator: =  @ 36 @ operator: =  @ 38 @ 
+name: bytes_per_pixel  @ 25 @ name: bytes_per_pixel  @ 27 @ 
+operator: ->  @ 64 @ operator: ->  @ 66 @ 
+name  @ 40 @ name  @ 42 @ 
+name: first_row  @ 43 @ name: first_row  @ 45 @ 
+type  @ 11 @ type  @ 13 @ 
+operator: ->  @ 15 @ operator: ->  @ 17 @ 
+name: prev_trailing_bits  @ 4 @ name: prev_trailing_bits  @ 6 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 37 @ 
+type  @ 6 @ type  @ 8 @ 
+literal: ","  @ 173 @ literal: "Unable to extract row %"  @ 195 @ 
+type  @ 7 @ type  @ 9 @ 
+name: bps  @ 9 @ name: bps  @ 11 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: crop_width  @ 64 @ name: crop_width  @ 66 @ 
+name: crop  @ 64 @ name: crop  @ 66 @ 
+name: i  @ 52 @ name: i  @ 54 @ 
+operator: =  @ 43 @ operator: =  @ 45 @ 
+type  @ 5 @ type  @ 7 @ 
+operator: =  @ 45 @ operator: =  @ 47 @ 
+operator: =  @ 35 @ operator: =  @ 37 @ 
+name: spp  @ 56 @ name: spp  @ 58 @ 
+decl  @ 4 @ decl  @ 6 @ 
+operator: /  @ 20 @ operator: /  @ 22 @ 
+type  @ 1 @ type  @ 3 @ 
+operator: =  @ 56 @ operator: =  @ 58 @ 
+operator: *  @ 56 @ operator: *  @ 58 @ 
+decl  @ 11 @ decl  @ 13 @ 
+name  @ 1 @ name  @ 2 @ 
+block  @ 22 @ block  @ 24 @ 
+literal: 0  @ 34 @ literal: 0  @ 36 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 48 @ 
+name: bytes_per_pixel  @ 26 @ name: bytes_per_pixel  @ 28 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: read_buff  @ 1 @ name: read_buff  @ 3 @ 
+block_content  @ 28 @ block_content  @ 30 @ 
+operator: =  @ 19 @ operator: =  @ 21 @ 
+name: spp  @ 16 @ name: spp  @ 18 @ 
+name: i  @ 43 @ name: i  @ 45 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 8 @ 
+operator: =  @ 44 @ operator: =  @ 46 @ 
+name: first_col  @ 48 @ name: first_col  @ 50 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 9 @ 
+name: regionlist  @ 54 @ name: regionlist  @ 56 @ 
+literal: ");
+                    return (1);}
+
+                crop->combined_width = crop_width;
+                crop->combined_length += crop_length;
+
+                for (row = first_row; row<= last_row; row++)
+                {src_offset = row * src_rowsize;
+                    dst_offset = (row - first_row) * dst_rowsize;src = read_buff + src_offset;
+                    dst = crop_buff + dst_offset + (prev_length * dst_rowsize);switch (shift_width)
+                    {case 0:
+                            if (extractContigSamplesBytes(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1)){
+                                TIFFError("  @ 66 @ literal: 1  @ 70 @ 
+literal: " PRIu32,row);
+                                    return (1);}
+                                break;}
+                            else if (extractContigSamplesShifted16bits( src, dst, img_width, sample, spp, bps, count, first_col, last_col + 1, prev_trailing_bits)){
+                                TIFFError("  @ 159 @ literal: "extractCompositeRegions"  @ 182 @ 
+name: uint32_t  @ 7 @ name: uint32_t  @ 9 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 47 @ 
+expr  @ 44 @ expr  @ 46 @ 
+name: crop  @ 53 @ name: crop  @ 55 @ 
+literal: 7  @ 57 @ literal: 7  @ 59 @ 
+expr  @ 37 @ expr  @ 39 @ 
+type  @ 6 @ type  @ 8 @ 
+name  @ 36 @ name  @ 38 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 7 @ 
+name  @ 15 @ name  @ 17 @ 
+if_stmt  @ 21 @ if_stmt  @ 23 @ 
+name: crop_mask  @ 1 @ name: crop_mask  @ 2 @ 
+decl  @ 4 @ decl  @ 6 @ 
+expr  @ 49 @ expr  @ 51 @ 
+name: TIFFError  @ 66 @ name: TIFFError  @ 68 @ 
+condition  @ 59 @ condition  @ 61 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+expr  @ 46 @ expr  @ 48 @ 
+operator: =  @ 28 @ operator: =  @ 30 @ 
+literal: "Only equal width regions can be combined for -E ""  @ 66 @ literal: "Only equal width regions can be combined for -E top or bottom"  @ 69 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 11 @ 
+name: composite_width  @ 8 @ name: composite_width  @ 10 @ 
+operator: =  @ 53 @ operator: =  @ 55 @ 
+name: i  @ 4 @ name: i  @ 6 @ 
+name: shift_width  @ 22 @ name: shift_width  @ 24 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 22 @ 
+operator: ->  @ 46 @ operator: ->  @ 48 @ 
+decl  @ 3 @ decl  @ 5 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 50 @ 
+operator: >  @ 64 @ operator: >  @ 66 @ 
+init  @ 40 @ init  @ 42 @ 
+operator: ->  @ 37 @ operator: ->  @ 39 @ 
+name  @ 16 @ name  @ 18 @ 
+name: dst_rowsize  @ 57 @ name: dst_rowsize  @ 59 @ 
+expr  @ 43 @ expr  @ 45 @ 
+name: crop  @ 44 @ name: crop  @ 46 @ 
+name: bps  @ 21 @ name: bps  @ 23 @ 
+operator: *  @ 20 @ operator: *  @ 22 @ 
+operator: ->  @ 45 @ operator: ->  @ 47 @ 
+name  @ 13 @ name  @ 15 @ 
+literal: 0  @ 11 @ literal: 0  @ 13 @ 
+name: src  @ 10 @ name: src  @ 12 @ 
+expr  @ 53 @ expr  @ 55 @ 
+type  @ 5 @ type  @ 7 @ 
+block  @ 28 @ block  @ 30 @ 
+name: crop  @ 36 @ name: crop  @ 38 @ 
+literal: 8  @ 19 @ literal: 8  @ 21 @ 
+type  @ 4 @ type  @ 6 @ 
+literal: 0  @ 40 @ literal: 0  @ 42 @ 
+operator: -  @ 64 @ operator: -  @ 66 @ 
+name: uint32_t  @ 8 @ name: uint32_t  @ 10 @ 
+comment: /* These are setup for adding additional sections */  @ 33 @ comment: /* These are setup for adding additional sections */  @ 35 @ 
+expr  @ 45 @ expr  @ 47 @ 
+type  @ 1 @ type  @ 3 @ 
+name: regionlist  @ 43 @ name: regionlist  @ 45 @ 
+type  @ 10 @ type  @ 12 @ 
+comment: /* rows, columns, width, length are expressed in pixels */  @ 42 @ comment: /* rows, columns, width, length are expressed in pixels */  @ 44 @ 
+operator: /  @ 56 @ operator: /  @ 58 @ 
+name: bytes_per_pixel  @ 20 @ name: bytes_per_pixel  @ 22 @ 
+name: i  @ 40 @ name: i  @ 42 @ 
+name  @ 44 @ name  @ 46 @ 
+name  @ 46 @ name  @ 48 @ 
+name: x2  @ 46 @ name: x2  @ 48 @ 
+index  @ 52 @ index  @ 54 @ 
+decl  @ 3 @ decl  @ 5 @ 
+literal: ","  @ 187 @ literal: "Unable to extract row %"  @ 217 @ 
+name: count  @ 57 @ name: count  @ 59 @ 
+operator: =  @ 40 @ operator: =  @ 42 @ 
+operator: )  @ 21 @ operator: )  @ 23 @ 
+name: char  @ 1 @ name: char  @ 3 @ 
+name: extractCompositeRegions  @ 1 @ name: extractCompositeRegions  @ 2 @ 
+name: bytes_per_sample  @ 25 @ name: bytes_per_sample  @ 27 @ 
+operator: ->  @ 36 @ operator: ->  @ 38 @ 
+literal: 1  @ 28 @ literal: 1  @ 30 @ 
+operator: (  @ 56 @ operator: (  @ 58 @ 
+name: i  @ 64 @ name: i  @ 66 @ 
+name: count  @ 17 @ name: count  @ 19 @ 
+operator: +  @ 25 @ operator: +  @ 27 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+name: int  @ 3 @ name: int  @ 5 @ 
+operator: =  @ 57 @ operator: =  @ 59 @ 
+literal: ","  @ 121 @ literal: "extractCompositeRegions"  @ 134 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+type  @ 9 @ type  @ 11 @ 
+name: first_col  @ 5 @ name: first_col  @ 7 @ 
+operator: .  @ 53 @ operator: .  @ 55 @ 
+operator: %  @ 21 @ operator: %  @ 23 @ 
+operator: (  @ 56 @ operator: (  @ 58 @ 
+literal: 8  @ 57 @ literal: 8  @ 59 @ 
+operator: .  @ 54 @ operator: .  @ 56 @ 
+name: bps  @ 19 @ name: bps  @ 21 @ 
+decl  @ 1 @ decl  @ 2 @ 
+condition  @ 40 @ condition  @ 42 @ 
+name: spp  @ 20 @ name: spp  @ 22 @ 
+type  @ 1 @ type  @ 2 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 15 @ 
+argument  @ 66 @ argument  @ 68 @ 
+modifier: *  @ 1 @ modifier: *  @ 3 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 17 @ 
+case  @ 62 @ case  @ 64 @ 
+operator: )  @ 57 @ operator: )  @ 59 @ 
+operator: ==  @ 21 @ operator: ==  @ 23 @ 
+literal: 7  @ 20 @ literal: 7  @ 22 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 18 @ 
+name: img_width  @ 7 @ name: img_width  @ 9 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 24 @ 
+operator: (  @ 19 @ operator: (  @ 21 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+block_content  @ 43 @ block_content  @ 45 @ 
+name: regionlist  @ 52 @ name: regionlist  @ 54 @ 
+literal: ","  @ 131 @ literal: "extractCompositeRegions"  @ 139 @ 
+name: selections  @ 40 @ name: selections  @ 42 @ 
+expr  @ 54 @ expr  @ 56 @ 
+name: crop_length  @ 49 @ name: crop_length  @ 51 @ 
+operator: )  @ 57 @ operator: )  @ 59 @ 
+expr  @ 40 @ expr  @ 42 @ 
+incr  @ 40 @ incr  @ 42 @ 
+operator: =  @ 30 @ operator: =  @ 32 @ 
+operator: ->  @ 52 @ operator: ->  @ 54 @ 
+name: edge_ref  @ 59 @ name: edge_ref  @ 61 @ 
+comment: /* Update to extract one or more samples */  @ 11 @ comment: /* Update to extract one or more samples */  @ 13 @ 
+index  @ 64 @ index  @ 66 @ 
+name: bps  @ 56 @ name: bps  @ 58 @ 
+decl  @ 8 @ decl  @ 10 @ 
+name: uint8_t  @ 10 @ name: uint8_t  @ 12 @ 
+name: img_width  @ 13 @ name: img_width  @ 15 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 33 @ 
+if_stmt  @ 25 @ if_stmt  @ 27 @ 
+literal: 1  @ 25 @ literal: 1  @ 27 @ 
+decl  @ 11 @ decl  @ 13 @ 
+type  @ 7 @ type  @ 9 @ 
+name: spp  @ 16 @ name: spp  @ 18 @ 
+operator: =  @ 13 @ operator: =  @ 15 @ 
+expr  @ 11 @ expr  @ 13 @ 
+name: crop_width  @ 48 @ name: crop_width  @ 50 @ 
+decl  @ 5 @ decl  @ 7 @ 
+name: bytes_per_sample  @ 3 @ name: bytes_per_sample  @ 5 @ 
+name: crop_buff  @ 31 @ name: crop_buff  @ 33 @ 
+name  @ 37 @ name  @ 39 @ 
+literal: 0  @ 35 @ literal: 0  @ 37 @ 
+type  @ 5 @ type  @ 7 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 32 @ 
+operator: )  @ 56 @ operator: )  @ 58 @ 
+operator: (  @ 21 @ operator: (  @ 23 @ 
+name: unsigned  @ 1 @ name: unsigned  @ 3 @ 
+expr  @ 44 @ expr  @ 46 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 46 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;default:
+                            TIFFError("  @ 182 @ literal: "extractCompositeRegions"  @ 216 @ 
+decl  @ 6 @ decl  @ 8 @ 
+operator: +  @ 56 @ operator: +  @ 58 @ 
+name: image  @ 1 @ name: image  @ 2 @ 
+name  @ 52 @ name  @ 54 @ 
+type  @ 11 @ type  @ 13 @ 
+name: EDGE_BOTTOM  @ 63 @ name: EDGE_BOTTOM  @ 65 @ 
+decl  @ 8 @ decl  @ 10 @ 
+operator: .  @ 64 @ operator: .  @ 66 @ 
+literal: ","  @ 199 @ literal: "extractCompositeRegions"  @ 221 @ 
+name: crop  @ 40 @ name: crop  @ 42 @ 
+operator: =  @ 46 @ operator: =  @ 48 @ 
+name: regionlist  @ 45 @ name: regionlist  @ 47 @ 
+literal: ""  @ 131 @ literal: "Unsupported bit depth %"  @ 139 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 58 @ 
+expr  @ 13 @ expr  @ 15 @ 
+operator: .  @ 45 @ operator: .  @ 47 @ 
+name: src_offset  @ 6 @ name: src_offset  @ 8 @ 
+name: bps  @ 20 @ name: bps  @ 22 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 10 @ 
+name: last_col  @ 5 @ name: last_col  @ 7 @ 
+expr  @ 31 @ expr  @ 33 @ 
+literal: " PRIu16, bps);
+                            return (1);}
+                }prev_width += (crop_width * bps * count) / 8;
+                prev_trailing_bits += trailing_bits;if (prev_trailing_bits>7)
+                    prev_trailing_bits -= 8;break;
+        }}
+    if (crop->combined_width != composite_width)
+        TIFFError("  @ 187 @ literal: 1  @ 218 @ 
+operator: =  @ 34 @ operator: =  @ 36 @ 
+name: crop_length  @ 53 @ name: crop_length  @ 55 @ 
+literal: 8  @ 56 @ literal: 8  @ 58 @ 
+operator: =  @ 22 @ operator: =  @ 24 @ 
+decl  @ 4 @ decl  @ 6 @ 
+name: EDGE_TOP  @ 62 @ name: EDGE_TOP  @ 64 @ 
+expr  @ 21 @ expr  @ 23 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 51 @ 
+name: dst  @ 31 @ name: dst  @ 33 @ 
+operator: (  @ 57 @ operator: (  @ 59 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 13 @ 
+expr  @ 64 @ expr  @ 66 @ 
+name: src  @ 30 @ name: src  @ 32 @ 
+name: prev_width  @ 8 @ name: prev_width  @ 10 @ 
+type  @ 8 @ type  @ 10 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 19 @ 
+literal: ","  @ 166 @ literal: "Unable to extract row %"  @ 183 @ 
+name: composite_width  @ 36 @ name: composite_width  @ 38 @ 
+expr  @ 17 @ expr  @ 19 @ 
+operator: ->  @ 54 @ operator: ->  @ 56 @ 
+operator: ->  @ 40 @ operator: ->  @ 42 @ 
+operator: +  @ 48 @ operator: +  @ 50 @ 
+name: tsample_t  @ 11 @ name: tsample_t  @ 13 @ 
+operator: (  @ 20 @ operator: (  @ 22 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+operator: +  @ 28 @ operator: +  @ 30 @ 
+operator: (  @ 64 @ operator: (  @ 66 @ 
+name: prev_trailing_bits  @ 35 @ name: prev_trailing_bits  @ 37 @ 
+name: first_row  @ 49 @ name: first_row  @ 51 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+operator: =  @ 37 @ operator: =  @ 39 @ 
+block_content  @ 3 @ block_content  @ 5 @ 
+literal: 7  @ 56 @ literal: 7  @ 58 @ 
+name: shift_width  @ 3 @ name: shift_width  @ 5 @ 
+operator: =  @ 15 @ operator: =  @ 17 @ 
+name: crop  @ 59 @ name: crop  @ 61 @ 
+literal: ","  @ 100 @ literal: "Unable to extract row %"  @ 101 @ 
+index  @ 45 @ index  @ 47 @ 
+operator: ->  @ 16 @ operator: ->  @ 18 @ 
+name: prev_width  @ 34 @ name: prev_width  @ 36 @ 
+expr  @ 38 @ expr  @ 40 @ 
+default  @ 61 @ default  @ 63 @ 
+expr  @ 63 @ expr  @ 65 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+name: image  @ 13 @ name: image  @ 15 @ 
+literal: " PRIu16, bps);
+                            return (1);}
+                }prev_length += crop_length;
+                break;case EDGE_LEFT: /* splice the pieces of each row together, side by side */case EDGE_RIGHT:
+                if ((i>0)&&(crop_length != crop->regionlist[i - 1].length)){
+                    TIFFError("  @ 121 @ literal: "Unable to extract row %"  @ 135 @ 
+decl  @ 7 @ decl  @ 9 @ 
+name: i  @ 45 @ name: i  @ 47 @ 
+name: image  @ 16 @ name: image  @ 18 @ 
+name: row  @ 5 @ name: row  @ 7 @ 
+operator: ->  @ 44 @ operator: ->  @ 46 @ 
+expr  @ 34 @ expr  @ 36 @ 
+type  @ 8 @ type  @ 10 @ 
+decl  @ 6 @ decl  @ 8 @ 
+type  @ 4 @ type  @ 6 @ 
+expr  @ 48 @ expr  @ 50 @ 
+operator: =  @ 35 @ operator: =  @ 37 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 21 @ 
+name: image  @ 15 @ name: image  @ 17 @ 
+decl  @ 5 @ decl  @ 7 @ 
+name: last_row  @ 49 @ name: last_row  @ 51 @ 
+comment: /* These should not be needed for composite images */  @ 51 @ comment: /* These should not be needed for composite images */  @ 53 @ 
+name: trailing_bits  @ 35 @ name: trailing_bits  @ 37 @ 
+operator: &&  @ 64 @ operator: &&  @ 66 @ 
+else  @ 27 @ else  @ 29 @ 
+operator: *  @ 57 @ operator: *  @ 59 @ 
+operator: .  @ 52 @ operator: .  @ 54 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 54 @ 
+name: crop  @ 46 @ name: crop  @ 48 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;case 2:
+                            if (extractContigSamplesShifted24bits(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1,prev_trailing_bits)){
+                                TIFFError("  @ 100 @ literal: "extractCompositeRegions"  @ 112 @ 
+index  @ 53 @ index  @ 55 @ 
+operator: =  @ 52 @ operator: =  @ 54 @ 
+operator: =  @ 16 @ operator: =  @ 18 @ 
+name: crop_width  @ 7 @ name: crop_width  @ 9 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 39 @ 
+expr  @ 52 @ expr  @ 54 @ 
+name  @ 1 @ name  @ 2 @ 
+name: dst_offset  @ 6 @ name: dst_offset  @ 8 @ 
+operator: =  @ 49 @ operator: =  @ 51 @ 
+name: i  @ 64 @ name: i  @ 66 @ 
+index  @ 46 @ index  @ 48 @ 
+name  @ 45 @ name  @ 47 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;case 1:
+                            if (bps == 1){
+                                if (extractContigSamplesShifted8bits(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1,prev_trailing_bits)){
+                                    TIFFError("  @ 84 @ literal: "extractCompositeRegions"  @ 88 @ 
+operator: )  @ 20 @ operator: )  @ 22 @ 
+name: bytes_per_sample  @ 28 @ name: bytes_per_sample  @ 30 @ 
+name: y2  @ 44 @ name: y2  @ 46 @ 
+name: bytes_per_sample  @ 19 @ name: bytes_per_sample  @ 21 @ 
+operator: *  @ 56 @ operator: *  @ 58 @ 
+name: crop  @ 43 @ name: crop  @ 45 @ 
+type  @ 8 @ type  @ 10 @ 
+operator: )  @ 25 @ operator: )  @ 27 @ 
+name: x1  @ 45 @ name: x1  @ 47 @ 
+name: bps  @ 57 @ name: bps  @ 59 @ 
+literal: 8  @ 20 @ literal: 8  @ 22 @ 
+for  @ 40 @ for  @ 42 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 45 @ 
+literal: ");
+                    return (1);}
+                crop->combined_width += crop_width;
+                crop->combined_length = crop_length;
+                dst_rowsize = (((composite_width * bps * count) + 7) / 8);trailing_bits = (crop_width * bps * count) % 8;
+                for (row = first_row; row<= last_row; row++)
+                {src_offset = row * src_rowsize;
+                    dst_offset = (row - first_row) * dst_rowsize;src = read_buff + src_offset;
+                    dst = crop_buff + dst_offset + prev_width;switch (shift_width)
+                    {case 0:
+                            if (extractContigSamplesBytes(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1)){
+                                TIFFError("  @ 131 @ literal: 1  @ 140 @ 
+name: width  @ 64 @ name: width  @ 66 @ 
+if  @ 21 @ if  @ 23 @ 
+expr  @ 19 @ expr  @ 21 @ 
+modifier: *  @ 10 @ modifier: *  @ 12 @ 
+name: crop_length  @ 7 @ name: crop_length  @ 9 @ 
+operator: /  @ 57 @ operator: /  @ 59 @ 
+name: i  @ 40 @ name: i  @ 42 @ 
+name: count  @ 11 @ name: count  @ 13 @ 
+operator: =  @ 54 @ operator: =  @ 56 @ 
+else  @ 23 @ else  @ 25 @ 
+type  @ 9 @ type  @ 11 @ 
+literal: 0  @ 22 @ literal: 0  @ 24 @ 
+name: spp  @ 17 @ name: spp  @ 19 @ 
+name: sample  @ 11 @ name: sample  @ 13 @ 
+expr  @ 52 @ expr  @ 54 @ 
+name: char  @ 1 @ name: char  @ 3 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;case 3:
+                        case 4:case 5:
+                            if (extractContigSamplesShifted32bits(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1,prev_trailing_bits)){
+                                TIFFError("  @ 107 @ literal: "extractCompositeRegions"  @ 122 @ 
+expr  @ 16 @ expr  @ 18 @ 
+index  @ 44 @ index  @ 46 @ 
+operator: =  @ 31 @ operator: =  @ 33 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;case 1:
+                            if (bps == 1){
+                                if (extractContigSamplesShifted8bits(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1,prev_trailing_bits)){
+                                    TIFFError("  @ 150 @ literal: "extractCompositeRegions"  @ 170 @ 
+operator: (  @ 25 @ operator: (  @ 27 @ 
+name: regionlist  @ 44 @ name: regionlist  @ 46 @ 
+literal: ","  @ 150 @ literal: "extractCompositeRegions"  @ 149 @ 
+operator: .  @ 43 @ operator: .  @ 45 @ 
+name: img_width  @ 56 @ name: img_width  @ 58 @ 
+type  @ 3 @ type  @ 5 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 5 @ 
+block  @ 2 @ block  @ 4 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 38 @ 
+name: i  @ 44 @ name: i  @ 46 @ 
+name: i  @ 53 @ name: i  @ 55 @ 
+name: bps  @ 15 @ name: bps  @ 17 @ 
+name: prev_length  @ 8 @ name: prev_length  @ 10 @ 
+block  @ 60 @ block  @ 62 @ 
+type  @ 10 @ type  @ 12 @ 
+operator: )  @ 20 @ operator: )  @ 22 @ 
+type  @ 7 @ type  @ 9 @ 
+condition  @ 21 @ condition  @ 23 @ 
+control  @ 40 @ control  @ 42 @ 
+init  @ 11 @ init  @ 13 @ 
+name: uint32_t  @ 5 @ name: uint32_t  @ 7 @ 
+name: dst_rowsize  @ 6 @ name: dst_rowsize  @ 8 @ 
+name: image_data  @ 1 @ name: image_data  @ 2 @ 
+expr  @ 40 @ expr  @ 42 @ 
+name: first_col  @ 45 @ name: first_col  @ 47 @ 
+operator: ++  @ 40 @ operator: ++  @ 42 @ 
+decl  @ 1 @ decl  @ 2 @ 
+decl  @ 5 @ decl  @ 7 @ 
+literal: ","  @ 182 @ literal: "Unable to extract row %"  @ 205 @ 
+name  @ 53 @ name  @ 55 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 28 @ 
+operator: (  @ 57 @ operator: (  @ 59 @ 
+literal: 0  @ 38 @ literal: 0  @ 40 @ 
+name  @ 54 @ name  @ 56 @ 
+literal: 0  @ 37 @ literal: 0  @ 39 @ 
+operator: =  @ 34 @ operator: =  @ 36 @ 
+name: crop  @ 38 @ name: crop  @ 40 @ 
+expr  @ 30 @ expr  @ 32 @ 
+expr  @ 46 @ expr  @ 48 @ 
+literal: 1  @ 64 @ literal: 1  @ 66 @ 
+operator: =  @ 38 @ operator: =  @ 40 @ 
+expr  @ 22 @ expr  @ 24 @ 
+operator: ->  @ 59 @ operator: ->  @ 61 @ 
+type  @ 5 @ type  @ 7 @ 
+name: crop  @ 52 @ name: crop  @ 54 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 56 @ 
+operator: =  @ 17 @ operator: =  @ 19 @ 
+type  @ 6 @ type  @ 8 @ 
+literal: ","  @ 116 @ literal: "Unable to extract row %"  @ 123 @ 
+type  @ 4 @ type  @ 6 @ 
+operator: )  @ 19 @ operator: )  @ 21 @ 
+block_content  @ 22 @ block_content  @ 24 @ 
+literal: 1  @ 49 @ literal: 1  @ 51 @ 
+expr  @ 15 @ expr  @ 17 @ 
+modifier: *  @ 1 @ modifier: *  @ 3 @ 
+name: uint32_t  @ 6 @ name: uint32_t  @ 8 @ 
+name: combined_length  @ 38 @ name: combined_length  @ 40 @ 
+operator: )  @ 57 @ operator: )  @ 59 @ 
+operator: /  @ 19 @ operator: /  @ 21 @ 
+name: dst  @ 10 @ name: dst  @ 12 @ 
+name: uint32_t  @ 4 @ name: uint32_t  @ 6 @ 
+decl  @ 5 @ decl  @ 7 @ 
+name: crop  @ 1 @ name: crop  @ 2 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 40 @ 
+name: shift_width  @ 28 @ name: shift_width  @ 30 @ 
+literal: 0  @ 64 @ literal: 0  @ 66 @ 
+name  @ 59 @ name  @ 61 @ 
+unit  @ 1 @ unit  @ 1 @ 
+type  @ 1 @ type  @ 1 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+expr  @ 57 @ expr  @ 59 @ 
+if  @ 25 @ if  @ 27 @ 
+name: last_col  @ 48 @ name: last_col  @ 50 @ 
+expr  @ 20 @ expr  @ 22 @ 
+block_content  @ 25 @ block_content  @ 27 @ 
+expr  @ 53 @ expr  @ 55 @ 
+name: crop_width  @ 57 @ name: crop_width  @ 59 @ 
+decl  @ 1 @ decl  @ 3 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 36 @ 
+name: crop  @ 54 @ name: crop  @ 56 @ 
+operator: (  @ 64 @ operator: (  @ 66 @ 
+decl  @ 7 @ decl  @ 9 @ 
+type  @ 3 @ type  @ 5 @ 
+operator: +  @ 57 @ operator: +  @ 59 @ 
+name: crop  @ 45 @ name: crop  @ 47 @ 
+name: uint16_t  @ 9 @ name: uint16_t  @ 11 @ 
+decl  @ 10 @ decl  @ 12 @ 
+decl  @ 7 @ decl  @ 9 @ 
+block_content  @ 26 @ block_content  @ 28 @ 
+expr  @ 36 @ expr  @ 38 @ 
+operator: ->  @ 38 @ operator: ->  @ 40 @ 
+literal: ","  @ 84 @ literal: 0  @ 84 @ 
+decl  @ 8 @ decl  @ 10 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 6 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;case 2:
+                            if (extractContigSamplesShifted24bits(src, dst, img_width, sample, spp, bps,count, first_col, last_col + 1,prev_trailing_bits)){
+                                TIFFError("  @ 166 @ literal: "extractCompositeRegions"  @ 194 @ 
+condition  @ 25 @ condition  @ 27 @ 
+operator: ->  @ 43 @ operator: ->  @ 45 @ 
+literal: "extractCompositeRegions"  @ 66 @ literal: "extractCompositeRegions"  @ 68 @ 
+operator: =  @ 20 @ operator: =  @ 22 @ 
+operator: *  @ 57 @ operator: *  @ 59 @ 
+name: first_row  @ 5 @ name: first_row  @ 7 @ 
+literal: " PRIu32,row);
+                                return (1);}
+                            break;default:
+                            TIFFError("  @ 116 @ literal: 1  @ 124 @ 
+case  @ 63 @ case  @ 65 @ 
+name: buffptr  @ 54 @ name: buffptr  @ 56 @ 
+decl  @ 9 @ decl  @ 11 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 55 @ 
+operator: .  @ 44 @ operator: .  @ 46 @ 
+name: crop_buff  @ 54 @ name: crop_buff  @ 56 @ 
+block  @ 26 @ block  @ 28 @ 
+literal: "  @ 199 @ literal: "Unsupported bit depth %"  @ 221 @ 
+name: regionlist  @ 64 @ name: regionlist  @ 66 @ 
+literal: 1  @ 48 @ literal: 1  @ 50 @ 
+name: regionlist  @ 53 @ name: regionlist  @ 55 @ 
+decl  @ 3 @ decl  @ 5 @ 
+type  @ 3 @ type  @ 5 @ 
+index  @ 43 @ index  @ 45 @ 
+operator: <  @ 25 @ operator: <  @ 27 @ 
+modifier: *  @ 10 @ modifier: *  @ 12 @ 
+operator: (  @ 57 @ operator: (  @ 59 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 12 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: )  @ 56 @ operator: )  @ 58 @ 
+name: last_col  @ 46 @ name: last_col  @ 48 @ 
+expr  @ 45 @ expr  @ 47 @ 
+name: src_rowsize  @ 56 @ name: src_rowsize  @ 58 @ 
+name: i  @ 54 @ name: i  @ 56 @ 
+operator: (  @ 20 @ operator: (  @ 22 @ 
+literal: ","  @ 93 @ literal: "Unable to extract row %"  @ 89 @ 
+name: i  @ 46 @ name: i  @ 48 @ 
+expr  @ 28 @ expr  @ 30 @ 
+operator: =  @ 26 @ operator: =  @ 28 @ 
+literal: 7  @ 19 @ literal: 7  @ 21 @ 
+name  @ 64 @ name  @ 66 @ 
+name: bps  @ 15 @ name: bps  @ 17 @ 
+expr  @ 56 @ expr  @ 58 @ 
+operator: )  @ 64 @ operator: )  @ 66 @ 
+switch  @ 59 @ switch  @ 61 @ 
+literal: 0  @ 21 @ literal: 0  @ 23 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 30 @ 
+block  @ 41 @ block  @ 43 @ 
+block  @ 24 @ block  @ 26 @ 
+operator: !=  @ 64 @ operator: !=  @ 66 @ 
+operator: -  @ 49 @ operator: -  @ 51 @ 
+expr  @ 25 @ expr  @ 27 @ 
+literal: 8  @ 21 @ literal: 8  @ 23 @ 
+name: width  @ 52 @ name: width  @ 54 @ 
+name: spp  @ 9 @ name: spp  @ 11 @ 
+

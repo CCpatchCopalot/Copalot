@@ -1,0 +1,632 @@
+-1a0
+>  ossl_sha256sum,           /* sha256sum */
+2465,3186d
+<#else
+<  const char * const hostname = conn->host.name;
+<#endif
+<#ifdef ENABLE_IPV6
+<  struct in6_addr addr;
+<#else
+<  struct in_addr addr;
+<#endif
+<#endif
+<#ifndef CURL_DISABLE_PROXY
+<  long * const certverifyresult = SSL_IS_PROXY() ?
+<    &data->set.proxy_ssl.certverifyresult : &data->set.ssl.certverifyresult;
+<#else
+<  long * const certverifyresult = &data->set.ssl.certverifyresult;
+<#endif
+<  const long int ssl_version = SSL_CONN_CONFIG(version);
+<#ifdef USE_TLS_SRP
+<  const enum CURL_TLSAUTH ssl_authtype = SSL_SET_OPTION(authtype);
+<#endif
+<  char * const ssl_cert = SSL_SET_OPTION(cert);
+<  const struct curl_blob *ssl_cert_blob = SSL_SET_OPTION(cert_blob);
+<  const char * const ssl_cert_type = SSL_SET_OPTION(cert_type);
+<  const char * const ssl_cafile = SSL_CONN_CONFIG(CAfile);
+<  const char * const ssl_capath = SSL_CONN_CONFIG(CApath);
+<  const bool verifypeer = SSL_CONN_CONFIG(verifypeer);
+<  const char * const ssl_crlfile = SSL_SET_OPTION(CRLfile);
+<  char error_buffer[256];
+<  struct ssl_backend_data *backend = connssl->backend;
+<  bool imported_native_ca = false;
+<  DEBUGASSERT(ssl_connect_1 == connssl->connecting_state);
+<  result = Curl_ossl_seed(data);
+<  if(result)
+<    return result;
+<  *certverifyresult = !X509_V_OK;
+<  switch(ssl_version) {
+<  case CURL_SSLVERSION_DEFAULT:
+<  case CURL_SSLVERSION_TLSv1:
+<  case CURL_SSLVERSION_TLSv1_0:
+<  case CURL_SSLVERSION_TLSv1_1:
+<  case CURL_SSLVERSION_TLSv1_2:
+<  case CURL_SSLVERSION_TLSv1_3:
+<#if (OPENSSL_VERSION_NUMBER >= 0x10100000L)
+<    req_method = TLS_client_method();
+<#else
+<    req_method = SSLv23_client_method();
+<#endif
+<    use_sni(TRUE);
+<    break;
+<  case CURL_SSLVERSION_SSLv2:
+<#ifdef OPENSSL_NO_SSL2
+<    failf(data, OSSL_PACKAGE " was built without SSLv2 support");
+<    return CURLE_NOT_BUILT_IN;
+<#else
+<#ifdef USE_TLS_SRP
+<    if(ssl_authtype == CURL_TLSAUTH_SRP)
+<      return CURLE_SSL_CONNECT_ERROR;
+<#endif
+<    req_method = SSLv2_client_method();
+<    use_sni(FALSE);
+<    break;
+<#endif
+<  case CURL_SSLVERSION_SSLv3:
+<#ifdef OPENSSL_NO_SSL3_METHOD
+<    failf(data, OSSL_PACKAGE " was built without SSLv3 support");
+<    return CURLE_NOT_BUILT_IN;
+<#else
+<#ifdef USE_TLS_SRP
+<    if(ssl_authtype == CURL_TLSAUTH_SRP)
+<      return CURLE_SSL_CONNECT_ERROR;
+<#endif
+<    req_method = SSLv3_client_method();
+<    use_sni(FALSE);
+<    break;
+<#endif
+<  default:
+<    failf(data, "Unrecognized parameter passed via CURLOPT_SSLVERSION");
+<    return CURLE_SSL_CONNECT_ERROR;
+<  }
+<  if(backend->ctx)
+<    SSL_CTX_free(backend->ctx);
+<  backend->ctx = SSL_CTX_new(req_method);
+<  if(!backend->ctx) {
+<    failf(data, "SSL: couldn't create a context: %s",
+<          ossl_strerror(ERR_peek_error(), error_buffer, sizeof(error_buffer)));
+<    return CURLE_OUT_OF_MEMORY;
+<  }
+<#ifdef SSL_MODE_RELEASE_BUFFERS
+<  SSL_CTX_set_mode(backend->ctx, SSL_MODE_RELEASE_BUFFERS);
+<#endif
+<#ifdef SSL_CTRL_SET_MSG_CALLBACK
+<  if(data->set.fdebug && data->set.verbose) {
+<    SSL_CTX_set_msg_callback(backend->ctx, ssl_tls_trace);
+<    SSL_CTX_set_msg_callback_arg(backend->ctx, conn);
+<  }
+<#endif
+<  ctx_options = SSL_OP_ALL;
+<#ifdef SSL_OP_NO_TICKET
+<  ctx_options |= SSL_OP_NO_TICKET;
+<#endif
+<#ifdef SSL_OP_NO_COMPRESSION
+<  ctx_options |= SSL_OP_NO_COMPRESSION;
+<#endif
+<#ifdef SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG
+<  ctx_options &= ~SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG;
+<#endif
+<#ifdef SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS
+<  if(!SSL_SET_OPTION(enable_beast))
+<    ctx_options &= ~SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS;
+<#endif
+<  switch(ssl_version) {
+<    case CURL_SSLVERSION_SSLv2:
+<#if OPENSSL_VERSION_NUMBER >= 0x10100000L /* 1.1.0 */
+<      SSL_CTX_set_min_proto_version(backend->ctx, SSL2_VERSION);
+<      SSL_CTX_set_max_proto_version(backend->ctx, SSL2_VERSION);
+<#else
+<      ctx_options |= SSL_OP_NO_SSLv3;
+<      ctx_options |= SSL_OP_NO_TLSv1;
+<#  if OPENSSL_VERSION_NUMBER >= 0x1000100FL
+<      ctx_options |= SSL_OP_NO_TLSv1_1;
+<      ctx_options |= SSL_OP_NO_TLSv1_2;
+<#    ifdef TLS1_3_VERSION
+<      ctx_options |= SSL_OP_NO_TLSv1_3;
+<#    endif
+<#  endif
+<#endif
+<      break;
+<    case CURL_SSLVERSION_SSLv3:
+<#if OPENSSL_VERSION_NUMBER >= 0x10100000L /* 1.1.0 */
+<      SSL_CTX_set_min_proto_version(backend->ctx, SSL3_VERSION);
+<      SSL_CTX_set_max_proto_version(backend->ctx, SSL3_VERSION);
+<#else
+<      ctx_options |= SSL_OP_NO_SSLv2;
+<      ctx_options |= SSL_OP_NO_TLSv1;
+<#  if OPENSSL_VERSION_NUMBER >= 0x1000100FL
+<      ctx_options |= SSL_OP_NO_TLSv1_1;
+<      ctx_options |= SSL_OP_NO_TLSv1_2;
+<#    ifdef TLS1_3_VERSION
+<      ctx_options |= SSL_OP_NO_TLSv1_3;
+<#    endif
+<#  endif
+<#endif
+<      break;
+<    case CURL_SSLVERSION_DEFAULT:
+<    case CURL_SSLVERSION_TLSv1: /* TLS >= version 1.0 */
+<    case CURL_SSLVERSION_TLSv1_0: /* TLS >= version 1.0 */
+<    case CURL_SSLVERSION_TLSv1_1: /* TLS >= version 1.1 */
+<    case CURL_SSLVERSION_TLSv1_2: /* TLS >= version 1.2 */
+<    case CURL_SSLVERSION_TLSv1_3: /* TLS >= version 1.3 */
+<      ctx_options |= SSL_OP_NO_SSLv2;
+<      ctx_options |= SSL_OP_NO_SSLv3;
+<#if (OPENSSL_VERSION_NUMBER >= 0x10100000L) /* 1.1.0 */
+<      result = set_ssl_version_min_max(backend->ctx, conn);
+<#else
+<      result = set_ssl_version_min_max_legacy(&ctx_options, conn, sockindex);
+<#endif
+<      if(result != CURLE_OK)
+<        return result;
+<      break;
+<    default:
+<      failf(data, "Unrecognized parameter passed via CURLOPT_SSLVERSION");
+<      return CURLE_SSL_CONNECT_ERROR;
+<  }
+<  SSL_CTX_set_options(backend->ctx, ctx_options);
+<#ifdef HAS_NPN
+<  if(conn->bits.tls_enable_npn)
+<    SSL_CTX_set_next_proto_select_cb(backend->ctx, select_next_proto_cb, conn);
+<#endif
+<#ifdef HAS_ALPN
+<  if(conn->bits.tls_enable_alpn) {
+<    int cur = 0;
+<    unsigned char protocols[128];
+<#ifdef USE_NGHTTP2
+<    if(data->set.httpversion >= CURL_HTTP_VERSION_2
+<#ifndef CURL_DISABLE_PROXY
+<       && (!SSL_IS_PROXY() || !conn->bits.tunnel_proxy)
+<#endif
+<      ) {
+<      protocols[cur++] = NGHTTP2_PROTO_VERSION_ID_LEN;
+<      memcpy(&protocols[cur], NGHTTP2_PROTO_VERSION_ID,
+<          NGHTTP2_PROTO_VERSION_ID_LEN);
+<      cur += NGHTTP2_PROTO_VERSION_ID_LEN;
+<      infof(data, "ALPN, offering %s\n", NGHTTP2_PROTO_VERSION_ID);
+<    }
+<#endif
+<    protocols[cur++] = ALPN_HTTP_1_1_LENGTH;
+<    memcpy(&protocols[cur], ALPN_HTTP_1_1, ALPN_HTTP_1_1_LENGTH);
+<    cur += ALPN_HTTP_1_1_LENGTH;
+<    infof(data, "ALPN, offering %s\n", ALPN_HTTP_1_1);
+<    SSL_CTX_set_alpn_protos(backend->ctx, protocols, cur);
+<  }
+<#endif
+<  if(ssl_cert || ssl_cert_blob || ssl_cert_type) {
+<    BIO *ssl_cert_bio = NULL;
+<    BIO *ssl_key_bio = NULL;
+<    int result_cert_stuff;
+<    if(ssl_cert_blob) {
+<      ssl_cert_bio = BIO_new_mem_buf(ssl_cert_blob->data,
+<                                     (int)ssl_cert_blob->len);
+<      if(!ssl_cert_bio)
+<        return CURLE_SSL_CERTPROBLEM;
+<    }
+<    if(SSL_SET_OPTION(key_blob)) {
+<      ssl_key_bio = BIO_new_mem_buf(SSL_SET_OPTION(key_blob)->data,
+<                                    (int)SSL_SET_OPTION(key_blob)->len);
+<      if(!ssl_key_bio)
+<        return CURLE_SSL_CERTPROBLEM;
+<    }
+<    result_cert_stuff = cert_stuff(conn, backend->ctx,
+<                   ssl_cert, ssl_cert_bio, ssl_cert_type,
+<                   SSL_SET_OPTION(key), ssl_key_bio,
+<                   SSL_SET_OPTION(key_type), SSL_SET_OPTION(key_passwd));
+<    if(ssl_cert_bio)
+<      BIO_free(ssl_cert_bio);
+<    if(ssl_key_bio)
+<      BIO_free(ssl_key_bio);
+<    if(!result_cert_stuff) {
+<      return CURLE_SSL_CERTPROBLEM;
+<    }
+<  }
+<  ciphers = SSL_CONN_CONFIG(cipher_list);
+<  if(!ciphers)
+<    ciphers = (char *)DEFAULT_CIPHER_SELECTION;
+<  if(ciphers) {
+<    if(!SSL_CTX_set_cipher_list(backend->ctx, ciphers)) {
+<      failf(data, "failed setting cipher list: %s", ciphers);
+<      return CURLE_SSL_CIPHER;
+<    }
+<    infof(data, "Cipher selection: %s\n", ciphers);
+<  }
+<#ifdef HAVE_SSL_CTX_SET_CIPHERSUITES
+<  {
+<    char *ciphers13 = SSL_CONN_CONFIG(cipher_list13);
+<    if(ciphers13) {
+<      if(!SSL_CTX_set_ciphersuites(backend->ctx, ciphers13)) {
+<        failf(data, "failed setting TLS 1.3 cipher suite: %s", ciphers13);
+<        return CURLE_SSL_CIPHER;
+<      }
+<      infof(data, "TLS 1.3 cipher selection: %s\n", ciphers13);
+<    }
+<  }
+<#endif
+<#ifdef HAVE_SSL_CTX_SET_POST_HANDSHAKE_AUTH
+<  SSL_CTX_set_post_handshake_auth(backend->ctx, 1);
+<#endif
+<#ifdef USE_TLS_SRP
+<  if(ssl_authtype == CURL_TLSAUTH_SRP) {
+<    char * const ssl_username = SSL_SET_OPTION(username);
+<    infof(data, "Using TLS-SRP username: %s\n", ssl_username);
+<    if(!SSL_CTX_set_srp_username(backend->ctx, ssl_username)) {
+<      failf(data, "Unable to set SRP user name");
+<      return CURLE_BAD_FUNCTION_ARGUMENT;
+<    }
+<    if(!SSL_CTX_set_srp_password(backend->ctx, SSL_SET_OPTION(password))) {
+<      failf(data, "failed setting SRP password");
+<      return CURLE_BAD_FUNCTION_ARGUMENT;
+<    }
+<    if(!SSL_CONN_CONFIG(cipher_list)) {
+<      infof(data, "Setting cipher list SRP\n");
+<      if(!SSL_CTX_set_cipher_list(backend->ctx, "SRP")) {
+<        failf(data, "failed setting SRP cipher list");
+<        return CURLE_SSL_CIPHER;
+<      }
+<    }
+<  }
+<#endif
+<#if defined(USE_WIN32_CRYPTO)
+<  if((SSL_CONN_CONFIG(verifypeer) || SSL_CONN_CONFIG(verifyhost)) &&
+<     (SSL_SET_OPTION(native_ca_store))) {
+<    X509_STORE *store = SSL_CTX_get_cert_store(backend->ctx);
+<    HCERTSTORE hStore = CertOpenSystemStore((HCRYPTPROV_LEGACY)NULL,
+<                                            TEXT("ROOT"));
+<    if(hStore) {
+<      PCCERT_CONTEXT pContext = NULL;
+<      CERT_ENHKEY_USAGE *enhkey_usage = NULL;
+<      DWORD enhkey_usage_size = 0;
+<      result = CURLE_OK;
+<      for(;;) {
+<        X509 *x509;
+<        FILETIME now;
+<        BYTE key_usage[2];
+<        DWORD req_size;
+<        const unsigned char *encoded_cert;
+<#if defined(DEBUGBUILD) && !defined(CURL_DISABLE_VERBOSE_STRINGS)
+<        char cert_name[256];
+<#endif
+<        pContext = CertEnumCertificatesInStore(hStore, pContext);
+<        if(!pContext)
+<          break;
+<#if defined(DEBUGBUILD) && !defined(CURL_DISABLE_VERBOSE_STRINGS)
+<        if(!CertGetNameStringA(pContext, CERT_NAME_SIMPLE_DISPLAY_TYPE, 0,
+<                               NULL, cert_name, sizeof(cert_name))) {
+<          strcpy(cert_name, "Unknown");
+<        }
+<        infof(data, "SSL: Checking cert \"%s\"\n", cert_name);
+<#endif
+<        encoded_cert = (const unsigned char *)pContext->pbCertEncoded;
+<        if(!encoded_cert)
+<          continue;
+<        GetSystemTimeAsFileTime(&now);
+<        if(CompareFileTime(&pContext->pCertInfo->NotBefore, &now) > 0 ||
+<           CompareFileTime(&now, &pContext->pCertInfo->NotAfter) > 0)
+<          continue;
+<        if(CertGetIntendedKeyUsage(pContext->dwCertEncodingType,
+<                                   pContext->pCertInfo,
+<                                   key_usage, sizeof(key_usage))) {
+<          if(!(key_usage[0] & CERT_KEY_CERT_SIGN_KEY_USAGE))
+<            continue;
+<        }
+<        else if(GetLastError())
+<          continue;
+<        if(CertGetEnhancedKeyUsage(pContext, 0, NULL, &req_size)) {
+<          if(req_size && req_size > enhkey_usage_size) {
+<            void *tmp = realloc(enhkey_usage, req_size);
+<            if(!tmp) {
+<              failf(data, "SSL: Out of memory allocating for OID list");
+<              result = CURLE_OUT_OF_MEMORY;
+<              break;
+<            }
+<            enhkey_usage = (CERT_ENHKEY_USAGE *)tmp;
+<            enhkey_usage_size = req_size;
+<          }
+<          if(CertGetEnhancedKeyUsage(pContext, 0, enhkey_usage, &req_size)) {
+<            if(!enhkey_usage->cUsageIdentifier) {
+<              if(GetLastError() != CRYPT_E_NOT_FOUND)
+<                continue;
+<            }
+<            else {
+<              DWORD i;
+<              bool found = false;
+<              for(i = 0; i < enhkey_usage->cUsageIdentifier; ++i) {
+<                if(!strcmp("1.3.6.1.5.5.7.3.1" /* OID server auth */,
+<                           enhkey_usage->rgpszUsageIdentifier[i])) {
+<                  found = true;
+<                  break;
+<                }
+<              }
+<              if(!found)
+<                continue;
+<            }
+<          }
+<          else
+<            continue;
+<        }
+<        else
+<          continue;
+<        x509 = d2i_X509(NULL, &encoded_cert, pContext->cbCertEncoded);
+<        if(!x509)
+<          continue;
+<        if(X509_STORE_add_cert(store, x509) == 1) {
+<#if defined(DEBUGBUILD) && !defined(CURL_DISABLE_VERBOSE_STRINGS)
+<          infof(data, "SSL: Imported cert \"%s\"\n", cert_name);
+<#endif
+<          imported_native_ca = true;
+<        }
+<        X509_free(x509);
+<      }
+<      free(enhkey_usage);
+<      CertFreeCertificateContext(pContext);
+<      CertCloseStore(hStore, 0);
+<      if(result)
+<        return result;
+<    }
+<    if(imported_native_ca)
+<      infof(data, "successfully imported windows ca store\n");
+<    else
+<      infof(data, "error importing windows ca store, continuing anyway\n");
+<  }
+<#endif
+<#if defined(OPENSSL_VERSION_MAJOR) && (OPENSSL_VERSION_MAJOR >= 3)
+<  {
+<    if(ssl_cafile) {
+<      if(!SSL_CTX_load_verify_file(backend->ctx, ssl_cafile)) {
+<        if(verifypeer) {
+<          failf(data, "error setting certificate file: %s", ssl_cafile);
+<          return CURLE_SSL_CACERT_BADFILE;
+<        }
+<        infof(data, "error setting certificate file, continuing anyway\n");
+<      }
+<      infof(data, "  CAfile: %s\n", ssl_cafile);
+<    }
+<    if(ssl_capath) {
+<      if(!SSL_CTX_load_verify_dir(backend->ctx, ssl_capath)) {
+<        if(verifypeer) {
+<          failf(data, "error setting certificate path: %s", ssl_capath);
+<          return CURLE_SSL_CACERT_BADFILE;
+<        }
+<        infof(data, "error setting certificate path, continuing anyway\n");
+<      }
+<      infof(data, "  CApath: %s\n", ssl_capath);
+<    }
+<  }
+<#else
+<  if(ssl_cafile || ssl_capath) {
+<    if(!SSL_CTX_load_verify_locations(backend->ctx, ssl_cafile, ssl_capath)) {
+<      if(verifypeer && !imported_native_ca) {
+<        failf(data, "error setting certificate verify locations:\n"
+<              "  CAfile: %s\n  CApath: %s",
+<              ssl_cafile ? ssl_cafile : "none",
+<              ssl_capath ? ssl_capath : "none");
+<        return CURLE_SSL_CACERT_BADFILE;
+<      }
+<      infof(data, "error setting certificate verify locations,"
+<            " continuing anyway:\n");
+<    }
+<    else {
+<      infof(data, "successfully set certificate verify locations:\n");
+<    }
+<    infof(data,
+<          "  CAfile: %s\n"
+<          "  CApath: %s\n",
+<          ssl_cafile ? ssl_cafile : "none",
+<          ssl_capath ? ssl_capath : "none");
+<  }
+<#endif
+<#ifdef CURL_CA_FALLBACK
+<  if(verifypeer && !ssl_cafile && !ssl_capath && !imported_native_ca) {
+<    SSL_CTX_set_default_verify_paths(backend->ctx);
+<  }
+<#endif
+<  if(ssl_crlfile) {
+<    lookup = X509_STORE_add_lookup(SSL_CTX_get_cert_store(backend->ctx),
+<                                 X509_LOOKUP_file());
+<    if(!lookup ||
+<       (!X509_load_crl_file(lookup, ssl_crlfile, X509_FILETYPE_PEM)) ) {
+<      failf(data, "error loading CRL file: %s", ssl_crlfile);
+<      return CURLE_SSL_CRL_BADFILE;
+<    }
+<    infof(data, "successfully load CRL file:\n");
+<    X509_STORE_set_flags(SSL_CTX_get_cert_store(backend->ctx),
+<                         X509_V_FLAG_CRL_CHECK|X509_V_FLAG_CRL_CHECK_ALL);
+<    infof(data, "  CRLfile: %s\n", ssl_crlfile);
+<  }
+<  if(verifypeer) {
+<#if defined(X509_V_FLAG_TRUSTED_FIRST)
+<    X509_STORE_set_flags(SSL_CTX_get_cert_store(backend->ctx),
+<                         X509_V_FLAG_TRUSTED_FIRST);
+<#endif
+<#ifdef X509_V_FLAG_PARTIAL_CHAIN
+<    if(!SSL_SET_OPTION(no_partialchain) && !ssl_crlfile) {
+<      X509_STORE_set_flags(SSL_CTX_get_cert_store(backend->ctx),
+<                           X509_V_FLAG_PARTIAL_CHAIN);
+<    }
+<#endif
+<  }
+<  SSL_CTX_set_verify(backend->ctx,
+<                     verifypeer ? SSL_VERIFY_PEER : SSL_VERIFY_NONE, NULL);
+<#ifdef HAVE_KEYLOG_CALLBACK
+<  if(Curl_tls_keylog_enabled()) {
+<    SSL_CTX_set_keylog_callback(backend->ctx, ossl_keylog_callback);
+<  }
+<#endif
+<  SSL_CTX_set_session_cache_mode(backend->ctx,
+<      SSL_SESS_CACHE_CLIENT | SSL_SESS_CACHE_NO_INTERNAL);
+<  SSL_CTX_sess_set_new_cb(backend->ctx, ossl_new_session_cb);
+<  if(data->set.ssl.fsslctx) {
+<    Curl_set_in_callback(data, true);
+<    result = (*data->set.ssl.fsslctx)(data, backend->ctx,
+<                                      data->set.ssl.fsslctxp);
+<    Curl_set_in_callback(data, false);
+<    if(result) {
+<      failf(data, "error signaled by ssl ctx callback");
+<      return result;
+<    }
+<  }
+<  if(backend->handle)
+<    SSL_free(backend->handle);
+<  backend->handle = SSL_new(backend->ctx);
+<  if(!backend->handle) {
+<    failf(data, "SSL: couldn't create a context (handle)!");
+<    return CURLE_OUT_OF_MEMORY;
+<  }
+<#if (OPENSSL_VERSION_NUMBER >= 0x0090808fL) && !defined(OPENSSL_NO_TLSEXT) && \
+<    !defined(OPENSSL_NO_OCSP)
+<  if(SSL_CONN_CONFIG(verifystatus))
+<    SSL_set_tlsext_status_type(backend->handle, TLSEXT_STATUSTYPE_ocsp);
+<#endif
+<#if defined(OPENSSL_IS_BORINGSSL) && defined(ALLOW_RENEG)
+<  SSL_set_renegotiate_mode(backend->handle, ssl_renegotiate_freely);
+<#endif
+<  SSL_set_connect_state(backend->handle);
+<  backend->server_cert = 0x0;
+<#ifdef SSL_CTRL_SET_TLSEXT_HOSTNAME
+<  if((0 == Curl_inet_pton(AF_INET, hostname, &addr)) &&
+<#ifdef ENABLE_IPV6
+<     (0 == Curl_inet_pton(AF_INET6, hostname, &addr)) &&
+<#endif
+<     sni &&
+<     !SSL_set_tlsext_host_name(backend->handle, hostname))
+<    infof(data, "WARNING: failed to configure server name indication (SNI) "
+<          "TLS extension\n");
+<#endif
+<  if(SSL_SET_OPTION(primary.sessionid)) {
+<    void *ssl_sessionid = NULL;
+<    int connectdata_idx = ossl_get_ssl_conn_index();
+<    int sockindex_idx = ossl_get_ssl_sockindex_index();
+<    if(connectdata_idx >= 0 && sockindex_idx >= 0) {
+<      SSL_set_ex_data(backend->handle, connectdata_idx, conn);
+<      SSL_set_ex_data(backend->handle, sockindex_idx, conn->sock + sockindex);
+<    }
+<    Curl_ssl_sessionid_lock(conn);
+<    if(!Curl_ssl_getsessionid(conn, &ssl_sessionid, NULL, sockindex)) {
+<      if(!SSL_set_session(backend->handle, ssl_sessionid)) {
+<        Curl_ssl_sessionid_unlock(conn);
+<        failf(data, "SSL: SSL_set_session failed: %s",
+<              ossl_strerror(ERR_get_error(), error_buffer,
+<                            sizeof(error_buffer)));
+<        return CURLE_SSL_CONNECT_ERROR;
+<      }
+<      infof(data, "SSL re-using session ID\n");
+<    }
+<    Curl_ssl_sessionid_unlock(conn);
+<  }
+<#ifndef CURL_DISABLE_PROXY
+<  if(conn->proxy_ssl[sockindex].use) {
+<    BIO *const bio = BIO_new(BIO_f_ssl());
+<    SSL *handle = conn->proxy_ssl[sockindex].backend->handle;
+<    DEBUGASSERT(ssl_connection_complete == conn->proxy_ssl[sockindex].state);
+<    DEBUGASSERT(handle != NULL);
+<    DEBUGASSERT(bio != NULL);
+<    BIO_set_ssl(bio, handle, FALSE);
+<    SSL_set_bio(backend->handle, bio, bio);
+<  }
+<  else
+<#endif
+2467a2468
+>  void *ssl_sessionid = NULL;
+3160a3161
+>  }
+3166c3166
+<                            sizeof(error_buffer)));
+---
+>if(conn->proxy_ssl[sockindex].use) {
+3171,3176d
+<    }
+<    Curl_ssl_sessionid_unlock(conn);
+<  }
+<#ifndef CURL_DISABLE_PROXY
+<  if(conn->proxy_ssl[sockindex].use) {
+3177a3178
+>  Curl_ssl_sessionid_unlock(data);
+4420a4421,4472
+>static void ossl_associate_connection(struct Curl_easy *data,struct connectdata *conn,int sockindex)
+>{
+>  struct ssl_connect_data *connssl = &conn->ssl[sockindex];
+>  struct ssl_backend_data *backend = connssl->backend;
+>  if(!backend->handle)
+>    return;
+>  if(SSL_SET_OPTION(primary.sessionid)) {
+>    int data_idx = ossl_get_ssl_data_index();
+>    int connectdata_idx = ossl_get_ssl_conn_index();
+>    int sockindex_idx = ossl_get_ssl_sockindex_index();
+>    int proxy_idx = ossl_get_proxy_index();
+>    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {
+>      SSL_set_ex_data(backend->handle, data_idx, data);
+>      SSL_set_ex_data(backend->handle, connectdata_idx, conn);
+>      SSL_set_ex_data(backend->handle, sockindex_idx, conn->sock + sockindex);
+>#ifndef CURL_DISABLE_PROXY
+>      SSL_set_ex_data(backend->handle, proxy_idx, SSL_IS_PROXY() ? (void *) 1:NULL);
+>#else
+>      SSL_set_ex_data(backend->handle, proxy_idx, NULL);
+>#endif
+>    }
+>  }
+>}
+>static void ossl_disassociate_connection(struct Curl_easy *data, int sockindex)
+>{
+>  struct connectdata *conn = data->conn;
+>  struct ssl_connect_data *connssl = &conn->ssl[sockindex];
+>  struct ssl_backend_data *backend = connssl->backend;
+>  if(!backend->handle)
+>    return;
+>  if(SSL_SET_OPTION(primary.sessionid)) {
+>    bool isproxy = FALSE;
+>    bool incache;
+>    void *old_ssl_sessionid = NULL;
+>    int data_idx = ossl_get_ssl_data_index();
+>    int connectdata_idx = ossl_get_ssl_conn_index();
+>    int sockindex_idx = ossl_get_ssl_sockindex_index();
+>    int proxy_idx = ossl_get_proxy_index();
+>    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {
+>      isproxy = SSL_get_ex_data(backend->handle, proxy_idx) ? TRUE : FALSE;
+>      SSL_set_ex_data(backend->handle, data_idx, NULL);
+>      SSL_set_ex_data(backend->handle, connectdata_idx, NULL);
+>      SSL_set_ex_data(backend->handle, sockindex_idx, NULL);
+>      SSL_set_ex_data(backend->handle, proxy_idx, NULL);
+>    }
+>    Curl_ssl_sessionid_lock(data);
+>    incache = !(Curl_ssl_getsessionid(data, conn, isproxy,&old_ssl_sessionid, NULL, sockindex));
+>    if(incache)
+>      Curl_ssl_delsessionid(data, old_ssl_sessionid);
+>    Curl_ssl_sessionid_unlock(data);
+>  }
+>}
+4425,4455c4425
+<  SSLSUPP_TLS13_CIPHERSUITES |
+<#endif
+<  SSLSUPP_HTTPS_PROXY,
+<  sizeof(struct ssl_backend_data),
+<  Curl_ossl_init,                /* init */
+<  Curl_ossl_cleanup,             /* cleanup */
+<  Curl_ossl_version,             /* version */
+<  Curl_ossl_check_cxn,           /* check_cxn */
+<  Curl_ossl_shutdown,            /* shutdown */
+<  Curl_ossl_data_pending,        /* data_pending */
+<  Curl_ossl_random,              /* random */
+<  Curl_ossl_cert_status_request, /* cert_status_request */
+<  Curl_ossl_connect,             /* connect */
+<  Curl_ossl_connect_nonblocking, /* connect_nonblocking */
+<  Curl_ossl_get_internals,       /* get_internals */
+<  Curl_ossl_close,               /* close_one */
+<  Curl_ossl_close_all,           /* close_all */
+<  Curl_ossl_session_free,        /* session_free */
+<  Curl_ossl_set_engine,          /* set_engine */
+<  Curl_ossl_set_engine_default,  /* set_engine_default */
+<  Curl_ossl_engines_list,        /* engines_list */
+<  Curl_none_false_start,         /* false_start */
+<  Curl_ossl_md5sum,              /* md5sum */
+<#if (OPENSSL_VERSION_NUMBER >= 0x0090800fL) && !defined(OPENSSL_NO_SHA256)
+<  Curl_ossl_sha256sum            /* sha256sum */
+<#else
+<  NULL                           /* sha256sum */
+<#endif
+<};
+---
+>  SSLSUPP_TLS13_CIPHERSUITES |#endifSSLSUPP_HTTPS_PROXY,sizeof(struct ssl_backend_data),ossl_init,/* init */ossl_cleanup, /* cleanup */ossl_version, /* version */ossl_check_cxn, /* check_cxn */ossl_shutdown,/* shutdown */ossl_data_pending,/* data_pending */ossl_random,/* random */ossl_cert_status_request, /* cert_status_request */ossl_connect, /* connect */ossl_connect_nonblocking, /* connect_nonblocking */Curl_ssl_getsock, /* getsock */ossl_get_internals, /* get_internals */ossl_close, /* close_one */ossl_close_all, /* close_all */ossl_session_free,/* session_free */ossl_set_engine,/* set_engine */ossl_set_engine_default,/* set_engine_default */ossl_engines_list,/* engines_list */Curl_none_false_start,/* false_start */#if (OPENSSL_VERSION_NUMBER >= 0x0090800fL) && !defined(OPENSSL_NO_SHA256)#else#endif};
+4457a4458,4460
+>  NULL,                     /* sha256sum */
+>  ossl_associate_connection, /* associate_connection */
+>  ossl_disassociate_connection /* disassociate_connection */

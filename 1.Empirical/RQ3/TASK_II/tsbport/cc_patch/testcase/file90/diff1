@@ -1,0 +1,8 @@
+233c233
+< 	char szLineConv[1024];
+---
+> 	char szLineConv[2048];
+306c306
+< 	i = (u32) gf_utf8_wcstombs(szLineConv, 1024, (const unsigned short **) &sptr);
+---
+> 	i = (u32) gf_utf8_wcstombs(szLineConv, 2048, (const unsigned short **) &sptr);

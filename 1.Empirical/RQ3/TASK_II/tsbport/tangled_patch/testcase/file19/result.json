@@ -1,0 +1,65 @@
+{
+    "testcase": {
+        "file19": {
+            "match_message": {
+                "Same: TEST_F -> TEST_F": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 497->579",
+                        "L2": "3: Unique Matched by Source code 498 -> 579"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 28,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 579,
+                        "add_hunk": [
+                            "TEST_F(NgramKernelTest, TestNoTokens) {\n",
+                            "  MakeOp(\"|\", {3}, \"L\", \"R\", -1, false);\n",
+                            "  AddInputFromArray<tstring>(TensorShape({1}), {\"a\"});\n",
+                            "  AddInputFromArray<int64>(TensorShape({3}), {0, 0, 1});\n",
+                            "  TF_ASSERT_OK(RunOpKernel());\n",
+                            "  std::vector<tstring> expected_values(\n",
+                            "      {\"L|L|R\", \"L|R|R\", // no input in first split \"L|L|a\", \"L|a|R\", \"a|R|R\"});  // second split\n",
+                            "  assert_string_equal(expected_values, *GetOutput(0));\n",
+                            "  assert_int64_equal(expected_splits, *GetOutput(1));\n",
+                            "}\n",
+                            "TEST_F(NgramKernelTest, TestNoTokensNoPad) {\n",
+                            "  MakeOp(\"|\", {3}, \"\", \"\", 0, false);\n",
+                            "  AddInputFromArray<tstring>(TensorShape({1}), {\"a\"});\n",
+                            "  AddInputFromArray<int64>(TensorShape({3}), {0, 0, 1});\n",
+                            "  TF_ASSERT_OK(RunOpKernel());\n",
+                            "  std::vector<tstring> expected_values({});\n",
+                            "  std::vector<int64> expected_splits({0, 0, 0});\n",
+                            "  assert_string_equal(expected_values, *GetOutput(0));\n",
+                            "  assert_int64_equal(expected_splits, *GetOutput(1));\n",
+                            "}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: TEST_F -> TEST_F": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "error_handle",
+                "other"
+            ]
+        }
+    }
+}

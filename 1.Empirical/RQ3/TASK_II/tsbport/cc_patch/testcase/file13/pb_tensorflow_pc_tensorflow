@@ -1,0 +1,1528 @@
+operator: <  @ 39 @ operator: <  @ 43 @ 
+literal: 0  @ 75 @ literal: 0  @ 97 @ 
+init  @ 64 @ init  @ 83 @ 
+decl  @ 89 @ decl  @ 125 @ 
+name  @ 55 @ name  @ 69 @ 
+call  @ 102 @ call  @ 139 @ 
+name: context  @ 9 @ name: context  @ 10 @ 
+operator: (  @ 102 @ operator: (  @ 139 @ 
+name: OP_REQUIRES_OK  @ 75 @ name: OP_REQUIRES_OK  @ 94 @ 
+expr  @ 128 @ expr  @ 166 @ 
+name: left_padding  @ 103 @ name: left_padding  @ 140 @ 
+expr  @ 64 @ expr  @ 83 @ 
+expr  @ 148 @ expr  @ 186 @ 
+name: SPLITS_TYPE  @ 36 @ name: SPLITS_TYPE  @ 39 @ 
+argument  @ 126 @ argument  @ 163 @ 
+argument  @ 10 @ argument  @ 11 @ 
+expr  @ 157 @ expr  @ 195 @ 
+argument_list  @ 49 @ argument_list  @ 78 @ 
+name: ngrams_splits  @ 49 @ name: ngrams_splits  @ 78 @ 
+expr  @ 140 @ expr  @ 178 @ 
+name: int  @ 80 @ name: int  @ 105 @ 
+operator: =  @ 32 @ operator: =  @ 35 @ 
+expr  @ 124 @ expr  @ 161 @ 
+call  @ 138 @ call  @ 176 @ 
+call  @ 55 @ call  @ 68 @ 
+call  @ 32 @ call  @ 35 @ 
+operator: <  @ 21 @ operator: <  @ 23 @ 
+name: int  @ 101 @ name: int  @ 138 @ 
+specifier: const  @ 17 @ specifier: const  @ 19 @ 
+operator: ==  @ 53 @ operator: ==  @ 66 @ 
+argument  @ 138 @ argument  @ 176 @ 
+name: ngram_width  @ 92 @ name: ngram_width  @ 128 @ 
+name: extend_pad_  @ 165 @ name: extend_pad_  @ 203 @ 
+expr_stmt  @ 149 @ expr_stmt  @ 187 @ 
+name: num_ngrams  @ 65 @ name: num_ngrams  @ 84 @ 
+operator: ::  @ 168 @ operator: ::  @ 206 @ 
+expr  @ 98 @ expr  @ 135 @ 
+argument  @ 102 @ argument  @ 139 @ 
+literal: 2  @ 26 @ literal: 2  @ 29 @ 
+name: num_ngrams  @ 92 @ name: num_ngrams  @ 128 @ 
+name: ngram  @ 125 @ name: ngram  @ 162 @ 
+argument_list  @ 32 @ argument_list  @ 35 @ 
+argument  @ 125 @ argument  @ 162 @ 
+operator: *  @ 116 @ operator: *  @ 153 @ 
+literal: 0  @ 76 @ literal: 0  @ 100 @ 
+name: input_data_size  @ 44 @ name: input_data_size  @ 56 @ 
+expr  @ 82 @ expr  @ 107 @ 
+block  @ 68 @ block  @ 87 @ 
+name: ngram_size  @ 116 @ name: ngram_size  @ 153 @ 
+expr  @ 104 @ expr  @ 141 @ 
+operator: ->  @ 76 @ operator: ->  @ 98 @ 
+expr  @ 42 @ expr  @ 51 @ 
+then  @ 104 @ then  @ 141 @ 
+literal: 0  @ 104 @ literal: 0  @ 141 @ 
+name: get_pad_width  @ 25 @ name: get_pad_width  @ 28 @ 
+call  @ 12 @ call  @ 13 @ 
+condition  @ 53 @ condition  @ 66 @ 
+type  @ 100 @ type  @ 137 @ 
+operator: +=  @ 119 @ operator: +=  @ 156 @ 
+expr  @ 149 @ expr  @ 187 @ 
+macro  @ 8 @ macro  @ 9 @ 
+name: data  @ 53 @ name: data  @ 66 @ 
+operator: (  @ 36 @ operator: (  @ 39 @ 
+type  @ 64 @ type  @ 83 @ 
+name: size  @ 53 @ name: size  @ 66 @ 
+name: ngram_width  @ 97 @ name: ngram_width  @ 134 @ 
+name: empty  @ 55 @ name: empty  @ 69 @ 
+index  @ 71 @ index  @ 90 @ 
+name: i  @ 80 @ name: i  @ 105 @ 
+call  @ 44 @ call  @ 54 @ 
+name: splits  @ 34 @ name: splits  @ 37 @ 
+expr  @ 102 @ expr  @ 139 @ 
+name: valid_splits  @ 42 @ name: valid_splits  @ 51 @ 
+argument  @ 141 @ argument  @ 179 @ 
+argument  @ 140 @ argument  @ 178 @ 
+init  @ 66 @ init  @ 85 @ 
+operator: =  @ 71 @ operator: =  @ 90 @ 
+name: left_pad_  @ 11 @ name: left_pad_  @ 12 @ 
+operator: -  @ 102 @ operator: -  @ 139 @ 
+literal: 0  @ 68 @ literal: 0  @ 87 @ 
+name: get_pad_width  @ 99 @ name: get_pad_width  @ 136 @ 
+operator: ++  @ 139 @ operator: ++  @ 177 @ 
+name: allocate_output  @ 55 @ name: allocate_output  @ 69 @ 
+name  @ 90 @ name  @ 126 @ 
+name: int  @ 17 @ name: int  @ 19 @ 
+name: i  @ 56 @ name: splits  @ 71 @ 
+name: output_start  @ 79 @ name: output_start  @ 104 @ 
+argument_list  @ 110 @ argument_list  @ 147 @ 
+expr  @ 41 @ expr  @ 81 @ 
+name: GetAttr  @ 12 @ name: GetAttr  @ 13 @ 
+argument  @ 44 @ argument  @ 55 @ 
+name: size  @ 53 @ name: size  @ 66 @ 
+call  @ 92 @ call  @ 128 @ 
+expr  @ 32 @ expr  @ 35 @ 
+name: n  @ 128 @ name: n  @ 166 @ 
+expr  @ 44 @ expr  @ 53 @ 
+operator: ::  @ 54 @ operator: ::  @ 67 @ 
+operator: ::  @ 30 @ operator: ::  @ 33 @ 
+expr  @ 26 @ expr  @ 29 @ 
+expr  @ 41 @ expr  @ 50 @ 
+expr  @ 157 @ expr  @ 195 @ 
+argument_list  @ 129 @ argument_list  @ 167 @ 
+call  @ 21 @ call  @ 23 @ 
+operator: <  @ 76 @ operator: <  @ 98 @ 
+name: auto  @ 79 @ name: auto  @ 104 @ 
+argument  @ 26 @ argument  @ 29 @ 
+argument  @ 80 @ argument  @ 105 @ 
+name: num_separators  @ 118 @ name: num_separators  @ 155 @ 
+expr  @ 81 @ expr  @ 106 @ 
+argument  @ 10 @ argument  @ 11 @ 
+name: right_pad_  @ 149 @ name: right_pad_  @ 187 @ 
+operator: <=  @ 43 @ operator: <=  @ 52 @ 
+block_content  @ 98 @ block_content  @ 135 @ 
+argument_list  @ 125 @ argument_list  @ 162 @ 
+name: ngram_size  @ 119 @ name: ngram_size  @ 156 @ 
+call  @ 80 @ call  @ 105 @ 
+call  @ 9 @ call  @ 10 @ 
+name: num_tokens  @ 128 @ name: num_tokens  @ 166 @ 
+name: empty  @ 54 @ name: empty  @ 67 @ 
+literal: "left_pad"  @ 11 @ literal: "left_pad"  @ 12 @ 
+type  @ 78 @ type  @ 103 @ 
+name  @ 129 @ name  @ 167 @ 
+name: append  @ 129 @ name: append  @ 167 @ 
+expr  @ 9 @ expr  @ 10 @ 
+block  @ 41 @ block  @ 50 @ 
+name: length  @ 80 @ name: length  @ 105 @ 
+decl_stmt  @ 91 @ decl_stmt  @ 127 @ 
+operator: (  @ 103 @ operator: (  @ 140 @ 
+argument  @ 31 @ argument  @ 34 @ 
+block_content  @ 77 @ block_content  @ 101 @ 
+name: data  @ 97 @ name: data  @ 133 @ 
+name: ngrams_splits_data  @ 78 @ name: ngrams_splits_data  @ 102 @ 
+expr  @ 10 @ expr  @ 11 @ 
+operator: =  @ 43 @ operator: =  @ 52 @ 
+argument_list  @ 49 @ argument_list  @ 78 @ 
+block  @ 67 @ block  @ 86 @ 
+comment: // Size of the left padding.  @ 109 @ comment: // Size of the left padding.  @ 146 @ 
+operator: ->  @ 32 @ operator: ->  @ 35 @ 
+call  @ 149 @ call  @ 187 @ 
+name: ngram_widths_  @ 78 @ name: ngram_widths_  @ 103 @ 
+argument_list  @ 67 @ argument_list  @ 86 @ 
+expr  @ 150 @ expr  @ 188 @ 
+operator: <  @ 112 @ operator: <  @ 149 @ 
+decl  @ 78 @ decl  @ 102 @ 
+name  @ 71 @ name  @ 90 @ 
+if  @ 53 @ if  @ 66 @ 
+argument  @ 75 @ argument  @ 95 @ 
+name: left_padding  @ 118 @ name: left_padding  @ 155 @ 
+expr  @ 49 @ expr  @ 77 @ 
+argument_list  @ 49 @ argument_list  @ 77 @ 
+name  @ 50 @ name  @ 79 @ 
+expr  @ 13 @ expr  @ 14 @ 
+operator: ->  @ 149 @ operator: ->  @ 187 @ 
+expr  @ 55 @ expr  @ 69 @ 
+argument  @ 102 @ argument  @ 139 @ 
+macro  @ 24 @ macro  @ 27 @ 
+name: tstring  @ 39 @ name: tstring  @ 43 @ 
+name  @ 31 @ name  @ 34 @ 
+operator: -  @ 148 @ operator: -  @ 186 @ 
+name: num_ngrams  @ 82 @ name: num_ngrams  @ 107 @ 
+comment: // If we're preserving short sequences, check to see if no sequence was// generated by comparing the current output start idx to the original// one (ngram_splits_data). If no ngrams were generated, then they will// be equal (since we increment output_start_idx by num_ngrams every// time we create a set of ngrams.)if (preserve_short_&&output_start_idx == ngrams_splits_data[i]) {int data_length = splits_vec(i + 1) - splits_vec(i);// One legitimate reason to not have any ngrams when preserve_short_// is true is if the sequence itself is empty. In that case, move on.if (data_length == 0) {  @ 83 @ comment: // If we're preserving short sequences, check to see if no sequence was  @ 110 @ 
+literal: 1  @ 47 @ literal: "Last split value must be data size. Expected "  @ 61 @ 
+decl  @ 99 @ decl  @ 136 @ 
+name: splits_vec  @ 53 @ name: splits_vec  @ 66 @ 
+for  @ 124 @ for  @ 161 @ 
+argument  @ 67 @ argument  @ 86 @ 
+expr  @ 14 @ expr  @ 15 @ 
+name: ngram_size  @ 110 @ name: ngram_size  @ 147 @ 
+argument_list  @ 8 @ argument_list  @ 9 @ 
+expr  @ 56 @ expr  @ 71 @ 
+argument_list  @ 157 @ argument_list  @ 195 @ 
+decl_stmt  @ 76 @ decl_stmt  @ 98 @ 
+name: pad_width  @ 99 @ name: pad_width  @ 136 @ 
+operator: )  @ 26 @ operator: )  @ 29 @ 
+type  @ 5 @ type  @ 5 @ 
+name: num_ngrams  @ 67 @ name: num_ngrams  @ 86 @ 
+comment: // Size of the right padding.  @ 115 @ comment: // Size of the right padding.  @ 152 @ 
+argument  @ 31 @ argument  @ 34 @ 
+name: n  @ 148 @ name: n  @ 186 @ 
+operator: .  @ 116 @ operator: .  @ 153 @ 
+block  @ 134 @ block  @ 172 @ 
+name: int  @ 64 @ name: int  @ 83 @ 
+argument  @ 64 @ argument  @ 83 @ 
+init  @ 65 @ init  @ 84 @ 
+expr  @ 138 @ expr  @ 176 @ 
+argument_list  @ 149 @ argument_list  @ 187 @ 
+operator: &  @ 77 @ operator: &  @ 101 @ 
+expr  @ 11 @ expr  @ 12 @ 
+expr  @ 64 @ expr  @ 83 @ 
+name  @ 130 @ name  @ 168 @ 
+name: allocate_output  @ 49 @ name: allocate_output  @ 78 @ 
+name: left_pad_  @ 162 @ name: left_pad_  @ 200 @ 
+call  @ 11 @ call  @ 12 @ 
+operator: ==  @ 68 @ operator: ==  @ 87 @ 
+operator: +  @ 26 @ operator: +  @ 29 @ 
+for  @ 112 @ for  @ 149 @ 
+condition  @ 112 @ condition  @ 149 @ 
+decl_stmt  @ 169 @ decl_stmt  @ 207 @ 
+name: context  @ 49 @ name: context  @ 78 @ 
+operator: ++  @ 148 @ operator: ++  @ 186 @ 
+name: ngram_index  @ 98 @ name: ngram_index  @ 135 @ 
+call  @ 39 @ call  @ 43 @ 
+control  @ 128 @ control  @ 166 @ 
+macro  @ 4 @ macro  @ 4 @ 
+comment: // If we don't have tokens, then the last item inserted into the ngram  @ 144 @ comment: // If we don't have tokens, then the last item inserted into the ngram  @ 182 @ 
+argument_list  @ 81 @ argument_list  @ 106 @ 
+init  @ 41 @ init  @ 50 @ 
+name: ngram  @ 123 @ name: ngram  @ 160 @ 
+expr  @ 138 @ expr  @ 176 @ 
+operator: +=  @ 110 @ operator: +=  @ 147 @ 
+name: ngram_width  @ 82 @ name: ngram_width  @ 107 @ 
+operator: ->  @ 10 @ operator: ->  @ 11 @ 
+expr  @ 69 @ expr  @ 88 @ 
+block  @ 97 @ block  @ 134 @ 
+operator: =  @ 40 @ operator: =  @ 44 @ 
+name: tensorflow  @ 8 @ name: tensorflow  @ 9 @ 
+init  @ 76 @ init  @ 100 @ 
+incr  @ 98 @ incr  @ 135 @ 
+argument_list  @ 152 @ argument_list  @ 190 @ 
+expr  @ 55 @ expr  @ 69 @ 
+operator: .  @ 76 @ operator: .  @ 98 @ 
+expr  @ 128 @ expr  @ 166 @ 
+argument_list  @ 100 @ argument_list  @ 137 @ 
+expr  @ 122 @ expr  @ 159 @ 
+argument  @ 77 @ argument  @ 101 @ 
+call  @ 44 @ call  @ 55 @ 
+decl  @ 124 @ decl  @ 161 @ 
+operator: )  @ 32 @ operator: )  @ 35 @ 
+name: ngram_width  @ 25 @ name: ngram_width  @ 28 @ 
+expr  @ 134 @ expr  @ 172 @ 
+init  @ 41 @ init  @ 50 @ 
+argument  @ 97 @ argument  @ 134 @ 
+name: OP_REQUIRES_OK  @ 11 @ name: OP_REQUIRES_OK  @ 12 @ 
+operator: ->  @ 140 @ operator: ->  @ 178 @ 
+operator: -  @ 118 @ operator: -  @ 155 @ 
+operator: ->  @ 138 @ operator: ->  @ 176 @ 
+argument  @ 44 @ argument  @ 54 @ 
+type  @ 99 @ type  @ 136 @ 
+name: i  @ 80 @ name: i  @ 105 @ 
+comment: // ever be wider than 'ngram_width' - 1.  @ 20 @ comment: // ever be wider than 'ngram_width' - 1.  @ 22 @ 
+expr  @ 35 @ expr  @ 38 @ 
+expr  @ 44 @ expr  @ 53 @ 
+block_content  @ 67 @ block_content  @ 86 @ 
+name: splits  @ 36 @ name: splits  @ 39 @ 
+index  @ 129 @ index  @ 167 @ 
+else  @ 143 @ else  @ 181 @ 
+if_stmt  @ 134 @ if_stmt  @ 172 @ 
+expr  @ 92 @ expr  @ 128 @ 
+expr  @ 63 @ expr  @ 82 @ 
+operator: <=  @ 56 @ operator: ->  @ 71 @ 
+argument_list  @ 119 @ argument_list  @ 156 @ 
+init  @ 91 @ init  @ 127 @ 
+expr  @ 34 @ expr  @ 37 @ 
+name: i  @ 63 @ name: i  @ 82 @ 
+block  @ 63 @ block  @ 82 @ 
+expr  @ 97 @ expr  @ 133 @ 
+operator: (  @ 26 @ operator: (  @ 29 @ 
+operator: :  @ 6 @ operator: :  @ 7 @ 
+name: i  @ 64 @ name: i  @ 83 @ 
+operator: ::  @ 74 @ operator: ::  @ 93 @ 
+name: output  @ 97 @ name: output  @ 133 @ 
+expr  @ 53 @ expr  @ 66 @ 
+expr  @ 54 @ expr  @ 67 @ 
+argument  @ 92 @ argument  @ 128 @ 
+operator: <  @ 98 @ operator: <  @ 135 @ 
+operator: ::  @ 48 @ operator: ::  @ 76 @ 
+argument  @ 64 @ argument  @ 83 @ 
+comment: // width depending on the 'pad_width' arg, but in no case should the padding  @ 19 @ comment: // width depending on the 'pad_width' arg, but in no case should the padding  @ 21 @ 
+expr  @ 13 @ expr  @ 14 @ 
+argument_list  @ 14 @ argument_list  @ 15 @ 
+name: ngram  @ 157 @ name: ngram  @ 195 @ 
+expr  @ 31 @ expr  @ 34 @ 
+expr  @ 63 @ expr  @ 82 @ 
+block  @ 24 @ block  @ 27 @ 
+literal: 0  @ 57 @ literal: 0  @ 81 @ 
+name  @ 168 @ name  @ 206 @ 
+decl_stmt  @ 101 @ decl_stmt  @ 138 @ 
+operator: ->  @ 125 @ operator: ->  @ 162 @ 
+call  @ 76 @ call  @ 98 @ 
+name: bool  @ 165 @ name: bool  @ 203 @ 
+expr  @ 92 @ expr  @ 128 @ 
+operator: )  @ 102 @ operator: )  @ 139 @ 
+argument  @ 44 @ argument  @ 56 @ 
+expr  @ 100 @ expr  @ 137 @ 
+for  @ 98 @ for  @ 135 @ 
+argument_list  @ 64 @ argument_list  @ 83 @ 
+expr  @ 49 @ expr  @ 78 @ 
+argument_list  @ 138 @ argument_list  @ 176 @ 
+argument_list  @ 13 @ argument_list  @ 14 @ 
+block  @ 139 @ block  @ 177 @ 
+init  @ 98 @ init  @ 135 @ 
+call  @ 49 @ call  @ 77 @ 
+return  @ 21 @ return  @ 23 @ 
+name: data_start_index  @ 104 @ name: data_start_index  @ 141 @ 
+name: OP_REQUIRES_OK  @ 49 @ name: OP_REQUIRES_OK  @ 77 @ 
+name: tstring  @ 53 @ name: tstring  @ 66 @ 
+name: int  @ 25 @ name: int  @ 28 @ 
+name: tstring  @ 76 @ name: tstring  @ 98 @ 
+expr  @ 149 @ expr  @ 187 @ 
+expr  @ 30 @ expr  @ 33 @ 
+type  @ 128 @ type  @ 166 @ 
+name: context  @ 35 @ name: context  @ 38 @ 
+comment: // correct amount of space in the string.  @ 107 @ comment: // correct amount of space in the string.  @ 144 @ 
+init  @ 77 @ init  @ 101 @ 
+argument_list  @ 168 @ argument_list  @ 206 @ 
+operator: -  @ 102 @ operator: -  @ 139 @ 
+name: n  @ 112 @ name: n  @ 149 @ 
+specifier: const  @ 39 @ specifier: const  @ 43 @ 
+expr  @ 35 @ expr  @ 38 @ 
+expr  @ 43 @ expr  @ 52 @ 
+block  @ 4 @ block  @ 4 @ 
+literal: 0  @ 68 @ literal: 0  @ 87 @ 
+argument  @ 21 @ argument  @ 23 @ 
+name: data  @ 39 @ name: data  @ 43 @ 
+argument_list  @ 64 @ argument_list  @ 83 @ 
+name: Tensor  @ 74 @ name: Tensor  @ 93 @ 
+literal: "]"  @ 44 @ literal: "]"  @ 56 @ 
+expr  @ 71 @ expr  @ 90 @ 
+name: std  @ 168 @ name: std  @ 206 @ 
+name  @ 11 @ name  @ 12 @ 
+name: append  @ 125 @ name: append  @ 162 @ 
+name  @ 77 @ name  @ 101 @ 
+name: left_padding  @ 110 @ name: left_padding  @ 147 @ 
+name: num_tokens  @ 112 @ name: num_tokens  @ 149 @ 
+name: ngram_index  @ 122 @ name: ngram_index  @ 159 @ 
+expr  @ 21 @ expr  @ 23 @ 
+name: OP_REQUIRES_OK  @ 55 @ name: OP_REQUIRES_OK  @ 68 @ 
+operator: -  @ 21 @ operator: -  @ 23 @ 
+decl_stmt  @ 77 @ decl_stmt  @ 101 @ 
+name  @ 149 @ name  @ 187 @ 
+argument_list  @ 75 @ argument_list  @ 94 @ 
+expr  @ 129 @ expr  @ 167 @ 
+expr  @ 78 @ expr  @ 102 @ 
+decl  @ 91 @ decl  @ 127 @ 
+name: flat  @ 53 @ name: flat  @ 66 @ 
+operator: )  @ 53 @ operator: )  @ 66 @ 
+name: ngrams_data  @ 90 @ name: ngrams_data  @ 126 @ 
+name  @ 140 @ name  @ 178 @ 
+operator: +  @ 89 @ operator: +  @ 125 @ 
+expr  @ 14 @ expr  @ 15 @ 
+name: int  @ 118 @ name: int  @ 155 @ 
+operator: -  @ 21 @ operator: -  @ 24 @ 
+expr  @ 67 @ expr  @ 86 @ 
+expr  @ 68 @ expr  @ 87 @ 
+name: splits_vec  @ 77 @ name: splits_vec  @ 101 @ 
+type  @ 90 @ type  @ 126 @ 
+operator: )  @ 39 @ operator: )  @ 43 @ 
+name: input  @ 31 @ name: input  @ 34 @ 
+operator: +  @ 71 @ operator: +  @ 90 @ 
+expr  @ 56 @ expr  @ 71 @ 
+block  @ 5 @ block  @ 6 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+argument  @ 26 @ argument  @ 29 @ 
+name: max  @ 100 @ name: max  @ 137 @ 
+name: splits_vec_size  @ 41 @ name: splits_vec_size  @ 50 @ 
+operator: &  @ 11 @ operator: &  @ 12 @ 
+expr  @ 92 @ expr  @ 128 @ 
+call  @ 13 @ call  @ 14 @ 
+argument  @ 49 @ argument  @ 78 @ 
+argument  @ 82 @ argument  @ 107 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 53 @ 
+block_content  @ 42 @ block_content  @ 51 @ 
+name: size  @ 39 @ name: size  @ 43 @ 
+operator: *  @ 74 @ operator: *  @ 93 @ 
+decl  @ 163 @ decl  @ 201 @ 
+operator: *  @ 119 @ operator: *  @ 156 @ 
+operator: &  @ 79 @ operator: &  @ 104 @ 
+operator: &  @ 31 @ operator: &  @ 34 @ 
+name: CreateNgrams  @ 92 @ name: CreateNgrams  @ 128 @ 
+name: i  @ 56 @ name: empty  @ 71 @ 
+operator: ->  @ 50 @ operator: ->  @ 79 @ 
+decl  @ 103 @ decl  @ 140 @ 
+argument  @ 123 @ argument  @ 160 @ 
+expr  @ 31 @ expr  @ 34 @ 
+argument_list  @ 80 @ argument_list  @ 105 @ 
+name: i  @ 43 @ name: i  @ 52 @ 
+expr  @ 78 @ expr  @ 102 @ 
+block  @ 124 @ block  @ 161 @ 
+range  @ 5 @ range  @ 6 @ 
+decl  @ 101 @ decl  @ 138 @ 
+expr  @ 102 @ expr  @ 139 @ 
+argument  @ 168 @ argument  @ 206 @ 
+name: ngrams_splits  @ 50 @ name: ngrams_splits  @ 79 @ 
+block_content  @ 79 @ block_content  @ 104 @ 
+name: tensorflow  @ 7 @ name: tensorflow  @ 8 @ 
+decl_stmt  @ 89 @ decl_stmt  @ 125 @ 
+argument_list  @ 50 @ argument_list  @ 79 @ 
+name: data_start_index  @ 129 @ name: data_start_index  @ 167 @ 
+name: ngrams_splits_data  @ 57 @ name: ngrams_splits_data  @ 115 @ 
+init  @ 128 @ init  @ 166 @ 
+expr  @ 25 @ expr  @ 28 @ 
+name: min  @ 21 @ name: min  @ 23 @ 
+argument_list  @ 25 @ argument_list  @ 28 @ 
+name: append  @ 152 @ name: append  @ 190 @ 
+argument_list  @ 55 @ argument_list  @ 68 @ 
+name: reserve  @ 123 @ name: reserve  @ 160 @ 
+call  @ 140 @ call  @ 178 @ 
+name: tensorflow  @ 74 @ name: tensorflow  @ 93 @ 
+call  @ 35 @ call  @ 38 @ 
+name: num_ngrams  @ 97 @ name: num_ngrams  @ 133 @ 
+name: data  @ 138 @ name: data  @ 176 @ 
+type  @ 163 @ type  @ 201 @ 
+condition  @ 148 @ condition  @ 186 @ 
+argument  @ 67 @ argument  @ 86 @ 
+init  @ 139 @ init  @ 177 @ 
+operator: )  @ 102 @ operator: )  @ 139 @ 
+name  @ 138 @ name  @ 176 @ 
+argument_list  @ 53 @ argument_list  @ 66 @ 
+decl_stmt  @ 64 @ decl_stmt  @ 83 @ 
+specifier: const  @ 32 @ specifier: const  @ 35 @ 
+name: right_pad_  @ 163 @ name: right_pad_  @ 201 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 52 @ 
+specifier: const  @ 97 @ specifier: const  @ 133 @ 
+decl_stmt  @ 161 @ decl_stmt  @ 199 @ 
+expr  @ 13 @ expr  @ 14 @ 
+decl_stmt  @ 122 @ decl_stmt  @ 159 @ 
+argument  @ 55 @ argument  @ 69 @ 
+name  @ 129 @ name  @ 167 @ 
+name: ngram_width  @ 21 @ name: ngram_width  @ 23 @ 
+decl_stmt  @ 118 @ decl_stmt  @ 155 @ 
+operator: )  @ 76 @ operator: )  @ 98 @ 
+init  @ 128 @ init  @ 166 @ 
+type  @ 103 @ type  @ 140 @ 
+name: output  @ 122 @ name: output  @ 159 @ 
+name: input_data_size  @ 39 @ name: input_data_size  @ 43 @ 
+argument  @ 157 @ argument  @ 195 @ 
+name: splits_vec  @ 64 @ name: splits_vec  @ 83 @ 
+name: pad_width  @ 25 @ name: pad_width  @ 28 @ 
+name: override  @ 29 @ name: override  @ 32 @ 
+literal: 1  @ 71 @ literal: 1  @ 90 @ 
+init  @ 118 @ init  @ 155 @ 
+name  @ 71 @ name  @ 90 @ 
+expr  @ 80 @ expr  @ 105 @ 
+block_content  @ 125 @ block_content  @ 162 @ 
+argument  @ 11 @ argument  @ 12 @ 
+expr  @ 67 @ expr  @ 86 @ 
+decl  @ 118 @ decl  @ 155 @ 
+index  @ 90 @ index  @ 126 @ 
+operator: =  @ 36 @ operator: =  @ 39 @ 
+call  @ 119 @ call  @ 156 @ 
+decl  @ 128 @ decl  @ 166 @ 
+expr_stmt  @ 69 @ expr_stmt  @ 88 @ 
+name: length  @ 113 @ name: length  @ 150 @ 
+name: text  @ 2 @ name: text  @ 2 @ 
+name: bool  @ 42 @ name: bool  @ 51 @ 
+name: i  @ 76 @ name: i  @ 100 @ 
+macro  @ 29 @ macro  @ 32 @ 
+operator: *  @ 97 @ operator: *  @ 133 @ 
+argument  @ 35 @ argument  @ 38 @ 
+expr_stmt  @ 92 @ expr_stmt  @ 128 @ 
+call  @ 35 @ call  @ 38 @ 
+name: data  @ 55 @ name: data  @ 69 @ 
+specifier: const  @ 34 @ specifier: const  @ 37 @ 
+decl_stmt  @ 97 @ decl_stmt  @ 133 @ 
+for  @ 78 @ for  @ 103 @ 
+name: int  @ 81 @ name: int  @ 106 @ 
+name: OP_REQUIRES_OK  @ 31 @ name: OP_REQUIRES_OK  @ 34 @ 
+init  @ 99 @ init  @ 136 @ 
+name: i  @ 78 @ name: i  @ 102 @ 
+expr_stmt  @ 125 @ expr_stmt  @ 162 @ 
+operator: ::  @ 8 @ operator: ::  @ 9 @ 
+decl  @ 165 @ decl  @ 203 @ 
+name  @ 141 @ name  @ 179 @ 
+condition  @ 104 @ condition  @ 141 @ 
+name: Tensor  @ 34 @ name: Tensor  @ 37 @ 
+operator: -  @ 138 @ operator: -  @ 176 @ 
+comment: // padding, not a separator.  @ 147 @ comment: // padding, not a separator.  @ 185 @ 
+operator: .  @ 39 @ operator: .  @ 43 @ 
+init  @ 124 @ init  @ 161 @ 
+name: i  @ 77 @ name: i  @ 101 @ 
+call  @ 7 @ call  @ 8 @ 
+name: ngram_size  @ 123 @ name: ngram_size  @ 160 @ 
+name: n  @ 139 @ name: n  @ 177 @ 
+init  @ 112 @ init  @ 149 @ 
+name: OP_REQUIRES_OK  @ 10 @ name: OP_REQUIRES_OK  @ 11 @ 
+expr  @ 104 @ expr  @ 141 @ 
+operator: .  @ 113 @ operator: .  @ 150 @ 
+name: string  @ 162 @ name: string  @ 200 @ 
+operator: :  @ 21 @ operator: :  @ 23 @ 
+operator: (  @ 39 @ operator: (  @ 43 @ 
+literal: 0  @ 128 @ literal: 0  @ 166 @ 
+name: context  @ 11 @ name: context  @ 12 @ 
+operator: (  @ 53 @ operator: (  @ 66 @ 
+name: ngrams_splits  @ 48 @ name: ngrams_splits  @ 76 @ 
+expr  @ 77 @ expr  @ 101 @ 
+expr  @ 79 @ expr  @ 104 @ 
+name: int  @ 139 @ name: int  @ 177 @ 
+name: tstring  @ 122 @ name: tstring  @ 159 @ 
+init  @ 42 @ init  @ 51 @ 
+call  @ 82 @ call  @ 107 @ 
+name: i  @ 64 @ name: i  @ 83 @ 
+init  @ 76 @ init  @ 100 @ 
+decl_stmt  @ 99 @ decl_stmt  @ 136 @ 
+decl_stmt  @ 163 @ decl_stmt  @ 201 @ 
+argument  @ 149 @ argument  @ 187 @ 
+expr  @ 103 @ expr  @ 140 @ 
+expr  @ 71 @ expr  @ 90 @ 
+expr  @ 150 @ expr  @ 188 @ 
+name: n  @ 124 @ name: n  @ 161 @ 
+operator: >  @ 36 @ operator: >  @ 39 @ 
+name: errors  @ 44 @ name: errors  @ 54 @ 
+decl  @ 104 @ decl  @ 141 @ 
+expr  @ 129 @ expr  @ 167 @ 
+type  @ 1 @ type  @ 1 @ 
+argument_list  @ 14 @ argument_list  @ 15 @ 
+operator: &  @ 9 @ operator: &  @ 10 @ 
+block  @ 78 @ block  @ 103 @ 
+init  @ 108 @ init  @ 145 @ 
+name: context  @ 55 @ name: context  @ 69 @ 
+name: ngram  @ 126 @ name: ngram  @ 163 @ 
+name: i  @ 42 @ name: i  @ 51 @ 
+name: i  @ 63 @ name: i  @ 82 @ 
+argument  @ 82 @ argument  @ 107 @ 
+decl  @ 64 @ decl  @ 83 @ 
+operator: .  @ 32 @ operator: .  @ 35 @ 
+type  @ 165 @ type  @ 203 @ 
+operator: ||  @ 53 @ operator: ||  @ 66 @ 
+argument  @ 5 @ argument  @ 5 @ 
+literal: "data_splits"  @ 35 @ literal: "data_splits"  @ 38 @ 
+operator: =  @ 25 @ operator: =  @ 28 @ 
+name: ngram_width  @ 66 @ name: ngram_width  @ 85 @ 
+expr  @ 71 @ expr  @ 90 @ 
+expr  @ 21 @ expr  @ 24 @ 
+name: output_start_idx  @ 83 @ name: output_start_idx  @ 108 @ 
+name: context  @ 49 @ name: context  @ 78 @ 
+expr  @ 141 @ expr  @ 179 @ 
+expr_stmt  @ 83 @ expr_stmt  @ 108 @ 
+operator: ++  @ 112 @ operator: ++  @ 149 @ 
+name: pad_width  @ 26 @ name: pad_width  @ 29 @ 
+name: n  @ 128 @ name: n  @ 166 @ 
+argument  @ 31 @ argument  @ 34 @ 
+argument  @ 35 @ argument  @ 38 @ 
+operator: (  @ 32 @ operator: (  @ 35 @ 
+expr  @ 81 @ expr  @ 106 @ 
+expr  @ 56 @ expr  @ 46 @ 
+name: preserve_short_  @ 14 @ name: preserve_short_  @ 16 @ 
+comment: // the right padding that follows, to ensure ngram ends either with the  @ 136 @ comment: // the right padding that follows, to ensure ngram ends either with the  @ 174 @ 
+specifier: const  @ 24 @ specifier: const  @ 27 @ 
+name  @ 78 @ name  @ 102 @ 
+call  @ 31 @ call  @ 34 @ 
+operator: -  @ 100 @ operator: -  @ 137 @ 
+name  @ 123 @ name  @ 160 @ 
+name  @ 125 @ name  @ 162 @ 
+expr  @ 122 @ expr  @ 159 @ 
+name: context  @ 14 @ name: context  @ 15 @ 
+name: ngram_width  @ 26 @ name: ngram_width  @ 29 @ 
+control  @ 66 @ control  @ 85 @ 
+name  @ 32 @ name  @ 35 @ 
+type  @ 77 @ type  @ 101 @ 
+name: splits_vec  @ 80 @ name: splits_vec  @ 105 @ 
+name: valid_splits  @ 43 @ name: valid_splits  @ 52 @ 
+expr_stmt  @ 82 @ expr_stmt  @ 107 @ 
+decl  @ 2 @ decl  @ 2 @ 
+literal: "Invalid split value "  @ 44 @ literal: "Invalid split value "  @ 55 @ 
+expr_stmt  @ 116 @ expr_stmt  @ 153 @ 
+name: right_padding  @ 101 @ name: right_padding  @ 138 @ 
+name: int  @ 103 @ name: int  @ 140 @ 
+expr  @ 36 @ expr  @ 39 @ 
+argument  @ 55 @ argument  @ 68 @ 
+expr  @ 123 @ expr  @ 160 @ 
+block  @ 53 @ block  @ 66 @ 
+argument_list  @ 99 @ argument_list  @ 136 @ 
+operator: >  @ 68 @ operator: >  @ 87 @ 
+name: n  @ 148 @ name: n  @ 186 @ 
+operator: &  @ 12 @ operator: &  @ 13 @ 
+name: n  @ 113 @ name: n  @ 150 @ 
+name  @ 119 @ name  @ 156 @ 
+expr  @ 91 @ expr  @ 127 @ 
+name: num_batch_items  @ 56 @ name: shape  @ 71 @ 
+name: input_data  @ 77 @ name: input_data  @ 101 @ 
+block  @ 112 @ block  @ 149 @ 
+expr  @ 92 @ expr  @ 128 @ 
+expr  @ 83 @ expr  @ 108 @ 
+decl_stmt  @ 166 @ decl_stmt  @ 204 @ 
+name: Tensor  @ 48 @ name: Tensor  @ 76 @ 
+name: flat  @ 39 @ name: flat  @ 43 @ 
+block  @ 148 @ block  @ 186 @ 
+expr  @ 39 @ expr  @ 43 @ 
+operator: ++  @ 41 @ operator: ++  @ 50 @ 
+argument  @ 13 @ argument  @ 14 @ 
+name: n  @ 128 @ name: n  @ 166 @ 
+argument_list  @ 13 @ argument_list  @ 14 @ 
+name: int  @ 124 @ name: int  @ 161 @ 
+operator: .  @ 53 @ operator: .  @ 66 @ 
+operator: &&  @ 68 @ operator: &&  @ 87 @ 
+expr  @ 90 @ expr  @ 126 @ 
+type  @ 139 @ type  @ 177 @ 
+name: Compute  @ 29 @ name: Compute  @ 32 @ 
+type  @ 162 @ type  @ 200 @ 
+literal: 0  @ 56 @ literal: 0  @ 46 @ 
+expr  @ 112 @ expr  @ 149 @ 
+argument_list  @ 35 @ argument_list  @ 38 @ 
+type  @ 66 @ type  @ 85 @ 
+expr_stmt  @ 152 @ expr_stmt  @ 190 @ 
+block_content  @ 113 @ block_content  @ 150 @ 
+literal: 0  @ 134 @ literal: 0  @ 172 @ 
+operator: .  @ 40 @ operator: .  @ 44 @ 
+expr  @ 138 @ expr  @ 176 @ 
+type  @ 2 @ type  @ 2 @ 
+name: int  @ 148 @ name: int  @ 186 @ 
+expr  @ 7 @ expr  @ 8 @ 
+operator: -  @ 71 @ operator: -  @ 90 @ 
+decl_stmt  @ 162 @ decl_stmt  @ 200 @ 
+argument  @ 29 @ argument  @ 32 @ 
+decl  @ 108 @ decl  @ 145 @ 
+call  @ 100 @ call  @ 137 @ 
+argument_list  @ 24 @ argument_list  @ 27 @ 
+expr  @ 113 @ expr  @ 150 @ 
+name: i  @ 63 @ name: i  @ 82 @ 
+name: ngram  @ 122 @ name: ngram  @ 159 @ 
+name: separator_  @ 161 @ name: separator_  @ 199 @ 
+argument  @ 81 @ argument  @ 106 @ 
+name: get_pad_width  @ 17 @ name: get_pad_width  @ 19 @ 
+name: context  @ 12 @ name: context  @ 13 @ 
+expr  @ 108 @ expr  @ 145 @ 
+argument_list  @ 26 @ argument_list  @ 29 @ 
+operator: &  @ 10 @ operator: &  @ 11 @ 
+literal: 0  @ 21 @ literal: 0  @ 23 @ 
+name: tstring  @ 32 @ name: tstring  @ 35 @ 
+expr  @ 141 @ expr  @ 179 @ 
+comment: // was dynamic, every sequence would have had sufficient padding to  @ 87 @ comment: // was dynamic, every sequence would have had sufficient padding to  @ 123 @ 
+name  @ 152 @ name  @ 190 @ 
+name: data  @ 32 @ name: data  @ 35 @ 
+name: num_tokens  @ 103 @ name: num_tokens  @ 140 @ 
+specifier: const  @ 30 @ specifier: const  @ 33 @ 
+call  @ 14 @ call  @ 15 @ 
+name: length  @ 26 @ name: length  @ 29 @ 
+for  @ 66 @ for  @ 85 @ 
+expr  @ 10 @ expr  @ 11 @ 
+name: ngram_width  @ 81 @ name: ngram_width  @ 106 @ 
+argument_list  @ 12 @ argument_list  @ 13 @ 
+literal: 0  @ 53 @ literal: 0  @ 66 @ 
+operator: =  @ 69 @ operator: =  @ 88 @ 
+argument  @ 10 @ argument  @ 11 @ 
+condition  @ 98 @ condition  @ 135 @ 
+name: right_pad_  @ 152 @ name: right_pad_  @ 190 @ 
+operator: -  @ 26 @ operator: -  @ 29 @ 
+expr  @ 129 @ expr  @ 167 @ 
+argument  @ 10 @ argument  @ 11 @ 
+name: context  @ 13 @ name: context  @ 14 @ 
+literal: 1  @ 138 @ literal: 1  @ 176 @ 
+argument  @ 31 @ argument  @ 34 @ 
+call  @ 126 @ call  @ 163 @ 
+expr  @ 66 @ expr  @ 85 @ 
+if_stmt  @ 53 @ if_stmt  @ 66 @ 
+name: length  @ 119 @ name: length  @ 156 @ 
+name: ngram_size  @ 113 @ name: ngram_size  @ 150 @ 
+name: data  @ 113 @ name: data  @ 150 @ 
+call  @ 13 @ call  @ 14 @ 
+operator: <  @ 148 @ operator: <  @ 186 @ 
+operator: &  @ 35 @ operator: &  @ 38 @ 
+block  @ 29 @ block  @ 32 @ 
+name: pad_width  @ 102 @ name: pad_width  @ 139 @ 
+operator: ::  @ 7 @ operator: ::  @ 8 @ 
+name: append  @ 150 @ name: append  @ 188 @ 
+condition  @ 124 @ condition  @ 161 @ 
+expr  @ 126 @ expr  @ 163 @ 
+argument_list  @ 126 @ argument_list  @ 163 @ 
+literal: 2  @ 89 @ literal: 2  @ 125 @ 
+name: right_padding  @ 116 @ name: right_padding  @ 153 @ 
+expr  @ 12 @ expr  @ 13 @ 
+init  @ 101 @ init  @ 138 @ 
+argument  @ 55 @ argument  @ 69 @ 
+for  @ 63 @ for  @ 82 @ 
+name: int  @ 108 @ name: int  @ 145 @ 
+block_content  @ 129 @ block_content  @ 167 @ 
+argument  @ 92 @ argument  @ 128 @ 
+name: bool  @ 164 @ name: bool  @ 202 @ 
+name: num_tokens  @ 138 @ name: num_tokens  @ 176 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 49 @ argument  @ 78 @ 
+expr  @ 13 @ expr  @ 14 @ 
+argument  @ 9 @ argument  @ 10 @ 
+argument_list  @ 102 @ argument_list  @ 139 @ 
+literal: "pad_width"  @ 13 @ literal: "pad_width"  @ 14 @ 
+comment: // token or with the right pad.  @ 137 @ comment: // token or with the right pad.  @ 175 @ 
+decl_stmt  @ 81 @ decl_stmt  @ 106 @ 
+operator: &  @ 36 @ operator: &  @ 39 @ 
+name: namespace  @ 4 @ name: namespace  @ 4 @ 
+ternary  @ 104 @ ternary  @ 141 @ 
+name: ngrams  @ 76 @ name: ngrams  @ 98 @ 
+expr  @ 40 @ expr  @ 44 @ 
+literal: 1  @ 49 @ literal: 1  @ 78 @ 
+call  @ 67 @ call  @ 86 @ 
+name: auto  @ 32 @ name: auto  @ 35 @ 
+operator: <  @ 139 @ operator: <  @ 177 @ 
+argument  @ 75 @ argument  @ 96 @ 
+name: SPLITS_TYPE  @ 5 @ name: SPLITS_TYPE  @ 5 @ 
+operator: >=  @ 42 @ operator: >=  @ 51 @ 
+name: ngram_width  @ 21 @ name: ngram_width  @ 24 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 67 @ 
+expr  @ 77 @ expr  @ 101 @ 
+comment: // In debug mode only: validate that we've reserved enough space for the  @ 155 @ comment: // In debug mode only: validate that we've reserved enough space for the  @ 193 @ 
+call  @ 11 @ call  @ 12 @ 
+operator: -  @ 64 @ operator: -  @ 83 @ 
+operator: .  @ 110 @ operator: .  @ 147 @ 
+expr  @ 48 @ expr  @ 76 @ 
+argument  @ 35 @ argument  @ 38 @ 
+operator: +  @ 113 @ operator: +  @ 150 @ 
+expr_stmt  @ 119 @ expr_stmt  @ 156 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+decl  @ 79 @ decl  @ 104 @ 
+name: num_ngrams  @ 91 @ name: num_ngrams  @ 127 @ 
+expr  @ 9 @ expr  @ 10 @ 
+argument_list  @ 97 @ argument_list  @ 133 @ 
+operator: >  @ 104 @ operator: >  @ 141 @ 
+comment: // has been the separator from the left padding loop above. Hence,  @ 145 @ comment: // has been the separator from the left padding loop above. Hence,  @ 183 @ 
+expr  @ 125 @ expr  @ 162 @ 
+call  @ 55 @ call  @ 69 @ 
+init  @ 148 @ init  @ 186 @ 
+operator: *  @ 26 @ operator: *  @ 29 @ 
+name: num_ngrams  @ 81 @ name: num_ngrams  @ 106 @ 
+argument  @ 97 @ argument  @ 133 @ 
+expr  @ 44 @ expr  @ 55 @ 
+name: public  @ 6 @ name: public  @ 7 @ 
+name  @ 12 @ name  @ 13 @ 
+operator: &  @ 55 @ operator: &  @ 69 @ 
+operator: >  @ 32 @ operator: >  @ 35 @ 
+operator: ->  @ 150 @ operator: ->  @ 188 @ 
+block_content  @ 140 @ block_content  @ 178 @ 
+operator: -  @ 128 @ operator: -  @ 166 @ 
+type  @ 56 @ type  @ 50 @ 
+comment: // If we have tokens, then output last and then pair each separator with  @ 135 @ comment: // If we have tokens, then output last and then pair each separator with  @ 173 @ 
+name: std  @ 102 @ name: std  @ 139 @ 
+name: splits  @ 35 @ name: splits  @ 38 @ 
+expr  @ 140 @ expr  @ 178 @ 
+init  @ 81 @ init  @ 106 @ 
+expr  @ 148 @ expr  @ 186 @ 
+expr  @ 124 @ expr  @ 161 @ 
+argument  @ 129 @ argument  @ 167 @ 
+argument_list  @ 17 @ argument_list  @ 19 @ 
+name: int  @ 39 @ name: int  @ 43 @ 
+name: left_padding  @ 100 @ name: left_padding  @ 137 @ 
+init  @ 100 @ init  @ 137 @ 
+name: data_length  @ 89 @ name: data_length  @ 125 @ 
+for  @ 41 @ for  @ 50 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+expr  @ 76 @ expr  @ 100 @ 
+literal: 1  @ 148 @ literal: 1  @ 186 @ 
+decl  @ 112 @ decl  @ 149 @ 
+operator: ->  @ 53 @ operator: ->  @ 66 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 57 @ 
+name: ngram_width  @ 99 @ name: ngram_width  @ 136 @ 
+type  @ 104 @ type  @ 141 @ 
+expr  @ 44 @ expr  @ 55 @ 
+expr  @ 82 @ expr  @ 107 @ 
+decl  @ 81 @ decl  @ 106 @ 
+control  @ 41 @ control  @ 50 @ 
+name: OP_REQUIRES_OK  @ 35 @ name: OP_REQUIRES_OK  @ 38 @ 
+name: ngrams_data  @ 76 @ name: ngrams_data  @ 98 @ 
+expr  @ 119 @ expr  @ 156 @ 
+argument  @ 97 @ argument  @ 133 @ 
+expr  @ 110 @ expr  @ 147 @ 
+expr  @ 98 @ expr  @ 135 @ 
+operator: ->  @ 141 @ operator: ->  @ 179 @ 
+decl_stmt  @ 90 @ decl_stmt  @ 126 @ 
+argument_list  @ 157 @ argument_list  @ 195 @ 
+name: n  @ 139 @ name: n  @ 177 @ 
+name: int  @ 97 @ name: int  @ 133 @ 
+name: shape  @ 55 @ name: shape  @ 69 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 86 @ 
+decl  @ 100 @ decl  @ 137 @ 
+decl  @ 63 @ decl  @ 82 @ 
+argument_list  @ 42 @ argument_list  @ 51 @ 
+type  @ 98 @ type  @ 135 @ 
+incr  @ 41 @ incr  @ 50 @ 
+expr  @ 130 @ expr  @ 168 @ 
+argument_list  @ 31 @ argument_list  @ 34 @ 
+operator: ++  @ 76 @ operator: ++  @ 100 @ 
+type  @ 76 @ type  @ 98 @ 
+argument_list  @ 44 @ argument_list  @ 54 @ 
+expr_stmt  @ 129 @ expr_stmt  @ 167 @ 
+name: flat  @ 76 @ name: flat  @ 98 @ 
+name: splits_vec_size  @ 40 @ name: splits_vec_size  @ 44 @ 
+else  @ 104 @ else  @ 141 @ 
+operator: ==  @ 53 @ operator: ==  @ 66 @ 
+operator: ::  @ 34 @ operator: ::  @ 37 @ 
+operator: ->  @ 35 @ operator: ->  @ 38 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: splits_vec  @ 80 @ name: splits_vec  @ 105 @ 
+expr  @ 152 @ expr  @ 190 @ 
+argument_list  @ 123 @ argument_list  @ 160 @ 
+expr  @ 13 @ expr  @ 14 @ 
+name: GetAttr  @ 11 @ name: GetAttr  @ 12 @ 
+argument  @ 13 @ argument  @ 14 @ 
+block_content  @ 54 @ block_content  @ 67 @ 
+name: separator_  @ 9 @ name: separator_  @ 10 @ 
+name: data_start  @ 92 @ name: data_start  @ 128 @ 
+call  @ 64 @ call  @ 83 @ 
+decl  @ 166 @ decl  @ 204 @ 
+comment: // Size of the separators.  @ 117 @ comment: // Size of the separators.  @ 154 @ 
+call  @ 150 @ call  @ 188 @ 
+incr  @ 63 @ incr  @ 82 @ 
+name: pad_width  @ 100 @ name: pad_width  @ 137 @ 
+operator: (  @ 43 @ operator: (  @ 52 @ 
+argument  @ 7 @ argument  @ 8 @ 
+operator: ->  @ 39 @ operator: ->  @ 43 @ 
+expr  @ 49 @ expr  @ 78 @ 
+literal: 1  @ 21 @ literal: 1  @ 23 @ 
+decl  @ 42 @ decl  @ 51 @ 
+name: splits_vec  @ 43 @ name: splits_vec  @ 52 @ 
+for  @ 148 @ for  @ 186 @ 
+expr  @ 82 @ expr  @ 107 @ 
+comment: // We don't have to worry about dynamic padding sizes here: if padding  @ 86 @ comment: // We don't have to worry about dynamic padding sizes here: if padding  @ 122 @ 
+call  @ 25 @ call  @ 28 @ 
+name: length  @ 67 @ name: length  @ 86 @ 
+specifier: const  @ 36 @ specifier: const  @ 39 @ 
+literal: "right_pad"  @ 12 @ literal: "right_pad"  @ 13 @ 
+name: int  @ 24 @ name: int  @ 27 @ 
+name: OP_REQUIRES  @ 44 @ name: OP_REQUIRES  @ 53 @ 
+decl  @ 164 @ decl  @ 202 @ 
+expr  @ 21 @ expr  @ 23 @ 
+operator: ->  @ 12 @ operator: ->  @ 13 @ 
+call  @ 10 @ call  @ 11 @ 
+name  @ 126 @ name  @ 163 @ 
+call  @ 42 @ call  @ 51 @ 
+name: explicit  @ 7 @ name: explicit  @ 8 @ 
+expr  @ 148 @ expr  @ 186 @ 
+argument  @ 11 @ argument  @ 12 @ 
+expr  @ 128 @ expr  @ 166 @ 
+init  @ 76 @ init  @ 98 @ 
+argument_list  @ 29 @ argument_list  @ 32 @ 
+name: auto  @ 76 @ name: auto  @ 98 @ 
+argument  @ 81 @ argument  @ 106 @ 
+operator: ::  @ 21 @ operator: ::  @ 23 @ 
+name: ngram  @ 141 @ name: ngram  @ 179 @ 
+name: data  @ 30 @ name: data  @ 33 @ 
+name: shape  @ 49 @ name: shape  @ 78 @ 
+name: context  @ 31 @ name: context  @ 34 @ 
+expr  @ 139 @ expr  @ 177 @ 
+if_stmt  @ 68 @ if_stmt  @ 87 @ 
+name: string  @ 161 @ name: string  @ 199 @ 
+argument_list  @ 10 @ argument_list  @ 11 @ 
+expr_stmt  @ 55 @ expr_stmt  @ 68 @ 
+operator: ->  @ 157 @ operator: ->  @ 195 @ 
+name: CreateNgrams  @ 82 @ name: CreateNgrams  @ 107 @ 
+name: length  @ 81 @ name: length  @ 106 @ 
+name: separator_  @ 140 @ name: separator_  @ 178 @ 
+name  @ 14 @ name  @ 15 @ 
+expr  @ 139 @ expr  @ 177 @ 
+decl  @ 78 @ decl  @ 103 @ 
+name: string  @ 163 @ name: string  @ 201 @ 
+name: flat  @ 50 @ name: flat  @ 79 @ 
+index  @ 57 @ index  @ 115 @ 
+name: context  @ 14 @ name: context  @ 15 @ 
+expr  @ 9 @ expr  @ 10 @ 
+name: i  @ 76 @ name: i  @ 100 @ 
+expr  @ 112 @ expr  @ 149 @ 
+name  @ 49 @ name  @ 78 @ 
+name: OpKernelConstruction  @ 7 @ name: OpKernelConstruction  @ 8 @ 
+name: separator_  @ 119 @ name: separator_  @ 156 @ 
+argument_list  @ 9 @ argument_list  @ 10 @ 
+name: splits_vec  @ 36 @ name: splits_vec  @ 39 @ 
+name: int  @ 112 @ name: int  @ 149 @ 
+operator: +  @ 138 @ operator: +  @ 176 @ 
+literal: 0  @ 100 @ literal: 0  @ 137 @ 
+literal: 1  @ 69 @ literal: 1  @ 88 @ 
+name: output_start  @ 92 @ name: output_start  @ 128 @ 
+name: max  @ 26 @ name: max  @ 29 @ 
+expr  @ 98 @ expr  @ 135 @ 
+operator: &&  @ 43 @ operator: &&  @ 52 @ 
+name: tstring  @ 97 @ name: tstring  @ 133 @ 
+decl  @ 98 @ decl  @ 135 @ 
+argument_list  @ 43 @ argument_list  @ 52 @ 
+comment: // If there is no data or size, return an empty RT.  @ 52 @ comment: // If there is no data or size, return an empty RT.  @ 65 @ 
+decl  @ 41 @ decl  @ 50 @ 
+argument_list  @ 140 @ argument_list  @ 178 @ 
+control  @ 124 @ control  @ 161 @ 
+condition  @ 41 @ condition  @ 50 @ 
+name: n  @ 129 @ name: n  @ 167 @ 
+call  @ 44 @ call  @ 53 @ 
+expr  @ 100 @ expr  @ 137 @ 
+argument  @ 55 @ argument  @ 69 @ 
+name: context  @ 7 @ name: context  @ 8 @ 
+call  @ 31 @ call  @ 34 @ 
+expr  @ 14 @ expr  @ 15 @ 
+expr  @ 104 @ expr  @ 141 @ 
+name: int  @ 76 @ name: int  @ 100 @ 
+argument_list  @ 150 @ argument_list  @ 188 @ 
+argument  @ 100 @ argument  @ 137 @ 
+init  @ 63 @ init  @ 82 @ 
+expr  @ 57 @ expr  @ 115 @ 
+init  @ 112 @ init  @ 149 @ 
+operator: ->  @ 130 @ operator: ->  @ 168 @ 
+operator: (  @ 102 @ operator: (  @ 139 @ 
+name: n  @ 124 @ name: n  @ 161 @ 
+name: int  @ 99 @ name: int  @ 136 @ 
+name: Tensor  @ 54 @ name: Tensor  @ 67 @ 
+operator: <  @ 124 @ operator: <  @ 161 @ 
+call  @ 40 @ call  @ 44 @ 
+expr  @ 100 @ expr  @ 137 @ 
+argument  @ 12 @ argument  @ 13 @ 
+operator: ->  @ 152 @ operator: ->  @ 190 @ 
+init  @ 103 @ init  @ 140 @ 
+name: CreateNgrams  @ 97 @ name: CreateNgrams  @ 133 @ 
+expr_stmt  @ 126 @ expr_stmt  @ 163 @ 
+name: ngram_widths_  @ 10 @ name: ngram_widths_  @ 11 @ 
+for  @ 76 @ for  @ 100 @ 
+argument  @ 44 @ argument  @ 55 @ 
+operator: &&  @ 68 @ operator: &&  @ 87 @ 
+expr  @ 44 @ expr  @ 55 @ 
+name: size  @ 40 @ name: size  @ 44 @ 
+literal: 0  @ 112 @ literal: 0  @ 149 @ 
+name: n  @ 112 @ name: n  @ 149 @ 
+init  @ 78 @ init  @ 102 @ 
+name: input_data  @ 32 @ name: input_data  @ 35 @ 
+argument  @ 44 @ argument  @ 55 @ 
+condition  @ 139 @ condition  @ 177 @ 
+decl_stmt  @ 103 @ decl_stmt  @ 140 @ 
+name: int  @ 168 @ name: int  @ 206 @ 
+name: i  @ 71 @ name: i  @ 90 @ 
+block  @ 98 @ block  @ 135 @ 
+name: num_ngrams  @ 69 @ name: num_ngrams  @ 88 @ 
+name: GetAttr  @ 14 @ name: GetAttr  @ 15 @ 
+expr  @ 49 @ expr  @ 78 @ 
+name: splits  @ 49 @ name: splits  @ 78 @ 
+expr  @ 124 @ expr  @ 161 @ 
+name  @ 79 @ name  @ 104 @ 
+expr  @ 130 @ expr  @ 168 @ 
+decl  @ 122 @ decl  @ 159 @ 
+name: tensorflow  @ 30 @ name: tensorflow  @ 33 @ 
+call  @ 123 @ call  @ 160 @ 
+call  @ 26 @ call  @ 29 @ 
+expr  @ 55 @ expr  @ 68 @ 
+name: num_ngrams  @ 68 @ name: num_ngrams  @ 87 @ 
+condition  @ 63 @ condition  @ 82 @ 
+if  @ 134 @ if  @ 172 @ 
+call  @ 9 @ call  @ 10 @ 
+incr  @ 139 @ incr  @ 177 @ 
+type  @ 169 @ type  @ 207 @ 
+operator: -  @ 104 @ operator: -  @ 141 @ 
+name: ngram_width  @ 89 @ name: ngram_width  @ 125 @ 
+argument  @ 21 @ argument  @ 24 @ 
+name: i  @ 76 @ name: i  @ 100 @ 
+expr  @ 35 @ expr  @ 38 @ 
+name: flat  @ 36 @ name: flat  @ 39 @ 
+range  @ 66 @ range  @ 85 @ 
+name: i  @ 57 @ name: i  @ 115 @ 
+call  @ 152 @ call  @ 190 @ 
+decl  @ 161 @ decl  @ 199 @ 
+call  @ 157 @ call  @ 195 @ 
+decl_stmt  @ 2 @ decl_stmt  @ 2 @ 
+type  @ 80 @ type  @ 105 @ 
+call  @ 10 @ call  @ 11 @ 
+literal: 0  @ 55 @ literal: 0  @ 69 @ 
+type  @ 124 @ type  @ 161 @ 
+block_content  @ 148 @ block_content  @ 186 @ 
+return  @ 26 @ return  @ 29 @ 
+name: num_ngrams  @ 83 @ name: num_ngrams  @ 108 @ 
+type  @ 166 @ type  @ 204 @ 
+operator: &  @ 14 @ operator: &  @ 16 @ 
+name: OpKernel  @ 8 @ name: OpKernel  @ 9 @ 
+control  @ 76 @ control  @ 100 @ 
+index  @ 122 @ index  @ 159 @ 
+expr  @ 92 @ expr  @ 128 @ 
+expr_stmt  @ 113 @ expr_stmt  @ 150 @ 
+operator: ->  @ 55 @ operator: ->  @ 69 @ 
+argument_list  @ 44 @ argument_list  @ 53 @ 
+comment: // Validate that the splits are valid indices into data  @ 38 @ comment: // Validate that the splits are valid indices into data, only if there are  @ 41 @ 
+operator: ->  @ 13 @ operator: ->  @ 14 @ 
+name  @ 116 @ name  @ 153 @ 
+decl_stmt  @ 165 @ decl_stmt  @ 203 @ 
+name: context  @ 35 @ name: context  @ 38 @ 
+expr  @ 116 @ expr  @ 153 @ 
+name: context  @ 31 @ name: context  @ 34 @ 
+operator: ->  @ 31 @ operator: ->  @ 34 @ 
+argument  @ 55 @ argument  @ 69 @ 
+block  @ 128 @ block  @ 166 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name  @ 36 @ name  @ 39 @ 
+type  @ 76 @ type  @ 100 @ 
+name: DCHECK_EQ  @ 157 @ name: DCHECK_EQ  @ 195 @ 
+incr  @ 124 @ incr  @ 161 @ 
+name: int  @ 104 @ name: int  @ 141 @ 
+expr  @ 31 @ expr  @ 34 @ 
+name: OP_REQUIRES_OK  @ 13 @ name: OP_REQUIRES_OK  @ 14 @ 
+type  @ 81 @ type  @ 106 @ 
+name: ngram_width  @ 67 @ name: ngram_width  @ 86 @ 
+comment: // Size of the tokens.  @ 111 @ comment: // Size of the tokens.  @ 148 @ 
+name: tensorflow  @ 1 @ name: tensorflow  @ 1 @ 
+name: int  @ 91 @ name: int  @ 127 @ 
+name: num_separators  @ 119 @ name: num_separators  @ 156 @ 
+call  @ 12 @ call  @ 13 @ 
+argument  @ 14 @ argument  @ 15 @ 
+name: data  @ 31 @ name: data  @ 34 @ 
+name  @ 157 @ name  @ 195 @ 
+operator: +=  @ 67 @ operator: +=  @ 86 @ 
+name: typename  @ 5 @ name: typename  @ 5 @ 
+operator: =  @ 57 @ operator: =  @ 81 @ 
+init  @ 98 @ init  @ 135 @ 
+argument_list  @ 10 @ argument_list  @ 11 @ 
+init  @ 89 @ init  @ 125 @ 
+expr  @ 55 @ expr  @ 69 @ 
+modifier: *  @ 122 @ modifier: *  @ 159 @ 
+argument_list  @ 55 @ argument_list  @ 69 @ 
+expr  @ 11 @ expr  @ 12 @ 
+name: class  @ 5 @ name: class  @ 6 @ 
+argument  @ 49 @ argument  @ 78 @ 
+name: use_pad_  @ 164 @ name: use_pad_  @ 202 @ 
+expr  @ 157 @ expr  @ 195 @ 
+expr  @ 31 @ expr  @ 34 @ 
+expr  @ 76 @ expr  @ 100 @ 
+name: pad_width  @ 104 @ name: pad_width  @ 141 @ 
+argument  @ 82 @ argument  @ 107 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: ->  @ 55 @ operator: ->  @ 69 @ 
+argument_list  @ 40 @ argument_list  @ 44 @ 
+name: tensorflow  @ 54 @ name: tensorflow  @ 67 @ 
+name: bool  @ 166 @ name: bool  @ 204 @ 
+name: data_start_index  @ 113 @ name: data_start_index  @ 150 @ 
+name: get_num_ngrams  @ 67 @ name: get_num_ngrams  @ 86 @ 
+expr  @ 102 @ expr  @ 139 @ 
+operator: *  @ 110 @ operator: *  @ 147 @ 
+index  @ 71 @ index  @ 90 @ 
+literal: 1  @ 80 @ literal: 1  @ 105 @ 
+expr  @ 123 @ expr  @ 160 @ 
+expr  @ 55 @ expr  @ 68 @ 
+comment: // Ngrams can be padded with either a fixed pad width or a dynamic pad  @ 18 @ comment: // Ngrams can be padded with either a fixed pad width or a dynamic pad  @ 20 @ 
+operator: (  @ 26 @ operator: (  @ 29 @ 
+name  @ 39 @ name  @ 43 @ 
+condition  @ 134 @ condition  @ 172 @ 
+name: int  @ 100 @ name: int  @ 137 @ 
+literal: "separator"  @ 9 @ literal: "separator"  @ 10 @ 
+operator: ::  @ 100 @ operator: ::  @ 137 @ 
+name: data_start  @ 77 @ name: data_start  @ 101 @ 
+operator: *  @ 7 @ operator: *  @ 8 @ 
+call  @ 49 @ call  @ 78 @ 
+name: flat  @ 32 @ name: flat  @ 35 @ 
+type  @ 118 @ type  @ 155 @ 
+type  @ 78 @ type  @ 102 @ 
+name: output_start  @ 90 @ name: output_start  @ 126 @ 
+name: data  @ 129 @ name: data  @ 167 @ 
+init  @ 139 @ init  @ 177 @ 
+expr  @ 80 @ expr  @ 105 @ 
+decl  @ 66 @ decl  @ 85 @ 
+argument  @ 14 @ argument  @ 15 @ 
+literal: 0  @ 104 @ literal: 0  @ 141 @ 
+name: splits_vec  @ 64 @ name: splits_vec  @ 83 @ 
+name: splits_vec  @ 44 @ name: splits_vec  @ 55 @ 
+init  @ 148 @ init  @ 186 @ 
+name: data  @ 50 @ name: data  @ 79 @ 
+name: ngram_widths_  @ 66 @ name: ngram_widths_  @ 85 @ 
+expr  @ 76 @ expr  @ 100 @ 
+argument_list  @ 141 @ argument_list  @ 179 @ 
+literal: 1  @ 128 @ literal: 1  @ 166 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: int  @ 78 @ name: int  @ 102 @ 
+index  @ 77 @ index  @ 101 @ 
+name  @ 53 @ name  @ 66 @ 
+argument_list  @ 80 @ argument_list  @ 105 @ 
+name  @ 40 @ name  @ 44 @ 
+operator: .  @ 53 @ operator: .  @ 66 @ 
+expr  @ 97 @ expr  @ 134 @ 
+expr  @ 42 @ expr  @ 51 @ 
+operator: ::  @ 44 @ operator: ::  @ 54 @ 
+argument_list  @ 55 @ argument_list  @ 69 @ 
+argument_list  @ 53 @ argument_list  @ 66 @ 
+name: num_batch_items  @ 76 @ name: num_batch_items  @ 100 @ 
+expr  @ 99 @ expr  @ 136 @ 
+type  @ 79 @ type  @ 104 @ 
+name: splits_vec  @ 42 @ name: splits_vec  @ 51 @ 
+name: auto  @ 36 @ name: auto  @ 39 @ 
+name: data_start  @ 82 @ name: data_start  @ 107 @ 
+operator: &  @ 49 @ operator: &  @ 78 @ 
+argument  @ 8 @ argument  @ 9 @ 
+expr  @ 26 @ expr  @ 29 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+name: right_padding  @ 103 @ name: right_padding  @ 140 @ 
+decl  @ 162 @ decl  @ 200 @ 
+name: pad_width_  @ 89 @ name: pad_width_  @ 125 @ 
+argument_list  @ 92 @ argument_list  @ 128 @ 
+call  @ 99 @ call  @ 136 @ 
+name: context  @ 13 @ name: context  @ 14 @ 
+name: output_start_idx  @ 90 @ name: output_start_idx  @ 126 @ 
+argument  @ 25 @ argument  @ 28 @ 
+name: right_padding  @ 148 @ name: right_padding  @ 186 @ 
+block_content  @ 149 @ block_content  @ 187 @ 
+name: OP_REQUIRES_OK  @ 9 @ name: OP_REQUIRES_OK  @ 10 @ 
+name  @ 13 @ name  @ 14 @ 
+name: separator_  @ 130 @ name: separator_  @ 168 @ 
+operator: ->  @ 49 @ operator: ->  @ 78 @ 
+expr  @ 9 @ expr  @ 10 @ 
+decl  @ 148 @ decl  @ 186 @ 
+name: max  @ 102 @ name: max  @ 139 @ 
+expr  @ 104 @ expr  @ 141 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+decl  @ 76 @ decl  @ 100 @ 
+call  @ 53 @ call  @ 66 @ 
+expr  @ 139 @ expr  @ 177 @ 
+name: left_padding  @ 124 @ name: left_padding  @ 161 @ 
+literal: 0  @ 53 @ literal: 0  @ 66 @ 
+name: ngram  @ 149 @ name: ngram  @ 187 @ 
+operator: ++  @ 124 @ operator: ++  @ 161 @ 
+argument  @ 9 @ argument  @ 10 @ 
+for  @ 139 @ for  @ 177 @ 
+name  @ 113 @ name  @ 150 @ 
+expr  @ 65 @ expr  @ 84 @ 
+name: right_pad_  @ 141 @ name: right_pad_  @ 179 @ 
+operator: &  @ 90 @ operator: &  @ 126 @ 
+type  @ 122 @ type  @ 159 @ 
+block  @ 8 @ block  @ 9 @ 
+argument  @ 80 @ argument  @ 105 @ 
+argument  @ 13 @ argument  @ 14 @ 
+operator: +  @ 103 @ operator: +  @ 140 @ 
+literal: 1  @ 26 @ literal: 1  @ 29 @ 
+literal: "data"  @ 31 @ literal: "data"  @ 34 @ 
+name: ngram_index  @ 104 @ name: ngram_index  @ 141 @ 
+condition  @ 68 @ condition  @ 87 @ 
+argument  @ 44 @ argument  @ 53 @ 
+name: ngram  @ 140 @ name: ngram  @ 178 @ 
+expr  @ 126 @ expr  @ 163 @ 
+argument  @ 92 @ argument  @ 128 @ 
+index  @ 113 @ index  @ 150 @ 
+name: num_tokens  @ 118 @ name: num_tokens  @ 155 @ 
+control  @ 112 @ control  @ 149 @ 
+argument  @ 44 @ argument  @ 53 @ 
+expr  @ 9 @ expr  @ 10 @ 
+argument  @ 12 @ argument  @ 13 @ 
+name: separator_  @ 150 @ name: separator_  @ 188 @ 
+decl  @ 169 @ decl  @ 207 @ 
+argument_list  @ 76 @ argument_list  @ 98 @ 
+name: data_start_index  @ 138 @ name: data_start_index  @ 176 @ 
+expr  @ 74 @ expr  @ 93 @ 
+name: StringNGramsOp  @ 5 @ name: StringNGramsOp  @ 6 @ 
+name: tstring  @ 97 @ name: tstring  @ 133 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: n  @ 112 @ name: n  @ 149 @ 
+name: int  @ 66 @ name: int  @ 85 @ 
+expr  @ 67 @ expr  @ 86 @ 
+index  @ 78 @ index  @ 102 @ 
+name: OpKernel  @ 5 @ name: OpKernel  @ 6 @ 
+expr  @ 64 @ expr  @ 83 @ 
+expr  @ 79 @ expr  @ 104 @ 
+name: output_start  @ 82 @ name: output_start  @ 107 @ 
+name: i  @ 41 @ name: i  @ 50 @ 
+operator: ++  @ 56 @ operator: &  @ 71 @ 
+comment: // result in consecutive separators.  @ 133 @ comment: // result in consecutive separators.  @ 171 @ 
+expr  @ 26 @ expr  @ 29 @ 
+specifier: const  @ 40 @ specifier: const  @ 44 @ 
+comment: // Calculate the total expected size of the ngram so we can reserve the  @ 106 @ comment: // Calculate the total expected size of the ngram so we can reserve the  @ 143 @ 
+name: num_batch_items  @ 63 @ name: num_batch_items  @ 82 @ 
+literal: 0  @ 148 @ literal: 0  @ 186 @ 
+call  @ 113 @ call  @ 150 @ 
+literal: 0  @ 102 @ literal: 0  @ 139 @ 
+argument  @ 49 @ argument  @ 78 @ 
+operator: ++  @ 63 @ operator: ++  @ 82 @ 
+name: GetAttr  @ 9 @ name: GetAttr  @ 10 @ 
+operator: +  @ 118 @ operator: +  @ 155 @ 
+name: left_pad_  @ 110 @ name: left_pad_  @ 147 @ 
+name  @ 122 @ name  @ 159 @ 
+block_content  @ 64 @ block_content  @ 83 @ 
+name: length  @ 64 @ name: length  @ 83 @ 
+incr  @ 112 @ incr  @ 149 @ 
+name: int  @ 89 @ name: int  @ 125 @ 
+operator: ->  @ 126 @ operator: ->  @ 163 @ 
+name: ngram_index  @ 98 @ name: ngram_index  @ 135 @ 
+type  @ 63 @ type  @ 82 @ 
+argument_list  @ 11 @ argument_list  @ 12 @ 
+decl  @ 65 @ decl  @ 84 @ 
+name: right_pad_  @ 116 @ name: right_pad_  @ 153 @ 
+expr_stmt  @ 123 @ expr_stmt  @ 160 @ 
+name: i  @ 41 @ name: i  @ 50 @ 
+argument  @ 11 @ argument  @ 12 @ 
+name: input_data_size  @ 43 @ name: input_data_size  @ 52 @ 
+name: left_pad_  @ 125 @ name: left_pad_  @ 162 @ 
+control  @ 98 @ control  @ 135 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: void  @ 29 @ name: void  @ 32 @ 
+name: Tensor  @ 30 @ name: Tensor  @ 33 @ 
+literal: 1  @ 64 @ literal: 1  @ 83 @ 
+block_content  @ 99 @ block_content  @ 136 @ 
+name: GetAttr  @ 13 @ name: GetAttr  @ 14 @ 
+name: GetAttr  @ 10 @ name: GetAttr  @ 11 @ 
+literal: 0  @ 98 @ literal: 0  @ 135 @ 
+index  @ 138 @ index  @ 176 @ 
+argument_list  @ 44 @ argument_list  @ 55 @ 
+name: tensorflow  @ 34 @ name: tensorflow  @ 37 @ 
+expr  @ 5 @ expr  @ 6 @ 
+expr  @ 168 @ expr  @ 206 @ 
+call  @ 81 @ call  @ 106 @ 
+expr  @ 90 @ expr  @ 126 @ 
+block  @ 17 @ block  @ 19 @ 
+argument  @ 24 @ argument  @ 27 @ 
+expr  @ 89 @ expr  @ 125 @ 
+operator: &  @ 122 @ operator: &  @ 159 @ 
+expr  @ 76 @ expr  @ 98 @ 
+operator: (  @ 76 @ operator: (  @ 98 @ 
+operator: *  @ 48 @ operator: *  @ 76 @ 
+expr  @ 78 @ expr  @ 103 @ 
+block_content  @ 5 @ block_content  @ 5 @ 
+type  @ 97 @ type  @ 133 @ 
+name: output_start_idx  @ 79 @ name: output_start_idx  @ 104 @ 
+control  @ 139 @ control  @ 177 @ 
+name: right_padding  @ 139 @ name: right_padding  @ 177 @ 
+incr  @ 148 @ incr  @ 186 @ 
+name: int  @ 40 @ name: int  @ 44 @ 
+name: ngram_size  @ 108 @ name: ngram_size  @ 145 @ 
+argument_list  @ 21 @ argument_list  @ 23 @ 
+name  @ 9 @ name  @ 10 @ 
+expr  @ 97 @ expr  @ 133 @ 
+name: i  @ 41 @ name: i  @ 50 @ 
+decl  @ 97 @ decl  @ 133 @ 
+operator: >  @ 76 @ operator: >  @ 98 @ 
+call  @ 129 @ call  @ 167 @ 
+name  @ 150 @ name  @ 188 @ 
+name  @ 57 @ name  @ 115 @ 
+argument_list  @ 11 @ argument_list  @ 12 @ 
+literal: 1  @ 118 @ literal: 1  @ 155 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 55 @ expr  @ 69 @ 
+name: OP_REQUIRES_OK  @ 12 @ name: OP_REQUIRES_OK  @ 13 @ 
+operator: -  @ 80 @ operator: -  @ 105 @ 
+name: std  @ 100 @ name: std  @ 137 @ 
+name: data  @ 76 @ name: data  @ 98 @ 
+call  @ 130 @ call  @ 168 @ 
+name: ngram  @ 150 @ name: ngram  @ 188 @ 
+literal: 0  @ 26 @ literal: 0  @ 29 @ 
+argument  @ 11 @ argument  @ 12 @ 
+argument  @ 99 @ argument  @ 136 @ 
+name: void  @ 97 @ name: void  @ 133 @ 
+name: separator_  @ 126 @ name: separator_  @ 163 @ 
+operator: ->  @ 49 @ operator: ->  @ 78 @ 
+name: append  @ 140 @ name: append  @ 178 @ 
+expr_stmt  @ 150 @ expr_stmt  @ 188 @ 
+control  @ 78 @ control  @ 103 @ 
+type  @ 41 @ type  @ 46 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 90 @ 
+argument  @ 150 @ argument  @ 188 @ 
+name: append  @ 149 @ name: append  @ 187 @ 
+call  @ 141 @ call  @ 179 @ 
+argument  @ 12 @ argument  @ 13 @ 
+name: num_tokens  @ 134 @ name: num_tokens  @ 172 @ 
+type  @ 65 @ type  @ 84 @ 
+expr  @ 113 @ expr  @ 150 @ 
+operator: )  @ 43 @ operator: )  @ 52 @ 
+name  @ 10 @ name  @ 11 @ 
+argument  @ 9 @ argument  @ 10 @ 
+operator: ->  @ 36 @ operator: ->  @ 39 @ 
+expr  @ 97 @ expr  @ 133 @ 
+argument_list  @ 113 @ argument_list  @ 150 @ 
+name: int  @ 56 @ name: int  @ 50 @ 
+call  @ 50 @ call  @ 79 @ 
+name: ngram  @ 130 @ name: ngram  @ 168 @ 
+name: context  @ 12 @ name: context  @ 13 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+macro  @ 75 @ macro  @ 94 @ 
+operator: )  @ 26 @ operator: )  @ 29 @ 
+name: i  @ 56 @ name: context  @ 71 @ 
+operator: ->  @ 11 @ operator: ->  @ 12 @ 
+name: vector  @ 168 @ name: vector  @ 206 @ 
+block  @ 143 @ block  @ 181 @ 
+name: int  @ 65 @ name: int  @ 84 @ 
+type  @ 112 @ type  @ 149 @ 
+argument  @ 97 @ argument  @ 133 @ 
+name  @ 53 @ name  @ 66 @ 
+decl  @ 90 @ decl  @ 126 @ 
+range  @ 78 @ range  @ 103 @ 
+name: auto  @ 77 @ name: auto  @ 101 @ 
+expr  @ 44 @ expr  @ 54 @ 
+name: num_ngrams  @ 98 @ name: num_ngrams  @ 135 @ 
+name: ngrams  @ 74 @ name: ngrams  @ 93 @ 
+name: ngram  @ 138 @ name: ngram  @ 176 @ 
+incr  @ 76 @ incr  @ 100 @ 
+expr  @ 168 @ expr  @ 206 @ 
+init  @ 63 @ init  @ 82 @ 
+name: preserve_short_  @ 166 @ name: preserve_short_  @ 204 @ 
+expr  @ 10 @ expr  @ 11 @ 
+literal: 0  @ 65 @ literal: 0  @ 84 @ 
+argument_list  @ 77 @ argument_list  @ 101 @ 
+name: ngrams_splits_data  @ 71 @ name: ngrams_splits_data  @ 90 @ 
+expr  @ 152 @ expr  @ 190 @ 
+name  @ 35 @ name  @ 38 @ 
+argument  @ 9 @ argument  @ 10 @ 
+init  @ 78 @ init  @ 103 @ 
+type  @ 161 @ type  @ 199 @ 
+name: context  @ 11 @ name: context  @ 12 @ 
+literal: 1  @ 102 @ literal: 1  @ 139 @ 
+name: append  @ 141 @ name: append  @ 179 @ 
+name: ngram_width  @ 78 @ name: ngram_width  @ 103 @ 
+expr  @ 125 @ expr  @ 162 @ 
+operator: <=  @ 63 @ operator: <=  @ 82 @ 
+operator: +  @ 102 @ operator: +  @ 139 @ 
+argument  @ 92 @ argument  @ 128 @ 
+operator: ++  @ 98 @ operator: ++  @ 135 @ 
+expr  @ 11 @ expr  @ 12 @ 
+name: public  @ 5 @ name: public  @ 6 @ 
+name: i  @ 71 @ name: i  @ 90 @ 
+operator: <  @ 32 @ operator: <  @ 35 @ 
+name: int  @ 97 @ name: int  @ 134 @ 
+call  @ 53 @ call  @ 66 @ 
+argument  @ 130 @ argument  @ 168 @ 
+block  @ 2 @ block  @ 2 @ 
+operator: +=  @ 113 @ operator: +=  @ 150 @ 
+operator: ->  @ 123 @ operator: ->  @ 160 @ 
+name: ngram_width  @ 103 @ name: ngram_width  @ 140 @ 
+name: valid_splits  @ 44 @ name: valid_splits  @ 53 @ 
+expr  @ 82 @ expr  @ 107 @ 
+expr  @ 35 @ expr  @ 38 @ 
+expr  @ 11 @ expr  @ 12 @ 
+name  @ 55 @ name  @ 69 @ 
+name  @ 110 @ name  @ 147 @ 
+type  @ 148 @ type  @ 186 @ 
+operator: <  @ 36 @ operator: <  @ 39 @ 
+operator: +  @ 129 @ operator: +  @ 167 @ 
+argument_list  @ 130 @ argument_list  @ 168 @ 
+literal: 1  @ 21 @ literal: 1  @ 24 @ 
+literal: ", must be in [0,"  @ 44 @ literal: ", must be in ["  @ 55 @ 
+operator: *  @ 89 @ operator: *  @ 125 @ 
+operator: >  @ 39 @ operator: >  @ 43 @ 
+name: std  @ 21 @ name: std  @ 23 @ 
+name: int  @ 169 @ name: int  @ 207 @ 
+expr  @ 118 @ expr  @ 155 @ 
+type  @ 101 @ type  @ 138 @ 
+expr_stmt  @ 140 @ expr_stmt  @ 178 @ 
+decl  @ 80 @ decl  @ 105 @ 
+operator: -  @ 103 @ operator: -  @ 140 @ 
+literal: 0  @ 124 @ literal: 0  @ 161 @ 
+operator: +  @ 26 @ operator: +  @ 29 @ 
+if  @ 68 @ if  @ 87 @ 
+comment: // Handle case when there are no tokens or no right padding as these can  @ 132 @ comment: // Handle case when there are no tokens or no right padding as these can  @ 170 @ 
+expr  @ 63 @ expr  @ 82 @ 
+name: ngram_index  @ 102 @ name: ngram_index  @ 139 @ 
+name  @ 76 @ name  @ 98 @ 
+name: left_padding  @ 104 @ name: left_padding  @ 141 @ 
+decl_stmt  @ 65 @ decl_stmt  @ 84 @ 
+name: right_padding  @ 118 @ name: right_padding  @ 155 @ 
+operator: ->  @ 9 @ operator: ->  @ 10 @ 
+expr  @ 49 @ expr  @ 78 @ 
+call  @ 77 @ call  @ 101 @ 
+type  @ 42 @ type  @ 51 @ 
+type  @ 164 @ type  @ 202 @ 
+name: data  @ 32 @ name: data  @ 35 @ 
+decl_stmt  @ 164 @ decl_stmt  @ 202 @ 
+name: OP_REQUIRES_OK  @ 14 @ name: OP_REQUIRES_OK  @ 15 @ 
+operator: >  @ 134 @ operator: >  @ 172 @ 
+init  @ 79 @ init  @ 104 @ 
+type  @ 108 @ type  @ 145 @ 
+argument  @ 157 @ argument  @ 195 @ 
+name: output_start_idx  @ 78 @ name: output_start_idx  @ 102 @ 
+name: n  @ 148 @ name: n  @ 186 @ 
+block  @ 1 @ block  @ 1 @ 
+block_content  @ 138 @ block_content  @ 176 @ 
+name: append  @ 138 @ name: append  @ 176 @ 
+decl_stmt  @ 108 @ decl_stmt  @ 145 @ 
+name: append  @ 130 @ name: append  @ 168 @ 
+expr  @ 6 @ expr  @ 7 @ 
+for  @ 128 @ for  @ 166 @ 
+comment: // ngram.  @ 156 @ comment: // ngram.  @ 194 @ 
+name: valid_splits  @ 43 @ name: valid_splits  @ 52 @ 
+name: template  @ 5 @ name: template  @ 5 @ 
+name: pad_width_  @ 21 @ name: pad_width_  @ 23 @ 
+name: right_pad_  @ 12 @ name: right_pad_  @ 13 @ 
+decl_stmt  @ 100 @ decl_stmt  @ 137 @ 
+decl_stmt  @ 78 @ decl_stmt  @ 102 @ 
+operator: +  @ 118 @ operator: +  @ 155 @ 
+argument  @ 42 @ argument  @ 51 @ 
+expr  @ 43 @ expr  @ 52 @ 
+expr  @ 49 @ expr  @ 78 @ 
+name  @ 5 @ name  @ 5 @ 
+name: input  @ 35 @ name: input  @ 38 @ 
+name: pad_width_  @ 21 @ name: pad_width_  @ 23 @ 
+operator: -  @ 47 @ operator: ,  @ 59 @ 
+call  @ 49 @ call  @ 78 @ 
+argument_list  @ 39 @ argument_list  @ 43 @ 
+decl_stmt  @ 79 @ decl_stmt  @ 104 @ 
+argument_list  @ 7 @ argument_list  @ 8 @ 
+operator: +=  @ 116 @ operator: +=  @ 153 @ 
+call  @ 64 @ call  @ 83 @ 
+operator: <  @ 41 @ operator: <  @ 50 @ 
+operator: ::  @ 5 @ operator: ::  @ 6 @ 
+argument_list  @ 12 @ argument_list  @ 13 @ 
+operator: &  @ 32 @ operator: &  @ 35 @ 
+expr  @ 81 @ expr  @ 106 @ 
+operator: :  @ 8 @ operator: :  @ 9 @ 
+argument  @ 24 @ argument  @ 27 @ 
+expr_stmt  @ 138 @ expr_stmt  @ 176 @ 
+operator: =  @ 39 @ operator: =  @ 43 @ 
+empty_stmt  @ 75 @ empty_stmt  @ 97 @ 
+condition  @ 128 @ condition  @ 166 @ 
+control  @ 63 @ control  @ 82 @ 
+operator: -  @ 64 @ operator: -  @ 83 @ 
+argument  @ 44 @ argument  @ 55 @ 
+name: n  @ 139 @ name: n  @ 177 @ 
+decl_stmt  @ 80 @ decl_stmt  @ 105 @ 
+name: preserve_short_  @ 68 @ name: preserve_short_  @ 87 @ 
+name: length  @ 68 @ name: length  @ 87 @ 
+literal: 0  @ 139 @ literal: 0  @ 177 @ 
+operator: ?  @ 21 @ operator: ?  @ 23 @ 
+operator: ::  @ 26 @ operator: ::  @ 29 @ 
+name: ngrams_splits_data  @ 71 @ name: ngrams_splits_data  @ 90 @ 
+name: get_num_ngrams  @ 24 @ name: get_num_ngrams  @ 27 @ 
+type  @ 89 @ type  @ 125 @ 
+operator: *  @ 30 @ operator: *  @ 33 @ 
+argument  @ 17 @ argument  @ 19 @ 
+argument  @ 12 @ argument  @ 13 @ 
+name: StringNGramsOp  @ 7 @ name: StringNGramsOp  @ 8 @ 
+argument_list  @ 9 @ argument_list  @ 10 @ 
+init  @ 90 @ init  @ 126 @ 
+argument  @ 152 @ argument  @ 190 @ 
+decl  @ 139 @ decl  @ 177 @ 
+argument  @ 43 @ argument  @ 52 @ 
+control  @ 148 @ control  @ 186 @ 
+call  @ 116 @ call  @ 153 @ 
+literal: "ngram_widths"  @ 10 @ literal: "ngram_widths"  @ 11 @ 
+name: int  @ 98 @ name: int  @ 135 @ 
+expr  @ 11 @ expr  @ 12 @ 
+expr_stmt  @ 130 @ expr_stmt  @ 168 @ 
+name  @ 49 @ name  @ 78 @ 
+expr  @ 31 @ expr  @ 34 @ 
+call  @ 43 @ call  @ 52 @ 
+name: int  @ 63 @ name: int  @ 82 @ 
+init  @ 80 @ init  @ 105 @ 
+name: context  @ 10 @ name: context  @ 11 @ 
+operator: +  @ 80 @ operator: +  @ 105 @ 
+name: get_num_ngrams  @ 81 @ name: get_num_ngrams  @ 106 @ 
+expr  @ 77 @ expr  @ 101 @ 
+operator: )  @ 36 @ operator: )  @ 39 @ 
+name: ngram_index  @ 98 @ name: ngram_index  @ 135 @ 
+argument_list  @ 82 @ argument_list  @ 107 @ 
+name: num_ngrams  @ 71 @ name: num_ngrams  @ 90 @ 
+literal: 1  @ 91 @ literal: 1  @ 127 @ 
+name: context  @ 10 @ name: context  @ 11 @ 
+argument  @ 49 @ argument  @ 78 @ 
+name: splits_vec  @ 40 @ name: splits_vec  @ 44 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 1 @ 
+name: context  @ 44 @ name: context  @ 53 @ 
+expr  @ 14 @ expr  @ 16 @ 
+name: ngram  @ 152 @ name: ngram  @ 190 @ 
+name: context  @ 55 @ name: context  @ 68 @ 
+expr_stmt  @ 168 @ expr_stmt  @ 206 @ 
+name: tensorflow  @ 5 @ name: tensorflow  @ 6 @ 
+operator: <  @ 76 @ operator: <  @ 100 @ 
+expr  @ 44 @ expr  @ 55 @ 
+name: int  @ 78 @ name: int  @ 103 @ 
+continue  @ 84 @ continue  @ 120 @ 
+operator: *  @ 54 @ operator: *  @ 67 @ 
+operator: *  @ 97 @ operator: *  @ 133 @ 
+expr_stmt  @ 110 @ expr_stmt  @ 147 @ 
+name: pad_width_  @ 169 @ name: pad_width_  @ 207 @ 
+name: i  @ 44 @ name: i  @ 55 @ 
+name: length  @ 116 @ name: length  @ 153 @ 
+expr  @ 82 @ expr  @ 107 @ 
+expr  @ 99 @ expr  @ 136 @ 
+operator: .  @ 119 @ operator: .  @ 156 @ 
+operator: <  @ 53 @ operator: <  @ 66 @ 
+operator: ++  @ 128 @ operator: ++  @ 166 @ 
+block_content  @ 69 @ block_content  @ 88 @ 
+argument  @ 100 @ argument  @ 137 @ 
+name: length  @ 110 @ name: length  @ 147 @ 
+init  @ 104 @ init  @ 141 @ 
+expr  @ 41 @ expr  @ 50 @ 
+operator: <  @ 128 @ operator: <  @ 166 @ 
+argument_list  @ 116 @ argument_list  @ 153 @ 
+call  @ 80 @ call  @ 105 @ 
+argument  @ 35 @ argument  @ 38 @ 
+name: append  @ 126 @ name: append  @ 163 @ 
+argument_list  @ 31 @ argument_list  @ 34 @ 
+expr  @ 14 @ expr  @ 15 @ 
+condition  @ 76 @ condition  @ 100 @ 
+expr_stmt  @ 141 @ expr_stmt  @ 179 @ 
+expr_stmt  @ 157 @ expr_stmt  @ 195 @ 
+name: ngram_size  @ 157 @ name: ngram_size  @ 195 @ 
+name: InvalidArgument  @ 44 @ name: InvalidArgument  @ 54 @ 
+name: namespace  @ 2 @ name: namespace  @ 2 @ 
+expr  @ 44 @ expr  @ 53 @ 
+expr  @ 10 @ expr  @ 11 @ 
+name: num_ngrams  @ 102 @ name: num_ngrams  @ 139 @ 
+init  @ 122 @ init  @ 159 @ 
+operator: &  @ 13 @ operator: &  @ 14 @ 
+name: ngram_index  @ 100 @ name: ngram_index  @ 137 @ 
+decl_stmt  @ 42 @ decl_stmt  @ 51 @ 
+decl  @ 77 @ decl  @ 101 @ 
+expr  @ 57 @ expr  @ 115 @ 
+expr  @ 44 @ expr  @ 56 @ 
+operator: )  @ 103 @ operator: )  @ 140 @ 
+index  @ 79 @ index  @ 104 @ 
+expr  @ 44 @ expr  @ 56 @ 
+name: auto  @ 90 @ name: auto  @ 126 @ 
+call  @ 55 @ call  @ 69 @ 
+expr  @ 80 @ expr  @ 105 @ 
+operator: ::  @ 102 @ operator: ::  @ 139 @ 
+argument  @ 14 @ argument  @ 15 @ 
+name: context  @ 9 @ name: context  @ 10 @ 
+name  @ 138 @ name  @ 176 @ 
+call  @ 157 @ call  @ 195 @ 
+call  @ 14 @ call  @ 15 @ 
+literal: 0  @ 41 @ literal: 0  @ 81 @ 
+decl_stmt  @ 104 @ decl_stmt  @ 141 @ 
+operator: +=  @ 83 @ operator: +=  @ 108 @ 
+block  @ 76 @ block  @ 100 @ 
+type  @ 91 @ type  @ 127 @ 
+comment: // generate at least one ngram.  @ 88 @ comment: // generate at least one ngram.  @ 124 @ 
+expr_stmt  @ 74 @ expr_stmt  @ 93 @ 
+argument  @ 44 @ argument  @ 56 @ 
+argument  @ 82 @ argument  @ 107 @ 
+name: int  @ 128 @ name: int  @ 166 @ 
+expr  @ 10 @ expr  @ 11 @ 
+expr  @ 112 @ expr  @ 149 @ 
+name: int  @ 41 @ name: int  @ 46 @ 
+comment: // output right pad and separator and make sure to finish with a  @ 146 @ comment: // output right pad and separator and make sure to finish with a  @ 184 @ 
+argument  @ 14 @ argument  @ 16 @ 
+call  @ 125 @ call  @ 162 @ 
+operator: ->  @ 14 @ operator: ->  @ 15 @ 
+expr  @ 35 @ expr  @ 38 @ 
+literal: 0  @ 108 @ literal: 0  @ 145 @ 
+init  @ 124 @ init  @ 161 @ 
+operator: ->  @ 129 @ operator: ->  @ 167 @ 
+name: size  @ 157 @ name: size  @ 195 @ 
+decl  @ 76 @ decl  @ 98 @ 
+operator: *  @ 34 @ operator: *  @ 37 @ 
+operator: >  @ 53 @ operator: >  @ 66 @ 
+macro  @ 17 @ macro  @ 19 @ 
+name: tensorflow  @ 48 @ name: tensorflow  @ 76 @ 
+name: n  @ 124 @ name: n  @ 161 @ 
+argument_list  @ 35 @ argument_list  @ 38 @ 
+argument  @ 13 @ argument  @ 14 @ 
+literal: "preserve_short_sequences"  @ 14 @ literal: "preserve_short_sequences"  @ 15 @ 
+name: ngram_widths_  @ 168 @ name: ngram_widths_  @ 206 @ 
+name: ngram  @ 129 @ name: ngram  @ 167 @ 
+name: pad_width_  @ 13 @ name: pad_width_  @ 14 @ 
+name: ngrams_data  @ 79 @ name: ngrams_data  @ 104 @ 
+name: std  @ 26 @ name: std  @ 29 @ 
+call  @ 110 @ call  @ 147 @ 
+comment: // Build the ngram.  @ 121 @ comment: // Build the ngram.  @ 158 @ 
+incr  @ 128 @ incr  @ 166 @ 
+expr  @ 25 @ expr  @ 28 @ 
+literal: 1  @ 63 @ literal: 1  @ 82 @ 
+

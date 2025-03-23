@@ -1,0 +1,48 @@
+144c144
+< static vztint32_t vzt_rd_get_v32(char **mmx)
+---
+> static vztint32_t vzt_rd_get_v32(unsigned char **mmx)
+146,147c146,147
+< signed char *c;
+< signed char *beg;
+---
+> unsigned char *c;
+> unsigned char *beg;
+149c149
+< signed char **mm = (signed char **)mmx;
+---
+> unsigned char **mm = mmx;
+154c154
+< if(*c>=0)
+---
+> if(!(*c & 0x80))
+156c156
+< 	while(*c>=0) c++;
+---
+> 	while(!(*c & 0x80)) c++;
+175c175
+< static vztint64_t vzt_rd_get_v64(char **mmx)
+---
+> static vztint64_t vzt_rd_get_v64(unsigned char **mmx)
+177,178c177,178
+< signed char *c;
+< signed char *beg;
+---
+> unsigned char *c;
+> unsigned char *beg;
+180c180
+< signed char **mm = (signed char **)mmx;
+---
+> unsigned char **mm = mmx;
+185c185
+< if(*c>=0)
+---
+> if(!(*c & 0x80))
+187c187
+< 	while(*c>=0) c++;
+---
+> 	while(!(*c & 0x80)) c++;
+276c276
+< char *pnt = b->mem;
+---
+> unsigned char *pnt = b->mem;

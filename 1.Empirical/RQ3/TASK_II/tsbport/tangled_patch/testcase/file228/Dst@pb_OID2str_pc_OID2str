@@ -1,0 +1,23 @@
+static const char *OID2str(const char *beg, const char *end, bool symbolic)
+{
+  char *buf = NULL;
+  if(beg < end) {
+    size_t buflen = encodeOID(NULL, 0, beg, end);
+    if(buflen) {
+      buf = malloc(buflen + 1); /* one extra for the zero byte */
+      if(buf) {
+        encodeOID(buf, buflen, beg, end);
+        buf[buflen] = '\0';
+
+        if(symbolic) {
+          const struct Curl_OID *op = searchOID(buf);
+          if(op) {
+            free(buf);
+            buf = strdup(op->textoid);
+          }
+        }
+      }
+    }
+  }
+  return buf;
+}

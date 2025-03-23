@@ -1,0 +1,270 @@
+{
+    "testcase": {
+        "file7": {
+            "match_message": {
+                "Same: processCropSelections -> processCropSelections": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6715 -> 7430",
+                        "L2": "3: Unique Matched by Source code 6715 -> 7430"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6721 -> 7436",
+                        "L2": "3: Unique Matched by Source code 6721 -> 7436"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6725 -> 7440",
+                        "L2": "3: Unique Matched by Source code 6725 -> 7440"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6738 -> 7453",
+                        "L2": "3: Unique Matched by Source code 6738 -> 7453"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6811 -> 7532",
+                        "L2": "3: Unique Matched by Source code 6811 -> 7532"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6817 -> 7538",
+                        "L2": "3: Unique Matched by Source code 6817 -> 7538"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6821 -> 7542",
+                        "L2": "3: Unique Matched by Source code 6821 -> 7542"
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 6834 -> 7555",
+                        "L2": "3: Unique Matched by Source code 6834 -> 7555"
+                    }
+                },
+                "Same: rotateImage -> rotateImage": {
+                    "Seg_8": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7665 -> 8454",
+                        "L2": "3: Unique Matched by Source code 7665 -> 8454"
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7667 -> 8456",
+                        "L2": "3: Unique Matched by Source code 7667 -> 8456"
+                    },
+                    "Seg_10": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 7670 -> 8459",
+                        "L2": "3: Unique Matched by Source code 7670 -> 8459"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 7430,
+                        "add_hunk": [
+                            "      crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7430,
+                            7430
+                        ],
+                        "delete_hunk": [
+                            "      crop_buff = (unsigned char *)limitMalloc(cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 7436,
+                        "add_hunk": [
+                            "        next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7436,
+                            7436
+                        ],
+                        "delete_hunk": [
+                            "        next_buff = _TIFFrealloc(crop_buff, cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 7440,
+                        "add_hunk": [
+                            "          crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7440,
+                            7440
+                        ],
+                        "delete_hunk": [
+                            "          crop_buff = (unsigned char *)limitMalloc(cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 7453,
+                        "add_hunk": [
+                            "    _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7453,
+                            7453
+                        ],
+                        "delete_hunk": [
+                            "    _TIFFmemset(crop_buff, 0, cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 7532,
+                        "add_hunk": [
+                            "        crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7532,
+                            7532
+                        ],
+                        "delete_hunk": [
+                            "        crop_buff = (unsigned char *)limitMalloc(cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 7538,
+                        "add_hunk": [
+                            "          next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7538,
+                            7538
+                        ],
+                        "delete_hunk": [
+                            "          next_buff = _TIFFrealloc(crop_buff, cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 7542,
+                        "add_hunk": [
+                            "            crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7542,
+                            7542
+                        ],
+                        "delete_hunk": [
+                            "            crop_buff = (unsigned char *)limitMalloc(cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": 7555,
+                        "add_hunk": [
+                            "      _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            7555,
+                            7555
+                        ],
+                        "delete_hunk": [
+                            "      _TIFFmemset(crop_buff, 0, cropsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "change",
+                        "add_location": 8454,
+                        "add_hunk": [
+                            "  if (!(rbuff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES)))\n"
+                        ],
+                        "delete_location": [
+                            8454,
+                            8454
+                        ],
+                        "delete_hunk": [
+                            "  if (!(rbuff = (unsigned char *)limitMalloc(buffsize)))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 8456,
+                        "add_hunk": [
+                            "    TIFFError(\"rotateImage\", \"Unable to allocate rotation buffer of %1u bytes\", buffsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            8456,
+                            8456
+                        ],
+                        "delete_hunk": [
+                            "    TIFFError(\"rotateImage\", \"Unable to allocate rotation buffer of %1u bytes\", buffsize);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "change",
+                        "add_location": 8459,
+                        "add_hunk": [
+                            "  _TIFFmemset(rbuff, '\\0', buffsize + NUM_BUFF_OVERSIZE_BYTES);\n"
+                        ],
+                        "delete_location": [
+                            8459,
+                            8459
+                        ],
+                        "delete_hunk": [
+                            "  _TIFFmemset(rbuff, '\\0', buffsize);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: processCropSelections -> processCropSelections": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: rotateImage -> rotateImage": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

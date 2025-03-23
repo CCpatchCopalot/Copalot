@@ -1,0 +1,4 @@
+1379c1379
+< 		if ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI))
+---
+> 		if (!valid || ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI)))

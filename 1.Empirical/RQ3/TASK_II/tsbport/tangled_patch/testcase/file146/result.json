@@ -1,0 +1,91 @@
+{
+    "testcase": {
+        "file146": {
+            "match_message": {
+                "Same: mp4boxMain -> mp4boxMain": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 3868->3914 ([[3914, 1.0], [3920, 0.5766129032258065], [3495, 0.4390243902439024], [3962, 0.4144144144144144], [3866, 0.40784313725490196], [3660, 0.40573770491803274], [3564, 0.3990498812351544], [3607, 0.39084507042253525], [3712, 0.3869731800766284], [3680, 0.3811563169164882], [3804, 0.36929460580912865], [3799, 0.3423137876386688], [3470, 0.3397129186602871]])",
+                        "L2": "3: Unique Matched by Source code 3869 -> 3915"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3873 -> 3919",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 3874->3920 ([[3920, 0.89453125], [3962, 0.682608695652174], [3804, 0.5943775100401607], [3680, 0.5797101449275363], [3914, 0.5482625482625483], [3712, 0.5353159851301115], [3607, 0.5273972602739726], [3866, 0.4980988593155894], [3660, 0.49603174603174605], [3564, 0.46681922196796344], [3470, 0.4608294930875576], [3495, 0.45539906103286387], [3799, 0.4049459041731066]])"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3883 -> 3927",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 3884->3928 ([[3928, 1.0], [3773, 0.5801217038539555], [3558, 0.5708502024291497], [4152, 0.5256410256410257], [4149, 0.47715736040609136]])"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3924 -> 3961",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 3925->3962 ([[3962, 0.9319899244332494], [3920, 0.7394209354120267], [3680, 0.6238095238095238], [3804, 0.6206896551724138], [3712, 0.5684210526315789], [3470, 0.5336927223719676], [3607, 0.5297504798464492], [3660, 0.5215419501133787], [3866, 0.5140388768898488], [3564, 0.5080213903743316], [3495, 0.4738292011019284], [3914, 0.43956043956043955], [3799, 0.40410958904109584]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 3914,
+                        "add_hunk": [
+                            "\t\t\treturn mp4box_cleanup(GF_OUT_OF_MEM);\n"
+                        ],
+                        "delete_location": [
+                            3914,
+                            3915
+                        ],
+                        "delete_hunk": [
+                            "\t\t\treturn mp4box_cleanup(1);\n",
+                            "\t\t\treturn GF_OUT_OF_MEM;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 3919,
+                        "add_hunk": [
+                            "\t\t\tgf_dasher_del(dasher);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 3927,
+                        "add_hunk": [
+                            "\t\t\t\tgf_dasher_del(dasher);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 3961,
+                        "add_hunk": [
+                            "\t\t\tgf_dasher_del(dasher);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: mp4boxMain -> mp4boxMain": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_value",
+                "function_call"
+            ]
+        }
+    }
+}

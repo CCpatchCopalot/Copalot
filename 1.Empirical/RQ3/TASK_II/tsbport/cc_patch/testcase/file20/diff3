@@ -1,0 +1,25 @@
+-1c-1
+---
+>0});      OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of the " "buffer for the output tensor (max elements ", output_elements, ")"));
+-1c-1
+---
+>0});      OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of the " "buffer for the output tensor (max elements ", output_elements, ")"));
+205c205
+<        OP_REQUIRES(
+---
+>OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+218c218,225
+<        auto loc = std::inner_product(g_hypothesis.begin(), g_hypothesis.end(),
+---
+>auto loc = std::inner_product(g_hypothesis.begin(), g_hypothesis.end(),output_strides.begin(), int64_t{0});
+>0});        OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+>        output_t(loc) = hypothesis_seq.size();
+>        if (normalize_ && output_t(loc) != 0.0f) {
+>          output_t(loc) = std::numeric_limits<float>::infinity();
+>        }
+>        ++hypothesis_iter;
+>      }OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));
+220c220
+<        OP_REQUIRES(
+---
+>OP_REQUIRES(ctx, 0 <= loc && loc < output_elements,errors::Internal("Got an inner product ", loc, " which would require in writing to outside of " "the buffer for the output tensor (max elements ", output_elements, ")"));

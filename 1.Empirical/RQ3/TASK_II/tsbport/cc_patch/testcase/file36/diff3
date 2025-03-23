@@ -1,0 +1,20 @@
+-1c-1,-2
+<}
+---
+68,69d
+<  if (isLua(L->ci))
+<    L->oldpc = L->ci->u.l.savedpc;
+326a327
+>  int oldpc = (L->oldpc < p->sizecode) ? L->oldpc : 0;
+327a328
+>  const Proto *p = ci_func(ci)->p;
+337c337,338
+<    const char *what = getobjname(p, pc, c, name); /* search for 'c' */
+---
+>pc <= invpcRel(oldpc, p) ||  /* when jump back (loop), or when */
+>        changedline(p, oldpc, npci)
+337c0
+<    const char *what = getobjname(p, pc, c, name); /* search for 'c' */
+---
+>if (npci == 0 ||/* call linehook when enter a new function, */int newline =newline = luaG_getfuncline(p, npci);
+>L->oldpc = npci;

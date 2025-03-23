@@ -1,0 +1,142 @@
+name: code  @ 12 @ name: code  @ 13 @ 
+name: gdev_prn_open  @ 16 @ name: gdev_prn_open  @ 17 @ 
+name: retCode  @ 22 @ name: retCode  @ 23 @ 
+return  @ 25 @ return  @ 26 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+if  @ 21 @ if  @ 22 @ 
+name: gx_device  @ 2 @ name: gx_device  @ 2 @ 
+name: pdev  @ 10 @ name: pdev  @ 10 @ 
+operator: ==  @ 9 @ operator: ==  @ 9 @ 
+name: true  @ 20 @ name: true  @ 21 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+condition  @ 21 @ condition  @ 22 @ 
+name: code  @ 13 @ name: code  @ 14 @ 
+if_stmt  @ 17 @ if_stmt  @ 18 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: color_info  @ 10 @ name: color_info  @ 11 @ 
+name: gdev_prn_open_printer  @ 20 @ name: gdev_prn_open_printer  @ 21 @ 
+operator: (  @ 22 @ operator: (  @ 23 @ 
+call  @ 16 @ call  @ 17 @ 
+operator: =  @ 6 @ operator: =  @ 6 @ 
+operator: ->  @ 10 @ operator: ->  @ 11 @ 
+operator: .  @ 9 @ operator: .  @ 9 @ 
+operator: )  @ 22 @ operator: )  @ 23 @ 
+name: retCode  @ 20 @ name: retCode  @ 21 @ 
+expr  @ 20 @ expr  @ 21 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: pdev  @ 10 @ name: pdev  @ 11 @ 
+operator: <  @ 17 @ operator: <  @ 18 @ 
+block  @ 19 @ block  @ 20 @ 
+operator: .  @ 10 @ operator: .  @ 10 @ 
+argument  @ 10 @ argument  @ 11 @ 
+if  @ 12 @ if  @ 13 @ 
+return  @ 13 @ return  @ 14 @ 
+block  @ 13 @ block  @ 14 @ 
+expr  @ 13 @ expr  @ 14 @ 
+expr  @ 20 @ expr  @ 21 @ 
+call  @ 20 @ call  @ 21 @ 
+type  @ 1 @ type  @ 1 @ 
+block_content  @ 20 @ block_content  @ 21 @ 
+block  @ 9 @ block  @ 9 @ 
+name: cdj_set_bpp  @ 10 @ name: cdj_set_bpp  @ 10 @ 
+expr  @ 20 @ expr  @ 21 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+argument  @ 10 @ argument  @ 10 @ 
+return  @ 18 @ return  @ 19 @ 
+type  @ 2 @ type  @ 2 @ 
+name: pdev  @ 2 @ name: pdev  @ 2 @ 
+operator: <  @ 12 @ operator: <  @ 13 @ 
+name: color_info  @ 10 @ name: color_info  @ 10 @ 
+argument  @ 20 @ argument  @ 21 @ 
+block_content  @ 22 @ block_content  @ 23 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+literal: 0  @ 9 @ literal: 0  @ 9 @ 
+condition  @ 17 @ condition  @ 18 @ 
+expr  @ 10 @ expr  @ 11 @ 
+argument_list  @ 20 @ argument_list  @ 21 @ 
+name: num_components  @ 10 @ name: num_components  @ 11 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+argument  @ 10 @ argument  @ 10 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 6 @ 
+unit  @ 1 @ unit  @ 1 @ 
+else  @ 19 @ else  @ 20 @ 
+decl  @ 10 @ decl  @ 10 @ 
+name  @ 10 @ name  @ 10 @ 
+if_stmt  @ 12 @ if_stmt  @ 13 @ 
+block  @ 22 @ block  @ 23 @ 
+operator: =  @ 20 @ operator: =  @ 21 @ 
+return  @ 22 @ return  @ 23 @ 
+name: num_components  @ 9 @ name: num_components  @ 9 @ 
+block_content  @ 18 @ block_content  @ 19 @ 
+operator: ->  @ 9 @ operator: ->  @ 9 @ 
+literal: 0  @ 12 @ literal: 0  @ 13 @ 
+argument  @ 20 @ argument  @ 21 @ 
+argument  @ 16 @ argument  @ 17 @ 
+name  @ 9 @ name  @ 9 @ 
+expr  @ 16 @ expr  @ 17 @ 
+if_stmt  @ 21 @ if_stmt  @ 22 @ 
+name: color_info  @ 9 @ name: color_info  @ 9 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 10 @ 
+operator: <  @ 21 @ operator: <  @ 22 @ 
+expr  @ 18 @ expr  @ 19 @ 
+block  @ 3 @ block  @ 3 @ 
+name: pdev  @ 16 @ name: pdev  @ 17 @ 
+function  @ 1 @ function  @ 1 @ 
+if_stmt  @ 9 @ if_stmt  @ 9 @ 
+decl  @ 2 @ decl  @ 2 @ 
+condition  @ 9 @ condition  @ 9 @ 
+literal: 0  @ 21 @ literal: 0  @ 22 @ 
+expr  @ 10 @ expr  @ 10 @ 
+condition  @ 12 @ condition  @ 13 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 17 @ 
+name: retCode  @ 18 @ name: retCode  @ 19 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 25 @ expr  @ 26 @ 
+name: pdev  @ 9 @ name: pdev  @ 9 @ 
+expr  @ 6 @ expr  @ 6 @ 
+expr  @ 12 @ expr  @ 13 @ 
+if  @ 17 @ if  @ 18 @ 
+block_content  @ 10 @ block_content  @ 10 @ 
+operator: (  @ 18 @ operator: (  @ 19 @ 
+call  @ 10 @ call  @ 10 @ 
+comment: /* Set up colour params if put_params has not already done so */  @ 8 @ comment: /* Set up colour params if put_params has not already done so */  @ 8 @ 
+name: int  @ 4 @ name: int  @ 4 @ 
+literal: 0  @ 17 @ literal: 0  @ 18 @ 
+name  @ 10 @ name  @ 11 @ 
+block_content  @ 13 @ block_content  @ 14 @ 
+init  @ 10 @ init  @ 10 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: retCode  @ 17 @ name: retCode  @ 18 @ 
+type  @ 10 @ type  @ 10 @ 
+operator: )  @ 18 @ operator: )  @ 19 @ 
+name: retCode  @ 16 @ name: retCode  @ 17 @ 
+argument_list  @ 16 @ argument_list  @ 17 @ 
+name  @ 6 @ name  @ 6 @ 
+expr  @ 9 @ expr  @ 9 @ 
+name: PageCtr  @ 6 @ name: PageCtr  @ 6 @ 
+operator: =  @ 16 @ operator: =  @ 17 @ 
+type  @ 4 @ type  @ 4 @ 
+name: cdj970  @ 6 @ name: cdj970  @ 6 @ 
+name: retCode  @ 4 @ name: retCode  @ 4 @ 
+name: depth  @ 10 @ name: depth  @ 10 @ 
+name: code  @ 10 @ name: code  @ 10 @ 
+name: pdev  @ 10 @ name: pdev  @ 10 @ 
+expr  @ 21 @ expr  @ 22 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 21 @ 
+operator: ->  @ 6 @ operator: ->  @ 6 @ 
+block  @ 18 @ block  @ 19 @ 
+expr  @ 16 @ expr  @ 17 @ 
+operator: .  @ 10 @ operator: .  @ 11 @ 
+name: pdev  @ 20 @ name: pdev  @ 21 @ 
+name: int  @ 10 @ name: int  @ 10 @ 
+literal: 0  @ 25 @ literal: 0  @ 26 @ 
+name: hp_colour_open  @ 2 @ name: hp_colour_open  @ 2 @ 
+expr  @ 17 @ expr  @ 18 @ 
+name: retCode  @ 21 @ name: retCode  @ 22 @ 
+if  @ 9 @ if  @ 9 @ 
+literal: 0  @ 6 @ literal: 0  @ 6 @ 
+expr  @ 22 @ expr  @ 23 @ 
+

@@ -1,0 +1,50 @@
+{
+    "testcase": {
+        "file110": {
+            "match_message": {
+                "Same: epsc_print_page -> epsc_print_page": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 135 -> 184",
+                        "L2": "3: Unique Matched by Source code 136 -> 185"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 18,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 184,
+                        "add_hunk": [
+                            "    int max_dpi = 60 * ((y_24pin) ?sizeof(graphics_modes_24) / sizeof(graphics_modes_24[0]):sizeof(graphics_modes_9) / sizeof(graphics_modes_9[0]))\n",
+                            "        - 1;\n",
+                            "    if (x_dpi > max_dpi) {\n",
+                            "        return_error(gs_error_rangecheck);\n",
+                            "    }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: epsc_print_page -> epsc_print_page": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

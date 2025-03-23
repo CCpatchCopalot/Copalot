@@ -1,0 +1,92 @@
+{
+    "testcase": {
+        "file71": {
+            "match_message": {
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1192->2300",
+                        "L2": "3: Unique Matched by Source code 1193 -> 2301"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1328 -> 2426",
+                        "L2": "3: Unique Matched by Source code 1329 -> 2427"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1494 -> 2577",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 1495->2550)"
+                    },
+                    "Seg_3": {
+                        "Edit": "delete",
+                        "L1": "7: Context line (Ignored) is empty or comment 1502",
+                        "L2": "7: Context line (Ignored) is empty or comment 1502"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 2300,
+                        "add_hunk": [
+                            "\t\tif (pos + 5 > data_size) {\n",
+                            "\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"Broken PMT! size %d but position %d and need at least 5 bytes to declare es\\n\", data_size, pos));\n",
+                            "\t\t\tbreak;\n",
+                            "\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 2426,
+                        "add_hunk": [
+                            "\t\t\tif (pos + 2 > data_size) {\n",
+                            "\t\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"Broken PMT descriptor! size %d but position %d and need at least 2 bytes to parse descritpor\\n\", data_size, pos));\n",
+                            "\t\t\t\tbreak;\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "move_to",
+                        "add_location": 2577,
+                        "add_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "move_from",
+                        "delete_location": [
+                            2578,
+                            2578
+                        ],
+                        "delete_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "MOVE_TO"
+            ]
+        }
+    }
+}

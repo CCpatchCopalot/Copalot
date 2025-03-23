@@ -1,0 +1,17 @@
+static void preinit_state (lua_State *L, global_State *g) {
+  G(L) = g;
+  L->stack = NULL;
+  L->ci = NULL;
+  L->stacksize = 0;
+  L->errorJmp = NULL;
+  L->nCcalls = 0;
+  L->hook = NULL;
+  L->hookmask = 0;
+  L->basehookcount = 0;
+  L->allowhook = 1;
+  resethookcount(L);
+  L->openupval = NULL;
+  L->nny = 1;
+  L->status = LUA_OK;
+  L->errfunc = 0;
+}

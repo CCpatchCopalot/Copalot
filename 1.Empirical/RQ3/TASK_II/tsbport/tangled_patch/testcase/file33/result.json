@@ -1,0 +1,125 @@
+{
+    "testcase": {
+        "file33": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "1 -> 0",
+                        "L2": "1 -> 0",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "0",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                },
+                "Same: get_none_object -> get_none_object": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 91 -> 91",
+                        "L2": "3: Unique Matched by Source code 93 -> 93"
+                    }
+                },
+                "Same: get_object -> get_object": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1139 -> 1130",
+                        "L2": "3: Unique Matched by Source code 1140 -> 1131"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 1140 -> 1131",
+                        "L2": "3: Unique Matched by Source code 1141 -> 1132"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 0,
+                        "add_hunk": [],
+                        "delete_location": [
+                            0,
+                            0
+                        ],
+                        "delete_hunk": [
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 91,
+                        "add_hunk": [
+                            "\tpyc_object *ret = R_NEW0 (pyc_object);\n"
+                        ],
+                        "delete_location": [
+                            91,
+                            93
+                        ],
+                        "delete_hunk": [
+                            "\tpyc_object *ret;\n",
+                            "\tret = R_NEW0 (pyc_object);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 1130,
+                        "add_hunk": [
+                            "\t\tif (ref_idx->data != ret) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 1131,
+                        "add_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    }
+                },
+                "Same: get_none_object -> get_none_object": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: get_object -> get_object": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "MOVE_TO",
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

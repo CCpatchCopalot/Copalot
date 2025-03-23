@@ -1,0 +1,81 @@
+{
+    "testcase": {
+        "file158": {
+            "match_message": {
+                "Same: gf_dump_vrml_dyn_field -> gf_dump_vrml_dyn_field": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1075->1106",
+                        "L2": "3: Unique Matched by Source code 1076 -> 1107"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1091->1122 ([[1122, 1.0], [1184, 0.40933572710951527], [1101, 0.4022988505747126], [1148, 0.38434163701067614]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1091->1122 ([[1122, 1.0], [1184, 0.40933572710951527], [1101, 0.4022988505747126], [1148, 0.38434163701067614]])"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1097 -> 1128",
+                        "L2": "3: Unique Matched by Source code 1097 -> 1128"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 1106,
+                        "add_hunk": [
+                            "\t\t\t\t\tif (field.far_ptr)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 1122,
+                        "add_hunk": [
+                            "\t\t\t\t} else if (field.far_ptr) {\n"
+                        ],
+                        "delete_location": [
+                            1122,
+                            1122
+                        ],
+                        "delete_hunk": [
+                            "\t\t\t\t} else {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 1128,
+                        "add_hunk": [
+                            "\t} else if (field.far_ptr) {\n"
+                        ],
+                        "delete_location": [
+                            1128,
+                            1128
+                        ],
+                        "delete_hunk": [
+                            "\t} else {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_dump_vrml_dyn_field -> gf_dump_vrml_dyn_field": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

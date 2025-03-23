@@ -1,0 +1,1 @@
+OP_REQUIRES(context, mfcc.Initialize(spectrogram_channels, sample_rate),errors::InvalidArgument("Mfcc initialization failed for channel count ",spectrogram_channels, " and sample rate ", sample_rate));

@@ -1,0 +1,20 @@
+static const char *int2str(const char *beg, const char *end)
+{
+  unsigned int val = 0;
+  size_t n = end - beg;
+
+  if(!n)
+    return NULL;
+
+  if(n > 4)
+    return octet2str(beg, end);
+
+  /* Represent integers <= 32-bit as a single value. */
+  if(*beg & 0x80)
+    val = ~val;
+
+  do
+    val = (val << 8) | *(const unsigned char *) beg++;
+  while(beg < end);
+  return curl_maprintf("%s%x", val >= 10? "0x": "", val);
+}

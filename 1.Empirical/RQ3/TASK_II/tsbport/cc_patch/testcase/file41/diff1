@@ -1,0 +1,7 @@
+534c534,535
+<         if (l_unlikely(l >= (MAX_SIZE/sizeof(char)) - tl))
+---
+>         if (l_unlikely(l >= (MAX_SIZE/sizeof(char)) - tl)) {
+>           L->top = top - total;  /* pop strings to avoid wasting stack */
+535a537
+>         }

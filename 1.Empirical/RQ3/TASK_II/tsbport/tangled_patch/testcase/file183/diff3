@@ -1,0 +1,14 @@
+1329a1330
+>  bool isproxy = SSL_IS_PROXY();
+1331c1331
+<  const char * const hostname = SSL_IS_PROXY() ? conn->http_proxy.host.name :
+---
+>  const char * const hostname = isproxy ? conn->http_proxy.host.name :
+1407c1407
+<    incache = !(Curl_ssl_getsessionid(conn, (void **)&old_cred, NULL,
+---
+>incache = !(Curl_ssl_getsessionid(data, conn, isproxy, (void **)&old_cred,NULL, sockindex));
+1419c1419
+<      result = Curl_ssl_addsessionid(conn, (void *)BACKEND->cred,
+---
+>result = Curl_ssl_addsessionid(data, conn, isproxy, BACKEND->cred, sizeof(struct Curl_schannel_cred), sockindex);

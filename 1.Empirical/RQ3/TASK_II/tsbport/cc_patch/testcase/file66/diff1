@@ -1,0 +1,23 @@
+1666c1666
+< typedef struct
+---
+> typedef struct __full_audio_sample_entry
+1690,1696d1689
+< } GF_MPEGAudioSampleEntryBox;
+< 
+< /*this is the default visual sdst (to handle unknown media)*/
+< typedef struct
+< {
+< 	GF_ISOM_AUDIO_SAMPLE_ENTRY
+< 	/*box type as specified in the file (not this box's type!!)*/
+1698c1691
+< 	/*opaque description data (ESDS in MP4, ...)*/
+---
+> 	//opaque description data (ESDS in MP4, ...)
+1701c1694,1697
+< } GF_GenericAudioSampleEntryBox;
+---
+> 
+> } GF_MPEGAudioSampleEntryBox;
+> 
+> typedef struct __full_audio_sample_entry GF_GenericAudioSampleEntryBox;

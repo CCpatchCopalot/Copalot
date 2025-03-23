@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file154": {
+            "match_message": {
+                "Same: gf_mp3_get_next_header_mem -> gf_mp3_get_next_header_mem": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 4256 -> 1785",
+                        "L2": "3: Unique Matched by Source code 4256 -> 1785"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 33,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1785,
+                        "add_hunk": [
+                            "\t\t\tval = GF_4CC((u32)bytes[0], bytes[1], bytes[2], bytes[3]);\n"
+                        ],
+                        "delete_location": [
+                            1785,
+                            1785
+                        ],
+                        "delete_hunk": [
+                            "\t\t\tval = GF_4CC(bytes[0], bytes[1], bytes[2], bytes[3]);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_mp3_get_next_header_mem -> gf_mp3_get_next_header_mem": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call"
+            ]
+        }
+    }
+}

@@ -1,0 +1,694 @@
+comment: /* bail out */  @ 34 @ comment: /* bail out */  @ 38 @ 
+block  @ 38 @ block  @ 42 @ 
+expr  @ 13 @ expr  @ 18 @ 
+expr  @ 24 @ expr  @ 28 @ 
+operator: =  @ 71 @ operator: =  @ 76 @ 
+operator: ->  @ 81 @ operator: ->  @ 86 @ 
+expr  @ 11 @ expr  @ 16 @ 
+name: conn  @ 12 @ name: conn  @ 17 @ 
+name: general_ssl  @ 63 @ name: general_ssl  @ 68 @ 
+name: i  @ 57 @ name: i  @ 62 @ 
+type  @ 8 @ type  @ 12 @ 
+name: state  @ 52 @ name: state  @ 57 @ 
+name: CURLE_OUT_OF_MEMORY  @ 34 @ name: CURLE_OUT_OF_MEMORY  @ 38 @ 
+else  @ 42 @ else  @ 46 @ 
+name: clone_conn_to_host  @ 77 @ name: clone_conn_to_host  @ 82 @ 
+comment: /* zero if unused */  @ 5 @ comment: /* zero if unused */  @ 9 @ 
+expr  @ 27 @ expr  @ 31 @ 
+name: sessionid  @ 57 @ name: sessionid  @ 62 @ 
+name: name  @ 15 @ name: name  @ 20 @ 
+name: scheme  @ 81 @ name: scheme  @ 86 @ 
+expr  @ 84 @ expr  @ 89 @ 
+operator: =  @ 41 @ operator: =  @ 45 @ 
+operator: ->  @ 40 @ operator: ->  @ 44 @ 
+operator: ->  @ 83 @ operator: ->  @ 88 @ 
+name: conn  @ 14 @ name: conn  @ 19 @ 
+operator: ->  @ 13 @ operator: ->  @ 18 @ 
+decl_stmt  @ 20 @ decl_stmt  @ 25 @ 
+comment: /* port number */  @ 79 @ comment: /* port number */  @ 84 @ 
+name  @ 76 @ name  @ 81 @ 
+operator: =  @ 72 @ operator: =  @ 77 @ 
+expr  @ 26 @ expr  @ 30 @ 
+expr  @ 65 @ expr  @ 70 @ 
+operator: (  @ 23 @ operator: (  @ 26 @ 
+name: data  @ 52 @ name: data  @ 57 @ 
+expr  @ 24 @ expr  @ 28 @ 
+expr  @ 48 @ expr  @ 53 @ 
+operator: .  @ 40 @ operator: .  @ 44 @ 
+operator: .  @ 31 @ operator: .  @ 35 @ 
+type  @ 1 @ type  @ 7 @ 
+expr  @ 58 @ expr  @ 63 @ 
+name: http_proxy  @ 14 @ name: http_proxy  @ 19 @ 
+condition  @ 32 @ condition  @ 36 @ 
+expr_stmt  @ 78 @ expr_stmt  @ 83 @ 
+expr  @ 31 @ expr  @ 35 @ 
+call  @ 83 @ call  @ 88 @ 
+specifier: const  @ 20 @ specifier: const  @ 25 @ 
+name  @ 74 @ name  @ 79 @ 
+call  @ 75 @ call  @ 80 @ 
+operator: ->  @ 52 @ operator: ->  @ 57 @ 
+expr  @ 88 @ expr  @ 93 @ 
+comment: /* connect to port number */  @ 78 @ comment: /* connect to port number */  @ 83 @ 
+operator: ->  @ 57 @ operator: ->  @ 62 @ 
+name: CURLE_OUT_OF_MEMORY  @ 88 @ name: CURLE_OUT_OF_MEMORY  @ 93 @ 
+decl  @ 14 @ decl  @ 19 @ 
+name: conn  @ 80 @ name: conn  @ 85 @ 
+name: hostname  @ 26 @ name: hostname  @ 30 @ 
+comment: /* now init the session struct wisely */  @ 69 @ comment: /* now init the session struct wisely */  @ 74 @ 
+if_stmt  @ 32 @ if_stmt  @ 36 @ 
+expr  @ 83 @ expr  @ 88 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+name  @ 75 @ name  @ 80 @ 
+name: store  @ 71 @ name: store  @ 76 @ 
+name: Curl_ssl_session  @ 4 @ name: curl_ssl_session  @ 8 @ 
+expr  @ 81 @ expr  @ 86 @ 
+argument_list  @ 31 @ argument_list  @ 35 @ 
+name: size_t  @ 1 @ name: size_t  @ 3 @ 
+expr  @ 57 @ expr  @ 62 @ 
+operator: (  @ 56 @ operator: (  @ 61 @ 
+name: Curl_ssl_addsessionid  @ 1 @ name: Curl_ssl_addsessionid  @ 1 @ 
+type  @ 6 @ type  @ 10 @ 
+incr  @ 57 @ incr  @ 62 @ 
+operator: =  @ 52 @ operator: =  @ 57 @ 
+return  @ 34 @ return  @ 38 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 35 @ 
+operator: ->  @ 80 @ operator: ->  @ 85 @ 
+name: ssl_config  @ 83 @ name: ssl_config  @ 88 @ 
+expr  @ 28 @ expr  @ 32 @ 
+block  @ 28 @ block  @ 32 @ 
+name: data  @ 48 @ name: data  @ 53 @ 
+name  @ 63 @ name  @ 68 @ 
+index  @ 67 @ index  @ 72 @ 
+type  @ 19 @ type  @ 24 @ 
+name: name  @ 20 @ name: name  @ 25 @ 
+expr  @ 26 @ expr  @ 30 @ 
+name  @ 80 @ name  @ 85 @ 
+name: free  @ 74 @ name: free  @ 79 @ 
+name: clone_host  @ 86 @ name: clone_host  @ 91 @ 
+name  @ 80 @ name  @ 85 @ 
+name: store  @ 67 @ name: store  @ 72 @ 
+name: conn_to_port  @ 40 @ name: conn_to_port  @ 44 @ 
+name  @ 81 @ name  @ 86 @ 
+type  @ 1 @ type  @ 1 @ 
+specifier: const  @ 18 @ specifier: const  @ 23 @ 
+ifndef  @ 10 @ ifndef  @ 14 @ 
+block  @ 57 @ block  @ 62 @ 
+decl_stmt  @ 19 @ decl_stmt  @ 24 @ 
+expr  @ 75 @ expr  @ 80 @ 
+name  @ 19 @ name  @ 24 @ 
+expr  @ 71 @ expr  @ 76 @ 
+block  @ 65 @ block  @ 70 @ 
+name: ssl_primary_config  @ 19 @ name: ssl_primary_config  @ 24 @ 
+name: general_age  @ 72 @ name: general_age  @ 77 @ 
+block  @ 67 @ block  @ 72 @ 
+expr  @ 67 @ expr  @ 72 @ 
+name: isProxy  @ 14 @ name: isProxy  @ 19 @ 
+name: store  @ 81 @ name: store  @ 86 @ 
+expr  @ 49 @ expr  @ 54 @ 
+name: conn_to_host  @ 77 @ name: conn_to_host  @ 82 @ 
+block_content  @ 84 @ block_content  @ 89 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 86 @ 
+init  @ 18 @ init  @ 23 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 6 @ 
+operator: <  @ 56 @ operator: <  @ 61 @ 
+name  @ 78 @ name  @ 83 @ 
+init  @ 56 @ init  @ 61 @ 
+decl  @ 18 @ decl  @ 23 @ 
+type  @ 4 @ type  @ 8 @ 
+name: session  @ 57 @ name: session  @ 62 @ 
+name: data  @ 1 @ name: data  @ 7 @ 
+if  @ 27 @ if  @ 31 @ 
+name  @ 52 @ name  @ 57 @ 
+name: name  @ 74 @ name: name  @ 79 @ 
+decl_stmt  @ 18 @ decl_stmt  @ 23 @ 
+name: conn_to_port  @ 78 @ name: conn_to_port  @ 83 @ 
+name: proxy_ssl_config  @ 12 @ name: proxy_ssl_config  @ 17 @ 
+name: i  @ 3 @ name: i  @ 6 @ 
+parameter  @ 1 @ parameter  @ 4 @ 
+expr  @ 52 @ expr  @ 57 @ 
+name  @ 85 @ name  @ 90 @ 
+expr  @ 48 @ expr  @ 53 @ 
+expr  @ 80 @ expr  @ 85 @ 
+name: sessionid  @ 70 @ name: sessionid  @ 75 @ 
+type  @ 9 @ type  @ 13 @ 
+operator: .  @ 30 @ operator: .  @ 34 @ 
+name: general_age  @ 9 @ name: general_age  @ 13 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: store  @ 60 @ name: store  @ 65 @ 
+decl  @ 5 @ decl  @ 9 @ 
+name: handler  @ 81 @ name: handler  @ 86 @ 
+name: void  @ 23 @ name: void  @ 26 @ 
+type  @ 14 @ type  @ 19 @ 
+name: ssl_config  @ 11 @ name: ssl_config  @ 16 @ 
+operator: .  @ 24 @ operator: .  @ 28 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 47 @ 
+argument_list  @ 24 @ argument_list  @ 28 @ 
+name  @ 31 @ name  @ 35 @ 
+operator: ->  @ 59 @ operator: ->  @ 64 @ 
+if  @ 83 @ if  @ 88 @ 
+if  @ 58 @ if  @ 63 @ 
+name: sockindex  @ 23 @ name: sockindex  @ 26 @ 
+argument_list  @ 74 @ argument_list  @ 79 @ 
+name: CURLE_OK  @ 91 @ name: CURLE_OK  @ 96 @ 
+for  @ 56 @ for  @ 61 @ 
+expr  @ 32 @ expr  @ 36 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 42 @ 
+expr  @ 15 @ expr  @ 20 @ 
+name  @ 12 @ name  @ 17 @ 
+modifier: *  @ 1 @ modifier: *  @ 7 @ 
+name: bits  @ 30 @ name: bits  @ 34 @ 
+name  @ 77 @ name  @ 82 @ 
+operator: =  @ 70 @ operator: =  @ 75 @ 
+name: free  @ 33 @ name: free  @ 37 @ 
+decl  @ 20 @ decl  @ 25 @ 
+if  @ 63 @ if  @ 68 @ 
+expr  @ 60 @ expr  @ 65 @ 
+name: long  @ 5 @ name: long  @ 9 @ 
+if_stmt  @ 27 @ if_stmt  @ 31 @ 
+block_content  @ 52 @ block_content  @ 57 @ 
+condition  @ 27 @ condition  @ 31 @ 
+operator: ->  @ 15 @ operator: ->  @ 20 @ 
+operator: =  @ 85 @ operator: =  @ 90 @ 
+expr_stmt  @ 80 @ expr_stmt  @ 85 @ 
+expr  @ 33 @ expr  @ 37 @ 
+name: port  @ 80 @ name: port  @ 85 @ 
+type  @ 1 @ type  @ 3 @ 
+name: share  @ 49 @ name: share  @ 54 @ 
+operator: ->  @ 63 @ operator: ->  @ 68 @ 
+name: host  @ 20 @ name: host  @ 25 @ 
+argument_list  @ 65 @ argument_list  @ 70 @ 
+name: i  @ 60 @ name: i  @ 65 @ 
+operator: !  @ 83 @ operator: !  @ 88 @ 
+name: age  @ 59 @ name: age  @ 64 @ 
+expr  @ 80 @ expr  @ 85 @ 
+operator: .  @ 58 @ operator: .  @ 63 @ 
+operator: ->  @ 81 @ operator: ->  @ 86 @ 
+name  @ 49 @ name  @ 54 @ 
+operator: ->  @ 31 @ operator: ->  @ 35 @ 
+name  @ 84 @ name  @ 89 @ 
+name: CURLE_OUT_OF_MEMORY  @ 28 @ name: CURLE_OUT_OF_MEMORY  @ 32 @ 
+name: struct  @ 11 @ name: struct  @ 16 @ 
+operator: &&  @ 56 @ operator: &&  @ 61 @ 
+decl  @ 1 @ decl  @ 4 @ 
+name: state  @ 58 @ name: state  @ 63 @ 
+name: free  @ 75 @ name: free  @ 80 @ 
+operator: &  @ 83 @ operator: &  @ 88 @ 
+modifier: *  @ 9 @ modifier: *  @ 13 @ 
+argument  @ 74 @ argument  @ 79 @ 
+operator: ->  @ 80 @ operator: ->  @ 85 @ 
+expr  @ 76 @ expr  @ 81 @ 
+operator: =  @ 78 @ operator: =  @ 83 @ 
+operator: .  @ 15 @ operator: .  @ 20 @ 
+name: data  @ 4 @ name: data  @ 8 @ 
+name: sessionid  @ 24 @ name: sessionid  @ 28 @ 
+name  @ 40 @ name  @ 44 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 76 @ 
+operator: ->  @ 67 @ operator: ->  @ 72 @ 
+name  @ 60 @ name  @ 65 @ 
+name: sockindex  @ 1 @ name: sockindex  @ 4 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 13 @ 
+name  @ 81 @ name  @ 86 @ 
+name: SSL_SET_OPTION  @ 24 @ name: SSL_SET_OPTION  @ 28 @ 
+name: conn_to_host  @ 75 @ name: conn_to_host  @ 80 @ 
+name: session  @ 58 @ name: session  @ 63 @ 
+block  @ 2 @ block  @ 5 @ 
+name: general_age  @ 49 @ name: general_age  @ 54 @ 
+decl  @ 19 @ decl  @ 24 @ 
+condition  @ 56 @ condition  @ 61 @ 
+name: isProxy  @ 80 @ name: isProxy  @ 85 @ 
+expr  @ 4 @ expr  @ 8 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 11 @ 
+name: data  @ 5 @ name: data  @ 9 @ 
+operator: .  @ 56 @ operator: .  @ 61 @ 
+name: CURL_DISABLE_PROXY  @ 10 @ name: CURL_DISABLE_PROXY  @ 14 @ 
+condition  @ 40 @ condition  @ 44 @ 
+expr  @ 38 @ expr  @ 42 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: clone_host  @ 76 @ name: clone_host  @ 81 @ 
+name: char  @ 20 @ name: char  @ 25 @ 
+condition  @ 14 @ condition  @ 19 @ 
+name  @ 20 @ name  @ 25 @ 
+decl  @ 1 @ decl  @ 2 @ 
+operator: =  @ 59 @ operator: =  @ 64 @ 
+expr  @ 40 @ expr  @ 44 @ 
+name: ssl_config  @ 84 @ name: ssl_config  @ 89 @ 
+call  @ 87 @ call  @ 92 @ 
+return  @ 91 @ return  @ 96 @ 
+block  @ 48 @ block  @ 53 @ 
+expr  @ 74 @ expr  @ 79 @ 
+name: clone_host  @ 26 @ name: clone_host  @ 30 @ 
+operator: =  @ 77 @ operator: =  @ 82 @ 
+decl  @ 3 @ decl  @ 6 @ 
+name: data  @ 67 @ name: data  @ 72 @ 
+name: session  @ 4 @ name: session  @ 8 @ 
+operator: ->  @ 77 @ operator: ->  @ 82 @ 
+expr  @ 77 @ expr  @ 82 @ 
+name: conn  @ 13 @ name: conn  @ 18 @ 
+name: free  @ 87 @ name: free  @ 92 @ 
+operator: (  @ 80 @ operator: (  @ 85 @ 
+init  @ 20 @ init  @ 25 @ 
+name: age  @ 58 @ name: age  @ 63 @ 
+ternary  @ 11 @ ternary  @ 16 @ 
+name: DEBUGASSERT  @ 24 @ name: DEBUGASSERT  @ 28 @ 
+comment: /* cache is full, we must "kill" the oldest entry! */  @ 64 @ comment: /* cache is full, we must "kill" the oldest entry! */  @ 69 @ 
+expr_stmt  @ 84 @ expr_stmt  @ 89 @ 
+name: store  @ 84 @ name: store  @ 89 @ 
+type  @ 3 @ type  @ 6 @ 
+name: session  @ 59 @ name: session  @ 64 @ 
+decl  @ 6 @ decl  @ 10 @ 
+name: conn  @ 40 @ name: conn  @ 44 @ 
+if  @ 30 @ if  @ 34 @ 
+name  @ 57 @ name  @ 62 @ 
+expr  @ 24 @ expr  @ 28 @ 
+condition  @ 30 @ condition  @ 34 @ 
+if_stmt  @ 30 @ if_stmt  @ 34 @ 
+then  @ 12 @ then  @ 17 @ 
+name: i  @ 63 @ name: i  @ 68 @ 
+name: conn_to_port  @ 8 @ name: conn_to_port  @ 12 @ 
+name  @ 59 @ name  @ 64 @ 
+directive: ifndef  @ 10 @ directive: ifndef  @ 14 @ 
+expr_stmt  @ 85 @ expr_stmt  @ 90 @ 
+name  @ 4 @ name  @ 8 @ 
+name: state  @ 57 @ name: state  @ 62 @ 
+expr  @ 30 @ expr  @ 34 @ 
+name  @ 71 @ name  @ 76 @ 
+operator: ->  @ 85 @ operator: ->  @ 90 @ 
+name: conn  @ 1 @ name: conn  @ 1 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 16 @ 
+ternary  @ 14 @ ternary  @ 19 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 45 @ 
+if_stmt  @ 63 @ if_stmt  @ 68 @ 
+else  @ 80 @ else  @ 85 @ 
+expr  @ 72 @ expr  @ 77 @ 
+name: state  @ 59 @ name: state  @ 64 @ 
+if  @ 40 @ if  @ 44 @ 
+expr  @ 41 @ expr  @ 45 @ 
+endif  @ 22 @ endif  @ 27 @ 
+call  @ 48 @ call  @ 53 @ 
+name: conn_to_port  @ 41 @ name: conn_to_port  @ 45 @ 
+expr  @ 14 @ expr  @ 19 @ 
+comment: /* proxy support disabled */  @ 17 @ comment: /* proxy support disabled */  @ 22 @ 
+operator: ->  @ 12 @ operator: ->  @ 17 @ 
+operator: &  @ 67 @ operator: &  @ 72 @ 
+name: store  @ 77 @ name: store  @ 82 @ 
+directive: endif  @ 22 @ directive: endif  @ 27 @ 
+operator: =  @ 60 @ operator: =  @ 65 @ 
+name: data  @ 58 @ name: data  @ 63 @ 
+name: char  @ 7 @ name: char  @ 11 @ 
+name: free  @ 86 @ name: free  @ 91 @ 
+argument_list  @ 87 @ argument_list  @ 92 @ 
+operator: =  @ 43 @ operator: =  @ 47 @ 
+comment: /* find an empty slot for us, or find the oldest */  @ 55 @ comment: /* find an empty slot for us, or find the oldest */  @ 60 @ 
+name: i  @ 59 @ name: i  @ 64 @ 
+name: NULL  @ 38 @ name: NULL  @ 42 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 54 @ 
+if_stmt  @ 48 @ if_stmt  @ 53 @ 
+name: idsize  @ 71 @ name: idsize  @ 76 @ 
+argument  @ 83 @ argument  @ 88 @ 
+operator: ->  @ 20 @ operator: ->  @ 25 @ 
+condition  @ 83 @ condition  @ 88 @ 
+operator: ->  @ 56 @ operator: ->  @ 61 @ 
+expr  @ 83 @ expr  @ 88 @ 
+expr  @ 56 @ expr  @ 61 @ 
+operator: &  @ 84 @ operator: &  @ 89 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument_list  @ 75 @ argument_list  @ 80 @ 
+block_content  @ 31 @ block_content  @ 35 @ 
+name  @ 5 @ name  @ 9 @ 
+operator: ++  @ 57 @ operator: ++  @ 62 @ 
+name: i  @ 56 @ name: i  @ 61 @ 
+if_stmt  @ 40 @ if_stmt  @ 44 @ 
+operator: &  @ 4 @ operator: &  @ 8 @ 
+name: hostname  @ 14 @ name: hostname  @ 19 @ 
+expr  @ 34 @ expr  @ 38 @ 
+operator: )  @ 23 @ operator: )  @ 26 @ 
+name: session  @ 60 @ name: session  @ 65 @ 
+operator: .  @ 67 @ operator: .  @ 72 @ 
+name: primary  @ 24 @ name: primary  @ 28 @ 
+name: data  @ 63 @ name: data  @ 68 @ 
+block  @ 41 @ block  @ 45 @ 
+operator: &  @ 49 @ operator: &  @ 54 @ 
+operator: =  @ 76 @ operator: =  @ 81 @ 
+type  @ 1 @ type  @ 4 @ 
+init  @ 5 @ init  @ 9 @ 
+expr  @ 78 @ expr  @ 83 @ 
+name: struct  @ 1 @ name: struct  @ 7 @ 
+block_content  @ 58 @ block_content  @ 63 @ 
+operator: )  @ 56 @ operator: )  @ 61 @ 
+modifier: *  @ 11 @ modifier: *  @ 16 @ 
+name: Curl_free_primary_ssl_config  @ 84 @ name: Curl_free_primary_ssl_config  @ 89 @ 
+decl  @ 1 @ decl  @ 7 @ 
+comment: /* clone host name */  @ 76 @ comment: /* clone host name */  @ 81 @ 
+if  @ 48 @ if  @ 53 @ 
+operator: =  @ 80 @ operator: =  @ 85 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 10 @ 
+literal: 0  @ 4 @ literal: 0  @ 8 @ 
+expr  @ 56 @ expr  @ 61 @ 
+name: clone_conn_to_host  @ 32 @ name: clone_conn_to_host  @ 36 @ 
+name: NULL  @ 85 @ name: NULL  @ 90 @ 
+name: host  @ 15 @ name: host  @ 20 @ 
+name: store  @ 76 @ name: store  @ 81 @ 
+expr  @ 84 @ expr  @ 89 @ 
+operator: <  @ 58 @ operator: <  @ 63 @ 
+expr_stmt  @ 74 @ expr_stmt  @ 79 @ 
+comment: /* free it if there's one already present */  @ 73 @ comment: /* free it if there's one already present */  @ 78 @ 
+name: conn_to_port  @ 78 @ name: conn_to_port  @ 83 @ 
+argument  @ 31 @ argument  @ 35 @ 
+name  @ 67 @ name  @ 72 @ 
+operator: ->  @ 41 @ operator: ->  @ 45 @ 
+name: sessionage  @ 49 @ name: sessionage  @ 54 @ 
+decl  @ 7 @ decl  @ 11 @ 
+condition  @ 63 @ condition  @ 68 @ 
+operator: .  @ 60 @ operator: .  @ 65 @ 
+name: void  @ 1 @ name: void  @ 2 @ 
+index  @ 60 @ index  @ 65 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 19 @ 
+call  @ 74 @ call  @ 79 @ 
+index  @ 5 @ index  @ 9 @ 
+block_content  @ 41 @ block_content  @ 45 @ 
+specifier: const  @ 14 @ specifier: const  @ 19 @ 
+operator: .  @ 56 @ operator: .  @ 61 @ 
+comment: /* Now we should add the session ID and the host name to the cache, (remove the oldest if necessary) */  @ 45 @ comment: /* Now we should add the session ID and the host name to the cache, (remove
+     the oldest if necessary) */  @ 49 @ 
+operator: .  @ 4 @ operator: .  @ 8 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 30 @ 
+expr  @ 80 @ expr  @ 85 @ 
+decl  @ 4 @ decl  @ 8 @ 
+directive: else  @ 16 @ directive: else  @ 21 @ 
+argument  @ 75 @ argument  @ 80 @ 
+operator: ->  @ 19 @ operator: ->  @ 24 @ 
+expr  @ 63 @ expr  @ 68 @ 
+name: ssl_config  @ 19 @ name: ssl_config  @ 24 @ 
+else  @ 66 @ else  @ 71 @ 
+argument  @ 24 @ argument  @ 28 @ 
+operator: !  @ 32 @ operator: !  @ 36 @ 
+name: i  @ 56 @ name: i  @ 61 @ 
+expr  @ 4 @ expr  @ 8 @ 
+name: clone_host  @ 33 @ name: clone_host  @ 37 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 9 @ 
+name: age  @ 72 @ name: age  @ 77 @ 
+expr_stmt  @ 75 @ expr_stmt  @ 80 @ 
+name: Curl_clone_primary_ssl_config  @ 83 @ name: Curl_clone_primary_ssl_config  @ 88 @ 
+expr  @ 70 @ expr  @ 75 @ 
+operator: =  @ 56 @ operator: =  @ 61 @ 
+operator: &  @ 13 @ operator: &  @ 18 @ 
+expr  @ 20 @ expr  @ 25 @ 
+expr  @ 91 @ expr  @ 96 @ 
+operator: ->  @ 49 @ operator: ->  @ 54 @ 
+name: int  @ 1 @ name: int  @ 4 @ 
+name: struct  @ 4 @ name: struct  @ 8 @ 
+expr  @ 60 @ expr  @ 65 @ 
+argument  @ 48 @ argument  @ 53 @ 
+operator: ->  @ 5 @ operator: ->  @ 9 @ 
+comment: /* set current age */  @ 72 @ comment: /* set current age */  @ 77 @ 
+operator: ->  @ 49 @ operator: ->  @ 54 @ 
+operator: ->  @ 14 @ operator: ->  @ 19 @ 
+condition  @ 80 @ condition  @ 85 @ 
+operator: &  @ 12 @ operator: &  @ 17 @ 
+block  @ 43 @ block  @ 47 @ 
+name: set  @ 63 @ name: set  @ 68 @ 
+name  @ 1 @ name  @ 7 @ 
+name  @ 70 @ name  @ 75 @ 
+name: conn_to_host  @ 31 @ name: conn_to_host  @ 35 @ 
+comment: /* clone connect to host name */  @ 77 @ comment: /* clone connect to host name */  @ 82 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 65 @ 
+argument  @ 83 @ argument  @ 88 @ 
+comment: /* use this slot */  @ 67 @ comment: /* use this slot */  @ 72 @ 
+operator: &  @ 60 @ operator: &  @ 65 @ 
+name: store  @ 78 @ name: store  @ 83 @ 
+if_stmt  @ 58 @ if_stmt  @ 63 @ 
+name  @ 15 @ name  @ 20 @ 
+operator: ->  @ 71 @ operator: ->  @ 76 @ 
+operator: ->  @ 80 @ operator: ->  @ 85 @ 
+name: data  @ 56 @ name: data  @ 61 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 12 @ 
+operator: =  @ 38 @ operator: =  @ 42 @ 
+block_content  @ 33 @ block_content  @ 37 @ 
+name: general_age  @ 52 @ name: general_age  @ 57 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: store  @ 83 @ name: store  @ 88 @ 
+argument_list  @ 33 @ argument_list  @ 37 @ 
+return  @ 28 @ return  @ 32 @ 
+name: store  @ 72 @ name: store  @ 77 @ 
+name: clone_conn_to_host  @ 31 @ name: clone_conn_to_host  @ 35 @ 
+name  @ 56 @ name  @ 61 @ 
+name: store  @ 65 @ name: store  @ 70 @ 
+call  @ 26 @ call  @ 30 @ 
+name: long  @ 9 @ name: long  @ 13 @ 
+name: oldest_age  @ 59 @ name: oldest_age  @ 64 @ 
+then  @ 14 @ then  @ 19 @ 
+expr  @ 5 @ expr  @ 9 @ 
+decl  @ 1 @ decl  @ 3 @ 
+call  @ 24 @ call  @ 28 @ 
+name  @ 13 @ name  @ 18 @ 
+call  @ 31 @ call  @ 35 @ 
+name  @ 14 @ name  @ 19 @ 
+block_content  @ 38 @ block_content  @ 42 @ 
+operator: .  @ 59 @ operator: .  @ 64 @ 
+expr  @ 43 @ expr  @ 47 @ 
+name: conn  @ 30 @ name: conn  @ 34 @ 
+expr  @ 14 @ expr  @ 19 @ 
+name: SSLSESSION_SHARED  @ 48 @ name: SSLSESSION_SHARED  @ 53 @ 
+name: store  @ 80 @ name: store  @ 85 @ 
+type  @ 11 @ type  @ 16 @ 
+condition  @ 58 @ condition  @ 63 @ 
+name  @ 72 @ name  @ 77 @ 
+name: Curl_ssl_kill_session  @ 65 @ name: Curl_ssl_kill_session  @ 70 @ 
+name: idsize  @ 1 @ name: idsize  @ 3 @ 
+expr  @ 18 @ expr  @ 23 @ 
+block  @ 30 @ block  @ 34 @ 
+expr  @ 23 @ expr  @ 26 @ 
+name: data  @ 57 @ name: data  @ 62 @ 
+name: connectdata  @ 1 @ name: connectdata  @ 1 @ 
+control  @ 56 @ control  @ 61 @ 
+if_stmt  @ 83 @ if_stmt  @ 88 @ 
+name: oldest_age  @ 5 @ name: oldest_age  @ 9 @ 
+operator: )  @ 80 @ operator: )  @ 85 @ 
+name: scheme  @ 81 @ name: scheme  @ 86 @ 
+type  @ 5 @ type  @ 9 @ 
+name: state  @ 60 @ name: state  @ 65 @ 
+argument  @ 87 @ argument  @ 92 @ 
+specifier: const  @ 19 @ specifier: const  @ 24 @ 
+name: Curl_easy  @ 1 @ name: Curl_easy  @ 7 @ 
+else  @ 51 @ else  @ 56 @ 
+expr  @ 59 @ expr  @ 64 @ 
+index  @ 57 @ index  @ 62 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 28 @ 
+name: ssl_sessionid  @ 1 @ name: ssl_sessionid  @ 2 @ 
+name: session  @ 67 @ name: session  @ 72 @ 
+argument_list  @ 84 @ argument_list  @ 89 @ 
+name: struct  @ 1 @ name: struct  @ 1 @ 
+expr  @ 75 @ expr  @ 80 @ 
+index  @ 58 @ index  @ 63 @ 
+operator: &  @ 52 @ operator: &  @ 57 @ 
+operator: -  @ 43 @ operator: -  @ 47 @ 
+name: clone_conn_to_host  @ 7 @ name: clone_conn_to_host  @ 11 @ 
+operator: .  @ 59 @ operator: .  @ 64 @ 
+name: bits  @ 40 @ name: bits  @ 44 @ 
+call  @ 33 @ call  @ 37 @ 
+decl  @ 11 @ decl  @ 16 @ 
+type  @ 1 @ type  @ 2 @ 
+expr_stmt  @ 86 @ expr_stmt  @ 91 @ 
+operator: .  @ 63 @ operator: .  @ 68 @ 
+comment: /* let caller free sessionid */  @ 85 @ comment: /* let caller free sessionid */  @ 90 @ 
+comment: /* If using shared SSL session, lock! */  @ 47 @ comment: /* If using shared SSL session, lock! */  @ 52 @ 
+modifier: *  @ 14 @ modifier: *  @ 19 @ 
+expr  @ 12 @ expr  @ 17 @ 
+expr  @ 59 @ expr  @ 64 @ 
+operator: ->  @ 4 @ operator: ->  @ 8 @ 
+operator: =  @ 26 @ operator: =  @ 30 @ 
+name: data  @ 49 @ name: data  @ 54 @ 
+name  @ 19 @ name  @ 24 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 37 @ 
+expr  @ 87 @ expr  @ 92 @ 
+operator: ->  @ 78 @ operator: ->  @ 83 @ 
+block  @ 32 @ block  @ 36 @ 
+operator: .  @ 5 @ operator: .  @ 9 @ 
+operator: ->  @ 81 @ operator: ->  @ 86 @ 
+name: size_t  @ 3 @ name: size_t  @ 6 @ 
+name: state  @ 5 @ name: state  @ 9 @ 
+name: conn  @ 20 @ name: conn  @ 25 @ 
+decl  @ 8 @ decl  @ 12 @ 
+block_content  @ 3 @ block_content  @ 6 @ 
+name  @ 30 @ name  @ 34 @ 
+name  @ 1 @ name  @ 1 @ 
+specifier: const  @ 11 @ specifier: const  @ 16 @ 
+name: name  @ 31 @ name: name  @ 35 @ 
+name: data  @ 60 @ name: data  @ 65 @ 
+block  @ 51 @ block  @ 56 @ 
+expr_stmt  @ 77 @ expr_stmt  @ 82 @ 
+name  @ 58 @ name  @ 63 @ 
+argument_list  @ 48 @ argument_list  @ 53 @ 
+operator: .  @ 57 @ operator: .  @ 62 @ 
+block_content  @ 43 @ block_content  @ 47 @ 
+argument  @ 84 @ argument  @ 89 @ 
+operator: =  @ 49 @ operator: =  @ 54 @ 
+name: ssl_config  @ 83 @ name: ssl_config  @ 88 @ 
+then  @ 80 @ then  @ 85 @ 
+literal: 0  @ 5 @ literal: 0  @ 9 @ 
+name: i  @ 57 @ name: i  @ 62 @ 
+name: conn_to_port  @ 41 @ name: conn_to_port  @ 45 @ 
+name: isProxy  @ 18 @ name: isProxy  @ 23 @ 
+else  @ 37 @ else  @ 41 @ 
+name  @ 41 @ name  @ 45 @ 
+block  @ 83 @ block  @ 88 @ 
+operator: .  @ 63 @ operator: .  @ 68 @ 
+return  @ 88 @ return  @ 93 @ 
+name: oldest_age  @ 58 @ name: oldest_age  @ 63 @ 
+else  @ 14 @ else  @ 19 @ 
+name: conn_to_host  @ 30 @ name: conn_to_host  @ 34 @ 
+name: conn  @ 80 @ name: conn  @ 85 @ 
+operator: ->  @ 70 @ operator: ->  @ 75 @ 
+argument_list  @ 83 @ argument_list  @ 88 @ 
+operator: .  @ 14 @ operator: .  @ 19 @ 
+name: conn  @ 31 @ name: conn  @ 35 @ 
+name: conn  @ 41 @ name: conn  @ 45 @ 
+operator: ->  @ 76 @ operator: ->  @ 81 @ 
+name  @ 24 @ name  @ 28 @ 
+expr  @ 31 @ expr  @ 35 @ 
+name: state  @ 67 @ name: state  @ 72 @ 
+name: name  @ 14 @ name: name  @ 19 @ 
+name: sessionid  @ 85 @ name: sessionid  @ 90 @ 
+call  @ 84 @ call  @ 89 @ 
+expr_stmt  @ 72 @ expr_stmt  @ 77 @ 
+init  @ 14 @ init  @ 19 @ 
+name: isProxy  @ 11 @ name: isProxy  @ 16 @ 
+init  @ 4 @ init  @ 8 @ 
+operator: .  @ 52 @ operator: .  @ 57 @ 
+comment: /* bail out */  @ 28 @ comment: /* bail out */  @ 32 @ 
+expr  @ 57 @ expr  @ 62 @ 
+type  @ 18 @ type  @ 23 @ 
+operator: ->  @ 75 @ operator: ->  @ 80 @ 
+modifier: *  @ 6 @ modifier: *  @ 10 @ 
+name: store  @ 85 @ name: store  @ 90 @ 
+condition  @ 11 @ condition  @ 16 @ 
+operator: *  @ 72 @ operator: *  @ 77 @ 
+expr  @ 67 @ expr  @ 72 @ 
+name: ssl_sessionid  @ 70 @ name: ssl_sessionid  @ 75 @ 
+operator: .  @ 57 @ operator: .  @ 62 @ 
+operator: .  @ 14 @ operator: .  @ 19 @ 
+modifier: *  @ 7 @ modifier: *  @ 11 @ 
+index  @ 59 @ index  @ 64 @ 
+name: clone_host  @ 6 @ name: clone_host  @ 10 @ 
+expr  @ 58 @ expr  @ 63 @ 
+name: conn  @ 15 @ name: conn  @ 20 @ 
+expr  @ 83 @ expr  @ 88 @ 
+operator: ->  @ 30 @ operator: ->  @ 34 @ 
+modifier: *  @ 19 @ modifier: *  @ 24 @ 
+index  @ 4 @ index  @ 8 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 81 @ 
+name: session  @ 5 @ name: session  @ 9 @ 
+argument  @ 65 @ argument  @ 70 @ 
+name: store  @ 4 @ name: store  @ 8 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 24 @ argument  @ 28 @ 
+name: store  @ 70 @ name: store  @ 75 @ 
+name: i  @ 58 @ name: i  @ 63 @ 
+name: struct  @ 19 @ name: struct  @ 24 @ 
+argument_list  @ 86 @ argument_list  @ 91 @ 
+init  @ 19 @ init  @ 24 @ 
+name: idsize  @ 71 @ name: idsize  @ 76 @ 
+name: set  @ 56 @ name: set  @ 61 @ 
+call  @ 86 @ call  @ 91 @ 
+operator: &  @ 19 @ operator: &  @ 24 @ 
+block_content  @ 49 @ block_content  @ 54 @ 
+block_content  @ 59 @ block_content  @ 64 @ 
+expr  @ 33 @ expr  @ 37 @ 
+expr  @ 11 @ expr  @ 16 @ 
+name: state  @ 4 @ name: state  @ 8 @ 
+name: int  @ 8 @ name: int  @ 12 @ 
+name  @ 80 @ name  @ 85 @ 
+else  @ 12 @ else  @ 17 @ 
+name: store  @ 75 @ name: store  @ 80 @ 
+if  @ 32 @ if  @ 36 @ 
+call  @ 65 @ call  @ 70 @ 
+name: conn_to_port  @ 43 @ name: conn_to_port  @ 47 @ 
+init  @ 11 @ init  @ 16 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 57 @ 
+operator: .  @ 20 @ operator: .  @ 25 @ 
+name: data  @ 59 @ name: data  @ 64 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 26 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: !  @ 27 @ operator: !  @ 31 @ 
+name: FALSE  @ 18 @ name: FALSE  @ 23 @ 
+name: max_ssl_sessions  @ 63 @ name: max_ssl_sessions  @ 68 @ 
+expr  @ 19 @ expr  @ 24 @ 
+operator: .  @ 58 @ operator: .  @ 63 @ 
+literal: 1  @ 43 @ literal: 1  @ 47 @ 
+argument  @ 26 @ argument  @ 30 @ 
+name: clone_conn_to_host  @ 87 @ name: clone_conn_to_host  @ 92 @ 
+call  @ 24 @ call  @ 28 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 8 @ 
+argument  @ 33 @ argument  @ 37 @ 
+expr  @ 74 @ expr  @ 79 @ 
+name: host  @ 14 @ name: host  @ 19 @ 
+operator: ->  @ 60 @ operator: ->  @ 65 @ 
+argument  @ 86 @ argument  @ 91 @ 
+operator: =  @ 81 @ operator: =  @ 86 @ 
+name: general_ssl  @ 56 @ name: general_ssl  @ 61 @ 
+name: ssl_primary_config  @ 11 @ name: ssl_primary_config  @ 16 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 64 @ 
+name  @ 83 @ name  @ 88 @ 
+argument_list  @ 26 @ argument_list  @ 30 @ 
+name  @ 4 @ name  @ 8 @ 
+operator: =  @ 31 @ operator: =  @ 35 @ 
+block_content  @ 65 @ block_content  @ 70 @ 
+name  @ 11 @ name  @ 16 @ 
+expr  @ 87 @ expr  @ 92 @ 
+operator: =  @ 67 @ operator: =  @ 72 @ 
+else  @ 16 @ else  @ 21 @ 
+name: char  @ 14 @ name: char  @ 19 @ 
+name: sessionage  @ 52 @ name: sessionage  @ 57 @ 
+modifier: *  @ 20 @ modifier: *  @ 25 @ 
+name: hostname  @ 20 @ name: hostname  @ 25 @ 
+name: conn  @ 81 @ name: conn  @ 86 @ 
+expr_stmt  @ 87 @ expr_stmt  @ 92 @ 
+modifier: *  @ 4 @ modifier: *  @ 8 @ 
+expr_stmt  @ 70 @ expr_stmt  @ 75 @ 
+ternary  @ 80 @ ternary  @ 85 @ 
+type  @ 7 @ type  @ 11 @ 
+operator: ->  @ 58 @ operator: ->  @ 63 @ 
+function  @ 1 @ function  @ 1 @ 
+name: remote_port  @ 80 @ name: remote_port  @ 85 @ 
+name: clone_host  @ 27 @ name: clone_host  @ 31 @ 
+name: int  @ 80 @ name: int  @ 85 @ 
+block  @ 58 @ block  @ 63 @ 
+name: strdup  @ 31 @ name: strdup  @ 35 @ 
+name: CURLcode  @ 1 @ name: CURLcode  @ 1 @ 
+condition  @ 48 @ condition  @ 53 @ 
+operator: ==  @ 63 @ operator: ==  @ 68 @ 
+name: age  @ 5 @ name: age  @ 9 @ 
+literal: 1  @ 56 @ literal: 1  @ 61 @ 
+name: name  @ 76 @ name: name  @ 81 @ 
+name: bool  @ 18 @ name: bool  @ 23 @ 
+operator: ->  @ 74 @ operator: ->  @ 79 @ 
+name: max_ssl_sessions  @ 56 @ name: max_ssl_sessions  @ 61 @ 
+type  @ 20 @ type  @ 25 @ 
+decl  @ 9 @ decl  @ 13 @ 
+name: clone_conn_to_host  @ 38 @ name: clone_conn_to_host  @ 42 @ 
+name: strdup  @ 26 @ name: strdup  @ 30 @ 
+block_content  @ 28 @ block_content  @ 32 @ 
+operator: .  @ 5 @ operator: .  @ 9 @ 
+name: char  @ 6 @ name: char  @ 10 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 72 @ 
+name: i  @ 67 @ name: i  @ 72 @ 
+argument_list  @ 24 @ argument_list  @ 28 @ 
+name: store  @ 74 @ name: store  @ 79 @ 
+expr  @ 80 @ expr  @ 85 @ 
+expr  @ 65 @ expr  @ 70 @ 
+name: remote_port  @ 80 @ name: remote_port  @ 85 @ 
+name: conn  @ 19 @ name: conn  @ 24 @ 
+name: ssl_config  @ 13 @ name: ssl_config  @ 18 @ 
+expr  @ 85 @ expr  @ 90 @ 
+expr  @ 5 @ expr  @ 9 @ 
+expr  @ 86 @ expr  @ 91 @ 
+block_content  @ 67 @ block_content  @ 72 @ 
+operator: ->  @ 72 @ operator: ->  @ 77 @ 
+expr  @ 86 @ expr  @ 91 @ 
+name: ssl_config  @ 19 @ name: ssl_config  @ 24 @ 
+operator: ->  @ 84 @ operator: ->  @ 89 @ 
+expr  @ 14 @ expr  @ 19 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 70 @ 
+

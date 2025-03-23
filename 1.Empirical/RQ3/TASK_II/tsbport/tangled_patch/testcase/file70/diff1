@@ -1,0 +1,152 @@
+60c60
+< static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata);
+---
+> static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len,H5HL_cache_prfx_ud_t *udata);
+115c115
+< H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata)
+---
+> H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len, H5HL_cache_prfx_ud_t *udata)
+117c117,118
+<     herr_t ret_value = SUCCEED; /* Return value */
+---
+>     const uint8_t *p_end     = image + len - 1; /* End of image buffer */
+>     herr_t         ret_value = SUCCEED;
+126c127,129
+<     /* Check magic number */
+---
+>     /* Magic number */
+>     if (H5_IS_BUFFER_OVERFLOW(image, H5_SIZEOF_MAGIC, p_end))
+>         HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, "ran off end of input buffer while decoding");
+128c131,132
+<         HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, "bad local heap signature")image += H5_SIZEOF_MAGIC;
+---
+>         HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, "bad local heap signature");
+>     image += H5_SIZEOF_MAGIC;
+130a135,136
+>     if (H5_IS_BUFFER_OVERFLOW(image, 1, p_end))
+>         HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, "ran off end of input buffer while decoding");
+132c138,143
+<         HGOTO_ERROR(H5E_HEAP, H5E_VERSION, FAIL, "wrong version number in local heap")/* Reserved */image += 3;
+---
+>         HGOTO_ERROR(H5E_HEAP, H5E_VERSION, FAIL, "wrong version number in local heap");
+> 
+>     /* Reserved */
+>     if (H5_IS_BUFFER_OVERFLOW(image, 3, p_end))
+>         HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, "ran off end of input buffer while decoding");
+>     image += 3;
+138a150,151
+>     if (H5_IS_BUFFER_OVERFLOW(image, udata->sizeof_size, p_end))
+>         HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, "ran off end of input buffer while decoding");
+141a155,156
+>     if (H5_IS_BUFFER_OVERFLOW(image, udata->sizeof_size, p_end))
+>         HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, "ran off end of input buffer while decoding");
+144c159,163
+<         HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, "bad heap free list")/* Heap data address */
+---
+>         HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, "bad heap free list");
+> 
+>     /* Heap data address */
+>     if (H5_IS_BUFFER_OVERFLOW(image, udata->sizeof_addr, p_end))
+>         HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, "ran off end of input buffer while decoding");
+146a166,169
+>     /* Check that the datablock address is valid (might not be true * in a corrupt file) */
+>     if (!H5F_addr_defined(heap->dblk_addr))
+>         HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, "bad datablock address");
+> 
+172c195,197
+<             HGOTO_ERROR(H5E_HEAP, H5E_BADRANGE, FAIL, "bad heap free list")/* Allocate & initialize free list node */
+---
+>             HGOTO_ERROR(H5E_HEAP, H5E_BADRANGE, FAIL, "bad heap free list");
+> 
+>         /* Allocate & initialize free list node */
+174c199,200
+<             HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, FAIL, "memory allocation failed")fl->offset = (size_t)free_block;
+---
+>             HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, FAIL, "memory allocation failed");
+>         fl->offset = (size_t)free_block;
+182c208,210
+<             HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, "free block size is zero?")/* Decode length of this free block */
+---
+>             HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, "free block size is zero?");
+> 
+>         /* Decode length of this free block */
+185c213,215
+<             HGOTO_ERROR(H5E_HEAP, H5E_BADRANGE, FAIL, "bad heap free list")/* Append node onto list */
+---
+>             HGOTO_ERROR(H5E_HEAP, H5E_BADRANGE, FAIL, "bad heap free list");
+> 
+>         /* Append node onto list */
+250c280
+< H5HL__cache_prefix_get_final_load_size(const void *_image, size_t H5_ATTR_NDEBUG_UNUSED image_len, void *_udata, size_t *actual_len)
+---
+> H5HL__cache_prefix_get_final_load_size(const void *_image, size_t image_len, void *_udata, size_t *actual_len)
+266,267c296,300
+<     if (H5HL__hdr_deserialize(&heap, (const uint8_t *)image, udata) < 0)
+<         HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, FAIL, "can't decode local heap header")/* Set the final size for the cache image */*actual_len = heap.prfx_size;
+---
+>     if (H5HL__hdr_deserialize(&heap, (const uint8_t *)image, image_len, udata) < 0)
+>         HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, FAIL, "can't decode local heap header");
+> 
+>     /* Set the final size for the cache image */
+>     *actual_len = heap.prfx_size;
+281c314
+< static void *H5HL__cache_prefix_deserialize(const void *_image, size_t H5_ATTR_NDEBUG_UNUSED len, void *_udata, hbool_t H5_ATTR_UNUSED *dirty)
+---
+> static void *H5HL__cache_prefix_deserialize(const void *_image, size_t len, void *_udata, hbool_t H5_ATTR_UNUSED *dirty)
+285a319
+>     const uint8_t        *p_end     = image + len - 1;                /* End of image buffer */
+306,307c340,343
+<     if (H5HL__hdr_deserialize(heap, (const uint8_t *)image, udata) < 0)
+<         HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, NULL, "can't decode local heap header")/* Allocate the heap prefix */
+---
+>     if (H5HL__hdr_deserialize(heap, (const uint8_t *)image, len, udata) < 0)
+>         HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, NULL, "can't decode local heap header");
+> 
+>     /* Allocate the heap prefix */
+320c356,359
+<                 HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, NULL, "memory allocation failed")/* Set image to the start of the data block.This is necessary * because there may be a gap between the used portion of the * prefix and the data block due to alignment constraints. */image = ((const uint8_t *)_image) + heap->prfx_size;
+---
+>                 HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, NULL, "memory allocation failed");
+> 
+>             /* Set image to the start of the data block.This is necessary * because there may be a gap between the used portion of the * prefix and the data block due to alignment constraints. */
+>             image = ((const uint8_t *)_image) + heap->prfx_size;
+322a362,363
+>             if (H5_IS_BUFFER_OVERFLOW(image, heap->dblk_size, p_end))
+>                 HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, NULL, "ran off end of input buffer while decoding");
+327c368
+<                 HGOTO_ERROR(H5E_HEAP, H5E_CANTINIT, NULL, "can't initialize free list")
+---
+>                 HGOTO_ERROR(H5E_HEAP, H5E_CANTINIT, NULL, "can't initialize free list");
+384d424
+<     size_t       buf_size;                     /* expected size of the image buffer */
+400a441
+> #ifndef NDEBUG
+402c443
+<     buf_size = heap->prfx_size;
+---
+>     size_t buf_size = heap->prfx_size; /* expected size of the image buffer */
+405a447
+> #endif
+469c511
+<         HGOTO_ERROR(H5E_HEAP, H5E_CANTRELEASE, FAIL, "can't destroy local heap prefix")
+---
+>         HGOTO_ERROR(H5E_HEAP, H5E_CANTRELEASE, FAIL, "can't destroy local heap prefix");
+619c661,662
+<                 HGOTO_ERROR(H5E_HEAP, H5E_CANTPIN, FAIL, "unable to pin local heap prefix")break;
+---
+>                 HGOTO_ERROR(H5E_HEAP, H5E_CANTPIN, FAIL, "unable to pin local heap prefix");
+>             break;
+638c681,682
+<                 HGOTO_ERROR(H5E_HEAP, H5E_CANTUNPIN, FAIL, "unable to unpin local heap prefix")break;
+---
+>                 HGOTO_ERROR(H5E_HEAP, H5E_CANTUNPIN, FAIL, "unable to unpin local heap prefix");
+>             break;
+641c685,686
+<             HGOTO_ERROR(H5E_ARGS, H5E_BADVALUE, FAIL, "unknown action from metadata cache")break;
+---
+>             HGOTO_ERROR(H5E_ARGS, H5E_BADVALUE, FAIL, "unknown action from metadata cache");
+>             break;
+664c709
+<         HGOTO_ERROR(H5E_HEAP, H5E_CANTFREE, FAIL, "unable to destroy local heap data block")
+---
+>         HGOTO_ERROR(H5E_HEAP, H5E_CANTFREE, FAIL, "unable to destroy local heap data block");

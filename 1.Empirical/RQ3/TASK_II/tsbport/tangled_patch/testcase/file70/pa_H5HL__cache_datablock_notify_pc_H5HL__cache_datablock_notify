@@ -1,0 +1,219 @@
+condition  @ 42 @ condition  @ 43 @ 
+name: FAIL  @ 42 @ name: FAIL  @ 43 @ 
+name: prfx  @ 20 @ name: prfx  @ 20 @ 
+if  @ 23 @ if  @ 23 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+if  @ 42 @ if  @ 43 @ 
+case  @ 28 @ case  @ 29 @ 
+argument  @ 43 @ argument  @ 44 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: dblk  @ 19 @ name: dblk  @ 19 @ 
+name: HGOTO_ERROR  @ 46 @ name: HGOTO_ERROR  @ 48 @ 
+expr  @ 4 @ expr  @ 4 @ 
+call  @ 39 @ call  @ 40 @ 
+type  @ 7 @ type  @ 7 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+block_content  @ 43 @ block_content  @ 44 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 39 @ 
+argument_list  @ 23 @ argument_list  @ 23 @ 
+expr  @ 23 @ expr  @ 23 @ 
+case  @ 26 @ case  @ 27 @ 
+init  @ 5 @ init  @ 5 @ 
+type  @ 2 @ type  @ 2 @ 
+name: HDassert  @ 10 @ name: HDassert  @ 10 @ 
+argument  @ 46 @ argument  @ 48 @ 
+expr  @ 38 @ expr  @ 39 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: heap  @ 38 @ name: heap  @ 39 @ 
+condition  @ 23 @ condition  @ 23 @ 
+comment: /* do nothing */  @ 33 @ comment: /* do nothing */  @ 34 @ 
+type  @ 4 @ type  @ 4 @ 
+name: void  @ 2 @ name: void  @ 2 @ 
+name: H5HL__cache_datablock_notify  @ 2 @ name: H5HL__cache_datablock_notify  @ 2 @ 
+name: H5AC_pin_protected_entry  @ 23 @ name: H5AC_pin_protected_entry  @ 23 @ 
+expr  @ 39 @ expr  @ 40 @ 
+name: prfx  @ 39 @ name: prfx  @ 40 @ 
+type  @ 1 @ type  @ 1 @ 
+macro  @ 43 @ macro  @ 44 @ 
+name: dblk  @ 38 @ name: dblk  @ 39 @ 
+block  @ 24 @ block  @ 24 @ 
+call  @ 23 @ call  @ 23 @ 
+name: ret_value  @ 5 @ name: ret_value  @ 5 @ 
+literal: "unknown action from metadata cache"  @ 46 @ literal: "unknown action from metadata cache"  @ 48 @ 
+comment: /* Sanity checks */  @ 37 @ comment: /* Sanity checks */  @ 38 @ 
+name: FAIL  @ 23 @ name: FAIL  @ 23 @ 
+block_content  @ 24 @ block_content  @ 24 @ 
+type  @ 5 @ type  @ 5 @ 
+name: H5HL_dblk_t  @ 4 @ name: H5HL_dblk_t  @ 4 @ 
+name: action  @ 2 @ name: action  @ 2 @ 
+argument  @ 38 @ argument  @ 39 @ 
+comment: /* Unpin the local heap prefix */  @ 41 @ comment: /* Unpin the local heap prefix */  @ 42 @ 
+name: H5AC_NOTIFY_ACTION_CHILD_SERIALIZED  @ 32 @ name: H5AC_NOTIFY_ACTION_CHILD_SERIALIZED  @ 33 @ 
+name: dblk  @ 4 @ name: dblk  @ 4 @ 
+expr  @ 19 @ expr  @ 19 @ 
+default  @ 45 @ default  @ 47 @ 
+argument  @ 43 @ argument  @ 44 @ 
+name: FUNC_LEAVE_NOAPI  @ 50 @ name: FUNC_LEAVE_NOAPI  @ 53 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+comment: /* Pointer to the local heap data block */  @ 4 @ comment: /* Pointer to the local heap data block */  @ 4 @ 
+argument  @ 42 @ argument  @ 43 @ 
+argument_list  @ 39 @ argument_list  @ 40 @ 
+name  @ 42 @ name  @ 43 @ 
+name  @ 19 @ name  @ 19 @ 
+name: H5C_notify_action_t  @ 2 @ name: H5C_notify_action_t  @ 2 @ 
+name: HDassert  @ 20 @ name: HDassert  @ 20 @ 
+operator: ->  @ 39 @ operator: ->  @ 40 @ 
+break  @ 43 @ break  @ 45 @ 
+break  @ 34 @ break  @ 35 @ 
+name: heap  @ 42 @ name: heap  @ 43 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+argument  @ 10 @ argument  @ 10 @ 
+expr  @ 36 @ expr  @ 37 @ 
+expr  @ 12 @ expr  @ 12 @ 
+operator: ==  @ 42 @ operator: ==  @ 43 @ 
+expr  @ 13 @ expr  @ 13 @ 
+argument_list  @ 24 @ argument_list  @ 24 @ 
+expr  @ 30 @ expr  @ 31 @ 
+call  @ 20 @ call  @ 20 @ 
+argument  @ 46 @ argument  @ 48 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+name: HGOTO_ERROR  @ 43 @ name: HGOTO_ERROR  @ 44 @ 
+decl  @ 2 @ decl  @ 2 @ 
+comment: /* Sanity checks */  @ 18 @ comment: /* Sanity checks */  @ 18 @ 
+block  @ 12 @ block  @ 12 @ 
+case  @ 32 @ case  @ 33 @ 
+type  @ 2 @ type  @ 2 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+comment: /* Sanity check */  @ 9 @ comment: /* Sanity check */  @ 9 @ 
+literal: "unable to pin local heap prefix"  @ 24 @ literal: "unable to pin local heap prefix"  @ 24 @ 
+break  @ 46 @ break  @ 49 @ 
+name: dblk  @ 20 @ name: dblk  @ 20 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 31 @ expr  @ 32 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+argument  @ 20 @ argument  @ 20 @ 
+expr  @ 27 @ expr  @ 28 @ 
+name: H5AC_NOTIFY_ACTION_AFTER_INSERT  @ 13 @ name: H5AC_NOTIFY_ACTION_AFTER_INSERT  @ 13 @ 
+name: HDassert  @ 19 @ name: HDassert  @ 19 @ 
+name: H5AC_NOTIFY_ACTION_ENTRY_DIRTIED  @ 27 @ name: H5AC_NOTIFY_ACTION_ENTRY_DIRTIED  @ 28 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name  @ 20 @ name  @ 20 @ 
+operator: ==  @ 23 @ operator: ==  @ 23 @ 
+name  @ 39 @ name  @ 40 @ 
+call  @ 38 @ call  @ 39 @ 
+case  @ 27 @ case  @ 28 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 7 @ 
+expr_stmt  @ 39 @ expr_stmt  @ 40 @ 
+call  @ 42 @ call  @ 43 @ 
+case  @ 31 @ case  @ 32 @ 
+name: dblk  @ 39 @ name: dblk  @ 40 @ 
+operator: ->  @ 42 @ operator: ->  @ 43 @ 
+argument  @ 24 @ argument  @ 24 @ 
+expr  @ 28 @ expr  @ 29 @ 
+decl  @ 5 @ decl  @ 5 @ 
+argument  @ 39 @ argument  @ 40 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: heap  @ 19 @ name: heap  @ 19 @ 
+name: HDassert  @ 39 @ name: HDassert  @ 40 @ 
+argument_list  @ 43 @ argument_list  @ 44 @ 
+expr  @ 39 @ expr  @ 40 @ 
+comment: /* Return value */  @ 5 @ comment: /* Return value */  @ 5 @ 
+expr  @ 26 @ expr  @ 27 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+case  @ 30 @ case  @ 31 @ 
+if_stmt  @ 23 @ if_stmt  @ 23 @ 
+name  @ 38 @ name  @ 39 @ 
+name: SUCCEED  @ 5 @ name: SUCCEED  @ 5 @ 
+argument  @ 46 @ argument  @ 48 @ 
+name: herr_t  @ 5 @ name: herr_t  @ 5 @ 
+name: heap  @ 23 @ name: heap  @ 23 @ 
+name: dblk  @ 10 @ name: dblk  @ 10 @ 
+name: _thing  @ 4 @ name: _thing  @ 4 @ 
+expr  @ 42 @ expr  @ 43 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+argument_list  @ 38 @ argument_list  @ 39 @ 
+macro  @ 46 @ macro  @ 48 @ 
+expr  @ 23 @ expr  @ 23 @ 
+name: H5AC_NOTIFY_ACTION_CHILD_UNSERIALIZED  @ 31 @ name: H5AC_NOTIFY_ACTION_CHILD_UNSERIALIZED  @ 32 @ 
+macro  @ 24 @ macro  @ 24 @ 
+break  @ 24 @ break  @ 25 @ 
+argument  @ 24 @ argument  @ 24 @ 
+name: HDassert  @ 38 @ name: HDassert  @ 39 @ 
+expr  @ 38 @ expr  @ 39 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+condition  @ 12 @ condition  @ 12 @ 
+name: _thing  @ 2 @ name: _thing  @ 2 @ 
+block  @ 3 @ block  @ 3 @ 
+expr  @ 10 @ expr  @ 10 @ 
+argument  @ 24 @ argument  @ 24 @ 
+operator: )  @ 4 @ operator: )  @ 4 @ 
+name: H5AC_unpin_entry  @ 42 @ name: H5AC_unpin_entry  @ 43 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 20 @ 
+name: H5AC_NOTIFY_ACTION_CHILD_CLEANED  @ 30 @ name: H5AC_NOTIFY_ACTION_CHILD_CLEANED  @ 31 @ 
+argument_list  @ 50 @ argument_list  @ 53 @ 
+name  @ 23 @ name  @ 23 @ 
+name: dblk  @ 42 @ name: dblk  @ 43 @ 
+comment: /* Pin the heap's prefix */  @ 22 @ comment: /* Pin the heap's prefix */  @ 22 @ 
+case  @ 13 @ case  @ 13 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument_list  @ 20 @ argument_list  @ 20 @ 
+argument  @ 50 @ argument  @ 53 @ 
+operator: ->  @ 39 @ operator: ->  @ 40 @ 
+operator: ->  @ 19 @ operator: ->  @ 19 @ 
+name: H5HL_dblk_t  @ 4 @ name: H5HL_dblk_t  @ 4 @ 
+argument  @ 24 @ argument  @ 24 @ 
+operator: ->  @ 38 @ operator: ->  @ 39 @ 
+case  @ 29 @ case  @ 30 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr  @ 29 @ expr  @ 30 @ 
+argument  @ 43 @ argument  @ 44 @ 
+switch  @ 12 @ switch  @ 12 @ 
+name: H5AC_NOTIFY_ACTION_CHILD_DIRTIED  @ 29 @ name: H5AC_NOTIFY_ACTION_CHILD_DIRTIED  @ 30 @ 
+block  @ 43 @ block  @ 44 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+decl  @ 7 @ decl  @ 7 @ 
+call  @ 19 @ call  @ 19 @ 
+name: heap  @ 39 @ name: heap  @ 40 @ 
+name: HGOTO_ERROR  @ 24 @ name: HGOTO_ERROR  @ 24 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name: H5AC_NOTIFY_ACTION_AFTER_FLUSH  @ 26 @ name: H5AC_NOTIFY_ACTION_AFTER_FLUSH  @ 27 @ 
+argument  @ 19 @ argument  @ 19 @ 
+name: prfx  @ 42 @ name: prfx  @ 43 @ 
+argument  @ 46 @ argument  @ 48 @ 
+case  @ 36 @ case  @ 37 @ 
+name: heap  @ 20 @ name: heap  @ 20 @ 
+decl  @ 4 @ decl  @ 4 @ 
+name: dblk  @ 23 @ name: dblk  @ 23 @ 
+operator: (  @ 4 @ operator: (  @ 4 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 42 @ expr  @ 43 @ 
+name: done  @ 49 @ name: done  @ 52 @ 
+name: FUNC_ENTER_STATIC  @ 7 @ name: FUNC_ENTER_PACKAGE  @ 7 @ 
+macro  @ 50 @ macro  @ 53 @ 
+argument  @ 43 @ argument  @ 44 @ 
+name: H5AC_NOTIFY_ACTION_BEFORE_EVICT  @ 36 @ name: H5AC_NOTIFY_ACTION_BEFORE_EVICT  @ 37 @ 
+name: H5AC_NOTIFY_ACTION_ENTRY_CLEANED  @ 28 @ name: H5AC_NOTIFY_ACTION_ENTRY_CLEANED  @ 29 @ 
+argument_list  @ 46 @ argument_list  @ 48 @ 
+case  @ 17 @ case  @ 17 @ 
+name: action  @ 12 @ name: action  @ 12 @ 
+comment: /* do nothing */  @ 14 @ comment: /* do nothing */  @ 14 @ 
+block_content  @ 13 @ block_content  @ 13 @ 
+argument  @ 23 @ argument  @ 23 @ 
+argument_list  @ 42 @ argument_list  @ 43 @ 
+break  @ 15 @ break  @ 15 @ 
+operator: ->  @ 42 @ operator: ->  @ 43 @ 
+literal: "unable to unpin local heap prefix"  @ 43 @ literal: "unable to unpin local heap prefix"  @ 44 @ 
+expr  @ 32 @ expr  @ 33 @ 
+operator: *  @ 4 @ operator: *  @ 4 @ 
+name: prfx  @ 23 @ name: prfx  @ 23 @ 
+expr  @ 20 @ expr  @ 20 @ 
+init  @ 4 @ init  @ 4 @ 
+label  @ 49 @ label  @ 52 @ 
+expr  @ 19 @ expr  @ 19 @ 
+comment: /* end H5HL__cache_datablock_notify() */  @ 51 @ comment: /* end H5HL__cache_datablock_notify() */  @ 54 @ 
+name: H5AC_NOTIFY_ACTION_AFTER_LOAD  @ 17 @ name: H5AC_NOTIFY_ACTION_AFTER_LOAD  @ 17 @ 
+if_stmt  @ 42 @ if_stmt  @ 43 @ 
+

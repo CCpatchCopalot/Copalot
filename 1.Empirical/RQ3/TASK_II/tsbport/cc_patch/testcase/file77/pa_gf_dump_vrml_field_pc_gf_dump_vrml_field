@@ -1,0 +1,1401 @@
+call  @ 156 @ call  @ 157 @ 
+name: GF_SG_VRML_SFNODE  @ 9 @ name: GF_SG_VRML_SFNODE  @ 9 @ 
+case  @ 67 @ case  @ 67 @ 
+incr  @ 137 @ incr  @ 138 @ 
+type  @ 1 @ type  @ 1 @ 
+block_content  @ 76 @ block_content  @ 77 @ 
+name: sdump  @ 91 @ name: sdump  @ 92 @ 
+name: i  @ 94 @ name: i  @ 95 @ 
+name: indent  @ 59 @ name: indent  @ 59 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+operator: --  @ 25 @ operator: --  @ 25 @ 
+condition  @ 113 @ condition  @ 114 @ 
+name: sdump  @ 52 @ name: sdump  @ 52 @ 
+name  @ 16 @ name  @ 16 @ 
+argument  @ 139 @ argument  @ 140 @ 
+operator: ->  @ 80 @ operator: ->  @ 81 @ 
+block_content  @ 156 @ block_content  @ 157 @ 
+argument  @ 77 @ argument  @ 78 @ 
+call  @ 99 @ call  @ 100 @ 
+argument  @ 101 @ argument  @ 102 @ 
+argument  @ 58 @ argument  @ 58 @ 
+if  @ 13 @ if  @ 13 @ 
+expr_stmt  @ 62 @ expr_stmt  @ 62 @ 
+decl_stmt  @ 96 @ decl_stmt  @ 97 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+argument  @ 58 @ argument  @ 58 @ 
+literal: "children"  @ 37 @ literal: "children"  @ 37 @ 
+expr_stmt  @ 140 @ expr_stmt  @ 141 @ 
+name  @ 72 @ name  @ 72 @ 
+argument  @ 61 @ argument  @ 61 @ 
+operator: .  @ 44 @ operator: .  @ 44 @ 
+expr  @ 114 @ expr  @ 115 @ 
+name: field  @ 139 @ name: field  @ 140 @ 
+type  @ 4 @ type  @ 4 @ 
+name: gf_sg_vrml_get_sf_type  @ 119 @ name: gf_sg_vrml_get_sf_type  @ 120 @ 
+expr  @ 113 @ expr  @ 114 @ 
+name: XMLDump  @ 12 @ name: XMLDump  @ 12 @ 
+expr  @ 133 @ expr  @ 134 @ 
+call  @ 91 @ call  @ 92 @ 
+if_stmt  @ 138 @ if_stmt  @ 139 @ 
+name  @ 75 @ name  @ 76 @ 
+argument_list  @ 53 @ argument_list  @ 53 @ 
+type  @ 118 @ type  @ 119 @ 
+name: list  @ 62 @ name: list  @ 62 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+call  @ 58 @ call  @ 58 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+expr_stmt  @ 97 @ expr_stmt  @ 98 @ 
+argument  @ 149 @ argument  @ 150 @ 
+name: info  @ 36 @ name: info  @ 36 @ 
+block_content  @ 38 @ block_content  @ 38 @ 
+name: GPAC_DISABLE_X3D  @ 51 @ name: GPAC_DISABLE_X3D  @ 51 @ 
+expr  @ 147 @ expr  @ 148 @ 
+expr_stmt  @ 99 @ expr_stmt  @ 100 @ 
+block  @ 23 @ block  @ 23 @ 
+operator: )  @ 90 @ operator: )  @ 91 @ 
+operator: &&  @ 121 @ operator: &&  @ 122 @ 
+name: X3DDump  @ 58 @ name: X3DDump  @ 58 @ 
+argument  @ 57 @ argument  @ 57 @ 
+type  @ 36 @ type  @ 36 @ 
+operator: ->  @ 92 @ operator: ->  @ 93 @ 
+operator: ==  @ 44 @ operator: ==  @ 44 @ 
+argument  @ 116 @ argument  @ 117 @ 
+name: scene_dump_vrml_id  @ 100 @ name: scene_dump_vrml_id  @ 101 @ 
+block_content  @ 44 @ block_content  @ 44 @ 
+call  @ 116 @ call  @ 117 @ 
+expr  @ 95 @ expr  @ 96 @ 
+expr  @ 43 @ expr  @ 43 @ 
+name: nb_ndt  @ 47 @ name: nb_ndt  @ 47 @ 
+argument_list  @ 138 @ argument_list  @ 139 @ 
+expr_stmt  @ 105 @ expr_stmt  @ 106 @ 
+operator: ->  @ 149 @ operator: ->  @ 150 @ 
+operator: (  @ 70 @ operator: (  @ 70 @ 
+name  @ 137 @ name  @ 138 @ 
+name: sdump  @ 64 @ name: sdump  @ 64 @ 
+name: StartList  @ 58 @ name: StartList  @ 58 @ 
+literal: 1  @ 83 @ literal: 1  @ 84 @ 
+name: GF_SG_VRML_MFNODE  @ 32 @ name: GF_SG_VRML_MFNODE  @ 32 @ 
+operator: ->  @ 126 @ operator: ->  @ 127 @ 
+literal: 0  @ 38 @ literal: 0  @ 38 @ 
+argument  @ 15 @ argument  @ 15 @ 
+if  @ 121 @ if  @ 122 @ 
+block  @ 18 @ block  @ 18 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+decl_stmt  @ 118 @ decl_stmt  @ 119 @ 
+init  @ 42 @ init  @ 42 @ 
+decl  @ 3 @ decl  @ 3 @ 
+expr  @ 14 @ expr  @ 14 @ 
+expr  @ 25 @ expr  @ 25 @ 
+condition  @ 121 @ condition  @ 122 @ 
+expr  @ 42 @ expr  @ 42 @ 
+call  @ 76 @ call  @ 77 @ 
+operator: >  @ 47 @ operator: >  @ 47 @ 
+argument  @ 37 @ argument  @ 37 @ 
+name: GF_SG_VRML_SFCOMMANDBUFFER  @ 67 @ name: GF_SG_VRML_SFCOMMANDBUFFER  @ 67 @ 
+name: i  @ 139 @ name: i  @ 140 @ 
+name  @ 19 @ name  @ 19 @ 
+operator: (  @ 47 @ operator: (  @ 47 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+argument  @ 26 @ argument  @ 26 @ 
+if  @ 37 @ if  @ 37 @ 
+name: sdump  @ 80 @ name: sdump  @ 81 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name  @ 80 @ name  @ 81 @ 
+name: gf_sg_vrml_mf_get_item  @ 139 @ name: gf_sg_vrml_mf_get_item  @ 140 @ 
+block_content  @ 118 @ block_content  @ 119 @ 
+name: XMLDump  @ 23 @ name: XMLDump  @ 23 @ 
+directive: endif  @ 55 @ directive: endif  @ 55 @ 
+if  @ 138 @ if  @ 139 @ 
+call  @ 26 @ call  @ 26 @ 
+argument  @ 76 @ argument  @ 77 @ 
+name  @ 26 @ name  @ 26 @ 
+expr_stmt  @ 58 @ expr_stmt  @ 58 @ 
+name: name  @ 26 @ name: name  @ 26 @ 
+name  @ 65 @ name  @ 65 @ 
+literal: "["  @ 136 @ literal: "["  @ 137 @ 
+operator: (  @ 14 @ operator: (  @ 14 @ 
+expr  @ 129 @ expr  @ 130 @ 
+for  @ 137 @ for  @ 138 @ 
+expr  @ 140 @ expr  @ 141 @ 
+block  @ 121 @ block  @ 122 @ 
+operator: .  @ 89 @ operator: .  @ 90 @ 
+argument  @ 140 @ argument  @ 141 @ 
+expr  @ 119 @ expr  @ 120 @ 
+expr  @ 61 @ expr  @ 61 @ 
+name  @ 45 @ name  @ 45 @ 
+name: gf_sm_dump_command_list  @ 80 @ name: gf_sm_dump_command_list  @ 81 @ 
+block  @ 79 @ block  @ 80 @ 
+condition  @ 8 @ condition  @ 8 @ 
+name  @ 133 @ name  @ 134 @ 
+block_content  @ 13 @ block_content  @ 13 @ 
+name: gf_node_get_field  @ 98 @ name: gf_node_get_field  @ 99 @ 
+operator: ->  @ 136 @ operator: ->  @ 137 @ 
+block  @ 136 @ block  @ 137 @ 
+name: sdump  @ 70 @ name: sdump  @ 70 @ 
+name: char  @ 70 @ name: char  @ 70 @ 
+name: count  @ 94 @ name: count  @ 95 @ 
+block  @ 137 @ block  @ 138 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 15 @ expr  @ 15 @ 
+name: ar  @ 100 @ name: ar  @ 101 @ 
+name  @ 139 @ name  @ 140 @ 
+expr  @ 44 @ expr  @ 44 @ 
+operator: )  @ 106 @ operator: )  @ 107 @ 
+block_content  @ 53 @ block_content  @ 53 @ 
+expr  @ 19 @ expr  @ 19 @ 
+condition  @ 137 @ condition  @ 138 @ 
+name: far_ptr  @ 69 @ name: far_ptr  @ 69 @ 
+name: gf_dump_vrml_sffield  @ 140 @ name: gf_dump_vrml_sffield  @ 141 @ 
+expr  @ 91 @ expr  @ 92 @ 
+name  @ 95 @ name  @ 96 @ 
+operator: &&  @ 144 @ operator: &&  @ 145 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 57 @ 
+name: sdump  @ 65 @ name: sdump  @ 65 @ 
+expr  @ 21 @ expr  @ 21 @ 
+name  @ 144 @ name  @ 145 @ 
+literal: "#SFCommandBuffer cannot be dumped while playing - use MP4Box instead\n"  @ 77 @ literal: "#SFCommandBuffer cannot be dumped while playing - use MP4Box instead\n"  @ 78 @ 
+operator: ->  @ 65 @ operator: ->  @ 65 @ 
+name  @ 142 @ name  @ 143 @ 
+call  @ 142 @ call  @ 143 @ 
+operator: .  @ 45 @ operator: .  @ 45 @ 
+call  @ 41 @ call  @ 41 @ 
+argument_list  @ 91 @ argument_list  @ 92 @ 
+endif  @ 55 @ endif  @ 55 @ 
+expr  @ 43 @ expr  @ 43 @ 
+case  @ 123 @ case  @ 124 @ 
+expr  @ 140 @ expr  @ 141 @ 
+type  @ 35 @ type  @ 35 @ 
+name: sdump  @ 29 @ name: sdump  @ 29 @ 
+expr_stmt  @ 114 @ expr_stmt  @ 115 @ 
+argument  @ 90 @ argument  @ 91 @ 
+operator: .  @ 44 @ operator: .  @ 44 @ 
+argument_list  @ 97 @ argument_list  @ 98 @ 
+name: GF_Node  @ 1 @ name: GF_Node  @ 1 @ 
+name: NULL  @ 21 @ name: NULL  @ 21 @ 
+operator: .  @ 113 @ operator: .  @ 114 @ 
+expr_stmt  @ 77 @ expr_stmt  @ 78 @ 
+literal: 0  @ 42 @ literal: 0  @ 42 @ 
+argument_list  @ 152 @ argument_list  @ 153 @ 
+name: NULL  @ 61 @ name: NULL  @ 61 @ 
+name  @ 82 @ name  @ 83 @ 
+operator: ->  @ 24 @ operator: ->  @ 24 @ 
+operator: )  @ 44 @ operator: )  @ 44 @ 
+name: GF_ChildNodeItem  @ 56 @ name: GF_ChildNodeItem  @ 56 @ 
+name: eventType  @ 44 @ name: eventType  @ 44 @ 
+name  @ 21 @ name  @ 21 @ 
+if_stmt  @ 13 @ if_stmt  @ 13 @ 
+if_stmt  @ 23 @ if_stmt  @ 23 @ 
+name: field  @ 133 @ name: field  @ 134 @ 
+name: name  @ 19 @ name: name  @ 19 @ 
+expr  @ 116 @ expr  @ 117 @ 
+argument  @ 106 @ argument  @ 107 @ 
+name: EndElement  @ 106 @ name: EndElement  @ 107 @ 
+operator: &  @ 98 @ operator: &  @ 99 @ 
+expr  @ 58 @ expr  @ 58 @ 
+expr  @ 80 @ expr  @ 81 @ 
+name: sdump  @ 25 @ name: sdump  @ 25 @ 
+name: i  @ 137 @ name: i  @ 138 @ 
+expr  @ 57 @ expr  @ 57 @ 
+operator: =  @ 47 @ operator: =  @ 47 @ 
+name: vals  @ 98 @ name: vals  @ 99 @ 
+name  @ 62 @ name  @ 62 @ 
+argument  @ 21 @ argument  @ 21 @ 
+name: X3DDump  @ 65 @ name: X3DDump  @ 65 @ 
+name  @ 14 @ name  @ 14 @ 
+name: MFAttrRef  @ 89 @ name: MFAttrRef  @ 90 @ 
+argument  @ 61 @ argument  @ 61 @ 
+name: X3DDump  @ 13 @ name: X3DDump  @ 13 @ 
+operator: ->  @ 77 @ operator: ->  @ 78 @ 
+operator: *  @ 90 @ operator: *  @ 91 @ 
+name: far_ptr  @ 139 @ name: far_ptr  @ 140 @ 
+block_content  @ 80 @ block_content  @ 81 @ 
+name: field  @ 8 @ name: field  @ 8 @ 
+name: GF_SG_VRML_SFSCRIPT  @ 124 @ name: GF_SG_VRML_SFSCRIPT  @ 125 @ 
+decl_stmt  @ 36 @ decl_stmt  @ 36 @ 
+name: GF_Node  @ 10 @ name: GF_Node  @ 10 @ 
+operator: ->  @ 137 @ operator: ->  @ 138 @ 
+argument  @ 115 @ argument  @ 116 @ 
+operator: (  @ 21 @ operator: (  @ 21 @ 
+block_content  @ 29 @ block_content  @ 29 @ 
+name: name  @ 106 @ name: name  @ 107 @ 
+argument  @ 70 @ argument  @ 70 @ 
+name: sdump  @ 24 @ name: sdump  @ 24 @ 
+if  @ 88 @ if  @ 89 @ 
+return  @ 107 @ return  @ 108 @ 
+block_content  @ 142 @ block_content  @ 143 @ 
+name: SFCommandBuffer  @ 69 @ name: SFCommandBuffer  @ 69 @ 
+block_content  @ 123 @ block_content  @ 124 @ 
+expr  @ 47 @ expr  @ 47 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+literal: 0  @ 94 @ literal: 0  @ 95 @ 
+expr_stmt  @ 76 @ expr_stmt  @ 77 @ 
+name: fieldType  @ 119 @ name: fieldType  @ 120 @ 
+expr  @ 100 @ expr  @ 101 @ 
+name: needs_field_container  @ 4 @ name: needs_field_container  @ 4 @ 
+argument  @ 133 @ argument  @ 134 @ 
+name: XMLDump  @ 142 @ name: XMLDump  @ 143 @ 
+block  @ 73 @ block  @ 73 @ 
+operator: (  @ 118 @ operator: (  @ 119 @ 
+operator: ->  @ 100 @ operator: ->  @ 101 @ 
+if  @ 12 @ if  @ 12 @ 
+ternary  @ 47 @ ternary  @ 47 @ 
+name: gf_fprintf  @ 136 @ name: gf_fprintf  @ 137 @ 
+operator: *  @ 21 @ operator: *  @ 21 @ 
+for  @ 42 @ for  @ 42 @ 
+case  @ 87 @ case  @ 88 @ 
+default  @ 128 @ default  @ 129 @ 
+call  @ 77 @ call  @ 78 @ 
+name  @ 10 @ name  @ 10 @ 
+name: field  @ 61 @ name: field  @ 61 @ 
+block_content  @ 77 @ block_content  @ 78 @ 
+expr  @ 42 @ expr  @ 42 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 59 @ 
+call  @ 136 @ call  @ 137 @ 
+name  @ 121 @ name  @ 122 @ 
+operator: .  @ 126 @ operator: .  @ 127 @ 
+name: sdump  @ 19 @ name: sdump  @ 19 @ 
+argument_list  @ 114 @ argument_list  @ 115 @ 
+name  @ 100 @ name  @ 101 @ 
+type  @ 1 @ type  @ 1 @ 
+literal: "\" field=\"%s\"/>\n"  @ 101 @ literal: "\" field=\"%s\"/>\n"  @ 102 @ 
+name: i  @ 138 @ name: i  @ 139 @ 
+name: sdump  @ 34 @ name: sdump  @ 34 @ 
+name: ar  @ 95 @ name: ar  @ 96 @ 
+expr  @ 57 @ expr  @ 57 @ 
+expr  @ 47 @ expr  @ 47 @ 
+operator: =  @ 42 @ operator: =  @ 42 @ 
+modifier: *  @ 69 @ modifier: *  @ 69 @ 
+argument  @ 80 @ argument  @ 81 @ 
+name: i  @ 43 @ name: i  @ 43 @ 
+name  @ 136 @ name  @ 137 @ 
+name: gf_fprintf  @ 126 @ name: gf_fprintf  @ 127 @ 
+name: field  @ 69 @ name: field  @ 69 @ 
+name: field  @ 53 @ name: field  @ 53 @ 
+name: sdump  @ 121 @ name: sdump  @ 122 @ 
+operator: .  @ 90 @ operator: .  @ 91 @ 
+block_content  @ 25 @ block_content  @ 25 @ 
+name: MFAttrRef  @ 89 @ name: MFAttrRef  @ 90 @ 
+name: sdump  @ 59 @ name: sdump  @ 59 @ 
+name: XMLDump  @ 58 @ name: XMLDump  @ 58 @ 
+switch  @ 145 @ switch  @ 146 @ 
+argument  @ 114 @ argument  @ 115 @ 
+if_stmt  @ 95 @ if_stmt  @ 96 @ 
+block_content  @ 69 @ block_content  @ 69 @ 
+block  @ 95 @ block  @ 96 @ 
+expr_stmt  @ 119 @ expr_stmt  @ 120 @ 
+operator: *  @ 89 @ operator: *  @ 90 @ 
+operator: .  @ 8 @ operator: .  @ 8 @ 
+block  @ 138 @ block  @ 139 @ 
+argument_list  @ 119 @ argument_list  @ 120 @ 
+operator: .  @ 106 @ operator: .  @ 107 @ 
+name  @ 118 @ name  @ 119 @ 
+name: field  @ 58 @ name: field  @ 58 @ 
+expr  @ 87 @ expr  @ 88 @ 
+operator: =  @ 38 @ operator: =  @ 38 @ 
+operator: .  @ 10 @ operator: .  @ 10 @ 
+operator: )  @ 89 @ operator: )  @ 90 @ 
+expr  @ 138 @ expr  @ 139 @ 
+expr_stmt  @ 82 @ expr_stmt  @ 83 @ 
+name: node  @ 1 @ name: node  @ 1 @ 
+expr  @ 136 @ expr  @ 137 @ 
+literal: 1  @ 26 @ literal: 1  @ 26 @ 
+expr  @ 77 @ expr  @ 78 @ 
+condition  @ 142 @ condition  @ 143 @ 
+argument  @ 53 @ argument  @ 53 @ 
+decl  @ 3 @ decl  @ 3 @ 
+argument  @ 90 @ argument  @ 91 @ 
+operator: ->  @ 76 @ operator: ->  @ 77 @ 
+literal: "choice"  @ 53 @ literal: "choice"  @ 53 @ 
+expr  @ 47 @ expr  @ 47 @ 
+name: name  @ 58 @ name: name  @ 58 @ 
+expr  @ 69 @ expr  @ 69 @ 
+expr  @ 106 @ expr  @ 107 @ 
+expr  @ 34 @ expr  @ 34 @ 
+expr  @ 115 @ expr  @ 116 @ 
+name: GenMFField  @ 118 @ name: GenMFField  @ 119 @ 
+name: gf_sg_vrml_is_sf_field  @ 113 @ name: gf_sg_vrml_is_sf_field  @ 114 @ 
+name: sdump  @ 90 @ name: sdump  @ 91 @ 
+expr  @ 67 @ expr  @ 67 @ 
+argument  @ 83 @ argument  @ 84 @ 
+name: indent  @ 72 @ name: indent  @ 72 @ 
+operator: ->  @ 52 @ operator: ->  @ 52 @ 
+if_stmt  @ 113 @ if_stmt  @ 114 @ 
+operator: !  @ 65 @ operator: !  @ 65 @ 
+operator: ++  @ 72 @ operator: ++  @ 72 @ 
+name: XMLDump  @ 88 @ name: XMLDump  @ 89 @ 
+name  @ 115 @ name  @ 116 @ 
+operator: ==  @ 45 @ operator: ==  @ 45 @ 
+name: sdump  @ 106 @ name: sdump  @ 107 @ 
+name: field  @ 139 @ name: field  @ 140 @ 
+name: char  @ 106 @ name: char  @ 107 @ 
+expr  @ 95 @ expr  @ 96 @ 
+argument_list  @ 80 @ argument_list  @ 81 @ 
+operator: )  @ 83 @ operator: )  @ 84 @ 
+name: needs_field_container  @ 61 @ name: needs_field_container  @ 61 @ 
+while  @ 60 @ while  @ 60 @ 
+literal: 1  @ 106 @ literal: 1  @ 107 @ 
+name: sdump  @ 58 @ name: sdump  @ 58 @ 
+if_stmt  @ 142 @ if_stmt  @ 143 @ 
+if_stmt  @ 52 @ if_stmt  @ 52 @ 
+decl  @ 35 @ decl  @ 35 @ 
+name  @ 98 @ name  @ 99 @ 
+argument  @ 140 @ argument  @ 141 @ 
+argument  @ 101 @ argument  @ 102 @ 
+operator: ->  @ 82 @ operator: ->  @ 83 @ 
+if_stmt  @ 24 @ if_stmt  @ 24 @ 
+expr  @ 100 @ expr  @ 101 @ 
+name: GF_SG_VRML_SFSTRING  @ 146 @ name: GF_SG_VRML_SFSTRING  @ 147 @ 
+name: sdump  @ 61 @ name: sdump  @ 61 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 61 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 53 @ 
+name: sdump  @ 126 @ name: sdump  @ 127 @ 
+name  @ 56 @ name  @ 56 @ 
+name: nb_ndt  @ 40 @ name: nb_ndt  @ 40 @ 
+if_stmt  @ 34 @ if_stmt  @ 34 @ 
+expr  @ 139 @ expr  @ 140 @ 
+name: gf_fprintf  @ 138 @ name: gf_fprintf  @ 139 @ 
+condition  @ 73 @ condition  @ 73 @ 
+block  @ 155 @ block  @ 156 @ 
+expr  @ 65 @ expr  @ 65 @ 
+call  @ 114 @ call  @ 115 @ 
+name: ar  @ 98 @ name: ar  @ 99 @ 
+expr  @ 99 @ expr  @ 100 @ 
+name: indent  @ 92 @ name: indent  @ 93 @ 
+name: field  @ 21 @ name: field  @ 21 @ 
+expr  @ 29 @ expr  @ 29 @ 
+name  @ 25 @ name  @ 25 @ 
+name: sdump  @ 101 @ name: sdump  @ 102 @ 
+expr  @ 113 @ expr  @ 114 @ 
+call  @ 57 @ call  @ 57 @ 
+expr  @ 136 @ expr  @ 137 @ 
+expr  @ 97 @ expr  @ 98 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+operator: ->  @ 142 @ operator: ->  @ 143 @ 
+expr  @ 138 @ expr  @ 139 @ 
+operator: *  @ 56 @ operator: *  @ 56 @ 
+expr  @ 138 @ expr  @ 139 @ 
+argument_list  @ 126 @ argument_list  @ 127 @ 
+argument  @ 77 @ argument  @ 78 @ 
+expr  @ 125 @ expr  @ 126 @ 
+argument  @ 129 @ argument  @ 130 @ 
+control  @ 137 @ control  @ 138 @ 
+block  @ 13 @ block  @ 13 @ 
+name: name  @ 83 @ name: name  @ 84 @ 
+break  @ 150 @ break  @ 151 @ 
+argument_list  @ 83 @ argument_list  @ 84 @ 
+name  @ 52 @ name  @ 52 @ 
+name  @ 64 @ name  @ 64 @ 
+name: list  @ 60 @ name: list  @ 60 @ 
+name  @ 34 @ name  @ 34 @ 
+argument  @ 65 @ argument  @ 65 @ 
+break  @ 127 @ break  @ 128 @ 
+expr  @ 149 @ expr  @ 150 @ 
+operator: .  @ 98 @ operator: .  @ 99 @ 
+name: field  @ 114 @ name: field  @ 115 @ 
+else  @ 28 @ else  @ 28 @ 
+name: sdump  @ 114 @ name: sdump  @ 115 @ 
+if  @ 58 @ if  @ 58 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 40 @ 
+argument  @ 21 @ argument  @ 21 @ 
+name: X3DDump  @ 24 @ name: X3DDump  @ 24 @ 
+operator: !  @ 58 @ operator: !  @ 58 @ 
+expr  @ 122 @ expr  @ 123 @ 
+operator: ->  @ 138 @ operator: ->  @ 139 @ 
+operator: ||  @ 44 @ operator: ||  @ 44 @ 
+expr  @ 83 @ expr  @ 84 @ 
+expr  @ 61 @ expr  @ 61 @ 
+name: fieldIndex  @ 98 @ name: fieldIndex  @ 99 @ 
+call  @ 90 @ call  @ 91 @ 
+operator: .  @ 101 @ operator: .  @ 102 @ 
+name: node  @ 95 @ name: node  @ 96 @ 
+name: indent  @ 16 @ name: indent  @ 16 @ 
+name: info  @ 44 @ name: info  @ 44 @ 
+if  @ 24 @ if  @ 24 @ 
+block  @ 24 @ block  @ 24 @ 
+operator: ||  @ 65 @ operator: ||  @ 65 @ 
+block  @ 75 @ block  @ 76 @ 
+argument  @ 136 @ argument  @ 137 @ 
+block_content  @ 114 @ block_content  @ 115 @ 
+expr  @ 115 @ expr  @ 116 @ 
+condition  @ 47 @ condition  @ 47 @ 
+name: char  @ 61 @ name: char  @ 61 @ 
+operator: .  @ 37 @ operator: .  @ 37 @ 
+call  @ 138 @ call  @ 139 @ 
+if  @ 53 @ if  @ 53 @ 
+name  @ 89 @ name  @ 90 @ 
+operator: )  @ 21 @ operator: )  @ 21 @ 
+name: GF_FieldInfo  @ 1 @ name: GF_FieldInfo  @ 1 @ 
+name: indent  @ 80 @ name: indent  @ 81 @ 
+expr  @ 97 @ expr  @ 98 @ 
+name: gf_dump_vrml_node  @ 21 @ name: gf_dump_vrml_node  @ 21 @ 
+argument  @ 115 @ argument  @ 116 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+name: sdump  @ 65 @ name: sdump  @ 65 @ 
+comment: /*the arch does not allow for that (we would need a codec and so on, or decompress the command listin all cases...)*/  @ 74 @ comment: /*the arch does not allow for that (we would need a codec and so on, or decompress the command list
+			in all cases...)*/  @ 74 @ 
+for  @ 94 @ for  @ 95 @ 
+argument  @ 113 @ argument  @ 114 @ 
+name  @ 114 @ name  @ 115 @ 
+argument_list  @ 14 @ argument_list  @ 14 @ 
+name: name  @ 65 @ name: name  @ 65 @ 
+operator: .  @ 56 @ operator: .  @ 56 @ 
+operator: --  @ 105 @ operator: --  @ 106 @ 
+argument_list  @ 71 @ argument_list  @ 71 @ 
+operator: .  @ 14 @ operator: .  @ 14 @ 
+argument  @ 61 @ argument  @ 61 @ 
+expr_stmt  @ 142 @ expr_stmt  @ 143 @ 
+operator: )  @ 70 @ operator: )  @ 70 @ 
+expr  @ 40 @ expr  @ 40 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 115 @ expr  @ 116 @ 
+name: vals  @ 98 @ name: vals  @ 99 @ 
+name: sdump  @ 72 @ name: sdump  @ 72 @ 
+argument_list  @ 106 @ argument_list  @ 107 @ 
+condition  @ 94 @ condition  @ 95 @ 
+operator: ->  @ 25 @ operator: ->  @ 25 @ 
+expr  @ 58 @ expr  @ 58 @ 
+operator: ->  @ 64 @ operator: ->  @ 64 @ 
+expr  @ 149 @ expr  @ 150 @ 
+argument_list  @ 58 @ argument_list  @ 58 @ 
+name: commandList  @ 80 @ name: commandList  @ 81 @ 
+then  @ 47 @ then  @ 47 @ 
+operator: =  @ 56 @ operator: =  @ 56 @ 
+operator: )  @ 47 @ operator: )  @ 47 @ 
+call  @ 140 @ call  @ 141 @ 
+name: name  @ 129 @ name: name  @ 130 @ 
+condition  @ 75 @ condition  @ 76 @ 
+name: sdump  @ 156 @ name: sdump  @ 157 @ 
+expr_stmt  @ 152 @ expr_stmt  @ 153 @ 
+operator: (  @ 106 @ operator: (  @ 107 @ 
+name: gf_list_count  @ 73 @ name: gf_list_count  @ 73 @ 
+operator: <  @ 94 @ operator: <  @ 95 @ 
+name: sdump  @ 13 @ name: sdump  @ 13 @ 
+init  @ 94 @ init  @ 95 @ 
+name: sdump  @ 138 @ name: sdump  @ 139 @ 
+incr  @ 42 @ incr  @ 42 @ 
+argument  @ 138 @ argument  @ 139 @ 
+literal: 0  @ 33 @ literal: 0  @ 33 @ 
+name: sdump  @ 58 @ name: sdump  @ 58 @ 
+call  @ 73 @ call  @ 73 @ 
+expr_stmt  @ 100 @ expr_stmt  @ 101 @ 
+name: slot_ptr  @ 6 @ name: slot_ptr  @ 6 @ 
+operator: *  @ 26 @ operator: *  @ 26 @ 
+expr  @ 33 @ expr  @ 33 @ 
+expr  @ 12 @ expr  @ 12 @ 
+block  @ 113 @ block  @ 114 @ 
+argument_list  @ 136 @ argument_list  @ 137 @ 
+expr  @ 23 @ expr  @ 23 @ 
+operator: ->  @ 73 @ operator: ->  @ 73 @ 
+call  @ 21 @ call  @ 21 @ 
+condition  @ 58 @ condition  @ 58 @ 
+name: field  @ 1 @ name: field  @ 1 @ 
+expr  @ 148 @ expr  @ 149 @ 
+decl  @ 35 @ decl  @ 35 @ 
+literal: " %s=\'"  @ 126 @ literal: " %s=\'"  @ 127 @ 
+expr  @ 145 @ expr  @ 146 @ 
+block_content  @ 61 @ block_content  @ 61 @ 
+expr  @ 133 @ expr  @ 134 @ 
+name  @ 77 @ name  @ 78 @ 
+block  @ 39 @ block  @ 39 @ 
+name: node  @ 43 @ name: node  @ 43 @ 
+expr_stmt  @ 70 @ expr_stmt  @ 70 @ 
+name: void  @ 6 @ name: void  @ 6 @ 
+argument  @ 26 @ argument  @ 26 @ 
+name: gf_fprintf  @ 142 @ name: gf_fprintf  @ 143 @ 
+expr  @ 146 @ expr  @ 147 @ 
+type  @ 96 @ type  @ 97 @ 
+name: sdump  @ 136 @ name: sdump  @ 137 @ 
+operator: (  @ 56 @ operator: (  @ 56 @ 
+name  @ 121 @ name  @ 122 @ 
+name: GF_SG_EVENT_OUT  @ 44 @ name: GF_SG_EVENT_OUT  @ 44 @ 
+modifier: *  @ 89 @ modifier: *  @ 90 @ 
+init  @ 89 @ init  @ 90 @ 
+name: StartElement  @ 70 @ name: StartElement  @ 70 @ 
+operator: !  @ 52 @ operator: !  @ 52 @ 
+name  @ 90 @ name  @ 91 @ 
+operator: =  @ 41 @ operator: =  @ 41 @ 
+call  @ 70 @ call  @ 70 @ 
+block_content  @ 9 @ block_content  @ 9 @ 
+expr  @ 137 @ expr  @ 138 @ 
+expr  @ 139 @ expr  @ 140 @ 
+operator: *  @ 56 @ operator: *  @ 56 @ 
+if_stmt  @ 136 @ if_stmt  @ 137 @ 
+operator: <  @ 42 @ operator: <  @ 42 @ 
+expr_stmt  @ 133 @ expr_stmt  @ 134 @ 
+condition  @ 122 @ condition  @ 123 @ 
+name: needs_field_container  @ 33 @ name: needs_field_container  @ 33 @ 
+block_content  @ 95 @ block_content  @ 96 @ 
+name: GF_FieldInfo  @ 96 @ name: GF_FieldInfo  @ 97 @ 
+name: XMLDump  @ 121 @ name: XMLDump  @ 122 @ 
+condition  @ 24 @ condition  @ 24 @ 
+operator: .  @ 118 @ operator: .  @ 119 @ 
+name: EndAttribute  @ 152 @ name: EndAttribute  @ 153 @ 
+expr  @ 77 @ expr  @ 78 @ 
+expr  @ 56 @ expr  @ 56 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 26 @ 
+name: list  @ 62 @ name: list  @ 62 @ 
+operator: ->  @ 94 @ operator: ->  @ 95 @ 
+name: field  @ 126 @ name: field  @ 127 @ 
+name: fieldType  @ 8 @ name: fieldType  @ 8 @ 
+name  @ 61 @ name  @ 61 @ 
+expr  @ 91 @ expr  @ 92 @ 
+name: field  @ 119 @ name: field  @ 120 @ 
+name  @ 45 @ name  @ 45 @ 
+literal: 0  @ 137 @ literal: 0  @ 138 @ 
+argument  @ 91 @ argument  @ 92 @ 
+name: field  @ 113 @ name: field  @ 114 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 142 @ expr  @ 143 @ 
+expr  @ 139 @ expr  @ 140 @ 
+operator: =  @ 40 @ operator: =  @ 40 @ 
+name  @ 138 @ name  @ 139 @ 
+operator: .  @ 61 @ operator: .  @ 61 @ 
+operator: &  @ 43 @ operator: &  @ 43 @ 
+argument  @ 71 @ argument  @ 71 @ 
+name: field  @ 14 @ name: field  @ 14 @ 
+name  @ 83 @ name  @ 84 @ 
+argument  @ 140 @ argument  @ 141 @ 
+name: mffield  @ 118 @ name: mffield  @ 119 @ 
+name: trace  @ 142 @ name: trace  @ 143 @ 
+default  @ 151 @ default  @ 152 @ 
+expr  @ 60 @ expr  @ 60 @ 
+name: far_ptr  @ 56 @ name: far_ptr  @ 56 @ 
+name: sdump  @ 144 @ name: sdump  @ 145 @ 
+expr  @ 43 @ expr  @ 43 @ 
+expr  @ 77 @ expr  @ 78 @ 
+init  @ 137 @ init  @ 138 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: sdump  @ 149 @ name: sdump  @ 150 @ 
+operator: *  @ 14 @ operator: *  @ 14 @ 
+expr  @ 21 @ expr  @ 21 @ 
+name  @ 23 @ name  @ 23 @ 
+operator: *  @ 10 @ operator: *  @ 10 @ 
+expr  @ 156 @ expr  @ 157 @ 
+name: needs_field_container  @ 47 @ name: needs_field_container  @ 47 @ 
+name  @ 126 @ name  @ 127 @ 
+operator: ->  @ 34 @ operator: ->  @ 34 @ 
+argument  @ 140 @ argument  @ 141 @ 
+decl  @ 5 @ decl  @ 5 @ 
+if_stmt  @ 44 @ if_stmt  @ 44 @ 
+argument_list  @ 21 @ argument_list  @ 21 @ 
+argument_list  @ 116 @ argument_list  @ 117 @ 
+operator: ->  @ 121 @ operator: ->  @ 122 @ 
+case  @ 146 @ case  @ 147 @ 
+type  @ 35 @ type  @ 35 @ 
+block  @ 37 @ block  @ 37 @ 
+argument  @ 71 @ argument  @ 71 @ 
+expr  @ 144 @ expr  @ 145 @ 
+argument  @ 100 @ argument  @ 101 @ 
+expr  @ 83 @ expr  @ 84 @ 
+return  @ 85 @ return  @ 86 @ 
+operator: !  @ 73 @ operator: !  @ 73 @ 
+name: name  @ 90 @ name: name  @ 91 @ 
+name: fieldType  @ 113 @ name: fieldType  @ 114 @ 
+name: assert  @ 57 @ name: assert  @ 57 @ 
+if  @ 52 @ if  @ 52 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 29 @ 
+operator: ->  @ 61 @ operator: ->  @ 61 @ 
+block_content  @ 35 @ block_content  @ 35 @ 
+operator: .  @ 139 @ operator: .  @ 140 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 41 @ 
+name: sdump  @ 1 @ name: sdump  @ 1 @ 
+if_stmt  @ 144 @ if_stmt  @ 145 @ 
+name: sdump  @ 16 @ name: sdump  @ 16 @ 
+argument_list  @ 133 @ argument_list  @ 134 @ 
+call  @ 65 @ call  @ 65 @ 
+name  @ 24 @ name  @ 24 @ 
+else  @ 47 @ else  @ 47 @ 
+name: GF_SceneDumper  @ 1 @ name: GF_SceneDumper  @ 1 @ 
+operator: =  @ 94 @ operator: =  @ 95 @ 
+expr  @ 82 @ expr  @ 83 @ 
+argument  @ 61 @ argument  @ 61 @ 
+expr  @ 100 @ expr  @ 101 @ 
+argument  @ 129 @ argument  @ 130 @ 
+operator: (  @ 44 @ operator: (  @ 44 @ 
+expr  @ 59 @ expr  @ 59 @ 
+name  @ 115 @ name  @ 116 @ 
+operator: .  @ 21 @ operator: .  @ 21 @ 
+name: sdump  @ 116 @ name: sdump  @ 117 @ 
+name: XMLDump  @ 76 @ name: XMLDump  @ 77 @ 
+break  @ 130 @ break  @ 131 @ 
+condition  @ 42 @ condition  @ 42 @ 
+name: GF_SG_EVENT_IN  @ 44 @ name: GF_SG_EVENT_IN  @ 44 @ 
+expr  @ 37 @ expr  @ 37 @ 
+expr  @ 76 @ expr  @ 77 @ 
+if  @ 23 @ if  @ 23 @ 
+operator: (  @ 26 @ operator: (  @ 26 @ 
+name: count  @ 41 @ name: count  @ 41 @ 
+argument  @ 138 @ argument  @ 139 @ 
+unit  @ 1 @ unit  @ 1 @ 
+call  @ 97 @ call  @ 98 @ 
+decl  @ 6 @ decl  @ 6 @ 
+init  @ 69 @ init  @ 69 @ 
+operator: .  @ 58 @ operator: .  @ 58 @ 
+call  @ 80 @ call  @ 81 @ 
+argument  @ 14 @ argument  @ 14 @ 
+name: sdump  @ 152 @ name: sdump  @ 153 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: .  @ 114 @ operator: .  @ 115 @ 
+expr  @ 58 @ expr  @ 58 @ 
+block_content  @ 138 @ block_content  @ 139 @ 
+operator: ->  @ 105 @ operator: ->  @ 106 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: trace  @ 149 @ name: trace  @ 150 @ 
+call  @ 37 @ call  @ 37 @ 
+name: node  @ 100 @ name: node  @ 101 @ 
+argument  @ 21 @ argument  @ 21 @ 
+name: nb_ndt  @ 35 @ name: nb_ndt  @ 35 @ 
+operator: ++  @ 59 @ operator: ++  @ 59 @ 
+expr  @ 42 @ expr  @ 42 @ 
+block_content  @ 138 @ block_content  @ 139 @ 
+expr_stmt  @ 83 @ expr_stmt  @ 84 @ 
+expr  @ 73 @ expr  @ 73 @ 
+block  @ 117 @ block  @ 118 @ 
+expr  @ 152 @ expr  @ 153 @ 
+name  @ 139 @ name  @ 140 @ 
+expr  @ 139 @ expr  @ 140 @ 
+expr  @ 142 @ expr  @ 143 @ 
+name: gf_node_get_field  @ 43 @ name: gf_node_get_field  @ 43 @ 
+name: field  @ 115 @ name: field  @ 116 @ 
+name: name  @ 53 @ name: name  @ 53 @ 
+name: sdump  @ 12 @ name: sdump  @ 12 @ 
+case  @ 148 @ case  @ 149 @ 
+name: EndElement  @ 26 @ name: EndElement  @ 26 @ 
+name: field  @ 115 @ name: field  @ 116 @ 
+name: StartAttribute  @ 129 @ name: StartAttribute  @ 130 @ 
+name: node  @ 41 @ name: node  @ 41 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 65 @ 
+expr  @ 98 @ expr  @ 99 @ 
+name: sdump  @ 77 @ name: sdump  @ 78 @ 
+operator: .  @ 139 @ operator: .  @ 140 @ 
+expr  @ 26 @ expr  @ 26 @ 
+operator: *  @ 70 @ operator: *  @ 70 @ 
+name: name  @ 37 @ name: name  @ 37 @ 
+name: sdump  @ 76 @ name: sdump  @ 77 @ 
+argument  @ 106 @ argument  @ 107 @ 
+continue  @ 44 @ continue  @ 44 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 75 @ expr  @ 76 @ 
+name  @ 101 @ name  @ 102 @ 
+operator: <  @ 137 @ operator: <  @ 138 @ 
+name: GF_SG_VRML_SFSTRING  @ 123 @ name: GF_SG_VRML_SFSTRING  @ 124 @ 
+argument  @ 139 @ argument  @ 140 @ 
+argument  @ 19 @ argument  @ 19 @ 
+expr  @ 70 @ expr  @ 70 @ 
+name: GenMFField  @ 118 @ name: GenMFField  @ 119 @ 
+argument  @ 139 @ argument  @ 140 @ 
+name: GF_SG_VRML_SFURL  @ 148 @ name: GF_SG_VRML_SFURL  @ 149 @ 
+name: X3DDump  @ 144 @ name: X3DDump  @ 145 @ 
+block_content  @ 14 @ block_content  @ 14 @ 
+expr  @ 37 @ expr  @ 37 @ 
+argument  @ 80 @ argument  @ 81 @ 
+expr  @ 91 @ expr  @ 92 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+name  @ 58 @ name  @ 58 @ 
+name  @ 119 @ name  @ 120 @ 
+name: name  @ 61 @ name: name  @ 61 @ 
+block_content  @ 89 @ block_content  @ 90 @ 
+index  @ 98 @ index  @ 99 @ 
+name  @ 8 @ name  @ 8 @ 
+block_content  @ 40 @ block_content  @ 40 @ 
+operator: ++  @ 45 @ operator: ++  @ 45 @ 
+name: X3DDump  @ 34 @ name: X3DDump  @ 34 @ 
+name: EndAttribute  @ 116 @ name: EndAttribute  @ 117 @ 
+name  @ 12 @ name  @ 12 @ 
+name  @ 13 @ name  @ 13 @ 
+argument  @ 29 @ argument  @ 29 @ 
+name: bufferSize  @ 75 @ name: bufferSize  @ 76 @ 
+name  @ 69 @ name  @ 69 @ 
+name  @ 113 @ name  @ 114 @ 
+operator: (  @ 69 @ operator: (  @ 69 @ 
+call  @ 71 @ call  @ 71 @ 
+name: char  @ 26 @ name: char  @ 26 @ 
+if  @ 73 @ if  @ 73 @ 
+name: slot_ptr  @ 140 @ name: slot_ptr  @ 141 @ 
+expr  @ 94 @ expr  @ 95 @ 
+expr  @ 129 @ expr  @ 130 @ 
+operator: ->  @ 34 @ operator: ->  @ 34 @ 
+literal: "<!--SFCommandBuffer cannot be dumped while playing - use MP4Box instead-->\n"  @ 76 @ literal: "<!--SFCommandBuffer cannot be dumped while playing - use MP4Box instead-->\n"  @ 77 @ 
+condition  @ 60 @ condition  @ 60 @ 
+expr  @ 94 @ expr  @ 95 @ 
+expr  @ 80 @ expr  @ 81 @ 
+name: name  @ 133 @ name: name  @ 134 @ 
+operator: )  @ 56 @ operator: )  @ 56 @ 
+name: sf_type  @ 3 @ name: sf_type  @ 3 @ 
+block  @ 77 @ block  @ 78 @ 
+expr  @ 61 @ expr  @ 61 @ 
+name: gf_node_get_field_count  @ 41 @ name: gf_node_get_field_count  @ 41 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 21 @ 
+name: field  @ 83 @ name: field  @ 84 @ 
+expr_stmt  @ 156 @ expr_stmt  @ 157 @ 
+expr  @ 80 @ expr  @ 81 @ 
+name: far_ptr  @ 21 @ name: far_ptr  @ 21 @ 
+name: far_ptr  @ 89 @ name: far_ptr  @ 90 @ 
+expr_stmt  @ 106 @ expr_stmt  @ 107 @ 
+name: sf_type  @ 140 @ name: sf_type  @ 141 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: name  @ 114 @ name: name  @ 115 @ 
+expr_stmt  @ 129 @ expr_stmt  @ 130 @ 
+expr  @ 92 @ expr  @ 93 @ 
+name  @ 101 @ name  @ 102 @ 
+operator: )  @ 118 @ operator: )  @ 119 @ 
+name: char  @ 126 @ name: char  @ 127 @ 
+expr  @ 71 @ expr  @ 71 @ 
+expr  @ 61 @ expr  @ 61 @ 
+expr  @ 90 @ expr  @ 91 @ 
+name: count  @ 137 @ name: count  @ 138 @ 
+expr  @ 65 @ expr  @ 65 @ 
+operator: ->  @ 99 @ operator: ->  @ 100 @ 
+condition  @ 53 @ condition  @ 53 @ 
+name: XMLDump  @ 136 @ name: XMLDump  @ 137 @ 
+name: ar  @ 94 @ name: ar  @ 95 @ 
+name: assert  @ 10 @ name: assert  @ 10 @ 
+expr  @ 9 @ expr  @ 9 @ 
+operator: ++  @ 42 @ operator: ++  @ 42 @ 
+if_stmt  @ 121 @ if_stmt  @ 122 @ 
+operator: )  @ 44 @ operator: )  @ 44 @ 
+name: sdump  @ 105 @ name: sdump  @ 106 @ 
+argument  @ 115 @ argument  @ 116 @ 
+expr  @ 26 @ expr  @ 26 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+argument_list  @ 99 @ argument_list  @ 100 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 16 @ 
+call  @ 139 @ call  @ 140 @ 
+name  @ 149 @ name  @ 150 @ 
+block_content  @ 96 @ block_content  @ 97 @ 
+argument_list  @ 37 @ argument_list  @ 37 @ 
+expr  @ 115 @ expr  @ 116 @ 
+name: sdump  @ 58 @ name: sdump  @ 58 @ 
+operator: ->  @ 88 @ operator: ->  @ 89 @ 
+expr  @ 99 @ expr  @ 100 @ 
+expr  @ 137 @ expr  @ 138 @ 
+expr_stmt  @ 80 @ expr_stmt  @ 81 @ 
+operator: )  @ 10 @ operator: )  @ 10 @ 
+expr  @ 16 @ expr  @ 16 @ 
+name: sdump  @ 133 @ name: sdump  @ 134 @ 
+name: ar  @ 89 @ name: ar  @ 90 @ 
+operator: !  @ 136 @ operator: !  @ 137 @ 
+operator: *  @ 10 @ operator: *  @ 10 @ 
+expr_stmt  @ 138 @ expr_stmt  @ 139 @ 
+argument  @ 43 @ argument  @ 43 @ 
+else  @ 39 @ else  @ 39 @ 
+expr  @ 140 @ expr  @ 141 @ 
+name: i  @ 42 @ name: i  @ 42 @ 
+expr  @ 136 @ expr  @ 137 @ 
+argument  @ 139 @ argument  @ 140 @ 
+if  @ 75 @ if  @ 76 @ 
+name: fieldType  @ 139 @ name: fieldType  @ 140 @ 
+name: node  @ 98 @ name: node  @ 99 @ 
+name: sf_type  @ 119 @ name: sf_type  @ 120 @ 
+name  @ 88 @ name  @ 89 @ 
+call  @ 133 @ call  @ 134 @ 
+block  @ 12 @ block  @ 12 @ 
+argument  @ 126 @ argument  @ 127 @ 
+expr  @ 24 @ expr  @ 24 @ 
+expr  @ 89 @ expr  @ 90 @ 
+argument_list  @ 70 @ argument_list  @ 70 @ 
+name: XMLDump  @ 34 @ name: XMLDump  @ 34 @ 
+operator: ->  @ 101 @ operator: ->  @ 102 @ 
+name: i  @ 94 @ name: i  @ 95 @ 
+operator: =  @ 62 @ operator: =  @ 62 @ 
+type  @ 3 @ type  @ 3 @ 
+expr_stmt  @ 149 @ expr_stmt  @ 150 @ 
+expr  @ 123 @ expr  @ 124 @ 
+argument_list  @ 142 @ argument_list  @ 143 @ 
+name: sdump  @ 99 @ name: sdump  @ 100 @ 
+name: trace  @ 138 @ name: trace  @ 139 @ 
+else  @ 155 @ else  @ 156 @ 
+name: sdump  @ 115 @ name: sdump  @ 116 @ 
+case  @ 147 @ case  @ 148 @ 
+argument  @ 21 @ argument  @ 21 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+operator: !  @ 13 @ operator: !  @ 13 @ 
+argument  @ 142 @ argument  @ 143 @ 
+name: EndAttribute  @ 29 @ name: EndAttribute  @ 29 @ 
+block  @ 142 @ block  @ 143 @ 
+block  @ 45 @ block  @ 45 @ 
+name: indent  @ 82 @ name: indent  @ 83 @ 
+expr_stmt  @ 71 @ expr_stmt  @ 71 @ 
+name: node  @ 140 @ name: node  @ 141 @ 
+expr  @ 88 @ expr  @ 89 @ 
+operator: ++  @ 137 @ operator: ++  @ 138 @ 
+name: cb  @ 80 @ name: cb  @ 81 @ 
+argument  @ 98 @ argument  @ 99 @ 
+expr_stmt  @ 64 @ expr_stmt  @ 64 @ 
+name: indent  @ 64 @ name: indent  @ 64 @ 
+expr_stmt  @ 115 @ expr_stmt  @ 116 @ 
+literal: "]"  @ 142 @ literal: "]"  @ 143 @ 
+name: field  @ 70 @ name: field  @ 70 @ 
+name: commandList  @ 73 @ name: commandList  @ 73 @ 
+name: gf_fprintf  @ 76 @ name: gf_fprintf  @ 77 @ 
+block_content  @ 43 @ block_content  @ 43 @ 
+name  @ 73 @ name  @ 73 @ 
+expr  @ 129 @ expr  @ 130 @ 
+condition  @ 37 @ condition  @ 37 @ 
+name: gf_fprintf  @ 77 @ name: gf_fprintf  @ 78 @ 
+call  @ 83 @ call  @ 84 @ 
+decl_stmt  @ 89 @ decl_stmt  @ 90 @ 
+literal: 1  @ 15 @ literal: 1  @ 15 @ 
+argument_list  @ 101 @ argument_list  @ 102 @ 
+argument_list  @ 113 @ argument_list  @ 114 @ 
+name  @ 53 @ name  @ 53 @ 
+expr  @ 136 @ expr  @ 137 @ 
+name: trace  @ 136 @ name: trace  @ 137 @ 
+name: sf_type  @ 122 @ name: sf_type  @ 123 @ 
+operator: !  @ 65 @ operator: !  @ 65 @ 
+expr  @ 126 @ expr  @ 127 @ 
+argument  @ 115 @ argument  @ 116 @ 
+condition  @ 88 @ condition  @ 89 @ 
+condition  @ 144 @ condition  @ 145 @ 
+argument  @ 14 @ argument  @ 14 @ 
+operator: (  @ 10 @ operator: (  @ 10 @ 
+operator: *  @ 61 @ operator: *  @ 61 @ 
+expr  @ 83 @ expr  @ 84 @ 
+block_content  @ 146 @ block_content  @ 147 @ 
+name: sdump  @ 92 @ name: sdump  @ 93 @ 
+name: count  @ 42 @ name: count  @ 42 @ 
+name: info  @ 43 @ name: info  @ 43 @ 
+control  @ 94 @ control  @ 95 @ 
+name: eventType  @ 44 @ name: eventType  @ 44 @ 
+operator: .  @ 98 @ operator: .  @ 99 @ 
+operator: (  @ 56 @ operator: (  @ 56 @ 
+argument  @ 99 @ argument  @ 100 @ 
+name: field  @ 37 @ name: field  @ 37 @ 
+expr  @ 80 @ expr  @ 81 @ 
+expr_stmt  @ 136 @ expr_stmt  @ 137 @ 
+name: node  @ 53 @ name: node  @ 53 @ 
+expr  @ 53 @ expr  @ 53 @ 
+expr  @ 140 @ expr  @ 141 @ 
+expr  @ 98 @ expr  @ 99 @ 
+block  @ 34 @ block  @ 34 @ 
+condition  @ 76 @ condition  @ 77 @ 
+name: trace  @ 75 @ name: trace  @ 76 @ 
+expr_stmt  @ 72 @ expr_stmt  @ 72 @ 
+operator: &  @ 139 @ operator: &  @ 140 @ 
+literal: 0  @ 40 @ literal: 0  @ 40 @ 
+name: gf_fprintf  @ 149 @ name: gf_fprintf  @ 150 @ 
+call  @ 106 @ call  @ 107 @ 
+operator: ->  @ 59 @ operator: ->  @ 59 @ 
+name  @ 99 @ name  @ 100 @ 
+name: XMLDump  @ 144 @ name: XMLDump  @ 145 @ 
+expr  @ 106 @ expr  @ 107 @ 
+block  @ 8 @ block  @ 8 @ 
+expr  @ 149 @ expr  @ 150 @ 
+decl  @ 69 @ decl  @ 69 @ 
+name: info  @ 44 @ name: info  @ 44 @ 
+argument_list  @ 156 @ argument_list  @ 157 @ 
+index  @ 95 @ index  @ 96 @ 
+operator: .  @ 95 @ operator: .  @ 96 @ 
+expr  @ 124 @ expr  @ 125 @ 
+block  @ 145 @ block  @ 146 @ 
+operator: *  @ 69 @ operator: *  @ 69 @ 
+name: XMLDump  @ 65 @ name: XMLDump  @ 65 @ 
+argument  @ 37 @ argument  @ 37 @ 
+name  @ 58 @ name  @ 58 @ 
+operator: ->  @ 144 @ operator: ->  @ 145 @ 
+argument  @ 98 @ argument  @ 99 @ 
+name: info  @ 45 @ name: info  @ 45 @ 
+argument  @ 140 @ argument  @ 141 @ 
+expr_stmt  @ 90 @ expr_stmt  @ 91 @ 
+operator: ++  @ 92 @ operator: ++  @ 93 @ 
+operator: .  @ 129 @ operator: .  @ 130 @ 
+type  @ 69 @ type  @ 69 @ 
+expr  @ 114 @ expr  @ 115 @ 
+operator: .  @ 83 @ operator: .  @ 84 @ 
+if_stmt  @ 12 @ if_stmt  @ 12 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+call  @ 10 @ call  @ 10 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+expr  @ 126 @ expr  @ 127 @ 
+name: pinfo  @ 96 @ name: pinfo  @ 97 @ 
+call  @ 152 @ call  @ 153 @ 
+expr  @ 47 @ expr  @ 47 @ 
+name: GF_Node  @ 21 @ name: GF_Node  @ 21 @ 
+argument_list  @ 61 @ argument_list  @ 61 @ 
+name: name  @ 14 @ name: name  @ 14 @ 
+name: sdump  @ 80 @ name: sdump  @ 81 @ 
+block  @ 52 @ block  @ 52 @ 
+type  @ 6 @ type  @ 6 @ 
+expr  @ 26 @ expr  @ 26 @ 
+expr  @ 43 @ expr  @ 43 @ 
+name: cb  @ 73 @ name: cb  @ 73 @ 
+name: i  @ 137 @ name: i  @ 138 @ 
+operator: (  @ 89 @ operator: (  @ 90 @ 
+argument  @ 149 @ argument  @ 150 @ 
+operator: !  @ 142 @ operator: !  @ 143 @ 
+name: StartElement  @ 90 @ name: StartElement  @ 91 @ 
+name: field  @ 45 @ name: field  @ 45 @ 
+name: nb_ndt  @ 45 @ name: nb_ndt  @ 45 @ 
+type  @ 1 @ type  @ 1 @ 
+if  @ 34 @ if  @ 34 @ 
+operator: !  @ 58 @ operator: !  @ 58 @ 
+block_content  @ 24 @ block_content  @ 24 @ 
+argument  @ 99 @ argument  @ 100 @ 
+operator: .  @ 19 @ operator: .  @ 19 @ 
+expr  @ 126 @ expr  @ 127 @ 
+name: needs_field_container  @ 38 @ name: needs_field_container  @ 38 @ 
+name: sdump  @ 97 @ name: sdump  @ 98 @ 
+expr  @ 76 @ expr  @ 77 @ 
+operator: ->  @ 98 @ operator: ->  @ 99 @ 
+block  @ 53 @ block  @ 53 @ 
+name: GF_SG_VRML_SFURL  @ 125 @ name: GF_SG_VRML_SFURL  @ 126 @ 
+expr  @ 21 @ expr  @ 21 @ 
+block  @ 94 @ block  @ 95 @ 
+expr  @ 90 @ expr  @ 91 @ 
+operator: ->  @ 75 @ operator: ->  @ 76 @ 
+block  @ 2 @ block  @ 2 @ 
+literal: 1  @ 61 @ literal: 1  @ 61 @ 
+directive: ifndef  @ 51 @ directive: ifndef  @ 51 @ 
+operator: (  @ 44 @ operator: (  @ 44 @ 
+name: char  @ 14 @ name: char  @ 14 @ 
+if  @ 142 @ if  @ 143 @ 
+expr  @ 76 @ expr  @ 77 @ 
+expr_stmt  @ 98 @ expr_stmt  @ 99 @ 
+expr  @ 53 @ expr  @ 53 @ 
+expr  @ 71 @ expr  @ 71 @ 
+call  @ 113 @ call  @ 114 @ 
+else  @ 132 @ else  @ 133 @ 
+name: field  @ 56 @ name: field  @ 56 @ 
+expr  @ 37 @ expr  @ 37 @ 
+name: char  @ 90 @ name: char  @ 91 @ 
+expr  @ 101 @ expr  @ 102 @ 
+argument  @ 156 @ argument  @ 157 @ 
+expr  @ 80 @ expr  @ 81 @ 
+type  @ 5 @ type  @ 5 @ 
+name: X3DDump  @ 52 @ name: X3DDump  @ 52 @ 
+literal: 0  @ 21 @ literal: 0  @ 21 @ 
+name: sdump  @ 136 @ name: sdump  @ 137 @ 
+name  @ 92 @ name  @ 93 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+block_content  @ 122 @ block_content  @ 123 @ 
+name: sdump  @ 14 @ name: sdump  @ 14 @ 
+operator: *  @ 21 @ operator: *  @ 21 @ 
+argument_list  @ 77 @ argument_list  @ 78 @ 
+name: SFCommandBuffer  @ 69 @ name: SFCommandBuffer  @ 69 @ 
+argument  @ 41 @ argument  @ 41 @ 
+name: far_ptr  @ 118 @ name: far_ptr  @ 119 @ 
+block  @ 28 @ block  @ 28 @ 
+if_stmt  @ 58 @ if_stmt  @ 58 @ 
+expr  @ 61 @ expr  @ 61 @ 
+argument_list  @ 41 @ argument_list  @ 41 @ 
+expr  @ 98 @ expr  @ 99 @ 
+operator: ->  @ 58 @ operator: ->  @ 58 @ 
+name: ar  @ 98 @ name: ar  @ 99 @ 
+name: i  @ 94 @ name: i  @ 95 @ 
+operator: ->  @ 75 @ operator: ->  @ 76 @ 
+expr  @ 83 @ expr  @ 84 @ 
+expr  @ 142 @ expr  @ 143 @ 
+operator: ->  @ 72 @ operator: ->  @ 72 @ 
+argument_list  @ 26 @ argument_list  @ 26 @ 
+expr  @ 70 @ expr  @ 70 @ 
+name: vals  @ 95 @ name: vals  @ 96 @ 
+name: StartAttribute  @ 133 @ name: StartAttribute  @ 134 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+name: i  @ 95 @ name: i  @ 96 @ 
+block  @ 144 @ block  @ 145 @ 
+name: list  @ 57 @ name: list  @ 57 @ 
+name  @ 75 @ name  @ 76 @ 
+block  @ 42 @ block  @ 42 @ 
+block_content  @ 145 @ block_content  @ 146 @ 
+switch  @ 8 @ switch  @ 8 @ 
+case  @ 124 @ case  @ 125 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+ternary  @ 61 @ ternary  @ 61 @ 
+name: StartAttribute  @ 114 @ name: StartAttribute  @ 115 @ 
+block_content  @ 76 @ block_content  @ 77 @ 
+expr  @ 65 @ expr  @ 65 @ 
+name: sdump  @ 121 @ name: sdump  @ 122 @ 
+if  @ 136 @ if  @ 137 @ 
+return  @ 31 @ return  @ 31 @ 
+name  @ 136 @ name  @ 137 @ 
+operator: (  @ 90 @ operator: (  @ 91 @ 
+name: EndList  @ 65 @ name: EndList  @ 65 @ 
+expr  @ 71 @ expr  @ 71 @ 
+if_stmt  @ 88 @ if_stmt  @ 89 @ 
+block  @ 88 @ block  @ 89 @ 
+expr  @ 137 @ expr  @ 138 @ 
+argument  @ 65 @ argument  @ 65 @ 
+expr  @ 101 @ expr  @ 102 @ 
+expr  @ 98 @ expr  @ 99 @ 
+expr  @ 121 @ expr  @ 122 @ 
+argument_list  @ 73 @ argument_list  @ 73 @ 
+argument  @ 136 @ argument  @ 137 @ 
+expr  @ 14 @ expr  @ 14 @ 
+call  @ 43 @ call  @ 43 @ 
+type  @ 3 @ type  @ 3 @ 
+expr  @ 119 @ expr  @ 120 @ 
+name: field  @ 89 @ name: field  @ 90 @ 
+name: name  @ 101 @ name: name  @ 102 @ 
+if_stmt  @ 45 @ if_stmt  @ 45 @ 
+expr  @ 41 @ expr  @ 41 @ 
+literal: 1  @ 47 @ literal: 1  @ 47 @ 
+operator: --  @ 64 @ operator: --  @ 64 @ 
+expr  @ 14 @ expr  @ 14 @ 
+decl  @ 118 @ decl  @ 119 @ 
+operator: =  @ 137 @ operator: =  @ 138 @ 
+name: field  @ 106 @ name: field  @ 107 @ 
+argument  @ 80 @ argument  @ 81 @ 
+expr_stmt  @ 91 @ expr_stmt  @ 92 @ 
+name  @ 80 @ name  @ 81 @ 
+name: u32  @ 35 @ name: u32  @ 35 @ 
+name: node  @ 115 @ name: node  @ 116 @ 
+name  @ 94 @ name  @ 95 @ 
+argument  @ 83 @ argument  @ 84 @ 
+expr  @ 45 @ expr  @ 45 @ 
+name: i  @ 3 @ name: i  @ 3 @ 
+decl  @ 36 @ decl  @ 36 @ 
+operator: ->  @ 98 @ operator: ->  @ 99 @ 
+condition  @ 136 @ condition  @ 137 @ 
+call  @ 98 @ call  @ 99 @ 
+name: node  @ 61 @ name: node  @ 61 @ 
+name: i  @ 98 @ name: i  @ 99 @ 
+else  @ 79 @ else  @ 80 @ 
+argument_list  @ 90 @ argument_list  @ 91 @ 
+literal: 1  @ 47 @ literal: 1  @ 47 @ 
+name: cb  @ 69 @ name: cb  @ 69 @ 
+name: sdump  @ 65 @ name: sdump  @ 65 @ 
+block_content  @ 136 @ block_content  @ 137 @ 
+argument  @ 114 @ argument  @ 115 @ 
+argument_list  @ 115 @ argument_list  @ 116 @ 
+expr  @ 138 @ expr  @ 139 @ 
+operator: *  @ 106 @ operator: *  @ 107 @ 
+if_stmt  @ 37 @ if_stmt  @ 37 @ 
+operator: ->  @ 58 @ operator: ->  @ 58 @ 
+incr  @ 94 @ incr  @ 95 @ 
+name: GF_ChildNodeItem  @ 5 @ name: GF_ChildNodeItem  @ 5 @ 
+call  @ 129 @ call  @ 130 @ 
+if  @ 76 @ if  @ 77 @ 
+name: field  @ 65 @ name: field  @ 65 @ 
+operator: )  @ 14 @ operator: )  @ 14 @ 
+expr  @ 106 @ expr  @ 107 @ 
+argument_list  @ 65 @ argument_list  @ 65 @ 
+expr_stmt  @ 126 @ expr_stmt  @ 127 @ 
+name: fieldType  @ 115 @ name: fieldType  @ 116 @ 
+literal: " "  @ 138 @ literal: " "  @ 139 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 43 @ 
+expr  @ 10 @ expr  @ 10 @ 
+init  @ 118 @ init  @ 119 @ 
+name: sdump  @ 144 @ name: sdump  @ 145 @ 
+name: TAG_X3D_Switch  @ 53 @ name: TAG_X3D_Switch  @ 53 @ 
+condition  @ 52 @ condition  @ 52 @ 
+switch  @ 122 @ switch  @ 123 @ 
+argument  @ 119 @ argument  @ 120 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+argument  @ 83 @ argument  @ 84 @ 
+expr  @ 105 @ expr  @ 106 @ 
+else  @ 117 @ else  @ 118 @ 
+block_content  @ 58 @ block_content  @ 58 @ 
+name  @ 37 @ name  @ 37 @ 
+operator: *  @ 21 @ operator: *  @ 21 @ 
+expr  @ 116 @ expr  @ 117 @ 
+name  @ 144 @ name  @ 145 @ 
+expr  @ 15 @ expr  @ 15 @ 
+name  @ 76 @ name  @ 77 @ 
+name: list  @ 56 @ name: list  @ 56 @ 
+if_stmt  @ 73 @ if_stmt  @ 73 @ 
+name: field  @ 118 @ name: field  @ 119 @ 
+argument_list  @ 57 @ argument_list  @ 57 @ 
+operator: ==  @ 44 @ operator: ==  @ 44 @ 
+expr  @ 142 @ expr  @ 143 @ 
+operator: (  @ 83 @ operator: (  @ 84 @ 
+condition  @ 23 @ condition  @ 23 @ 
+argument  @ 115 @ argument  @ 116 @ 
+expr  @ 65 @ expr  @ 65 @ 
+literal: 0  @ 115 @ literal: 0  @ 116 @ 
+if_stmt  @ 75 @ if_stmt  @ 76 @ 
+index  @ 100 @ index  @ 101 @ 
+if  @ 65 @ if  @ 65 @ 
+argument  @ 80 @ argument  @ 81 @ 
+name: sdump  @ 82 @ name: sdump  @ 83 @ 
+else  @ 77 @ else  @ 78 @ 
+expr  @ 58 @ expr  @ 58 @ 
+name: sdump  @ 76 @ name: sdump  @ 77 @ 
+name: trace  @ 99 @ name: trace  @ 100 @ 
+operator: )  @ 26 @ operator: )  @ 26 @ 
+literal: "\'"  @ 149 @ literal: "\'"  @ 150 @ 
+name: NDTtype  @ 45 @ name: NDTtype  @ 45 @ 
+name: list  @ 5 @ name: list  @ 5 @ 
+expr  @ 45 @ expr  @ 45 @ 
+break  @ 153 @ break  @ 154 @ 
+expr  @ 41 @ expr  @ 41 @ 
+expr  @ 140 @ expr  @ 141 @ 
+expr  @ 106 @ expr  @ 107 @ 
+argument_list  @ 129 @ argument_list  @ 130 @ 
+expr  @ 29 @ expr  @ 29 @ 
+name: EndElementHeader  @ 71 @ name: EndElementHeader  @ 71 @ 
+name: char  @ 83 @ name: char  @ 84 @ 
+expr  @ 133 @ expr  @ 134 @ 
+name: gf_dump_vrml_node  @ 61 @ name: gf_dump_vrml_node  @ 61 @ 
+operator: ||  @ 58 @ operator: ||  @ 58 @ 
+control  @ 42 @ control  @ 42 @ 
+expr  @ 90 @ expr  @ 91 @ 
+name: sdump  @ 129 @ name: sdump  @ 130 @ 
+literal: 0  @ 80 @ literal: 0  @ 81 @ 
+name: GF_SG_VRML_MFATTRREF  @ 87 @ name: GF_SG_VRML_MFATTRREF  @ 88 @ 
+name: trace  @ 101 @ name: trace  @ 102 @ 
+name  @ 129 @ name  @ 130 @ 
+name  @ 65 @ name  @ 65 @ 
+ifndef  @ 51 @ ifndef  @ 51 @ 
+call  @ 19 @ call  @ 19 @ 
+expr  @ 32 @ expr  @ 32 @ 
+name: sdump  @ 142 @ name: sdump  @ 143 @ 
+then  @ 61 @ then  @ 61 @ 
+expr  @ 21 @ expr  @ 21 @ 
+operator: )  @ 61 @ operator: )  @ 61 @ 
+name  @ 105 @ name  @ 106 @ 
+name: sdump  @ 142 @ name: sdump  @ 143 @ 
+expr  @ 115 @ expr  @ 116 @ 
+operator: )  @ 69 @ operator: )  @ 69 @ 
+block_content  @ 75 @ block_content  @ 76 @ 
+name: sdump  @ 15 @ name: sdump  @ 15 @ 
+name: sdump  @ 21 @ name: sdump  @ 21 @ 
+argument  @ 152 @ argument  @ 153 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 56 @ 
+name  @ 70 @ name  @ 70 @ 
+name: GF_SG_VRML_SFSCRIPT  @ 147 @ name: GF_SG_VRML_SFSCRIPT  @ 148 @ 
+argument  @ 98 @ argument  @ 99 @ 
+expr  @ 139 @ expr  @ 140 @ 
+name: count  @ 35 @ name: count  @ 35 @ 
+expr  @ 99 @ expr  @ 100 @ 
+expr_stmt  @ 101 @ expr_stmt  @ 102 @ 
+argument  @ 100 @ argument  @ 101 @ 
+case  @ 9 @ case  @ 9 @ 
+argument  @ 142 @ argument  @ 143 @ 
+operator: ++  @ 94 @ operator: ++  @ 95 @ 
+name: cb  @ 75 @ name: cb  @ 76 @ 
+name: EndAttribute  @ 156 @ name: EndAttribute  @ 157 @ 
+operator: !  @ 37 @ operator: !  @ 37 @ 
+operator: .  @ 115 @ operator: .  @ 116 @ 
+expr  @ 126 @ expr  @ 127 @ 
+if  @ 45 @ if  @ 45 @ 
+block  @ 58 @ block  @ 58 @ 
+if_stmt  @ 65 @ if_stmt  @ 65 @ 
+name: sdump  @ 71 @ name: sdump  @ 71 @ 
+expr  @ 38 @ expr  @ 38 @ 
+call  @ 14 @ call  @ 14 @ 
+else  @ 18 @ else  @ 18 @ 
+expr  @ 73 @ expr  @ 73 @ 
+operator: (  @ 61 @ operator: (  @ 61 @ 
+name  @ 59 @ name  @ 59 @ 
+break  @ 109 @ break  @ 110 @ 
+name: name  @ 70 @ name: name  @ 70 @ 
+name: gf_fprintf  @ 99 @ name: gf_fprintf  @ 100 @ 
+block  @ 65 @ block  @ 65 @ 
+block  @ 68 @ block  @ 68 @ 
+call  @ 101 @ call  @ 102 @ 
+operator: *  @ 56 @ operator: *  @ 56 @ 
+expr  @ 19 @ expr  @ 19 @ 
+call  @ 53 @ call  @ 53 @ 
+name: trace  @ 126 @ name: trace  @ 127 @ 
+argument  @ 91 @ argument  @ 92 @ 
+name: NDTtype  @ 45 @ name: NDTtype  @ 45 @ 
+name: list  @ 61 @ name: list  @ 61 @ 
+name  @ 76 @ name  @ 77 @ 
+call  @ 15 @ call  @ 15 @ 
+name: i  @ 137 @ name: i  @ 138 @ 
+modifier: *  @ 6 @ modifier: *  @ 6 @ 
+condition  @ 44 @ condition  @ 44 @ 
+operator: .  @ 133 @ operator: .  @ 134 @ 
+expr_stmt  @ 92 @ expr_stmt  @ 93 @ 
+block  @ 60 @ block  @ 60 @ 
+condition  @ 95 @ condition  @ 96 @ 
+expr  @ 98 @ expr  @ 99 @ 
+call  @ 29 @ call  @ 29 @ 
+expr  @ 15 @ expr  @ 15 @ 
+if  @ 95 @ if  @ 96 @ 
+name: sdump  @ 34 @ name: sdump  @ 34 @ 
+block  @ 76 @ block  @ 77 @ 
+operator: *  @ 126 @ operator: *  @ 127 @ 
+argument  @ 73 @ argument  @ 73 @ 
+expr  @ 72 @ expr  @ 72 @ 
+block  @ 122 @ block  @ 123 @ 
+expr  @ 115 @ expr  @ 116 @ 
+block  @ 44 @ block  @ 44 @ 
+expr  @ 70 @ expr  @ 70 @ 
+return  @ 66 @ return  @ 66 @ 
+name: u32  @ 3 @ name: u32  @ 3 @ 
+name: i  @ 98 @ name: i  @ 99 @ 
+condition  @ 34 @ condition  @ 34 @ 
+name: sdump  @ 83 @ name: sdump  @ 84 @ 
+block_content  @ 65 @ block_content  @ 65 @ 
+name: mffield  @ 137 @ name: mffield  @ 138 @ 
+if_stmt  @ 53 @ if_stmt  @ 53 @ 
+expr  @ 21 @ expr  @ 21 @ 
+condition  @ 12 @ condition  @ 12 @ 
+name: i  @ 100 @ name: i  @ 101 @ 
+expr  @ 76 @ expr  @ 77 @ 
+else  @ 61 @ else  @ 61 @ 
+argument  @ 126 @ argument  @ 127 @ 
+expr  @ 152 @ expr  @ 153 @ 
+name: field  @ 129 @ name: field  @ 130 @ 
+block_content  @ 133 @ block_content  @ 134 @ 
+operator: )  @ 56 @ operator: )  @ 56 @ 
+name: gf_node_get_tag  @ 53 @ name: gf_node_get_tag  @ 53 @ 
+operator: ->  @ 65 @ operator: ->  @ 65 @ 
+name: sdump  @ 140 @ name: sdump  @ 141 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+condition  @ 145 @ condition  @ 146 @ 
+name: pinfo  @ 101 @ name: pinfo  @ 102 @ 
+operator: .  @ 70 @ operator: .  @ 70 @ 
+name  @ 34 @ name  @ 34 @ 
+name: EndElementHeader  @ 15 @ name: EndElementHeader  @ 15 @ 
+name: StartElement  @ 14 @ name: StartElement  @ 14 @ 
+expr  @ 8 @ expr  @ 8 @ 
+expr_stmt  @ 116 @ expr_stmt  @ 117 @ 
+literal: "<store node=\""  @ 99 @ literal: "<store node=\""  @ 100 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 45 @ 
+argument  @ 70 @ argument  @ 70 @ 
+argument  @ 19 @ argument  @ 19 @ 
+call  @ 100 @ call  @ 101 @ 
+argument  @ 126 @ argument  @ 127 @ 
+argument_list  @ 98 @ argument_list  @ 99 @ 
+operator: --  @ 82 @ operator: --  @ 83 @ 
+expr  @ 61 @ expr  @ 61 @ 
+argument  @ 97 @ argument  @ 98 @ 
+name  @ 126 @ name  @ 127 @ 
+argument  @ 10 @ argument  @ 10 @ 
+name: EndElementHeader  @ 91 @ name: EndElementHeader  @ 92 @ 
+name: indent  @ 25 @ name: indent  @ 25 @ 
+operator: =  @ 53 @ operator: =  @ 53 @ 
+name: field  @ 19 @ name: field  @ 19 @ 
+operator: *  @ 83 @ operator: *  @ 84 @ 
+operator: ->  @ 62 @ operator: ->  @ 62 @ 
+if  @ 144 @ if  @ 145 @ 
+expr  @ 118 @ expr  @ 119 @ 
+argument_list  @ 149 @ argument_list  @ 150 @ 
+if_stmt  @ 76 @ if_stmt  @ 77 @ 
+operator: ->  @ 121 @ operator: ->  @ 122 @ 
+call  @ 149 @ call  @ 150 @ 
+decl_stmt  @ 35 @ decl_stmt  @ 35 @ 
+operator: ->  @ 80 @ operator: ->  @ 81 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 33 @ 
+name  @ 106 @ name  @ 107 @ 
+expr  @ 114 @ expr  @ 115 @ 
+argument_list  @ 139 @ argument_list  @ 140 @ 
+decl  @ 96 @ decl  @ 97 @ 
+argument_list  @ 29 @ argument_list  @ 29 @ 
+call  @ 61 @ call  @ 61 @ 
+operator: ->  @ 142 @ operator: ->  @ 143 @ 
+condition  @ 138 @ condition  @ 139 @ 
+expr  @ 94 @ expr  @ 95 @ 
+expr  @ 101 @ expr  @ 102 @ 
+name: GF_FieldInfo  @ 36 @ name: GF_FieldInfo  @ 36 @ 
+call  @ 126 @ call  @ 127 @ 
+name: sf_type  @ 145 @ name: sf_type  @ 146 @ 
+name: strcmp  @ 37 @ name: strcmp  @ 37 @ 
+modifier: *  @ 118 @ modifier: *  @ 119 @ 
+name: EndElement  @ 83 @ name: EndElement  @ 84 @ 
+operator: &&  @ 34 @ operator: &&  @ 34 @ 
+operator: &&  @ 75 @ operator: &&  @ 76 @ 
+operator: .  @ 45 @ operator: .  @ 45 @ 
+operator: ==  @ 53 @ operator: ==  @ 53 @ 
+argument_list  @ 76 @ argument_list  @ 77 @ 
+operator: ->  @ 76 @ operator: ->  @ 77 @ 
+block_content  @ 45 @ block_content  @ 45 @ 
+argument  @ 76 @ argument  @ 77 @ 
+name: DUMP_IND  @ 97 @ name: DUMP_IND  @ 98 @ 
+name: i  @ 42 @ name: i  @ 42 @ 
+expr  @ 53 @ expr  @ 53 @ 
+block_content  @ 53 @ block_content  @ 53 @ 
+case  @ 125 @ case  @ 126 @ 
+name: next  @ 62 @ name: next  @ 62 @ 
+name  @ 44 @ name  @ 44 @ 
+operator: ++  @ 16 @ operator: ++  @ 16 @ 
+operator: .  @ 53 @ operator: .  @ 53 @ 
+operator: !  @ 24 @ operator: !  @ 24 @ 
+literal: 1  @ 71 @ literal: 1  @ 71 @ 
+name: sdump  @ 26 @ name: sdump  @ 26 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument  @ 106 @ argument  @ 107 @ 
+argument  @ 15 @ argument  @ 15 @ 
+decl  @ 89 @ decl  @ 90 @ 
+name  @ 65 @ name  @ 65 @ 
+condition  @ 13 @ condition  @ 13 @ 
+call  @ 115 @ call  @ 116 @ 
+expr  @ 26 @ expr  @ 26 @ 
+expr  @ 100 @ expr  @ 101 @ 
+name: trace  @ 76 @ name: trace  @ 77 @ 
+operator: .  @ 115 @ operator: .  @ 116 @ 
+operator: ->  @ 12 @ operator: ->  @ 12 @ 
+name: far_ptr  @ 10 @ name: far_ptr  @ 10 @ 
+name: sdump  @ 75 @ name: sdump  @ 76 @ 
+name  @ 44 @ name  @ 44 @ 
+literal: 0  @ 47 @ literal: 0  @ 47 @ 
+literal: 1  @ 140 @ literal: 1  @ 141 @ 
+expr  @ 61 @ expr  @ 61 @ 
+name: sdump  @ 88 @ name: sdump  @ 89 @ 
+expr  @ 64 @ expr  @ 64 @ 
+operator: ->  @ 144 @ operator: ->  @ 145 @ 
+name: far_ptr  @ 115 @ name: far_ptr  @ 116 @ 
+expr  @ 61 @ expr  @ 61 @ 
+expr  @ 62 @ expr  @ 62 @ 
+name  @ 98 @ name  @ 99 @ 
+decl_stmt  @ 69 @ decl_stmt  @ 69 @ 
+name: trace  @ 77 @ name: trace  @ 78 @ 
+operator: *  @ 10 @ operator: *  @ 10 @ 
+operator: *  @ 118 @ operator: *  @ 119 @ 
+operator: =  @ 33 @ operator: =  @ 33 @ 
+operator: ->  @ 136 @ operator: ->  @ 137 @ 
+name  @ 142 @ name  @ 143 @ 
+expr  @ 140 @ expr  @ 141 @ 
+condition  @ 45 @ condition  @ 45 @ 
+name: gf_dump_vrml_sffield  @ 115 @ name: gf_dump_vrml_sffield  @ 116 @ 
+name: slot_ptr  @ 139 @ name: slot_ptr  @ 140 @ 
+condition  @ 65 @ condition  @ 65 @ 
+case  @ 32 @ case  @ 32 @ 
+operator: .  @ 69 @ operator: .  @ 69 @ 
+name  @ 61 @ name  @ 61 @ 
+operator: .  @ 65 @ operator: .  @ 65 @ 
+operator: ->  @ 16 @ operator: ->  @ 16 @ 
+argument_list  @ 100 @ argument_list  @ 101 @ 
+argument  @ 101 @ argument  @ 102 @ 
+block  @ 132 @ block  @ 133 @ 
+expr  @ 19 @ expr  @ 19 @ 
+condition  @ 61 @ condition  @ 61 @ 
+operator: ->  @ 95 @ operator: ->  @ 96 @ 
+argument_list  @ 140 @ argument_list  @ 141 @ 
+literal: 1  @ 91 @ literal: 1  @ 92 @ 
+expr  @ 98 @ expr  @ 99 @ 
+expr  @ 13 @ expr  @ 13 @ 
+type  @ 89 @ type  @ 90 @ 
+name: field  @ 90 @ name: field  @ 91 @ 
+operator: =  @ 119 @ operator: =  @ 120 @ 
+name: i  @ 42 @ name: i  @ 42 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 25 @ 
+if  @ 113 @ if  @ 114 @ 
+call  @ 119 @ call  @ 120 @ 
+argument  @ 133 @ argument  @ 134 @ 
+operator: (  @ 126 @ operator: (  @ 127 @ 
+argument  @ 43 @ argument  @ 43 @ 
+expr_stmt  @ 47 @ expr_stmt  @ 47 @ 
+expr  @ 101 @ expr  @ 102 @ 
+name: indent  @ 105 @ name: indent  @ 106 @ 
+if  @ 44 @ if  @ 44 @ 
+argument  @ 43 @ argument  @ 43 @ 
+operator: .  @ 119 @ operator: .  @ 120 @ 
+name: pinfo  @ 98 @ name: pinfo  @ 99 @ 
+expr  @ 156 @ expr  @ 157 @ 
+name: sdump  @ 23 @ name: sdump  @ 23 @ 
+operator: .  @ 26 @ operator: .  @ 26 @ 
+name: StartAttribute  @ 19 @ name: StartAttribute  @ 19 @ 
+expr  @ 52 @ expr  @ 52 @ 
+expr_stmt  @ 139 @ expr_stmt  @ 140 @ 
+block_content  @ 19 @ block_content  @ 19 @ 
+name: name  @ 126 @ name: name  @ 127 @ 
+name: gf_fprintf  @ 101 @ name: gf_fprintf  @ 102 @ 
+index  @ 98 @ index  @ 99 @ 
+name  @ 58 @ name  @ 58 @ 
+name: vals  @ 100 @ name: vals  @ 101 @ 
+name: X3DDump  @ 121 @ name: X3DDump  @ 122 @ 
+name: Bool  @ 4 @ name: Bool  @ 4 @ 
+argument_list  @ 43 @ argument_list  @ 43 @ 
+operator: .  @ 100 @ operator: .  @ 101 @ 
+operator: )  @ 126 @ operator: )  @ 127 @ 
+name: field  @ 26 @ name: field  @ 26 @ 
+name: sdump  @ 100 @ name: sdump  @ 101 @ 
+name: field  @ 10 @ name: field  @ 10 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 38 @ 
+argument  @ 26 @ argument  @ 26 @ 
+

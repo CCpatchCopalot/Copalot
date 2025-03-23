@@ -1,0 +1,114 @@
+static void *
+H5O_pline_decode(H5F_t UNUSED *f, hid_t UNUSED dxpl_id, H5O_t UNUSED *open_oh,
+    unsigned UNUSED mesg_flags, unsigned UNUSED *ioflags, const uint8_t *p)
+{
+    H5O_pline_t		*pline = NULL;          /* Pipeline message */
+    H5Z_filter_info_t   *filter;                /* Filter to decode */
+    size_t		name_length;            /* Length of filter name */
+    size_t		i;                      /* Local index variable */
+    void		*ret_value;             /* Return value */
+
+    FUNC_ENTER_NOAPI_NOINIT
+
+    /* check args */
+    HDassert(p);
+
+    /* Allocate space for I/O pipeline message */
+    if(NULL == (pline = H5FL_CALLOC(H5O_pline_t)))
+	HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed")
+
+    /* Version */
+    pline->version = *p++;
+    if(pline->version < H5O_PLINE_VERSION_1 || pline->version > H5O_PLINE_VERSION_LATEST)
+	HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "bad version number for filter pipeline message")
+
+    /* Number of filters */
+    pline->nused = *p++;
+    if(pline->nused > H5Z_MAX_NFILTERS)
+	HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "filter pipeline message has too many filters")
+
+    /* Reserved */
+    if(pline->version == H5O_PLINE_VERSION_1)
+        p += 6;
+
+    /* Allocate array for filters */
+    pline->nalloc = pline->nused;
+    if(NULL == (pline->filter = (H5Z_filter_info_t *)H5MM_calloc(pline->nalloc * sizeof(pline->filter[0]))))
+	HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed")
+
+    /* Decode filters */
+    for(i = 0, filter = &pline->filter[0]; i < pline->nused; i++, filter++) {
+        /* Filter ID */
+	UINT16DECODE(p, filter->id);
+
+        /* Length of filter name */
+        if(pline->version > H5O_PLINE_VERSION_1 && filter->id < H5Z_FILTER_RESERVED)
+            name_length = 0;
+        else {
+            UINT16DECODE(p, name_length);
+            if(pline->version == H5O_PLINE_VERSION_1 && name_length % 8)
+                HGOTO_ERROR(H5E_PLINE, H5E_CANTLOAD, NULL, "filter name length is not a multiple of eight")
+        } /* end if */
+
+        /* Filter flags */
+	UINT16DECODE(p, filter->flags);
+
+        /* Number of filter parameters ("client data elements") */
+	UINT16DECODE(p, filter->cd_nelmts);
+
+        /* Filter name, if there is one */
+	if(name_length) {
+            size_t actual_name_length;          /* Actual length of name */
+
+            /* Determine actual name length (without padding, but with null terminator) */
+	    actual_name_length = HDstrlen((const char *)p) + 1;
+	    HDassert(actual_name_length <= name_length);
+
+            /* Allocate space for the filter name, or use the internal buffer */
+            if(actual_name_length > H5Z_COMMON_NAME_LEN) {
+                filter->name = (char *)H5MM_malloc(actual_name_length);
+                if(NULL == filter->name)
+                    HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed for filter name")
+            } /* end if */
+            else
+                filter->name = filter->_name;
+
+	    HDstrcpy(filter->name, (const char *)p);
+	    p += name_length;
+	} /* end if */
+
+        /* Filter parameters */
+	if(filter->cd_nelmts) {
+            size_t	j;              /* Local index variable */
+
+            /* Allocate space for the client data elements, or use the internal buffer */
+            if(filter->cd_nelmts > H5Z_COMMON_CD_VALUES) {
+                filter->cd_values = (unsigned *)H5MM_malloc(filter->cd_nelmts * sizeof(unsigned));
+                if(NULL == filter->cd_values)
+                    HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed for client data")
+            } /* end if */
+            else
+                filter->cd_values = filter->_cd_values;
+
+	    /*
+	     * Read the client data values and the padding
+	     */
+	    for(j = 0; j < filter->cd_nelmts; j++)
+		UINT32DECODE(p, filter->cd_values[j]);
+            if(pline->version == H5O_PLINE_VERSION_1)
+                if(filter->cd_nelmts % 2)
+                    p += 4; /*padding*/
+	} /* end if */
+    } /* end for */
+
+    /* Set return value */
+    ret_value = pline;
+
+done:
+    if(NULL == ret_value && pline) {
+        H5O_pline_reset(pline);
+        H5O_pline_free(pline);
+    } /* end if */
+
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5O_pline_decode() */

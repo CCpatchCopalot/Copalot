@@ -1,0 +1,8 @@
+383a384
+> GLOBALS->yylen_vcd_c_1=len;
+387d387
+< 	GLOBALS->yylen_vcd_c_1=len;
+1140c1140
+< 			if(tok==T_STRING)
+---
+> 			if (tok!= T_END && tok != T_EOF)

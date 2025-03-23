@@ -1,0 +1,26 @@
+1486c1486
+< typedef struct
+---
+> typedef struct __full_video_sample_entry
+1518a1519,1525
+> 	//for generic video sample entry
+> 
+> 	//box type as specified in the file (not this box's type!!)
+> 	u32 EntryType;
+> 	//opaque description data (ESDS in MP4, SMI in SVQ3, ...)
+> 	u8 *data;
+> 	u32 data_size;
+1527,1536c1534,1535
+< /*this is the default visual sdst (to handle unknown media)*/
+< typedef struct
+< {
+< 	GF_ISOM_VISUAL_SAMPLE_ENTRY
+< 	/*box type as specified in the file (not this box's type!!)*/
+< 	u32 EntryType;
+< 	/*opaque description data (ESDS in MP4, SMI in SVQ3, ...)*/
+< 	u8 *data;
+< 	u32 data_size;
+< } GF_GenericVisualSampleEntryBox;
+---
+> typedef struct __full_video_sample_entry GF_GenericVisualSampleEntryBox;
+> 

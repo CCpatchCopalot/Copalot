@@ -1,0 +1,17 @@
+17a18
+>#include <limits>
+84a85,98
+>}
+>TEST(MfccMelFilterbankTest, FailsWhenChannelsGreaterThanMaxIntValue) {
+>  MfccMelFilterbank filterbank;
+>  const int kSampleCount = 513;
+>  std::size_t num_channels = std::numeric_limits<int>::max();
+>  bool initialized = filterbank.Initialize(kSampleCount, 2 /* sample rate */, num_channels /* channels */,1.0 /*lower frequency limit */, 5.0 /* upper frequency limit */);
+>  EXPECT_FALSE(initialized);
+>}
+>TEST(MfccMelFilterbankTest, FailsWhenChannelsGreaterThanMaxSize) {
+>  MfccMelFilterbank filterbank;
+>  const int kSampleCount = 513;
+>  std::size_t num_channels = std::vector<double>().max_size() + 1;
+>  bool initialized = filterbank.Initialize(kSampleCount, 2 /* sample rate */, num_channels /* channels */,1.0 /*lower frequency limit */, 5.0 /* upper frequency limit */);
+>  EXPECT_FALSE(initialized);

@@ -1,0 +1,6 @@
+11a12,16
+> 
+> /* Active Lua function (given call info) */
+> #define ci_func(ci)		(clLvalue(s2v((ci)->func)))
+> 
+> 

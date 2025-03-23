@@ -1,0 +1,82 @@
+{
+    "testcase": {
+        "file31": {
+            "match_message": {
+                "Same: generate_inter_prediction_samples -> generate_inter_prediction_samples": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 407->476",
+                        "L2": "8: update L2 by L1 (5: Matched by Syntax(AST) similarity 408->479)"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 410->485",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 411->486 ([[486, 0.6603053435114503], [451, 0.6068965517241379], [583, 0.43705941591137965], [518, 0.41675392670157063], [357, 0.2785956964892412]])"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 484->574",
+                        "L2": "8: update L2 by L1 (5: Matched by Syntax(AST) similarity 485->576)"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 486->579",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 487->577)"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 476,
+                        "add_hunk": [
+                            "        if (img->get_chroma_format() != de265_chroma_mono) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 485,
+                        "add_hunk": [
+                            "      }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 574,
+                        "add_hunk": [
+                            "        if (img->get_chroma_format() != de265_chroma_mono) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 579,
+                        "add_hunk": [
+                            "        }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: generate_inter_prediction_samples -> generate_inter_prediction_samples": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

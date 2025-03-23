@@ -1,0 +1,530 @@
+{
+    "testcase": {
+        "file213": {
+            "match_message": {
+                "Same: hp_colour_open -> hp_colour_open": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 426 -> 578",
+                        "L2": "3: Unique Matched by Source code 426 -> 578"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 429->582",
+                        "L2": "3: Unique Matched by Source code 430 -> 582"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 432->584",
+                        "L2": "5: Matched by Syntax(AST) similarity 432->584"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 434 -> 587",
+                        "L2": "3: Unique Matched by Source code 435 -> 588"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 439 -> 592",
+                        "L2": "3: Unique Matched by Source code 441 -> 594"
+                    },
+                    "Seg_5": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 443 -> 596",
+                        "L2": "3: Unique Matched by Source code 444 -> 597"
+                    }
+                },
+                "Same: cdj970_put_params -> cdj970_put_params": {
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 479 -> 651",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 490->670 ([[670, 0.6737588652482269], [675, 0.4727272727272728]])"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 497->677",
+                        "L2": "3: Unique Matched by Source code 498 -> 678"
+                    },
+                    "Seg_8": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 498 -> 678",
+                        "L2": "3: Unique Matched by Source code 499 -> 679"
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 508 -> 688",
+                        "L2": "3: Unique Matched by Source code 508 -> 688"
+                    }
+                },
+                "Same: cdj970_one_time_initialisation -> cdj970_one_time_initialisation": {
+                    "Seg_10": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 582 -> 789",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 619->826"
+                    }
+                },
+                "Same: cdj970_print_page -> cdj970_print_page": {
+                    "Seg_11": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 631 -> 840",
+                        "L2": "3: Unique Matched by Source code 631 -> 840"
+                    }
+                },
+                "Same: cdj_set_bpp -> cdj_set_bpp": {
+                    "Seg_12": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1842->2282",
+                        "L2": "3: Unique Matched by Source code 1843 -> 2283"
+                    }
+                },
+                "Same: cdj_put_param_bpp -> cdj_put_param_bpp": {
+                    "Seg_13": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2095 -> 2601",
+                        "L2": "3: Unique Matched by Source code 2098 -> 2604"
+                    },
+                    "Seg_14": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2100 -> 2606",
+                        "L2": "3: Unique Matched by Source code 2100 -> 2606"
+                    },
+                    "Seg_15": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2104->2610",
+                        "L2": "3: Unique Matched by Source code 2105 -> 2611"
+                    },
+                    "Seg_16": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2126 -> 2634",
+                        "L2": "3: Unique Matched by Source code 2126 -> 2634"
+                    },
+                    "Seg_17": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2128 -> 2636",
+                        "L2": "3: Unique Matched by Source code 2128 -> 2636"
+                    },
+                    "Seg_18": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2131->2640",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2131->2640"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 578,
+                        "add_hunk": [
+                            "    int retCode = 0;\n",
+                            "    static const float dj_a4[4] = {\n",
+                            "        DESKJET_MARGINS_A4\n",
+                            "    };\n",
+                            "    static const float dj_letter[4] = {\n",
+                            "        DESKJET_MARGINS_LETTER\n",
+                            "    };\n",
+                            "    const float *m = (float *)0;\n"
+                        ],
+                        "delete_location": [
+                            578,
+                            578
+                        ],
+                        "delete_hunk": [
+                            "    int retCode;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 582,
+                        "add_hunk": [
+                            "    if (cdj970->quality == DRAFT) {\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 300.0, 300.0);\n",
+                            "        cdj970->xscal = 0;\n",
+                            "        cdj970->yscal = 0;\n",
+                            "        cdj970->intensities = 2;\n",
+                            "    } else if (cdj970->quality == NORMAL) {\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);\n",
+                            "        cdj970->xscal = 1;\n",
+                            "        cdj970->yscal = 1;\n",
+                            "    } else {                    /* quality == PRESENTATION */\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);\n",
+                            "        cdj970->xscal = 0;\n",
+                            "        cdj970->yscal = 0;\n",
+                            "    }\n",
+                            "    m = (gdev_pcl_paper_size((gx_device *) pdev) == PAPER_SIZE_A4 ? dj_a4 : dj_letter);\n",
+                            "    gx_device_set_margins((gx_device *) pdev, m, true);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 584,
+                        "add_hunk": [
+                            "retCode = cdj_set_bpp(pdev, pdev->color_info.depth, pdev->color_info.num_components);"
+                        ],
+                        "delete_location": [
+                            584,
+                            584
+                        ],
+                        "delete_hunk": [
+                            "        int code = cdj_set_bpp(pdev, pdev->color_info.depth,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 587,
+                        "add_hunk": [
+                            "        if (retCode < 0)\n",
+                            "            return retCode;\n"
+                        ],
+                        "delete_location": [
+                            587,
+                            588
+                        ],
+                        "delete_hunk": [
+                            "        if (code < 0)\n",
+                            "            return code;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 592,
+                        "add_hunk": [
+                            "    if (retCode >= 0) {\n"
+                        ],
+                        "delete_location": [
+                            592,
+                            594
+                        ],
+                        "delete_hunk": [
+                            "    if (retCode < 0)\n",
+                            "        return (retCode);\n",
+                            "    else {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            596,
+                            597
+                        ],
+                        "delete_hunk": [
+                            "        if (retCode < 0)\n",
+                            "            return (retCode);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 651,
+                        "add_hunk": [
+                            "if ((code = cdj_put_param_int(plist, \"BitsPerPixel\", &bpp, 1, 32, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_int(plist, \"Quality\", &quality, 0, 2, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_int(plist, \"Papertype\", &papertype, 0, 4, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_int(plist, \"Duplex\", &duplex, 0, 2, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_float(plist, \"MasterGamma\", &mastergamma, 0.1, 9.0, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_float(plist, \"GammaValC\", &gammavalc, 0.0, 9.0, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_float(plist, \"GammaValM\", &gammavalm, 0.0, 9.0, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_float(plist, \"GammaValY\", &gammavaly, 0.0, 9.0, code)) < 0)\n",
+                            "        return code;",
+                            "if ((code = cdj_put_param_float(plist, \"GammaValK\", &gammavalk, 0.0, 9.0, code)) < 0)\n",
+                            "        return code;",
+                            "if (code cdj_put_param_float(plist, \"BlackCorrect\", &blackcorrect, 0.0, 9.0, code)< 0)"
+                        ],
+                        "delete_location": [
+                            651,
+                            670
+                        ],
+                        "delete_hunk": [
+                            "    code = cdj_put_param_int(plist, \"BitsPerPixel\", &bpp, 1, 32, code);\n",
+                            "    code = cdj_put_param_int(plist, \"Quality\", &quality, 0, 2, code);\n",
+                            "    code = cdj_put_param_int(plist, \"Papertype\", &papertype, 0, 4, code);\n",
+                            "    code = cdj_put_param_int(plist, \"Duplex\", &duplex, 0, 2, code);\n",
+                            "    code =\n",
+                            "        cdj_put_param_float(plist, \"MasterGamma\", &mastergamma, 0.1, 9.0,\n",
+                            "                            code);\n",
+                            "    code =\n",
+                            "        cdj_put_param_float(plist, \"GammaValC\", &gammavalc, 0.0, 9.0, code);\n",
+                            "    code =\n",
+                            "        cdj_put_param_float(plist, \"GammaValM\", &gammavalm, 0.0, 9.0, code);\n",
+                            "    code =\n",
+                            "        cdj_put_param_float(plist, \"GammaValY\", &gammavaly, 0.0, 9.0, code);\n",
+                            "    code =\n",
+                            "        cdj_put_param_float(plist, \"GammaValK\", &gammavalk, 0.0, 9.0, code);\n",
+                            "    code =\n",
+                            "        cdj_put_param_float(plist, \"BlackCorrect\", &blackcorrect, 0.0, 9.0,\n",
+                            "                            code);\n",
+                            "    if (code < 0)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 677,
+                        "add_hunk": [
+                            "    if (cdj970->quality != quality) {\n",
+                            "        if (pdev->is_open)\n",
+                            "            gs_closedevice(pdev);\t\t/* quality can change resolution, force re-open */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 678,
+                        "add_hunk": [
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 688,
+                        "add_hunk": [
+                            "    return code;\n"
+                        ],
+                        "delete_location": [
+                            688,
+                            688
+                        ],
+                        "delete_hunk": [
+                            "    return 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            789,
+                            826
+                        ],
+                        "delete_hunk": [
+                            "static void\n",
+                            "cdj970_one_time_initialisation(gx_device_printer * pdev)\n",
+                            "{\n",
+                            "    static const float dj_a4[4] = {\n",
+                            "        DESKJET_MARGINS_A4\n",
+                            "    };\n",
+                            "    static const float dj_letter[4] = {\n",
+                            "        DESKJET_MARGINS_LETTER\n",
+                            "    };\n",
+                            "    const float *m = (float *)0;\n",
+                            "    if (cdj970->quality == DRAFT) {\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 300.0, 300.0);\n",
+                            "        cdj970->xscal = 0;\n",
+                            "        cdj970->yscal = 0;\n",
+                            "        cdj970->intensities = 2;\n",
+                            "    } else if (cdj970->quality == NORMAL) {\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);\n",
+                            "        cdj970->xscal = 1;\n",
+                            "        cdj970->yscal = 1;\n",
+                            "    } else {                    /* quality == PRESENTATION */\n",
+                            "        gx_device_set_resolution((gx_device *) pdev, 600.0, 600.0);\n",
+                            "        cdj970->xscal = 0;\n",
+                            "        cdj970->yscal = 0;\n",
+                            "    }\n",
+                            "    m = (gdev_pcl_paper_size((gx_device *) pdev) ==\n",
+                            "         PAPER_SIZE_A4 ? dj_a4 : dj_letter);\n",
+                            "    gx_device_set_margins((gx_device *) pdev, m, true);\n",
+                            "    cdj970_write_header((gx_device *) pdev, pdev->file);\n",
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "change",
+                        "add_location": 840,
+                        "add_hunk": [
+                            "        cdj970_write_header((gx_device *)pdev, prn_stream);\n"
+                        ],
+                        "delete_location": [
+                            840,
+                            840
+                        ],
+                        "delete_hunk": [
+                            "        cdj970_one_time_initialisation(pdev);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "add",
+                        "add_location": 2282,
+                        "add_hunk": [
+                            "    if (ci->depth != ((bpp > 1) && (bpp < 8) ? 8 : bpp)) {\n",
+                            "        if (pdev->is_open)\n",
+                            "            gs_closedevice(pdev); \t/* depth changed, make sure we re-open */\n",
+                            "    }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "change",
+                        "add_location": 2601,
+                        "add_hunk": [
+                            "    int code = 0;\n"
+                        ],
+                        "delete_location": [
+                            2601,
+                            2604
+                        ],
+                        "delete_hunk": [
+                            "    if (new_bpp == 0 && ccomps == 0)\n",
+                            "        return gdev_prn_put_params(pdev, plist);\n",
+                            "    else {\n",
+                            "        gx_device_color_info save_info;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "change",
+                        "add_location": 2606,
+                        "add_hunk": [
+                            "    gx_device_color_info save_info;\n"
+                        ],
+                        "delete_location": [
+                            2606,
+                            2606
+                        ],
+                        "delete_hunk": [
+                            "        int code;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_15",
+                    {
+                        "Edit": "add",
+                        "add_location": 2610,
+                        "add_hunk": [
+                            "    if (new_bpp == 0 && ccomps == 0) {\n",
+                            "       code = gdev_prn_put_params(pdev, plist);\n",
+                            "    } else {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_16",
+                    {
+                        "Edit": "change",
+                        "add_location": 2634,
+                        "add_hunk": [
+                            "            gs_closedevice(pdev);\n",
+                            "    }\n"
+                        ],
+                        "delete_location": [
+                            2634,
+                            2634
+                        ],
+                        "delete_hunk": [
+                            "            return (gs_closedevice(pdev));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_17",
+                    {
+                        "Edit": "change",
+                        "add_location": 2636,
+                        "add_hunk": [
+                            "    if (pdev->HWResolution[0] != pdev->HWResolution[1] ||(pdev->HWResolution[0] != 300.0 && pdev->HWResolution[0] != 600.0) ) {\n",
+                            "        param_signal_error(plist, \"HWResolution\", gs_error_rangecheck);\n",
+                            "        emprintf1(pdev->memory, \"\\ncdj970: Invalid resolution: '%f'. Only 300 or 600 supported.\\n\\n\",pdev->HWResolution[0]);\n",
+                            "        cdj_set_bpp(pdev, save_bpp, save_ccomps);\n",
+                            "        return gs_error_rangecheck;\n",
+                            "    }\n",
+                            "    return code;\n"
+                        ],
+                        "delete_location": [
+                            2636,
+                            2636
+                        ],
+                        "delete_hunk": [
+                            "        return (0);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_18",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            2640,
+                            2640
+                        ],
+                        "delete_hunk": [
+                            "}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: hp_colour_open -> hp_colour_open": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: cdj970_put_params -> cdj970_put_params": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: cdj970_one_time_initialisation -> cdj970_one_time_initialisation": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: cdj970_print_page -> cdj970_print_page": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: cdj_set_bpp -> cdj_set_bpp": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: cdj_put_param_bpp -> cdj_put_param_bpp": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "sanity_check",
+                "MOVE_TO",
+                "change_type",
+                "change_value"
+            ]
+        }
+    }
+}

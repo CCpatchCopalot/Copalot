@@ -1,0 +1,8 @@
+405a406
+>GLOBALS->yylen_vcd_partial_c_2=len;
+406d
+<GLOBALS->yylen_vcd_partial_c_2=len;
+1143c1143
+<			if (tok!= T_END && tok != T_EOF)
+---
+>if (tok!=  && tok != T_EOF != && tok != T_EOF)

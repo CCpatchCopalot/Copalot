@@ -1,0 +1,71 @@
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+while  @ 5 @ while  @ 9 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+operator: (  @ 6 @ operator: (  @ 10 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+name: store  @ 6 @ name: buf  @ 10 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+expr  @ 6 @ expr  @ 10 @ 
+name: result  @ 6 @ name: result  @ 10 @ 
+name: octet2str  @ 1 @ name: octet2str  @ 1 @ 
+operator: &&  @ 5 @ operator: &&  @ 9 @ 
+name: result  @ 8 @ name: buf  @ 12 @ 
+name  @ 1 @ name  @ 3 @ 
+name: result  @ 5 @ name: result  @ 9 @ 
+name: Curl_dyn_addf  @ 6 @ name: Curl_dyn_addf  @ 10 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: =  @ 6 @ operator: =  @ 10 @ 
+name: char  @ 6 @ name: char  @ 10 @ 
+operator: !  @ 5 @ operator: !  @ 9 @ 
+type  @ 1 @ type  @ 1 @ 
+name: struct  @ 1 @ name: struct  @ 3 @ 
+expr  @ 6 @ expr  @ 10 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+expr  @ 3 @ expr  @ 6 @ 
+expr  @ 8 @ expr  @ 12 @ 
+expr  @ 6 @ expr  @ 10 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 6 @ expr  @ 10 @ 
+call  @ 6 @ call  @ 10 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 10 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+expr  @ 5 @ expr  @ 9 @ 
+name: store  @ 1 @ name: buf  @ 3 @ 
+function  @ 1 @ function  @ 1 @ 
+name: unsigned  @ 6 @ name: unsigned  @ 10 @ 
+block  @ 2 @ block  @ 2 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+return  @ 8 @ return  @ 12 @ 
+decl  @ 1 @ decl  @ 1 @ 
+argument_list  @ 6 @ argument_list  @ 10 @ 
+block_content  @ 6 @ block_content  @ 10 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+decl  @ 1 @ decl  @ 3 @ 
+operator: ++  @ 6 @ operator: ++  @ 10 @ 
+type  @ 3 @ type  @ 4 @ 
+argument  @ 6 @ argument  @ 10 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: dynbuf  @ 1 @ name: dynbuf  @ 3 @ 
+name: CURLcode  @ 3 @ name: CURLcode  @ 4 @ 
+literal: "%02x:"  @ 6 @ literal: "%02x:"  @ 10 @ 
+operator: *  @ 6 @ operator: *  @ 10 @ 
+operator: <  @ 5 @ operator: <  @ 9 @ 
+name: beg  @ 6 @ name: beg  @ 10 @ 
+name: end  @ 1 @ name: end  @ 1 @ 
+argument  @ 6 @ argument  @ 10 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: CURLcode  @ 1 @ name: char  @ 1 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+operator: )  @ 6 @ operator: )  @ 10 @ 
+name: beg  @ 5 @ name: beg  @ 9 @ 
+name: end  @ 5 @ name: end  @ 9 @ 
+block  @ 6 @ block  @ 10 @ 
+name: result  @ 3 @ name: result  @ 4 @ 
+name: beg  @ 1 @ name: beg  @ 1 @ 
+condition  @ 5 @ condition  @ 9 @ 
+argument  @ 6 @ argument  @ 10 @ 
+type  @ 1 @ type  @ 3 @ 
+name: CURLE_OK  @ 3 @ name: CURL_ASN1_MAX  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+

@@ -1,0 +1,5 @@
+-1c-1
+---
+>    if(!Curl_ssl_getsessionid(data, conn,SSL_IS_PROXY() ? TRUE : FALSE,&ssl_sessionid, &ssl_idsize, sockindex)) {
+80a81
+>      result = Curl_ssl_addsessionid(data, conn, SSL_IS_PROXY() ? TRUE : FALSE, connect_sessionid, connect_idsize, sockindex);

@@ -1,0 +1,383 @@
+operator: &  @ 8 @ operator: &  @ 8 @ 
+name: conn  @ 8 @ name: conn  @ 8 @ 
+expr  @ 36 @ expr  @ 35 @ 
+expr  @ 40 @ expr  @ 39 @ 
+name: conn  @ 27 @ name: conn  @ 26 @ 
+name: conn  @ 10 @ name: conn  @ 10 @ 
+directive: ifdef  @ 35 @ directive: ifdef  @ 34 @ 
+operator: &  @ 16 @ operator: &  @ 16 @ 
+expr  @ 19 @ expr  @ 19 @ 
+expr  @ 10 @ expr  @ 10 @ 
+directive: ifndef  @ 7 @ directive: ifndef  @ 7 @ 
+call  @ 15 @ call  @ 15 @ 
+expr  @ 14 @ expr  @ 14 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 8 @ expr  @ 8 @ 
+argument_list  @ 21 @ argument_list  @ 21 @ 
+name  @ 25 @ name  @ 24 @ 
+expr  @ 32 @ expr  @ 31 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name  @ 28 @ name  @ 27 @ 
+name: Curl_safefree  @ 11 @ name: Curl_safefree  @ 11 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+name: Curl_safefree  @ 26 @ name: Curl_safefree  @ 25 @ 
+name: rawalloc  @ 14 @ name: rawalloc  @ 14 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 3 @ 
+operator: ->  @ 28 @ operator: ->  @ 27 @ 
+expr  @ 26 @ expr  @ 25 @ 
+name: localdev  @ 32 @ name: localdev  @ 31 @ 
+argument_list  @ 23 @ argument_list  @ 22 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 25 @ 
+argument_list  @ 36 @ argument_list  @ 35 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 16 @ 
+name  @ 6 @ name  @ 6 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+name: Curl_safefree  @ 25 @ name: Curl_safefree  @ 24 @ 
+name: Curl_safefree  @ 24 @ name: Curl_safefree  @ 23 @ 
+expr  @ 42 @ expr  @ 41 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: conn  @ 20 @ name: conn  @ 20 @ 
+decl  @ 1 @ decl  @ 1 @ 
+argument_list  @ 14 @ argument_list  @ 14 @ 
+operator: .  @ 10 @ operator: .  @ 10 @ 
+operator: ->  @ 31 @ operator: ->  @ 30 @ 
+argument  @ 11 @ argument  @ 11 @ 
+operator: ->  @ 24 @ operator: ->  @ 23 @ 
+argument  @ 26 @ argument  @ 25 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 12 @ 
+name  @ 9 @ name  @ 9 @ 
+expr  @ 15 @ expr  @ 15 @ 
+comment: /* free all the connection oriented data */  @ 42 @ comment: /* free all the connection oriented data */  @ 41 @ 
+expr  @ 23 @ expr  @ 22 @ 
+ifdef  @ 35 @ ifdef  @ 34 @ 
+name: USE_UNIX_SOCKETS  @ 35 @ name: USE_UNIX_SOCKETS  @ 34 @ 
+operator: ->  @ 13 @ operator: ->  @ 13 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 20 @ 
+operator: ->  @ 14 @ operator: ->  @ 14 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 23 @ 
+argument  @ 14 @ argument  @ 14 @ 
+name: conn  @ 9 @ name: conn  @ 9 @ 
+call  @ 3 @ call  @ 3 @ 
+argument  @ 10 @ argument  @ 10 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument  @ 42 @ argument  @ 41 @ 
+name: Curl_dyn_free  @ 23 @ name: Curl_dyn_free  @ 22 @ 
+name: conn  @ 28 @ name: conn  @ 27 @ 
+name: Curl_safefree  @ 40 @ name: Curl_safefree  @ 39 @ 
+name: Curl_free_idnconverted_hostname  @ 8 @ name: Curl_free_idnconverted_hostname  @ 8 @ 
+expr  @ 15 @ expr  @ 15 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 18 @ 
+operator: &  @ 31 @ operator: &  @ 30 @ 
+argument_list  @ 25 @ argument_list  @ 24 @ 
+name: rawalloc  @ 15 @ name: rawalloc  @ 15 @ 
+operator: .  @ 24 @ operator: .  @ 23 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+name  @ 5 @ name  @ 5 @ 
+argument_list  @ 42 @ argument_list  @ 41 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+call  @ 40 @ call  @ 39 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name: Curl_safefree  @ 28 @ name: Curl_safefree  @ 27 @ 
+name: conn  @ 16 @ name: conn  @ 16 @ 
+operator: ->  @ 11 @ operator: ->  @ 11 @ 
+call  @ 24 @ call  @ 23 @ 
+call  @ 42 @ call  @ 41 @ 
+name: conn  @ 5 @ name: conn  @ 5 @ 
+operator: ->  @ 19 @ operator: ->  @ 19 @ 
+name: host  @ 15 @ name: host  @ 15 @ 
+call  @ 18 @ call  @ 18 @ 
+name: proxy_ssl_config  @ 16 @ name: proxy_ssl_config  @ 16 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: conn  @ 24 @ name: conn  @ 23 @ 
+argument_list  @ 16 @ argument_list  @ 16 @ 
+argument_list  @ 8 @ argument_list  @ 8 @ 
+name: conn  @ 13 @ name: conn  @ 13 @ 
+name: host  @ 14 @ name: host  @ 14 @ 
+argument  @ 32 @ argument  @ 31 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: conn_to_host  @ 25 @ name: conn_to_host  @ 24 @ 
+operator: .  @ 11 @ operator: .  @ 11 @ 
+ifdef  @ 39 @ ifdef  @ 38 @ 
+operator: &  @ 33 @ operator: &  @ 32 @ 
+name  @ 31 @ name  @ 30 @ 
+call  @ 26 @ call  @ 25 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 41 @ 
+expr  @ 30 @ expr  @ 29 @ 
+expr  @ 23 @ expr  @ 22 @ 
+name: conn_reset_all_postponed_data  @ 30 @ name: conn_reset_all_postponed_data  @ 29 @ 
+name: user  @ 18 @ name: user  @ 18 @ 
+name: conn  @ 1 @ name: conn  @ 1 @ 
+expr  @ 31 @ expr  @ 30 @ 
+directive: ifdef  @ 39 @ directive: ifdef  @ 38 @ 
+name: trailer  @ 23 @ name: trailer  @ 22 @ 
+argument  @ 6 @ argument  @ 6 @ 
+name: Curl_safefree  @ 32 @ name: Curl_safefree  @ 31 @ 
+name: rawalloc  @ 25 @ name: rawalloc  @ 24 @ 
+name: socks_proxy  @ 13 @ name: socks_proxy  @ 13 @ 
+argument  @ 12 @ argument  @ 12 @ 
+name  @ 12 @ name  @ 12 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 24 @ 
+name  @ 33 @ name  @ 32 @ 
+expr  @ 30 @ expr  @ 29 @ 
+name: conn_to_host  @ 6 @ name: conn_to_host  @ 6 @ 
+argument  @ 27 @ argument  @ 26 @ 
+operator: ->  @ 33 @ operator: ->  @ 32 @ 
+call  @ 10 @ call  @ 10 @ 
+name: Curl_safefree  @ 19 @ name: Curl_safefree  @ 19 @ 
+call  @ 9 @ call  @ 9 @ 
+name: passwd  @ 13 @ name: passwd  @ 13 @ 
+operator: ->  @ 8 @ operator: ->  @ 8 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 27 @ 
+name: conn  @ 40 @ name: conn  @ 39 @ 
+argument  @ 15 @ argument  @ 15 @ 
+endif  @ 37 @ endif  @ 36 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 39 @ 
+call  @ 32 @ call  @ 31 @ 
+expr  @ 20 @ expr  @ 20 @ 
+expr  @ 13 @ expr  @ 13 @ 
+name: conn  @ 6 @ name: conn  @ 6 @ 
+name  @ 11 @ name  @ 11 @ 
+operator: .  @ 14 @ operator: .  @ 14 @ 
+argument  @ 25 @ argument  @ 24 @ 
+name: Curl_safefree  @ 14 @ name: Curl_safefree  @ 14 @ 
+operator: ->  @ 9 @ operator: ->  @ 9 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 31 @ 
+expr  @ 13 @ expr  @ 13 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 9 @ 
+expr  @ 12 @ expr  @ 12 @ 
+argument_list  @ 32 @ argument_list  @ 31 @ 
+operator: ->  @ 18 @ operator: ->  @ 18 @ 
+directive: endif  @ 41 @ directive: endif  @ 40 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: socks_proxy  @ 11 @ name: socks_proxy  @ 11 @ 
+expr  @ 18 @ expr  @ 18 @ 
+argument_list  @ 27 @ argument_list  @ 26 @ 
+expr  @ 3 @ expr  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+name  @ 16 @ name  @ 16 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 8 @ 
+expr  @ 27 @ expr  @ 26 @ 
+name: socks_proxy  @ 9 @ name: socks_proxy  @ 9 @ 
+expr  @ 26 @ expr  @ 25 @ 
+call  @ 21 @ call  @ 21 @ 
+name: conn  @ 12 @ name: conn  @ 12 @ 
+call  @ 28 @ call  @ 27 @ 
+name: Curl_safefree  @ 21 @ name: Curl_safefree  @ 21 @ 
+call  @ 14 @ call  @ 14 @ 
+operator: ->  @ 6 @ operator: ->  @ 6 @ 
+operator: .  @ 12 @ operator: .  @ 12 @ 
+name: Curl_free_primary_ssl_config  @ 33 @ name: Curl_free_primary_ssl_config  @ 32 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+name: Curl_safefree  @ 27 @ name: Curl_safefree  @ 26 @ 
+expr  @ 31 @ expr  @ 30 @ 
+name: free  @ 42 @ name: free  @ 41 @ 
+name: http_proxy  @ 12 @ name: http_proxy  @ 12 @ 
+name: conn  @ 23 @ name: conn  @ 22 @ 
+expr  @ 36 @ expr  @ 35 @ 
+argument  @ 24 @ argument  @ 23 @ 
+name: socks_proxy  @ 15 @ name: socks_proxy  @ 15 @ 
+expr  @ 16 @ expr  @ 16 @ 
+argument  @ 16 @ argument  @ 16 @ 
+expr  @ 21 @ expr  @ 21 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 6 @ 
+comment: /* host name buffer */  @ 25 @ comment: /* host name buffer */  @ 24 @ 
+call  @ 23 @ call  @ 22 @ 
+name: http_proxy  @ 8 @ name: http_proxy  @ 8 @ 
+name: Curl_free_idnconverted_hostname  @ 6 @ name: Curl_free_idnconverted_hostname  @ 6 @ 
+comment: /* http proxy name buffer */  @ 14 @ comment: /* http proxy name buffer */  @ 14 @ 
+name: Curl_safefree  @ 13 @ name: Curl_safefree  @ 13 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+argument  @ 30 @ argument  @ 29 @ 
+call  @ 20 @ call  @ 20 @ 
+argument  @ 21 @ argument  @ 21 @ 
+name: conn  @ 19 @ name: conn  @ 19 @ 
+name  @ 26 @ name  @ 25 @ 
+expr  @ 3 @ expr  @ 3 @ 
+operator: &  @ 23 @ operator: &  @ 22 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 21 @ 
+name: struct  @ 1 @ name: struct  @ 1 @ 
+argument  @ 23 @ argument  @ 22 @ 
+expr  @ 25 @ expr  @ 24 @ 
+operator: ->  @ 40 @ operator: ->  @ 39 @ 
+name: conn  @ 15 @ name: conn  @ 15 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 22 @ 
+name  @ 15 @ name  @ 15 @ 
+name  @ 23 @ name  @ 22 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+name: options  @ 21 @ name: options  @ 21 @ 
+name: Curl_llist_destroy  @ 31 @ name: Curl_llist_destroy  @ 30 @ 
+expr  @ 32 @ expr  @ 31 @ 
+name: secondaryhostname  @ 27 @ name: secondaryhostname  @ 26 @ 
+name: host  @ 24 @ name: host  @ 23 @ 
+name: conn  @ 32 @ name: conn  @ 31 @ 
+name  @ 1 @ name  @ 1 @ 
+name: conn  @ 11 @ name: conn  @ 11 @ 
+name: passwd  @ 19 @ name: passwd  @ 19 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: .  @ 9 @ operator: .  @ 9 @ 
+argument  @ 5 @ argument  @ 5 @ 
+argument  @ 19 @ argument  @ 19 @ 
+argument  @ 18 @ argument  @ 18 @ 
+argument  @ 31 @ argument  @ 30 @ 
+name  @ 8 @ name  @ 8 @ 
+comment: /* socks proxy name buffer */  @ 15 @ comment: /* socks proxy name buffer */  @ 15 @ 
+name  @ 19 @ name  @ 19 @ 
+name  @ 24 @ name  @ 23 @ 
+call  @ 11 @ call  @ 11 @ 
+expr  @ 16 @ expr  @ 16 @ 
+expr  @ 12 @ expr  @ 12 @ 
+expr  @ 42 @ expr  @ 41 @ 
+name: connect_state  @ 28 @ name: connect_state  @ 27 @ 
+argument  @ 13 @ argument  @ 13 @ 
+expr  @ 31 @ expr  @ 30 @ 
+operator: ->  @ 5 @ operator: ->  @ 5 @ 
+name  @ 20 @ name  @ 20 @ 
+call  @ 31 @ call  @ 30 @ 
+argument  @ 20 @ argument  @ 20 @ 
+argument  @ 40 @ argument  @ 39 @ 
+expr  @ 24 @ expr  @ 23 @ 
+name: unix_domain_socket  @ 36 @ name: unix_domain_socket  @ 35 @ 
+name: http_proxy  @ 10 @ name: http_proxy  @ 10 @ 
+name  @ 10 @ name  @ 10 @ 
+operator: ->  @ 15 @ operator: ->  @ 15 @ 
+type  @ 1 @ type  @ 1 @ 
+argument_list  @ 24 @ argument_list  @ 23 @ 
+argument_list  @ 26 @ argument_list  @ 25 @ 
+ifndef  @ 7 @ ifndef  @ 7 @ 
+expr  @ 6 @ expr  @ 6 @ 
+operator: .  @ 15 @ operator: .  @ 15 @ 
+name  @ 27 @ name  @ 26 @ 
+operator: ->  @ 26 @ operator: ->  @ 25 @ 
+name: Curl_safefree  @ 15 @ name: Curl_safefree  @ 15 @ 
+directive: endif  @ 17 @ directive: endif  @ 17 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 26 @ 
+name  @ 14 @ name  @ 14 @ 
+name: Curl_safefree  @ 10 @ name: Curl_safefree  @ 10 @ 
+name: Curl_safefree  @ 12 @ name: Curl_safefree  @ 12 @ 
+block  @ 2 @ block  @ 2 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+expr  @ 33 @ expr  @ 32 @ 
+name: Curl_safefree  @ 20 @ name: Curl_safefree  @ 20 @ 
+argument_list  @ 18 @ argument_list  @ 18 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 29 @ 
+operator: ->  @ 16 @ operator: ->  @ 16 @ 
+argument  @ 33 @ argument  @ 32 @ 
+argument_list  @ 9 @ argument_list  @ 9 @ 
+operator: .  @ 8 @ operator: .  @ 8 @ 
+call  @ 36 @ call  @ 35 @ 
+name  @ 40 @ name  @ 39 @ 
+call  @ 33 @ call  @ 32 @ 
+call  @ 13 @ call  @ 13 @ 
+name: user  @ 11 @ name: user  @ 11 @ 
+call  @ 5 @ call  @ 5 @ 
+argument_list  @ 30 @ argument_list  @ 29 @ 
+name: ssl_config  @ 33 @ name: ssl_config  @ 32 @ 
+endif  @ 17 @ endif  @ 17 @ 
+operator: ->  @ 27 @ operator: ->  @ 26 @ 
+name: conn  @ 26 @ name: conn  @ 25 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 35 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: NULL  @ 31 @ name: NULL  @ 30 @ 
+name: conn  @ 36 @ name: conn  @ 35 @ 
+name: conn  @ 33 @ name: conn  @ 32 @ 
+name: DEBUGASSERT  @ 3 @ name: DEBUGASSERT  @ 3 @ 
+name: USE_SSL  @ 39 @ name: USE_SSL  @ 38 @ 
+name: Curl_free_idnconverted_hostname  @ 9 @ name: Curl_free_idnconverted_hostname  @ 9 @ 
+name  @ 18 @ name  @ 18 @ 
+expr  @ 40 @ expr  @ 39 @ 
+argument  @ 3 @ argument  @ 3 @ 
+name: hostname_resolve  @ 26 @ name: hostname_resolve  @ 25 @ 
+expr  @ 19 @ expr  @ 19 @ 
+expr  @ 9 @ expr  @ 9 @ 
+call  @ 8 @ call  @ 8 @ 
+argument  @ 31 @ argument  @ 30 @ 
+name: http_proxy  @ 14 @ name: http_proxy  @ 14 @ 
+name: Curl_safefree  @ 36 @ name: Curl_safefree  @ 35 @ 
+argument_list  @ 20 @ argument_list  @ 20 @ 
+name: rawalloc  @ 24 @ name: rawalloc  @ 23 @ 
+name  @ 21 @ name  @ 21 @ 
+expr  @ 10 @ expr  @ 10 @ 
+argument_list  @ 28 @ argument_list  @ 27 @ 
+name: connectdata  @ 1 @ name: connectdata  @ 1 @ 
+name: conn  @ 21 @ name: conn  @ 21 @ 
+name: conn  @ 25 @ name: conn  @ 24 @ 
+name  @ 32 @ name  @ 31 @ 
+expr_stmt  @ 5 @ expr_stmt  @ 5 @ 
+operator: ->  @ 12 @ operator: ->  @ 12 @ 
+name: passwd  @ 12 @ name: passwd  @ 12 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+argument_list  @ 33 @ argument_list  @ 32 @ 
+name: ssl_extra  @ 40 @ name: ssl_extra  @ 39 @ 
+argument_list  @ 3 @ argument_list  @ 3 @ 
+argument  @ 9 @ argument  @ 9 @ 
+operator: ->  @ 21 @ operator: ->  @ 21 @ 
+call  @ 25 @ call  @ 24 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+name: easyq  @ 31 @ name: easyq  @ 30 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+expr  @ 8 @ expr  @ 8 @ 
+comment: /* host name buffer */  @ 24 @ comment: /* host name buffer */  @ 23 @ 
+name: CURL_DISABLE_PROXY  @ 7 @ name: CURL_DISABLE_PROXY  @ 7 @ 
+name: host  @ 5 @ name: host  @ 5 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+operator: ->  @ 32 @ operator: ->  @ 31 @ 
+argument_list  @ 31 @ argument_list  @ 30 @ 
+call  @ 6 @ call  @ 6 @ 
+name: sasl_authzid  @ 20 @ name: sasl_authzid  @ 20 @ 
+directive: endif  @ 37 @ directive: endif  @ 36 @ 
+endif  @ 41 @ endif  @ 40 @ 
+expr  @ 25 @ expr  @ 24 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name  @ 36 @ name  @ 35 @ 
+operator: .  @ 13 @ operator: .  @ 13 @ 
+expr  @ 27 @ expr  @ 26 @ 
+expr  @ 33 @ expr  @ 32 @ 
+operator: &  @ 9 @ operator: &  @ 9 @ 
+argument_list  @ 40 @ argument_list  @ 39 @ 
+name: conn  @ 14 @ name: conn  @ 14 @ 
+name: conn_free  @ 1 @ name: conn_free  @ 1 @ 
+name: Curl_free_idnconverted_hostname  @ 5 @ name: Curl_free_idnconverted_hostname  @ 5 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name: user  @ 10 @ name: user  @ 10 @ 
+function  @ 1 @ function  @ 1 @ 
+call  @ 30 @ call  @ 29 @ 
+call  @ 19 @ call  @ 19 @ 
+name: conn  @ 31 @ name: conn  @ 30 @ 
+name: Curl_free_primary_ssl_config  @ 16 @ name: Curl_free_primary_ssl_config  @ 16 @ 
+name: host  @ 9 @ name: host  @ 9 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+argument  @ 28 @ argument  @ 27 @ 
+operator: ->  @ 25 @ operator: ->  @ 24 @ 
+name: conn  @ 18 @ name: conn  @ 18 @ 
+expr  @ 24 @ expr  @ 23 @ 
+expr  @ 6 @ expr  @ 6 @ 
+expr  @ 21 @ expr  @ 21 @ 
+call  @ 12 @ call  @ 12 @ 
+argument_list  @ 11 @ argument_list  @ 11 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 30 @ 
+argument  @ 36 @ argument  @ 35 @ 
+operator: .  @ 15 @ operator: .  @ 15 @ 
+name: conn  @ 42 @ name: conn  @ 41 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 32 @ 
+name: host  @ 8 @ name: host  @ 8 @ 
+operator: &  @ 6 @ operator: &  @ 6 @ 
+name: conn  @ 30 @ name: conn  @ 29 @ 
+operator: .  @ 25 @ operator: .  @ 24 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name  @ 13 @ name  @ 13 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: Curl_safefree  @ 18 @ name: Curl_safefree  @ 18 @ 
+operator: &  @ 5 @ operator: &  @ 5 @ 
+call  @ 27 @ call  @ 26 @ 
+operator: .  @ 14 @ operator: .  @ 14 @ 
+name: conn  @ 3 @ name: conn  @ 3 @ 
+operator: ->  @ 36 @ operator: ->  @ 35 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+argument_list  @ 12 @ argument_list  @ 12 @ 
+argument  @ 8 @ argument  @ 8 @ 
+call  @ 16 @ call  @ 16 @ 
+

@@ -1,0 +1,114 @@
+name: beg  @ 9 @ name: beg  @ 9 @ 
+expr  @ 10 @ expr  @ 10 @ 
+literal: 1  @ 6 @ literal: 1  @ 6 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: result  @ 7 @ name: result  @ 7 @ 
+call  @ 6 @ call  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+name: result  @ 10 @ name: result  @ 10 @ 
+literal: "%02x:"  @ 10 @ literal: "%02x:"  @ 10 @ 
+expr  @ 7 @ expr  @ 7 @ 
+literal: 0  @ 7 @ literal: 0  @ 7 @ 
+argument  @ 10 @ argument  @ 10 @ 
+decl  @ 3 @ decl  @ 3 @ 
+expr  @ 7 @ expr  @ 7 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 6 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+call  @ 7 @ call  @ 7 @ 
+argument  @ 7 @ argument  @ 7 @ 
+name: char  @ 10 @ name: char  @ 10 @ 
+argument  @ 12 @ argument  @ 12 @ 
+operator: &  @ 7 @ operator: &  @ 7 @ 
+argument  @ 7 @ argument  @ 7 @ 
+operator: !  @ 9 @ operator: !  @ 9 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+block  @ 10 @ block  @ 10 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: buf  @ 12 @ name: buf  @ 12 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 12 @ expr  @ 12 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+operator: +  @ 6 @ operator: +  @ 6 @ 
+name: beg  @ 1 @ name: beg  @ 1 @ 
+operator: =  @ 7 @ operator: =  @ 7 @ 
+operator: ++  @ 10 @ operator: ++  @ 10 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+operator: <  @ 9 @ operator: <  @ 9 @ 
+expr  @ 7 @ expr  @ 7 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+name: octet2str  @ 1 @ name: octet2str  @ 1 @ 
+name: Curl_dyn_init  @ 6 @ name: Curl_dyn_init  @ 6 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr  @ 7 @ expr  @ 7 @ 
+condition  @ 9 @ condition  @ 9 @ 
+argument  @ 7 @ argument  @ 7 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 7 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument_list  @ 12 @ argument_list  @ 12 @ 
+operator: &  @ 6 @ operator: &  @ 6 @ 
+name: Curl_dyn_addn  @ 7 @ name: Curl_dyn_addn  @ 7 @ 
+expr  @ 9 @ expr  @ 9 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: beg  @ 10 @ name: beg  @ 10 @ 
+name: CURLcode  @ 4 @ name: CURLcode  @ 4 @ 
+name: end  @ 9 @ name: end  @ 9 @ 
+name: buf  @ 10 @ name: buf  @ 10 @ 
+decl  @ 4 @ decl  @ 4 @ 
+argument  @ 10 @ argument  @ 10 @ 
+name: result  @ 4 @ name: result  @ 4 @ 
+expr  @ 6 @ expr  @ 6 @ 
+return  @ 12 @ return  @ 12 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+expr  @ 10 @ expr  @ 10 @ 
+function  @ 1 @ function  @ 1 @ 
+name: struct  @ 3 @ name: struct  @ 3 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+name: buf  @ 3 @ name: buf  @ 3 @ 
+operator: *  @ 6 @ operator: *  @ 6 @ 
+name: result  @ 9 @ name: result  @ 9 @ 
+operator: =  @ 10 @ operator: =  @ 10 @ 
+call  @ 12 @ call  @ 12 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+type  @ 4 @ type  @ 4 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+operator: &&  @ 9 @ operator: &&  @ 9 @ 
+argument  @ 10 @ argument  @ 10 @ 
+argument  @ 6 @ argument  @ 6 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: CURL_ASN1_MAX  @ 6 @ name: CURL_ASN1_MAX  @ 6 @ 
+name  @ 3 @ name  @ 3 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: )  @ 10 @ operator: )  @ 10 @ 
+literal: ""  @ 7 @ literal: ""  @ 7 @ 
+block_content  @ 10 @ block_content  @ 10 @ 
+literal: 3  @ 6 @ literal: 3  @ 6 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: unsigned  @ 10 @ name: unsigned  @ 10 @ 
+name: buf  @ 6 @ name: buf  @ 6 @ 
+name: Curl_dyn_ptr  @ 12 @ name: Curl_dyn_ptr  @ 12 @ 
+name: Curl_dyn_addf  @ 10 @ name: Curl_dyn_addf  @ 10 @ 
+operator: &  @ 10 @ operator: &  @ 10 @ 
+name: end  @ 1 @ name: end  @ 1 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+decl  @ 1 @ decl  @ 1 @ 
+block  @ 2 @ block  @ 2 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+name: buf  @ 7 @ name: buf  @ 7 @ 
+expr  @ 6 @ expr  @ 6 @ 
+argument_list  @ 7 @ argument_list  @ 7 @ 
+operator: &  @ 12 @ operator: &  @ 12 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+operator: *  @ 10 @ operator: *  @ 10 @ 
+call  @ 10 @ call  @ 10 @ 
+while  @ 9 @ while  @ 9 @ 
+argument  @ 6 @ argument  @ 6 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+operator: (  @ 10 @ operator: (  @ 10 @ 
+name: dynbuf  @ 3 @ name: dynbuf  @ 3 @ 
+type  @ 3 @ type  @ 3 @ 
+

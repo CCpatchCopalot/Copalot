@@ -1,0 +1,89 @@
+{
+    "testcase": {
+        "file95": {
+            "match_message": {
+                "Same: set_ssl_ciphers -> set_ssl_ciphers": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 293 -> 326",
+                        "L2": "3: Unique Matched by Source code 293 -> 326"
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 297->330",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 297->330"
+                    }
+                },
+                "Same: schannel_connect_step1 -> schannel_connect_step1": {
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 524 -> 581",
+                        "L2": "3: Unique Matched by Source code 524 -> 581"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 326,
+                        "add_hunk": [
+                            "set_ssl_ciphers(SCHANNEL_CRED *schannel_cred, char *ciphers,int *algIds)\n"
+                        ],
+                        "delete_location": [
+                            326,
+                            326
+                        ],
+                        "delete_hunk": [
+                            "set_ssl_ciphers(SCHANNEL_CRED *schannel_cred, char *ciphers)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            330,
+                            330
+                        ],
+                        "delete_hunk": [
+                            "  static ALG_ID algIds[45]; /*There are 45 listed in the MS headers*/\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 581,
+                        "add_hunk": [
+                            "      result = set_ssl_ciphers(&schannel_cred, SSL_CONN_CONFIG(cipher_list), BACKEND->algIds);\n"
+                        ],
+                        "delete_location": [
+                            581,
+                            581
+                        ],
+                        "delete_hunk": [
+                            "      result = set_ssl_ciphers(&schannel_cred, SSL_CONN_CONFIG(cipher_list));\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: set_ssl_ciphers -> set_ssl_ciphers": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: schannel_connect_step1 -> schannel_connect_step1": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call"
+            ]
+        }
+    }
+}

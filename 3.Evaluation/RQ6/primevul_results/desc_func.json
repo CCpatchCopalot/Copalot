@@ -1,0 +1,6 @@
+{
+    "CVE-2020-14405": {
+        "desc_function": "rfbproto.c",
+        "desc": "An issue was discovered in LibVNCServer before 0.9.13. libvncclient/rfbproto.c does not limit TextChat size."
+    }
+}

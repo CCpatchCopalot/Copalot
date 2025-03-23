@@ -1,0 +1,95 @@
+{
+    "testcase": {
+        "file179": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "601 -> -1",
+                        "L2": "601 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'src:call', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "src:call",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "src:call",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: gtls_connect_step3 -> gtls_connect_step3": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 1099",
+                        "L2": "7: Context line (Ignored) is empty or comment 1099"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 1106",
+                        "L2": "7: Context line (Ignored) is empty or comment 1106"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "    if(!Curl_ssl_getsessionid(data, conn,SSL_IS_PROXY() ? TRUE : FALSE,&ssl_sessionid, &ssl_idsize, sockindex)) {\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "      incache = !(Curl_ssl_getsessionid(data, conn,SSL_IS_PROXY() ? TRUE : FALSE,&ssl_sessionid, NULL, sockindex));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 80,
+                        "add_hunk": [
+                            "      result = Curl_ssl_addsessionid(data, conn, SSL_IS_PROXY() ? TRUE : FALSE, connect_sessionid, connect_idsize, sockindex);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    }
+                },
+                "Same: gtls_connect_step3 -> gtls_connect_step3": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "sanity_check"
+            ]
+        }
+    }
+}

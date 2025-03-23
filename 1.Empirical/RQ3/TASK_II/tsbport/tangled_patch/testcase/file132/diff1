@@ -1,0 +1,44 @@
+403c403,406
+< 	} else {
+---
+> 		return GF_OK;
+> 	}
+> 
+> 	e = GF_OK;
+409c412
+< 				if (e) return e;
+---
+> 			if (e) goto exit;
+419c422
+< 						if (e) return e;
+---
+> 					if (e) goto exit;
+424c427
+< 							if (e) return e;
+---
+> 						if (e) goto exit;
+431c434
+< 						if (e) return e;
+---
+> 					if (e) goto exit;
+438c441
+< 					if (e) return e;
+---
+> 				if (e)goto exit;
+441c444,445
+< 				return codec->LastError ? codec->LastError : GF_NON_COMPLIANT_BITSTREAM;
+---
+> 			e = codec->LastError ? codec->LastError : GF_NON_COMPLIANT_BITSTREAM;
+> 			goto exit;
+443a448,450
+> 
+> exit:
+> 
+454c461
+< 	}
+---
+> 
+457c464
+< 	return GF_OK;
+---
+> 	return e;

@@ -1,0 +1,82 @@
+{
+    "testcase": {
+        "file192": {
+            "match_message": {
+                "Same: safecmp -> safecmp": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 92 -> 128",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 100->135"
+                    }
+                },
+                "Same: Curl_ssl_config_matches -> Curl_ssl_config_matches": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 105->142",
+                        "L2": "5: Matched by Syntax(AST) similarity 105->142"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 71,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            128,
+                            135
+                        ],
+                        "delete_hunk": [
+                            "static bool safecmp(char *a, char *b)\n",
+                            "{\n",
+                            "  if(a && b)\n",
+                            "    return !strcmp(a, b);\n",
+                            "  else if(!a && !b)\n",
+                            "    return TRUE; /* match */\n",
+                            "  return FALSE; /* no match */\n",
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 142,
+                        "add_hunk": [
+                            "if((data->version == needle->version) && (data->version_max == needle->version_max) && (data->verifypeer == needle->verifypeer) && (data->verifyhost == needle->verifyhost) && (data->verifystatus == needle->verifystatus) && blobcmp(data->cert_blob, needle->cert_blob) && blobcmp(data->ca_info_blob, needle->ca_info_blob) && blobcmp(data->issuercert_blob, needle->issuercert_blob) && Curl_safecmp(data->CApath, needle->CApath) && Curl_safecmp(data->CAfile, needle->CAfile) && Curl_safecmp(data->issuercert, needle->issuercert) && Curl_safecmp(data->clientcert, needle->clientcert) && Curl_safecmp(data->random_file, needle->random_file) && Curl_safecmp(data->egdsocket, needle->egdsocket) && Curl_safe_strcasecompare(data->cipher_list, needle->cipher_list) && Curl_safe_strcasecompare(data->cipher_list13, needle->cipher_list13) && Curl_safe_strcasecompare(data->curves, needle->curves) && Curl_safe_strcasecompare(data->pinned_key, needle->pinned_key))"
+                        ],
+                        "delete_location": [
+                            142,
+                            142
+                        ],
+                        "delete_hunk": [
+                            "  if((data->version == needle->version) &&\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: safecmp -> safecmp": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: Curl_ssl_config_matches -> Curl_ssl_config_matches": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

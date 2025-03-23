@@ -1,0 +1,66 @@
+{
+    "testcase": {
+        "file134": {
+            "match_message": {
+                "Same: __getcwd -> __getcwd": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 56 -> 79",
+                        "L2": "3: Unique Matched by Source code 56 -> 79"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 72 -> 98",
+                        "L2": "3: Unique Matched by Source code 72 -> 98"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 79,
+                        "add_hunk": [
+                            "  if (retval > 0 && path[0] == '/')\n"
+                        ],
+                        "delete_location": [
+                            79,
+                            79
+                        ],
+                        "delete_hunk": [
+                            "  if (retval >= 0)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 98,
+                        "add_hunk": [
+                            "  if (retval >= 0 || errno == ENAMETOOLONG)\n"
+                        ],
+                        "delete_location": [
+                            98,
+                            98
+                        ],
+                        "delete_hunk": [
+                            "  if (errno == ENAMETOOLONG)\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: __getcwd -> __getcwd": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

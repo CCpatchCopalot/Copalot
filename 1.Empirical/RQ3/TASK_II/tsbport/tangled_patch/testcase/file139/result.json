@@ -1,0 +1,77 @@
+{
+    "testcase": {
+        "file139": {
+            "match_message": {
+                "Same: BM_ParseGlobalQuantizer -> BM_ParseGlobalQuantizer": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 157->180",
+                        "L2": "3: Unique Matched by Source code 158 -> 181"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 158 -> 181",
+                        "L2": "3: Unique Matched by Source code 159 -> 182"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 168->191",
+                        "L2": "5: Matched by Syntax(AST) similarity 168->191"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 180,
+                        "add_hunk": [
+                            "\t\tif (!node->sgprivate->num_instances) {\n",
+                            "\t\t\tnode->sgprivate->num_instances = 1;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 181,
+                        "add_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 191,
+                        "add_hunk": [
+                            "\tgf_node_unregister(node, NULL);\n",
+                            "\tgf_node_unregister(node, NULL);\n"
+                        ],
+                        "delete_location": [
+                            191,
+                            191
+                        ],
+                        "delete_hunk": [
+                            "\t\tnode->sgprivate->num_instances = 2;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: BM_ParseGlobalQuantizer -> BM_ParseGlobalQuantizer": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call"
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+293c293
+< set_ssl_ciphers(SCHANNEL_CRED *schannel_cred, char *ciphers)
+---
+> set_ssl_ciphers(SCHANNEL_CRED *schannel_cred, char *ciphers,int *algIds)
+297,298c297
+<   static ALG_ID algIds[45]; /*There are 45 listed in the MS headers*/
+<   while(startCur && (0 != *startCur) && (algCount < 45)) {
+---
+>   while(startCur && (0 != *startCur) && (algCount < NUMOF_CIPHERS)) {
+524c523
+<       result = set_ssl_ciphers(&schannel_cred, SSL_CONN_CONFIG(cipher_list));
+---
+>       result = set_ssl_ciphers(&schannel_cred, SSL_CONN_CONFIG(cipher_list), BACKEND->algIds);

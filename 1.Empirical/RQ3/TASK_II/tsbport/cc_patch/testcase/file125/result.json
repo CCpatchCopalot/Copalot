@@ -1,0 +1,18 @@
+{
+    "testcase": {
+        "file125": {
+            "runtime_info": {
+                "Global": [
+                    "Error in dealing testcase : file125",
+                    "IndexError('list index out of range') : Traceback (most recent call last):\n  File \"src/Main.py\", line 117, in runing_file\n    translator.prepare()\n  File \"/tsbport/src/Translator.py\", line 822, in prepare\n    pc_add_set = semantic_transfer(self.project,pa_delete_hunk,pa_add_hunk,pc_delete_hunk,pa_pc_namespace_mapping)\n  File \"/tsbport/src/SemanticChecker.py\", line 214, in semantic_transfer\n    pc_add_set = construct_backport(project,pa_pc_namespace_mapping,pa_delete_set,pa_add_set,pc_delete_set,pa_del_add_match,pa_pc_match)\n  File \"/tsbport/src/SemanticChecker.py\", line 254, in construct_backport\n    pc_add_stmt = BackportHunk(project,patch_type,_pa_delete_hunk,_pa_add_hunk,_pc_delete_hunk,pa_pc_namespace_mapping)\n  File \"/tsbport/src/SemanticChecker.py\", line 269, in BackportHunk\n    pc_add_hunk = Backport_Change_Value(project,pa_delete_hunk,pa_add_hunk,pc_delete_hunk,pa_pc_namespace_mapping)\n  File \"/tsbport/src/SemanticChecker.py\", line 430, in Backport_Change_Value\n    pa_delete_statement = ParseExprStatement(pa_delete_hunk)\n  File \"/tsbport/src/SemanticChecker.py\", line 425, in ParseExprStatement\n    statement['expr_body'] = code.split('=')[1].strip()\nIndexError: list index out of range\n"
+                ]
+            },
+            "prepare_info": {},
+            "semanic_check": {},
+            "verify_patch": {},
+            "patch_types": [
+                "change_value"
+            ]
+        }
+    }
+}

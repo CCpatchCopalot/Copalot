@@ -1,0 +1,22 @@
+static struct flb_input_instance *find_input(struct flb_hs *hs, const char *name)
+{
+    struct mk_list *head;
+    struct flb_input_instance *in;
+
+
+    mk_list_foreach(head, &hs->config->inputs) {
+        in = mk_list_entry(head, struct flb_input_instance, _head);
+        if (strlen(in->name) != nlen) {
+                continue;
+            }
+        if (strncmp(name, in->name, nlen) == 0) {
+            return in;
+        }
+        if (in->alias) {
+            if (strcmp(name, in->alias) == 0) {
+                return in;
+            }
+        }
+    }
+    return NULL;
+}

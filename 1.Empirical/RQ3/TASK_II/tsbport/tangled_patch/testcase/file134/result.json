@@ -1,0 +1,47 @@
+{
+    "testcase": {
+        "file134": {
+            "match_message": {
+                "Same: gf_isom_get_media_data_size -> gf_isom_get_media_data_size": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 3258 -> 2984",
+                        "L2": "3: Unique Matched by Source code 3259 -> 2985"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 29,
+                        "add_hunk": [
+                            "#include <gpac/internal/media_dev.h>\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 2984,
+                        "add_hunk": [
+                            "\tif (!stsz) return 0;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_get_media_data_size -> gf_isom_get_media_data_size": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

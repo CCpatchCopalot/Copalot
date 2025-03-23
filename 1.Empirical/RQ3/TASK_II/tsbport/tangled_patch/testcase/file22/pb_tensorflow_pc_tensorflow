@@ -1,0 +1,632 @@
+name: j  @ 183 @ name: i  @ 71 @ 
+expr  @ 140 @ expr  @ 43 @ 
+name: int  @ 18 @ name: int  @ 18 @ 
+name  @ 164 @ name  @ 57 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr  @ 141 @ expr  @ 32 @ 
+decl  @ 81 @ decl  @ 92 @ 
+argument_list  @ 204 @ argument_list  @ 78 @ 
+call  @ 17 @ call  @ 17 @ 
+operator: (  @ 10 @ operator: (  @ 10 @ 
+block  @ 19 @ block  @ 19 @ 
+name: error  @ 164 @ name: error  @ 57 @ 
+name: empty  @ 39 @ name: eval_pattern  @ 31 @ 
+name: queue_item  @ 157 @ name: dir_q  @ 53 @ 
+argument_list  @ 39 @ argument_list  @ 33 @ 
+literal: 1  @ 57 @ literal: "."  @ 37 @ 
+argument_list  @ 17 @ argument_list  @ 17 @ 
+operator: -  @ 16 @ operator: -  @ 16 @ 
+name: results  @ 96 @ name: results  @ 28 @ 
+expr  @ 19 @ expr  @ 19 @ 
+type  @ 2 @ type  @ 2 @ 
+if_stmt  @ 164 @ if_stmt  @ 57 @ 
+expr  @ 162 @ expr  @ 54 @ 
+expr  @ 179 @ expr  @ 65 @ 
+specifier: const  @ 91 @ specifier: const  @ 26 @ 
+expr  @ 182 @ expr  @ 70 @ 
+comment: // INVARIANT: If `{_, ix}` is in queue, then `ix<dirs.size() - 1`.  @ 138 @ comment: // any point in exploring that child path).  @ 49 @ 
+name: expand_queue  @ 140 @ name: dir_q  @ 43 @ 
+name: string  @ 181 @ name: string  @ 67 @ 
+name: parent  @ 163 @ name: current_dir  @ 55 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 17 @ 
+name  @ 140 @ name  @ 43 @ 
+expr  @ 39 @ expr  @ 33 @ 
+name: TARGET_OS_IPHONE  @ 11 @ name: TARGET_OS_IPHONE  @ 11 @ 
+name  @ 19 @ name  @ 19 @ 
+name: children_status  @ 178 @ name: children_dir_status  @ 63 @ 
+name: d  @ 81 @ name: f  @ 92 @ 
+operator: .  @ 156 @ operator: .  @ 52 @ 
+name  @ 91 @ name  @ 27 @ 
+argument  @ 183 @ argument  @ 71 @ 
+expr  @ 178 @ expr  @ 63 @ 
+name: vector  @ 162 @ name: vector  @ 54 @ 
+name: std  @ 10 @ name: std  @ 10 @ 
+comment: // If the pattern ends with a `/` (or `\\` on Windows), we need to strip it  @ 52 @ comment: // If dir is empty then we need to fix up fixed_prefix and eval_pattern to  @ 34 @ 
+name: j  @ 199 @ name: i  @ 77 @ 
+init  @ 18 @ init  @ 18 @ 
+call  @ 64 @ call  @ 44 @ 
+name: fixed_prefix  @ 35 @ name: fixed_prefix  @ 30 @ 
+name: std  @ 91 @ name: std  @ 27 @ 
+expr  @ 183 @ expr  @ 71 @ 
+name: JoinPath  @ 181 @ name: JoinPath  @ 67 @ 
+expr  @ 140 @ expr  @ 50 @ 
+init  @ 18 @ init  @ 18 @ 
+block_content  @ 183 @ block_content  @ 71 @ 
+name  @ 157 @ name  @ 53 @ 
+operator: (  @ 180 @ operator: (  @ 66 @ 
+modifier: &  @ 81 @ modifier: &  @ 92 @ 
+operator: =  @ 70 @ operator: =  @ 39 @ 
+name  @ 163 @ name  @ 55 @ 
+argument_list  @ 210 @ argument_list  @ 87 @ 
+expr  @ 64 @ expr  @ 44 @ 
+operator: &  @ 179 @ operator: &  @ 65 @ 
+name: i  @ 86 @ name: i  @ 80 @ 
+name: i  @ 156 @ name: i  @ 67 @ 
+name: path  @ 185 @ name: child_path  @ 74 @ 
+argument  @ 10 @ argument  @ 10 @ 
+type  @ 10 @ type  @ 10 @ 
+name: int  @ 10 @ name: int  @ 10 @ 
+name: Status  @ 220 @ name: ret  @ 97 @ 
+operator: ->  @ 96 @ operator: ->  @ 28 @ 
+argument  @ 214 @ argument  @ 93 @ 
+name: parent  @ 181 @ name: current_dir  @ 67 @ 
+expr  @ 35 @ expr  @ 30 @ 
+specifier: auto  @ 81 @ specifier: auto  @ 92 @ 
+expr  @ 55 @ expr  @ 36 @ 
+name: pattern  @ 36 @ name: pattern  @ 30 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: next_expand_queue  @ 210 @ name: all_files  @ 87 @ 
+expr  @ 164 @ expr  @ 57 @ 
+expr  @ 182 @ expr  @ 70 @ 
+name: fs  @ 179 @ name: fs  @ 65 @ 
+name: expand_queue  @ 217 @ name: f  @ 94 @ 
+comment: // on the iOS platform due to its problems with more than a few threads.  @ 9 @ comment: // on the iOS platform due to its problems with more than a few threads.  @ 9 @ 
+name: f  @ 19 @ name: f  @ 19 @ 
+block  @ 10 @ block  @ 10 @ 
+name: io  @ 39 @ name: io  @ 33 @ 
+expr  @ 140 @ expr  @ 43 @ 
+name: pair  @ 140 @ name: deque  @ 43 @ 
+name  @ 210 @ name  @ 87 @ 
+name: children_status  @ 183 @ name: children_dir_status  @ 71 @ 
+for  @ 18 @ for  @ 18 @ 
+expr  @ 220 @ expr  @ 97 @ 
+expr  @ 163 @ expr  @ 55 @ 
+name: Status  @ 115 @ name: Status  @ 45 @ 
+operator: &  @ 91 @ operator: &  @ 26 @ 
+operator: ->  @ 207 @ operator: .  @ 85 @ 
+operator: ++  @ 18 @ operator: ++  @ 18 @ 
+name: emplace_back  @ 210 @ name: push_back  @ 87 @ 
+call  @ 164 @ call  @ 57 @ 
+argument_list  @ 96 @ argument_list  @ 28 @ 
+call  @ 36 @ call  @ 30 @ 
+name: next_expand_queue  @ 141 @ name: all_files  @ 32 @ 
+expr  @ 204 @ expr  @ 78 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name: ForEach  @ 10 @ name: ForEach  @ 10 @ 
+expr  @ 57 @ expr  @ 37 @ 
+call  @ 188 @ call  @ 64 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name  @ 183 @ name  @ 71 @ 
+name: function  @ 10 @ name: function  @ 10 @ 
+init  @ 6 @ init  @ 6 @ 
+call  @ 156 @ call  @ 52 @ 
+name: fs  @ 185 @ name: fs  @ 74 @ 
+call  @ 185 @ call  @ 74 @ 
+name: children  @ 181 @ name: children  @ 67 @ 
+name: children  @ 178 @ name: children  @ 63 @ 
+name: code  @ 200 @ name: code  @ 80 @ 
+expr_stmt  @ 183 @ expr_stmt  @ 71 @ 
+name: is_directory  @ 57 @ name: dir  @ 37 @ 
+expr  @ 147 @ expr  @ 51 @ 
+name  @ 199 @ name  @ 77 @ 
+argument_list  @ 178 @ argument_list  @ 50 @ 
+argument_list  @ 36 @ argument_list  @ 30 @ 
+comment: // By design, we don't match anything on empty pattern  @ 95 @ comment: // Setup a BFS to explore everything under dir.  @ 42 @ 
+expr  @ 205 @ expr  @ 80 @ 
+name: emplace_back  @ 64 @ name: push_back  @ 44 @ 
+operator: ::  @ 140 @ operator: ::  @ 43 @ 
+name  @ 36 @ name  @ 30 @ 
+decl  @ 16 @ decl  @ 16 @ 
+name: auto  @ 152 @ name: string  @ 52 @ 
+name: tensorflow  @ 164 @ name: tensorflow  @ 57 @ 
+comment: // would be empty.  @ 54 @ comment: // include . as the top level directory.  @ 35 @ 
+name: IsDirectory  @ 185 @ name: IsDirectory  @ 74 @ 
+expr  @ 18 @ expr  @ 18 @ 
+argument  @ 185 @ argument  @ 74 @ 
+name: string  @ 204 @ name: string  @ 78 @ 
+argument  @ 17 @ argument  @ 17 @ 
+argument  @ 40 @ argument  @ 39 @ 
+argument  @ 36 @ argument  @ 30 @ 
+expr  @ 183 @ expr  @ 71 @ 
+specifier: const  @ 204 @ specifier: const  @ 78 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 13 @ 
+argument  @ 91 @ argument  @ 27 @ 
+directive: if  @ 11 @ directive: if  @ 11 @ 
+macro  @ 4 @ macro  @ 4 @ 
+operator: .  @ 36 @ operator: .  @ 30 @ 
+argument  @ 36 @ argument  @ 30 @ 
+name: j  @ 204 @ name: i  @ 78 @ 
+operator: ::  @ 39 @ operator: ::  @ 33 @ 
+expr  @ 36 @ expr  @ 30 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name  @ 178 @ name  @ 50 @ 
+operator: .  @ 64 @ operator: .  @ 44 @ 
+expr  @ 91 @ expr  @ 26 @ 
+name: find_first_of  @ 36 @ name: find_first_of  @ 30 @ 
+name  @ 141 @ name  @ 32 @ 
+name: Status  @ 183 @ name: Status  @ 71 @ 
+name: namespace  @ 2 @ name: namespace  @ 2 @ 
+expr  @ 214 @ expr  @ 93 @ 
+argument_list  @ 16 @ argument_list  @ 16 @ 
+operator: ::  @ 181 @ operator: ::  @ 67 @ 
+block_content  @ 201 @ block_content  @ 58 @ 
+type  @ 81 @ type  @ 92 @ 
+continue  @ 201 @ continue  @ 58 @ 
+name: f  @ 19 @ name: f  @ 19 @ 
+call  @ 163 @ call  @ 55 @ 
+name: expand_queue  @ 156 @ name: dir_q  @ 52 @ 
+operator: ,  @ 179 @ operator: ,  @ 65 @ 
+name: handle_level  @ 214 @ name: eval_pattern  @ 93 @ 
+literal: "Operation not needed"  @ 183 @ literal: "Operation not needed"  @ 72 @ 
+argument  @ 16 @ argument  @ 16 @ 
+operator: ::  @ 91 @ operator: ::  @ 27 @ 
+else  @ 15 @ else  @ 15 @ 
+name: first  @ 12 @ name: first  @ 12 @ 
+operator: ==  @ 164 @ operator: ==  @ 57 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+name: namespace  @ 4 @ name: namespace  @ 4 @ 
+argument  @ 10 @ argument  @ 10 @ 
+directive: endif  @ 21 @ directive: endif  @ 21 @ 
+call  @ 147 @ call  @ 51 @ 
+decl  @ 12 @ decl  @ 12 @ 
+operator: =  @ 185 @ operator: =  @ 74 @ 
+name: dir  @ 60 @ name: fixed_prefix  @ 38 @ 
+expr  @ 96 @ expr  @ 28 @ 
+name: auto  @ 179 @ name: ForEach  @ 64 @ 
+name: dirs  @ 64 @ name: dir_q  @ 44 @ 
+name: substr  @ 36 @ name: substr  @ 30 @ 
+name: results  @ 207 @ name: dir_q  @ 85 @ 
+argument  @ 60 @ argument  @ 38 @ 
+name: i  @ 19 @ name: i  @ 19 @ 
+call  @ 214 @ call  @ 93 @ 
+expr  @ 16 @ expr  @ 16 @ 
+index  @ 179 @ index  @ 65 @ 
+name: num_threads  @ 16 @ name: num_threads  @ 16 @ 
+name: FileSystem  @ 91 @ name: FileSystem  @ 26 @ 
+expr_stmt  @ 141 @ expr_stmt  @ 32 @ 
+name: size  @ 205 @ name: error  @ 80 @ 
+name: j  @ 180 @ name: i  @ 66 @ 
+name: code  @ 164 @ name: code  @ 57 @ 
+call  @ 199 @ call  @ 77 @ 
+name: int  @ 12 @ name: int  @ 12 @ 
+name: string  @ 141 @ name: string  @ 32 @ 
+argument_list  @ 60 @ argument_list  @ 38 @ 
+argument_list  @ 188 @ argument_list  @ 64 @ 
+name: dir  @ 60 @ name: dir  @ 38 @ 
+name  @ 204 @ name  @ 78 @ 
+expr_stmt  @ 217 @ expr_stmt  @ 94 @ 
+call  @ 200 @ call  @ 80 @ 
+expr  @ 156 @ expr  @ 67 @ 
+name: first  @ 10 @ name: first  @ 10 @ 
+name: kNumThreads  @ 16 @ name: kNumThreads  @ 16 @ 
+operator: =  @ 60 @ operator: =  @ 38 @ 
+argument  @ 188 @ argument  @ 64 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 1 @ 
+expr  @ 183 @ expr  @ 71 @ 
+expr  @ 18 @ expr  @ 18 @ 
+block  @ 180 @ block  @ 66 @ 
+name: CANCELLED  @ 183 @ name: CANCELLED  @ 71 @ 
+operator: ++  @ 12 @ operator: ++  @ 12 @ 
+argument  @ 16 @ argument  @ 16 @ 
+name: children  @ 163 @ name: children  @ 55 @ 
+argument  @ 178 @ argument  @ 63 @ 
+operator: .  @ 199 @ operator: .  @ 77 @ 
+operator: .  @ 178 @ operator: .  @ 63 @ 
+name: string  @ 140 @ name: string  @ 43 @ 
+argument  @ 182 @ argument  @ 70 @ 
+name: children_status  @ 180 @ name: children_dir_status  @ 66 @ 
+comment: // A globbing pattern can only start with these characters:  @ 24 @ comment: // namespace  @ 24 @ 
+name: kGlobbingChars  @ 25 @ name: GetMatchingPaths  @ 26 @ 
+name: j  @ 185 @ name: i  @ 74 @ 
+name: children  @ 199 @ name: children  @ 77 @ 
+name: error  @ 183 @ name: error  @ 71 @ 
+condition  @ 12 @ condition  @ 12 @ 
+argument_list  @ 207 @ argument_list  @ 85 @ 
+operator: <  @ 199 @ operator: <  @ 77 @ 
+name: JoinPath  @ 40 @ name: JoinPath  @ 39 @ 
+name: Dirname  @ 39 @ name: Dirname  @ 33 @ 
+specifier: const  @ 181 @ specifier: const  @ 67 @ 
+expr  @ 217 @ expr  @ 94 @ 
+expr  @ 163 @ expr  @ 55 @ 
+name: size  @ 178 @ name: size  @ 63 @ 
+name: f  @ 13 @ name: f  @ 13 @ 
+name: pattern  @ 36 @ name: pattern  @ 30 @ 
+name: last  @ 16 @ name: last  @ 16 @ 
+expr  @ 10 @ expr  @ 10 @ 
+argument  @ 182 @ argument  @ 70 @ 
+operator: ::  @ 217 @ operator: ->  @ 94 @ 
+operator: &  @ 179 @ operator: &  @ 65 @ 
+name: first  @ 157 @ name: pop_front  @ 53 @ 
+expr  @ 185 @ expr  @ 74 @ 
+name: tensorflow  @ 1 @ name: tensorflow  @ 1 @ 
+block  @ 12 @ block  @ 12 @ 
+expr  @ 181 @ expr  @ 67 @ 
+name: fs  @ 182 @ name: absl  @ 70 @ 
+type  @ 152 @ type  @ 52 @ 
+argument  @ 204 @ argument  @ 78 @ 
+literal: "*?[\\"  @ 25 @ literal: "*?[\\"  @ 30 @ 
+argument  @ 163 @ argument  @ 55 @ 
+operator: ::  @ 10 @ operator: ::  @ 10 @ 
+control  @ 18 @ control  @ 18 @ 
+expr  @ 178 @ expr  @ 50 @ 
+incr  @ 18 @ incr  @ 18 @ 
+name: ThreadPool  @ 17 @ name: ThreadPool  @ 17 @ 
+name: dirs  @ 74 @ name: dir  @ 39 @ 
+name: OK  @ 115 @ name: ret  @ 45 @ 
+name: Env  @ 91 @ name: Env  @ 26 @ 
+name: std  @ 140 @ name: std  @ 43 @ 
+expr  @ 13 @ expr  @ 13 @ 
+expr  @ 16 @ expr  @ 16 @ 
+call  @ 17 @ call  @ 17 @ 
+argument_list  @ 199 @ argument_list  @ 77 @ 
+operator: ::  @ 17 @ operator: ::  @ 17 @ 
+name: last  @ 18 @ name: last  @ 18 @ 
+argument_list  @ 200 @ argument_list  @ 80 @ 
+type  @ 16 @ type  @ 16 @ 
+control  @ 12 @ control  @ 12 @ 
+argument  @ 17 @ argument  @ 17 @ 
+comment: // the answer.  @ 127 @ comment: // Status to return.  @ 45 @ 
+expr  @ 13 @ expr  @ 13 @ 
+condition  @ 164 @ condition  @ 57 @ 
+name  @ 162 @ name  @ 54 @ 
+name: Match  @ 182 @ name: StartsWith  @ 70 @ 
+name: expand_queue  @ 147 @ name: dir_q  @ 51 @ 
+init  @ 81 @ init  @ 92 @ 
+type  @ 18 @ type  @ 18 @ 
+argument  @ 91 @ argument  @ 27 @ 
+argument_list  @ 182 @ argument_list  @ 70 @ 
+operator: ::  @ 162 @ operator: ::  @ 54 @ 
+operator: ==  @ 205 @ operator: ==  @ 80 @ 
+expr  @ 183 @ expr  @ 72 @ 
+operator: )  @ 180 @ operator: )  @ 66 @ 
+expr  @ 91 @ expr  @ 27 @ 
+expr  @ 10 @ expr  @ 10 @ 
+expr  @ 91 @ expr  @ 27 @ 
+name: match_pattern  @ 182 @ name: fixed_prefix  @ 70 @ 
+name  @ 188 @ name  @ 64 @ 
+name: GetChildren  @ 163 @ name: GetChildren  @ 55 @ 
+name: emplace_back  @ 207 @ name: push_back  @ 85 @ 
+name: parent  @ 204 @ name: current_dir  @ 78 @ 
+name: int  @ 6 @ name: int  @ 6 @ 
+name: string  @ 35 @ name: string  @ 30 @ 
+expr  @ 179 @ expr  @ 65 @ 
+name: d  @ 55 @ name: dir  @ 36 @ 
+name  @ 181 @ name  @ 67 @ 
+call  @ 210 @ call  @ 87 @ 
+expr  @ 25 @ expr  @ 30 @ 
+call  @ 36 @ call  @ 30 @ 
+name: f  @ 10 @ name: f  @ 10 @ 
+operator: ->  @ 185 @ operator: ->  @ 74 @ 
+name: children  @ 188 @ name: children  @ 64 @ 
+while  @ 147 @ while  @ 51 @ 
+name: i  @ 18 @ name: i  @ 18 @ 
+call  @ 16 @ call  @ 16 @ 
+name: path  @ 210 @ name: child_path  @ 87 @ 
+name: Status  @ 91 @ name: Status  @ 26 @ 
+name: j  @ 199 @ name: i  @ 77 @ 
+name: thread  @ 17 @ name: thread  @ 17 @ 
+name: dir  @ 64 @ name: dir  @ 44 @ 
+name: dirs  @ 152 @ name: current_dir  @ 52 @ 
+argument  @ 91 @ argument  @ 26 @ 
+name: at  @ 156 @ name: front  @ 52 @ 
+expr  @ 60 @ expr  @ 38 @ 
+name: fs  @ 91 @ name: fs  @ 26 @ 
+block_content  @ 12 @ block_content  @ 12 @ 
+name: last  @ 10 @ name: last  @ 10 @ 
+operator: ::  @ 141 @ operator: ::  @ 32 @ 
+expr  @ 39 @ expr  @ 33 @ 
+argument  @ 207 @ argument  @ 85 @ 
+type  @ 6 @ type  @ 6 @ 
+argument  @ 40 @ argument  @ 39 @ 
+expr_stmt  @ 113 @ expr_stmt  @ 44 @ 
+decl  @ 10 @ decl  @ 10 @ 
+expr  @ 141 @ expr  @ 32 @ 
+operator: ,  @ 19 @ operator: ,  @ 19 @ 
+operator: ->  @ 163 @ operator: ->  @ 55 @ 
+if  @ 164 @ if  @ 57 @ 
+expr  @ 12 @ expr  @ 12 @ 
+block  @ 147 @ block  @ 51 @ 
+call  @ 178 @ call  @ 63 @ 
+argument_list  @ 36 @ argument_list  @ 30 @ 
+literal: 0  @ 199 @ literal: 0  @ 77 @ 
+expr  @ 156 @ expr  @ 52 @ 
+expr  @ 178 @ expr  @ 63 @ 
+call  @ 204 @ call  @ 78 @ 
+name: Env  @ 17 @ name: Env  @ 17 @ 
+control  @ 81 @ control  @ 92 @ 
+operator: &  @ 179 @ operator: &  @ 65 @ 
+operator: ::  @ 16 @ operator: ::  @ 16 @ 
+name: parent  @ 179 @ name: children  @ 65 @ 
+name: min  @ 16 @ name: min  @ 16 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 38 @ 
+literal: 0  @ 36 @ literal: 0  @ 30 @ 
+name: PERMISSION_DENIED  @ 164 @ name: PERMISSION_DENIED  @ 57 @ 
+operator: ::  @ 17 @ operator: ::  @ 17 @ 
+name: first  @ 18 @ name: first  @ 18 @ 
+expr  @ 10 @ expr  @ 10 @ 
+comment: // Since we can get into a combinatorial explosion issue (e.g., pattern  @ 128 @ comment: // children_dir_status holds is_dir status for children. It can have three  @ 46 @ 
+name: pattern  @ 91 @ name: pattern  @ 26 @ 
+name: std  @ 141 @ name: std  @ 32 @ 
+name: kNumThreads  @ 6 @ name: kNumThreads  @ 6 @ 
+expr  @ 157 @ expr  @ 53 @ 
+argument  @ 162 @ argument  @ 54 @ 
+operator: ,  @ 179 @ operator: ,  @ 65 @ 
+name: string  @ 48 @ name: string  @ 33 @ 
+expr  @ 214 @ expr  @ 93 @ 
+name: void  @ 10 @ name: void  @ 10 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 10 @ 
+expr  @ 91 @ expr  @ 26 @ 
+block_content  @ 148 @ block_content  @ 52 @ 
+name: vector  @ 91 @ name: vector  @ 27 @ 
+operator: .  @ 188 @ operator: .  @ 64 @ 
+range  @ 81 @ range  @ 92 @ 
+name: Status  @ 163 @ name: Status  @ 55 @ 
+operator: ::  @ 183 @ operator: ::  @ 71 @ 
+name: int  @ 180 @ name: int  @ 66 @ 
+argument_list  @ 64 @ argument_list  @ 44 @ 
+operator: .  @ 147 @ operator: .  @ 51 @ 
+name: children_status  @ 200 @ name: i  @ 77 @ 
+expr  @ 91 @ expr  @ 26 @ 
+decl_stmt  @ 16 @ decl_stmt  @ 16 @ 
+call  @ 55 @ call  @ 36 @ 
+operator: !  @ 147 @ operator: !  @ 51 @ 
+call  @ 19 @ call  @ 19 @ 
+name  @ 36 @ name  @ 30 @ 
+name: empty  @ 147 @ name: empty  @ 51 @ 
+operator: ->  @ 182 @ operator: ::  @ 70 @ 
+name: match_pattern  @ 179 @ name: current_dir  @ 65 @ 
+name: Default  @ 17 @ name: Default  @ 17 @ 
+operator: -  @ 205 @ operator: ::  @ 80 @ 
+operator: *  @ 91 @ operator: *  @ 26 @ 
+expr  @ 207 @ expr  @ 85 @ 
+argument  @ 214 @ argument  @ 93 @ 
+directive: else  @ 15 @ directive: else  @ 15 @ 
+operator: *  @ 91 @ operator: *  @ 27 @ 
+operator: .  @ 55 @ operator: .  @ 36 @ 
+name: int  @ 16 @ name: int  @ 16 @ 
+if  @ 11 @ if  @ 11 @ 
+call  @ 60 @ call  @ 38 @ 
+index  @ 19 @ index  @ 19 @ 
+decl  @ 18 @ decl  @ 18 @ 
+argument  @ 10 @ argument  @ 10 @ 
+call  @ 183 @ call  @ 71 @ 
+block  @ 184 @ block  @ 73 @ 
+expr  @ 40 @ expr  @ 39 @ 
+name  @ 96 @ name  @ 28 @ 
+name: path  @ 182 @ name: child_path  @ 70 @ 
+name: env  @ 91 @ name: env  @ 26 @ 
+argument_list  @ 178 @ argument_list  @ 63 @ 
+name: std  @ 162 @ name: std  @ 54 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+argument  @ 141 @ argument  @ 32 @ 
+comment: // Run a function in parallel using a ThreadPool, but skip the ThreadPool  @ 8 @ comment: // Run a function in parallel using a ThreadPool, but skip the ThreadPool  @ 8 @ 
+operator: .  @ 205 @ operator: ::  @ 80 @ 
+name: pattern  @ 40 @ name: pattern  @ 39 @ 
+expr  @ 204 @ expr  @ 78 @ 
+condition  @ 205 @ condition  @ 80 @ 
+name: size  @ 199 @ name: size  @ 77 @ 
+name: i  @ 12 @ name: i  @ 12 @ 
+block  @ 18 @ block  @ 18 @ 
+operator: .  @ 210 @ operator: .  @ 87 @ 
+expr  @ 181 @ expr  @ 67 @ 
+argument  @ 188 @ argument  @ 64 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+name: JoinPath  @ 204 @ name: JoinPath  @ 78 @ 
+expr_stmt  @ 96 @ expr_stmt  @ 28 @ 
+name: ForEach  @ 214 @ name: MatchPath  @ 93 @ 
+name: i  @ 13 @ name: i  @ 13 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: i  @ 18 @ name: i  @ 18 @ 
+expr  @ 36 @ expr  @ 30 @ 
+expr  @ 11 @ expr  @ 11 @ 
+operator: *  @ 91 @ operator: *  @ 26 @ 
+argument  @ 36 @ argument  @ 30 @ 
+call  @ 40 @ call  @ 39 @ 
+argument_list  @ 217 @ argument_list  @ 94 @ 
+comment: // PRECONDITION: `IsGlobbingPattern(dirs[0]) == false`  @ 132 @ comment: // possible values: OK for true; FAILED_PRECONDITION for false; CANCELLED  @ 47 @ 
+name: i  @ 19 @ name: i  @ 19 @ 
+name: children_status  @ 185 @ name: children_dir_status  @ 74 @ 
+specifier: const  @ 10 @ specifier: const  @ 10 @ 
+expr  @ 188 @ expr  @ 64 @ 
+operator: ::  @ 60 @ operator: ::  @ 38 @ 
+expr  @ 86 @ expr  @ 80 @ 
+name: s  @ 164 @ name: s  @ 57 @ 
+name  @ 185 @ name  @ 74 @ 
+name: std  @ 16 @ name: std  @ 16 @ 
+argument  @ 91 @ argument  @ 26 @ 
+expr  @ 12 @ expr  @ 12 @ 
+operator: &  @ 180 @ operator: &  @ 66 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: children  @ 179 @ name: fixed_prefix  @ 65 @ 
+expr  @ 181 @ expr  @ 67 @ 
+decl  @ 6 @ decl  @ 6 @ 
+expr  @ 182 @ expr  @ 70 @ 
+if_stmt  @ 182 @ if_stmt  @ 70 @ 
+argument  @ 217 @ argument  @ 94 @ 
+name: fixed_prefix  @ 39 @ name: fixed_prefix  @ 33 @ 
+name: i  @ 12 @ name: i  @ 12 @ 
+expr  @ 17 @ expr  @ 17 @ 
+argument  @ 181 @ argument  @ 67 @ 
+call  @ 13 @ call  @ 13 @ 
+name: first  @ 16 @ name: first  @ 16 @ 
+name: dirs  @ 81 @ name: all_files  @ 92 @ 
+index  @ 181 @ index  @ 67 @ 
+name: io  @ 181 @ name: io  @ 67 @ 
+operator: ,  @ 179 @ operator: ,  @ 65 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 1 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name: dirs  @ 48 @ name: dir  @ 33 @ 
+argument  @ 13 @ argument  @ 13 @ 
+index  @ 185 @ index  @ 74 @ 
+operator: .  @ 36 @ operator: .  @ 30 @ 
+argument_list  @ 55 @ argument_list  @ 36 @ 
+expr  @ 207 @ expr  @ 85 @ 
+operator: ::  @ 164 @ operator: ::  @ 57 @ 
+argument_list  @ 178 @ argument_list  @ 63 @ 
+operator: =  @ 181 @ operator: =  @ 67 @ 
+argument  @ 183 @ argument  @ 72 @ 
+argument_list  @ 147 @ argument_list  @ 51 @ 
+name: io  @ 60 @ name: io  @ 38 @ 
+init  @ 16 @ init  @ 16 @ 
+argument_list  @ 185 @ argument_list  @ 74 @ 
+operator: =  @ 183 @ operator: =  @ 71 @ 
+for  @ 12 @ for  @ 12 @ 
+name  @ 10 @ name  @ 10 @ 
+name: path  @ 204 @ name: child_path  @ 78 @ 
+call  @ 207 @ call  @ 85 @ 
+argument_list  @ 17 @ argument_list  @ 17 @ 
+name: fs  @ 163 @ name: fs  @ 55 @ 
+name: string  @ 91 @ name: string  @ 27 @ 
+name: path  @ 181 @ name: child_path  @ 67 @ 
+argument_list  @ 140 @ argument_list  @ 43 @ 
+operator: &  @ 10 @ operator: &  @ 10 @ 
+name  @ 64 @ name  @ 44 @ 
+name: threads  @ 17 @ name: threads  @ 17 @ 
+argument  @ 19 @ argument  @ 19 @ 
+argument  @ 17 @ argument  @ 17 @ 
+name: clear  @ 96 @ name: clear  @ 28 @ 
+argument  @ 64 @ argument  @ 44 @ 
+type  @ 91 @ type  @ 26 @ 
+index  @ 204 @ index  @ 78 @ 
+name: i  @ 12 @ name: i  @ 12 @ 
+argument  @ 19 @ argument  @ 19 @ 
+argument_list  @ 91 @ argument_list  @ 27 @ 
+call  @ 181 @ call  @ 67 @ 
+condition  @ 182 @ condition  @ 70 @ 
+name: threads  @ 19 @ name: threads  @ 19 @ 
+expr  @ 17 @ expr  @ 17 @ 
+expr  @ 163 @ expr  @ 55 @ 
+operator: ::  @ 204 @ operator: ::  @ 78 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+name: Status  @ 178 @ name: Status  @ 50 @ 
+operator: =  @ 204 @ operator: =  @ 78 @ 
+argument  @ 210 @ argument  @ 87 @ 
+argument  @ 39 @ argument  @ 33 @ 
+name: string  @ 162 @ name: string  @ 54 @ 
+name  @ 147 @ name  @ 51 @ 
+operator: <  @ 18 @ operator: <  @ 18 @ 
+block  @ 205 @ block  @ 84 @ 
+argument_list  @ 156 @ argument_list  @ 52 @ 
+expr  @ 162 @ expr  @ 54 @ 
+operator: )  @ 10 @ operator: )  @ 10 @ 
+call  @ 19 @ call  @ 19 @ 
+argument  @ 178 @ argument  @ 50 @ 
+name: string  @ 91 @ name: string  @ 26 @ 
+operator: .  @ 200 @ operator: )  @ 77 @ 
+name: void  @ 10 @ name: void  @ 10 @ 
+name: Schedule  @ 19 @ name: Schedule  @ 19 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+init  @ 12 @ init  @ 12 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name: results  @ 91 @ name: results  @ 27 @ 
+name: io  @ 40 @ name: io  @ 39 @ 
+expr_stmt  @ 185 @ expr_stmt  @ 74 @ 
+expr  @ 60 @ expr  @ 38 @ 
+name: swap  @ 217 @ name: push_back  @ 94 @ 
+name: expand_queue  @ 214 @ name: f  @ 93 @ 
+if  @ 182 @ if  @ 70 @ 
+name: size_t  @ 199 @ name: int  @ 77 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: path  @ 207 @ name: child_path  @ 85 @ 
+index  @ 183 @ index  @ 71 @ 
+name: i  @ 18 @ name: i  @ 18 @ 
+argument_list  @ 40 @ argument_list  @ 39 @ 
+name: int  @ 10 @ name: int  @ 10 @ 
+block  @ 200 @ block  @ 57 @ 
+name: last  @ 12 @ name: last  @ 12 @ 
+name: std  @ 178 @ name: ret  @ 60 @ 
+expr  @ 40 @ expr  @ 39 @ 
+argument  @ 204 @ argument  @ 78 @ 
+argument  @ 156 @ argument  @ 67 @ 
+name: dirs  @ 205 @ name: tensorflow  @ 80 @ 
+argument_list  @ 214 @ argument_list  @ 93 @ 
+literal: "ForEach"  @ 17 @ literal: "ForEach"  @ 17 @ 
+name: std  @ 217 @ name: results  @ 94 @ 
+specifier: const  @ 81 @ specifier: const  @ 92 @ 
+block_content  @ 13 @ block_content  @ 13 @ 
+name  @ 185 @ name  @ 74 @ 
+block  @ 182 @ block  @ 70 @ 
+expr_stmt  @ 178 @ expr_stmt  @ 63 @ 
+expr  @ 185 @ expr  @ 74 @ 
+endif  @ 21 @ endif  @ 21 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: io  @ 204 @ name: io  @ 78 @ 
+type  @ 12 @ type  @ 12 @ 
+name: num_threads  @ 17 @ name: num_threads  @ 17 @ 
+operator: ::  @ 164 @ operator: ::  @ 57 @ 
+operator: .  @ 19 @ operator: .  @ 19 @ 
+expr  @ 16 @ expr  @ 16 @ 
+literal: 0  @ 188 @ literal: 0  @ 64 @ 
+argument_list  @ 181 @ argument_list  @ 67 @ 
+operator: .  @ 164 @ operator: .  @ 57 @ 
+argument_list  @ 91 @ argument_list  @ 26 @ 
+argument  @ 10 @ argument  @ 10 @ 
+incr  @ 12 @ incr  @ 12 @ 
+expr  @ 217 @ expr  @ 94 @ 
+call  @ 96 @ call  @ 28 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+name: pair  @ 141 @ name: vector  @ 32 @ 
+operator: =  @ 57 @ operator: =  @ 37 @ 
+operator: !  @ 182 @ operator: !  @ 70 @ 
+expr  @ 204 @ expr  @ 78 @ 
+condition  @ 18 @ condition  @ 18 @ 
+name: tensorflow  @ 183 @ name: tensorflow  @ 71 @ 
+argument_list  @ 163 @ argument_list  @ 55 @ 
+operator: ::  @ 183 @ operator: ::  @ 71 @ 
+argument_list  @ 164 @ argument_list  @ 57 @ 
+expr  @ 214 @ expr  @ 93 @ 
+init  @ 12 @ init  @ 12 @ 
+type  @ 1 @ type  @ 1 @ 
+argument_list  @ 162 @ argument_list  @ 54 @ 
+name: internal  @ 2 @ name: internal  @ 2 @ 
+operator: <  @ 12 @ operator: <  @ 12 @ 
+operator: ,  @ 179 @ operator: ,  @ 65 @ 
+expr  @ 81 @ expr  @ 92 @ 
+expr  @ 185 @ expr  @ 74 @ 
+expr  @ 204 @ expr  @ 78 @ 
+operator: .  @ 157 @ operator: .  @ 53 @ 
+expr_stmt  @ 140 @ expr_stmt  @ 43 @ 
+name: size  @ 188 @ name: size  @ 64 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+operator: ::  @ 178 @ operator: .  @ 63 @ 
+name  @ 178 @ name  @ 63 @ 
+argument_list  @ 141 @ argument_list  @ 32 @ 
+name: int  @ 10 @ name: int  @ 10 @ 
+argument_list  @ 183 @ argument_list  @ 71 @ 
+name: Dirname  @ 60 @ name: JoinPath  @ 38 @ 
+operator: ::  @ 40 @ operator: ::  @ 39 @ 
+call  @ 39 @ call  @ 33 @ 
+name  @ 207 @ name  @ 85 @ 
+name  @ 156 @ name  @ 52 @ 
+expr  @ 210 @ expr  @ 87 @ 
+call  @ 178 @ call  @ 63 @ 
+argument  @ 163 @ argument  @ 55 @ 
+comment: // INVARIANT: If `{d, _}` is in queue, then `d` is a real directory.  @ 137 @ comment: // if we don't calculate IsDirectory (we might do that because there isn't  @ 48 @ 
+name: children  @ 162 @ name: children  @ 54 @ 
+block_content  @ 185 @ block_content  @ 74 @ 
+name: s  @ 163 @ name: s  @ 55 @ 
+argument  @ 140 @ argument  @ 43 @ 
+expr  @ 188 @ expr  @ 64 @ 
+condition  @ 147 @ condition  @ 51 @ 
+operator: ++  @ 199 @ operator: ++  @ 77 @ 
+name: children  @ 204 @ name: children  @ 78 @ 
+name: vector  @ 178 @ name: vector  @ 50 @ 
+expr  @ 64 @ expr  @ 44 @ 
+argument  @ 91 @ argument  @ 26 @ 
+expr  @ 40 @ expr  @ 39 @ 
+name: size  @ 55 @ name: empty  @ 36 @ 
+operator: &  @ 163 @ operator: &  @ 55 @ 
+block_content  @ 19 @ block_content  @ 19 @ 
+name  @ 55 @ name  @ 36 @ 
+

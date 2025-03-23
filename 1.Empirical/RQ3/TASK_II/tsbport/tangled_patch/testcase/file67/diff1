@@ -1,0 +1,25 @@
+539d538
+<     HDassert(ndims > 0);
+542c541,543
+<     /* Compute the # of chunks in dataset dimensions */
+---
+>     /* Can happen when corrupt files are parsed */
+>     if (ndims == 0)
+>         HGOTO_ERROR(H5E_DATASET, H5E_BADVALUE, FAIL, "number of dimensions cannot be zero")/* Compute the # of chunks in dataset dimensions */
+688a690
+>     hbool_t              idx_init  = FALSE;
+752c754,756
+<         HGOTO_ERROR(H5E_DATASET, H5E_CANTINIT, FAIL, "can't initialize indexing information")/* Set the number of chunks in dataset, etc. */
+---
+>         HGOTO_ERROR(H5E_DATASET, H5E_CANTINIT, FAIL, "can't initialize indexing information")idx_init = TRUE;
+> 
+>     /* Set the number of chunks in dataset, etc. */
+756a761,768
+>     if (FAIL == ret_value) {
+>         if (rdcc->slot)
+>             rdcc->slot = H5FL_SEQ_FREE(H5D_rdcc_ent_ptr_t, rdcc->slot);
+> 
+>         if (idx_init && sc->ops->dest && (sc->ops->dest)(&idx_info) < 0)
+>             HDONE_ERROR(H5E_DATASET, H5E_CANTFREE, FAIL, "unable to release chunk index info");
+>     }
+> 

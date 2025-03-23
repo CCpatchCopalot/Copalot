@@ -1,0 +1,89 @@
+{
+    "testcase": {
+        "file177": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "39 -> 72",
+                        "L2": "40 -> 73",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'cpp:macro', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "72",
+                            "verify result": "False"
+                        },
+                        "type": "cpp:macro",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "cpp:macro",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "67 -> 103",
+                        "L2": "68 -> 103",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:struct', 'info': [], 'ast_patch': 'ALG_ID algIds[NUMOF_CIPHERS];'}",
+                            "verify location": "-1",
+                            "output location": "103",
+                            "verify result": "False"
+                        },
+                        "type": "src:struct",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:struct",
+                            "info": [],
+                            "ast_patch": "ALG_ID algIds[NUMOF_CIPHERS];"
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 72,
+                        "add_hunk": [
+                            "#define NUMOF_CIPHERS 45 /* There are 45 listed in the MS headers */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 103,
+                        "add_hunk": [
+                            "  ALG_ID algIds[NUMOF_CIPHERS];\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "cpp:macro"
+                    },
+                    "Seg_1": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "src:struct"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "outside",
+                "change_type"
+            ]
+        }
+    }
+}

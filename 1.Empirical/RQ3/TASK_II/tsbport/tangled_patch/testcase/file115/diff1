@@ -1,0 +1,6 @@
+456c456
+< 		if (esd) {
+---
+> 		if (esd && esd->decoderConfig) {
+507a508
+> 			if (esd) gf_odf_desc_del((GF_Descriptor *)esd);

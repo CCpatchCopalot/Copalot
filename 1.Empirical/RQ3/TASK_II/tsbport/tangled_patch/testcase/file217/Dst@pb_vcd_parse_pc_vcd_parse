@@ -1,0 +1,449 @@
+static void vcd_parse(void)
+{
+int tok;
+
+for(;;)
+	{
+	switch(get_token())
+		{
+		case T_COMMENT:
+			sync_end("COMMENT:");
+			break;
+		case T_DATE:
+			sync_end("DATE:");
+			break;
+		case T_VERSION:
+			sync_end("VERSION:");
+			break;
+                case T_TIMEZERO:
+                        {
+                        int vtok=get_token();
+                        if((vtok==T_END)||(vtok==T_EOF)) break;
+                        time_zero=atoi_64(yytext);
+                        vzt_wr_set_timezero(lt, time_zero);
+                        sync_end(NULL);
+                        }
+                        break;
+		case T_TIMESCALE:
+			{
+			int vtok;
+			int i;
+			char prefix=' ';
+			int timelogadjust = 0;
+
+			vtok=get_token();
+			if((vtok==T_END)||(vtok==T_EOF)) break;
+			time_scale=atoi_64(yytext);
+			if(!time_scale) time_scale=1;
+			else if (time_scale == 10 ) timelogadjust = +1;
+			else if (time_scale == 100) timelogadjust = +2;
+
+			for(i=0;i<yylen;i++)
+				{
+				if((yytext[i]<'0')||(yytext[i]>'9'))
+					{
+					prefix=yytext[i];
+					break;
+					}
+				}
+			if(prefix==' ')
+				{
+				vtok=get_token();
+				if((vtok==T_END)||(vtok==T_EOF)) break;
+				prefix=yytext[0];
+				}
+			switch(prefix)
+				{
+				case 's':
+				case ' ': vzt_wr_set_timescale(lt,  0+timelogadjust); break;
+				case 'm': vzt_wr_set_timescale(lt, -3+timelogadjust); break;
+				case 'u': vzt_wr_set_timescale(lt, -6+timelogadjust); break;
+				case 'n': vzt_wr_set_timescale(lt, -9+timelogadjust); break;
+				case 'p': vzt_wr_set_timescale(lt, -12+timelogadjust); break;
+				case 'f': vzt_wr_set_timescale(lt, -15+timelogadjust); break;
+				default:	/* unknown */
+					  vzt_wr_set_timescale(lt, -9+timelogadjust); break;
+				}
+
+			sync_end(NULL);
+			}
+			break;
+		case T_SCOPE:
+			T_GET;
+			T_GET;
+			if(tok==T_STRING)
+				{
+				struct slist *s;
+				s=(struct slist *)calloc_2(1,sizeof(struct slist));
+				s->len=yylen;
+				s->str=(char *)malloc_2(yylen+1);
+				strcpy(s->str,yytext);
+
+				if(slistcurr)
+					{
+					slistcurr->next=s;
+					slistcurr=s;
+					}
+					else
+					{
+					slistcurr=slistroot=s;
+					}
+
+				build_slisthier();
+				DEBUG(fprintf(stderr, "SCOPE: %s\n",slisthier));
+				}
+			sync_end(NULL);
+			break;
+		case T_UPSCOPE:
+			if(slistroot)
+				{
+				struct slist *s;
+
+				s=slistroot;
+				if(!s->next)
+					{
+					free_2(s->str);
+					free_2(s);
+					slistroot=slistcurr=NULL;
+					}
+				else
+				for(;;)
+					{
+					if(!s->next->next)
+						{
+						free_2(s->next->str);
+						free_2(s->next);
+						s->next=NULL;
+						slistcurr=s;
+						break;
+						}
+					s=s->next;
+					}
+				build_slisthier();
+				DEBUG(fprintf(stderr, "SCOPE: %s\n",slisthier));
+				}
+			sync_end(NULL);
+			break;
+		case T_VAR:
+			{
+			int vtok;
+			struct vcdsymbol *v=NULL;
+
+                        if(header_over)
+                                {
+                                chk_report_abort("TALOS-2023-1805: $var after $enddefinitions");
+                                }
+
+			var_prevch=0;
+			if(varsplit)
+				{
+				free_2(varsplit);
+				varsplit=NULL;
+				}
+			vtok=get_vartoken(1);
+			if(vtok>V_PORT) goto bail;
+
+			v=(struct vcdsymbol *)calloc_2(1,sizeof(struct vcdsymbol));
+			v->vartype=vtok;
+			v->msi=v->lsi=vcd_explicit_zero_subscripts; /* indicate [un]subscripted status */
+
+			if(vtok==V_PORT)
+				{
+				vtok=get_vartoken(1);
+				if(vtok==V_STRING)
+					{
+					v->size=atoi_64(yytext);
+					if(!v->size) v->size=1;
+					}
+					else
+					if(vtok==V_LB)
+					{
+					vtok=get_vartoken(1);
+					if(vtok==V_END) goto err;
+					if(vtok!=V_STRING) goto err;
+					v->msi=atoi_64(yytext);
+					vtok=get_vartoken(0);
+					if(vtok==V_RB)
+						{
+						v->lsi=v->msi;
+						v->size=1;
+						}
+						else
+						{
+						if(vtok!=V_COLON) goto err;
+						vtok=get_vartoken(0);
+						if(vtok!=V_STRING) goto err;
+						v->lsi=atoi_64(yytext);
+						vtok=get_vartoken(0);
+						if(vtok!=V_RB) goto err;
+
+						if(v->msi>v->lsi)
+							{
+							v->size=v->msi-v->lsi+1;
+							}
+							else
+							{
+							v->size=v->lsi-v->msi+1;
+							}
+						}
+					}
+					else goto err;
+
+				vtok=get_strtoken();
+				if(vtok==V_END) goto err;
+				v->id=(char *)malloc_2(yylen+1);
+				strcpy(v->id, yytext);
+				v->nid=vcdid_hash(yytext,yylen);
+
+				if(v->nid < vcd_minid) vcd_minid = v->nid;
+				if(v->nid > vcd_maxid) vcd_maxid = v->nid;
+
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+				if(slisthier_len)
+					{
+					v->name=(char *)malloc_2(slisthier_len+1+yylen+1);
+					strcpy(v->name,slisthier);
+					strcpy(v->name+slisthier_len,vcd_hier_delimeter);
+					strcpy(v->name+slisthier_len+1,yytext);
+					}
+					else
+					{
+					v->name=(char *)malloc_2(yylen+1);
+					strcpy(v->name,yytext);
+					}
+				}
+				else	/* regular vcd var, not an evcd port var */
+				{
+				vtok=get_vartoken(1);
+				if(vtok==V_END) goto err;
+				v->size=atoi_64(yytext);
+				vtok=get_strtoken();
+				if(vtok==V_END) goto err;
+				v->id=(char *)malloc_2(yylen+1);
+				strcpy(v->id, yytext);
+				v->nid=vcdid_hash(yytext,yylen);
+
+				if(v->nid < vcd_minid) vcd_minid = v->nid;
+				if(v->nid > vcd_maxid) vcd_maxid = v->nid;
+
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+				if(slisthier_len)
+					{
+					v->name=(char *)malloc_2(slisthier_len+1+yylen+1);
+					strcpy(v->name,slisthier);
+					strcpy(v->name+slisthier_len,vcd_hier_delimeter);
+					strcpy(v->name+slisthier_len+1,yytext);
+					}
+					else
+					{
+					v->name=(char *)malloc_2(yylen+1);
+					strcpy(v->name,yytext);
+					}
+
+				vtok=get_vartoken(1);
+				if(vtok==V_END) goto dumpv;
+				if(vtok!=V_LB) goto err;
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+				v->msi=atoi_64(yytext);
+				vtok=get_vartoken(0);
+				if(vtok==V_RB)
+					{
+					v->lsi=v->msi;
+					goto dumpv;
+					}
+				if(vtok!=V_COLON) goto err;
+				vtok=get_vartoken(0);
+				if(vtok!=V_STRING) goto err;
+				v->lsi=atoi_64(yytext);
+				vtok=get_vartoken(0);
+				if(vtok!=V_RB) goto err;
+				}
+
+			dumpv:
+                        if(v->size == 0) { v->vartype = V_REAL; } /* MTI fix */
+
+			if(v->vartype==V_REAL)
+				{
+				v->size=1;		/* override any data we parsed in */
+				v->msi=v->lsi=0;
+				}
+			else
+			if((v->size>1)&&(v->msi<=0)&&(v->lsi<=0))
+				{
+				if(v->vartype==V_EVENT)
+					{
+					v->size=1;
+					}
+					else
+					{
+					/* any criteria for the direction here? */
+					v->msi=v->size-1;
+					v->lsi=0;
+					}
+				}
+			else
+			if((v->msi>v->lsi)&&((v->msi-v->lsi+1)!=v->size))
+				{
+				if(v->vartype!=V_EVENT) goto err;
+				v->size=v->msi-v->lsi+1;
+				}
+			else
+			if((v->lsi>=v->msi)&&((v->lsi-v->msi+1)!=v->size))
+				{
+				if(v->vartype!=V_EVENT) goto err;
+				v->size=v->msi-v->lsi+1;
+				}
+
+			/* initial conditions */
+			v->value=(char *)malloc_2(v->size+1);
+			v->value[v->size]=0;
+			v->narray=(struct Node **)calloc_2(v->size,sizeof(struct Node *));
+				{
+				int i;
+				for(i=0;i<v->size;i++)
+					{
+					v->value[i]='x';
+
+					v->narray[i]=(struct Node *)calloc_2(1,sizeof(struct Node));
+					v->narray[i]->head.time=-1;
+					v->narray[i]->head.v.val=1;
+					}
+				}
+
+			if(v->vartype==V_EVENT)
+				{
+				struct queuedevent *q;
+				v->ev=q=(struct queuedevent *)calloc_2(1,sizeof(struct queuedevent));
+				q->sym=v;
+				q->last_event_time=-1;
+				q->next=queuedevents;
+				queuedevents=q;
+				}
+
+			if(!vcdsymroot)
+				{
+				vcdsymroot=vcdsymcurr=v;
+				}
+				else
+				{
+				vcdsymcurr->next=v;
+				vcdsymcurr=v;
+				}
+			numsyms++;
+
+#if 0
+			if((v->vartype==V_INTEGER)||(v->vartype==V_REAL))
+				{
+				v->ltsym = vzt_wr_symbol_add(lt, v->name, 0, v->msi, v->lsi, (v->vartype==V_INTEGER)?VZT_WR_SYM_F_INTEGER:((v->vartype==V_REAL)?VZT_WR_SYM_F_DOUBLE:VZT_WR_SYM_F_BITS));
+				}
+				else
+				{
+				char buf[65537];
+				if(v->msi==v->lsi)
+					{
+					sprintf(buf, "%s[%d]", v->name, v->msi);
+					}
+					else
+					{
+					sprintf(buf, "%s[%d:%d]", v->name, v->msi, v->lsi);
+					}
+				v->ltsym = vzt_wr_symbol_add(lt, buf, 0, v->msi, v->lsi, (v->vartype==V_INTEGER)?VZT_WR_SYM_F_INTEGER:((v->vartype==V_REAL)?VZT_WR_SYM_F_DOUBLE:VZT_WR_SYM_F_BITS));
+				}
+#endif
+
+			DEBUG(fprintf(stderr,"VAR %s %d %s %s[%d:%d]\n",
+				vartypes[v->vartype], v->size, v->id, v->name,
+					v->msi, v->lsi));
+			goto bail;
+			err:
+			if(v)
+				{
+				if(v->name) free_2(v->name);
+				if(v->id) free_2(v->id);
+				if(v->value) free_2(v->value);
+				free_2(v);
+				}
+
+			bail:
+			if(vtok!=V_END) sync_end(NULL);
+			break;
+			}
+		case T_ENDDEFINITIONS:
+			if(!header_over)
+				{
+				header_over=1;	/* do symbol table management here */
+				create_sorted_table();
+				if((!sorted)&&(!indexed))
+					{
+					fprintf(stderr, "No symbols in VCD file..nothing to do!\n");
+					exit(1);
+					}
+				}
+			break;
+		case T_STRING:
+			if(header_over)
+				{
+				/* catchall for events when header over */
+				if(yytext[0]=='#')
+					{
+					TimeType t_time;
+					t_time=atoi_64(yytext+1);
+
+					if(start_time<0)
+						{
+						start_time=t_time;
+						}
+
+                                        if(t_time < current_time) /* avoid backtracking time counts which can happen on malformed files */
+                                                {
+                                                t_time = current_time;
+                                                }
+
+                                        current_time=t_time;
+                                        if(end_time<t_time) end_time=t_time;        /* in case of malformed vcd files */
+
+					vzt_wr_set_time64(lt, current_time);
+					DEBUG(fprintf(stderr,"#"TTFormat"\n",t_time));
+					}
+					else
+					{
+					parse_valuechange();
+					}
+				}
+			break;
+		case T_DUMPALL:	/* dump commands modify vals anyway so */
+		case T_DUMPPORTSALL:
+			break;	/* just loop through..                 */
+		case T_DUMPOFF:
+		case T_DUMPPORTSOFF:
+			dumping_off=1;
+			vzt_wr_set_dumpoff(lt);
+			break;
+		case T_DUMPON:
+		case T_DUMPPORTSON:
+			dumping_off=0;
+			vzt_wr_set_dumpon(lt);
+			break;
+		case T_DUMPVARS:
+		case T_DUMPPORTS:
+                        if(current_time<0)
+                                { start_time=current_time=end_time=0; /* vzt_wr_set_time(lt, current_time); */ }
+                        break;
+                case T_VCDCLOSE:
+                        sync_end("VCDCLOSE:");
+                        break;  /* next token will be '#' time related followed by $end */
+		case T_END:	/* either closure for dump commands or */
+			break;	/* it's spurious                       */
+		case T_UNKNOWN_KEY:
+			sync_end(NULL);	/* skip over unknown keywords */
+			break;
+		case T_EOF:
+			return;
+		default:
+			DEBUG(fprintf(stderr,"UNKNOWN TOKEN\n"));
+		}
+	}
+}

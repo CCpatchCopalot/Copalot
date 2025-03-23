@@ -1,0 +1,12 @@
+-1a0
+>  bool is_subgraph_in_use_ = false;
+29a30,38
+>#include <stdarg.h>
+>#include <stddef.h>
+>#include <cstdint>
+>#include <memory>
+>#include <utility>
+>#include "tensorflow/lite/c/common.h"
+>#include "tensorflow/lite/core/api/error_reporter.h"
+>#include "tensorflow/lite/core/macros.h"
+>#include "tensorflow/lite/experimental/resource/resource_base.h"

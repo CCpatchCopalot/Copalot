@@ -1,0 +1,190 @@
+name: err  @ 18 @ name: verifypeer  @ 525 @ 
+name: SOCKERRNO  @ 13 @ name: SSL_CTX_get_cert_store  @ 381 @ 
+name: EAGAIN  @ 14 @ name: defined  @ 498 @ 
+name: nread  @ 8 @ name: backend  @ 323 @ 
+block_content  @ 14 @ block_content  @ 399 @ 
+name: RECV_TYPE_ARG3  @ 7 @ name: int  @ 301 @ 
+operator: (  @ 14 @ operator: (  @ 420 @ 
+operator: ==  @ 32 @ operator: ==  @ 690 @ 
+name: err  @ 14 @ name: CertOpenSystemStore  @ 382 @ 
+function  @ 1 @ function  @ 1 @ 
+name: ENETDOWN  @ 22 @ name: X509_V_FLAG_PARTIAL_CHAIN  @ 615 @ 
+endif  @ 33 @ endif  @ 628 @ 
+name: ECONNRESET  @ 18 @ name: SSL_CTX_load_verify_dir  @ 536 @ 
+condition  @ 12 @ condition  @ 379 @ 
+operator: ==  @ 8 @ operator: ->  @ 323 @ 
+directive: endif  @ 33 @ directive: endif  @ 628 @ 
+decl  @ 5 @ decl  @ 44 @ 
+name: nread  @ 10 @ name: backend  @ 365 @ 
+argument_list  @ 14 @ argument_list  @ 473 @ 
+operator: ==  @ 14 @ operator: (  @ 382 @ 
+argument  @ 7 @ argument  @ 295 @ 
+operator: ==  @ 18 @ operator: !  @ 536 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 382 @ 
+operator: !=  @ 14 @ operator: !=  @ 465 @ 
+operator: (  @ 7 @ operator: (  @ 295 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: &  @ 7 @ operator: ->  @ 295 @ 
+name: char  @ 5 @ name: char  @ 44 @ 
+operator: )  @ 7 @ operator: )  @ 295 @ 
+directive: ifdef  @ 22 @ directive: ifdef  @ 615 @ 
+name: ENETDOWN  @ 23 @ name: ssl_crlfile  @ 616 @ 
+name: err  @ 34 @ name: sni  @ 692 @ 
+name: int  @ 1 @ name: CURLcode  @ 1 @ 
+endif  @ 21 @ endif  @ 614 @ 
+directive: ifdef  @ 19 @ directive: ifdef  @ 578 @ 
+directive: endif  @ 27 @ directive: endif  @ 264 @ 
+decl_stmt  @ 13 @ decl_stmt  @ 381 @ 
+name: err  @ 13 @ name: store  @ 381 @ 
+name: FIRSTSOCKET  @ 7 @ name: cur  @ 266 @ 
+directive: endif  @ 15 @ directive: endif  @ 500 @ 
+operator: ||  @ 23 @ operator: ->  @ 625 @ 
+operator: ||  @ 18 @ operator: ||  @ 549 @ 
+name: ESHUTDOWN  @ 29 @ name: defined  @ 680 @ 
+operator: ==  @ 12 @ operator: ||  @ 379 @ 
+endif  @ 37 @ endif  @ 576 @ 
+decl  @ 13 @ decl  @ 381 @ 
+operator: =  @ 7 @ operator: =  @ 51 @ 
+type  @ 6 @ type  @ 45 @ 
+expr  @ 35 @ expr  @ 391 @ 
+name: RECV_TYPE_ARG1  @ 7 @ name: OPENSSL_VERSION_NUMBER  @ 67 @ 
+expr  @ 9 @ expr  @ 257 @ 
+name: ETIMEDOUT  @ 31 @ name: SSL_CTRL_SET_TLSEXT_HOSTNAME  @ 687 @ 
+comment: /* connection status unknown */  @ 38 @ comment: /* pass the raw socket into the SSL layers */  @ 740 @ 
+name: sock  @ 7 @ name: sockindex  @ 237 @ 
+literal: 1  @ 11 @ literal: 1  @ 345 @ 
+operator: -  @ 12 @ operator: )  @ 379 @ 
+type  @ 13 @ type  @ 257 @ 
+literal: 0  @ 35 @ literal: 0  @ 391 @ 
+decl  @ 6 @ decl  @ 45 @ 
+type  @ 1 @ type  @ 1 @ 
+block_content  @ 5 @ block_content  @ 3 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: err  @ 20 @ name: verifypeer  @ 579 @ 
+ifdef  @ 22 @ ifdef  @ 615 @ 
+name: err  @ 26 @ name: Curl_tls_keylog_enabled  @ 640 @ 
+name: ENETRESET  @ 25 @ name: HAVE_KEYLOG_CALLBACK  @ 639 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: )  @ 7 @ operator: )  @ 301 @ 
+block_content  @ 9 @ block_content  @ 324 @ 
+expr  @ 38 @ expr  @ 739 @ 
+name: ossl_check_cxn  @ 1 @ name: ossl_connect_step1  @ 1 @ 
+name: RECV_TYPE_ARG2  @ 7 @ name: int  @ 295 @ 
+name: EAGAIN  @ 14 @ name: unsigned  @ 420 @ 
+operator: ->  @ 7 @ operator: ->  @ 189 @ 
+name: ENOTCONN  @ 34 @ name: SSL_SET_OPTION  @ 699 @ 
+comment: /* connection has been closed */  @ 9 @ comment: /* OpenSSL 1.1.1 requires clients to opt-in for PHA */  @ 344 @ 
+condition  @ 14 @ condition  @ 385 @ 
+name: EWOULDBL  @ 14 @ name: CRYPT_E_NOT_FOUND  @ 465 @ 
+endif  @ 24 @ endif  @ 273 @ 
+expr  @ 13 @ expr  @ 381 @ 
+if  @ 8 @ if  @ 323 @ 
+expr  @ 8 @ expr  @ 323 @ 
+directive: endif  @ 30 @ directive: endif  @ 691 @ 
+ifdef  @ 4 @ ifdef  @ 12 @ 
+literal: 1  @ 10 @ literal: "SRP"  @ 365 @ 
+name: nread  @ 6 @ name: backend  @ 45 @ 
+name: recv  @ 7 @ name: result  @ 52 @ 
+block  @ 14 @ block  @ 398 @ 
+name: err  @ 16 @ name: imported_native_ca  @ 501 @ 
+operator: ==  @ 29 @ operator: &&  @ 680 @ 
+argument  @ 7 @ argument  @ 301 @ 
+comment: /* connection still in place */  @ 17 @ comment: /* OpenSSL 3.0.0 has deprecated SSL_CTX_load_verify_locations */  @ 521 @ 
+operator: (  @ 7 @ operator: (  @ 321 @ 
+name: EWOULDBLOCK  @ 16 @ name: true  @ 501 @ 
+expr  @ 7 @ expr  @ 295 @ 
+expr  @ 7 @ expr  @ 301 @ 
+name: ESHUTDOWN  @ 28 @ name: defined  @ 680 @ 
+name  @ 1 @ name  @ 1 @ 
+expr  @ 14 @ expr  @ 382 @ 
+operator: )  @ 34 @ operator: .  @ 699 @ 
+operator: (  @ 7 @ operator: (  @ 301 @ 
+name: ssize_t  @ 6 @ name: struct  @ 45 @ 
+name: ENETRESET  @ 26 @ name: OPENSSL_NO_TLSEXT  @ 674 @ 
+name: err  @ 29 @ name: OPENSSL_IS_BORINGSSL  @ 680 @ 
+name: EAGAIN  @ 14 @ name: hStore  @ 385 @ 
+operator: ||  @ 14 @ operator: )  @ 382 @ 
+operator: &&  @ 14 @ operator: &&  @ 404 @ 
+directive: ifdef  @ 4 @ directive: ifdef  @ 12 @ 
+name: ETIMEDOUT  @ 32 @ name: Curl_inet_pton  @ 690 @ 
+operator: ==  @ 23 @ operator: &&  @ 616 @ 
+operator: ==  @ 34 @ operator: &&  @ 692 @ 
+ifdef  @ 31 @ ifdef  @ 687 @ 
+endif  @ 27 @ endif  @ 264 @ 
+name: buf  @ 7 @ name: len  @ 295 @ 
+ifdef  @ 25 @ ifdef  @ 639 @ 
+name: RECV_TYPE_ARG4  @ 7 @ name: char  @ 321 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 45 @ 
+operator: ||  @ 29 @ operator: ->  @ 681 @ 
+name: conn  @ 7 @ name: conn  @ 123 @ 
+ifdef  @ 19 @ ifdef  @ 578 @ 
+operator: -  @ 38 @ operator: ->  @ 739 @ 
+directive: endif  @ 21 @ directive: endif  @ 614 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 44 @ 
+expr  @ 7 @ expr  @ 266 @ 
+literal: 0  @ 9 @ literal: 0  @ 257 @ 
+name: connectdata  @ 1 @ name: connectdata  @ 1 @ 
+name: err  @ 32 @ name: addr  @ 688 @ 
+name: int  @ 13 @ name: int  @ 257 @ 
+endif  @ 30 @ endif  @ 691 @ 
+operator: ==  @ 26 @ operator: =  @ 656 @ 
+operator: ==  @ 14 @ operator: ==  @ 497 @ 
+argument  @ 14 @ argument  @ 473 @ 
+name: EINPROGRESS  @ 14 @ name: HCRYPTPROV_LEGACY  @ 382 @ 
+operator: ||  @ 14 @ operator: &&  @ 498 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+operator: ||  @ 20 @ operator: ||  @ 591 @ 
+name: nread  @ 7 @ name: bool  @ 46 @ 
+name: ECONNABORTED  @ 20 @ name: X509_STORE_add_lookup  @ 589 @ 
+operator: ==  @ 20 @ operator: =  @ 589 @ 
+expr  @ 7 @ expr  @ 321 @ 
+operator: ||  @ 32 @ operator: &  @ 690 @ 
+operator: (  @ 7 @ operator: (  @ 67 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+comment: /* connection still in place */  @ 11 @ comment: /* Import certificates from the Windows root certificate store if requested.
+     https://stackoverflow.com/questions/9507184/https://github.com/d3x0r/SACK/blob/master/src/netlib/ssl_layer.c#L1037
+     https://tools.ietf.org/html/rfc5280 */  @ 375 @ 
+name: conn  @ 1 @ name: conn  @ 1 @ 
+condition  @ 10 @ condition  @ 365 @ 
+if  @ 14 @ if  @ 385 @ 
+operator: ||  @ 26 @ operator: &&  @ 674 @ 
+comment: /* connection has been closed */  @ 35 @ comment: /* Informational message */  @ 721 @ 
+name: buf  @ 5 @ name: error_buffer  @ 44 @ 
+if_stmt  @ 8 @ if_stmt  @ 323 @ 
+directive: endif  @ 24 @ directive: endif  @ 273 @ 
+endif  @ 15 @ endif  @ 500 @ 
+expr  @ 11 @ expr  @ 345 @ 
+block  @ 11 @ block  @ 365 @ 
+operator: (  @ 18 @ operator: !  @ 524 @ 
+name: MSG_PEEK  @ 7 @ name: DEFAULT_CIPHER_SELECTION  @ 321 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: ==  @ 10 @ operator: ->  @ 365 @ 
+block  @ 9 @ block  @ 323 @ 
+name: err  @ 14 @ name: encoded_cert  @ 490 @ 
+directive: ifdef  @ 31 @ directive: ifdef  @ 687 @ 
+block_content  @ 11 @ block_content  @ 366 @ 
+name: struct  @ 1 @ name: struct  @ 1 @ 
+operator: )  @ 7 @ operator: )  @ 67 @ 
+literal: 1  @ 17 @ literal: "successfully imported windows ca store\n"  @ 514 @ 
+directive: ifdef  @ 25 @ directive: ifdef  @ 639 @ 
+operator: )  @ 7 @ operator: )  @ 321 @ 
+name: nread  @ 12 @ name: SSL_CONN_CONFIG  @ 379 @ 
+init  @ 13 @ init  @ 381 @ 
+name: ECONNABORTED  @ 19 @ name: CURL_CA_FALLBACK  @ 578 @ 
+block  @ 2 @ block  @ 2 @ 
+if_stmt  @ 14 @ if_stmt  @ 385 @ 
+type  @ 5 @ type  @ 44 @ 
+name: err  @ 23 @ name: SSL_SET_OPTION  @ 616 @ 
+directive: endif  @ 37 @ directive: endif  @ 576 @ 
+name: MSG_PEEK  @ 4 @ name: SSL_CTRL_SET_TLSEXT_HOSTNAME  @ 12 @ 
+expr  @ 12 @ expr  @ 379 @ 
+directive: ifdef  @ 28 @ directive: if  @ 680 @ 
+if  @ 10 @ if  @ 365 @ 
+index  @ 7 @ index  @ 266 @ 
+operator: ==  @ 16 @ operator: =  @ 501 @ 
+expr  @ 17 @ expr  @ 514 @ 
+expr  @ 10 @ expr  @ 365 @ 
+condition  @ 8 @ condition  @ 323 @ 
+expr  @ 14 @ expr  @ 385 @ 
+

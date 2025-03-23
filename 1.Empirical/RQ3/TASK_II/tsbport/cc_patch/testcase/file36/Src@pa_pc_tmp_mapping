@@ -1,0 +1,1 @@
+if (npci == 0 ||/* call linehook when enter a new function, */pc <= L->oldpc ||/* when jump back (loop), or when */changedline(p, pcRel(L->oldpc, p), npci)) {  /* enter new line *//* enter new line */      int newline = luaG_getfuncline(p, npci);

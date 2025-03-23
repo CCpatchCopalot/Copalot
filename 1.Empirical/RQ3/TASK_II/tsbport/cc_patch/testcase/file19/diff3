@@ -1,0 +1,6 @@
+42c42,44
+<      dct_.Initialize(filterbank_channel_count_, dct_coefficient_count_);
+---
+>if (initialized) {
+>        initialized =dct_.Initialize(filterbank_channel_count_, dct_coefficient_count_);
+>      }

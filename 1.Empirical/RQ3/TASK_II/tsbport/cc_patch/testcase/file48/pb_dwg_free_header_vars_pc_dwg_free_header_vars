@@ -1,0 +1,56 @@
+name: dwg  @ 2 @ name: dwg  @ 2 @ 
+init  @ 5 @ init  @ 5 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+directive: include  @ 9 @ directive: include  @ 9 @ 
+type  @ 6 @ type  @ 6 @ 
+init  @ 6 @ init  @ 6 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name: NULL  @ 5 @ name: NULL  @ 5 @ 
+return  @ 12 @ return  @ 13 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: Dwg_Data  @ 2 @ name: Dwg_Data  @ 2 @ 
+file: "header_variables.spec"  @ 9 @ file: "header_variables.spec"  @ 9 @ 
+name: Dwg_Object  @ 5 @ name: Dwg_Object  @ 5 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name: Dwg_Header_Variables  @ 4 @ name: Dwg_Header_Variables  @ 4 @ 
+decl  @ 4 @ decl  @ 4 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+operator: &  @ 4 @ operator: &  @ 4 @ 
+comment: // clang-format off  @ 8 @ comment: // clang-format off  @ 8 @ 
+name: dat  @ 6 @ name: dat  @ 6 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: _obj  @ 4 @ name: _obj  @ 4 @ 
+modifier: *  @ 6 @ modifier: *  @ 6 @ 
+name: obj  @ 5 @ name: obj  @ 5 @ 
+type  @ 4 @ type  @ 4 @ 
+function  @ 1 @ function  @ 1 @ 
+block  @ 3 @ block  @ 3 @ 
+type  @ 5 @ type  @ 5 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: &  @ 6 @ operator: &  @ 6 @ 
+name: dwg_free_header_vars  @ 2 @ name: dwg_free_header_vars  @ 2 @ 
+name  @ 4 @ name  @ 4 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: header_vars  @ 4 @ name: header_vars  @ 4 @ 
+include  @ 9 @ include  @ 9 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+name: dwg  @ 4 @ name: dwg  @ 4 @ 
+name: Bit_Chain  @ 6 @ name: Bit_Chain  @ 6 @ 
+init  @ 4 @ init  @ 4 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 4 @ expr  @ 4 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: ->  @ 4 @ operator: ->  @ 4 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: pdat  @ 6 @ name: pdat  @ 6 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+comment: // clang-format on  @ 10 @ comment: // clang-format on  @ 10 @ 
+decl  @ 6 @ decl  @ 6 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+type  @ 2 @ type  @ 2 @ 
+literal: 0  @ 12 @ literal: 0  @ 13 @ 
+

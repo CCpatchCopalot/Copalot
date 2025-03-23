@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file78": {
+            "match_message": {
+                "Same: dimC_Read -> dimC_Read": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 972->1141 ([[1141, 0.8558558558558559], [1152, 0.8016528925619835]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 972->1141 ([[1141, 0.8558558558558559], [1152, 0.8016528925619835]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 27,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1141,
+                        "add_hunk": [
+                            "\twhile (i < ARRAY_LENGTH(str)) {\n"
+                        ],
+                        "delete_location": [
+                            1141,
+                            1141
+                        ],
+                        "delete_hunk": [
+                            "\twhile (1) {\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: dimC_Read -> dimC_Read": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "in_loop"
+            ]
+        }
+    }
+}

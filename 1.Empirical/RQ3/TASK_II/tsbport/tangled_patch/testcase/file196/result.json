@@ -1,0 +1,73 @@
+{
+    "testcase": {
+        "file196": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "967 -> 1104",
+                        "L2": "967 -> 1104",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl_stmt', 'info': [], 'ast_patch': ',NULL,/* associate_connection */NULL/* disassociate_connection */'}",
+                            "verify location": "-1",
+                            "output location": "1104",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl_stmt",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl_stmt",
+                            "info": [],
+                            "ast_patch": ",NULL,/* associate_connection */NULL/* disassociate_connection */"
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 64,
+                        "add_hunk": [
+                            "#    include <mbedtls/debug.h>\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1104,
+                        "add_hunk": [
+                            ",NULL,/* associate_connection */NULL/* disassociate_connection */\n"
+                        ],
+                        "delete_location": [
+                            1104,
+                            1104
+                        ],
+                        "delete_hunk": [
+                            "};\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl_stmt"
+                        ]
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other"
+            ]
+        }
+    }
+}

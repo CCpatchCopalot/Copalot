@@ -1,0 +1,10 @@
+198a199
+>      if (num_tokens > 0) {
+212a213,219
+>            ngram->append(right_pad_);
+>          }
+>        } else {
+>          for (int n = 0; n < right_padding - 1; ++n) {
+>            ngram->append(right_pad_);
+>            ngram->append(separator_);
+>          }

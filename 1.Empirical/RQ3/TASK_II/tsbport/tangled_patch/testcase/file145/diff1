@@ -1,0 +1,8 @@
+1374c1374
+< 			GF_LOG(GF_LOG_WARNING, GF_LOG_CODING, ("[VVC] Invalid NALU type in vvcC - ignoring\n", ar->nalus));
+---
+> 			GF_LOG(GF_LOG_WARNING, GF_LOG_CODING, ("[VVC] Invalid NALU type %d in vvcC - ignoring\n", ar->type));
+1379c1379
+< 		if ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI))
+---
+> 		if (!valid || ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI)))

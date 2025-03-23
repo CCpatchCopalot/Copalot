@@ -1,0 +1,1 @@
+return flb_sds_create_len(&request->real_path.data[sizeof(base)-1],request->real_path.len - sizeof(base)-1);

@@ -1,0 +1,38 @@
+166d165
+<     unsigned char *buffptr; /* address of start of the region */
+402c401
+< static int rotateImage(uint16_t, struct image_data *, uint32_t *, uint32_t *, unsigned char **, size_t *);
+---
+> static int rotateImage(uint16_t, struct image_data *, uint32_t *, uint32_t *,unsigned char **, size_t *, int);
+6038,6039c6037,6040
+<         if (rotateImage(rotation, image, &image->width, &image->length,work_buff_ptr, NULL))
+<         {
+---
+>         /* Dummy variable to avoid switching image->width/length twice */
+>         uint32_t width = image->width;
+>         uint32_t length = image->length;
+>         if (rotateImage(rotation, image, &width, &length, work_buff_ptr, NULL,TRUE))  // TRUE enables parameter upda// TRUE enables parameter update        {
+7111c7112
+<             if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, &crop_buff, &rot_buf_size))
+---
+>             if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, &crop_buff, &rot_buf_size, FALSE))
+7214c7215
+<                 if (rotateImage(crop->rotation, image, &crop->regionlist[i].width,&crop->regionlist[i].length, &crop_buff, &rot_buf_size))
+---
+>                 if (rotateImage(crop->rotation, image, &crop->regionlist[i].width,&crop->regionlist[i].length, &crop_buff, &rot_buf_size, FALSE))
+7330c7331
+<         if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, crop_buff_ptr, NULL))
+---
+>         if (rotateImage(crop->rotation, image, &crop->combined_width,&crop->combined_length, crop_buff_ptr, NULL, TRUE))
+8175a8177,8179
+>             /* Only update image params if rot_image_params is TRUE */
+>             if (rot_image_params)
+>             {
+8180a8185
+>             }
+8253a8259,8261
+>             /* Only update image params if rot_image_params is TRUE */
+>             if (rot_image_params)
+>             {
+8258a8267
+>             }

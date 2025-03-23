@@ -1,0 +1,28 @@
+static CURLcode encodeOID(struct dynbuf *store,const char *beg, const char *end)
+{
+  unsigned int x;
+  unsigned int y;
+  CURLcode result = CURLE_OK;
+
+  /* Process the first two numbers. */
+  y = *(const unsigned char *) beg++;
+  x = y / 40;
+  y -= x * 40;
+
+  result = Curl_dyn_addf(store, "%u.%u", x, y);
+  if(result)
+    return result;
+
+  /* Process the trailing numbers. */
+  while(beg < end) {
+    x = 0;
+    do {
+      if(x & 0xFF000000)
+        return 0;
+      y = *(const unsigned char *) beg++;
+      x = (x << 7) | (y & 0x7F);
+    } while(y & 0x80);
+    result = Curl_dyn_addf(store, ".%u", x);
+  }
+  return result;
+}

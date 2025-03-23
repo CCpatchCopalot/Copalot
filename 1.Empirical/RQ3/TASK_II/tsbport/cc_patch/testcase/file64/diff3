@@ -1,0 +1,8 @@
+63a64,68
+>#include "H5Dmodule.h"          /* This source code file is part of the H5D module */
+>#include "H5CXprivate.h"        /* API Contexts */
+>#include "H5Fprivate.h"		/* File functions*/
+>#include "H5MFprivate.h"        /* File memory management */
+>#include "H5VMprivate.h"	/* Vector and array functions*/
+302a303
+>        HDassert(layout->dim[u] > 0);

@@ -1,0 +1,491 @@
+block  @ 26 @ block  @ 28 @ 
+call  @ 46 @ call  @ 48 @ 
+type  @ 8 @ type  @ 10 @ 
+operator: ->  @ 60 @ operator: ->  @ 62 @ 
+expr  @ 41 @ expr  @ 43 @ 
+literal: "Unable to allocate/reallocate crop buffer"  @ 37 @ literal: "Unable to allocate/reallocate crop buffer"  @ 39 @ 
+literal: ","  @ 193 @ literal: " degrees"  @ 106 @ 
+literal: ");
+                            return (-1);}
+                        if (crop->photometric == INVERT_DATA_AND_TAG)
+                        {switch (image->photometric)
+                            {case PHOTOMETRIC_MINISWHITE:
+                                    image->photometric = PHOTOMETRIC_MINISBLACK;
+                                    break;case PHOTOMETRIC_MINISBLACK:
+                                    image->photometric = PHOTOMETRIC_MINISWHITE;
+                                    break;default:
+                                    break;}
+                        }break;
+                    default:break;
+                }}
+
+            if (crop->crop_mode&CROP_MIRROR)
+            {if (mirrorImage(image->spp, image->bps, crop->mirror, width,length, crop_buff))
+                {TIFFError("  @ 166 @ literal: "Failed to invert colorspace for region"  @ 173 @ 
+expr  @ 37 @ expr  @ 39 @ 
+argument  @ 60 @ argument  @ 63 @ 
+literal: 0  @ 42 @ literal: 0  @ 44 @ 
+name: crop  @ 46 @ name: crop  @ 48 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 39 @ 
+expr  @ 58 @ expr  @ 60 @ 
+name: photometric  @ 56 @ name: photometric  @ 58 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+decl  @ 1 @ decl  @ 2 @ 
+name: NULL  @ 8 @ name: NULL  @ 10 @ 
+operator: (  @ 38 @ operator: (  @ 40 @ 
+operator: ->  @ 56 @ operator: ->  @ 58 @ 
+name: seg_buffs  @ 42 @ name: seg_buffs  @ 44 @ 
+operator: ->  @ 60 @ operator: ->  @ 63 @ 
+block  @ 52 @ block  @ 54 @ 
+argument  @ 37 @ argument  @ 39 @ 
+modifier: *  @ 1 @ modifier: *  @ 3 @ 
+operator: !=  @ 46 @ operator: !=  @ 48 @ 
+operator: ->  @ 60 @ operator: ->  @ 62 @ 
+expr  @ 27 @ expr  @ 29 @ 
+name: next_buff  @ 31 @ name: next_buff  @ 33 @ 
+if  @ 46 @ if  @ 48 @ 
+decl  @ 1 @ decl  @ 3 @ 
+name: image  @ 60 @ name: image  @ 62 @ 
+name: read_buff_ptr  @ 11 @ name: read_buff_ptr  @ 13 @ 
+index  @ 42 @ index  @ 44 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+expr  @ 60 @ expr  @ 63 @ 
+block  @ 50 @ block  @ 52 @ 
+argument  @ 24 @ argument  @ 26 @ 
+operator: ==  @ 13 @ operator: ==  @ 15 @ 
+index  @ 1 @ index  @ 3 @ 
+condition  @ 49 @ condition  @ 51 @ 
+argument  @ 41 @ argument  @ 43 @ 
+name: read_buff  @ 46 @ name: read_buff  @ 48 @ 
+name: unsigned  @ 18 @ name: unsigned  @ 20 @ 
+name: total_width  @ 4 @ name: total_width  @ 6 @ 
+break  @ 57 @ break  @ 59 @ 
+condition  @ 46 @ condition  @ 48 @ 
+name: prev_cropsize  @ 22 @ name: prev_cropsize  @ 24 @ 
+init  @ 9 @ init  @ 11 @ 
+name: combined_width  @ 60 @ name: combined_width  @ 63 @ 
+name: crop_buff  @ 35 @ name: crop_buff  @ 37 @ 
+if  @ 25 @ if  @ 27 @ 
+call  @ 28 @ call  @ 30 @ 
+expr  @ 18 @ expr  @ 20 @ 
+modifier: *  @ 8 @ modifier: *  @ 10 @ 
+type  @ 4 @ type  @ 6 @ 
+type  @ 4 @ type  @ 6 @ 
+expr  @ 46 @ expr  @ 48 @ 
+expr  @ 41 @ expr  @ 43 @ 
+decl  @ 7 @ decl  @ 9 @ 
+call  @ 60 @ call  @ 62 @ 
+block_content  @ 51 @ block_content  @ 53 @ 
+index  @ 43 @ index  @ 45 @ 
+type  @ 5 @ type  @ 7 @ 
+expr  @ 59 @ expr  @ 61 @ 
+expr  @ 60 @ expr  @ 62 @ 
+expr  @ 42 @ expr  @ 44 @ 
+condition  @ 25 @ condition  @ 27 @ 
+expr  @ 21 @ expr  @ 23 @ 
+block_content  @ 47 @ block_content  @ 49 @ 
+literal: 1  @ 47 @ literal: 1  @ 49 @ 
+expr  @ 24 @ expr  @ 26 @ 
+name: unsigned  @ 28 @ name: unsigned  @ 30 @ 
+condition  @ 51 @ condition  @ 53 @ 
+block_content  @ 18 @ block_content  @ 20 @ 
+argument  @ 62 @ argument  @ 65 @ 
+name: processCropSelections  @ 1 @ name: processCropSelections  @ 2 @ 
+condition  @ 17 @ condition  @ 19 @ 
+operator: )  @ 38 @ operator: )  @ 40 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 33 @ 
+expr  @ 15 @ expr  @ 17 @ 
+expr  @ 28 @ expr  @ 30 @ 
+decl  @ 1 @ decl  @ 2 @ 
+if  @ 35 @ if  @ 37 @ 
+argument  @ 46 @ argument  @ 48 @ 
+block_content  @ 24 @ block_content  @ 26 @ 
+literal: 1  @ 38 @ literal: 1  @ 40 @ 
+expr  @ 43 @ expr  @ 45 @ 
+expr  @ 31 @ expr  @ 33 @ 
+literal: "  @ 204 @ literal: " degrees"  @ 212 @ 
+name: read_buff  @ 7 @ name: read_buff  @ 9 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 7 @ 
+name: seg_buffs  @ 16 @ name: seg_buffs  @ 18 @ 
+name  @ 60 @ name  @ 63 @ 
+name  @ 42 @ name  @ 44 @ 
+argument  @ 46 @ argument  @ 48 @ 
+name: tsize_t  @ 9 @ name: tsize_t  @ 11 @ 
+block  @ 36 @ block  @ 38 @ 
+if  @ 13 @ if  @ 15 @ 
+call  @ 41 @ call  @ 43 @ 
+operator: (  @ 18 @ operator: (  @ 20 @ 
+name: cropsize  @ 18 @ name: cropsize  @ 20 @ 
+expr  @ 24 @ expr  @ 26 @ 
+name: unsigned  @ 1 @ name: unsigned  @ 3 @ 
+name: prev_cropsize  @ 21 @ name: prev_cropsize  @ 23 @ 
+expr  @ 51 @ expr  @ 53 @ 
+name: crop_buff  @ 28 @ name: crop_buff  @ 30 @ 
+if_stmt  @ 25 @ if_stmt  @ 27 @ 
+name: char  @ 7 @ name: char  @ 9 @ 
+name: unsigned  @ 7 @ name: unsigned  @ 9 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 10 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+operator: ->  @ 56 @ operator: ->  @ 58 @ 
+expr  @ 37 @ expr  @ 39 @ 
+name  @ 1 @ name  @ 3 @ 
+condition  @ 22 @ condition  @ 24 @ 
+decl  @ 4 @ decl  @ 6 @ 
+name: crop  @ 51 @ name: crop  @ 53 @ 
+type  @ 6 @ type  @ 8 @ 
+name: image  @ 46 @ name: image  @ 48 @ 
+else  @ 30 @ else  @ 32 @ 
+operator: =  @ 56 @ operator: =  @ 58 @ 
+expr  @ 60 @ expr  @ 62 @ 
+name: _TIFFfree  @ 27 @ name: _TIFFfree  @ 29 @ 
+name: crop_buff  @ 60 @ name: crop_buff  @ 63 @ 
+literal: 0  @ 41 @ literal: 0  @ 43 @ 
+expr  @ 46 @ expr  @ 48 @ 
+name: crop_buff  @ 42 @ name: crop_buff  @ 44 @ 
+expr  @ 41 @ expr  @ 43 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+operator: ->  @ 15 @ operator: ->  @ 17 @ 
+expr  @ 56 @ expr  @ 58 @ 
+modifier: *  @ 7 @ modifier: *  @ 9 @ 
+name  @ 13 @ name  @ 15 @ 
+name: crop_buff  @ 24 @ name: crop_buff  @ 26 @ 
+expr  @ 43 @ expr  @ 45 @ 
+argument  @ 37 @ argument  @ 39 @ 
+operator: =  @ 43 @ operator: =  @ 45 @ 
+argument  @ 46 @ argument  @ 48 @ 
+type  @ 3 @ type  @ 5 @ 
+block  @ 2 @ block  @ 4 @ 
+literal: ");
+                return (-1);}
+
+            _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);seg_buffs[i].buffer = crop_buff;seg_buffs[i].size = cropsize;if (extractSeparateRegion(image, crop, read_buff, crop_buff, i))
+            {TIFFError("  @ 136 @ literal: 1  @ 96 @ 
+operator: =  @ 11 @ operator: =  @ 13 @ 
+expr  @ 21 @ expr  @ 23 @ 
+name  @ 60 @ name  @ 62 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 6 @ 
+expr  @ 54 @ expr  @ 56 @ 
+expr  @ 49 @ expr  @ 51 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+modifier: *  @ 1 @ modifier: *  @ 3 @ 
+name  @ 1 @ name  @ 3 @ 
+name: crop_buff  @ 16 @ name: crop_buff  @ 18 @ 
+expr  @ 55 @ expr  @ 57 @ 
+expr  @ 38 @ expr  @ 40 @ 
+name: cropsize  @ 41 @ name: cropsize  @ 43 @ 
+name: crop_buff  @ 46 @ name: crop_buff  @ 48 @ 
+literal: 0  @ 21 @ literal: 0  @ 23 @ 
+return  @ 47 @ return  @ 49 @ 
+if_stmt  @ 46 @ if_stmt  @ 48 @ 
+expr  @ 13 @ expr  @ 15 @ 
+name: PHOTOMETRIC_MINISWHITE  @ 54 @ name: PHOTOMETRIC_MINISWHITE  @ 56 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 29 @ 
+if  @ 60 @ if  @ 62 @ 
+operator: <  @ 22 @ operator: <  @ 24 @ 
+name: _TIFFrealloc  @ 24 @ name: _TIFFrealloc  @ 26 @ 
+decl  @ 1 @ decl  @ 3 @ 
+name: unsigned  @ 6 @ name: unsigned  @ 8 @ 
+argument_list  @ 37 @ argument_list  @ 39 @ 
+init  @ 8 @ init  @ 10 @ 
+name: crop_buff  @ 18 @ name: crop_buff  @ 20 @ 
+block_content  @ 54 @ block_content  @ 56 @ 
+expr  @ 47 @ expr  @ 49 @ 
+literal: 0  @ 16 @ literal: 0  @ 18 @ 
+operator: )  @ 18 @ operator: )  @ 20 @ 
+name  @ 1 @ name  @ 2 @ 
+name: crop_buff  @ 27 @ name: crop_buff  @ 29 @ 
+name: image  @ 56 @ name: image  @ 58 @ 
+name  @ 60 @ name  @ 62 @ 
+operator: =  @ 28 @ operator: =  @ 30 @ 
+comment: /* Checks for matching width or length as required */  @ 45 @ comment: /* Checks for matching width or length as required */  @ 47 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 45 @ 
+case  @ 54 @ case  @ 56 @ 
+if_stmt  @ 13 @ if_stmt  @ 15 @ 
+literal: ",(crop->rotation == MIRROR_HORIZ) ? "  @ 193 @ literal: 1  @ 107 @ 
+operator: =  @ 16 @ operator: =  @ 18 @ 
+name: cropsize  @ 43 @ name: cropsize  @ 45 @ 
+name: spp  @ 60 @ name: spp  @ 62 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 23 @ 
+type  @ 1 @ type  @ 2 @ 
+expr  @ 42 @ expr  @ 44 @ 
+literal: "processCropSelections"  @ 62 @ literal: "processCropSelections"  @ 65 @ 
+block_content  @ 15 @ block_content  @ 17 @ 
+name: next_buff  @ 25 @ name: next_buff  @ 27 @ 
+index  @ 16 @ index  @ 18 @ 
+name: photometric  @ 51 @ name: photometric  @ 53 @ 
+literal: ");
+                        return (-1);}
+                    if (crop->photometric == INVERT_DATA_AND_TAG)
+                    {switch (image->photometric)
+                        {case PHOTOMETRIC_MINISWHITE:
+                                image->photometric = PHOTOMETRIC_MINISBLACK;break;
+                            case PHOTOMETRIC_MINISBLACK:image->photometric = PHOTOMETRIC_MINISWHITE;
+                                break;default:
+                                break;}
+                    }break;
+                default:break;
+            }}
+
+        /* Mirror and Rotate will not work with multiple regions unless they are * the same width */if (crop->crop_mode&CROP_MIRROR)
+        {if (mirrorImage(image->spp, image->bps, crop->mirror,crop->combined_width, crop->combined_length,crop_buff))
+            {TIFFError("  @ 62 @ literal: 1  @ 67 @ 
+literal: ","  @ 166 @ literal: "Failed to rotate composite regions by %"  @ 106 @ 
+if_stmt  @ 35 @ if_stmt  @ 37 @ 
+type  @ 4 @ type  @ 6 @ 
+operator: )  @ 47 @ operator: )  @ 49 @ 
+argument  @ 60 @ argument  @ 63 @ 
+block_content  @ 62 @ block_content  @ 65 @ 
+name: size  @ 21 @ name: size  @ 23 @ 
+if_stmt  @ 49 @ if_stmt  @ 51 @ 
+expr  @ 27 @ expr  @ 29 @ 
+argument  @ 18 @ argument  @ 20 @ 
+name: buffinfo  @ 1 @ name: buffinfo  @ 3 @ 
+argument  @ 60 @ argument  @ 62 @ 
+name: char  @ 18 @ name: char  @ 20 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 11 @ 
+name: tsize_t  @ 5 @ name: tsize_t  @ 7 @ 
+if_stmt  @ 22 @ if_stmt  @ 24 @ 
+name: NULL  @ 7 @ name: NULL  @ 9 @ 
+operator: .  @ 42 @ operator: .  @ 44 @ 
+name: cropsize  @ 28 @ name: cropsize  @ 30 @ 
+name: char  @ 28 @ name: char  @ 30 @ 
+name: seg_buffs  @ 21 @ name: seg_buffs  @ 23 @ 
+literal: " : "  @ 90 @ literal: "Failed to mirror composite regions %s"  @ 94 @ 
+operator: =  @ 31 @ operator: =  @ 33 @ 
+name: photometric  @ 56 @ name: photometric  @ 58 @ 
+comment: /* Just change the interpretation */  @ 53 @ comment: /* Just change the interpretation */  @ 55 @ 
+operator: ->  @ 60 @ operator: ->  @ 63 @ 
+name: cropsize  @ 5 @ name: cropsize  @ 7 @ 
+block  @ 31 @ block  @ 33 @ 
+name: cropsize  @ 24 @ name: cropsize  @ 26 @ 
+operator: )  @ 28 @ operator: )  @ 30 @ 
+name: _TIFFmemset  @ 41 @ name: _TIFFmemset  @ 43 @ 
+operator: ->  @ 49 @ operator: ->  @ 51 @ 
+operator: ->  @ 13 @ operator: ->  @ 15 @ 
+name: INVERT_DATA_ONLY  @ 58 @ name: INVERT_DATA_ONLY  @ 60 @ 
+name  @ 15 @ name  @ 17 @ 
+name: size  @ 43 @ name: size  @ 45 @ 
+name: crop_mask  @ 1 @ name: crop_mask  @ 2 @ 
+argument  @ 60 @ argument  @ 63 @ 
+argument  @ 60 @ argument  @ 62 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 30 @ 
+operator: *  @ 11 @ operator: *  @ 13 @ 
+type  @ 1 @ type  @ 2 @ 
+name: CROP_INVERT  @ 49 @ name: CROP_INVERT  @ 51 @ 
+name: char  @ 6 @ name: char  @ 8 @ 
+name: seg_buffs  @ 43 @ name: seg_buffs  @ 45 @ 
+argument_list  @ 27 @ argument_list  @ 29 @ 
+block_content  @ 27 @ block_content  @ 29 @ 
+name: total_length  @ 4 @ name: total_length  @ 6 @ 
+literal: ","  @ 146 @ literal: "processCropSelections"  @ 105 @ 
+name  @ 49 @ name  @ 51 @ 
+operator: &  @ 49 @ operator: &  @ 51 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 8 @ 
+operator: .  @ 43 @ operator: .  @ 45 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 18 @ 
+expr  @ 35 @ expr  @ 37 @ 
+expr  @ 46 @ expr  @ 48 @ 
+name: INVERT_DATA_AND_TAG  @ 59 @ name: INVERT_DATA_AND_TAG  @ 61 @ 
+name: cropsize  @ 22 @ name: cropsize  @ 24 @ 
+operator: ->  @ 60 @ operator: ->  @ 62 @ 
+argument  @ 41 @ argument  @ 43 @ 
+block_content  @ 21 @ block_content  @ 23 @ 
+index  @ 21 @ index  @ 23 @ 
+name: buffer  @ 42 @ name: buffer  @ 44 @ 
+type  @ 1 @ type  @ 1 @ 
+decl  @ 4 @ decl  @ 6 @ 
+expr  @ 60 @ expr  @ 62 @ 
+call  @ 18 @ call  @ 20 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 26 @ 
+type  @ 7 @ type  @ 9 @ 
+argument  @ 27 @ argument  @ 29 @ 
+else  @ 19 @ else  @ 21 @ 
+expr  @ 11 @ expr  @ 13 @ 
+type  @ 1 @ type  @ 3 @ 
+type  @ 9 @ type  @ 11 @ 
+name  @ 56 @ name  @ 58 @ 
+expr  @ 7 @ expr  @ 9 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 13 @ 
+literal: ", i);
+                return (-1);}
+
+            width = crop->regionlist[i].width;length = crop->regionlist[i].length;if (crop->crop_mode&CROP_INVERT)
+            {switch (crop->photometric)
+                {/* Just change the interpretation */
+                    case PHOTOMETRIC_MINISWHITE:case PHOTOMETRIC_MINISBLACK:
+                        image->photometric = crop->photometric;
+                        break;case INVERT_DATA_ONLY:
+                    case INVERT_DATA_AND_TAG:if (invertImage(image->photometric, image->spp,image->bps, width, length, crop_buff))
+                        {TIFFError("  @ 146 @ literal: "Unable to extract cropped region %d from image"  @ 151 @ 
+operator: !  @ 35 @ operator: !  @ 37 @ 
+literal: " : "  @ 193 @ literal: 0  @ 109 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 5 @ 
+expr  @ 60 @ expr  @ 63 @ 
+argument_list  @ 60 @ argument_list  @ 62 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 9 @ 
+name: prev_cropsize  @ 9 @ name: prev_cropsize  @ 11 @ 
+case  @ 59 @ case  @ 61 @ 
+name: invertImage  @ 60 @ name: invertImage  @ 62 @ 
+expr  @ 22 @ expr  @ 24 @ 
+literal: "processCropSelections"  @ 37 @ literal: "processCropSelections"  @ 39 @ 
+name: width  @ 4 @ name: width  @ 6 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 58 @ 
+expr  @ 18 @ expr  @ 20 @ 
+literal: 0  @ 43 @ literal: 0  @ 45 @ 
+expr  @ 16 @ expr  @ 18 @ 
+name: crop  @ 1 @ name: crop  @ 2 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 43 @ 
+condition  @ 35 @ condition  @ 37 @ 
+operator: ->  @ 51 @ operator: ->  @ 53 @ 
+name: crop  @ 60 @ name: crop  @ 63 @ 
+argument_list  @ 62 @ argument_list  @ 65 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+type  @ 1 @ type  @ 3 @ 
+return  @ 38 @ return  @ 40 @ 
+name: image  @ 60 @ name: image  @ 62 @ 
+name  @ 21 @ name  @ 23 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+decl  @ 5 @ decl  @ 7 @ 
+name: extractCompositeRegions  @ 46 @ name: extractCompositeRegions  @ 48 @ 
+literal: "Failed to invert colorspace for composite ""  @ 62 @ literal: "Failed to invert colorspace for composite regions"  @ 66 @ 
+name: NULL  @ 6 @ name: NULL  @ 8 @ 
+name  @ 60 @ name  @ 62 @ 
+if_stmt  @ 60 @ if_stmt  @ 62 @ 
+expr  @ 41 @ expr  @ 43 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 44 @ 
+if  @ 22 @ if  @ 24 @ 
+name  @ 51 @ name  @ 53 @ 
+block_content  @ 37 @ block_content  @ 39 @ 
+name: img_mode  @ 13 @ name: img_mode  @ 15 @ 
+literal: 0  @ 9 @ literal: 0  @ 11 @ 
+name: int  @ 3 @ name: int  @ 5 @ 
+if_stmt  @ 17 @ if_stmt  @ 19 @ 
+expr  @ 16 @ expr  @ 18 @ 
+name  @ 56 @ name  @ 58 @ 
+operator: =  @ 24 @ operator: =  @ 26 @ 
+argument_list  @ 24 @ argument_list  @ 26 @ 
+name: unsigned  @ 8 @ name: unsigned  @ 10 @ 
+name: TIFFError  @ 62 @ name: TIFFError  @ 65 @ 
+call  @ 27 @ call  @ 29 @ 
+operator: =  @ 42 @ operator: =  @ 44 @ 
+name: buffer  @ 16 @ name: buffer  @ 18 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 20 @ 
+name: limitMalloc  @ 18 @ name: limitMalloc  @ 20 @ 
+expr  @ 46 @ expr  @ 48 @ 
+operator: (  @ 47 @ operator: (  @ 49 @ 
+name: crop_mode  @ 49 @ name: crop_mode  @ 51 @ 
+name: struct  @ 1 @ name: struct  @ 3 @ 
+block_content  @ 3 @ block_content  @ 5 @ 
+expr  @ 9 @ expr  @ 11 @ 
+block  @ 18 @ block  @ 20 @ 
+name: combined_length  @ 60 @ name: combined_length  @ 63 @ 
+case  @ 55 @ case  @ 57 @ 
+argument  @ 60 @ argument  @ 62 @ 
+literal: ","  @ 204 @ literal: 7  @ 110 @ 
+operator: !  @ 25 @ operator: !  @ 27 @ 
+name: crop  @ 60 @ name: crop  @ 63 @ 
+name: limitMalloc  @ 28 @ name: limitMalloc  @ 30 @ 
+literal: ",(crop->rotation == MIRROR_HORIZ) ? "  @ 90 @ literal: "processCropSelections"  @ 94 @ 
+operator: .  @ 21 @ operator: .  @ 23 @ 
+name: crop_buff  @ 31 @ name: crop_buff  @ 33 @ 
+name: cropsize  @ 15 @ name: cropsize  @ 17 @ 
+decl  @ 8 @ decl  @ 10 @ 
+modifier: *  @ 6 @ modifier: *  @ 8 @ 
+condition  @ 60 @ condition  @ 62 @ 
+literal: ","  @ 136 @ literal: "vertically"  @ 95 @ 
+name  @ 1 @ name  @ 2 @ 
+name: crop  @ 13 @ name: crop  @ 15 @ 
+init  @ 7 @ init  @ 9 @ 
+name  @ 60 @ name  @ 63 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+literal: ","  @ 101 @ literal: "horizontally"  @ 95 @ 
+name: COMPOSITE_IMAGES  @ 13 @ name: COMPOSITE_IMAGES  @ 15 @ 
+operator: -  @ 38 @ operator: -  @ 40 @ 
+name: bps  @ 60 @ name: bps  @ 62 @ 
+name: PHOTOMETRIC_MINISBLACK  @ 55 @ name: PHOTOMETRIC_MINISBLACK  @ 57 @ 
+if  @ 49 @ if  @ 51 @ 
+operator: .  @ 16 @ operator: .  @ 18 @ 
+name: image  @ 1 @ name: image  @ 2 @ 
+name: i  @ 3 @ name: i  @ 5 @ 
+call  @ 37 @ call  @ 39 @ 
+name: crop_buff  @ 41 @ name: crop_buff  @ 43 @ 
+name: bufftotal  @ 15 @ name: bufftotal  @ 17 @ 
+block  @ 61 @ block  @ 64 @ 
+type  @ 4 @ type  @ 6 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: *  @ 28 @ operator: *  @ 30 @ 
+decl  @ 6 @ decl  @ 8 @ 
+expr  @ 17 @ expr  @ 19 @ 
+argument  @ 62 @ argument  @ 66 @ 
+expr  @ 60 @ expr  @ 62 @ 
+expr  @ 28 @ expr  @ 30 @ 
+init  @ 6 @ init  @ 8 @ 
+expr  @ 37 @ expr  @ 39 @ 
+call  @ 24 @ call  @ 26 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+argument_list  @ 28 @ argument_list  @ 30 @ 
+name: seg_buffs  @ 1 @ name: seg_buffs  @ 3 @ 
+name  @ 16 @ name  @ 18 @ 
+if  @ 17 @ if  @ 19 @ 
+name: char  @ 8 @ name: char  @ 10 @ 
+expr  @ 24 @ expr  @ 26 @ 
+condition  @ 13 @ condition  @ 15 @ 
+decl  @ 3 @ decl  @ 5 @ 
+argument_list  @ 18 @ argument_list  @ 20 @ 
+block  @ 20 @ block  @ 22 @ 
+argument  @ 46 @ argument  @ 48 @ 
+block  @ 14 @ block  @ 16 @ 
+literal: " PRIu16"  @ 204 @ literal: 8  @ 110 @ 
+name: crop_buff  @ 17 @ name: crop_buff  @ 19 @ 
+argument_list  @ 46 @ argument_list  @ 48 @ 
+name: image  @ 60 @ name: image  @ 62 @ 
+name: next_buff  @ 24 @ name: next_buff  @ 26 @ 
+expr  @ 6 @ expr  @ 8 @ 
+argument_list  @ 41 @ argument_list  @ 43 @ 
+name: next_buff  @ 8 @ name: next_buff  @ 10 @ 
+case  @ 58 @ case  @ 60 @ 
+operator: (  @ 28 @ operator: (  @ 30 @ 
+argument  @ 41 @ argument  @ 43 @ 
+decl  @ 4 @ decl  @ 6 @ 
+name: read_buff_ptr  @ 1 @ name: read_buff_ptr  @ 3 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+expr  @ 46 @ expr  @ 48 @ 
+operator: *  @ 18 @ operator: *  @ 20 @ 
+switch  @ 51 @ switch  @ 53 @ 
+expr  @ 60 @ expr  @ 63 @ 
+function  @ 1 @ function  @ 1 @ 
+literal: ");
+                    return (-1);}
+            }if (crop->crop_mode&CROP_ROTATE) /* rotate should be last as itcan reallocate the buffer */
+            {/* rotateImage() changes image->width, ->length, ->xres and * ->yres, what it schouldn't do here, when more than one * section is processed. ToDo: Therefore rotateImage() and its * usage has to be reworked (e.g. like mirrorImage()) !! * Furthermore, rotateImage() set up a new buffer and calculates * its size individually. Therefore, seg_buffs sizeneeds to be * updated accordingly. */
+                size_t rot_buf_size = 0;if (rotateImage(crop->rotation, image,&crop->regionlist[i].width,&crop->regionlist[i].length,&crop_buff,&rot_buf_size))
+                {TIFFError("  @ 193 @ literal: 0  @ 110 @ 
+operator: !  @ 17 @ operator: !  @ 19 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 17 @ 
+operator: =  @ 21 @ operator: =  @ 23 @ 
+name: crop_buff  @ 6 @ name: crop_buff  @ 8 @ 
+argument  @ 24 @ argument  @ 26 @ 
+name: read_buff  @ 11 @ name: read_buff  @ 13 @ 
+name: struct  @ 1 @ name: struct  @ 2 @ 
+block_content  @ 31 @ block_content  @ 33 @ 
+block  @ 47 @ block  @ 49 @ 
+name: photometric  @ 60 @ name: photometric  @ 62 @ 
+name: char  @ 1 @ name: char  @ 3 @ 
+name: crop  @ 15 @ name: crop  @ 17 @ 
+name: TIFFError  @ 37 @ name: TIFFError  @ 39 @ 
+name  @ 43 @ name  @ 45 @ 
+name: image_data  @ 1 @ name: image_data  @ 2 @ 
+decl  @ 4 @ decl  @ 6 @ 
+decl  @ 9 @ decl  @ 11 @ 
+literal: 0  @ 46 @ literal: 0  @ 48 @ 
+name: uint32_t  @ 4 @ name: uint32_t  @ 6 @ 
+argument  @ 28 @ argument  @ 30 @ 
+expr  @ 25 @ expr  @ 27 @ 
+name: crop  @ 49 @ name: crop  @ 51 @ 
+operator: =  @ 15 @ operator: =  @ 17 @ 
+name: length  @ 4 @ name: length  @ 6 @ 
+operator: =  @ 18 @ operator: =  @ 20 @ 
+name: crop  @ 56 @ name: crop  @ 58 @ 
+block  @ 23 @ block  @ 25 @ 
+expr  @ 8 @ expr  @ 10 @ 
+

@@ -1,0 +1,58 @@
+{
+    "testcase": {
+        "file46": {
+            "match_message": {
+                "Same: luaV_execute -> luaV_execute": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1587->657",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1587->657"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 28,
+                        "add_hunk": [
+                            "#include \"lprefix.h\"\n",
+                            "#include <float.h>\n",
+                            "#include <limits.h>\n",
+                            "#include <math.h>\n",
+                            "#include \"ljumptab.h\"\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 657,
+                        "add_hunk": [
+                            "L->top = 1;\n"
+                        ],
+                        "delete_location": [
+                            657,
+                            657
+                        ],
+                        "delete_hunk": [
+                            "        L->top = base + c + 1;  /* mark the end of concat operands */\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: luaV_execute -> luaV_execute": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_value"
+            ]
+        }
+    }
+}

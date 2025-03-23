@@ -1,0 +1,81 @@
+diff --git a/tools/tiffcrop.c b/tools/tiffcrop.c
+index 0da31577..2f6f8a53 100644
+--- a/tools/tiffcrop.c
++++ b/tools/tiffcrop.c
+@@ -7427,17 +7427,17 @@ processCropSelections(struct image_data *image, struct crop_mask *crop,
+     cropsize = crop->bufftotal;
+     crop_buff = seg_buffs[0].buffer; 
+     if (!crop_buff)
+-      crop_buff = (unsigned char *)limitMalloc(cropsize);
++      crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+     else
+       {
+       prev_cropsize = seg_buffs[0].size;
+       if (prev_cropsize < cropsize)
+         {
+-        next_buff = _TIFFrealloc(crop_buff, cropsize);
++        next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+         if (! next_buff)
+           {
+           _TIFFfree (crop_buff);
+-          crop_buff = (unsigned char *)limitMalloc(cropsize);
++          crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+           }
+         else
+           crop_buff = next_buff;
+@@ -7450,7 +7450,7 @@ processCropSelections(struct image_data *image, struct crop_mask *crop,
+       return (-1);
+       }
+  
+-    _TIFFmemset(crop_buff, 0, cropsize);
++    _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+     seg_buffs[0].buffer = crop_buff;
+     seg_buffs[0].size = cropsize;
+ 
+@@ -7529,17 +7529,17 @@ processCropSelections(struct image_data *image, struct crop_mask *crop,
+       cropsize = crop->bufftotal;
+       crop_buff = seg_buffs[i].buffer; 
+       if (!crop_buff)
+-        crop_buff = (unsigned char *)limitMalloc(cropsize);
++        crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+       else
+         {
+         prev_cropsize = seg_buffs[0].size;
+         if (prev_cropsize < cropsize)
+           {
+-          next_buff = _TIFFrealloc(crop_buff, cropsize);
++          next_buff = _TIFFrealloc(crop_buff, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+           if (! next_buff)
+             {
+             _TIFFfree (crop_buff);
+-            crop_buff = (unsigned char *)limitMalloc(cropsize);
++            crop_buff = (unsigned char *)limitMalloc(cropsize + NUM_BUFF_OVERSIZE_BYTES);
+             }
+           else
+             crop_buff = next_buff;
+@@ -7552,7 +7552,7 @@ processCropSelections(struct image_data *image, struct crop_mask *crop,
+         return (-1);
+         }
+  
+-      _TIFFmemset(crop_buff, 0, cropsize);
++      _TIFFmemset(crop_buff, 0, cropsize + NUM_BUFF_OVERSIZE_BYTES);
+       seg_buffs[i].buffer = crop_buff;
+       seg_buffs[i].size = cropsize;
+ 
+@@ -8451,12 +8451,13 @@ rotateImage(uint16_t rotation, struct image_data *image, uint32_t *img_width,
+               return (-1);
+     }
+ 
+-  if (!(rbuff = (unsigned char *)limitMalloc(buffsize)))
++  /* Add 3 padding bytes for extractContigSamplesShifted32bits */
++  if (!(rbuff = (unsigned char *)limitMalloc(buffsize + NUM_BUFF_OVERSIZE_BYTES)))
+     {
+-    TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize);
++    TIFFError("rotateImage", "Unable to allocate rotation buffer of %1u bytes", buffsize + NUM_BUFF_OVERSIZE_BYTES);
+     return (-1);
+     }
+-  _TIFFmemset(rbuff, '\0', buffsize);
++  _TIFFmemset(rbuff, '\0', buffsize + NUM_BUFF_OVERSIZE_BYTES);
+ 
+   ibuff = *ibuff_ptr;
+   switch (rotation)

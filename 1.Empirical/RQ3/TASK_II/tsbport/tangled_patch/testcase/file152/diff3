@@ -1,0 +1,11 @@
+3914,3915c3914
+<			return mp4box_cleanup(1);
+<			return GF_OUT_OF_MEM;
+---
+>			return mp4box_cleanup(GF_OUT_OF_MEM);
+3919a3920
+>			gf_dasher_del(dasher);
+3927a3928
+>				gf_dasher_del(dasher);
+3961a3962
+>			gf_dasher_del(dasher);

@@ -1,0 +1,62 @@
+static int
+cdj970_print_page(gx_device_printer * pdev, gp_file * prn_stream)
+{
+    struct error_val_field error_values;
+    struct ptr_arrays data_ptrs;
+    struct misc_struct misc_vars;
+
+    Gamma gamma;
+
+    if (cdj970->PageCtr == 0 && cdj970->ptype == DJ970C) {
+        cdj970_one_time_initialisation(pdev);
+    }
+
+    /* make a local writable copy of the Gamma tables */
+    memcpy(&gamma, gammat[cdj970->ptype], sizeof(Gamma));
+
+    /* if mastergamma, don't use the built in functions */
+    if (cdj970->mastergamma > 1.0) {
+        /* prepare the bw lookup table */
+        do_gamma(cdj970->mastergamma, cdj970->gammavalk, gamma.k);
+        /* prepare the color lookup table */
+        do_gamma(cdj970->mastergamma, cdj970->gammavalc, gamma.c);
+        do_gamma(cdj970->mastergamma, cdj970->gammavalm, gamma.m);
+        do_gamma(cdj970->mastergamma, cdj970->gammavaly, gamma.y);
+    }
+
+    /* prepare the black correction table for the unbunt mask */
+    do_black_correction(cdj970->blackcorrect, gamma.correct);
+
+    /* Calculate the needed memory */
+    calculate_memory_size(pdev, &misc_vars);
+
+    /* and allocate the memory */
+
+    /* Since we need 600 and 300 dpi, we set up several buffers: storage contains the data as copied from gs, as well as the plane-data and the out_row buffer. storagec will contain the rescaled color data. It also contains the plane_data for the color-planes - these are needed by the compression routine, but would be overwritten by the b/w-dithering. The color planes allow for overwriting the color-data by the error-data. Since we might use the 2bpp feature of the hp970 someday, it is sized like storage. storagee contains the errors from b/w fs-ditherng */
+
+    data_ptrs.storage =(ulong *) gs_malloc(pdev->memory->non_gc_memory,misc_vars.storage_size_words, W,"cdj970_print_page");
+
+    /* if we can't allocate working area */
+    if (data_ptrs.storage == 0) {
+        return_error(gs_error_VMerror);
+    }
+
+    /* Initialise the needed pointers */
+    init_data_structure(pdev, &data_ptrs, &misc_vars);
+
+    /* Start Raster mode */
+    (*cdj970->start_raster_mode) (pdev, misc_vars.paper_size, prn_stream);
+
+    /* Send each scan line in turn */
+    send_scan_lines(pdev, &data_ptrs, &misc_vars, &error_values, &gamma,prn_stream);
+
+    /* terminate page and eject paper */
+    (*cdj970->terminate_page) (pdev, prn_stream);
+
+    /* Free Memory */
+    gs_free(pdev->memory->non_gc_memory, (char *)data_ptrs.storage,misc_vars.storage_size_words, W, "hp970_print_page");
+
+    cdj970->PageCtr++;
+
+    return (0);
+}

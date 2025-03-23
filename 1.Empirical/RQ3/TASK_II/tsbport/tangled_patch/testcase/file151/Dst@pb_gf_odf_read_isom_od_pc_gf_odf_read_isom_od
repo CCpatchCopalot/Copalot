@@ -1,0 +1,31 @@
+GF_Err gf_odf_read_isom_od(GF_BitStream *bs, GF_IsomObjectDescriptor *od, u32 DescSize)
+{
+	GF_Err e;
+	u32 urlflag;
+	u32 tmpSize, nbBytes = 0;
+	if (! od) return GF_BAD_PARAM;
+
+	od->objectDescriptorID = gf_bs_read_int(bs, 10);
+	urlflag = gf_bs_read_int(bs, 1);
+	/*reserved = */gf_bs_read_int(bs, 5);
+	nbBytes += 2;
+
+	if (urlflag) {
+		u32 read;
+		e = gf_odf_read_url_string(bs, & od->URLString, &read);
+		if (e) return e;
+		nbBytes += read;
+	}
+
+	while (nbBytes < DescSize) {
+		GF_Descriptor *tmp = NULL;
+		e = gf_odf_parse_descriptor(bs, &tmp, &tmpSize);
+		if (e) return e;
+		if (!tmp) return GF_ODF_INVALID_DESCRIPTOR;
+		e = AddDescriptorToIsomOD(od, tmp);
+		if (e) return e;
+		nbBytes += tmpSize + gf_odf_size_field_size(tmpSize);
+	}
+	if (nbBytes != DescSize) return GF_ODF_INVALID_DESCRIPTOR;
+	return GF_OK;
+}

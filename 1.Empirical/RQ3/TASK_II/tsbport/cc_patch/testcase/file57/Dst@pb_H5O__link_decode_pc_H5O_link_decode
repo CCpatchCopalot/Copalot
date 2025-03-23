@@ -1,0 +1,144 @@
+static void *
+H5O_link_decode(H5F_t *f, hid_t UNUSED dxpl_id, H5O_t UNUSED *open_oh,
+    unsigned UNUSED mesg_flags, unsigned UNUSED *ioflags, const uint8_t *p)
+{
+    H5O_link_t          *lnk = NULL;    /* Pointer to link message */
+    size_t              len = 0;        /* Length of a string in the message */
+    unsigned char       link_flags;     /* Flags for encoding link info */
+    void                *ret_value;     /* Return value */
+
+    FUNC_ENTER_NOAPI_NOINIT
+
+    /* check args */
+    HDassert(f);
+    HDassert(p);
+
+    /* decode */
+    if(*p++ != H5O_LINK_VERSION)
+        HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "bad version number for message")
+
+    /* Allocate space for message */
+    if(NULL == (lnk = H5FL_CALLOC(H5O_link_t)))
+	HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed")
+
+    /* Get the encoding flags for the link */
+    link_flags = *p++;
+    if(link_flags & ~H5O_LINK_ALL_FLAGS)
+        HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "bad flag value for message")
+
+    /* Check for non-default link type */
+    if(link_flags & H5O_LINK_STORE_LINK_TYPE) {
+        /* Get the type of the link */
+        lnk->type = (H5L_type_t)*p++;
+        if(lnk->type < H5L_TYPE_HARD || lnk->type > H5L_TYPE_MAX)
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "bad link type")
+    } /* end if */
+    else
+        lnk->type = H5L_TYPE_HARD;
+
+    /* Get the link creation time from the file */
+    if(link_flags & H5O_LINK_STORE_CORDER) {
+        INT64DECODE(p, lnk->corder)
+        lnk->corder_valid = TRUE;
+    } /* end if */
+    else {
+        lnk->corder = 0;
+        lnk->corder_valid = FALSE;
+    } /* end else */
+
+    /* Check for non-default name character set */
+    if(link_flags & H5O_LINK_STORE_NAME_CSET) {
+        /* Get the link name's character set */
+        lnk->cset = (H5T_cset_t)*p++;
+        if(lnk->cset < H5T_CSET_ASCII || lnk->cset > H5T_CSET_UTF8)
+            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "bad cset type")
+    } /* end if */
+    else
+        lnk->cset = H5T_CSET_ASCII;
+
+    /* Get the length of the link's name */
+    switch(link_flags & H5O_LINK_NAME_SIZE) {
+        case 0:     /* 1 byte size */
+            len = *p++;
+            break;
+
+        case 1:     /* 2 byte size */
+            UINT16DECODE(p, len);
+            break;
+
+        case 2:     /* 4 byte size */
+            UINT32DECODE(p, len);
+            break;
+
+        case 3:     /* 8 byte size */
+            UINT64DECODE(p, len);
+            break;
+
+        default:
+            HDassert(0 && "bad size for name");
+    } /* end switch */
+    if(len == 0)
+        HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "invalid name length")
+
+    /* Get the link's name */
+    if(NULL == (lnk->name = (char *)H5MM_malloc(len + 1)))
+        HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed")
+    HDmemcpy(lnk->name, p, len);
+    lnk->name[len] = '\0';
+    p += len;
+
+    /* Get the appropriate information for each type of link */
+    switch(lnk->type) {
+        case H5L_TYPE_HARD:
+            /* Get the address of the object the link points to */
+            H5F_addr_decode(f, &p, &(lnk->u.hard.addr));
+            break;
+
+        case H5L_TYPE_SOFT:
+            /* Get the link value */
+            UINT16DECODE(p, len)
+            if(len == 0)
+                HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "invalid link length")
+            if(NULL == (lnk->u.soft.name = (char *)H5MM_malloc((size_t)len + 1)))
+                HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed")
+            HDmemcpy(lnk->u.soft.name, p, len);
+            lnk->u.soft.name[len] = '\0';
+            p += len;
+            break;
+
+        /* User-defined links */
+        default:
+            if(lnk->type < H5L_TYPE_UD_MIN || lnk->type > H5L_TYPE_MAX)
+                HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "unknown link type")
+
+            /* A UD link.  Get the user-supplied data */
+            UINT16DECODE(p, len)
+            lnk->u.ud.size = len;
+            if(len > 0)
+            {
+                if(NULL == (lnk->u.ud.udata = H5MM_malloc((size_t)len)))
+                    HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, NULL, "memory allocation failed")
+                HDmemcpy(lnk->u.ud.udata, p, len);
+                p += len;
+            }
+            else
+                lnk->u.ud.udata = NULL;
+    } /* end switch */
+
+    /* Set return value */
+    ret_value = lnk;
+
+done:
+    if(ret_value == NULL)
+        if(lnk != NULL) {
+            if(lnk->name != NULL)
+                H5MM_xfree(lnk->name);
+            if(lnk->type == H5L_TYPE_SOFT && lnk->u.soft.name != NULL)
+                H5MM_xfree(lnk->u.soft.name);
+            if(lnk->type >= H5L_TYPE_UD_MIN && lnk->u.ud.size > 0 && lnk->u.ud.udata != NULL)
+                H5MM_xfree(lnk->u.ud.udata);
+            lnk = H5FL_FREE(H5O_link_t, lnk);
+        } /* end if */
+
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5O_link_decode() */

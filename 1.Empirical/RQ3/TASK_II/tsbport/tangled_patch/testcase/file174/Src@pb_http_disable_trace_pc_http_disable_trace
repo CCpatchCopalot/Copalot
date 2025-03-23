@@ -1,0 +1,16 @@
+static int http_disable_trace(mk_request_t *request, void *data,const char *input_name, size_t input_nlen,msgpack_packer *mp_pck)
+{
+    struct flb_hs *hs = data;
+    int toggled_on = 503;
+
+
+    toggled_on = disable_trace_input(hs, input_name, input_nlen);
+    if (toggled_on < 300) {
+        msgpack_pack_map(mp_pck, 1);
+        msgpack_pack_str_with_body(mp_pck, HTTP_FIELD_STATUS, HTTP_FIELD_STATUS_LEN);
+        msgpack_pack_str_with_body(mp_pck, HTTP_RESULT_OK, HTTP_RESULT_OK_LEN);
+        return 201;
+    }
+
+    return toggled_on;
+}

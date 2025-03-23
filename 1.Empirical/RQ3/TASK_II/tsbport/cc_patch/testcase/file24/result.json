@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file24": {
+            "match_message": {
+                "Same: generate_inter_prediction_samples -> generate_inter_prediction_samples": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 407->476",
+                        "L2": "8: update L2 by L1 (5: Matched by Syntax(AST) similarity 408->479)"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 409->482",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 410->485)"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 476,
+                        "add_hunk": [
+                            "        if (img->get_chroma_format() != de265_chroma_mono) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 482,
+                        "add_hunk": [
+                            "        }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: generate_inter_prediction_samples -> generate_inter_prediction_samples": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

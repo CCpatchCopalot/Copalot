@@ -1,0 +1,6 @@
+704a705,709
+>			if (TIFFFieldSet(tif, FIELD_NUMBEROFINKS))
+>			{
+>				if (!TIFFWriteDirectoryTagShort(tif, &ndir, dir, TIFFTAG_NUMBEROFINKS, tif->tif_dir.td_numberofinks))
+>					goto bad;
+>			}

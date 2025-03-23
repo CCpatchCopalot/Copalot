@@ -1,0 +1,58 @@
+-1c-1
+---
+>    if(data_idx >= 0 && connectdata_idx >= 0 && sockindex_idx >= 0 && proxy_idx >= 0) {
+-1c-1
+---
+>    if(!Curl_ssl_getsessionid(data, conn, SSL_IS_PROXY() ? TRUE : FALSE,&ssl_sessionid, NULL, sockindex)) {
+363,365c363,364
+<  static int ssl_ex_data_sockindex_index = -1;
+<  if(ssl_ex_data_sockindex_index < 0) {
+<    ssl_ex_data_sockindex_index = SSL_get_ex_new_index(0, NULL, NULL, NULL,
+---
+>static int sockindex_index = -1;
+>( sockindex_index< 0)
+368c368,377
+<  return ssl_ex_data_sockindex_index;
+---
+>  return sockindex_index;
+>}
+>static int ossl_get_proxy_index(void)
+>{
+>  static int proxy_index = -1;
+>  if(proxy_index < 0) {
+>    proxy_index = SSL_get_ex_new_index(0, NULL, NULL, NULL,
+>        NULL);
+>  }
+>  return proxy_index;
+1138c1138
+<  if(ossl_get_ssl_conn_index() < 0 || ossl_get_ssl_sockindex_index() < 0)
+---
+>if(ossl_get_ssl_conn_index() < 0 || ossl_get_ssl_sockindex_index() < 0 || ossl_get_proxy_index() < 0)
+2404a2405,2406
+>  int proxy_idx = ossl_get_proxy_index();
+>  bool isproxy;
+2406c2406
+<  if(connectdata_idx < 0 || sockindex_idx < 0)
+---
+>if(connectdata_idx < 0 || sockindex_idx < 0 || proxy_idx < 0)
+2418a2419
+>  isproxy = SSL_get_ex_data(ssl, proxy_idx) ? TRUE : FALSE;
+2424c2424,2427
+<    incache = !(Curl_ssl_getsessionid(conn, &old_ssl_sessionid, NULL,
+---
+>if(isproxy)
+>      incache = FALSE;
+>    else
+>      incache = !(Curl_ssl_getsessionid(data, conn, isproxy,&old_ssl_sessionid, NULL, sockindex));
+2435c2435
+<      if(!Curl_ssl_addsessionid(conn, ssl_sessionid,
+---
+>if(!Curl_ssl_addsessionid(data, conn, isproxy, ssl_sessionid,0 /* unknown size */, sockindex)) {
+3150a3151
+>    int proxy_idx = ossl_get_proxy_index();
+3156a3157,3161
+>#ifndef CURL_DISABLE_PROXY
+>      SSL_set_ex_data(backend->handle, proxy_idx, SSL_IS_PROXY() ? (void *) 1:NULL);
+>#else
+>      SSL_set_ex_data(backend->handle, proxy_idx, NULL);
+>#endif

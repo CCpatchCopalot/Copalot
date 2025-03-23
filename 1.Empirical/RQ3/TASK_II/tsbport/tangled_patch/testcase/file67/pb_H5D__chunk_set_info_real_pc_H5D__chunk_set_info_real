@@ -1,0 +1,309 @@
+condition  @ 19 @ condition  @ 19 @ 
+expr  @ 33 @ expr  @ 35 @ 
+name: HDassert  @ 11 @ name: HDassert  @ 13 @ 
+operator: +  @ 18 @ operator: +  @ 18 @ 
+comment: /* Sanity check */  @ 22 @ comment: /* Sanity check */  @ 22 @ 
+operator: )  @ 18 @ operator: )  @ 18 @ 
+name: layout  @ 2 @ name: layout  @ 2 @ 
+expr  @ 34 @ expr  @ 36 @ 
+name: dim  @ 23 @ name: dim  @ 23 @ 
+init  @ 5 @ init  @ 6 @ 
+literal: 0  @ 23 @ literal: 0  @ 23 @ 
+name: FUNC_ENTER_STATIC  @ 7 @ name: FUNC_ENTER_PACKAGE  @ 8 @ 
+type  @ 4 @ type  @ 5 @ 
+name: layout  @ 34 @ name: layout  @ 36 @ 
+name: u  @ 18 @ name: u  @ 18 @ 
+expr  @ 33 @ expr  @ 35 @ 
+operator: /  @ 24 @ operator: /  @ 26 @ 
+comment: /* end for */  @ 30 @ comment: /* end for */  @ 32 @ 
+operator: )  @ 18 @ operator: )  @ 18 @ 
+block_content  @ 20 @ block_content  @ 20 @ 
+expr  @ 33 @ expr  @ 35 @ 
+block_content  @ 23 @ block_content  @ 23 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name  @ 29 @ name  @ 31 @ 
+comment: /* Get the "down" sizes for each dimension */  @ 32 @ comment: /* Get the "down" sizes for each dimension */  @ 34 @ 
+if  @ 19 @ if  @ 19 @ 
+name: u  @ 19 @ name: u  @ 19 @ 
+name: u  @ 16 @ name: u  @ 16 @ 
+expr  @ 10 @ expr  @ 11 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name: u  @ 4 @ name: u  @ 5 @ 
+name: max_chunks  @ 20 @ name: max_chunks  @ 20 @ 
+operator: )  @ 24 @ operator: )  @ 26 @ 
+index  @ 24 @ index  @ 26 @ 
+operator: /  @ 18 @ operator: /  @ 18 @ 
+name: layout  @ 16 @ name: layout  @ 16 @ 
+type  @ 2 @ type  @ 3 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+literal: 0  @ 16 @ literal: 0  @ 16 @ 
+name: H5D__chunk_set_info_real  @ 2 @ name: H5D__chunk_set_info_real  @ 2 @ 
+name  @ 18 @ name  @ 18 @ 
+operator: ==  @ 19 @ operator: ==  @ 19 @ 
+argument  @ 24 @ argument  @ 24 @ 
+label  @ 36 @ label  @ 38 @ 
+name: u  @ 24 @ name: u  @ 26 @ 
+name: max_nchunks  @ 29 @ name: max_nchunks  @ 31 @ 
+name: done  @ 36 @ name: done  @ 38 @ 
+decl  @ 2 @ decl  @ 3 @ 
+expr  @ 34 @ expr  @ 36 @ 
+if_stmt  @ 23 @ if_stmt  @ 23 @ 
+expr  @ 28 @ expr  @ 30 @ 
+literal: "dimension size must be>0, dim = %u "  @ 24 @ literal: "dimension size must be>0, dim = %u "  @ 24 @ 
+name  @ 34 @ name  @ 36 @ 
+block_content  @ 18 @ block_content  @ 18 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+decl  @ 7 @ decl  @ 8 @ 
+name: nchunks  @ 16 @ name: nchunks  @ 16 @ 
+type  @ 5 @ type  @ 6 @ 
+comment: /* Round up to the next integer # of chunks, to accommodate partial chunks */  @ 17 @ comment: /* Round up to the next integer # of chunks, to accommodate partial chunks */  @ 17 @ 
+expr  @ 34 @ expr  @ 36 @ 
+name  @ 16 @ name  @ 16 @ 
+name: u  @ 24 @ name: u  @ 26 @ 
+index  @ 24 @ index  @ 26 @ 
+name: layout  @ 29 @ name: layout  @ 31 @ 
+expr  @ 34 @ expr  @ 36 @ 
+expr  @ 16 @ expr  @ 16 @ 
+name: H5S_UNLIMITED  @ 19 @ name: H5S_UNLIMITED  @ 19 @ 
+name: layout  @ 34 @ name: layout  @ 36 @ 
+argument  @ 11 @ argument  @ 13 @ 
+index  @ 23 @ index  @ 23 @ 
+index  @ 29 @ index  @ 31 @ 
+literal: 1  @ 24 @ literal: 1  @ 26 @ 
+name: SUCCEED  @ 5 @ name: SUCCEED  @ 6 @ 
+name: curr_dims  @ 11 @ name: curr_dims  @ 13 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 30 @ 
+block_content  @ 24 @ block_content  @ 24 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 18 @ 
+expr  @ 23 @ expr  @ 23 @ 
+name: down_chunks  @ 33 @ name: down_chunks  @ 35 @ 
+modifier: *  @ 2 @ modifier: *  @ 3 @ 
+comment: /* Compute the # of chunks in dataset dimensions */  @ 15 @ comment: /* Compute the # of chunks in dataset dimensions */  @ 15 @ 
+argument  @ 24 @ argument  @ 24 @ 
+name: layout  @ 18 @ name: layout  @ 18 @ 
+name: layout  @ 24 @ name: layout  @ 26 @ 
+decl  @ 4 @ decl  @ 5 @ 
+macro  @ 37 @ macro  @ 39 @ 
+argument_list  @ 37 @ argument_list  @ 39 @ 
+name: ndims  @ 16 @ name: ndims  @ 16 @ 
+index  @ 20 @ index  @ 20 @ 
+expr  @ 29 @ expr  @ 31 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+name: HDassert  @ 10 @ name: HDassert  @ 11 @ 
+operator: (  @ 24 @ operator: (  @ 26 @ 
+name: hsize_t  @ 2 @ name: hsize_t  @ 3 @ 
+type  @ 2 @ type  @ 2 @ 
+name: max_nchunks  @ 16 @ name: max_nchunks  @ 16 @ 
+else  @ 21 @ else  @ 21 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+name: layout  @ 28 @ name: layout  @ 30 @ 
+type  @ 7 @ type  @ 8 @ 
+argument_list  @ 34 @ argument_list  @ 36 @ 
+name  @ 24 @ name  @ 26 @ 
+if_stmt  @ 19 @ if_stmt  @ 19 @ 
+decl  @ 5 @ decl  @ 6 @ 
+name: u  @ 23 @ name: u  @ 23 @ 
+comment: /* Return value */  @ 5 @ comment: /* Return value */  @ 6 @ 
+operator: <  @ 16 @ operator: <  @ 16 @ 
+index  @ 24 @ index  @ 26 @ 
+argument  @ 15 @ argument  @ 12 @ 
+name: u  @ 18 @ name: u  @ 18 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+expr  @ 24 @ expr  @ 26 @ 
+name: dim  @ 18 @ name: dim  @ 18 @ 
+operator: ,  @ 16 @ operator: ,  @ 16 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name  @ 18 @ name  @ 18 @ 
+expr  @ 28 @ expr  @ 30 @ 
+name: dim  @ 24 @ name: dim  @ 26 @ 
+name: layout  @ 16 @ name: layout  @ 16 @ 
+name: dim  @ 18 @ name: dim  @ 18 @ 
+operator: *=  @ 28 @ operator: *=  @ 30 @ 
+index  @ 24 @ index  @ 26 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 13 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name  @ 19 @ name  @ 19 @ 
+argument  @ 24 @ argument  @ 24 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: layout  @ 24 @ name: layout  @ 26 @ 
+name: layout  @ 18 @ name: layout  @ 18 @ 
+call  @ 34 @ call  @ 36 @ 
+name: nchunks  @ 28 @ name: nchunks  @ 30 @ 
+name: u  @ 29 @ name: u  @ 31 @ 
+expr  @ 23 @ expr  @ 23 @ 
+argument_list  @ 11 @ argument_list  @ 13 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 36 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name  @ 28 @ name  @ 30 @ 
+name: max_down_chunks  @ 34 @ name: max_down_chunks  @ 36 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 26 @ 
+name  @ 18 @ name  @ 18 @ 
+name  @ 34 @ name  @ 36 @ 
+argument  @ 34 @ argument  @ 36 @ 
+name: layout  @ 33 @ name: layout  @ 35 @ 
+expr  @ 5 @ expr  @ 6 @ 
+name: HGOTO_ERROR  @ 24 @ name: HGOTO_ERROR  @ 24 @ 
+expr  @ 24 @ expr  @ 26 @ 
+operator: )  @ 24 @ operator: )  @ 26 @ 
+name  @ 33 @ name  @ 35 @ 
+operator: ->  @ 18 @ operator: ->  @ 18 @ 
+expr  @ 11 @ expr  @ 13 @ 
+name: hsize_t  @ 2 @ name: hsize_t  @ 2 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 35 @ 
+comment: /* Local index variable */  @ 4 @ comment: /* Local index variable */  @ 5 @ 
+name  @ 23 @ name  @ 23 @ 
+operator: +  @ 24 @ operator: +  @ 26 @ 
+name: u  @ 16 @ name: u  @ 16 @ 
+operator: ->  @ 18 @ operator: ->  @ 18 @ 
+operator: (  @ 18 @ operator: (  @ 18 @ 
+name: H5O_layout_chunk_t  @ 2 @ name: H5O_layout_chunk_t  @ 2 @ 
+name: layout  @ 10 @ name: layout  @ 11 @ 
+operator: ->  @ 24 @ operator: ->  @ 26 @ 
+operator: ->  @ 28 @ operator: ->  @ 30 @ 
+comment: /* Accumulate the # of chunks */  @ 27 @ comment: /* Accumulate the # of chunks */  @ 29 @ 
+name: chunks  @ 28 @ name: chunks  @ 30 @ 
+call  @ 33 @ call  @ 35 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: ndims  @ 2 @ name: ndims  @ 2 @ 
+name: herr_t  @ 5 @ name: herr_t  @ 6 @ 
+operator: =  @ 16 @ operator: =  @ 16 @ 
+operator: =  @ 24 @ operator: =  @ 26 @ 
+operator: ->  @ 18 @ operator: ->  @ 18 @ 
+type  @ 1 @ type  @ 1 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: u  @ 18 @ name: u  @ 18 @ 
+operator: ->  @ 29 @ operator: ->  @ 31 @ 
+block_content  @ 15 @ block_content  @ 5 @ 
+name: max_dims  @ 19 @ name: max_dims  @ 19 @ 
+specifier: const  @ 2 @ specifier: const  @ 3 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: u  @ 24 @ name: u  @ 26 @ 
+expr  @ 29 @ expr  @ 31 @ 
+operator: =  @ 16 @ operator: =  @ 16 @ 
+operator: -  @ 24 @ operator: -  @ 26 @ 
+incr  @ 16 @ incr  @ 16 @ 
+block  @ 21 @ block  @ 21 @ 
+comment: /* Sanity checks */  @ 9 @ comment: /* Sanity checks */  @ 10 @ 
+index  @ 18 @ index  @ 18 @ 
+call  @ 11 @ call  @ 13 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+operator: (  @ 24 @ operator: (  @ 26 @ 
+name  @ 16 @ name  @ 16 @ 
+operator: ->  @ 34 @ operator: ->  @ 36 @ 
+name: H5VM_array_down  @ 34 @ name: H5VM_array_down  @ 36 @ 
+name  @ 18 @ name  @ 18 @ 
+name: ret_value  @ 5 @ name: ret_value  @ 6 @ 
+name: unsigned  @ 2 @ name: unsigned  @ 2 @ 
+operator: ==  @ 23 @ operator: ==  @ 23 @ 
+expr  @ 33 @ expr  @ 35 @ 
+index  @ 18 @ index  @ 18 @ 
+operator: =  @ 18 @ operator: =  @ 18 @ 
+init  @ 16 @ init  @ 16 @ 
+name: max_dims  @ 2 @ name: max_dims  @ 3 @ 
+name: unsigned  @ 4 @ name: unsigned  @ 5 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 16 @ expr  @ 16 @ 
+argument  @ 37 @ argument  @ 39 @ 
+argument_list  @ 33 @ argument_list  @ 35 @ 
+block  @ 15 @ block  @ 4 @ 
+name: u  @ 24 @ name: u  @ 26 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+index  @ 18 @ index  @ 18 @ 
+name: FUNC_LEAVE_NOAPI  @ 37 @ name: FUNC_LEAVE_NOAPI  @ 39 @ 
+name: chunks  @ 18 @ name: chunks  @ 18 @ 
+expr  @ 11 @ expr  @ 13 @ 
+macro  @ 24 @ macro  @ 24 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 20 @ 
+name: ndims  @ 33 @ name: ndims  @ 35 @ 
+expr  @ 16 @ expr  @ 16 @ 
+name  @ 24 @ name  @ 26 @ 
+argument_list  @ 10 @ argument_list  @ 11 @ 
+name: layout  @ 18 @ name: layout  @ 18 @ 
+name: curr_dims  @ 2 @ name: curr_dims  @ 2 @ 
+operator: ->  @ 24 @ operator: ->  @ 26 @ 
+name: u  @ 16 @ name: u  @ 16 @ 
+index  @ 18 @ index  @ 18 @ 
+name: H5VM_array_down  @ 33 @ name: H5VM_array_down  @ 35 @ 
+name: curr_dims  @ 18 @ name: curr_dims  @ 18 @ 
+expr  @ 16 @ expr  @ 16 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name: chunks  @ 33 @ name: chunks  @ 35 @ 
+name: max_chunks  @ 29 @ name: max_chunks  @ 31 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+index  @ 19 @ index  @ 19 @ 
+expr  @ 24 @ expr  @ 26 @ 
+argument  @ 33 @ argument  @ 35 @ 
+type  @ 2 @ type  @ 2 @ 
+comment: /* end H5D__chunk_set_info_real() */  @ 38 @ comment: /* end H5D__chunk_set_info_real() */  @ 40 @ 
+operator: (  @ 18 @ operator: (  @ 18 @ 
+name: H5S_UNLIMITED  @ 20 @ name: H5S_UNLIMITED  @ 20 @ 
+operator: -  @ 18 @ operator: -  @ 18 @ 
+name: ndims  @ 34 @ name: ndims  @ 36 @ 
+argument  @ 33 @ argument  @ 35 @ 
+operator: ->  @ 28 @ operator: ->  @ 30 @ 
+name  @ 24 @ name  @ 26 @ 
+operator: ->  @ 34 @ operator: ->  @ 36 @ 
+literal: 1  @ 16 @ literal: 1  @ 16 @ 
+operator: ->  @ 16 @ operator: ->  @ 16 @ 
+if  @ 23 @ if  @ 23 @ 
+expr  @ 24 @ expr  @ 26 @ 
+for  @ 16 @ for  @ 16 @ 
+argument  @ 10 @ argument  @ 11 @ 
+name: layout  @ 23 @ name: layout  @ 23 @ 
+type  @ 2 @ type  @ 2 @ 
+literal: 1  @ 18 @ literal: 1  @ 18 @ 
+name: dim  @ 24 @ name: dim  @ 26 @ 
+name: layout  @ 29 @ name: layout  @ 31 @ 
+argument  @ 34 @ argument  @ 36 @ 
+condition  @ 16 @ condition  @ 16 @ 
+block  @ 20 @ block  @ 20 @ 
+argument_list  @ 24 @ argument_list  @ 24 @ 
+operator: ++  @ 16 @ operator: ++  @ 16 @ 
+function  @ 1 @ function  @ 1 @ 
+block  @ 24 @ block  @ 24 @ 
+block  @ 16 @ block  @ 16 @ 
+name  @ 20 @ name  @ 20 @ 
+literal: 1  @ 16 @ literal: 1  @ 16 @ 
+operator: ->  @ 16 @ operator: ->  @ 16 @ 
+name: u  @ 18 @ name: u  @ 18 @ 
+condition  @ 23 @ condition  @ 23 @ 
+operator: ->  @ 33 @ operator: ->  @ 35 @ 
+expr  @ 16 @ expr  @ 16 @ 
+name  @ 28 @ name  @ 30 @ 
+operator: =  @ 20 @ operator: =  @ 20 @ 
+name: u  @ 28 @ name: u  @ 30 @ 
+name: layout  @ 28 @ name: layout  @ 30 @ 
+operator: =  @ 16 @ operator: =  @ 16 @ 
+name  @ 24 @ name  @ 26 @ 
+control  @ 16 @ control  @ 16 @ 
+name: max_chunks  @ 24 @ name: max_chunks  @ 26 @ 
+operator: ->  @ 33 @ operator: ->  @ 35 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+index  @ 28 @ index  @ 30 @ 
+argument  @ 24 @ argument  @ 24 @ 
+name: layout  @ 24 @ name: layout  @ 26 @ 
+name  @ 29 @ name  @ 31 @ 
+name: max_chunks  @ 34 @ name: max_chunks  @ 36 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 31 @ 
+name: u  @ 20 @ name: u  @ 20 @ 
+expr  @ 24 @ expr  @ 26 @ 
+name  @ 33 @ name  @ 35 @ 
+operator: ->  @ 29 @ operator: ->  @ 31 @ 
+argument  @ 34 @ argument  @ 36 @ 
+operator: ,  @ 16 @ operator: ,  @ 16 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+name: max_dims  @ 24 @ name: max_dims  @ 26 @ 
+operator: ->  @ 24 @ operator: ->  @ 26 @ 
+operator: *=  @ 29 @ operator: *=  @ 31 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: layout  @ 20 @ name: layout  @ 20 @ 
+argument  @ 24 @ argument  @ 24 @ 
+argument  @ 33 @ argument  @ 35 @ 
+expr  @ 18 @ expr  @ 18 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: layout  @ 33 @ name: layout  @ 35 @ 
+

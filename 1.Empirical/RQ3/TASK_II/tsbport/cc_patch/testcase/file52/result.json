@@ -1,0 +1,187 @@
+{
+    "testcase": {
+        "file52": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "60 -> 85",
+                        "L2": "60 -> 85",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "85",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                },
+                "Same: H5HL__hdr_deserialize -> H5HL__hdr_deserialize": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 115 -> 152",
+                        "L2": "3: Unique Matched by Source code 115 -> 152"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 117->151",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 117->151"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 146->187)",
+                        "L2": "3: Unique Matched by Source code 147 -> 190"
+                    }
+                },
+                "Same: H5HL__cache_prefix_get_final_load_size -> H5HL__cache_prefix_get_final_load_size": {
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 266 -> 365",
+                        "L2": "3: Unique Matched by Source code 266 -> 365"
+                    }
+                },
+                "Same: H5HL__cache_prefix_deserialize -> H5HL__cache_prefix_deserialize": {
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 306 -> 424",
+                        "L2": "3: Unique Matched by Source code 306 -> 424"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 85,
+                        "add_hunk": [
+                            "static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len,H5HL_cache_prfx_ud_t *udata);\n"
+                        ],
+                        "delete_location": [
+                            85,
+                            85
+                        ],
+                        "delete_hunk": [
+                            "static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 151,
+                        "add_hunk": [
+                            "const uint8_t *p_end     = image + len - 1;",
+                            "herr_t         ret_value = SUCCEED;"
+                        ],
+                        "delete_location": [
+                            151,
+                            151
+                        ],
+                        "delete_hunk": [
+                            "static herr_t\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 152,
+                        "add_hunk": [
+                            "H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len, H5HL_cache_prfx_ud_t *udata)\n"
+                        ],
+                        "delete_location": [
+                            152,
+                            152
+                        ],
+                        "delete_hunk": [
+                            "H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 189,
+                        "add_hunk": [
+                            "    if (!H5F_addr_defined(heap->dblk_addr))\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad datablock address\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 365,
+                        "add_hunk": [
+                            "    if (H5HL__hdr_deserialize(&heap, (const uint8_t *)image, image_len, udata) < 0)\n"
+                        ],
+                        "delete_location": [
+                            365,
+                            365
+                        ],
+                        "delete_hunk": [
+                            "    if (H5HL__hdr_deserialize(&heap, (const uint8_t *)image, udata) < 0)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 424,
+                        "add_hunk": [
+                            "    if (H5HL__hdr_deserialize(heap, (const uint8_t *)image, len, udata) < 0)\n"
+                        ],
+                        "delete_location": [
+                            424,
+                            424
+                        ],
+                        "delete_hunk": [
+                            "    if (H5HL__hdr_deserialize(heap, (const uint8_t *)image, udata) < 0)\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl"
+                        ]
+                    }
+                },
+                "Same: H5HL__hdr_deserialize -> H5HL__hdr_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_prefix_get_final_load_size -> H5HL__cache_prefix_get_final_load_size": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_prefix_deserialize -> H5HL__cache_prefix_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "Func_Definition",
+                "sanity_check",
+                "change_type",
+                "Func_Invocation"
+            ]
+        }
+    }
+}

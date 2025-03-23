@@ -1,0 +1,10 @@
+237a238,246
+> #ifndef HAVE_STRNLEN
+> size_t bit_strnlen (const char *restrict str, const size_t maxlen);
+> #define strnlen (str, maxlen) bit_strnlen(str, maxlen)
+> #endif
+> 
+> 
+> /* bounded length of UCS-2 string. stops scanning at maxlen. Beware: might overflow to negative lengths */
+> size_t bit_wcs2nlen (BITCODE_TU restrict wstr, const size_t maxlen);
+> 

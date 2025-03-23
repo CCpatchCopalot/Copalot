@@ -1,0 +1,47 @@
+{
+    "testcase": {
+        "file27": {
+            "match_message": {
+                "Same: r_coresym_cache_element_new -> r_coresym_cache_element_new": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 271 -> 260",
+                        "L2": "3: Unique Matched by Source code 272 -> 261"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 7,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 260,
+                        "add_hunk": [
+                            "\t\t\tif (cursor + (word_size * 4) > end) {\n",
+                            "\t\t\t\tgoto beach;\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: r_coresym_cache_element_new -> r_coresym_cache_element_new": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

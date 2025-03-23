@@ -1,0 +1,9 @@
+static CURLcode octet2str(struct dynbuf *store,const char *beg, const char *end)
+{
+  CURLcode result = CURLE_OK;
+
+  while(!result && beg < end)
+    result = Curl_dyn_addf(store, "%02x:", (unsigned char) *beg++);
+
+  return result;
+}

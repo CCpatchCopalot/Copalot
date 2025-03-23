@@ -1,0 +1,166 @@
+static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
+{
+vzt_rd_pthread_mutex_lock(lt, &b->mutex);
+
+if((!b->times)&&(b->mem))
+{
+vztint64_t *times=NULL;
+vztint32_t *change_dict=NULL;
+vztint32_t *val_dict=NULL;
+unsigned int num_time_ticks, num_sections, num_dict_entries;
+char *pnt = b->mem;
+vztint32_t i, j, m, num_dict_words;
+/* vztint32_t *block_end = (vztint32_t *)(pnt + b->uncompressed_siz); */
+vztint32_t *val_tmp;
+unsigned int num_bitplanes;
+uintptr_t padskip;
+
+num_time_ticks = vzt_rd_get_v32(&pnt);
+/* fprintf(stderr, "* num_time_ticks = %d\n", num_time_ticks); */
+if(num_time_ticks != 0)
+	{
+	vztint64_t cur_time;
+	times = malloc(num_time_ticks * sizeof(vztint64_t));
+	times[0] = cur_time = vzt_rd_get_v64(&pnt);
+	for(i=1;i<num_time_ticks;i++)
+		{
+		vztint64_t delta = vzt_rd_get_v64(&pnt);
+		cur_time += delta;
+		times[i] = cur_time;
+		}
+	}
+	else
+	{
+	vztint64_t cur_time = b->start;
+
+	num_time_ticks = b->end - b->start + 1;
+	times = malloc(num_time_ticks * sizeof(vztint64_t));
+
+	for(i=0;i<num_time_ticks;i++)
+		{
+		times[i] = cur_time++;
+		}
+	}
+
+num_sections = vzt_rd_get_v32(&pnt);
+num_dict_entries = vzt_rd_get_v32(&pnt);
+padskip = ((uintptr_t)pnt)&3; pnt += (padskip) ? 4-padskip : 0; /* skip pad to next 4 byte boundary */
+
+/* fprintf(stderr, "num_sections: %d, num_dict_entries: %d\n", num_sections, num_dict_entries); */
+
+if(b->rle)
+	{
+	vztint32_t *curr_dec_dict;
+	vztint32_t first_bit = 0, curr_bit = 0;
+	vztint32_t runlen;
+
+	val_dict = calloc(1, b->num_rle_bytes = (num_dict_words = num_sections * num_dict_entries) * sizeof(vztint32_t));
+	curr_dec_dict = val_dict;
+
+	vzt_rd_pthread_mutex_lock(lt, &lt->mutex);
+	lt->block_mem_consumed += b->num_rle_bytes;
+	vzt_rd_pthread_mutex_unlock(lt, &lt->mutex);
+
+	for(i=0;i<num_dict_entries;i++)
+		{
+		vztint32_t curr_dec_bit = 0, curr_dec_word = 0;
+		for(;;)
+			{
+			runlen = vzt_rd_get_v32(&pnt);
+			if(!runlen)
+				{
+				first_bit = first_bit ^ 1;
+				}
+			curr_bit ^= 1;
+			if((!curr_dec_word)&&(!curr_dec_bit))
+				{
+				curr_bit = first_bit;
+				}
+
+			for(j=0;j<runlen;j++)
+				{
+				if(curr_bit) *curr_dec_dict |= (1<<curr_dec_bit);
+				curr_dec_bit++;
+				if(curr_dec_bit != 32) continue;
+
+				curr_dec_bit = 0;
+				curr_dec_dict++;
+				curr_dec_word++;
+				if(curr_dec_word == num_sections) goto iloop;
+				}
+			}
+		iloop: i+=0; /* deliberate...only provides a jump target to loop bottom */
+		}
+
+	goto bpcalc;
+	}
+
+val_dict = (vztint32_t *) pnt;
+pnt = (char *)(val_dict + (num_dict_words = num_dict_entries * num_sections));
+
+bpcalc:
+num_bitplanes = vzt_rd_get_byte(pnt, 0) + 1;	pnt++;
+b->multi_state = (num_bitplanes > 1);
+padskip = ((uintptr_t)pnt)&3; pnt += (padskip) ? 4-padskip : 0; /* skip pad to next 4 byte boundary */
+b->vindex = (vztint32_t *)(pnt);
+
+if(is_big_endian()) /* have to bswap the value changes on big endian machines... */
+	{
+	if(!b->rle)
+		{
+		for(i=0;i<num_dict_words;i++)
+			{
+			val_dict[i] = vzt_rd_get_32r(val_dict + i, 0);
+			}
+		}
+
+	val_tmp = b->vindex;
+	for(i=0;i<num_bitplanes;i++)
+		{
+		for(j=0;j<lt->total_values;j++)
+			{
+			*val_tmp = vzt_rd_get_32r(val_tmp, 0);
+			val_tmp++;
+			}
+		}
+	}
+
+pnt = (char *)(b->vindex + num_bitplanes * lt->total_values);
+b->num_str_entries = vzt_rd_get_v32(&pnt);
+
+if(b->num_str_entries)
+	{
+	b->sindex = calloc(b->num_str_entries, sizeof(char *));
+	for(i=0;i<b->num_str_entries;i++)
+		{
+		b->sindex[i] = pnt;
+		pnt += (strlen(pnt) + 1);
+		}
+	}
+
+
+num_dict_words = (num_sections * num_dict_entries) * sizeof(vztint32_t);
+change_dict = malloc(num_dict_words ? num_dict_words : sizeof(vztint32_t)); /* scan-build */
+m = 0;
+for(i=0;i<num_dict_entries;i++)
+	{
+	vztint32_t pbit = 0;
+	for(j=0;j<num_sections;j++)
+		{
+                vztint32_t k = val_dict[m];
+                vztint32_t l = k^((k<<1)^pbit);
+		change_dict[m++] = l;
+		pbit = k >> 31;
+		}
+	}
+
+b->val_dict = val_dict;
+b->change_dict = change_dict;
+b->times = times;
+b->num_time_ticks = num_time_ticks;
+b->num_dict_entries = num_dict_entries;
+b->num_sections = num_sections;
+}
+
+vzt_rd_pthread_mutex_unlock(lt, &b->mutex);
+}

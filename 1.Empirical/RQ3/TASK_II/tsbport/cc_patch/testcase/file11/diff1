@@ -1,0 +1,6 @@
+5266,5267c5266,5267
+< 	if (newcounts == NULL || newoffsets == NULL) {
+< 		/* * Unable to allocate new strip information, give up and use * the original one strip information. */
+---
+>             (offset >= TIFFGetFileSize(tif) || stripbytes > (TIFFGetFileSize(tif) - offset) / (nstrips - 1)) ) * the original one strip information.
+> 		 */

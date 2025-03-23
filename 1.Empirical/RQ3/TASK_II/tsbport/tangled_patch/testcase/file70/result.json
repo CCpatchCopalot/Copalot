@@ -1,0 +1,745 @@
+{
+    "testcase": {
+        "file70": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "60 -> 85",
+                        "L2": "60 -> 85",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'src:decl', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "85",
+                            "verify result": "False"
+                        },
+                        "type": "src:decl",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "src:decl",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                },
+                "Same: H5HL__hdr_deserialize -> H5HL__hdr_deserialize": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 115 -> 152",
+                        "L2": "3: Unique Matched by Source code 115 -> 152"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 117->151",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 117->151"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 127 -> 164",
+                        "L2": "3: Unique Matched by Source code 126 -> 163"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 128->165",
+                        "L2": "5: Matched by Syntax(AST) similarity 128->165"
+                    },
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 130 -> 168",
+                        "L2": "3: Unique Matched by Source code 131 -> 169"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 132->169",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 132->169"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 138 -> 179",
+                        "L2": "3: Unique Matched by Source code 139 -> 180"
+                    },
+                    "Seg_8": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 141 -> 182",
+                        "L2": "3: Unique Matched by Source code 142 -> 183"
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 144->185",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 144->185"
+                    },
+                    "Seg_10": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 146->187)",
+                        "L2": "3: Unique Matched by Source code 147 -> 190"
+                    }
+                },
+                "Same: H5HL__fl_deserialize -> H5HL__fl_deserialize": {
+                    "Seg_11": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 172->228",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 172->228"
+                    },
+                    "Seg_12": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 174->231",
+                        "L2": "5: Matched by Syntax(AST) similarity 174->231"
+                    },
+                    "Seg_13": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 182->241",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 182->241"
+                    },
+                    "Seg_14": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 185->242",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 185->242"
+                    }
+                },
+                "Same: H5HL__cache_prefix_get_final_load_size -> H5HL__cache_prefix_get_final_load_size": {
+                    "Seg_15": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 250->348",
+                        "L2": "5: Matched by Syntax(AST) similarity 250->348"
+                    },
+                    "Seg_16": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 266 -> 365",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 267->366"
+                    }
+                },
+                "Same: H5HL__cache_prefix_deserialize -> H5HL__cache_prefix_deserialize": {
+                    "Seg_17": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 281->398",
+                        "L2": "5: Matched by Syntax(AST) similarity 281->398"
+                    },
+                    "Seg_18": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 285->402",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 286->404)"
+                    },
+                    "Seg_19": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 306 -> 424",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 307->425"
+                    },
+                    "Seg_20": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 320->442",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 320->442"
+                    },
+                    "Seg_21": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 322 -> 447",
+                        "L2": "3: Unique Matched by Source code 323 -> 448"
+                    },
+                    "Seg_22": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 327 -> 452",
+                        "L2": "3: Unique Matched by Source code 327 -> 452"
+                    }
+                },
+                "Same: H5HL__cache_prefix_serialize -> H5HL__cache_prefix_serialize": {
+                    "Seg_23": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 384->542",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 384->542"
+                    },
+                    "Seg_24": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 400->558",
+                        "L2": "3: Unique Matched by Source code 401 -> 559"
+                    },
+                    "Seg_25": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 402 -> 560",
+                        "L2": "3: Unique Matched by Source code 402 -> 560"
+                    },
+                    "Seg_26": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 405 -> 563",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 406->564"
+                    }
+                },
+                "Same: H5HL__cache_prefix_free_icr -> H5HL__cache_prefix_free_icr": {
+                    "Seg_27": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 469 -> 651",
+                        "L2": "3: Unique Matched by Source code 469 -> 651"
+                    }
+                },
+                "Same: H5HL__cache_datablock_notify -> H5HL__cache_datablock_notify": {
+                    "Seg_28": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 619->869",
+                        "L2": "5: Matched by Syntax(AST) similarity 619->869"
+                    },
+                    "Seg_29": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 638->889",
+                        "L2": "5: Matched by Syntax(AST) similarity 638->889"
+                    },
+                    "Seg_30": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 641->893",
+                        "L2": "5: Matched by Syntax(AST) similarity 641->893"
+                    }
+                },
+                "Same: H5HL__cache_datablock_free_icr -> H5HL__cache_datablock_free_icr": {
+                    "Seg_31": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 664 -> 933",
+                        "L2": "3: Unique Matched by Source code 664 -> 933"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 85,
+                        "add_hunk": [
+                            "static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len,H5HL_cache_prfx_ud_t *udata);\n"
+                        ],
+                        "delete_location": [
+                            85,
+                            85
+                        ],
+                        "delete_hunk": [
+                            "static herr_t H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 151,
+                        "add_hunk": [
+                            "const uint8_t *p_end     = image + len - 1;",
+                            "herr_t         ret_value = SUCCEED;"
+                        ],
+                        "delete_location": [
+                            151,
+                            151
+                        ],
+                        "delete_hunk": [
+                            "static herr_t\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 152,
+                        "add_hunk": [
+                            "H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, size_t len, H5HL_cache_prfx_ud_t *udata)\n"
+                        ],
+                        "delete_location": [
+                            152,
+                            152
+                        ],
+                        "delete_hunk": [
+                            "H5HL__hdr_deserialize(H5HL_t *heap, const uint8_t *image, H5HL_cache_prfx_ud_t *udata)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 164,
+                        "add_hunk": [
+                            "    if (H5_IS_BUFFER_OVERFLOW(image, H5_SIZEOF_MAGIC, p_end))\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, \"ran off end of input buffer while decoding\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 165,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad local heap signature\");HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad local heap signature\")",
+                            "image += H5_SIZEOF_MAGIC;"
+                        ],
+                        "delete_location": [
+                            165,
+                            165
+                        ],
+                        "delete_hunk": [
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad local heap signature\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 168,
+                        "add_hunk": [
+                            "    if (H5_IS_BUFFER_OVERFLOW(image, 1, p_end))\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, \"ran off end of input buffer while decoding\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 169,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_VERSION, FAIL, \"wrong version number in local heap\");",
+                            "if (H5_IS_BUFFER_OVERFLOW(image, 3, p_end))\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, \"ran off end of input buffer while decoding\");",
+                            "image += 3;"
+                        ],
+                        "delete_location": [
+                            169,
+                            169
+                        ],
+                        "delete_hunk": [
+                            "    if (H5HL_VERSION != *image++)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 179,
+                        "add_hunk": [
+                            "    if (H5_IS_BUFFER_OVERFLOW(image, udata->sizeof_size, p_end))\n",
+                            "        H5HL_VERSION(H5E_HEAP, H5E_OVERFLOW, FAIL, \"ran off end of input buffer while decoding\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 182,
+                        "add_hunk": [
+                            "    if (H5_IS_BUFFER_OVERFLOW(image, udata->sizeof_size, p_end))\n",
+                            "        H5HL_VERSION(H5E_HEAP, H5E_OVERFLOW, FAIL, \"ran off end of input buffer while decoding\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 185,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad heap free list\");HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad heap free list\")",
+                            "if (H5_IS_BUFFER_OVERFLOW(image, udata->sizeof_addr, p_end))\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, FAIL, \"ran off end of input buffer while decoding\");"
+                        ],
+                        "delete_location": [
+                            185,
+                            185
+                        ],
+                        "delete_hunk": [
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad heap free list\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "add",
+                        "add_location": 189,
+                        "add_hunk": [
+                            "    if (!H5F_addr_defined(heap->dblk_addr))\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"bad datablock address\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "change",
+                        "add_location": 228,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_BADRANGE, FAIL, \"bad heap free list\");"
+                        ],
+                        "delete_location": [
+                            229,
+                            228
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "change",
+                        "add_location": 231,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, FAIL, \"memory allocation failed\");",
+                            "fl->offset = (size_t)free_block;"
+                        ],
+                        "delete_location": [
+                            231,
+                            231
+                        ],
+                        "delete_hunk": [
+                            "        fl->offset = (size_t)free_block;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "change",
+                        "add_location": 241,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_BADVALUE, FAIL, \"free block size is zero?\");"
+                        ],
+                        "delete_location": [
+                            242,
+                            241
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "change",
+                        "add_location": 242,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_BADRANGE, FAIL, \"bad heap free list\");H5F_DECODE_LENGTH_LEN(image, fl->size, heap->sizeof_size);"
+                        ],
+                        "delete_location": [
+                            242,
+                            242
+                        ],
+                        "delete_hunk": [
+                            "        H5F_DECODE_LENGTH_LEN(image, fl->size, heap->sizeof_size);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_15",
+                    {
+                        "Edit": "change",
+                        "add_location": 348,
+                        "add_hunk": [
+                            "image_len, void *H5_ATTR_NDEBUG_UNUSED, size_t *actual_len"
+                        ],
+                        "delete_location": [
+                            348,
+                            348
+                        ],
+                        "delete_hunk": [
+                            "H5HL__cache_prefix_get_final_load_size(const void *_image, size_t H5_ATTR_NDEBUG_UNUSED image_len,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_16",
+                    {
+                        "Edit": "change",
+                        "add_location": 365,
+                        "add_hunk": [
+                            "if (H5HL__hdr_deserialize(&heap, (const uint8_t *)image, image_len, udata)  < 0)\n",
+                            "\tHGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, FAIL, \"can't decode local heap header\")",
+                            "*actual_len = heap.prfx_size;"
+                        ],
+                        "delete_location": [
+                            365,
+                            366
+                        ],
+                        "delete_hunk": [
+                            "    if (H5HL__hdr_deserialize(&heap, (const uint8_t *)image, udata) < 0)\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, FAIL, \"can't decode local heap header\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_17",
+                    {
+                        "Edit": "change",
+                        "add_location": 398,
+                        "add_hunk": [
+                            "static void *H5HL__cache_prefix_deserialize(const void *_image, size_t len, void *_udata, hbool_t H5_ATTR_UNUSED *dirty)"
+                        ],
+                        "delete_location": [
+                            398,
+                            398
+                        ],
+                        "delete_hunk": [
+                            "H5HL__cache_prefix_deserialize(const void *_image, size_t H5_ATTR_NDEBUG_UNUSED len, void *_udata,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_18",
+                    {
+                        "Edit": "add",
+                        "add_location": 402,
+                        "add_hunk": [
+                            "    const uint8_t        *p_end     = image + len - 1;                /* End of image buffer */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_19",
+                    {
+                        "Edit": "change",
+                        "add_location": 424,
+                        "add_hunk": [
+                            "if (H5HL__hdr_deserialize(heap, (const uint8_t *)image, len, udata)  < 0)\n",
+                            "\tHGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, NULL, \"can't decode local heap header\");HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, NULL, \"can't decode local heap header\")"
+                        ],
+                        "delete_location": [
+                            424,
+                            425
+                        ],
+                        "delete_hunk": [
+                            "    if (H5HL__hdr_deserialize(heap, (const uint8_t *)image, udata) < 0)\n",
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_CANTDECODE, NULL, \"can't decode local heap header\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_20",
+                    {
+                        "Edit": "change",
+                        "add_location": 442,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_CANTALLOC, NULL, \"memory allocation failed\");",
+                            "image = ((const uint8_t *)_image) + heap->prfx_size;"
+                        ],
+                        "delete_location": [
+                            443,
+                            442
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_21",
+                    {
+                        "Edit": "add",
+                        "add_location": 447,
+                        "add_hunk": [
+                            "            if (H5_IS_BUFFER_OVERFLOW(image, heap->dblk_size, p_end))\n",
+                            "                HGOTO_ERROR(H5E_HEAP, H5E_OVERFLOW, NULL, \"ran off end of input buffer while decoding\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_22",
+                    {
+                        "Edit": "change",
+                        "add_location": 452,
+                        "add_hunk": [
+                            "                HGOTO_ERROR(H5E_HEAP, H5E_CANTINIT, NULL, \"can't initialize free list\");\n"
+                        ],
+                        "delete_location": [
+                            452,
+                            452
+                        ],
+                        "delete_hunk": [
+                            "                HGOTO_ERROR(H5E_HEAP, H5E_CANTINIT, NULL, \"can't initialize free list\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_23",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            542,
+                            542
+                        ],
+                        "delete_hunk": [
+                            "    size_t       buf_size;                     /* expected size of the image buffer */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_24",
+                    {
+                        "Edit": "add",
+                        "add_location": 558,
+                        "add_hunk": [
+                            "#ifndef NDEBUG\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_25",
+                    {
+                        "Edit": "change",
+                        "add_location": 560,
+                        "add_hunk": [
+                            "    size_t buf_size = heap->prfx_size; /* expected size of the image buffer */\n"
+                        ],
+                        "delete_location": [
+                            560,
+                            560
+                        ],
+                        "delete_hunk": [
+                            "    buf_size = heap->prfx_size;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_26",
+                    {
+                        "Edit": "add",
+                        "add_location": 563,
+                        "add_hunk": [
+                            "#endif\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_27",
+                    {
+                        "Edit": "change",
+                        "add_location": 651,
+                        "add_hunk": [
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_CANTRELEASE, FAIL, \"can't destroy local heap prefix\");\n"
+                        ],
+                        "delete_location": [
+                            651,
+                            651
+                        ],
+                        "delete_hunk": [
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_CANTRELEASE, FAIL, \"can't destroy local heap prefix\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_28",
+                    {
+                        "Edit": "change",
+                        "add_location": 869,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_CANTPIN, FAIL, \"unable to pin local heap prefix\");HGOTO_ERROR(H5E_HEAP, H5E_CANTPIN, FAIL, \"unable to pin local heap prefix\")",
+                            "break;"
+                        ],
+                        "delete_location": [
+                            869,
+                            869
+                        ],
+                        "delete_hunk": [
+                            "                HGOTO_ERROR(H5E_HEAP, H5E_CANTPIN, FAIL, \"unable to pin local heap prefix\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_29",
+                    {
+                        "Edit": "change",
+                        "add_location": 889,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_HEAP, H5E_CANTUNPIN, FAIL, \"unable to unpin local heap prefix\");HGOTO_ERROR(H5E_HEAP, H5E_CANTUNPIN, FAIL, \"unable to unpin local heap prefix\")",
+                            "break;"
+                        ],
+                        "delete_location": [
+                            889,
+                            889
+                        ],
+                        "delete_hunk": [
+                            "                HGOTO_ERROR(H5E_HEAP, H5E_CANTUNPIN, FAIL, \"unable to unpin local heap prefix\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_30",
+                    {
+                        "Edit": "change",
+                        "add_location": 893,
+                        "add_hunk": [
+                            "HGOTO_ERROR(H5E_ARGS, H5E_BADVALUE, FAIL, \"unknown action from metadata cache\");HGOTO_ERROR(H5E_ARGS, H5E_BADVALUE, FAIL, \"unknown action from metadata cache\")",
+                            "break;"
+                        ],
+                        "delete_location": [
+                            893,
+                            893
+                        ],
+                        "delete_hunk": [
+                            "            HGOTO_ERROR(H5E_ARGS, H5E_BADVALUE, FAIL, \"unknown action from metadata cache\")\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_31",
+                    {
+                        "Edit": "change",
+                        "add_location": 933,
+                        "add_hunk": [
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_CANTFREE, FAIL, \"unable to destroy local heap data block\");\n"
+                        ],
+                        "delete_location": [
+                            933,
+                            933
+                        ],
+                        "delete_hunk": [
+                            "        HGOTO_ERROR(H5E_HEAP, H5E_CANTFREE, FAIL, \"unable to destroy local heap data block\")\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "src:decl"
+                        ]
+                    }
+                },
+                "Same: H5HL__hdr_deserialize -> H5HL__hdr_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__fl_deserialize -> H5HL__fl_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_prefix_get_final_load_size -> H5HL__cache_prefix_get_final_load_size": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_prefix_deserialize -> H5HL__cache_prefix_deserialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_prefix_serialize -> H5HL__cache_prefix_serialize": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_prefix_free_icr -> H5HL__cache_prefix_free_icr": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_datablock_notify -> H5HL__cache_datablock_notify": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: H5HL__cache_datablock_free_icr -> H5HL__cache_datablock_free_icr": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "Func_Invocation",
+                "change_type",
+                "sanity_check",
+                "function_call",
+                "function_definition",
+                "control_flow",
+                "change_value",
+                "other",
+                "outside",
+                "Func_Definition"
+            ]
+        }
+    }
+}

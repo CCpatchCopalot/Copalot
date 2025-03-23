@@ -1,0 +1,41 @@
+96,97c96,97
+<   char *buf = NULL;
+<   size_t bufsize = 0;
+---
+>   char *buf = bufs;
+>   size_t bufsize;
+144c144
+<   int l;
+---
+>   int l, vl;
+148a149,152
+> 
+>   char *pos;
+>   size_t len;
+> 
+150a155,167
+>       /* At this point, there is still a chance that we can print the remaining part of the log into bufs and use that.*/
+>       pos = bufs + l;
+>       len = sizeof (bufs) - l;
+>     }
+>   else
+>     {
+>       buf = NULL;
+>       /* We already know that bufs is too small to use for this log message. The next vsnprintf into bufs is used only to calculate the total required buffer length.We will discard bufs contents and allocate an appropriately sized buffer later instead.*/
+>       pos = bufs;
+>       len = sizeof (bufs);
+>     }
+> 
+>   {
+157,160c174
+<       int vl = __vsnprintf_internal (bufs + l, sizeof bufs - l, fmt, apc, mode_flags);
+<       if (0 <= vl && vl < sizeof bufs - l)
+<         buf = bufs;
+<       bufsize = l + vl;
+---
+>     vl = __vsnprintf_internal (pos, len, fmt, apc, mode_flags);
+161a176,179
+>     if (!(0 <= vl && vl < len))
+>       buf = NULL;
+> 
+>     bufsize = l + vl;

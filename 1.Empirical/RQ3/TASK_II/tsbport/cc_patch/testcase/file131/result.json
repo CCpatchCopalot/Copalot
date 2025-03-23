@@ -1,0 +1,62 @@
+{
+    "testcase": {
+        "file131": {
+            "match_message": {
+                "Same: read_sections_map -> read_sections_map": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 849 -> 1036",
+                        "L2": "3: Unique Matched by Source code 851 -> 1038"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (5: Matched by Syntax(AST) similarity 853->1040)",
+                        "L2": "3: Unique Matched by Source code 854 -> 1042"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1036,
+                        "add_hunk": [
+                            "      if (section->num_pages <= 0 || section->num_pages > 0xf0000)\n"
+                        ],
+                        "delete_location": [
+                            1036,
+                            1038
+                        ],
+                        "delete_hunk": [
+                            "      if (section->num_pages <= 0)\n",
+                            "        continue;\n",
+                            "      if (section->num_pages > 0xf0000)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1041,
+                        "add_hunk": [
+                            "          section->num_pages = 0;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: read_sections_map -> read_sections_map": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_value"
+            ]
+        }
+    }
+}

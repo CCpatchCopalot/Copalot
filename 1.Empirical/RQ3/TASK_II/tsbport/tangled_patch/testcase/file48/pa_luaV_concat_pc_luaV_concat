@@ -1,0 +1,398 @@
+name: L  @ 34 @ name: L  @ 33 @ 
+expr  @ 34 @ expr  @ 33 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+expr  @ 31 @ expr  @ 30 @ 
+literal: 1  @ 37 @ literal: 1  @ 36 @ 
+name: L  @ 1 @ name: L  @ 1 @ 
+operator: -  @ 20 @ operator: -  @ 19 @ 
+argument  @ 27 @ argument  @ 26 @ 
+expr  @ 34 @ expr  @ 33 @ 
+name: top  @ 5 @ name: top  @ 4 @ 
+argument  @ 21 @ argument  @ 20 @ 
+expr  @ 16 @ expr  @ 15 @ 
+name: s2v  @ 11 @ name: cvt2str  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+name: int  @ 6 @ name: int  @ 5 @ 
+decl  @ 20 @ decl  @ 19 @ 
+argument  @ 11 @ argument  @ 6 @ 
+name: MAX_SIZE  @ 21 @ name: MAX_SIZE  @ 20 @ 
+name: top  @ 7 @ name: top  @ 6 @ 
+init  @ 19 @ init  @ 18 @ 
+name: copy2buff  @ 27 @ name: copy2buff  @ 26 @ 
+block_content  @ 31 @ block_content  @ 30 @ 
+operator: -  @ 36 @ operator: -  @ 35 @ 
+argument_list  @ 10 @ argument_list  @ 9 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 9 @ 
+name: total  @ 2 @ name: total  @ 2 @ 
+call  @ 19 @ call  @ 18 @ 
+argument  @ 19 @ argument  @ 18 @ 
+comment: /* result is second op. */  @ 12 @ comment: /* result is second op. */  @ 11 @ 
+name: n  @ 19 @ name: n  @ 18 @ 
+call  @ 22 @ call  @ 21 @ 
+argument_list  @ 27 @ argument_list  @ 26 @ 
+name: tostring  @ 10 @ name: tostring  @ 9 @ 
+name: tl  @ 28 @ name: tl  @ 27 @ 
+comment: /* repeat until only 1 result left */  @ 38 @ comment: /* repeat until only 1 result left */  @ 37 @ 
+operator: /  @ 21 @ operator: /  @ 20 @ 
+name: L  @ 22 @ name: L  @ 21 @ 
+expr  @ 8 @ expr  @ 7 @ 
+literal: 2  @ 10 @ literal: 2  @ 9 @ 
+name: luaV_concat  @ 1 @ name: luaV_concat  @ 1 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 26 @ 
+condition  @ 7 @ condition  @ 6 @ 
+argument_list  @ 34 @ argument_list  @ 33 @ 
+name: size_t  @ 16 @ name: size_t  @ 15 @ 
+argument  @ 27 @ argument  @ 26 @ 
+expr  @ 36 @ expr  @ 35 @ 
+operator: )  @ 21 @ operator: )  @ 20 @ 
+modifier: *  @ 17 @ modifier: *  @ 16 @ 
+argument  @ 32 @ argument  @ 31 @ 
+expr  @ 23 @ expr  @ 22 @ 
+expr  @ 28 @ expr  @ 27 @ 
+expr  @ 28 @ expr  @ 27 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 33 @ 
+expr  @ 7 @ expr  @ 6 @ 
+operator: -  @ 20 @ operator: -  @ 19 @ 
+decl  @ 16 @ decl  @ 15 @ 
+expr  @ 22 @ expr  @ 21 @ 
+expr  @ 32 @ expr  @ 31 @ 
+argument  @ 32 @ argument  @ 31 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 35 @ 
+expr  @ 25 @ expr  @ 24 @ 
+name: L  @ 5 @ name: L  @ 4 @ 
+condition  @ 9 @ condition  @ 8 @ 
+argument  @ 7 @ argument  @ 6 @ 
+call  @ 10 @ call  @ 9 @ 
+expr  @ 7 @ expr  @ 6 @ 
+comment: /* got 'n' strings to create 1 new */  @ 36 @ comment: /* got 'n' strings to create 1 new */  @ 35 @ 
+sizeof  @ 21 @ sizeof  @ 20 @ 
+call  @ 27 @ call  @ 26 @ 
+expr  @ 11 @ expr  @ 6 @ 
+operator: -  @ 9 @ operator: -  @ 8 @ 
+init  @ 16 @ init  @ 15 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: top  @ 20 @ name: top  @ 19 @ 
+expr  @ 26 @ expr  @ 25 @ 
+expr  @ 7 @ expr  @ 10 @ 
+operator: -  @ 19 @ operator: -  @ 18 @ 
+argument  @ 10 @ argument  @ 9 @ 
+name: TString  @ 17 @ name: TString  @ 16 @ 
+call  @ 28 @ call  @ 27 @ 
+argument  @ 10 @ argument  @ 9 @ 
+expr  @ 16 @ expr  @ 15 @ 
+name: setobjs2s  @ 12 @ name: setobjs2s  @ 11 @ 
+expr  @ 10 @ expr  @ 9 @ 
+argument_list  @ 7 @ argument_list  @ 6 @ 
+name: s2v  @ 7 @ name: isemptystr  @ 10 @ 
+operator: ->  @ 37 @ operator: ->  @ 36 @ 
+expr  @ 31 @ expr  @ 30 @ 
+expr  @ 31 @ expr  @ 30 @ 
+expr  @ 21 @ expr  @ 20 @ 
+comment: /* result is first operand */  @ 10 @ comment: /* result is first operand */  @ 9 @ 
+literal: 1  @ 16 @ literal: 1  @ 15 @ 
+block_content  @ 5 @ block_content  @ 4 @ 
+operator: -  @ 34 @ operator: -  @ 33 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: L  @ 8 @ name: L  @ 7 @ 
+init  @ 5 @ init  @ 4 @ 
+name: n  @ 19 @ name: n  @ 18 @ 
+expr  @ 20 @ expr  @ 19 @ 
+argument  @ 19 @ argument  @ 18 @ 
+expr  @ 38 @ expr  @ 37 @ 
+argument_list  @ 11 @ argument_list  @ 6 @ 
+argument  @ 12 @ argument  @ 11 @ 
+literal: 1  @ 9 @ literal: 1  @ 8 @ 
+name: tostring  @ 7 @ name: tostring  @ 6 @ 
+name: buff  @ 26 @ name: buff  @ 25 @ 
+if_stmt  @ 21 @ if_stmt  @ 20 @ 
+argument_list  @ 7 @ argument_list  @ 6 @ 
+argument_list  @ 21 @ argument_list  @ 20 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name: top  @ 10 @ name: top  @ 9 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 25 @ 
+argument  @ 28 @ argument  @ 27 @ 
+expr  @ 8 @ expr  @ 7 @ 
+block  @ 25 @ block  @ 24 @ 
+name: total  @ 36 @ name: total  @ 35 @ 
+literal: 1  @ 19 @ literal: 1  @ 18 @ 
+name: s2v  @ 7 @ name: ttisstring  @ 6 @ 
+name: luaG_runerror  @ 22 @ name: luaG_runerror  @ 21 @ 
+argument  @ 28 @ argument  @ 27 @ 
+comment: /* second operand is empty? */  @ 9 @ comment: /* second operand is empty? */  @ 8 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 36 @ 
+name: tl  @ 31 @ name: tl  @ 30 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr  @ 7 @ expr  @ 6 @ 
+name: luaS_createlngstrobj  @ 31 @ name: luaS_createlngstrobj  @ 30 @ 
+literal: "string length overflow"  @ 22 @ literal: "string length overflow"  @ 21 @ 
+operator: )  @ 7 @ operator: )  @ 6 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+name: tl  @ 25 @ name: tl  @ 24 @ 
+name: top  @ 32 @ name: top  @ 31 @ 
+name: ts  @ 28 @ name: ts  @ 27 @ 
+name: top  @ 12 @ name: top  @ 11 @ 
+expr  @ 10 @ expr  @ 9 @ 
+expr  @ 32 @ expr  @ 31 @ 
+name: n  @ 34 @ name: n  @ 33 @ 
+literal: 2  @ 7 @ literal: 2  @ 10 @ 
+condition  @ 19 @ condition  @ 18 @ 
+literal: 1  @ 19 @ literal: 1  @ 18 @ 
+init  @ 6 @ init  @ 5 @ 
+expr  @ 10 @ expr  @ 9 @ 
+expr  @ 19 @ expr  @ 18 @ 
+argument_list  @ 19 @ argument_list  @ 18 @ 
+name: ts  @ 17 @ name: ts  @ 16 @ 
+name: tl  @ 23 @ name: tl  @ 22 @ 
+operator: ->  @ 5 @ operator: ->  @ 4 @ 
+name: size_t  @ 20 @ name: size_t  @ 19 @ 
+call  @ 7 @ call  @ 10 @ 
+name  @ 5 @ name  @ 4 @ 
+comment: /* collect total length and number of strings */  @ 18 @ comment: /* collect total length and number of strings */  @ 17 @ 
+name: top  @ 5 @ name: top  @ 4 @ 
+if_stmt  @ 25 @ if_stmt  @ 24 @ 
+type  @ 6 @ type  @ 5 @ 
+operator: -  @ 7 @ operator: -  @ 10 @ 
+name: luaS_newlstr  @ 28 @ name: luaS_newlstr  @ 27 @ 
+name: n  @ 37 @ name: n  @ 36 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 30 @ 
+name: n  @ 19 @ name: n  @ 18 @ 
+operator: =  @ 31 @ operator: =  @ 30 @ 
+block  @ 4 @ block  @ 3 @ 
+decl  @ 1 @ decl  @ 1 @ 
+literal: 1  @ 38 @ literal: 1  @ 37 @ 
+argument  @ 32 @ argument  @ 31 @ 
+name: top  @ 9 @ name: top  @ 8 @ 
+if  @ 9 @ if  @ 8 @ 
+name: buff  @ 28 @ name: buff  @ 27 @ 
+comment: /* first operand is empty string? */  @ 11 @ comment: /* first operand is an empty string? */  @ 10 @ 
+operator: &&  @ 19 @ operator: &&  @ 18 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 7 @ 
+operator: -  @ 10 @ operator: -  @ 9 @ 
+literal: 1  @ 36 @ literal: 1  @ 35 @ 
+block_content  @ 8 @ block_content  @ 7 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 19 @ expr  @ 18 @ 
+expr  @ 5 @ expr  @ 4 @ 
+name: n  @ 20 @ name: n  @ 19 @ 
+call  @ 32 @ call  @ 31 @ 
+comment: /* create result */  @ 34 @ comment: /* create result */  @ 33 @ 
+name: ts  @ 34 @ name: ts  @ 33 @ 
+condition  @ 25 @ condition  @ 24 @ 
+block_content  @ 10 @ block_content  @ 9 @ 
+condition  @ 11 @ condition  @ 10 @ 
+init  @ 20 @ init  @ 19 @ 
+argument_list  @ 22 @ argument_list  @ 21 @ 
+block  @ 14 @ block  @ 13 @ 
+expr  @ 12 @ expr  @ 11 @ 
+operator: -  @ 11 @ operator: -  @ 6 @ 
+condition  @ 21 @ condition  @ 20 @ 
+argument  @ 34 @ argument  @ 33 @ 
+incr  @ 19 @ incr  @ 18 @ 
+argument  @ 31 @ argument  @ 30 @ 
+argument  @ 7 @ argument  @ 6 @ 
+name: LUAI_MAXSHORTLEN  @ 25 @ name: LUAI_MAXSHORTLEN  @ 24 @ 
+name: top  @ 7 @ name: top  @ 10 @ 
+name: L  @ 12 @ name: L  @ 11 @ 
+name  @ 37 @ name  @ 36 @ 
+argument_list  @ 7 @ argument_list  @ 10 @ 
+block_content  @ 12 @ block_content  @ 11 @ 
+operator: -=  @ 36 @ operator: -=  @ 35 @ 
+name: buff  @ 27 @ name: buff  @ 26 @ 
+expr  @ 19 @ expr  @ 18 @ 
+call  @ 20 @ call  @ 19 @ 
+name: tl  @ 16 @ name: tl  @ 15 @ 
+name: top  @ 11 @ name: top  @ 6 @ 
+block  @ 19 @ block  @ 18 @ 
+decl_stmt  @ 17 @ decl_stmt  @ 16 @ 
+control  @ 19 @ control  @ 18 @ 
+name: s2v  @ 20 @ name: vslen  @ 19 @ 
+argument  @ 9 @ argument  @ 8 @ 
+type  @ 26 @ type  @ 25 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 31 @ 
+name: total  @ 38 @ name: total  @ 37 @ 
+literal: 2  @ 6 @ literal: 2  @ 5 @ 
+block_content  @ 16 @ block_content  @ 15 @ 
+name: top  @ 12 @ name: top  @ 11 @ 
+call  @ 9 @ call  @ 8 @ 
+call  @ 10 @ call  @ 9 @ 
+argument  @ 27 @ argument  @ 26 @ 
+if  @ 11 @ if  @ 10 @ 
+argument  @ 22 @ argument  @ 21 @ 
+type  @ 5 @ type  @ 4 @ 
+operator: >  @ 38 @ operator: >  @ 37 @ 
+name: getstr  @ 32 @ name: getstr  @ 31 @ 
+argument  @ 31 @ argument  @ 30 @ 
+operator: ==  @ 2 @ operator: >=  @ 2 @ 
+name: top  @ 16 @ name: top  @ 15 @ 
+call  @ 16 @ call  @ 15 @ 
+name: setsvalue2s  @ 34 @ name: setsvalue2s  @ 33 @ 
+block_content  @ 20 @ block_content  @ 19 @ 
+name: total  @ 1 @ name: total  @ 1 @ 
+decl  @ 26 @ decl  @ 25 @ 
+name: L  @ 7 @ name: L  @ 6 @ 
+name: l  @ 20 @ name: l  @ 19 @ 
+type  @ 17 @ type  @ 16 @ 
+operator: -  @ 12 @ operator: -  @ 11 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 4 @ 
+call  @ 8 @ call  @ 7 @ 
+comment: /* is result a short string? */  @ 25 @ comment: /* is result a short string? */  @ 24 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 27 @ 
+name: lua_State  @ 1 @ name: lua_State  @ 1 @ 
+expr  @ 9 @ expr  @ 8 @ 
+expr  @ 12 @ expr  @ 11 @ 
+else  @ 30 @ else  @ 29 @ 
+operator: (  @ 7 @ operator: (  @ 6 @ 
+expr  @ 34 @ expr  @ 33 @ 
+decl_stmt  @ 16 @ decl_stmt  @ 15 @ 
+name: LUAI_MAXSHORTLEN  @ 26 @ name: LUAI_MAXSHORTLEN  @ 25 @ 
+operator: ++  @ 19 @ operator: ++  @ 18 @ 
+name: tl  @ 21 @ name: tl  @ 20 @ 
+argument  @ 8 @ argument  @ 7 @ 
+comment: /* number of elements handled in this pass (at least 2) */  @ 6 @ comment: /* number of elements handled in this pass (at least 2) */  @ 5 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 22 @ 
+name: l  @ 23 @ name: l  @ 22 @ 
+argument  @ 16 @ argument  @ 15 @ 
+expr  @ 10 @ expr  @ 9 @ 
+operator: -  @ 12 @ operator: -  @ 11 @ 
+argument  @ 10 @ argument  @ 9 @ 
+call  @ 31 @ call  @ 30 @ 
+decl  @ 6 @ decl  @ 5 @ 
+name: top  @ 34 @ name: top  @ 33 @ 
+comment: /* popped 'n' strings and pushed one */  @ 37 @ comment: /* popped 'n' strings and pushed one */  @ 36 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+name: n  @ 27 @ name: n  @ 26 @ 
+name: n  @ 19 @ name: n  @ 18 @ 
+block  @ 8 @ block  @ 7 @ 
+name: L  @ 19 @ name: L  @ 18 @ 
+literal: 1  @ 20 @ literal: 1  @ 19 @ 
+else  @ 14 @ else  @ 13 @ 
+expr  @ 12 @ expr  @ 11 @ 
+condition  @ 38 @ condition  @ 37 @ 
+argument  @ 28 @ argument  @ 27 @ 
+expr  @ 7 @ expr  @ 6 @ 
+argument_list  @ 12 @ argument_list  @ 11 @ 
+call  @ 32 @ call  @ 31 @ 
+name: char  @ 26 @ name: char  @ 25 @ 
+if_stmt  @ 7 @ if_stmt  @ 6 @ 
+call  @ 12 @ call  @ 11 @ 
+argument_list  @ 16 @ argument_list  @ 15 @ 
+operator: -  @ 7 @ operator: -  @ 6 @ 
+expr  @ 22 @ expr  @ 21 @ 
+operator: !  @ 7 @ operator: !  @ 6 @ 
+block  @ 10 @ block  @ 9 @ 
+expr  @ 27 @ expr  @ 26 @ 
+argument_list  @ 32 @ argument_list  @ 31 @ 
+comment: /* at least two non-empty string values; get as many as possible */  @ 15 @ comment: /* at least two non-empty string values; get as many as possible */  @ 14 @ 
+expr  @ 19 @ expr  @ 18 @ 
+expr  @ 19 @ expr  @ 18 @ 
+expr  @ 6 @ expr  @ 5 @ 
+argument_list  @ 8 @ argument_list  @ 7 @ 
+literal: 1  @ 7 @ literal: 1  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+name: tostring  @ 19 @ name: tostring  @ 18 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 5 @ 
+operator: +=  @ 23 @ operator: +=  @ 22 @ 
+block_content  @ 26 @ block_content  @ 25 @ 
+name: ts  @ 32 @ name: ts  @ 31 @ 
+argument  @ 12 @ argument  @ 11 @ 
+name: s2v  @ 16 @ name: vslen  @ 15 @ 
+argument  @ 20 @ argument  @ 19 @ 
+literal: 2  @ 12 @ literal: 2  @ 11 @ 
+argument_list  @ 9 @ argument_list  @ 8 @ 
+do  @ 4 @ do  @ 3 @ 
+name: L  @ 37 @ name: L  @ 36 @ 
+decl_stmt  @ 20 @ decl_stmt  @ 19 @ 
+name  @ 26 @ name  @ 25 @ 
+call  @ 7 @ call  @ 6 @ 
+decl  @ 17 @ decl  @ 16 @ 
+operator: <=  @ 25 @ operator: <=  @ 24 @ 
+operator: =  @ 28 @ operator: =  @ 27 @ 
+literal: 1  @ 12 @ literal: 1  @ 11 @ 
+argument  @ 34 @ argument  @ 33 @ 
+name: L  @ 28 @ name: L  @ 27 @ 
+call  @ 7 @ call  @ 6 @ 
+type  @ 20 @ type  @ 19 @ 
+literal: 2  @ 11 @ literal: 2  @ 6 @ 
+name: L  @ 31 @ name: L  @ 30 @ 
+name: L  @ 10 @ name: L  @ 9 @ 
+if  @ 21 @ if  @ 20 @ 
+block  @ 11 @ block  @ 10 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+expr  @ 27 @ expr  @ 26 @ 
+expr  @ 22 @ expr  @ 21 @ 
+operator: -  @ 37 @ operator: -  @ 36 @ 
+if  @ 7 @ if  @ 6 @ 
+literal: 1  @ 2 @ literal: 2  @ 2 @ 
+type  @ 16 @ type  @ 15 @ 
+name: copy2buff  @ 32 @ name: copy2buff  @ 31 @ 
+name: total  @ 19 @ name: total  @ 18 @ 
+name: luaT_tryconcatTM  @ 8 @ name: luaT_trybinTM  @ 7 @ 
+argument_list  @ 20 @ argument_list  @ 19 @ 
+expr  @ 32 @ expr  @ 31 @ 
+call  @ 11 @ call  @ 6 @ 
+expr  @ 12 @ expr  @ 11 @ 
+function  @ 1 @ function  @ 1 @ 
+name: ts  @ 31 @ name: ts  @ 30 @ 
+expr  @ 7 @ expr  @ 10 @ 
+name: n  @ 32 @ name: n  @ 31 @ 
+argument_list  @ 32 @ argument_list  @ 31 @ 
+expr  @ 32 @ expr  @ 31 @ 
+if  @ 25 @ if  @ 24 @ 
+call  @ 34 @ call  @ 33 @ 
+operator: -=  @ 37 @ operator: -=  @ 36 @ 
+expr  @ 20 @ expr  @ 19 @ 
+expr  @ 27 @ expr  @ 26 @ 
+type  @ 1 @ type  @ 1 @ 
+argument  @ 22 @ argument  @ 21 @ 
+literal: 2  @ 7 @ literal: 2  @ 6 @ 
+name: top  @ 37 @ name: top  @ 36 @ 
+index  @ 26 @ index  @ 25 @ 
+name: cast_void  @ 10 @ name: cast_void  @ 9 @ 
+expr  @ 21 @ expr  @ 20 @ 
+argument  @ 32 @ argument  @ 31 @ 
+operator: !  @ 7 @ operator: !  @ 6 @ 
+operator: ||  @ 7 @ operator: ||  @ 6 @ 
+operator: (  @ 21 @ operator: (  @ 20 @ 
+comment: /* long string; copy strings directly to final result */  @ 30 @ comment: /* long string; copy strings directly to final result */  @ 29 @ 
+expr  @ 34 @ expr  @ 33 @ 
+operator: -  @ 16 @ operator: -  @ 15 @ 
+expr  @ 37 @ expr  @ 36 @ 
+expr  @ 2 @ expr  @ 2 @ 
+operator: >=  @ 21 @ operator: >=  @ 20 @ 
+operator: -  @ 19 @ operator: -  @ 18 @ 
+operator: =  @ 19 @ operator: =  @ 18 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 11 @ 
+name: top  @ 27 @ name: top  @ 26 @ 
+operator: -  @ 7 @ operator: -  @ 6 @ 
+comment: /* copy strings to buffer */  @ 27 @ comment: /* copy strings to buffer */  @ 26 @ 
+expr  @ 32 @ expr  @ 31 @ 
+argument_list  @ 10 @ argument_list  @ 9 @ 
+block  @ 1 @ block  @ 1 @ 
+block  @ 30 @ block  @ 29 @ 
+name: char  @ 21 @ name: char  @ 20 @ 
+argument_list  @ 28 @ argument_list  @ 27 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: n  @ 36 @ name: n  @ 35 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 21 @ 
+argument  @ 7 @ argument  @ 10 @ 
+expr  @ 9 @ expr  @ 8 @ 
+name: top  @ 19 @ name: top  @ 18 @ 
+argument  @ 34 @ argument  @ 33 @ 
+name: l  @ 21 @ name: l  @ 20 @ 
+operator: -  @ 21 @ operator: -  @ 20 @ 
+block_content  @ 22 @ block_content  @ 21 @ 
+argument_list  @ 31 @ argument_list  @ 30 @ 
+name: s2v  @ 9 @ name: isemptystr  @ 8 @ 
+expr  @ 28 @ expr  @ 27 @ 
+name: top  @ 7 @ name: top  @ 6 @ 
+for  @ 19 @ for  @ 18 @ 
+expr  @ 27 @ expr  @ 26 @ 
+decl  @ 5 @ decl  @ 4 @ 
+name: n  @ 6 @ name: n  @ 5 @ 
+argument  @ 12 @ argument  @ 11 @ 
+name: StkId  @ 5 @ name: StkId  @ 4 @ 
+block  @ 22 @ block  @ 21 @ 
+operator: <  @ 19 @ operator: <  @ 18 @ 
+operator: ||  @ 7 @ operator: ||  @ 6 @ 
+argument  @ 7 @ argument  @ 6 @ 
+

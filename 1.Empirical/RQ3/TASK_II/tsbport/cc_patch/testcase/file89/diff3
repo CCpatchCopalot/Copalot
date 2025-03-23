@@ -1,0 +1,49 @@
+167a168,169
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)
+>			return GF_ISOM_INVALID_MEDIA;
+183a184,185
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)
+>			return GF_ISOM_INVALID_MEDIA;
+187a188,189
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)
+>			return GF_ISOM_INVALID_MEDIA;
+195a196,197
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)
+>			return GF_ISOM_INVALID_MEDIA;
+202a203,204
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)
+>			return GF_ISOM_INVALID_MEDIA;
+206a207,208
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)
+>			return GF_ISOM_INVALID_MEDIA;
+210a211,212
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)
+>			return GF_ISOM_INVALID_MEDIA;
+249a250,251
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_MP4S)
+>			return GF_ISOM_INVALID_MEDIA;
+259a260,261
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_MP4S)
+>			return GF_ISOM_INVALID_MEDIA;
+283a284,285
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)
+>			return GF_ISOM_INVALID_MEDIA;
+290c290,293
+<	case GF_ISOM_SUBTYPE_OPUS: {
+---
+>	case GF_ISOM_SUBTYPE_OPUS:
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)
+>			return GF_ISOM_INVALID_MEDIA;
+>	{
+310a311,312
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)
+>			return GF_ISOM_INVALID_MEDIA;
+328a329,330
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)
+>			return GF_ISOM_INVALID_MEDIA;
+339a340,341
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_MP4S)
+>			return GF_ISOM_INVALID_MEDIA;
+357a358,359
+>		if (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)
+>			return GF_ISOM_INVALID_MEDIA;

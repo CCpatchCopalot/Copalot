@@ -1,0 +1,59 @@
+{
+    "testcase": {
+        "file145": {
+            "match_message": {
+                "Same: gf_odf_vvc_cfg_read_bs -> gf_odf_vvc_cfg_read_bs": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 1374",
+                        "L2": "7: Context line (Ignored) is empty or comment 1374"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1379 -> 1325",
+                        "L2": "3: Unique Matched by Source code 1379 -> 1325"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "\t\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_CODING, (\"[VVC] Invalid NALU type %d in vvcC - ignoring\\n\", ar->type));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 1325,
+                        "add_hunk": [
+                            "\t\tif (!valid || ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI)))\n"
+                        ],
+                        "delete_location": [
+                            1325,
+                            1325
+                        ],
+                        "delete_hunk": [
+                            "\t\tif ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI))\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_odf_vvc_cfg_read_bs -> gf_odf_vvc_cfg_read_bs": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "sanity_check"
+            ]
+        }
+    }
+}

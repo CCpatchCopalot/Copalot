@@ -1,0 +1,496 @@
+{
+    "testcase": {
+        "file156": {
+            "match_message": {
+                "Same: gf_m2ts_reframe_mpeg_video -> gf_m2ts_reframe_mpeg_video": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 520 -> 540",
+                        "L2": "3: Unique Matched by Source code 520 -> 540"
+                    }
+                },
+                "Same: gf_m2ts_crc32_check -> gf_m2ts_crc32_check": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1245 -> 1349",
+                        "L2": "3: Unique Matched by Source code 1245 -> 1349"
+                    }
+                },
+                "Same: gf_m2ts_section_complete -> gf_m2ts_section_complete": {
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1416->1521",
+                        "L2": "3: Unique Matched by Source code 1417 -> 1522"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1439->1544 ([[1544, 1.0], [1574, 0.37264150943396224]])",
+                        "L2": "3: Unique Matched by Source code 1440 -> 1545"
+                    }
+                },
+                "Same: gf_m2ts_get_section_length -> gf_m2ts_get_section_length": {
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1621 -> 1727",
+                        "L2": "3: Unique Matched by Source code 1621 -> 1727"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1623 -> 1729",
+                        "L2": "3: Unique Matched by Source code 1623 -> 1729"
+                    }
+                },
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "Seg_6": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2129->2230",
+                        "L2": "3: Unique Matched by Source code 2130 -> 2231"
+                    },
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2145 -> 2246",
+                        "L2": "3: Unique Matched by Source code 2145 -> 2246"
+                    },
+                    "Seg_8": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2147 -> 2250",
+                        "L2": "8: update L2 by L1 (5: Matched by Syntax(AST) similarity 2148->2242)"
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 2150->2249",
+                        "L2": "5: Matched by Syntax(AST) similarity 2150->2249"
+                    },
+                    "Seg_10": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2156->2256",
+                        "L2": "3: Unique Matched by Source code 2157 -> 2256"
+                    },
+                    "Seg_11": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2193 -> 2294",
+                        "L2": "3: Unique Matched by Source code 2193 -> 2294"
+                    },
+                    "Seg_12": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2203->2304",
+                        "L2": "3: Unique Matched by Source code 2204 -> 2305"
+                    },
+                    "Seg_13": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2340 -> 2431",
+                        "L2": "3: Unique Matched by Source code 2341 -> 2432"
+                    },
+                    "Seg_14": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2341 -> 2432",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2342->2433 ([[2433, 1.0], [2486, 0.5245202558635395], [2459, 0.5183585313174945], [2489, 0.5077519379844961], [2495, 0.47435897435897434], [2477, 0.4334600760456274], [2441, 0.4227941176470589], [2456, 0.3984526112185687], [2519, 0.32057416267942584]])"
+                    },
+                    "Seg_15": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2377 -> 2468",
+                        "L2": "3: Unique Matched by Source code 2378 -> 2469"
+                    },
+                    "Seg_16": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2383 -> 2474",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 2384->2475"
+                    }
+                },
+                "Same: gf_m2ts_process_pat -> gf_m2ts_process_pat": {
+                    "Seg_17": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 2629 -> 2669",
+                        "L2": "3: Unique Matched by Source code 2630 -> 2670"
+                    }
+                },
+                "Same: gf_m2ts_pes_header -> gf_m2ts_pes_header": {
+                    "Seg_18": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 2675->2759",
+                        "L2": "3: Unique Matched by Source code 2676 -> 2760"
+                    }
+                },
+                "Same: gf_m2ts_get_adaptation_field -> gf_m2ts_get_adaptation_field": {
+                    "Seg_19": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 2979 -> 3083",
+                        "L2": "3: Unique Matched by Source code 2979 -> 3083"
+                    }
+                },
+                "Same: gf_m2ts_demux_del -> gf_m2ts_demux_del": {
+                    "Seg_20": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 3721 -> 3821",
+                        "L2": "3: Unique Matched by Source code 3721 -> 3821"
+                    },
+                    "Seg_21": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 3733 -> 3833",
+                        "L2": "3: Unique Matched by Source code 3733 -> 3833"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 540,
+                        "add_hunk": [
+                            "\t\tunsigned char *start = (unsigned char*)memchr(data+sc_pos, 0, data_len-sc_pos-3);\n"
+                        ],
+                        "delete_location": [
+                            540,
+                            540
+                        ],
+                        "delete_hunk": [
+                            "\t\tunsigned char *start = (unsigned char*)memchr(data+sc_pos, 0, data_len-sc_pos);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 1349,
+                        "add_hunk": [
+                            "\tu32 crc_val = GF_4CC((u32) data[len], (u8) data[len+1], (u8) data[len+2], (u8) data[len+3]);\n"
+                        ],
+                        "delete_location": [
+                            1349,
+                            1349
+                        ],
+                        "delete_hunk": [
+                            "\tu32 crc_val = GF_4CC((u8) data[len], (u8) data[len+1], (u8) data[len+2], (u8) data[len+3]);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 1521,
+                        "add_hunk": [
+                            "\t\tif (sec->length < 2) {\n",
+                            "\t\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, (\"[MPEG-2 TS] M2TS Table parsing error, length %d is too small\\n\", sec->length) );\n",
+                            "\t\t\treturn;\n",
+                            "\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 1544,
+                        "add_hunk": [
+                            "\t\t\tif (sec->length < 5) {\n",
+                            "\t\t\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, (\"[MPEG-2 TS] M2TS Table parsing error, length %d is too small\\n\", sec->length) );\n",
+                            "\t\t\t\treturn;\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 1727,
+                        "add_hunk": [
+                            "\t\tlength = 3 + ( (((u8)byte1<<8) | (byte2&0xff)) & 0xfff );\n"
+                        ],
+                        "delete_location": [
+                            1727,
+                            1727
+                        ],
+                        "delete_hunk": [
+                            "\t\tlength = 3 + ( ((byte1<<8) | (byte2&0xff)) & 0xfff );\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 1729,
+                        "add_hunk": [
+                            "\t\tlength = 3 + ( (((u8)byte1<<8) | (byte2&0xff)) & 0x3ff );\n"
+                        ],
+                        "delete_location": [
+                            1729,
+                            1729
+                        ],
+                        "delete_hunk": [
+                            "\t\tlength = 3 + ( ((byte1<<8) | (byte2&0xff)) & 0x3ff );\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "add",
+                        "add_location": 2230,
+                        "add_hunk": [
+                            "\tif (data_size < 6) {\n",
+                            "\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[MPEG-2 TS] Invalid PMT header data size %d\\n\", data_size ) );\n",
+                            "\t\treturn;\n",
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": 2246,
+                        "add_hunk": [
+                            "\t\t\t\tif (pmt->program->pmt_iod) {\n",
+                            "\t\t\t\t\tgf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);\n",
+                            "\t\t\t\t\tpmt->program->pmt_iod = NULL;\n",
+                            "\t\t\t\t}\n"
+                        ],
+                        "delete_location": [
+                            2246,
+                            2246
+                        ],
+                        "delete_hunk": [
+                            "\t\t\t\tif (pmt->program->pmt_iod) gf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 2249,
+                        "add_hunk": [
+                            "\t\t\t\t\tif (pmt->program->pmt_iod) {\n",
+                            "\t\t\t\t\t\tpmt->program->pmt_iod->ServiceID = pmt->program->number;\n"
+                        ],
+                        "delete_location": [
+                            2249,
+                            2249
+                        ],
+                        "delete_hunk": [
+                            "\t\t\t\tif (pmt->program->pmt_iod) pmt->program->pmt_iod->ServiceID = pmt->program->number;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 2250,
+                        "add_hunk": [
+                            "\t\t\t\tif (pmt->program->pmt_iod && pmt->program->pmt_iod->tag != GF_ODF_IOD_TAG) {\n",
+                            "\t\t\t\t\tGF_LOG( GF_LOG_ERROR, GF_LOG_CONTAINER, (\"pmt iod has wrong tag %d\\n\", pmt->program->pmt_iod->tag) );\n",
+                            "\t\t\t\t\tgf_odf_desc_del((GF_Descriptor *)pmt->program->pmt_iod);\n",
+                            "\t\t\t\t\tpmt->program->pmt_iod = NULL;\n",
+                            "\t\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "add",
+                        "add_location": 2256,
+                        "add_hunk": [
+                            "\t\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "change",
+                        "add_location": 2294,
+                        "add_hunk": [
+                            "\twhile (pos<data_size-5) {\n"
+                        ],
+                        "delete_location": [
+                            2294,
+                            2294
+                        ],
+                        "delete_hunk": [
+                            "\twhile (pos<data_size) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "add",
+                        "add_location": 2304,
+                        "add_hunk": [
+                            "\t\tif (desc_len > data_size-5) {\n",
+                            "\t\t\tGF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, (\"[MPEG-2 TS] Invalid PMT es descriptor size for PID %d\\n\", pid ) );\n",
+                            "\t\t\tbreak;\n",
+                            "\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "add",
+                        "add_location": 2431,
+                        "add_hunk": [
+                            "\t\t\t\t\tif (pes) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "add",
+                        "add_location": 2432,
+                        "add_hunk": [
+                            "\t\t\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_15",
+                    {
+                        "Edit": "add",
+                        "add_location": 2468,
+                        "add_hunk": [
+                            "\t\t\t\t\tif (pes) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_16",
+                    {
+                        "Edit": "add",
+                        "add_location": 2474,
+                        "add_hunk": [
+                            "\t\t\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_17",
+                    {
+                        "Edit": "add",
+                        "add_location": 2669,
+                        "add_hunk": [
+                            "\t\t\tif (ts->ess[pmt->pid]) {\n",
+                            "\t\t\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, (\"Redefinition of pmt for pid %d\\n\", pid));\n",
+                            "\t\t\t\tgf_m2ts_es_del(ts->ess[pmt->pid], ts);\n",
+                            "\t\t\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_18",
+                    {
+                        "Edit": "add",
+                        "add_location": 2759,
+                        "add_hunk": [
+                            "\tif (data_size < 6) {\n",
+                            "\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_CONTAINER, (\"PES Header is too small (%d < 6)\\n\", data_size));\n",
+                            "\t\treturn;\n",
+                            "\t}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_19",
+                    {
+                        "Edit": "change",
+                        "add_location": 3083,
+                        "add_hunk": [
+                            "\t\tu32 base = ((u32)data[1] << 24) | (data[2] << 16) | (data[3] << 8) | data[4];\n"
+                        ],
+                        "delete_location": [
+                            3083,
+                            3083
+                        ],
+                        "delete_hunk": [
+                            "\t\tu32 base = (data[1] << 24) | (data[2] << 16) | (data[3] << 8) | data[4];\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_20",
+                    {
+                        "Edit": "change",
+                        "add_location": 3821,
+                        "add_hunk": [
+                            "\t\tif (ts->ess[i] && (ts->ess[i]->pid==i)) {\n",
+                            "\t\t\tgf_m2ts_es_del(ts->ess[i], ts);\n",
+                            "\t\t}\n"
+                        ],
+                        "delete_location": [
+                            3821,
+                            3821
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (ts->ess[i] && (ts->ess[i]->pid==i)) gf_m2ts_es_del(ts->ess[i], ts);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_21",
+                    {
+                        "Edit": "change",
+                        "add_location": 3833,
+                        "add_hunk": [
+                            "\t\tif (p->pmt_iod) {\n",
+                            "\t\t\tgf_odf_desc_del((GF_Descriptor *)p->pmt_iod);\n",
+                            "\t\t\tp->pmt_iod = NULL;\n",
+                            "\t\t}\n"
+                        ],
+                        "delete_location": [
+                            3833,
+                            3833
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (p->pmt_iod) gf_odf_desc_del((GF_Descriptor *)p->pmt_iod);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_m2ts_reframe_mpeg_video -> gf_m2ts_reframe_mpeg_video": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_crc32_check -> gf_m2ts_crc32_check": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_section_complete -> gf_m2ts_section_complete": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_get_section_length -> gf_m2ts_get_section_length": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_process_pmt -> gf_m2ts_process_pmt": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_process_pat -> gf_m2ts_process_pat": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_pes_header -> gf_m2ts_pes_header": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_get_adaptation_field -> gf_m2ts_get_adaptation_field": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_m2ts_demux_del -> gf_m2ts_demux_del": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "in_loop",
+                "sanity_check",
+                "change_type",
+                "change_value"
+            ]
+        }
+    }
+}

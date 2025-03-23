@@ -1,0 +1,4564 @@
+name: L  @ 120 @ name: L  @ 117 @ 
+name: UpVal  @ 147 @ name: UpVal  @ 655 @ 
+name: NULL  @ 683 @ name: NULL  @ 632 @ 
+argument  @ 350 @ argument  @ 368 @ 
+name: ar  @ 257 @ name: ar  @ 226 @ 
+name: callstatus  @ 267 @ name: callstatus  @ 231 @ 
+name: int  @ 523 @ name: int  @ 461 @ 
+expr_stmt  @ 396 @ expr_stmt  @ 198 @ 
+name: status  @ 657 @ name: status  @ 604 @ 
+expr  @ 132 @ expr  @ 128 @ 
+operator: .  @ 711 @ operator: .  @ 667 @ 
+argument  @ 684 @ argument  @ 634 @ 
+block  @ 449 @ block  @ 331 @ 
+name: setsvalue2s  @ 543 @ name: setsvalue2s  @ 487 @ 
+operator: .  @ 719 @ operator: .  @ 675 @ 
+expr  @ 252 @ expr  @ 221 @ 
+argument  @ 308 @ argument  @ 369 @ 
+argument  @ 572 @ argument  @ 529 @ 
+argument_list  @ 715 @ argument_list  @ 671 @ 
+parameter  @ 404 @ parameter  @ 296 @ 
+argument  @ 491 @ argument  @ 429 @ 
+expr  @ 423 @ expr  @ 316 @ 
+modifier: *  @ 690 @ modifier: *  @ 640 @ 
+name: ZIO  @ 674 @ name: ZIO  @ 623 @ 
+name  @ 220 @ name  @ 201 @ 
+name  @ 444 @ name  @ 314 @ 
+comment: /* finish 'lua_callk'/'lua_pcall'; CIST_YPCALL and 'errfunc' already handled */  @ 485 @ comment: /* finish 'lua_callk'/'lua_pcall' */  @ 417 @ 
+name: p  @ 439 @ name: p  @ 329 @ 
+operator: ->  @ 553 @ operator: ->  @ 429 @ 
+expr  @ 308 @ expr  @ 369 @ 
+name: luaD_throw  @ 192 @ name: luaD_throw  @ 398 @ 
+else  @ 589 @ else  @ 540 @ 
+name: L  @ 621 @ name: L  @ 569 @ 
+operator: ==  @ 526 @ operator: ==  @ 464 @ 
+operator: =  @ 217 @ operator: =  @ 199 @ 
+name: void  @ 78 @ name: void  @ 84 @ 
+name: p  @ 714 @ name: p  @ 670 @ 
+expr  @ 643 @ expr  @ 589 @ 
+operator: .  @ 720 @ operator: .  @ 676 @ 
+decl_stmt  @ 319 @ decl_stmt  @ 275 @ 
+name: L  @ 326 @ name: L  @ 284 @ 
+comment: /* ensure minimum stack size */  @ 416 @ comment: /* ensure minimum stack size */  @ 308 @ 
+name: inuse  @ 226 @ name: inuse  @ 207 @ 
+operator: .  @ 719 @ operator: .  @ 675 @ 
+operator: =  @ 631 @ operator: =  @ 578 @ 
+expr  @ 217 @ expr  @ 199 @ 
+expr  @ 85 @ expr  @ 91 @ 
+name: L  @ 703 @ name: L  @ 657 @ 
+if_stmt  @ 625 @ if_stmt  @ 572 @ 
+expr_stmt  @ 604 @ expr_stmt  @ 551 @ 
+name: L  @ 196 @ name: L  @ 180 @ 
+expr_stmt  @ 534 @ expr_stmt  @ 472 @ 
+expr  @ 407 @ expr  @ 301 @ 
+argument  @ 289 @ argument  @ 252 @ 
+expr  @ 151 @ expr  @ 146 @ 
+name: LUA_ERRSYNTAX  @ 685 @ name: LUA_ERRSYNTAX  @ 635 @ 
+specifier: const  @ 678 @ specifier: const  @ 627 @ 
+expr  @ 502 @ expr  @ 370 @ 
+init  @ 653 @ init  @ 599 @ 
+name  @ 178 @ name  @ 166 @ 
+if  @ 561 @ if  @ 514 @ 
+comment: /* remove args from the stack */  @ 542 @ comment: /* remove args from the stack */  @ 486 @ 
+operator: ==  @ 694 @ operator: ==  @ 645 @ 
+argument  @ 544 @ argument  @ 488 @ 
+expr  @ 627 @ expr  @ 574 @ 
+expr  @ 469 @ expr  @ 282 @ 
+return  @ 138 @ return  @ 136 @ 
+name: stack_last  @ 422 @ name: stack_last  @ 313 @ 
+comment: /* chain new error handler */  @ 133 @ comment: /* chain new error handler */  @ 129 @ 
+operator: =  @ 533 @ operator: =  @ 470 @ 
+name: LUA_SIGNATURE  @ 694 @ name: LUA_SIGNATURE  @ 645 @ 
+name: luaD_tryfuncTM  @ 318 @ name: tryfuncTM  @ 274 @ 
+comment: /* shrink CI list */  @ 234 @ comment: /* shrink it */  @ 213 @ 
+name: lua_unlock  @ 119 @ name: lua_unlock  @ 116 @ 
+expr_stmt  @ 154 @ expr_stmt  @ 149 @ 
+argument_list  @ 271 @ argument_list  @ 235 @ 
+operator: ->  @ 594 @ operator: ->  @ 542 @ 
+decl_stmt  @ 147 @ decl_stmt  @ 144 @ 
+name: c  @ 46 @ name: c  @ 67 @ 
+name: nresults  @ 442 @ name: nresults  @ 341 @ 
+call  @ 644 @ call  @ 590 @ 
+modifier: *  @ 620 @ modifier: *  @ 568 @ 
+name: old_allowhooks  @ 660 @ name: old_allowhooks  @ 609 @ 
+argument  @ 719 @ argument  @ 675 @ 
+expr_stmt  @ 535 @ expr_stmt  @ 473 @ 
+name: status  @ 722 @ name: status  @ 678 @ 
+argument_list  @ 543 @ argument_list  @ 487 @ 
+name: hook  @ 269 @ name: hook  @ 233 @ 
+if  @ 102 @ if  @ 104 @ 
+parameter  @ 650 @ parameter  @ 596 @ 
+comment: /* cannot yield during parsing */  @ 710 @ comment: /* cannot yield during parsing */  @ 666 @ 
+name  @ 720 @ name  @ 676 @ 
+expr_stmt  @ 429 @ expr_stmt  @ 320 @ 
+parameter  @ 404 @ parameter  @ 296 @ 
+operator: ->  @ 170 @ operator: ->  @ 165 @ 
+parameter  @ 101 @ parameter  @ 103 @ 
+switch  @ 79 @ switch  @ 85 @ 
+call  @ 629 @ call  @ 576 @ 
+operator: .  @ 312 @ operator: .  @ 372 @ 
+expr_stmt  @ 572 @ expr_stmt  @ 529 @ 
+name: stacksize  @ 170 @ name: stacksize  @ 165 @ 
+call  @ 321 @ call  @ 278 @ 
+argument  @ 326 @ argument  @ 284 @ 
+name: lim  @ 217 @ name: lim  @ 199 @ 
+type  @ 658 @ type  @ 605 @ 
+name: int  @ 196 @ name: int  @ 180 @ 
+name: L  @ 187 @ name: L  @ 175 @ 
+argument_list  @ 196 @ argument_list  @ 180 @ 
+operator: ->  @ 660 @ operator: ->  @ 609 @ 
+name: L  @ 570 @ name: L  @ 527 @ 
+modifier: *  @ 674 @ modifier: *  @ 623 @ 
+expr  @ 253 @ expr  @ 222 @ 
+name: p  @ 718 @ name: p  @ 674 @ 
+condition  @ 216 @ condition  @ 197 @ 
+expr  @ 409 @ expr  @ 303 @ 
+name  @ 711 @ name  @ 667 @ 
+expr  @ 444 @ expr  @ 314 @ 
+argument  @ 685 @ argument  @ 635 @ 
+name: event  @ 247 @ name: event  @ 217 @ 
+name: lua_State  @ 101 @ name: lua_State  @ 103 @ 
+literal: "binary"  @ 695 @ literal: "binary"  @ 646 @ 
+operator: .  @ 488 @ operator: .  @ 425 @ 
+operator: ->  @ 398 @ operator: ->  @ 249 @ 
+expr  @ 467 @ expr  @ 402 @ 
+operator: =  @ 392 @ operator: =  @ 374 @ 
+parameter_list  @ 650 @ parameter_list  @ 595 @ 
+name: luaS_new  @ 543 @ name: luaS_new  @ 487 @ 
+type  @ 682 @ type  @ 631 @ 
+parameter  @ 46 @ parameter  @ 67 @ 
+comment: /* possible stack overflow? */  @ 466 @ comment: /* is a Lua function? */  @ 401 @ 
+name: luai_userstateresume  @ 593 @ name: luai_userstateresume  @ 539 @ 
+operator: ++  @ 240 @ operator: ++  @ 267 @ 
+operator: .  @ 712 @ operator: .  @ 668 @ 
+block_content  @ 248 @ block_content  @ 218 @ 
+name: hook  @ 248 @ name: hook  @ 218 @ 
+operator: ->  @ 450 @ operator: ->  @ 345 @ 
+operator: &  @ 304 @ operator: &  @ 367 @ 
+directive: include  @ 11 @ directive: include  @ 10 @ 
+name: L  @ 231 @ name: L  @ 213 @ 
+name: L  @ 272 @ name: L  @ 236 @ 
+decl  @ 318 @ decl  @ 274 @ 
+name: u  @ 656 @ name: u  @ 603 @ 
+block  @ 581 @ block  @ 504 @ 
+decl_stmt  @ 708 @ decl_stmt  @ 664 @ 
+name: errcode  @ 79 @ name: errcode  @ 85 @ 
+decl  @ 619 @ decl  @ 567 @ 
+condition  @ 249 @ condition  @ 219 @ 
+operator: .  @ 718 @ operator: .  @ 674 @ 
+expr  @ 696 @ expr  @ 647 @ 
+operator: =  @ 428 @ operator: =  @ 319 @ 
+expr  @ 717 @ expr  @ 673 @ 
+name: L  @ 85 @ name: L  @ 91 @ 
+operator: !=  @ 153 @ operator: !=  @ 148 @ 
+expr_stmt  @ 528 @ expr_stmt  @ 466 @ 
+block  @ 673 @ block  @ 622 @ 
+type  @ 692 @ type  @ 643 @ 
+expr_stmt  @ 450 @ expr_stmt  @ 345 @ 
+name: errorJmp  @ 104 @ name: errorJmp  @ 106 @ 
+decl  @ 196 @ decl  @ 180 @ 
+name: ci  @ 451 @ name: ci  @ 351 @ 
+name: savedpc  @ 290 @ name: savedpc  @ 253 @ 
+expr  @ 407 @ expr  @ 301 @ 
+name: api_check  @ 634 @ name: api_check  @ 581 @ 
+comment: /* part of stack in use */  @ 220 @ comment: /* part of stack in use */  @ 201 @ 
+name: luaD_rawrunprotected  @ 128 @ name: luaD_rawrunprotected  @ 125 @ 
+expr  @ 525 @ expr  @ 463 @ 
+block  @ 619 @ block  @ 567 @ 
+argument  @ 326 @ argument  @ 284 @ 
+name: L  @ 534 @ name: L  @ 472 @ 
+comment: /* erase new segment */  @ 177 @ comment: /* erase new segment */  @ 168 @ 
+name  @ 446 @ name  @ 342 @ 
+directive: endif  @ 64 @ directive: endif  @ 72 @ 
+name: p  @ 713 @ name: p  @ 669 @ 
+operator: ||  @ 169 @ operator: ||  @ 164 @ 
+operator: .  @ 564 @ operator: .  @ 517 @ 
+name: L  @ 615 @ name: L  @ 655 @ 
+expr  @ 608 @ expr  @ 561 @ 
+argument  @ 391 @ argument  @ 263 @ 
+decl  @ 320 @ decl  @ 276 @ 
+name: CIST_YPCALL  @ 515 @ name: CIST_YPCALL  @ 454 @ 
+file: <setjmp.h>  @ 9 @ file: <setjmp.h>  @ 8 @ 
+argument  @ 530 @ argument  @ 579 @ 
+name: f_parser  @ 716 @ name: f_parser  @ 672 @ 
+name  @ 365 @ name  @ 265 @ 
+name  @ 437 @ name  @ 328 @ 
+expr  @ 594 @ expr  @ 542 @ 
+argument_list  @ 120 @ argument_list  @ 117 @ 
+argument  @ 644 @ argument  @ 590 @ 
+expr  @ 610 @ expr  @ 563 @ 
+expr_stmt  @ 192 @ expr_stmt  @ 398 @ 
+type  @ 166 @ type  @ 161 @ 
+else  @ 195 @ else  @ 179 @ 
+block_content  @ 565 @ block_content  @ 518 @ 
+parameter  @ 650 @ parameter  @ 595 @ 
+argument  @ 455 @ argument  @ 275 @ 
+name  @ 312 @ name  @ 372 @ 
+name: int  @ 476 @ name: int  @ 410 @ 
+name  @ 666 @ name  @ 613 @ 
+init  @ 153 @ init  @ 148 @ 
+expr  @ 152 @ expr  @ 147 @ 
+expr  @ 97 @ expr  @ 99 @ 
+name: L  @ 567 @ name: L  @ 523 @ 
+operator: ->  @ 443 @ operator: ->  @ 346 @ 
+name: status  @ 595 @ name: status  @ 543 @ 
+name: status  @ 103 @ name: status  @ 105 @ 
+name: p  @ 436 @ name: p  @ 327 @ 
+argument  @ 93 @ argument  @ 95 @ 
+function  @ 619 @ function  @ 567 @ 
+name: mainthread  @ 626 @ name: mainthread  @ 573 @ 
+name: ci  @ 478 @ name: ci  @ 411 @ 
+name: from  @ 576 @ name: from  @ 535 @ 
+name: top  @ 420 @ name: top  @ 312 @ 
+name: func  @ 412 @ name: func  @ 306 @ 
+argument  @ 324 @ argument  @ 281 @ 
+argument  @ 322 @ argument  @ 279 @ 
+name: int  @ 167 @ name: int  @ 163 @ 
+name: oldtop  @ 93 @ name: oldtop  @ 95 @ 
+parameter  @ 619 @ parameter  @ 567 @ 
+operator: .  @ 714 @ operator: .  @ 670 @ 
+parameter  @ 541 @ parameter  @ 485 @ 
+block  @ 698 @ block  @ 649 @ 
+comment: /* no recovery point */  @ 526 @ comment: /* no recovery point */  @ 464 @ 
+name: L  @ 104 @ name: L  @ 106 @ 
+operator: ->  @ 422 @ operator: ->  @ 313 @ 
+name: CIST_C  @ 419 @ name: CIST_LUA  @ 347 @ 
+block_content  @ 154 @ block_content  @ 149 @ 
+name: L  @ 624 @ name: L  @ 571 @ 
+decl  @ 620 @ decl  @ 568 @ 
+block_content  @ 516 @ block_content  @ 455 @ 
+comment: /* error message on current top */  @ 93 @ comment: /* error message on current top */  @ 95 @ 
+name  @ 605 @ name  @ 552 @ 
+operator: =  @ 514 @ operator: =  @ 453 @ 
+name: L  @ 274 @ name: L  @ 238 @ 
+name: lim  @ 220 @ name: lim  @ 201 @ 
+operator: )  @ 155 @ operator: )  @ 150 @ 
+modifier: *  @ 650 @ modifier: *  @ 595 @ 
+operator: &  @ 643 @ operator: &  @ 589 @ 
+name  @ 443 @ name  @ 346 @ 
+operator: .  @ 713 @ operator: .  @ 669 @ 
+decl  @ 693 @ decl  @ 644 @ 
+name: newsize  @ 200 @ name: newsize  @ 183 @ 
+expr  @ 230 @ expr  @ 209 @ 
+comment: /* stack space pre-allocated by the caller */  @ 325 @ comment: /* previous call may change stack */  @ 283 @ 
+parameter  @ 187 @ parameter  @ 175 @ 
+argument_list  @ 119 @ argument_list  @ 116 @ 
+operator: =  @ 595 @ operator: =  @ 543 @ 
+expr  @ 468 @ expr  @ 401 @ 
+name  @ 535 @ name  @ 473 @ 
+decl  @ 552 @ decl  @ 497 @ 
+expr  @ 720 @ expr  @ 676 @ 
+decl_stmt  @ 654 @ decl_stmt  @ 601 @ 
+expr  @ 659 @ expr  @ 608 @ 
+name: numparams  @ 387 @ name: numparams  @ 259 @ 
+name: L  @ 451 @ name: L  @ 351 @ 
+name: CallInfo  @ 554 @ name: CallInfo  @ 499 @ 
+operator: ->  @ 181 @ operator: ->  @ 170 @ 
+parameter  @ 166 @ parameter  @ 161 @ 
+name: NULL  @ 564 @ name: NULL  @ 517 @ 
+type  @ 188 @ type  @ 176 @ 
+decl_stmt  @ 653 @ decl_stmt  @ 599 @ 
+name: c  @ 488 @ name: c  @ 425 @ 
+block_content  @ 699 @ block_content  @ 650 @ 
+decl  @ 707 @ decl  @ 662 @ 
+name  @ 155 @ name  @ 150 @ 
+function  @ 78 @ function  @ 84 @ 
+name  @ 655 @ name  @ 602 @ 
+name: ci  @ 420 @ name: ci  @ 312 @ 
+literal: 0  @ 694 @ literal: 0  @ 645 @ 
+expr  @ 683 @ expr  @ 632 @ 
+type  @ 196 @ type  @ 180 @ 
+name: L  @ 585 @ name: L  @ 509 @ 
+condition  @ 176 @ condition  @ 167 @ 
+parameter  @ 370 @ parameter  @ 257 @ 
+name: luaD_rawrunprotected  @ 599 @ name: luaD_rawrunprotected  @ 549 @ 
+argument  @ 593 @ argument  @ 539 @ 
+expr  @ 324 @ expr  @ 281 @ 
+argument  @ 456 @ argument  @ 355 @ 
+ternary  @ 594 @ ternary  @ 542 @ 
+expr  @ 543 @ expr  @ 487 @ 
+name: void  @ 128 @ name: void  @ 125 @ 
+operator: .  @ 288 @ operator: .  @ 246 @ 
+name: p  @ 700 @ name: p  @ 651 @ 
+operator: ->  @ 154 @ operator: ->  @ 149 @ 
+expr  @ 103 @ expr  @ 105 @ 
+operator: =  @ 660 @ operator: =  @ 609 @ 
+value  @ 48 @ value  @ 68 @ 
+operator: ->  @ 216 @ operator: ->  @ 197 @ 
+name: L  @ 595 @ name: L  @ 543 @ 
+argument  @ 225 @ argument  @ 206 @ 
+argument_list  @ 624 @ argument_list  @ 571 @ 
+argument_list  @ 561 @ argument_list  @ 514 @ 
+argument_list  @ 456 @ argument_list  @ 355 @ 
+name: actvar  @ 718 @ name: actvar  @ 674 @ 
+expr  @ 594 @ expr  @ 542 @ 
+block  @ 625 @ block  @ 572 @ 
+decl  @ 524 @ decl  @ 462 @ 
+name: stack  @ 170 @ name: stack  @ 165 @ 
+name: goodsize  @ 228 @ name: goodsize  @ 208 @ 
+name: NULL  @ 634 @ name: NULL  @ 581 @ 
+operator: --  @ 290 @ operator: --  @ 253 @ 
+name: top  @ 217 @ name: top  @ 199 @ 
+name: L  @ 271 @ name: L  @ 235 @ 
+type  @ 404 @ type  @ 296 @ 
+decl  @ 707 @ decl  @ 662 @ 
+block  @ 192 @ block  @ 398 @ 
+expr_stmt  @ 418 @ expr_stmt  @ 310 @ 
+expr  @ 449 @ expr  @ 331 @ 
+decl_stmt  @ 524 @ decl_stmt  @ 462 @ 
+argument  @ 570 @ argument  @ 527 @ 
+name: luaD_poscall  @ 491 @ name: luaD_poscall  @ 429 @ 
+name: event  @ 255 @ name: event  @ 224 @ 
+block  @ 690 @ block  @ 640 @ 
+type  @ 73 @ type  @ 79 @ 
+name: recover  @ 523 @ name: recover  @ 461 @ 
+expr  @ 120 @ expr  @ 117 @ 
+name: ci  @ 608 @ name: nny  @ 559 @ 
+literal: 0  @ 712 @ literal: 0  @ 668 @ 
+expr  @ 350 @ expr  @ 368 @ 
+expr_stmt  @ 336 @ expr_stmt  @ 382 @ 
+name: s2v  @ 449 @ name: setnilvalue  @ 331 @ 
+macro  @ 45 @ macro  @ 66 @ 
+type  @ 380 @ type  @ 290 @ 
+argument  @ 594 @ argument  @ 542 @ 
+name: L  @ 111 @ name: L  @ 111 @ 
+expr  @ 722 @ expr  @ 678 @ 
+call  @ 430 @ call  @ 321 @ 
+name: L  @ 136 @ name: L  @ 134 @ 
+function  @ 474 @ function  @ 408 @ 
+parameter  @ 247 @ parameter  @ 217 @ 
+decl_stmt  @ 387 @ decl_stmt  @ 259 @ 
+else  @ 637 @ else  @ 583 @ 
+argument_list  @ 152 @ argument_list  @ 147 @ 
+block_content  @ 228 @ block_content  @ 208 @ 
+operator: +  @ 594 @ operator: +  @ 542 @ 
+expr  @ 645 @ expr  @ 591 @ 
+operator: ==  @ 702 @ operator: ==  @ 653 @ 
+type  @ 682 @ type  @ 631 @ 
+expr_stmt  @ 428 @ expr_stmt  @ 319 @ 
+name  @ 560 @ name  @ 512 @ 
+argument  @ 641 @ argument  @ 587 @ 
+condition  @ 151 @ condition  @ 146 @ 
+directive: include  @ 26 @ directive: include  @ 28 @ 
+argument  @ 270 @ argument  @ 234 @ 
+block  @ 413 @ block  @ 305 @ 
+type  @ 128 @ type  @ 125 @ 
+expr  @ 666 @ expr  @ 613 @ 
+expr  @ 692 @ expr  @ 643 @ 
+operator: .  @ 720 @ operator: .  @ 676 @ 
+parameter  @ 384 @ parameter  @ 362 @ 
+name: LUA_VLCF  @ 411 @ name: LUA_TCCL  @ 305 @ 
+expr  @ 488 @ expr  @ 283 @ 
+operator: ->  @ 399 @ operator: ->  @ 378 @ 
+condition  @ 626 @ condition  @ 573 @ 
+expr_stmt  @ 634 @ expr_stmt  @ 581 @ 
+name: oldtop  @ 85 @ name: oldtop  @ 91 @ 
+parameter  @ 682 @ parameter  @ 631 @ 
+decl  @ 707 @ decl  @ 662 @ 
+name: ci  @ 441 @ name: ci  @ 340 @ 
+expr_stmt  @ 412 @ expr_stmt  @ 306 @ 
+name: NULL  @ 518 @ name: NULL  @ 457 @ 
+parameter_list  @ 187 @ parameter_list  @ 175 @ 
+name: L  @ 659 @ name: L  @ 608 @ 
+name: f  @ 409 @ name: f  @ 303 @ 
+parameter  @ 707 @ parameter  @ 662 @ 
+name: stack  @ 181 @ name: stack  @ 170 @ 
+name: L  @ 416 @ name: L  @ 329 @ 
+block_content  @ 513 @ block_content  @ 452 @ 
+name: int  @ 541 @ name: int  @ 567 @ 
+argument_list  @ 449 @ argument_list  @ 331 @ 
+name: is_vararg  @ 299 @ name: is_vararg  @ 332 @ 
+expr_stmt  @ 666 @ expr_stmt  @ 613 @ 
+expr  @ 450 @ expr  @ 345 @ 
+argument  @ 684 @ argument  @ 634 @ 
+name: allowhook  @ 249 @ name: allowhook  @ 219 @ 
+expr  @ 654 @ expr  @ 601 @ 
+name: ci  @ 566 @ name: ci  @ 522 @ 
+function  @ 247 @ function  @ 217 @ 
+operator: ->  @ 179 @ operator: ->  @ 145 @ 
+name: needed  @ 200 @ name: needed  @ 183 @ 
+type  @ 333 @ type  @ 258 @ 
+operator: ->  @ 554 @ operator: ->  @ 499 @ 
+call  @ 81 @ call  @ 87 @ 
+name  @ 302 @ name  @ 348 @ 
+expr  @ 375 @ expr  @ 171 @ 
+argument  @ 104 @ argument  @ 106 @ 
+name  @ 188 @ name  @ 176 @ 
+name: L  @ 324 @ name: L  @ 281 @ 
+argument  @ 431 @ argument  @ 337 @ 
+name: callstatus  @ 533 @ name: callstatus  @ 423 @ 
+name: LUAI_THROW  @ 53 @ name: LUAI_THROW  @ 53 @ 
+comment: /* inside a hook? */  @ 632 @ comment: /* inside a hook? */  @ 580 @ 
+name: L  @ 580 @ name: L  @ 503 @ 
+argument_list  @ 661 @ argument_list  @ 606 @ 
+name: L  @ 373 @ name: L  @ 376 @ 
+name: old_errfunc  @ 654 @ name: old_errfunc  @ 601 @ 
+operator: ->  @ 483 @ operator: ->  @ 415 @ 
+name: goodsize  @ 230 @ name: goodsize  @ 210 @ 
+name: dyd  @ 720 @ name: dyd  @ 676 @ 
+name: ci  @ 216 @ name: ci  @ 197 @ 
+name: void  @ 331 @ name: void  @ 244 @ 
+directive: define  @ 45 @ directive: define  @ 66 @ 
+type  @ 145 @ type  @ 142 @ 
+name: void  @ 682 @ name: void  @ 631 @ 
+type  @ 247 @ type  @ 217 @ 
+argument  @ 205 @ argument  @ 186 @ 
+name: lua_Debug  @ 254 @ name: lua_Debug  @ 223 @ 
+operator: ->  @ 700 @ operator: ->  @ 651 @ 
+name: v  @ 152 @ name: v  @ 147 @ 
+call  @ 270 @ call  @ 234 @ 
+comment: /* (change only for debugging) */  @ 233 @ comment: /* don't change stack (change only for debugging) */  @ 211 @ 
+operator: ->  @ 104 @ operator: ->  @ 106 @ 
+expr  @ 478 @ expr  @ 411 @ 
+decl  @ 318 @ decl  @ 274 @ 
+type  @ 295 @ type  @ 277 @ 
+decl_stmt  @ 252 @ decl_stmt  @ 221 @ 
+operator: *  @ 692 @ operator: *  @ 643 @ 
+operator: ->  @ 606 @ operator: ->  @ 553 @ 
+condition  @ 299 @ condition  @ 332 @ 
+name: Cfunc  @ 410 @ name: Cfunc  @ 304 @ 
+directive: define  @ 54 @ directive: define  @ 54 @ 
+if_stmt  @ 561 @ if_stmt  @ 514 @ 
+operator: ->  @ 271 @ operator: ->  @ 235 @ 
+decl_stmt  @ 620 @ decl_stmt  @ 568 @ 
+name: TValue  @ 319 @ name: TValue  @ 275 @ 
+name: luaD_poscall  @ 570 @ name: luaD_poscall  @ 527 @ 
+argument  @ 135 @ argument  @ 131 @ 
+expr  @ 615 @ expr  @ 655 @ 
+name: narg  @ 541 @ name: ctx  @ 567 @ 
+argument  @ 534 @ argument  @ 472 @ 
+argument  @ 663 @ argument  @ 607 @ 
+name: CallInfo  @ 214 @ name: CallInfo  @ 195 @ 
+operator: ->  @ 437 @ operator: ->  @ 328 @ 
+literal: 0  @ 645 @ literal: 0  @ 591 @ 
+expr  @ 271 @ expr  @ 235 @ 
+operator: =  @ 488 @ operator: =  @ 421 @ 
+expr  @ 112 @ expr  @ 112 @ 
+name: lj  @ 131 @ name: lj  @ 127 @ 
+name: newsize  @ 199 @ name: newsize  @ 183 @ 
+name: ci  @ 375 @ name: ci  @ 375 @ 
+argument  @ 529 @ argument  @ 489 @ 
+return  @ 645 @ return  @ 591 @ 
+operator: -  @ 308 @ operator: -  @ 369 @ 
+argument  @ 231 @ argument  @ 213 @ 
+expr_stmt  @ 703 @ expr_stmt  @ 657 @ 
+argument  @ 449 @ argument  @ 331 @ 
+name: LUAI_MAXSTACK  @ 227 @ name: LUAI_MAXSTACK  @ 208 @ 
+operator: +  @ 220 @ operator: +  @ 201 @ 
+block_content  @ 80 @ block_content  @ 86 @ 
+operator: .  @ 713 @ operator: .  @ 669 @ 
+decl_stmt  @ 74 @ decl_stmt  @ 80 @ 
+block  @ 650 @ block  @ 596 @ 
+expr_stmt  @ 663 @ expr_stmt  @ 607 @ 
+name: size  @ 713 @ name: size  @ 669 @ 
+type  @ 404 @ type  @ 296 @ 
+operator: ->  @ 702 @ operator: ->  @ 653 @ 
+operator: ->  @ 422 @ operator: ->  @ 313 @ 
+name: restorestack  @ 274 @ name: restorestack  @ 238 @ 
+decl  @ 247 @ decl  @ 217 @ 
+block_content  @ 214 @ block_content  @ 195 @ 
+call  @ 465 @ call  @ 315 @ 
+modifier: *  @ 691 @ modifier: *  @ 642 @ 
+operator: ->  @ 375 @ operator: ->  @ 375 @ 
+operator: ->  @ 486 @ operator: ->  @ 418 @ 
+name: callstatus  @ 481 @ name: callstatus  @ 413 @ 
+name: L  @ 180 @ name: L  @ 169 @ 
+operator: *  @ 189 @ operator: *  @ 181 @ 
+modifier: *  @ 707 @ modifier: *  @ 662 @ 
+block  @ 231 @ block  @ 213 @ 
+operator: -  @ 220 @ operator: -  @ 201 @ 
+name: func  @ 436 @ name: func  @ 327 @ 
+type  @ 128 @ type  @ 125 @ 
+comment: /* not a function */  @ 454 @ comment: /* not a function */  @ 354 @ 
+parameter_list  @ 101 @ parameter_list  @ 103 @ 
+if  @ 321 @ if  @ 278 @ 
+name: checkmode  @ 699 @ name: checkmode  @ 650 @ 
+name: p  @ 320 @ name: p  @ 276 @ 
+operator: .  @ 157 @ operator: .  @ 152 @ 
+operator: =  @ 273 @ operator: =  @ 237 @ 
+operator: ->  @ 696 @ operator: ->  @ 647 @ 
+name: int  @ 388 @ name: int  @ 641 @ 
+operator: .  @ 713 @ operator: .  @ 669 @ 
+function  @ 576 @ function  @ 535 @ 
+name: previous  @ 311 @ name: previous  @ 247 @ 
+argument_list  @ 627 @ argument_list  @ 574 @ 
+name: L  @ 45 @ name: L  @ 66 @ 
+parameter_list  @ 404 @ parameter_list  @ 296 @ 
+comment: /* continuation is also inside it */  @ 482 @ comment: /* finish 'lua_pcall' */  @ 414 @ 
+name: x  @ 684 @ name: x  @ 634 @ 
+operator: ->  @ 515 @ operator: ->  @ 454 @ 
+name: z  @ 711 @ name: z  @ 667 @ 
+operator: ->  @ 109 @ operator: ->  @ 109 @ 
+name  @ 170 @ name  @ 165 @ 
+name: u  @ 157 @ name: u  @ 152 @ 
+operator: &&  @ 683 @ operator: &&  @ 632 @ 
+operator: .  @ 288 @ operator: .  @ 246 @ 
+operator: .  @ 720 @ operator: .  @ 676 @ 
+name: ci  @ 513 @ name: ci  @ 452 @ 
+type  @ 45 @ type  @ 66 @ 
+init  @ 248 @ init  @ 218 @ 
+type  @ 46 @ type  @ 67 @ 
+argument  @ 696 @ argument  @ 647 @ 
+argument  @ 263 @ argument  @ 227 @ 
+comment: /* restore old error handler */  @ 136 @ comment: /* restore old error handler */  @ 134 @ 
+name: ci  @ 290 @ name: ci  @ 253 @ 
+block  @ 683 @ block  @ 632 @ 
+type  @ 128 @ type  @ 125 @ 
+name: StkId  @ 168 @ name: StkId  @ 260 @ 
+name: L  @ 583 @ name: L  @ 396 @ 
+decl  @ 676 @ decl  @ 625 @ 
+name: ci  @ 554 @ name: ci  @ 499 @ 
+name: ci  @ 514 @ name: ci  @ 453 @ 
+expr  @ 428 @ expr  @ 319 @ 
+value  @ 380 @ value  @ 290 @ 
+call  @ 543 @ call  @ 487 @ 
+expr  @ 699 @ expr  @ 650 @ 
+name: L  @ 663 @ name: L  @ 607 @ 
+name: L  @ 486 @ name: L  @ 418 @ 
+expr  @ 568 @ expr  @ 524 @ 
+argument  @ 632 @ argument  @ 580 @ 
+comment: /* ensure minimum stack size */  @ 263 @ comment: /* ensure minimum stack size */  @ 227 @ 
+operator: (  @ 155 @ operator: (  @ 150 @ 
+name: lua_State  @ 650 @ name: lua_State  @ 595 @ 
+operator: =  @ 389 @ operator: =  @ 654 @ 
+argument_list  @ 491 @ argument_list  @ 429 @ 
+endif  @ 64 @ endif  @ 72 @ 
+expr  @ 609 @ expr  @ 562 @ 
+name: ci  @ 251 @ name: ci  @ 220 @ 
+expr_stmt  @ 699 @ expr_stmt  @ 650 @ 
+operator: .  @ 255 @ operator: .  @ 224 @ 
+file: "lstring.h"  @ 25 @ file: "lstring.h"  @ 27 @ 
+directive: define  @ 46 @ directive: define  @ 67 @ 
+operator: .  @ 483 @ operator: .  @ 415 @ 
+name  @ 359 @ name  @ 145 @ 
+directive: include  @ 22 @ directive: include  @ 24 @ 
+literal: 0  @ 389 @ literal: 0  @ 654 @ 
+modifier: *  @ 677 @ modifier: *  @ 626 @ 
+name: top  @ 154 @ name: top  @ 149 @ 
+block  @ 213 @ block  @ 194 @ 
+name: LUA_HOOKCALL  @ 282 @ name: LUA_HOOKCALL  @ 245 @ 
+expr  @ 425 @ expr  @ 317 @ 
+name: L  @ 167 @ name: L  @ 163 @ 
+modifier: *  @ 214 @ modifier: *  @ 195 @ 
+expr  @ 570 @ expr  @ 527 @ 
+macro  @ 163 @ macro  @ 158 @ 
+name: lua_State  @ 213 @ name: lua_State  @ 194 @ 
+argument  @ 695 @ argument  @ 646 @ 
+block  @ 516 @ block  @ 455 @ 
+name: cl  @ 700 @ name: cl  @ 651 @ 
+name: ci  @ 153 @ name: ci  @ 148 @ 
+argument_list  @ 716 @ argument_list  @ 672 @ 
+parameter_list  @ 380 @ parameter_list  @ 290 @ 
+argument_list  @ 692 @ argument_list  @ 643 @ 
+expr  @ 695 @ expr  @ 646 @ 
+operator: .  @ 714 @ operator: .  @ 670 @ 
+operator: ->  @ 253 @ operator: ->  @ 222 @ 
+name: L  @ 606 @ name: L  @ 553 @ 
+type  @ 690 @ type  @ 640 @ 
+name: LUA_API  @ 619 @ name: LUA_API  @ 567 @ 
+name: ldo_c  @ 3 @ name: ldo_c  @ 12 @ 
+argument_list  @ 467 @ argument_list  @ 402 @ 
+expr  @ 595 @ expr  @ 543 @ 
+name  @ 694 @ name  @ 645 @ 
+argument  @ 626 @ argument  @ 573 @ 
+expr  @ 478 @ expr  @ 515 @ 
+expr  @ 192 @ expr  @ 398 @ 
+operator: ->  @ 716 @ operator: ->  @ 672 @ 
+name: size  @ 189 @ name: size  @ 181 @ 
+name: NULL  @ 572 @ name: NULL  @ 529 @ 
+goto  @ 410 @ goto  @ 304 @ 
+operator: =  @ 180 @ operator: =  @ 169 @ 
+name: ci  @ 481 @ name: ci  @ 413 @ 
+literal: 1  @ 536 @ literal: 1  @ 476 @ 
+expr  @ 392 @ expr  @ 374 @ 
+name: L  @ 700 @ name: L  @ 651 @ 
+name: api_checknelems  @ 490 @ name: api_checknelems  @ 427 @ 
+name: NULL  @ 712 @ name: NULL  @ 668 @ 
+expr  @ 652 @ expr  @ 598 @ 
+decl  @ 436 @ decl  @ 327 @ 
+name: res  @ 350 @ name: firstResult  @ 368 @ 
+block  @ 228 @ block  @ 208 @ 
+literal: "cannot resume dead coroutine"  @ 586 @ literal: "cannot resume dead coroutine"  @ 510 @ 
+decl  @ 247 @ decl  @ 217 @ 
+argument_list  @ 622 @ argument_list  @ 570 @ 
+name: NULL  @ 526 @ name: NULL  @ 464 @ 
+argument_list  @ 253 @ argument_list  @ 222 @ 
+file: "lundump.h"  @ 28 @ file: "lundump.h"  @ 30 @ 
+name: L  @ 568 @ name: L  @ 524 @ 
+operator: .  @ 720 @ operator: .  @ 676 @ 
+argument_list  @ 93 @ argument_list  @ 95 @ 
+name: b  @ 73 @ name: b  @ 79 @ 
+call  @ 581 @ call  @ 504 @ 
+decl  @ 247 @ decl  @ 217 @ 
+operator: ->  @ 580 @ operator: ->  @ 503 @ 
+type  @ 541 @ type  @ 485 @ 
+expr  @ 352 @ expr  @ 333 @ 
+call  @ 324 @ call  @ 281 @ 
+name: lua_lock  @ 622 @ name: lua_lock  @ 570 @ 
+name: L  @ 719 @ name: L  @ 675 @ 
+operator: .  @ 638 @ operator: .  @ 584 @ 
+expr_stmt  @ 502 @ expr_stmt  @ 370 @ 
+name: NULL  @ 478 @ name: NULL  @ 411 @ 
+name: lua_lock  @ 270 @ name: lua_lock  @ 234 @ 
+type  @ 166 @ type  @ 161 @ 
+expr  @ 716 @ expr  @ 672 @ 
+expr  @ 253 @ expr  @ 222 @ 
+expr  @ 624 @ expr  @ 571 @ 
+name: L  @ 396 @ name: L  @ 198 @ 
+type  @ 690 @ type  @ 640 @ 
+name: status  @ 523 @ name: status  @ 461 @ 
+name  @ 716 @ name  @ 672 @ 
+name: L  @ 578 @ name: L  @ 538 @ 
+call  @ 721 @ call  @ 349 @ 
+expr  @ 170 @ expr  @ 165 @ 
+name: arr  @ 713 @ name: arr  @ 669 @ 
+name: lua_State  @ 682 @ name: lua_State  @ 631 @ 
+name  @ 580 @ name  @ 503 @ 
+modifier: *  @ 576 @ modifier: *  @ 535 @ 
+name: status  @ 651 @ name: status  @ 597 @ 
+incr  @ 153 @ incr  @ 148 @ 
+name: top  @ 116 @ name: top  @ 525 @ 
+expr  @ 173 @ expr  @ 507 @ 
+name: ci  @ 398 @ name: ci  @ 249 @ 
+name: L  @ 266 @ name: L  @ 230 @ 
+operator: ->  @ 450 @ operator: ->  @ 345 @ 
+argument_list  @ 209 @ argument_list  @ 189 @ 
+name: ci  @ 419 @ name: ci  @ 347 @ 
+decl_stmt  @ 693 @ decl_stmt  @ 644 @ 
+decl  @ 332 @ decl  @ 326 @ 
+name: ar  @ 269 @ name: ar  @ 233 @ 
+decl  @ 384 @ decl  @ 393 @ 
+name  @ 153 @ name  @ 148 @ 
+expr_stmt  @ 644 @ expr_stmt  @ 590 @ 
+operator: )  @ 152 @ operator: )  @ 147 @ 
+name  @ 267 @ name  @ 231 @ 
+name: ci  @ 443 @ name: ci  @ 346 @ 
+call  @ 565 @ call  @ 521 @ 
+function  @ 128 @ function  @ 125 @ 
+expr_stmt  @ 659 @ expr_stmt  @ 608 @ 
+call  @ 556 @ call  @ 506 @ 
+expr  @ 93 @ expr  @ 95 @ 
+directive: include  @ 17 @ directive: include  @ 19 @ 
+expr  @ 621 @ expr  @ 569 @ 
+call  @ 561 @ call  @ 514 @ 
+argument  @ 718 @ argument  @ 674 @ 
+name: LUA_OK  @ 132 @ name: LUA_OK  @ 128 @ 
+name: oldnCcalls  @ 137 @ name: oldnCcalls  @ 135 @ 
+expr_stmt  @ 217 @ expr_stmt  @ 199 @ 
+block_content  @ 81 @ block_content  @ 87 @ 
+expr  @ 720 @ expr  @ 676 @ 
+name: callstatus  @ 282 @ name: callstatus  @ 420 @ 
+expr  @ 326 @ expr  @ 284 @ 
+parameter  @ 166 @ parameter  @ 161 @ 
+argument  @ 451 @ argument  @ 351 @ 
+expr  @ 622 @ expr  @ 570 @ 
+name: int  @ 693 @ name: int  @ 644 @ 
+argument_list  @ 621 @ argument_list  @ 569 @ 
+name: up  @ 147 @ name: up  @ 144 @ 
+name: lua_State  @ 128 @ name: lua_State  @ 125 @ 
+expr  @ 664 @ expr  @ 611 @ 
+name: ptrdiff_t  @ 650 @ name: ptrdiff_t  @ 596 @ 
+expr  @ 696 @ expr  @ 647 @ 
+name: p  @ 699 @ name: p  @ 650 @ 
+name: L  @ 606 @ name: L  @ 553 @ 
+name: lua_State  @ 523 @ name: lua_State  @ 461 @ 
+name  @ 288 @ name  @ 246 @ 
+modifier: *  @ 331 @ modifier: *  @ 257 @ 
+name: ci  @ 302 @ name: ci  @ 348 @ 
+name: L  @ 323 @ name: L  @ 281 @ 
+name: u  @ 478 @ name: u  @ 411 @ 
+expr  @ 491 @ expr  @ 429 @ 
+name: errorJmp  @ 134 @ name: errorJmp  @ 130 @ 
+name: ci  @ 475 @ name: ci  @ 409 @ 
+argument_list  @ 703 @ argument_list  @ 657 @ 
+name: L  @ 685 @ name: L  @ 635 @ 
+name: ci  @ 526 @ name: ci  @ 464 @ 
+expr  @ 266 @ expr  @ 230 @ 
+expr  @ 655 @ expr  @ 602 @ 
+name: size  @ 188 @ name: size  @ 176 @ 
+name: restorestack  @ 528 @ name: restorestack  @ 466 @ 
+expr  @ 552 @ expr  @ 498 @ 
+condition  @ 481 @ condition  @ 413 @ 
+name: ci  @ 554 @ name: ci  @ 499 @ 
+literal: 0  @ 174 @ literal: 0  @ 352 @ 
+comment: /* search for a pcall */  @ 514 @ comment: /* search for a pcall */  @ 453 @ 
+expr  @ 644 @ expr  @ 590 @ 
+operator: =  @ 417 @ operator: =  @ 309 @ 
+argument  @ 531 @ argument  @ 468 @ 
+argument  @ 556 @ argument  @ 506 @ 
+name  @ 445 @ name  @ 344 @ 
+argument  @ 108 @ argument  @ 513 @ 
+expr  @ 543 @ expr  @ 487 @ 
+name: status  @ 602 @ name: status  @ 557 @ 
+call  @ 119 @ call  @ 116 @ 
+name: luaZ_freebuffer  @ 717 @ name: luaZ_freebuffer  @ 673 @ 
+name: allowhook  @ 272 @ name: allowhook  @ 236 @ 
+expr  @ 514 @ expr  @ 453 @ 
+operator: &  @ 717 @ operator: &  @ 673 @ 
+name: luaD_pcall  @ 650 @ name: luaD_pcall  @ 595 @ 
+name: p  @ 324 @ name: p  @ 281 @ 
+include  @ 25 @ include  @ 27 @ 
+expr  @ 542 @ expr  @ 486 @ 
+expr  @ 40 @ expr  @ 49 @ 
+name: oldtop  @ 78 @ name: oldtop  @ 84 @ 
+name: cl  @ 702 @ name: cl  @ 653 @ 
+name: int  @ 619 @ name: int  @ 567 @ 
+block  @ 404 @ block  @ 296 @ 
+function  @ 187 @ function  @ 175 @ 
+operator: .  @ 712 @ operator: .  @ 668 @ 
+name  @ 256 @ name  @ 225 @ 
+operator: =  @ 272 @ operator: =  @ 236 @ 
+modifier: *  @ 682 @ modifier: *  @ 631 @ 
+type  @ 651 @ type  @ 597 @ 
+expr_stmt  @ 446 @ expr_stmt  @ 342 @ 
+name: CallInfo  @ 525 @ name: CallInfo  @ 463 @ 
+expr  @ 581 @ expr  @ 504 @ 
+type  @ 619 @ type  @ 567 @ 
+expr  @ 566 @ expr  @ 522 @ 
+block  @ 707 @ block  @ 663 @ 
+call  @ 534 @ call  @ 472 @ 
+name: func  @ 318 @ name: func  @ 274 @ 
+decl  @ 146 @ decl  @ 143 @ 
+expr  @ 663 @ expr  @ 607 @ 
+name: n  @ 553 @ name: n  @ 429 @ 
+name: ci  @ 532 @ name: ci  @ 469 @ 
+operator: ->  @ 230 @ operator: ->  @ 210 @ 
+name: c  @ 53 @ name: c  @ 53 @ 
+type  @ 708 @ type  @ 664 @ 
+name: errfunc  @ 654 @ name: errfunc  @ 601 @ 
+name: finishCcall  @ 474 @ name: finishCcall  @ 408 @ 
+type  @ 512 @ type  @ 451 @ 
+modifier: *  @ 128 @ modifier: *  @ 125 @ 
+else  @ 628 @ else  @ 575 @ 
+name  @ 533 @ name  @ 423 @ 
+operator: +  @ 196 @ operator: +  @ 180 @ 
+argument_list  @ 109 @ argument_list  @ 109 @ 
+decl  @ 253 @ decl  @ 222 @ 
+name: previous  @ 216 @ name: previous  @ 197 @ 
+specifier: static  @ 551 @ specifier: static  @ 496 @ 
+name: status  @ 560 @ name: status  @ 512 @ 
+expr  @ 653 @ expr  @ 599 @ 
+decl  @ 73 @ decl  @ 79 @ 
+name: up  @ 152 @ name: up  @ 147 @ 
+call  @ 178 @ call  @ 166 @ 
+name: luaU_undump  @ 696 @ name: luaU_undump  @ 647 @ 
+block  @ 71 @ block  @ 77 @ 
+operator: -  @ 437 @ operator: -  @ 328 @ 
+name: void  @ 318 @ name: StkId  @ 274 @ 
+call  @ 425 @ call  @ 317 @ 
+expr_stmt  @ 440 @ expr_stmt  @ 337 @ 
+name: L  @ 203 @ name: L  @ 185 @ 
+expr  @ 560 @ expr  @ 512 @ 
+expr  @ 324 @ expr  @ 281 @ 
+include  @ 17 @ include  @ 19 @ 
+name: oldtop  @ 663 @ name: oldtop  @ 607 @ 
+name: p  @ 323 @ name: p  @ 281 @ 
+name: gt  @ 713 @ name: gt  @ 669 @ 
+parameter  @ 650 @ parameter  @ 596 @ 
+name  @ 151 @ name  @ 146 @ 
+expr  @ 712 @ expr  @ 668 @ 
+decl  @ 333 @ decl  @ 258 @ 
+name: isLua  @ 311 @ name: isLua  @ 247 @ 
+name: api_checknelems  @ 430 @ name: api_checknelems  @ 321 @ 
+name: n  @ 566 @ name: n  @ 522 @ 
+name: callstatus  @ 398 @ name: callstatus  @ 249 @ 
+name  @ 717 @ name  @ 673 @ 
+expr  @ 304 @ expr  @ 367 @ 
+name: status  @ 656 @ name: status  @ 603 @ 
+expr  @ 593 @ expr  @ 539 @ 
+expr  @ 456 @ expr  @ 355 @ 
+expr  @ 153 @ expr  @ 148 @ 
+name: p  @ 712 @ name: p  @ 668 @ 
+call  @ 456 @ call  @ 355 @ 
+name: StkId  @ 294 @ name: StkId  @ 257 @ 
+if  @ 190 @ if  @ 177 @ 
+operator: (  @ 150 @ operator: (  @ 145 @ 
+expr  @ 699 @ expr  @ 650 @ 
+expr_stmt  @ 483 @ expr_stmt  @ 415 @ 
+name: NULL  @ 153 @ name: NULL  @ 148 @ 
+call  @ 441 @ call  @ 340 @ 
+name: NULL  @ 638 @ name: NULL  @ 584 @ 
+directive: include  @ 9 @ directive: include  @ 8 @ 
+directive: include  @ 16 @ directive: include  @ 18 @ 
+operator: ->  @ 514 @ operator: ->  @ 453 @ 
+include  @ 21 @ include  @ 23 @ 
+argument  @ 543 @ argument  @ 487 @ 
+name: ci  @ 639 @ name: ci  @ 585 @ 
+name: line  @ 247 @ name: line  @ 217 @ 
+type  @ 54 @ type  @ 54 @ 
+expr_stmt  @ 599 @ expr_stmt  @ 549 @ 
+name: getCcalls  @ 466 @ name: condmovestack  @ 211 @ 
+name  @ 217 @ name  @ 199 @ 
+name: L  @ 240 @ name: L  @ 267 @ 
+call  @ 129 @ call  @ 115 @ 
+name: l  @ 288 @ name: l  @ 246 @ 
+operator: .  @ 608 @ operator: ->  @ 560 @ 
+block_content  @ 85 @ block_content  @ 91 @ 
+argument_list  @ 192 @ argument_list  @ 398 @ 
+operator: --  @ 323 @ operator: --  @ 281 @ 
+modifier: *  @ 551 @ modifier: *  @ 496 @ 
+operator: .  @ 711 @ operator: .  @ 667 @ 
+name: SParser  @ 692 @ name: SParser  @ 643 @ 
+name: LUA_MASKCALL  @ 423 @ name: LUA_MASKCALL  @ 316 @ 
+block  @ 514 @ block  @ 453 @ 
+operator: =  @ 711 @ operator: =  @ 667 @ 
+name: G  @ 107 @ name: G  @ 110 @ 
+operator: .  @ 719 @ operator: .  @ 675 @ 
+init  @ 189 @ init  @ 181 @ 
+name: top  @ 196 @ name: top  @ 180 @ 
+call  @ 269 @ call  @ 233 @ 
+name: ci  @ 608 @ name: from  @ 561 @ 
+name: ci  @ 442 @ name: ci  @ 341 @ 
+type  @ 332 @ type  @ 326 @ 
+name: errfunc  @ 483 @ name: errfunc  @ 415 @ 
+expr  @ 422 @ expr  @ 313 @ 
+argument_list  @ 350 @ argument_list  @ 368 @ 
+name: L  @ 641 @ name: L  @ 587 @ 
+expr  @ 566 @ expr  @ 522 @ 
+name: cast_int  @ 196 @ name: cast_int  @ 180 @ 
+operator: =  @ 419 @ operator: =  @ 347 @ 
+call  @ 422 @ call  @ 313 @ 
+decl_stmt  @ 167 @ decl_stmt  @ 163 @ 
+expr_stmt  @ 482 @ expr_stmt  @ 414 @ 
+parameter  @ 128 @ parameter  @ 125 @ 
+name: callstatus  @ 482 @ name: callstatus  @ 414 @ 
+expr  @ 475 @ expr  @ 409 @ 
+argument_list  @ 322 @ argument_list  @ 279 @ 
+expr  @ 350 @ expr  @ 368 @ 
+expr  @ 606 @ expr  @ 553 @ 
+argument_list  @ 604 @ argument_list  @ 551 @ 
+name: i  @ 363 @ name: i  @ 266 @ 
+name: p  @ 717 @ name: p  @ 673 @ 
+modifier: *  @ 512 @ modifier: *  @ 451 @ 
+name: dyd  @ 714 @ name: dyd  @ 670 @ 
+call  @ 412 @ call  @ 306 @ 
+init  @ 436 @ init  @ 327 @ 
+name: int  @ 438 @ name: luaD_checkstack  @ 329 @ 
+expr_stmt  @ 656 @ expr_stmt  @ 603 @ 
+block_content  @ 651 @ block_content  @ 597 @ 
+operator: !  @ 42 @ operator: !  @ 51 @ 
+name: LUAI_THROW  @ 40 @ name: LUAI_THROW  @ 49 @ 
+include  @ 22 @ include  @ 24 @ 
+type  @ 145 @ type  @ 142 @ 
+condition  @ 597 @ condition  @ 548 @ 
+expr  @ 391 @ expr  @ 263 @ 
+modifier: *  @ 707 @ modifier: *  @ 662 @ 
+modifier: *  @ 435 @ modifier: *  @ 298 @ 
+name: L  @ 178 @ name: L  @ 166 @ 
+specifier: const  @ 541 @ specifier: const  @ 485 @ 
+name: next_ci  @ 417 @ name: next_ci  @ 309 @ 
+directive: include  @ 18 @ directive: include  @ 20 @ 
+expr  @ 437 @ expr  @ 328 @ 
+argument_list  @ 545 @ argument_list  @ 489 @ 
+name: ctx  @ 639 @ name: ctx  @ 585 @ 
+name  @ 420 @ name  @ 312 @ 
+decl  @ 281 @ decl  @ 244 @ 
+init  @ 216 @ init  @ 197 @ 
+block_content  @ 192 @ block_content  @ 398 @ 
+parameter  @ 690 @ parameter  @ 640 @ 
+modifier: *  @ 436 @ modifier: *  @ 327 @ 
+parameter  @ 60 @ parameter  @ 60 @ 
+name: LUAI_THROW  @ 45 @ name: LUAI_THROW  @ 66 @ 
+name: luaF_initupvals  @ 703 @ name: luaC_objbarrier  @ 657 @ 
+name: lua_CFunction  @ 405 @ name: lua_CFunction  @ 297 @ 
+expr  @ 711 @ expr  @ 667 @ 
+argument_list  @ 693 @ argument_list  @ 644 @ 
+parameter  @ 46 @ parameter  @ 67 @ 
+decl_stmt  @ 72 @ decl_stmt  @ 78 @ 
+name: func  @ 407 @ name: func  @ 301 @ 
+call  @ 350 @ call  @ 368 @ 
+decl  @ 74 @ decl  @ 80 @ 
+parameter_list  @ 318 @ parameter_list  @ 274 @ 
+expr  @ 257 @ expr  @ 226 @ 
+name: int  @ 128 @ name: int  @ 125 @ 
+return  @ 518 @ return  @ 457 @ 
+name: lua_assert  @ 396 @ name: lua_assert  @ 198 @ 
+name: u  @ 638 @ name: u  @ 584 @ 
+specifier: const  @ 682 @ specifier: const  @ 631 @ 
+expr  @ 173 @ expr  @ 507 @ 
+name: L  @ 664 @ name: L  @ 611 @ 
+expr_stmt  @ 716 @ expr_stmt  @ 672 @ 
+comment: /* push error message */  @ 543 @ comment: /* push error message */  @ 487 @ 
+name: l  @ 290 @ name: l  @ 253 @ 
+name: LUAI_THROW  @ 104 @ name: LUAI_THROW  @ 106 @ 
+expr_stmt  @ 417 @ expr_stmt  @ 309 @ 
+name: LUA_VCCL  @ 408 @ name: LUA_TLCF  @ 302 @ 
+decl_stmt  @ 215 @ decl_stmt  @ 196 @ 
+comment: /* need more space after extra size? */  @ 190 @ comment: /* error after extra size? */  @ 177 @ 
+name: Mbuffer  @ 675 @ name: Mbuffer  @ 624 @ 
+type  @ 525 @ type  @ 463 @ 
+call  @ 717 @ call  @ 673 @ 
+name: void  @ 238 @ name: void  @ 161 @ 
+name: luaD_call  @ 556 @ name: luaD_precall  @ 506 @ 
+expr  @ 641 @ expr  @ 587 @ 
+call  @ 416 @ call  @ 308 @ 
+name: L  @ 661 @ name: L  @ 501 @ 
+expr  @ 130 @ expr  @ 126 @ 
+name: L  @ 449 @ name: L  @ 331 @ 
+operator: ->  @ 216 @ operator: ->  @ 197 @ 
+name  @ 390 @ name  @ 311 @ 
+argument  @ 85 @ argument  @ 91 @ 
+decl  @ 319 @ decl  @ 275 @ 
+expr  @ 661 @ expr  @ 606 @ 
+file: "lgc.h"  @ 19 @ file: "lgc.h"  @ 21 @ 
+argument  @ 556 @ argument  @ 506 @ 
+expr  @ 438 @ expr  @ 330 @ 
+expr  @ 716 @ expr  @ 672 @ 
+operator: .  @ 132 @ operator: .  @ 128 @ 
+argument  @ 566 @ argument  @ 522 @ 
+decl_stmt  @ 251 @ decl_stmt  @ 220 @ 
+call  @ 268 @ call  @ 232 @ 
+expr_stmt  @ 133 @ expr_stmt  @ 129 @ 
+name  @ 290 @ name  @ 253 @ 
+comment: /* just continue running Lua code */  @ 562 @ comment: /* just continue running Lua code */  @ 515 @ 
+name: ci  @ 265 @ name: ci  @ 228 @ 
+name: hook  @ 289 @ name: hook  @ 252 @ 
+expr  @ 289 @ expr  @ 252 @ 
+name: L  @ 134 @ name: L  @ 130 @ 
+name: lua_State  @ 166 @ name: lua_State  @ 161 @ 
+argument  @ 528 @ argument  @ 466 @ 
+type  @ 101 @ type  @ 103 @ 
+name: L  @ 614 @ name: L  @ 408 @ 
+parameter_list  @ 690 @ parameter_list  @ 640 @ 
+expr  @ 107 @ expr  @ 110 @ 
+block_content  @ 524 @ block_content  @ 462 @ 
+type  @ 331 @ type  @ 244 @ 
+name: L  @ 109 @ name: L  @ 109 @ 
+argument  @ 437 @ argument  @ 328 @ 
+name: LUA_MINSTACK  @ 265 @ name: LUA_MINSTACK  @ 228 @ 
+name: lua_State  @ 707 @ name: lua_State  @ 662 @ 
+name: L  @ 599 @ name: L  @ 549 @ 
+name: oldstack  @ 154 @ name: oldstack  @ 149 @ 
+condition  @ 694 @ condition  @ 645 @ 
+call  @ 531 @ call  @ 468 @ 
+argument  @ 578 @ argument  @ 538 @ 
+init  @ 130 @ init  @ 126 @ 
+operator: ->  @ 482 @ operator: ->  @ 414 @ 
+name: mode  @ 683 @ name: mode  @ 632 @ 
+operator: <  @ 199 @ operator: <  @ 183 @ 
+expr  @ 209 @ expr  @ 166 @ 
+name: L  @ 371 @ name: L  @ 366 @ 
+expr  @ 441 @ expr  @ 340 @ 
+operator: =  @ 711 @ operator: =  @ 667 @ 
+name: L  @ 253 @ name: L  @ 222 @ 
+operator: .  @ 564 @ operator: .  @ 517 @ 
+argument_list  @ 429 @ argument_list  @ 320 @ 
+expr  @ 562 @ expr  @ 515 @ 
+expr  @ 703 @ expr  @ 657 @ 
+value  @ 47 @ value  @ 67 @ 
+expr  @ 567 @ expr  @ 523 @ 
+type  @ 189 @ type  @ 181 @ 
+call  @ 594 @ call  @ 542 @ 
+expr  @ 556 @ expr  @ 506 @ 
+expr  @ 129 @ expr  @ 115 @ 
+decl  @ 130 @ decl  @ 126 @ 
+decl  @ 405 @ decl  @ 297 @ 
+argument  @ 604 @ argument  @ 551 @ 
+expr  @ 604 @ expr  @ 551 @ 
+argument  @ 231 @ argument  @ 213 @ 
+argument  @ 629 @ argument  @ 576 @ 
+name: p  @ 696 @ name: p  @ 647 @ 
+expr_stmt  @ 627 @ expr_stmt  @ 574 @ 
+literal: 2  @ 189 @ literal: 2  @ 181 @ 
+decl  @ 224 @ decl  @ 205 @ 
+operator: !  @ 271 @ operator: !  @ 235 @ 
+argument  @ 440 @ argument  @ 337 @ 
+expr  @ 695 @ expr  @ 646 @ 
+operator: ->  @ 542 @ operator: ->  @ 486 @ 
+parameter  @ 78 @ parameter  @ 84 @ 
+name: Proto  @ 436 @ name: Proto  @ 327 @ 
+modifier: *  @ 614 @ modifier: *  @ 408 @ 
+name: func  @ 656 @ name: func  @ 603 @ 
+directive: define  @ 3 @ directive: define  @ 12 @ 
+name: LUA_OK  @ 560 @ name: LUA_OK  @ 512 @ 
+name: void  @ 281 @ name: void  @ 175 @ 
+name: top  @ 449 @ name: top  @ 331 @ 
+name: L  @ 133 @ name: L  @ 129 @ 
+argument  @ 581 @ argument  @ 504 @ 
+operator: ->  @ 639 @ operator: ->  @ 585 @ 
+argument  @ 428 @ argument  @ 319 @ 
+expr_stmt  @ 274 @ expr_stmt  @ 238 @ 
+type  @ 61 @ type  @ 61 @ 
+name: dyd  @ 718 @ name: dyd  @ 674 @ 
+name  @ 399 @ name  @ 378 @ 
+directive: include  @ 30 @ directive: include  @ 32 @ 
+argument  @ 465 @ argument  @ 315 @ 
+operator: =  @ 132 @ operator: =  @ 128 @ 
+operator: ->  @ 215 @ operator: ->  @ 196 @ 
+argument  @ 599 @ argument  @ 549 @ 
+decl  @ 690 @ decl  @ 640 @ 
+modifier: *  @ 566 @ modifier: *  @ 522 @ 
+expr  @ 683 @ expr  @ 632 @ 
+name: lua_State  @ 404 @ name: lua_State  @ 296 @ 
+init  @ 361 @ init  @ 266 @ 
+name: firstArg  @ 556 @ name: firstArg  @ 506 @ 
+name: ci  @ 444 @ name: ci  @ 314 @ 
+call  @ 122 @ call  @ 119 @ 
+name: ci  @ 564 @ name: ci  @ 517 @ 
+argument  @ 490 @ argument  @ 427 @ 
+name: code  @ 443 @ name: code  @ 346 @ 
+name: int  @ 225 @ name: int  @ 206 @ 
+decl  @ 128 @ decl  @ 125 @ 
+expr  @ 289 @ expr  @ 252 @ 
+name: c  @ 535 @ name: c  @ 473 @ 
+expr  @ 478 @ expr  @ 411 @ 
+block_content  @ 683 @ block_content  @ 632 @ 
+type  @ 414 @ type  @ 299 @ 
+name: StkId  @ 524 @ name: StkId  @ 462 @ 
+expr  @ 231 @ expr  @ 213 @ 
+name: i  @ 389 @ name: i  @ 654 @ 
+name: size  @ 718 @ name: size  @ 674 @ 
+operator: ->  @ 299 @ operator: ->  @ 332 @ 
+expr_stmt  @ 718 @ expr_stmt  @ 674 @ 
+init  @ 188 @ init  @ 176 @ 
+name: StkId  @ 78 @ name: StkId  @ 84 @ 
+decl_stmt  @ 553 @ decl_stmt  @ 498 @ 
+name: errorJmp  @ 102 @ name: errorJmp  @ 104 @ 
+decl  @ 404 @ decl  @ 296 @ 
+name: LUA_ERRERR  @ 192 @ name: LUA_ERRERR  @ 398 @ 
+expr_stmt  @ 150 @ expr_stmt  @ 145 @ 
+expr  @ 528 @ expr  @ 466 @ 
+macro  @ 60 @ macro  @ 60 @ 
+name: lua_State  @ 496 @ name: lua_State  @ 433 @ 
+argument  @ 608 @ argument  @ 561 @ 
+expr  @ 282 @ expr  @ 245 @ 
+condition  @ 156 @ condition  @ 151 @ 
+argument  @ 700 @ argument  @ 651 @ 
+expr  @ 629 @ expr  @ 576 @ 
+type  @ 496 @ type  @ 433 @ 
+expr  @ 658 @ expr  @ 605 @ 
+name: ci  @ 415 @ name: f  @ 306 @ 
+expr  @ 526 @ expr  @ 464 @ 
+expr  @ 643 @ expr  @ 589 @ 
+name: gt  @ 719 @ name: gt  @ 675 @ 
+operator: ->  @ 325 @ operator: =  @ 283 @ 
+expr  @ 721 @ expr  @ 349 @ 
+operator: !=  @ 216 @ operator: !=  @ 197 @ 
+name: lua_lock  @ 578 @ name: lua_lock  @ 538 @ 
+name: allowhook  @ 660 @ name: allowhook  @ 609 @ 
+modifier: *  @ 551 @ modifier: *  @ 496 @ 
+expr  @ 136 @ expr  @ 134 @ 
+call  @ 718 @ call  @ 674 @ 
+operator: &&  @ 42 @ operator: &&  @ 51 @ 
+name: lua_assert  @ 170 @ name: lua_assert  @ 165 @ 
+name: s2v  @ 409 @ name: fvalue  @ 303 @ 
+block  @ 206 @ block  @ 189 @ 
+argument  @ 594 @ argument  @ 542 @ 
+name: L  @ 576 @ name: L  @ 535 @ 
+expr  @ 663 @ expr  @ 607 @ 
+decl  @ 464 @ decl  @ 393 @ 
+name: ptrdiff_t  @ 350 @ name: ptrdiff_t  @ 368 @ 
+operator: =  @ 655 @ operator: =  @ 602 @ 
+argument_list  @ 42 @ argument_list  @ 51 @ 
+expr  @ 170 @ expr  @ 165 @ 
+expr  @ 692 @ expr  @ 643 @ 
+expr  @ 593 @ expr  @ 539 @ 
+case  @ 84 @ case  @ 90 @ 
+argument  @ 451 @ argument  @ 351 @ 
+expr  @ 720 @ expr  @ 676 @ 
+operator: .  @ 639 @ operator: .  @ 585 @ 
+decl  @ 166 @ decl  @ 161 @ 
+argument  @ 422 @ argument  @ 313 @ 
+name: f  @ 405 @ name: f  @ 297 @ 
+name: inuse  @ 230 @ name: inuse  @ 209 @ 
+call  @ 504 @ call  @ 441 @ 
+type  @ 225 @ type  @ 206 @ 
+name: L  @ 375 @ name: L  @ 171 @ 
+operator: ->  @ 423 @ operator: ->  @ 316 @ 
+call  @ 572 @ call  @ 529 @ 
+argument  @ 362 @ argument  @ 379 @ 
+operator: =  @ 604 @ operator: =  @ 551 @ 
+name: ud  @ 551 @ name: ud  @ 496 @ 
+name: int  @ 404 @ name: int  @ 296 @ 
+name: dyd  @ 719 @ name: dyd  @ 675 @ 
+decl_stmt  @ 678 @ decl_stmt  @ 627 @ 
+name  @ 372 @ name  @ 586 @ 
+name: luaD_rawrunprotected  @ 595 @ name: luaD_rawrunprotected  @ 543 @ 
+name: u2  @ 608 @ name: oldnny  @ 559 @ 
+expr  @ 594 @ expr  @ 542 @ 
+decl  @ 690 @ decl  @ 640 @ 
+name: top  @ 150 @ name: top  @ 264 @ 
+name: strchr  @ 683 @ name: strchr  @ 632 @ 
+name: LUA_ERRERR  @ 84 @ name: LUA_ERRERR  @ 90 @ 
+decl_stmt  @ 131 @ decl_stmt  @ 127 @ 
+operator: )  @ 608 @ operator: )  @ 561 @ 
+name: numparams  @ 300 @ name: numparams  @ 330 @ 
+expr_stmt  @ 431 @ expr_stmt  @ 322 @ 
+operator: .  @ 720 @ operator: .  @ 676 @ 
+init  @ 253 @ init  @ 222 @ 
+expr  @ 431 @ expr  @ 322 @ 
+expr  @ 482 @ expr  @ 414 @ 
+specifier: volatile  @ 74 @ specifier: volatile  @ 80 @ 
+name: L  @ 351 @ name: L  @ 338 @ 
+name: top  @ 716 @ name: top  @ 672 @ 
+struct  @ 673 @ struct  @ 622 @ 
+expr  @ 581 @ expr  @ 504 @ 
+operator: =  @ 302 @ operator: =  @ 348 @ 
+name: top  @ 372 @ name: top  @ 586 @ 
+literal: "attempt to load a %s chunk (mode is '%s')"  @ 684 @ literal: "attempt to load a %s chunk (mode is "  @ 634 @ 
+operator: ->  @ 217 @ operator: ->  @ 199 @ 
+name  @ 654 @ name  @ 601 @ 
+argument  @ 319 @ argument  @ 275 @ 
+name: CallInfo  @ 251 @ name: CallInfo  @ 220 @ 
+expr  @ 595 @ expr  @ 543 @ 
+expr  @ 712 @ expr  @ 668 @ 
+name: L  @ 428 @ name: L  @ 319 @ 
+operator: =  @ 659 @ operator: =  @ 608 @ 
+call  @ 156 @ call  @ 151 @ 
+operator: -  @ 152 @ operator: -  @ 147 @ 
+operator: =  @ 256 @ operator: =  @ 225 @ 
+modifier: *  @ 541 @ modifier: *  @ 485 @ 
+argument_list  @ 567 @ argument_list  @ 523 @ 
+operator: !=  @ 580 @ operator: !=  @ 503 @ 
+expr  @ 581 @ expr  @ 504 @ 
+include  @ 29 @ include  @ 31 @ 
+expr  @ 290 @ expr  @ 253 @ 
+expr_stmt  @ 660 @ expr_stmt  @ 609 @ 
+operator: ->  @ 716 @ operator: ->  @ 672 @ 
+expr_stmt  @ 480 @ expr_stmt  @ 412 @ 
+struct  @ 71 @ struct  @ 77 @ 
+call  @ 625 @ call  @ 439 @ 
+decl_stmt  @ 476 @ decl_stmt  @ 410 @ 
+modifier: *  @ 78 @ modifier: *  @ 84 @ 
+argument  @ 81 @ argument  @ 87 @ 
+name: oldtop  @ 661 @ name: oldtop  @ 606 @ 
+modifier: *  @ 464 @ modifier: *  @ 393 @ 
+name: L  @ 61 @ name: L  @ 61 @ 
+comment: /* do the actual call */  @ 428 @ comment: /* do the actual call */  @ 319 @ 
+name: ci  @ 514 @ name: ci  @ 453 @ 
+name: top  @ 252 @ name: top  @ 221 @ 
+name: L  @ 265 @ name: L  @ 228 @ 
+name: u  @ 650 @ name: u  @ 595 @ 
+expr_stmt  @ 719 @ expr_stmt  @ 675 @ 
+comment: /* set status */  @ 103 @ comment: /* set status */  @ 105 @ 
+block_content  @ 658 @ block_content  @ 605 @ 
+argument  @ 321 @ argument  @ 278 @ 
+name: SParser  @ 708 @ name: SParser  @ 664 @ 
+expr  @ 270 @ expr  @ 234 @ 
+argument_list  @ 156 @ argument_list  @ 151 @ 
+argument  @ 441 @ argument  @ 340 @ 
+name: p  @ 283 @ name: p  @ 257 @ 
+operator: =  @ 323 @ operator: =  @ 281 @ 
+if  @ 230 @ if  @ 209 @ 
+name: p  @ 720 @ name: p  @ 676 @ 
+expr  @ 412 @ expr  @ 306 @ 
+argument  @ 568 @ argument  @ 524 @ 
+name: L  @ 502 @ name: L  @ 370 @ 
+name: narg  @ 437 @ name: n  @ 328 @ 
+operator: .  @ 290 @ operator: .  @ 253 @ 
+name: luaV_finishOp  @ 504 @ name: luaV_finishOp  @ 441 @ 
+name  @ 718 @ name  @ 674 @ 
+if  @ 601 @ if  @ 548 @ 
+name: L  @ 475 @ name: L  @ 409 @ 
+name: name  @ 696 @ name: name  @ 647 @ 
+file: <stdlib.h>  @ 10 @ file: <stdlib.h>  @ 9 @ 
+name: L  @ 605 @ name: L  @ 552 @ 
+name: lj  @ 138 @ name: lj  @ 136 @ 
+name: lua_State  @ 224 @ name: lua_State  @ 205 @ 
+name: newsize  @ 166 @ name: newsize  @ 161 @ 
+type  @ 238 @ type  @ 161 @ 
+name: top  @ 399 @ name: top  @ 378 @ 
+name: old_top  @ 650 @ name: old_top  @ 596 @ 
+type  @ 677 @ type  @ 626 @ 
+operator: ->  @ 588 @ operator: ->  @ 395 @ 
+expr  @ 714 @ expr  @ 670 @ 
+argument  @ 81 @ argument  @ 87 @ 
+name: int  @ 78 @ name: int  @ 84 @ 
+name: newsize  @ 181 @ name: newsize  @ 170 @ 
+comment: /* error status can only happen in a protected call */  @ 479 @ comment: /* must have a continuation */  @ 411 @ 
+argument_list  @ 489 @ argument_list  @ 426 @ 
+parameter  @ 128 @ parameter  @ 125 @ 
+name: stacksize  @ 230 @ name: stacksize  @ 210 @ 
+decl  @ 692 @ decl  @ 643 @ 
+name: cast_byte  @ 109 @ name: cast_byte  @ 109 @ 
+expr  @ 660 @ expr  @ 609 @ 
+argument  @ 466 @ argument  @ 211 @ 
+else  @ 206 @ else  @ 188 @ 
+argument  @ 696 @ argument  @ 647 @ 
+name  @ 478 @ name  @ 411 @ 
+name: ci  @ 155 @ name: ci  @ 150 @ 
+argument  @ 716 @ argument  @ 672 @ 
+name: l_noret  @ 101 @ name: l_noret  @ 103 @ 
+name: L  @ 718 @ name: L  @ 674 @ 
+name  @ 553 @ name  @ 429 @ 
+name: luaD_tryfuncTM  @ 456 @ name: tryfuncTM  @ 355 @ 
+name: top  @ 215 @ name: top  @ 196 @ 
+if_stmt  @ 601 @ if_stmt  @ 548 @ 
+name: uplevel  @ 152 @ name: gco2uv  @ 147 @ 
+expr  @ 209 @ expr  @ 189 @ 
+expr_stmt  @ 419 @ expr_stmt  @ 347 @ 
+name  @ 702 @ name  @ 653 @ 
+expr  @ 595 @ expr  @ 543 @ 
+name: CIST_YPCALL  @ 482 @ name: CIST_YPCALL  @ 414 @ 
+name: luaD_call  @ 404 @ name: luaD_precall  @ 296 @ 
+expr  @ 361 @ expr  @ 654 @ 
+operator: ->  @ 700 @ operator: ->  @ 651 @ 
+expr  @ 227 @ expr  @ 208 @ 
+expr  @ 489 @ expr  @ 426 @ 
+name: L  @ 487 @ name: L  @ 424 @ 
+name: L  @ 652 @ name: L  @ 598 @ 
+name: res  @ 352 @ name: func  @ 333 @ 
+operator: ->  @ 170 @ operator: ->  @ 165 @ 
+init  @ 652 @ init  @ 598 @ 
+operator: -  @ 170 @ operator: -  @ 165 @ 
+decl_stmt  @ 130 @ decl_stmt  @ 126 @ 
+name: firstres  @ 294 @ name: firstResult  @ 362 @ 
+modifier: *  @ 187 @ modifier: *  @ 175 @ 
+type  @ 213 @ type  @ 194 @ 
+name: ci  @ 390 @ name: ci  @ 311 @ 
+expr  @ 268 @ expr  @ 232 @ 
+expr  @ 587 @ expr  @ 540 @ 
+name: previous  @ 133 @ name: previous  @ 129 @ 
+name: lim  @ 217 @ name: lim  @ 199 @ 
+parameter  @ 53 @ parameter  @ 53 @ 
+argument_list  @ 129 @ argument_list  @ 115 @ 
+if_stmt  @ 204 @ if_stmt  @ 184 @ 
+name: lim  @ 177 @ name: lim  @ 168 @ 
+specifier: static  @ 541 @ specifier: static  @ 485 @ 
+block  @ 564 @ block  @ 517 @ 
+name  @ 606 @ name  @ 553 @ 
+name: callstatus  @ 444 @ name: callstatus  @ 314 @ 
+name: L  @ 431 @ name: L  @ 322 @ 
+operator: ->  @ 478 @ operator: ->  @ 411 @ 
+expr  @ 396 @ expr  @ 198 @ 
+name: func  @ 326 @ name: func  @ 284 @ 
+type  @ 619 @ type  @ 567 @ 
+argument_list  @ 578 @ argument_list  @ 538 @ 
+expr  @ 514 @ expr  @ 453 @ 
+operator: =  @ 151 @ operator: =  @ 146 @ 
+expr  @ 313 @ expr  @ 467 @ 
+expr  @ 626 @ expr  @ 573 @ 
+operator: -  @ 93 @ operator: -  @ 95 @ 
+expr  @ 718 @ expr  @ 674 @ 
+modifier: *  @ 512 @ modifier: *  @ 451 @ 
+block  @ 128 @ block  @ 125 @ 
+block  @ 78 @ block  @ 84 @ 
+operator: .  @ 535 @ operator: .  @ 473 @ 
+block  @ 80 @ block  @ 86 @ 
+argument  @ 502 @ argument  @ 370 @ 
+operator: ->  @ 449 @ operator: ->  @ 331 @ 
+operator: +  @ 181 @ operator: +  @ 170 @ 
+argument  @ 583 @ argument  @ 396 @ 
+name: StkId  @ 215 @ name: StkId  @ 196 @ 
+argument  @ 720 @ argument  @ 676 @ 
+argument  @ 716 @ argument  @ 672 @ 
+argument_list  @ 625 @ argument_list  @ 439 @ 
+expr  @ 269 @ expr  @ 233 @ 
+name: CSTACKERR  @ 591 @ name: LUAI_MAXCCALLS  @ 394 @ 
+operator: ->  @ 290 @ operator: ->  @ 253 @ 
+condition  @ 561 @ condition  @ 514 @ 
+expr  @ 545 @ expr  @ 489 @ 
+expr  @ 150 @ expr  @ 145 @ 
+expr  @ 104 @ expr  @ 106 @ 
+parameter  @ 145 @ parameter  @ 142 @ 
+type  @ 248 @ type  @ 218 @ 
+expr  @ 151 @ expr  @ 146 @ 
+operator: ->  @ 535 @ operator: ->  @ 473 @ 
+name: ar  @ 255 @ name: ar  @ 224 @ 
+argument  @ 450 @ argument  @ 345 @ 
+block  @ 200 @ block  @ 183 @ 
+name: ud  @ 496 @ name: ud  @ 433 @ 
+comment: /* Lua function */  @ 434 @ comment: /* Lua function: prepare its call */  @ 325 @ 
+comment: /* stack overflow? */  @ 201 @ comment: /* stack overflow? */  @ 184 @ 
+operator: =  @ 444 @ operator: =  @ 314 @ 
+expr_stmt  @ 134 @ expr_stmt  @ 130 @ 
+argument_list  @ 252 @ argument_list  @ 221 @ 
+decl_stmt  @ 674 @ decl_stmt  @ 623 @ 
+name: LUAI_MAXSTACK  @ 198 @ name: LUAI_MAXSTACK  @ 182 @ 
+name: void  @ 690 @ name: void  @ 640 @ 
+operator: ->  @ 188 @ operator: ->  @ 176 @ 
+decl  @ 653 @ decl  @ 599 @ 
+name: L  @ 178 @ name: L  @ 166 @ 
+block  @ 563 @ block  @ 516 @ 
+name: L  @ 192 @ name: L  @ 398 @ 
+name: L  @ 46 @ name: L  @ 67 @ 
+type  @ 435 @ type  @ 298 @ 
+decl_stmt  @ 552 @ decl_stmt  @ 497 @ 
+expr  @ 228 @ expr  @ 208 @ 
+init  @ 252 @ init  @ 221 @ 
+expr  @ 85 @ expr  @ 91 @ 
+name: L  @ 224 @ name: L  @ 205 @ 
+operator: =  @ 373 @ operator: =  @ 376 @ 
+expr  @ 597 @ expr  @ 548 @ 
+name: char  @ 678 @ name: char  @ 627 @ 
+expr  @ 342 @ expr  @ 337 @ 
+name: L  @ 420 @ name: L  @ 312 @ 
+literal: 0  @ 444 @ literal: 0  @ 314 @ 
+operator: ->  @ 638 @ operator: ->  @ 584 @ 
+argument  @ 308 @ argument  @ 369 @ 
+decl_stmt  @ 248 @ decl_stmt  @ 218 @ 
+name: CallInfo  @ 475 @ name: CallInfo  @ 409 @ 
+name: ci  @ 154 @ name: ci  @ 149 @ 
+define  @ 4 @ define  @ 13 @ 
+expr_stmt  @ 543 @ expr_stmt  @ 487 @ 
+argument_list  @ 122 @ argument_list  @ 119 @ 
+name: L  @ 289 @ name: L  @ 252 @ 
+name: status  @ 599 @ name: status  @ 549 @ 
+expr  @ 216 @ expr  @ 197 @ 
+name: f_parser  @ 690 @ name: f_parser  @ 640 @ 
+init  @ 389 @ init  @ 654 @ 
+expr  @ 490 @ expr  @ 427 @ 
+name: L  @ 268 @ name: L  @ 232 @ 
+name  @ 274 @ name  @ 238 @ 
+operator: +  @ 196 @ operator: +  @ 180 @ 
+name: lua_unlock  @ 609 @ name: lua_unlock  @ 562 @ 
+macro  @ 53 @ macro  @ 53 @ 
+expr  @ 656 @ expr  @ 603 @ 
+operator: -  @ 324 @ operator: -  @ 281 @ 
+argument_list  @ 289 @ argument_list  @ 252 @ 
+name: int  @ 651 @ name: int  @ 597 @ 
+operator: ->  @ 631 @ operator: ->  @ 578 @ 
+value  @ 45 @ value  @ 66 @ 
+name: status  @ 597 @ name: status  @ 547 @ 
+decl  @ 248 @ decl  @ 218 @ 
+argument_list  @ 629 @ argument_list  @ 576 @ 
+name: luaS_newliteral  @ 85 @ name: luaS_newliteral  @ 91 @ 
+expr  @ 440 @ expr  @ 356 @ 
+name: savestack  @ 716 @ name: savestack  @ 672 @ 
+expr_stmt  @ 566 @ expr_stmt  @ 522 @ 
+operator: =  @ 274 @ operator: =  @ 238 @ 
+name: luaT_gettmbyobj  @ 319 @ name: luaT_gettmbyobj  @ 275 @ 
+call  @ 593 @ call  @ 539 @ 
+comment: /* nothing to call */  @ 322 @ comment: /* Open a hole inside the stack at `func' */  @ 280 @ 
+name: ci_top  @ 273 @ name: ci_top  @ 237 @ 
+expr_stmt  @ 684 @ expr_stmt  @ 633 @ 
+expr_stmt  @ 491 @ expr_stmt  @ 429 @ 
+name: top  @ 605 @ name: top  @ 552 @ 
+expr  @ 273 @ expr  @ 237 @ 
+name: next  @ 151 @ name: next  @ 146 @ 
+name: ci  @ 153 @ name: ci  @ 148 @ 
+block  @ 639 @ block  @ 585 @ 
+expr  @ 657 @ expr  @ 604 @ 
+name: ci  @ 659 @ name: ci  @ 608 @ 
+name: k  @ 638 @ name: k  @ 584 @ 
+expr  @ 609 @ expr  @ 562 @ 
+parameter  @ 512 @ parameter  @ 451 @ 
+operator: <=  @ 591 @ operator: >=  @ 394 @ 
+operator: ->  @ 420 @ operator: ->  @ 312 @ 
+label  @ 413 @ label  @ 307 @ 
+init  @ 225 @ init  @ 206 @ 
+argument_list  @ 173 @ argument_list  @ 507 @ 
+type  @ 650 @ type  @ 596 @ 
+expr  @ 255 @ expr  @ 224 @ 
+include  @ 16 @ include  @ 18 @ 
+expr  @ 572 @ expr  @ 529 @ 
+name: ci  @ 146 @ name: ci  @ 143 @ 
+name  @ 265 @ name  @ 228 @ 
+name: status  @ 599 @ name: NULL  @ 549 @ 
+name: func  @ 323 @ name: func  @ 281 @ 
+expr_stmt  @ 710 @ expr_stmt  @ 442 @ 
+name: ci  @ 516 @ name: ci  @ 455 @ 
+expr_stmt  @ 198 @ expr_stmt  @ 182 @ 
+call  @ 468 @ call  @ 401 @ 
+name: c  @ 693 @ name: c  @ 644 @ 
+name: LUA_OK  @ 657 @ name: LUA_OK  @ 604 @ 
+name: label  @ 714 @ name: label  @ 670 @ 
+expr_stmt  @ 713 @ expr_stmt  @ 669 @ 
+name: luaO_pushfstring  @ 684 @ name: luaO_pushfstring  @ 633 @ 
+name: inuse  @ 225 @ name: inuse  @ 206 @ 
+parameter_list  @ 496 @ parameter_list  @ 433 @ 
+name: L  @ 181 @ name: L  @ 170 @ 
+name: mask  @ 267 @ name: CIST_HOOKED  @ 231 @ 
+name: ci  @ 373 @ name: ci  @ 376 @ 
+argument  @ 718 @ argument  @ 674 @ 
+condition  @ 199 @ condition  @ 183 @ 
+directive: define  @ 380 @ directive: define  @ 290 @ 
+type  @ 675 @ type  @ 624 @ 
+function  @ 690 @ function  @ 640 @ 
+block  @ 629 @ block  @ 576 @ 
+operator: <=  @ 422 @ operator: <=  @ 313 @ 
+switch  @ 407 @ switch  @ 301 @ 
+condition  @ 153 @ condition  @ 148 @ 
+literal: 1  @ 437 @ literal: 1  @ 328 @ 
+argument_list  @ 416 @ argument_list  @ 308 @ 
+name: incnny  @ 710 @ name: luaV_execute  @ 442 @ 
+name: yieldable  @ 625 @ name: finishCcall  @ 439 @ 
+expr  @ 621 @ expr  @ 569 @ 
+name: int  @ 464 @ name: int  @ 393 @ 
+expr  @ 719 @ expr  @ 675 @ 
+argument_list  @ 177 @ argument_list  @ 168 @ 
+type  @ 551 @ type  @ 496 @ 
+condition  @ 230 @ condition  @ 209 @ 
+name: errfunc  @ 716 @ name: errfunc  @ 672 @ 
+name: restorestack  @ 313 @ name: luaF_close  @ 467 @ 
+name: L  @ 81 @ name: L  @ 87 @ 
+expr_stmt  @ 273 @ expr_stmt  @ 237 @ 
+operator: +  @ 155 @ operator: +  @ 150 @ 
+literal: 1  @ 220 @ literal: 1  @ 201 @ 
+name: errcode  @ 78 @ name: errcode  @ 84 @ 
+decl  @ 614 @ decl  @ 408 @ 
+expr_stmt  @ 137 @ expr_stmt  @ 135 @ 
+expr  @ 205 @ expr  @ 186 @ 
+argument  @ 715 @ argument  @ 671 @ 
+expr_stmt  @ 265 @ expr_stmt  @ 228 @ 
+condition  @ 638 @ condition  @ 584 @ 
+decl  @ 682 @ decl  @ 631 @ 
+operator: +  @ 154 @ operator: +  @ 149 @ 
+expr  @ 288 @ expr  @ 246 @ 
+name: L  @ 54 @ name: L  @ 54 @ 
+expr  @ 119 @ expr  @ 116 @ 
+define  @ 46 @ define  @ 67 @ 
+incr  @ 361 @ incr  @ 654 @ 
+operator: =  @ 136 @ operator: =  @ 134 @ 
+decl_stmt  @ 577 @ decl_stmt  @ 536 @ 
+expr  @ 311 @ expr  @ 247 @ 
+expr  @ 568 @ expr  @ 524 @ 
+name: raiseerror  @ 172 @ name: L  @ 166 @ 
+name: lua_State  @ 281 @ name: lua_State  @ 244 @ 
+name: maxstacksize  @ 386 @ name: maxstacksize  @ 263 @ 
+name: luai_jmpbuf  @ 73 @ name: luai_jmpbuf  @ 79 @ 
+call  @ 203 @ call  @ 185 @ 
+modifier: *  @ 496 @ modifier: *  @ 433 @ 
+comment: /* read first character */  @ 693 @ comment: /* read first character */  @ 644 @ 
+comment: /* resuming from previous yield */  @ 558 @ comment: /* resuming from previous yield */  @ 511 @ 
+argument  @ 42 @ argument  @ 51 @ 
+expr  @ 544 @ expr  @ 488 @ 
+expr  @ 425 @ expr  @ 317 @ 
+name: LClosure  @ 691 @ name: Closure  @ 642 @ 
+block_content  @ 639 @ block_content  @ 585 @ 
+argument_list  @ 430 @ argument_list  @ 321 @ 
+expr  @ 592 @ expr  @ 501 @ 
+argument  @ 634 @ argument  @ 581 @ 
+expr  @ 711 @ expr  @ 667 @ 
+modifier: *  @ 247 @ modifier: *  @ 217 @ 
+name: L  @ 608 @ name: L  @ 543 @ 
+call  @ 313 @ call  @ 467 @ 
+operator: +  @ 97 @ operator: +  @ 99 @ 
+name  @ 282 @ name  @ 420 @ 
+operator: ->  @ 103 @ operator: ->  @ 105 @ 
+expr  @ 268 @ expr  @ 232 @ 
+argument  @ 85 @ argument  @ 91 @ 
+block  @ 558 @ block  @ 511 @ 
+argument_list  @ 205 @ argument_list  @ 186 @ 
+type  @ 296 @ type  @ 207 @ 
+argument_list  @ 269 @ argument_list  @ 233 @ 
+name: L  @ 619 @ name: L  @ 567 @ 
+name: lua_unlock  @ 487 @ name: lua_unlock  @ 424 @ 
+expr  @ 191 @ expr  @ 397 @ 
+name  @ 514 @ name  @ 453 @ 
+name: L  @ 399 @ name: L  @ 378 @ 
+name: a  @ 61 @ name: a  @ 61 @ 
+if_stmt  @ 555 @ if_stmt  @ 502 @ 
+decl  @ 331 @ decl  @ 364 @ 
+name: p  @ 387 @ name: p  @ 259 @ 
+decl  @ 513 @ decl  @ 452 @ 
+modifier: *  @ 690 @ modifier: *  @ 640 @ 
+expr  @ 468 @ expr  @ 401 @ 
+expr  @ 272 @ expr  @ 236 @ 
+expr  @ 440 @ expr  @ 311 @ 
+expr_stmt  @ 643 @ expr_stmt  @ 589 @ 
+expr  @ 626 @ expr  @ 573 @ 
+operator: =  @ 228 @ operator: =  @ 208 @ 
+literal: "cannot resume non-suspended coroutine"  @ 581 @ literal: "cannot resume non-suspended coroutine"  @ 504 @ 
+incr  @ 363 @ incr  @ 266 @ 
+expr  @ 199 @ expr  @ 183 @ 
+return  @ 610 @ return  @ 563 @ 
+type  @ 146 @ type  @ 143 @ 
+argument_list  @ 466 @ argument_list  @ 211 @ 
+expr  @ 632 @ expr  @ 580 @ 
+name: ci  @ 500 @ name: ci  @ 438 @ 
+expr  @ 308 @ expr  @ 369 @ 
+argument  @ 656 @ argument  @ 603 @ 
+directive: else  @ 57 @ directive: else  @ 64 @ 
+name: old_errfunc  @ 483 @ name: old_errfunc  @ 415 @ 
+call  @ 274 @ call  @ 238 @ 
+name  @ 566 @ name  @ 522 @ 
+directive: include  @ 15 @ directive: include  @ 17 @ 
+name  @ 102 @ name  @ 104 @ 
+name: L  @ 181 @ name: L  @ 170 @ 
+argument  @ 700 @ argument  @ 651 @ 
+specifier: const  @ 677 @ specifier: const  @ 626 @ 
+type  @ 251 @ type  @ 220 @ 
+name: callstatus  @ 419 @ name: callstatus  @ 347 @ 
+name  @ 643 @ name  @ 589 @ 
+name  @ 443 @ name  @ 346 @ 
+argument  @ 552 @ argument  @ 498 @ 
+name: lua_State  @ 247 @ name: lua_State  @ 217 @ 
+directive: include  @ 10 @ directive: include  @ 9 @ 
+argument  @ 595 @ argument  @ 543 @ 
+expr  @ 443 @ expr  @ 346 @ 
+name: status  @ 585 @ name: status  @ 509 @ 
+name: up  @ 151 @ name: up  @ 146 @ 
+define  @ 62 @ define  @ 62 @ 
+name: Pfunc  @ 650 @ name: Pfunc  @ 595 @ 
+operator: ->  @ 387 @ operator: ->  @ 259 @ 
+operator: ->  @ 419 @ operator: ->  @ 347 @ 
+type  @ 281 @ type  @ 175 @ 
+name: p  @ 700 @ name: p  @ 651 @ 
+name: s2v  @ 407 @ name: ttype  @ 301 @ 
+file: "lparser.h"  @ 23 @ file: "lparser.h"  @ 25 @ 
+expr  @ 442 @ expr  @ 341 @ 
+name: mode  @ 677 @ name: mode  @ 626 @ 
+name: n  @ 552 @ name: nCcalls  @ 497 @ 
+name: newsize  @ 189 @ name: newsize  @ 181 @ 
+expr  @ 203 @ expr  @ 185 @ 
+name: ttisnil  @ 321 @ name: ttisfunction  @ 278 @ 
+expr  @ 437 @ expr  @ 328 @ 
+block_content  @ 604 @ block_content  @ 551 @ 
+name: l_uint32  @ 130 @ name: unsigned  @ 126 @ 
+expr_stmt  @ 712 @ expr_stmt  @ 668 @ 
+comment: /* memory error? */  @ 80 @ comment: /* memory error? */  @ 86 @ 
+operator: ->  @ 585 @ operator: ->  @ 509 @ 
+expr  @ 203 @ expr  @ 185 @ 
+parameter  @ 78 @ parameter  @ 84 @ 
+argument  @ 40 @ argument  @ 49 @ 
+operator: &  @ 716 @ operator: &  @ 672 @ 
+argument  @ 502 @ argument  @ 370 @ 
+name: ci  @ 281 @ name: ci  @ 244 @ 
+name: LUAI_MAXSTACK  @ 230 @ name: LUAI_MAXSTACK  @ 209 @ 
+operator: ->  @ 696 @ operator: ->  @ 647 @ 
+expr  @ 694 @ expr  @ 645 @ 
+argument  @ 592 @ argument  @ 501 @ 
+argument  @ 717 @ argument  @ 673 @ 
+function  @ 682 @ function  @ 631 @ 
+operator: =  @ 361 @ operator: =  @ 266 @ 
+operator: ->  @ 311 @ operator: ->  @ 247 @ 
+decl  @ 294 @ decl  @ 362 @ 
+expr  @ 177 @ expr  @ 168 @ 
+operator: =  @ 409 @ operator: =  @ 303 @ 
+parameter  @ 128 @ parameter  @ 125 @ 
+name: i_ci  @ 257 @ name: i_ci  @ 226 @ 
+name: void  @ 496 @ name: void  @ 433 @ 
+expr  @ 488 @ expr  @ 425 @ 
+type  @ 523 @ type  @ 461 @ 
+argument_list  @ 684 @ argument_list  @ 633 @ 
+expr_stmt  @ 444 @ expr_stmt  @ 314 @ 
+name: ci  @ 267 @ name: ci  @ 231 @ 
+name: isLua  @ 632 @ name: isLua  @ 580 @ 
+value  @ 55 @ value  @ 56 @ 
+name: CallInfo  @ 281 @ name: CallInfo  @ 244 @ 
+condition  @ 304 @ condition  @ 367 @ 
+if_stmt  @ 156 @ if_stmt  @ 151 @ 
+name  @ 713 @ name  @ 669 @ 
+argument_list  @ 203 @ argument_list  @ 185 @ 
+name  @ 373 @ name  @ 376 @ 
+expr  @ 217 @ expr  @ 199 @ 
+argument  @ 156 @ argument  @ 151 @ 
+name: previous  @ 72 @ name: previous  @ 78 @ 
+name: L  @ 490 @ name: L  @ 427 @ 
+call  @ 661 @ call  @ 606 @ 
+argument  @ 486 @ argument  @ 418 @ 
+type  @ 187 @ type  @ 296 @ 
+expr  @ 656 @ expr  @ 603 @ 
+argument  @ 116 @ argument  @ 189 @ 
+value  @ 61 @ value  @ 61 @ 
+parameter  @ 464 @ parameter  @ 393 @ 
+call  @ 252 @ call  @ 221 @ 
+argument  @ 543 @ argument  @ 487 @ 
+expr  @ 42 @ expr  @ 51 @ 
+operator: .  @ 478 @ operator: .  @ 411 @ 
+expr  @ 274 @ expr  @ 238 @ 
+name: lj  @ 134 @ name: lj  @ 130 @ 
+name: top  @ 606 @ name: top  @ 553 @ 
+expr  @ 713 @ expr  @ 669 @ 
+expr_stmt  @ 271 @ expr_stmt  @ 235 @ 
+operator: -  @ 196 @ operator: -  @ 180 @ 
+argument  @ 543 @ argument  @ 487 @ 
+name  @ 253 @ name  @ 222 @ 
+expr  @ 661 @ expr  @ 606 @ 
+expr_stmt  @ 570 @ expr_stmt  @ 527 @ 
+expr  @ 720 @ expr  @ 676 @ 
+specifier: static  @ 474 @ specifier: static  @ 408 @ 
+operator: !=  @ 564 @ operator: !=  @ 517 @ 
+call  @ 487 @ call  @ 424 @ 
+call  @ 643 @ call  @ 589 @ 
+name: func  @ 446 @ name: func  @ 342 @ 
+type  @ 405 @ type  @ 297 @ 
+expr  @ 225 @ expr  @ 206 @ 
+expr  @ 313 @ expr  @ 467 @ 
+name: fsize  @ 440 @ name: p  @ 337 @ 
+expr  @ 481 @ expr  @ 413 @ 
+argument  @ 658 @ argument  @ 605 @ 
+parameter_list  @ 53 @ parameter_list  @ 53 @ 
+expr  @ 386 @ expr  @ 263 @ 
+name: StkId  @ 320 @ name: StkId  @ 276 @ 
+directive: include  @ 19 @ directive: include  @ 21 @ 
+name  @ 631 @ name  @ 578 @ 
+expr  @ 499 @ expr  @ 178 @ 
+block  @ 682 @ block  @ 631 @ 
+name: cl  @ 696 @ name: cl  @ 647 @ 
+decl  @ 691 @ decl  @ 642 @ 
+call  @ 615 @ call  @ 655 @ 
+argument_list  @ 437 @ argument_list  @ 328 @ 
+name: L  @ 660 @ name: L  @ 609 @ 
+name: nresults  @ 418 @ name: nresults  @ 310 @ 
+type  @ 676 @ type  @ 625 @ 
+modifier: *  @ 224 @ modifier: *  @ 205 @ 
+decl_stmt  @ 658 @ decl_stmt  @ 605 @ 
+block  @ 632 @ block  @ 580 @ 
+decl  @ 128 @ decl  @ 125 @ 
+name  @ 515 @ name  @ 454 @ 
+expr  @ 417 @ expr  @ 309 @ 
+expr  @ 544 @ expr  @ 488 @ 
+name: ci  @ 446 @ name: ci  @ 342 @ 
+expr_stmt  @ 120 @ expr_stmt  @ 117 @ 
+name: restorestack  @ 658 @ name: restorestack  @ 605 @ 
+operator: ->  @ 306 @ operator: ->  @ 586 @ 
+operator: .  @ 639 @ operator: .  @ 585 @ 
+operator: .  @ 638 @ operator: .  @ 584 @ 
+argument  @ 700 @ argument  @ 651 @ 
+call  @ 604 @ call  @ 551 @ 
+expr_stmt  @ 641 @ expr_stmt  @ 587 @ 
+name: arr  @ 712 @ name: arr  @ 668 @ 
+name  @ 97 @ name  @ 99 @ 
+function  @ 541 @ function  @ 485 @ 
+name: SParser  @ 673 @ name: SParser  @ 622 @ 
+name: ci  @ 373 @ name: ci  @ 376 @ 
+operator: .  @ 714 @ operator: .  @ 670 @ 
+expr  @ 81 @ expr  @ 87 @ 
+name: p  @ 695 @ name: p  @ 646 @ 
+name: raiseerror  @ 204 @ name: newsize  @ 184 @ 
+name: defined  @ 40 @ name: defined  @ 49 @ 
+name: top  @ 97 @ name: top  @ 99 @ 
+operator: ->  @ 608 @ operator: =  @ 559 @ 
+operator: =  @ 700 @ operator: =  @ 651 @ 
+expr  @ 466 @ expr  @ 211 @ 
+decl_stmt  @ 388 @ decl_stmt  @ 641 @ 
+name: L  @ 543 @ name: L  @ 487 @ 
+operator: ->  @ 97 @ operator: ->  @ 99 @ 
+specifier: static  @ 213 @ specifier: static  @ 194 @ 
+argument  @ 107 @ argument  @ 110 @ 
+operator: ->  @ 220 @ operator: ->  @ 201 @ 
+name  @ 266 @ name  @ 230 @ 
+name: L  @ 489 @ name: L  @ 426 @ 
+expr  @ 567 @ expr  @ 523 @ 
+name: LUA_YIELD  @ 631 @ name: LUA_YIELD  @ 578 @ 
+expr_stmt  @ 567 @ expr_stmt  @ 523 @ 
+comment: /* try again with metamethod */  @ 457 @ comment: /* now it must be a function */  @ 356 @ 
+comment: /* an error occurred? */  @ 657 @ comment: /* an error occurred? */  @ 604 @ 
+name: setobjs2s  @ 324 @ name: setobjs2s  @ 281 @ 
+expr  @ 599 @ expr  @ 549 @ 
+operator: .  @ 713 @ operator: .  @ 669 @ 
+define  @ 55 @ define  @ 56 @ 
+argument  @ 129 @ argument  @ 115 @ 
+name: lua_State  @ 614 @ name: lua_State  @ 408 @ 
+name: c  @ 564 @ name: c  @ 517 @ 
+name: int  @ 576 @ name: int  @ 535 @ 
+expr  @ 700 @ expr  @ 651 @ 
+name: ptrdiff_t  @ 253 @ name: ptrdiff_t  @ 222 @ 
+name: func  @ 455 @ name: func  @ 275 @ 
+expr  @ 308 @ expr  @ 369 @ 
+name: dyd  @ 712 @ name: dyd  @ 668 @ 
+expr  @ 321 @ expr  @ 278 @ 
+argument_list  @ 321 @ argument_list  @ 278 @ 
+expr  @ 716 @ expr  @ 672 @ 
+file: <string.h>  @ 11 @ file: <string.h>  @ 10 @ 
+expr_stmt  @ 267 @ expr_stmt  @ 231 @ 
+expr  @ 263 @ expr  @ 227 @ 
+parameter  @ 60 @ parameter  @ 60 @ 
+name: p  @ 712 @ name: p  @ 668 @ 
+argument  @ 271 @ argument  @ 235 @ 
+parameter_list  @ 145 @ parameter_list  @ 142 @ 
+block_content  @ 638 @ block_content  @ 584 @ 
+type  @ 72 @ type  @ 78 @ 
+operator: ->  @ 133 @ operator: ->  @ 129 @ 
+name: api_checknelems  @ 568 @ name: api_checknelems  @ 524 @ 
+name: line  @ 256 @ name: line  @ 225 @ 
+call  @ 170 @ call  @ 165 @ 
+name: c  @ 566 @ name: c  @ 522 @ 
+expr  @ 323 @ expr  @ 281 @ 
+name: int  @ 707 @ name: int  @ 662 @ 
+expr  @ 436 @ expr  @ 327 @ 
+type  @ 53 @ type  @ 53 @ 
+name: ci  @ 418 @ name: ci  @ 310 @ 
+operator: =  @ 446 @ operator: =  @ 342 @ 
+argument  @ 605 @ argument  @ 552 @ 
+name: L  @ 93 @ name: L  @ 95 @ 
+block_content  @ 562 @ block_content  @ 515 @ 
+expr  @ 530 @ expr  @ 579 @ 
+name: oldstack  @ 155 @ name: oldstack  @ 150 @ 
+name: i  @ 388 @ name: i  @ 641 @ 
+expr_stmt  @ 430 @ expr_stmt  @ 321 @ 
+operator: .  @ 133 @ operator: .  @ 129 @ 
+init  @ 692 @ init  @ 643 @ 
+type  @ 552 @ type  @ 497 @ 
+name  @ 116 @ name  @ 525 @ 
+expr  @ 624 @ expr  @ 571 @ 
+name: void  @ 464 @ name: void  @ 393 @ 
+operator: =  @ 714 @ operator: =  @ 670 @ 
+argument  @ 715 @ argument  @ 671 @ 
+name: LUA_API  @ 576 @ name: LUA_API  @ 535 @ 
+type  @ 384 @ type  @ 362 @ 
+operator: ->  @ 312 @ operator: ->  @ 372 @ 
+name  @ 423 @ name  @ 316 @ 
+expr  @ 468 @ expr  @ 401 @ 
+argument  @ 85 @ argument  @ 91 @ 
+argument_list  @ 581 @ argument_list  @ 504 @ 
+argument_list  @ 326 @ argument_list  @ 284 @ 
+name  @ 715 @ name  @ 671 @ 
+function  @ 404 @ function  @ 296 @ 
+control  @ 153 @ control  @ 148 @ 
+expr  @ 234 @ expr  @ 425 @ 
+condition  @ 423 @ condition  @ 316 @ 
+name: top  @ 325 @ name: restorestack  @ 283 @ 
+name: oldpc  @ 312 @ name: oldpc  @ 372 @ 
+argument  @ 468 @ argument  @ 401 @ 
+argument  @ 703 @ argument  @ 657 @ 
+block  @ 541 @ block  @ 485 @ 
+else  @ 594 @ else  @ 542 @ 
+expr_stmt  @ 308 @ expr_stmt  @ 369 @ 
+literal: 1  @ 425 @ literal: 1  @ 317 @ 
+expr_stmt  @ 275 @ expr_stmt  @ 239 @ 
+decl  @ 187 @ decl  @ 175 @ 
+decl  @ 387 @ decl  @ 259 @ 
+expr_stmt  @ 544 @ expr_stmt  @ 488 @ 
+comment: /* error code */  @ 74 @ comment: /* error code */  @ 80 @ 
+name: finishCcall  @ 502 @ name: restorestack  @ 370 @ 
+name  @ 602 @ name  @ 557 @ 
+decl  @ 675 @ decl  @ 624 @ 
+name  @ 483 @ name  @ 415 @ 
+literal: 1  @ 289 @ literal: 1  @ 252 @ 
+operator: -  @ 154 @ operator: -  @ 149 @ 
+condition  @ 591 @ condition  @ 394 @ 
+expr_stmt  @ 398 @ expr_stmt  @ 249 @ 
+name: top  @ 606 @ name: top  @ 553 @ 
+name: z  @ 711 @ name: z  @ 667 @ 
+operator: ->  @ 155 @ operator: ->  @ 150 @ 
+decl_stmt  @ 214 @ decl_stmt  @ 195 @ 
+name: L  @ 605 @ name: L  @ 552 @ 
+block  @ 205 @ block  @ 184 @ 
+expr  @ 684 @ expr  @ 634 @ 
+expr  @ 565 @ expr  @ 521 @ 
+operator: &&  @ 597 @ operator: &&  @ 547 @ 
+argument_list  @ 685 @ argument_list  @ 635 @ 
+decl  @ 187 @ decl  @ 175 @ 
+name  @ 181 @ name  @ 170 @ 
+expr  @ 323 @ expr  @ 281 @ 
+name: L  @ 248 @ name: L  @ 218 @ 
+expr  @ 695 @ expr  @ 646 @ 
+name: L  @ 116 @ name: L  @ 525 @ 
+parameter_list  @ 541 @ parameter_list  @ 485 @ 
+name: int  @ 424 @ name: luaC_checkGC  @ 315 @ 
+file: "ltm.h"  @ 27 @ file: "ltm.h"  @ 29 @ 
+expr_stmt  @ 664 @ expr_stmt  @ 611 @ 
+argument  @ 531 @ argument  @ 468 @ 
+name: wanted  @ 331 @ name: wanted  @ 364 @ 
+name: resume_error  @ 581 @ name: resume_error  @ 504 @ 
+comment: /* frame size */  @ 439 @ comment: /* complete missing arguments */  @ 331 @ 
+name: top  @ 240 @ name: top  @ 267 @ 
+type  @ 652 @ type  @ 598 @ 
+operator: ->  @ 532 @ operator: ->  @ 469 @ 
+expr  @ 696 @ expr  @ 647 @ 
+name  @ 422 @ name  @ 313 @ 
+parameter_list  @ 576 @ parameter_list  @ 535 @ 
+expr  @ 634 @ expr  @ 581 @ 
+name: lua_yieldk  @ 619 @ name: lua_yieldk  @ 567 @ 
+type  @ 61 @ type  @ 61 @ 
+argument  @ 716 @ argument  @ 672 @ 
+name: func  @ 155 @ name: func  @ 150 @ 
+decl  @ 553 @ decl  @ 498 @ 
+operator: (  @ 152 @ operator: (  @ 147 @ 
+if_stmt  @ 199 @ if_stmt  @ 183 @ 
+incr  @ 323 @ incr  @ 281 @ 
+name: stack  @ 178 @ name: stack  @ 166 @ 
+macro  @ 55 @ macro  @ 56 @ 
+file: "lzio.h"  @ 30 @ file: "lzio.h"  @ 32 @ 
+name: L  @ 468 @ name: L  @ 401 @ 
+if  @ 42 @ if  @ 51 @ 
+name: lua_resume  @ 576 @ name: lua_resume  @ 535 @ 
+expr  @ 231 @ expr  @ 213 @ 
+operator: =  @ 97 @ operator: =  @ 99 @ 
+name: LUA_OK  @ 594 @ name: LUA_OK  @ 542 @ 
+expr  @ 289 @ expr  @ 252 @ 
+argument_list  @ 478 @ argument_list  @ 411 @ 
+operator: =  @ 514 @ operator: =  @ 453 @ 
+argument  @ 274 @ argument  @ 238 @ 
+name: ci  @ 514 @ name: ci  @ 453 @ 
+argument_list  @ 440 @ argument_list  @ 337 @ 
+expr  @ 225 @ expr  @ 206 @ 
+block_content  @ 231 @ block_content  @ 213 @ 
+name: func  @ 464 @ name: func  @ 393 @ 
+specifier: static  @ 523 @ specifier: static  @ 461 @ 
+parameter  @ 496 @ parameter  @ 433 @ 
+type  @ 619 @ type  @ 567 @ 
+name: L  @ 533 @ name: L  @ 470 @ 
+name: nresults  @ 418 @ name: nresults  @ 310 @ 
+name: newsize  @ 209 @ name: newsize  @ 166 @ 
+expr  @ 593 @ expr  @ 539 @ 
+argument  @ 196 @ argument  @ 180 @ 
+call  @ 396 @ call  @ 198 @ 
+expr  @ 572 @ expr  @ 529 @ 
+operator: .  @ 719 @ operator: .  @ 675 @ 
+block_content  @ 482 @ block_content  @ 414 @ 
+name: Pfunc  @ 128 @ name: Pfunc  @ 125 @ 
+block_content  @ 467 @ block_content  @ 402 @ 
+parameter  @ 281 @ parameter  @ 244 @ 
+call  @ 715 @ call  @ 671 @ 
+argument_list  @ 311 @ argument_list  @ 247 @ 
+argument  @ 595 @ argument  @ 543 @ 
+name: L  @ 85 @ name: L  @ 91 @ 
+operator: ->  @ 560 @ operator: ->  @ 512 @ 
+operator: .  @ 566 @ operator: .  @ 522 @ 
+decl_stmt  @ 676 @ decl_stmt  @ 625 @ 
+literal: 1  @ 556 @ literal: 1  @ 506 @ 
+name: luaD_shrinkstack  @ 534 @ name: luaD_shrinkstack  @ 472 @ 
+name: L  @ 499 @ name: L  @ 178 @ 
+name: luaE_freeCI  @ 467 @ name: luaV_execute  @ 402 @ 
+expr  @ 240 @ expr  @ 267 @ 
+argument_list  @ 431 @ argument_list  @ 322 @ 
+expr_stmt  @ 720 @ expr_stmt  @ 676 @ 
+type  @ 464 @ type  @ 393 @ 
+name: void  @ 496 @ name: void  @ 433 @ 
+argument  @ 326 @ argument  @ 284 @ 
+expr  @ 205 @ expr  @ 186 @ 
+name: L  @ 627 @ name: L  @ 574 @ 
+expr  @ 151 @ expr  @ 146 @ 
+argument  @ 658 @ argument  @ 605 @ 
+decl  @ 145 @ decl  @ 142 @ 
+argument_list  @ 641 @ argument_list  @ 587 @ 
+type  @ 678 @ type  @ 627 @ 
+operator: .  @ 719 @ operator: .  @ 675 @ 
+decl  @ 576 @ decl  @ 535 @ 
+name  @ 104 @ name  @ 106 @ 
+name: StkId  @ 145 @ name: TValue  @ 142 @ 
+init  @ 215 @ init  @ 196 @ 
+name: ci  @ 652 @ name: ci  @ 598 @ 
+name: L  @ 342 @ name: L  @ 337 @ 
+type  @ 436 @ type  @ 327 @ 
+name: u  @ 288 @ name: u  @ 246 @ 
+argument  @ 641 @ argument  @ 587 @ 
+directive: define  @ 53 @ directive: define  @ 53 @ 
+name  @ 719 @ name  @ 675 @ 
+name: L  @ 609 @ name: L  @ 562 @ 
+block_content  @ 408 @ block_content  @ 302 @ 
+argument  @ 324 @ argument  @ 281 @ 
+operator: ->  @ 442 @ operator: ->  @ 341 @ 
+expr  @ 416 @ expr  @ 279 @ 
+call  @ 609 @ call  @ 562 @ 
+call  @ 177 @ call  @ 168 @ 
+name  @ 564 @ name  @ 517 @ 
+operator: ->  @ 396 @ operator: ->  @ 198 @ 
+name: LUA_MINSTACK  @ 420 @ name: LUA_MINSTACK  @ 312 @ 
+expr_stmt  @ 181 @ expr_stmt  @ 170 @ 
+name: defined  @ 42 @ name: defined  @ 51 @ 
+name: G  @ 129 @ name: G  @ 115 @ 
+decl  @ 650 @ decl  @ 596 @ 
+expr  @ 322 @ expr  @ 279 @ 
+argument  @ 624 @ argument  @ 571 @ 
+if_stmt  @ 217 @ if_stmt  @ 199 @ 
+condition  @ 191 @ condition  @ 397 @ 
+decl  @ 388 @ decl  @ 641 @ 
+argument  @ 469 @ argument  @ 282 @ 
+name: status  @ 109 @ name: status  @ 109 @ 
+value  @ 163 @ value  @ 158 @ 
+name: LUA_MULTRET  @ 556 @ name: LUA_MULTRET  @ 506 @ 
+expr  @ 662 @ expr  @ 510 @ 
+operator: ->  @ 102 @ operator: ->  @ 104 @ 
+name: L  @ 225 @ name: L  @ 206 @ 
+operator: .  @ 718 @ operator: .  @ 674 @ 
+name: n  @ 490 @ name: n  @ 427 @ 
+modifier: *  @ 513 @ modifier: *  @ 452 @ 
+argument  @ 615 @ argument  @ 655 @ 
+block_content  @ 191 @ block_content  @ 178 @ 
+name: status  @ 631 @ name: status  @ 578 @ 
+argument  @ 504 @ argument  @ 441 @ 
+argument  @ 322 @ argument  @ 279 @ 
+operator: =  @ 198 @ operator: =  @ 182 @ 
+argument_list  @ 487 @ argument_list  @ 424 @ 
+call  @ 225 @ call  @ 206 @ 
+init  @ 196 @ init  @ 180 @ 
+type  @ 167 @ type  @ 163 @ 
+argument_list  @ 234 @ argument_list  @ 425 @ 
+name: old_errfunc  @ 666 @ name: old_errfunc  @ 613 @ 
+name: ci  @ 217 @ name: ci  @ 199 @ 
+expr  @ 605 @ expr  @ 552 @ 
+decl_stmt  @ 651 @ decl_stmt  @ 597 @ 
+expr_stmt  @ 655 @ expr_stmt  @ 602 @ 
+parameter  @ 576 @ parameter  @ 535 @ 
+argument  @ 716 @ argument  @ 672 @ 
+name: LUAI_MAXSTACK  @ 190 @ name: LUAI_MAXSTACK  @ 177 @ 
+comment: /* save number of results */  @ 640 @ comment: /* protect stack below results */  @ 586 @ 
+name: oldtop  @ 524 @ name: oldtop  @ 462 @ 
+argument_list  @ 572 @ argument_list  @ 529 @ 
+expr  @ 270 @ expr  @ 234 @ 
+expr  @ 658 @ expr  @ 605 @ 
+expr  @ 42 @ expr  @ 51 @ 
+name: ci  @ 606 @ name: ci  @ 553 @ 
+expr  @ 361 @ expr  @ 266 @ 
+literal: 1  @ 308 @ literal: 1  @ 369 @ 
+argument  @ 273 @ argument  @ 237 @ 
+name  @ 93 @ name  @ 95 @ 
+if  @ 249 @ if  @ 219 @ 
+for  @ 514 @ for  @ 453 @ 
+name: event  @ 255 @ name: event  @ 224 @ 
+expr  @ 716 @ expr  @ 672 @ 
+expr  @ 685 @ expr  @ 635 @ 
+expr  @ 430 @ expr  @ 321 @ 
+operator: ->  @ 282 @ operator: ->  @ 420 @ 
+name: n  @ 430 @ name: n  @ 321 @ 
+modifier: *  @ 496 @ modifier: *  @ 433 @ 
+name: nupvalues  @ 702 @ name: nupvalues  @ 653 @ 
+name  @ 257 @ name  @ 226 @ 
+expr  @ 534 @ expr  @ 472 @ 
+comment: /* jump to it */  @ 104 @ comment: /* jump to it */  @ 106 @ 
+argument  @ 605 @ argument  @ 552 @ 
+name: LUA_CORE  @ 4 @ name: LUA_CORE  @ 13 @ 
+argument  @ 489 @ argument  @ 426 @ 
+block  @ 694 @ block  @ 645 @ 
+name  @ 720 @ name  @ 676 @ 
+operator: ->  @ 373 @ operator: ->  @ 376 @ 
+decl_stmt  @ 146 @ decl_stmt  @ 143 @ 
+name: func  @ 409 @ name: func  @ 303 @ 
+argument_list  @ 104 @ argument_list  @ 106 @ 
+operator: ->  @ 217 @ operator: ->  @ 199 @ 
+name: dyd  @ 718 @ name: dyd  @ 674 @ 
+block  @ 555 @ block  @ 502 @ 
+name: top  @ 608 @ name: top  @ 543 @ 
+operator: ->  @ 580 @ operator: ->  @ 436 @ 
+argument  @ 663 @ argument  @ 607 @ 
+call  @ 491 @ call  @ 429 @ 
+name: CIST_YPCALL  @ 481 @ name: CIST_YPCALL  @ 413 @ 
+argument  @ 605 @ argument  @ 552 @ 
+name: p  @ 386 @ name: p  @ 263 @ 
+expr  @ 634 @ expr  @ 581 @ 
+expr  @ 326 @ expr  @ 284 @ 
+name  @ 304 @ name  @ 367 @ 
+name: l  @ 443 @ name: l  @ 346 @ 
+name: L  @ 504 @ name: L  @ 441 @ 
+parameter  @ 650 @ parameter  @ 595 @ 
+name: L  @ 631 @ name: L  @ 578 @ 
+name: ERRORSTACKSIZE  @ 203 @ name: ERRORSTACKSIZE  @ 185 @ 
+name: L  @ 325 @ name: func  @ 283 @ 
+block  @ 597 @ block  @ 549 @ 
+operator: ->  @ 300 @ operator: ->  @ 330 @ 
+expr_stmt  @ 169 @ expr_stmt  @ 164 @ 
+expr  @ 429 @ expr  @ 320 @ 
+name: status  @ 594 @ name: status  @ 542 @ 
+directive: include  @ 28 @ directive: include  @ 30 @ 
+expr  @ 436 @ expr  @ 327 @ 
+name: allowhook  @ 533 @ name: allowhook  @ 470 @ 
+decl  @ 682 @ decl  @ 631 @ 
+expr  @ 239 @ expr  @ 540 @ 
+directive: define  @ 48 @ directive: define  @ 68 @ 
+expr  @ 456 @ expr  @ 355 @ 
+expr  @ 597 @ expr  @ 548 @ 
+expr_stmt  @ 326 @ expr_stmt  @ 284 @ 
+call  @ 605 @ call  @ 552 @ 
+call  @ 42 @ call  @ 51 @ 
+name: L  @ 404 @ name: L  @ 296 @ 
+operator: +  @ 150 @ operator: +  @ 145 @ 
+argument  @ 42 @ argument  @ 51 @ 
+modifier: *  @ 319 @ modifier: *  @ 275 @ 
+argument_list  @ 263 @ argument_list  @ 227 @ 
+name: L  @ 308 @ name: L  @ 369 @ 
+condition  @ 197 @ condition  @ 182 @ 
+name: previous  @ 153 @ name: previous  @ 148 @ 
+name: LUA_YIELD  @ 585 @ name: LUA_YIELD  @ 509 @ 
+name: label  @ 714 @ name: label  @ 670 @ 
+argument_list  @ 531 @ argument_list  @ 468 @ 
+argument_list  @ 696 @ argument_list  @ 647 @ 
+argument_list  @ 81 @ argument_list  @ 87 @ 
+name  @ 604 @ name  @ 551 @ 
+name: L  @ 251 @ name: L  @ 220 @ 
+argument_list  @ 663 @ argument_list  @ 607 @ 
+operator: ->  @ 116 @ operator: ->  @ 525 @ 
+operator: !=  @ 638 @ operator: !=  @ 584 @ 
+modifier: *  @ 678 @ modifier: *  @ 627 @ 
+block_content  @ 405 @ block_content  @ 297 @ 
+expr_stmt  @ 533 @ expr_stmt  @ 470 @ 
+expr  @ 249 @ expr  @ 219 @ 
+expr  @ 714 @ expr  @ 670 @ 
+name: goodsize  @ 231 @ name: goodsize  @ 213 @ 
+parameter  @ 576 @ parameter  @ 535 @ 
+name: void  @ 650 @ name: void  @ 595 @ 
+name: lua_assert  @ 602 @ name: lua_assert  @ 557 @ 
+operator: .  @ 566 @ operator: .  @ 522 @ 
+name: luaD_poscall  @ 431 @ name: luaD_poscall  @ 322 @ 
+name: ci  @ 417 @ name: ci  @ 309 @ 
+modifier: *  @ 146 @ modifier: *  @ 143 @ 
+call  @ 663 @ call  @ 607 @ 
+expr  @ 717 @ expr  @ 673 @ 
+directive: include  @ 20 @ directive: include  @ 22 @ 
+name: ci  @ 153 @ name: ci  @ 148 @ 
+call  @ 543 @ call  @ 487 @ 
+expr  @ 352 @ expr  @ 333 @ 
+name: top  @ 543 @ name: top  @ 487 @ 
+literal: "C stack overflow"  @ 592 @ literal: "C stack overflow"  @ 501 @ 
+expr  @ 634 @ expr  @ 581 @ 
+block  @ 198 @ block  @ 182 @ 
+call  @ 431 @ call  @ 322 @ 
+name: L  @ 555 @ name: L  @ 502 @ 
+name: L  @ 512 @ name: L  @ 451 @ 
+name: L  @ 391 @ name: L  @ 263 @ 
+expr  @ 256 @ expr  @ 225 @ 
+type  @ 707 @ type  @ 662 @ 
+name: n  @ 568 @ name: n  @ 524 @ 
+operator: ->  @ 436 @ operator: ->  @ 327 @ 
+operator: -  @ 155 @ operator: -  @ 150 @ 
+parameter  @ 318 @ parameter  @ 274 @ 
+parameter_list  @ 614 @ parameter_list  @ 408 @ 
+name: luaD_call  @ 468 @ name: luaD_precall  @ 401 @ 
+if_stmt  @ 197 @ if_stmt  @ 182 @ 
+name: luaG_runerror  @ 205 @ name: luaG_runerror  @ 186 @ 
+expr  @ 627 @ expr  @ 574 @ 
+name  @ 230 @ name  @ 210 @ 
+name: L  @ 553 @ name: L  @ 429 @ 
+expr  @ 570 @ expr  @ 527 @ 
+operator: ->  @ 154 @ operator: ->  @ 149 @ 
+comment: /* C closure */  @ 408 @ comment: /* light C function */  @ 302 @ 
+operator: =  @ 216 @ operator: =  @ 197 @ 
+call  @ 407 @ call  @ 301 @ 
+literal: "attempt to yield across a C-call boundary"  @ 627 @ literal: "attempt to yield across a C-call boundary"  @ 574 @ 
+name: p  @ 323 @ name: p  @ 281 @ 
+operator: ->  @ 535 @ operator: ->  @ 473 @ 
+type  @ 331 @ type  @ 257 @ 
+argument  @ 700 @ argument  @ 651 @ 
+type  @ 496 @ type  @ 433 @ 
+expr_stmt  @ 103 @ expr_stmt  @ 105 @ 
+argument  @ 416 @ argument  @ 279 @ 
+argument  @ 627 @ argument  @ 574 @ 
+expr  @ 585 @ expr  @ 509 @ 
+name: ci  @ 392 @ name: ci  @ 374 @ 
+argument  @ 703 @ argument  @ 657 @ 
+expr  @ 683 @ expr  @ 632 @ 
+argument_list  @ 273 @ argument_list  @ 237 @ 
+expr  @ 696 @ expr  @ 647 @ 
+name: G  @ 81 @ name: G  @ 87 @ 
+name: LUAI_TRY  @ 46 @ name: LUAI_TRY  @ 67 @ 
+expr_stmt  @ 205 @ expr_stmt  @ 186 @ 
+index  @ 683 @ index  @ 632 @ 
+name: top  @ 359 @ name: top  @ 145 @ 
+block_content  @ 225 @ block_content  @ 206 @ 
+name: previous  @ 136 @ name: previous  @ 134 @ 
+expr  @ 108 @ expr  @ 513 @ 
+name  @ 157 @ name  @ 152 @ 
+argument  @ 499 @ argument  @ 178 @ 
+operator: ->  @ 702 @ operator: ->  @ 653 @ 
+expr_stmt  @ 469 @ expr_stmt  @ 282 @ 
+expr  @ 572 @ expr  @ 529 @ 
+name: top  @ 420 @ name: top  @ 312 @ 
+name: previous  @ 514 @ name: previous  @ 453 @ 
+expr_stmt  @ 425 @ expr_stmt  @ 317 @ 
+expr  @ 702 @ expr  @ 653 @ 
+name  @ 422 @ name  @ 313 @ 
+name: L  @ 650 @ name: L  @ 595 @ 
+operator: ->  @ 500 @ operator: ->  @ 438 @ 
+expr  @ 531 @ expr  @ 468 @ 
+if_stmt  @ 526 @ if_stmt  @ 464 @ 
+expr_stmt  @ 180 @ expr_stmt  @ 169 @ 
+name: ci  @ 422 @ name: ci  @ 313 @ 
+name: oldstack  @ 152 @ name: oldstack  @ 147 @ 
+file: "ldebug.h"  @ 16 @ file: "ldebug.h"  @ 18 @ 
+if_stmt  @ 190 @ if_stmt  @ 177 @ 
+decl_stmt  @ 677 @ decl_stmt  @ 626 @ 
+name: n  @ 476 @ name: n  @ 410 @ 
+name: lj  @ 136 @ name: lj  @ 134 @ 
+expr  @ 192 @ expr  @ 398 @ 
+operator: =  @ 696 @ operator: =  @ 647 @ 
+type  @ 464 @ type  @ 393 @ 
+name: mode  @ 707 @ name: mode  @ 663 @ 
+expr  @ 710 @ expr  @ 442 @ 
+operator: =  @ 255 @ operator: =  @ 224 @ 
+expr  @ 324 @ expr  @ 281 @ 
+directive: include  @ 29 @ directive: include  @ 31 @ 
+name: nfixparams  @ 387 @ name: nfixargs  @ 259 @ 
+operator: ->  @ 693 @ operator: ->  @ 644 @ 
+operator: !  @ 625 @ operator: ->  @ 572 @ 
+name: L  @ 365 @ name: L  @ 265 @ 
+argument  @ 396 @ argument  @ 198 @ 
+type  @ 247 @ type  @ 217 @ 
+type  @ 551 @ type  @ 496 @ 
+expr_stmt  @ 373 @ expr_stmt  @ 376 @ 
+name: ci  @ 216 @ name: ci  @ 197 @ 
+directive: define  @ 55 @ directive: define  @ 56 @ 
+name: u  @ 566 @ name: u  @ 522 @ 
+control  @ 323 @ control  @ 281 @ 
+decl  @ 131 @ decl  @ 127 @ 
+block_content  @ 626 @ block_content  @ 573 @ 
+decl  @ 541 @ decl  @ 485 @ 
+condition  @ 580 @ condition  @ 503 @ 
+name: nResults  @ 468 @ name: nResults  @ 401 @ 
+expr  @ 487 @ expr  @ 424 @ 
+expr  @ 188 @ expr  @ 176 @ 
+name: L  @ 469 @ name: L  @ 282 @ 
+operator: ->  @ 312 @ operator: ->  @ 372 @ 
+argument  @ 152 @ argument  @ 147 @ 
+if  @ 204 @ if  @ 184 @ 
+argument  @ 716 @ argument  @ 672 @ 
+operator: ->  @ 134 @ operator: ->  @ 130 @ 
+expr_stmt  @ 621 @ expr_stmt  @ 569 @ 
+parameter  @ 464 @ parameter  @ 393 @ 
+comment: /* reuse preregistered msg. */  @ 81 @ comment: /* reuse preregistered msg. */  @ 87 @ 
+type  @ 707 @ type  @ 662 @ 
+operator: ->  @ 157 @ operator: ->  @ 152 @ 
+expr  @ 197 @ expr  @ 182 @ 
+type  @ 682 @ type  @ 631 @ 
+name  @ 311 @ name  @ 247 @ 
+name: errcode  @ 109 @ name: errcode  @ 109 @ 
+expr  @ 111 @ expr  @ 111 @ 
+name: p  @ 443 @ name: p  @ 346 @ 
+operator: =  @ 711 @ operator: =  @ 667 @ 
+expr  @ 658 @ expr  @ 605 @ 
+decl_stmt  @ 436 @ decl_stmt  @ 327 @ 
+name: cast_byte  @ 604 @ name: cast_byte  @ 551 @ 
+argument_list  @ 643 @ argument_list  @ 589 @ 
+argument  @ 664 @ argument  @ 611 @ 
+literal: "stack overflow"  @ 205 @ literal: "stack overflow"  @ 186 @ 
+name: L  @ 215 @ name: L  @ 196 @ 
+name: up  @ 151 @ name: up  @ 146 @ 
+name: restorestack  @ 352 @ name: restorestack  @ 333 @ 
+type  @ 145 @ type  @ 142 @ 
+operator: -  @ 608 @ operator: ==  @ 561 @ 
+name: lua_longjmp  @ 131 @ name: lua_longjmp  @ 127 @ 
+name: int  @ 523 @ name: int  @ 461 @ 
+decl_stmt  @ 253 @ decl_stmt  @ 222 @ 
+name: func  @ 392 @ name: func  @ 374 @ 
+name: gt  @ 719 @ name: gt  @ 675 @ 
+empty_stmt  @ 135 @ empty_stmt  @ 133 @ 
+name: L  @ 604 @ name: L  @ 551 @ 
+expr  @ 138 @ expr  @ 136 @ 
+decl  @ 677 @ decl  @ 626 @ 
+expr_stmt  @ 490 @ expr_stmt  @ 427 @ 
+argument  @ 416 @ argument  @ 308 @ 
+operator: +  @ 265 @ operator: +  @ 228 @ 
+name: errorJmp  @ 136 @ name: errorJmp  @ 134 @ 
+operator: >  @ 323 @ operator: >  @ 281 @ 
+name: size  @ 719 @ name: size  @ 675 @ 
+type  @ 294 @ type  @ 362 @ 
+expr_stmt  @ 595 @ expr_stmt  @ 543 @ 
+expr  @ 594 @ expr  @ 542 @ 
+expr_stmt  @ 200 @ expr_stmt  @ 183 @ 
+name: top  @ 217 @ name: top  @ 199 @ 
+name: lua_State  @ 541 @ name: lua_State  @ 485 @ 
+name: L  @ 281 @ name: L  @ 244 @ 
+operator: ++  @ 363 @ operator: ++  @ 266 @ 
+block  @ 187 @ block  @ 175 @ 
+operator: ->  @ 643 @ operator: ->  @ 589 @ 
+name: next_ci  @ 441 @ name: next_ci  @ 340 @ 
+name: stack  @ 220 @ name: stack  @ 201 @ 
+decl_stmt  @ 333 @ decl_stmt  @ 258 @ 
+name: L  @ 690 @ name: L  @ 640 @ 
+name: newstack  @ 177 @ name: stack  @ 168 @ 
+name: L  @ 716 @ name: L  @ 672 @ 
+operator: )  @ 594 @ operator: )  @ 542 @ 
+include  @ 28 @ include  @ 30 @ 
+name: size  @ 714 @ name: size  @ 670 @ 
+call  @ 220 @ call  @ 201 @ 
+expr  @ 629 @ expr  @ 576 @ 
+name  @ 312 @ name  @ 372 @ 
+literal: 0  @ 714 @ literal: 0  @ 670 @ 
+expr_stmt  @ 639 @ expr_stmt  @ 585 @ 
+expr  @ 203 @ expr  @ 185 @ 
+decl  @ 496 @ decl  @ 433 @ 
+argument  @ 716 @ argument  @ 672 @ 
+block_content  @ 324 @ block_content  @ 281 @ 
+name: func  @ 392 @ name: res  @ 374 @ 
+name: func  @ 440 @ name: func  @ 356 @ 
+expr  @ 692 @ expr  @ 643 @ 
+operator: ->  @ 137 @ operator: ->  @ 135 @ 
+name: nCcalls  @ 591 @ name: nCcalls  @ 394 @ 
+if_stmt  @ 638 @ if_stmt  @ 584 @ 
+name: buff  @ 675 @ name: buff  @ 624 @ 
+name: ZIO  @ 707 @ name: ZIO  @ 662 @ 
+expr  @ 625 @ expr  @ 439 @ 
+name: StkId  @ 658 @ name: StkId  @ 605 @ 
+argument  @ 111 @ argument  @ 111 @ 
+name: L  @ 523 @ name: L  @ 461 @ 
+argument  @ 595 @ argument  @ 543 @ 
+call  @ 716 @ call  @ 672 @ 
+name: x  @ 683 @ name: x  @ 632 @ 
+name: L  @ 269 @ name: L  @ 233 @ 
+call  @ 326 @ call  @ 284 @ 
+name: allowhook  @ 271 @ name: allowhook  @ 235 @ 
+name: LUA_YIELD  @ 502 @ name: fr  @ 370 @ 
+call  @ 502 @ call  @ 370 @ 
+name: newsize  @ 197 @ name: newsize  @ 182 @ 
+name: L  @ 129 @ name: L  @ 115 @ 
+if  @ 555 @ if  @ 506 @ 
+operator: ->  @ 659 @ operator: ->  @ 608 @ 
+expr  @ 181 @ expr  @ 170 @ 
+name: L  @ 384 @ name: L  @ 362 @ 
+name  @ 712 @ name  @ 668 @ 
+directive: include  @ 13 @ directive: include  @ 15 @ 
+name: L  @ 488 @ name: L  @ 283 @ 
+incr  @ 151 @ incr  @ 146 @ 
+block  @ 434 @ block  @ 325 @ 
+condition  @ 371 @ condition  @ 366 @ 
+argument  @ 268 @ argument  @ 232 @ 
+name: L  @ 581 @ name: L  @ 504 @ 
+name: adjustresults  @ 486 @ name: adjustresults  @ 418 @ 
+name: L  @ 644 @ name: L  @ 590 @ 
+name: L  @ 312 @ name: L  @ 372 @ 
+name: L  @ 119 @ name: L  @ 116 @ 
+operator: (  @ 608 @ operator: (  @ 561 @ 
+name: L  @ 234 @ name: L  @ 425 @ 
+expr_stmt  @ 560 @ expr_stmt  @ 512 @ 
+expr_stmt  @ 661 @ expr_stmt  @ 606 @ 
+name  @ 309 @ name  @ 513 @ 
+name: L  @ 543 @ name: L  @ 487 @ 
+modifier: *  @ 682 @ modifier: *  @ 631 @ 
+expr  @ 599 @ expr  @ 549 @ 
+operator: ->  @ 564 @ operator: ->  @ 517 @ 
+expr  @ 580 @ expr  @ 503 @ 
+name: ef  @ 650 @ name: ef  @ 596 @ 
+incr  @ 514 @ incr  @ 453 @ 
+name  @ 306 @ name  @ 586 @ 
+operator: .  @ 712 @ operator: .  @ 668 @ 
+name  @ 272 @ name  @ 236 @ 
+call  @ 451 @ call  @ 351 @ 
+expr  @ 190 @ expr  @ 177 @ 
+expr  @ 156 @ expr  @ 151 @ 
+argument  @ 561 @ argument  @ 514 @ 
+parameter  @ 690 @ parameter  @ 640 @ 
+expr  @ 451 @ expr  @ 351 @ 
+argument  @ 173 @ argument  @ 507 @ 
+name: NULL  @ 216 @ name: NULL  @ 197 @ 
+name: lua_State  @ 512 @ name: lua_State  @ 451 @ 
+name: u  @ 564 @ name: u  @ 517 @ 
+macro  @ 4 @ macro  @ 13 @ 
+operator: -  @ 111 @ operator: -  @ 111 @ 
+name  @ 442 @ name  @ 341 @ 
+name: p  @ 720 @ name: p  @ 676 @ 
+call  @ 107 @ call  @ 110 @ 
+name: NULL  @ 151 @ name: NULL  @ 146 @ 
+decl  @ 215 @ decl  @ 196 @ 
+decl  @ 78 @ decl  @ 84 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 427 @ expr  @ 318 @ 
+argument  @ 85 @ argument  @ 91 @ 
+name: L  @ 252 @ name: L  @ 221 @ 
+operator: =  @ 265 @ operator: =  @ 228 @ 
+expr_stmt  @ 696 @ expr_stmt  @ 647 @ 
+name: p  @ 696 @ name: p  @ 647 @ 
+name  @ 392 @ name  @ 374 @ 
+name: L  @ 707 @ name: L  @ 662 @ 
+argument_list  @ 525 @ argument_list  @ 463 @ 
+argument  @ 253 @ argument  @ 222 @ 
+expr  @ 324 @ expr  @ 281 @ 
+operator: ++  @ 449 @ operator: ++  @ 331 @ 
+for  @ 176 @ for  @ 167 @ 
+call  @ 720 @ call  @ 676 @ 
+name  @ 323 @ name  @ 281 @ 
+argument_list  @ 595 @ argument_list  @ 543 @ 
+operator: =  @ 714 @ operator: =  @ 670 @ 
+name: ar  @ 254 @ name: ar  @ 223 @ 
+type  @ 224 @ type  @ 205 @ 
+name: oldtop  @ 528 @ name: oldtop  @ 466 @ 
+operator: =  @ 181 @ operator: =  @ 170 @ 
+directive: define  @ 61 @ directive: define  @ 61 @ 
+operator: .  @ 712 @ operator: .  @ 668 @ 
+operator: -  @ 230 @ operator: ||  @ 209 @ 
+expr  @ 466 @ expr  @ 211 @ 
+expr  @ 627 @ expr  @ 574 @ 
+name: p  @ 711 @ name: p  @ 667 @ 
+expr  @ 469 @ expr  @ 282 @ 
+parameter  @ 61 @ parameter  @ 61 @ 
+expr_stmt  @ 322 @ expr_stmt  @ 279 @ 
+expr  @ 490 @ expr  @ 427 @ 
+operator: ->  @ 371 @ operator: ->  @ 366 @ 
+call  @ 486 @ call  @ 418 @ 
+expr  @ 389 @ expr  @ 654 @ 
+operator: -  @ 556 @ operator: -  @ 506 @ 
+expr  @ 565 @ expr  @ 521 @ 
+init  @ 552 @ init  @ 497 @ 
+parameter  @ 650 @ parameter  @ 595 @ 
+operator: ->  @ 365 @ operator: ->  @ 265 @ 
+expr  @ 664 @ expr  @ 611 @ 
+name: p  @ 436 @ name: p  @ 327 @ 
+comment: /* was inside a pcall? */  @ 481 @ comment: /* was inside a pcall? */  @ 413 @ 
+name: LUA_MINSTACK  @ 416 @ name: LUA_MINSTACK  @ 308 @ 
+argument  @ 112 @ argument  @ 112 @ 
+name  @ 150 @ name  @ 264 @ 
+expr  @ 416 @ expr  @ 308 @ 
+modifier: *  @ 652 @ modifier: *  @ 598 @ 
+name: char  @ 707 @ name: char  @ 662 @ 
+name: nargs  @ 581 @ name: firstArg  @ 504 @ 
+expr  @ 535 @ expr  @ 473 @ 
+name: nresults  @ 624 @ name: nresults  @ 571 @ 
+expr  @ 716 @ expr  @ 672 @ 
+call  @ 664 @ call  @ 611 @ 
+expr  @ 425 @ expr  @ 317 @ 
+decl_stmt  @ 525 @ decl_stmt  @ 463 @ 
+block  @ 152 @ block  @ 147 @ 
+expr  @ 702 @ expr  @ 653 @ 
+expr  @ 487 @ expr  @ 424 @ 
+argument_list  @ 422 @ argument_list  @ 313 @ 
+name  @ 652 @ name  @ 598 @ 
+directive: endif  @ 66 @ directive: endif  @ 70 @ 
+call  @ 429 @ call  @ 320 @ 
+operator: ->  @ 626 @ operator: ->  @ 573 @ 
+type  @ 331 @ type  @ 363 @ 
+expr_stmt  @ 85 @ expr_stmt  @ 91 @ 
+expr  @ 271 @ expr  @ 235 @ 
+operator: ->  @ 695 @ operator: ->  @ 646 @ 
+argument_list  @ 716 @ argument_list  @ 672 @ 
+parameter_list  @ 682 @ parameter_list  @ 631 @ 
+name: oldtop  @ 81 @ name: oldtop  @ 87 @ 
+expr_stmt  @ 288 @ expr_stmt  @ 246 @ 
+decl  @ 225 @ decl  @ 206 @ 
+operator: -  @ 425 @ operator: -  @ 317 @ 
+name: LUA_HOOKCALL  @ 425 @ name: LUA_HOOKCALL  @ 317 @ 
+name: findpcall  @ 512 @ name: findpcall  @ 451 @ 
+include  @ 15 @ include  @ 17 @ 
+name: oldtop  @ 97 @ name: oldtop  @ 99 @ 
+argument  @ 269 @ argument  @ 233 @ 
+name: cast_int  @ 608 @ name: lua_assert  @ 561 @ 
+argument  @ 622 @ argument  @ 570 @ 
+expr  @ 581 @ expr  @ 504 @ 
+decl_stmt  @ 196 @ decl_stmt  @ 180 @ 
+block  @ 512 @ block  @ 451 @ 
+name: LUA_MASKRET  @ 304 @ name: LUA_MASKRET  @ 367 @ 
+argument_list  @ 480 @ argument_list  @ 412 @ 
+argument_list  @ 428 @ argument_list  @ 319 @ 
+parameter  @ 464 @ parameter  @ 393 @ 
+name  @ 133 @ name  @ 129 @ 
+operator: >  @ 190 @ operator: >  @ 177 @ 
+argument_list  @ 42 @ argument_list  @ 51 @ 
+name: func  @ 306 @ name: func  @ 586 @ 
+parameter_list  @ 224 @ parameter_list  @ 205 @ 
+name: int  @ 188 @ name: int  @ 176 @ 
+name: needed  @ 199 @ name: needed  @ 183 @ 
+expr_stmt  @ 702 @ expr_stmt  @ 653 @ 
+name: luaG_runerror  @ 629 @ name: luaG_runerror  @ 576 @ 
+expr  @ 408 @ expr  @ 302 @ 
+block_content  @ 146 @ block_content  @ 143 @ 
+call  @ 478 @ call  @ 411 @ 
+modifier: *  @ 650 @ modifier: *  @ 595 @ 
+expr_stmt  @ 443 @ expr_stmt  @ 346 @ 
+if  @ 199 @ if  @ 183 @ 
+call  @ 85 @ call  @ 91 @ 
+name: ci  @ 561 @ name: ci  @ 514 @ 
+expr_stmt  @ 325 @ expr_stmt  @ 283 @ 
+call  @ 597 @ call  @ 548 @ 
+name: p  @ 693 @ name: p  @ 644 @ 
+call  @ 40 @ call  @ 49 @ 
+call  @ 703 @ call  @ 657 @ 
+parameter_list  @ 281 @ parameter_list  @ 244 @ 
+decl_stmt  @ 320 @ decl_stmt  @ 276 @ 
+expr_stmt  @ 532 @ expr_stmt  @ 469 @ 
+operator: =  @ 103 @ operator: =  @ 105 @ 
+expr  @ 398 @ expr  @ 249 @ 
+name: BASIC_STACK_SIZE  @ 226 @ name: EXTRA_STACK  @ 207 @ 
+comment: /* return to 'luaD_hook' */  @ 645 @ comment: /* return to 'luaD_hook' */  @ 591 @ 
+name: L  @ 483 @ name: L  @ 415 @ 
+parameter  @ 541 @ parameter  @ 485 @ 
+function  @ 512 @ function  @ 451 @ 
+name  @ 255 @ name  @ 224 @ 
+argument_list  @ 566 @ argument_list  @ 522 @ 
+operator: ->  @ 602 @ operator: ->  @ 557 @ 
+expr  @ 434 @ expr  @ 325 @ 
+argument  @ 263 @ argument  @ 227 @ 
+argument  @ 427 @ argument  @ 318 @ 
+name: s2v  @ 412 @ name: clCvalue  @ 306 @ 
+expr  @ 716 @ expr  @ 672 @ 
+expr  @ 319 @ expr  @ 275 @ 
+block_content  @ 449 @ block_content  @ 331 @ 
+name: status  @ 132 @ name: status  @ 128 @ 
+name: setnilvalue  @ 177 @ name: setnilvalue  @ 168 @ 
+argument  @ 565 @ argument  @ 521 @ 
+expr_stmt  @ 714 @ expr_stmt  @ 670 @ 
+macro  @ 62 @ macro  @ 62 @ 
+argument  @ 621 @ argument  @ 569 @ 
+name: x  @ 682 @ name: x  @ 631 @ 
+name: lua_State  @ 464 @ name: lua_State  @ 393 @ 
+name: newsize  @ 198 @ name: newsize  @ 182 @ 
+argument_list  @ 720 @ argument_list  @ 676 @ 
+expr_stmt  @ 713 @ expr_stmt  @ 669 @ 
+argument  @ 324 @ argument  @ 281 @ 
+name: lua_assert  @ 450 @ name: lua_assert  @ 345 @ 
+expr  @ 322 @ expr  @ 279 @ 
+expr  @ 579 @ expr  @ 537 @ 
+call  @ 93 @ call  @ 95 @ 
+argument  @ 656 @ argument  @ 603 @ 
+decl  @ 682 @ decl  @ 631 @ 
+call  @ 545 @ call  @ 489 @ 
+type  @ 254 @ type  @ 223 @ 
+decl_stmt  @ 405 @ decl_stmt  @ 297 @ 
+argument_list  @ 597 @ argument_list  @ 548 @ 
+name  @ 154 @ name  @ 149 @ 
+name: LUAI_MAXSTACK  @ 201 @ name: LUAI_MAXSTACK  @ 184 @ 
+expr  @ 248 @ expr  @ 218 @ 
+operator: .  @ 478 @ operator: .  @ 411 @ 
+argument_list  @ 695 @ argument_list  @ 646 @ 
+operator: =  @ 150 @ operator: =  @ 145 @ 
+parameter  @ 619 @ parameter  @ 567 @ 
+name: ci  @ 435 @ name: ci  @ 298 @ 
+argument  @ 234 @ argument  @ 425 @ 
+operator: &  @ 700 @ operator: &  @ 651 @ 
+expr  @ 693 @ expr  @ 644 @ 
+init  @ 323 @ init  @ 281 @ 
+name  @ 449 @ name  @ 331 @ 
+name  @ 481 @ name  @ 413 @ 
+block_content  @ 515 @ block_content  @ 454 @ 
+argument  @ 81 @ argument  @ 87 @ 
+expr_stmt  @ 504 @ expr_stmt  @ 441 @ 
+argument  @ 431 @ argument  @ 322 @ 
+file: "lvm.h"  @ 29 @ file: "lvm.h"  @ 31 @ 
+name: lua_State  @ 145 @ name: lua_State  @ 142 @ 
+name: L  @ 478 @ name: L  @ 515 @ 
+parameter_list  @ 61 @ parameter_list  @ 61 @ 
+expr  @ 274 @ expr  @ 238 @ 
+type  @ 654 @ type  @ 601 @ 
+operator: ->  @ 312 @ operator: ->  @ 372 @ 
+argument  @ 702 @ argument  @ 653 @ 
+expr_stmt  @ 289 @ expr_stmt  @ 252 @ 
+name: p  @ 716 @ name: p  @ 672 @ 
+name  @ 692 @ name  @ 643 @ 
+comment: /* is there a continuation? */  @ 638 @ comment: /* is there a continuation? */  @ 584 @ 
+name  @ 712 @ name  @ 668 @ 
+name  @ 180 @ name  @ 169 @ 
+expr  @ 716 @ expr  @ 672 @ 
+expr  @ 514 @ expr  @ 453 @ 
+expr_stmt  @ 178 @ expr_stmt  @ 166 @ 
+name: p  @ 708 @ name: p  @ 664 @ 
+decl  @ 128 @ decl  @ 125 @ 
+name  @ 265 @ name  @ 228 @ 
+name: stack_last  @ 396 @ name: stack_last  @ 198 @ 
+name: L  @ 629 @ name: L  @ 576 @ 
+name: int  @ 576 @ name: int  @ 535 @ 
+operator: ->  @ 666 @ operator: ->  @ 613 @ 
+name: StkId  @ 331 @ name: StkId  @ 363 @ 
+operator: .  @ 714 @ operator: .  @ 670 @ 
+argument  @ 352 @ argument  @ 333 @ 
+call  @ 490 @ call  @ 427 @ 
+operator: .  @ 138 @ operator: .  @ 136 @ 
+include  @ 27 @ include  @ 29 @ 
+block_content  @ 322 @ block_content  @ 279 @ 
+name  @ 299 @ name  @ 332 @ 
+call  @ 152 @ call  @ 147 @ 
+expr  @ 555 @ expr  @ 502 @ 
+argument  @ 490 @ argument  @ 427 @ 
+expr  @ 638 @ expr  @ 584 @ 
+argument  @ 169 @ argument  @ 164 @ 
+call  @ 273 @ call  @ 237 @ 
+operator: ->  @ 153 @ operator: ->  @ 148 @ 
+name: i  @ 333 @ name: i  @ 258 @ 
+call  @ 449 @ call  @ 331 @ 
+operator: ->  @ 111 @ operator: ->  @ 111 @ 
+parameter  @ 551 @ parameter  @ 496 @ 
+operator: =  @ 266 @ operator: =  @ 230 @ 
+argument_list  @ 468 @ argument_list  @ 401 @ 
+name: newsize  @ 169 @ name: newsize  @ 164 @ 
+name: L  @ 145 @ name: L  @ 142 @ 
+parameter_list  @ 512 @ parameter_list  @ 451 @ 
+decl  @ 283 @ decl  @ 257 @ 
+argument_list  @ 451 @ argument_list  @ 351 @ 
+then  @ 594 @ then  @ 542 @ 
+if_stmt  @ 632 @ if_stmt  @ 580 @ 
+argument  @ 308 @ argument  @ 369 @ 
+name: stackinuse  @ 213 @ name: stackinuse  @ 194 @ 
+name: struct  @ 708 @ name: struct  @ 664 @ 
+expr  @ 81 @ expr  @ 87 @ 
+operator: -  @ 150 @ operator: -  @ 145 @ 
+block_content  @ 627 @ block_content  @ 574 @ 
+argument  @ 351 @ argument  @ 338 @ 
+operator: )  @ 154 @ operator: )  @ 149 @ 
+argument_list  @ 656 @ argument_list  @ 603 @ 
+operator: ->  @ 443 @ operator: ->  @ 346 @ 
+expr  @ 323 @ expr  @ 281 @ 
+expr  @ 289 @ expr  @ 252 @ 
+call  @ 467 @ call  @ 402 @ 
+expr  @ 116 @ expr  @ 525 @ 
+define  @ 163 @ define  @ 158 @ 
+name: int  @ 296 @ name: int  @ 207 @ 
+expr  @ 632 @ expr  @ 580 @ 
+if_stmt  @ 657 @ if_stmt  @ 604 @ 
+call  @ 658 @ call  @ 605 @ 
+name: ci  @ 157 @ name: ci  @ 152 @ 
+name  @ 167 @ name  @ 163 @ 
+name: luaD_hook  @ 425 @ name: luaD_hook  @ 317 @ 
+value  @ 54 @ value  @ 55 @ 
+expr_stmt  @ 119 @ expr_stmt  @ 116 @ 
+name: firstresult  @ 332 @ name: base  @ 326 @ 
+name: hookmask  @ 423 @ name: hookmask  @ 316 @ 
+operator: -  @ 170 @ operator: -  @ 165 @ 
+expr_stmt  @ 256 @ expr_stmt  @ 225 @ 
+name: lua_assert  @ 271 @ name: lua_assert  @ 235 @ 
+name: lua_State  @ 551 @ name: lua_State  @ 496 @ 
+else  @ 603 @ else  @ 550 @ 
+name  @ 696 @ name  @ 647 @ 
+name: savedpc  @ 288 @ name: savedpc  @ 246 @ 
+for  @ 216 @ for  @ 197 @ 
+name: L  @ 440 @ name: L  @ 311 @ 
+else  @ 57 @ else  @ 64 @ 
+expr  @ 336 @ expr  @ 382 @ 
+decl  @ 72 @ decl  @ 78 @ 
+expr  @ 416 @ expr  @ 329 @ 
+call  @ 311 @ call  @ 247 @ 
+decl  @ 189 @ decl  @ 181 @ 
+operator: &=  @ 482 @ operator: &=  @ 414 @ 
+type  @ 650 @ type  @ 595 @ 
+operator: .  @ 157 @ operator: .  @ 152 @ 
+if  @ 632 @ if  @ 580 @ 
+name: luaD_protectedparser  @ 707 @ name: luaD_protectedparser  @ 662 @ 
+expr  @ 351 @ expr  @ 338 @ 
+name: goodsize  @ 227 @ name: goodsize  @ 208 @ 
+expr  @ 178 @ expr  @ 166 @ 
+call  @ 120 @ call  @ 117 @ 
+name: top  @ 336 @ name: top  @ 382 @ 
+name: z  @ 693 @ name: z  @ 644 @ 
+argument  @ 718 @ argument  @ 674 @ 
+name  @ 154 @ name  @ 149 @ 
+expr  @ 120 @ expr  @ 117 @ 
+operator: <  @ 230 @ operator: >=  @ 210 @ 
+operator: .  @ 488 @ operator: .  @ 425 @ 
+type  @ 388 @ type  @ 641 @ 
+name: NULL  @ 514 @ name: NULL  @ 453 @ 
+modifier: *  @ 707 @ modifier: *  @ 663 @ 
+name: previous  @ 312 @ name: previous  @ 372 @ 
+name: ci  @ 450 @ name: ci  @ 345 @ 
+block_content  @ 177 @ block_content  @ 168 @ 
+else  @ 698 @ else  @ 649 @ 
+name: old_ci  @ 652 @ name: old_ci  @ 598 @ 
+name: lj  @ 133 @ name: lj  @ 129 @ 
+block  @ 467 @ block  @ 402 @ 
+operator: ->  @ 446 @ operator: ->  @ 342 @ 
+expr_stmt  @ 467 @ expr_stmt  @ 402 @ 
+call  @ 480 @ call  @ 412 @ 
+operator: ->  @ 699 @ operator: ->  @ 650 @ 
+name  @ 131 @ name  @ 127 @ 
+argument  @ 719 @ argument  @ 675 @ 
+if  @ 40 @ if  @ 49 @ 
+name: zgetc  @ 693 @ name: zgetc  @ 644 @ 
+name: struct  @ 131 @ name: struct  @ 127 @ 
+name  @ 696 @ name  @ 647 @ 
+name: mode  @ 711 @ name: mode  @ 667 @ 
+type  @ 524 @ type  @ 462 @ 
+parameter_list  @ 551 @ parameter_list  @ 496 @ 
+argument  @ 586 @ argument  @ 510 @ 
+decl  @ 404 @ decl  @ 296 @ 
+name: cast_int  @ 437 @ name: cast_int  @ 328 @ 
+expr  @ 133 @ expr  @ 129 @ 
+call  @ 289 @ call  @ 252 @ 
+name  @ 439 @ name  @ 329 @ 
+name  @ 133 @ name  @ 129 @ 
+operator: =  @ 656 @ operator: =  @ 603 @ 
+call  @ 622 @ call  @ 570 @ 
+name: newsize  @ 176 @ name: newsize  @ 167 @ 
+decl  @ 652 @ decl  @ 598 @ 
+value  @ 60 @ value  @ 60 @ 
+condition  @ 555 @ condition  @ 502 @ 
+operator: ->  @ 196 @ operator: ->  @ 180 @ 
+operator: *  @ 552 @ operator: ->  @ 497 @ 
+directive: define  @ 62 @ directive: define  @ 62 @ 
+expr  @ 273 @ expr  @ 237 @ 
+name: L  @ 655 @ name: L  @ 602 @ 
+name: allowhook  @ 266 @ name: allowhook  @ 230 @ 
+value  @ 53 @ value  @ 53 @ 
+name: callstatus  @ 480 @ name: callstatus  @ 423 @ 
+init  @ 350 @ init  @ 368 @ 
+name  @ 653 @ name  @ 599 @ 
+name: ci_top  @ 253 @ name: ci_top  @ 222 @ 
+expr  @ 700 @ expr  @ 651 @ 
+expr_stmt  @ 416 @ expr_stmt  @ 308 @ 
+argument_list  @ 220 @ argument_list  @ 201 @ 
+operator: ->  @ 252 @ operator: ->  @ 221 @ 
+comment: /* cannot call hooks inside a hook */  @ 266 @ comment: /* cannot call hooks inside a hook */  @ 230 @ 
+operator: !=  @ 514 @ operator: !=  @ 453 @ 
+name: luaD_reallocstack  @ 203 @ name: luaD_reallocstack  @ 185 @ 
+operator: .  @ 714 @ operator: .  @ 670 @ 
+expr_stmt  @ 270 @ expr_stmt  @ 234 @ 
+expr  @ 253 @ expr  @ 222 @ 
+else  @ 558 @ else  @ 511 @ 
+argument  @ 656 @ argument  @ 603 @ 
+operator: )  @ 638 @ operator: )  @ 584 @ 
+argument_list  @ 683 @ argument_list  @ 632 @ 
+name: luaD_shrinkstack  @ 664 @ name: luaD_shrinkstack  @ 611 @ 
+name: errorJmp  @ 103 @ name: errorJmp  @ 105 @ 
+name: n  @ 428 @ name: n  @ 319 @ 
+name: stack_last  @ 181 @ name: stack_last  @ 170 @ 
+argument  @ 662 @ argument  @ 510 @ 
+operator: ->  @ 608 @ operator: )  @ 561 @ 
+expr  @ 321 @ expr  @ 278 @ 
+name: checkstackGCp  @ 416 @ name: luaD_checkstack  @ 308 @ 
+expr_stmt  @ 272 @ expr_stmt  @ 236 @ 
+name: top  @ 365 @ name: top  @ 265 @ 
+name: ud  @ 128 @ name: ud  @ 125 @ 
+name: dyd  @ 720 @ name: dyd  @ 676 @ 
+name: L  @ 556 @ name: L  @ 506 @ 
+expr  @ 362 @ expr  @ 379 @ 
+operator: ->  @ 373 @ operator: ->  @ 376 @ 
+expr  @ 411 @ expr  @ 305 @ 
+name: p  @ 702 @ name: p  @ 653 @ 
+name: L  @ 588 @ name: L  @ 395 @ 
+name: L  @ 249 @ name: L  @ 219 @ 
+parameter  @ 247 @ parameter  @ 217 @ 
+directive: include  @ 25 @ directive: include  @ 27 @ 
+expr  @ 450 @ expr  @ 345 @ 
+specifier: const  @ 682 @ specifier: const  @ 631 @ 
+expr  @ 568 @ expr  @ 524 @ 
+type  @ 247 @ type  @ 217 @ 
+call  @ 205 @ call  @ 186 @ 
+for  @ 153 @ for  @ 148 @ 
+operator: !=  @ 151 @ operator: !=  @ 146 @ 
+file: "lua.h"  @ 13 @ file: "lua.h"  @ 15 @ 
+argument_list  @ 486 @ argument_list  @ 418 @ 
+expr  @ 169 @ expr  @ 164 @ 
+name: ptrdiff_t  @ 650 @ name: ptrdiff_t  @ 596 @ 
+if  @ 526 @ if  @ 464 @ 
+name: lua_unlock  @ 268 @ name: lua_unlock  @ 232 @ 
+type  @ 691 @ type  @ 642 @ 
+argument  @ 135 @ argument  @ 131 @ 
+name: lua_State  @ 318 @ name: lua_State  @ 274 @ 
+call  @ 209 @ call  @ 189 @ 
+name: L  @ 137 @ name: L  @ 135 @ 
+name: func  @ 456 @ name: func  @ 355 @ 
+name: void  @ 551 @ name: void  @ 496 @ 
+argument  @ 597 @ argument  @ 548 @ 
+call  @ 409 @ call  @ 303 @ 
+name: setsvalue2s  @ 81 @ name: setsvalue2s  @ 87 @ 
+operator: ->  @ 528 @ operator: ->  @ 466 @ 
+decl  @ 541 @ decl  @ 485 @ 
+expr_stmt  @ 624 @ expr_stmt  @ 571 @ 
+expr  @ 486 @ expr  @ 418 @ 
+name: void  @ 690 @ name: void  @ 640 @ 
+expr  @ 486 @ expr  @ 418 @ 
+specifier: static  @ 496 @ specifier: static  @ 433 @ 
+literal: 0  @ 231 @ literal: 0  @ 561 @ 
+name  @ 542 @ name  @ 486 @ 
+name: savedpc  @ 443 @ name: savedpc  @ 346 @ 
+block_content  @ 200 @ block_content  @ 183 @ 
+argument  @ 178 @ argument  @ 166 @ 
+name: nyield  @ 608 @ name: nCcalls  @ 560 @ 
+decl_stmt  @ 254 @ decl_stmt  @ 223 @ 
+expr_stmt  @ 257 @ expr_stmt  @ 226 @ 
+name: mode  @ 683 @ name: mode  @ 632 @ 
+operator: =  @ 152 @ operator: =  @ 147 @ 
+name: newsize  @ 169 @ name: newsize  @ 164 @ 
+name: LUAI_THROW  @ 60 @ name: LUAI_THROW  @ 60 @ 
+name  @ 554 @ name  @ 499 @ 
+name: ud  @ 552 @ name: ud  @ 498 @ 
+name: mask  @ 275 @ name: CIST_HOOKED  @ 239 @ 
+decl_stmt  @ 73 @ decl_stmt  @ 79 @ 
+block_content  @ 196 @ block_content  @ 180 @ 
+if  @ 580 @ if  @ 503 @ 
+operator: .  @ 312 @ operator: .  @ 372 @ 
+name: mode  @ 684 @ name: mode  @ 634 @ 
+call  @ 525 @ call  @ 463 @ 
+operator: ->  @ 170 @ operator: ->  @ 165 @ 
+expr  @ 711 @ expr  @ 667 @ 
+argument_list  @ 605 @ argument_list  @ 552 @ 
+expr  @ 350 @ expr  @ 368 @ 
+name: buff  @ 715 @ name: buff  @ 671 @ 
+name: CIST_HOOKED  @ 643 @ name: CIST_HOOKED  @ 589 @ 
+name: lua_State  @ 576 @ name: lua_State  @ 535 @ 
+operator: ->  @ 249 @ operator: ->  @ 219 @ 
+block_content  @ 633 @ block_content  @ 581 @ 
+decl  @ 254 @ decl  @ 223 @ 
+expr_stmt  @ 593 @ expr_stmt  @ 539 @ 
+expr_stmt  @ 711 @ expr_stmt  @ 667 @ 
+operator: ->  @ 151 @ operator: ->  @ 146 @ 
+decl  @ 331 @ decl  @ 363 @ 
+operator: ->  @ 514 @ operator: ->  @ 453 @ 
+name: k  @ 619 @ name: k  @ 567 @ 
+name: int  @ 577 @ name: int  @ 536 @ 
+name: Proto  @ 283 @ name: Proto  @ 257 @ 
+name: LUAI_TRY  @ 135 @ name: LUAI_TRY  @ 131 @ 
+argument  @ 721 @ argument  @ 349 @ 
+name  @ 486 @ name  @ 418 @ 
+block  @ 84 @ block  @ 90 @ 
+argument  @ 699 @ argument  @ 650 @ 
+name: i  @ 361 @ name: i  @ 654 @ 
+operator: =  @ 154 @ operator: =  @ 149 @ 
+argument_list  @ 178 @ argument_list  @ 166 @ 
+name: L  @ 544 @ name: L  @ 488 @ 
+name: nresults  @ 640 @ name: nresults  @ 586 @ 
+expr  @ 81 @ expr  @ 87 @ 
+name: status  @ 138 @ name: status  @ 136 @ 
+operator: ->  @ 579 @ operator: ->  @ 537 @ 
+expr  @ 273 @ expr  @ 237 @ 
+modifier: *  @ 269 @ modifier: *  @ 233 @ 
+name: CallInfo  @ 146 @ name: CallInfo  @ 143 @ 
+expr  @ 534 @ expr  @ 472 @ 
+argument  @ 487 @ argument  @ 424 @ 
+block_content  @ 695 @ block_content  @ 646 @ 
+expr_stmt  @ 562 @ expr_stmt  @ 515 @ 
+name: func  @ 404 @ name: func  @ 296 @ 
+name: ctx  @ 639 @ name: ctx  @ 585 @ 
+operator: ->  @ 608 @ operator: ->  @ 559 @ 
+decl  @ 619 @ decl  @ 567 @ 
+if  @ 657 @ if  @ 604 @ 
+expr  @ 81 @ expr  @ 87 @ 
+decl_stmt  @ 513 @ decl_stmt  @ 452 @ 
+type  @ 576 @ type  @ 535 @ 
+name: int  @ 384 @ name: int  @ 393 @ 
+macro  @ 48 @ macro  @ 68 @ 
+operator: ->  @ 272 @ operator: ->  @ 236 @ 
+name: L  @ 247 @ name: L  @ 217 @ 
+name: L  @ 213 @ name: L  @ 194 @ 
+name: p  @ 711 @ name: p  @ 667 @ 
+argument  @ 491 @ argument  @ 429 @ 
+expr_stmt  @ 255 @ expr_stmt  @ 224 @ 
+name: luaM_freearray  @ 720 @ name: luaM_freearray  @ 676 @ 
+condition  @ 217 @ condition  @ 199 @ 
+operator: =  @ 151 @ operator: =  @ 146 @ 
+argument_list  @ 594 @ argument_list  @ 542 @ 
+name: int  @ 101 @ name: int  @ 103 @ 
+call  @ 568 @ call  @ 524 @ 
+block_content  @ 79 @ block_content  @ 85 @ 
+type  @ 350 @ type  @ 368 @ 
+operator: ==  @ 169 @ operator: ==  @ 164 @ 
+if  @ 564 @ if  @ 517 @ 
+name: status  @ 577 @ name: status  @ 536 @ 
+block  @ 173 @ block  @ 507 @ 
+name: L  @ 60 @ name: L  @ 60 @ 
+operator: +  @ 177 @ operator: +  @ 168 @ 
+expr  @ 387 @ expr  @ 259 @ 
+name: cl  @ 691 @ name: cl  @ 642 @ 
+expr  @ 174 @ expr  @ 352 @ 
+name: L  @ 188 @ name: L  @ 176 @ 
+name: void  @ 551 @ name: void  @ 496 @ 
+name: void  @ 474 @ name: void  @ 408 @ 
+operator: ->  @ 181 @ operator: ->  @ 170 @ 
+type  @ 282 @ type  @ 245 @ 
+block  @ 474 @ block  @ 408 @ 
+argument_list  @ 634 @ argument_list  @ 581 @ 
+name: luaG_runerror  @ 627 @ name: luaG_runerror  @ 574 @ 
+name: raiseerror  @ 191 @ name: L  @ 397 @ 
+argument_list  @ 608 @ argument_list  @ 561 @ 
+name: StkId  @ 294 @ name: StkId  @ 362 @ 
+name: L  @ 390 @ name: L  @ 267 @ 
+name: u  @ 488 @ name: u  @ 425 @ 
+name  @ 155 @ name  @ 150 @ 
+name: nargs  @ 576 @ name: nargs  @ 535 @ 
+name  @ 132 @ name  @ 128 @ 
+name: res  @ 331 @ name: res  @ 363 @ 
+name: L  @ 715 @ name: L  @ 671 @ 
+name: p  @ 711 @ name: p  @ 667 @ 
+decl  @ 577 @ decl  @ 536 @ 
+expr  @ 417 @ expr  @ 309 @ 
+name: name  @ 678 @ name: name  @ 627 @ 
+name: L  @ 380 @ name: L  @ 290 @ 
+name: ERRORSTACKSIZE  @ 169 @ name: ERRORSTACKSIZE  @ 164 @ 
+expr  @ 155 @ expr  @ 150 @ 
+name: ci  @ 528 @ name: ci  @ 466 @ 
+argument_list  @ 528 @ argument_list  @ 466 @ 
+endif  @ 66 @ endif  @ 70 @ 
+name: func  @ 608 @ name: nCcalls  @ 561 @ 
+argument_list  @ 626 @ argument_list  @ 573 @ 
+name: size  @ 712 @ name: size  @ 668 @ 
+control  @ 216 @ control  @ 197 @ 
+name: lua_lock  @ 567 @ name: lua_lock  @ 523 @ 
+argument  @ 567 @ argument  @ 523 @ 
+name: decXCcalls  @ 469 @ name: incr_top  @ 282 @ 
+name  @ 418 @ name  @ 310 @ 
+type  @ 318 @ type  @ 274 @ 
+operator: ->  @ 288 @ operator: ->  @ 246 @ 
+name: p  @ 300 @ name: p  @ 330 @ 
+name: ci  @ 306 @ name: ci  @ 586 @ 
+call  @ 693 @ call  @ 644 @ 
+name: callstatus  @ 515 @ name: callstatus  @ 454 @ 
+expr_stmt  @ 97 @ expr_stmt  @ 99 @ 
+operator: <=  @ 230 @ operator: >  @ 209 @ 
+if_stmt  @ 481 @ if_stmt  @ 413 @ 
+condition  @ 683 @ condition  @ 632 @ 
+decl  @ 464 @ decl  @ 393 @ 
+expr_stmt  @ 441 @ expr_stmt  @ 340 @ 
+operator: ->  @ 167 @ operator: ->  @ 163 @ 
+name: L  @ 721 @ name: L  @ 349 @ 
+expr  @ 80 @ expr  @ 86 @ 
+name  @ 700 @ name  @ 651 @ 
+block_content  @ 103 @ block_content  @ 105 @ 
+name: L  @ 699 @ name: L  @ 650 @ 
+name: int  @ 414 @ name: int  @ 299 @ 
+expr_stmt  @ 157 @ expr_stmt  @ 152 @ 
+break  @ 94 @ break  @ 96 @ 
+condition  @ 587 @ condition  @ 540 @ 
+literal: 1  @ 182 @ literal: 1  @ 323 @ 
+argument_list  @ 593 @ argument_list  @ 539 @ 
+modifier: *  @ 475 @ modifier: *  @ 409 @ 
+expr_stmt  @ 685 @ expr_stmt  @ 635 @ 
+expr  @ 719 @ expr  @ 675 @ 
+name: top  @ 273 @ name: top  @ 237 @ 
+function  @ 318 @ function  @ 274 @ 
+call  @ 417 @ call  @ 309 @ 
+name: s2v  @ 177 @ name: L  @ 168 @ 
+name: memerrmsg  @ 81 @ name: memerrmsg  @ 87 @ 
+expr  @ 169 @ expr  @ 164 @ 
+name: lua_assert  @ 643 @ name: lua_assert  @ 589 @ 
+expr  @ 528 @ expr  @ 466 @ 
+argument_list  @ 717 @ argument_list  @ 673 @ 
+decl  @ 576 @ decl  @ 535 @ 
+argument  @ 168 @ argument  @ 189 @ 
+parameter  @ 682 @ parameter  @ 631 @ 
+expr  @ 526 @ expr  @ 464 @ 
+operator: =  @ 153 @ operator: =  @ 148 @ 
+name: defined  @ 42 @ name: defined  @ 51 @ 
+operator: .  @ 290 @ operator: .  @ 253 @ 
+file: "lobject.h"  @ 21 @ file: "lobject.h"  @ 23 @ 
+block_content  @ 599 @ block_content  @ 549 @ 
+expr  @ 189 @ expr  @ 181 @ 
+name  @ 153 @ name  @ 148 @ 
+name: L  @ 467 @ name: L  @ 402 @ 
+block  @ 195 @ block  @ 179 @ 
+literal: 0  @ 683 @ literal: 0  @ 632 @ 
+argument_list  @ 450 @ argument_list  @ 345 @ 
+name: lua_unlock  @ 565 @ name: lua_unlock  @ 521 @ 
+name: CallInfo  @ 620 @ name: CallInfo  @ 568 @ 
+name: z  @ 674 @ name: z  @ 623 @ 
+name: ci  @ 257 @ name: ci  @ 226 @ 
+name: L  @ 128 @ name: L  @ 125 @ 
+expr_stmt  @ 93 @ expr_stmt  @ 95 @ 
+modifier: *  @ 213 @ modifier: *  @ 194 @ 
+type  @ 130 @ type  @ 126 @ 
+name: L  @ 662 @ name: L  @ 510 @ 
+type  @ 682 @ type  @ 631 @ 
+comment: /* continue running after recoverable errors */  @ 596 @ comment: /* error calling 'lua_resume'? */  @ 544 @ 
+control  @ 151 @ control  @ 146 @ 
+type  @ 147 @ type  @ 655 @ 
+expr  @ 93 @ expr  @ 95 @ 
+name  @ 103 @ name  @ 105 @ 
+operator: ->  @ 336 @ operator: ->  @ 382 @ 
+operator: ->  @ 533 @ operator: ->  @ 423 @ 
+modifier: *  @ 404 @ modifier: *  @ 296 @ 
+type  @ 576 @ type  @ 535 @ 
+name: L  @ 441 @ name: func  @ 338 @ 
+name: lua_State  @ 78 @ name: lua_State  @ 84 @ 
+name: L  @ 429 @ name: L  @ 320 @ 
+name  @ 702 @ name  @ 653 @ 
+name: buff  @ 717 @ name: buff  @ 673 @ 
+name: lua_State  @ 187 @ name: lua_State  @ 175 @ 
+expr  @ 299 @ expr  @ 332 @ 
+name: L  @ 591 @ name: L  @ 394 @ 
+parameter_list  @ 45 @ parameter_list  @ 66 @ 
+expr  @ 430 @ expr  @ 321 @ 
+type  @ 46 @ type  @ 67 @ 
+block_content  @ 475 @ block_content  @ 409 @ 
+comment: /* save context */  @ 639 @ comment: /* save context */  @ 585 @ 
+name: decnny  @ 721 @ name: luaC_checkGC  @ 349 @ 
+name: tm  @ 321 @ name: tm  @ 278 @ 
+specifier: static  @ 682 @ specifier: static  @ 631 @ 
+expr  @ 721 @ expr  @ 349 @ 
+name: top  @ 323 @ name: top  @ 281 @ 
+name: lua_unlock  @ 545 @ name: luaD_throw  @ 489 @ 
+name  @ 196 @ name  @ 180 @ 
+name: isLua  @ 561 @ name: isLua  @ 514 @ 
+operator: .  @ 720 @ operator: .  @ 676 @ 
+if_stmt  @ 580 @ if_stmt  @ 503 @ 
+name: int  @ 331 @ name: int  @ 364 @ 
+expr  @ 456 @ expr  @ 355 @ 
+block_content  @ 157 @ block_content  @ 152 @ 
+argument  @ 203 @ argument  @ 185 @ 
+name: L  @ 422 @ name: L  @ 313 @ 
+name  @ 714 @ name  @ 670 @ 
+parameter_list  @ 46 @ parameter_list  @ 67 @ 
+name: oldstack  @ 150 @ name: oldstack  @ 145 @ 
+operator: .  @ 712 @ operator: .  @ 668 @ 
+expr  @ 451 @ expr  @ 351 @ 
+argument  @ 568 @ argument  @ 524 @ 
+call  @ 710 @ call  @ 442 @ 
+operator: ->  @ 604 @ operator: ->  @ 551 @ 
+operator: ->  @ 152 @ operator: ->  @ 147 @ 
+argument  @ 599 @ argument  @ 549 @ 
+name  @ 72 @ name  @ 78 @ 
+name: ci  @ 514 @ name: ci  @ 453 @ 
+function  @ 551 @ function  @ 496 @ 
+name: c  @ 483 @ name: c  @ 415 @ 
+name: top  @ 274 @ name: top  @ 238 @ 
+expr  @ 641 @ expr  @ 587 @ 
+argument  @ 700 @ argument  @ 651 @ 
+expr  @ 85 @ expr  @ 91 @ 
+type  @ 46 @ type  @ 67 @ 
+name: lua_unlock  @ 427 @ name: lua_unlock  @ 318 @ 
+expr_stmt  @ 109 @ expr_stmt  @ 109 @ 
+expr  @ 515 @ expr  @ 454 @ 
+name  @ 528 @ name  @ 466 @ 
+name: dyd  @ 719 @ name: dyd  @ 675 @ 
+decl  @ 384 @ decl  @ 362 @ 
+name: z  @ 696 @ name: z  @ 647 @ 
+expr  @ 624 @ expr  @ 571 @ 
+index  @ 694 @ index  @ 645 @ 
+expr  @ 486 @ expr  @ 418 @ 
+expr  @ 561 @ expr  @ 514 @ 
+name: status  @ 597 @ name: status  @ 548 @ 
+argument  @ 556 @ argument  @ 506 @ 
+comment: /* no pending pcall */  @ 518 @ comment: /* no pending pcall */  @ 457 @ 
+argument_list  @ 425 @ argument_list  @ 317 @ 
+operator: =  @ 153 @ operator: =  @ 148 @ 
+type  @ 577 @ type  @ 536 @ 
+expr  @ 269 @ expr  @ 233 @ 
+name: char  @ 682 @ name: char  @ 631 @ 
+block  @ 102 @ block  @ 104 @ 
+name: ci  @ 216 @ name: ci  @ 197 @ 
+call  @ 702 @ call  @ 653 @ 
+operator: (  @ 638 @ operator: (  @ 584 @ 
+name: stack_last  @ 450 @ name: stack_last  @ 345 @ 
+operator: ==  @ 594 @ operator: ==  @ 542 @ 
+operator: ->  @ 445 @ operator: ->  @ 344 @ 
+argument  @ 352 @ argument  @ 333 @ 
+expr  @ 180 @ expr  @ 169 @ 
+define  @ 380 @ define  @ 290 @ 
+name  @ 535 @ name  @ 473 @ 
+case  @ 411 @ case  @ 305 @ 
+operator: =  @ 532 @ operator: =  @ 469 @ 
+expr  @ 154 @ expr  @ 149 @ 
+call  @ 621 @ call  @ 569 @ 
+argument_list  @ 700 @ argument_list  @ 651 @ 
+parameter  @ 707 @ parameter  @ 662 @ 
+argument  @ 609 @ argument  @ 562 @ 
+literal: 1  @ 97 @ literal: 1  @ 99 @ 
+parameter  @ 54 @ parameter  @ 54 @ 
+name  @ 150 @ name  @ 145 @ 
+name  @ 711 @ name  @ 667 @ 
+name: status  @ 74 @ name: status  @ 80 @ 
+block  @ 454 @ block  @ 354 @ 
+expr  @ 465 @ expr  @ 315 @ 
+file: "ldo.h"  @ 17 @ file: "ldo.h"  @ 19 @ 
+name  @ 179 @ name  @ 145 @ 
+condition  @ 632 @ condition  @ 580 @ 
+name: LUA_ERRMEM  @ 80 @ name: LUA_ERRMEM  @ 86 @ 
+name  @ 719 @ name  @ 675 @ 
+call  @ 81 @ call  @ 87 @ 
+name: ci  @ 312 @ name: ci  @ 372 @ 
+expr  @ 622 @ expr  @ 570 @ 
+operator: .  @ 714 @ operator: .  @ 670 @ 
+block  @ 322 @ block  @ 279 @ 
+argument_list  @ 417 @ argument_list  @ 309 @ 
+name: ci  @ 620 @ name: ci  @ 568 @ 
+name: c  @ 638 @ name: c  @ 584 @ 
+modifier: *  @ 682 @ modifier: *  @ 631 @ 
+expr_stmt  @ 427 @ expr_stmt  @ 318 @ 
+operator: ->  @ 359 @ operator: ->  @ 145 @ 
+argument_list  @ 409 @ argument_list  @ 303 @ 
+expr  @ 480 @ expr  @ 412 @ 
+expr  @ 122 @ expr  @ 119 @ 
+type  @ 101 @ type  @ 103 @ 
+name: L  @ 634 @ name: L  @ 581 @ 
+expr  @ 717 @ expr  @ 673 @ 
+expr  @ 312 @ expr  @ 372 @ 
+expr  @ 502 @ expr  @ 370 @ 
+name: luaD_checkstack  @ 263 @ name: luaD_checkstack  @ 227 @ 
+expr  @ 699 @ expr  @ 650 @ 
+parameter_list  @ 166 @ parameter_list  @ 161 @ 
+decl  @ 78 @ decl  @ 84 @ 
+decl  @ 414 @ decl  @ 299 @ 
+name: nargs  @ 594 @ name: nargs  @ 542 @ 
+argument  @ 684 @ argument  @ 633 @ 
+argument  @ 455 @ argument  @ 356 @ 
+name: L  @ 666 @ name: L  @ 613 @ 
+modifier: *  @ 145 @ modifier: *  @ 142 @ 
+argument  @ 93 @ argument  @ 95 @ 
+name: dyd  @ 713 @ name: dyd  @ 669 @ 
+operator: ->  @ 608 @ operator: ->  @ 561 @ 
+block  @ 190 @ block  @ 178 @ 
+name  @ 271 @ name  @ 235 @ 
+name: c  @ 60 @ name: c  @ 60 @ 
+name: setsvalue2s  @ 85 @ name: setsvalue2s  @ 91 @ 
+name: p  @ 700 @ name: p  @ 651 @ 
+decl  @ 101 @ decl  @ 103 @ 
+name  @ 217 @ name  @ 199 @ 
+expr_stmt  @ 622 @ expr_stmt  @ 570 @ 
+name: luaM_freearray  @ 718 @ name: luaM_freearray  @ 674 @ 
+operator: +  @ 152 @ operator: +  @ 147 @ 
+operator: ->  @ 265 @ operator: ->  @ 228 @ 
+expr  @ 605 @ expr  @ 552 @ 
+name: L  @ 496 @ name: L  @ 433 @ 
+call  @ 599 @ call  @ 549 @ 
+name: LUAI_TRY  @ 61 @ name: LUAI_TRY  @ 61 @ 
+operator: ->  @ 533 @ operator: ->  @ 470 @ 
+expr  @ 431 @ expr  @ 322 @ 
+name: ci  @ 311 @ name: ci  @ 247 @ 
+init  @ 654 @ init  @ 601 @ 
+name  @ 396 @ name  @ 198 @ 
+expr  @ 583 @ expr  @ 396 @ 
+name: nresults  @ 619 @ name: nresults  @ 567 @ 
+expr  @ 639 @ expr  @ 585 @ 
+argument  @ 93 @ argument  @ 95 @ 
+condition  @ 514 @ condition  @ 453 @ 
+name: L  @ 166 @ name: L  @ 161 @ 
+break  @ 82 @ break  @ 88 @ 
+define  @ 61 @ define  @ 61 @ 
+for  @ 151 @ for  @ 146 @ 
+operator: ->  @ 251 @ operator: ->  @ 220 @ 
+name: L  @ 579 @ name: L  @ 537 @ 
+name  @ 216 @ name  @ 197 @ 
+name  @ 555 @ name  @ 502 @ 
+directive: define  @ 163 @ directive: define  @ 158 @ 
+call  @ 700 @ call  @ 651 @ 
+name: newstack  @ 155 @ name: stack  @ 150 @ 
+init  @ 387 @ init  @ 259 @ 
+name: NULL  @ 714 @ name: NULL  @ 670 @ 
+expr_stmt  @ 269 @ expr_stmt  @ 233 @ 
+parameter_list  @ 247 @ parameter_list  @ 217 @ 
+expr  @ 480 @ expr  @ 412 @ 
+name: L  @ 437 @ name: L  @ 328 @ 
+expr  @ 570 @ expr  @ 527 @ 
+argument_list  @ 319 @ argument_list  @ 275 @ 
+argument  @ 531 @ argument  @ 468 @ 
+define  @ 48 @ define  @ 68 @ 
+name: n  @ 488 @ name: ci  @ 421 @ 
+name: ptrdiff_t  @ 252 @ name: ptrdiff_t  @ 221 @ 
+name: int  @ 386 @ name: int  @ 259 @ 
+call  @ 602 @ call  @ 557 @ 
+name: status  @ 610 @ name: status  @ 563 @ 
+argument_list  @ 565 @ argument_list  @ 521 @ 
+name  @ 248 @ name  @ 218 @ 
+type  @ 78 @ type  @ 84 @ 
+modifier: *  @ 384 @ modifier: *  @ 362 @ 
+operator: <=  @ 396 @ operator: <=  @ 198 @ 
+argument  @ 692 @ argument  @ 643 @ 
+comment: /* light C function */  @ 411 @ comment: /* C closure */  @ 305 @ 
+block  @ 637 @ block  @ 583 @ 
+name: NULL  @ 713 @ name: NULL  @ 669 @ 
+block_content  @ 708 @ block_content  @ 664 @ 
+name  @ 514 @ name  @ 453 @ 
+argument  @ 468 @ argument  @ 401 @ 
+name: luaD_growstack  @ 187 @ name: luaD_growstack  @ 175 @ 
+define  @ 3 @ define  @ 12 @ 
+include  @ 23 @ include  @ 25 @ 
+type  @ 709 @ type  @ 665 @ 
+name: setobjs2s  @ 93 @ name: setobjs2s  @ 95 @ 
+operator: ==  @ 480 @ operator: ==  @ 412 @ 
+name: ci  @ 253 @ name: ci  @ 222 @ 
+value  @ 62 @ value  @ 62 @ 
+operator: =  @ 528 @ operator: =  @ 466 @ 
+type  @ 554 @ type  @ 499 @ 
+return  @ 526 @ return  @ 464 @ 
+operator: &  @ 269 @ operator: &  @ 233 @ 
+expr  @ 491 @ expr  @ 429 @ 
+type  @ 551 @ type  @ 496 @ 
+expr_stmt  @ 531 @ expr_stmt  @ 468 @ 
+call  @ 641 @ call  @ 587 @ 
+argument  @ 663 @ argument  @ 607 @ 
+name: yieldable  @ 478 @ name: luaV_execute  @ 515 @ 
+name: L  @ 108 @ name: L  @ 513 @ 
+name: z  @ 707 @ name: z  @ 662 @ 
+name: n  @ 196 @ name: n  @ 180 @ 
+operator: =  @ 535 @ operator: =  @ 473 @ 
+name: stacksize  @ 167 @ name: stacksize  @ 163 @ 
+name: ci  @ 482 @ name: ci  @ 414 @ 
+expr  @ 302 @ expr  @ 348 @ 
+name: LUAI_MAXSTACK  @ 169 @ name: LUAI_MAXSTACK  @ 164 @ 
+expr_stmt  @ 177 @ expr_stmt  @ 168 @ 
+type  @ 281 @ type  @ 244 @ 
+operator: .  @ 713 @ operator: .  @ 669 @ 
+operator: |=  @ 267 @ operator: |=  @ 231 @ 
+type  @ 54 @ type  @ 54 @ 
+name: L  @ 111 @ name: L  @ 111 @ 
+name: p  @ 714 @ name: p  @ 670 @ 
+for  @ 323 @ for  @ 281 @ 
+name: c  @ 45 @ name: c  @ 66 @ 
+operator: &  @ 580 @ operator: &  @ 503 @ 
+name: lua_State  @ 619 @ name: lua_State  @ 567 @ 
+decl_stmt  @ 188 @ decl_stmt  @ 176 @ 
+expr  @ 502 @ expr  @ 370 @ 
+expr  @ 703 @ expr  @ 657 @ 
+name: L  @ 205 @ name: L  @ 186 @ 
+argument  @ 597 @ argument  @ 548 @ 
+name: k  @ 634 @ name: k  @ 581 @ 
+operator: ->  @ 155 @ operator: ->  @ 150 @ 
+name: lua_State  @ 576 @ name: lua_State  @ 535 @ 
+expr  @ 375 @ expr  @ 375 @ 
+expr  @ 684 @ expr  @ 633 @ 
+expr  @ 319 @ expr  @ 275 @ 
+name: status  @ 667 @ name: status  @ 614 @ 
+expr_stmt  @ 542 @ expr_stmt  @ 486 @ 
+block  @ 153 @ block  @ 148 @ 
+expr  @ 419 @ expr  @ 347 @ 
+type  @ 281 @ type  @ 244 @ 
+block  @ 217 @ block  @ 199 @ 
+name: ci  @ 632 @ name: ci  @ 580 @ 
+parameter_list  @ 213 @ parameter_list  @ 194 @ 
+decl  @ 435 @ decl  @ 298 @ 
+name: CSTACKTHREAD  @ 588 @ name: LUAI_MAXCCALLS  @ 395 @ 
+argument  @ 85 @ argument  @ 91 @ 
+default  @ 92 @ default  @ 94 @ 
+argument_list  @ 441 @ argument_list  @ 340 @ 
+parameter  @ 61 @ parameter  @ 61 @ 
+expr  @ 710 @ expr  @ 442 @ 
+name: LUAI_MAXSTACK  @ 197 @ name: LUAI_MAXSTACK  @ 182 @ 
+expr  @ 153 @ expr  @ 148 @ 
+name: ci  @ 475 @ name: ci  @ 409 @ 
+expr_stmt  @ 231 @ expr_stmt  @ 213 @ 
+name: nargs  @ 594 @ name: nargs  @ 542 @ 
+call  @ 196 @ call  @ 180 @ 
+operator: -  @ 181 @ operator: -  @ 170 @ 
+argument_list  @ 718 @ argument_list  @ 674 @ 
+expr_stmt  @ 203 @ expr_stmt  @ 185 @ 
+operator: ->  @ 420 @ operator: ->  @ 312 @ 
+expr  @ 700 @ expr  @ 651 @ 
+call  @ 352 @ call  @ 333 @ 
+name: nresults  @ 486 @ name: nresults  @ 418 @ 
+name: CallInfo  @ 435 @ name: CallInfo  @ 298 @ 
+block  @ 145 @ block  @ 142 @ 
+name: mode  @ 711 @ name: mode  @ 667 @ 
+name: ci  @ 445 @ name: ci  @ 344 @ 
+expr  @ 543 @ expr  @ 487 @ 
+expr_stmt  @ 136 @ expr_stmt  @ 134 @ 
+argument  @ 525 @ argument  @ 463 @ 
+argument_list  @ 543 @ argument_list  @ 487 @ 
+block  @ 603 @ block  @ 550 @ 
+argument_list  @ 478 @ argument_list  @ 515 @ 
+name: L  @ 173 @ name: L  @ 507 @ 
+name: luaD_hook  @ 308 @ name: luaD_hook  @ 369 @ 
+name: lua_State  @ 690 @ name: lua_State  @ 640 @ 
+argument  @ 634 @ argument  @ 581 @ 
+name: L  @ 372 @ name: L  @ 586 @ 
+name: char  @ 541 @ name: char  @ 485 @ 
+operator: ++  @ 288 @ operator: ++  @ 246 @ 
+name: u  @ 312 @ name: u  @ 372 @ 
+decl  @ 350 @ decl  @ 368 @ 
+name  @ 585 @ name  @ 509 @ 
+name: resume  @ 551 @ name: resume  @ 496 @ 
+name: CallInfo  @ 512 @ name: CallInfo  @ 451 @ 
+name: stacksize  @ 180 @ name: stacksize  @ 169 @ 
+file: "lmem.h"  @ 20 @ file: "lmem.h"  @ 22 @ 
+name: ci  @ 535 @ name: ci  @ 473 @ 
+parameter  @ 380 @ parameter  @ 290 @ 
+decl_stmt  @ 475 @ decl_stmt  @ 409 @ 
+operator: ->  @ 375 @ operator: ->  @ 579 @ 
+expr  @ 215 @ expr  @ 196 @ 
+expr  @ 104 @ expr  @ 106 @ 
+operator: .  @ 711 @ operator: .  @ 667 @ 
+operator: =  @ 666 @ operator: =  @ 613 @ 
+argument  @ 621 @ argument  @ 569 @ 
+expr  @ 455 @ expr  @ 275 @ 
+name  @ 483 @ name  @ 415 @ 
+name: L  @ 362 @ name: L  @ 379 @ 
+expr  @ 695 @ expr  @ 646 @ 
+name: lu_byte  @ 653 @ name: lu_byte  @ 599 @ 
+operator: &  @ 423 @ operator: &  @ 316 @ 
+type  @ 513 @ type  @ 452 @ 
+specifier: const  @ 319 @ specifier: const  @ 275 @ 
+block_content  @ 620 @ block_content  @ 568 @ 
+name  @ 181 @ name  @ 170 @ 
+name: top  @ 154 @ name: top  @ 149 @ 
+if  @ 626 @ if  @ 573 @ 
+parameter  @ 281 @ parameter  @ 244 @ 
+expr  @ 412 @ expr  @ 306 @ 
+modifier: *  @ 428 @ modifier: *  @ 319 @ 
+name: LUA_YIELD  @ 641 @ name: LUA_YIELD  @ 587 @ 
+define  @ 53 @ define  @ 53 @ 
+name: lua_State  @ 331 @ name: lua_State  @ 257 @ 
+parameter  @ 707 @ parameter  @ 662 @ 
+call  @ 626 @ call  @ 573 @ 
+operator: =  @ 418 @ operator: =  @ 310 @ 
+file: "lstate.h"  @ 24 @ file: "lstate.h"  @ 26 @ 
+condition  @ 625 @ condition  @ 572 @ 
+expr_stmt  @ 605 @ expr_stmt  @ 552 @ 
+parameter  @ 384 @ parameter  @ 393 @ 
+name: luaD_pcall  @ 716 @ name: luaD_pcall  @ 672 @ 
+operator: ->  @ 180 @ operator: ->  @ 169 @ 
+name: openupval  @ 151 @ name: openupval  @ 146 @ 
+name  @ 606 @ name  @ 553 @ 
+expr  @ 615 @ expr  @ 655 @ 
+expr  @ 451 @ expr  @ 351 @ 
+decl  @ 188 @ decl  @ 176 @ 
+argument  @ 313 @ argument  @ 467 @ 
+name  @ 249 @ name  @ 219 @ 
+name: ptrdiff_t  @ 654 @ name: ptrdiff_t  @ 601 @ 
+directive: include  @ 24 @ directive: include  @ 26 @ 
+expr  @ 597 @ expr  @ 548 @ 
+modifier: *  @ 72 @ modifier: *  @ 78 @ 
+modifier: *  @ 251 @ modifier: *  @ 220 @ 
+parameter_list  @ 54 @ parameter_list  @ 54 @ 
+name: up  @ 151 @ name: up  @ 146 @ 
+decl  @ 404 @ decl  @ 296 @ 
+file: "ltable.h"  @ 26 @ file: "ltable.h"  @ 28 @ 
+argument  @ 289 @ argument  @ 252 @ 
+comment: /* space for metamethod */  @ 455 @ comment: /* retry with 'function' tag method */  @ 355 @ 
+name  @ 718 @ name  @ 674 @ 
+type  @ 541 @ type  @ 485 @ 
+expr  @ 418 @ expr  @ 310 @ 
+argument  @ 119 @ argument  @ 116 @ 
+argument_list  @ 658 @ argument_list  @ 605 @ 
+operator: ->  @ 608 @ operator: ->  @ 543 @ 
+name: L  @ 263 @ name: L  @ 227 @ 
+name: ci  @ 251 @ name: ci  @ 220 @ 
+name: ci  @ 155 @ name: ci  @ 150 @ 
+name  @ 130 @ name  @ 126 @ 
+name: f  @ 128 @ name: f  @ 125 @ 
+if  @ 191 @ if  @ 397 @ 
+operator: ->  @ 390 @ operator: ->  @ 311 @ 
+decl_stmt  @ 226 @ decl_stmt  @ 207 @ 
+name: goodsize  @ 226 @ name: goodsize  @ 207 @ 
+argument_list  @ 412 @ argument_list  @ 306 @ 
+expr  @ 718 @ expr  @ 674 @ 
+name  @ 375 @ name  @ 579 @ 
+argument  @ 693 @ argument  @ 644 @ 
+expr  @ 182 @ expr  @ 323 @ 
+type  @ 650 @ type  @ 596 @ 
+name: int  @ 247 @ name: int  @ 217 @ 
+expr  @ 556 @ expr  @ 506 @ 
+name: L  @ 430 @ name: L  @ 321 @ 
+name: L  @ 304 @ name: L  @ 367 @ 
+condition  @ 227 @ condition  @ 208 @ 
+name: resume  @ 595 @ name: resume  @ 543 @ 
+name: a  @ 46 @ name: a  @ 67 @ 
+expr  @ 313 @ expr  @ 467 @ 
+expr  @ 684 @ expr  @ 634 @ 
+decl  @ 214 @ decl  @ 195 @ 
+if  @ 694 @ if  @ 645 @ 
+argument  @ 543 @ argument  @ 487 @ 
+name: up  @ 151 @ name: up  @ 146 @ 
+expr_stmt  @ 640 @ expr_stmt  @ 586 @ 
+comment: /* restore original 'allowhook' */  @ 533 @ comment: /* should be zero to be yieldable */  @ 471 @ 
+condition  @ 321 @ condition  @ 278 @ 
+return  @ 667 @ return  @ 614 @ 
+expr_stmt  @ 451 @ expr_stmt  @ 351 @ 
+type  @ 387 @ type  @ 537 @ 
+expr  @ 420 @ expr  @ 312 @ 
+name: L  @ 566 @ name: L  @ 522 @ 
+comment: /* 'common' yield */  @ 563 @ comment: /* 'common' yield */  @ 516 @ 
+expr  @ 556 @ expr  @ 506 @ 
+name: oldnCcalls  @ 130 @ name: oldnCcalls  @ 126 @ 
+argument  @ 599 @ argument  @ 549 @ 
+expr  @ 529 @ expr  @ 489 @ 
+expr  @ 641 @ expr  @ 587 @ 
+name: from  @ 587 @ name: from  @ 540 @ 
+name: dyd  @ 714 @ name: dyd  @ 670 @ 
+operator: =  @ 257 @ operator: =  @ 226 @ 
+operator: =  @ 420 @ operator: =  @ 312 @ 
+argument_list  @ 170 @ argument_list  @ 165 @ 
+operator: ->  @ 196 @ operator: ->  @ 180 @ 
+operator: ->  @ 304 @ operator: ->  @ 367 @ 
+name: luaY_parser  @ 700 @ name: luaY_parser  @ 651 @ 
+name: L  @ 302 @ name: L  @ 348 @ 
+decl  @ 101 @ decl  @ 103 @ 
+expr_stmt  @ 594 @ expr_stmt  @ 542 @ 
+comment: /* dynamic structures used by the parser */  @ 676 @ comment: /* dynamic structures used by the parser */  @ 625 @ 
+argument  @ 692 @ argument  @ 643 @ 
+file: "lfunc.h"  @ 18 @ file: "lfunc.h"  @ 20 @ 
+name: nresults  @ 375 @ name: nresults  @ 375 @ 
+name: ci  @ 533 @ name: ci  @ 423 @ 
+argument  @ 177 @ argument  @ 168 @ 
+parameter  @ 551 @ parameter  @ 496 @ 
+name: actvar  @ 712 @ name: actvar  @ 668 @ 
+expr  @ 109 @ expr  @ 109 @ 
+name: L  @ 179 @ name: L  @ 145 @ 
+operator: ->  @ 606 @ operator: ->  @ 553 @ 
+function  @ 523 @ function  @ 461 @ 
+type  @ 187 @ type  @ 175 @ 
+name: luaD_reallocstack  @ 166 @ name: luaD_reallocstack  @ 161 @ 
+decl  @ 370 @ decl  @ 257 @ 
+name  @ 659 @ name  @ 608 @ 
+name: char  @ 682 @ name: char  @ 631 @ 
+decl  @ 281 @ decl  @ 244 @ 
+argument  @ 581 @ argument  @ 504 @ 
+argument  @ 717 @ argument  @ 673 @ 
+operator: .  @ 256 @ operator: .  @ 225 @ 
+expr  @ 700 @ expr  @ 651 @ 
+name: lim  @ 215 @ name: lim  @ 196 @ 
+name: status  @ 604 @ name: status  @ 551 @ 
+name: func  @ 390 @ name: func  @ 311 @ 
+name  @ 716 @ name  @ 672 @ 
+operator: ->  @ 323 @ operator: ->  @ 281 @ 
+specifier: const  @ 707 @ specifier: const  @ 663 @ 
+expr  @ 231 @ expr  @ 561 @ 
+name: L  @ 530 @ name: L  @ 579 @ 
+name: newstack  @ 145 @ name: firstArg  @ 485 @ 
+operator: (  @ 594 @ operator: (  @ 542 @ 
+argument_list  @ 664 @ argument_list  @ 611 @ 
+name: struct  @ 72 @ name: struct  @ 78 @ 
+name: func  @ 375 @ name: func  @ 579 @ 
+decl  @ 654 @ decl  @ 601 @ 
+type  @ 128 @ type  @ 125 @ 
+call  @ 169 @ call  @ 164 @ 
+decl  @ 674 @ decl  @ 623 @ 
+argument  @ 109 @ argument  @ 109 @ 
+argument  @ 319 @ argument  @ 275 @ 
+name  @ 136 @ name  @ 134 @ 
+init  @ 167 @ init  @ 163 @ 
+name: L  @ 170 @ name: L  @ 165 @ 
+expr  @ 157 @ expr  @ 152 @ 
+operator: ->  @ 302 @ operator: ->  @ 348 @ 
+name: z  @ 700 @ name: z  @ 651 @ 
+type  @ 294 @ type  @ 257 @ 
+comment: /* metamethod is the new function to be called */  @ 326 @ comment: /* tag method is the new function to be called */  @ 284 @ 
+parameter  @ 45 @ parameter  @ 66 @ 
+argument  @ 253 @ argument  @ 222 @ 
+expr  @ 663 @ expr  @ 607 @ 
+name: L  @ 318 @ name: L  @ 274 @ 
+name: u  @ 290 @ name: u  @ 253 @ 
+name: f  @ 412 @ name: f  @ 306 @ 
+name  @ 387 @ name  @ 259 @ 
+argument  @ 192 @ argument  @ 398 @ 
+name: errcode  @ 103 @ name: errcode  @ 105 @ 
+expr_stmt  @ 122 @ expr_stmt  @ 119 @ 
+expr  @ 716 @ expr  @ 672 @ 
+expr  @ 685 @ expr  @ 635 @ 
+argument_list  @ 534 @ argument_list  @ 472 @ 
+name: ci  @ 375 @ name: ci  @ 579 @ 
+decl  @ 650 @ decl  @ 596 @ 
+expr_stmt  @ 365 @ expr_stmt  @ 265 @ 
+name: L  @ 572 @ name: L  @ 529 @ 
+operator: ->  @ 702 @ operator: ->  @ 653 @ 
+name: name  @ 707 @ name: name  @ 662 @ 
+type  @ 650 @ type  @ 595 @ 
+decl  @ 167 @ decl  @ 163 @ 
+parameter  @ 213 @ parameter  @ 194 @ 
+name: l  @ 312 @ name: l  @ 372 @ 
+init  @ 319 @ init  @ 275 @ 
+expr  @ 371 @ expr  @ 366 @ 
+expr  @ 489 @ expr  @ 426 @ 
+name: c  @ 700 @ name: c  @ 651 @ 
+argument_list  @ 465 @ argument_list  @ 315 @ 
+expr_stmt  @ 104 @ expr_stmt  @ 106 @ 
+name: checkmode  @ 695 @ name: checkmode  @ 646 @ 
+include  @ 19 @ include  @ 21 @ 
+type  @ 523 @ type  @ 461 @ 
+expr_stmt  @ 152 @ expr_stmt  @ 147 @ 
+expr  @ 129 @ expr  @ 115 @ 
+operator: =  @ 157 @ operator: =  @ 152 @ 
+operator: .  @ 151 @ operator: .  @ 146 @ 
+operator: !=  @ 478 @ operator: !=  @ 411 @ 
+expr  @ 263 @ expr  @ 227 @ 
+argument_list  @ 719 @ argument_list  @ 675 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 87 @ 
+name: top  @ 302 @ name: top  @ 348 @ 
+name: StkId  @ 404 @ name: StkId  @ 296 @ 
+operator: ->  @ 240 @ operator: ->  @ 267 @ 
+expr  @ 308 @ expr  @ 369 @ 
+block_content  @ 250 @ block_content  @ 220 @ 
+function  @ 707 @ function  @ 662 @ 
+expr  @ 602 @ expr  @ 557 @ 
+condition  @ 323 @ condition  @ 281 @ 
+name: cast  @ 692 @ name: cast  @ 643 @ 
+operator: >  @ 197 @ operator: >  @ 182 @ 
+expr  @ 104 @ expr  @ 106 @ 
+name: status  @ 555 @ name: status  @ 502 @ 
+comment: /* data to 'f_parser' */  @ 673 @ comment: /* data to `f_parser' */  @ 622 @ 
+expr  @ 684 @ expr  @ 634 @ 
+type  @ 319 @ type  @ 275 @ 
+decl  @ 496 @ decl  @ 433 @ 
+expr  @ 119 @ expr  @ 116 @ 
+call  @ 566 @ call  @ 522 @ 
+argument_list  @ 568 @ argument_list  @ 524 @ 
+name: unroll  @ 572 @ name: unroll  @ 529 @ 
+name: L  @ 313 @ name: L  @ 467 @ 
+parameter_list  @ 464 @ parameter_list  @ 393 @ 
+expr  @ 137 @ expr  @ 135 @ 
+decl  @ 523 @ decl  @ 461 @ 
+name: int  @ 387 @ name: int  @ 537 @ 
+if_stmt  @ 249 @ if_stmt  @ 219 @ 
+decl  @ 166 @ decl  @ 161 @ 
+name: ci  @ 483 @ name: ci  @ 415 @ 
+type  @ 253 @ type  @ 222 @ 
+call  @ 716 @ call  @ 672 @ 
+expr  @ 352 @ expr  @ 333 @ 
+expr_stmt  @ 392 @ expr_stmt  @ 374 @ 
+name: size  @ 720 @ name: size  @ 676 @ 
+name: next_ci  @ 380 @ name: next_ci  @ 290 @ 
+expr_stmt  @ 568 @ expr_stmt  @ 524 @ 
+name: lua_assert  @ 702 @ name: lua_assert  @ 653 @ 
+parameter  @ 614 @ parameter  @ 408 @ 
+expr  @ 441 @ expr  @ 340 @ 
+name: checkmode  @ 682 @ name: checkmode  @ 631 @ 
+name: ci  @ 638 @ name: ci  @ 584 @ 
+literal: "call"  @ 322 @ literal: "call"  @ 279 @ 
+call  @ 466 @ call  @ 211 @ 
+name: L  @ 252 @ name: L  @ 221 @ 
+expr  @ 431 @ expr  @ 337 @ 
+argument  @ 700 @ argument  @ 651 @ 
+condition  @ 102 @ condition  @ 104 @ 
+expr  @ 525 @ expr  @ 463 @ 
+name: top  @ 445 @ name: top  @ 344 @ 
+block_content  @ 629 @ block_content  @ 576 @ 
+parameter  @ 224 @ parameter  @ 205 @ 
+expr  @ 631 @ expr  @ 578 @ 
+name: dyd  @ 676 @ name: dyd  @ 625 @ 
+call  @ 695 @ call  @ 646 @ 
+name: L  @ 101 @ name: L  @ 103 @ 
+name: status  @ 579 @ name: nny  @ 537 @ 
+expr  @ 605 @ expr  @ 552 @ 
+modifier: *  @ 541 @ modifier: *  @ 485 @ 
+expr  @ 625 @ expr  @ 572 @ 
+type  @ 474 @ type  @ 408 @ 
+name: L  @ 270 @ name: L  @ 234 @ 
+expr  @ 204 @ expr  @ 184 @ 
+call  @ 544 @ call  @ 488 @ 
+argument  @ 311 @ argument  @ 247 @ 
+name  @ 375 @ name  @ 375 @ 
+comment: /* not in base level? */  @ 580 @ comment: /* not in base level? */  @ 503 @ 
+name: panic  @ 120 @ name: panic  @ 117 @ 
+block_content  @ 435 @ block_content  @ 326 @ 
+call  @ 578 @ call  @ 538 @ 
+expr  @ 390 @ expr  @ 267 @ 
+name  @ 419 @ name  @ 347 @ 
+name: lua_assert  @ 480 @ name: lua_assert  @ 412 @ 
+name  @ 695 @ name  @ 646 @ 
+name: func  @ 446 @ name: func  @ 342 @ 
+macro  @ 380 @ macro  @ 290 @ 
+condition  @ 526 @ condition  @ 464 @ 
+name  @ 500 @ name  @ 436 @ 
+if_stmt  @ 694 @ if_stmt  @ 645 @ 
+name: base_ci  @ 500 @ name: base_ci  @ 436 @ 
+directive: if  @ 42 @ directive: if  @ 51 @ 
+call  @ 253 @ call  @ 222 @ 
+name: hook  @ 248 @ name: hook  @ 218 @ 
+name: lua_longjmp  @ 71 @ name: lua_longjmp  @ 77 @ 
+name: tm  @ 319 @ name: tm  @ 275 @ 
+expr  @ 715 @ expr  @ 671 @ 
+argument_list  @ 544 @ argument_list  @ 488 @ 
+expr  @ 422 @ expr  @ 313 @ 
+name: nargs  @ 595 @ name: nargs  @ 543 @ 
+name  @ 475 @ name  @ 409 @ 
+name  @ 240 @ name  @ 267 @ 
+name: int  @ 166 @ name: int  @ 161 @ 
+call  @ 624 @ call  @ 571 @ 
+name  @ 708 @ name  @ 664 @ 
+call  @ 489 @ call  @ 426 @ 
+operator: ==  @ 587 @ operator: )  @ 540 @ 
+decl  @ 551 @ decl  @ 496 @ 
+expr  @ 152 @ expr  @ 147 @ 
+expr  @ 543 @ expr  @ 487 @ 
+expr  @ 518 @ expr  @ 457 @ 
+expr  @ 176 @ expr  @ 167 @ 
+expr  @ 625 @ expr  @ 439 @ 
+operator: ==  @ 170 @ operator: ==  @ 165 @ 
+argument  @ 456 @ argument  @ 355 @ 
+call  @ 608 @ call  @ 561 @ 
+if_stmt  @ 626 @ if_stmt  @ 573 @ 
+name: savestack  @ 252 @ name: savestack  @ 221 @ 
+name: old_top  @ 658 @ name: old_top  @ 605 @ 
+operator: =  @ 336 @ operator: =  @ 382 @ 
+literal: 1  @ 239 @ literal: 1  @ 540 @ 
+block_content  @ 129 @ block_content  @ 126 @ 
+expr_stmt  @ 717 @ expr_stmt  @ 673 @ 
+name: top  @ 302 @ name: top  @ 348 @ 
+name  @ 371 @ name  @ 366 @ 
+name: cast_int  @ 220 @ name: cast_int  @ 201 @ 
+operator: .  @ 719 @ operator: .  @ 675 @ 
+name: a  @ 54 @ name: a  @ 54 @ 
+operator: ->  @ 439 @ operator: ->  @ 329 @ 
+parameter  @ 523 @ parameter  @ 461 @ 
+expr  @ 644 @ expr  @ 590 @ 
+operator: .  @ 483 @ operator: .  @ 415 @ 
+argument  @ 468 @ argument  @ 401 @ 
+decl  @ 651 @ decl  @ 597 @ 
+name: top  @ 265 @ name: top  @ 228 @ 
+decl  @ 707 @ decl  @ 663 @ 
+operator: ->  @ 590 @ operator: ->  @ 404 @ 
+name: lim  @ 176 @ name: lim  @ 167 @ 
+if_stmt  @ 683 @ if_stmt  @ 632 @ 
+return  @ 722 @ return  @ 678 @ 
+operator: ++  @ 361 @ operator: ++  @ 654 @ 
+name: L  @ 150 @ name: L  @ 264 @ 
+expr_stmt  @ 712 @ expr_stmt  @ 668 @ 
+operator: =  @ 560 @ operator: =  @ 512 @ 
+expr_stmt  @ 442 @ expr_stmt  @ 341 @ 
+if_stmt  @ 515 @ if_stmt  @ 454 @ 
+expr  @ 375 @ expr  @ 579 @ 
+parameter_list  @ 78 @ parameter_list  @ 84 @ 
+name: __cplusplus  @ 42 @ name: __cplusplus  @ 51 @ 
+block_content  @ 217 @ block_content  @ 198 @ 
+name: actvar  @ 712 @ name: actvar  @ 668 @ 
+operator: =  @ 639 @ operator: =  @ 585 @ 
+operator: ->  @ 555 @ operator: ->  @ 502 @ 
+operator: ->  @ 700 @ operator: ->  @ 651 @ 
+name: ci  @ 217 @ name: ci  @ 199 @ 
+literal: 1  @ 93 @ literal: 1  @ 95 @ 
+decl  @ 331 @ decl  @ 257 @ 
+expr  @ 465 @ expr  @ 315 @ 
+type  @ 187 @ type  @ 175 @ 
+modifier: *  @ 619 @ modifier: *  @ 567 @ 
+name: status  @ 663 @ name: status  @ 607 @ 
+argument  @ 425 @ argument  @ 317 @ 
+name: L  @ 427 @ name: L  @ 318 @ 
+name: stack  @ 179 @ name: stack  @ 145 @ 
+argument  @ 699 @ argument  @ 650 @ 
+call  @ 231 @ call  @ 213 @ 
+name  @ 699 @ name  @ 650 @ 
+name: n  @ 431 @ name: n  @ 337 @ 
+name: arr  @ 714 @ name: arr  @ 670 @ 
+literal: 0  @ 266 @ literal: 0  @ 230 @ 
+type  @ 619 @ type  @ 567 @ 
+operator: ==  @ 634 @ operator: ==  @ 581 @ 
+block  @ 166 @ block  @ 161 @ 
+literal: 1  @ 324 @ literal: 1  @ 281 @ 
+operator: !  @ 40 @ operator: !  @ 49 @ 
+argument  @ 390 @ argument  @ 267 @ 
+argument_list  @ 407 @ argument_list  @ 301 @ 
+name: name  @ 700 @ name: name  @ 651 @ 
+operator: ->  @ 386 @ operator: ->  @ 263 @ 
+name: int  @ 247 @ name: int  @ 217 @ 
+expr  @ 85 @ expr  @ 91 @ 
+block_content  @ 577 @ block_content  @ 536 @ 
+decl  @ 252 @ decl  @ 221 @ 
+argument  @ 252 @ argument  @ 221 @ 
+expr  @ 326 @ expr  @ 284 @ 
+argument_list  @ 602 @ argument_list  @ 557 @ 
+name: L  @ 716 @ name: L  @ 672 @ 
+name: luaD_throw  @ 641 @ name: luaD_throw  @ 587 @ 
+name: L  @ 331 @ name: L  @ 257 @ 
+block  @ 249 @ block  @ 219 @ 
+call  @ 437 @ call  @ 328 @ 
+argument  @ 203 @ argument  @ 185 @ 
+name: L  @ 336 @ name: L  @ 382 @ 
+type  @ 464 @ type  @ 393 @ 
+parameter_list  @ 60 @ parameter_list  @ 60 @ 
+return  @ 536 @ return  @ 476 @ 
+name: stacksize  @ 188 @ name: stacksize  @ 176 @ 
+name: ci  @ 309 @ name: ci  @ 513 @ 
+expr  @ 553 @ expr  @ 429 @ 
+name: L  @ 653 @ name: L  @ 599 @ 
+init  @ 475 @ init  @ 409 @ 
+type  @ 541 @ type  @ 567 @ 
+name: gt  @ 713 @ name: gt  @ 669 @ 
+expr_stmt  @ 422 @ expr_stmt  @ 313 @ 
+name: recover  @ 597 @ name: recover  @ 548 @ 
+expr  @ 594 @ expr  @ 542 @ 
+type  @ 512 @ type  @ 451 @ 
+expr  @ 220 @ expr  @ 201 @ 
+directive: if  @ 40 @ directive: if  @ 49 @ 
+name: L  @ 274 @ name: L  @ 238 @ 
+name: L  @ 594 @ name: L  @ 542 @ 
+name: luaD_throw  @ 685 @ name: luaD_throw  @ 635 @ 
+type  @ 54 @ type  @ 54 @ 
+expr  @ 153 @ expr  @ 148 @ 
+name: ci  @ 515 @ name: ci  @ 454 @ 
+argument  @ 407 @ argument  @ 301 @ 
+operator: >  @ 227 @ operator: >  @ 208 @ 
+expr  @ 561 @ expr  @ 514 @ 
+name: lj  @ 132 @ name: lj  @ 128 @ 
+parameter  @ 404 @ parameter  @ 296 @ 
+operator: ->  @ 700 @ operator: ->  @ 651 @ 
+name: int  @ 619 @ name: int  @ 567 @ 
+expr_stmt  @ 170 @ expr_stmt  @ 165 @ 
+argument  @ 488 @ argument  @ 283 @ 
+argument  @ 274 @ argument  @ 238 @ 
+expr_stmt  @ 173 @ expr_stmt  @ 507 @ 
+argument  @ 289 @ argument  @ 252 @ 
+name: L  @ 720 @ name: L  @ 676 @ 
+modifier: *  @ 283 @ modifier: *  @ 257 @ 
+specifier: static  @ 145 @ specifier: static  @ 142 @ 
+operator: =  @ 155 @ operator: =  @ 150 @ 
+type  @ 620 @ type  @ 568 @ 
+expr_stmt  @ 486 @ expr_stmt  @ 418 @ 
+name  @ 700 @ name  @ 651 @ 
+decl  @ 145 @ decl  @ 142 @ 
+expr  @ 693 @ expr  @ 644 @ 
+parameter  @ 101 @ parameter  @ 103 @ 
+name  @ 396 @ name  @ 198 @ 
+literal: "hooks cannot continue after yielding"  @ 634 @ literal: "hooks cannot continue after yielding"  @ 581 @ 
+operator: =  @ 588 @ operator: ==  @ 395 @ 
+expr  @ 694 @ expr  @ 645 @ 
+type  @ 464 @ type  @ 393 @ 
+operator: ->  @ 392 @ operator: ->  @ 374 @ 
+name: LUA_VLCL  @ 434 @ name: LUA_TLCL  @ 325 @ 
+name: LUA_HOOKRET  @ 308 @ name: LUA_HOOKRET  @ 369 @ 
+operator: ->  @ 488 @ operator: ->  @ 425 @ 
+name: status  @ 605 @ name: status  @ 552 @ 
+define  @ 60 @ define  @ 60 @ 
+literal: "attempt to yield from outside a coroutine"  @ 629 @ literal: "attempt to yield from outside a coroutine"  @ 576 @ 
+expr_stmt  @ 456 @ expr_stmt  @ 355 @ 
+block_content  @ 526 @ block_content  @ 464 @ 
+type  @ 404 @ type  @ 296 @ 
+name: ci  @ 275 @ name: ci  @ 239 @ 
+type  @ 168 @ type  @ 260 @ 
+argument  @ 685 @ argument  @ 635 @ 
+modifier: *  @ 281 @ modifier: *  @ 244 @ 
+operator: !=  @ 626 @ operator: !=  @ 573 @ 
+name: oldtop  @ 658 @ name: oldtop  @ 605 @ 
+name: L  @ 658 @ name: L  @ 605 @ 
+name: f  @ 428 @ name: f  @ 319 @ 
+operator: ->  @ 151 @ operator: ->  @ 146 @ 
+init  @ 251 @ init  @ 220 @ 
+operator: =  @ 443 @ operator: =  @ 346 @ 
+name: L  @ 464 @ name: L  @ 393 @ 
+name  @ 500 @ name  @ 438 @ 
+name  @ 700 @ name  @ 651 @ 
+type  @ 496 @ type  @ 433 @ 
+name: p  @ 719 @ name: p  @ 675 @ 
+include  @ 30 @ include  @ 32 @ 
+argument  @ 602 @ argument  @ 557 @ 
+expr  @ 416 @ expr  @ 308 @ 
+operator: ->  @ 266 @ operator: ->  @ 230 @ 
+name: stack  @ 196 @ name: stack  @ 180 @ 
+modifier: *  @ 554 @ modifier: *  @ 499 @ 
+name: L  @ 350 @ name: L  @ 368 @ 
+argument  @ 429 @ argument  @ 320 @ 
+name: errcode  @ 112 @ name: errcode  @ 112 @ 
+case  @ 408 @ case  @ 302 @ 
+call  @ 685 @ call  @ 635 @ 
+argument  @ 629 @ argument  @ 576 @ 
+modifier: *  @ 166 @ modifier: *  @ 161 @ 
+argument_list  @ 107 @ argument_list  @ 110 @ 
+if  @ 227 @ if  @ 208 @ 
+name: c  @ 694 @ name: c  @ 645 @ 
+comment: /* normal end or yield */  @ 602 @ comment: /* run continuation */  @ 549 @ 
+name: SParser  @ 692 @ name: SParser  @ 643 @ 
+name: LUA_MINSTACK  @ 263 @ name: LUA_MINSTACK  @ 227 @ 
+name: callstatus  @ 643 @ name: callstatus  @ 589 @ 
+type  @ 707 @ type  @ 662 @ 
+specifier: static  @ 690 @ specifier: static  @ 640 @ 
+argument  @ 430 @ argument  @ 321 @ 
+expr  @ 167 @ expr  @ 163 @ 
+name  @ 450 @ name  @ 345 @ 
+modifier: *  @ 281 @ modifier: *  @ 244 @ 
+name: StkId  @ 464 @ name: StkId  @ 393 @ 
+expr  @ 667 @ expr  @ 614 @ 
+name: int  @ 650 @ name: int  @ 595 @ 
+name: nCcalls  @ 130 @ name: nCcalls  @ 126 @ 
+expr_stmt  @ 478 @ expr_stmt  @ 411 @ 
+operator: ->  @ 654 @ operator: ->  @ 601 @ 
+name: p  @ 692 @ name: p  @ 643 @ 
+name: u  @ 443 @ name: u  @ 346 @ 
+condition  @ 79 @ condition  @ 85 @ 
+name  @ 579 @ name  @ 537 @ 
+argument_list  @ 609 @ argument_list  @ 562 @ 
+name: p  @ 700 @ name: p  @ 651 @ 
+name  @ 713 @ name  @ 669 @ 
+name  @ 300 @ name  @ 330 @ 
+expr  @ 428 @ expr  @ 319 @ 
+decl_stmt  @ 435 @ decl_stmt  @ 298 @ 
+operator: !=  @ 585 @ operator: !=  @ 509 @ 
+name: stack_last  @ 170 @ name: stack_last  @ 165 @ 
+expr_stmt  @ 606 @ expr_stmt  @ 553 @ 
+define  @ 45 @ define  @ 66 @ 
+argument  @ 467 @ argument  @ 402 @ 
+decl_stmt  @ 225 @ decl_stmt  @ 206 @ 
+name: ptrdiff_t  @ 295 @ name: ptrdiff_t  @ 277 @ 
+name: L  @ 81 @ name: L  @ 87 @ 
+name  @ 638 @ name  @ 584 @ 
+name: luaD_hook  @ 289 @ name: luaD_hook  @ 252 @ 
+comment: /* unrecoverable error */  @ 603 @ comment: /* unrecoverable error */  @ 550 @ 
+decl  @ 650 @ decl  @ 595 @ 
+name  @ 700 @ name  @ 651 @ 
+call  @ 440 @ call  @ 337 @ 
+return  @ 220 @ return  @ 201 @ 
+include  @ 24 @ include  @ 26 @ 
+argument  @ 425 @ argument  @ 317 @ 
+operator: -  @ 289 @ operator: -  @ 252 @ 
+decl  @ 475 @ decl  @ 409 @ 
+operator: ->  @ 153 @ operator: ->  @ 148 @ 
+name: lua_assert  @ 478 @ name: lua_assert  @ 411 @ 
+name: L  @ 529 @ name: L  @ 489 @ 
+name: ci  @ 514 @ name: ci  @ 453 @ 
+expr  @ 656 @ expr  @ 603 @ 
+name: luaD_hook  @ 247 @ name: luaD_hook  @ 217 @ 
+if  @ 515 @ if  @ 454 @ 
+call  @ 104 @ call  @ 106 @ 
+name: ci  @ 154 @ name: ci  @ 149 @ 
+block  @ 657 @ block  @ 604 @ 
+condition  @ 515 @ condition  @ 454 @ 
+parameter  @ 576 @ parameter  @ 535 @ 
+name: L  @ 682 @ name: L  @ 631 @ 
+name: lua_State  @ 384 @ name: lua_State  @ 362 @ 
+operator: =  @ 137 @ operator: =  @ 135 @ 
+type  @ 576 @ type  @ 535 @ 
+name: p  @ 323 @ name: p  @ 281 @ 
+call  @ 450 @ call  @ 345 @ 
+decl  @ 226 @ decl  @ 207 @ 
+name: maxstacksize  @ 439 @ name: maxstacksize  @ 329 @ 
+block_content  @ 205 @ block_content  @ 185 @ 
+type  @ 690 @ type  @ 640 @ 
+comment: /* number of real arguments */  @ 437 @ comment: /* number of real arguments */  @ 328 @ 
+name: CallInfo  @ 513 @ name: CallInfo  @ 452 @ 
+operator: -  @ 553 @ operator: -  @ 429 @ 
+expr  @ 267 @ expr  @ 231 @ 
+decl_stmt  @ 189 @ decl_stmt  @ 181 @ 
+name  @ 580 @ name  @ 436 @ 
+name: n  @ 414 @ name: n  @ 299 @ 
+argument  @ 661 @ argument  @ 606 @ 
+block_content  @ 414 @ block_content  @ 306 @ 
+expr  @ 107 @ expr  @ 110 @ 
+name: ci  @ 396 @ name: ci  @ 198 @ 
+specifier: const  @ 707 @ specifier: const  @ 662 @ 
+name: L  @ 170 @ name: L  @ 165 @ 
+name: status  @ 531 @ name: status  @ 468 @ 
+block_content  @ 556 @ block_content  @ 503 @ 
+literal: 0  @ 361 @ literal: 0  @ 266 @ 
+name: luaD_seterrorobj  @ 663 @ name: seterrorobj  @ 607 @ 
+comment: /* does it have a continuation function? */  @ 564 @ comment: /* does it have a continuation? */  @ 517 @ 
+name: nres  @ 370 @ name: actual  @ 257 @ 
+name: ci  @ 480 @ name: ci  @ 423 @ 
+argument  @ 720 @ argument  @ 676 @ 
+if  @ 683 @ if  @ 632 @ 
+name: LUA_USE_LONGJMP  @ 42 @ name: LUA_USE_LONGJMP  @ 51 @ 
+expr  @ 363 @ expr  @ 266 @ 
+operator: ->  @ 372 @ operator: ->  @ 586 @ 
+comment: /* dynamic structure used by the scanner */  @ 675 @ comment: /* dynamic structure used by the scanner */  @ 624 @ 
+expr_stmt  @ 602 @ expr_stmt  @ 557 @ 
+expr  @ 719 @ expr  @ 675 @ 
+expr  @ 178 @ expr  @ 166 @ 
+argument  @ 417 @ argument  @ 309 @ 
+name: L  @ 684 @ name: L  @ 633 @ 
+expr  @ 200 @ expr  @ 183 @ 
+block_content  @ 559 @ block_content  @ 512 @ 
+operator: &&  @ 249 @ operator: &&  @ 219 @ 
+type  @ 384 @ type  @ 393 @ 
+name: L  @ 565 @ name: L  @ 521 @ 
+operator: .  @ 257 @ operator: .  @ 226 @ 
+operator: ->  @ 130 @ operator: ->  @ 126 @ 
+name: L  @ 602 @ name: L  @ 557 @ 
+name  @ 639 @ name  @ 585 @ 
+name: checkstackGCp  @ 440 @ name: adjust_varargs  @ 337 @ 
+name: arr  @ 719 @ name: arr  @ 675 @ 
+name: ci  @ 532 @ name: ci  @ 469 @ 
+name: func  @ 650 @ name: func  @ 595 @ 
+name: lua_assert  @ 169 @ name: lua_assert  @ 164 @ 
+argument  @ 430 @ argument  @ 321 @ 
+name: isLua  @ 156 @ name: isLua  @ 151 @ 
+name: L  @ 220 @ name: L  @ 201 @ 
+expr  @ 231 @ expr  @ 213 @ 
+argument  @ 528 @ argument  @ 466 @ 
+init  @ 176 @ init  @ 167 @ 
+expr  @ 446 @ expr  @ 342 @ 
+expr  @ 490 @ expr  @ 427 @ 
+operator: +  @ 226 @ operator: +  @ 207 @ 
+argument_list  @ 85 @ argument_list  @ 91 @ 
+name: newsize  @ 168 @ name: newsize  @ 189 @ 
+block_content  @ 152 @ block_content  @ 147 @ 
+name: int  @ 552 @ name: int  @ 497 @ 
+call  @ 478 @ call  @ 515 @ 
+argument_list  @ 324 @ argument_list  @ 281 @ 
+type  @ 78 @ type  @ 84 @ 
+argument  @ 81 @ argument  @ 87 @ 
+name: L  @ 626 @ name: L  @ 573 @ 
+expr  @ 586 @ expr  @ 510 @ 
+call  @ 42 @ call  @ 51 @ 
+name: status  @ 604 @ name: status  @ 551 @ 
+if_stmt  @ 227 @ if_stmt  @ 208 @ 
+name  @ 488 @ name  @ 425 @ 
+name: L  @ 352 @ name: L  @ 333 @ 
+directive: include  @ 21 @ directive: include  @ 23 @ 
+argument_list  @ 436 @ argument_list  @ 327 @ 
+operator: -=  @ 542 @ operator: =  @ 486 @ 
+expr  @ 93 @ expr  @ 95 @ 
+type  @ 320 @ type  @ 276 @ 
+expr  @ 226 @ expr  @ 207 @ 
+modifier: *  @ 523 @ modifier: *  @ 461 @ 
+name  @ 714 @ name  @ 670 @ 
+expr_stmt  @ 302 @ expr_stmt  @ 348 @ 
+name: top  @ 396 @ name: top  @ 198 @ 
+argument  @ 478 @ argument  @ 515 @ 
+expr  @ 532 @ expr  @ 469 @ 
+parameter  @ 145 @ parameter  @ 485 @ 
+name: L  @ 716 @ name: L  @ 672 @ 
+operator: =  @ 216 @ operator: =  @ 197 @ 
+operator: (  @ 154 @ operator: (  @ 149 @ 
+name: luai_userstateyield  @ 621 @ name: luai_userstateyield  @ 569 @ 
+comment: /* "finish" luaD_pcall */  @ 527 @ comment: /* "finish" luaD_pcall */  @ 465 @ 
+name: savedpc  @ 312 @ name: savedpc  @ 372 @ 
+name: ud  @ 692 @ name: ud  @ 643 @ 
+expr  @ 396 @ expr  @ 198 @ 
+argument_list  @ 225 @ argument_list  @ 206 @ 
+name: errorJmp  @ 133 @ name: errorJmp  @ 129 @ 
+name  @ 386 @ name  @ 263 @ 
+block_content  @ 198 @ block_content  @ 182 @ 
+name: L  @ 528 @ name: L  @ 466 @ 
+incr  @ 176 @ incr  @ 167 @ 
+call  @ 634 @ call  @ 581 @ 
+name  @ 251 @ name  @ 220 @ 
+name: L  @ 593 @ name: L  @ 539 @ 
+expr_stmt  @ 545 @ expr_stmt  @ 489 @ 
+operator: ++  @ 176 @ operator: ++  @ 167 @ 
+name: L  @ 594 @ name: L  @ 542 @ 
+parameter_list  @ 523 @ parameter_list  @ 461 @ 
+name: StkId  @ 553 @ name: StkId  @ 498 @ 
+name: L  @ 150 @ name: L  @ 145 @ 
+name: top  @ 553 @ name: top  @ 429 @ 
+function  @ 650 @ function  @ 595 @ 
+expr  @ 198 @ expr  @ 182 @ 
+operator: ->  @ 150 @ operator: ->  @ 264 @ 
+parameter_list  @ 128 @ parameter_list  @ 125 @ 
+expr_stmt  @ 465 @ expr_stmt  @ 315 @ 
+operator: <  @ 217 @ operator: <  @ 199 @ 
+name: int  @ 333 @ name: int  @ 258 @ 
+name: top  @ 274 @ name: top  @ 238 @ 
+parameter  @ 54 @ parameter  @ 54 @ 
+call  @ 436 @ call  @ 327 @ 
+name: L  @ 500 @ name: L  @ 438 @ 
+argument  @ 695 @ argument  @ 646 @ 
+name: L  @ 710 @ name: L  @ 442 @ 
+name: LUA_OK  @ 555 @ name: LUA_OK  @ 502 @ 
+return  @ 182 @ return  @ 323 @ 
+condition  @ 657 @ condition  @ 604 @ 
+name: struct  @ 692 @ name: struct  @ 643 @ 
+comment: /* starting a coroutine? */  @ 555 @ comment: /* may be starting a coroutine */  @ 502 @ 
+decl  @ 678 @ decl  @ 627 @ 
+name: int  @ 541 @ name: l_noret  @ 485 @ 
+call  @ 656 @ call  @ 603 @ 
+comment: /* call continuation */  @ 566 @ comment: /* call continuation */  @ 522 @ 
+name: actvar  @ 718 @ name: actvar  @ 674 @ 
+name: savedres  @ 350 @ name: fr  @ 368 @ 
+name: L  @ 608 @ name: L  @ 559 @ 
+name  @ 302 @ name  @ 348 @ 
+name  @ 660 @ name  @ 609 @ 
+name: narg  @ 542 @ name: firstArg  @ 486 @ 
+literal: "text"  @ 699 @ literal: "text"  @ 650 @ 
+expr  @ 718 @ expr  @ 674 @ 
+name: L  @ 554 @ name: L  @ 499 @ 
+expr  @ 79 @ expr  @ 85 @ 
+operator: <=  @ 169 @ operator: <=  @ 164 @ 
+decl  @ 213 @ decl  @ 194 @ 
+name: res  @ 336 @ name: res  @ 382 @ 
+control  @ 176 @ control  @ 167 @ 
+argument_list  @ 274 @ argument_list  @ 238 @ 
+decl  @ 551 @ decl  @ 496 @ 
+call  @ 173 @ call  @ 507 @ 
+init  @ 554 @ init  @ 499 @ 
+expr  @ 455 @ expr  @ 356 @ 
+expr  @ 588 @ expr  @ 395 @ 
+block  @ 79 @ block  @ 85 @ 
+name: void  @ 145 @ name: void  @ 142 @ 
+operator: .  @ 718 @ operator: .  @ 674 @ 
+init  @ 226 @ init  @ 207 @ 
+directive: define  @ 60 @ directive: define  @ 60 @ 
+expr  @ 594 @ expr  @ 542 @ 
+name: int  @ 709 @ name: int  @ 665 @ 
+call  @ 322 @ call  @ 279 @ 
+expr  @ 40 @ expr  @ 49 @ 
+name: L  @ 273 @ name: L  @ 237 @ 
+block  @ 523 @ block  @ 461 @ 
+type  @ 247 @ type  @ 217 @ 
+init  @ 658 @ init  @ 605 @ 
+name: luaG_typeerror  @ 322 @ name: luaG_typeerror  @ 279 @ 
+include  @ 13 @ include  @ 15 @ 
+argument  @ 375 @ argument  @ 171 @ 
+expr  @ 81 @ expr  @ 87 @ 
+name: int  @ 189 @ name: int  @ 181 @ 
+operator: .  @ 136 @ operator: .  @ 134 @ 
+type  @ 370 @ type  @ 257 @ 
+argument  @ 719 @ argument  @ 675 @ 
+parameter  @ 53 @ parameter  @ 53 @ 
+expr  @ 265 @ expr  @ 228 @ 
+return  @ 174 @ return  @ 352 @ 
+name: p  @ 713 @ name: p  @ 669 @ 
+operator: =  @ 134 @ operator: =  @ 130 @ 
+name: int  @ 187 @ name: int  @ 175 @ 
+specifier: static  @ 294 @ specifier: static  @ 257 @ 
+name: luaM_error  @ 173 @ name: luaV_execute  @ 507 @ 
+decl  @ 541 @ decl  @ 567 @ 
+include  @ 11 @ include  @ 10 @ 
+name: L  @ 597 @ name: L  @ 548 @ 
+name: k  @ 564 @ name: k  @ 517 @ 
+name  @ 273 @ name  @ 237 @ 
+operator: ->  @ 483 @ operator: ->  @ 415 @ 
+name: correctstack  @ 178 @ name: luaM_reallocvector  @ 166 @ 
+operator: ->  @ 591 @ operator: ->  @ 394 @ 
+name: errfunc  @ 666 @ name: errfunc  @ 613 @ 
+operator: ->  @ 81 @ operator: ->  @ 87 @ 
+name: EXTRA_STACK  @ 196 @ name: EXTRA_STACK  @ 180 @ 
+name: CIST_TAIL  @ 398 @ name: CIST_TAIL  @ 249 @ 
+type  @ 707 @ type  @ 662 @ 
+call  @ 696 @ call  @ 647 @ 
+name: c  @ 478 @ name: c  @ 411 @ 
+expr  @ 263 @ expr  @ 227 @ 
+expr  @ 608 @ expr  @ 561 @ 
+name: u  @ 639 @ name: u  @ 585 @ 
+expr  @ 595 @ expr  @ 543 @ 
+type  @ 145 @ type  @ 485 @ 
+type  @ 252 @ type  @ 221 @ 
+operator: .  @ 443 @ operator: .  @ 346 @ 
+name: CallInfo  @ 652 @ name: CallInfo  @ 598 @ 
+decl  @ 464 @ decl  @ 393 @ 
+name  @ 216 @ name  @ 197 @ 
+decl_stmt  @ 709 @ decl_stmt  @ 665 @ 
+argument  @ 683 @ argument  @ 632 @ 
+name  @ 588 @ name  @ 395 @ 
+operator: ->  @ 273 @ operator: ->  @ 237 @ 
+name: nresults  @ 404 @ name: nresults  @ 296 @ 
+type  @ 74 @ type  @ 80 @ 
+expr  @ 430 @ expr  @ 321 @ 
+if  @ 481 @ if  @ 413 @ 
+expr  @ 602 @ expr  @ 557 @ 
+expr  @ 640 @ expr  @ 586 @ 
+name: hook  @ 249 @ name: hook  @ 219 @ 
+expr  @ 409 @ expr  @ 303 @ 
+expr_stmt  @ 449 @ expr_stmt  @ 331 @ 
+expr  @ 599 @ expr  @ 549 @ 
+block  @ 481 @ block  @ 413 @ 
+expr_stmt  @ 155 @ expr_stmt  @ 150 @ 
+argument_list  @ 135 @ argument_list  @ 131 @ 
+parameter  @ 187 @ parameter  @ 175 @ 
+name: L  @ 525 @ name: L  @ 463 @ 
+call  @ 427 @ call  @ 318 @ 
+argument  @ 252 @ argument  @ 221 @ 
+if  @ 156 @ if  @ 151 @ 
+operator: ->  @ 93 @ operator: ->  @ 95 @ 
+name  @ 137 @ name  @ 135 @ 
+operator: ->  @ 396 @ operator: ->  @ 198 @ 
+name  @ 711 @ name  @ 667 @ 
+name: l  @ 157 @ name: l  @ 152 @ 
+name: ef  @ 655 @ name: ef  @ 602 @ 
+operator: ->  @ 274 @ operator: ->  @ 238 @ 
+name: luaM_freearray  @ 719 @ name: luaM_freearray  @ 675 @ 
+operator: ->  @ 653 @ operator: ->  @ 599 @ 
+name: ci  @ 216 @ name: ci  @ 197 @ 
+if  @ 217 @ if  @ 199 @ 
+operator: =  @ 638 @ operator: =  @ 584 @ 
+condition  @ 594 @ condition  @ 542 @ 
+name: top  @ 252 @ name: top  @ 221 @ 
+name  @ 482 @ name  @ 414 @ 
+expr  @ 439 @ expr  @ 329 @ 
+name: lua_lock  @ 489 @ name: lua_lock  @ 426 @ 
+block  @ 627 @ block  @ 574 @ 
+argument  @ 178 @ argument  @ 166 @ 
+name  @ 608 @ name  @ 543 @ 
+define  @ 54 @ define  @ 54 @ 
+literal: 1  @ 111 @ literal: 1  @ 111 @ 
+name: L  @ 116 @ name: L  @ 189 @ 
+name: StkId  @ 332 @ name: StkId  @ 326 @ 
+name: savestack  @ 253 @ name: savestack  @ 222 @ 
+argument  @ 627 @ argument  @ 574 @ 
+argument_list  @ 504 @ argument_list  @ 441 @ 
+comment: /* continue running the coroutine */  @ 536 @ comment: /* continue running the coroutine */  @ 476 @ 
+expr  @ 621 @ expr  @ 569 @ 
+if  @ 197 @ if  @ 182 @ 
+else  @ 563 @ else  @ 516 @ 
+call  @ 192 @ call  @ 398 @ 
+expr  @ 605 @ expr  @ 552 @ 
+decl  @ 512 @ decl  @ 451 @ 
+operator: ~  @ 482 @ operator: ~  @ 414 @ 
+modifier: *  @ 147 @ modifier: *  @ 655 @ 
+block_content  @ 581 @ block_content  @ 504 @ 
+name: LUAI_TRY  @ 54 @ name: LUAI_TRY  @ 54 @ 
+name: void  @ 224 @ name: void  @ 205 @ 
+expr_stmt  @ 312 @ expr_stmt  @ 372 @ 
+block  @ 324 @ block  @ 281 @ 
+operator: ->  @ 267 @ operator: ->  @ 231 @ 
+expr_stmt  @ 700 @ expr_stmt  @ 651 @ 
+type  @ 78 @ type  @ 84 @ 
+expr  @ 552 @ expr  @ 497 @ 
+name: hookmask  @ 304 @ name: hookmask  @ 367 @ 
+expr  @ 93 @ expr  @ 95 @ 
+name: currentline  @ 256 @ name: currentline  @ 225 @ 
+name: luaD_rawrunprotected  @ 656 @ name: luaD_rawrunprotected  @ 603 @ 
+type  @ 78 @ type  @ 84 @ 
+include  @ 9 @ include  @ 8 @ 
+argument  @ 625 @ argument  @ 439 @ 
+block_content  @ 691 @ block_content  @ 641 @ 
+name: dyd  @ 713 @ name: dyd  @ 669 @ 
+name  @ 480 @ name  @ 423 @ 
+argument_list  @ 396 @ argument_list  @ 198 @ 
+expr  @ 322 @ expr  @ 279 @ 
+name: setobj2s  @ 326 @ name: setobj2s  @ 284 @ 
+if  @ 638 @ if  @ 584 @ 
+type  @ 541 @ type  @ 485 @ 
+operator: ->  @ 480 @ operator: ->  @ 423 @ 
+parameter  @ 247 @ parameter  @ 217 @ 
+name: buff  @ 700 @ name: buff  @ 651 @ 
+decl  @ 619 @ decl  @ 567 @ 
+name: top  @ 450 @ name: top  @ 345 @ 
+name  @ 170 @ name  @ 165 @ 
+name: name  @ 711 @ name: name  @ 667 @ 
+name: L  @ 450 @ name: L  @ 345 @ 
+name: Cfunc  @ 413 @ name: Cfunc  @ 307 @ 
+expr  @ 176 @ expr  @ 167 @ 
+decl  @ 554 @ decl  @ 499 @ 
+function  @ 224 @ function  @ 205 @ 
+operator: ->  @ 441 @ operator: =  @ 338 @ 
+argument_list  @ 352 @ argument_list  @ 333 @ 
+block  @ 562 @ block  @ 515 @ 
+name: resume_error  @ 541 @ name: resume_error  @ 485 @ 
+operator: .  @ 715 @ operator: .  @ 671 @ 
+argument_list  @ 699 @ argument_list  @ 650 @ 
+name: L  @ 441 @ name: L  @ 340 @ 
+name: luaD_reallocstack  @ 231 @ name: luaD_reallocstack  @ 213 @ 
+expr  @ 429 @ expr  @ 320 @ 
+name: luaD_shrinkstack  @ 224 @ name: luaD_shrinkstack  @ 205 @ 
+name: luaF_close  @ 661 @ name: luaF_close  @ 606 @ 
+operator: ->  @ 178 @ operator: ->  @ 166 @ 
+operator: =  @ 200 @ operator: =  @ 183 @ 
+block  @ 177 @ block  @ 168 @ 
+argument_list  @ 308 @ argument_list  @ 369 @ 
+name: ud  @ 690 @ name: ud  @ 640 @ 
+argument  @ 695 @ argument  @ 646 @ 
+argument  @ 342 @ argument  @ 337 @ 
+name: L  @ 500 @ name: L  @ 436 @ 
+call  @ 692 @ call  @ 643 @ 
+argument_list  @ 702 @ argument_list  @ 653 @ 
+name: msg  @ 543 @ name: msg  @ 487 @ 
+expr  @ 319 @ expr  @ 275 @ 
+name: newstack  @ 154 @ name: stack  @ 149 @ 
+name: g  @ 120 @ name: G  @ 117 @ 
+argument  @ 543 @ argument  @ 487 @ 
+name: c  @ 639 @ name: c  @ 585 @ 
+operator: =  @ 442 @ operator: =  @ 341 @ 
+expr_stmt  @ 487 @ expr_stmt  @ 424 @ 
+expr  @ 252 @ expr  @ 221 @ 
+name: p  @ 719 @ name: p  @ 675 @ 
+decl_stmt  @ 692 @ decl_stmt  @ 643 @ 
+name: L  @ 696 @ name: L  @ 647 @ 
+expr  @ 516 @ expr  @ 455 @ 
+expr  @ 109 @ expr  @ 109 @ 
+operator: ==  @ 555 @ operator: ==  @ 502 @ 
+incr  @ 216 @ incr  @ 197 @ 
+macro  @ 46 @ macro  @ 67 @ 
+name: ci  @ 153 @ name: ci  @ 148 @ 
+operator: =  @ 352 @ operator: =  @ 333 @ 
+expr_stmt  @ 266 @ expr_stmt  @ 230 @ 
+operator: ->  @ 120 @ operator: ->  @ 117 @ 
+operator: =  @ 133 @ operator: =  @ 129 @ 
+specifier: static  @ 512 @ specifier: static  @ 451 @ 
+name: abort  @ 122 @ name: abort  @ 119 @ 
+expr  @ 703 @ expr  @ 657 @ 
+argument  @ 409 @ argument  @ 303 @ 
+name: cl  @ 703 @ name: cl  @ 657 @ 
+name: old_ci  @ 659 @ name: old_ci  @ 608 @ 
+block_content  @ 188 @ block_content  @ 176 @ 
+type  @ 674 @ type  @ 623 @ 
+expr_stmt  @ 711 @ expr_stmt  @ 667 @ 
+comment: /* yielded inside a hook? */  @ 561 @ comment: /* yielded inside a hook? */  @ 514 @ 
+name: unroll  @ 599 @ name: unroll  @ 549 @ 
+expr  @ 578 @ expr  @ 538 @ 
+name: top  @ 111 @ name: top  @ 111 @ 
+name: luaD_seterrorobj  @ 78 @ name: seterrorobj  @ 84 @ 
+name: ci  @ 570 @ name: firstArg  @ 527 @ 
+include  @ 20 @ include  @ 22 @ 
+block  @ 576 @ block  @ 535 @ 
+name: restorestack  @ 273 @ name: restorestack  @ 237 @ 
+expr_stmt  @ 721 @ expr_stmt  @ 349 @ 
+name: arr  @ 718 @ name: arr  @ 674 @ 
+parameter  @ 541 @ parameter  @ 567 @ 
+expr  @ 536 @ expr  @ 476 @ 
+argument  @ 661 @ argument  @ 501 @ 
+expr  @ 528 @ expr  @ 466 @ 
+decl  @ 658 @ decl  @ 605 @ 
+name: L  @ 104 @ name: L  @ 106 @ 
+name: L  @ 717 @ name: L  @ 673 @ 
+name  @ 594 @ name  @ 542 @ 
+name: lua_Hook  @ 248 @ name: lua_Hook  @ 218 @ 
+name: char  @ 707 @ name: char  @ 663 @ 
+name: lua_assert  @ 422 @ name: lua_assert  @ 313 @ 
+name  @ 109 @ name  @ 109 @ 
+type  @ 650 @ type  @ 595 @ 
+argument  @ 486 @ argument  @ 418 @ 
+operator: ->  @ 275 @ operator: ->  @ 239 @ 
+operator: ->  @ 265 @ operator: ->  @ 228 @ 
+expr  @ 531 @ expr  @ 468 @ 
+expr  @ 685 @ expr  @ 635 @ 
+argument  @ 412 @ argument  @ 306 @ 
+expr_stmt  @ 352 @ expr_stmt  @ 333 @ 
+operator: .  @ 718 @ operator: .  @ 674 @ 
+name: int  @ 74 @ name: int  @ 80 @ 
+argument_list  @ 313 @ argument_list  @ 467 @ 
+parameter  @ 54 @ parameter  @ 54 @ 
+name: lua_unlock  @ 644 @ name: lua_unlock  @ 590 @ 
+expr  @ 554 @ expr  @ 499 @ 
+function  @ 166 @ function  @ 161 @ 
+expr  @ 700 @ expr  @ 651 @ 
+expr  @ 683 @ expr  @ 632 @ 
+block_content  @ 217 @ block_content  @ 199 @ 
+operator: ->  @ 136 @ operator: ->  @ 134 @ 
+decl_stmt  @ 675 @ decl_stmt  @ 624 @ 
+name: mode  @ 682 @ name: mode  @ 631 @ 
+operator: =  @ 109 @ operator: =  @ 109 @ 
+operator: ->  @ 566 @ operator: ->  @ 522 @ 
+decl_stmt  @ 691 @ decl_stmt  @ 642 @ 
+argument  @ 416 @ argument  @ 329 @ 
+name: needed  @ 196 @ name: needed  @ 180 @ 
+operator: ->  @ 606 @ operator: ->  @ 553 @ 
+expr  @ 467 @ expr  @ 402 @ 
+name: oldtop  @ 313 @ name: oldtop  @ 467 @ 
+operator: =  @ 566 @ operator: =  @ 522 @ 
+name  @ 134 @ name  @ 130 @ 
+name: ci  @ 273 @ name: ci  @ 237 @ 
+name  @ 170 @ name  @ 165 @ 
+expr  @ 715 @ expr  @ 671 @ 
+directive: include  @ 27 @ directive: include  @ 29 @ 
+expr  @ 700 @ expr  @ 651 @ 
+operator: >  @ 201 @ operator: >  @ 184 @ 
+name: luaD_seterrorobj  @ 531 @ name: seterrorobj  @ 468 @ 
+argument_list  @ 40 @ argument_list  @ 49 @ 
+decl  @ 476 @ decl  @ 410 @ 
+operator: =  @ 716 @ operator: =  @ 672 @ 
+name: base_ci  @ 580 @ name: base_ci  @ 503 @ 
+operator: =  @ 312 @ operator: =  @ 372 @ 
+operator: .  @ 718 @ operator: .  @ 674 @ 
+decl  @ 709 @ decl  @ 665 @ 
+operator: .  @ 713 @ operator: .  @ 669 @ 
+literal: 0  @ 713 @ literal: 0  @ 669 @ 
+argument  @ 696 @ argument  @ 647 @ 
+type  @ 523 @ type  @ 461 @ 
+parameter  @ 523 @ parameter  @ 461 @ 
+name: top  @ 542 @ name: top  @ 486 @ 
+name: ci  @ 156 @ name: ci  @ 151 @ 
+name: ci  @ 643 @ name: ci  @ 589 @ 
+parameter  @ 682 @ parameter  @ 631 @ 
+init  @ 553 @ init  @ 498 @ 
+argument_list  @ 270 @ argument_list  @ 234 @ 
+name: L  @ 102 @ name: L  @ 104 @ 
+expr_stmt  @ 565 @ expr_stmt  @ 521 @ 
+name: ci  @ 486 @ name: ci  @ 418 @ 
+modifier: *  @ 707 @ modifier: *  @ 662 @ 
+type  @ 576 @ type  @ 535 @ 
+name: s2v  @ 436 @ name: clLvalue  @ 327 @ 
+name: L  @ 93 @ name: L  @ 95 @ 
+init  @ 525 @ init  @ 463 @ 
+operator: ->  @ 543 @ operator: ->  @ 487 @ 
+name  @ 543 @ name  @ 487 @ 
+parameter  @ 331 @ parameter  @ 257 @ 
+argument  @ 624 @ argument  @ 571 @ 
+name: findpcall  @ 525 @ name: findpcall  @ 463 @ 
+type  @ 614 @ type  @ 408 @ 
+include  @ 10 @ include  @ 9 @ 
+argument  @ 699 @ argument  @ 650 @ 
+call  @ 263 @ call  @ 227 @ 
+operator: =  @ 483 @ operator: =  @ 415 @ 
+name: L  @ 216 @ name: L  @ 197 @ 
+expr_stmt  @ 324 @ expr_stmt  @ 281 @ 
+name: L  @ 551 @ name: L  @ 496 @ 
+name: top  @ 422 @ name: top  @ 313 @ 
+directive: define  @ 4 @ directive: define  @ 13 @ 
+modifier: *  @ 576 @ modifier: *  @ 535 @ 
+operator: &  @ 134 @ operator: &  @ 130 @ 
+name: L  @ 625 @ name: L  @ 439 @ 
+operator: =  @ 713 @ operator: =  @ 669 @ 
+type  @ 707 @ type  @ 663 @ 
+argument  @ 436 @ argument  @ 327 @ 
+name: func  @ 437 @ name: func  @ 328 @ 
+call  @ 567 @ call  @ 523 @ 
+comment: /* unroll continuation */  @ 598 @ comment: /* recover point? */  @ 548 @ 
+operator: .  @ 712 @ operator: .  @ 668 @ 
+operator: .  @ 535 @ operator: .  @ 473 @ 
+operator: ->  @ 475 @ operator: ->  @ 409 @ 
+argument_list  @ 268 @ argument_list  @ 232 @ 
+name: ci  @ 282 @ name: ci  @ 420 @ 
+expr_stmt  @ 715 @ expr_stmt  @ 671 @ 
+name: int  @ 213 @ name: int  @ 194 @ 
+name: luaV_execute  @ 451 @ name: callhook  @ 351 @ 
+argument  @ 570 @ argument  @ 527 @ 
+name: u2  @ 528 @ name: extra  @ 466 @ 
+name: StkId  @ 145 @ name: StkId  @ 485 @ 
+decl  @ 145 @ decl  @ 485 @ 
+operator: <  @ 176 @ operator: <  @ 167 @ 
+name: func  @ 155 @ name: func  @ 150 @ 
+decl  @ 525 @ decl  @ 463 @ 
+call  @ 719 @ call  @ 675 @ 
+expr  @ 425 @ expr  @ 317 @ 
+argument  @ 220 @ argument  @ 201 @ 
+name  @ 215 @ name  @ 196 @ 
+name: L  @ 695 @ name: L  @ 646 @ 
+name: p  @ 299 @ name: p  @ 332 @ 
+expr  @ 85 @ expr  @ 91 @ 
+operator: <=  @ 450 @ operator: <=  @ 345 @ 
+argument  @ 209 @ argument  @ 166 @ 
+name: L  @ 107 @ name: L  @ 110 @ 
+argument  @ 111 @ argument  @ 111 @ 
+name: int  @ 187 @ name: int  @ 296 @ 
+block_content  @ 93 @ block_content  @ 95 @ 
+type  @ 131 @ type  @ 127 @ 
+type  @ 476 @ type  @ 410 @ 
+decl_stmt  @ 332 @ decl_stmt  @ 326 @ 
+name: ERRORSTACKSIZE  @ 163 @ name: ERRORSTACKSIZE  @ 158 @ 
+name: newsize  @ 180 @ name: newsize  @ 169 @ 
+operator: ==  @ 683 @ operator: ==  @ 632 @ 
+parameter  @ 45 @ parameter  @ 66 @ 
+call  @ 570 @ call  @ 527 @ 
+name  @ 138 @ name  @ 136 @ 
+name: L  @ 103 @ name: L  @ 105 @ 
+type  @ 553 @ type  @ 498 @ 
+break  @ 86 @ break  @ 92 @ 
+expr_stmt  @ 420 @ expr_stmt  @ 312 @ 
+name: newstack  @ 152 @ name: stack  @ 147 @ 
+expr  @ 192 @ expr  @ 398 @ 
+argument_list  @ 710 @ argument_list  @ 442 @ 
+name: ci  @ 580 @ name: ci  @ 436 @ 
+name  @ 252 @ name  @ 221 @ 
+expr  @ 718 @ expr  @ 674 @ 
+type  @ 386 @ type  @ 259 @ 
+name: L  @ 541 @ name: L  @ 485 @ 
+name: ci  @ 525 @ name: ci  @ 463 @ 
+decl_stmt  @ 554 @ decl_stmt  @ 499 @ 
+comment: /* mark thread as 'dead' */  @ 604 @ comment: /* mark thread as `dead' */  @ 551 @ 
+name: yieldable  @ 615 @ name: luaF_newupval  @ 655 @ 
+name: mode  @ 699 @ name: mode  @ 650 @ 
+expr  @ 252 @ expr  @ 221 @ 
+expr  @ 196 @ expr  @ 180 @ 
+block  @ 247 @ block  @ 217 @ 
+block  @ 407 @ block  @ 301 @ 
+name: L  @ 514 @ name: L  @ 453 @ 
+parameter  @ 318 @ parameter  @ 274 @ 
+case  @ 80 @ case  @ 86 @ 
+name: errfunc  @ 535 @ name: errfunc  @ 473 @ 
+operator: ->  @ 150 @ operator: ->  @ 145 @ 
+argument  @ 104 @ argument  @ 106 @ 
+literal: 1  @ 594 @ literal: 1  @ 542 @ 
+name: hookmask  @ 371 @ name: hookmask  @ 366 @ 
+operator: ~  @ 275 @ operator: ~  @ 239 @ 
+name: EXTRA_STACK  @ 181 @ name: EXTRA_STACK  @ 170 @ 
+name: label  @ 720 @ name: label  @ 676 @ 
+parameter  @ 707 @ parameter  @ 663 @ 
+name: api_checknelems  @ 624 @ name: api_checknelems  @ 571 @ 
+call  @ 271 @ call  @ 235 @ 
+name  @ 420 @ name  @ 312 @ 
+block  @ 157 @ block  @ 152 @ 
+name: L  @ 151 @ name: L  @ 146 @ 
+call  @ 683 @ call  @ 632 @ 
+type  @ 60 @ type  @ 60 @ 
+name: nCcalls  @ 590 @ name: nCcalls  @ 404 @ 
+expr  @ 178 @ expr  @ 166 @ 
+operator: =  @ 606 @ operator: =  @ 553 @ 
+condition  @ 190 @ condition  @ 177 @ 
+argument  @ 683 @ argument  @ 632 @ 
+type  @ 53 @ type  @ 53 @ 
+operator: ==  @ 602 @ operator: ==  @ 557 @ 
+name: status  @ 709 @ name: status  @ 665 @ 
+argument_list  @ 632 @ argument_list  @ 580 @ 
+expr  @ 543 @ expr  @ 487 @ 
+expr  @ 216 @ expr  @ 197 @ 
+argument_list  @ 490 @ argument_list  @ 427 @ 
+decl_stmt  @ 652 @ decl_stmt  @ 598 @ 
+name: top  @ 150 @ name: top  @ 145 @ 
+block  @ 216 @ block  @ 197 @ 
+type  @ 101 @ type  @ 103 @ 
+name: StkId  @ 318 @ name: StkId  @ 274 @ 
+type  @ 215 @ type  @ 196 @ 
+name: G  @ 626 @ name: G  @ 573 @ 
+expr  @ 168 @ expr  @ 189 @ 
+name: L  @ 53 @ name: L  @ 53 @ 
+expr  @ 172 @ expr  @ 166 @ 
+expr  @ 578 @ expr  @ 538 @ 
+call  @ 308 @ call  @ 369 @ 
+operator: )  @ 150 @ operator: )  @ 145 @ 
+name: void  @ 247 @ name: void  @ 217 @ 
+name: ci  @ 488 @ name: ci  @ 425 @ 
+name: nResults  @ 464 @ name: nResults  @ 393 @ 
+expr  @ 599 @ expr  @ 549 @ 
+block_content  @ 167 @ block_content  @ 162 @ 
+name: luaD_seterrorobj  @ 605 @ name: seterrorobj  @ 552 @ 
+operator: ->  @ 481 @ operator: ->  @ 413 @ 
+name: old_errfunc  @ 535 @ name: old_errfunc  @ 473 @ 
+block_content  @ 684 @ block_content  @ 633 @ 
+operator: &=  @ 275 @ operator: &=  @ 239 @ 
+type  @ 283 @ type  @ 257 @ 
+condition  @ 564 @ condition  @ 517 @ 
+name: L  @ 153 @ name: L  @ 148 @ 
+expr  @ 216 @ expr  @ 197 @ 
+name: L  @ 531 @ name: L  @ 468 @ 
+return  @ 516 @ return  @ 455 @ 
+argument  @ 581 @ argument  @ 504 @ 
+modifier: *  @ 318 @ modifier: *  @ 274 @ 
+parameter  @ 294 @ parameter  @ 362 @ 
+call  @ 428 @ call  @ 319 @ 
+operator: =  @ 412 @ operator: =  @ 306 @ 
+expr  @ 699 @ expr  @ 650 @ 
+expr_stmt  @ 714 @ expr_stmt  @ 670 @ 
+name: Dyndata  @ 676 @ name: Dyndata  @ 625 @ 
+name: char  @ 677 @ name: char  @ 626 @ 
+name: L  @ 654 @ name: L  @ 601 @ 
+decl_stmt  @ 414 @ decl_stmt  @ 299 @ 
+type  @ 650 @ type  @ 595 @ 
+argument_list  @ 469 @ argument_list  @ 282 @ 
+expr  @ 483 @ expr  @ 415 @ 
+block  @ 551 @ block  @ 496 @ 
+expr_stmt  @ 695 @ expr_stmt  @ 646 @ 
+expr  @ 205 @ expr  @ 186 @ 
+name: cl  @ 702 @ name: cl  @ 653 @ 
+expr  @ 220 @ expr  @ 201 @ 
+expr  @ 531 @ expr  @ 468 @ 
+name: L  @ 560 @ name: L  @ 512 @ 
+name: ci  @ 214 @ name: ci  @ 195 @ 
+name: errfunc  @ 655 @ name: errfunc  @ 602 @ 
+name: nCcalls  @ 137 @ name: nCcalls  @ 135 @ 
+comment: /* complete missing arguments */  @ 449 @ comment: /* stack grow uses memory */  @ 349 @ 
+expr_stmt  @ 132 @ expr_stmt  @ 128 @ 
+name: c  @ 54 @ name: c  @ 54 @ 
+decl  @ 708 @ decl  @ 664 @ 
+condition  @ 585 @ condition  @ 509 @ 
+parameter  @ 619 @ parameter  @ 567 @ 
+case  @ 434 @ case  @ 325 @ 
+decl  @ 147 @ decl  @ 144 @ 
+name  @ 111 @ name  @ 111 @ 
+argument  @ 313 @ argument  @ 467 @ 
+argument  @ 710 @ argument  @ 442 @ 
+name: luai_jmpbuf  @ 48 @ name: luai_jmpbuf  @ 68 @ 
+name: L  @ 319 @ name: L  @ 275 @ 
+expr  @ 427 @ expr  @ 318 @ 
+name: savedres  @ 352 @ name: funcr  @ 333 @ 
+name: name  @ 711 @ name: name  @ 667 @ 
+name: errcode  @ 101 @ name: errcode  @ 103 @ 
+name  @ 532 @ name  @ 469 @ 
+block_content  @ 564 @ block_content  @ 517 @ 
+argument  @ 720 @ argument  @ 676 @ 
+argument_list  @ 169 @ argument_list  @ 164 @ 
+expr  @ 275 @ expr  @ 239 @ 
+type  @ 318 @ type  @ 274 @ 
+name: L  @ 465 @ name: L  @ 315 @ 
+expr  @ 440 @ expr  @ 337 @ 
+expr  @ 504 @ expr  @ 441 @ 
+name  @ 683 @ name  @ 632 @ 
+file: "lapi.h"  @ 15 @ file: "lapi.h"  @ 17 @ 
+argument  @ 716 @ argument  @ 672 @ 
+operator: |=  @ 398 @ operator: |=  @ 249 @ 
+expr  @ 373 @ expr  @ 376 @ 
+name: L  @ 230 @ name: L  @ 210 @ 
+argument  @ 273 @ argument  @ 237 @ 
+name: callstatus  @ 275 @ name: callstatus  @ 239 @ 
+name: n  @ 187 @ name: n  @ 175 @ 
+function  @ 145 @ function  @ 142 @ 
+operator: &  @ 715 @ operator: &  @ 671 @ 
+include  @ 18 @ include  @ 20 @ 
+name: L  @ 425 @ name: L  @ 317 @ 
+name: ar  @ 256 @ name: ar  @ 225 @ 
+block_content  @ 552 @ block_content  @ 497 @ 
+expr_stmt  @ 409 @ expr_stmt  @ 303 @ 
+argument  @ 440 @ argument  @ 311 @ 
+type  @ 60 @ type  @ 60 @ 
+name: k  @ 478 @ name: k  @ 411 @ 
+expr  @ 629 @ expr  @ 576 @ 
+argument  @ 634 @ argument  @ 581 @ 
+operator: .  @ 718 @ operator: .  @ 674 @ 
+name: errorstatus  @ 597 @ name: status  @ 545 @ 
+name: top  @ 265 @ name: top  @ 228 @ 
+call  @ 595 @ call  @ 543 @ 
+name: u  @ 535 @ name: u  @ 473 @ 
+name: trap  @ 157 @ name: base  @ 152 @ 
+name: luai_jmpbuf  @ 62 @ name: luai_jmpbuf  @ 62 @ 
+call  @ 528 @ call  @ 466 @ 
+argument  @ 425 @ argument  @ 317 @ 
+name  @ 336 @ name  @ 382 @ 
+argument_list  @ 85 @ argument_list  @ 91 @ 
+name: label  @ 720 @ name: label  @ 676 @ 
+type  @ 331 @ type  @ 364 @ 
+argument_list  @ 615 @ argument_list  @ 655 @ 
+name  @ 450 @ name  @ 345 @ 
+decl  @ 251 @ decl  @ 220 @ 
+name: size  @ 190 @ name: size  @ 177 @ 
+name: firstArg  @ 553 @ name: firstArg  @ 498 @ 
+expr  @ 42 @ expr  @ 51 @ 
+name  @ 590 @ name  @ 404 @ 
+name: L  @ 542 @ name: L  @ 486 @ 
+modifier: *  @ 128 @ modifier: *  @ 125 @ 
+expr  @ 556 @ expr  @ 506 @ 
+expr  @ 84 @ expr  @ 90 @ 
+block_content  @ 455 @ block_content  @ 355 @ 
+name: L  @ 78 @ name: L  @ 84 @ 
+name: u  @ 483 @ name: u  @ 415 @ 
+block_content  @ 173 @ block_content  @ 507 @ 
+expr_stmt  @ 711 @ expr_stmt  @ 667 @ 
+name: L  @ 580 @ name: L  @ 436 @ 
+type  @ 653 @ type  @ 599 @ 
+argument_list  @ 231 @ argument_list  @ 213 @ 
+type  @ 214 @ type  @ 195 @ 
+directive: include  @ 23 @ directive: include  @ 25 @ 
+name: luaD_reallocstack  @ 209 @ name: luaD_reallocstack  @ 189 @ 
+if  @ 625 @ if  @ 572 @ 
+name: L  @ 626 @ name: L  @ 573 @ 
+argument  @ 269 @ argument  @ 233 @ 
+call  @ 632 @ call  @ 580 @ 
+operator: ->  @ 248 @ operator: ->  @ 218 @ 
+name: ci  @ 153 @ name: ci  @ 148 @ 
+name: api_checknelems  @ 594 @ name: api_checknelems  @ 542 @ 
+expr  @ 196 @ expr  @ 180 @ 
+expr  @ 85 @ expr  @ 91 @ 
+expr_stmt  @ 489 @ expr_stmt  @ 426 @ 
+argument  @ 375 @ argument  @ 579 @ 
+expr  @ 713 @ expr  @ 669 @ 
+operator: =  @ 441 @ operator: =  @ 340 @ 
+name: L  @ 608 @ name: from  @ 561 @ 
+operator: =  @ 640 @ operator: =  @ 586 @ 
+name: L  @ 417 @ name: L  @ 309 @ 
+name: i  @ 361 @ name: i  @ 266 @ 
+argument_list  @ 644 @ argument_list  @ 590 @ 
+name  @ 136 @ name  @ 134 @ 
+expr  @ 656 @ expr  @ 603 @ 
+name: int  @ 370 @ name: int  @ 257 @ 
+expr  @ 440 @ expr  @ 337 @ 
+name: allowhook  @ 653 @ name: allowhook  @ 599 @ 
+name: lim  @ 167 @ name: lim  @ 163 @ 
+name: p  @ 715 @ name: p  @ 671 @ 
+function  @ 213 @ function  @ 194 @ 
+name: nresults  @ 621 @ name: nresults  @ 569 @ 
+include  @ 26 @ include  @ 28 @ 
+default  @ 454 @ default  @ 354 @ 
+name: L  @ 322 @ name: L  @ 279 @ 
+name: nresults  @ 442 @ name: nresults  @ 341 @ 
+name: int  @ 439 @ name: n  @ 330 @ 
+expr_stmt  @ 228 @ expr_stmt  @ 208 @ 
+type  @ 693 @ type  @ 644 @ 
+name: L  @ 590 @ name: L  @ 404 @ 
+decl_stmt  @ 350 @ decl_stmt  @ 368 @ 
+argument  @ 593 @ argument  @ 539 @ 
+call  @ 469 @ call  @ 282 @ 
+name: top  @ 253 @ name: top  @ 222 @ 
+name: L  @ 130 @ name: L  @ 126 @ 
+type  @ 166 @ type  @ 362 @ 
+condition  @ 407 @ condition  @ 301 @ 
+name: tm  @ 326 @ name: tm  @ 284 @ 
+name  @ 275 @ name  @ 239 @ 
+name: api_incr_top  @ 544 @ name: api_incr_top  @ 488 @ 
+parameter  @ 496 @ parameter  @ 433 @ 
+expr  @ 564 @ expr  @ 517 @ 
+name  @ 591 @ name  @ 394 @ 
+macro  @ 3 @ macro  @ 12 @ 
+call  @ 627 @ call  @ 574 @ 
+name: L  @ 97 @ name: L  @ 99 @ 
+decl  @ 576 @ decl  @ 535 @ 
+call  @ 85 @ call  @ 91 @ 
+name: dyd  @ 700 @ name: dyd  @ 651 @ 
+parameter_list  @ 707 @ parameter_list  @ 662 @ 
+name  @ 533 @ name  @ 470 @ 
+expr  @ 661 @ expr  @ 501 @ 
+operator: =  @ 712 @ operator: =  @ 668 @ 
+operator: +  @ 420 @ operator: +  @ 312 @ 
+decl  @ 650 @ decl  @ 595 @ 
+block  @ 526 @ block  @ 464 @ 
+name: L  @ 532 @ name: L  @ 469 @ 
+name: L  @ 359 @ name: L  @ 145 @ 
+name: L  @ 622 @ name: L  @ 570 @ 
+name: u  @ 151 @ name: gch  @ 146 @ 
+argument  @ 684 @ argument  @ 634 @ 
+argument  @ 643 @ argument  @ 589 @ 
+block_content  @ 542 @ block_content  @ 486 @ 
+name  @ 151 @ name  @ 146 @ 
+name: L  @ 491 @ name: L  @ 429 @ 
+expr  @ 116 @ expr  @ 189 @ 
+name: dyd  @ 712 @ name: dyd  @ 668 @ 
+init  @ 693 @ init  @ 644 @ 
+name: lua_longjmp  @ 72 @ name: lua_longjmp  @ 78 @ 
+name: p  @ 718 @ name: p  @ 674 @ 
+name: unlikely  @ 625 @ name: L  @ 572 @ 
+name: k  @ 488 @ name: k  @ 425 @ 
+name: top  @ 437 @ name: top  @ 328 @ 
+name: EXTRA_STACK  @ 170 @ name: EXTRA_STACK  @ 165 @ 
+expr_stmt  @ 268 @ expr_stmt  @ 232 @ 
+argument_list  @ 721 @ argument_list  @ 349 @ 
+argument  @ 192 @ argument  @ 398 @ 
+name: L  @ 716 @ name: L  @ 672 @ 
+name: ci  @ 216 @ name: ci  @ 197 @ 
+argument  @ 572 @ argument  @ 529 @ 
+operator: ->  @ 605 @ operator: ->  @ 552 @ 
+block_content  @ 424 @ block_content  @ 317 @ 
+init  @ 514 @ init  @ 453 @ 
+operator: -  @ 437 @ operator: -  @ 328 @ 
+expr  @ 274 @ expr  @ 238 @ 
+operator: &  @ 700 @ operator: &  @ 651 @ 
+name: oldstack  @ 145 @ name: oldstack  @ 142 @ 
+name: func  @ 309 @ name: func  @ 513 @ 
+call  @ 684 @ call  @ 633 @ 
+operator: ->  @ 444 @ operator: ->  @ 314 @ 
+modifier: *  @ 525 @ modifier: *  @ 463 @ 
+name: nCcalls  @ 588 @ name: nCcalls  @ 395 @ 
+name: luai_jmpbuf  @ 55 @ name: luai_jmpbuf  @ 56 @ 
+block_content  @ 206 @ block_content  @ 189 @ 
+type  @ 224 @ type  @ 205 @ 
+control  @ 514 @ control  @ 453 @ 
+expr_stmt  @ 263 @ expr_stmt  @ 227 @ 
+name: L  @ 170 @ name: L  @ 165 @ 
+name: L  @ 423 @ name: L  @ 316 @ 
+argument_list  @ 81 @ argument_list  @ 87 @ 
+macro  @ 135 @ macro  @ 131 @ 
+name: arr  @ 720 @ name: arr  @ 676 @ 
+expr  @ 634 @ expr  @ 581 @ 
+expr  @ 531 @ expr  @ 468 @ 
+expr  @ 365 @ expr  @ 265 @ 
+name: luaZ_initbuffer  @ 715 @ name: luaZ_initbuffer  @ 671 @ 
+name: L  @ 196 @ name: L  @ 180 @ 
+expr  @ 533 @ expr  @ 470 @ 
+name: status  @ 716 @ name: status  @ 672 @ 
+decl  @ 523 @ decl  @ 461 @ 
+type  @ 318 @ type  @ 274 @ 
+name: L  @ 456 @ name: L  @ 355 @ 
+expr_stmt  @ 290 @ expr_stmt  @ 253 @ 
+expr_stmt  @ 578 @ expr_stmt  @ 538 @ 
+call  @ 109 @ call  @ 109 @ 
+decl  @ 78 @ decl  @ 84 @ 
+operator: .  @ 717 @ operator: .  @ 673 @ 
+argument_list  @ 570 @ argument_list  @ 527 @ 
+expr  @ 663 @ expr  @ 607 @ 
+expr  @ 449 @ expr  @ 331 @ 
+name: top  @ 93 @ name: top  @ 95 @ 
+operator: ->  @ 500 @ operator: ->  @ 436 @ 
+operator: ->  @ 655 @ operator: ->  @ 602 @ 
+argument_list  @ 599 @ argument_list  @ 549 @ 
+argument_list  @ 556 @ argument_list  @ 506 @ 
+name: func  @ 416 @ name: func  @ 279 @ 
+expr  @ 269 @ expr  @ 233 @ 
+expr  @ 468 @ expr  @ 401 @ 
+argument  @ 135 @ argument  @ 132 @ 
+operator: ->  @ 418 @ operator: ->  @ 310 @ 
+name: stackinuse  @ 225 @ name: stackinuse  @ 206 @ 
+argument_list  @ 427 @ argument_list  @ 318 @ 
+name  @ 196 @ name  @ 180 @ 
+expr_stmt  @ 529 @ expr_stmt  @ 467 @ 
+literal: 1  @ 272 @ literal: 1  @ 236 @ 
+expr  @ 543 @ expr  @ 487 @ 
+parameter_list  @ 619 @ parameter_list  @ 567 @ 
+argument  @ 120 @ argument  @ 117 @ 
+if  @ 423 @ if  @ 316 @ 
+expr  @ 326 @ expr  @ 284 @ 
+expr  @ 251 @ expr  @ 220 @ 
+comment: /* must be inside a hook */  @ 643 @ comment: /* must be inside a hook */  @ 589 @ 
+argument  @ 205 @ argument  @ 186 @ 
+operator: !=  @ 657 @ operator: !=  @ 604 @ 
+name: k  @ 638 @ name: k  @ 584 @ 
+macro  @ 61 @ macro  @ 61 @ 
+name: lua_lock  @ 429 @ name: lua_lock  @ 320 @ 
+type  @ 61 @ type  @ 61 @ 
+name: savestack  @ 350 @ name: savestack  @ 368 @ 
+expr  @ 715 @ expr  @ 671 @ 
+type  @ 475 @ type  @ 409 @ 
+expr  @ 719 @ expr  @ 675 @ 
+expr  @ 325 @ expr  @ 283 @ 
+argument  @ 478 @ argument  @ 411 @ 
+operator: ->  @ 103 @ operator: ->  @ 105 @ 
+macro  @ 54 @ macro  @ 54 @ 
+operator: &  @ 481 @ operator: &  @ 413 @ 
+operator: ->  @ 652 @ operator: ->  @ 598 @ 
+operator: =  @ 713 @ operator: =  @ 669 @ 
+file: "lopcodes.h"  @ 22 @ file: "lopcodes.h"  @ 24 @ 
+type  @ 45 @ type  @ 66 @ 
+expr_stmt  @ 631 @ expr_stmt  @ 578 @ 
+specifier: static  @ 331 @ specifier: static  @ 244 @ 
+operator: ->  @ 302 @ operator: ->  @ 348 @ 
+argument  @ 480 @ argument  @ 412 @ 
+name  @ 373 @ name  @ 376 @ 
+parameter  @ 78 @ parameter  @ 84 @ 
+name: status  @ 602 @ name: status  @ 557 @ 
+parameter  @ 46 @ parameter  @ 67 @ 
+block  @ 92 @ block  @ 94 @ 
+name: int  @ 282 @ name: int  @ 245 @ 
+block  @ 224 @ block  @ 205 @ 
+name: L  @ 543 @ name: L  @ 487 @ 
+operator: .  @ 443 @ operator: .  @ 346 @ 
+type  @ 213 @ type  @ 194 @ 
+operator: &  @ 515 @ operator: &  @ 454 @ 
+expr  @ 604 @ expr  @ 551 @ 
+name: mode  @ 695 @ name: mode  @ 646 @ 
+if_stmt  @ 423 @ if_stmt  @ 316 @ 
+expr  @ 504 @ expr  @ 441 @ 
+name: LUAI_MAXSTACK  @ 228 @ name: LUAI_MAXSTACK  @ 208 @ 
+expr  @ 684 @ expr  @ 633 @ 
+name  @ 398 @ name  @ 249 @ 
+expr_stmt  @ 609 @ expr_stmt  @ 562 @ 
+name: ci  @ 288 @ name: ci  @ 246 @ 
+name: L  @ 535 @ name: L  @ 473 @ 
+expr_stmt  @ 629 @ expr_stmt  @ 576 @ 
+if_stmt  @ 564 @ if_stmt  @ 517 @ 
+name: previous  @ 373 @ name: previous  @ 376 @ 
+comment: /* thread has an error handler? */  @ 102 @ comment: /* thread has an error handler? */  @ 104 @ 
+name: int  @ 166 @ name: int  @ 362 @ 
+condition  @ 204 @ condition  @ 184 @ 
+argument  @ 170 @ argument  @ 165 @ 
+name: lim  @ 176 @ name: lim  @ 167 @ 
+call  @ 699 @ call  @ 650 @ 
+parameter  @ 61 @ parameter  @ 61 @ 
+if_stmt  @ 321 @ if_stmt  @ 278 @ 
+name: c  @ 61 @ name: c  @ 61 @ 
+modifier: *  @ 101 @ modifier: *  @ 103 @ 
+expr  @ 591 @ expr  @ 394 @ 
+name: oldtop  @ 531 @ name: oldtop  @ 468 @ 
+name  @ 693 @ name  @ 644 @ 
+name: sizeupvalues  @ 702 @ name: sizeupvalues  @ 653 @ 
+expr  @ 102 @ expr  @ 104 @ 
+init  @ 151 @ init  @ 146 @ 
+operator: ->  @ 309 @ operator: ->  @ 513 @ 
+expr  @ 177 @ expr  @ 168 @ 
+expr  @ 134 @ expr  @ 130 @ 
+name: k  @ 566 @ name: k  @ 522 @ 
+operator: =  @ 599 @ operator: =  @ 549 @ 
+decl  @ 650 @ decl  @ 595 @ 
+name: L  @ 466 @ name: L  @ 211 @ 
+block  @ 318 @ block  @ 274 @ 
+expr  @ 156 @ expr  @ 151 @ 
+expr  @ 111 @ expr  @ 111 @ 
+name: L  @ 455 @ name: L  @ 356 @ 
+call  @ 319 @ call  @ 275 @ 
+argument  @ 350 @ argument  @ 368 @ 
+block  @ 423 @ block  @ 317 @ 
+name: lua_KFunction  @ 619 @ name: lua_CFunction  @ 567 @ 
+name: p  @ 324 @ name: p  @ 281 @ 
+name: msg  @ 541 @ name: msg  @ 485 @ 
+name: nargs  @ 593 @ name: nargs  @ 539 @ 
+name: old_allowhooks  @ 653 @ name: old_allowhooks  @ 599 @ 
+literal: "error in error handling"  @ 85 @ literal: "error in error handling"  @ 91 @ 
+name: narg1  @ 384 @ name: allowyield  @ 393 @ 
+comment: /* finish 'luaD_call' */  @ 570 @ comment: /* finish 'luaD_precall' */  @ 527 @ 
+expr  @ 700 @ expr  @ 651 @ 
+name: TM_CALL  @ 319 @ name: TM_CALL  @ 275 @ 
+modifier: *  @ 692 @ modifier: *  @ 643 @ 
+argument  @ 440 @ argument  @ 356 @ 
+block_content  @ 319 @ block_content  @ 275 @ 
+literal: 0  @ 526 @ literal: 0  @ 464 @ 
+operator: =  @ 712 @ operator: =  @ 668 @ 
+parameter  @ 145 @ parameter  @ 142 @ 
+name: cast  @ 552 @ name: L  @ 497 @ 
+name: func  @ 468 @ name: func  @ 401 @ 
+name: correctstack  @ 145 @ name: correctstack  @ 142 @ 
+argument_list  @ 502 @ argument_list  @ 370 @ 
+name: L  @ 656 @ name: L  @ 603 @ 
+

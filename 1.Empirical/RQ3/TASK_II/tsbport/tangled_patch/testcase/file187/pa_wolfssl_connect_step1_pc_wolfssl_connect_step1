@@ -1,0 +1,374 @@
+argument  @ 19 @ argument  @ 21 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+case  @ 26 @ case  @ 28 @ 
+directive: ifdef  @ 230 @ directive: ifdef  @ 276 @ 
+decl  @ 10 @ decl  @ 12 @ 
+define  @ 13 @ define  @ 13 @ 
+expr  @ 234 @ expr  @ 280 @ 
+expr  @ 6 @ expr  @ 8 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 8 @ 
+comment: /* Check if there's a cached ID we can/should use here! */  @ 247 @ comment: /* Check if there's a cached ID we can/should use here! */  @ 287 @ 
+argument_list  @ 234 @ argument_list  @ 280 @ 
+expr  @ 234 @ expr  @ 280 @ 
+literal: "wolfSSL does not support to set maximum SSL/TLS version"  @ 20 @ literal: "wolfSSL does not support to set maximum SSL/TLS version"  @ 22 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: connssl  @ 5 @ name: connssl  @ 7 @ 
+name: backend  @ 6 @ name: backend  @ 8 @ 
+type  @ 7 @ type  @ 9 @ 
+endif  @ 238 @ endif  @ 262 @ 
+directive: ifdef  @ 9 @ directive: ifdef  @ 11 @ 
+condition  @ 16 @ condition  @ 18 @ 
+literal: ';
+
+    /* wolfSSL'  @ 209 @ literal: "SSL: Certificates can't be loaded because wolfSSL was built"  @ 232 @ 
+parameter  @ 2 @ parameter  @ 3 @ 
+literal: "wolfSSL<3.3.0 cannot be configured to use TLS 1.0-1.2, ""  @ 32 @ literal: "wolfSSL<3.3.0 cannot be configured to use TLS 1.0-1.2, "  @ 34 @ 
+literal: ""  @ 192 @ literal: "none"  @ 161 @ 
+expr  @ 21 @ expr  @ 23 @ 
+argument  @ 32 @ argument  @ 34 @ 
+name: CURL_SSLVERSION_MAX_NONE  @ 19 @ name: CURL_SSLVERSION_MAX_NONE  @ 21 @ 
+operator: >=  @ 28 @ operator: >=  @ 30 @ 
+block  @ 17 @ block  @ 19 @ 
+literal: "SSL re-using session ID\n"  @ 261 @ literal: "SSL re-using session ID\n"  @ 303 @ 
+name: connssl  @ 16 @ name: connssl  @ 18 @ 
+name: sockindex  @ 8 @ name: sockindex  @ 10 @ 
+decl  @ 8 @ decl  @ 10 @ 
+else  @ 31 @ else  @ 70 @ 
+name: version  @ 25 @ name: version  @ 27 @ 
+comment: /*>= 3.3.0 */  @ 28 @ comment: /*>= 3.3.0 */  @ 30 @ 
+name: HAVE_SNI  @ 9 @ name: HAVE_SNI  @ 11 @ 
+type  @ 8 @ type  @ 10 @ 
+if  @ 16 @ if  @ 18 @ 
+name: version_max  @ 19 @ name: version_max  @ 21 @ 
+block_content  @ 17 @ block_content  @ 19 @ 
+directive: endif  @ 236 @ directive: endif  @ 184 @ 
+operator: ==  @ 16 @ operator: ==  @ 18 @ 
+call  @ 19 @ call  @ 21 @ 
+name: conn  @ 2 @ name: conn  @ 2 @ 
+endif  @ 236 @ endif  @ 184 @ 
+define  @ 11 @ define  @ 15 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 9 @ 
+return  @ 21 @ return  @ 23 @ 
+else  @ 12 @ else  @ 14 @ 
+name: OPENSSL_EXTRA  @ 230 @ name: OPENSSL_EXTRA  @ 276 @ 
+type  @ 2 @ type  @ 6 @ 
+name: SSL_CONN_CONFIG  @ 25 @ name: SSL_CONN_CONFIG  @ 27 @ 
+literal: "no filesystem\". Either disable peer verification""  @ 192 @ literal: "unable to use client certificate (no key or wrong pass"  @ 172 @ 
+name: CURLcode  @ 1 @ name: CURLcode  @ 1 @ 
+name: HAVE_SECRET_CALLBACK  @ 234 @ name: HAVE_SECRET_CALLBACK  @ 280 @ 
+expr  @ 234 @ expr  @ 280 @ 
+name: struct  @ 6 @ name: struct  @ 8 @ 
+name: SSL_CONN_CONFIG  @ 19 @ name: SSL_CONN_CONFIG  @ 21 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 5 @ 
+ifdef  @ 230 @ ifdef  @ 276 @ 
+literal: ""  @ 192 @ literal: " phrase?)"  @ 173 @ 
+expr  @ 5 @ expr  @ 7 @ 
+argument  @ 234 @ argument  @ 280 @ 
+literal: 1.0  @ 42 @ literal: 1  @ 107 @ 
+endif  @ 245 @ endif  @ 283 @ 
+literal: 't set the minimum protocol version");
+      return CURLE_SSL_CONNECT_ERROR;}
+#endifbreak;
+  }ciphers = SSL_CONN_CONFIG(cipher_list);
+  if(ciphers) {if(!SSL_CTX_set_cipher_list(backend->ctx, ciphers)) {
+      failf(data, "failed setting cipher list: %s", ciphers);return CURLE_SSL_CIPHER;
+    }infof(data, "Cipher selection: %s\n", ciphers);
+  }#ifndef NO_FILESYSTEM
+  /* load trusted cacert */if(SSL_CONN_CONFIG(CAfile)) {
+    if(1 != SSL_CTX_load_verify_locations(backend->ctx,SSL_CONN_CONFIG(CAfile),SSL_CONN_CONFIG(CApath))) {
+      if(SSL_CONN_CONFIG(verifypeer)) {/* Fail if we insist on successfully verifying the server. */
+        failf(data, "error setting certificate verify locations:"" CAfile: %s CApath: %s",SSL_CONN_CONFIG(CAfile)?SSL_CONN_CONFIG(CAfile): "none",SSL_CONN_CONFIG(CApath)?SSL_CONN_CONFIG(CApath) : "none");return CURLE_SSL_CACERT_BADFILE;
+      }else {
+        /* Just continue with a warning if no strict certificate verification is required. */infof(data, "error setting certificate verify locations,"" continuing anyway:\n");
+      }}
+    else {/* Everything is fine. */
+      infof(data, "successfully set certificateverify locations:\n");
+    }infof(data, " CAfile: %s\n",SSL_CONN_CONFIG(CAfile) ? SSL_CONN_CONFIG(CAfile) : "none");
+    infof(data, " CApath: %s\n",SSL_CONN_CONFIG(CApath) ? SSL_CONN_CONFIG(CApath) : "none");}
+
+  /* Load the client certificate, and private key */if(SSL_SET_OPTION(primary.clientcert)&&SSL_SET_OPTION(key)) {
+    int file_type = do_file_type(SSL_SET_OPTION(cert_type));if(SSL_CTX_use_certificate_file(backend->ctx,SSL_SET_OPTION(primary.clientcert),file_type) != 1) {
+      failf(data, "unable to use client certificate (no key or wrong pass"" phrase?)");return CURLE_SSL_CONNECT_ERROR;
+    }file_type = do_file_type(SSL_SET_OPTION(key_type));
+    if(SSL_CTX_use_PrivateKey_file(backend->ctx, SSL_SET_OPTION(key),file_type) != 1) {
+      failf(data, "unable to set private key");return CURLE_SSL_CONNECT_ERROR;
+    }}
+#endif /* !NO_FILESYSTEM *//* SSL always tries to verify the peer, this only says whether it should * fail to connect if the verification fails, or if it should continue * anyway. In the latter case the result of the verification is checked with * SSL_get_verify_result() below. */
+  SSL_CTX_set_verify(backend->ctx, SSL_CONN_CONFIG(verifypeer)?SSL_VERIFY_PEER: SSL_VERIFY_NONE, NULL);
+
+#ifdef HAVE_SNIif(sni) {
+    struct in_addr addr4;#ifdef ENABLE_IPV6
+    struct in6_addr addr6;#endif
+#ifndef CURL_DISABLE_PROXYconst char * const hostname = SSL_IS_PROXY() ? conn->http_proxy.host.name :
+      conn->host.name;
+#elseconst char * const hostname = conn->host.name;
+#endifsize_t hostname_len = strlen(hostname);
+    if((hostname_len<USHRT_MAX)&&(0 == Curl_inet_pton(AF_INET, hostname,&addr4))&&#ifdef ENABLE_IPV6 (0 == Curl_inet_pton(AF_INET6, hostname,&addr6))&&#endif (wolfSSL_CTX_UseSNI(backend->ctx, WOLFSSL_SNI_HOST_NAME, hostname,(unsigned short)hostname_len) != 1)) {
+      infof(data, "WARNING: failed to configure server name indication (SNI) ""TLS extension\n");}
+  }#endif
+
+  /* give application a chance to interfere with SSL set up. */if(data->set.ssl.fsslctx) {
+    CURLcode result = (*data->set.ssl.fsslctx)(data, backend->ctx, data->set.ssl.fsslctxp);
+    if(result) {failf(data, "error signaled by ssl ctx callback");
+      return result;}
+  }#ifdef NO_FILESYSTEM
+  else if(SSL_CONN_CONFIG(verifypeer)) {failf(data, "SSL: Certificates can'  @ 105 @ literal: "successfully set certificate verify locations:\n"  @ 155 @ 
+expr  @ 10 @ expr  @ 12 @ 
+macro  @ 11 @ macro  @ 15 @ 
+name: LIBWOLFSSL_VERSION_HEX  @ 28 @ name: LIBWOLFSSL_VERSION_HEX  @ 30 @ 
+operator: ->  @ 6 @ operator: ->  @ 8 @ 
+comment: /* check to see if we've been told to use an explicit SSL/TLS version */  @ 24 @ comment: /* check to see if we've been told to use an explicit SSL/TLS version */  @ 26 @ 
+literal: "SSL: SSL_set_fd failed"  @ 268 @ literal: "SSL: SSL_set_fd failed"  @ 310 @ 
+condition  @ 19 @ condition  @ 21 @ 
+init  @ 8 @ init  @ 10 @ 
+name: infof  @ 32 @ name: infof  @ 34 @ 
+name: data  @ 20 @ name: data  @ 22 @ 
+ifdef  @ 9 @ ifdef  @ 11 @ 
+literal: ");
+    return CURLE_NOT_BUILT_IN;#endif
+    break;case CURL_SSLVERSION_TLSv1_1:
+#ifndef NO_OLD_TLSreq_method = TLSv1_1_client_method();
+    use_sni(TRUE);#else
+    failf(data, "  @ 42 @ literal: 1  @ 108 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name  @ 16 @ name  @ 18 @ 
+name: CURL_SSLVERSION_DEFAULT  @ 26 @ name: CURL_SSLVERSION_DEFAULT  @ 28 @ 
+expr  @ 20 @ expr  @ 22 @ 
+literal: 1.1  @ 51 @ literal: 1  @ 109 @ 
+call  @ 234 @ call  @ 280 @ 
+expr  @ 20 @ expr  @ 22 @ 
+name: use_sni  @ 13 @ name: use_sni  @ 13 @ 
+literal: ");
+    return CURLE_NOT_BUILT_IN;#endif
+    break;case CURL_SSLVERSION_SSLv2:
+    failf(data, "  @ 73 @ literal: "  CAfile: %s\n  CApath: %s"  @ 139 @ 
+condition  @ 25 @ condition  @ 27 @ 
+call  @ 25 @ call  @ 27 @ 
+type  @ 2 @ type  @ 2 @ 
+operator: =  @ 30 @ operator: =  @ 32 @ 
+if  @ 234 @ if  @ 280 @ 
+argument  @ 20 @ argument  @ 22 @ 
+comment: /* OPENSSL_EXTRA */  @ 238 @ comment: /* OPENSSL_EXTRA */  @ 285 @ 
+name  @ 6 @ name  @ 8 @ 
+argument  @ 25 @ argument  @ 27 @ 
+init  @ 10 @ init  @ 12 @ 
+comment: /* minimum protocol version is set later after the CTX object is created */  @ 29 @ comment: /* minimum protocol version is set later after the CTX object is created */  @ 31 @ 
+literal: ");
+    req_method = TLSv1_client_method();#endif
+    use_sni(TRUE);break;
+  case CURL_SSLVERSION_TLSv1_0:#if defined(WOLFSSL_ALLOW_TLSV10)&&!defined(NO_OLD_TLS)
+    req_method = TLSv1_client_method();use_sni(TRUE);
+#elsefailf(data, "  @ 32 @ literal: "Unrecognized parameter passed via CURLOPT_SSLVERSION"  @ 79 @ 
+name  @ 2 @ name  @ 2 @ 
+type  @ 5 @ type  @ 7 @ 
+expr  @ 8 @ expr  @ 10 @ 
+decl  @ 2 @ decl  @ 3 @ 
+type  @ 10 @ type  @ 12 @ 
+name: sockfd  @ 8 @ name: sockfd  @ 10 @ 
+literal: "SSL: failed setting ALPN protocols"  @ 224 @ literal: "SSL: failed setting ALPN protocols"  @ 270 @ 
+name  @ 8 @ name  @ 10 @ 
+directive: endif  @ 238 @ directive: endif  @ 262 @ 
+if_stmt  @ 19 @ if_stmt  @ 21 @ 
+name: data  @ 2 @ name: data  @ 6 @ 
+operator: !=  @ 19 @ operator: !=  @ 21 @ 
+name: WOLFSSL_TLS13  @ 234 @ name: WOLFSSL_TLS13  @ 280 @ 
+argument_list  @ 30 @ argument_list  @ 32 @ 
+name: x  @ 11 @ name: x  @ 15 @ 
+directive: endif  @ 228 @ directive: endif  @ 219 @ 
+name: req_method  @ 30 @ name: req_method  @ 32 @ 
+literal: 0x03003000  @ 28 @ literal: 0x03003000  @ 30 @ 
+parameter_list  @ 11 @ parameter_list  @ 15 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 12 @ 
+operator: ->  @ 16 @ operator: ->  @ 18 @ 
+if_stmt  @ 16 @ if_stmt  @ 18 @ 
+expr  @ 5 @ expr  @ 7 @ 
+type  @ 13 @ type  @ 13 @ 
+init  @ 5 @ init  @ 7 @ 
+directive: endif  @ 245 @ directive: endif  @ 283 @ 
+block  @ 3 @ block  @ 4 @ 
+name  @ 6 @ name  @ 8 @ 
+name: bool  @ 10 @ name: bool  @ 12 @ 
+block_content  @ 20 @ block_content  @ 22 @ 
+if  @ 28 @ if  @ 30 @ 
+literal: ","  @ 215 @ literal: ","  @ 259 @ 
+index  @ 8 @ index  @ 10 @ 
+name  @ 2 @ name  @ 6 @ 
+literal: ");
+    return CURLE_SSL_CONNECT_ERROR;}
+#endif/* Let's make an SSL structure */
+  if(backend->handle)
+    SSL_free(backend->handle);
+  backend->handle = SSL_new(backend->ctx);
+  if(!backend->handle) {
+    failf(data, "  @ 192 @ literal: 1  @ 179 @ 
+modifier: *  @ 6 @ modifier: *  @ 8 @ 
+modifier: *  @ 5 @ modifier: *  @ 7 @ 
+comment: /* we got a session id, use it! */  @ 253 @ comment: /* we got a session id, use it! */  @ 293 @ 
+ifdef  @ 213 @ ifdef  @ 257 @ 
+value  @ 11 @ value  @ 15 @ 
+expr  @ 30 @ expr  @ 32 @ 
+decl  @ 7 @ decl  @ 9 @ 
+literal: "ALPN, offering %s\n"  @ 216 @ literal: "ALPN, offering %s\n"  @ 260 @ 
+directive: if  @ 234 @ directive: if  @ 280 @ 
+name: ssl_connection_complete  @ 16 @ name: ssl_connection_complete  @ 18 @ 
+type  @ 11 @ type  @ 15 @ 
+decl  @ 2 @ decl  @ 2 @ 
+comment: /* HAVE_ALPN */  @ 228 @ comment: /* HAVE_ALPN */  @ 274 @ 
+literal: ");
+    return CURLE_SSL_CONNECT_ERROR;#endif
+  case CURL_SSLVERSION_SSLv3:#ifdef WOLFSSL_ALLOW_SSLV3
+    req_method = SSLv3_client_method();use_sni(FALSE);
+#elsefailf(data, "  @ 65 @ literal: "error setting certificate verify locations:\n"  @ 138 @ 
+operator: &&  @ 234 @ operator: &&  @ 280 @ 
+modifier: *  @ 7 @ modifier: *  @ 9 @ 
+modifier: *  @ 4 @ modifier: *  @ 5 @ 
+name: connectdata  @ 2 @ name: connectdata  @ 2 @ 
+name: defined  @ 234 @ name: defined  @ 280 @ 
+name: sockindex  @ 2 @ name: sockindex  @ 3 @ 
+type  @ 6 @ type  @ 8 @ 
+expr  @ 8 @ expr  @ 10 @ 
+argument_list  @ 25 @ argument_list  @ 27 @ 
+return  @ 17 @ return  @ 19 @ 
+name: x  @ 13 @ name: x  @ 13 @ 
+expr  @ 26 @ expr  @ 28 @ 
+function  @ 1 @ function  @ 1 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 21 @ name: CURLE_SSL_CONNECT_ERROR  @ 23 @ 
+init  @ 6 @ init  @ 8 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 10 @ 
+macro  @ 13 @ macro  @ 13 @ 
+decl  @ 4 @ decl  @ 5 @ 
+decl  @ 6 @ decl  @ 8 @ 
+name: ssl_connect_data  @ 5 @ name: ssl_connect_data  @ 7 @ 
+directive: else  @ 12 @ directive: else  @ 14 @ 
+argument  @ 234 @ argument  @ 280 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+expr  @ 25 @ expr  @ 27 @ 
+expr  @ 20 @ expr  @ 22 @ 
+name: ciphers  @ 4 @ name: ciphers  @ 5 @ 
+name: connssl  @ 6 @ name: connssl  @ 8 @ 
+name  @ 5 @ name  @ 7 @ 
+expr  @ 16 @ expr  @ 18 @ 
+name: char  @ 4 @ name: char  @ 5 @ 
+name: USE_NGHTTP2  @ 213 @ name: USE_NGHTTP2  @ 257 @ 
+case  @ 27 @ case  @ 29 @ 
+argument_list  @ 20 @ argument_list  @ 22 @ 
+directive: else  @ 31 @ directive: else  @ 70 @ 
+expr  @ 7 @ expr  @ 9 @ 
+name: ssl_backend_data  @ 6 @ name: ssl_backend_data  @ 8 @ 
+call  @ 234 @ call  @ 280 @ 
+name: struct  @ 2 @ name: struct  @ 6 @ 
+literal: "SSL: SSL_set_session failed: %s"  @ 257 @ literal: "SSL: SSL_set_session failed: %s"  @ 297 @ 
+literal: 1.3  @ 65 @ literal: 1  @ 133 @ 
+name: sock  @ 8 @ name: sock  @ 10 @ 
+literal: ");
+    return CURLE_OUT_OF_MEMORY;}
+
+  switch(SSL_CONN_CONFIG(version)) {case CURL_SSLVERSION_DEFAULT:
+  case CURL_SSLVERSION_TLSv1:#if LIBWOLFSSL_VERSION_HEX>0x03004006 /*>3.4.6 */
+    /* Versions 3.3.0 to 3.4.6 we know the minimum protocol version is * whatever minimum version of TLS was built in and at least TLS 1.0. For * later library versions that could change (eg TLS 1.0 built in but * defaults to TLS 1.1) so we have this short circuit evaluation to find * the minimum supported TLS version.*/if((wolfSSL_CTX_SetMinVersion(backend->ctx, WOLFSSL_TLSV1) != 1)&&(wolfSSL_CTX_SetMinVersion(backend->ctx, WOLFSSL_TLSV1_1) != 1)&&(wolfSSL_CTX_SetMinVersion(backend->ctx, WOLFSSL_TLSV1_2) != 1)#ifdef WOLFSSL_TLS13&&(wolfSSL_CTX_SetMinVersion(backend->ctx, WOLFSSL_TLSV1_3) != 1)#endif) {
+      failf(data, "  @ 95 @ literal: " continuing anyway:\n"  @ 150 @ 
+directive: if  @ 28 @ directive: if  @ 30 @ 
+type  @ 1 @ type  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: CURL_SSLVERSION_TLSv1  @ 27 @ name: CURL_SSLVERSION_TLSv1  @ 29 @ 
+operator: ->  @ 5 @ operator: ->  @ 7 @ 
+expr  @ 19 @ expr  @ 21 @ 
+name  @ 5 @ name  @ 7 @ 
+name: Curl_easy  @ 2 @ name: Curl_easy  @ 6 @ 
+directive: define  @ 11 @ directive: define  @ 15 @ 
+comment: /* Informational message */  @ 260 @ comment: /* Informational message */  @ 302 @ 
+comment: /* pass the raw socket into the SSL layer */  @ 266 @ comment: /* pass the raw socket into the SSL layer */  @ 308 @ 
+name: defined  @ 234 @ name: defined  @ 280 @ 
+name: req_method  @ 7 @ name: req_method  @ 9 @ 
+directive: endif  @ 14 @ directive: endif  @ 238 @ 
+call  @ 30 @ call  @ 32 @ 
+endif  @ 228 @ endif  @ 219 @ 
+literal: ");
+    return CURLE_SSL_CONNECT_ERROR;}
+
+  if(!req_method) {failf(data, "  @ 81 @ literal: "none"  @ 143 @ 
+literal: 't create a method!");
+    return CURLE_OUT_OF_MEMORY;}
+
+  if(backend->ctx)
+    SSL_CTX_free(backend->ctx);
+  backend->ctx = SSL_CTX_new(req_method);
+
+  if(!backend->ctx) {
+    failf(data, "SSL: couldn'  @ 86 @ literal: "error setting certificate verify locations,"  @ 149 @ 
+endif  @ 218 @ endif  @ 16 @ 
+name: struct  @ 2 @ name: struct  @ 2 @ 
+name: NULL  @ 7 @ name: NULL  @ 9 @ 
+expr  @ 25 @ expr  @ 27 @ 
+directive: define  @ 13 @ directive: define  @ 13 @ 
+literal: ");
+    return CURLE_SSL_CONNECT_ERROR;default:
+    failf(data, "  @ 78 @ literal: "none"  @ 141 @ 
+expr  @ 19 @ expr  @ 21 @ 
+name: struct  @ 5 @ name: struct  @ 7 @ 
+if  @ 19 @ if  @ 21 @ 
+name: int  @ 2 @ name: int  @ 3 @ 
+decl  @ 2 @ decl  @ 6 @ 
+block_content  @ 4 @ block_content  @ 5 @ 
+name: failf  @ 20 @ name: failf  @ 22 @ 
+directive: ifdef  @ 213 @ directive: ifdef  @ 257 @ 
+name: ssl  @ 5 @ name: ssl  @ 7 @ 
+name: sni  @ 10 @ name: sni  @ 12 @ 
+argument_list  @ 234 @ argument_list  @ 280 @ 
+call  @ 20 @ call  @ 22 @ 
+endif  @ 14 @ endif  @ 238 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 7 @ 
+name: conn  @ 5 @ name: conn  @ 7 @ 
+modifier: *  @ 2 @ modifier: *  @ 6 @ 
+type  @ 2 @ type  @ 3 @ 
+expr  @ 28 @ expr  @ 30 @ 
+name: SSLv23_client_method  @ 30 @ name: SSLv23_client_method  @ 32 @ 
+block  @ 19 @ block  @ 21 @ 
+name: sockindex  @ 5 @ name: sockindex  @ 7 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 32 @ 
+argument_list  @ 19 @ argument_list  @ 21 @ 
+expr  @ 17 @ expr  @ 19 @ 
+value  @ 13 @ value  @ 13 @ 
+name: state  @ 16 @ name: state  @ 18 @ 
+literal: 't create a context (handle)!");
+    return CURLE_OUT_OF_MEMORY;}
+
+#ifdef HAVE_ALPNif(conn->bits.tls_enable_alpn) {
+    char protocols[128];
+    *protocols = '  @ 202 @ literal: "unable to set private key"  @ 180 @ 
+name: CURLE_OK  @ 17 @ name: CURLE_OK  @ 19 @ 
+name: SSL_METHOD  @ 7 @ name: SSL_METHOD  @ 9 @ 
+expr  @ 27 @ expr  @ 29 @ 
+literal: "h2,http/1.1"  @ 211 @ literal: "SSL: couldn't create a context (handle)!"  @ 245 @ 
+name: backend  @ 6 @ name: backend  @ 8 @ 
+literal: "ALPN, offering %s\n"  @ 221 @ literal: "ALPN, offering %s\n"  @ 265 @ 
+parameter_list  @ 13 @ parameter_list  @ 13 @ 
+parameter  @ 11 @ parameter  @ 15 @ 
+literal: 0  @ 209 @ literal: 0  @ 209 @ 
+type  @ 4 @ type  @ 5 @ 
+operator: ->  @ 8 @ operator: ->  @ 10 @ 
+name: curl_socket_t  @ 8 @ name: curl_socket_t  @ 10 @ 
+literal: 0  @ 257 @ literal: 0  @ 298 @ 
+comment: /* Ensure the Client Random is preserved. */  @ 232 @ comment: /* Ensure the Client Random is preserved. */  @ 278 @ 
+name: wolfssl_connect_step1  @ 2 @ name: wolfssl_connect_step1  @ 2 @ 
+name: use_sni  @ 11 @ name: use_sni  @ 15 @ 
+parameter  @ 13 @ parameter  @ 13 @ 
+decl  @ 5 @ decl  @ 7 @ 
+directive: endif  @ 218 @ directive: endif  @ 16 @ 
+name: conn  @ 8 @ name: conn  @ 10 @ 
+operator: &  @ 5 @ operator: &  @ 7 @ 
+literal: 1.0  @ 32 @ literal: "TLS 1.0 is used exclusively\n"  @ 35 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 22 @ 
+name: FALSE  @ 10 @ name: FALSE  @ 12 @ 
+index  @ 5 @ index  @ 7 @ 
+init  @ 7 @ init  @ 9 @ 
+argument  @ 20 @ argument  @ 22 @ 
+literal: ");
+    return CURLE_NOT_BUILT_IN;#endif
+    break;case CURL_SSLVERSION_TLSv1_2:
+    req_method = TLSv1_2_client_method();use_sni(TRUE);
+    break;case CURL_SSLVERSION_TLSv1_3:
+#ifdef WOLFSSL_TLS13req_method = wolfTLSv1_3_client_method();
+    use_sni(TRUE);break;
+#elsefailf(data, "  @ 51 @ literal: "failed setting cipher list: %s"  @ 124 @ 
+

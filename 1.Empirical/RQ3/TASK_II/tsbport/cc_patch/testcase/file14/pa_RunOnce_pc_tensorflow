@@ -1,0 +1,807 @@
+name: RunMetadata  @ 30 @ name: RunMetadata  @ 164 @ 
+operator: *  @ 1 @ operator: *  @ 126 @ 
+operator: ::  @ 51 @ operator: ::  @ 227 @ 
+name: std  @ 1 @ name: std  @ 125 @ 
+argument  @ 31 @ argument  @ 165 @ 
+specifier: const  @ 36 @ specifier: const  @ 209 @ 
+range  @ 10 @ range  @ 139 @ 
+argument  @ 9 @ argument  @ 134 @ 
+argument  @ 199 @ argument  @ 99 @ 
+expr  @ 58 @ expr  @ 234 @ 
+name: tstring  @ 55 @ name: tstring  @ 231 @ 
+argument_list  @ 44 @ argument_list  @ 219 @ 
+operator: .  @ 19 @ operator: .  @ 149 @ 
+expr  @ 7 @ expr  @ 132 @ 
+argument  @ 54 @ argument  @ 230 @ 
+name: outputs  @ 1 @ name: outputs  @ 125 @ 
+name: string  @ 6 @ name: string  @ 131 @ 
+name: TensorShape  @ 54 @ name: TensorShape  @ 230 @ 
+name: callable_handle  @ 15 @ name: callable_handle  @ 144 @ 
+name: session  @ 36 @ name: session  @ 210 @ 
+expr  @ 37 @ expr  @ 211 @ 
+name: vector  @ 28 @ name: vector  @ 162 @ 
+argument  @ 15 @ argument  @ 144 @ 
+name: callable_options  @ 8 @ name: callable_options  @ 133 @ 
+name: string  @ 50 @ name: string  @ 226 @ 
+argument  @ 8 @ argument  @ 133 @ 
+name  @ 10 @ name  @ 137 @ 
+name: start_microseconds  @ 87 @ name: end_microseconds  @ 28 @ 
+specifier: const  @ 25 @ specifier: const  @ 155 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 137 @ 
+specifier: const  @ 1 @ specifier: const  @ 124 @ 
+argument_list  @ 11 @ argument_list  @ 140 @ 
+operator: &  @ 1 @ operator: &  @ 123 @ 
+name: string  @ 1 @ name: string  @ 123 @ 
+name: empty  @ 25 @ name: empty  @ 159 @ 
+specifier: const  @ 1 @ specifier: const  @ 121 @ 
+argument_list  @ 4 @ argument_list  @ 129 @ 
+name: target_node_names  @ 10 @ name: target_node_names  @ 139 @ 
+decl_stmt  @ 30 @ decl_stmt  @ 164 @ 
+modifier: &  @ 5 @ modifier: &  @ 130 @ 
+name: feed_tensors  @ 3 @ name: feed_tensors  @ 128 @ 
+expr  @ 51 @ expr  @ 227 @ 
+call  @ 72 @ call  @ 79 @ 
+name: callable_options  @ 4 @ name: callable_options  @ 129 @ 
+expr  @ 221 @ expr  @ 72 @ 
+type  @ 77 @ type  @ 174 @ 
+argument  @ 36 @ argument  @ 206 @ 
+name: MetaFilename  @ 44 @ name: MetaFilename  @ 219 @ 
+name: INFO  @ 37 @ name: INFO  @ 211 @ 
+expr  @ 72 @ expr  @ 79 @ 
+expr  @ 44 @ expr  @ 218 @ 
+block_content  @ 2 @ block_content  @ 127 @ 
+operator: ::  @ 25 @ operator: ::  @ 157 @ 
+comment: // RunCallable().  @ 18 @ comment: // RunCallable().  @ 148 @ 
+type  @ 6 @ type  @ 131 @ 
+argument  @ 15 @ argument  @ 144 @ 
+for  @ 9 @ for  @ 136 @ 
+return  @ 221 @ return  @ 72 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 162 @ 
+macro  @ 141 @ macro  @ 100 @ 
+expr  @ 11 @ expr  @ 140 @ 
+comment: // Be sure to call ReleaseCallable() regardless of the outcome of  @ 17 @ comment: // Be sure to call ReleaseCallable() regardless of the outcome of  @ 147 @ 
+operator: <<  @ 26 @ operator: <<  @ 160 @ 
+comment: // Add variables to the graph.  @ 53 @ comment: // Add variables to the graph.  @ 229 @ 
+argument  @ 72 @ argument  @ 79 @ 
+name: std  @ 57 @ name: std  @ 233 @ 
+argument_list  @ 73 @ argument_list  @ 80 @ 
+name: RunOptions  @ 1 @ name: RunOptions  @ 121 @ 
+argument_list  @ 8 @ argument_list  @ 133 @ 
+return  @ 20 @ return  @ 150 @ 
+expr  @ 77 @ expr  @ 93 @ 
+argument  @ 77 @ argument  @ 76 @ 
+expr  @ 16 @ expr  @ 145 @ 
+block  @ 36 @ block  @ 210 @ 
+call  @ 19 @ call  @ 149 @ 
+expr  @ 1 @ expr  @ 125 @ 
+specifier: const  @ 77 @ specifier: const  @ 76 @ 
+name: variables_path_tensor  @ 55 @ name: variables_path_tensor  @ 231 @ 
+decl  @ 1 @ decl  @ 121 @ 
+argument  @ 16 @ argument  @ 146 @ 
+name: run_options  @ 1 @ name: run_options  @ 121 @ 
+name: vector  @ 57 @ name: vector  @ 233 @ 
+argument  @ 57 @ argument  @ 233 @ 
+name: variables_index_path  @ 44 @ name: variables_index_path  @ 220 @ 
+name: RunOnce  @ 1 @ name: RunOnce  @ 121 @ 
+expr  @ 3 @ expr  @ 128 @ 
+name: OK  @ 221 @ name: OK  @ 72 @ 
+expr  @ 36 @ expr  @ 209 @ 
+argument  @ 25 @ argument  @ 155 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 131 @ 
+name  @ 187 @ name  @ 77 @ 
+name: JoinPath  @ 51 @ name: JoinPath  @ 227 @ 
+decl  @ 9 @ decl  @ 136 @ 
+name  @ 28 @ name  @ 162 @ 
+return  @ 204 @ return  @ 203 @ 
+argument  @ 36 @ argument  @ 209 @ 
+argument_list  @ 10 @ argument_list  @ 137 @ 
+init  @ 50 @ init  @ 226 @ 
+expr  @ 189 @ expr  @ 92 @ 
+decl  @ 30 @ decl  @ 164 @ 
+argument  @ 31 @ argument  @ 166 @ 
+call  @ 37 @ call  @ 211 @ 
+argument_list  @ 54 @ argument_list  @ 230 @ 
+argument  @ 1 @ argument  @ 121 @ 
+name: run_metadata  @ 30 @ name: run_metadata  @ 164 @ 
+block  @ 58 @ block  @ 234 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 211 @ 
+name: pair  @ 28 @ name: pair  @ 162 @ 
+argument  @ 57 @ argument  @ 233 @ 
+argument  @ 36 @ argument  @ 210 @ 
+name: unordered_set  @ 77 @ name: pair  @ 93 @ 
+argument  @ 36 @ argument  @ 207 @ 
+call  @ 73 @ call  @ 80 @ 
+argument_list  @ 54 @ argument_list  @ 230 @ 
+name: string  @ 25 @ name: string  @ 155 @ 
+expr  @ 1 @ expr  @ 122 @ 
+expr  @ 1 @ expr  @ 126 @ 
+operator: ::  @ 14 @ operator: ::  @ 143 @ 
+expr  @ 6 @ expr  @ 131 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 160 @ 
+name: variables_path  @ 55 @ name: variables_path  @ 231 @ 
+argument  @ 44 @ argument  @ 219 @ 
+operator: ::  @ 57 @ operator: ::  @ 233 @ 
+argument  @ 54 @ argument  @ 230 @ 
+name: session  @ 74 @ name: session  @ 82 @ 
+if  @ 25 @ if  @ 159 @ 
+specifier: const  @ 10 @ specifier: const  @ 139 @ 
+name: string  @ 36 @ name: string  @ 206 @ 
+name: callable_options  @ 15 @ name: callable_options  @ 144 @ 
+argument  @ 29 @ argument  @ 163 @ 
+argument_list  @ 29 @ argument_list  @ 163 @ 
+name: RunRestore  @ 36 @ name: RunRestore  @ 206 @ 
+argument  @ 29 @ argument  @ 163 @ 
+expr  @ 28 @ expr  @ 162 @ 
+return  @ 33 @ return  @ 168 @ 
+modifier: &  @ 9 @ modifier: &  @ 136 @ 
+operator: .  @ 4 @ operator: .  @ 129 @ 
+name: MakeCallable  @ 15 @ name: MakeCallable  @ 144 @ 
+argument_list  @ 31 @ argument_list  @ 165 @ 
+argument_list  @ 44 @ argument_list  @ 220 @ 
+literal: "were restored. File does not exist: "  @ 46 @ literal: "were restored. File does not exist: "  @ 222 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 163 @ 
+argument_list  @ 204 @ argument_list  @ 203 @ 
+operator: .  @ 8 @ operator: .  @ 133 @ 
+name: CallableHandle  @ 14 @ name: CallableHandle  @ 143 @ 
+argument_list  @ 15 @ argument_list  @ 144 @ 
+comment: /* outputs */  @ 31 @ comment: /* outputs */  @ 166 @ 
+argument_list  @ 93 @ argument_list  @ 8 @ 
+name: string  @ 58 @ name: string  @ 234 @ 
+macro  @ 54 @ macro  @ 230 @ 
+call  @ 44 @ call  @ 220 @ 
+operator: ::  @ 44 @ operator: ::  @ 218 @ 
+name: pair  @ 57 @ name: pair  @ 233 @ 
+specifier: const  @ 1 @ specifier: const  @ 123 @ 
+argument_list  @ 57 @ argument_list  @ 233 @ 
+control  @ 5 @ control  @ 130 @ 
+call  @ 25 @ call  @ 159 @ 
+name: target_node_name  @ 11 @ name: target_node_name  @ 140 @ 
+name: namespace  @ 102 @ name: namespace  @ 2 @ 
+expr  @ 25 @ expr  @ 158 @ 
+name: Status  @ 36 @ name: Status  @ 206 @ 
+argument  @ 25 @ argument  @ 158 @ 
+name: RunOnce  @ 31 @ name: RunOnce  @ 165 @ 
+name: output_tensor_name  @ 9 @ name: output_tensor_name  @ 136 @ 
+block  @ 9 @ block  @ 136 @ 
+name: add_feed  @ 8 @ name: add_feed  @ 133 @ 
+argument  @ 1 @ argument  @ 125 @ 
+type  @ 1 @ type  @ 121 @ 
+name: run_options  @ 4 @ name: run_options  @ 129 @ 
+type  @ 5 @ type  @ 130 @ 
+name  @ 25 @ name  @ 157 @ 
+expr  @ 44 @ expr  @ 219 @ 
+name: variables_index_path  @ 47 @ name: variables_index_path  @ 223 @ 
+expr  @ 57 @ expr  @ 233 @ 
+name: std  @ 189 @ name: std  @ 92 @ 
+macro  @ 102 @ macro  @ 2 @ 
+operator: &  @ 25 @ operator: &  @ 156 @ 
+argument_list  @ 141 @ argument_list  @ 100 @ 
+name: Status  @ 204 @ name: Status  @ 203 @ 
+decl_stmt  @ 36 @ decl_stmt  @ 206 @ 
+name: export_dir  @ 27 @ name: export_dir  @ 161 @ 
+name: session  @ 15 @ name: session  @ 144 @ 
+operator: ::  @ 82 @ operator: ::  @ 55 @ 
+argument_list  @ 44 @ argument_list  @ 220 @ 
+operator: .  @ 55 @ operator: .  @ 231 @ 
+operator: &  @ 25 @ operator: &  @ 155 @ 
+range  @ 9 @ range  @ 136 @ 
+call  @ 19 @ call  @ 149 @ 
+expr  @ 15 @ expr  @ 144 @ 
+call  @ 204 @ call  @ 203 @ 
+operator: )  @ 55 @ operator: )  @ 231 @ 
+name: vector  @ 1 @ name: vector  @ 124 @ 
+argument_list  @ 72 @ argument_list  @ 79 @ 
+operator: .  @ 7 @ operator: .  @ 132 @ 
+operator: (  @ 55 @ operator: (  @ 231 @ 
+name: kSavedModelVariablesFilename  @ 51 @ name: kSavedModelVariablesFilename  @ 227 @ 
+name: outputs  @ 16 @ name: outputs  @ 146 @ 
+decl_stmt  @ 198 @ decl_stmt  @ 187 @ 
+decl_stmt  @ 16 @ decl_stmt  @ 145 @ 
+block_content  @ 26 @ block_content  @ 160 @ 
+argument_list  @ 25 @ argument_list  @ 159 @ 
+operator: ::  @ 77 @ operator: ::  @ 93 @ 
+argument  @ 1 @ argument  @ 122 @ 
+expr  @ 1 @ expr  @ 125 @ 
+argument  @ 44 @ argument  @ 219 @ 
+name: string  @ 9 @ name: string  @ 136 @ 
+expr  @ 25 @ expr  @ 157 @ 
+decl  @ 39 @ decl  @ 213 @ 
+operator: ::  @ 36 @ operator: ::  @ 209 @ 
+operator: ::  @ 87 @ operator: ::  @ 28 @ 
+argument  @ 40 @ argument  @ 214 @ 
+argument  @ 54 @ argument  @ 230 @ 
+specifier: const  @ 6 @ specifier: const  @ 131 @ 
+operator: &  @ 29 @ operator: &  @ 163 @ 
+name: Default  @ 44 @ name: Default  @ 220 @ 
+argument  @ 1 @ argument  @ 126 @ 
+name: Session  @ 14 @ name: Session  @ 143 @ 
+argument_list  @ 1 @ argument_list  @ 124 @ 
+macro  @ 31 @ macro  @ 165 @ 
+name  @ 25 @ name  @ 159 @ 
+operator: ::  @ 57 @ operator: ::  @ 233 @ 
+operator: *  @ 74 @ operator: *  @ 82 @ 
+name: second  @ 7 @ name: second  @ 132 @ 
+name: uint64  @ 87 @ name: uint64  @ 28 @ 
+operator: *  @ 187 @ operator: *  @ 77 @ 
+name: vector  @ 25 @ name: vector  @ 157 @ 
+name: Status  @ 77 @ name: Status  @ 174 @ 
+decl  @ 10 @ decl  @ 139 @ 
+name: asset_file_defs  @ 25 @ name: asset_file_defs  @ 157 @ 
+name: session  @ 25 @ name: session  @ 158 @ 
+operator: ::  @ 3 @ operator: ::  @ 128 @ 
+expr_stmt  @ 4 @ expr_stmt  @ 129 @ 
+expr  @ 72 @ expr  @ 79 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 133 @ 
+expr  @ 36 @ expr  @ 206 @ 
+name: vector  @ 1 @ name: vector  @ 123 @ 
+call  @ 4 @ call  @ 129 @ 
+expr  @ 40 @ expr  @ 214 @ 
+name: StringPiece  @ 36 @ name: StringPiece  @ 207 @ 
+name: first  @ 6 @ name: first  @ 131 @ 
+expr  @ 73 @ expr  @ 80 @ 
+expr  @ 77 @ expr  @ 93 @ 
+name: export_dir  @ 40 @ name: export_dir  @ 214 @ 
+name: output_tensor_names  @ 1 @ name: output_tensor_names  @ 123 @ 
+decl  @ 5 @ decl  @ 130 @ 
+name: ReleaseCallable  @ 19 @ name: ReleaseCallable  @ 149 @ 
+expr  @ 40 @ expr  @ 214 @ 
+decl  @ 25 @ decl  @ 155 @ 
+argument  @ 31 @ argument  @ 165 @ 
+expr  @ 1 @ expr  @ 121 @ 
+operator: &  @ 1 @ operator: &  @ 124 @ 
+macro  @ 112 @ macro  @ 86 @ 
+argument_list  @ 1 @ argument_list  @ 122 @ 
+operator: .  @ 6 @ operator: .  @ 131 @ 
+expr  @ 10 @ expr  @ 139 @ 
+name: inputs  @ 1 @ name: inputs  @ 122 @ 
+name: std  @ 187 @ name: std  @ 77 @ 
+expr  @ 16 @ expr  @ 146 @ 
+name: Status  @ 187 @ name: Status  @ 75 @ 
+name: session  @ 1 @ name: session  @ 126 @ 
+name: feed_tensors  @ 9 @ name: feed_tensors  @ 134 @ 
+name: asset_file_defs  @ 29 @ name: asset_file_defs  @ 163 @ 
+expr  @ 25 @ expr  @ 155 @ 
+name: inputs  @ 29 @ name: inputs  @ 163 @ 
+expr  @ 78 @ expr  @ 199 @ 
+name: inputs  @ 5 @ name: inputs  @ 130 @ 
+expr  @ 16 @ expr  @ 145 @ 
+block_content  @ 25 @ block_content  @ 159 @ 
+name: init_op_name  @ 25 @ name: init_op_name  @ 159 @ 
+expr  @ 93 @ expr  @ 8 @ 
+argument  @ 25 @ argument  @ 156 @ 
+block  @ 57 @ block  @ 233 @ 
+expr  @ 36 @ expr  @ 206 @ 
+operator: &  @ 25 @ operator: &  @ 155 @ 
+decl_stmt  @ 44 @ decl_stmt  @ 218 @ 
+argument  @ 28 @ argument  @ 162 @ 
+name: init_op_name  @ 25 @ name: init_op_name  @ 158 @ 
+name: session  @ 73 @ name: session  @ 80 @ 
+name: Session  @ 187 @ name: Session  @ 77 @ 
+type  @ 54 @ type  @ 230 @ 
+name  @ 8 @ name  @ 133 @ 
+return  @ 48 @ return  @ 224 @ 
+operator: ::  @ 28 @ operator: ::  @ 162 @ 
+expr  @ 37 @ expr  @ 211 @ 
+expr  @ 20 @ expr  @ 150 @ 
+type  @ 187 @ type  @ 75 @ 
+expr  @ 73 @ expr  @ 80 @ 
+operator: &  @ 1 @ operator: &  @ 122 @ 
+name: SessionOptions  @ 77 @ name: SessionOptions  @ 76 @ 
+argument  @ 1 @ argument  @ 124 @ 
+name: RunMetadata  @ 1 @ name: RunMetadata  @ 125 @ 
+name: vector  @ 36 @ name: vector  @ 209 @ 
+operator: ::  @ 44 @ operator: ::  @ 220 @ 
+expr  @ 204 @ expr  @ 203 @ 
+operator: &  @ 15 @ operator: &  @ 144 @ 
+name: export_dir  @ 25 @ name: export_dir  @ 155 @ 
+name: Session  @ 36 @ name: Session  @ 210 @ 
+expr  @ 199 @ expr  @ 99 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 221 @ 
+block_content  @ 45 @ block_content  @ 221 @ 
+specifier: const  @ 50 @ specifier: const  @ 226 @ 
+name: input  @ 6 @ name: input  @ 131 @ 
+specifier: const  @ 5 @ specifier: const  @ 130 @ 
+argument_list  @ 25 @ argument_list  @ 157 @ 
+argument  @ 40 @ argument  @ 214 @ 
+expr  @ 15 @ expr  @ 144 @ 
+expr  @ 51 @ expr  @ 227 @ 
+decl  @ 198 @ decl  @ 187 @ 
+operator: &  @ 25 @ operator: &  @ 157 @ 
+literal: "Restoring SavedModel bundle."  @ 37 @ literal: "Restoring SavedModel bundle."  @ 211 @ 
+expr  @ 1 @ expr  @ 122 @ 
+argument  @ 189 @ argument  @ 92 @ 
+decl_stmt  @ 50 @ decl_stmt  @ 226 @ 
+specifier: const  @ 39 @ specifier: const  @ 213 @ 
+argument_list  @ 87 @ argument_list  @ 28 @ 
+name: variable_filename_const_op_name  @ 36 @ name: variable_filename_const_op_name  @ 208 @ 
+name: TF_RETURN_IF_ERROR  @ 15 @ name: TF_RETURN_IF_ERROR  @ 144 @ 
+argument  @ 1 @ argument  @ 125 @ 
+expr_stmt  @ 55 @ expr_stmt  @ 231 @ 
+name: Tensor  @ 28 @ name: Tensor  @ 162 @ 
+name  @ 189 @ name  @ 92 @ 
+name  @ 73 @ name  @ 80 @ 
+name: INFO  @ 26 @ name: INFO  @ 160 @ 
+argument_list  @ 82 @ argument_list  @ 55 @ 
+name: kSavedModelVariablesFilename  @ 44 @ name: kSavedModelVariablesFilename  @ 219 @ 
+name  @ 1 @ name  @ 122 @ 
+expr  @ 1 @ expr  @ 124 @ 
+operator: ::  @ 48 @ operator: ::  @ 224 @ 
+operator: ::  @ 28 @ operator: ::  @ 162 @ 
+argument  @ 37 @ argument  @ 211 @ 
+argument  @ 73 @ argument  @ 80 @ 
+modifier: &  @ 6 @ modifier: &  @ 131 @ 
+decl  @ 87 @ decl  @ 28 @ 
+name: session_options  @ 77 @ name: session_options  @ 76 @ 
+expr  @ 1 @ expr  @ 122 @ 
+decl  @ 50 @ decl  @ 226 @ 
+name: std  @ 28 @ name: std  @ 162 @ 
+name: ok  @ 44 @ name: ok  @ 220 @ 
+name: io  @ 40 @ name: io  @ 214 @ 
+call  @ 9 @ call  @ 134 @ 
+operator: .  @ 44 @ operator: .  @ 220 @ 
+argument_list  @ 36 @ argument_list  @ 209 @ 
+condition  @ 25 @ condition  @ 159 @ 
+operator: ::  @ 1 @ operator: ::  @ 122 @ 
+type  @ 7 @ type  @ 132 @ 
+expr  @ 9 @ expr  @ 134 @ 
+argument_list  @ 9 @ argument_list  @ 134 @ 
+argument_list  @ 112 @ argument_list  @ 86 @ 
+call  @ 10 @ call  @ 137 @ 
+decl  @ 2 @ decl  @ 127 @ 
+expr  @ 15 @ expr  @ 144 @ 
+init  @ 87 @ init  @ 28 @ 
+init  @ 39 @ init  @ 213 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 57 @ expr  @ 233 @ 
+argument_list  @ 45 @ argument_list  @ 221 @ 
+call  @ 45 @ call  @ 221 @ 
+name: Tensor  @ 54 @ name: Tensor  @ 230 @ 
+name: NewSession  @ 72 @ name: NewSession  @ 79 @ 
+control  @ 10 @ control  @ 139 @ 
+name  @ 1 @ name  @ 123 @ 
+name: add_target  @ 11 @ name: add_target  @ 140 @ 
+argument_list  @ 58 @ argument_list  @ 234 @ 
+argument  @ 141 @ argument  @ 101 @ 
+specifier: const  @ 44 @ specifier: const  @ 218 @ 
+name: session  @ 16 @ name: session  @ 145 @ 
+name: Status  @ 82 @ name: Status  @ 55 @ 
+expr  @ 33 @ expr  @ 168 @ 
+name: OK  @ 82 @ name: OK  @ 55 @ 
+if_stmt  @ 25 @ if_stmt  @ 159 @ 
+init  @ 16 @ init  @ 145 @ 
+expr  @ 16 @ expr  @ 146 @ 
+name: uint64  @ 188 @ name: uint64  @ 27 @ 
+expr  @ 1 @ expr  @ 123 @ 
+expr  @ 36 @ expr  @ 207 @ 
+expr  @ 8 @ expr  @ 133 @ 
+name: Session  @ 1 @ name: Session  @ 126 @ 
+expr  @ 36 @ expr  @ 209 @ 
+argument_list  @ 28 @ argument_list  @ 162 @ 
+name: session_options  @ 72 @ name: session_options  @ 79 @ 
+name: Tensor  @ 1 @ name: Tensor  @ 122 @ 
+name: Tensor  @ 3 @ name: Tensor  @ 128 @ 
+name: std  @ 1 @ name: std  @ 122 @ 
+call  @ 44 @ call  @ 218 @ 
+decl  @ 54 @ decl  @ 230 @ 
+expr  @ 25 @ expr  @ 159 @ 
+argument_list  @ 44 @ argument_list  @ 218 @ 
+argument  @ 72 @ argument  @ 79 @ 
+name  @ 36 @ name  @ 209 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 132 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 121 @ 
+name: AssetFileDef  @ 36 @ name: AssetFileDef  @ 209 @ 
+operator: =  @ 4 @ operator: =  @ 129 @ 
+argument  @ 1 @ argument  @ 123 @ 
+name: Env  @ 87 @ name: Env  @ 28 @ 
+name: run_options  @ 25 @ name: run_options  @ 155 @ 
+argument_list  @ 72 @ argument_list  @ 79 @ 
+name: AssetFileDef  @ 25 @ name: AssetFileDef  @ 157 @ 
+name: io  @ 51 @ name: io  @ 227 @ 
+call  @ 11 @ call  @ 140 @ 
+name: RunOptions  @ 36 @ name: RunOptions  @ 206 @ 
+name: io  @ 44 @ name: io  @ 218 @ 
+name: vector  @ 3 @ name: vector  @ 128 @ 
+name: string  @ 28 @ name: string  @ 162 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 140 @ 
+argument  @ 11 @ argument  @ 140 @ 
+expr  @ 1 @ expr  @ 124 @ 
+range  @ 5 @ range  @ 130 @ 
+operator: *  @ 4 @ operator: *  @ 129 @ 
+specifier: const  @ 25 @ specifier: const  @ 158 @ 
+call  @ 16 @ call  @ 145 @ 
+name: TF_RETURN_IF_ERROR  @ 72 @ name: TF_RETURN_IF_ERROR  @ 79 @ 
+argument  @ 1 @ argument  @ 122 @ 
+expr  @ 45 @ expr  @ 221 @ 
+name: FileExists  @ 44 @ name: FileExists  @ 220 @ 
+operator: ->  @ 15 @ operator: ->  @ 144 @ 
+return  @ 31 @ return  @ 165 @ 
+argument  @ 1 @ argument  @ 122 @ 
+name: export_dir  @ 29 @ name: export_dir  @ 163 @ 
+expr  @ 51 @ expr  @ 227 @ 
+expr  @ 58 @ expr  @ 234 @ 
+name: restore_op_name  @ 36 @ name: restore_op_name  @ 207 @ 
+type  @ 188 @ type  @ 27 @ 
+name: session_p  @ 73 @ name: session_p  @ 80 @ 
+operator: .  @ 25 @ operator: .  @ 159 @ 
+expr  @ 87 @ expr  @ 28 @ 
+name: output_tensor_name  @ 10 @ name: output_tensor_name  @ 137 @ 
+expr  @ 44 @ expr  @ 220 @ 
+expr  @ 77 @ expr  @ 76 @ 
+return  @ 82 @ return  @ 55 @ 
+name  @ 9 @ name  @ 134 @ 
+name: asset_file_defs  @ 36 @ name: asset_file_defs  @ 209 @ 
+name  @ 11 @ name  @ 140 @ 
+call  @ 15 @ call  @ 144 @ 
+expr  @ 11 @ expr  @ 140 @ 
+name: reset  @ 73 @ name: reset  @ 80 @ 
+specifier: const  @ 36 @ specifier: const  @ 206 @ 
+name  @ 55 @ name  @ 231 @ 
+init  @ 44 @ init  @ 218 @ 
+name: NowMicros  @ 87 @ name: NowMicros  @ 28 @ 
+type  @ 25 @ type  @ 155 @ 
+name  @ 77 @ name  @ 93 @ 
+operator: ->  @ 73 @ operator: ->  @ 80 @ 
+argument  @ 44 @ argument  @ 219 @ 
+call  @ 48 @ call  @ 224 @ 
+expr  @ 40 @ expr  @ 214 @ 
+argument  @ 16 @ argument  @ 145 @ 
+operator: (  @ 55 @ operator: (  @ 231 @ 
+decl  @ 16 @ decl  @ 145 @ 
+name: OK  @ 48 @ name: OK  @ 224 @ 
+name: Status  @ 221 @ name: Status  @ 72 @ 
+operator: =  @ 57 @ operator: =  @ 233 @ 
+init  @ 10 @ init  @ 139 @ 
+name: variables_directory  @ 39 @ name: variables_directory  @ 213 @ 
+operator: &  @ 77 @ operator: &  @ 76 @ 
+argument  @ 15 @ argument  @ 144 @ 
+expr  @ 26 @ expr  @ 160 @ 
+type  @ 87 @ type  @ 28 @ 
+call  @ 44 @ call  @ 219 @ 
+name: name  @ 6 @ name: name  @ 131 @ 
+name: callable_options  @ 2 @ name: callable_options  @ 127 @ 
+name: INFO  @ 45 @ name: INFO  @ 221 @ 
+argument_list  @ 1 @ argument_list  @ 123 @ 
+name  @ 1 @ name  @ 122 @ 
+expr  @ 28 @ expr  @ 162 @ 
+type  @ 16 @ type  @ 145 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 233 @ 
+name: Tensor  @ 7 @ name: Tensor  @ 132 @ 
+modifier: &  @ 7 @ modifier: &  @ 132 @ 
+decl_stmt  @ 54 @ decl_stmt  @ 230 @ 
+if  @ 44 @ if  @ 220 @ 
+argument_list  @ 1 @ argument_list  @ 122 @ 
+name: string  @ 1 @ name: string  @ 124 @ 
+expr_stmt  @ 9 @ expr_stmt  @ 134 @ 
+specifier: const  @ 188 @ specifier: const  @ 27 @ 
+name: string  @ 198 @ name: string  @ 187 @ 
+expr  @ 187 @ expr  @ 77 @ 
+name: Tensor  @ 57 @ name: Tensor  @ 233 @ 
+name: variables_path_tensor  @ 58 @ name: variables_path_tensor  @ 234 @ 
+specifier: const  @ 7 @ specifier: const  @ 132 @ 
+argument  @ 51 @ argument  @ 227 @ 
+name  @ 19 @ name  @ 149 @ 
+argument  @ 26 @ argument  @ 160 @ 
+operator: *  @ 1 @ operator: *  @ 125 @ 
+call  @ 29 @ call  @ 163 @ 
+operator: )  @ 55 @ operator: )  @ 231 @ 
+name: variables_index_path  @ 44 @ name: variables_index_path  @ 218 @ 
+argument  @ 77 @ argument  @ 93 @ 
+operator: ::  @ 1 @ operator: ::  @ 124 @ 
+modifier: &  @ 10 @ modifier: &  @ 139 @ 
+literal: 1  @ 93 @ literal: 1  @ 8 @ 
+specifier: const  @ 16 @ specifier: const  @ 145 @ 
+operator: ::  @ 1 @ operator: ::  @ 122 @ 
+decl_stmt  @ 25 @ decl_stmt  @ 155 @ 
+name: callable_handle  @ 19 @ name: callable_handle  @ 149 @ 
+name: CallableOptions  @ 2 @ name: CallableOptions  @ 127 @ 
+name  @ 6 @ name  @ 131 @ 
+name: export_dir  @ 36 @ name: export_dir  @ 206 @ 
+expr  @ 26 @ expr  @ 160 @ 
+specifier: const  @ 25 @ specifier: const  @ 156 @ 
+expr  @ 187 @ expr  @ 77 @ 
+init  @ 9 @ init  @ 136 @ 
+argument_list  @ 15 @ argument_list  @ 144 @ 
+name  @ 3 @ name  @ 128 @ 
+name: init_op_name  @ 198 @ name: init_op_collection_key  @ 187 @ 
+argument_list  @ 44 @ argument_list  @ 220 @ 
+operator: .  @ 10 @ operator: .  @ 137 @ 
+expr  @ 25 @ expr  @ 158 @ 
+block_content  @ 10 @ block_content  @ 137 @ 
+argument  @ 3 @ argument  @ 128 @ 
+type  @ 10 @ type  @ 139 @ 
+init  @ 7 @ init  @ 132 @ 
+expr  @ 1 @ expr  @ 123 @ 
+operator: ->  @ 44 @ operator: ->  @ 220 @ 
+argument  @ 72 @ argument  @ 79 @ 
+operator: ->  @ 87 @ operator: ->  @ 28 @ 
+name: wrapped_  @ 112 @ name: TensorShape  @ 86 @ 
+operator: ::  @ 187 @ operator: ::  @ 77 @ 
+name  @ 16 @ name  @ 145 @ 
+name: OK  @ 204 @ name: OK  @ 203 @ 
+expr_stmt  @ 3 @ expr_stmt  @ 128 @ 
+argument_list  @ 3 @ argument_list  @ 128 @ 
+operator: ->  @ 16 @ operator: ->  @ 145 @ 
+argument  @ 58 @ argument  @ 234 @ 
+name  @ 1 @ name  @ 124 @ 
+expr  @ 25 @ expr  @ 155 @ 
+block  @ 1 @ block  @ 126 @ 
+operator: ->  @ 74 @ operator: ->  @ 82 @ 
+operator: *  @ 1 @ operator: *  @ 125 @ 
+name: std  @ 28 @ name: std  @ 162 @ 
+operator: =  @ 55 @ operator: =  @ 231 @ 
+name: variable_filename_const_op_name  @ 58 @ name: variable_filename_const_op_name  @ 234 @ 
+name: variables_directory  @ 51 @ name: variables_directory  @ 227 @ 
+expr  @ 82 @ expr  @ 55 @ 
+name: session  @ 187 @ name: session  @ 77 @ 
+argument  @ 25 @ argument  @ 157 @ 
+name: JoinPath  @ 40 @ name: JoinPath  @ 214 @ 
+expr  @ 72 @ expr  @ 79 @ 
+operator: <<  @ 37 @ operator: <<  @ 211 @ 
+operator: <<  @ 47 @ operator: <<  @ 223 @ 
+argument  @ 1 @ argument  @ 124 @ 
+argument  @ 31 @ argument  @ 166 @ 
+expr  @ 36 @ expr  @ 208 @ 
+call  @ 82 @ call  @ 55 @ 
+name: run_options  @ 36 @ name: run_options  @ 206 @ 
+condition  @ 44 @ condition  @ 220 @ 
+name: mutable_run_options  @ 4 @ name: mutable_run_options  @ 129 @ 
+name: run_status  @ 20 @ name: run_status  @ 150 @ 
+decl  @ 6 @ decl  @ 131 @ 
+decl_stmt  @ 2 @ decl_stmt  @ 127 @ 
+name: input  @ 5 @ name: input  @ 130 @ 
+name: run_metadata  @ 16 @ name: run_metadata  @ 146 @ 
+for  @ 10 @ for  @ 139 @ 
+argument  @ 25 @ argument  @ 155 @ 
+operator: <  @ 55 @ operator: <  @ 231 @ 
+type  @ 9 @ type  @ 136 @ 
+call  @ 26 @ call  @ 160 @ 
+name  @ 1 @ name  @ 125 @ 
+call  @ 15 @ call  @ 144 @ 
+argument  @ 44 @ argument  @ 220 @ 
+argument  @ 25 @ argument  @ 157 @ 
+block  @ 25 @ block  @ 159 @ 
+argument  @ 36 @ argument  @ 209 @ 
+operator: *  @ 36 @ operator: *  @ 210 @ 
+call  @ 44 @ call  @ 220 @ 
+expr  @ 55 @ expr  @ 231 @ 
+specifier: const  @ 36 @ specifier: const  @ 208 @ 
+operator: ::  @ 1 @ operator: ::  @ 123 @ 
+block  @ 5 @ block  @ 130 @ 
+decl  @ 44 @ decl  @ 218 @ 
+name: tensor  @ 7 @ name: tensor  @ 132 @ 
+expr  @ 5 @ expr  @ 130 @ 
+name: Status  @ 1 @ name: Status  @ 121 @ 
+name  @ 7 @ name  @ 132 @ 
+operator: ::  @ 40 @ operator: ::  @ 214 @ 
+name: LOG  @ 37 @ name: LOG  @ 211 @ 
+specifier: const  @ 36 @ specifier: const  @ 206 @ 
+name: std  @ 25 @ name: std  @ 157 @ 
+operator: (  @ 74 @ operator: (  @ 82 @ 
+name: LOG  @ 45 @ name: LOG  @ 221 @ 
+operator: ::  @ 1 @ operator: ::  @ 125 @ 
+argument_list  @ 28 @ argument_list  @ 162 @ 
+name: std  @ 1 @ name: std  @ 124 @ 
+expr  @ 189 @ expr  @ 92 @ 
+specifier: const  @ 87 @ specifier: const  @ 28 @ 
+name: variables_directory  @ 44 @ name: variables_directory  @ 219 @ 
+expr  @ 9 @ expr  @ 134 @ 
+name  @ 15 @ name  @ 144 @ 
+name: std  @ 57 @ name: std  @ 233 @ 
+type  @ 50 @ type  @ 226 @ 
+argument  @ 1 @ argument  @ 122 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 144 @ 
+name: string  @ 39 @ name: string  @ 213 @ 
+specifier: const  @ 9 @ specifier: const  @ 136 @ 
+argument  @ 93 @ argument  @ 8 @ 
+name: Default  @ 87 @ name: Default  @ 28 @ 
+decl_stmt  @ 87 @ decl_stmt  @ 28 @ 
+argument  @ 31 @ argument  @ 166 @ 
+expr  @ 19 @ expr  @ 149 @ 
+name: RunOptions  @ 25 @ name: RunOptions  @ 155 @ 
+operator: ::  @ 204 @ operator: ::  @ 203 @ 
+literal: "Running initialization op on SavedModel bundle at path: "  @ 26 @ literal: "Running initialization op on SavedModel bundle at path: "  @ 160 @ 
+comment: // Find path to variables to be restored in export directory.  @ 38 @ comment: // Find path to variables to be restored in export directory.  @ 212 @ 
+expr  @ 29 @ expr  @ 163 @ 
+name: std  @ 36 @ name: std  @ 209 @ 
+operator: ::  @ 221 @ operator: ::  @ 72 @ 
+expr  @ 57 @ expr  @ 233 @ 
+expr  @ 29 @ expr  @ 163 @ 
+argument_list  @ 57 @ argument_list  @ 233 @ 
+comment: // variables are stored in the variables.data-?????-of-????? files.  @ 43 @ comment: // variables are stored in the variables.data-?????-of-????? files.  @ 217 @ 
+expr  @ 29 @ expr  @ 163 @ 
+type  @ 30 @ type  @ 164 @ 
+operator: .  @ 9 @ operator: .  @ 134 @ 
+argument  @ 28 @ argument  @ 162 @ 
+call  @ 33 @ call  @ 168 @ 
+name: add_fetch  @ 10 @ name: add_fetch  @ 137 @ 
+name: export_dir  @ 199 @ name: export_dir  @ 99 @ 
+name: name  @ 8 @ name: name  @ 133 @ 
+call  @ 87 @ call  @ 28 @ 
+name: Env  @ 44 @ name: Env  @ 220 @ 
+name: Status  @ 33 @ name: Status  @ 168 @ 
+block_content  @ 37 @ block_content  @ 211 @ 
+block  @ 44 @ block  @ 220 @ 
+type  @ 39 @ type  @ 213 @ 
+expr  @ 4 @ expr  @ 129 @ 
+comment: // v2 format will have a variables.index file. The corresponding  @ 42 @ comment: // v2 format will have a variables.index file. The corresponding  @ 216 @ 
+operator: &  @ 72 @ operator: &  @ 79 @ 
+specifier: const  @ 25 @ specifier: const  @ 157 @ 
+operator: ::  @ 189 @ operator: ::  @ 92 @ 
+name: Tensor  @ 1 @ name: Tensor  @ 125 @ 
+type  @ 36 @ type  @ 206 @ 
+name: callable_options  @ 11 @ name: callable_options  @ 140 @ 
+expr  @ 14 @ expr  @ 143 @ 
+name: std  @ 77 @ name: std  @ 93 @ 
+name: feed_tensors  @ 16 @ name: feed_tensors  @ 145 @ 
+argument_list  @ 19 @ argument_list  @ 149 @ 
+call  @ 40 @ call  @ 214 @ 
+name: string  @ 44 @ name: string  @ 218 @ 
+operator: &  @ 36 @ operator: &  @ 209 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 143 @ 
+expr  @ 1 @ expr  @ 122 @ 
+name  @ 57 @ name  @ 233 @ 
+type  @ 2 @ type  @ 127 @ 
+name: Create  @ 74 @ name: Create  @ 82 @ 
+name: callable_handle  @ 14 @ name: callable_handle  @ 143 @ 
+specifier: const  @ 1 @ specifier: const  @ 122 @ 
+operator: <<  @ 27 @ operator: <<  @ 161 @ 
+operator: >  @ 55 @ operator: >  @ 231 @ 
+name: tensor  @ 9 @ name: tensor  @ 134 @ 
+expr  @ 58 @ expr  @ 234 @ 
+expr  @ 44 @ expr  @ 219 @ 
+operator: &  @ 1 @ operator: &  @ 121 @ 
+name: RunCallable  @ 16 @ name: RunCallable  @ 145 @ 
+name: vector  @ 1 @ name: vector  @ 122 @ 
+argument  @ 77 @ argument  @ 93 @ 
+argument_list  @ 1 @ argument_list  @ 121 @ 
+argument  @ 36 @ argument  @ 206 @ 
+name: vector  @ 189 @ name: vector  @ 92 @ 
+name: OK  @ 33 @ name: OK  @ 168 @ 
+name: string  @ 10 @ name: string  @ 139 @ 
+decl  @ 36 @ decl  @ 206 @ 
+expr  @ 28 @ expr  @ 162 @ 
+name: Extend  @ 141 @ name: push_back  @ 100 @ 
+operator: &  @ 36 @ operator: &  @ 206 @ 
+argument_list  @ 33 @ argument_list  @ 168 @ 
+block_content  @ 6 @ block_content  @ 131 @ 
+name: MetaGraphDef  @ 25 @ name: MetaGraphDef  @ 156 @ 
+expr  @ 16 @ expr  @ 145 @ 
+expr  @ 9 @ expr  @ 136 @ 
+name: DT_STRING  @ 54 @ name: DT_STRING  @ 230 @ 
+name: inputs  @ 28 @ name: inputs  @ 162 @ 
+argument_list  @ 37 @ argument_list  @ 211 @ 
+name: std  @ 1 @ name: std  @ 122 @ 
+decl_stmt  @ 39 @ decl_stmt  @ 213 @ 
+argument  @ 25 @ argument  @ 158 @ 
+argument_list  @ 16 @ argument_list  @ 145 @ 
+type  @ 198 @ type  @ 187 @ 
+operator: &  @ 36 @ operator: &  @ 206 @ 
+argument  @ 16 @ argument  @ 145 @ 
+expr  @ 8 @ expr  @ 133 @ 
+argument  @ 29 @ argument  @ 163 @ 
+expr  @ 15 @ expr  @ 144 @ 
+specifier: auto  @ 5 @ specifier: auto  @ 130 @ 
+argument_list  @ 36 @ argument_list  @ 206 @ 
+name: target_node_names  @ 1 @ name: target_node_names  @ 124 @ 
+control  @ 9 @ control  @ 136 @ 
+argument_list  @ 25 @ argument_list  @ 155 @ 
+call  @ 51 @ call  @ 227 @ 
+block  @ 25 @ block  @ 158 @ 
+name: std  @ 3 @ name: std  @ 128 @ 
+argument  @ 51 @ argument  @ 227 @ 
+name: StringPiece  @ 36 @ name: StringPiece  @ 208 @ 
+name: target_node_name  @ 10 @ name: target_node_name  @ 139 @ 
+name  @ 57 @ name  @ 233 @ 
+name: JoinPath  @ 44 @ name: JoinPath  @ 218 @ 
+expr  @ 19 @ expr  @ 149 @ 
+argument  @ 1 @ argument  @ 125 @ 
+decl  @ 7 @ decl  @ 132 @ 
+name  @ 28 @ name  @ 162 @ 
+name: AddAssetsTensorsToInputs  @ 29 @ name: AddAssetsTensorsToInputs  @ 163 @ 
+operator: .  @ 11 @ operator: .  @ 140 @ 
+argument  @ 1 @ argument  @ 123 @ 
+operator: ::  @ 33 @ operator: ::  @ 168 @ 
+argument  @ 57 @ argument  @ 233 @ 
+name: scalar  @ 55 @ name: scalar  @ 231 @ 
+literal: "The specified SavedModel has no variables; no checkpoints "  @ 45 @ literal: "The specified SavedModel has no variables; no checkpoints "  @ 221 @ 
+argument_list  @ 189 @ argument_list  @ 92 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 149 @ 
+expr  @ 36 @ expr  @ 210 @ 
+name: AssetFileDef  @ 189 @ name: AssetFileDef  @ 92 @ 
+expr  @ 54 @ expr  @ 230 @ 
+name: string  @ 77 @ name: string  @ 93 @ 
+name: run_status  @ 16 @ name: run_status  @ 145 @ 
+call  @ 44 @ call  @ 220 @ 
+expr  @ 57 @ expr  @ 233 @ 
+name: string  @ 57 @ name: string  @ 233 @ 
+name: Status  @ 16 @ name: Status  @ 145 @ 
+name: string  @ 25 @ name: string  @ 158 @ 
+name: inputs  @ 57 @ name: inputs  @ 233 @ 
+argument  @ 16 @ argument  @ 146 @ 
+expr  @ 10 @ expr  @ 137 @ 
+argument  @ 31 @ argument  @ 165 @ 
+expr  @ 72 @ expr  @ 79 @ 
+expr  @ 1 @ expr  @ 125 @ 
+name: variables_path_tensor  @ 54 @ name: variables_path_tensor  @ 230 @ 
+name: variables_path  @ 50 @ name: variables_path  @ 226 @ 
+argument  @ 28 @ argument  @ 162 @ 
+argument  @ 31 @ argument  @ 165 @ 
+type  @ 44 @ type  @ 218 @ 
+argument  @ 19 @ argument  @ 149 @ 
+name: kSavedModelVariablesDirectory  @ 40 @ name: kSavedModelVariablesDirectory  @ 214 @ 
+argument_list  @ 87 @ argument_list  @ 28 @ 
+argument_list  @ 26 @ argument_list  @ 160 @ 
+argument_list  @ 1 @ argument_list  @ 125 @ 
+operator: !  @ 44 @ operator: !  @ 220 @ 
+name: export_dir  @ 78 @ name: export_dir  @ 199 @ 
+expr  @ 25 @ expr  @ 157 @ 
+name: string  @ 1 @ name: string  @ 122 @ 
+argument_list  @ 40 @ argument_list  @ 214 @ 
+argument  @ 36 @ argument  @ 208 @ 
+name: callable_options  @ 10 @ name: callable_options  @ 137 @ 
+expr  @ 58 @ expr  @ 234 @ 
+name  @ 74 @ name  @ 82 @ 
+expr  @ 28 @ expr  @ 162 @ 
+name: IgnoreError  @ 19 @ name: IgnoreError  @ 149 @ 
+operator: )  @ 74 @ operator: )  @ 82 @ 
+name: session_p  @ 72 @ name: session_p  @ 79 @ 
+block  @ 10 @ block  @ 139 @ 
+name: Status  @ 25 @ name: Status  @ 155 @ 
+call  @ 58 @ call  @ 234 @ 
+argument  @ 187 @ argument  @ 77 @ 
+name: pair  @ 1 @ name: pair  @ 122 @ 
+name: run_metadata  @ 1 @ name: run_metadata  @ 125 @ 
+call  @ 87 @ call  @ 28 @ 
+name: callable_handle  @ 16 @ name: callable_handle  @ 145 @ 
+argument_list  @ 77 @ argument_list  @ 93 @ 
+argument  @ 141 @ argument  @ 101 @ 
+argument  @ 10 @ argument  @ 137 @ 
+specifier: const  @ 25 @ specifier: const  @ 155 @ 
+for  @ 5 @ for  @ 130 @ 
+argument_list  @ 221 @ argument_list  @ 72 @ 
+if_stmt  @ 44 @ if_stmt  @ 220 @ 
+name: std  @ 1 @ name: std  @ 123 @ 
+argument  @ 187 @ argument  @ 77 @ 
+expr  @ 10 @ expr  @ 137 @ 
+call  @ 72 @ call  @ 79 @ 
+name: Session  @ 25 @ name: Session  @ 158 @ 
+name: push_back  @ 9 @ name: push_back  @ 134 @ 
+name: Status  @ 48 @ name: Status  @ 224 @ 
+expr  @ 44 @ expr  @ 219 @ 
+argument  @ 45 @ argument  @ 221 @ 
+name: output_tensor_names  @ 9 @ name: output_tensor_names  @ 136 @ 
+call  @ 221 @ call  @ 72 @ 
+comment: // Check for saver checkpoints in v2 format. Models exported in the checkpoint  @ 41 @ comment: // Check for saver checkpoints in v2 format. Models exported in the checkpoint  @ 215 @ 
+name: vector  @ 1 @ name: vector  @ 125 @ 
+operator: ->  @ 19 @ operator: ->  @ 149 @ 
+name: meta_graph_def  @ 25 @ name: meta_graph_def  @ 156 @ 
+expr  @ 3 @ expr  @ 128 @ 
+argument_list  @ 19 @ argument_list  @ 149 @ 
+expr  @ 48 @ expr  @ 224 @ 
+expr  @ 54 @ expr  @ 230 @ 
+operator: <<  @ 45 @ operator: <<  @ 221 @ 
+expr  @ 25 @ expr  @ 156 @ 
+argument_list  @ 51 @ argument_list  @ 227 @ 
+name: RunInitOp  @ 25 @ name: RunInitOp  @ 155 @ 
+argument  @ 112 @ argument  @ 86 @ 
+specifier: const  @ 36 @ specifier: const  @ 207 @ 
+argument_list  @ 187 @ argument_list  @ 77 @ 
+call  @ 8 @ call  @ 133 @ 
+argument_list  @ 48 @ argument_list  @ 224 @ 
+operator: *  @ 25 @ operator: *  @ 158 @ 
+init  @ 6 @ init  @ 131 @ 
+block_content  @ 11 @ block_content  @ 140 @ 
+name  @ 4 @ name  @ 129 @ 
+init  @ 5 @ init  @ 130 @ 
+name: input  @ 7 @ name: input  @ 132 @ 
+operator: &  @ 25 @ operator: &  @ 158 @ 
+expr  @ 44 @ expr  @ 220 @ 
+name: asset_file_defs  @ 189 @ name: asset_file_defs  @ 92 @ 
+name: unique_ptr  @ 187 @ name: unique_ptr  @ 77 @ 
+expr  @ 45 @ expr  @ 221 @ 
+name: session  @ 19 @ name: session  @ 149 @ 
+name: LOG  @ 26 @ name: LOG  @ 160 @ 
+operator: !  @ 25 @ operator: !  @ 159 @ 
+expr  @ 29 @ expr  @ 163 @ 
+argument  @ 78 @ argument  @ 199 @ 
+

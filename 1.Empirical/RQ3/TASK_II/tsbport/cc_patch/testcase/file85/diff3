@@ -1,0 +1,3 @@
+1001a1002,1003
+>				} else if (!strnicmp(att->value, "gmem://", 7)) {
+>					GF_LOG(GF_LOG_WARNING, GF_LOG_PARSER, ("[NHMLDmx] Invalid url %s for NHML import\n", att->value));

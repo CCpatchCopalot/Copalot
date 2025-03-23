@@ -1,0 +1,199 @@
+block_content  @ 19 @ block_content  @ 19 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name: FieldType  @ 7 @ name: FieldType  @ 7 @ 
+return  @ 7 @ return  @ 7 @ 
+argument_list  @ 20 @ argument_list  @ 20 @ 
+name: GF_OK  @ 23 @ name: GF_OK  @ 23 @ 
+name: GF_BAD_PARAM  @ 8 @ name: GF_BAD_PARAM  @ 8 @ 
+block  @ 18 @ block  @ 18 @ 
+block_content  @ 13 @ block_content  @ 13 @ 
+expr  @ 19 @ expr  @ 19 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr  @ 5 @ expr  @ 5 @ 
+call  @ 20 @ call  @ 20 @ 
+name: gf_sg_vrml_mf_reset  @ 17 @ name: gf_sg_vrml_mf_reset  @ 17 @ 
+decl  @ 2 @ decl  @ 2 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+return  @ 8 @ return  @ 8 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name: mffield  @ 16 @ name: mffield  @ 16 @ 
+name: FieldType  @ 8 @ name: FieldType  @ 8 @ 
+name: GF_SG_VRML_MFNODE  @ 8 @ name: GF_SG_VRML_MFNODE  @ 8 @ 
+if  @ 13 @ if  @ 13 @ 
+operator: *  @ 20 @ operator: *  @ 20 @ 
+return  @ 23 @ return  @ 23 @ 
+argument_list  @ 20 @ argument_list  @ 20 @ 
+block_content  @ 16 @ block_content  @ 16 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 17 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: GF_IO_ERR  @ 14 @ name: GF_IO_ERR  @ 14 @ 
+type  @ 2 @ type  @ 2 @ 
+name: mf  @ 2 @ name: mf  @ 2 @ 
+expr  @ 23 @ expr  @ 23 @ 
+expr  @ 8 @ expr  @ 8 @ 
+call  @ 17 @ call  @ 17 @ 
+condition  @ 18 @ condition  @ 18 @ 
+name: GF_Err  @ 2 @ name: GF_Err  @ 2 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+sizeof  @ 19 @ sizeof  @ 19 @ 
+expr  @ 16 @ expr  @ 16 @ 
+expr  @ 10 @ expr  @ 10 @ 
+condition  @ 8 @ condition  @ 8 @ 
+name: FieldSize  @ 20 @ name: FieldSize  @ 20 @ 
+name: mffield  @ 20 @ name: mffield  @ 20 @ 
+name  @ 16 @ name  @ 16 @ 
+if_stmt  @ 8 @ if_stmt  @ 8 @ 
+name: FieldSize  @ 10 @ name: FieldSize  @ 10 @ 
+name: char  @ 20 @ name: char  @ 20 @ 
+name: count  @ 22 @ name: count  @ 22 @ 
+block  @ 16 @ block  @ 16 @ 
+expr  @ 18 @ expr  @ 18 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: mffield  @ 5 @ name: mffield  @ 5 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 20 @ 
+name: FieldSize  @ 19 @ name: FieldSize  @ 19 @ 
+name: array  @ 20 @ name: array  @ 20 @ 
+name: GenMFField  @ 5 @ name: GenMFField  @ 5 @ 
+operator: =  @ 19 @ operator: =  @ 19 @ 
+argument  @ 17 @ argument  @ 17 @ 
+name: char  @ 19 @ name: char  @ 19 @ 
+init  @ 5 @ init  @ 5 @ 
+operator: ->  @ 22 @ operator: ->  @ 22 @ 
+if_stmt  @ 7 @ if_stmt  @ 7 @ 
+name: FieldType  @ 17 @ name: FieldType  @ 17 @ 
+name: NbItems  @ 19 @ name: NbItems  @ 19 @ 
+if_stmt  @ 16 @ if_stmt  @ 16 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+call  @ 19 @ call  @ 19 @ 
+argument_list  @ 7 @ argument_list  @ 7 @ 
+argument  @ 20 @ argument  @ 20 @ 
+condition  @ 16 @ condition  @ 16 @ 
+name: u32  @ 2 @ name: u32  @ 2 @ 
+name  @ 19 @ name  @ 19 @ 
+name: u32  @ 2 @ name: u32  @ 2 @ 
+name: gf_sg_vrml_get_sf_size  @ 10 @ name: gf_sg_vrml_get_sf_size  @ 10 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: mf  @ 5 @ name: mf  @ 5 @ 
+expr  @ 20 @ expr  @ 20 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+name: NbItems  @ 22 @ name: NbItems  @ 22 @ 
+name: u32  @ 4 @ name: u32  @ 4 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+block_content  @ 14 @ block_content  @ 14 @ 
+name: mffield  @ 22 @ name: mffield  @ 22 @ 
+comment: //field we can't copy  @ 12 @ comment: //field we can't copy  @ 12 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+name: gf_sg_vrml_is_sf_field  @ 7 @ name: gf_sg_vrml_is_sf_field  @ 7 @ 
+name: NbItems  @ 20 @ name: NbItems  @ 20 @ 
+name: MAX_MFFIELD_ALLOC  @ 14 @ name: MAX_MFFIELD_ALLOC  @ 14 @ 
+condition  @ 7 @ condition  @ 7 @ 
+name: FieldSize  @ 13 @ name: FieldSize  @ 13 @ 
+name: NbItems  @ 2 @ name: NbItems  @ 2 @ 
+type  @ 5 @ type  @ 5 @ 
+block  @ 13 @ block  @ 13 @ 
+operator: =  @ 22 @ operator: =  @ 22 @ 
+call  @ 7 @ call  @ 7 @ 
+if  @ 8 @ if  @ 8 @ 
+argument  @ 17 @ argument  @ 17 @ 
+name: count  @ 16 @ name: count  @ 16 @ 
+operator: !  @ 13 @ operator: !  @ 13 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: mffield  @ 19 @ name: mffield  @ 19 @ 
+operator: >  @ 14 @ operator: >  @ 14 @ 
+expr  @ 17 @ expr  @ 17 @ 
+operator: )  @ 19 @ operator: )  @ 19 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+return  @ 13 @ return  @ 13 @ 
+expr  @ 20 @ expr  @ 20 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: void  @ 2 @ name: void  @ 2 @ 
+expr  @ 22 @ expr  @ 22 @ 
+name: GenMFField  @ 5 @ name: GenMFField  @ 5 @ 
+argument_list  @ 17 @ argument_list  @ 17 @ 
+argument  @ 19 @ argument  @ 19 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: mf  @ 17 @ name: mf  @ 17 @ 
+condition  @ 13 @ condition  @ 13 @ 
+condition  @ 14 @ condition  @ 14 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+return  @ 16 @ return  @ 16 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 22 @ 
+name  @ 20 @ name  @ 20 @ 
+operator: *  @ 20 @ operator: *  @ 20 @ 
+expr  @ 8 @ expr  @ 8 @ 
+sizeof  @ 20 @ sizeof  @ 20 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+argument  @ 20 @ argument  @ 20 @ 
+name: NbItems  @ 16 @ name: NbItems  @ 16 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: GF_BAD_PARAM  @ 7 @ name: GF_BAD_PARAM  @ 7 @ 
+block  @ 14 @ block  @ 14 @ 
+operator: =  @ 10 @ operator: =  @ 10 @ 
+if_stmt  @ 13 @ if_stmt  @ 13 @ 
+name: FieldType  @ 10 @ name: FieldType  @ 10 @ 
+operator: ==  @ 16 @ operator: ==  @ 16 @ 
+operator: ->  @ 16 @ operator: ->  @ 16 @ 
+expr  @ 7 @ expr  @ 7 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 20 @ expr  @ 20 @ 
+argument  @ 10 @ argument  @ 10 @ 
+operator: ->  @ 19 @ operator: ->  @ 19 @ 
+operator: *  @ 5 @ operator: *  @ 5 @ 
+name: NbItems  @ 14 @ name: NbItems  @ 14 @ 
+argument  @ 20 @ argument  @ 20 @ 
+block  @ 8 @ block  @ 8 @ 
+operator: *  @ 19 @ operator: *  @ 19 @ 
+block  @ 7 @ block  @ 7 @ 
+type  @ 2 @ type  @ 2 @ 
+unit  @ 1 @ unit  @ 1 @ 
+if  @ 7 @ if  @ 7 @ 
+expr  @ 20 @ expr  @ 20 @ 
+if  @ 18 @ if  @ 18 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: GF_OK  @ 16 @ name: GF_OK  @ 16 @ 
+name: GF_BAD_PARAM  @ 13 @ name: GF_BAD_PARAM  @ 13 @ 
+name  @ 22 @ name  @ 22 @ 
+if_stmt  @ 14 @ if_stmt  @ 14 @ 
+name: char  @ 19 @ name: char  @ 19 @ 
+if  @ 14 @ if  @ 14 @ 
+argument  @ 19 @ argument  @ 19 @ 
+function  @ 1 @ function  @ 1 @ 
+name: FieldSize  @ 4 @ name: FieldSize  @ 4 @ 
+decl  @ 2 @ decl  @ 2 @ 
+decl  @ 5 @ decl  @ 5 @ 
+if_stmt  @ 18 @ if_stmt  @ 18 @ 
+call  @ 10 @ call  @ 10 @ 
+expr  @ 13 @ expr  @ 13 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+argument  @ 20 @ argument  @ 20 @ 
+if  @ 16 @ if  @ 16 @ 
+argument  @ 7 @ argument  @ 7 @ 
+block_content  @ 8 @ block_content  @ 8 @ 
+operator: (  @ 19 @ operator: (  @ 19 @ 
+literal: 0  @ 20 @ literal: 0  @ 20 @ 
+name: GF_EXPORT  @ 1 @ name: GF_EXPORT  @ 1 @ 
+operator: *  @ 19 @ operator: *  @ 19 @ 
+expr  @ 16 @ expr  @ 16 @ 
+expr  @ 13 @ expr  @ 13 @ 
+name: memset  @ 20 @ name: memset  @ 20 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+name: FieldType  @ 2 @ name: FieldType  @ 2 @ 
+block  @ 3 @ block  @ 3 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: ==  @ 8 @ operator: ==  @ 8 @ 
+name: array  @ 19 @ name: array  @ 19 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name: gf_malloc  @ 19 @ name: gf_malloc  @ 19 @ 
+operator: *  @ 19 @ operator: *  @ 19 @ 
+return  @ 14 @ return  @ 14 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: gf_sg_vrml_mf_alloc  @ 2 @ name: gf_sg_vrml_mf_alloc  @ 2 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+type  @ 4 @ type  @ 4 @ 
+name: NbItems  @ 18 @ name: NbItems  @ 18 @ 
+

@@ -1,0 +1,340 @@
+name: sizeof_size  @ 29 @ name: sizeof_size  @ 32 @ 
+if  @ 30 @ if  @ 33 @ 
+argument  @ 21 @ argument  @ 21 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 47 @ 
+comment: /* Allocate&initialize free list node */  @ 21 @ comment: /* Allocate&initialize free list node */  @ 23 @ 
+call  @ 12 @ call  @ 12 @ 
+operator: (  @ 33 @ operator: (  @ 38 @ 
+operator: =  @ 39 @ operator: =  @ 46 @ 
+name: FUNC_LEAVE_NOAPI  @ 49 @ name: FUNC_LEAVE_NOAPI  @ 56 @ 
+name: H5HL_t  @ 2 @ name: H5HL_t  @ 2 @ 
+literal: 0  @ 44 @ literal: 0  @ 51 @ 
+macro  @ 34 @ macro  @ 39 @ 
+expr  @ 22 @ expr  @ 24 @ 
+operator: ->  @ 29 @ operator: ->  @ 32 @ 
+type  @ 6 @ type  @ 6 @ 
+operator: =  @ 23 @ operator: =  @ 26 @ 
+expr  @ 32 @ expr  @ 37 @ 
+decl  @ 5 @ decl  @ 5 @ 
+decl_stmt  @ 17 @ decl_stmt  @ 17 @ 
+condition  @ 20 @ condition  @ 20 @ 
+expr  @ 32 @ expr  @ 37 @ 
+comment: /* Append node onto list */  @ 34 @ comment: /* Append node onto list */  @ 41 @ 
+call  @ 29 @ call  @ 32 @ 
+expr  @ 12 @ expr  @ 12 @ 
+argument_list  @ 11 @ argument_list  @ 11 @ 
+argument_list  @ 22 @ argument_list  @ 24 @ 
+argument  @ 31 @ argument  @ 34 @ 
+comment: /* Decode offset of next free block */  @ 27 @ comment: /* Decode offset of next free block */  @ 30 @ 
+operator: (  @ 22 @ operator: (  @ 24 @ 
+operator: =  @ 22 @ operator: =  @ 24 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 26 @ 
+name  @ 33 @ name  @ 38 @ 
+block  @ 34 @ block  @ 39 @ 
+operator: =  @ 40 @ operator: =  @ 47 @ 
+expr  @ 38 @ expr  @ 45 @ 
+name: fl  @ 32 @ name: fl  @ 37 @ 
+name: heap  @ 28 @ name: heap  @ 31 @ 
+operator: ->  @ 12 @ operator: ->  @ 12 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+name  @ 20 @ name  @ 20 @ 
+name: free_block  @ 28 @ name: free_block  @ 31 @ 
+if_stmt  @ 22 @ if_stmt  @ 24 @ 
+name  @ 25 @ name  @ 28 @ 
+block  @ 47 @ block  @ 54 @ 
+label  @ 43 @ label  @ 50 @ 
+argument  @ 34 @ argument  @ 39 @ 
+operator: =  @ 47 @ operator: =  @ 54 @ 
+block_content  @ 34 @ block_content  @ 39 @ 
+argument_list  @ 47 @ argument_list  @ 54 @ 
+expr  @ 15 @ expr  @ 15 @ 
+init  @ 4 @ init  @ 4 @ 
+name: tail  @ 39 @ name: tail  @ 46 @ 
+operator: ==  @ 22 @ operator: ==  @ 24 @ 
+expr  @ 29 @ expr  @ 32 @ 
+expr  @ 29 @ expr  @ 32 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+macro  @ 49 @ macro  @ 56 @ 
+block  @ 38 @ block  @ 45 @ 
+literal: "free block size is zero?"  @ 31 @ literal: "free block size is zero?"  @ 34 @ 
+name: HDassert  @ 12 @ name: HDassert  @ 12 @ 
+name: dblk_image  @ 28 @ name: dblk_image  @ 31 @ 
+operator: )  @ 22 @ operator: )  @ 24 @ 
+name: NULL  @ 22 @ name: NULL  @ 24 @ 
+expr  @ 47 @ expr  @ 54 @ 
+operator: +  @ 33 @ operator: +  @ 38 @ 
+expr  @ 32 @ expr  @ 37 @ 
+name: NULL  @ 25 @ name: NULL  @ 28 @ 
+if  @ 45 @ if  @ 52 @ 
+condition  @ 22 @ condition  @ 24 @ 
+block  @ 23 @ block  @ 25 @ 
+operator: ->  @ 33 @ operator: ->  @ 38 @ 
+if  @ 35 @ if  @ 42 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: heap  @ 33 @ name: heap  @ 38 @ 
+name  @ 28 @ name  @ 31 @ 
+name  @ 29 @ name  @ 32 @ 
+expr  @ 25 @ expr  @ 28 @ 
+argument  @ 34 @ argument  @ 39 @ 
+if_stmt  @ 20 @ if_stmt  @ 20 @ 
+name: image  @ 32 @ name: image  @ 37 @ 
+name: freelist  @ 12 @ name: freelist  @ 12 @ 
+argument_list  @ 32 @ argument_list  @ 37 @ 
+name: heap  @ 32 @ name: heap  @ 37 @ 
+comment: /* Pointer into image buffer */  @ 17 @ comment: /* Pointer into image buffer */  @ 17 @ 
+expr  @ 4 @ expr  @ 4 @ 
+block_content  @ 38 @ block_content  @ 45 @ 
+name: free_block  @ 30 @ name: free_block  @ 33 @ 
+argument_list  @ 29 @ argument_list  @ 32 @ 
+block_content  @ 31 @ block_content  @ 34 @ 
+name  @ 36 @ name  @ 43 @ 
+if  @ 20 @ if  @ 20 @ 
+name  @ 33 @ name  @ 38 @ 
+else  @ 37 @ else  @ 44 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+expr  @ 29 @ expr  @ 32 @ 
+expr  @ 32 @ expr  @ 37 @ 
+name: fl  @ 25 @ name: fl  @ 28 @ 
+name: FUNC_ENTER_STATIC  @ 8 @ name: FUNC_ENTER_PACKAGE  @ 8 @ 
+name: fl  @ 47 @ name: fl  @ 54 @ 
+name: NULL  @ 4 @ name: NULL  @ 4 @ 
+argument_list  @ 31 @ argument_list  @ 34 @ 
+comment: /* Heap free block nodes */  @ 4 @ comment: /* Heap free block nodes */  @ 4 @ 
+argument_list  @ 21 @ argument_list  @ 21 @ 
+type  @ 4 @ type  @ 4 @ 
+block_content  @ 47 @ block_content  @ 54 @ 
+name: fl  @ 38 @ name: fl  @ 45 @ 
+if  @ 33 @ if  @ 38 @ 
+name: free_block  @ 15 @ name: free_block  @ 15 @ 
+argument_list  @ 12 @ argument_list  @ 12 @ 
+name: next  @ 25 @ name: next  @ 28 @ 
+condition  @ 30 @ condition  @ 33 @ 
+name: H5HL_FREE_NULL  @ 16 @ name: H5HL_FREE_NULL  @ 16 @ 
+name: HGOTO_ERROR  @ 23 @ name: HGOTO_ERROR  @ 25 @ 
+name  @ 24 @ name  @ 27 @ 
+name: heap  @ 20 @ name: heap  @ 20 @ 
+name: size  @ 32 @ name: size  @ 37 @ 
+argument  @ 34 @ argument  @ 39 @ 
+name: ret_value  @ 6 @ name: ret_value  @ 6 @ 
+comment: /* Decode length of this free block */  @ 31 @ comment: /* Decode length of this free block */  @ 36 @ 
+name: dblk_size  @ 33 @ name: dblk_size  @ 38 @ 
+type  @ 17 @ type  @ 17 @ 
+name: tail  @ 24 @ name: tail  @ 27 @ 
+name: heap  @ 2 @ name: heap  @ 2 @ 
+operator: >  @ 33 @ operator: >  @ 38 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+operator: <  @ 44 @ operator: <  @ 51 @ 
+expr  @ 36 @ expr  @ 43 @ 
+expr  @ 44 @ expr  @ 51 @ 
+argument  @ 23 @ argument  @ 25 @ 
+name  @ 32 @ name  @ 37 @ 
+block  @ 36 @ block  @ 43 @ 
+name: HGOTO_ERROR  @ 21 @ name: HGOTO_ERROR  @ 21 @ 
+name: tail  @ 4 @ name: tail  @ 4 @ 
+name: fl  @ 33 @ name: fl  @ 38 @ 
+name: prev  @ 24 @ name: prev  @ 27 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 12 @ 
+block  @ 21 @ block  @ 21 @ 
+condition  @ 44 @ condition  @ 51 @ 
+operator: ->  @ 23 @ operator: ->  @ 26 @ 
+operator: !=  @ 16 @ operator: !=  @ 16 @ 
+name: image  @ 17 @ name: image  @ 17 @ 
+if  @ 44 @ if  @ 51 @ 
+name: offset  @ 23 @ name: offset  @ 26 @ 
+name: hsize_t  @ 5 @ name: hsize_t  @ 5 @ 
+argument  @ 47 @ argument  @ 54 @ 
+operator: ->  @ 33 @ operator: ->  @ 38 @ 
+name: H5HL_free_t  @ 4 @ name: H5HL_free_t  @ 4 @ 
+expr  @ 40 @ expr  @ 47 @ 
+macro  @ 21 @ macro  @ 21 @ 
+operator: ->  @ 38 @ operator: ->  @ 45 @ 
+expr  @ 22 @ expr  @ 24 @ 
+name: image  @ 29 @ name: image  @ 32 @ 
+name: herr_t  @ 6 @ name: herr_t  @ 6 @ 
+expr  @ 28 @ expr  @ 31 @ 
+name: heap  @ 12 @ name: heap  @ 12 @ 
+name: fl  @ 23 @ name: fl  @ 26 @ 
+if_stmt  @ 44 @ if_stmt  @ 51 @ 
+expr_stmt  @ 29 @ expr_stmt  @ 32 @ 
+expr  @ 30 @ expr  @ 33 @ 
+type  @ 2 @ type  @ 2 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: ->  @ 24 @ operator: ->  @ 27 @ 
+name  @ 15 @ name  @ 15 @ 
+argument  @ 29 @ argument  @ 32 @ 
+name: fl  @ 47 @ name: fl  @ 54 @ 
+name: HGOTO_ERROR  @ 31 @ name: HGOTO_ERROR  @ 34 @ 
+argument_list  @ 23 @ argument_list  @ 25 @ 
+operator: (  @ 23 @ operator: (  @ 26 @ 
+name: fl  @ 33 @ name: fl  @ 38 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: ret_value  @ 44 @ name: ret_value  @ 51 @ 
+argument  @ 29 @ argument  @ 32 @ 
+name: size  @ 33 @ name: size  @ 38 @ 
+type  @ 8 @ type  @ 8 @ 
+name: free_block  @ 20 @ name: free_block  @ 20 @ 
+name: H5F_DECODE_LENGTH_LEN  @ 29 @ name: H5F_DECODE_LENGTH_LEN  @ 32 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 37 @ 
+expr  @ 45 @ expr  @ 52 @ 
+expr  @ 29 @ expr  @ 32 @ 
+condition  @ 45 @ condition  @ 52 @ 
+expr  @ 23 @ expr  @ 26 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+expr  @ 24 @ expr  @ 27 @ 
+name: next  @ 36 @ name: next  @ 43 @ 
+literal: "bad heap free list"  @ 21 @ literal: "bad heap free list"  @ 21 @ 
+type  @ 5 @ type  @ 5 @ 
+operator: ->  @ 28 @ operator: ->  @ 31 @ 
+operator: ->  @ 33 @ operator: ->  @ 38 @ 
+argument  @ 32 @ argument  @ 37 @ 
+name: offset  @ 33 @ name: offset  @ 38 @ 
+argument  @ 22 @ argument  @ 24 @ 
+expr  @ 33 @ expr  @ 38 @ 
+name: tail  @ 35 @ name: tail  @ 42 @ 
+comment: /* H5FL_FREE always returns NULL so we can't check for errors */  @ 46 @ comment: /* H5FL_FREE always returns NULL so we can't check for errors */  @ 53 @ 
+name: fl  @ 36 @ name: fl  @ 43 @ 
+if_stmt  @ 30 @ if_stmt  @ 33 @ 
+name  @ 33 @ name  @ 38 @ 
+operator: =  @ 28 @ operator: =  @ 31 @ 
+argument  @ 32 @ argument  @ 37 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: HDassert  @ 11 @ name: HDassert  @ 11 @ 
+if  @ 22 @ if  @ 24 @ 
+call  @ 47 @ call  @ 54 @ 
+operator: =  @ 24 @ operator: =  @ 27 @ 
+name: tail  @ 36 @ name: tail  @ 43 @ 
+block_content  @ 23 @ block_content  @ 25 @ 
+literal: "memory allocation failed"  @ 23 @ literal: "memory allocation failed"  @ 25 @ 
+operator: ->  @ 36 @ operator: ->  @ 43 @ 
+argument  @ 23 @ argument  @ 25 @ 
+name: image  @ 28 @ name: image  @ 31 @ 
+name: fl  @ 40 @ name: fl  @ 47 @ 
+name: fl  @ 39 @ name: fl  @ 46 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 31 @ 
+argument  @ 21 @ argument  @ 21 @ 
+argument_list  @ 49 @ argument_list  @ 56 @ 
+name: HGOTO_ERROR  @ 34 @ name: HGOTO_ERROR  @ 39 @ 
+expr_stmt  @ 39 @ expr_stmt  @ 46 @ 
+name: H5HL__fl_deserialize  @ 2 @ name: H5HL__fl_deserialize  @ 2 @ 
+expr  @ 47 @ expr  @ 54 @ 
+block  @ 3 @ block  @ 3 @ 
+condition  @ 33 @ condition  @ 38 @ 
+argument  @ 47 @ argument  @ 54 @ 
+init  @ 4 @ init  @ 4 @ 
+comment: /* end H5HL__fl_deserialize() */  @ 50 @ comment: /* end H5HL__fl_deserialize() */  @ 57 @ 
+argument  @ 23 @ argument  @ 25 @ 
+expr  @ 35 @ expr  @ 42 @ 
+name: heap  @ 11 @ name: heap  @ 11 @ 
+if_stmt  @ 45 @ if_stmt  @ 52 @ 
+name: fl  @ 4 @ name: fl  @ 4 @ 
+literal: 0  @ 30 @ literal: 0  @ 33 @ 
+type  @ 4 @ type  @ 4 @ 
+name  @ 12 @ name  @ 12 @ 
+operator: >=  @ 20 @ operator: >=  @ 20 @ 
+name: fl  @ 24 @ name: fl  @ 27 @ 
+operator: ->  @ 32 @ operator: ->  @ 37 @ 
+call  @ 22 @ call  @ 24 @ 
+macro  @ 31 @ macro  @ 34 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+decl  @ 6 @ decl  @ 6 @ 
+name: fl  @ 45 @ name: fl  @ 52 @ 
+argument  @ 21 @ argument  @ 21 @ 
+expr  @ 16 @ expr  @ 16 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: freelist  @ 38 @ name: freelist  @ 45 @ 
+operator: ->  @ 15 @ operator: ->  @ 15 @ 
+decl  @ 4 @ decl  @ 4 @ 
+operator: =  @ 15 @ operator: =  @ 15 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: dblk_size  @ 20 @ name: dblk_size  @ 20 @ 
+argument  @ 12 @ argument  @ 12 @ 
+block_content  @ 36 @ block_content  @ 43 @ 
+name: done  @ 43 @ name: done  @ 50 @ 
+name: sizeof_size  @ 32 @ name: sizeof_size  @ 37 @ 
+expr  @ 11 @ expr  @ 11 @ 
+argument  @ 29 @ argument  @ 32 @ 
+name: heap  @ 38 @ name: heap  @ 45 @ 
+argument  @ 11 @ argument  @ 11 @ 
+comment: /* check arguments */  @ 10 @ comment: /* check arguments */  @ 10 @ 
+expr  @ 20 @ expr  @ 20 @ 
+argument  @ 34 @ argument  @ 39 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: H5HL_free_t  @ 47 @ name: H5HL_free_t  @ 54 @ 
+comment: /* Build free list */  @ 14 @ comment: /* Build free list */  @ 14 @ 
+argument  @ 23 @ argument  @ 25 @ 
+operator: +  @ 28 @ operator: +  @ 31 @ 
+operator: )  @ 23 @ operator: )  @ 26 @ 
+operator: =  @ 38 @ operator: =  @ 45 @ 
+name: free_block  @ 5 @ name: free_block  @ 5 @ 
+operator: )  @ 33 @ operator: )  @ 38 @ 
+name: free_block  @ 23 @ name: free_block  @ 26 @ 
+call  @ 32 @ call  @ 37 @ 
+while  @ 16 @ while  @ 16 @ 
+argument  @ 49 @ argument  @ 56 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+name: NULL  @ 4 @ name: NULL  @ 4 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 27 @ 
+argument  @ 31 @ argument  @ 34 @ 
+specifier: const  @ 17 @ specifier: const  @ 17 @ 
+name  @ 38 @ name  @ 45 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+modifier: *  @ 17 @ modifier: *  @ 17 @ 
+name: free_block  @ 29 @ name: free_block  @ 32 @ 
+macro  @ 23 @ macro  @ 25 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+operator: =  @ 36 @ operator: =  @ 43 @ 
+name  @ 23 @ name  @ 26 @ 
+comment: /* Sanity check */  @ 19 @ comment: /* Sanity check */  @ 19 @ 
+name: SUCCEED  @ 6 @ name: SUCCEED  @ 6 @ 
+argument  @ 31 @ argument  @ 34 @ 
+operator: ->  @ 32 @ operator: ->  @ 37 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name: heap  @ 15 @ name: heap  @ 15 @ 
+operator: ->  @ 25 @ operator: ->  @ 28 @ 
+argument  @ 21 @ argument  @ 21 @ 
+comment: /* Return value */  @ 6 @ comment: /* Return value */  @ 6 @ 
+decl  @ 4 @ decl  @ 4 @ 
+init  @ 6 @ init  @ 6 @ 
+argument_list  @ 34 @ argument_list  @ 39 @ 
+name: H5FL_MALLOC  @ 22 @ name: H5FL_MALLOC  @ 24 @ 
+if_stmt  @ 35 @ if_stmt  @ 42 @ 
+name: NULL  @ 40 @ name: NULL  @ 47 @ 
+function  @ 1 @ function  @ 1 @ 
+block  @ 31 @ block  @ 34 @ 
+if_stmt  @ 33 @ if_stmt  @ 38 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 45 @ 
+decl  @ 8 @ decl  @ 8 @ 
+name: H5F_DECODE_LENGTH_LEN  @ 32 @ name: H5F_DECODE_LENGTH_LEN  @ 37 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 43 @ 
+operator: =  @ 25 @ operator: =  @ 28 @ 
+name: size_t  @ 23 @ name: size_t  @ 26 @ 
+name  @ 32 @ name  @ 37 @ 
+block_content  @ 17 @ block_content  @ 17 @ 
+expr  @ 47 @ expr  @ 54 @ 
+name: free_block  @ 16 @ name: free_block  @ 16 @ 
+condition  @ 16 @ condition  @ 16 @ 
+name: fl  @ 22 @ name: fl  @ 24 @ 
+operator: ==  @ 30 @ operator: ==  @ 33 @ 
+block  @ 16 @ block  @ 16 @ 
+argument  @ 31 @ argument  @ 34 @ 
+argument  @ 32 @ argument  @ 37 @ 
+expr_stmt  @ 47 @ expr_stmt  @ 54 @ 
+name: H5FL_FREE  @ 47 @ name: H5FL_FREE  @ 54 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 28 @ 
+expr  @ 39 @ expr  @ 46 @ 
+condition  @ 35 @ condition  @ 42 @ 
+name: H5HL_free_t  @ 22 @ name: H5HL_free_t  @ 24 @ 
+block_content  @ 21 @ block_content  @ 21 @ 
+block_content  @ 45 @ block_content  @ 52 @ 
+literal: "bad heap free list"  @ 34 @ literal: "bad heap free list"  @ 39 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+operator: !  @ 12 @ operator: !  @ 12 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+block  @ 45 @ block  @ 52 @ 
+comment: /* Offset of free block */  @ 5 @ comment: /* Offset of free block */  @ 5 @ 
+name: uint8_t  @ 17 @ name: uint8_t  @ 17 @ 
+name: free_block  @ 15 @ name: free_block  @ 15 @ 
+decl  @ 17 @ decl  @ 17 @ 
+name: heap  @ 29 @ name: heap  @ 32 @ 
+

@@ -1,0 +1,274 @@
+type  @ 8 @ type  @ 8 @ 
+name: ret_value  @ 8 @ name: ret_value  @ 8 @ 
+operator: ->  @ 24 @ operator: ->  @ 24 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 24 @ expr  @ 24 @ 
+operator: &&  @ 18 @ operator: &&  @ 18 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+type  @ 4 @ type  @ 4 @ 
+argument  @ 25 @ argument  @ 25 @ 
+decl  @ 8 @ decl  @ 8 @ 
+expr  @ 27 @ expr  @ 29 @ 
+name: UINT32DECODE  @ 21 @ name: UINT32DECODE  @ 21 @ 
+comment: /* Temporary coordinate offset, from file */  @ 6 @ comment: /* Temporary coordinate offset, from file */  @ 6 @ 
+control  @ 23 @ control  @ 23 @ 
+name: layout  @ 23 @ name: layout  @ 23 @ 
+name: key  @ 21 @ name: key  @ 21 @ 
+comment: /* Pointer to decoded key */  @ 5 @ comment: /* Pointer to decoded key */  @ 5 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+name: HDassert  @ 13 @ name: HDassert  @ 13 @ 
+decl  @ 6 @ decl  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+argument  @ 25 @ argument  @ 25 @ 
+operator: ->  @ 16 @ operator: ->  @ 16 @ 
+index  @ 30 @ index  @ 32 @ 
+name: HGOTO_ERROR  @ 25 @ name: HGOTO_ERROR  @ 25 @ 
+argument  @ 25 @ argument  @ 25 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 29 @ 
+name: H5O_LAYOUT_NDIMS  @ 18 @ name: H5O_LAYOUT_NDIMS  @ 18 @ 
+name: key  @ 15 @ name: key  @ 15 @ 
+name: _key  @ 2 @ name: _key  @ 2 @ 
+name: H5B_shared_t  @ 2 @ name: H5B_shared_t  @ 2 @ 
+name: nbytes  @ 21 @ name: nbytes  @ 21 @ 
+name  @ 30 @ name  @ 32 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 17 @ 
+name: FUNC_ENTER_STATIC  @ 10 @ name: FUNC_ENTER_PACKAGE  @ 10 @ 
+expr  @ 23 @ expr  @ 23 @ 
+index  @ 30 @ index  @ 32 @ 
+name: u  @ 24 @ name: u  @ 24 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 32 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+argument_list  @ 13 @ argument_list  @ 13 @ 
+decl  @ 4 @ decl  @ 4 @ 
+name: filter_mask  @ 22 @ name: filter_mask  @ 22 @ 
+name: raw  @ 22 @ name: raw  @ 22 @ 
+name: raw  @ 2 @ name: raw  @ 2 @ 
+macro  @ 25 @ macro  @ 25 @ 
+name: u  @ 30 @ name: u  @ 32 @ 
+argument  @ 13 @ argument  @ 13 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+decl  @ 10 @ decl  @ 10 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: udata  @ 16 @ name: udata  @ 16 @ 
+operator: ->  @ 30 @ operator: ->  @ 32 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 28 @ 
+block_content  @ 25 @ block_content  @ 25 @ 
+operator: <=  @ 18 @ operator: <=  @ 18 @ 
+argument_list  @ 18 @ argument_list  @ 18 @ 
+name: scaled  @ 30 @ name: scaled  @ 32 @ 
+literal: 0  @ 24 @ literal: 0  @ 24 @ 
+expr  @ 26 @ expr  @ 28 @ 
+operator: ->  @ 18 @ operator: ->  @ 18 @ 
+init  @ 5 @ init  @ 5 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+operator: /  @ 30 @ operator: /  @ 32 @ 
+expr  @ 13 @ expr  @ 13 @ 
+comment: /* Convert to a scaled offset */  @ 29 @ comment: /* Convert to a scaled offset */  @ 31 @ 
+type  @ 5 @ type  @ 5 @ 
+operator: <  @ 23 @ operator: <  @ 23 @ 
+expr  @ 21 @ expr  @ 21 @ 
+expr  @ 21 @ expr  @ 21 @ 
+expr  @ 18 @ expr  @ 18 @ 
+expr  @ 23 @ expr  @ 23 @ 
+expr  @ 22 @ expr  @ 22 @ 
+type  @ 2 @ type  @ 2 @ 
+name: H5D__btree_decode_key  @ 2 @ name: H5D__btree_decode_key  @ 2 @ 
+name: layout  @ 16 @ name: layout  @ 16 @ 
+name: hsize_t  @ 6 @ name: hsize_t  @ 6 @ 
+operator: (  @ 16 @ operator: (  @ 16 @ 
+call  @ 17 @ call  @ 17 @ 
+name  @ 23 @ name  @ 23 @ 
+name: HDassert  @ 15 @ name: HDassert  @ 15 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: ++  @ 23 @ operator: ++  @ 23 @ 
+type  @ 7 @ type  @ 7 @ 
+argument  @ 21 @ argument  @ 21 @ 
+expr  @ 30 @ expr  @ 32 @ 
+macro  @ 34 @ macro  @ 36 @ 
+call  @ 22 @ call  @ 22 @ 
+operator: *  @ 16 @ operator: *  @ 16 @ 
+expr  @ 24 @ expr  @ 24 @ 
+argument_list  @ 22 @ argument_list  @ 22 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+name: ndims  @ 18 @ name: ndims  @ 18 @ 
+name: key  @ 30 @ name: key  @ 32 @ 
+init  @ 8 @ init  @ 8 @ 
+type  @ 10 @ type  @ 10 @ 
+argument_list  @ 26 @ argument_list  @ 28 @ 
+name: layout  @ 27 @ name: layout  @ 29 @ 
+name: u  @ 23 @ name: u  @ 23 @ 
+call  @ 18 @ call  @ 18 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 21 @ expr  @ 21 @ 
+expr  @ 15 @ expr  @ 15 @ 
+expr  @ 23 @ expr  @ 23 @ 
+name: u  @ 27 @ name: u  @ 29 @ 
+call  @ 15 @ call  @ 15 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 22 @ 
+expr  @ 17 @ expr  @ 17 @ 
+expr  @ 26 @ expr  @ 28 @ 
+argument  @ 18 @ argument  @ 18 @ 
+operator: *  @ 5 @ operator: *  @ 5 @ 
+condition  @ 24 @ condition  @ 24 @ 
+expr  @ 22 @ expr  @ 22 @ 
+name: FUNC_LEAVE_NOAPI  @ 34 @ name: FUNC_LEAVE_NOAPI  @ 36 @ 
+index  @ 27 @ index  @ 29 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 21 @ 
+block_content  @ 24 @ block_content  @ 24 @ 
+argument_list  @ 27 @ argument_list  @ 29 @ 
+condition  @ 23 @ condition  @ 23 @ 
+argument  @ 27 @ argument  @ 29 @ 
+comment: /* check args */  @ 12 @ comment: /* check args */  @ 12 @ 
+argument  @ 15 @ argument  @ 15 @ 
+argument_list  @ 14 @ argument_list  @ 14 @ 
+name: void  @ 2 @ name: void  @ 2 @ 
+if  @ 24 @ if  @ 24 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+block  @ 25 @ block  @ 25 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+name: u  @ 30 @ name: u  @ 32 @ 
+name: HDassert  @ 27 @ name: HDassert  @ 29 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 18 @ 
+expr  @ 30 @ expr  @ 32 @ 
+expr  @ 8 @ expr  @ 8 @ 
+name: dim  @ 27 @ name: dim  @ 29 @ 
+decl  @ 7 @ decl  @ 7 @ 
+name: H5O_layout_chunk_t  @ 16 @ name: H5O_layout_chunk_t  @ 16 @ 
+argument  @ 26 @ argument  @ 28 @ 
+literal: 0  @ 27 @ literal: 0  @ 29 @ 
+name: layout  @ 18 @ name: layout  @ 18 @ 
+name: key  @ 22 @ name: key  @ 22 @ 
+name: tmp_offset  @ 6 @ name: tmp_offset  @ 6 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 7 @ 
+argument  @ 34 @ argument  @ 36 @ 
+name: ndims  @ 23 @ name: ndims  @ 23 @ 
+type  @ 6 @ type  @ 6 @ 
+call  @ 21 @ call  @ 21 @ 
+expr_stmt  @ 16 @ expr_stmt  @ 16 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+comment: /* decode */  @ 20 @ comment: /* decode */  @ 20 @ 
+expr  @ 27 @ expr  @ 29 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name  @ 27 @ name  @ 29 @ 
+argument  @ 17 @ argument  @ 17 @ 
+index  @ 24 @ index  @ 24 @ 
+comment: /* Return value */  @ 8 @ comment: /* Return value */  @ 8 @ 
+name: layout  @ 30 @ name: layout  @ 32 @ 
+argument_list  @ 34 @ argument_list  @ 36 @ 
+name: HDassert  @ 18 @ name: HDassert  @ 18 @ 
+name: ndims  @ 18 @ name: ndims  @ 18 @ 
+literal: "chunk size must be>0, dim = %u "  @ 25 @ literal: "chunk size must be>0, dim = %u "  @ 25 @ 
+literal: 0  @ 18 @ literal: 0  @ 18 @ 
+name: H5D_btree_key_t  @ 5 @ name: H5D_btree_key_t  @ 5 @ 
+comment: /* end H5D__btree_decode_key() */  @ 35 @ comment: /* end H5D__btree_decode_key() */  @ 37 @ 
+name: layout  @ 17 @ name: layout  @ 17 @ 
+name: herr_t  @ 8 @ name: herr_t  @ 8 @ 
+name  @ 18 @ name  @ 18 @ 
+name: tmp_offset  @ 30 @ name: tmp_offset  @ 32 @ 
+name  @ 21 @ name  @ 21 @ 
+operator: ==  @ 24 @ operator: ==  @ 24 @ 
+expr  @ 27 @ expr  @ 29 @ 
+name: HDassert  @ 17 @ name: HDassert  @ 17 @ 
+call  @ 26 @ call  @ 28 @ 
+name: tmp_offset  @ 26 @ name: tmp_offset  @ 28 @ 
+argument_list  @ 17 @ argument_list  @ 17 @ 
+argument  @ 26 @ argument  @ 28 @ 
+operator: =  @ 30 @ operator: =  @ 32 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr  @ 30 @ expr  @ 32 @ 
+comment: /* Local index variable */  @ 7 @ comment: /* Local index variable */  @ 7 @ 
+name: layout  @ 24 @ name: layout  @ 24 @ 
+label  @ 33 @ label  @ 35 @ 
+specifier: const  @ 4 @ specifier: const  @ 4 @ 
+name: uint8_t  @ 2 @ name: uint8_t  @ 2 @ 
+block  @ 3 @ block  @ 3 @ 
+operator: >  @ 18 @ operator: >  @ 18 @ 
+name: raw  @ 14 @ name: raw  @ 14 @ 
+expr  @ 26 @ expr  @ 28 @ 
+operator: (  @ 5 @ operator: (  @ 5 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: SUCCEED  @ 8 @ name: SUCCEED  @ 8 @ 
+name: HDassert  @ 14 @ name: HDassert  @ 14 @ 
+incr  @ 23 @ incr  @ 23 @ 
+operator: ->  @ 27 @ operator: ->  @ 29 @ 
+name  @ 18 @ name  @ 18 @ 
+argument  @ 25 @ argument  @ 25 @ 
+specifier: const  @ 16 @ specifier: const  @ 16 @ 
+argument  @ 22 @ argument  @ 22 @ 
+name: dim  @ 24 @ name: dim  @ 24 @ 
+unit  @ 1 @ unit  @ 1 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: UINT32DECODE  @ 22 @ name: UINT32DECODE  @ 22 @ 
+argument  @ 22 @ argument  @ 22 @ 
+block  @ 23 @ block  @ 23 @ 
+operator: )  @ 5 @ operator: )  @ 5 @ 
+name  @ 22 @ name  @ 22 @ 
+name: layout  @ 18 @ name: layout  @ 18 @ 
+name: u  @ 7 @ name: u  @ 7 @ 
+name: shared  @ 2 @ name: shared  @ 2 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+name: layout  @ 4 @ name: layout  @ 4 @ 
+name: raw  @ 26 @ name: raw  @ 28 @ 
+name: dim  @ 30 @ name: dim  @ 32 @ 
+operator: (  @ 27 @ operator: (  @ 29 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 15 @ expr  @ 15 @ 
+name: tmp_offset  @ 27 @ name: tmp_offset  @ 29 @ 
+argument_list  @ 21 @ argument_list  @ 21 @ 
+for  @ 23 @ for  @ 23 @ 
+argument  @ 14 @ argument  @ 14 @ 
+comment: /* end for */  @ 31 @ comment: /* end for */  @ 33 @ 
+expr  @ 22 @ expr  @ 22 @ 
+operator: %  @ 27 @ operator: %  @ 29 @ 
+name: shared  @ 16 @ name: shared  @ 16 @ 
+name: u  @ 23 @ name: u  @ 23 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+literal: 0  @ 23 @ literal: 0  @ 23 @ 
+name: unsigned  @ 7 @ name: unsigned  @ 7 @ 
+name: UINT64DECODE  @ 26 @ name: UINT64DECODE  @ 28 @ 
+expr_stmt  @ 14 @ expr_stmt  @ 14 @ 
+expr  @ 17 @ expr  @ 17 @ 
+call  @ 27 @ call  @ 29 @ 
+name: u  @ 23 @ name: u  @ 23 @ 
+comment: /* Chunk layout description */  @ 4 @ comment: /* Chunk layout description */  @ 4 @ 
+name  @ 16 @ name  @ 16 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name  @ 30 @ name  @ 32 @ 
+name  @ 24 @ name  @ 24 @ 
+call  @ 14 @ call  @ 14 @ 
+name: H5O_layout_chunk_t  @ 4 @ name: H5O_layout_chunk_t  @ 4 @ 
+argument  @ 25 @ argument  @ 25 @ 
+name: key  @ 5 @ name: key  @ 5 @ 
+expr  @ 14 @ expr  @ 14 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: =  @ 16 @ operator: =  @ 16 @ 
+operator: ->  @ 18 @ operator: ->  @ 18 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 10 @ 
+argument  @ 21 @ argument  @ 21 @ 
+name: _key  @ 5 @ name: _key  @ 5 @ 
+operator: ->  @ 30 @ operator: ->  @ 32 @ 
+operator: ==  @ 27 @ operator: ==  @ 29 @ 
+operator: ->  @ 21 @ operator: ->  @ 21 @ 
+name: done  @ 33 @ name: done  @ 35 @ 
+argument_list  @ 25 @ argument_list  @ 25 @ 
+expr  @ 16 @ expr  @ 16 @ 
+operator: )  @ 16 @ operator: )  @ 16 @ 
+name: raw  @ 21 @ name: raw  @ 21 @ 
+operator: )  @ 27 @ operator: )  @ 29 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+expr  @ 5 @ expr  @ 5 @ 
+comment: /* Retrieve coordinate offset */  @ 25 @ comment: /* Retrieve coordinate offset */  @ 27 @ 
+if_stmt  @ 24 @ if_stmt  @ 24 @ 
+name: H5D_btree_key_t  @ 5 @ name: H5D_btree_key_t  @ 5 @ 
+operator: ->  @ 22 @ operator: ->  @ 22 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+operator: =  @ 23 @ operator: =  @ 23 @ 
+init  @ 23 @ init  @ 23 @ 
+name: shared  @ 13 @ name: shared  @ 13 @ 
+

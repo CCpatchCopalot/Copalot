@@ -1,0 +1,8 @@
+80a81
+>     const uint8_t       *p_end = p + p_size;  /* End of the p buffer */
+148c149,151
+<         HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "invalid name length")/* Get the link's name */
+---
+>         HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, NULL, "invalid name length")
+>     if(p + len > p_end)
+>         HGOTO_ERROR(H5E_OHDR, H5E_OVERFLOW, NULL, "name length causes read past end of buffer")/* Get the link's name */

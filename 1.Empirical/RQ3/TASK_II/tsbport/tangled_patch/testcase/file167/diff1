@@ -1,0 +1,7 @@
+289a290,291
+> 		if (is_root_box && (e==GF_SKIP_BOX))
+> 			e = GF_ISOM_INVALID_FILE;
+291c293
+< 		if (!skip_logs) {
+---
+> 		if (!skip_logs && (e!=GF_SKIP_BOX)) {

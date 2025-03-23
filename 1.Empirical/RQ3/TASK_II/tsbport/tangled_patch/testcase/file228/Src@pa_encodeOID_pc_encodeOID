@@ -1,0 +1,40 @@
+static size_t encodeOID(char *buf, size_t buflen,const char *beg, const char *end)
+{
+  size_t i;
+  unsigned int x;
+  unsigned int y;
+
+  /* Process the first two numbers. */
+  y = *(const unsigned char *) beg++;
+  x = y / 40;
+  y -= x * 40;
+  i = encodeUint(buf, buflen, x);
+  if(i < buflen)
+    buf[i] = '.';
+  i++;
+  if(i >= buflen)
+    i += encodeUint(NULL, 0, y);
+  else
+    i += encodeUint(buf + i, buflen - i, y);
+
+  /* Process the trailing numbers. */
+  while(beg < end) {
+    if(i < buflen)
+      buf[i] = '.';
+    i++;
+    x = 0;
+    do {
+      if(x & 0xFF000000)
+        return 0;
+      y = *(const unsigned char *) beg++;
+      x = (x << 7) | (y & 0x7F);
+    } while(y & 0x80);
+    if(i >= buflen)
+      i += encodeUint(NULL, 0, x);
+    else
+      i += encodeUint(buf + i, buflen - i, x);
+  }
+  if(i < buflen)
+    buf[i] = '\0';
+  return i;
+}

@@ -1,0 +1,5 @@
+43a44,47
+>   if (bytes_per_space == 0) {
+>     /* We divide by bytes_per_space later on. */
+>     return_error(gs_error_rangecheck);
+>   }

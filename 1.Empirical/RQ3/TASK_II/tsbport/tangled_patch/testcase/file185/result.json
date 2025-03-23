@@ -1,0 +1,177 @@
+{
+    "testcase": {
+        "file185": {
+            "match_message": {
+                "Same: Curl_ssl_getsessionid -> Curl_ssl_getsessionid": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 300->361",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 300->361"
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 308 -> 372",
+                        "L2": "3: Unique Matched by Source code 308 -> 372"
+                    },
+                    "Seg_2": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 320 -> 384",
+                        "L2": "3: Unique Matched by Source code 320 -> 384"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 321 -> 385",
+                        "L2": "3: Unique Matched by Source code 322 -> 386"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 323->387",
+                        "L2": "3: Unique Matched by Source code 324 -> 388"
+                    }
+                },
+                "Same: Curl_ssl_addsessionid -> Curl_ssl_addsessionid": {
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 391->474",
+                        "L2": "5: Matched by Syntax(AST) similarity 391->474"
+                    },
+                    "Seg_6": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 401 -> 488",
+                        "L2": "3: Unique Matched by Source code 401 -> 488"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 413 -> 500",
+                        "L2": "3: Unique Matched by Source code 414 -> 501"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 361,
+                        "add_hunk": [
+                            "bool Curl_ssl_getsessionid(struct Curl_easy *data, struct connectdata *conn, const bool isProxy, void **ssl_sessionid, size_t *idsize, /* set 0 if unknown */ int sockindex)"
+                        ],
+                        "delete_location": [
+                            361,
+                            361
+                        ],
+                        "delete_hunk": [
+                            "                           void **ssl_sessionid,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            372,
+                            372
+                        ],
+                        "delete_hunk": [
+                            "  const bool isProxy = CONNECT_PROXY_SSL();\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "move_from",
+                        "add_location": 71,
+                        "add_hunk": [],
+                        "delete_location": [
+                            384,
+                            384
+                        ],
+                        "delete_hunk": [
+                            "  (void)sockindex;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "move_to",
+                        "add_location": 385,
+                        "add_hunk": [
+                            "  (void)sockindex;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 387,
+                        "add_hunk": [
+                            "#ifdef CURL_DISABLE_PROXY\n",
+                            "  if(isProxy)\n",
+                            "    return TRUE;\n",
+                            "#endif\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 474,
+                        "add_hunk": [
+                            "CURLcode Curl_ssl_addsessionid(struct Curl_easy *data, struct connectdata *conn, bool isProxy, void *ssl_sessionid, size_t idsize, int sockindex)"
+                        ],
+                        "delete_location": [
+                            474,
+                            474
+                        ],
+                        "delete_hunk": [
+                            "CURLcode Curl_ssl_addsessionid(struct connectdata *conn,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            488,
+                            488
+                        ],
+                        "delete_hunk": [
+                            "  const bool isProxy = CONNECT_PROXY_SSL();\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 500,
+                        "add_hunk": [
+                            "  (void)sockindex;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: Curl_ssl_getsessionid -> Curl_ssl_getsessionid": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: Curl_ssl_addsessionid -> Curl_ssl_addsessionid": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "MOVE_TO",
+                "outside",
+                "function_definition"
+            ]
+        }
+    }
+}

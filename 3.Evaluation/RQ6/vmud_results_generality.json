@@ -1,0 +1,2663 @@
+{
+    "CVE-2020-1916": [
+        "3b7a1786d2b-gd.cpp__split__2a1f20a6509-gd.cpp__split__gdImagePtr gdImageCreateTrueColor (int,int)"
+    ],
+    "CVE-2020-5208": [
+        "c2a139d-ipmi_fru.c__split__2e323ff-ipmi_fru.c__split__int read_fru_area (ipmi_intf*,fru_info*,uint8_t,uint32_t,uint32_t,uint8_t*)"
+    ],
+    "CVE-2021-3889": [
+        "48ac305-compression.c__split__cf39232-compression.c__split__MOBI_RET mobi_decompress_huffman_internal (MOBIBuffer*,MOBIBuffer*,MOBIHuffCdic*,size_t)"
+    ],
+    "CVE-2021-4022": [
+        "6c74853ac5-var.c__split__c250156ed3-var.c__split__void rz_analysis_extract_vars (RzAnalysis*,RzAnalysisFunction*,RzAnalysisOp*)"
+    ],
+    "CVE-2022-0435": [
+        "09ae8448f394-link.c__split__4e7936d9b442-link.c__split__int tipc_link_proto_rcv (tipc_link*,sk_buff*,sk_buff_head*)"
+    ],
+    "CVE-2022-0443": [
+        ""
+    ],
+    "CVE-2022-0695": [
+        "b20e481d47-buf.c__split__5aa93ca64b-buf.c__split__st64 r_buf_read_at (RBuffer*,ut64,ut8*,ut64)"
+    ],
+    "CVE-2022-0995": [
+        "cc28623a67b6-pipe.c__split__2667db9506e2-pipe.c__split__void free_pipe_info (pipe_inode_info*)"
+    ],
+    "CVE-2022-2301": [
+        "fb22bff-xwd-loader.c__split__eeb1a38-xwd-loader.c__split__gboolean load_header (XwdLoader*)"
+    ],
+    "CVE-2022-2598": [
+        "e4bafe2c9-diff.c__split__fb43eee84-diff.c__split__void ex_diffgetput (exarg_T*)"
+    ],
+    "CVE-2022-3299": [
+        "8f30ac999-client.c__split__e4a5290ca-client.c__split__void check_multi_info (ogs_sbi_client_t*)"
+    ],
+    "CVE-2022-3719": [
+        ""
+    ],
+    "CVE-2022-3757": [
+        ""
+    ],
+    "CVE-2022-4254": [
+        "del__split__d9bd3cb59-util.c__split__errno_t sss_filter_sanitize (TALLOC_CTX*,char*,char**)"
+    ],
+    "CVE-2022-4415": [
+        "4ca19370f3-coredump.c__split__c8c8158eef-coredump.c__split__int save_context (Context*,iovec_wrapper*)"
+    ],
+    "CVE-2023-0030": [
+        "7459def78d50-vmm.c__split__6b87fff014b3-vmm.c__split__void nvkm_vmm_put_locked (nvkm_vmm*,nvkm_vma*)"
+    ],
+    "CVE-2023-0240": [
+        "bd6fd51302ed-io_uring.c__split__ab30834c275f-io_uring.c__split__void __io_free_req (io_kiocb*)"
+    ],
+    "CVE-2023-0302": [
+        "5f2a320139-meta.c__split__6afeeeef7e-meta.c__split__bool meta_set (RAnal*,RAnalMetaType,int,ut64,ut64,char*)"
+    ],
+    "CVE-2023-0397": [
+        "4d43a32e2ab-hci_core.c__split__aa96ce0c85b-hci_core.c__split__int le_init (void)"
+    ],
+    "CVE-2023-1017": [
+        "002fde0-CryptUtil.c__split__8fae5b6-CryptUtil.c__split__TPM_RC CryptParameterDecryption (TPM_HANDLE,TPM2B*,UINT32,UINT16,TPM2B_AUTH*,BYTE*)"
+    ],
+    "CVE-2023-1570": [
+        ""
+    ],
+    "CVE-2023-1801": [
+        "6e509ecf-smbutil.c__split__f33a323f-smbutil.c__split__u_char smb_fdata1 (netdissect_options*,u_char*,char*,u_char*,int)"
+    ],
+    "CVE-2023-2241": [
+        ""
+    ],
+    "CVE-2023-2731": [
+        "ba75a07e-tif_lzw.c__split__d631fa10-tif_lzw.c__split__int LZWDecode (TIFF*,uint8_t*,tmsize_t,uint16_t)"
+    ],
+    "CVE-2023-4322": [
+        "e2f99e949a-plugin.c__split__87ebd3cb01-plugin.c__split__bool decode (RArchSession*,RAnalOp*,RArchDecodeMask)"
+    ],
+    "CVE-2023-5841": [
+        "322cbd89-decoding.c__split__710d8a6d-decoding.c__split__exr_result_t unpack_sample_table (_internal_exr_context*,exr_decode_pipeline_t*)"
+    ],
+    "CVE-2023-6175": [
+        "de872cdb8b-netscreen.c__split__6880171e0d-netscreen.c__split__gboolean parse_netscreen_packet (FILE_T,wtap_rec*,Buffer*,char*,int*,gchar**)"
+    ],
+    "CVE-2024-6383": [
+        "a00621dd2-bson-string.c__split__f9b564a85-bson-string.c__split__void bson_string_append (bson_string_t*,char*)"
+    ],
+    "CVE-2020-11017": [
+        "34ff4d74d-cliprdr_main.c__split__8854a0fb7-cliprdr_main.c__split__UINT cliprdr_server_receive_capabilities (CliprdrServerContext*,wStream*,CLIPRDR_HEADER*)",
+        "34ff4d74d-cliprdr_main.c__split__8854a0fb7-cliprdr_main.c__split__UINT cliprdr_server_receive_general_capability (CliprdrServerContext*,wStream*,CLIPRDR_GENERAL_CAPABILITY_SET*)"
+    ],
+    "CVE-2020-11018": [
+        "34ff4d74d-cliprdr_main.c__split__8854a0fb7-cliprdr_main.c__split__UINT cliprdr_server_receive_capabilities (CliprdrServerContext*,wStream*,CLIPRDR_HEADER*)",
+        "34ff4d74d-cliprdr_main.c__split__8854a0fb7-cliprdr_main.c__split__UINT cliprdr_server_receive_general_capability (CliprdrServerContext*,wStream*,CLIPRDR_GENERAL_CAPABILITY_SET*)"
+    ],
+    "CVE-2020-11040": [
+        "5be6cb12f-clear.c__split__118e09b35-clear.c__split__BOOL clear_decompress_subcode_rlex (wStream*,UINT32,UINT32,UINT32,BYTE*,UINT32,UINT32,UINT32,UINT32,UINT32,UINT32)"
+    ],
+    "CVE-2020-11041": [
+        "4b508ec90-rdpsnd_main.c__split__2526ec55d-rdpsnd_main.c__split__UINT rdpsnd_treat_wave (rdpsndPlugin*,wStream*,size_t)"
+    ],
+    "CVE-2020-11521": [
+        "5de0ec91b-orders.c__split__7179d2d39-orders.c__split__CACHE_BITMAP_V2_ORDER update_read_cache_bitmap_v2_order (rdpUpdate*,wStream*,BOOL,UINT16)"
+    ],
+    "CVE-2020-11525": [
+        "058fd3a1a-bitmap.c__split__a87e13764-bitmap.c__split__rdpBitmap bitmap_cache_get (rdpBitmapCache*,UINT32,UINT32)"
+    ],
+    "CVE-2020-11945": [
+        "fdef7dfa9-Config.cc__split__9deb184d7-Config.cc__split__void authDigestNonceLink (digest_nonce_h*)"
+    ],
+    "CVE-2020-13249": [
+        ""
+    ],
+    "CVE-2020-13396": [
+        "5fc6ec73b-ntlm_message.c__split__314f5c147-ntlm_message.c__split__SECURITY_STATUS ntlm_read_ChallengeMessage (NTLM_CONTEXT*,PSecBuffer)"
+    ],
+    "CVE-2020-13398": [
+        "4507578ab-crypto.c__split__636ac1fa2-crypto.c__split__int crypto_rsa_common (BYTE*,int,UINT32,BYTE*,BYTE*,int,BYTE*)"
+    ],
+    "CVE-2020-13775": [
+        ""
+    ],
+    "CVE-2020-15121": [
+        "9b9d7d0afa-disk.c__split__edba1eff11-disk.c__split__int r_sys_mkdirp (char*)"
+    ],
+    "CVE-2020-15201": [
+        ""
+    ],
+    "CVE-2020-15474": [
+        "816b23a50-tls.c__split__c8a0e43b2-tls.c__split__void processCertificateElements (ndpi_detection_module_struct*,ndpi_flow_struct*,u_int16_t,u_int16_t)"
+    ],
+    "CVE-2020-21050": [
+        "c13b005-fromgif.c__split__2f88172-fromgif.c__split__SIXELSTATUS gif_process_raster (gif_context_t*,gif_t*)"
+    ],
+    "CVE-2020-22873": [
+        "e6543c4-jsiValue.c__split__a9fa8a2-jsiValue.c__split__Jsi_Value Jsi_ValueArrayIndex (Jsi_Interp*,Jsi_Value*,int)"
+    ],
+    "CVE-2020-24619": [
+        ""
+    ],
+    "CVE-2020-24654": [
+        ""
+    ],
+    "CVE-2021-20271": [
+        "93a06ebfe-package.c__split__96a1737d8-package.c__split__void headerMergeLegacySigs (Header,Header)__split__rpmTagVal headerMergeLegacySigs (Header,Header,char**)"
+    ],
+    "CVE-2021-23840": [
+        "b804d74914-evp_enc.c__split__f049cb40bb-evp_enc.c__split__int EVP_DecryptUpdate (EVP_CIPHER_CTX*,unsigned char*,int*,unsigned char*,int)"
+    ],
+    "CVE-2021-32020": [
+        "640cd54fd-heap_2.c__split__e132ae3ea-heap_2.c__split__void* pvPortMalloc (size_t)"
+    ],
+    "CVE-2021-33815": [
+        "9377a89169-exr.c__split__4648ed7d62-exr.c__split__int dwa_uncompress (EXRContext*,uint8_t*,int,int,EXRThreadData*)"
+    ],
+    "CVE-2021-36218": [
+        "3f2b121-AESUtils.c__split__ef70ab1-AESUtils.c__split__int AES_decrypt (uint8_t*,uint64_t,char*,uint64_t)"
+    ],
+    "CVE-2021-37662": [
+        ""
+    ],
+    "CVE-2021-37671": [
+        ""
+    ],
+    "CVE-2021-37674": [
+        ""
+    ],
+    "CVE-2021-37686": [
+        ""
+    ],
+    "CVE-2021-38383": [
+        "40625257-misc.c__split__73266c91-misc.c__split__int net_bind (short unsigned*,int,char*)"
+    ],
+    "CVE-2021-40564": [
+        ""
+    ],
+    "CVE-2021-43848": [
+        "8fa9070ad-server.c__split__8a6ac20b7-server.c__split__void handle_buffered_input (st_h2o_http3_server_stream_t*,int)"
+    ],
+    "CVE-2021-44109": [
+        "ba714a45d-message.c__split__9432f22b9-message.c__split__int parse_json (ogs_sbi_message_t*,char*,char*)"
+    ],
+    "CVE-2021-45958": [
+        "0c6c3ad-ultrajsonenc.c__split__7c21b8e-ultrajsonenc.c__split__void encode (JSOBJ,JSONObjectEncoder*,char*,size_t)"
+    ],
+    "CVE-2021-46225": [
+        ""
+    ],
+    "CVE-2021-46389": [
+        ""
+    ],
+    "CVE-2022-23122": [
+        "b1929db1-ad_open.c__split__b7169ecf-ad_open.c__split__int parse_entries (adouble*,uint16_t,size_t)"
+    ],
+    "CVE-2022-23561": [
+        ""
+    ],
+    "CVE-2022-23613": [
+        "a8576905-sesman.c__split__e2b057e6-sesman.c__split__int sesman_data_in (trans*)"
+    ],
+    "CVE-2022-23942": [
+        ""
+    ],
+    "CVE-2022-24750": [
+        ""
+    ],
+    "CVE-2022-24754": [
+        "87032c682-pjsua_core.c__split__c437011b5-pjsua_core.c__split__void pjsua_init_tpselector (pjsua_transport_id,pjsip_tpselector*)"
+    ],
+    "CVE-2022-24793": [
+        "df47c83b9-dns.c__split__1f712eece-dns.c__split__pj_status_t get_name (int,pj_uint8_t*,pj_uint8_t*,pj_uint8_t*,pj_str_t*)",
+        "df47c83b9-dns.c__split__1f712eece-dns.c__split__pj_status_t get_name_len (int,pj_uint8_t*,pj_uint8_t*,pj_uint8_t*,int*,int*)"
+    ],
+    "CVE-2022-24795": [
+        "ea63aa1-yajl_lex.c__split__3711455-yajl_lex.c__split__const char* yajl_tok_name (yajl_tok)"
+    ],
+    "CVE-2022-24805": [
+        "469a1eba59-vacm_vars.c__split__62c9a3d051-vacm_vars.c__split__int access_parse_oid (oid*,size_t,unsigned char**,size_t*,unsigned char**,size_t*,int*,int*)"
+    ],
+    "CVE-2022-24807": [
+        "469a1eba59-vacm_vars.c__split__62c9a3d051-vacm_vars.c__split__int access_parse_oid (oid*,size_t,unsigned char**,size_t*,unsigned char**,size_t*,int*,int*)"
+    ],
+    "CVE-2022-24808": [
+        "469a1eba59-vacm_vars.c__split__62c9a3d051-vacm_vars.c__split__int access_parse_oid (oid*,size_t,unsigned char**,size_t*,unsigned char**,size_t*,int*,int*)"
+    ],
+    "CVE-2022-24950": [
+        ""
+    ],
+    "CVE-2022-25044": [
+        "34d6e038a-jsvar.c__split__4935f597d-jsvar.c__split__void jsvAddName (JsVar*,JsVar*)"
+    ],
+    "CVE-2022-25050": [
+        "906cae53-somfy_iohc.c__split__2c88067b-somfy_iohc.c__split__int somfy_iohc_decode (r_device*,bitbuffer_t*)"
+    ],
+    "CVE-2022-25051": [
+        "906cae53-somfy_iohc.c__split__2c88067b-somfy_iohc.c__split__int somfy_iohc_decode (r_device*,bitbuffer_t*)"
+    ],
+    "CVE-2022-25882": [
+        ""
+    ],
+    "CVE-2022-26128": [
+        "5c2e29d8b-message.c__split__053538700-message.c__split__int parse_hello_subtlv (unsigned char*,int,unsigned int*)"
+    ],
+    "CVE-2022-26129": [
+        "5c2e29d8b-message.c__split__053538700-message.c__split__int parse_hello_subtlv (unsigned char*,int,unsigned int*)"
+    ],
+    "CVE-2022-27114": [
+        ""
+    ],
+    "CVE-2022-28072": [
+        "7f92d5b6de-anal_hexagon.c__split__a5dc15718d-anal_hexagon.c__split__int hexagon_v6_op (RAnal*,RAnalOp*,ut64,ut8*,int,RAnalOpMask)"
+    ],
+    "CVE-2022-28073": [
+        "51905b9afd-rvalue.c__split__9e51cea5c6-rvalue.c__split__bool r_reg_set_value (RReg*,RRegItem*,ut64)"
+    ],
+    "CVE-2022-28550": [
+        ""
+    ],
+    "CVE-2022-28796": [
+        "8e2f8275a253-transaction.c__split__259e00046a8b-transaction.c__split__void jbd2_journal_wait_updates (journal_t*)"
+    ],
+    "CVE-2022-28927": [
+        "398afcb-settings.cpp__split__65192e2-settings.cpp__split__void readConf ()"
+    ],
+    "CVE-2022-29225": [
+        ""
+    ],
+    "CVE-2022-29228": [
+        ""
+    ],
+    "CVE-2022-29776": [
+        "907b53188c-tif_dirread.c__split__408b9980f4-tif_dirread.c__split__int TIFFReadDirectory (TIFF*)"
+    ],
+    "CVE-2022-30256": [
+        "623e6cf-DwMararc.c__split__6430da3-DwMararc.c__split__void dwm_init_mararc ()"
+    ],
+    "CVE-2022-30783": [
+        "64adee7d-mount.c__split__6ae29d8c-mount.c__split__int fuse_kern_mount (char*,fuse_args*)"
+    ],
+    "CVE-2022-31621": [
+        "3b60456f8ed-ds_xbstream.cc__split__798d7da6da4-ds_xbstream.cc__split__ds_file_t xbstream_open (ds_ctxt_t*,char*,MY_STAT*)"
+    ],
+    "CVE-2022-32208": [
+        "e289595c9-krb5.c__split__517491c46-krb5.c__split__CURLcode read_data (connectdata*,curl_socket_t,krb5buffer*)"
+    ],
+    "CVE-2022-32545": [
+        "19d36f0a0-psd.c__split__eedcf3782-psd.c__split__MagickBooleanType ReadPSDChannelPixels (Image*,size_t,ssize_t,ssize_t,unsigned char*,ExceptionInfo*)"
+    ],
+    "CVE-2022-34295": [
+        "66e52aa-ne_mesg.c__split__a2389fe-ne_mesg.c__split__uint16_t mesg_id (void)"
+    ],
+    "CVE-2022-35926": [
+        "7891f6f3d-uip-nd6.c__split__929c589c3-uip-nd6.c__split__int extract_lladdr_from_llao_aligned (uip_lladdr_t*)"
+    ],
+    "CVE-2022-35940": [
+        ""
+    ],
+    "CVE-2022-35963": [
+        ""
+    ],
+    "CVE-2022-35966": [
+        ""
+    ],
+    "CVE-2022-35983": [
+        ""
+    ],
+    "CVE-2022-36012": [
+        ""
+    ],
+    "CVE-2022-36019": [
+        ""
+    ],
+    "CVE-2022-36039": [
+        "570968be01-dex.c__split__4745aa7b27-dex.c__split__char* dex_resolve_library (char*)"
+    ],
+    "CVE-2022-36938": [
+        "8511b988c-DexLoader.cpp__split__a29776a28-DexLoader.cpp__split__void validate_dex_header (dex_header*,size_t,int)"
+    ],
+    "CVE-2022-37237": [
+        ""
+    ],
+    "CVE-2022-38307": [
+        ""
+    ],
+    "CVE-2022-38533": [
+        "1b9b7fad15a-elf.c__split__76877b43f99-elf.c__split__bool rewrite_elf_program_header (bfd*,bfd*,bfd_vma)"
+    ],
+    "CVE-2022-38932": [
+        "ce25d5e1-readelf.c__split__ab0819bf-readelf.c__split__char* dynamicTagToStr (Elf64_Dyn*,char*)"
+    ],
+    "CVE-2022-38934": [
+        "ce25d5e1-readelf.c__split__ab0819bf-readelf.c__split__char* dynamicTagToStr (Elf64_Dyn*,char*)"
+    ],
+    "CVE-2022-39188": [
+        ""
+    ],
+    "CVE-2022-39318": [
+        "505c31d7b-libusb_udevice.c__split__ef87f195f-libusb_udevice.c__split__int libusb_udev_isoch_transfer (IUDEVICE*,URBDRC_CHANNEL_CALLBACK*,UINT32,UINT32,UINT32,UINT32,UINT32,UINT32,BOOL,BYTE*,UINT32,UINT32,BYTE*,t_isoch_transfer_cb,UINT32)"
+    ],
+    "CVE-2022-40320": [
+        "6d1fdbd-confuse.c__split__05566b5-confuse.c__split__char* cfg_tilde_expand (char*)"
+    ],
+    "CVE-2022-41860": [
+        "cf1e8a7dd9-eapsimlib.c__split__e438a844ea-eapsimlib.c__split__int unmap_eapsim_basictypes (RADIUS_PACKET*,uint8_t*,unsigned int)"
+    ],
+    "CVE-2022-41972": [
+        "bb8182f60-ble-l2cap.c__split__dbd1ffc77-ble-l2cap.c__split__void input_l2cap_credit (uint8_t*)"
+    ],
+    "CVE-2022-42705": [
+        "a816f4674c-pjsip_transport_events.c__split__0e4705d772-pjsip_transport_events.c__split__int transport_monitor_unregister_cb (void*,void*,int)"
+    ],
+    "CVE-2022-43606": [
+        "6e71f3cfa-cipcommon.c__split__2f7b9ec9c-cipcommon.c__split__EipStatus GetAttributeAll (CipInstance*,CipMessageRouterRequest*,CipMessageRouterResponse*,sockaddr*,int)"
+    ],
+    "CVE-2022-45866": [
+        "cb10b6d-qpress.cpp__split__432e5b5-qpress.cpp__split__void decompress_directory (string,bool)"
+    ],
+    "CVE-2022-47024": [
+        ""
+    ],
+    "CVE-2022-47518": [
+        "c4d5a272ccc0-cfg80211.c__split__b545d93c6e37-cfg80211.c__split__void wilc_wfi_cfg_parse_ch_attr (u8*,u32,u8)"
+    ],
+    "CVE-2022-47519": [
+        "9bbfff803357-cfg80211.c__split__aedf0e8b69b9-cfg80211.c__split__void wilc_wfi_cfg_parse_ch_attr (u8*,u32,u8)"
+    ],
+    "CVE-2022-48437": [
+        "ca32a93e506-x509_verify.c__split__e85c3a64d6f-x509_verify.c__split__int x509_verify_ctx_add_chain (x509_verify_ctx*,x509_verify_chain*,char*)"
+    ],
+    "CVE-2022-48571": [
+        "a21b4aa-memcached.c__split__ebcbdee-memcached.c__split__void out_string (conn*,char*)"
+    ],
+    "CVE-2023-22995": [
+        "3cb01cdd02c2-dwc3-qcom.c__split__5257783f17b0-dwc3-qcom.c__split__int dwc3_qcom_acpi_register_core (platform_device*)"
+    ],
+    "CVE-2023-23108": [
+        "a28ac88-operator.c__split__e589756-operator.c__split__void opdiv (result*,result*)"
+    ],
+    "CVE-2023-23457": [
+        ""
+    ],
+    "CVE-2023-23462": [
+        ""
+    ],
+    "CVE-2023-23554": [
+        "937ebc8-createas.c__split__5205db9-createas.c__split__void makeIvmAggColumn (ParseState*,Aggref*,char*,AttrNumber*,List**)"
+    ],
+    "CVE-2023-24607": [
+        ""
+    ],
+    "CVE-2023-24805": [
+        "7e588c2e3-beh.c__split__121e64905-beh.c__split__int call_backend (char*,int,char**,char*)",
+        "7e588c2e3-beh.c__split__121e64905-beh.c__split__void sigterm_handler (int)"
+    ],
+    "CVE-2023-24808": [
+        "eaf6268-pdfio-dict.c__split__4196adf-pdfio-dict.c__split__bool _pdfioDictSetValue (pdfio_dict_t*,char*,_pdfio_value_t*)"
+    ],
+    "CVE-2023-24832": [
+        ""
+    ],
+    "CVE-2023-24833": [
+        ""
+    ],
+    "CVE-2023-25076": [
+        "9a544a5-address.c__split__2811b7e-address.c__split__struct Address new_address (char*)"
+    ],
+    "CVE-2023-25676": [
+        ""
+    ],
+    "CVE-2023-26123": [
+        "d6c8325e-rcore.c__split__eae49515-rcore.c__split__void TakeScreenshot (char*)"
+    ],
+    "CVE-2023-27395": [
+        "87cd49f1-DDNS.c__split__486c3bfe-DDNS.c__split__UINT DCRegister (DDNS_CLIENT*,bool,DDNS_REGISTER_PARAM*,char*)"
+    ],
+    "CVE-2023-27478": [
+        "a8da0f38-purge.cc__split__ff032105-purge.cc__split__bool memcached_purge (memcached_instance_st*)"
+    ],
+    "CVE-2023-27585": [
+        "fc9663258-dns.c__split__56a54c997-dns.c__split__pj_status_t get_name_len (int,pj_uint8_t*,pj_uint8_t*,pj_uint8_t*,int*,int*)",
+        "fc9663258-dns.c__split__56a54c997-dns.c__split__pj_status_t get_name (int,pj_uint8_t*,pj_uint8_t*,pj_uint8_t*,pj_str_t*)"
+    ],
+    "CVE-2023-27599": [
+        "f8ac0b14f-parse_to.c__split__ba71a3cfe-parse_to.c__split__char* parse_to_param (char*,char*,to_body*,int*,int)"
+    ],
+    "CVE-2023-27784": [
+        "59aaf872-cidr.c__split__4fc8aad2-cidr.c__split__int parse_cidr (tcpr_cidr_t**,char*,char*)"
+    ],
+    "CVE-2023-27785": [
+        "59aaf872-cidr.c__split__4fc8aad2-cidr.c__split__int parse_cidr (tcpr_cidr_t**,char*,char*)"
+    ],
+    "CVE-2023-27786": [
+        "59aaf872-cidr.c__split__4fc8aad2-cidr.c__split__int parse_cidr (tcpr_cidr_t**,char*,char*)"
+    ],
+    "CVE-2023-27787": [
+        "59aaf872-cidr.c__split__4fc8aad2-cidr.c__split__int parse_cidr (tcpr_cidr_t**,char*,char*)"
+    ],
+    "CVE-2023-27789": [
+        "59aaf872-cidr.c__split__4fc8aad2-cidr.c__split__int parse_cidr (tcpr_cidr_t**,char*,char*)"
+    ],
+    "CVE-2023-28626": [
+        "5a293b2-blocks.c__split__3e810bc-blocks.c__split__cmark_node finalize (cmark_parser*,cmark_node*)"
+    ],
+    "CVE-2023-29418": [
+        "712c510-main.c__split__f993b13-main.c__split__int process (FILE*,FILE*,int,int,int,int,char*)"
+    ],
+    "CVE-2023-29994": [
+        "d15bf1aa-mqtt_codec.c__split__acccef41-mqtt_codec.c__split__property decode_buf_properties (uint8_t*,uint32_t,uint32_t*,uint32_t*,bool)"
+    ],
+    "CVE-2023-29995": [
+        "8a22dae1-mqtt_parser.c__split__92a47f27-mqtt_parser.c__split__int32_t conn_handler (uint8_t*,conn_param*,size_t)"
+    ],
+    "CVE-2023-31284": [
+        "30cc5744c2-sunddi.c__split__e2f3d521a3-sunddi.c__split__int ddi_parse (char*,char*,uint_t*)"
+    ],
+    "CVE-2023-31556": [
+        ""
+    ],
+    "CVE-2023-32181": [
+        "d721727-helpers.c__split__3e1541a-helpers.c__split__void initialize (econf_file*,size_t)"
+    ],
+    "CVE-2023-32233": [
+        "8b6c61a2196c-nf_tables_api.c__split__59fb8320ab4d-nf_tables_api.c__split__void nf_tables_deactivate_set (nft_ctx*,nft_set*,nft_set_binding*,nft_trans_phase)"
+    ],
+    "CVE-2023-32690": [
+        "188b8f56-libspdm_rsp_capabilities.c__split__16499bd3-libspdm_rsp_capabilities.c__split__libspdm_return_t libspdm_get_response_capabilities (void*,size_t,void*,size_t*,void*)"
+    ],
+    "CVE-2023-33457": [
+        ""
+    ],
+    "CVE-2023-33658": [
+        "5178d413-mqtt_tls.c__split__75568759-mqtt_tls.c__split__void mqtts_tcptran_pipe_recv_cb (void*)"
+    ],
+    "CVE-2023-33717": [
+        ""
+    ],
+    "CVE-2023-33718": [
+        ""
+    ],
+    "CVE-2023-33719": [
+        ""
+    ],
+    "CVE-2023-33720": [
+        ""
+    ],
+    "CVE-2023-33973": [
+        "81fff4224b-gnrc_sixlowpan_iphc.c__split__2dac17b3bd-gnrc_sixlowpan_iphc.c__split__void gnrc_sixlowpan_iphc_send (gnrc_pktsnip_t*,void*,unsigned)"
+    ],
+    "CVE-2023-34474": [
+        "57909092d-profile.c__split__382583a52-profile.c__split__void ReplaceXmpValue (StringInfo*,size_t,size_t,char*)"
+    ],
+    "CVE-2023-34475": [
+        "57909092d-profile.c__split__382583a52-profile.c__split__void ReplaceXmpValue (StringInfo*,size_t,size_t,char*)"
+    ],
+    "CVE-2023-34823": [
+        "dad92ee-pcm_readhelper.c__split__10103be-pcm_readhelper.c__split__int pcm_skip (pcm_io_context_t*,int64_t)"
+    ],
+    "CVE-2023-35849": [
+        "53725be1-pico_tcp.c__split__423d6966-pico_tcp.c__split__int tcp_parse_options (pico_frame*)"
+    ],
+    "CVE-2023-36193": [
+        ""
+    ],
+    "CVE-2023-36327": [
+        "del__split__aa4247b9-relic_bn_prime.c__split__dig_t bn_get_prime (int)"
+    ],
+    "CVE-2023-36328": [
+        "9e904c5-bn_mp_grow.c__split__2b16826-bn_mp_grow.c__split__mp_err mp_grow (mp_int*,int)"
+    ],
+    "CVE-2023-37187": [
+        "d824eeb8-blosc2-zfp.c__split__41d08d0d-blosc2-zfp.c__split__int zfp_prec_decompress (uint8_t*,int32_t,uint8_t*,int32_t,uint8_t,blosc2_dparams*,void*)"
+    ],
+    "CVE-2023-38313": [
+        "cbccee6-http_microhttpd.c__split__9fcc63f-http_microhttpd.c__split__int preauthenticated (MHD_Connection*,char*,t_client*)"
+    ],
+    "CVE-2023-38314": [
+        "cbccee6-http_microhttpd.c__split__9fcc63f-http_microhttpd.c__split__int preauthenticated (MHD_Connection*,char*,t_client*)"
+    ],
+    "CVE-2023-38315": [
+        "cbccee6-http_microhttpd.c__split__9fcc63f-http_microhttpd.c__split__int preauthenticated (MHD_Connection*,char*,t_client*)"
+    ],
+    "CVE-2023-38322": [
+        "9fcc63f-http_microhttpd.c__split__dff5231-http_microhttpd.c__split__int show_preauthpage (MHD_Connection*,char*)"
+    ],
+    "CVE-2023-38403": [
+        ""
+    ],
+    "CVE-2023-38703": [
+        "9a374d71f-transport_srtp_dtls.c__split__183d16e00-transport_srtp_dtls.c__split__void ssl_destroy (dtls_srtp*,unsigned)"
+    ],
+    "CVE-2023-39355": [
+        "368094799-planar.c__split__37a0ee9f6-planar.c__split__BOOL freerdp_bitmap_planar_context_reset (BITMAP_PLANAR_CONTEXT*,UINT32,UINT32)"
+    ],
+    "CVE-2023-39976": [
+        "3e30504-log_blackbox.c__split__8519a48-log_blackbox.c__split__void _blackbox_vlogger (int32_t,qb_log_callsite*,timespec*,va_list)"
+    ],
+    "CVE-2023-40187": [
+        "7a04062bd-h264.c__split__15df65f24-h264.c__split__BOOL avc444_ensure_buffer (H264_CONTEXT*,DWORD)",
+        "7a04062bd-h264.c__split__15df65f24-h264.c__split__BOOL avc420_ensure_buffer (H264_CONTEXT*,UINT32,UINT32,UINT32)"
+    ],
+    "CVE-2023-40216": [
+        "40871af462b-wsemul_sun.c__split__e14c32dae3f-wsemul_sun.c__split__int wsemul_sun_output_control (wsemul_sun_emuldata*,wsemul_inputstate*)"
+    ],
+    "CVE-2023-40475": [
+        "d72ed22cb7-mxfup.c__split__0c0178c1c9-mxfup.c__split__GstFlowReturn mxf_up_handle_essence_element (MXFUL*,GstBuffer*,GstCaps*,MXFMetadataTimelineTrack*,gpointer,GstBuffer**)"
+    ],
+    "CVE-2023-41101": [
+        "dff5231-http_microhttpd.c__split__7be224a-http_microhttpd.c__split__int preauthenticated (MHD_Connection*,char*,t_client*)"
+    ],
+    "CVE-2023-42299": [
+        ""
+    ],
+    "CVE-2023-46407": [
+        "dde36b0d6e-jpegxl_parser.c__split__630fc8a60b-jpegxl_parser.c__split__int read_vlc_prefix (GetBitContext*,JXLEntropyDecoder*,JXLSymbolDistribution*)"
+    ],
+    "CVE-2023-46427": [
+        "0f4af8de3-dash_client.c__split__60398b455-dash_client.c__split__GF_Err gf_dash_setup_period (GF_DashClient*)"
+    ],
+    "CVE-2023-47471": [
+        ""
+    ],
+    "CVE-2023-48105": [
+        "ea2eb70f-wasm_loader.c__split__9e88e205-wasm_loader.c__split__bool load_init_expr (uint8**,uint8*,InitializerExpression*,uint8,char*,uint32)"
+    ],
+    "CVE-2023-49528": [
+        "1762ea7cde-af_dialoguenhance.c__split__29c8ab10a7-af_dialoguenhance.c__split__int de_stereo (AVFilterContext*,AVFrame*)"
+    ],
+    "CVE-2023-51384": [
+        "f52861163-ssh-agent.c__split__1d4c321eb-ssh-agent.c__split__void process_add_smartcard_key (SocketEntry*)"
+    ],
+    "CVE-2023-51713": [
+        ""
+    ],
+    "CVE-2023-52284": [
+        "del__split__9f568e13-wasm_mini_loader.c__split__bool wasm_loader_push_pop_frame_offset (WASMLoaderContext*,uint8,uint8,uint8,bool,int16,char*,uint32)"
+    ],
+    "CVE-2023-52458": [
+        "4160f4e6bd5b-ioctl.c__split__9c73a763ef88-ioctl.c__split__int blkpg_do_ioctl (block_device*,blkpg_partition*,int)"
+    ],
+    "CVE-2024-21640": [
+        ""
+    ],
+    "CVE-2024-21646": [
+        "e3fe324-amqpvalue.c__split__6bee86a-amqpvalue.c__split__int internal_decoder_decode_bytes (INTERNAL_DECODER_DATA*,unsigned char*,size_t,size_t*)"
+    ],
+    "CVE-2024-21836": [
+        "fd127f2d-ggml-quants.c__split__d497e6de-ggml-quants.c__split__float make_qkx2_quants (int,int,float*,float*,uint8_t*,float*,uint8_t*,float,float,int,_Bool)"
+    ],
+    "CVE-2024-23839": [
+        "e5101f927-detect-http-header.c__split__2803d05a5-detect-http-header.c__split__void DetectHttpRequestHeaderRegister (void)"
+    ],
+    "CVE-2024-24198": [
+        "7746d21-dns.c__split__5a4fc27-dns.c__split__unsigned short _dns_read_short (unsigned char**)"
+    ],
+    "CVE-2024-24199": [
+        "7746d21-dns.c__split__5a4fc27-dns.c__split__unsigned short _dns_read_short (unsigned char**)"
+    ],
+    "CVE-2024-24478": [
+        ""
+    ],
+    "CVE-2024-24479": [
+        "ddffb7c409-to_str.c__split__d721e63e29-to_str.c__split__void format_fractional_part_nsecs (gchar*,size_t,guint32,char*,int)__split__int format_fractional_part_nsecs (gchar*,size_t,guint32,char*,int)"
+    ],
+    "CVE-2024-24575": [
+        "5d3ff77ed-revparse.c__split__9bc28e9fc-revparse.c__split__int revparse (git_object**,git_reference**,size_t*,git_repository*,char*)"
+    ],
+    "CVE-2024-25678": [
+        "ca15988-lsquic_full_conn_ietf.c__split__718a688-lsquic_full_conn_ietf.c__split__int process_regular_packet (ietf_full_conn*,lsquic_packet_in*)"
+    ],
+    "CVE-2024-25679": [
+        "3805b70-sender.c__split__cb8e3d4-sender.c__split__int picoquic_prepare_packet_server_init (picoquic_cnx_t*,picoquic_path_t**,picoquic_packet_t*,uint64_t,uint8_t*,size_t,size_t*)"
+    ],
+    "CVE-2024-26529": [
+        "85f1b960-mms_named_variable_list_service.c__split__8d27376f-mms_named_variable_list_service.c__split__void mmsServer_handleDeleteNamedVariableListRequest (MmsServerConnection,uint8_t*,int,int,uint32_t,ByteBuffer*)"
+    ],
+    "CVE-2024-29162": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-29165": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-31636": [
+        "0584fb25-macho_reader.c__split__e098cfd7-macho_reader.c__split__void print_binary (Macho_Binary_t*)"
+    ],
+    "CVE-2024-32605": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32609": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32611": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32612": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32613": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32615": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32616": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32624": [
+        "ba93eefd1e-H5T.c__split__e3cf451d30-H5T.c__split__H5T_path_t H5T__path_find_real (H5T_t*,H5T_t*,char*,H5T_conv_func_t*)"
+    ],
+    "CVE-2024-32660": [
+        "b7ee27511-zgfx.c__split__3a9d2e526-zgfx.c__split__int zgfx_decompress (ZGFX_CONTEXT*,BYTE*,UINT32,BYTE**,UINT32*,UINT32)"
+    ],
+    "CVE-2024-33078": [
+        ""
+    ],
+    "CVE-2024-33428": [
+        "b0875b6-wav.c__split__b5729c9-wav.c__split__void wav_info (wav_r*,phi_track*,wav_info*)__split__int wav_info (wav_r*,phi_track*,wav_info*)"
+    ],
+    "CVE-2024-33429": [
+        "b0875b6-wav.c__split__b5729c9-wav.c__split__void wav_info (wav_r*,phi_track*,wav_info*)__split__int wav_info (wav_r*,phi_track*,wav_info*)"
+    ],
+    "CVE-2024-33431": [
+        "b0875b6-wav.c__split__b5729c9-wav.c__split__void wav_info (wav_r*,phi_track*,wav_info*)__split__int wav_info (wav_r*,phi_track*,wav_info*)"
+    ],
+    "CVE-2024-34408": [
+        ""
+    ],
+    "CVE-2024-34508": [
+        "6dca39546-dimcmd.cc__split__ffd225f4b-dimcmd.cc__split__OFCondition getString (DcmDataset*,DcmTagKey,char*,int,OFBool*)"
+    ],
+    "CVE-2024-34509": [
+        "6dca39546-dimcmd.cc__split__ffd225f4b-dimcmd.cc__split__OFCondition getString (DcmDataset*,DcmTagKey,char*,int,OFBool*)"
+    ],
+    "CVE-2024-35235": [
+        "698b15be5-http-addr.c__split__8f5f75885-http-addr.c__split__int httpAddrListen (http_addr_t*,int)"
+    ],
+    "CVE-2024-36048": [
+        ""
+    ],
+    "CVE-2024-37310": [
+        "3df6582-v2g_server.cpp__split__09905a6-v2g_server.cpp__split__int v2g_incoming_v2gtp (v2g_connection*)"
+    ],
+    "CVE-2024-37370": [
+        "3b4f8cb83-k5sealv3.c__split__1fcbdfbb8-k5sealv3.c__split__OM_uint32 gss_krb5int_unseal_token_v3 (krb5_context*,OM_uint32*,krb5_gss_ctx_id_rec*,unsigned char*,unsigned int,gss_buffer_t,int*,gss_qop_t*,int)"
+    ],
+    "CVE-2024-38427": [
+        ""
+    ],
+    "CVE-2024-40130": [
+        "329d5b108-main.c__split__0f993a6a6-main.c__split__int main (int,char[]*)"
+    ],
+    "CVE-2020-1712": [
+        "bd88e337b7-bus-polkit.c__split__0dbf3f60c8-bus-polkit.c__split__int async_polkit_callback (sd_bus_message*,void*,sd_bus_error*)"
+    ],
+    "CVE-2020-1898": [
+        ""
+    ],
+    "CVE-2020-1900": [
+        ""
+    ],
+    "CVE-2020-5253": [
+        "c4a696aa0-options.c__split__49911f0f4-options.c__split__void escapes (char*,char*)"
+    ],
+    "CVE-2020-5312": [
+        "67dcc1e08-PcxDecode.c__split__9e9504ce5-PcxDecode.c__split__int ImagingPcxDecode (Imaging,ImagingCodecState,UINT8*,Py_ssize_t)"
+    ],
+    "CVE-2020-8939": [
+        "0532b334-host_calls.cc__split__a2e2b0df-host_calls.cc__split__const char* enc_untrusted_inet_ntop (int,void*,char*,socklen_t)"
+    ],
+    "CVE-2020-9434": [
+        ""
+    ],
+    "CVE-2021-3331": [],
+    "CVE-2021-3618": [
+        "57503e9a6-ngx_mail_handler.c__split__246ba97cf-ngx_mail_handler.c__split__ngx_int_t ngx_mail_read_command (ngx_mail_session_t*,ngx_connection_t*)"
+    ],
+    "CVE-2021-3748": [
+        "16d20cdee5-virtio-net.c__split__f205331dcf-virtio-net.c__split__ssize_t virtio_net_receive_rcu (NetClientState*,uint8_t*,size_t,bool)"
+    ],
+    "CVE-2022-0137": [
+        ""
+    ],
+    "CVE-2022-0324": [
+        ""
+    ],
+    "CVE-2022-0326": [
+        "c36178c8b-codegen.c__split__3996824a2-codegen.c__split__int gen_hash (codegen_scope*,node*,int,int)"
+    ],
+    "CVE-2022-0382": [
+        "ad570c2450be-socket.c__split__3e63c83e641c-socket.c__split__int __tipc_sendmsg (socket*,msghdr*,size_t)"
+    ],
+    "CVE-2022-0496": [
+        ""
+    ],
+    "CVE-2022-0534": [
+        ""
+    ],
+    "CVE-2022-0712": [
+        "394736cfff-bin_symbols.c__split__183507d2d2-bin_symbols.c__split__RList symbols (RBinFile*)"
+    ],
+    "CVE-2022-0849": [
+        "9b4ded95c1-canal.c__split__408f3bc0b7-canal.c__split__void r_core_anal_esil (RCore*,char*,char*)"
+    ],
+    "CVE-2022-1114": [
+        "ce6cecbd6-dcm.c__split__879d5694d-dcm.c__split__Image ReadDCMImage (ImageInfo*,ExceptionInfo*)"
+    ],
+    "CVE-2022-1244": [
+        "0dc9d16a6d-bin_dyldcache.c__split__0d9af87a9f-bin_dyldcache.c__split__RList create_cache_bins (RBinFile*,RDyldCache*)"
+    ],
+    "CVE-2022-1289": [
+        ""
+    ],
+    "CVE-2022-1534": [
+        "681c665-parse_rawml.c__split__6b6c9d7-parse_rawml.c__split__MOBI_RET mobi_reconstruct_infl (char*,MOBIIndx*,MOBIIndexEntry*)"
+    ],
+    "CVE-2022-1908": [
+        "6b6c9d7-parse_rawml.c__split__41ba9a3-parse_rawml.c__split__size_t mobi_get_attribute_value (char*,unsigned char*,size_t,char*,bool)"
+    ],
+    "CVE-2022-1934": [
+        "b04c9d7e5-vm.c__split__09e557dc8-vm.c__split__mrb_value mrb_vm_exec (mrb_state*,RProc*,mrb_code*)"
+    ],
+    "CVE-2022-2566": [
+        "1d8c5b2904-mov.c__split__35e2271b14-mov.c__split__int build_open_gop_key_points (AVStream*)"
+    ],
+    "CVE-2022-2993": [
+        "5132ad74950-smp.c__split__899fab954dc-smp.c__split__bool smp_keys_check (bt_conn*)"
+    ],
+    "CVE-2022-3008": [
+        ""
+    ],
+    "CVE-2022-3077": [
+        "c16157ee8c52-i2c-ismt.c__split__6078fa0c0d48-i2c-ismt.c__split__int ismt_access (i2c_adapter*,u16,short unsigned,char,u8,int,union i2c_smbus_data*)"
+    ],
+    "CVE-2022-3638": [
+        "36bd46df6-ngx_resolver.c__split__c76c17852-ngx_resolver.c__split__ngx_int_t ngx_resolver_create_name_query (ngx_resolver_t*,ngx_resolver_node_t*,ngx_str_t*)"
+    ],
+    "CVE-2022-3717": [
+        ""
+    ],
+    "CVE-2022-3755": [
+        ""
+    ],
+    "CVE-2022-3756": [
+        ""
+    ],
+    "CVE-2022-3957": [
+        "8a692b0af-loader_svg.c__split__980e757a8-loader_svg.c__split__Bool svg_parse_animation (GF_SVG_Parser*,GF_SceneGraph*,SVG_DeferredAnimation*,char*,u32)"
+    ],
+    "CVE-2022-3959": [
+        ""
+    ],
+    "CVE-2022-3976": [
+        "eda9bb1f-mms_client_files.c__split__4fca418e-mms_client_files.c__split__void mmsClient_handleFileOpenRequest (MmsConnection,uint8_t*,int,int,uint32_t,ByteBuffer*)"
+    ],
+    "CVE-2022-4398": [
+        "be6bd15326-canal.c__split__d858cefdfb-canal.c__split__char* core_anal_graph_label (RCore*,RAnalBlock*,int)"
+    ],
+    "CVE-2023-0836": [
+        "dcf2db219-fcgi.c__split__1d1a82b4c-fcgi.c__split__int fcgi_encode_begin_request (buffer*,fcgi_begin_request*)"
+    ],
+    "CVE-2023-2004": [
+        "370a92c7e-ttgxvar.c__split__d2452f88c-ttgxvar.c__split__FT_Error tt_hvadvance_adjust (TT_Face,FT_UInt,FT_Int*,FT_Bool)"
+    ],
+    "CVE-2023-2513": [
+        "564e28a1aa94-xattr.c__split__c42b3e0d2d94-xattr.c__split__int ext4_xattr_ibody_find (inode*,ext4_xattr_info*,ext4_xattr_ibody_find*)"
+    ],
+    "CVE-2023-2804": [
+        "4d15e6bb-jdlossls.c__split__cfdca7e3-jdlossls.c__split__ANY simple_upscale (j_decompress_ptr,JDIFFROW,_JSAMPROW,JDIMENSION)",
+        "4d15e6bb-jdlossls.c__split__cfdca7e3-jdlossls.c__split__ANY noscale (j_decompress_ptr,JDIFFROW,_JSAMPROW,JDIMENSION)"
+    ],
+    "CVE-2023-4535": [
+        "4ee42468-card-myeid.c__split__50e78ff1-card-myeid.c__split__int myeid_enc_dec_sym (sc_card*,u8*,size_t,u8*,size_t*,int)"
+    ],
+    "CVE-2023-5590": [
+        "91b4001593-CookieManager.cpp__split__0279296da9-CookieManager.cpp__split__CALLBACK CookieWndProc (int,WPARAM,LPARAM)"
+    ],
+    "CVE-2023-5686": [
+        "97347eb8d1-code.c__split__efafecf8c9-code.c__split__int java_print_opcode (RBinJavaObj*,ut64,int,ut8*,int,char*,int)"
+    ],
+    "CVE-2023-6249": [
+        ""
+    ],
+    "CVE-2023-6936": [
+        "703993877-internal.c__split__474fc1324-internal.c__split__int AddPacketInfo (WOLFSSL*,char*,int,byte*,int,int,int,void*)"
+    ],
+    "CVE-2023-7060": [
+        "c400878991f-ipv4.c__split__bbc5366a904-ipv4.c__split__enum net_verdict net_ipv4_input (net_pkt*,bool)"
+    ],
+    "CVE-2024-0607": [
+        "e596d1a842f7-nft_byteorder.c__split__f6e791a68101-nft_byteorder.c__split__void nft_byteorder_eval (nft_expr*,nft_regs*,nft_pktinfo*)"
+    ],
+    "CVE-2024-1930": [
+        ""
+    ],
+    "CVE-2024-2002": [
+        "e4970669-dwarf_error.c__split__73f60f2b-dwarf_error.c__split__void _dwarf_error_string (Dwarf_Debug,Dwarf_Error*,Dwarf_Signed,char*)"
+    ],
+    "CVE-2024-2212": [
+        "9882b654-tx_freertos.c__split__b963f31f-tx_freertos.c__split__QueueHandle_t xQueueCreate (UBaseType_t,UBaseType_t)"
+    ],
+    "CVE-2024-6061": [
+        "7daab0362-isoffin_read_ch.c__split__491e9c279-isoffin_read_ch.c__split__void isor_reader_get_sample (ISOMChannel*)"
+    ],
+    "CVE-2020-11045": [
+        "086469682-update.c__split__0bae7f379-update.c__split__BOOL update_read_bitmap_data (rdpUpdate*,wStream*,BITMAP_DATA*)"
+    ],
+    "CVE-2020-11046": [
+        "8c0658d12-update.c__split__086469682-update.c__split__BOOL update_recv (rdpUpdate*,wStream*)"
+    ],
+    "CVE-2020-11085": [
+        "ebe0d6aad-cliprdr_common.c__split__c35f11993-cliprdr_common.c__split__void cliprdr_free_format_list (CLIPRDR_FORMAT_LIST*)"
+    ],
+    "CVE-2020-11086": [
+        "c36dcaab4-ntlm_compute.c__split__dbd7f7fb0-ntlm_compute.c__split__int ntlm_read_ntlm_v2_response (wStream*,NTLMv2_RESPONSE*)"
+    ],
+    "CVE-2020-11087": [
+        "c4ba1d974-ntlm_message.c__split__5fc6ec73b-ntlm_message.c__split__SECURITY_STATUS ntlm_read_AuthenticateMessage (NTLM_CONTEXT*,PSecBuffer)"
+    ],
+    "CVE-2020-11089": [
+        "543c2e54f-nego.c__split__7cb509464-nego.c__split__int nego_recv (rdpTransport*,wStream*,void*)"
+    ],
+    "CVE-2020-11958": [
+        ""
+    ],
+    "CVE-2020-12607": [
+        "10160a7-curveMath.c__split__0f354c6-curveMath.c__split__void pointZZ_pDouble (PointZZ_p*,PointZZ_p*,CurveZZ_p*)",
+        "10160a7-curveMath.c__split__0f354c6-curveMath.c__split__void pointZZ_pAdd (PointZZ_p*,PointZZ_p*,PointZZ_p*,CurveZZ_p*)"
+    ],
+    "CVE-2020-12655": [
+        "d8053bc96c4d-xfs_alloc.c__split__183dc2587092-xfs_alloc.c__split__xfs_failaddr_t xfs_agf_verify (xfs_buf*)"
+    ],
+    "CVE-2020-13790": [
+        "87bc3309-rdppm.c__split__a8507b90-rdppm.c__split__ANY start_input_ppm (j_compress_ptr,cjpeg_source_ptr)"
+    ],
+    "CVE-2020-13848": [
+        "3663fe0b-service_table.c__split__470863ec-service_table.c__split__service_info FindServiceEventURLPath (service_table*,char*)"
+    ],
+    "CVE-2020-13881": [
+        "76a5102-support.c__split__ae19968-support.c__split__int _pam_parse (int,char**)"
+    ],
+    "CVE-2020-14397": [
+        "9fb4f170-rfbregion.c__split__1b470e22-rfbregion.c__split__void sraSpanRemove (sraSpan*)"
+    ],
+    "CVE-2020-15473": [
+        "2753dd02e-openvpn.c__split__f0e3428cf-openvpn.c__split__void ndpi_search_openvpn (ndpi_detection_module_struct*,ndpi_flow_struct*)"
+    ],
+    "CVE-2020-15475": [
+        ""
+    ],
+    "CVE-2020-15569": [
+        ""
+    ],
+    "CVE-2020-15861": [
+        "7f985423c4-parse.c__split__58d777e259-parse.c__split__int add_mibfile (char*,char*,FILE*)__split__int add_mibfile (char*,char*)"
+    ],
+    "CVE-2020-15889": [
+        "f26c921a-lgc.c__split__f7fd7a59-lgc.c__split__void youngcollection (lua_State*,global_State*)"
+    ],
+    "CVE-2020-16088": [
+        "15a0e4bcbff-ca.c__split__afb45a24d92-ca.c__split__int ca_validate_pubkey (iked*,iked_static_id*,void*,size_t,iked_id*)"
+    ],
+    "CVE-2020-16589": [
+        ""
+    ],
+    "CVE-2020-18750": [
+        ""
+    ],
+    "CVE-2020-20740": [
+        "03c674e-pdf.c__split__c4ed49b-pdf.c__split__void pdf_get_version (FILE*,pdf_t*)",
+        "03c674e-pdf.c__split__c4ed49b-pdf.c__split__int pdf_is_pdf (FILE*)"
+    ],
+    "CVE-2020-21048": [
+        "72251d7-dither.c__split__9c74eb3-dither.c__split__SIXELSTATUS sixel_dither_new (sixel_dither_t**,int,sixel_allocator_t*)"
+    ],
+    "CVE-2020-21049": [
+        "bb0c009-allocator.c__split__5cee49c-allocator.c__split__void* sixel_allocator_malloc (sixel_allocator_t*,size_t)"
+    ],
+    "CVE-2020-21572": [
+        "321c336-src_parser.c__split__262ae5d-src_parser.c__split__int src_parser_trans_stage_1_2_3 (int,char*,trans_config)"
+    ],
+    "CVE-2020-21674": [
+        "bd39c96f-archive_string.c__split__399299ea-archive_string.c__split__int strncat_from_utf8_libarchive2 (archive_string*,void*,size_t,archive_string_conv*)"
+    ],
+    "CVE-2020-22037": [
+        "9cabfc495f-frame_thread_encoder.c__split__9bc48c7761-frame_thread_encoder.c__split__int ff_frame_thread_encoder_init (AVCodecContext*)"
+    ],
+    "CVE-2020-22875": [
+        "94dd1b3-jsiArray.c__split__298ec75-jsiArray.c__split__Jsi_RC jsi_ArrayFindSubCmd (Jsi_Interp*,Jsi_Value*,Jsi_Value*,Jsi_Value**,Jsi_Func*,int)"
+    ],
+    "CVE-2020-24870": [
+        ""
+    ],
+    "CVE-2020-25577": [
+        "cbdc12f84c03-rtsol.c__split__30027fc65ac9-rtsol.c__split__void rtsol_input (int)"
+    ],
+    "CVE-2020-25672": [
+        "9e2799ee1595-llcp_sock.c__split__59172614b249-llcp_sock.c__split__int llcp_sock_connect (socket*,sockaddr*,int,int)"
+    ],
+    "CVE-2020-25696": [
+        "9760010fe5-common.c__split__8c5feee900-common.c__split__bool StoreQueryTuple (PGresult*)"
+    ],
+    "CVE-2020-26088": [
+        "b2061b6746ea-rawsock.c__split__955c195ae14b-rawsock.c__split__int rawsock_create (net*,socket*,nfc_protocol*,int)"
+    ],
+    "CVE-2020-26558": [
+        "9f821b591e-smp_act.c__split__0ff45ad4aa-smp_act.c__split__void smp_process_pairing_public_key (tSMP_CB*,tSMP_INT_DATA*)"
+    ],
+    "CVE-2020-27152": [
+        "d057376bd3d3-ioapic.c__split__698969e18fe3-ioapic.c__split__void ioapic_lazy_update_eoi (kvm_ioapic*,int)"
+    ],
+    "CVE-2020-27209": [
+        "c08b7ac-uECC.c__split__17c0f6f-uECC.c__split__int uECC_sign_with_k (uint8_t*,uint8_t*,unsigned,uECC_word_t*,uint8_t*,uECC_Curve)"
+    ],
+    "CVE-2020-27678": [
+        "b3340ffd5e-pam_framework.c__split__9c46218812-pam_framework.c__split__int parse_user_name (char*,char**)"
+    ],
+    "CVE-2020-27829": [
+        "e98f927ab-tiff.c__split__1eecf17ae-tiff.c__split__Image ReadTIFFImage (ImageInfo*,ExceptionInfo*)"
+    ],
+    "CVE-2020-28194": [
+        "e33e88e-packet.c__split__07ddf6b-packet.c__split__int rad_packet_recv (int,rad_packet_t**,sockaddr_in*)"
+    ],
+    "CVE-2020-28896": [
+        "a1465c439-imap.c__split__097e883c1-imap.c__split__int imap_open_connection (ImapAccountData*)"
+    ],
+    "CVE-2020-35605": [
+        "4671531cb-graphics.c__split__07e55c080-graphics.c__split__Image handle_add_command (GraphicsManager*,GraphicsCommand*,uint8_t*,bool*,uint32_t)"
+    ],
+    "CVE-2020-35680": [
+        "21b10ce1033-lka_filter.c__split__d1194254d8d-lka_filter.c__split__void filter_session_io (io*,int,void*)"
+    ],
+    "CVE-2020-36316": [
+        "9cb4850b-relic_cp_rsa.c__split__c36364cd-relic_cp_rsa.c__split__int pad_pkcs1 (bn_t,int*,int,int,int)"
+    ],
+    "CVE-2021-22926": [
+        "21ca0824b-sectransp.c__split__26b833dd2-sectransp.c__split__CURLcode sectransp_connect_step1 (Curl_easy*,connectdata*,int)"
+    ],
+    "CVE-2021-23191": [
+        "f2f3822-file.c__split__a0c37f9-file.c__split__const char* file_rlookup (char*)"
+    ],
+    "CVE-2021-23521": [
+        ""
+    ],
+    "CVE-2021-25940": [
+        ""
+    ],
+    "CVE-2021-26911": [
+        ""
+    ],
+    "CVE-2021-27135": [
+        "fba85567-button.c__split__37c513b9-button.c__split__void SaltTextAway (XtermWidget,int,CELL*,CELL*)"
+    ],
+    "CVE-2021-28041": [
+        "9bf6b0805-ssh-agent.c__split__58fe6ddf7-ssh-agent.c__split__int parse_key_constraints (sshbuf*,sshkey*,time_t*,u_int*,int*,char**)"
+    ],
+    "CVE-2021-30027": [
+        "9e720be-md4c.c__split__2858592-md4c.c__split__int md_analyze_line (MD_CTX*,MD_OFFSET,MD_OFFSET*,MD_LINE_ANALYSIS*,MD_LINE_ANALYSIS*)"
+    ],
+    "CVE-2021-32435": [
+        "07ee3e4-abcparse.c__split__f803fb3-abcparse.c__split__int parse_line (char*)"
+    ],
+    "CVE-2021-32436": [
+        ""
+    ],
+    "CVE-2021-32675": [
+        "93148f8e3-server.c__split__c8768b182-server.c__split__int processCommand (client*)"
+    ],
+    "CVE-2021-35525": [
+        "21276a9-postsrsd.c__split__a31b988-postsrsd.c__split__int main (int,char**)"
+    ],
+    "CVE-2021-36082": [
+        "107bc501d-tls.c__split__0b900be64-tls.c__split__int processClientServerHello (ndpi_detection_module_struct*,ndpi_flow_struct*,uint32_t)"
+    ],
+    "CVE-2021-36086": [
+        "89f91e56-cil_reset_ast.c__split__1d9ca704-cil_reset_ast.c__split__void cil_reset_classperms_set (cil_classperms_set*)"
+    ],
+    "CVE-2021-36370": [
+        "80d27d506-connection.c__split__330157577-connection.c__split__int sftpfs_open_connection (vfs_s_super*,GError**)"
+    ],
+    "CVE-2021-36692": [
+        ""
+    ],
+    "CVE-2021-37595": [
+        "a51d1f71b-wf_cliprdr.c__split__a8a43c86d-wf_cliprdr.c__split__UINT wf_cliprdr_server_file_contents_request (CliprdrClientContext*,CLIPRDR_FILE_CONTENTS_REQUEST*)"
+    ],
+    "CVE-2021-37639": [
+        ""
+    ],
+    "CVE-2021-37675": [
+        ""
+    ],
+    "CVE-2021-38199": [
+        "42719384e25f-nfs4client.c__split__28431acd1230-nfs4client.c__split__struct nfs_client nfs4_init_client (nfs_client*,nfs_client_initdata*)"
+    ],
+    "CVE-2021-39191": [
+        "90f8b21-mod_auth_openidc.c__split__b36f6c1-mod_auth_openidc.c__split__apr_byte_t oidc_validate_redirect_url (request_rec*,oidc_cfg*,char*,apr_byte_t,char**,char**)"
+    ],
+    "CVE-2021-40516": [
+        "c5a7df324-relay-websocket.c__split__7cbbaa308-relay-websocket.c__split__int relay_websocket_decode_frame (unsigned char*,long long unsigned,unsigned char*,long long unsigned*)"
+    ],
+    "CVE-2021-40562": [
+        "aad8ad964-reframe_nalu.c__split__812c8e1ec-reframe_nalu.c__split__void naludmx_create_avc_decoder_config (GF_NALUDmxCtx*,u8**,u32*,u8**,u32*,u32*,u32*,u32*,u32*,GF_Fraction*)"
+    ],
+    "CVE-2021-40566": [
+        "dff56bf10-dec_xvid.c__split__ab86d85b1-dec_xvid.c__split__GF_Err xviddec_configure_pid (GF_Filter*,GF_FilterPid*,Bool)"
+    ],
+    "CVE-2021-41209": [
+        ""
+    ],
+    "CVE-2021-41253": [
+        "8a90ccd-Formatter.c__split__2fdbf59-Formatter.c__split__void ZydisFormatterBufferInit (ZydisFormatterBuffer*,char*,ZyanUSize)",
+        "8a90ccd-Formatter.c__split__2fdbf59-Formatter.c__split__void ZydisFormatterBufferInitTokenized (ZydisFormatterBuffer*,ZydisFormatterToken**,void*,ZyanUSize)"
+    ],
+    "CVE-2021-42779": [
+        "29aab0b9-pkcs15-oberthur.c__split__576e3cf3-pkcs15-oberthur.c__split__int sc_oberthur_read_file (sc_pkcs15_card*,char*,unsigned char**,size_t*,int)"
+    ],
+    "CVE-2021-43523": [
+        "ced3b6542-resolv.c__split__8bbd7c7cd-resolv.c__split__int __dns_lookup (char*,int,unsigned char**,resolv_answer*)"
+    ],
+    "CVE-2021-43784": [
+        "7e79ca0e-nsexec.c__split__c53fb3d7-nsexec.c__split__void nl_parse (int,nlconfig_t*)"
+    ],
+    "CVE-2021-45098": [
+        "a67bfece8-decode-tcp.c__split__8fa8fd99a-decode-tcp.c__split__void DecodeTCPOptions (Packet*,uint8_t*,uint16_t)"
+    ],
+    "CVE-2021-45931": [
+        "f9bc85869-hb-set.cc__split__204dbb564-hb-set.cc__split__void hb_set_clear (hb_set_t*)"
+    ],
+    "CVE-2021-45939": [
+        "d06fac6-mqtt_client.c__split__d392cc5-mqtt_client.c__split__int MqttClient_WaitType (MqttClient*,void*,byte,word16,int)"
+    ],
+    "CVE-2021-46822": [
+        "c4c937e8-rdppm.c__split__6ac8fdbf-rdppm.c__split__ANY get_word_rgb_row (j_compress_ptr,cjpeg_source_ptr)"
+    ],
+    "CVE-2022-21722": [
+        "f67572457-rtcp.c__split__28d5ad177-rtcp.c__split__void parse_rtcp_report (pjmedia_rtcp_session*,void*,pj_size_t)"
+    ],
+    "CVE-2022-21732": [
+        ""
+    ],
+    "CVE-2022-21733": [
+        ""
+    ],
+    "CVE-2022-23435": [
+        "38c4264-decoding.c__split__62984e6-decoding.c__split__int getComment (GifByteType*,GifInfo*)"
+    ],
+    "CVE-2022-23483": [
+        "74b0516a-xrdp_mm.c__split__64ae229e-xrdp_mm.c__split__int xrdp_mm_trans_process_channel_data (xrdp_mm*,stream*)"
+    ],
+    "CVE-2022-23591": [
+        ""
+    ],
+    "CVE-2022-24732": [
+        "270307e-pam.c__split__0826002-pam.c__split__struct error_obj run_pam_auth (char*,char*)"
+    ],
+    "CVE-2022-24756": [
+        "0f08fb2b3-auth_pam.cc__split__d14839259-auth_pam.cc__split__bool PamAuthenticateUser (BareosSocket*,ANY,ANY,ANY)"
+    ],
+    "CVE-2022-25309": [
+        "b0c0e4a-fribidi-char-sets-cap-rtl.c__split__f74e010-fribidi-char-sets-cap-rtl.c__split__FriBidiStrIndex fribidi_cap_rtl_to_unicode (char*,FriBidiStrIndex,FriBidiChar*)"
+    ],
+    "CVE-2022-25761": [
+        ""
+    ],
+    "CVE-2022-27774": [
+        "53ef0b03b-transfer.c__split__315da876c-transfer.c__split__CURLcode Curl_follow (Curl_easy*,char*,followtype)"
+    ],
+    "CVE-2022-27775": [
+        "ec669b971-conncache.c__split__8948b53fa-conncache.c__split__void hashkey (connectdata*,char*,size_t,char**)"
+    ],
+    "CVE-2022-27782": [
+        "cf14a333a-url.c__split__6b31d4b13-url.c__split__bool ConnectionExists (Curl_easy*,connectdata*,connectdata**,bool*,bool*)"
+    ],
+    "CVE-2022-28066": [
+        ""
+    ],
+    "CVE-2022-28068": [
+        "67e5b9c2ab-dwarf.c__split__6a9c5cadf6-dwarf.c__split__ut64 dwarf_read_offset (bool,ut8**,ut8*)"
+    ],
+    "CVE-2022-28071": [
+        "8f7a93c8f5-anal_tp.c__split__cfc275b6f2-anal_tp.c__split__void r_core_anal_type_match (RCore*,RAnalFunction*)"
+    ],
+    "CVE-2022-28388": [
+        "431af1ec1e3c-usb_8dev.c__split__b638604bf1ee-usb_8dev.c__split__netdev_tx_t usb_8dev_start_xmit (sk_buff*,net_device*)"
+    ],
+    "CVE-2022-29788": [
+        "b2aaec4-index.c__split__14fbc26-index.c__split__MOBI_RET mobi_trie_insert_infl (MOBITrie**,MOBIIndx*,size_t)"
+    ],
+    "CVE-2022-29859": [
+        "a960fd1-dhcps.c__split__33d669b-dhcps.c__split__uint8_t dhcps_handle_state_machine_change (uint8_t)"
+    ],
+    "CVE-2022-29869": [
+        "3a6b449-mount.cifs.c__split__2278995-mount.cifs.c__split__int open_cred_file (char*,parsed_mount_info*)"
+    ],
+    "CVE-2022-29967": [
+        "64c8d809-static_compressed_inmemory_website_callback.c__split__78189a31-static_compressed_inmemory_website_callback.c__split__int callback_static_compressed_inmemory_website (_u_request*,_u_response*,void*)"
+    ],
+    "CVE-2022-31796": [
+        ""
+    ],
+    "CVE-2022-32166": [
+        "95da7d4b1-flow.c__split__e54fd2e52-flow.c__split__bool minimask_equal (minimask*,minimask*)"
+    ],
+    "CVE-2022-32168": [
+        ""
+    ],
+    "CVE-2022-32298": [
+        "9e91197a-httpd.c__split__ad8bc4e4-httpd.c__split__int isunder (char*,char*)"
+    ],
+    "CVE-2022-32323": [
+        "6d8e2c8-input-bmp.c__split__ca7c88e-input-bmp.c__split__unsigned char* ReadImage (FILE*,int,int,unsigned char[][],int,int,int,int,gboolean,Bitmap_Channel*,at_exception_type*)"
+    ],
+    "CVE-2022-35414": [
+        "d2d4667a34-cpu.c__split__e21715592a-cpu.c__split__void loongarch_cpu_reset (DeviceState*)"
+    ],
+    "CVE-2022-35960": [
+        ""
+    ],
+    "CVE-2022-35981": [
+        ""
+    ],
+    "CVE-2022-35998": [
+        ""
+    ],
+    "CVE-2022-36000": [
+        ""
+    ],
+    "CVE-2022-36005": [
+        ""
+    ],
+    "CVE-2022-36026": [
+        ""
+    ],
+    "CVE-2022-36054": [
+        "59466b376-uipbuf.c__split__c9d769b23-uipbuf.c__split__uint8_t uipbuf_get_next_header (uint8_t*,uint16_t,uint8_t*,bool)"
+    ],
+    "CVE-2022-36647": [
+        "b5dbdb5-header.cc__split__484f073-header.cc__split__int parse_sequence_header (davs2_mgr_t*,davs2_seq_t*,davs2_bs_t*)"
+    ],
+    "CVE-2022-36752": [
+        ""
+    ],
+    "CVE-2022-38072": [
+        "2832899-normals.c__split__91f1fd2-normals.c__split__void stl_fix_normal_directions (stl_file*)"
+    ],
+    "CVE-2022-38667": [
+        ""
+    ],
+    "CVE-2022-40299": [
+        "1f7199e89-sdb.cc__split__cb2f61102-sdb.cc__split__void sdb_edit (procinfo*)"
+    ],
+    "CVE-2022-40769": [
+        "223ff18-profanity.cpp__split__787c574-profanity.cpp__split__int main (int,char**)"
+    ],
+    "CVE-2022-42961": [
+        "2625b4f13-tls13.c__split__be17481c4-tls13.c__split__int DoTls13ServerHello (WOLFSSL*,byte*,word32*,word32,byte*)"
+    ],
+    "CVE-2022-43272": [
+        ""
+    ],
+    "CVE-2022-43604": [
+        "6e71f3cfa-cipcommon.c__split__2f7b9ec9c-cipcommon.c__split__EipStatus GetAttributeAll (CipInstance*,CipMessageRouterRequest*,CipMessageRouterResponse*,sockaddr*,int)"
+    ],
+    "CVE-2022-43605": [
+        "6e71f3cfa-cipcommon.c__split__2f7b9ec9c-cipcommon.c__split__EipStatus GetAttributeAll (CipInstance*,CipMessageRouterRequest*,CipMessageRouterResponse*,sockaddr*,int)"
+    ],
+    "CVE-2022-45062": [
+        "c66af9f3-xfce-mime-helper.c__split__f5d3d2c3-xfce-mime-helper.c__split__gboolean xfce_mime_helper_execute (XfceMimeHelper*,GdkScreen*,gchar*,GError**)"
+    ],
+    "CVE-2022-45474": [
+        ""
+    ],
+    "CVE-2022-47517": [
+        "6e437a4b-url.c__split__bc87ba68-url.c__split__char* url_canonize2 (char*,char*,size_t,unsigned,unsigned,unsigned,unsigned)"
+    ],
+    "CVE-2023-22320": [
+        "f6f583e-process.c__split__8710f81-process.c__split__char* find_active_login_server (am_request_t*,char)"
+    ],
+    "CVE-2023-22325": [
+        "96ff994a-Memory.c__split__aa793d70-Memory.c__split__void AdjustBufSize (BUF*,UINT)"
+    ],
+    "CVE-2023-22604": [
+        "ffe3c10ff75-dwarf.c__split__6ec33725876-dwarf.c__split__int display_debug_lines_decoded (dwarf_section*,unsigned char*,unsigned char*,unsigned char*,void*)"
+    ],
+    "CVE-2023-22605": [
+        "b792902c496-dwarf.c__split__a00568dd3d8-dwarf.c__split__int display_debug_addr (dwarf_section*,void*)"
+    ],
+    "CVE-2023-24824": [
+        "56daf0a-node.c__split__4866786-node.c__split__bool S_can_contain (cmark_node*,cmark_node*)"
+    ],
+    "CVE-2023-25181": [
+        "227f108-http-s_req.c__split__3287007-http-s_req.c__split__void HTTPsReq_MethodParse (HTTPs_INSTANCE*,HTTPs_CONN*,HTTPs_ERR*)"
+    ],
+    "CVE-2023-25563": [
+        "b2d84a2-ntlm.c__split__df2458a-ntlm.c__split__int ntlm_decode_oem_str (wire_field_hdr*,ntlm_buffer*,size_t,char**)"
+    ],
+    "CVE-2023-25725": [
+        "3330a5fcb-h1.c__split__88a54c4a5-h1.c__split__int h1_headers_to_hdr_list (char*,char*,http_hdr*,unsigned int,h1m*,union h1_sl*)"
+    ],
+    "CVE-2023-25801": [
+        ""
+    ],
+    "CVE-2023-25824": [
+        "0b8e840-gnutls_io.c__split__ce7711d-gnutls_io.c__split__apr_status_t gnutls_io_input_read (mgs_handle_t*,char*,apr_size_t*)"
+    ],
+    "CVE-2023-27729": [
+        "c05054fb-njs_parser.c__split__61f33d11-njs_parser.c__split__njs_int_t njs_parser_await (njs_parser_t*,njs_lexer_token_t*,njs_queue_link_t*)"
+    ],
+    "CVE-2023-27772": [
+        "33da635a-client_example_control.c__split__37d6b6bc-client_example_control.c__split__int main (int,char**)"
+    ],
+    "CVE-2023-28428": [
+        "45a21b0-pdfio-stream.c__split__2c6399a-pdfio-stream.c__split__ssize_t stream_read (pdfio_stream_t*,char*,size_t)"
+    ],
+    "CVE-2023-29416": [
+        "2b1ba25-libbz3.c__split__5424502-libbz3.c__split__struct bz3_state bz3_new (s32)"
+    ],
+    "CVE-2023-30576": [
+        "5a72c787-pointer.c__split__1d8d7a0a-pointer.c__split__BOOL guac_rdp_pointer_new (rdpContext*,rdpPointer*)"
+    ],
+    "CVE-2023-30845": [
+        ""
+    ],
+    "CVE-2023-31137": [
+        "24d88d5-Decompress.c__split__ae8aa2e-Decompress.c__split__int decomp_get_rddata (js_string*,js_string*,unsigned int,int,int)"
+    ],
+    "CVE-2023-31470": [
+        "c2b0700-dns.c__split__42a3b20-dns.c__split__int _dns_encode_domain (dns_context*,char*)"
+    ],
+    "CVE-2023-31610": [
+        "b63bfdec3-sqlstmts.c__split__7fd81a45f-sqlstmts.c__split__ST sqlc_table_from_view (query_t*,ST*)"
+    ],
+    "CVE-2023-32254": [
+        "aa9c138d5851-tree_connect.c__split__f07a05f37651-tree_connect.c__split__struct ksmbd_tree_connect ksmbd_tree_conn_lookup (ksmbd_session*,unsigned int)"
+    ],
+    "CVE-2023-34255": [
+        "ffa94102094d-xfs_buf_item_recover.c__split__43167f543afc-xfs_buf_item_recover.c__split__int xlog_recover_buf_commit_pass2 (xlog*,list_head*,xlog_recover_item*,xfs_lsn_t)"
+    ],
+    "CVE-2023-35853": [
+        "4960486b1-detect-lua.c__split__f7087b458-detect-lua.c__split__int LuaMatchTest01 (void)"
+    ],
+    "CVE-2023-36326": [
+        "4020f57c-relic_bn_util.c__split__0a4e1e0c-relic_bn_util.c__split__int bn_bits (bn_t)__split__size_t bn_bits (bn_t)"
+    ],
+    "CVE-2023-37463": [
+        "03a5874-blocks.c__split__a198888-blocks.c__split__void open_new_blocks (cmark_parser*,cmark_node**,cmark_chunk*,bool)"
+    ],
+    "CVE-2023-39150": [
+        ""
+    ],
+    "CVE-2023-39977": [
+        "9aa70ae53d24-relay.c__split__a80fa01042e9-relay.c__split__size_t relay_file_read_start_pos (rchan_buf*)"
+    ],
+    "CVE-2023-40589": [
+        "eb7fc093f-ncrush.c__split__9f0985478-ncrush.c__split__int ncrush_compress (NCRUSH_CONTEXT*,BYTE*,UINT32,BYTE*,BYTE**,UINT32*,UINT32*)"
+    ],
+    "CVE-2023-42465": [
+        "262a57b11-sudo_auth.c__split__d1b168a8f-sudo_auth.c__split__int sudo_auth_end_session (void)"
+    ],
+    "CVE-2023-43628": [
+        "58cc7e042-net_ntrip.c__split__cc7ab003e-net_ntrip.c__split__int ntrip_stream_get_parse (gps_device_t*)"
+    ],
+    "CVE-2023-45239": [
+        "1e9e8b4-programs.c__split__0c4d5f2-programs.c__split__char* lookup (char*,author_data*)"
+    ],
+    "CVE-2023-45898": [
+        "9b5b8951afb4-extents_status.c__split__6f7de14c0fa8-extents_status.c__split__void ext4_es_insert_extent (inode*,ext4_lblk_t,ext4_lblk_t,ext4_fsblk_t,unsigned int)"
+    ],
+    "CVE-2023-46569": [
+        ""
+    ],
+    "CVE-2023-46927": [
+        ""
+    ],
+    "CVE-2023-46928": [
+        ""
+    ],
+    "CVE-2023-48183": [
+        "35211d6-quickjs.c__split__efe78e8-quickjs.c__split__void add_eval_variables (JSContext*,JSFunctionDef*)"
+    ],
+    "CVE-2023-48694": [
+        "6e45e1b-ux_device_class_storage_csw_send.c__split__8366314-ux_device_class_storage_csw_send.c__split__UINT _ux_device_class_storage_csw_send (UX_SLAVE_CLASS_STORAGE*,ULONG,UX_SLAVE_ENDPOINT*,UCHAR)"
+    ],
+    "CVE-2023-48698": [
+        "6e45e1b-ux_device_class_storage_csw_send.c__split__8366314-ux_device_class_storage_csw_send.c__split__UINT _ux_device_class_storage_csw_send (UX_SLAVE_CLASS_STORAGE*,ULONG,UX_SLAVE_ENDPOINT*,UCHAR)"
+    ],
+    "CVE-2023-48951": [
+        "018365c07-ddlrun.c__split__c61b4f42e-ddlrun.c__split__void ddl_table_check_constraints_define_triggers (query_instance_t*,caddr_t,ST*)"
+    ],
+    "CVE-2023-49549": [
+        "237c454-mjs_exec.c__split__bd48fea-mjs_exec.c__split__mjs_err_t mjs_execute (mjs*,size_t,mjs_val_t*)"
+    ],
+    "CVE-2023-49550": [
+        "237c454-mjs_exec.c__split__bd48fea-mjs_exec.c__split__mjs_err_t mjs_execute (mjs*,size_t,mjs_val_t*)"
+    ],
+    "CVE-2023-49551": [
+        "237c454-mjs_exec.c__split__bd48fea-mjs_exec.c__split__mjs_err_t mjs_execute (mjs*,size_t,mjs_val_t*)"
+    ],
+    "CVE-2023-49552": [
+        "237c454-mjs_exec.c__split__bd48fea-mjs_exec.c__split__mjs_err_t mjs_execute (mjs*,size_t,mjs_val_t*)"
+    ],
+    "CVE-2023-49553": [
+        "237c454-mjs_exec.c__split__bd48fea-mjs_exec.c__split__mjs_err_t mjs_execute (mjs*,size_t,mjs_val_t*)"
+    ],
+    "CVE-2023-49554": [
+        "5b0c418b-expr.c__split__09ae1121-expr.c__split__yasm_intnum yasm_expr_get_intnum (yasm_expr**,int)"
+    ],
+    "CVE-2023-49555": [
+        "5b0c418b-expr.c__split__09ae1121-expr.c__split__yasm_intnum yasm_expr_get_intnum (yasm_expr**,int)"
+    ],
+    "CVE-2023-49556": [
+        "5b0c418b-expr.c__split__09ae1121-expr.c__split__yasm_intnum yasm_expr_get_intnum (yasm_expr**,int)"
+    ],
+    "CVE-2023-49557": [
+        "5b0c418b-expr.c__split__09ae1121-expr.c__split__yasm_intnum yasm_expr_get_intnum (yasm_expr**,int)"
+    ],
+    "CVE-2023-49558": [
+        "5b0c418b-expr.c__split__09ae1121-expr.c__split__yasm_intnum yasm_expr_get_intnum (yasm_expr**,int)"
+    ],
+    "CVE-2023-50007": [
+        "0fcfa779f9-af_afwtdn.c__split__63b7f5fc25-af_afwtdn.c__split__int filter_frame (AVFilterLink*,AVFrame*)"
+    ],
+    "CVE-2023-50008": [
+        ""
+    ],
+    "CVE-2023-50019": [
+        "9ce0a8952-gmm-sm.c__split__d94096af5-gmm-sm.c__split__void gmm_state_authentication (ogs_fsm_t*,amf_event_t*)"
+    ],
+    "CVE-2023-50245": [
+        ""
+    ],
+    "CVE-2023-50980": [
+        ""
+    ],
+    "CVE-2023-51792": [
+        ""
+    ],
+    "CVE-2023-52071": [
+        "2f8c6ac71-tool_cb_wrt.c__split__b7838664e-tool_cb_wrt.c__split__size_t tool_write_cb (char*,size_t,size_t,void*)"
+    ],
+    "CVE-2023-52076": [
+        "b025c630-epub-document.c__split__38ab4c83-epub-document.c__split__gboolean extract_epub_from_container (gchar*,EpubDocument*,GError**)"
+    ],
+    "CVE-2023-52437": [
+        "dc031d42f53b-raid5.c__split__fcc8a44dd4fd-raid5.c__split__void raid5d (md_thread*)"
+    ],
+    "CVE-2023-52438": [
+        ""
+    ],
+    "CVE-2023-52459": [
+        "adbf330d364b-verifier.c__split__65f598694d55-verifier.c__split__int adjust_ptr_min_max_vals (bpf_verifier_env*,bpf_insn*,bpf_reg_state*,bpf_reg_state*)"
+    ],
+    "CVE-2023-52557": [
+        "da1a0fe8c82-l2tp_subr.c__split__a312d7bc5b0-l2tp_subr.c__split__int avp_enum (l2tp_avp*,u_char*,int,int)"
+    ],
+    "CVE-2024-21506": [
+        "4e1881a2-_cbsonmodule.c__split__da86cd81-_cbsonmodule.c__split__PyObject get_value (PyObject*,PyObject*,char*,unsigned*,unsigned char,unsigned,codec_options_t*,int)"
+    ],
+    "CVE-2024-21825": [
+        "fd127f2d-ggml-quants.c__split__d497e6de-ggml-quants.c__split__float make_qkx2_quants (int,int,float*,float*,uint8_t*,float*,uint8_t*,float,float,int,_Bool)"
+    ],
+    "CVE-2024-24334": [
+        "7e7df1738d-dfs_file.c__split__4bb933a32d-dfs_file.c__split__char* dfs_nolink_path (dfs_mnt**,char*,int)"
+    ],
+    "CVE-2024-24476": [
+        "d9ad4921f9-addr_resolv.c__split__8b6af813aa-addr_resolv.c__split__hashmanuf_t manuf_name_lookup (guint8*)__split__hashmanuf_t manuf_name_lookup (guint8*,size_t)"
+    ],
+    "CVE-2024-25714": [
+        "863a3e7-jws.c__split__14f0261-jws.c__split__int r_jws_verify_sig_hmac (jws_t*,jwk_t*)"
+    ],
+    "CVE-2024-25742": [
+        "c67285824e82-sev.c__split__1ec753331524-sev.c__split__enum es_result vc_handle_exitcode (es_em_ctxt*,ghcb*,long unsigned)"
+    ],
+    "CVE-2024-29039": [
+        "e5f8ef41-tpm2_checkquote.c__split__10bee720-tpm2_checkquote.c__split__tool_rc init (void)"
+    ],
+    "CVE-2024-32661": [
+        "7d6eec137-info.c__split__3395e4d2e-info.c__split__BOOL rdp_write_logon_info_v1 (wStream*,logon_info*)"
+    ],
+    "CVE-2024-33903": [
+        ""
+    ],
+    "CVE-2024-34403": [
+        ""
+    ],
+    "CVE-2024-37877": [
+        ""
+    ],
+    "CVE-2024-38462": [
+        ""
+    ],
+    "CVE-2024-39844": [
+        ""
+    ],
+    "CVE-2024-41130": [
+        "57514377-gguf.cpp__split__7498f85e-gguf.cpp__split__bool gguf_ex_read_0 (ANY)"
+    ],
+    "CVE-2022-0778": [
+        "1723d5ded5a8-bn_sqrt.c__split__53b0f559855c-bn_sqrt.c__split__BIGNUM BN_mod_sqrt (BIGNUM*,BIGNUM*,BIGNUM*,BN_CTX*)"
+    ],
+    "CVE-2020-8286": [
+        "c905465a0-openssl.c__split__e9c535f8f-openssl.c__split__CURLcode verifystatus (connectdata*,ssl_connect_data*)"
+    ],
+    "CVE-2022-23587": [
+        ""
+    ],
+    "CVE-2023-1655": [
+        "0cce172c5-reframe_rawpcm.c__split__75b8fbcf9-reframe_rawpcm.c__split__GF_Err pcmreframe_process (GF_Filter*)"
+    ],
+    "CVE-2023-0770": [
+        "df30ed0df-vrml_proto.c__split__02b92b576-vrml_proto.c__split__Bool gf_sg_proto_field_is_sftime_offset (GF_Node*,GF_FieldInfo*)"
+    ],
+    "CVE-2021-22925": [
+        "1d3024ec4-telnet.c__split__a81bb81c3-telnet.c__split__void suboption (Curl_easy*)"
+    ],
+    "CVE-2023-46871": [
+        ""
+    ],
+    "CVE-2022-46489": [
+        "8583081ae-box_funcs.c__split__06d5cee1c-box_funcs.c__split__GF_Err gf_isom_box_parse_ex (GF_Box**,GF_BitStream*,u32,Bool,u64)"
+    ],
+    "CVE-2021-29600": [
+        ""
+    ],
+    "CVE-2022-1283": [
+        "f080e937fc-ne.c__split__ee2df871ac-ne.c__split__RList r_bin_ne_get_entrypoints (r_bin_ne_obj_t*)"
+    ],
+    "CVE-2022-23578": [
+        ""
+    ],
+    "CVE-2021-29616": [
+        ""
+    ],
+    "CVE-2023-5371": [
+        ""
+    ],
+    "CVE-2022-46490": [
+        "1f20e91b9-box_code_adobe.c__split__edc3e0ec7-box_code_adobe.c__split__GF_Err afrt_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2023-3291": [
+        "e81dd174a-reframe_mp3.c__split__6ed5608b8-reframe_mp3.c__split__void id3dmx_flush (GF_Filter*,u8*,u32,GF_FilterPid*,GF_FilterPid**)"
+    ],
+    "CVE-2021-29602": [
+        ""
+    ],
+    "CVE-2022-1284": [
+        "fb53e75fc3-canal.c__split__610cd22f21-canal.c__split__bool anal_block_cb (RAnalBlock*,BlockRecurseCtx*)"
+    ],
+    "CVE-2021-30015": [
+        "591a826a9-reframe_av1.c__split__c8b402c8a-reframe_av1.c__split__GF_Err av1dmx_parse_flush_sample (GF_Filter*,GF_AV1DmxCtx*)"
+    ],
+    "CVE-2023-4681": [
+        "27cd81133-avilib.c__split__be93bc3a7-avilib.c__split__int avi_parse_input_file (avi_t*,int)"
+    ],
+    "CVE-2022-24578": [
+        "36265cf0f-script_dec.c__split__c4cb67c19-script_dec.c__split__void SFS_AddString (ScriptParser*,char*)"
+    ],
+    "CVE-2020-8177": [
+        "3b1023888-tool_cb_hdr.c__split__b80707fde-tool_cb_hdr.c__split__size_t tool_header_cb (char*,size_t,size_t,void*)"
+    ],
+    "CVE-2020-36278": [
+        "c623702-ccbord.c__split__4e6363e-ccbord.c__split__l_int32 findNextBorderPixel (l_int32,l_int32,l_uint32*,l_int32,l_int32,l_int32,l_int32*,l_int32*,l_int32*)"
+    ],
+    "CVE-2022-21731": [
+        ""
+    ],
+    "CVE-2023-1448": [
+        "10fbbd7b5-mpegts.c__split__30fb2bb3f-mpegts.c__split__void gf_m2ts_process_sdt (GF_M2TS_Demuxer*,GF_M2TS_SECTION_ES*,GF_List*,u8,u16,u8,u8,u32)"
+    ],
+    "CVE-2020-26271": [
+        ""
+    ],
+    "CVE-2023-28320": [
+        "2381290fd-hostip.c__split__e410cda69-hostip.c__split__enum resolve_t Curl_resolv_timeout (Curl_easy*,char*,int,Curl_dns_entry**,timediff_t)"
+    ],
+    "CVE-2022-27147": [
+        "b403d5f40-base_scenegraph.c__split__40f30260b-base_scenegraph.c__split__void gf_node_free (GF_Node*)"
+    ],
+    "CVE-2022-41889": [
+        ""
+    ],
+    "CVE-2022-1172": [
+        "fe53c0821-field_decode.c__split__5537da7d3-field_decode.c__split__GF_Err gf_bifs_dec_sf_field (GF_BifsDecoder*,GF_BitStream*,GF_Node*,GF_FieldInfo*,Bool)"
+    ],
+    "CVE-2022-41886": [
+        ""
+    ],
+    "CVE-2020-36281": [
+        "52ddd38-colorquant1.c__split__c7a817d-colorquant1.c__split__PIX pixFewColorsOctcubeQuantMixed (PIX*,l_int32,l_int32,l_int32,l_int32,l_float32,l_int32)"
+    ],
+    "CVE-2023-23145": [
+        "7918150c3-lsr_dec.c__split__1be3af84f-lsr_dec.c__split__void lsr_read_rare_full (GF_LASeRCodec*,GF_Node*)"
+    ],
+    "CVE-2021-22945": [
+        "f077e6c3d-mqtt.c__split__fcd40b41e-mqtt.c__split__CURLcode mqtt_send (Curl_easy*,char*,size_t)"
+    ],
+    "CVE-2023-23144": [
+        "a43df12f0-unquantize.c__split__008a83098-unquantize.c__split__GF_Err Q_DecCoordOnUnitSphere (GF_BifsDecoder*,GF_BitStream*,u32,u32,Fixed*)"
+    ],
+    "CVE-2021-32268": [
+        "36b54ccb0-box_code_base.c__split__c79cfcc8e-box_code_base.c__split__GF_Err url_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2022-1061": [
+        ""
+    ],
+    "CVE-2022-3358": [
+        "e055c70a5f-digest.c__split__5de5a9014d-digest.c__split__int evp_md_init_internal (EVP_MD_CTX*,EVP_MD*,OSSL_PARAM[],ENGINE*)"
+    ],
+    "CVE-2022-29201": [
+        ""
+    ],
+    "CVE-2022-1452": [
+        "80919af8ec-class.c__split__a2c6747cf1-class.c__split__RBinJavaAttrInfo r_bin_java_bootstrap_methods_attr_new (RBinJavaObj*,ut8*,ut64,ut64)"
+    ],
+    "CVE-2020-35981": [
+        "37dfbe55a-isom_store.c__split__ee2b2cfaf-isom_store.c__split__GF_Err SetupWriters (MovieWriter*,GF_List*,u8)"
+    ],
+    "CVE-2022-21741": [
+        ""
+    ],
+    "CVE-2020-8231": [
+        "b3a75e137-multi.c__split__3c7fb85ed-multi.c__split__CURLMcode curl_multi_remove_handle (Curl_multi*,Curl_easy*)"
+    ],
+    "CVE-2020-6017": [
+        ""
+    ],
+    "CVE-2022-23588": [
+        ""
+    ],
+    "CVE-2022-0890": [
+        "0d85bedad-fiber.c__split__322ed36ea-fiber.c__split__mrb_value fiber_switch (mrb_state*,mrb_value,mrb_int,mrb_value*,mrb_bool,mrb_bool)"
+    ],
+    "CVE-2021-32135": [
+        "752bd5464-box_code_base.c__split__5964aa450-box_code_base.c__split__GF_Err trak_box_size (GF_Box*)"
+    ],
+    "CVE-2022-0240": [
+        "ec9c648e5-class.c__split__8751dcaf0-class.c__split__void prepare_singleton_class (mrb_state*,RBasic*)"
+    ],
+    "CVE-2023-25221": [
+        "38f768d5-motion.cc__split__45d547b0-motion.cc__split__void motion_vectors_and_ref_indices (base_context*,slice_segment_header*,de265_image*,PBMotionCoding,int,int,int,int,int,int,int,int,PBMotion*)"
+    ],
+    "CVE-2023-48011": [
+        "b7f7ade32-movie_fragments.c__split__d665eeb9d-movie_fragments.c__split__u32 UpdateRuns (GF_ISOFile*,GF_TrackFragmentBox*)"
+    ],
+    "CVE-2022-23560": [
+        ""
+    ],
+    "CVE-2021-29526": [
+        ""
+    ],
+    "CVE-2020-15202": [],
+    "CVE-2021-29598": [
+        ""
+    ],
+    "CVE-2021-29539": [
+        ""
+    ],
+    "CVE-2022-23575": [
+        ""
+    ],
+    "CVE-2023-48014": [
+        ""
+    ],
+    "CVE-2022-23570": [
+        ""
+    ],
+    "CVE-2022-1441": [
+        "3f9ff0569-box_code_3gpp.c__split__928a5575f-box_code_3gpp.c__split__GF_Err diST_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2022-1286": [
+        "37fc4e68a-class.c__split__68a0ff084-class.c__split__void mrb_remove_method (mrb_state*,RClass*,mrb_sym)"
+    ],
+    "CVE-2023-0819": [
+        "30fb2bb3f-mpegts.c__split__7deabb630-mpegts.c__split__void gf_m2ts_process_tdt_tot (GF_M2TS_Demuxer*,GF_M2TS_SECTION_ES*,GF_List*,u8,u16,u8,u8,u32)"
+    ],
+    "CVE-2022-47095": [
+        ""
+    ],
+    "CVE-2021-31262": [
+        "741f8055f-avc_ext.c__split__d5a40023c-avc_ext.c__split__void AV1_RewriteESDescriptorEx (GF_MPEGVisualSampleEntryBox*,GF_MediaBox*)"
+    ],
+    "CVE-2020-35963": [
+        "116c92bfb-flb_gzip.c__split__54f868ea4-flb_gzip.c__split__int flb_gzip_compress (void*,size_t,void**,size_t*)"
+    ],
+    "CVE-2022-28463": [
+        "e266e7f3c-cin.c__split__23fc17e08-cin.c__split__Image ReadCINImage (ImageInfo*,ExceptionInfo*)"
+    ],
+    "CVE-2023-0760": [
+        "baf07ff35-box_code_base.c__split__9a9ad09b4-box_code_base.c__split__void* sgpd_parse_entry (u32,GF_BitStream*,s32,u32,u32*)"
+    ],
+    "CVE-2022-0173": [
+        "228e422d65-io_bank.c__split__882dfc48d1-io_bank.c__split__bool r_io_bank_map_add_top (RIO*,ut32,ut32)"
+    ],
+    "CVE-2021-29555": [
+        ""
+    ],
+    "CVE-2020-35982": [
+        "5bf89cb5c-isom_hinter.c__split__8af1d04b7-isom_hinter.c__split__GF_Err gf_hinter_track_finalize (GF_RTPHinter*,Bool)"
+    ],
+    "CVE-2023-28319": [
+        "bfcc94e16-libssh2.c__split__dd39a844c-libssh2.c__split__CURLcode ssh_check_fingerprint (Curl_easy*)"
+    ],
+    "CVE-2023-50120": [
+        ""
+    ],
+    "CVE-2021-29517": [
+        ""
+    ],
+    "CVE-2023-1605": [
+        "caecf55a53-bin_coff.c__split__deeb7c7e9b-bin_coff.c__split__RList patch_relocs (RBin*)"
+    ],
+    "CVE-2023-43887": [
+        ""
+    ],
+    "CVE-2020-14147": [
+        "4d5f027b8-lua_struct.c__split__c58c8e72b-lua_struct.c__split__int getnum (char**,int)__split__int getnum (lua_State*,char**,int)"
+    ],
+    "CVE-2020-4030": [
+        ""
+    ],
+    "CVE-2021-39212": [
+        "766ddf682-static.c__split__120c39e3c-static.c__split__MagickBooleanType RegisterStaticModule (char*,ExceptionInfo*)"
+    ],
+    "CVE-2021-31616": [
+        "a4cf80af-ethereum.c__split__b329f8f6-ethereum.c__split__uint8_t ethereum_extractThorchainData (EthereumSignTx*,char*)"
+    ],
+    "CVE-2020-13113": [
+        "4e99325-exif-mnote-data-canon.c__split__b8a21e1-exif-mnote-data-canon.c__split__void exif_mnote_data_canon_load (ExifMnoteData*,unsigned char*,unsigned int)"
+    ],
+    "CVE-2021-33657": [
+        "ac04533c5-SDL_pixels.c__split__9bb02f771-SDL_pixels.c__split__Uint8 Map1to1 (SDL_Palette*,SDL_Palette*,int*)"
+    ],
+    "CVE-2020-24370": [
+        "0c4439c1-ldebug.c__split__9ff7edeb-ldebug.c__split__const char* luaG_findlocal (lua_State*,CallInfo*,int,StkId*)"
+    ],
+    "CVE-2020-27638": [
+        "043c9f2-receive.c__split__6bca9f4-receive.c__split__void handle_socket_receive_unknown (fastd_socket_t*,fastd_peer_address_t*,fastd_peer_address_t*,fastd_buffer_t*)"
+    ],
+    "CVE-2020-8597": [
+        "94407f5-eap.c__split__1b93db0-eap.c__split__void eap_request (eap_state*,u_char*,int,int)"
+    ],
+    "CVE-2021-37681": [
+        ""
+    ],
+    "CVE-2021-29605": [
+        "aaa98a98ebe-common.c__split__00dd0260cbc-common.c__split__TfLiteIntArray TfLiteIntArrayCreate (int)"
+    ],
+    "CVE-2021-29595": [
+        ""
+    ],
+    "CVE-2021-37682": [
+        ""
+    ],
+    "CVE-2021-37648": [
+        ""
+    ],
+    "CVE-2021-37670": [
+        ""
+    ],
+    "CVE-2021-37657": [
+        ""
+    ],
+    "CVE-2021-29594": [
+        ""
+    ],
+    "CVE-2021-3753": [
+        "0e0cd9e9e589-vt_ioctl.c__split__3639bb6dc372-vt_ioctl.c__split__int vt_k_ioctl (tty_struct*,unsigned int,long unsigned,bool)"
+    ],
+    "CVE-2020-11608": [
+        "f417dfc0b872-ov519.c__split__0afe70a3f9a2-ov519.c__split__void ov511_mode_init_regs (sd*)"
+    ],
+    "CVE-2021-3609": [
+        "f3e4d9528fa3-bcm.c__split__0928a39c4423-bcm.c__split__int bcm_delete_rx_op (list_head*,bcm_msg_head*,int)"
+    ],
+    "CVE-2022-23558": [
+        "ef4d3ffdec5-common.c__split__d149d22c567-common.c__split__TfLiteIntArray TfLiteIntArrayCreate (int)",
+        "ef4d3ffdec5-common.c__split__d149d22c567-common.c__split__int TfLiteIntArrayGetSizeInBytes (int)__split__size_t TfLiteIntArrayGetSizeInBytes (int)"
+    ],
+    "CVE-2022-3586": [
+        "3d061a13d7ed-sch_sfb.c__split__0d761f454ae8-sch_sfb.c__split__void increment_qlen (sk_buff*,sfb_sched_data*)__split__void increment_qlen (sfb_skb_cb*,sfb_sched_data*)"
+    ],
+    "CVE-2022-28044": [
+        "0133c90-lrzip.c__split__3d96128-lrzip.c__split__bool initialise_control (rzip_control*)"
+    ],
+    "CVE-2022-34299": [
+        "8e8e2309-dwarf_form.c__split__fe4b013e-dwarf_form.c__split__int find_sig8_target_as_global_offset (Dwarf_Attribute,Dwarf_Sig8*,Dwarf_Bool*,Dwarf_Off*,Dwarf_Error*)"
+    ],
+    "CVE-2023-3012": [
+        "49df33816-xml_parser.c__split__11f6f2f5c-xml_parser.c__split__GF_Err xml_sax_append_string (GF_SAXParser*,char*)"
+    ],
+    "CVE-2023-23143": [
+        ""
+    ],
+    "CVE-2023-0817": [
+        "fc0edb28c-reframe_mhas.c__split__f459d5b08-reframe_mhas.c__split__void mhas_dmx_check_dur (GF_Filter*,GF_MHASDmxCtx*)"
+    ],
+    "CVE-2022-27470": [
+        "1c19458-SDL_ttf.c__split__6a0956b-SDL_ttf.c__split__SDL_Surface Create_Surface_Solid (int,int,SDL_Color,Uint32*)"
+    ],
+    "CVE-2022-4843": [
+        "7a62773dff-io_bank.c__split__5b170e74f4-io_bank.c__split__bool r_io_bank_read_at (RIO*,ut32,ut64,ut8*,int)"
+    ],
+    "CVE-2022-2526": [
+        "d35c875e47-resolved-dns-stream.c__split__deb5abac5b-resolved-dns-stream.c__split__int dns_stream_complete (DnsStream*,int)"
+    ],
+    "CVE-2022-27223": [
+        "6ce886fb7bfe-udc-xilinx.c__split__2907fad04e2c-udc-xilinx.c__split__void xudc_set_clear_feature (xusb_udc*)"
+    ],
+    "CVE-2023-22997": [
+        "c033572d83f0-decompress.c__split__720e719253cd-decompress.c__split__ssize_t module_gzip_decompress (load_info*,void*,size_t)"
+    ],
+    "CVE-2022-28356": [
+        "26c00ebf4fba-af_llc.c__split__c86256064743-af_llc.c__split__int llc_ui_autobind (socket*,sockaddr_llc*)"
+    ],
+    "CVE-2023-3439": [
+        "f49be882e98e-device.c__split__99a3bda8852f-device.c__split__void mctp_dev_put (mctp_dev*)"
+    ],
+    "CVE-2022-24122": [
+        "7b32c356ebc5-ucount.c__split__65b597431c86-ucount.c__split__void put_ucounts (ucounts*)"
+    ],
+    "CVE-2023-26545": [
+        "35b5f806fdda-af_mpls.c__split__dc5165d3eec4-af_mpls.c__split__int mpls_dev_sysctl_register (net_device*,mpls_dev*)"
+    ],
+    "CVE-2022-2652": [
+        "8c88ae8-v4l2loopback.c__split__5038054-v4l2loopback.c__split__int vidioc_querycap (file*,void*,v4l2_capability*)"
+    ],
+    "CVE-2023-23456": [
+        ""
+    ],
+    "CVE-2022-47021": [
+        "ca219b2-opusfile.c__split__3c3c81e-opusfile.c__split__int op_get_data (OggOpusFile*,int)"
+    ],
+    "CVE-2021-28691": [
+        "193b723fe3bd-interface.c__split__c58996c1e230-interface.c__split__void xenvif_disconnect_queue (xenvif_queue*)"
+    ],
+    "CVE-2022-2586": [
+        "a32acf056e32-nf_tables_api.c__split__2e5079b68d61-nf_tables_api.c__split__struct nft_set nft_set_lookup_global (net*,nft_table*,nlattr*,nlattr*,u8)",
+        "a32acf056e32-nf_tables_api.c__split__2e5079b68d61-nf_tables_api.c__split__struct nft_set nft_set_lookup_byid (net*,nlattr*,u8)__split__struct nft_set nft_set_lookup_byid (net*,nft_table*,nlattr*,u8)"
+    ],
+    "CVE-2021-29657": [
+        "9e4c226dbf7d-nested.c__split__061a00f91af5-nested.c__split__int enter_svm_guest_mode (vcpu_svm*,u64,vmcb*)"
+    ],
+    "CVE-2021-23134": [
+        "a3b46f888803-llcp_sock.c__split__53dbe733f998-llcp_sock.c__split__int llcp_sock_bind (socket*,sockaddr*,int)"
+    ],
+    "CVE-2022-33744": [
+        "84a1cea1f43b-p2m.c__split__309648c17f48-p2m.c__split__bool __set_phys_to_machine_multi (long unsigned,long unsigned,long unsigned)"
+    ],
+    "CVE-2021-3930": [
+        "e8a547dbb7-scsi-disk.c__split__d4914178ea-scsi-disk.c__split__int mode_sense_page (SCSIDiskState*,int,uint8_t**,int)",
+        "e8a547dbb7-scsi-disk.c__split__d4914178ea-scsi-disk.c__split__int scsi_disk_check_mode_select (SCSIDiskState*,int,uint8_t*,int)"
+    ],
+    "CVE-2021-3392": [
+        "7416e78706-mptsas.c__split__db3219e7d2-mptsas.c__split__void mptsas_free_request (MPTSASRequest*)"
+    ],
+    "CVE-2020-7450": [
+        "b3ed702b3185-fetch.c__split__9eec0730fa7d-fetch.c__split__struct url fetchParseURL (char*)"
+    ],
+    "CVE-2020-6061": [
+        ""
+    ],
+    "CVE-2022-27781": [
+        "5b7de9f81-nss.c__split__569c0628f-nss.c__split__CURLcode display_conn_info (Curl_easy*,PRFileDesc*)"
+    ],
+    "CVE-2022-27779": [
+        "451881f57-cookie.c__split__0c2d49b47-cookie.c__split__bool bad_domain (char*)"
+    ],
+    "CVE-2022-27778": [
+        "cb587e0a6-tool_operate.c__split__daaf0bcd4-tool_operate.c__split__CURLcode post_per_transfer (GlobalConfig*,per_transfer*,CURLcode,bool*,long*)"
+    ],
+    "CVE-2020-14378": [
+        ""
+    ],
+    "CVE-2020-10723": [
+        "ff5b13169f-vhost_user.c__split__6dbba04760-vhost_user.c__split__int vhost_user_check_and_alloc_queue_pair (virtio_net*,VhostUserMsg*)"
+    ],
+    "CVE-2020-14374": [
+        "f1cc32a9b2-vhost_crypto.c__split__cf9aa2566b-vhost_crypto.c__split__int copy_data (void*,vhost_crypto_data_req*,vring_desc**,uint32_t,uint32_t*,uint32_t)"
+    ],
+    "CVE-2020-22019": [
+        "2db4783d8d-vf_vmafmotion.c__split__454ebb8afa-vf_vmafmotion.c__split__int ff_vmafmotion_init (VMAFMotionData*,int,int,AVPixelFormat)"
+    ],
+    "CVE-2020-22033": [
+        "2db4783d8d-vf_vmafmotion.c__split__454ebb8afa-vf_vmafmotion.c__split__int ff_vmafmotion_init (VMAFMotionData*,int,int,AVPixelFormat)"
+    ],
+    "CVE-2020-17367": [
+        "d4a7f464a-output.c__split__6e678afd3-output.c__split__void check_output (int,char**)"
+    ],
+    "CVE-2020-25580": [
+        "9496081d362e-login_access.c__split__719808858dac-login_access.c__split__int list_match (char*,char*,int,pam_login_access_options*)"
+    ],
+    "CVE-2021-36159": [
+        "9a546f3fecad-ftp.c__split__dfde6edce734-ftp.c__split__FILE ftp_transfer (conn_t*,char*,char*,int,off_t,char*)"
+    ],
+    "CVE-2020-25584": [
+        "e20e1520f677-vfs_mount.c__split__7dc6b795eefd-vfs_mount.c__split__int vfs_domount_first (thread*,vfsconf*,char*,vnode*,uint64_t,vfsoptlist**)"
+    ],
+    "CVE-2020-7455": [
+        "ee93f4c5b14b-alias_ftp.c__split__f8e0a703345d-alias_ftp.c__split__void NewFtpMessage (libalias*,ip*,alias_link*,int,int)"
+    ],
+    "CVE-2020-11038": [
+        "a161a1143-video_main.c__split__1efadb399-video_main.c__split__PresentationContext PresentationContext_new (VideoClientContext*,BYTE,UINT32,UINT32,UINT32,UINT32)"
+    ],
+    "CVE-2020-11019": [
+        "47e2a949e-update.c__split__aac58819f-update.c__split__BOOL update_recv (rdpUpdate*,wStream*)"
+    ],
+    "CVE-2020-11526": [
+        "fb8c3776e-orders.c__split__275127bb7-orders.c__split__BOOL update_recv_secondary_order (rdpUpdate*,wStream*,BYTE)"
+    ],
+    "CVE-2021-21852": [
+        "aff945c18-box_code_base.c__split__befb3bb40-box_code_base.c__split__GF_Err stss_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2020-11100": [
+        "70d7f3583-hpack-tbl.c__split__727ff7a17-hpack-tbl.c__split__int hpack_dht_insert (hpack_dht*,ist,ist)"
+    ],
+    "CVE-2020-25671": [
+        "68832ee4b9f8-llcp_sock.c__split__9e2799ee1595-llcp_sock.c__split__int llcp_sock_connect (socket*,sockaddr*,int,int)"
+    ],
+    "CVE-2021-3491": [
+        "7a2e83bc005d-io_uring.c__split__f46acbbeed57-io_uring.c__split__int io_add_buffers (io_provide_buf*,io_buffer**)"
+    ],
+    "CVE-2022-23038": [
+        "0204e314b482-xen-scsifront.c__split__17b8c8884087-xen-scsifront.c__split__void scsifront_gnttab_done (vscsifrnt_info*,vscsifrnt_shadow*)"
+    ],
+    "CVE-2022-21505": [
+        ""
+    ],
+    "CVE-2022-33743": [
+        "409ee9d97af4-xen-netfront.c__split__074dceb1930b-xen-netfront.c__split__int xennet_get_responses (netfront_queue*,netfront_rx_info*,RING_IDX,sk_buff_head*,bool*)"
+    ],
+    "CVE-2022-1184": [
+        "871eebf12bf4-namei.c__split__ac0b7e53591f-namei.c__split__struct buffer_head __ext4_read_dirblock (inode*,ext4_lblk_t,dirblock_type_t,char*,unsigned int)"
+    ],
+    "CVE-2022-23037": [
+        "73d388cbcd69-xen-netfront.c__split__a1553f42b112-xen-netfront.c__split__bool xennet_tx_buf_gc (netfront_queue*)"
+    ],
+    "CVE-2020-14331": [
+        "f0f3d573f848-vgacon.c__split__a52bb3740073-vgacon.c__split__void vgacon_scrollback_update (vc_data*,int,int)"
+    ],
+    "CVE-2022-1789": [
+        "c5fd00945e75-mmu.c__split__3417405077ad-mmu.c__split__void kvm_mmu_invpcid_gva (kvm_vcpu*,gva_t,long unsigned)"
+    ],
+    "CVE-2022-33740": [
+        "2492a27467b4-xen-netfront.c__split__cae8537115a8-xen-netfront.c__split__struct sk_buff xennet_alloc_one_rx_buffer (netfront_queue*)"
+    ],
+    "CVE-2022-2308": [
+        "73e67fa88972-vduse_dev.c__split__e7d2d5b7e125-vduse_dev.c__split__void vduse_vdpa_get_config (vdpa_device*,unsigned int,void*,unsigned int)"
+    ],
+    "CVE-2020-25670": [
+        "d257ed3b732a-llcp_sock.c__split__68832ee4b9f8-llcp_sock.c__split__int llcp_sock_bind (socket*,sockaddr*,int)"
+    ],
+    "CVE-2020-14386": [
+        "da8254e680f9-af_packet.c__split__2b33e977a905-af_packet.c__split__int tpacket_rcv (sk_buff*,net_device*,packet_type*,net_device*)"
+    ],
+    "CVE-2020-26141": [
+        "12451ab66a19-htt_rx.c__split__87196f9bbdea-htt_rx.c__split__void ath10k_htt_rx_h_mpdu (ath10k*,sk_buff_head*,ieee80211_rx_status*,bool,u8*,ath10k_pkt_rx_err*,u16,bool)"
+    ],
+    "CVE-2021-3564": [
+        "fd12f1652bdf-hci_core.c__split__7d71d104fdfd-hci_core.c__split__int hci_dev_do_open (hci_dev*)"
+    ],
+    "CVE-2022-2588": [
+        "a35ab8c27866-cls_route.c__split__3f935cbbaff6-cls_route.c__split__int route4_change (net*,sk_buff*,tcf_proto*,long unsigned,u32,nlattr**,void**,u32,netlink_ext_ack*)"
+    ],
+    "CVE-2020-10757": [
+        "6aa6ea605068-mremap.c__split__57b1f999f789-mremap.c__split__unsigned long move_page_tables (vm_area_struct*,long unsigned,vm_area_struct*,long unsigned,long unsigned,bool)"
+    ],
+    "CVE-2021-3449": [
+        "5e21ff8593-extensions.c__split__bc41b36594-extensions.c__split__int init_sig_algs (SSL*,unsigned int)"
+    ],
+    "CVE-2022-1343": [
+        ""
+    ],
+    "CVE-2021-23841": [
+        "8e525a3815-x509_cmp.c__split__a74311e92d-x509_cmp.c__split__unsigned long X509_issuer_and_serial_hash (X509*)"
+    ],
+    "CVE-2020-1967": [
+        "b9b3a60252-t1_lib.c__split__79f66601be-t1_lib.c__split__int tls1_check_sig_alg (SSL*,X509*,int)"
+    ],
+    "CVE-2020-14871": [
+        "832382151-auth-pam.c__split__d429ef13a-auth-pam.c__split__int sshpam_init (ssh*,Authctxt*)"
+    ],
+    "CVE-2021-29513": [
+        ""
+    ],
+    "CVE-2021-29545": [
+        ""
+    ],
+    "CVE-2021-29571": [
+        ""
+    ],
+    "CVE-2021-29587": [
+        ""
+    ],
+    "CVE-2021-29567": [
+        ""
+    ],
+    "CVE-2021-37673": [
+        ""
+    ],
+    "CVE-2021-29553": [
+        ""
+    ],
+    "CVE-2021-29573": [
+        ""
+    ],
+    "CVE-2021-41219": [
+        ""
+    ],
+    "CVE-2021-37638": [
+        ""
+    ],
+    "CVE-2021-37643": [
+        ""
+    ],
+    "CVE-2021-29610": [
+        ""
+    ],
+    "CVE-2021-29557": [
+        ""
+    ],
+    "CVE-2021-37672": [
+        ""
+    ],
+    "CVE-2021-29549": [
+        ""
+    ],
+    "CVE-2021-29546": [
+        ""
+    ],
+    "CVE-2021-29569": [
+        ""
+    ],
+    "CVE-2021-29588": [
+        ""
+    ],
+    "CVE-2021-29563": [
+        ""
+    ],
+    "CVE-2021-37654": [
+        ""
+    ],
+    "CVE-2021-37689": [
+        ""
+    ],
+    "CVE-2021-29599": [
+        ""
+    ],
+    "CVE-2021-37649": [
+        ""
+    ],
+    "CVE-2021-29556": [
+        ""
+    ],
+    "CVE-2021-37668": [
+        ""
+    ],
+    "CVE-2021-29562": [
+        ""
+    ],
+    "CVE-2021-41224": [
+        ""
+    ],
+    "CVE-2021-29597": [
+        ""
+    ],
+    "CVE-2021-37664": [
+        ""
+    ],
+    "CVE-2021-37644": [
+        ""
+    ],
+    "CVE-2021-29606": [
+        ""
+    ],
+    "CVE-2021-37646": [
+        ""
+    ],
+    "CVE-2021-37640": [
+        ""
+    ],
+    "CVE-2021-29612": [
+        ""
+    ],
+    "CVE-2021-29529": [
+        ""
+    ],
+    "CVE-2021-29544": [
+        ""
+    ],
+    "CVE-2021-41217": [
+        ""
+    ],
+    "CVE-2021-37652": [
+        ""
+    ],
+    "CVE-2021-37669": [
+        ""
+    ],
+    "CVE-2021-29575": [
+        ""
+    ],
+    "CVE-2021-29561": [
+        ""
+    ],
+    "CVE-2021-29537": [
+        ""
+    ],
+    "CVE-2020-26268": [
+        ""
+    ],
+    "CVE-2021-37658": [
+        ""
+    ],
+    "CVE-2021-29596": [
+        ""
+    ],
+    "CVE-2021-29613": [
+        ""
+    ],
+    "CVE-2021-37660": [
+        ""
+    ],
+    "CVE-2021-37661": [
+        ""
+    ],
+    "CVE-2021-29589": [
+        ""
+    ],
+    "CVE-2021-29516": [
+        ""
+    ],
+    "CVE-2021-29524": [
+        ""
+    ],
+    "CVE-2021-37666": [
+        ""
+    ],
+    "CVE-2021-37667": [
+        ""
+    ],
+    "CVE-2021-29609": [
+        ""
+    ],
+    "CVE-2021-37680": [
+        ""
+    ],
+    "CVE-2021-41211": [
+        ""
+    ],
+    "CVE-2021-37685": [
+        ""
+    ],
+    "CVE-2021-29550": [
+        ""
+    ],
+    "CVE-2021-29604": [
+        ""
+    ],
+    "CVE-2021-37691": [
+        ""
+    ],
+    "CVE-2021-29521": [
+        ""
+    ],
+    "CVE-2021-29581": [
+        ""
+    ],
+    "CVE-2021-29552": [
+        ""
+    ],
+    "CVE-2021-29601": [
+        ""
+    ],
+    "CVE-2021-29568": [
+        ""
+    ],
+    "CVE-2021-29531": [
+        ""
+    ],
+    "CVE-2021-37645": [
+        ""
+    ],
+    "CVE-2021-41226": [
+        ""
+    ],
+    "CVE-2021-29593": [
+        ""
+    ],
+    "CVE-2021-37641": [
+        ""
+    ],
+    "CVE-2021-29528": [
+        ""
+    ],
+    "CVE-2021-29603": [
+        ""
+    ],
+    "CVE-2021-29514": [
+        ""
+    ],
+    "CVE-2021-29560": [
+        ""
+    ],
+    "CVE-2021-29565": [
+        ""
+    ],
+    "CVE-2021-29554": [
+        ""
+    ],
+    "CVE-2021-41216": [
+        ""
+    ],
+    "CVE-2020-15476": [
+        "6ad6bac4c-oracle.c__split__a24837a68-oracle.c__split__void ndpi_search_oracle (ndpi_detection_module_struct*,ndpi_flow_struct*)"
+    ],
+    "CVE-2021-36085": [
+        "db70a535-cil_reset_ast.c__split__89f91e56-cil_reset_ast.c__split__void cil_reset_perm (cil_perm*)"
+    ],
+    "CVE-2021-36084": [
+        "3da1b9a6-cil_reset_ast.c__split__db70a535-cil_reset_ast.c__split__void cil_reset_classpermission (cil_classpermission*)"
+    ],
+    "CVE-2021-42781": [
+        "0ddfc3f6-pkcs15-oberthur.c__split__6487656b-pkcs15-oberthur.c__split__int sc_pkcs15emu_oberthur_add_data (sc_pkcs15_card*,unsigned int,unsigned int,int)"
+    ],
+    "CVE-2020-26572": [
+        "673c2493-card-tcos.c__split__e88c80bd-card-tcos.c__split__int tcos_decipher (sc_card_t*,u8*,size_t,u8*,size_t)"
+    ],
+    "CVE-2021-42780": [
+        "feeb7eb3-pkcs15-tcos.c__split__74ae0cb9-pkcs15-tcos.c__split__int insert_pin (sc_pkcs15_card_t*,char*,unsigned char,unsigned char,unsigned char,int,char*,int)"
+    ],
+    "CVE-2020-26570": [
+        "a873aaa0-pkcs15-oberthur.c__split__2fb32b8d-pkcs15-oberthur.c__split__int sc_oberthur_read_file (sc_pkcs15_card*,char*,unsigned char**,size_t*,int)"
+    ],
+    "CVE-2021-38593": [
+        ""
+    ],
+    "CVE-2021-20257": [
+        "d8da2f6528-e1000.c__split__4345d863e6-e1000.c__split__void process_tx_desc (E1000State*,e1000_tx_desc*)"
+    ],
+    "CVE-2021-46461": [
+        "5facef58-njs_vmcode.c__split__75911255-njs_vmcode.c__split__njs_jump_off_t njs_vmcode_typeof (njs_vm_t*,njs_value_t*,njs_value_t*)"
+    ],
+    "CVE-2021-20299": [
+        ""
+    ],
+    "CVE-2020-16588": [
+        ""
+    ],
+    "CVE-2020-16587": [
+        ""
+    ],
+    "CVE-2021-27815": [
+        "ed245df-actions.c__split__123c064-actions.c__split__const char* escape_xml (char*)"
+    ],
+    "CVE-2021-21413": [
+        ""
+    ],
+    "CVE-2021-23180": [
+        "fec96bd-file.c__split__f2f3822-file.c__split__const char* file_extension (char*)"
+    ],
+    "CVE-2020-14163": [
+        "0dadc5ce-ecma-container-object.c__split__0732c023-ecma-container-object.c__split__void ecma_op_internal_buffer_append (ecma_collection_t*,ecma_value_t,ecma_value_t,lit_magic_string_id_t)"
+    ],
+    "CVE-2020-35573": [
+        "b07a664-srs2.c__split__6a2eebb-srs2.c__split__int srs_timestamp_check (srs_t*,char*)"
+    ],
+    "CVE-2020-12062": [
+        "439025980-scp.c__split__b4492a062-scp.c__split__void sink (int,char**,char*)"
+    ],
+    "CVE-2020-5235": [
+        "5195f88-pb_decode.c__split__df8873e-pb_decode.c__split__bool decode_pointer_field (pb_istream_t*,pb_wire_type_t,pb_field_iter_t*)"
+    ],
+    "CVE-2021-21401": [
+        "5f3b51e-pb_decode.c__split__b194825-pb_decode.c__split__bool pb_release_union_field (pb_istream_t*,pb_field_iter_t*)"
+    ],
+    "CVE-2020-26243": [
+        "ce5c4ae-pb_decode.c__split__3f14a39-pb_decode.c__split__bool decode_static_field (pb_istream_t*,pb_wire_type_t,pb_field_iter_t*)"
+    ],
+    "CVE-2021-32055": [
+        "52aff7da0-util.c__split__27fb86295-util.c__split__int mutt_seqset_iterator_next (SeqsetIterator*,unsigned int*)"
+    ],
+    "CVE-2020-36407": [
+        "e9922196-read.c__split__fa1a5138-read.c__split__avifBool avifParseImageGridBox (avifImageGrid*,uint8_t*,size_t)"
+    ],
+    "CVE-2020-11565": [
+        "460683bbe58c-mempolicy.c__split__5fb427aed612-mempolicy.c__split__int mpol_parse_str (char*,mempolicy**)"
+    ],
+    "CVE-2021-38205": [
+        "d9d58a7dabee-xilinx_emaclite.c__split__b06377fe7293-xilinx_emaclite.c__split__int xemaclite_of_probe (platform_device*)"
+    ],
+    "CVE-2021-38201": [
+        "3964ff74ee51-xdr.c__split__ca10ba2626f2-xdr.c__split__unsigned int xdr_set_page_base (xdr_stream*,unsigned int,unsigned int)"
+    ],
+    "CVE-2020-36158": [
+        "5934f7147547-join.c__split__173ccf79cbfc-join.c__split__int mwifiex_cmd_802_11_ad_hoc_start (mwifiex_private*,host_cmd_ds_command*,cfg80211_ssid*)"
+    ],
+    "CVE-2021-38200": [
+        "16d4d1b6a1ff-core-book3s.c__split__51622411a7cc-core-book3s.c__split__unsigned long perf_instruction_pointer (pt_regs*)"
+    ],
+    "CVE-2021-41864": [
+        "09a3fd97d329-stackmap.c__split__6e75bbee39f0-stackmap.c__split__int prealloc_elems_and_freelist (bpf_stack_map*)"
+    ],
+    "CVE-2021-33909": [
+        "b117b212ef28-seq_file.c__split__4a2cda04d3e2-seq_file.c__split__void* seq_buf_alloc (long unsigned)"
+    ],
+    "CVE-2021-3743": [
+        "171b7f3be6ef-qrtr.c__split__0c30908628ba-qrtr.c__split__int qrtr_endpoint_post (qrtr_endpoint*,void*,size_t)"
+    ],
+    "CVE-2021-31916": [
+        "5e306bba4375-dm-ioctl.c__split__1ca65b434f1f-dm-ioctl.c__split__int list_devices (file*,dm_ioctl*,size_t)"
+    ],
+    "CVE-2021-3715": [
+        "6f8786b06bde-cls_route.c__split__5efa3e7ace15-cls_route.c__split__int route4_change (net*,sk_buff*,tcf_proto*,long unsigned,u32,nlattr**,void**,bool,bool,netlink_ext_ack*)"
+    ],
+    "CVE-2020-12653": [
+        "98f942b797f7-scan.c__split__a7968a84aaf8-scan.c__split__int mwifiex_cmd_append_vsie_tlv (mwifiex_private*,u16,u8**)"
+    ],
+    "CVE-2020-27194": [
+        "47e74f09fa37-verifier.c__split__fba52d9ec8fc-verifier.c__split__void scalar32_min_max_or (bpf_reg_state*,bpf_reg_state*)"
+    ],
+    "CVE-2021-45480": [
+        "a3bc4b54d491-connection.c__split__b4cc699c5fad-connection.c__split__struct rds_connection __rds_conn_create (net*,in6_addr*,in6_addr*,rds_transport*,gfp_t,u8,int,int)"
+    ],
+    "CVE-2020-12659": [
+        "fa7bb5e060d0-xdp_umem.c__split__ed7a6060f73c-xdp_umem.c__split__int xdp_umem_reg (xdp_umem*,xdp_umem_reg*)"
+    ],
+    "CVE-2020-12464": [
+        "d5f834f16993-message.c__split__a48678a0c83a-message.c__split__void usb_sg_cancel (usb_sg_request*)"
+    ],
+    "CVE-2021-38209": [
+        "3f2cc7b04b20-nf_conntrack_standalone.c__split__54d36d3eb905-nf_conntrack_standalone.c__split__int nf_conntrack_standalone_init_sysctl (net*)"
+    ],
+    "CVE-2021-38207": [
+        "9797aa3221d1-ll_temac_main.c__split__cc482ee36501-ll_temac_main.c__split__netdev_tx_t temac_start_xmit (sk_buff*,net_device*)"
+    ],
+    "CVE-2021-45095": [
+        "a1525916885a-pep.c__split__b4f90afb0638-pep.c__split__struct sock pep_sock_accept (sock*,int,int*,bool)"
+    ],
+    "CVE-2020-9383": [
+        "cd3612e4e2e1-floppy.c__split__8ef65c085640-floppy.c__split__void set_fdc (int)"
+    ],
+    "CVE-2020-12654": [
+        "41f0231376c0-wmm.c__split__132f9e8ed68c-wmm.c__split__int mwifiex_ret_wmm_get_status (mwifiex_private*,host_cmd_ds_command*)"
+    ],
+    "CVE-2020-11494": [
+        "086dfb1b9d0b-slcan.c__split__91cdc0a2b1a7-slcan.c__split__void slc_bump (slcan*)"
+    ],
+    "CVE-2020-12465": [
+        "6173c80189ba-dma.c__split__1847f55e199b-dma.c__split__void mt76_add_fragment (mt76_dev*,mt76_queue*,void*,int,bool)"
+    ],
+    "CVE-2020-14354": [
+        "316fa5a6-ares_getaddrinfo.c__split__be168068-ares_getaddrinfo.c__split__void host_callback (void*,int,int,unsigned char*,int)"
+    ],
+    "CVE-2020-22617": [
+        "598a7684b3-xml++.cc__split__e09af7602b-xml++.cc__split__XMLSharedNodeList find_impl (xmlXPathContext*,string)"
+    ],
+    "CVE-2020-9365": [
+        "f41492d-utils.c__split__5e88104-utils.c__split__int pure_strcmp (char*,char*)"
+    ],
+    "CVE-2021-40524": [
+        "d856839-ftpd.c__split__be2fd78-ftpd.c__split__void dostor (char*,int,int)"
+    ],
+    "CVE-2020-9274": [
+        "4002a36-diraliases.c__split__fb70273-diraliases.c__split__int init_aliases (void)"
+    ],
+    "CVE-2020-11058": [
+        "be0c2d5a6-capabilities.c__split__93ba8e19d-capabilities.c__split__BOOL rdp_read_font_capability_set (wStream*,UINT16,rdpSettings*)"
+    ],
+    "CVE-2020-11047": [
+        "215a36608-autodetect.c__split__c846fb5a9-autodetect.c__split__BOOL autodetect_recv_bandwidth_measure_results (rdpRdp*,wStream*,AUTODETECT_RSP_PDU*)"
+    ],
+    "CVE-2020-13397": [
+        "bce1855c4-security.c__split__e6571c36d-security.c__split__BOOL security_fips_decrypt (BYTE*,size_t,rdpRdp*)"
+    ],
+    "CVE-2020-11044": [
+        "3d338eb29-orders.c__split__fb8c3776e-orders.c__split__CACHE_BITMAP_V3_ORDER update_read_cache_bitmap_v3_order (rdpUpdate*,wStream*,UINT16)"
+    ],
+    "CVE-2020-12066": [
+        ""
+    ],
+    "CVE-2020-20739": [
+        "6dbde78c3-im_vips2dz.c__split__aafe8f99d-im_vips2dz.c__split__int im_vips2dz (IMAGE*,char*)"
+    ],
+    "CVE-2021-41689": [
+        "45d486e39-diutil.cc__split__0a6f05ae4-diutil.cc__split__OFBool DU_getStringDOElement (DcmItem*,DcmTagKey,char*,size_t)"
+    ],
+    "CVE-2021-37600": [
+        "e784c4dcb-ipcutils.c__split__18868cfd3-ipcutils.c__split__void get_sem_elements (sem_data*)"
+    ],
+    "CVE-2021-3671": [
+        "e8a3d1b37-krb5tgs.c__split__339415016-krb5tgs.c__split__krb5_error_code tgs_build_reply (astgs_request_t,hdb_entry_ex*,krb5_enctype,krb5_keyblock*,int,krb5_ticket*,char**,AuthorizationData**,sockaddr*)"
+    ],
+    "CVE-2020-5260": [
+        "9747f47b18-credential.c__split__00ee4d62db-credential.c__split__void credential_write_item (FILE*,char*,char*)"
+    ],
+    "CVE-2020-27764": [
+        "7bc816360-statistic.c__split__87a9a42f4-statistic.c__split__MagickRealType ApplyEvaluateOperator (RandomInfo*,Quantum,MagickEvaluateOperator,MagickRealType)"
+    ],
+    "CVE-2021-3962": [
+        "edc09e9f4-dcm.c__split__c2de0b1ee-dcm.c__split__Image ReadDCMImage (ImageInfo*,ExceptionInfo*)"
+    ],
+    "CVE-2020-27560": [
+        "4ac847a1c-layer.c__split__63bda6d1a-layer.c__split__Image OptimizeLayerFrames (Image*,LayerMethod,ExceptionInfo*)"
+    ],
+    "CVE-2021-3610": [
+        "277b9788b-tiff.c__split__b88ce368b-tiff.c__split__Image ReadTIFFImage (ImageInfo*,ExceptionInfo*)"
+    ],
+    "CVE-2021-37706": [
+        ""
+    ],
+    "CVE-2021-43804": [
+        "31822d285-rtcp.c__split__f67572457-rtcp.c__split__void parse_rtcp_bye (pjmedia_rtcp_session*,void*,pj_size_t)"
+    ],
+    "CVE-2020-15904": [
+        "91be7f8-core.c__split__11b6806-core.c__split__PyObject patch (PyObject*,PyObject*)"
+    ],
+    "CVE-2021-24045": [
+        ""
+    ],
+    "CVE-2020-1892": [
+        ""
+    ],
+    "CVE-2020-19499": [
+        ""
+    ],
+    "CVE-2021-37847": [
+        "d23245e15f-digest.c__split__621d384168-digest.c__split__int digest_generic_verify (digest*,unsigned char*)"
+    ],
+    "CVE-2021-37848": [
+        "3f05b81c0c-password.c__split__aea7c7ff5d-password.c__split__int check_passwd (unsigned char*,size_t)"
+    ],
+    "CVE-2020-26164": [
+        ""
+    ],
+    "CVE-2020-11683": [
+        "cd4dc880-secure.c__split__ffb38e0e-secure.c__split__int secure_decrypt (void*,unsigned int,int)"
+    ],
+    "CVE-2021-37750": [
+        "582e497cc-do_tgs_req.c__split__32dc65fa8-do_tgs_req.c__split__krb5_error_code process_tgs_req (krb5_kdc_req*,krb5_data*,krb5_fulladdr*,kdc_realm_t*,krb5_data**)"
+    ],
+    "CVE-2020-36401": [
+        "6c83911d5-gc.c__split__e1892080f-gc.c__split__void* mrb_realloc (mrb_state*,void*,size_t)"
+    ],
+    "CVE-2021-4188": [
+        "c100591eb-array.c__split__1a95b75c9-array.c__split__mrb_value mrb_ary_shift_m (mrb_state*,mrb_value)"
+    ],
+    "CVE-2020-27347": [
+        "42a60c92-input.c__split__c280c0d9-input.c__split__void input_csi_dispatch_sgr_colon (input_ctx*,u_int)"
+    ],
+    "CVE-2020-36430": [
+        "428a332-ass.c__split__5be09a7-ass.c__split__int decode_font (ASS_Track*)"
+    ],
+    "CVE-2021-36088": [
+        "1afc39a6a-flb_parser_json.c__split__972197708-flb_parser_json.c__split__int flb_parser_json_do (flb_parser*,char*,size_t,void**,size_t*,flb_time*)"
+    ],
+    "CVE-2021-45379": [
+        "15ab937b-webservice.c__split__58e0a3ab-webservice.c__split__int callback_glewlwyd_user_auth (_u_request*,_u_response*,void*)"
+    ],
+    "CVE-2021-40818": [
+        "28240552-webauthn.c__split__5b4eb8a4-webauthn.c__split__json_t check_attestation_fido_u2f (json_t*,unsigned char*,size_t,unsigned char*,size_t,unsigned char*,size_t,cbor_item_t*,unsigned char*,size_t,unsigned char*)"
+    ],
+    "CVE-2021-31571": [
+        "d2e27e55a-queue.c__split__b01dfd11f-queue.c__split__QueueHandle_t xQueueGenericCreate (UBaseType_t,UBaseType_t,uint8_t)"
+    ],
+    "CVE-2021-32438": [
+        "b89936f83-media_export.c__split__968818da3-media_export.c__split__GF_Err gf_media_export_filters (GF_MediaExporter*)"
+    ],
+    "CVE-2020-35980": [
+        "ee2b2cfaf-isom_store.c__split__b3aea7b69-isom_store.c__split__void CleanWriters (GF_List*)"
+    ],
+    "CVE-2021-40575": [
+        "328db2855-reframe_mpgvid.c__split__85d4faa4c-reframe_mpgvid.c__split__GF_Err mpgviddmx_process (GF_Filter*)"
+    ],
+    "CVE-2021-30199": [
+        "f65609bfc-reframe_latm.c__split__bb40d55d8-reframe_latm.c__split__GF_Err latm_dmx_process (GF_Filter*)"
+    ],
+    "CVE-2021-40563": [
+        "507780581-reframe_nalu.c__split__aad8ad964-reframe_nalu.c__split__void naludmx_queue_param_set (GF_NALUDmxCtx*,char*,u32,u32,s32)"
+    ],
+    "CVE-2021-40567": [
+        "eacef641f-isom_hinter.c__split__6d823b148-isom_hinter.c__split__GF_Err gf_hinter_finalize (GF_ISOFile*,GF_SDP_IODProfile,u32)"
+    ],
+    "CVE-2021-31259": [
+        "5db63d055-drm_sample.c__split__f8f4d7ac5-drm_sample.c__split__void gf_isom_cenc_get_default_info_internal (GF_TrackBox*,u32,u32*,Bool*,u8*,u8*,u8**,u32*)"
+    ],
+    "CVE-2021-31254": [
+        "dd867f2f5-box_code_drm.c__split__6ffc99b0f-box_code_drm.c__split__GF_Err tenc_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2021-31261": [
+        "6aeb9d172-isom_hinter.c__split__6c4da454a-isom_hinter.c__split__GF_RTPHinter gf_hinter_track_new (GF_ISOFile*,u32,u32,u32,u32,u32,u8,Bool,u32,u8,GF_Err*)"
+    ],
+    "CVE-2021-32136": [
+        "77cf6fc7b-filedump.c__split__050121d52-filedump.c__split__void print_udta (GF_ISOFile*,u32,Bool)"
+    ],
+    "CVE-2021-32137": [
+        "26b9af8de-media.c__split__7ce8d1d01-media.c__split__GF_Err Media_CheckDataEntry (GF_MediaBox*,u32)"
+    ],
+    "CVE-2020-35979": [
+        "8af1d04b7-isom_hinter.c__split__2d05934f6-isom_hinter.c__split__GF_Err gf_hinter_track_process (GF_RTPHinter*)"
+    ],
+    "CVE-2021-33364": [
+        "e7c41d69b-isom_intern.c__split__74ee92f76-isom_intern.c__split__GF_Err gf_isom_parse_movie_boxes_internal (GF_ISOFile*,u32*,u64*,Bool)"
+    ],
+    "CVE-2021-40573": [
+        "e3f0556c0-box_code_meta.c__split__cdd0948a6-box_code_meta.c__split__GF_Err iloc_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2021-30019": [
+        "9139df6fb-reframe_adts.c__split__e93d4be29-reframe_adts.c__split__GF_Err adts_dmx_process (GF_Filter*)"
+    ],
+    "CVE-2020-19488": [
+        "8f6b08957-box_code_apple.c__split__00eee98cd-box_code_apple.c__split__GF_Err ilst_item_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2021-31256": [
+        "ebfbe62ab-stbl_read.c__split__384d4f782-stbl_read.c__split__GF_Err stbl_GetSampleInfos (GF_SampleTableBox*,u32,u64*,u32*,u32*,GF_StscEntry**)"
+    ],
+    "CVE-2020-11558": [
+        "6f0347fb9-box_code_base.c__split__534d3b403-box_code_base.c__split__GF_Err audio_sample_entry_Read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2020-23928": [
+        "eafdabff1-box_code_adobe.c__split__ab5115f25-box_code_adobe.c__split__GF_Err abst_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2021-40576": [
+        "304aa2cd8-hint_track.c__split__385e74625-hint_track.c__split__u32 GetHintFormat (GF_TrackBox*)"
+    ],
+    "CVE-2021-33363": [
+        "c8435b9f8-box_code_meta.c__split__e3f0556c0-box_code_meta.c__split__GF_Err infe_box_read (GF_Box*,GF_BitStream*)"
+    ],
+    "CVE-2021-32437": [
+        "c05d38ccc-isom_hinter.c__split__9bff67767-isom_hinter.c__split__GF_Err gf_hinter_finalize (GF_ISOFile*,GF_SDP_IODProfile,u32)"
+    ],
+    "CVE-2021-31260": [
+        "881bb1b1f-track.c__split__5b793e6d8-track.c__split__GF_Err MergeTrack (GF_TrackBox*,GF_TrackFragmentBox*,GF_MovieFragmentBox*,u64,s32,u64*,Bool)"
+    ],
+    "CVE-2021-33366": [
+        "a3674510b-avc_ext.c__split__0e7d96a96-avc_ext.c__split__GF_Err gf_isom_oinf_read_entry (void*,GF_BitStream*)"
+    ],
+    "CVE-2021-40571": [
+        "afc623729-descriptors.c__split__c1970e820-descriptors.c__split__GF_AV1Config gf_odf_av1_cfg_read_bs_size (GF_BitStream*,u32)"
+    ],
+    "CVE-2021-31257": [
+        ""
+    ],
+    "CVE-2020-23932": [
+        "cfca7c0b2-filedump.c__split__ee4615e38-filedump.c__split__void dump_isom_sdp (GF_ISOFile*,char*,Bool)"
+    ],
+    "CVE-2021-32272": [
+        "1414684-mp4read.c__split__6a618d3-mp4read.c__split__int stszin (int)"
+    ],
+    "CVE-2021-28856": [
+        ""
+    ],
+    "CVE-2021-28855": [
+        "4e4fb02f-pict.c__split__c05b8d79-pict.c__split__void do_iccprofile_item (deark*,lctx*,i64,i64)"
+    ],
+    "CVE-2020-24342": [
+        "98dd9fbb-ldo.c__split__5473815a-ldo.c__split__void luaD_callnoyield (lua_State*,StkId,int)"
+    ],
+    "CVE-2020-24753": [
+        "5b44edf-cbor2json.c__split__55a58c3-cbor2json.c__split__int cbor2json (OSCTXT*,OSCTXT*)"
+    ],
+    "CVE-2020-12658": [
+        "18f38f6-gp_workers.c__split__ae42cef-gp_workers.c__split__void* gp_worker_main (void*)"
+    ],
+    "CVE-2021-36357": [
+        "244f23403-edk2-compat-process.c__split__037c1b492-edk2-compat-process.c__split__uint64_t unpack_timestamp (efi_time*)"
+    ],
+    "CVE-2021-41099": [
+        "4dbb41d2b-sds.c__split__a43a1a5cb-sds.c__split__sds sdsMakeRoomFor (sds,size_t)"
+    ],
+    "CVE-2020-10232": [
+        "68d8b0219-yaffs.cpp__split__f5ec30a09-yaffs.cpp__split__uint8_t yaffsfs_istat (TSK_FS_INFO*,TSK_FS_ISTAT_FLAG_ENUM,FILE*,TSK_INUM_T,TSK_DADDR_T,int32_t)"
+    ],
+    "CVE-2020-6019": [
+        ""
+    ],
+    "CVE-2021-44273": [
+        ""
+    ],
+    "CVE-2021-3751": [
+        "95d2e62-buffer.c__split__6dfca83-buffer.c__split__void mobi_buffer_move (MOBIBuffer*,int,size_t)"
+    ],
+    "CVE-2021-3888": [
+        "0d2d9e4-read.c__split__666987f-read.c__split__MOBI_RET mobi_parse_huffdic (MOBIData*,MOBIHuffCdic*)"
+    ],
+    "CVE-2020-15158": [
+        "cbb34b36-cotp.c__split__8c37d262-cotp.c__split__TpktState CotpConnection_readToTpktBuffer (CotpConnection*)"
+    ],
+    "CVE-2020-23907": [
+        ""
+    ],
+    "CVE-2020-5204": [
+        "b318711-ftpcmd.c__split__34686a4-ftpcmd.c__split__void handle_PORT (ctrl_t*,char*)"
+    ],
+    "CVE-2020-5221": [
+        "234d5ec-common.c__split__8e30772-common.c__split__char* compose_path (ctrl_t*,char*)"
+    ],
+    "CVE-2021-22548": [
+        ""
+    ],
+    "CVE-2020-8941": [
+        "a2e2b0df-host_calls.cc__split__e1b575cd-host_calls.cc__split__int enc_untrusted_inet_pton (int,char*,void*)"
+    ],
+    "CVE-2021-22550": [
+        ""
+    ],
+    "CVE-2021-22549": [
+        ""
+    ],
+    "CVE-2020-8935": [
+        "3e6bf103-host_calls.cc__split__0532b334-host_calls.cc__split__void* enc_untrusted_realloc (void*,size_t)"
+    ],
+    "CVE-2020-8937": [
+        "e1bd796c-concurrency.cc__split__ede6bddb-concurrency.cc__split__int32_t enc_untrusted_create_wait_queue ()"
+    ],
+    "CVE-2020-8905": [
+        "87fdca24-host_calls.cc__split__6e37ebf0-host_calls.cc__split__ssize_t enc_untrusted_recvfrom (int,void*,size_t,int,sockaddr*,socklen_t*)"
+    ],
+    "CVE-2020-8940": [
+        "adf4c48a-host_calls.cc__split__3e6bf103-host_calls.cc__split__ssize_t enc_untrusted_recvmsg (int,msghdr*,int)"
+    ],
+    "CVE-2020-8904": [
+        "337c3283-ecalls.cc__split__a15ff7bc-ecalls.cc__split__int ecall_restore (char*,uint64_t,char**,uint64_t*)"
+    ],
+    "CVE-2021-22552": [
+        "58626329-system_call.cc__split__2b6ab69e-system_call.cc__split__int64_t enc_untrusted_syscall (int...)"
+    ],
+    "CVE-2020-8936": [
+        ""
+    ],
+    "CVE-2020-8943": [
+        "6e37ebf0-host_calls.cc__split__adf4c48a-host_calls.cc__split__ssize_t enc_untrusted_recvfrom (int,void*,size_t,int,sockaddr*,socklen_t*)"
+    ],
+    "CVE-2020-8942": [
+        "e1b575cd-host_calls.cc__split__6d7525af-host_calls.cc__split__ssize_t enc_untrusted_read (int,void*,size_t)"
+    ],
+    "CVE-2020-15261": [
+        ""
+    ],
+    "CVE-2021-30219": [
+        "f79a5ee-parse.c__split__b4b98a1-parse.c__split__void parserule (scanner*,environment*)"
+    ],
+    "CVE-2021-30218": [
+        "ea5c3ce-util.c__split__2a59881-util.c__split__int writefile (char*,string*)"
+    ],
+    "CVE-2020-36254": [
+        "742ae00-scp.c__split__7b8e7d2-scp.c__split__void sink (int,char**)"
+    ],
+    "CVE-2021-21335": [
+        "97c0b44-ngx_http_auth_spnego_module.c__split__25683f2-ngx_http_auth_spnego_module.c__split__ngx_int_t ngx_http_auth_spnego_handler (ngx_http_request_t*)"
+    ],
+    "CVE-2020-14396": [
+        "c9b2647c-tls_openssl.c__split__fcef1bc3-tls_openssl.c__split__SSL open_ssl_connection (rfbClient*,int,rfbBool,rfbCredential*)"
+    ],
+    "CVE-2020-14401": [
+        "a5cdf2ba-scale.c__split__39ccb473-scale.c__split__void rfbScaledScreenUpdateRect (rfbScreenInfoPtr,rfbScreenInfoPtr,int,int,int,int)"
+    ],
+    "CVE-2020-14405": [
+        ""
+    ],
+    "CVE-2020-29074": [
+        "43e00d2-scan.c__split__12994d5-scan.c__split__int shm_create (XShmSegmentInfo*,XImage**,int,int,char*)"
+    ],
+    "CVE-2020-14156": [
+        ""
+    ],
+    "CVE-2021-28662": [
+        ""
+    ],
+    "CVE-2020-35679": [
+        "b79451caadd-table.c__split__1d82d88b81a-table.c__split__int table_regex_match (char*,char*)"
+    ],
+    "CVE-2021-38171": [
+        "ba15c0a724-adtsenc.c__split__3924e678d9-adtsenc.c__split__int adts_decode_extradata (AVFormatContext*,ADTSContext*,uint8_t*,int)"
+    ],
+    "CVE-2020-12284": [
+        "5a72f0e2e7-cbs_jpeg.c__split__f4e40862e2-cbs_jpeg.c__split__int cbs_jpeg_split_fragment (CodedBitstreamContext*,CodedBitstreamFragment*,int)"
+    ],
+    "CVE-2021-32792": [
+        "b1f99a6-mod_auth_openidc.c__split__4f94743-mod_auth_openidc.c__split__int oidc_request_post_preserved_restore (request_rec*,char*)"
+    ],
+    "CVE-2021-36143": [
+        ""
+    ],
+    "CVE-2022-23462": [
+        "601a36b-iwjson.c__split__df6ff39-iwjson.c__split__void iwjson_ftoa (long double,char[],size_t*)"
+    ],
+    "CVE-2022-23589": [
+        ""
+    ],
+    "CVE-2022-23571": [
+        ""
+    ],
+    "CVE-2022-29192": [
+        ""
+    ],
+    "CVE-2022-29197": [
+        ""
+    ],
+    "CVE-2022-23590": [
+        ""
+    ],
+    "CVE-2022-29193": [
+        ""
+    ],
+    "CVE-2022-21738": [
+        ""
+    ],
+    "CVE-2022-23566": [
+        ""
+    ],
+    "CVE-2022-23584": [
+        ""
+    ],
+    "CVE-2022-35935": [
+        ""
+    ],
+    "CVE-2022-29205": [
+        ""
+    ],
+    "CVE-2023-25660": [
+        ""
+    ],
+    "CVE-2022-23579": [
+        ""
+    ]
+}

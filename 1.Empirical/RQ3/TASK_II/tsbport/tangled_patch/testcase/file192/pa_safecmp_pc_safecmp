@@ -1,0 +1,61 @@
+call  @ 4 @ call  @ 4 @ 
+return  @ 6 @ return  @ 6 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+comment: /* match */  @ 6 @ comment: /* match */  @ 6 @ 
+argument  @ 4 @ argument  @ 4 @ 
+argument  @ 4 @ argument  @ 4 @ 
+condition  @ 5 @ condition  @ 5 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: TRUE  @ 6 @ name: TRUE  @ 6 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+function  @ 1 @ function  @ 1 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: &&  @ 3 @ operator: &&  @ 3 @ 
+expr  @ 4 @ expr  @ 4 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: b  @ 5 @ name: b  @ 5 @ 
+name: char  @ 1 @ name: char  @ 1 @ 
+decl  @ 1 @ decl  @ 1 @ 
+name: strcmp  @ 4 @ name: strcmp  @ 4 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr  @ 7 @ expr  @ 7 @ 
+if_stmt  @ 3 @ if_stmt  @ 3 @ 
+if  @ 5 @ if  @ 5 @ 
+block  @ 6 @ block  @ 6 @ 
+block  @ 4 @ block  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+name: b  @ 1 @ name: b  @ 1 @ 
+name: b  @ 4 @ name: b  @ 4 @ 
+block_content  @ 6 @ block_content  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+return  @ 7 @ return  @ 7 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: !  @ 5 @ operator: !  @ 5 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: a  @ 1 @ name: a  @ 1 @ 
+operator: !  @ 5 @ operator: !  @ 5 @ 
+if  @ 3 @ if  @ 3 @ 
+operator: !  @ 4 @ operator: !  @ 4 @ 
+name: a  @ 3 @ name: a  @ 3 @ 
+name: bool  @ 1 @ name: bool  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+condition  @ 3 @ condition  @ 3 @ 
+expr  @ 4 @ expr  @ 4 @ 
+block  @ 2 @ block  @ 2 @ 
+operator: &&  @ 5 @ operator: &&  @ 5 @ 
+comment: /* no match */  @ 7 @ comment: /* no match */  @ 7 @ 
+expr  @ 6 @ expr  @ 6 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 3 @ expr  @ 3 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: FALSE  @ 7 @ name: FALSE  @ 7 @ 
+name: a  @ 5 @ name: a  @ 5 @ 
+name: safecmp  @ 1 @ name: safecmp  @ 1 @ 
+name: a  @ 4 @ name: a  @ 4 @ 
+argument_list  @ 4 @ argument_list  @ 4 @ 
+return  @ 4 @ return  @ 4 @ 
+name: b  @ 3 @ name: b  @ 3 @ 
+

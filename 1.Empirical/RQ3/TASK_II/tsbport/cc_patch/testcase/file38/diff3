@@ -1,0 +1,15 @@
+33a34
+>#include "lprefix.h"
+372,381c381,382
+<    L->oldpc = ci->previous->u.l.savedpc;  /* 'oldpc' for caller function */
+<  }
+<  res = ci->func;  /* res == final position of 1st result */
+<  wanted = ci->nresults;
+<  L->ci = ci = ci->previous;  /* back to caller */
+<  for (i = wanted; i != 0 && firstResult < L->top; i--)
+<    setobjs2s(L, res++, firstResult++);
+<  while (i-- > 0)
+<    setnilvalue(res++);
+---
+>if (isLua(ci = ci->previous))
+>    L->oldpc = pcRel(ci->u.l.savedpc, ci_func(ci)->p);

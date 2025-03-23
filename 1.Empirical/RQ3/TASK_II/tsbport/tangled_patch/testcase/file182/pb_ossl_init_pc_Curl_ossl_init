@@ -1,0 +1,136 @@
+expr  @ 38 @ expr  @ 30 @ 
+name: CONF_MFLAGS_DEFAULT_SECTION  @ 26 @ name: CONF_MFLAGS_DEFAULT_SECTION  @ 12 @ 
+directive: else  @ 17 @ directive: else  @ 24 @ 
+name: NULL  @ 30 @ name: NULL  @ 16 @ 
+literal: 0x10100000L  @ 3 @ literal: 0x10100000L  @ 21 @ 
+operator: !  @ 4 @ operator: !  @ 22 @ 
+directive: endif  @ 27 @ directive: endif  @ 19 @ 
+call  @ 43 @ call  @ 35 @ 
+argument_list  @ 46 @ argument_list  @ 38 @ 
+block_content  @ 5 @ block_content  @ 3 @ 
+name: void  @ 1 @ name: void  @ 1 @ 
+expr  @ 18 @ expr  @ 3 @ 
+operator: &&  @ 3 @ operator: &&  @ 21 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: CONF_MFLAGS_DEFAULT_SECTION  @ 30 @ name: CONF_MFLAGS_DEFAULT_SECTION  @ 17 @ 
+operator: !  @ 37 @ operator: !  @ 29 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 35 @ 
+directive: endif  @ 22 @ directive: endif  @ 13 @ 
+expr  @ 37 @ expr  @ 29 @ 
+call  @ 46 @ call  @ 38 @ 
+expr  @ 47 @ expr  @ 39 @ 
+name: CONF_MFLAGS_DEFAULT_SECTION  @ 25 @ name: CONF_MFLAGS_DEFAULT_SECTION  @ 11 @ 
+ifndef  @ 25 @ ifndef  @ 11 @ 
+call  @ 21 @ call  @ 6 @ 
+argument  @ 30 @ argument  @ 16 @ 
+literal: 0  @ 47 @ literal: 0  @ 39 @ 
+name: defined  @ 4 @ name: defined  @ 22 @ 
+name: ossl_get_ssl_conn_index  @ 46 @ name: ossl_get_ssl_conn_index  @ 38 @ 
+define  @ 26 @ define  @ 12 @ 
+condition  @ 37 @ condition  @ 29 @ 
+expr  @ 34 @ expr  @ 26 @ 
+name: SSL_load_error_strings  @ 34 @ name: SSL_load_error_strings  @ 26 @ 
+block  @ 38 @ block  @ 30 @ 
+macro  @ 26 @ macro  @ 12 @ 
+name: CONF_modules_load_file  @ 30 @ name: CONF_modules_load_file  @ 16 @ 
+operator: <  @ 46 @ operator: <  @ 38 @ 
+argument_list  @ 43 @ argument_list  @ 35 @ 
+expr  @ 46 @ expr  @ 38 @ 
+expr  @ 49 @ expr  @ 41 @ 
+argument  @ 30 @ argument  @ 17 @ 
+name: ENGINE_load_builtin_engines  @ 21 @ name: ENGINE_load_builtin_engines  @ 6 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 3 @ 
+endif  @ 41 @ endif  @ 33 @ 
+operator: >=  @ 3 @ operator: >=  @ 21 @ 
+call  @ 4 @ call  @ 22 @ 
+block  @ 2 @ block  @ 2 @ 
+decl  @ 1 @ decl  @ 1 @ 
+literal: 0  @ 38 @ literal: 0  @ 30 @ 
+endif  @ 27 @ endif  @ 19 @ 
+call  @ 18 @ call  @ 3 @ 
+name: LIBRESSL_VERSION_NUMBER  @ 4 @ name: LIBRESSL_VERSION_NUMBER  @ 22 @ 
+expr  @ 30 @ expr  @ 16 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 6 @ 
+directive: ifdef  @ 20 @ directive: ifdef  @ 5 @ 
+argument_list  @ 34 @ argument_list  @ 26 @ 
+name: SSLeay_add_ssl_algorithms  @ 37 @ name: SSLeay_add_ssl_algorithms  @ 29 @ 
+expr  @ 4 @ expr  @ 22 @ 
+operator: )  @ 3 @ operator: )  @ 21 @ 
+endif  @ 22 @ endif  @ 13 @ 
+unit  @ 1 @ unit  @ 1 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+call  @ 40 @ call  @ 32 @ 
+argument_list  @ 4 @ argument_list  @ 22 @ 
+argument_list  @ 37 @ argument_list  @ 29 @ 
+expr  @ 30 @ expr  @ 16 @ 
+comment: /* CONF_MFLAGS_DEFAULT_SECTION was introduced some time between 0.9.8b and 0.9.8e */  @ 24 @ comment: /* CONF_MFLAGS_DEFAULT_SECTION was introduced some time between 0.9.8b and
+   0.9.8e */  @ 9 @ 
+block_content  @ 47 @ block_content  @ 39 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+expr  @ 43 @ expr  @ 35 @ 
+comment: /* Lets get nice error messages */  @ 33 @ comment: /* Lets get nice error messages */  @ 25 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 32 @ 
+expr  @ 30 @ expr  @ 17 @ 
+name: OPENSSL_load_builtin_modules  @ 18 @ name: OPENSSL_load_builtin_modules  @ 3 @ 
+if  @ 3 @ if  @ 21 @ 
+expr  @ 40 @ expr  @ 32 @ 
+name: NULL  @ 30 @ name: NULL  @ 16 @ 
+expr  @ 21 @ expr  @ 6 @ 
+return  @ 47 @ return  @ 39 @ 
+comment: /* Initialize the extra data indexes */  @ 45 @ comment: /* Initialize the extra data indexes */  @ 37 @ 
+argument_list  @ 30 @ argument_list  @ 16 @ 
+directive: define  @ 26 @ directive: define  @ 12 @ 
+operator: (  @ 3 @ operator: (  @ 21 @ 
+block_content  @ 38 @ block_content  @ 30 @ 
+name: CURL_DISABLE_OPENSSL_AUTO_LOAD_CONFIG  @ 29 @ name: CURL_DISABLE_OPENSSL_AUTO_LOAD_CONFIG  @ 15 @ 
+directive: ifndef  @ 25 @ directive: ifndef  @ 11 @ 
+argument  @ 30 @ argument  @ 16 @ 
+value  @ 26 @ value  @ 12 @ 
+return  @ 38 @ return  @ 30 @ 
+argument_list  @ 18 @ argument_list  @ 3 @ 
+literal: 1  @ 49 @ literal: 1  @ 41 @ 
+directive: endif  @ 31 @ directive: endif  @ 7 @ 
+name: OPENSSL_VERSION_NUMBER  @ 3 @ name: OPENSSL_VERSION_NUMBER  @ 21 @ 
+comment: /* Init the global ciphers and digests */  @ 36 @ comment: /* Init the global ciphers and digests */  @ 28 @ 
+literal: 0  @ 46 @ literal: 0  @ 38 @ 
+name: CONF_MFLAGS_IGNORE_MISSING_FILE  @ 30 @ name: CONF_MFLAGS_IGNORE_MISSING_FILE  @ 18 @ 
+else  @ 17 @ else  @ 24 @ 
+name: Curl_tls_keylog_open  @ 43 @ name: Curl_tls_keylog_open  @ 35 @ 
+directive: endif  @ 41 @ directive: endif  @ 33 @ 
+operator: <  @ 46 @ operator: <  @ 38 @ 
+literal: 0  @ 46 @ literal: 0  @ 38 @ 
+directive: ifndef  @ 29 @ directive: ifndef  @ 15 @ 
+if  @ 37 @ if  @ 29 @ 
+type  @ 1 @ type  @ 1 @ 
+return  @ 49 @ return  @ 41 @ 
+function  @ 1 @ function  @ 1 @ 
+expr  @ 3 @ expr  @ 21 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 26 @ 
+condition  @ 46 @ condition  @ 38 @ 
+name: ossl_init  @ 1 @ name: Curl_ossl_init  @ 1 @ 
+name: ossl_get_ssl_sockindex_index  @ 46 @ name: ossl_get_ssl_sockindex_index  @ 38 @ 
+if_stmt  @ 37 @ if_stmt  @ 29 @ 
+name: OpenSSL_add_all_algorithms  @ 40 @ name: OpenSSL_add_all_algorithms  @ 32 @ 
+call  @ 30 @ call  @ 16 @ 
+operator: ||  @ 46 @ operator: ||  @ 38 @ 
+argument_list  @ 21 @ argument_list  @ 6 @ 
+endif  @ 31 @ endif  @ 7 @ 
+operator: |  @ 30 @ operator: |  @ 17 @ 
+type  @ 1 @ type  @ 1 @ 
+if  @ 46 @ if  @ 38 @ 
+call  @ 34 @ call  @ 26 @ 
+ifdef  @ 20 @ ifdef  @ 5 @ 
+directive: if  @ 3 @ directive: if  @ 21 @ 
+argument  @ 4 @ argument  @ 22 @ 
+ifndef  @ 29 @ ifndef  @ 15 @ 
+name: USE_OPENSSL_ENGINE  @ 20 @ name: USE_OPENSSL_ENGINE  @ 5 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+call  @ 37 @ call  @ 29 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 16 @ 
+block  @ 47 @ block  @ 39 @ 
+argument_list  @ 40 @ argument_list  @ 32 @ 
+expr  @ 30 @ expr  @ 16 @ 
+argument_list  @ 46 @ argument_list  @ 38 @ 
+if_stmt  @ 46 @ if_stmt  @ 38 @ 
+call  @ 46 @ call  @ 38 @ 
+

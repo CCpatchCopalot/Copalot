@@ -1,0 +1,9 @@
+int v = row[0] + row[3];
+if (v > 255) v = 255;
+err_corrC = dev->bjc_gamma_tableC[v] + dev->FloydSteinbergC;
+v = row[1] + row[3];
+if (v > 255) v = 255;
+err_corrM = dev->bjc_gamma_tableM[v] + dev->FloydSteinbergM;
+v = row[2] + row[3];
+if (v > 255) v = 255;
+err_corrY = dev->bjc_gamma_tableY[v] + dev->FloydSteinbergY;

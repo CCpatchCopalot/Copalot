@@ -1,0 +1,10 @@
+298c298
+<     Proto *p = clLvalue(s2v(ci->func))->p;
+---
+>     Proto *p = ci_func(ci)->p;
+311,312c311,312
+<   if (isLua(ci->previous))
+<     L->oldpc = ci->previous->u.l.savedpc;  /* update 'oldpc' */
+---
+>   if (isLua(ci = ci->previous))
+>     L->oldpc = pcRel(ci->u.l.savedpc, ci_func(ci)->p);  /* update 'oldpc' */

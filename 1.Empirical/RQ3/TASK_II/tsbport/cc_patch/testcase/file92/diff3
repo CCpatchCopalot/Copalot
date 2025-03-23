@@ -1,0 +1,6 @@
+2188a2189
+>				if ((len>2) && (len - 2 <= info_length)) {
+2214a2215,2217
+>					}
+>				} else {
+>					GF_LOG(GF_LOG_ERROR, GF_LOG_CONTAINER, ("Broken IOD! len %d less than 2 bytes to declare IOD\n", len));

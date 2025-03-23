@@ -1,0 +1,669 @@
+name: audio_channels  @ 37 @ name: audio_channels  @ 54 @ 
+expr  @ 38 @ expr  @ 55 @ 
+specifier: const  @ 20 @ specifier: const  @ 29 @ 
+operator: ++  @ 53 @ operator: ++  @ 71 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 66 @ 
+name  @ 28 @ name  @ 37 @ 
+literal: "filterbank_channel_count"  @ 9 @ literal: "filterbank_channel_count"  @ 11 @ 
+init  @ 53 @ init  @ 71 @ 
+operator: <  @ 53 @ operator: <  @ 71 @ 
+literal: "Mfcc"  @ 66 @ literal: "Mfcc"  @ 84 @ 
+name: set_lower_frequency_limit  @ 26 @ name: set_lower_frequency_limit  @ 35 @ 
+name: double  @ 45 @ name: double  @ 62 @ 
+expr  @ 29 @ expr  @ 38 @ 
+operator: <  @ 37 @ operator: <  @ 54 @ 
+call  @ 17 @ call  @ 26 @ 
+operator: +  @ 51 @ operator: +  @ 69 @ 
+operator: <  @ 39 @ operator: <  @ 56 @ 
+argument  @ 26 @ argument  @ 35 @ 
+expr  @ 15 @ expr  @ 20 @ 
+argument_list  @ 10 @ argument_list  @ 13 @ 
+argument_list  @ 29 @ argument_list  @ 39 @ 
+operator: >  @ 35 @ operator: >  @ 52 @ 
+argument  @ 17 @ argument  @ 25 @ 
+name: shape  @ 17 @ name: shape  @ 23 @ 
+name: output_tensor  @ 35 @ name: output_tensor  @ 52 @ 
+argument  @ 15 @ argument  @ 19 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 72 @ 
+expr  @ 16 @ expr  @ 22 @ 
+operator: ->  @ 8 @ operator: ->  @ 9 @ 
+name  @ 25 @ name  @ 34 @ 
+literal: 0  @ 39 @ literal: 0  @ 56 @ 
+name: DEVICE_CPU  @ 66 @ name: DEVICE_CPU  @ 84 @ 
+argument  @ 45 @ argument  @ 62 @ 
+operator: .  @ 47 @ operator: .  @ 65 @ 
+type  @ 41 @ type  @ 58 @ 
+argument  @ 17 @ argument  @ 24 @ 
+operator: (  @ 34 @ operator: (  @ 51 @ 
+expr  @ 31 @ expr  @ 43 @ 
+operator: .  @ 21 @ operator: .  @ 30 @ 
+name: context  @ 15 @ name: context  @ 19 @ 
+name: data  @ 34 @ name: data  @ 51 @ 
+name: int  @ 20 @ name: int  @ 29 @ 
+specifier: const  @ 34 @ specifier: const  @ 51 @ 
+name: Tensor  @ 31 @ name: Tensor  @ 43 @ 
+name: OP_REQUIRES_OK  @ 9 @ name: OP_REQUIRES_OK  @ 11 @ 
+name  @ 10 @ name  @ 13 @ 
+decl_stmt  @ 64 @ decl_stmt  @ 82 @ 
+expr  @ 45 @ expr  @ 62 @ 
+name: Mfcc  @ 24 @ name: Mfcc  @ 33 @ 
+name: tensorflow  @ 1 @ name: tensorflow  @ 1 @ 
+operator: .  @ 28 @ operator: .  @ 37 @ 
+call  @ 47 @ call  @ 65 @ 
+condition  @ 39 @ condition  @ 56 @ 
+operator: .  @ 34 @ operator: .  @ 51 @ 
+expr  @ 25 @ expr  @ 34 @ 
+name  @ 20 @ name  @ 29 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 1 @ 
+expr  @ 17 @ expr  @ 26 @ 
+argument_list  @ 9 @ argument_list  @ 11 @ 
+name  @ 34 @ name  @ 51 @ 
+operator: &  @ 8 @ operator: &  @ 10 @ 
+operator: .  @ 26 @ operator: .  @ 35 @ 
+name  @ 22 @ name  @ 31 @ 
+argument  @ 8 @ argument  @ 9 @ 
+expr  @ 26 @ expr  @ 35 @ 
+name  @ 45 @ name  @ 62 @ 
+expr  @ 37 @ expr  @ 54 @ 
+literal: 0  @ 32 @ literal: 0  @ 46 @ 
+name: sample_data  @ 45 @ name: sample_data  @ 62 @ 
+operator: ->  @ 35 @ operator: ->  @ 52 @ 
+block  @ 40 @ block  @ 57 @ 
+expr  @ 18 @ expr  @ 27 @ 
+expr  @ 40 @ expr  @ 57 @ 
+expr  @ 42 @ expr  @ 59 @ 
+call  @ 66 @ call  @ 84 @ 
+expr  @ 7 @ expr  @ 7 @ 
+argument  @ 29 @ argument  @ 41 @ 
+operator: .  @ 48 @ operator: .  @ 66 @ 
+name: GetAttr  @ 9 @ name: GetAttr  @ 11 @ 
+init  @ 39 @ init  @ 56 @ 
+argument_list  @ 46 @ argument_list  @ 64 @ 
+name: context  @ 10 @ name: context  @ 13 @ 
+specifier: const  @ 18 @ specifier: const  @ 27 @ 
+expr  @ 47 @ expr  @ 65 @ 
+argument  @ 7 @ argument  @ 7 @ 
+expr  @ 17 @ expr  @ 24 @ 
+argument  @ 9 @ argument  @ 11 @ 
+expr  @ 8 @ expr  @ 9 @ 
+call  @ 15 @ call  @ 20 @ 
+name: spectrogram_samples  @ 21 @ name: spectrogram_samples  @ 30 @ 
+expr  @ 14 @ expr  @ 18 @ 
+name: filterbank_channel_count_  @ 63 @ name: filterbank_channel_count_  @ 81 @ 
+name: size  @ 48 @ name: size  @ 66 @ 
+argument_list  @ 17 @ argument_list  @ 26 @ 
+name: Device  @ 66 @ name: Device  @ 84 @ 
+decl_stmt  @ 49 @ decl_stmt  @ 67 @ 
+operator: .  @ 25 @ operator: .  @ 34 @ 
+argument_list  @ 7 @ argument_list  @ 7 @ 
+name: context  @ 7 @ name: context  @ 7 @ 
+argument  @ 13 @ argument  @ 17 @ 
+expr  @ 9 @ expr  @ 11 @ 
+name: audio_channel  @ 43 @ name: audio_channel  @ 60 @ 
+name: dct_coefficient_count_  @ 51 @ name: dct_coefficient_count_  @ 69 @ 
+operator: <  @ 35 @ operator: <  @ 52 @ 
+expr  @ 21 @ expr  @ 30 @ 
+argument  @ 15 @ argument  @ 20 @ 
+operator: .  @ 22 @ operator: .  @ 31 @ 
+operator: &  @ 10 @ operator: &  @ 14 @ 
+name: errors  @ 15 @ name: errors  @ 20 @ 
+name  @ 18 @ name  @ 27 @ 
+name  @ 26 @ name  @ 35 @ 
+expr  @ 39 @ expr  @ 56 @ 
+argument_list  @ 45 @ argument_list  @ 62 @ 
+name: GetAttr  @ 10 @ name: GetAttr  @ 13 @ 
+expr  @ 25 @ expr  @ 34 @ 
+incr  @ 53 @ incr  @ 71 @ 
+literal: "dct_coefficient_count"  @ 10 @ literal: "dct_coefficient_count"  @ 13 @ 
+argument  @ 29 @ argument  @ 41 @ 
+name: std  @ 45 @ name: std  @ 62 @ 
+expr  @ 29 @ expr  @ 38 @ 
+init  @ 41 @ init  @ 58 @ 
+name: std  @ 46 @ name: std  @ 64 @ 
+name: OP_REQUIRES_OK  @ 32 @ name: OP_REQUIRES_OK  @ 44 @ 
+argument  @ 8 @ argument  @ 9 @ 
+argument_list  @ 17 @ argument_list  @ 23 @ 
+name: MfccOp  @ 4 @ name: MfccOp  @ 4 @ 
+operator: =  @ 54 @ operator: =  @ 72 @ 
+operator: =  @ 14 @ operator: =  @ 18 @ 
+call  @ 10 @ call  @ 13 @ 
+argument  @ 29 @ argument  @ 40 @ 
+name: set_dct_coefficient_count  @ 28 @ name: set_dct_coefficient_count  @ 37 @ 
+call  @ 14 @ call  @ 18 @ 
+init  @ 53 @ init  @ 71 @ 
+name: DCHECK_EQ  @ 48 @ name: DCHECK_EQ  @ 66 @ 
+operator: .  @ 17 @ operator: .  @ 26 @ 
+argument  @ 47 @ argument  @ 65 @ 
+call  @ 20 @ call  @ 29 @ 
+name: flat  @ 34 @ name: flat  @ 51 @ 
+name: mfcc  @ 27 @ name: mfcc  @ 36 @ 
+argument_list  @ 25 @ argument_list  @ 34 @ 
+name  @ 21 @ name  @ 30 @ 
+name: spectrogram  @ 14 @ name: spectrogram  @ 18 @ 
+argument  @ 10 @ argument  @ 13 @ 
+operator: &  @ 7 @ operator: &  @ 8 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+argument_list  @ 34 @ argument_list  @ 51 @ 
+name: audio_channel  @ 38 @ name: audio_channel  @ 55 @ 
+operator: .  @ 15 @ operator: .  @ 19 @ 
+name: override  @ 13 @ name: override  @ 17 @ 
+name: i  @ 53 @ name: i  @ 71 @ 
+argument_list  @ 15 @ argument_list  @ 21 @ 
+name: int32  @ 18 @ name: int32  @ 27 @ 
+literal: "Mfcc initialization failed for channel count "  @ 29 @ literal: "Mfcc initialization failed for channel count "  @ 40 @ 
+operator: *  @ 51 @ operator: *  @ 69 @ 
+name: audio_channel  @ 37 @ name: audio_channel  @ 54 @ 
+expr  @ 9 @ expr  @ 11 @ 
+call  @ 66 @ call  @ 84 @ 
+operator: ::  @ 29 @ operator: ::  @ 39 @ 
+name: context  @ 14 @ name: context  @ 18 @ 
+argument_list  @ 17 @ argument_list  @ 23 @ 
+name: mfcc_output  @ 54 @ name: mfcc_output  @ 72 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 62 @ 
+argument_list  @ 29 @ argument_list  @ 38 @ 
+type  @ 4 @ type  @ 4 @ 
+name: spectrogram_sample  @ 39 @ name: spectrogram_sample  @ 56 @ 
+operator: ==  @ 15 @ operator: ==  @ 19 @ 
+argument  @ 29 @ argument  @ 38 @ 
+type  @ 37 @ type  @ 54 @ 
+name: double  @ 46 @ name: double  @ 64 @ 
+expr  @ 8 @ expr  @ 10 @ 
+operator: (  @ 44 @ operator: (  @ 61 @ 
+argument_list  @ 66 @ argument_list  @ 84 @ 
+name: context  @ 9 @ name: context  @ 11 @ 
+name: MfccOp  @ 66 @ name: MfccOp  @ 84 @ 
+argument  @ 17 @ argument  @ 23 @ 
+name: upper_frequency_limit_  @ 25 @ name: upper_frequency_limit_  @ 34 @ 
+name: sample_rate  @ 29 @ name: sample_rate  @ 41 @ 
+expr_stmt  @ 47 @ expr_stmt  @ 65 @ 
+operator: =  @ 16 @ operator: =  @ 22 @ 
+expr  @ 10 @ expr  @ 13 @ 
+name: spectrogram_channels  @ 43 @ name: spectrogram_channels  @ 60 @ 
+name: float  @ 34 @ name: float  @ 51 @ 
+name: OpKernel  @ 6 @ name: OpKernel  @ 6 @ 
+block_content  @ 41 @ block_content  @ 58 @ 
+name: dct_coefficient_count_  @ 52 @ name: dct_coefficient_count_  @ 70 @ 
+name: OpKernelConstruction  @ 6 @ name: OpKernelConstruction  @ 6 @ 
+argument  @ 15 @ argument  @ 21 @ 
+name: spectrogram_channels  @ 20 @ name: spectrogram_channels  @ 29 @ 
+expr  @ 21 @ expr  @ 30 @ 
+decl  @ 64 @ decl  @ 82 @ 
+name: output_flat  @ 35 @ name: output_flat  @ 52 @ 
+expr  @ 10 @ expr  @ 13 @ 
+expr  @ 46 @ expr  @ 64 @ 
+name: context  @ 8 @ name: context  @ 9 @ 
+argument  @ 15 @ argument  @ 20 @ 
+argument_list  @ 48 @ argument_list  @ 66 @ 
+name: sample_rate_tensor  @ 17 @ name: sample_rate_tensor  @ 23 @ 
+operator: ->  @ 7 @ operator: ->  @ 7 @ 
+name: context  @ 17 @ name: context  @ 23 @ 
+name  @ 15 @ name  @ 21 @ 
+operator: &  @ 9 @ operator: &  @ 12 @ 
+expr  @ 47 @ expr  @ 65 @ 
+expr  @ 66 @ expr  @ 84 @ 
+specifier: const  @ 16 @ specifier: const  @ 22 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: *  @ 43 @ operator: *  @ 60 @ 
+name: mfcc_output  @ 48 @ name: mfcc_output  @ 66 @ 
+operator: =  @ 22 @ operator: =  @ 31 @ 
+name: errors  @ 29 @ name: errors  @ 39 @ 
+expr  @ 29 @ expr  @ 38 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 64 @ 
+empty_stmt  @ 61 @ empty_stmt  @ 79 @ 
+literal: 0  @ 22 @ literal: 0  @ 31 @ 
+name  @ 48 @ name  @ 66 @ 
+call  @ 17 @ call  @ 23 @ 
+block  @ 38 @ block  @ 55 @ 
+literal: "lower_frequency_limit"  @ 8 @ literal: "lower_frequency_limit"  @ 9 @ 
+argument_list  @ 9 @ argument_list  @ 11 @ 
+name: Compute  @ 13 @ name: Compute  @ 17 @ 
+expr  @ 9 @ expr  @ 11 @ 
+name  @ 54 @ name  @ 72 @ 
+literal: 1  @ 16 @ literal: 1  @ 22 @ 
+name  @ 17 @ name  @ 23 @ 
+operator: >  @ 18 @ operator: >  @ 27 @ 
+expr  @ 24 @ expr  @ 33 @ 
+name: spectrogram_flat  @ 42 @ name: spectrogram_flat  @ 59 @ 
+call  @ 10 @ call  @ 13 @ 
+argument  @ 20 @ argument  @ 29 @ 
+decl  @ 39 @ decl  @ 56 @ 
+operator: )  @ 51 @ operator: )  @ 69 @ 
+argument_list  @ 10 @ argument_list  @ 13 @ 
+expr  @ 29 @ expr  @ 41 @ 
+name: context  @ 7 @ name: context  @ 7 @ 
+expr  @ 27 @ expr  @ 36 @ 
+operator: *  @ 51 @ operator: *  @ 69 @ 
+name: audio_channel  @ 51 @ name: audio_channel  @ 69 @ 
+block_content  @ 54 @ block_content  @ 72 @ 
+operator: )  @ 18 @ operator: )  @ 27 @ 
+operator: ::  @ 46 @ operator: ::  @ 64 @ 
+name: context  @ 9 @ name: context  @ 11 @ 
+call  @ 16 @ call  @ 22 @ 
+name: int  @ 53 @ name: int  @ 71 @ 
+argument_list  @ 47 @ argument_list  @ 65 @ 
+name: OpKernel  @ 4 @ name: OpKernel  @ 4 @ 
+argument  @ 66 @ argument  @ 84 @ 
+name: float  @ 35 @ name: float  @ 52 @ 
+operator: :  @ 6 @ operator: :  @ 6 @ 
+type  @ 1 @ type  @ 1 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+argument  @ 10 @ argument  @ 13 @ 
+argument_list  @ 27 @ argument_list  @ 36 @ 
+operator: =  @ 18 @ operator: =  @ 27 @ 
+name: context  @ 8 @ name: context  @ 9 @ 
+operator: .  @ 17 @ operator: .  @ 23 @ 
+name: input  @ 14 @ name: input  @ 18 @ 
+operator: *  @ 6 @ operator: *  @ 6 @ 
+name: mfcc_input  @ 47 @ name: mfcc_input  @ 65 @ 
+argument_list  @ 14 @ argument_list  @ 18 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+literal: 0  @ 53 @ literal: 0  @ 71 @ 
+argument  @ 66 @ argument  @ 84 @ 
+call  @ 27 @ call  @ 36 @ 
+call  @ 48 @ call  @ 66 @ 
+name: mfcc  @ 24 @ name: mfcc  @ 33 @ 
+argument  @ 14 @ argument  @ 18 @ 
+argument  @ 17 @ argument  @ 26 @ 
+expr  @ 8 @ expr  @ 9 @ 
+block  @ 4 @ block  @ 4 @ 
+name: scalar  @ 18 @ name: scalar  @ 27 @ 
+operator: (  @ 18 @ operator: (  @ 27 @ 
+argument  @ 29 @ argument  @ 38 @ 
+call  @ 17 @ call  @ 24 @ 
+name: Initialize  @ 29 @ name: Initialize  @ 38 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: mfcc_output  @ 46 @ name: mfcc_output  @ 64 @ 
+operator: .  @ 15 @ operator: .  @ 21 @ 
+operator: .  @ 27 @ operator: .  @ 36 @ 
+expr  @ 17 @ expr  @ 23 @ 
+name: InvalidArgument  @ 17 @ name: InvalidArgument  @ 24 @ 
+specifier: const  @ 41 @ specifier: const  @ 58 @ 
+expr  @ 17 @ expr  @ 26 @ 
+operator: .  @ 18 @ operator: .  @ 27 @ 
+name: dct_coefficient_count_  @ 53 @ name: dct_coefficient_count_  @ 71 @ 
+call  @ 7 @ call  @ 7 @ 
+name: spectrogram_samples  @ 51 @ name: spectrogram_samples  @ 69 @ 
+argument  @ 10 @ argument  @ 14 @ 
+argument  @ 17 @ argument  @ 23 @ 
+argument_list  @ 21 @ argument_list  @ 30 @ 
+name: dct_coefficient_count_  @ 48 @ name: dct_coefficient_count_  @ 66 @ 
+operator: )  @ 18 @ operator: )  @ 27 @ 
+name: public  @ 4 @ name: public  @ 4 @ 
+operator: .  @ 17 @ operator: .  @ 26 @ 
+name: filterbank_channel_count_  @ 27 @ name: filterbank_channel_count_  @ 36 @ 
+control  @ 39 @ control  @ 56 @ 
+operator: (  @ 43 @ operator: (  @ 60 @ 
+block  @ 13 @ block  @ 17 @ 
+call  @ 28 @ call  @ 37 @ 
+operator: =  @ 31 @ operator: =  @ 43 @ 
+name  @ 9 @ name  @ 11 @ 
+argument  @ 25 @ argument  @ 34 @ 
+argument  @ 22 @ argument  @ 31 @ 
+name: nullptr  @ 31 @ name: nullptr  @ 43 @ 
+name: int32_t  @ 18 @ name: int32  @ 27 @ 
+name: dct_coefficient_count_  @ 10 @ name: dct_coefficient_count_  @ 14 @ 
+expr  @ 22 @ expr  @ 31 @ 
+argument_list  @ 35 @ argument_list  @ 52 @ 
+call  @ 6 @ call  @ 6 @ 
+expr  @ 26 @ expr  @ 35 @ 
+type  @ 64 @ type  @ 82 @ 
+call  @ 29 @ call  @ 39 @ 
+argument  @ 32 @ argument  @ 45 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 1 @ 
+name: int  @ 21 @ name: int  @ 30 @ 
+specifier: const  @ 22 @ specifier: const  @ 31 @ 
+expr  @ 15 @ expr  @ 19 @ 
+name: dct_coefficient_count_  @ 28 @ name: dct_coefficient_count_  @ 37 @ 
+expr  @ 35 @ expr  @ 52 @ 
+name: audio_channel  @ 37 @ name: audio_channel  @ 54 @ 
+call  @ 17 @ call  @ 23 @ 
+argument_list  @ 7 @ argument_list  @ 7 @ 
+call  @ 48 @ call  @ 66 @ 
+name: Name  @ 66 @ name: Name  @ 84 @ 
+name: errors  @ 17 @ name: errors  @ 24 @ 
+operator: *  @ 43 @ operator: *  @ 60 @ 
+expr  @ 8 @ expr  @ 9 @ 
+expr  @ 15 @ expr  @ 21 @ 
+expr  @ 54 @ expr  @ 72 @ 
+operator: .  @ 15 @ operator: .  @ 21 @ 
+operator: =  @ 21 @ operator: =  @ 30 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name  @ 14 @ name  @ 18 @ 
+for  @ 53 @ for  @ 71 @ 
+operator: )  @ 35 @ operator: )  @ 52 @ 
+decl_stmt  @ 41 @ decl_stmt  @ 58 @ 
+expr  @ 45 @ expr  @ 63 @ 
+call  @ 22 @ call  @ 31 @ 
+name: context  @ 29 @ name: context  @ 38 @ 
+literal: 3  @ 15 @ literal: 3  @ 19 @ 
+name: GetAttr  @ 8 @ name: GetAttr  @ 9 @ 
+name: data  @ 35 @ name: data  @ 52 @ 
+name  @ 16 @ name  @ 22 @ 
+expr  @ 17 @ expr  @ 23 @ 
+literal: 2  @ 20 @ literal: 2  @ 29 @ 
+name: spectrogram  @ 34 @ name: spectrogram  @ 51 @ 
+operator: .  @ 20 @ operator: .  @ 29 @ 
+argument_list  @ 20 @ argument_list  @ 29 @ 
+name  @ 7 @ name  @ 7 @ 
+argument  @ 17 @ argument  @ 26 @ 
+specifier: const  @ 14 @ specifier: const  @ 18 @ 
+operator: *  @ 44 @ operator: *  @ 61 @ 
+argument  @ 48 @ argument  @ 66 @ 
+name: REGISTER_KERNEL_BUILDER  @ 66 @ name: REGISTER_KERNEL_BUILDER  @ 84 @ 
+operator: ::  @ 17 @ operator: ::  @ 23 @ 
+index  @ 54 @ index  @ 72 @ 
+name: IsScalar  @ 17 @ name: IsScalar  @ 23 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 10 @ expr  @ 13 @ 
+name: lower_frequency_limit_  @ 62 @ name: lower_frequency_limit_  @ 80 @ 
+operator: ::  @ 17 @ operator: ::  @ 24 @ 
+argument_list  @ 28 @ argument_list  @ 37 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+call  @ 29 @ call  @ 38 @ 
+operator: (  @ 18 @ operator: (  @ 27 @ 
+argument_list  @ 45 @ argument_list  @ 62 @ 
+argument  @ 29 @ argument  @ 39 @ 
+name: set_upper_frequency_limit  @ 25 @ name: set_upper_frequency_limit  @ 34 @ 
+name: int32  @ 64 @ name: int32  @ 82 @ 
+operator: +  @ 50 @ operator: +  @ 68 @ 
+argument_list  @ 66 @ argument_list  @ 84 @ 
+name: float  @ 49 @ name: float  @ 67 @ 
+name: OP_REQUIRES_OK  @ 7 @ name: OP_REQUIRES_OK  @ 7 @ 
+name: mfcc_output  @ 47 @ name: mfcc_output  @ 65 @ 
+name: spectrogram  @ 20 @ name: spectrogram  @ 29 @ 
+expr  @ 29 @ expr  @ 38 @ 
+name: spectrogram  @ 22 @ name: spectrogram  @ 31 @ 
+condition  @ 37 @ condition  @ 54 @ 
+for  @ 37 @ for  @ 54 @ 
+call  @ 25 @ call  @ 34 @ 
+block  @ 6 @ block  @ 6 @ 
+operator: *  @ 31 @ operator: *  @ 43 @ 
+name: int  @ 22 @ name: int  @ 31 @ 
+name: i  @ 53 @ name: i  @ 71 @ 
+argument  @ 9 @ argument  @ 11 @ 
+expr  @ 7 @ expr  @ 8 @ 
+name  @ 29 @ name  @ 38 @ 
+name: spectrogram_sample  @ 44 @ name: spectrogram_sample  @ 61 @ 
+call  @ 15 @ call  @ 21 @ 
+name: OP_REQUIRES  @ 17 @ name: OP_REQUIRES  @ 23 @ 
+name: sample_data  @ 41 @ name: sample_data  @ 58 @ 
+decl_stmt  @ 62 @ decl_stmt  @ 80 @ 
+operator: =  @ 20 @ operator: =  @ 29 @ 
+name: mfcc  @ 29 @ name: mfcc  @ 38 @ 
+operator: +  @ 43 @ operator: +  @ 60 @ 
+expr  @ 15 @ expr  @ 19 @ 
+operator: +  @ 45 @ operator: +  @ 63 @ 
+expr  @ 53 @ expr  @ 71 @ 
+name  @ 17 @ name  @ 26 @ 
+argument  @ 66 @ argument  @ 84 @ 
+name: spectrogram  @ 15 @ name: spectrogram  @ 21 @ 
+operator: >  @ 34 @ operator: >  @ 51 @ 
+expr  @ 54 @ expr  @ 72 @ 
+call  @ 17 @ call  @ 23 @ 
+name: float  @ 35 @ name: float  @ 52 @ 
+expr  @ 17 @ expr  @ 23 @ 
+call  @ 21 @ call  @ 30 @ 
+name: dims  @ 15 @ name: dims  @ 19 @ 
+literal: " instead."  @ 17 @ literal: " instead."  @ 26 @ 
+name  @ 47 @ name  @ 65 @ 
+argument_list  @ 22 @ argument_list  @ 31 @ 
+for  @ 39 @ for  @ 56 @ 
+init  @ 37 @ init  @ 54 @ 
+operator: ::  @ 45 @ operator: ::  @ 62 @ 
+name: upper_frequency_limit_  @ 7 @ name: upper_frequency_limit_  @ 8 @ 
+name  @ 35 @ name  @ 52 @ 
+init  @ 37 @ init  @ 54 @ 
+expr  @ 29 @ expr  @ 41 @ 
+name: spectrogram_sample  @ 40 @ name: spectrogram_sample  @ 57 @ 
+name: DebugString  @ 15 @ name: DebugString  @ 21 @ 
+name: float  @ 34 @ name: float  @ 51 @ 
+name: dim_size  @ 22 @ name: dim_size  @ 31 @ 
+call  @ 7 @ call  @ 7 @ 
+name: int  @ 39 @ name: int  @ 56 @ 
+expr  @ 16 @ expr  @ 22 @ 
+call  @ 15 @ call  @ 19 @ 
+decl_stmt  @ 63 @ decl_stmt  @ 81 @ 
+argument  @ 8 @ argument  @ 10 @ 
+argument  @ 47 @ argument  @ 65 @ 
+block  @ 53 @ block  @ 71 @ 
+name: spectrogram_flat  @ 34 @ name: spectrogram_flat  @ 51 @ 
+argument_list  @ 15 @ argument_list  @ 19 @ 
+operator: ++  @ 38 @ operator: ++  @ 55 @ 
+expr  @ 29 @ expr  @ 41 @ 
+name: shape  @ 17 @ name: shape  @ 26 @ 
+expr  @ 28 @ expr  @ 37 @ 
+argument_list  @ 29 @ argument_list  @ 38 @ 
+literal: 0  @ 14 @ literal: 0  @ 18 @ 
+argument_list  @ 13 @ argument_list  @ 17 @ 
+name: float  @ 41 @ name: float  @ 58 @ 
+expr  @ 45 @ expr  @ 62 @ 
+name: spectrogram_sample  @ 52 @ name: spectrogram_sample  @ 70 @ 
+name: spectrogram  @ 21 @ name: spectrogram  @ 30 @ 
+call  @ 15 @ call  @ 21 @ 
+macro  @ 13 @ macro  @ 17 @ 
+expr  @ 66 @ expr  @ 84 @ 
+name: lower_frequency_limit_  @ 8 @ name: lower_frequency_limit_  @ 10 @ 
+expr  @ 15 @ expr  @ 20 @ 
+argument  @ 32 @ argument  @ 44 @ 
+name: context  @ 6 @ name: context  @ 6 @ 
+literal: ", sample rate "  @ 29 @ literal: " and sample rate "  @ 41 @ 
+argument_list  @ 8 @ argument_list  @ 9 @ 
+expr  @ 10 @ expr  @ 14 @ 
+range  @ 4 @ range  @ 4 @ 
+index  @ 54 @ index  @ 72 @ 
+name: vector  @ 46 @ name: vector  @ 64 @ 
+argument  @ 9 @ argument  @ 12 @ 
+name  @ 54 @ name  @ 72 @ 
+name: TensorShapeUtils  @ 17 @ name: TensorShapeUtils  @ 23 @ 
+type  @ 49 @ type  @ 67 @ 
+name: shape  @ 15 @ name: shape  @ 21 @ 
+name: spectrogram_channels  @ 44 @ name: spectrogram_channels  @ 61 @ 
+argument  @ 16 @ argument  @ 22 @ 
+name: mfcc  @ 26 @ name: mfcc  @ 35 @ 
+decl  @ 4 @ decl  @ 4 @ 
+name: i  @ 54 @ name: i  @ 72 @ 
+expr  @ 29 @ expr  @ 39 @ 
+argument  @ 7 @ argument  @ 7 @ 
+operator: .  @ 35 @ operator: .  @ 52 @ 
+name: OP_REQUIRES_OK  @ 8 @ name: OP_REQUIRES_OK  @ 9 @ 
+name: dct_coefficient_count_  @ 64 @ name: dct_coefficient_count_  @ 82 @ 
+name: Tensor  @ 16 @ name: Tensor  @ 22 @ 
+name: vector  @ 45 @ name: vector  @ 62 @ 
+call  @ 17 @ call  @ 26 @ 
+expr  @ 48 @ expr  @ 66 @ 
+name: set_filterbank_channel_count  @ 27 @ name: set_filterbank_channel_count  @ 36 @ 
+argument_list  @ 17 @ argument_list  @ 23 @ 
+name: int  @ 37 @ name: int  @ 54 @ 
+operator: (  @ 52 @ operator: (  @ 70 @ 
+name: output_data  @ 54 @ name: output_data  @ 72 @ 
+operator: .  @ 66 @ operator: .  @ 84 @ 
+expr  @ 28 @ expr  @ 37 @ 
+condition  @ 53 @ condition  @ 71 @ 
+expr  @ 27 @ expr  @ 36 @ 
+type  @ 39 @ type  @ 56 @ 
+argument  @ 29 @ argument  @ 38 @ 
+operator: )  @ 43 @ operator: )  @ 60 @ 
+expr  @ 50 @ expr  @ 68 @ 
+decl  @ 37 @ decl  @ 54 @ 
+operator: <  @ 18 @ operator: <  @ 27 @ 
+control  @ 37 @ control  @ 54 @ 
+type  @ 62 @ type  @ 80 @ 
+name: OP_REQUIRES_OK  @ 10 @ name: OP_REQUIRES_OK  @ 13 @ 
+expr  @ 10 @ expr  @ 13 @ 
+decl  @ 62 @ decl  @ 80 @ 
+call  @ 9 @ call  @ 11 @ 
+name: Tensor  @ 14 @ name: Tensor  @ 18 @ 
+block  @ 1 @ block  @ 1 @ 
+expr  @ 14 @ expr  @ 18 @ 
+call  @ 8 @ call  @ 9 @ 
+name: spectrogram_channels  @ 29 @ name: spectrogram_channels  @ 41 @ 
+control  @ 53 @ control  @ 71 @ 
+operator: )  @ 34 @ operator: )  @ 51 @ 
+argument  @ 17 @ argument  @ 23 @ 
+operator: )  @ 44 @ operator: )  @ 61 @ 
+name: dim_size  @ 21 @ name: dim_size  @ 30 @ 
+modifier: *  @ 41 @ modifier: *  @ 58 @ 
+call  @ 26 @ call  @ 35 @ 
+name: sample_rate_tensor  @ 17 @ name: sample_rate_tensor  @ 26 @ 
+call  @ 35 @ call  @ 52 @ 
+name: class  @ 4 @ name: class  @ 4 @ 
+name: spectrogram_samples  @ 43 @ name: spectrogram_samples  @ 60 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+expr  @ 46 @ expr  @ 64 @ 
+decl  @ 63 @ decl  @ 81 @ 
+specifier: const  @ 21 @ specifier: const  @ 30 @ 
+argument_list  @ 17 @ argument_list  @ 24 @ 
+argument_list  @ 15 @ argument_list  @ 20 @ 
+incr  @ 38 @ incr  @ 55 @ 
+expr  @ 17 @ expr  @ 25 @ 
+name: flat  @ 35 @ name: flat  @ 52 @ 
+expr  @ 66 @ expr  @ 84 @ 
+name: context  @ 16 @ name: context  @ 22 @ 
+name: spectrogram  @ 15 @ name: spectrogram  @ 19 @ 
+argument_list  @ 32 @ argument_list  @ 44 @ 
+argument  @ 46 @ argument  @ 64 @ 
+operator: .  @ 29 @ operator: .  @ 38 @ 
+name: sample_rate  @ 29 @ name: sample_rate  @ 38 @ 
+name: output_tensor  @ 31 @ name: output_tensor  @ 43 @ 
+argument  @ 29 @ argument  @ 38 @ 
+argument  @ 15 @ argument  @ 19 @ 
+operator: <  @ 34 @ operator: <  @ 51 @ 
+literal: "Input sample_rate should be a scalar tensor, got "  @ 17 @ literal: "Input sample_rate should be a scalar tensor, got "  @ 25 @ 
+argument_list  @ 8 @ argument_list  @ 9 @ 
+expr  @ 48 @ expr  @ 66 @ 
+operator: .  @ 34 @ operator: .  @ 51 @ 
+name: GetAttr  @ 7 @ name: GetAttr  @ 7 @ 
+name  @ 15 @ name  @ 19 @ 
+operator: (  @ 35 @ operator: (  @ 52 @ 
+name: sample_rate_tensor  @ 18 @ name: sample_rate_tensor  @ 27 @ 
+expr  @ 53 @ expr  @ 71 @ 
+expr  @ 20 @ expr  @ 29 @ 
+call  @ 45 @ call  @ 62 @ 
+name: lower_frequency_limit_  @ 26 @ name: lower_frequency_limit_  @ 35 @ 
+operator: ::  @ 15 @ operator: ::  @ 20 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 84 @ 
+call  @ 8 @ call  @ 9 @ 
+name: i  @ 53 @ name: i  @ 71 @ 
+name: mfcc  @ 25 @ name: mfcc  @ 34 @ 
+literal: "upper_frequency_limit"  @ 7 @ literal: "upper_frequency_limit"  @ 7 @ 
+comment: // namespace tensorflow  @ 68 @ comment: // namespace tensorflow  @ 86 @ 
+argument_list  @ 26 @ argument_list  @ 35 @ 
+call  @ 15 @ call  @ 19 @ 
+argument  @ 48 @ argument  @ 66 @ 
+argument  @ 27 @ argument  @ 36 @ 
+name  @ 8 @ name  @ 9 @ 
+operator: &  @ 16 @ operator: &  @ 22 @ 
+argument_list  @ 15 @ argument_list  @ 19 @ 
+operator: *  @ 35 @ operator: *  @ 52 @ 
+expr  @ 29 @ expr  @ 40 @ 
+name: OP_REQUIRES  @ 29 @ name: OP_REQUIRES  @ 38 @ 
+decl  @ 49 @ decl  @ 67 @ 
+name: float  @ 62 @ name: float  @ 80 @ 
+expr_stmt  @ 1 @ expr_stmt  @ 1 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 47 @ expr  @ 65 @ 
+name: sample_rate_tensor  @ 16 @ name: sample_rate_tensor  @ 22 @ 
+argument_list  @ 48 @ argument_list  @ 66 @ 
+name: public  @ 5 @ name: public  @ 5 @ 
+modifier: *  @ 49 @ modifier: *  @ 67 @ 
+name: mfcc  @ 28 @ name: mfcc  @ 37 @ 
+expr  @ 22 @ expr  @ 31 @ 
+comment: // Create a speech fingerprint from spectrogram data.  @ 3 @ comment: // Create a speech fingerpring from spectrogram data.  @ 3 @ 
+init  @ 49 @ init  @ 67 @ 
+operator: +  @ 42 @ operator: +  @ 59 @ 
+name: input  @ 16 @ name: input  @ 22 @ 
+literal: 0  @ 37 @ literal: 0  @ 54 @ 
+type  @ 53 @ type  @ 71 @ 
+argument  @ 45 @ argument  @ 62 @ 
+expr  @ 53 @ expr  @ 71 @ 
+empty_stmt  @ 65 @ empty_stmt  @ 83 @ 
+name: spectrogram_channels  @ 29 @ name: spectrogram_channels  @ 38 @ 
+call  @ 34 @ call  @ 51 @ 
+argument  @ 66 @ argument  @ 84 @ 
+argument_list  @ 17 @ argument_list  @ 26 @ 
+decl  @ 53 @ decl  @ 71 @ 
+expr  @ 45 @ expr  @ 62 @ 
+operator: ->  @ 9 @ operator: ->  @ 11 @ 
+name  @ 27 @ name  @ 36 @ 
+name: spectrogram_samples  @ 39 @ name: spectrogram_samples  @ 56 @ 
+literal: "spectrogram must be 3-dimensional"  @ 15 @ literal: "spectrogram must be 3-dimensional"  @ 20 @ 
+call  @ 66 @ call  @ 84 @ 
+name: output_data  @ 49 @ name: output_data  @ 67 @ 
+literal: 1  @ 21 @ literal: 1  @ 30 @ 
+name: DebugString  @ 17 @ name: DebugString  @ 26 @ 
+expr  @ 39 @ expr  @ 56 @ 
+expr  @ 34 @ expr  @ 51 @ 
+name: Compute  @ 47 @ name: Compute  @ 65 @ 
+expr  @ 29 @ expr  @ 38 @ 
+expr  @ 37 @ expr  @ 54 @ 
+argument  @ 10 @ argument  @ 13 @ 
+expr  @ 15 @ expr  @ 19 @ 
+operator: &  @ 14 @ operator: &  @ 18 @ 
+expr  @ 17 @ expr  @ 23 @ 
+name: explicit  @ 6 @ name: explicit  @ 6 @ 
+expr  @ 9 @ expr  @ 12 @ 
+name: MfccOp  @ 6 @ name: MfccOp  @ 6 @ 
+argument  @ 29 @ argument  @ 41 @ 
+operator: )  @ 52 @ operator: )  @ 70 @ 
+argument_list  @ 16 @ argument_list  @ 22 @ 
+operator: =  @ 35 @ operator: =  @ 52 @ 
+init  @ 39 @ init  @ 56 @ 
+operator: *  @ 34 @ operator: *  @ 51 @ 
+argument_list  @ 66 @ argument_list  @ 84 @ 
+operator: *  @ 52 @ operator: *  @ 70 @ 
+expr  @ 7 @ expr  @ 7 @ 
+argument  @ 28 @ argument  @ 37 @ 
+name: mfcc_input  @ 45 @ name: mfcc_input  @ 62 @ 
+argument  @ 9 @ argument  @ 11 @ 
+expr  @ 9 @ expr  @ 11 @ 
+name: filterbank_channel_count_  @ 9 @ name: filterbank_channel_count_  @ 12 @ 
+name: sample_rate  @ 18 @ name: sample_rate  @ 27 @ 
+expr  @ 20 @ expr  @ 29 @ 
+name: sample_data  @ 45 @ name: sample_data  @ 63 @ 
+expr  @ 48 @ expr  @ 66 @ 
+argument  @ 21 @ argument  @ 30 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+name: mfcc  @ 47 @ name: mfcc  @ 65 @ 
+operator: :  @ 5 @ operator: :  @ 5 @ 
+name: InvalidArgument  @ 29 @ name: InvalidArgument  @ 39 @ 
+incr  @ 40 @ incr  @ 57 @ 
+name  @ 46 @ name  @ 64 @ 
+operator: ->  @ 16 @ operator: ->  @ 22 @ 
+operator: =  @ 34 @ operator: =  @ 51 @ 
+operator: ->  @ 14 @ operator: ->  @ 18 @ 
+decl  @ 41 @ decl  @ 58 @ 
+expr  @ 66 @ expr  @ 84 @ 
+macro  @ 32 @ macro  @ 44 @ 
+name: int32  @ 63 @ name: int32  @ 81 @ 
+name: audio_channels  @ 22 @ name: audio_channels  @ 31 @ 
+argument  @ 8 @ argument  @ 9 @ 
+name: InvalidArgument  @ 15 @ name: InvalidArgument  @ 20 @ 
+name: dim_size  @ 20 @ name: dim_size  @ 29 @ 
+operator: ->  @ 10 @ operator: ->  @ 13 @ 
+argument  @ 6 @ argument  @ 6 @ 
+call  @ 9 @ call  @ 11 @ 
+block_content  @ 39 @ block_content  @ 56 @ 
+name: spectrogram_sample  @ 39 @ name: spectrogram_sample  @ 56 @ 
+operator: ++  @ 40 @ operator: ++  @ 57 @ 
+type  @ 63 @ type  @ 81 @ 
+expr  @ 8 @ expr  @ 9 @ 
+expr  @ 7 @ expr  @ 7 @ 
+argument  @ 7 @ argument  @ 8 @ 
+operator: &  @ 47 @ operator: &  @ 65 @ 
+name: context  @ 10 @ name: context  @ 13 @ 
+name: spectrogram_channels  @ 45 @ name: spectrogram_channels  @ 63 @ 
+call  @ 29 @ call  @ 38 @ 
+expr  @ 7 @ expr  @ 7 @ 
+argument  @ 45 @ argument  @ 63 @ 
+name: output_flat  @ 50 @ name: output_flat  @ 68 @ 
+expr  @ 54 @ expr  @ 72 @ 
+name: i  @ 54 @ name: i  @ 72 @ 
+argument  @ 7 @ argument  @ 7 @ 
+argument_list  @ 15 @ argument_list  @ 21 @ 
+name: void  @ 13 @ name: void  @ 17 @ 
+operator: (  @ 51 @ operator: (  @ 69 @ 
+argument  @ 6 @ argument  @ 6 @ 
+macro  @ 6 @ macro  @ 6 @ 
+name: OP_REQUIRES  @ 15 @ name: OP_REQUIRES  @ 19 @ 
+expr  @ 66 @ expr  @ 84 @ 
+

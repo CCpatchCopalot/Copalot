@@ -1,0 +1,45 @@
+{
+    "testcase": {
+        "file171": {
+            "match_message": {
+                "Same: gf_isom_sample_entry_init -> gf_isom_sample_entry_init": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 24->49",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 25->49"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 27,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 49,
+                        "add_hunk": [
+                            "\tent->internal_type = GF_ISOM_SAMPLE_ENTRY_MP4S;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_sample_entry_init -> gf_isom_sample_entry_init": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_value"
+            ]
+        }
+    }
+}

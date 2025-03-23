@@ -1,0 +1,920 @@
+name: gid  @ 41 @ name: gid  @ 45 @ 
+name: idx_type  @ 97 @ name: idx_type  @ 110 @ 
+operator: )  @ 41 @ operator: )  @ 45 @ 
+comment: /* Switch to name order for this group */  @ 109 @ comment: /* Switch to name order for this group */  @ 122 @ 
+name: obj_oloc  @ 117 @ name: obj_oloc  @ 130 @ 
+name: len_needed  @ 31 @ name: len_needed  @ 32 @ 
+name: FALSE  @ 9 @ name: FALSE  @ 9 @ 
+comment: /* Link info */  @ 5 @ comment: /* Link info */  @ 5 @ 
+block  @ 132 @ block  @ 146 @ 
+operator: &  @ 66 @ operator: &  @ 72 @ 
+operator: ->  @ 54 @ operator: ->  @ 58 @ 
+comment: /* If it's a group, we recurse into it */  @ 80 @ comment: /* If it's a group, we recurse into it */  @ 93 @ 
+type  @ 26 @ type  @ 26 @ 
+expr  @ 95 @ expr  @ 108 @ 
+argument  @ 117 @ argument  @ 131 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+operator: =  @ 93 @ operator: =  @ 106 @ 
+name: H5O_TYPE_GROUP  @ 81 @ name: H5O_TYPE_GROUP  @ 94 @ 
+name: HDONE_ERROR  @ 132 @ name: HDONE_ERROR  @ 146 @ 
+literal: "/"  @ 89 @ literal: "/"  @ 102 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: idx_type  @ 108 @ name: idx_type  @ 121 @ 
+argument  @ 134 @ argument  @ 148 @ 
+name: udata  @ 62 @ name: udata  @ 67 @ 
+block  @ 95 @ block  @ 108 @ 
+condition  @ 44 @ condition  @ 48 @ 
+name: udata  @ 117 @ name: udata  @ 131 @ 
+type  @ 69 @ type  @ 78 @ 
+literal: '\0'  @ 127 @ literal: '\0'  @ 141 @ 
+operator: *  @ 73 @ operator: *  @ 85 @ 
+block  @ 106 @ block  @ 119 @ 
+decl  @ 8 @ decl  @ 8 @ 
+comment: /* Basic object type (group, dataset, etc.) */  @ 63 @ comment: /* Basic object type (group, dataset, etc.) */  @ 68 @ 
+operator: ->  @ 31 @ operator: ->  @ 32 @ 
+block_content  @ 73 @ block_content  @ 82 @ 
+expr_stmt  @ 114 @ expr_stmt  @ 127 @ 
+comment: /* Whether the link info message exists */  @ 85 @ comment: /* Whether the link info message exists */  @ 98 @ 
+name: udata  @ 19 @ name: udata  @ 19 @ 
+type  @ 85 @ type  @ 98 @ 
+name: udata  @ 117 @ name: udata  @ 130 @ 
+comment: /* Object "position" for this object */  @ 45 @ comment: /* Object "position" for this object */  @ 49 @ 
+name: udata  @ 37 @ name: udata  @ 38 @ 
+operator: ->  @ 54 @ operator: ->  @ 58 @ 
+if  @ 25 @ if  @ 25 @ 
+name: name  @ 36 @ name: name  @ 37 @ 
+expr  @ 40 @ expr  @ 41 @ 
+expr  @ 89 @ expr  @ 102 @ 
+expr  @ 48 @ expr  @ 52 @ 
+comment: /* Length of path before appending this link's name */  @ 10 @ comment: /* Length of path before appending this link's name */  @ 10 @ 
+name: udata  @ 24 @ name: udata  @ 24 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+comment: /* Add to list of visited objects */  @ 75 @ comment: /* Add to list of visited objects */  @ 87 @ 
+operator: ->  @ 24 @ operator: ->  @ 24 @ 
+expr  @ 40 @ expr  @ 41 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 11 @ 
+operator: )  @ 41 @ operator: )  @ 45 @ 
+name  @ 59 @ name  @ 64 @ 
+name: udata  @ 35 @ name: udata  @ 36 @ 
+argument  @ 89 @ argument  @ 102 @ 
+operator: )  @ 72 @ operator: )  @ 81 @ 
+operator: ->  @ 25 @ operator: ->  @ 25 @ 
+if_stmt  @ 40 @ if_stmt  @ 41 @ 
+operator: ==  @ 44 @ operator: ==  @ 48 @ 
+name: new_path  @ 30 @ name: new_path  @ 31 @ 
+name: new_node  @ 76 @ name: new_node  @ 88 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 23 @ 
+decl_stmt  @ 69 @ decl_stmt  @ 78 @ 
+decl  @ 5 @ decl  @ 5 @ 
+name: H5G__visit_cb  @ 2 @ name: H5G__visit_cb  @ 2 @ 
+name: void  @ 26 @ name: void  @ 26 @ 
+type  @ 4 @ type  @ 4 @ 
+else  @ 103 @ else  @ 116 @ 
+name: curr_path_len  @ 89 @ name: curr_path_len  @ 102 @ 
+call  @ 93 @ call  @ 106 @ 
+expr  @ 36 @ expr  @ 37 @ 
+decl_stmt  @ 45 @ decl_stmt  @ 49 @ 
+name: NULL  @ 66 @ name: rc  @ 72 @ 
+call  @ 58 @ call  @ 63 @ 
+block  @ 77 @ block  @ 89 @ 
+name: udata  @ 29 @ name: udata  @ 29 @ 
+argument_list  @ 30 @ argument_list  @ 30 @ 
+argument  @ 30 @ argument  @ 30 @ 
+argument  @ 117 @ argument  @ 130 @ 
+condition  @ 62 @ condition  @ 67 @ 
+expr  @ 23 @ expr  @ 23 @ 
+name: new_path  @ 26 @ name: new_path  @ 26 @ 
+operator: =  @ 73 @ operator: =  @ 85 @ 
+operator: .  @ 48 @ operator: .  @ 52 @ 
+expr  @ 55 @ expr  @ 60 @ 
+operator: ==  @ 62 @ operator: ==  @ 67 @ 
+argument_list  @ 18 @ argument_list  @ 18 @ 
+if  @ 40 @ if  @ 41 @ 
+expr  @ 110 @ expr  @ 123 @ 
+operator: ->  @ 117 @ operator: ->  @ 130 @ 
+name: path  @ 36 @ name: path  @ 37 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+call  @ 40 @ call  @ 41 @ 
+type  @ 7 @ type  @ 7 @ 
+operator: .  @ 49 @ operator: .  @ 53 @ 
+name: H5_INDEX_NAME  @ 108 @ name: H5_INDEX_NAME  @ 121 @ 
+expr  @ 73 @ expr  @ 82 @ 
+operator: ->  @ 41 @ operator: ->  @ 45 @ 
+operator: *  @ 4 @ operator: *  @ 4 @ 
+name: _udata  @ 2 @ name: _udata  @ 2 @ 
+argument_list  @ 104 @ argument_list  @ 117 @ 
+operator: ->  @ 41 @ operator: ->  @ 45 @ 
+name: HGOTO_ERROR  @ 73 @ name: HGOTO_ERROR  @ 82 @ 
+name  @ 120 @ name  @ 134 @ 
+expr  @ 76 @ expr  @ 88 @ 
+label  @ 125 @ label  @ 139 @ 
+decl  @ 2 @ decl  @ 2 @ 
+condition  @ 95 @ condition  @ 108 @ 
+expr  @ 18 @ expr  @ 18 @ 
+expr  @ 72 @ expr  @ 81 @ 
+name: info  @ 5 @ name: info  @ 5 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 36 @ 
+comment: /* Add the path separator to the current path */  @ 87 @ comment: /* Add the path separator to the current path */  @ 100 @ 
+name: HGOTO_ERROR  @ 55 @ name: HGOTO_ERROR  @ 59 @ 
+expr  @ 76 @ expr  @ 88 @ 
+if  @ 29 @ if  @ 29 @ 
+block_content  @ 55 @ block_content  @ 59 @ 
+name: old_path_len  @ 127 @ name: old_path_len  @ 141 @ 
+argument  @ 77 @ argument  @ 89 @ 
+name: path  @ 29 @ name: path  @ 29 @ 
+name: path_buf_size  @ 31 @ name: path_buf_size  @ 32 @ 
+name: len_needed  @ 12 @ name: len_needed  @ 12 @ 
+operator: ==  @ 72 @ operator: ==  @ 81 @ 
+comment: /* Check for creation order tracking, if creation order index lookup requested */  @ 96 @ comment: /* Check for creation order tracking, if creation order index lookup requested */  @ 109 @ 
+literal: "can't free location"  @ 132 @ literal: "can't free location"  @ 146 @ 
+expr  @ 101 @ expr  @ 114 @ 
+expr  @ 93 @ expr  @ 106 @ 
+name: obj_oloc  @ 59 @ name: obj_oloc  @ 64 @ 
+name: udata  @ 25 @ name: udata  @ 25 @ 
+else  @ 106 @ else  @ 119 @ 
+condition  @ 40 @ condition  @ 41 @ 
+name: udata  @ 89 @ name: udata  @ 102 @ 
+operator: ->  @ 41 @ operator: ->  @ 45 @ 
+expr  @ 24 @ expr  @ 24 @ 
+name: obj_loc  @ 131 @ name: obj_loc  @ 145 @ 
+name: H5G_loc_t  @ 6 @ name: H5G_loc_t  @ 6 @ 
+decl_stmt  @ 83 @ decl_stmt  @ 96 @ 
+expr  @ 50 @ expr  @ 54 @ 
+decl  @ 10 @ decl  @ 10 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+name: HDstrncpy  @ 36 @ name: HDstrncpy  @ 37 @ 
+operator: ==  @ 97 @ operator: ==  @ 110 @ 
+argument  @ 50 @ argument  @ 54 @ 
+expr  @ 49 @ expr  @ 53 @ 
+name: H5G_iter_visit_ud_t  @ 4 @ name: H5G_iter_visit_ud_t  @ 4 @ 
+comment: /* Iterate over links in group */  @ 116 @ comment: /* Iterate over links in group */  @ 129 @ 
+comment: /* Find the object using the LAPL passed in */  @ 52 @ comment: /* Find the object using the LAPL passed in */  @ 56 @ 
+argument  @ 73 @ argument  @ 82 @ 
+expr_stmt  @ 90 @ expr_stmt  @ 103 @ 
+operator: ,  @ 41 @ operator: ,  @ 45 @ 
+name: HDstrlen  @ 23 @ name: HDstrlen  @ 23 @ 
+name: new_node  @ 76 @ name: new_node  @ 88 @ 
+comment: /* Check for doing more work */  @ 43 @ comment: /* Check for doing more work */  @ 47 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+expr  @ 35 @ expr  @ 36 @ 
+name: link_name_len  @ 23 @ name: link_name_len  @ 23 @ 
+expr  @ 30 @ expr  @ 31 @ 
+expr  @ 131 @ expr  @ 145 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 89 @ expr  @ 102 @ 
+argument  @ 94 @ argument  @ 107 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 53 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 31 @ 
+type  @ 8 @ type  @ 8 @ 
+argument  @ 76 @ argument  @ 88 @ 
+name: otype  @ 81 @ name: otype  @ 94 @ 
+literal: "unable to get object info"  @ 67 @ literal: "unable to get object info"  @ 73 @ 
+operator: (  @ 29 @ operator: (  @ 29 @ 
+name: udata  @ 54 @ name: udata  @ 58 @ 
+name: order  @ 117 @ name: order  @ 130 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 32 @ 
+macro  @ 30 @ macro  @ 30 @ 
+expr_stmt  @ 73 @ expr_stmt  @ 82 @ 
+call  @ 36 @ call  @ 37 @ 
+operator: &&  @ 44 @ operator: &&  @ 48 @ 
+name: H5O_loc_t  @ 8 @ name: H5O_loc_t  @ 8 @ 
+if_stmt  @ 108 @ if_stmt  @ 121 @ 
+block  @ 25 @ block  @ 25 @ 
+name: HDassert  @ 35 @ name: HDassert  @ 36 @ 
+operator: .  @ 99 @ operator: .  @ 112 @ 
+macro  @ 132 @ macro  @ 146 @ 
+name: curr_path_len  @ 10 @ name: curr_path_len  @ 10 @ 
+block_content  @ 82 @ block_content  @ 95 @ 
+argument  @ 117 @ argument  @ 130 @ 
+if  @ 62 @ if  @ 67 @ 
+expr  @ 117 @ expr  @ 130 @ 
+name: idx_type  @ 101 @ name: idx_type  @ 114 @ 
+argument  @ 89 @ argument  @ 102 @ 
+name: TRUE  @ 55 @ name: TRUE  @ 60 @ 
+operator: =  @ 24 @ operator: =  @ 24 @ 
+name: udata  @ 89 @ name: udata  @ 102 @ 
+operator: =  @ 101 @ operator: =  @ 114 @ 
+operator: ->  @ 30 @ operator: ->  @ 31 @ 
+operator: &  @ 50 @ operator: &  @ 54 @ 
+operator: ->  @ 62 @ operator: ->  @ 67 @ 
+name: idx_type  @ 104 @ name: idx_type  @ 117 @ 
+name: type  @ 44 @ name: type  @ 48 @ 
+argument  @ 55 @ argument  @ 59 @ 
+name: udata  @ 41 @ name: udata  @ 45 @ 
+name: linfo  @ 84 @ name: linfo  @ 97 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 104 @ expr  @ 117 @ 
+argument  @ 88 @ argument  @ 101 @ 
+name: done  @ 125 @ name: done  @ 139 @ 
+block_content  @ 63 @ block_content  @ 68 @ 
+if  @ 99 @ if  @ 112 @ 
+name: udata  @ 83 @ name: udata  @ 96 @ 
+argument  @ 55 @ argument  @ 59 @ 
+literal: "object not found"  @ 55 @ literal: "object not found"  @ 59 @ 
+name: hsize_t  @ 117 @ name: hsize_t  @ 130 @ 
+argument  @ 72 @ argument  @ 81 @ 
+name  @ 88 @ name  @ 101 @ 
+literal: 0  @ 93 @ literal: 0  @ 106 @ 
+argument  @ 41 @ argument  @ 42 @ 
+expr_stmt  @ 58 @ expr_stmt  @ 63 @ 
+argument_list  @ 50 @ argument_list  @ 54 @ 
+init  @ 13 @ init  @ 13 @ 
+expr_stmt  @ 127 @ expr_stmt  @ 141 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+decl  @ 12 @ decl  @ 12 @ 
+condition  @ 54 @ condition  @ 58 @ 
+operator: ->  @ 40 @ operator: ->  @ 41 @ 
+argument  @ 67 @ argument  @ 73 @ 
+name: linfo_exists  @ 93 @ name: linfo_exists  @ 106 @ 
+operator: ++  @ 90 @ operator: ++  @ 103 @ 
+name: ret_value  @ 44 @ name: ret_value  @ 48 @ 
+comment: /* Object's object location */  @ 8 @ comment: /* Object's object location */  @ 8 @ 
+argument  @ 76 @ argument  @ 88 @ 
+name: link_name_len  @ 36 @ name: link_name_len  @ 37 @ 
+decl_stmt  @ 63 @ decl_stmt  @ 68 @ 
+if_stmt  @ 66 @ if_stmt  @ 72 @ 
+decl  @ 15 @ decl  @ 15 @ 
+condition  @ 81 @ condition  @ 94 @ 
+type  @ 12 @ type  @ 12 @ 
+name: udata  @ 128 @ name: udata  @ 142 @ 
+expr  @ 114 @ expr  @ 127 @ 
+block_content  @ 69 @ block_content  @ 78 @ 
+argument_list  @ 41 @ argument_list  @ 42 @ 
+name: H5G_loc_find  @ 54 @ name: H5G_loc_find  @ 58 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+expr  @ 31 @ expr  @ 32 @ 
+operator: )  @ 30 @ operator: )  @ 31 @ 
+operator: ->  @ 120 @ operator: ->  @ 134 @ 
+name: udata  @ 10 @ name: udata  @ 10 @ 
+name: obj_oloc  @ 66 @ name: obj_oloc  @ 72 @ 
+name: H5_obj_t  @ 45 @ name: H5_obj_t  @ 49 @ 
+name: oloc  @ 40 @ name: oloc  @ 41 @ 
+decl_stmt  @ 12 @ decl_stmt  @ 12 @ 
+operator: +=  @ 37 @ operator: +=  @ 38 @ 
+name: op_data  @ 41 @ name: op_data  @ 45 @ 
+operator: ==  @ 88 @ operator: ==  @ 101 @ 
+expr  @ 40 @ expr  @ 41 @ 
+call  @ 131 @ call  @ 145 @ 
+argument  @ 77 @ argument  @ 90 @ 
+argument_list  @ 88 @ argument_list  @ 101 @ 
+expr  @ 9 @ expr  @ 9 @ 
+name: NULL  @ 72 @ name: NULL  @ 81 @ 
+name: udata  @ 90 @ name: udata  @ 103 @ 
+operator: <  @ 131 @ operator: <  @ 145 @ 
+name  @ 58 @ name  @ 63 @ 
+type  @ 82 @ type  @ 95 @ 
+block  @ 81 @ block  @ 94 @ 
+comment: /* Allocate new object "position" node */  @ 71 @ comment: /* Allocate new object "position" node */  @ 80 @ 
+init  @ 4 @ init  @ 4 @ 
+call  @ 72 @ call  @ 81 @ 
+expr_stmt  @ 89 @ expr_stmt  @ 102 @ 
+if  @ 95 @ if  @ 108 @ 
+literal: '\0'  @ 35 @ literal: '\0'  @ 36 @ 
+name: path  @ 127 @ name: path  @ 141 @ 
+expr  @ 104 @ expr  @ 117 @ 
+name  @ 54 @ name  @ 58 @ 
+condition  @ 131 @ condition  @ 145 @ 
+argument  @ 117 @ argument  @ 130 @ 
+name: HGOTO_ERROR  @ 77 @ name: HGOTO_ERROR  @ 89 @ 
+expr  @ 36 @ expr  @ 37 @ 
+name: addr  @ 59 @ name: addr  @ 64 @ 
+argument  @ 36 @ argument  @ 37 @ 
+argument_list  @ 29 @ argument_list  @ 29 @ 
+name: obj_pos  @ 73 @ name: obj_pos  @ 85 @ 
+operator: *  @ 30 @ operator: *  @ 31 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+operator: &&  @ 131 @ operator: &&  @ 145 @ 
+init  @ 82 @ init  @ 95 @ 
+name: HGOTO_ERROR  @ 94 @ name: HGOTO_ERROR  @ 107 @ 
+block  @ 67 @ block  @ 73 @ 
+name: H5SL_search  @ 62 @ name: H5SL_search  @ 67 @ 
+name: H5_INDEX_NAME  @ 101 @ name: H5_INDEX_NAME  @ 114 @ 
+name: H5G_link_to_info  @ 40 @ name: H5G_link_to_info  @ 41 @ 
+comment: /* Restore location */  @ 119 @ comment: /* Restore location */  @ 133 @ 
+comment: /* end if */  @ 32 @ comment: /* end if */  @ 33 @ 
+decl_stmt  @ 84 @ decl_stmt  @ 97 @ 
+operator: ,  @ 41 @ operator: ,  @ 45 @ 
+name: udata  @ 114 @ name: udata  @ 127 @ 
+name: H5O_link_t  @ 2 @ name: H5O_link_t  @ 2 @ 
+comment: /* Release resources */  @ 130 @ comment: /* Release resources */  @ 144 @ 
+decl  @ 69 @ decl  @ 78 @ 
+decl  @ 82 @ decl  @ 95 @ 
+argument  @ 77 @ argument  @ 89 @ 
+comment: /*out*/  @ 54 @ comment: /*out*/  @ 58 @ 
+expr  @ 93 @ expr  @ 106 @ 
+name  @ 49 @ name  @ 53 @ 
+name: old_path_len  @ 35 @ name: old_path_len  @ 36 @ 
+name  @ 83 @ name  @ 96 @ 
+operator: .  @ 58 @ operator: .  @ 63 @ 
+macro  @ 55 @ macro  @ 59 @ 
+name: H5_ITER_ERROR  @ 73 @ name: H5_ITER_ERROR  @ 82 @ 
+expr_stmt  @ 117 @ expr_stmt  @ 130 @ 
+comment: /* Pointer to new path buffer */  @ 26 @ comment: /* Pointer to new path buffer */  @ 26 @ 
+argument  @ 131 @ argument  @ 145 @ 
+argument  @ 66 @ argument  @ 72 @ 
+expr  @ 66 @ expr  @ 72 @ 
+name: H5FL_MALLOC  @ 72 @ name: H5FL_MALLOC  @ 81 @ 
+argument  @ 55 @ argument  @ 59 @ 
+modifier: *  @ 26 @ modifier: *  @ 26 @ 
+operator: =  @ 117 @ operator: =  @ 130 @ 
+name: curr_loc  @ 114 @ name: curr_loc  @ 127 @ 
+comment: /* end if */  @ 123 @ comment: /* end if */  @ 137 @ 
+operator: ->  @ 35 @ operator: ->  @ 36 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+literal: "can't insert object node into visited list"  @ 77 @ literal: "can't insert object node into visited list"  @ 90 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: void  @ 2 @ name: void  @ 2 @ 
+name  @ 30 @ name  @ 31 @ 
+expr  @ 73 @ expr  @ 82 @ 
+comment: /* Add it to the list of visited objects */  @ 67 @ comment: /* If its ref count is>1, we add it to the list of visited objects */  @ 75 @ 
+name: curr_path_len  @ 90 @ name: curr_path_len  @ 103 @ 
+comment: /* Set up opened group location to fill in */  @ 47 @ comment: /* Set up opened group location to fill in */  @ 51 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 9 @ 
+name: path  @ 49 @ name: path  @ 53 @ 
+operator: ->  @ 36 @ operator: ->  @ 37 @ 
+name: H5G__visit_cb  @ 117 @ name: H5G__visit_cb  @ 131 @ 
+name: HGOTO_ERROR  @ 30 @ name: HGOTO_ERROR  @ 30 @ 
+operator: +  @ 24 @ operator: +  @ 24 @ 
+name: track_corder  @ 99 @ name: track_corder  @ 112 @ 
+expr  @ 37 @ expr  @ 38 @ 
+block_content  @ 101 @ block_content  @ 114 @ 
+init  @ 9 @ init  @ 9 @ 
+block_content  @ 108 @ block_content  @ 121 @ 
+block  @ 44 @ block  @ 48 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 64 @ 
+operator: ->  @ 29 @ operator: ->  @ 29 @ 
+comment: /* New object node for visited list */  @ 69 @ comment: /* New object node for visited list */  @ 78 @ 
+if_stmt  @ 76 @ if_stmt  @ 88 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 10 @ 
+name: path_buf_size  @ 25 @ name: path_buf_size  @ 25 @ 
+name  @ 40 @ name  @ 41 @ 
+name: udata  @ 4 @ name: udata  @ 4 @ 
+name: idx_type  @ 117 @ name: idx_type  @ 130 @ 
+argument  @ 117 @ argument  @ 131 @ 
+literal: 2  @ 24 @ literal: 2  @ 24 @ 
+name: link_name_len  @ 37 @ name: link_name_len  @ 38 @ 
+if  @ 76 @ if  @ 88 @ 
+if_stmt  @ 97 @ if_stmt  @ 110 @ 
+argument_list  @ 117 @ argument_list  @ 130 @ 
+name: H5G__obj_get_linfo  @ 93 @ name: H5G__obj_get_linfo  @ 106 @ 
+expr  @ 108 @ expr  @ 121 @ 
+comment: /* end if */  @ 121 @ comment: /* end if */  @ 135 @ 
+operator: )  @ 89 @ operator: )  @ 102 @ 
+expr  @ 29 @ expr  @ 29 @ 
+block  @ 110 @ block  @ 123 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: obj_path  @ 49 @ name: obj_path  @ 53 @ 
+name  @ 59 @ name  @ 64 @ 
+argument  @ 94 @ argument  @ 107 @ 
+name  @ 36 @ name  @ 37 @ 
+name: udata  @ 88 @ name: udata  @ 101 @ 
+argument  @ 35 @ argument  @ 36 @ 
+name: obj_pos  @ 45 @ name: obj_pos  @ 49 @ 
+name  @ 90 @ name  @ 103 @ 
+comment: /* Sanity check */  @ 17 @ comment: /* Sanity check */  @ 17 @ 
+comment: /* Attempt to allocate larger buffer for path */  @ 28 @ comment: /* Attempt to allocate larger buffer for path */  @ 28 @ 
+operator: &  @ 89 @ operator: &  @ 102 @ 
+name: link_name_len  @ 11 @ name: link_name_len  @ 11 @ 
+operator: (  @ 89 @ operator: (  @ 102 @ 
+comment: /* Location of object */  @ 6 @ comment: /* Location of object */  @ 6 @ 
+name: op  @ 41 @ name: op  @ 45 @ 
+name: otype  @ 63 @ name: otype  @ 68 @ 
+name: lnk  @ 40 @ name: lnk  @ 41 @ 
+name: linfo_exists  @ 85 @ name: linfo_exists  @ 98 @ 
+name: obj_oloc  @ 8 @ name: obj_oloc  @ 8 @ 
+name: curr_path_len  @ 37 @ name: curr_path_len  @ 38 @ 
+argument  @ 67 @ argument  @ 73 @ 
+expr  @ 88 @ expr  @ 101 @ 
+if  @ 108 @ if  @ 121 @ 
+type  @ 2 @ type  @ 2 @ 
+name  @ 31 @ name  @ 32 @ 
+type  @ 9 @ type  @ 9 @ 
+argument  @ 93 @ argument  @ 106 @ 
+if_stmt  @ 131 @ if_stmt  @ 145 @ 
+comment: /* Build the link's relative path name */  @ 34 @ comment: /* Build the link's relative path name */  @ 35 @ 
+name: obj_loc  @ 114 @ name: obj_loc  @ 127 @ 
+operator: &  @ 93 @ operator: &  @ 106 @ 
+argument  @ 67 @ argument  @ 73 @ 
+call  @ 29 @ call  @ 29 @ 
+type  @ 83 @ type  @ 96 @ 
+condition  @ 72 @ condition  @ 81 @ 
+expr_stmt  @ 88 @ expr_stmt  @ 101 @ 
+block_content  @ 41 @ block_content  @ 42 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr_stmt  @ 120 @ expr_stmt  @ 134 @ 
+operator: =  @ 29 @ operator: =  @ 29 @ 
+name: path  @ 41 @ name: path  @ 45 @ 
+if  @ 131 @ if  @ 145 @ 
+name: H5_obj_t  @ 72 @ name: H5_obj_t  @ 81 @ 
+name: H5G_loc_t  @ 82 @ name: H5G_loc_t  @ 95 @ 
+operator: &  @ 54 @ operator: &  @ 58 @ 
+argument  @ 41 @ argument  @ 42 @ 
+condition  @ 76 @ condition  @ 88 @ 
+if_stmt  @ 29 @ if_stmt  @ 29 @ 
+expr  @ 23 @ expr  @ 23 @ 
+name: lnk  @ 18 @ name: lnk  @ 18 @ 
+if_stmt  @ 72 @ if_stmt  @ 81 @ 
+name: H5MM_realloc  @ 29 @ name: H5MM_realloc  @ 29 @ 
+decl_stmt  @ 13 @ decl_stmt  @ 13 @ 
+if_stmt  @ 25 @ if_stmt  @ 25 @ 
+operator: ==  @ 29 @ operator: ==  @ 29 @ 
+expr  @ 73 @ expr  @ 82 @ 
+name: obj_loc  @ 49 @ name: obj_loc  @ 53 @ 
+name: H5_index_t  @ 83 @ name: H5_index_t  @ 96 @ 
+name: lnk  @ 44 @ name: lnk  @ 48 @ 
+comment: /* Make the application callback */  @ 41 @ comment: /* Make the application callback */  @ 44 @ 
+operator: &  @ 36 @ operator: &  @ 37 @ 
+operator: ->  @ 83 @ operator: ->  @ 96 @ 
+name: fileno  @ 58 @ name: fileno  @ 63 @ 
+argument  @ 29 @ argument  @ 29 @ 
+comment: /* end H5G__visit_cb() */  @ 135 @ comment: /* end H5G__visit_cb() */  @ 149 @ 
+name: visited  @ 76 @ name: visited  @ 88 @ 
+call  @ 50 @ call  @ 54 @ 
+function  @ 1 @ function  @ 1 @ 
+call  @ 54 @ call  @ 58 @ 
+name: _udata  @ 4 @ name: _udata  @ 4 @ 
+name: H5O_get_rc_and_type  @ 66 @ name: H5O_get_rc_and_type  @ 72 @ 
+name: curr_loc  @ 40 @ name: curr_loc  @ 41 @ 
+block_content  @ 110 @ block_content  @ 123 @ 
+name: size_t  @ 89 @ name: size_t  @ 102 @ 
+literal: "can't check for link info message"  @ 94 @ literal: "can't check for link info message"  @ 107 @ 
+expr  @ 99 @ expr  @ 112 @ 
+expr  @ 127 @ expr  @ 141 @ 
+name: htri_t  @ 85 @ name: htri_t  @ 98 @ 
+name: lnk  @ 2 @ name: lnk  @ 2 @ 
+name: new_node  @ 72 @ name: new_node  @ 81 @ 
+operator: =  @ 114 @ operator: =  @ 127 @ 
+comment: /* Check if we will need more space to store this link's relative path */  @ 21 @ comment: /* Check if we will need more space to store this link's relative path */  @ 21 @ 
+expr  @ 90 @ expr  @ 103 @ 
+operator: &  @ 117 @ operator: &  @ 130 @ 
+expr  @ 41 @ expr  @ 45 @ 
+operator: <  @ 66 @ operator: <  @ 72 @ 
+operator: &  @ 48 @ operator: &  @ 52 @ 
+operator: (  @ 93 @ operator: (  @ 106 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+operator: ->  @ 88 @ operator: ->  @ 101 @ 
+block  @ 104 @ block  @ 117 @ 
+operator: <  @ 54 @ operator: <  @ 58 @ 
+modifier: *  @ 82 @ modifier: *  @ 95 @ 
+name: H5_INDEX_NAME  @ 110 @ name: H5_INDEX_NAME  @ 123 @ 
+argument  @ 54 @ argument  @ 58 @ 
+operator: &  @ 93 @ operator: &  @ 106 @ 
+expr_stmt  @ 104 @ expr_stmt  @ 117 @ 
+name: len_needed  @ 24 @ name: len_needed  @ 24 @ 
+operator: =  @ 128 @ operator: =  @ 142 @ 
+argument_list  @ 62 @ argument_list  @ 67 @ 
+expr  @ 73 @ expr  @ 82 @ 
+argument  @ 30 @ argument  @ 30 @ 
+name: H5G__obj_iterate  @ 117 @ name: H5G__obj_iterate  @ 130 @ 
+literal: 0  @ 40 @ literal: 0  @ 41 @ 
+argument_list  @ 89 @ argument_list  @ 102 @ 
+expr  @ 97 @ expr  @ 110 @ 
+if  @ 72 @ if  @ 81 @ 
+if_stmt  @ 54 @ if_stmt  @ 58 @ 
+expr  @ 54 @ expr  @ 58 @ 
+expr  @ 83 @ expr  @ 96 @ 
+expr  @ 128 @ expr  @ 142 @ 
+argument  @ 66 @ argument  @ 72 @ 
+operator: =  @ 59 @ operator: =  @ 64 @ 
+operator: <  @ 40 @ operator: <  @ 41 @ 
+name: NULL  @ 117 @ name: NULL  @ 130 @ 
+decl  @ 83 @ decl  @ 96 @ 
+comment: /* Reset path back to incoming path */  @ 126 @ comment: /* Reset path back to incoming path */  @ 140 @ 
+if_stmt  @ 99 @ if_stmt  @ 112 @ 
+call  @ 19 @ call  @ 19 @ 
+index  @ 89 @ index  @ 102 @ 
+name  @ 48 @ name  @ 52 @ 
+comment: /* (Correctly handles mounted files) */  @ 53 @ comment: /* (Correctly handles mounted files) */  @ 57 @ 
+name  @ 29 @ name  @ 29 @ 
+block  @ 101 @ block  @ 114 @ 
+block_content  @ 30 @ block_content  @ 30 @ 
+operator: ->  @ 89 @ operator: ->  @ 102 @ 
+argument  @ 40 @ argument  @ 41 @ 
+block  @ 30 @ block  @ 30 @ 
+name: obj_pos  @ 58 @ name: obj_pos  @ 63 @ 
+operator: )  @ 89 @ operator: )  @ 102 @ 
+block_content  @ 99 @ block_content  @ 112 @ 
+name: FUNC_ENTER_STATIC  @ 15 @ name: FUNC_ENTER_PACKAGE  @ 15 @ 
+block_content  @ 77 @ block_content  @ 89 @ 
+comment: /* Switch to name order for this group */  @ 100 @ comment: /* Switch to name order for this group */  @ 113 @ 
+argument_list  @ 54 @ argument_list  @ 58 @ 
+name  @ 41 @ name  @ 45 @ 
+operator: &  @ 114 @ operator: &  @ 127 @ 
+name: size_t  @ 11 @ name: size_t  @ 11 @ 
+block_content  @ 97 @ block_content  @ 110 @ 
+operator: )  @ 4 @ operator: )  @ 4 @ 
+operator: =  @ 49 @ operator: =  @ 53 @ 
+name: curr_path_len  @ 128 @ name: curr_path_len  @ 142 @ 
+comment: /* Pointer to previous group location info */  @ 82 @ comment: /* Pointer to previous group location info */  @ 95 @ 
+decl  @ 63 @ decl  @ 68 @ 
+name: herr_t  @ 1 @ name: herr_t  @ 1 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+block  @ 97 @ block  @ 110 @ 
+name: lnk  @ 36 @ name: lnk  @ 37 @ 
+operator: =  @ 72 @ operator: =  @ 81 @ 
+name: udata  @ 76 @ name: udata  @ 88 @ 
+name  @ 25 @ name  @ 25 @ 
+index  @ 127 @ index  @ 141 @ 
+operator: (  @ 36 @ operator: (  @ 37 @ 
+name: old_loc  @ 82 @ name: old_loc  @ 95 @ 
+name: H5O_type_t  @ 63 @ name: H5O_type_t  @ 68 @ 
+expr  @ 40 @ expr  @ 41 @ 
+argument  @ 66 @ argument  @ 72 @ 
+name: FUNC_LEAVE_NOAPI  @ 134 @ name: FUNC_LEAVE_NOAPI  @ 148 @ 
+argument  @ 73 @ argument  @ 82 @ 
+name: new_path  @ 29 @ name: new_path  @ 29 @ 
+call  @ 88 @ call  @ 101 @ 
+operator: &  @ 41 @ operator: &  @ 45 @ 
+argument  @ 132 @ argument  @ 146 @ 
+operator: !  @ 99 @ operator: !  @ 112 @ 
+argument_list  @ 131 @ argument_list  @ 145 @ 
+name: old_path_len  @ 10 @ name: old_path_len  @ 10 @ 
+if  @ 54 @ if  @ 58 @ 
+specifier: const  @ 2 @ specifier: const  @ 2 @ 
+operator: &  @ 131 @ operator: &  @ 145 @ 
+name: H5_ITER_CONT  @ 44 @ name: H5_ITER_CONT  @ 48 @ 
+literal: "can't allocate path string"  @ 30 @ literal: "can't allocate path string"  @ 30 @ 
+name: char  @ 30 @ name: char  @ 31 @ 
+expr  @ 4 @ expr  @ 4 @ 
+argument_list  @ 76 @ argument_list  @ 88 @ 
+condition  @ 25 @ condition  @ 25 @ 
+name: H5O_linfo_t  @ 84 @ name: H5O_linfo_t  @ 97 @ 
+name: H5_obj_t  @ 69 @ name: H5_obj_t  @ 78 @ 
+name: H5_INDEX_CRT_ORDER  @ 97 @ name: H5_INDEX_CRT_ORDER  @ 110 @ 
+argument  @ 18 @ argument  @ 18 @ 
+name  @ 89 @ name  @ 102 @ 
+name: udata  @ 36 @ name: udata  @ 37 @ 
+argument_list  @ 94 @ argument_list  @ 107 @ 
+expr  @ 88 @ expr  @ 101 @ 
+comment: /* Point to this group's location info */  @ 113 @ comment: /* Point to this group's location info */  @ 126 @ 
+operator: (  @ 41 @ operator: (  @ 45 @ 
+operator: ->  @ 114 @ operator: ->  @ 127 @ 
+argument  @ 40 @ argument  @ 41 @ 
+operator: ->  @ 127 @ operator: ->  @ 141 @ 
+name  @ 128 @ name  @ 142 @ 
+argument  @ 30 @ argument  @ 30 @ 
+argument  @ 62 @ argument  @ 67 @ 
+init  @ 10 @ init  @ 10 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 26 @ 
+operator: ==  @ 44 @ operator: ==  @ 48 @ 
+name  @ 127 @ name  @ 141 @ 
+macro  @ 67 @ macro  @ 73 @ 
+literal: "unable to get info for link"  @ 41 @ literal: "unable to get info for link"  @ 42 @ 
+type  @ 13 @ type  @ 13 @ 
+block  @ 55 @ block  @ 59 @ 
+operator: ->  @ 128 @ operator: ->  @ 142 @ 
+name: H5G_loc_reset  @ 50 @ name: H5G_loc_reset  @ 54 @ 
+if  @ 44 @ if  @ 48 @ 
+operator: (  @ 117 @ operator: (  @ 130 @ 
+literal: 0  @ 117 @ literal: 0  @ 130 @ 
+operator: =  @ 48 @ operator: =  @ 52 @ 
+name: old_path_len  @ 36 @ name: old_path_len  @ 37 @ 
+operator: .  @ 58 @ operator: .  @ 63 @ 
+block_content  @ 104 @ block_content  @ 117 @ 
+name  @ 114 @ name  @ 127 @ 
+decl_stmt  @ 82 @ decl_stmt  @ 95 @ 
+name: curr_path_len  @ 88 @ name: curr_path_len  @ 101 @ 
+block  @ 68 @ block  @ 77 @ 
+name: HDstrncpy  @ 89 @ name: HDstrncpy  @ 102 @ 
+name  @ 76 @ name  @ 88 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 38 @ 
+comment: /* User data for callback */  @ 4 @ comment: /* User data for callback */  @ 4 @ 
+expr  @ 117 @ expr  @ 131 @ 
+name: H5L_info2_t  @ 5 @ name: H5L_info2_t  @ 5 @ 
+argument_list  @ 72 @ argument_list  @ 81 @ 
+condition  @ 93 @ condition  @ 106 @ 
+name: H5_ITER_CONT  @ 13 @ name: H5_ITER_CONT  @ 13 @ 
+name: NULL  @ 62 @ name: NULL  @ 67 @ 
+expr_stmt  @ 101 @ expr_stmt  @ 114 @ 
+decl  @ 7 @ decl  @ 7 @ 
+call  @ 104 @ call  @ 117 @ 
+operator: ->  @ 76 @ operator: ->  @ 88 @ 
+expr  @ 66 @ expr  @ 72 @ 
+expr  @ 19 @ expr  @ 19 @ 
+argument_list  @ 35 @ argument_list  @ 36 @ 
+name: curr_loc  @ 120 @ name: curr_loc  @ 134 @ 
+name: ret_value  @ 41 @ name: ret_value  @ 45 @ 
+decl  @ 13 @ decl  @ 13 @ 
+name: obj_oloc  @ 58 @ name: obj_oloc  @ 63 @ 
+name: obj_pos  @ 62 @ name: obj_pos  @ 67 @ 
+macro  @ 41 @ macro  @ 42 @ 
+expr  @ 117 @ expr  @ 130 @ 
+argument  @ 104 @ argument  @ 117 @ 
+block  @ 3 @ block  @ 3 @ 
+expr  @ 35 @ expr  @ 36 @ 
+argument  @ 93 @ argument  @ 106 @ 
+expr  @ 50 @ expr  @ 54 @ 
+operator: =  @ 120 @ operator: =  @ 134 @ 
+name: visited  @ 62 @ name: visited  @ 67 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: udata  @ 41 @ name: udata  @ 45 @ 
+comment: /* end if */  @ 105 @ comment: /* end if */  @ 118 @ 
+name: lnk  @ 23 @ name: lnk  @ 23 @ 
+argument  @ 41 @ argument  @ 42 @ 
+expr  @ 66 @ expr  @ 72 @ 
+expr  @ 62 @ expr  @ 67 @ 
+operator: =  @ 30 @ operator: =  @ 31 @ 
+comment: /* end if */  @ 111 @ comment: /* end if */  @ 124 @ 
+expr_stmt  @ 128 @ expr_stmt  @ 142 @ 
+name: H5G_iter_visit_ud_t  @ 4 @ name: H5G_iter_visit_ud_t  @ 4 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 54 @ 
+comment: /* Attempt to get the link info for this group */  @ 92 @ comment: /* Attempt to get the link info for this group */  @ 105 @ 
+argument  @ 58 @ argument  @ 63 @ 
+name  @ 58 @ name  @ 63 @ 
+name: ret_value  @ 117 @ name: ret_value  @ 130 @ 
+name: HGOTO_ERROR  @ 41 @ name: HGOTO_ERROR  @ 42 @ 
+name: oloc  @ 48 @ name: oloc  @ 52 @ 
+operator: ->  @ 88 @ operator: ->  @ 101 @ 
+name: obj_loc  @ 50 @ name: obj_loc  @ 54 @ 
+expr  @ 117 @ expr  @ 130 @ 
+comment: /* ("+2" is for string terminator and possible '/' for group separator later) */  @ 22 @ comment: /* ("+2" is for string terminator and possible '/' for group separator later) */  @ 22 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 24 @ 
+comment: /* Construct unique "position" for this object */  @ 57 @ comment: /* Construct unique "position" for this object */  @ 62 @ 
+operator: )  @ 117 @ operator: )  @ 130 @ 
+expr  @ 36 @ expr  @ 37 @ 
+operator: =  @ 31 @ operator: =  @ 32 @ 
+operator: ->  @ 40 @ operator: ->  @ 41 @ 
+if_stmt  @ 44 @ if_stmt  @ 48 @ 
+comment: /* Object at 'name' found */  @ 9 @ comment: /* Object at 'name' found */  @ 9 @ 
+name: linfo  @ 93 @ name: linfo  @ 106 @ 
+name: addr  @ 59 @ name: addr  @ 64 @ 
+decl  @ 26 @ decl  @ 26 @ 
+expr  @ 81 @ expr  @ 94 @ 
+literal: 1  @ 36 @ literal: 1  @ 37 @ 
+operator: ,  @ 41 @ operator: ,  @ 45 @ 
+argument  @ 40 @ argument  @ 41 @ 
+name: link_name_len  @ 24 @ name: link_name_len  @ 24 @ 
+name: len_needed  @ 29 @ name: len_needed  @ 29 @ 
+name: path  @ 30 @ name: path  @ 31 @ 
+name: H5_INDEX_NAME  @ 104 @ name: H5_INDEX_NAME  @ 117 @ 
+condition  @ 29 @ condition  @ 29 @ 
+if_stmt  @ 62 @ if_stmt  @ 67 @ 
+condition  @ 99 @ condition  @ 112 @ 
+name: udata  @ 41 @ name: udata  @ 45 @ 
+name  @ 54 @ name  @ 58 @ 
+argument  @ 58 @ argument  @ 63 @ 
+name: curr_path_len  @ 24 @ name: curr_path_len  @ 24 @ 
+name: udata  @ 30 @ name: udata  @ 31 @ 
+operator: (  @ 89 @ operator: (  @ 102 @ 
+expr  @ 72 @ expr  @ 81 @ 
+expr  @ 36 @ expr  @ 37 @ 
+comment: /* Object's group hier. path */  @ 7 @ comment: /* Object's group hier. path */  @ 7 @ 
+comment: /* end if */  @ 102 @ comment: /* end if */  @ 115 @ 
+name: lnk  @ 54 @ name: lnk  @ 58 @ 
+name: H5SL_insert  @ 76 @ name: H5SL_insert  @ 88 @ 
+argument  @ 29 @ argument  @ 29 @ 
+operator: =  @ 55 @ operator: =  @ 60 @ 
+expr  @ 76 @ expr  @ 88 @ 
+condition  @ 108 @ condition  @ 121 @ 
+operator: ->  @ 36 @ operator: ->  @ 37 @ 
+comment: /* Link info message */  @ 84 @ comment: /* Link info message */  @ 97 @ 
+name  @ 41 @ name  @ 45 @ 
+call  @ 117 @ call  @ 130 @ 
+name: udata  @ 88 @ name: udata  @ 101 @ 
+macro  @ 77 @ macro  @ 89 @ 
+name: size_t  @ 12 @ name: size_t  @ 12 @ 
+operator: )  @ 29 @ operator: )  @ 29 @ 
+expr  @ 58 @ expr  @ 63 @ 
+expr  @ 93 @ expr  @ 106 @ 
+name: udata  @ 127 @ name: udata  @ 141 @ 
+decl_stmt  @ 15 @ decl_stmt  @ 15 @ 
+name: HDassert  @ 104 @ name: HDassert  @ 117 @ 
+literal: 0  @ 76 @ literal: 0  @ 88 @ 
+argument  @ 30 @ argument  @ 30 @ 
+operator: ==  @ 81 @ operator: ==  @ 94 @ 
+name: udata  @ 82 @ name: udata  @ 95 @ 
+decl  @ 6 @ decl  @ 6 @ 
+expr_stmt  @ 55 @ expr_stmt  @ 60 @ 
+expr  @ 117 @ expr  @ 130 @ 
+operator: &  @ 66 @ operator: &  @ 72 @ 
+literal: 0  @ 54 @ literal: 0  @ 58 @ 
+name: NULL  @ 29 @ name: NULL  @ 29 @ 
+init  @ 83 @ init  @ 96 @ 
+name: H5G_loc_free  @ 131 @ name: H5G_loc_free  @ 145 @ 
+block  @ 73 @ block  @ 82 @ 
+name: obj_oloc  @ 48 @ name: obj_oloc  @ 52 @ 
+call  @ 89 @ call  @ 102 @ 
+operator: &  @ 62 @ operator: &  @ 67 @ 
+name: hbool_t  @ 9 @ name: hbool_t  @ 9 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+argument  @ 73 @ argument  @ 82 @ 
+operator: &  @ 40 @ operator: &  @ 41 @ 
+expr  @ 89 @ expr  @ 102 @ 
+expr  @ 29 @ expr  @ 29 @ 
+literal: '\0'  @ 88 @ literal: '\0'  @ 101 @ 
+argument  @ 41 @ argument  @ 42 @ 
+name: size_t  @ 10 @ name: size_t  @ 10 @ 
+name: name  @ 54 @ name: name  @ 58 @ 
+if  @ 66 @ if  @ 72 @ 
+operator: +  @ 36 @ operator: +  @ 37 @ 
+decl  @ 85 @ decl  @ 98 @ 
+block  @ 62 @ block  @ 67 @ 
+argument_list  @ 77 @ argument_list  @ 89 @ 
+expr  @ 29 @ expr  @ 29 @ 
+expr  @ 36 @ expr  @ 37 @ 
+name: udata  @ 31 @ name: udata  @ 32 @ 
+argument_list  @ 132 @ argument_list  @ 146 @ 
+name  @ 10 @ name  @ 10 @ 
+type  @ 63 @ type  @ 68 @ 
+name: path  @ 88 @ name: path  @ 101 @ 
+operator: ->  @ 82 @ operator: ->  @ 95 @ 
+type  @ 84 @ type  @ 97 @ 
+block_content  @ 67 @ block_content  @ 73 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 37 @ 
+call  @ 23 @ call  @ 23 @ 
+operator: ==  @ 35 @ operator: ==  @ 36 @ 
+comment: /* end if */  @ 122 @ comment: /* end if */  @ 136 @ 
+name: old_path_len  @ 128 @ name: old_path_len  @ 142 @ 
+decl  @ 9 @ decl  @ 9 @ 
+name  @ 41 @ name  @ 45 @ 
+operator: .  @ 59 @ operator: .  @ 64 @ 
+type  @ 5 @ type  @ 5 @ 
+if_stmt  @ 81 @ if_stmt  @ 94 @ 
+argument_list  @ 55 @ argument_list  @ 59 @ 
+expr  @ 13 @ expr  @ 13 @ 
+argument  @ 76 @ argument  @ 88 @ 
+index  @ 88 @ index  @ 101 @ 
+comment: /* Get the object's reference count and type */  @ 65 @ comment: /* Get the object's reference count and type */  @ 71 @ 
+if  @ 93 @ if  @ 106 @ 
+operator: ==  @ 104 @ operator: ==  @ 117 @ 
+name  @ 24 @ name  @ 24 @ 
+argument  @ 54 @ argument  @ 58 @ 
+name: udata  @ 40 @ name: udata  @ 41 @ 
+name: H5E_SYM  @ 73 @ name: H5E_SYM  @ 82 @ 
+name: ret_value  @ 13 @ name: ret_value  @ 13 @ 
+operator: ->  @ 41 @ operator: ->  @ 45 @ 
+type  @ 45 @ type  @ 49 @ 
+block  @ 94 @ block  @ 107 @ 
+argument  @ 36 @ argument  @ 37 @ 
+argument  @ 94 @ argument  @ 107 @ 
+argument  @ 73 @ argument  @ 82 @ 
+name: udata  @ 41 @ name: udata  @ 45 @ 
+argument  @ 54 @ argument  @ 58 @ 
+name: obj_pos  @ 59 @ name: obj_pos  @ 64 @ 
+name: H5G_name_t  @ 7 @ name: H5G_name_t  @ 7 @ 
+name: curr_loc  @ 82 @ name: curr_loc  @ 95 @ 
+operator: <  @ 76 @ operator: <  @ 88 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 52 @ 
+argument_list  @ 58 @ argument_list  @ 63 @ 
+expr  @ 66 @ expr  @ 72 @ 
+name  @ 23 @ name  @ 23 @ 
+argument_list  @ 134 @ argument_list  @ 148 @ 
+argument_list  @ 67 @ argument_list  @ 73 @ 
+name  @ 37 @ name  @ 38 @ 
+argument_list  @ 66 @ argument_list  @ 72 @ 
+operator: &  @ 49 @ operator: &  @ 53 @ 
+expr  @ 76 @ expr  @ 88 @ 
+argument  @ 117 @ argument  @ 130 @ 
+name: idx_type  @ 83 @ name: idx_type  @ 96 @ 
+name: HDassert  @ 18 @ name: HDassert  @ 18 @ 
+condition  @ 66 @ condition  @ 72 @ 
+macro  @ 94 @ macro  @ 107 @ 
+name: otype  @ 66 @ name: otype  @ 72 @ 
+block_content  @ 45 @ block_content  @ 49 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+macro  @ 134 @ macro  @ 148 @ 
+expr  @ 62 @ expr  @ 67 @ 
+comment: /* Length of path string needed */  @ 12 @ comment: /* Length of path string needed */  @ 12 @ 
+expr_stmt  @ 110 @ expr_stmt  @ 123 @ 
+argument_list  @ 93 @ argument_list  @ 106 @ 
+call  @ 73 @ call  @ 82 @ 
+operator: =  @ 110 @ operator: =  @ 123 @ 
+argument  @ 132 @ argument  @ 146 @ 
+operator: ->  @ 90 @ operator: ->  @ 103 @ 
+name  @ 117 @ name  @ 130 @ 
+expr  @ 127 @ expr  @ 141 @ 
+expr  @ 117 @ expr  @ 130 @ 
+block_content  @ 26 @ block_content  @ 26 @ 
+operator: (  @ 4 @ operator: (  @ 4 @ 
+decl  @ 84 @ decl  @ 97 @ 
+argument  @ 77 @ argument  @ 89 @ 
+operator: =  @ 41 @ operator: =  @ 45 @ 
+argument  @ 132 @ argument  @ 146 @ 
+name: path  @ 35 @ name: path  @ 36 @ 
+expr  @ 58 @ expr  @ 63 @ 
+name  @ 88 @ name  @ 101 @ 
+name: obj_loc  @ 6 @ name: obj_loc  @ 6 @ 
+name: H5L_TYPE_HARD  @ 44 @ name: H5L_TYPE_HARD  @ 48 @ 
+call  @ 62 @ call  @ 67 @ 
+argument_list  @ 23 @ argument_list  @ 23 @ 
+argument_list  @ 36 @ argument_list  @ 37 @ 
+block  @ 41 @ block  @ 42 @ 
+operator: ->  @ 37 @ operator: ->  @ 38 @ 
+if_stmt  @ 95 @ if_stmt  @ 108 @ 
+expr  @ 131 @ expr  @ 145 @ 
+name: info  @ 41 @ name: info  @ 45 @ 
+name  @ 62 @ name  @ 67 @ 
+name: obj_loc  @ 48 @ name: obj_loc  @ 52 @ 
+literal: 0  @ 131 @ literal: 0  @ 145 @ 
+argument  @ 36 @ argument  @ 37 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+modifier: *  @ 69 @ modifier: *  @ 78 @ 
+expr  @ 59 @ expr  @ 64 @ 
+expr  @ 54 @ expr  @ 58 @ 
+call  @ 66 @ call  @ 72 @ 
+decl_stmt  @ 85 @ decl_stmt  @ 98 @ 
+name: HDassert  @ 19 @ name: HDassert  @ 19 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name: H5F_GET_FILENO  @ 58 @ name: H5F_GET_FILENO  @ 63 @ 
+name: obj_oloc  @ 93 @ name: obj_oloc  @ 106 @ 
+name: udata  @ 120 @ name: udata  @ 134 @ 
+expr  @ 89 @ expr  @ 102 @ 
+operator: !=  @ 108 @ operator: !=  @ 121 @ 
+operator: ->  @ 44 @ operator: ->  @ 48 @ 
+expr  @ 88 @ expr  @ 101 @ 
+if  @ 97 @ if  @ 110 @ 
+name: H5E_NOSPACE  @ 73 @ name: H5E_NOSPACE  @ 82 @ 
+comment: /* Return value */  @ 13 @ comment: /* Return value */  @ 13 @ 
+operator: +  @ 24 @ operator: +  @ 24 @ 
+operator: .  @ 59 @ operator: .  @ 64 @ 
+name: info  @ 40 @ name: info  @ 41 @ 
+name: herr_t  @ 13 @ name: herr_t  @ 13 @ 
+name: obj_found  @ 55 @ name: obj_found  @ 60 @ 
+name: len_needed  @ 25 @ name: len_needed  @ 25 @ 
+if  @ 81 @ if  @ 94 @ 
+expr  @ 117 @ expr  @ 131 @ 
+if_stmt  @ 93 @ if_stmt  @ 106 @ 
+name: obj_path  @ 7 @ name: obj_path  @ 7 @ 
+expr  @ 117 @ expr  @ 130 @ 
+name: curr_loc  @ 54 @ name: curr_loc  @ 58 @ 
+argument  @ 132 @ argument  @ 146 @ 
+call  @ 76 @ call  @ 88 @ 
+name: obj_found  @ 131 @ name: obj_found  @ 145 @ 
+name: HDassert  @ 88 @ name: HDassert  @ 101 @ 
+expr  @ 62 @ expr  @ 67 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 45 @ 
+type  @ 11 @ type  @ 11 @ 
+expr  @ 35 @ expr  @ 36 @ 
+name: new_node  @ 69 @ name: new_node  @ 78 @ 
+expr  @ 120 @ expr  @ 134 @ 
+argument  @ 62 @ argument  @ 67 @ 
+expr  @ 44 @ expr  @ 48 @ 
+condition  @ 97 @ condition  @ 110 @ 
+block_content  @ 132 @ block_content  @ 146 @ 
+name  @ 44 @ name  @ 48 @ 
+argument_list  @ 40 @ argument_list  @ 41 @ 
+argument  @ 55 @ argument  @ 59 @ 
+name  @ 99 @ name  @ 112 @ 
+expr  @ 82 @ expr  @ 95 @ 
+argument_list  @ 73 @ argument_list  @ 82 @ 
+argument  @ 19 @ argument  @ 19 @ 
+name: idx_type  @ 83 @ name: idx_type  @ 96 @ 
+literal: "can't allocate object node"  @ 73 @ literal: "can't allocate object node"  @ 82 @ 
+operator: ->  @ 89 @ operator: ->  @ 102 @ 
+type  @ 15 @ type  @ 15 @ 
+operator: <  @ 93 @ operator: <  @ 106 @ 
+comment: /* Check if creation order is tracked */  @ 98 @ comment: /* Check if creation order is tracked */  @ 111 @ 
+comment: /* Type of index to use */  @ 83 @ comment: /* Type of index to use */  @ 96 @ 
+block_content  @ 94 @ block_content  @ 107 @ 
+name: linfo_exists  @ 95 @ name: linfo_exists  @ 108 @ 
+expr  @ 58 @ expr  @ 63 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 7 @ 
+operator: (  @ 72 @ operator: (  @ 81 @ 
+name: path  @ 89 @ name: path  @ 102 @ 
+comment: /* Length of link's name */  @ 11 @ comment: /* Length of link's name */  @ 11 @ 
+operator: (  @ 30 @ operator: (  @ 31 @ 
+decl  @ 45 @ decl  @ 49 @ 
+type  @ 6 @ type  @ 6 @ 
+expr  @ 73 @ expr  @ 82 @ 
+name  @ 82 @ name  @ 95 @ 
+argument  @ 94 @ argument  @ 107 @ 
+index  @ 36 @ index  @ 37 @ 
+name: HGOTO_ERROR  @ 67 @ name: HGOTO_ERROR  @ 73 @ 
+expr  @ 54 @ expr  @ 58 @ 
+operator: )  @ 93 @ operator: )  @ 106 @ 
+argument  @ 117 @ argument  @ 130 @ 
+name  @ 41 @ name  @ 45 @ 
+operator: )  @ 36 @ operator: )  @ 37 @ 
+comment: /* Set node information */  @ 73 @ comment: /* Set node information */  @ 84 @ 
+name: idx_type  @ 110 @ name: idx_type  @ 123 @ 
+name: old_loc  @ 120 @ name: old_loc  @ 134 @ 
+call  @ 35 @ call  @ 36 @ 
+name: linfo  @ 99 @ name: linfo  @ 112 @ 
+comment: /* Can only perform name lookups on groups with symbol tables */  @ 107 @ comment: /* Can only perform name lookups on groups with symbol tables */  @ 120 @ 
+argument  @ 89 @ argument  @ 102 @ 
+expr  @ 25 @ expr  @ 25 @ 
+name  @ 36 @ name  @ 37 @ 
+expr  @ 89 @ expr  @ 102 @ 
+comment: /* Check if we've seen the object the link references before */  @ 61 @ comment: /* Check if we've seen the object the link references before */  @ 66 @ 
+expr  @ 54 @ expr  @ 58 @ 
+decl  @ 11 @ decl  @ 11 @ 
+name: obj_loc  @ 54 @ name: obj_loc  @ 58 @ 
+literal: 2  @ 89 @ literal: 2  @ 102 @ 
+operator: =  @ 127 @ operator: =  @ 141 @ 
+type  @ 10 @ type  @ 10 @ 
+name: obj_found  @ 9 @ name: obj_found  @ 9 @ 
+name  @ 35 @ name  @ 36 @ 
+comment: /* Construct the link info from the link message */  @ 39 @ comment: /* Construct the link info from the link message */  @ 40 @ 
+literal: 0  @ 66 @ literal: 0  @ 72 @ 
+name: new_node  @ 73 @ name: new_node  @ 85 @ 
+name: name  @ 23 @ name: name  @ 23 @ 
+name: file  @ 58 @ name: file  @ 63 @ 
+operator: =  @ 23 @ operator: =  @ 23 @ 
+decl  @ 4 @ decl  @ 4 @ 
+argument  @ 23 @ argument  @ 23 @ 
+operator: >  @ 25 @ operator: >  @ 25 @ 
+index  @ 35 @ index  @ 36 @ 
+argument  @ 67 @ argument  @ 73 @ 
+name  @ 89 @ name  @ 102 @ 
+operator: (  @ 41 @ operator: (  @ 45 @ 
+

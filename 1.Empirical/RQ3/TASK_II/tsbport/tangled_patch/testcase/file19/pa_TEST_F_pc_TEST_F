@@ -1,0 +1,50 @@
+argument  @ 2 @ argument  @ 2 @ 
+literal: 3  @ 7 @ literal: "[1];[2]"  @ 5 @ 
+argument  @ 7 @ argument  @ 5 @ 
+name: TF_ASSERT_OK  @ 8 @ name: INFER_ERROR  @ 6 @ 
+argument  @ 14 @ argument  @ 7 @ 
+argument  @ 8 @ argument  @ 6 @ 
+literal: "b"  @ 6 @ literal: "[?];[?]"  @ 4 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 7 @ 
+literal: "?;[]"  @ 462 @ literal: "?;[]"  @ 7 @ 
+expr  @ 6 @ expr  @ 4 @ 
+literal: "a|b|c"  @ 11 @ literal: "Shape must be rank 1 but is rank 0"  @ 7 @ 
+argument  @ 11 @ argument  @ 7 @ 
+expr_stmt  @ 6 @ expr_stmt  @ 4 @ 
+call  @ 8 @ call  @ 6 @ 
+name: TensorShape  @ 7 @ name: op  @ 5 @ 
+name: TEST_F  @ 1 @ name: TEST_F  @ 1 @ 
+argument  @ 2 @ argument  @ 3 @ 
+name: std  @ 10 @ name: INFER_ERROR  @ 7 @ 
+literal: "RP"  @ 2 @ literal: "[?];[?]"  @ 3 @ 
+argument  @ 11 @ argument  @ 7 @ 
+name: MakeOp  @ 2 @ name: op  @ 2 @ 
+name: TensorShape  @ 6 @ name: op  @ 4 @ 
+expr  @ 8 @ expr  @ 6 @ 
+literal: "a"  @ 6 @ literal: "[1];?"  @ 4 @ 
+macro  @ 1 @ macro  @ 1 @ 
+expr  @ 6 @ expr  @ 4 @ 
+expr_stmt  @ 7 @ expr_stmt  @ 5 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+expr  @ 7 @ expr  @ 5 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 6 @ 
+literal: 0  @ 7 @ literal: "[?];in1"  @ 5 @ 
+argument_list  @ 1 @ argument_list  @ 1 @ 
+argument  @ 2 @ argument  @ 3 @ 
+expr  @ 7 @ expr  @ 5 @ 
+name: int64  @ 7 @ name: INFER_OK  @ 5 @ 
+argument_list  @ 10 @ argument_list  @ 7 @ 
+argument  @ 1 @ argument  @ 1 @ 
+expr  @ 8 @ expr  @ 6 @ 
+literal: "LP"  @ 2 @ literal: "?;?"  @ 3 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 2 @ argument  @ 3 @ 
+block  @ 1 @ block  @ 1 @ 
+literal: "|"  @ 2 @ literal: "StringNGrams"  @ 2 @ 
+name: RunOpKernel  @ 8 @ name: op  @ 6 @ 
+expr  @ 6 @ expr  @ 4 @ 
+argument_list  @ 8 @ argument_list  @ 6 @ 
+argument  @ 1 @ argument  @ 1 @ 
+expr  @ 10 @ expr  @ 7 @ 
+name: tstring  @ 6 @ name: INFER_OK  @ 4 @ 
+

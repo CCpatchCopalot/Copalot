@@ -1,0 +1,46 @@
+{
+    "testcase": {
+        "file87": {
+            "match_message": {
+                "Same: gf_isom_remove_track -> gf_isom_remove_track": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 2813 -> 2788",
+                        "L2": "3: Unique Matched by Source code 2813 -> 2788"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            2788,
+                            2788
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (trak == the_trak) continue;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 7600,
+                        "add_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_isom_remove_track -> gf_isom_remove_track": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": []
+        }
+    }
+}

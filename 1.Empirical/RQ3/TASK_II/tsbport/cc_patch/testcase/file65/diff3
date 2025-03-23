@@ -1,0 +1,18 @@
+1509c1509
+<typedef struct
+---
+>typedef struct __full_video_sample_entry
+1541a1542,1544
+>	u32 EntryType;
+>	u8 *data;
+>	u32 data_size;
+1550,1559c1550
+<typedef struct
+<{
+<	GF_ISOM_VISUAL_SAMPLE_ENTRY
+<	u32 EntryType;
+<	u8 *data;
+<	u32 data_size;
+<} GF_GenericVisualSampleEntryBox;
+---
+>typedef struct __full_video_sample_entry GF_GenericVisualSampleEntryBox;

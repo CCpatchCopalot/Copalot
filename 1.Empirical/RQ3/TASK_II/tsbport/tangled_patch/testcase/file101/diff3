@@ -1,0 +1,8 @@
+43a44
+>#include "H5Omodule.h"          /* This source code file is part of the H5O module */
+1127,1130c1127,1128
+<        HDassert(mesg_size == H5O_ALIGN_OH(oh, mesg_size));
+<        flags = *p++;
+---
+>if(mesg_size != H5O_ALIGN_OH(oh, mesg_size))
+>            HGOTO_ERROR(H5E_OHDR, H5E_CANTLOAD, FAIL, "message not aligned")/* Message flags */flags = *chunk_image++;

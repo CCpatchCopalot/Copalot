@@ -1,0 +1,15 @@
+{
+    "testcase": {
+        "file238": {
+            "runtime_info": {
+                "Global": [
+                    "Error in dealing testcase : file238",
+                    "RuntimeError('Initialization failed') : Traceback (most recent call last):\n  File \"src/Main.py\", line 96, in runing_file\n    raise RuntimeError(\"Initialization failed\")\nRuntimeError: Initialization failed\n"
+                ]
+            },
+            "prepare_info": {},
+            "semanic_check": {},
+            "verify_patch": {}
+        }
+    }
+}

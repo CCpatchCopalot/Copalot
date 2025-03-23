@@ -1,0 +1,10 @@
+28a29,33
+>#include "lprefix.h"
+>#include <float.h>
+>#include <limits.h>
+>#include <math.h>
+>#include "ljumptab.h"
+657c657
+<        L->top = base + c + 1;  /* mark the end of concat operands */
+---
+>L->top = 1;

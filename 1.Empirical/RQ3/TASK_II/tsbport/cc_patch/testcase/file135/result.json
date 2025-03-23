@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file135": {
+            "match_message": {
+                "Syntax: gitn_box_del -> gitn_del": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 10953 -> 11104",
+                        "L2": "3: Unique Matched by Source code 10954 -> 11105"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 10955 -> 11106",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 10956->11107"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 11104,
+                        "add_hunk": [
+                            "\tif (ptr->entries) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 11106,
+                        "add_hunk": [
+                            "\t\t}\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Syntax: gitn_box_del -> gitn_del": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

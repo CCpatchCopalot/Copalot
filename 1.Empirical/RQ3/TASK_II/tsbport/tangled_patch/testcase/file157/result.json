@@ -1,0 +1,85 @@
+{
+    "testcase": {
+        "file157": {
+            "match_message": {
+                "Same: gf_odf_read_iod -> gf_odf_read_iod": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 483->508 ([[508, 1.0], [505, 0.6552380952380952], [491, 0.3892339544513458]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 483->508 ([[508, 1.0], [505, 0.6552380952380952], [491, 0.3892339544513458]])"
+                    }
+                },
+                "Same: gf_odf_read_isom_od -> gf_odf_read_isom_od": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 998->1027 ([[1027, 1.0], [1024, 0.6590476190476191], [1017, 0.3657957244655582]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 998->1027 ([[1027, 1.0], [1024, 0.6590476190476191], [1017, 0.3657957244655582]])"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 28,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 508,
+                        "add_hunk": [
+                            "\t\tif (e) {\n",
+                            "\t\t\tgf_odf_delete_descriptor(tmp);\n",
+                            "\t\t\treturn e;\n",
+                            "\t\t}\n"
+                        ],
+                        "delete_location": [
+                            508,
+                            508
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (e) return e;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 1027,
+                        "add_hunk": [
+                            "\t\tif (e) {\n",
+                            "\t\t\tgf_odf_delete_descriptor(tmp);\n",
+                            "\t\t\treturn e;\n",
+                            "\t\t}\n"
+                        ],
+                        "delete_location": [
+                            1027,
+                            1027
+                        ],
+                        "delete_hunk": [
+                            "\t\tif (e) return e;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_odf_read_iod -> gf_odf_read_iod": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: gf_odf_read_isom_od -> gf_odf_read_isom_od": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

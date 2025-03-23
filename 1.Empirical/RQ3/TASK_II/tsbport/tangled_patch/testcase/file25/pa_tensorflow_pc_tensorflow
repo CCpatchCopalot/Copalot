@@ -1,0 +1,451 @@
+argument  @ 26 @ argument  @ 31 @ 
+name: int  @ 9 @ name: int  @ 9 @ 
+expr  @ 46 @ expr  @ 53 @ 
+literal: 513  @ 9 @ literal: 513  @ 9 @ 
+argument  @ 15 @ argument  @ 16 @ 
+name: EXPECT_EQ  @ 54 @ name: EXPECT_EQ  @ 62 @ 
+argument  @ 44 @ argument  @ 51 @ 
+block  @ 25 @ block  @ 30 @ 
+call  @ 10 @ call  @ 10 @ 
+literal: 0.0  @ 52 @ literal: 0.0  @ 59 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 22 @ 
+expr  @ 44 @ expr  @ 51 @ 
+call  @ 52 @ call  @ 59 @ 
+name: input  @ 12 @ name: input  @ 12 @ 
+name: i  @ 25 @ name: i  @ 30 @ 
+argument  @ 39 @ argument  @ 45 @ 
+argument_list  @ 18 @ argument_list  @ 20 @ 
+name: assign  @ 52 @ name: assign  @ 59 @ 
+expr  @ 43 @ expr  @ 50 @ 
+argument  @ 23 @ argument  @ 28 @ 
+name: input  @ 36 @ name: input  @ 41 @ 
+name: std  @ 8 @ name: std  @ 8 @ 
+name  @ 44 @ name  @ 51 @ 
+expr  @ 53 @ expr  @ 61 @ 
+expr  @ 25 @ expr  @ 30 @ 
+name: kChannelCount  @ 14 @ name: kChannelCount  @ 14 @ 
+expr  @ 9 @ expr  @ 9 @ 
+decl  @ 9 @ decl  @ 9 @ 
+expr  @ 44 @ expr  @ 51 @ 
+call  @ 23 @ call  @ 28 @ 
+argument  @ 15 @ argument  @ 16 @ 
+expr  @ 21 @ expr  @ 23 @ 
+literal: 173.74997634  @ 21 @ literal: 173.74997634  @ 26 @ 
+type  @ 25 @ type  @ 30 @ 
+literal: 1e-04  @ 26 @ literal: 1e-04  @ 31 @ 
+name: ASSERT_EQ  @ 23 @ name: ASSERT_EQ  @ 28 @ 
+argument_list  @ 23 @ argument_list  @ 28 @ 
+type  @ 9 @ type  @ 9 @ 
+argument  @ 53 @ argument  @ 60 @ 
+call  @ 44 @ call  @ 51 @ 
+operator: .  @ 15 @ operator: .  @ 15 @ 
+operator: .  @ 43 @ operator: .  @ 50 @ 
+expr  @ 36 @ expr  @ 41 @ 
+argument  @ 15 @ argument  @ 16 @ 
+incr  @ 25 @ incr  @ 30 @ 
+literal: 150.4277597  @ 21 @ literal: 150.4277597  @ 26 @ 
+operator: .  @ 15 @ operator: .  @ 16 @ 
+comment: /* upper frequency limit */  @ 15 @ comment: /* upper frequency limit */  @ 17 @ 
+operator: ::  @ 20 @ operator: ::  @ 22 @ 
+expr_stmt  @ 12 @ expr_stmt  @ 12 @ 
+name: i  @ 11 @ name: i  @ 11 @ 
+operator: ::  @ 37 @ operator: ::  @ 42 @ 
+specifier: const  @ 53 @ specifier: const  @ 61 @ 
+argument  @ 17 @ argument  @ 19 @ 
+literal: 60.79867148  @ 21 @ literal: 60.79867148  @ 25 @ 
+operator: +  @ 12 @ operator: +  @ 12 @ 
+name: kSampleCount  @ 10 @ name: kSampleCount  @ 10 @ 
+call  @ 54 @ call  @ 62 @ 
+expr  @ 20 @ expr  @ 22 @ 
+name: int  @ 35 @ name: int  @ 40 @ 
+name  @ 17 @ name  @ 19 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 50 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: input  @ 52 @ name: input  @ 59 @ 
+macro  @ 30 @ macro  @ 35 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+call  @ 46 @ call  @ 53 @ 
+literal: 51.80306637  @ 21 @ literal: 51.80306637  @ 24 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 8 @ expr  @ 8 @ 
+literal: 7.38894574  @ 21 @ literal: 7.38894574  @ 23 @ 
+expr  @ 44 @ expr  @ 51 @ 
+operator: &  @ 44 @ operator: &  @ 51 @ 
+name: std  @ 37 @ name: std  @ 42 @ 
+argument  @ 46 @ argument  @ 53 @ 
+argument  @ 15 @ argument  @ 17 @ 
+call  @ 53 @ call  @ 60 @ 
+expr  @ 43 @ expr  @ 50 @ 
+expr  @ 8 @ expr  @ 8 @ 
+argument_list  @ 52 @ argument_list  @ 59 @ 
+name  @ 43 @ name  @ 50 @ 
+name: kChannelCount  @ 23 @ name: kChannelCount  @ 28 @ 
+literal: 25.77781089  @ 21 @ literal: 25.77781089  @ 24 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 60 @ 
+name: kSampleCount  @ 39 @ name: kSampleCount  @ 44 @ 
+expr  @ 12 @ expr  @ 12 @ 
+literal: 71.14363376  @ 21 @ literal: 71.14363376  @ 25 @ 
+call  @ 18 @ call  @ 20 @ 
+expr  @ 26 @ expr  @ 31 @ 
+name: filterbank  @ 39 @ name: filterbank  @ 44 @ 
+literal: 82.90910141  @ 21 @ literal: 82.90910141  @ 25 @ 
+name: kChannelCount  @ 25 @ name: kChannelCount  @ 30 @ 
+literal: 1  @ 12 @ literal: 1  @ 12 @ 
+comment: // values.Make sure these don't affect the output.  @ 51 @ comment: // values.  Make sure these don't affect the output.  @ 58 @ 
+name: output  @ 26 @ name: output  @ 31 @ 
+literal: 4000.0  @ 39 @ literal: 4000.0  @ 46 @ 
+literal: 20  @ 39 @ literal: 20  @ 45 @ 
+expr  @ 26 @ expr  @ 31 @ 
+name  @ 18 @ name  @ 20 @ 
+name: double  @ 36 @ name: double  @ 41 @ 
+block  @ 3 @ block  @ 3 @ 
+literal: 20.0  @ 15 @ literal: 20.0  @ 17 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 62 @ 
+name: expected  @ 20 @ name: expected  @ 22 @ 
+type  @ 14 @ type  @ 14 @ 
+control  @ 45 @ control  @ 52 @ 
+init  @ 11 @ init  @ 11 @ 
+literal: 22050  @ 39 @ literal: 22050  @ 44 @ 
+expr  @ 21 @ expr  @ 24 @ 
+expr  @ 21 @ expr  @ 25 @ 
+call  @ 15 @ call  @ 16 @ 
+argument  @ 39 @ argument  @ 44 @ 
+argument  @ 30 @ argument  @ 35 @ 
+name: std  @ 20 @ name: std  @ 22 @ 
+expr  @ 39 @ expr  @ 45 @ 
+comment: /* sample rate */  @ 39 @ comment: /* sample rate */  @ 44 @ 
+name: filterbank  @ 15 @ name: filterbank  @ 15 @ 
+control  @ 53 @ control  @ 61 @ 
+expr  @ 53 @ expr  @ 60 @ 
+expr  @ 20 @ expr  @ 22 @ 
+expr  @ 21 @ expr  @ 23 @ 
+argument_list  @ 37 @ argument_list  @ 42 @ 
+name: double  @ 53 @ name: double  @ 61 @ 
+argument  @ 10 @ argument  @ 10 @ 
+comment: // Golden values are from an independent Python Mel implementation.  @ 5 @ comment: // Golden values are from an independent Python Mel implementation.  @ 5 @ 
+name: push_back  @ 12 @ name: push_back  @ 12 @ 
+name  @ 20 @ name  @ 22 @ 
+name: TEST  @ 3 @ name: TEST  @ 3 @ 
+name: i  @ 12 @ name: i  @ 12 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: input  @ 44 @ name: input  @ 51 @ 
+argument  @ 26 @ argument  @ 31 @ 
+expr  @ 46 @ expr  @ 53 @ 
+name: double  @ 45 @ name: double  @ 52 @ 
+comment: /*lower frequency limit */  @ 39 @ comment: /*  lower frequency limit */  @ 45 @ 
+decl  @ 35 @ decl  @ 40 @ 
+decl_stmt  @ 35 @ decl_stmt  @ 40 @ 
+expr  @ 26 @ expr  @ 31 @ 
+name: TEST  @ 30 @ name: TEST  @ 35 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 21 @ expr  @ 24 @ 
+condition  @ 11 @ condition  @ 11 @ 
+decl  @ 45 @ decl  @ 52 @ 
+expr  @ 39 @ expr  @ 45 @ 
+argument_list  @ 26 @ argument_list  @ 31 @ 
+expr_stmt  @ 52 @ expr_stmt  @ 59 @ 
+operator: .  @ 53 @ operator: .  @ 60 @ 
+operator: =  @ 20 @ operator: =  @ 22 @ 
+argument  @ 39 @ argument  @ 45 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: Compute  @ 53 @ name: Compute  @ 60 @ 
+name: MfccMelFilterbank  @ 33 @ name: MfccMelFilterbank  @ 38 @ 
+name: output  @ 45 @ name: output  @ 52 @ 
+decl  @ 14 @ decl  @ 14 @ 
+name: filterbank  @ 53 @ name: filterbank  @ 60 @ 
+literal: 1.0  @ 43 @ literal: 1.0  @ 50 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 42 @ 
+call  @ 26 @ call  @ 31 @ 
+control  @ 11 @ control  @ 11 @ 
+type  @ 35 @ type  @ 40 @ 
+argument  @ 18 @ argument  @ 20 @ 
+comment: // will resize the output and fill it with the correct, nonzero outputs.  @ 42 @ comment: // will resize the output and fill it with the correct, nonzero outputs.  @ 49 @ 
+literal: 96.50069158  @ 21 @ literal: 96.50069158  @ 25 @ 
+type  @ 6 @ type  @ 6 @ 
+operator: .  @ 44 @ operator: .  @ 51 @ 
+init  @ 25 @ init  @ 30 @ 
+name: output  @ 53 @ name: output  @ 61 @ 
+literal: 37.05877236  @ 21 @ literal: 37.05877236  @ 24 @ 
+block_content  @ 3 @ block_content  @ 3 @ 
+name  @ 12 @ name  @ 12 @ 
+init  @ 11 @ init  @ 11 @ 
+expr  @ 39 @ expr  @ 46 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: namespace  @ 1 @ name: namespace  @ 1 @ 
+decl  @ 25 @ decl  @ 30 @ 
+name  @ 8 @ name  @ 8 @ 
+operator: .  @ 39 @ operator: .  @ 44 @ 
+name: Initialize  @ 39 @ name: Initialize  @ 44 @ 
+block_content  @ 33 @ block_content  @ 38 @ 
+macro  @ 3 @ macro  @ 3 @ 
+name: output  @ 53 @ name: output  @ 60 @ 
+block  @ 30 @ block  @ 35 @ 
+comment: /* channels */  @ 15 @ comment: /* channels */  @ 16 @ 
+name: input  @ 53 @ name: input  @ 60 @ 
+expr  @ 53 @ expr  @ 60 @ 
+comment: // Test for bug where the output vector was not cleared before  @ 31 @ comment: // Test for bug where the output vector was not cleared before  @ 36 @ 
+argument  @ 39 @ argument  @ 46 @ 
+argument  @ 18 @ argument  @ 20 @ 
+decl  @ 53 @ decl  @ 61 @ 
+literal: 129.96721968  @ 21 @ literal: 129.96721968  @ 26 @ 
+operator: ::  @ 8 @ operator: ::  @ 8 @ 
+name: output  @ 17 @ name: output  @ 19 @ 
+argument  @ 43 @ argument  @ 50 @ 
+expr  @ 37 @ expr  @ 42 @ 
+for  @ 45 @ for  @ 52 @ 
+expr_stmt  @ 17 @ expr_stmt  @ 19 @ 
+expr  @ 43 @ expr  @ 50 @ 
+expr  @ 21 @ expr  @ 26 @ 
+name: vector  @ 8 @ name: vector  @ 8 @ 
+literal: 22050  @ 15 @ literal: 22050  @ 16 @ 
+name: Compute  @ 18 @ name: Compute  @ 20 @ 
+init  @ 53 @ init  @ 61 @ 
+literal: 10.30330648  @ 21 @ literal: 10.30330648  @ 23 @ 
+argument_list  @ 3 @ argument_list  @ 3 @ 
+name  @ 26 @ name  @ 31 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 51 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 9 @ 
+expr_stmt  @ 39 @ expr_stmt  @ 44 @ 
+comment: // First call with nonzero input value, and an empty output vector,  @ 41 @ comment: // First call with nonzero input value, and an empty output vector,  @ 48 @ 
+literal: 0  @ 25 @ literal: 0  @ 30 @ 
+argument_list  @ 20 @ argument_list  @ 22 @ 
+expr  @ 21 @ expr  @ 23 @ 
+expr  @ 21 @ expr  @ 26 @ 
+name: vector  @ 17 @ name: vector  @ 19 @ 
+comment: // Second call with zero input should also generate zero output.However,  @ 49 @ comment: // Second call with zero input should also generate zero output.  However,  @ 56 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 28 @ 
+type  @ 45 @ type  @ 52 @ 
+call  @ 15 @ call  @ 15 @ 
+argument_list  @ 39 @ argument_list  @ 44 @ 
+name  @ 52 @ name  @ 59 @ 
+name: EXPECT_NEAR  @ 26 @ name: EXPECT_NEAR  @ 31 @ 
+name: kSampleCount  @ 35 @ name: kSampleCount  @ 40 @ 
+type  @ 33 @ type  @ 38 @ 
+name  @ 53 @ name  @ 60 @ 
+expr  @ 46 @ expr  @ 53 @ 
+range  @ 53 @ range  @ 61 @ 
+type  @ 11 @ type  @ 11 @ 
+name: double  @ 17 @ name: double  @ 19 @ 
+condition  @ 25 @ condition  @ 30 @ 
+argument  @ 15 @ argument  @ 17 @ 
+operator: .  @ 23 @ operator: .  @ 28 @ 
+argument  @ 54 @ argument  @ 62 @ 
+expr  @ 15 @ expr  @ 17 @ 
+expr  @ 25 @ expr  @ 30 @ 
+name: i  @ 25 @ name: i  @ 30 @ 
+expr_stmt  @ 46 @ expr_stmt  @ 53 @ 
+literal: 21.35253118  @ 21 @ literal: 21.35253118  @ 23 @ 
+comment: // accumulating next frame's weighted spectral values.  @ 32 @ comment: // accumulating next frame's weighted spectral values.  @ 37 @ 
+expr  @ 17 @ expr  @ 19 @ 
+expr  @ 26 @ expr  @ 31 @ 
+name: output  @ 44 @ name: output  @ 51 @ 
+name: value  @ 53 @ name: value  @ 61 @ 
+comment: // namespace tensorflow  @ 58 @ comment: // namespace tensorflow  @ 66 @ 
+name: tensorflow  @ 1 @ name: tensorflow  @ 1 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+literal: 0.0  @ 46 @ literal: 0.0  @ 53 @ 
+literal: 231.59802942  @ 21 @ literal: 231.59802942  @ 26 @ 
+decl  @ 33 @ decl  @ 38 @ 
+argument  @ 52 @ argument  @ 59 @ 
+name: double  @ 8 @ name: double  @ 8 @ 
+comment: /* channels */  @ 39 @ comment: /* channels */  @ 45 @ 
+for  @ 11 @ for  @ 11 @ 
+name: size  @ 15 @ name: size  @ 16 @ 
+literal: 13.72703292  @ 21 @ literal: 13.72703292  @ 23 @ 
+expr  @ 36 @ expr  @ 41 @ 
+expr  @ 21 @ expr  @ 24 @ 
+name  @ 10 @ name  @ 10 @ 
+block  @ 11 @ block  @ 11 @ 
+name: input  @ 18 @ name: input  @ 20 @ 
+expr  @ 15 @ expr  @ 17 @ 
+expr  @ 45 @ expr  @ 52 @ 
+name: MfccMelFilterbank  @ 6 @ name: MfccMelFilterbank  @ 6 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 20 @ 
+expr  @ 21 @ expr  @ 23 @ 
+literal: 200.86037462  @ 21 @ literal: 200.86037462  @ 26 @ 
+name: i  @ 11 @ name: i  @ 11 @ 
+literal: 20.0  @ 39 @ literal: 20.0  @ 45 @ 
+argument  @ 12 @ argument  @ 12 @ 
+expr  @ 21 @ expr  @ 26 @ 
+name  @ 36 @ name  @ 41 @ 
+name: input  @ 43 @ name: input  @ 50 @ 
+block_content  @ 46 @ block_content  @ 53 @ 
+argument_list  @ 12 @ argument_list  @ 12 @ 
+expr  @ 39 @ expr  @ 44 @ 
+for  @ 53 @ for  @ 61 @ 
+expr  @ 15 @ expr  @ 15 @ 
+init  @ 14 @ init  @ 14 @ 
+control  @ 25 @ control  @ 30 @ 
+argument  @ 36 @ argument  @ 41 @ 
+name: double  @ 20 @ name: double  @ 22 @ 
+expr  @ 18 @ expr  @ 20 @ 
+comment: // This test verifies the Mel filterbank against "golden values".  @ 4 @ comment: // This test verifies the Mel filterbank against "golden values".  @ 4 @ 
+operator: .  @ 52 @ operator: .  @ 59 @ 
+name: i  @ 25 @ name: i  @ 30 @ 
+argument_list  @ 54 @ argument_list  @ 62 @ 
+literal: 17.24158686  @ 21 @ literal: 17.24158686  @ 23 @ 
+operator: ++  @ 11 @ operator: ++  @ 11 @ 
+expr  @ 21 @ expr  @ 24 @ 
+name: value  @ 54 @ name: value  @ 62 @ 
+expr  @ 14 @ expr  @ 14 @ 
+argument  @ 54 @ argument  @ 62 @ 
+index  @ 26 @ index  @ 31 @ 
+expr  @ 12 @ expr  @ 12 @ 
+name: EXPECT_LE  @ 46 @ name: EXPECT_LE  @ 53 @ 
+block  @ 20 @ block  @ 22 @ 
+expr  @ 18 @ expr  @ 20 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 14 @ 
+argument_list  @ 15 @ argument_list  @ 16 @ 
+expr  @ 37 @ expr  @ 42 @ 
+name  @ 15 @ name  @ 15 @ 
+operator: <  @ 11 @ operator: <  @ 11 @ 
+expr  @ 21 @ expr  @ 24 @ 
+expr  @ 52 @ expr  @ 59 @ 
+expr  @ 23 @ expr  @ 28 @ 
+argument  @ 53 @ argument  @ 60 @ 
+expr  @ 54 @ expr  @ 62 @ 
+argument_list  @ 53 @ argument_list  @ 60 @ 
+comment: /*lower frequency limit */  @ 15 @ comment: /*  lower frequency limit */  @ 17 @ 
+argument  @ 20 @ argument  @ 22 @ 
+expr  @ 39 @ expr  @ 44 @ 
+operator: .  @ 18 @ operator: .  @ 20 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+operator: &  @ 53 @ operator: &  @ 60 @ 
+expr  @ 21 @ expr  @ 25 @ 
+name: filterbank  @ 6 @ name: filterbank  @ 6 @ 
+for  @ 25 @ for  @ 30 @ 
+argument_list  @ 44 @ argument_list  @ 51 @ 
+name: double  @ 37 @ name: double  @ 42 @ 
+expr  @ 10 @ expr  @ 10 @ 
+argument  @ 23 @ argument  @ 28 @ 
+block_content  @ 54 @ block_content  @ 62 @ 
+name: input  @ 8 @ name: input  @ 8 @ 
+block_content  @ 6 @ block_content  @ 6 @ 
+name  @ 37 @ name  @ 42 @ 
+name: kSampleCount  @ 52 @ name: kSampleCount  @ 59 @ 
+name: assign  @ 43 @ name: assign  @ 50 @ 
+name: input  @ 10 @ name: input  @ 10 @ 
+name: int  @ 25 @ name: int  @ 30 @ 
+expr  @ 35 @ expr  @ 40 @ 
+argument  @ 37 @ argument  @ 42 @ 
+argument  @ 30 @ argument  @ 35 @ 
+decl  @ 6 @ decl  @ 6 @ 
+name: size  @ 23 @ name: size  @ 28 @ 
+argument_list  @ 43 @ argument_list  @ 50 @ 
+expr  @ 21 @ expr  @ 23 @ 
+expr  @ 26 @ expr  @ 31 @ 
+name: reserve  @ 10 @ name: reserve  @ 10 @ 
+name: kSampleCount  @ 11 @ name: kSampleCount  @ 11 @ 
+name: output  @ 37 @ name: output  @ 42 @ 
+name: filterbank  @ 18 @ name: filterbank  @ 20 @ 
+name: value  @ 45 @ name: value  @ 52 @ 
+operator: .  @ 12 @ operator: .  @ 12 @ 
+expr  @ 21 @ expr  @ 25 @ 
+literal: 43.9436536  @ 21 @ literal: 43.9436536  @ 24 @ 
+block_content  @ 26 @ block_content  @ 31 @ 
+argument  @ 3 @ argument  @ 3 @ 
+literal: 0  @ 11 @ literal: 0  @ 11 @ 
+name  @ 23 @ name  @ 28 @ 
+argument_list  @ 46 @ argument_list  @ 53 @ 
+expr  @ 15 @ expr  @ 16 @ 
+expr  @ 23 @ expr  @ 28 @ 
+argument  @ 46 @ argument  @ 53 @ 
+expr  @ 21 @ expr  @ 26 @ 
+block  @ 1 @ block  @ 1 @ 
+argument  @ 52 @ argument  @ 59 @ 
+block_content  @ 12 @ block_content  @ 12 @ 
+name: vector  @ 37 @ name: vector  @ 42 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+argument_list  @ 23 @ argument_list  @ 28 @ 
+expr  @ 18 @ expr  @ 20 @ 
+argument_list  @ 8 @ argument_list  @ 8 @ 
+argument  @ 8 @ argument  @ 8 @ 
+operator: ::  @ 17 @ operator: ::  @ 19 @ 
+literal: 4000.0  @ 15 @ literal: 4000.0  @ 17 @ 
+name: i  @ 26 @ name: i  @ 31 @ 
+operator: <  @ 25 @ operator: <  @ 30 @ 
+name: kSampleCount  @ 9 @ name: kSampleCount  @ 9 @ 
+name: output  @ 18 @ name: output  @ 20 @ 
+expr  @ 39 @ expr  @ 44 @ 
+name: output  @ 23 @ name: output  @ 28 @ 
+name: std  @ 17 @ name: std  @ 19 @ 
+literal: 0.0  @ 54 @ literal: 0.0  @ 62 @ 
+comment: // the output vector now is already the correct size, but full of nonzero  @ 50 @ comment: // the output vector now is already the correct size, but full of nonzero  @ 57 @ 
+call  @ 12 @ call  @ 12 @ 
+operator: ++  @ 25 @ operator: ++  @ 30 @ 
+specifier: const  @ 35 @ specifier: const  @ 40 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 41 @ 
+expr  @ 17 @ expr  @ 19 @ 
+name: Compute  @ 44 @ name: Compute  @ 51 @ 
+operator: ::  @ 36 @ operator: ::  @ 41 @ 
+init  @ 45 @ init  @ 52 @ 
+init  @ 9 @ init  @ 9 @ 
+literal: 513  @ 35 @ literal: 513  @ 40 @ 
+expr  @ 15 @ expr  @ 16 @ 
+name: Initialize  @ 15 @ name: Initialize  @ 15 @ 
+argument  @ 44 @ argument  @ 51 @ 
+operator: .  @ 10 @ operator: .  @ 10 @ 
+name: kSampleCount  @ 43 @ name: kSampleCount  @ 50 @ 
+block  @ 45 @ block  @ 52 @ 
+decl_stmt  @ 33 @ decl_stmt  @ 38 @ 
+comment: /* sample rate */  @ 15 @ comment: /* sample rate */  @ 16 @ 
+argument_list  @ 17 @ argument_list  @ 19 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 31 @ 
+unit  @ 1 @ unit  @ 1 @ 
+literal: 20  @ 14 @ literal: 20  @ 14 @ 
+expr  @ 26 @ expr  @ 31 @ 
+call  @ 23 @ call  @ 28 @ 
+name: int  @ 11 @ name: int  @ 11 @ 
+init  @ 35 @ init  @ 40 @ 
+expr  @ 52 @ expr  @ 59 @ 
+range  @ 45 @ range  @ 52 @ 
+type  @ 53 @ type  @ 61 @ 
+name: value  @ 46 @ name: value  @ 53 @ 
+init  @ 25 @ init  @ 30 @ 
+argument  @ 26 @ argument  @ 31 @ 
+argument  @ 43 @ argument  @ 50 @ 
+argument  @ 39 @ argument  @ 44 @ 
+name  @ 39 @ name  @ 44 @ 
+expr  @ 54 @ expr  @ 62 @ 
+literal: 31.30624108  @ 21 @ literal: 31.30624108  @ 24 @ 
+expr  @ 52 @ expr  @ 59 @ 
+name: std  @ 36 @ name: std  @ 41 @ 
+expr  @ 15 @ expr  @ 16 @ 
+argument  @ 3 @ argument  @ 3 @ 
+expr_stmt  @ 8 @ expr_stmt  @ 8 @ 
+specifier: const  @ 14 @ specifier: const  @ 14 @ 
+name: filterbank  @ 33 @ name: filterbank  @ 38 @ 
+expr  @ 54 @ expr  @ 62 @ 
+name: int  @ 14 @ name: int  @ 14 @ 
+name  @ 15 @ name  @ 16 @ 
+specifier: const  @ 45 @ specifier: const  @ 52 @ 
+block  @ 53 @ block  @ 61 @ 
+index  @ 26 @ index  @ 31 @ 
+expr  @ 21 @ expr  @ 25 @ 
+argument_list  @ 36 @ argument_list  @ 41 @ 
+expr  @ 21 @ expr  @ 25 @ 
+name: vector  @ 20 @ name: vector  @ 22 @ 
+operator: &  @ 18 @ operator: &  @ 20 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+name: expected  @ 26 @ name: expected  @ 31 @ 
+literal: 112.08428368  @ 21 @ literal: 112.08428368  @ 25 @ 
+name: kChannelCount  @ 15 @ name: kChannelCount  @ 16 @ 
+expr  @ 25 @ expr  @ 30 @ 
+name: i  @ 11 @ name: i  @ 11 @ 
+comment: /* upper frequency limit */  @ 39 @ comment: /* upper frequency limit */  @ 46 @ 
+expr  @ 21 @ expr  @ 26 @ 
+expr  @ 53 @ expr  @ 60 @ 
+expr  @ 23 @ expr  @ 28 @ 
+specifier: const  @ 9 @ specifier: const  @ 9 @ 
+name: filterbank  @ 44 @ name: filterbank  @ 51 @ 
+name: vector  @ 36 @ name: vector  @ 41 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: input  @ 15 @ name: input  @ 16 @ 
+call  @ 43 @ call  @ 50 @ 
+name: i  @ 26 @ name: i  @ 31 @ 
+decl  @ 11 @ decl  @ 11 @ 
+incr  @ 11 @ incr  @ 11 @ 
+call  @ 39 @ call  @ 44 @ 
+argument_list  @ 30 @ argument_list  @ 35 @ 
+name  @ 26 @ name  @ 31 @ 
+

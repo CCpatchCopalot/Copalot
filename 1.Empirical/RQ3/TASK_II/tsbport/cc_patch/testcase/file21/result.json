@@ -1,0 +1,69 @@
+{
+    "testcase": {
+        "file21": {
+            "match_message": {
+                "Same: tensorflow -> tensorflow": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 27->43)",
+                        "L2": "3: Unique Matched by Source code 28 -> 50"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "5: Matched by Syntax(AST) similarity 34->59",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 35->59"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 49,
+                        "add_hunk": [
+                            "  int64_t nnz = a_indices->dim_size(0);\n",
+                            "  int64_t ndims = a_indices->dim_size(1);\n",
+                            "  if (a_values->dim_size(0) != nnz) {  // Critical validation\n",
+                            "    return errors::InvalidArgument(\"Dimensions \", nnz, \" and \", a_values->dim_size(0), \" are not compatible\");\n",
+                            "  }\n",
+                            "  if (a_shape->dim_size(0) != ndims) {  // Critical validation\n",
+                            "    return errors::InvalidArgument(\"Dimensions \", ndims, \" and \", a_shape->dim_size(0), \" are not compatible\");\n",
+                            "  }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 59,
+                        "add_hunk": [
+                            "    }\n",
+                            "  }\n",
+                            "  const auto a_indices_mat = a_indices->flat_inner_dims<Index>();\n",
+                            "  for (int64_t zidx = 0; zidx < nnz; ++zidx) {\n",
+                            "    for (int64_t didx = 0; didx < ndims; ++didx) {\n",
+                            "      const Index idx = a_indices_mat(zidx, didx);\n",
+                            "      if (idx < 0 || idx >= a_shape_flat(didx)) {  // Bounds check\n",
+                            "        return errors::InvalidArgument(\"Sparse tensor has an invalid index on dimension \", didx,\": \"\"a_indices(\",zidx, \",\", didx, \") = \", idx,\", dense tensor shape: \", a_shape_flat);\n",
+                            "      }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: tensorflow -> tensorflow": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "change_type",
+                "other"
+            ]
+        }
+    }
+}

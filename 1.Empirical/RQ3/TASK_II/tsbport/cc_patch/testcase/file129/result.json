@@ -1,0 +1,45 @@
+{
+    "testcase": {
+        "file129": {
+            "match_message": {
+                "Same: chnl_box_read -> chnl_box_read": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 12536 -> 12465",
+                        "L2": "8: update L2 by L1 (5: Matched by Syntax(AST) similarity 12537->12467)"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 27,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 12465,
+                        "add_hunk": [
+                            "\t\t\t\tif (ptr->layout.channels_count==64) return GF_ISOM_INVALID_FILE;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: chnl_box_read -> chnl_box_read": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

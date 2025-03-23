@@ -1,0 +1,93 @@
+{
+    "testcase": {
+        "file94": {
+            "match_message": {
+                "Same: pixBlockconv -> pixBlockconv": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 33 -> 142",
+                        "L2": "3: Unique Matched by Source code 34 -> 143"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 37 -> 146",
+                        "L2": "3: Unique Matched by Source code 40 -> 149"
+                    },
+                    "Seg_2": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 42->151",
+                        "L2": "3: Unique Matched by Source code 43 -> 152"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 142,
+                        "add_hunk": [
+                            "    if (wc <= 0 || hc <= 0)\n",
+                            "        return pixCopy(NULL, pix);\n"
+                        ],
+                        "delete_location": [
+                            142,
+                            143
+                        ],
+                        "delete_hunk": [
+                            "    if (wc < 0) wc = 0;\n",
+                            "    if (hc < 0) hc = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 146,
+                        "add_hunk": [
+                            "        L_ERROR(\"kernel is too large: w = %d, wc = %d, h = %d, hc = %d\\n\",procName, w, wc, h, hc);\n",
+                            "        return pixCopy(NULL, pix);  /* no-op */\n"
+                        ],
+                        "delete_location": [
+                            146,
+                            149
+                        ],
+                        "delete_hunk": [
+                            "        wc = L_MIN(wc, (w - 1) / 2);\n",
+                            "        hc = L_MIN(hc, (h - 1) / 2);\n",
+                            "        L_WARNING(\"kernel too large; reducing!\\n\", procName);\n",
+                            "        L_INFO(\"wc = %d, hc = %d\\n\", procName, wc, hc);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            151,
+                            152
+                        ],
+                        "delete_hunk": [
+                            "    if (wc == 0 && hc == 0)   /* no-op */\n",
+                            "        return pixCopy(NULL, pix);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: pixBlockconv -> pixBlockconv": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "function_call",
+                "change_value"
+            ]
+        }
+    }
+}

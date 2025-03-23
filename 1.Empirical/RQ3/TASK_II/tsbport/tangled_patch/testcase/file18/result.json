@@ -1,0 +1,117 @@
+{
+    "testcase": {
+        "file18": {
+            "match_message": {
+                "Same: tensorflow -> tensorflow": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 49 -> 66",
+                        "L2": "7: Context line (Ignored) is empty or comment 48"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 51",
+                        "L2": "7: Context line (Ignored) is empty or comment 52"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 54",
+                        "L2": "7: Context line (Ignored) is empty or comment 54"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 137->188",
+                        "L2": "3: Unique Matched by Source code 138 -> 189"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 141->187",
+                        "L2": "7: Context line (Ignored) is empty or comment 142"
+                    },
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 144->186 ([[186, 0.552346570397112], [191, 0.5043478260869565]]))",
+                        "L2": "3: Unique Matched by Source code 145 -> 213"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "        OP_REQUIRES(context, valid_splits,errors::InvalidArgument(\"Invalid split value \", splits_vec(i), \", must be in [\",prev_split, \", \", input_data_size, \"]\"));\n",
+                            "        prev_split = splits_vec(i);\n",
+                            "      }\n",
+                            "      OP_REQUIRES(context, prev_split == input_data_size,errors::InvalidArgument(\"Last split value must be data size. Expected \",input_data_size, \", got \", prev_split));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 23,
+                        "add_hunk": [
+                            "    if (splits_vec_size > 0) {\n",
+                            "      int prev_split = splits_vec(0);\n",
+                            "      OP_REQUIRES(context, prev_split == 0,errors::InvalidArgument(\"First split value must be 0, got \",prev_split));\n",
+                            "      for (int i = 1; i < splits_vec_size; ++i) {\n",
+                            "        bool valid_splits = splits_vec(i) >= prev_split;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 66,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 187,
+                        "add_hunk": [
+                            "      if (num_tokens > 0) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 212,
+                        "add_hunk": [
+                            "          ngram->append(right_pad_);\n",
+                            "        }\n",
+                            "      } else {\n",
+                            "        for (int n = 0; n < right_padding - 1; ++n) {\n",
+                            "          ngram->append(right_pad_);\n",
+                            "          ngram->append(separator_);\n",
+                            "        }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: tensorflow -> tensorflow": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "change_type",
+                "MOVE_TO",
+                "sanity_check",
+                "function_call",
+                "in_loop",
+                "other"
+            ]
+        }
+    }
+}

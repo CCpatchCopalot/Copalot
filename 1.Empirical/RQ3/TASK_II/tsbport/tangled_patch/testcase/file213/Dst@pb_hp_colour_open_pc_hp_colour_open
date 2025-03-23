@@ -1,0 +1,27 @@
+static int
+hp_colour_open(gx_device * pdev)
+{
+    int retCode;
+
+    cdj970->PageCtr = 0;
+
+    /* Set up colour params if put_params has not already done so */
+    if (pdev->color_info.num_components == 0) {
+        int code = cdj_set_bpp(pdev, pdev->color_info.depth,
+                               pdev->color_info.num_components);
+
+        if (code < 0)
+            return code;
+    }
+
+    retCode = gdev_prn_open(pdev);
+    if (retCode < 0)
+        return (retCode);
+    else {
+        retCode = gdev_prn_open_printer(pdev, true);
+        if (retCode < 0)
+            return (retCode);
+    }
+
+    return 0;
+}

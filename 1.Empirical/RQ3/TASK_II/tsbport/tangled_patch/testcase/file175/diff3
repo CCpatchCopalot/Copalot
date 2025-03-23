@@ -1,0 +1,96 @@
+-1c-1,-2
+<    }
+---
+-1c-1,-2
+<    }
+---
+-1c-1,-2
+<    }
+---
+-1c-1,-2
+<    }
+---
+-1c-1,-2
+<    }
+---
+142,143c142,143
+<    if (wc < 0) wc = 0;
+<    if (hc < 0) hc = 0;
+---
+>    if (wc <= 0 || hc <= 0)
+>        return pixCopy(NULL, pix);
+146,149c146,147
+<        wc = L_MIN(wc, (w - 1) / 2);
+<        hc = L_MIN(hc, (h - 1) / 2);
+<        L_WARNING("kernel too large; reducing!\n", procName);
+<        L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+---
+>        L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+>        return pixCopy(NULL, pix);  /* no-op */
+151,152d
+<    if (wc == 0 && hc == 0)   /* no-op */
+<        return pixCopy(NULL, pix);
+230,232c230
+<    if (wc < 0) wc = 0;
+<    if (hc < 0) hc = 0;
+<    if (wc == 0 && hc == 0)   /* no-op */
+---
+>    if (wc <= 0 || hc <= 0)   /* no-op */
+235,236c235
+<        L_WARNING("kernel too large; returning a copy\n", procName);
+<        L_INFO("w = %d, wc = %d, h = %d, hc = %d\n", procName, w, wc, h, hc);
+---
+>        L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+653,654c653,654
+<    if (wc < 0) wc = 0;
+<    if (hc < 0) hc = 0;
+---
+>    if (wc <= 0 || hc <= 0)  /* no-op */
+>        return pixCopy(NULL, pixs);
+656,661c656
+<        wc = L_MIN(wc, (w - 1) / 2);
+<        hc = L_MIN(hc, (h - 1) / 2);
+<        L_WARNING("kernel too large; reducing!\n", procName);
+<        L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+<    }
+<    if (wc == 0 && hc == 0)   /* no-op */
+---
+>        L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+662a663
+>    }
+744,753c744
+<    if (wc < 0) wc = 0;
+<    if (hc < 0) hc = 0;
+<    pixGetDimensions(pix, &w, &h, &d);
+<    if (w < 2 * wc + 3 || h < 2 * hc + 3) {
+<        wc = L_MAX(0, L_MIN(wc, (w - 3) / 2));
+<        hc = L_MAX(0, L_MIN(hc, (h - 3) / 2));
+<        L_WARNING("kernel too large; reducing!\n", procName);
+<        L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+<    }
+<    if (wc == 0 && hc == 0)   /* no-op */
+---
+>    if (wc <= 0 || hc <= 0)   /* no-op */
+756a757,761
+>    pixGetDimensions(pix, &w, &h, &d);
+>    if (w < 2 * wc + 3 || h < 2 * hc + 3) {
+>        L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+>        return pixCopy(NULL, pix);
+>    }
+873,874c873,874
+<    if (wc < 0) wc = 0;
+<    if (hc < 0) hc = 0;
+---
+>    if (wc <= 0 || hc <= 0)  /* no-op */
+>        return pixCopy(NULL, pixs);
+876,881c876
+<        wc = L_MAX(0, L_MIN(wc, (w - 3) / 2));
+<        hc = L_MAX(0, L_MIN(hc, (h - 3) / 2));
+<        L_WARNING("kernel too large; reducing!\n", procName);
+<        L_INFO("wc = %d, hc = %d\n", procName, wc, hc);
+<    }
+<    if (wc == 0 && hc == 0)
+---
+>        L_ERROR("kernel is too large: w = %d, wc = %d, h = %d, hc = %d\n",procName, w, wc, h, hc);
+882a883
+>    }

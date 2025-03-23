@@ -1,0 +1,106 @@
+{
+    "testcase": {
+        "file184": {
+            "match_message": {
+                "Same: sectransp_connect_step1 -> sectransp_connect_step1": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1279 -> 1402",
+                        "L2": "3: Unique Matched by Source code 1279 -> 1402"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1282->1407 ([[1407, 0.48841354723707664], [1554, 0.3409490333919156], [1769, 0.3214953271028037], [1441, 0.30980392156862746], [1746, 0.30797101449275366], [1465, 0.28130360205831906]])",
+                        "L2": "7: Context line (Ignored) is empty or comment 1283"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 1469",
+                        "L2": "7: Context line (Ignored) is empty or comment 1469"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 1745",
+                        "L2": "7: Context line (Ignored) is empty or comment 1745"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 1769",
+                        "L2": "7: Context line (Ignored) is empty or comment 1769"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "      if(data->state.httpversion >= CURL_HTTP_VERSION_2#ifndef CURL_DISABLE_PROXY && (!isproxy || !conn->bits.tunnel_proxy)#endif) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "    if(!Curl_ssl_getsessionid(data, conn, isproxy, (void **)&ssl_sessionid,&ssl_sessionid_len, sockindex)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "      result = Curl_ssl_addsessionid(data, conn, isproxy, ssl_sessionid, ssl_sessionid_len, sockindex);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1402,
+                        "add_hunk": [
+                            "  bool isproxy = SSL_IS_PROXY();\n",
+                            "  const char * const hostname = isproxy ? conn->http_proxy.host.name :\n"
+                        ],
+                        "delete_location": [
+                            1402,
+                            1402
+                        ],
+                        "delete_hunk": [
+                            "  const char * const hostname = SSL_IS_PROXY() ? conn->http_proxy.host.name :\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1407,
+                        "add_hunk": [
+                            "  const isproxy = FALSE;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: sectransp_connect_step1 -> sectransp_connect_step1": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "outside",
+                "function_call",
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

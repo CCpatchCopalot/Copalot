@@ -1,0 +1,47 @@
+{
+    "testcase": {
+        "file11": {
+            "match_message": {
+                "Same: TIFFReadDirectory -> TIFFReadDirectory": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 5266",
+                        "L2": "7: Context line (Ignored) is empty or comment 5267"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "            (offset >= TIFFGetFileSize(tif) || stripbytes > (TIFFGetFileSize(tif) - offset) / (nstrips - 1)) ) * the original one strip information.\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 33,
+                        "add_hunk": [
+                            "#include <float.h>\n",
+                            "#include <stdlib.h>\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: TIFFReadDirectory -> TIFFReadDirectory": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other"
+            ]
+        }
+    }
+}

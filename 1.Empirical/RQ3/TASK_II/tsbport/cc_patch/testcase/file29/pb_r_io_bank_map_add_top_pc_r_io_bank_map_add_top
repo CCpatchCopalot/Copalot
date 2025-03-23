@@ -1,0 +1,825 @@
+expr  @ 38 @ expr  @ 40 @ 
+operator: =  @ 82 @ operator: =  @ 76 @ 
+call  @ 94 @ call  @ 87 @ 
+call  @ 54 @ call  @ 56 @ 
+block  @ 47 @ block  @ 49 @ 
+name: r_list_append  @ 33 @ name: r_list_append  @ 34 @ 
+block  @ 53 @ block  @ 55 @ 
+name: r_list_append  @ 60 @ name: r_list_append  @ 62 @ 
+argument_list  @ 67 @ argument_list  @ 69 @ 
+argument_list  @ 45 @ argument_list  @ 47 @ 
+modifier: *  @ 38 @ modifier: *  @ 40 @ 
+operator: !  @ 53 @ operator: !  @ 55 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 42 @ 
+operator: !  @ 6 @ operator: !  @ 6 @ 
+name: sm  @ 14 @ name: sm  @ 14 @ 
+operator: (  @ 85 @ operator: (  @ 78 @ 
+name: sm  @ 85 @ name: sm  @ 78 @ 
+expr  @ 65 @ expr  @ 67 @ 
+name: r_io_submap_set_from  @ 87 @ name: r_io_submap_set_from  @ 80 @ 
+name: sm  @ 31 @ name: sm  @ 32 @ 
+expr  @ 87 @ expr  @ 80 @ 
+expr  @ 54 @ expr  @ 56 @ 
+expr  @ 2 @ expr  @ 2 @ 
+operator: !  @ 39 @ operator: !  @ 41 @ 
+name: submaps  @ 47 @ name: submaps  @ 49 @ 
+name: entry  @ 77 @ name: entry  @ 71 @ 
+call  @ 41 @ call  @ 43 @ 
+expr  @ 36 @ expr  @ 38 @ 
+argument_list  @ 36 @ argument_list  @ 37 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: r_io_submap_new  @ 9 @ name: r_io_submap_new  @ 9 @ 
+name: free  @ 56 @ name: free  @ 58 @ 
+operator: ->  @ 89 @ operator: ->  @ 82 @ 
+expr  @ 66 @ expr  @ 68 @ 
+argument  @ 65 @ argument  @ 67 @ 
+argument_list  @ 36 @ argument_list  @ 38 @ 
+name: submaps  @ 17 @ name: submaps  @ 17 @ 
+condition  @ 72 @ condition  @ 71 @ 
+name  @ 94 @ name  @ 87 @ 
+condition  @ 65 @ condition  @ 67 @ 
+literal: 1  @ 44 @ literal: 1  @ 46 @ 
+call  @ 45 @ call  @ 47 @ 
+call  @ 18 @ call  @ 18 @ 
+expr  @ 40 @ expr  @ 42 @ 
+return  @ 42 @ return  @ 44 @ 
+expr  @ 58 @ expr  @ 60 @ 
+name: free  @ 49 @ name: free  @ 51 @ 
+argument  @ 38 @ argument  @ 40 @ 
+expr  @ 47 @ expr  @ 49 @ 
+name: RIOMapRef  @ 5 @ name: RIOMapRef  @ 5 @ 
+block  @ 10 @ block  @ 10 @ 
+type  @ 1 @ type  @ 1 @ 
+argument_list  @ 31 @ argument_list  @ 32 @ 
+type  @ 74 @ type  @ 73 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+expr_stmt  @ 90 @ expr_stmt  @ 83 @ 
+call  @ 56 @ call  @ 58 @ 
+expr  @ 32 @ expr  @ 33 @ 
+expr  @ 60 @ expr  @ 62 @ 
+expr  @ 49 @ expr  @ 51 @ 
+expr  @ 17 @ expr  @ 17 @ 
+condition  @ 10 @ condition  @ 10 @ 
+name: sm  @ 10 @ name: sm  @ 10 @ 
+name: true  @ 34 @ name: true  @ 35 @ 
+expr  @ 44 @ expr  @ 46 @ 
+expr  @ 69 @ expr  @ 71 @ 
+name  @ 25 @ name  @ 25 @ 
+name: mapref  @ 6 @ name: mapref  @ 6 @ 
+expr  @ 89 @ expr  @ 82 @ 
+name: r_io_submap_to  @ 85 @ name: r_io_submap_to  @ 78 @ 
+block  @ 39 @ block  @ 41 @ 
+argument_list  @ 77 @ argument_list  @ 71 @ 
+argument_list  @ 5 @ argument_list  @ 5 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 56 @ 
+name: next  @ 74 @ name: next  @ 73 @ 
+if  @ 85 @ if  @ 78 @ 
+name: sm  @ 44 @ name: sm  @ 46 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 22 @ 
+operator: *  @ 77 @ operator: *  @ 71 @ 
+comment: // TODO: insert and check return value, before adjusting sm size  @ 46 @ comment: // TODO: insert and check return value, before adjusting sm size  @ 48 @ 
+operator: ->  @ 78 @ operator: ->  @ 75 @ 
+modifier: *  @ 26 @ modifier: *  @ 26 @ 
+argument  @ 14 @ argument  @ 14 @ 
+return  @ 95 @ return  @ 88 @ 
+name: bd  @ 26 @ name: bd  @ 26 @ 
+operator: ->  @ 53 @ operator: ->  @ 55 @ 
+call  @ 67 @ call  @ 69 @ 
+expr  @ 94 @ expr  @ 87 @ 
+name  @ 86 @ name  @ 79 @ 
+call  @ 87 @ call  @ 80 @ 
+operator: ->  @ 77 @ operator: ->  @ 71 @ 
+name: bd  @ 27 @ name: bd  @ 27 @ 
+name: bank  @ 17 @ name: bank  @ 17 @ 
+decl  @ 2 @ decl  @ 2 @ 
+operator: (  @ 85 @ operator: (  @ 78 @ 
+name: NULL  @ 53 @ name: NULL  @ 55 @ 
+if  @ 17 @ if  @ 17 @ 
+name: false  @ 51 @ name: false  @ 53 @ 
+block  @ 36 @ block  @ 38 @ 
+name: entry  @ 85 @ name: entry  @ 78 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument_list  @ 57 @ argument_list  @ 59 @ 
+argument_list  @ 66 @ argument_list  @ 68 @ 
+expr  @ 54 @ expr  @ 56 @ 
+call  @ 87 @ call  @ 80 @ 
+block_content  @ 40 @ block_content  @ 42 @ 
+if  @ 6 @ if  @ 6 @ 
+name: r_crbtree_insert  @ 47 @ name: r_crbtree_insert  @ 49 @ 
+modifier: *  @ 9 @ modifier: *  @ 9 @ 
+expr_stmt  @ 60 @ expr_stmt  @ 62 @ 
+type  @ 14 @ type  @ 14 @ 
+block  @ 27 @ block  @ 28 @ 
+operator: &&  @ 27 @ operator: &&  @ 27 @ 
+name: mapref  @ 91 @ name: mapref  @ 84 @ 
+argument  @ 44 @ argument  @ 46 @ 
+operator: (  @ 86 @ operator: (  @ 79 @ 
+name: sm  @ 40 @ name: sm  @ 42 @ 
+argument  @ 53 @ argument  @ 55 @ 
+expr  @ 89 @ expr  @ 82 @ 
+expr  @ 15 @ expr  @ 15 @ 
+call  @ 65 @ call  @ 67 @ 
+argument_list  @ 74 @ argument_list  @ 73 @ 
+expr  @ 87 @ expr  @ 80 @ 
+comment: // we can just memcpy  @ 30 @ comment: // we can just memcpy  @ 31 @ 
+name: free  @ 11 @ name: free  @ 11 @ 
+expr  @ 66 @ expr  @ 68 @ 
+call  @ 77 @ call  @ 71 @ 
+name: free  @ 57 @ name: free  @ 59 @ 
+name: free  @ 91 @ name: free  @ 84 @ 
+name: NULL  @ 25 @ name: NULL  @ 25 @ 
+operator: -  @ 45 @ operator: -  @ 47 @ 
+operator: !  @ 89 @ operator: !  @ 82 @ 
+expr  @ 49 @ expr  @ 51 @ 
+type  @ 9 @ type  @ 9 @ 
+name: bank  @ 54 @ name: bank  @ 56 @ 
+comment: // prior to bd in the range of sm, so instead of deleting and inserting  @ 29 @ comment: // prior to bd in the range of sm, so instead of deleting and inserting  @ 30 @ 
+return  @ 20 @ return  @ 20 @ 
+call  @ 78 @ call  @ 75 @ 
+init  @ 5 @ init  @ 5 @ 
+expr  @ 94 @ expr  @ 87 @ 
+expr  @ 38 @ expr  @ 40 @ 
+name: next  @ 82 @ name: next  @ 76 @ 
+if  @ 53 @ if  @ 55 @ 
+expr  @ 51 @ expr  @ 53 @ 
+argument  @ 54 @ argument  @ 56 @ 
+if_stmt  @ 47 @ if_stmt  @ 49 @ 
+name: io  @ 9 @ name: io  @ 9 @ 
+expr  @ 53 @ expr  @ 55 @ 
+operator: *  @ 85 @ operator: *  @ 78 @ 
+argument  @ 87 @ argument  @ 80 @ 
+expr  @ 19 @ expr  @ 19 @ 
+call  @ 65 @ call  @ 67 @ 
+name: r_io_bank_get  @ 2 @ name: r_io_bank_get  @ 2 @ 
+expr  @ 74 @ expr  @ 73 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 32 @ 
+name: entry  @ 74 @ name: entry  @ 73 @ 
+operator: =  @ 77 @ operator: &&  @ 71 @ 
+name: mapref  @ 57 @ name: mapref  @ 59 @ 
+argument  @ 27 @ argument  @ 27 @ 
+name: submaps  @ 89 @ name: submaps  @ 82 @ 
+operator: )  @ 26 @ operator: )  @ 26 @ 
+name: bd  @ 31 @ name: bd  @ 32 @ 
+condition  @ 17 @ condition  @ 17 @ 
+operator: ==  @ 27 @ operator: ==  @ 27 @ 
+block_content  @ 31 @ block_content  @ 32 @ 
+argument  @ 31 @ argument  @ 32 @ 
+argument_list  @ 31 @ argument_list  @ 32 @ 
+expr  @ 77 @ expr  @ 71 @ 
+block_content  @ 54 @ block_content  @ 56 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+if_stmt  @ 53 @ if_stmt  @ 55 @ 
+name: true  @ 95 @ name: true  @ 88 @ 
+name: sm  @ 90 @ name: sm  @ 83 @ 
+name: data  @ 77 @ name: data  @ 71 @ 
+name: bd  @ 65 @ name: bd  @ 67 @ 
+argument  @ 48 @ argument  @ 50 @ 
+argument_list  @ 78 @ argument_list  @ 75 @ 
+decl  @ 74 @ decl  @ 73 @ 
+name: free  @ 32 @ name: free  @ 33 @ 
+expr  @ 27 @ expr  @ 27 @ 
+name: RIOSubMap  @ 38 @ name: RIOSubMap  @ 40 @ 
+if_stmt  @ 10 @ if_stmt  @ 10 @ 
+decl_stmt  @ 2 @ decl_stmt  @ 2 @ 
+decl_stmt  @ 9 @ decl_stmt  @ 9 @ 
+decl  @ 14 @ decl  @ 14 @ 
+operator: ->  @ 17 @ operator: ->  @ 17 @ 
+argument_list  @ 19 @ argument_list  @ 19 @ 
+argument_list  @ 85 @ argument_list  @ 78 @ 
+expr_stmt  @ 4 @ expr_stmt  @ 4 @ 
+argument  @ 56 @ argument  @ 58 @ 
+call  @ 36 @ call  @ 37 @ 
+expr_stmt  @ 86 @ expr_stmt  @ 79 @ 
+name: NULL  @ 54 @ name: NULL  @ 56 @ 
+block_content  @ 90 @ block_content  @ 83 @ 
+operator: ->  @ 25 @ operator: ->  @ 25 @ 
+block_content  @ 74 @ block_content  @ 73 @ 
+name: RIOSubMap  @ 38 @ name: RIOSubMap  @ 40 @ 
+block_content  @ 86 @ block_content  @ 79 @ 
+argument  @ 11 @ argument  @ 11 @ 
+name: false  @ 58 @ name: false  @ 60 @ 
+argument  @ 31 @ argument  @ 32 @ 
+argument  @ 54 @ argument  @ 56 @ 
+expr  @ 65 @ expr  @ 67 @ 
+argument  @ 89 @ argument  @ 82 @ 
+name  @ 53 @ name  @ 55 @ 
+argument_list  @ 87 @ argument_list  @ 80 @ 
+expr  @ 67 @ expr  @ 69 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 43 @ 
+name: r_io_submap_to  @ 87 @ name: r_io_submap_to  @ 80 @ 
+name: r_io_submap_to  @ 69 @ name: r_io_submap_to  @ 71 @ 
+call  @ 36 @ call  @ 38 @ 
+name: free  @ 19 @ name: free  @ 19 @ 
+decl  @ 3 @ decl  @ 3 @ 
+name: r_io_submap_from  @ 36 @ name: r_io_submap_from  @ 37 @ 
+operator: ->  @ 94 @ operator: ->  @ 87 @ 
+expr  @ 11 @ expr  @ 11 @ 
+sizeof  @ 31 @ sizeof  @ 32 @ 
+argument  @ 57 @ argument  @ 59 @ 
+expr  @ 27 @ expr  @ 28 @ 
+type  @ 5 @ type  @ 5 @ 
+name: RRBNode  @ 74 @ name: RRBNode  @ 73 @ 
+name: bd  @ 45 @ name: bd  @ 47 @ 
+name  @ 17 @ name  @ 17 @ 
+expr  @ 78 @ expr  @ 75 @ 
+expr  @ 56 @ expr  @ 58 @ 
+expr  @ 57 @ expr  @ 59 @ 
+name: NULL  @ 47 @ name: NULL  @ 49 @ 
+argument  @ 69 @ argument  @ 71 @ 
+name: r_io_submap_to  @ 77 @ name: r_io_submap_to  @ 71 @ 
+name: last_used  @ 25 @ name: last_used  @ 25 @ 
+name: r_crbtree_delete  @ 54 @ name: r_crbtree_delete  @ 56 @ 
+expr  @ 66 @ expr  @ 68 @ 
+expr  @ 44 @ expr  @ 46 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+name: sm  @ 66 @ name: sm  @ 68 @ 
+name: r_io_submap_from  @ 27 @ name: r_io_submap_from  @ 28 @ 
+expr  @ 41 @ expr  @ 43 @ 
+expr  @ 55 @ expr  @ 57 @ 
+type  @ 1 @ type  @ 1 @ 
+init  @ 3 @ init  @ 3 @ 
+name: bdsm  @ 44 @ name: bdsm  @ 46 @ 
+argument  @ 4 @ argument  @ 4 @ 
+expr  @ 53 @ expr  @ 55 @ 
+expr  @ 31 @ expr  @ 32 @ 
+expr  @ 60 @ expr  @ 62 @ 
+block_content  @ 17 @ block_content  @ 17 @ 
+operator: &&  @ 36 @ operator: &&  @ 37 @ 
+argument  @ 54 @ argument  @ 56 @ 
+call  @ 27 @ call  @ 28 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 27 @ expr  @ 28 @ 
+name: bank  @ 47 @ name: bank  @ 49 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 26 @ 
+expr  @ 38 @ expr  @ 40 @ 
+argument_list  @ 36 @ argument_list  @ 38 @ 
+operator: )  @ 77 @ operator: )  @ 71 @ 
+argument  @ 40 @ argument  @ 42 @ 
+name: true  @ 61 @ name: true  @ 63 @ 
+if_stmt  @ 39 @ if_stmt  @ 41 @ 
+name  @ 78 @ name  @ 75 @ 
+expr  @ 4 @ expr  @ 4 @ 
+expr  @ 55 @ expr  @ 57 @ 
+argument_list  @ 54 @ argument_list  @ 56 @ 
+name: bd  @ 36 @ name: bd  @ 37 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 32 @ expr  @ 33 @ 
+name: entry  @ 26 @ name: entry  @ 26 @ 
+argument  @ 85 @ argument  @ 78 @ 
+name: r_crbtree_insert  @ 53 @ name: r_crbtree_insert  @ 55 @ 
+name: bd  @ 66 @ name: bd  @ 68 @ 
+parameter_list  @ 1 @ parameter_list  @ 1 @ 
+expr  @ 60 @ expr  @ 62 @ 
+expr  @ 36 @ expr  @ 37 @ 
+argument  @ 78 @ argument  @ 75 @ 
+name: data  @ 86 @ name: data  @ 79 @ 
+expr  @ 25 @ expr  @ 25 @ 
+name: _find_entry_submap_node  @ 14 @ name: _find_entry_submap_node  @ 14 @ 
+argument  @ 54 @ argument  @ 56 @ 
+name: r_io_submap_from  @ 27 @ name: r_io_submap_from  @ 28 @ 
+argument  @ 78 @ argument  @ 75 @ 
+call  @ 27 @ call  @ 27 @ 
+name: sm  @ 89 @ name: sm  @ 82 @ 
+expr  @ 54 @ expr  @ 56 @ 
+expr  @ 19 @ expr  @ 19 @ 
+name: bdsm  @ 56 @ name: bdsm  @ 58 @ 
+argument_list  @ 91 @ argument_list  @ 84 @ 
+call  @ 27 @ call  @ 27 @ 
+name: bd  @ 36 @ name: bd  @ 38 @ 
+call  @ 53 @ call  @ 55 @ 
+operator: ->  @ 54 @ operator: ->  @ 56 @ 
+name  @ 22 @ name  @ 22 @ 
+argument_list  @ 60 @ argument_list  @ 62 @ 
+expr  @ 22 @ expr  @ 22 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument  @ 53 @ argument  @ 55 @ 
+operator: )  @ 86 @ operator: )  @ 79 @ 
+argument_list  @ 3 @ argument_list  @ 3 @ 
+expr  @ 44 @ expr  @ 46 @ 
+expr  @ 87 @ expr  @ 80 @ 
+operator: =  @ 67 @ operator: =  @ 69 @ 
+name: r_io_submap_to  @ 36 @ name: r_io_submap_to  @ 38 @ 
+call  @ 55 @ call  @ 57 @ 
+name: mapref  @ 9 @ name: mapref  @ 9 @ 
+decl  @ 26 @ decl  @ 26 @ 
+while  @ 72 @ while  @ 71 @ 
+expr  @ 94 @ expr  @ 87 @ 
+name: bank  @ 53 @ name: bank  @ 55 @ 
+name: r_io_submap_to  @ 36 @ name: r_io_submap_to  @ 38 @ 
+operator: >=  @ 27 @ operator: >=  @ 28 @ 
+expr  @ 90 @ expr  @ 83 @ 
+name: r_io_submap_set_from  @ 44 @ name: r_io_submap_set_from  @ 46 @ 
+argument  @ 17 @ argument  @ 17 @ 
+name: sm  @ 55 @ name: sm  @ 57 @ 
+expr  @ 7 @ expr  @ 7 @ 
+init  @ 38 @ init  @ 40 @ 
+argument  @ 31 @ argument  @ 32 @ 
+block_content  @ 66 @ block_content  @ 68 @ 
+name: bank  @ 78 @ name: bank  @ 75 @ 
+name: map  @ 4 @ name: map  @ 4 @ 
+condition  @ 36 @ condition  @ 37 @ 
+expr  @ 3 @ expr  @ 3 @ 
+expr  @ 3 @ expr  @ 3 @ 
+argument  @ 17 @ argument  @ 17 @ 
+name: io  @ 4 @ name: io  @ 4 @ 
+name: R_API  @ 1 @ name: R_API  @ 1 @ 
+operator: <=  @ 72 @ operator: <=  @ 71 @ 
+argument_list  @ 11 @ argument_list  @ 11 @ 
+operator: &&  @ 4 @ operator: &&  @ 4 @ 
+name: r_list_append  @ 22 @ name: r_list_append  @ 22 @ 
+decl  @ 1 @ decl  @ 1 @ 
+expr  @ 53 @ expr  @ 55 @ 
+expr_stmt  @ 94 @ expr_stmt  @ 87 @ 
+argument  @ 45 @ argument  @ 47 @ 
+call  @ 57 @ call  @ 59 @ 
+expr  @ 22 @ expr  @ 22 @ 
+name: bdsm  @ 53 @ name: bdsm  @ 55 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 14 @ 
+expr  @ 48 @ expr  @ 50 @ 
+name: NULL  @ 17 @ name: NULL  @ 17 @ 
+name: bdsm  @ 49 @ name: bdsm  @ 51 @ 
+argument_list  @ 55 @ argument_list  @ 57 @ 
+return  @ 61 @ return  @ 63 @ 
+literal: 1  @ 87 @ literal: 1  @ 80 @ 
+function  @ 1 @ function  @ 1 @ 
+condition  @ 85 @ condition  @ 78 @ 
+argument  @ 22 @ argument  @ 22 @ 
+argument_list  @ 33 @ argument_list  @ 34 @ 
+operator: ->  @ 22 @ operator: ->  @ 22 @ 
+expr_stmt  @ 87 @ expr_stmt  @ 80 @ 
+name: false  @ 42 @ name: false  @ 44 @ 
+decl_stmt  @ 38 @ decl_stmt  @ 40 @ 
+operator: )  @ 85 @ operator: )  @ 78 @ 
+argument  @ 53 @ argument  @ 55 @ 
+specifier: const  @ 1 @ specifier: const  @ 1 @ 
+expr  @ 54 @ expr  @ 56 @ 
+argument  @ 36 @ argument  @ 38 @ 
+call  @ 32 @ call  @ 33 @ 
+expr  @ 27 @ expr  @ 27 @ 
+condition  @ 15 @ condition  @ 15 @ 
+call  @ 91 @ call  @ 84 @ 
+argument  @ 32 @ argument  @ 33 @ 
+call  @ 69 @ call  @ 71 @ 
+comment: // split bd into 2 maps =>bd and bdsm  @ 37 @ comment: // split bd into 2 maps =>bd and bdsm  @ 39 @ 
+argument  @ 66 @ argument  @ 68 @ 
+name: r_rbnode_next  @ 67 @ name: r_rbnode_next  @ 69 @ 
+call  @ 89 @ call  @ 82 @ 
+comment: //delete all submaps that are completly included in sm  @ 73 @ comment: //delete all submaps that are completly included in sm  @ 72 @ 
+block_content  @ 18 @ block_content  @ 18 @ 
+condition  @ 39 @ condition  @ 41 @ 
+name: r_io_submap_from  @ 65 @ name: r_io_submap_from  @ 67 @ 
+expr  @ 36 @ expr  @ 37 @ 
+name  @ 60 @ name  @ 62 @ 
+operator: ->  @ 86 @ operator: ->  @ 79 @ 
+argument  @ 65 @ argument  @ 67 @ 
+argument_list  @ 53 @ argument_list  @ 55 @ 
+name: entry  @ 67 @ name: entry  @ 69 @ 
+block_content  @ 11 @ block_content  @ 11 @ 
+argument  @ 9 @ argument  @ 9 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument_list  @ 48 @ argument_list  @ 50 @ 
+block  @ 1 @ block  @ 1 @ 
+operator: ->  @ 47 @ operator: ->  @ 49 @ 
+if  @ 47 @ if  @ 49 @ 
+if  @ 27 @ if  @ 27 @ 
+operator: <  @ 36 @ operator: <  @ 37 @ 
+operator: (  @ 26 @ operator: (  @ 26 @ 
+expr  @ 41 @ expr  @ 43 @ 
+expr  @ 56 @ expr  @ 58 @ 
+operator: =  @ 25 @ operator: =  @ 25 @ 
+name: bool  @ 1 @ name: bool  @ 1 @ 
+name: maprefs  @ 94 @ name: maprefs  @ 87 @ 
+name: r_io_submap_set_to  @ 66 @ name: r_io_submap_set_to  @ 68 @ 
+name: _mapref_from_map  @ 5 @ name: _mapref_from_map  @ 5 @ 
+expr  @ 65 @ expr  @ 67 @ 
+argument_list  @ 89 @ argument_list  @ 82 @ 
+call  @ 9 @ call  @ 9 @ 
+if  @ 39 @ if  @ 41 @ 
+argument_list  @ 40 @ argument_list  @ 42 @ 
+argument  @ 2 @ argument  @ 2 @ 
+expr  @ 12 @ expr  @ 12 @ 
+expr  @ 47 @ expr  @ 49 @ 
+modifier: *  @ 3 @ modifier: *  @ 3 @ 
+expr  @ 61 @ expr  @ 63 @ 
+expr  @ 50 @ expr  @ 52 @ 
+expr  @ 54 @ expr  @ 56 @ 
+name: bank  @ 22 @ name: bank  @ 22 @ 
+call  @ 17 @ call  @ 17 @ 
+return  @ 51 @ return  @ 53 @ 
+name: mapref  @ 19 @ name: mapref  @ 19 @ 
+call  @ 4 @ call  @ 4 @ 
+name: bdsm  @ 38 @ name: bdsm  @ 40 @ 
+call  @ 14 @ call  @ 14 @ 
+argument  @ 53 @ argument  @ 55 @ 
+expr  @ 89 @ expr  @ 82 @ 
+name: entry  @ 85 @ name: entry  @ 78 @ 
+name: RIOMap  @ 3 @ name: RIOMap  @ 3 @ 
+argument  @ 31 @ argument  @ 32 @ 
+argument  @ 89 @ argument  @ 82 @ 
+operator: -  @ 66 @ operator: -  @ 68 @ 
+argument  @ 77 @ argument  @ 71 @ 
+expr  @ 18 @ expr  @ 18 @ 
+expr  @ 31 @ expr  @ 32 @ 
+expr  @ 18 @ expr  @ 18 @ 
+argument_list  @ 4 @ argument_list  @ 4 @ 
+argument_list  @ 17 @ argument_list  @ 17 @ 
+name: maprefs  @ 60 @ name: maprefs  @ 62 @ 
+call  @ 45 @ call  @ 47 @ 
+name: memcpy  @ 31 @ name: memcpy  @ 32 @ 
+call  @ 36 @ call  @ 38 @ 
+call  @ 66 @ call  @ 68 @ 
+call  @ 85 @ call  @ 78 @ 
+if  @ 65 @ if  @ 67 @ 
+argument  @ 90 @ argument  @ 83 @ 
+expr  @ 4 @ expr  @ 4 @ 
+name: r_list_append  @ 94 @ name: r_list_append  @ 87 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: r_io_submap_set_to  @ 45 @ name: r_io_submap_set_to  @ 47 @ 
+name: sm  @ 65 @ name: sm  @ 67 @ 
+operator: ->  @ 78 @ operator: ->  @ 75 @ 
+name: ut32  @ 1 @ name: ut32  @ 1 @ 
+expr  @ 86 @ expr  @ 79 @ 
+name: submaps  @ 78 @ name: submaps  @ 75 @ 
+argument  @ 33 @ argument  @ 34 @ 
+name  @ 47 @ name  @ 49 @ 
+name: bdsm  @ 39 @ name: bdsm  @ 41 @ 
+argument_list  @ 85 @ argument_list  @ 78 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 59 @ 
+expr_stmt  @ 33 @ expr_stmt  @ 34 @ 
+operator: +  @ 87 @ operator: +  @ 80 @ 
+name: entry  @ 14 @ name: entry  @ 14 @ 
+call  @ 36 @ call  @ 37 @ 
+name: sm  @ 9 @ name: sm  @ 9 @ 
+argument  @ 89 @ argument  @ 82 @ 
+argument_list  @ 69 @ argument_list  @ 71 @ 
+argument_list  @ 2 @ argument_list  @ 2 @ 
+expr  @ 89 @ expr  @ 82 @ 
+type  @ 38 @ type  @ 40 @ 
+name: r_io_submap_from  @ 36 @ name: r_io_submap_from  @ 37 @ 
+argument_list  @ 65 @ argument_list  @ 67 @ 
+name: free  @ 40 @ name: free  @ 42 @ 
+name: mapref  @ 11 @ name: mapref  @ 11 @ 
+expr_stmt  @ 82 @ expr_stmt  @ 76 @ 
+modifier: *  @ 14 @ modifier: *  @ 14 @ 
+return  @ 23 @ return  @ 23 @ 
+expr  @ 47 @ expr  @ 49 @ 
+init  @ 14 @ init  @ 14 @ 
+name: RIOBank  @ 2 @ name: RIOBank  @ 2 @ 
+argument_list  @ 49 @ argument_list  @ 51 @ 
+expr  @ 14 @ expr  @ 14 @ 
+condition  @ 53 @ condition  @ 55 @ 
+argument_list  @ 18 @ argument_list  @ 18 @ 
+name: r_io_bank_map_add_top  @ 1 @ name: r_io_bank_map_add_top  @ 1 @ 
+if_stmt  @ 15 @ if_stmt  @ 15 @ 
+name: false  @ 7 @ name: false  @ 7 @ 
+expr  @ 45 @ expr  @ 47 @ 
+expr  @ 95 @ expr  @ 88 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+argument  @ 3 @ argument  @ 3 @ 
+name: mapref  @ 41 @ name: mapref  @ 43 @ 
+expr  @ 78 @ expr  @ 75 @ 
+call  @ 85 @ call  @ 78 @ 
+operator: )  @ 85 @ operator: )  @ 78 @ 
+if  @ 36 @ if  @ 37 @ 
+expr  @ 2 @ expr  @ 2 @ 
+argument_list  @ 27 @ argument_list  @ 28 @ 
+name: sm  @ 54 @ name: sm  @ 56 @ 
+name: bd  @ 86 @ name: bd  @ 79 @ 
+expr  @ 33 @ expr  @ 34 @ 
+name: mapid  @ 1 @ name: mapid  @ 1 @ 
+expr  @ 48 @ expr  @ 50 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 33 @ 
+name: sm  @ 47 @ name: sm  @ 49 @ 
+argument  @ 36 @ argument  @ 37 @ 
+name: free  @ 90 @ name: free  @ 83 @ 
+name: RIOSubMap  @ 26 @ name: RIOSubMap  @ 26 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+name: sm  @ 36 @ name: sm  @ 38 @ 
+name: R_NEWCOPY  @ 38 @ name: R_NEWCOPY  @ 40 @ 
+argument  @ 4 @ argument  @ 4 @ 
+name: r_io_submap_from  @ 66 @ name: r_io_submap_from  @ 68 @ 
+name: data  @ 26 @ name: data  @ 26 @ 
+name: _find_sm_by_from_vaddr_cb  @ 78 @ name: _find_sm_by_from_vaddr_cb  @ 75 @ 
+expr  @ 26 @ expr  @ 26 @ 
+name: sm  @ 27 @ name: sm  @ 28 @ 
+argument  @ 44 @ argument  @ 46 @ 
+argument_list  @ 22 @ argument_list  @ 22 @ 
+expr  @ 36 @ expr  @ 38 @ 
+argument  @ 44 @ argument  @ 46 @ 
+name: mapref  @ 60 @ name: mapref  @ 62 @ 
+argument  @ 17 @ argument  @ 17 @ 
+argument  @ 47 @ argument  @ 49 @ 
+name: bank  @ 14 @ name: bank  @ 14 @ 
+name: sm  @ 36 @ name: sm  @ 37 @ 
+argument  @ 19 @ argument  @ 19 @ 
+argument_list  @ 94 @ argument_list  @ 87 @ 
+expr  @ 91 @ expr  @ 84 @ 
+argument_list  @ 56 @ argument_list  @ 58 @ 
+block  @ 17 @ block  @ 17 @ 
+name: entry  @ 78 @ name: entry  @ 75 @ 
+name: mapref  @ 5 @ name: mapref  @ 5 @ 
+call  @ 47 @ call  @ 49 @ 
+argument  @ 2 @ argument  @ 2 @ 
+expr  @ 6 @ expr  @ 6 @ 
+call  @ 48 @ call  @ 50 @ 
+name: bd  @ 27 @ name: bd  @ 28 @ 
+block  @ 15 @ block  @ 15 @ 
+name  @ 85 @ name  @ 78 @ 
+argument  @ 14 @ argument  @ 14 @ 
+argument  @ 47 @ argument  @ 49 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+call  @ 44 @ call  @ 46 @ 
+call  @ 49 @ call  @ 51 @ 
+argument  @ 3 @ argument  @ 3 @ 
+expr_stmt  @ 55 @ expr_stmt  @ 57 @ 
+comment: // _find_entry_submap_node guarantees, that there is no submap  @ 28 @ comment: // _find_entry_submap_node guarantees, that there is no submap  @ 29 @ 
+argument_list  @ 38 @ argument_list  @ 40 @ 
+operator: =  @ 86 @ operator: =  @ 79 @ 
+argument_list  @ 9 @ argument_list  @ 9 @ 
+return  @ 34 @ return  @ 35 @ 
+expr  @ 9 @ expr  @ 9 @ 
+argument_list  @ 27 @ argument_list  @ 27 @ 
+operator: ->  @ 85 @ operator: ->  @ 78 @ 
+expr  @ 42 @ expr  @ 44 @ 
+expr  @ 53 @ expr  @ 55 @ 
+name: NULL  @ 78 @ name: NULL  @ 75 @ 
+argument  @ 5 @ argument  @ 5 @ 
+call  @ 11 @ call  @ 11 @ 
+if_stmt  @ 6 @ if_stmt  @ 6 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+name: r_crbtree_delete  @ 78 @ name: r_crbtree_delete  @ 75 @ 
+return  @ 92 @ return  @ 85 @ 
+expr_stmt  @ 67 @ expr_stmt  @ 69 @ 
+expr  @ 47 @ expr  @ 49 @ 
+argument  @ 66 @ argument  @ 68 @ 
+name: bank  @ 60 @ name: bank  @ 62 @ 
+argument  @ 18 @ argument  @ 18 @ 
+expr  @ 5 @ expr  @ 5 @ 
+name: r_io_submap_to  @ 27 @ name: r_io_submap_to  @ 27 @ 
+name: RIOSubMap  @ 26 @ name: RIOSubMap  @ 26 @ 
+name  @ 89 @ name  @ 82 @ 
+expr  @ 47 @ expr  @ 49 @ 
+expr  @ 85 @ expr  @ 78 @ 
+operator: *  @ 26 @ operator: *  @ 26 @ 
+if_stmt  @ 36 @ if_stmt  @ 37 @ 
+name: _find_sm_by_from_vaddr_cb  @ 53 @ name: _find_sm_by_from_vaddr_cb  @ 55 @ 
+expr_stmt  @ 49 @ expr_stmt  @ 51 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: sm  @ 32 @ name: sm  @ 33 @ 
+call  @ 22 @ call  @ 22 @ 
+call  @ 2 @ call  @ 2 @ 
+operator: <=  @ 85 @ operator: <=  @ 78 @ 
+name: mapref  @ 33 @ name: mapref  @ 34 @ 
+expr  @ 67 @ expr  @ 69 @ 
+call  @ 3 @ call  @ 3 @ 
+argument_list  @ 47 @ argument_list  @ 49 @ 
+decl  @ 1 @ decl  @ 1 @ 
+operator: (  @ 77 @ operator: (  @ 71 @ 
+name: free  @ 41 @ name: free  @ 43 @ 
+expr  @ 33 @ expr  @ 34 @ 
+type  @ 1 @ type  @ 1 @ 
+argument  @ 66 @ argument  @ 68 @ 
+argument  @ 27 @ argument  @ 28 @ 
+name: maprefs  @ 22 @ name: maprefs  @ 22 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 46 @ 
+operator: <  @ 65 @ operator: <  @ 67 @ 
+name: r_rbnode_next  @ 74 @ name: r_rbnode_next  @ 73 @ 
+call  @ 33 @ call  @ 34 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: sm  @ 87 @ name: sm  @ 80 @ 
+condition  @ 89 @ condition  @ 82 @ 
+name: _find_sm_by_from_vaddr_cb  @ 17 @ name: _find_sm_by_from_vaddr_cb  @ 17 @ 
+name: bank  @ 25 @ name: bank  @ 25 @ 
+if_stmt  @ 85 @ if_stmt  @ 78 @ 
+argument  @ 67 @ argument  @ 69 @ 
+operator: &&  @ 85 @ operator: &&  @ 78 @ 
+name: maprefs  @ 33 @ name: maprefs  @ 34 @ 
+init  @ 74 @ init  @ 73 @ 
+argument  @ 27 @ argument  @ 28 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 50 @ 
+argument_list  @ 44 @ argument_list  @ 46 @ 
+decl  @ 9 @ decl  @ 9 @ 
+operator: !  @ 15 @ operator: !  @ 15 @ 
+comment: // no intersection with any submap, so just insert  @ 16 @ comment: // no intersection with any submap, so just insert  @ 16 @ 
+expr  @ 90 @ expr  @ 83 @ 
+init  @ 26 @ init  @ 26 @ 
+expr_stmt  @ 19 @ expr_stmt  @ 19 @ 
+argument_list  @ 45 @ argument_list  @ 47 @ 
+expr  @ 77 @ expr  @ 71 @ 
+argument  @ 22 @ argument  @ 22 @ 
+condition  @ 6 @ condition  @ 6 @ 
+name: bankid  @ 2 @ name: bankid  @ 2 @ 
+argument  @ 87 @ argument  @ 80 @ 
+expr  @ 92 @ expr  @ 85 @ 
+decl_stmt  @ 74 @ decl_stmt  @ 73 @ 
+argument  @ 94 @ argument  @ 87 @ 
+name: mapid  @ 3 @ name: mapid  @ 3 @ 
+call  @ 44 @ call  @ 46 @ 
+name: free  @ 48 @ name: free  @ 50 @ 
+argument_list  @ 27 @ argument_list  @ 28 @ 
+name: submaps  @ 54 @ name: submaps  @ 56 @ 
+block  @ 72 @ block  @ 71 @ 
+name: RIO  @ 1 @ name: RIO  @ 1 @ 
+name: ut32  @ 1 @ name: ut32  @ 1 @ 
+argument  @ 55 @ argument  @ 57 @ 
+expr  @ 31 @ expr  @ 32 @ 
+name  @ 33 @ name  @ 34 @ 
+name: r_crbtree_insert  @ 89 @ name: r_crbtree_insert  @ 82 @ 
+name: mapref  @ 50 @ name: mapref  @ 52 @ 
+expr  @ 50 @ expr  @ 52 @ 
+if  @ 10 @ if  @ 10 @ 
+name: bank  @ 94 @ name: bank  @ 87 @ 
+operator: <  @ 36 @ operator: <  @ 38 @ 
+decl  @ 38 @ decl  @ 40 @ 
+if_stmt  @ 89 @ if_stmt  @ 82 @ 
+name: r_crbtree_insert  @ 17 @ name: r_crbtree_insert  @ 17 @ 
+argument  @ 74 @ argument  @ 73 @ 
+name: sm  @ 17 @ name: sm  @ 17 @ 
+argument  @ 9 @ argument  @ 9 @ 
+name: false  @ 12 @ name: false  @ 12 @ 
+name: map  @ 3 @ name: map  @ 3 @ 
+name: entry  @ 15 @ name: entry  @ 15 @ 
+comment: // guaranteed intersection  @ 64 @ comment: // guaranteed intersection  @ 66 @ 
+argument  @ 94 @ argument  @ 87 @ 
+expr  @ 45 @ expr  @ 47 @ 
+block  @ 85 @ block  @ 78 @ 
+expr  @ 85 @ expr  @ 78 @ 
+name: r_io_submap_from  @ 65 @ name: r_io_submap_from  @ 67 @ 
+name  @ 77 @ name  @ 71 @ 
+expr_stmt  @ 66 @ expr_stmt  @ 68 @ 
+expr  @ 17 @ expr  @ 17 @ 
+name: RIOSubMap  @ 86 @ name: RIOSubMap  @ 79 @ 
+call  @ 90 @ call  @ 83 @ 
+expr  @ 4 @ expr  @ 4 @ 
+expr  @ 33 @ expr  @ 34 @ 
+if  @ 89 @ if  @ 82 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 3 @ 
+operator: +  @ 44 @ operator: +  @ 46 @ 
+type  @ 2 @ type  @ 2 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 18 @ 
+block_content  @ 38 @ block_content  @ 40 @ 
+operator: !  @ 17 @ operator: !  @ 17 @ 
+argument  @ 36 @ argument  @ 37 @ 
+call  @ 66 @ call  @ 68 @ 
+name: sm  @ 69 @ name: sm  @ 71 @ 
+name: r_io_submap_to  @ 27 @ name: r_io_submap_to  @ 27 @ 
+name: RIOSubMap  @ 9 @ name: RIOSubMap  @ 9 @ 
+argument  @ 87 @ argument  @ 80 @ 
+name: _find_sm_by_from_vaddr_cb  @ 47 @ name: _find_sm_by_from_vaddr_cb  @ 49 @ 
+name: r_return_val_if_fail  @ 4 @ name: r_return_val_if_fail  @ 4 @ 
+call  @ 38 @ call  @ 40 @ 
+name: sm  @ 27 @ name: sm  @ 27 @ 
+expr  @ 78 @ expr  @ 75 @ 
+name: r_io_map_get  @ 3 @ name: r_io_map_get  @ 3 @ 
+expr  @ 34 @ expr  @ 35 @ 
+argument_list  @ 41 @ argument_list  @ 43 @ 
+expr  @ 45 @ expr  @ 47 @ 
+argument_list  @ 90 @ argument_list  @ 83 @ 
+expr  @ 17 @ expr  @ 17 @ 
+argument_list  @ 66 @ argument_list  @ 68 @ 
+init  @ 9 @ init  @ 9 @ 
+if  @ 15 @ if  @ 15 @ 
+name: bank  @ 89 @ name: bank  @ 82 @ 
+init  @ 2 @ init  @ 2 @ 
+name: _find_sm_by_from_vaddr_cb  @ 54 @ name: _find_sm_by_from_vaddr_cb  @ 56 @ 
+condition  @ 47 @ condition  @ 49 @ 
+name: RIOSubMap  @ 77 @ name: RIOSubMap  @ 71 @ 
+expr_stmt  @ 50 @ expr_stmt  @ 52 @ 
+if_stmt  @ 17 @ if_stmt  @ 17 @ 
+name: r_io_submap_to  @ 44 @ name: r_io_submap_to  @ 46 @ 
+name: entry  @ 67 @ name: entry  @ 69 @ 
+expr  @ 11 @ expr  @ 11 @ 
+name: bank  @ 2 @ name: bank  @ 2 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 47 @ 
+argument_list  @ 32 @ argument_list  @ 33 @ 
+name: sm  @ 48 @ name: sm  @ 50 @ 
+call  @ 31 @ call  @ 32 @ 
+modifier: *  @ 74 @ modifier: *  @ 73 @ 
+argument_list  @ 65 @ argument_list  @ 67 @ 
+expr  @ 74 @ expr  @ 73 @ 
+operator: ->  @ 33 @ operator: ->  @ 34 @ 
+argument  @ 85 @ argument  @ 78 @ 
+argument  @ 27 @ argument  @ 27 @ 
+name: ento  @ 77 @ name: entry  @ 71 @ 
+name: bd  @ 38 @ name: bd  @ 40 @ 
+argument  @ 50 @ argument  @ 52 @ 
+argument  @ 36 @ argument  @ 38 @ 
+name: true  @ 23 @ name: true  @ 23 @ 
+operator: *  @ 86 @ operator: *  @ 79 @ 
+name: free  @ 55 @ name: free  @ 57 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: map  @ 5 @ name: map  @ 5 @ 
+operator: )  @ 77 @ operator: )  @ 71 @ 
+name  @ 26 @ name  @ 26 @ 
+name: entry  @ 86 @ name: entry  @ 79 @ 
+name: bd  @ 87 @ name: bd  @ 80 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+argument_list  @ 44 @ argument_list  @ 46 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 25 @ 
+argument  @ 41 @ argument  @ 43 @ 
+argument  @ 89 @ argument  @ 82 @ 
+name: RIOSubMap  @ 31 @ name: RIOSubMap  @ 32 @ 
+call  @ 19 @ call  @ 19 @ 
+type  @ 3 @ type  @ 3 @ 
+call  @ 74 @ call  @ 73 @ 
+literal: 1  @ 45 @ literal: 1  @ 47 @ 
+block  @ 89 @ block  @ 82 @ 
+expr  @ 85 @ expr  @ 78 @ 
+expr  @ 31 @ expr  @ 32 @ 
+name: r_io_submap_from  @ 85 @ name: r_io_submap_from  @ 78 @ 
+name: free  @ 18 @ name: free  @ 18 @ 
+expr  @ 87 @ expr  @ 80 @ 
+call  @ 60 @ call  @ 62 @ 
+name: false  @ 92 @ name: false  @ 85 @ 
+operator: !  @ 47 @ operator: !  @ 49 @ 
+type  @ 1 @ type  @ 1 @ 
+name: io  @ 3 @ name: io  @ 3 @ 
+name: bankid  @ 1 @ name: bankid  @ 1 @ 
+expr  @ 36 @ expr  @ 37 @ 
+expr  @ 31 @ expr  @ 32 @ 
+block_content  @ 48 @ block_content  @ 50 @ 
+comment: // this can be optimized, there is no need to do search here  @ 75 @ comment: // this can be optimized, there is no need to do search here  @ 74 @ 
+argument_list  @ 36 @ argument_list  @ 37 @ 
+name: sm  @ 18 @ name: sm  @ 18 @ 
+name: entry  @ 82 @ name: entry  @ 76 @ 
+argument  @ 33 @ argument  @ 34 @ 
+name: io  @ 1 @ name: io  @ 1 @ 
+name: NULL  @ 89 @ name: NULL  @ 82 @ 
+literal: 1  @ 66 @ literal: 1  @ 68 @ 
+block  @ 6 @ block  @ 6 @ 
+expr  @ 2 @ expr  @ 2 @ 
+argument  @ 17 @ argument  @ 17 @ 
+return  @ 12 @ return  @ 12 @ 
+name: data  @ 85 @ name: data  @ 78 @ 
+name: _find_sm_by_from_vaddr_cb  @ 89 @ name: _find_sm_by_from_vaddr_cb  @ 82 @ 
+name: bank  @ 4 @ name: bank  @ 4 @ 
+argument_list  @ 27 @ argument_list  @ 27 @ 
+name: io  @ 2 @ name: io  @ 2 @ 
+argument  @ 91 @ argument  @ 84 @ 
+name: false  @ 4 @ name: false  @ 4 @ 
+name: RIOSubMap  @ 85 @ name: RIOSubMap  @ 78 @ 
+operator: ->  @ 26 @ operator: ->  @ 26 @ 
+expr  @ 78 @ expr  @ 75 @ 
+argument  @ 47 @ argument  @ 49 @ 
+expr  @ 91 @ expr  @ 84 @ 
+argument  @ 49 @ argument  @ 51 @ 
+call  @ 50 @ call  @ 52 @ 
+expr  @ 89 @ expr  @ 82 @ 
+argument_list  @ 50 @ argument_list  @ 52 @ 
+condition  @ 27 @ condition  @ 27 @ 
+operator: (  @ 77 @ operator: (  @ 71 @ 
+argument  @ 45 @ argument  @ 47 @ 
+expr  @ 57 @ expr  @ 59 @ 
+expr  @ 3 @ expr  @ 3 @ 
+argument  @ 60 @ argument  @ 62 @ 
+name: submaps  @ 53 @ name: submaps  @ 55 @ 
+expr  @ 44 @ expr  @ 46 @ 
+name: RRBNode  @ 14 @ name: RRBNode  @ 14 @ 
+expr  @ 40 @ expr  @ 42 @ 
+argument  @ 60 @ argument  @ 62 @ 
+name: free  @ 50 @ name: free  @ 52 @ 
+expr  @ 39 @ expr  @ 41 @ 
+name  @ 78 @ name  @ 75 @ 
+argument  @ 47 @ argument  @ 49 @ 
+block  @ 65 @ block  @ 67 @ 
+decl  @ 5 @ decl  @ 5 @ 
+if_stmt  @ 27 @ if_stmt  @ 27 @ 
+operator: &&  @ 4 @ operator: &&  @ 4 @ 
+type  @ 26 @ type  @ 26 @ 
+call  @ 27 @ call  @ 28 @ 
+expr  @ 22 @ expr  @ 22 @ 
+argument_list  @ 14 @ argument_list  @ 14 @ 
+expr  @ 53 @ expr  @ 55 @ 
+expr  @ 27 @ expr  @ 27 @ 
+expr  @ 82 @ expr  @ 76 @ 
+expr  @ 78 @ expr  @ 75 @ 
+name: bank  @ 33 @ name: bank  @ 34 @ 
+argument_list  @ 87 @ argument_list  @ 80 @ 
+expr  @ 45 @ expr  @ 47 @ 
+expr  @ 14 @ expr  @ 14 @ 
+expr  @ 23 @ expr  @ 23 @ 
+name: mapref  @ 94 @ name: mapref  @ 87 @ 
+argument  @ 45 @ argument  @ 47 @ 
+expr_stmt  @ 91 @ expr_stmt  @ 84 @ 
+call  @ 40 @ call  @ 42 @ 
+return  @ 58 @ return  @ 60 @ 
+return  @ 7 @ return  @ 7 @ 
+expr  @ 66 @ expr  @ 68 @ 
+argument  @ 78 @ argument  @ 75 @ 
+argument  @ 78 @ argument  @ 75 @ 
+argument  @ 38 @ argument  @ 40 @ 
+expr_stmt  @ 56 @ expr_stmt  @ 58 @ 
+operator: !  @ 10 @ operator: !  @ 10 @ 
+call  @ 5 @ call  @ 5 @ 
+name: sm  @ 45 @ name: sm  @ 47 @ 
+name: r_io_submap_from  @ 45 @ name: r_io_submap_from  @ 47 @ 
+name  @ 54 @ name  @ 56 @ 
+name: false  @ 20 @ name: false  @ 20 @ 
+name: data  @ 78 @ name: data  @ 75 @ 
+if_stmt  @ 65 @ if_stmt  @ 67 @ 
+expr  @ 10 @ expr  @ 10 @ 
+name: mapref  @ 22 @ name: mapref  @ 22 @ 
+operator: ->  @ 60 @ operator: ->  @ 62 @ 
+

@@ -1,0 +1,144 @@
+{
+    "testcase": {
+        "file214": {
+            "match_message": {
+                "Same: image_render_color_thresh -> image_render_color_thresh": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 813->790 ([[790, 1.0], [810, 0.7770700636942676], [819, 0.7450980392156863]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 813->790 ([[790, 1.0], [810, 0.7770700636942676], [819, 0.7450980392156863]])"
+                    },
+                    "Seg_1": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 816->793",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 816->793"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 825 -> 804",
+                        "L2": "3: Unique Matched by Source code 825 -> 804"
+                    },
+                    "Seg_3": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 827->806",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 827->806"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 851 -> 832",
+                        "L2": "3: Unique Matched by Source code 851 -> 832"
+                    },
+                    "Seg_5": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 854->835",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 854->835"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 790,
+                        "add_hunk": [
+                            "                                for (j = 0; j < spp_out; j++)\n"
+                        ],
+                        "delete_location": [
+                            790,
+                            790
+                        ],
+                        "delete_hunk": [
+                            "                                for (j = 0; j < spp_out; j++) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "delete",
+                        "add_location": 46,
+                        "add_hunk": [],
+                        "delete_location": [
+                            793,
+                            793
+                        ],
+                        "delete_hunk": [
+                            "                                }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 804,
+                        "add_hunk": [
+                            "                        for (k = 0; k < spp_out; k++)\n"
+                        ],
+                        "delete_location": [
+                            804,
+                            804
+                        ],
+                        "delete_hunk": [
+                            "                        for (k = 0; k < spp_out; k++) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            806,
+                            806
+                        ],
+                        "delete_hunk": [
+                            "                        }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 832,
+                        "add_hunk": [
+                            "                                    for (j = 0; j < spp_out; j++)\n"
+                        ],
+                        "delete_location": [
+                            832,
+                            832
+                        ],
+                        "delete_hunk": [
+                            "                                    for (j = 0; j < spp_out; j++) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            835,
+                            835
+                        ],
+                        "delete_hunk": [
+                            "                                    }\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: image_render_color_thresh -> image_render_color_thresh": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "in_loop"
+            ]
+        }
+    }
+}

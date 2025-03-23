@@ -1,0 +1,487 @@
+operator: ||  @ 34 @ operator: ||  @ 29 @ 
+name: seg_off  @ 34 @ name: seg_off  @ 29 @ 
+name: offset  @ 13 @ name: offset  @ 13 @ 
+name: header  @ 13 @ name: header  @ 13 @ 
+name: r_buf_fread_at  @ 54 @ name: r_buf_fread_at  @ 49 @ 
+block  @ 46 @ block  @ 41 @ 
+operator: ->  @ 17 @ operator: ->  @ 18 @ 
+block  @ 51 @ block  @ 46 @ 
+if  @ 54 @ if  @ 49 @ 
+name: page_start  @ 57 @ name: page_start  @ 53 @ 
+expr  @ 9 @ expr  @ 9 @ 
+index  @ 45 @ index  @ 40 @ 
+block  @ 14 @ block  @ 14 @ 
+name: UT32_MAX  @ 34 @ name: UT32_MAX  @ 29 @ 
+expr  @ 50 @ expr  @ 45 @ 
+operator: >=  @ 38 @ operator: >=  @ 33 @ 
+name: header  @ 9 @ name: header  @ 9 @ 
+incr  @ 32 @ incr  @ 27 @ 
+name: struct  @ 2 @ name: struct  @ 2 @ 
+name  @ 54 @ name  @ 49 @ 
+call  @ 22 @ call  @ 21 @ 
+if  @ 38 @ if  @ 33 @ 
+sizeof  @ 59 @ sizeof  @ 55 @ 
+operator: ->  @ 45 @ operator: ->  @ 40 @ 
+operator: )  @ 46 @ operator: )  @ 41 @ 
+type  @ 41 @ type  @ 36 @ 
+if  @ 34 @ if  @ 29 @ 
+name: eprintf  @ 10 @ name: eprintf  @ 10 @ 
+name: seg_off  @ 34 @ name: seg_off  @ 29 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: .  @ 13 @ operator: .  @ 13 @ 
+return  @ 24 @ return  @ 23 @ 
+operator: =  @ 32 @ operator: =  @ 27 @ 
+name: r_buf_fread_at  @ 6 @ name: r_buf_fread_at  @ 6 @ 
+operator: ->  @ 54 @ operator: ->  @ 49 @ 
+name: chained_starts  @ 45 @ name: chained_starts  @ 40 @ 
+block_content  @ 7 @ block_content  @ 7 @ 
+operator: (  @ 46 @ operator: (  @ 41 @ 
+name: parse_chained_fixups  @ 1 @ name: parse_chained_fixups  @ 1 @ 
+condition  @ 38 @ condition  @ 33 @ 
+expr  @ 34 @ expr  @ 29 @ 
+if  @ 14 @ if  @ 14 @ 
+operator: ->  @ 54 @ operator: ->  @ 50 @ 
+expr  @ 17 @ expr  @ 18 @ 
+block_content  @ 33 @ block_content  @ 28 @ 
+expr  @ 22 @ expr  @ 21 @ 
+condition  @ 9 @ condition  @ 9 @ 
+operator: &  @ 6 @ operator: &  @ 6 @ 
+name  @ 22 @ name  @ 21 @ 
+operator: .  @ 9 @ operator: .  @ 9 @ 
+expr  @ 45 @ expr  @ 40 @ 
+decl_stmt  @ 2 @ decl_stmt  @ 2 @ 
+operator: )  @ 34 @ operator: )  @ 29 @ 
+block_content  @ 24 @ block_content  @ 23 @ 
+if  @ 46 @ if  @ 41 @ 
+block_content  @ 39 @ block_content  @ 34 @ 
+operator: ->  @ 38 @ operator: ->  @ 33 @ 
+init  @ 41 @ init  @ 36 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 53 @ 
+type  @ 30 @ type  @ 26 @ 
+operator: >  @ 49 @ operator: >  @ 44 @ 
+argument  @ 17 @ argument  @ 18 @ 
+sizeof  @ 35 @ sizeof  @ 30 @ 
+argument  @ 46 @ argument  @ 41 @ 
+if  @ 6 @ if  @ 6 @ 
+expr  @ 46 @ expr  @ 41 @ 
+argument  @ 3 @ argument  @ 3 @ 
+name  @ 17 @ name  @ 18 @ 
+operator: +  @ 30 @ operator: +  @ 26 @ 
+block  @ 9 @ block  @ 9 @ 
+name: cur_seg  @ 54 @ name: cur_seg  @ 49 @ 
+literal: 0  @ 49 @ literal: 0  @ 44 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 55 @ 
+block_content  @ 50 @ block_content  @ 45 @ 
+name: size  @ 3 @ name: size  @ 3 @ 
+argument_list  @ 3 @ argument_list  @ 3 @ 
+name: bin  @ 17 @ name: bin  @ 18 @ 
+argument_list  @ 41 @ argument_list  @ 36 @ 
+argument_list  @ 50 @ argument_list  @ 45 @ 
+type  @ 17 @ type  @ 17 @ 
+argument  @ 6 @ argument  @ 6 @ 
+name: offset  @ 6 @ name: offset  @ 6 @ 
+name: false  @ 7 @ name: false  @ 7 @ 
+expr  @ 38 @ expr  @ 33 @ 
+name: bin  @ 45 @ name: bin  @ 40 @ 
+expr  @ 6 @ expr  @ 6 @ 
+expr  @ 54 @ expr  @ 49 @ 
+name: b  @ 6 @ name: b  @ 6 @ 
+name: false  @ 43 @ name: false  @ 38 @ 
+argument  @ 1 @ argument  @ 1 @ 
+name: cur_seg  @ 41 @ name: cur_seg  @ 36 @ 
+name  @ 46 @ name  @ 41 @ 
+name: ut64  @ 13 @ name: ut64  @ 13 @ 
+name: bin  @ 23 @ name: bin  @ 22 @ 
+expr  @ 30 @ expr  @ 26 @ 
+operator: +  @ 54 @ operator: +  @ 49 @ 
+expr  @ 1 @ expr  @ 1 @ 
+type  @ 2 @ type  @ 2 @ 
+name: ut32  @ 1 @ name: ut32  @ 1 @ 
+if  @ 51 @ if  @ 46 @ 
+expr  @ 47 @ expr  @ 42 @ 
+type  @ 13 @ type  @ 13 @ 
+expr  @ 46 @ expr  @ 41 @ 
+name: bool  @ 1 @ name: bool  @ 1 @ 
+type  @ 33 @ type  @ 28 @ 
+expr  @ 10 @ expr  @ 10 @ 
+argument  @ 1 @ argument  @ 1 @ 
+condition  @ 6 @ condition  @ 6 @ 
+if_stmt  @ 3 @ if_stmt  @ 3 @ 
+expr  @ 30 @ expr  @ 26 @ 
+for  @ 32 @ for  @ 27 @ 
+operator: =  @ 34 @ operator: =  @ 29 @ 
+block_content  @ 35 @ block_content  @ 30 @ 
+if_stmt  @ 54 @ if_stmt  @ 49 @ 
+name  @ 23 @ name  @ 22 @ 
+argument  @ 50 @ argument  @ 45 @ 
+operator: ->  @ 34 @ operator: ->  @ 29 @ 
+expr  @ 32 @ expr  @ 27 @ 
+block  @ 54 @ block  @ 50 @ 
+argument  @ 1 @ argument  @ 1 @ 
+operator: +  @ 54 @ operator: +  @ 49 @ 
+return  @ 43 @ return  @ 38 @ 
+name: i  @ 38 @ name: i  @ 33 @ 
+name  @ 34 @ name  @ 29 @ 
+operator: +  @ 46 @ operator: +  @ 41 @ 
+argument  @ 22 @ argument  @ 21 @ 
+expr  @ 42 @ expr  @ 37 @ 
+name  @ 57 @ name  @ 53 @ 
+name: r_buf_read_le32_at  @ 17 @ name: r_buf_read_le32_at  @ 18 @ 
+name: i  @ 32 @ name: i  @ 27 @ 
+expr  @ 59 @ expr  @ 55 @ 
+name: segs_count  @ 17 @ name: segs_count  @ 17 @ 
+argument  @ 46 @ argument  @ 41 @ 
+name: fixups_version  @ 10 @ name: fixups_version  @ 10 @ 
+decl  @ 2 @ decl  @ 2 @ 
+if_stmt  @ 42 @ if_stmt  @ 37 @ 
+name: seg_off  @ 33 @ name: seg_off  @ 28 @ 
+break  @ 39 @ break  @ 34 @ 
+name: cur_seg  @ 50 @ name: cur_seg  @ 45 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: starts_offset  @ 13 @ name: starts_offset  @ 13 @ 
+literal: "Unsupported fixups version: %u\n"  @ 10 @ literal: "Unsupported fixups version: %u\n"  @ 10 @ 
+name: page_count  @ 54 @ name: page_count  @ 49 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: starts_at  @ 46 @ name: starts_at  @ 41 @ 
+operator: =  @ 22 @ operator: =  @ 21 @ 
+name: false  @ 47 @ name: false  @ 42 @ 
+return  @ 4 @ return  @ 4 @ 
+expr  @ 17 @ expr  @ 18 @ 
+literal: 1  @ 46 @ literal: 1  @ 41 @ 
+literal: 2  @ 54 @ literal: 2  @ 50 @ 
+expr  @ 10 @ expr  @ 10 @ 
+decl  @ 1 @ decl  @ 1 @ 
+argument  @ 41 @ argument  @ 36 @ 
+name: page_count  @ 49 @ name: page_count  @ 44 @ 
+operator: *  @ 6 @ operator: *  @ 6 @ 
+call  @ 1 @ call  @ 1 @ 
+argument  @ 46 @ argument  @ 41 @ 
+name: ut8  @ 54 @ name: ut8  @ 49 @ 
+literal: 1  @ 6 @ literal: 1  @ 6 @ 
+operator: ->  @ 49 @ operator: ->  @ 44 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 30 @ 
+name: r_dyld_chained_starts_in_segment  @ 22 @ name: r_dyld_chained_starts_in_segment  @ 21 @ 
+literal: 0  @ 32 @ literal: 0  @ 27 @ 
+block  @ 18 @ block  @ 18 @ 
+expr  @ 32 @ expr  @ 27 @ 
+operator: ->  @ 54 @ operator: ->  @ 49 @ 
+expr  @ 41 @ expr  @ 36 @ 
+call  @ 6 @ call  @ 6 @ 
+operator: .  @ 14 @ operator: .  @ 14 @ 
+argument_list  @ 35 @ argument_list  @ 30 @ 
+argument  @ 50 @ argument  @ 45 @ 
+name  @ 6 @ name  @ 6 @ 
+operator: +  @ 13 @ operator: +  @ 13 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+sizeof  @ 50 @ sizeof  @ 45 @ 
+argument_list  @ 50 @ argument_list  @ 45 @ 
+expr  @ 54 @ expr  @ 49 @ 
+name: bin  @ 46 @ name: bin  @ 41 @ 
+expr  @ 19 @ expr  @ 19 @ 
+return  @ 11 @ return  @ 11 @ 
+operator: !  @ 51 @ operator: !  @ 46 @ 
+argument  @ 46 @ argument  @ 41 @ 
+name: cursor  @ 59 @ name: cursor  @ 55 @ 
+name: bin  @ 6 @ name: bin  @ 6 @ 
+expr  @ 22 @ expr  @ 21 @ 
+name: ut32  @ 1 @ name: ut32  @ 1 @ 
+name: header  @ 6 @ name: header  @ 6 @ 
+argument  @ 46 @ argument  @ 41 @ 
+name: size  @ 1 @ name: size  @ 1 @ 
+block_content  @ 2 @ block_content  @ 2 @ 
+return  @ 52 @ return  @ 47 @ 
+expr  @ 55 @ expr  @ 51 @ 
+name: cur_seg  @ 49 @ name: cur_seg  @ 44 @ 
+return  @ 7 @ return  @ 7 @ 
+if  @ 23 @ if  @ 22 @ 
+name: ut32  @ 30 @ name: ut32  @ 26 @ 
+name: ut32  @ 17 @ name: ut32  @ 17 @ 
+if_stmt  @ 6 @ if_stmt  @ 6 @ 
+name: seg_off  @ 46 @ name: seg_off  @ 41 @ 
+name  @ 41 @ name  @ 36 @ 
+expr  @ 32 @ expr  @ 27 @ 
+condition  @ 54 @ condition  @ 49 @ 
+name: header  @ 3 @ name: header  @ 3 @ 
+expr  @ 50 @ expr  @ 45 @ 
+argument  @ 6 @ argument  @ 6 @ 
+argument  @ 10 @ argument  @ 10 @ 
+condition  @ 49 @ condition  @ 44 @ 
+name: UT32_MAX  @ 18 @ name: UT32_MAX  @ 18 @ 
+operator: +=  @ 35 @ operator: +=  @ 30 @ 
+name: R_NEW0  @ 41 @ name: R_NEW0  @ 36 @ 
+if_stmt  @ 23 @ if_stmt  @ 22 @ 
+operator: ++  @ 32 @ operator: ++  @ 27 @ 
+argument  @ 6 @ argument  @ 6 @ 
+argument  @ 6 @ argument  @ 6 @ 
+decl_stmt  @ 29 @ decl_stmt  @ 25 @ 
+return  @ 62 @ return  @ 58 @ 
+operator: !=  @ 54 @ operator: !=  @ 50 @ 
+block  @ 23 @ block  @ 22 @ 
+decl  @ 13 @ decl  @ 13 @ 
+operator: (  @ 54 @ operator: (  @ 49 @ 
+literal: 0  @ 9 @ literal: 0  @ 9 @ 
+expr  @ 6 @ expr  @ 6 @ 
+operator: ==  @ 34 @ operator: ==  @ 29 @ 
+name: false  @ 4 @ name: false  @ 4 @ 
+return  @ 47 @ return  @ 42 @ 
+expr  @ 57 @ expr  @ 53 @ 
+name: r_dyld_chained_starts_in_segment  @ 41 @ name: r_dyld_chained_starts_in_segment  @ 36 @ 
+expr  @ 22 @ expr  @ 21 @ 
+argument  @ 54 @ argument  @ 49 @ 
+block_content  @ 10 @ block_content  @ 10 @ 
+argument  @ 6 @ argument  @ 6 @ 
+name: offset  @ 1 @ name: offset  @ 1 @ 
+name: page_count  @ 50 @ name: page_count  @ 45 @ 
+decl_stmt  @ 41 @ decl_stmt  @ 36 @ 
+expr  @ 46 @ expr  @ 41 @ 
+operator: )  @ 6 @ operator: )  @ 6 @ 
+name: r_buf_read_le32_at  @ 34 @ name: r_buf_read_le32_at  @ 29 @ 
+name: R_NEWS0  @ 22 @ name: R_NEWS0  @ 21 @ 
+expr  @ 11 @ expr  @ 11 @ 
+argument_list  @ 1 @ argument_list  @ 1 @ 
+operator: >  @ 14 @ operator: >  @ 14 @ 
+decl_stmt  @ 33 @ decl_stmt  @ 28 @ 
+expr  @ 14 @ expr  @ 14 @ 
+name: header  @ 14 @ name: header  @ 14 @ 
+block  @ 3 @ block  @ 3 @ 
+name: obj_t  @ 1 @ name: obj_t  @ 1 @ 
+name: cur_seg  @ 42 @ name: cur_seg  @ 37 @ 
+if_stmt  @ 49 @ if_stmt  @ 44 @ 
+block_content  @ 55 @ block_content  @ 51 @ 
+argument  @ 54 @ argument  @ 49 @ 
+name: header  @ 2 @ name: header  @ 2 @ 
+expr  @ 54 @ expr  @ 49 @ 
+sizeof  @ 6 @ sizeof  @ 6 @ 
+operator: =  @ 45 @ operator: =  @ 40 @ 
+expr  @ 17 @ expr  @ 18 @ 
+name  @ 54 @ name  @ 50 @ 
+call  @ 50 @ call  @ 45 @ 
+return  @ 55 @ return  @ 51 @ 
+type  @ 50 @ type  @ 45 @ 
+expr  @ 3 @ expr  @ 3 @ 
+literal: 22  @ 46 @ literal: 22  @ 41 @ 
+condition  @ 14 @ condition  @ 14 @ 
+call  @ 34 @ call  @ 29 @ 
+name: header  @ 6 @ name: header  @ 6 @ 
+name: cursor  @ 34 @ name: cursor  @ 29 @ 
+operator: (  @ 6 @ operator: (  @ 6 @ 
+argument_list  @ 54 @ argument_list  @ 49 @ 
+name: false  @ 19 @ name: false  @ 19 @ 
+init  @ 30 @ init  @ 26 @ 
+return  @ 15 @ return  @ 15 @ 
+operator: !  @ 42 @ operator: !  @ 37 @ 
+modifier: *  @ 41 @ modifier: *  @ 36 @ 
+operator: *  @ 54 @ operator: *  @ 49 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+expr  @ 15 @ expr  @ 15 @ 
+condition  @ 42 @ condition  @ 37 @ 
+name: r_buf_fread_at  @ 46 @ name: r_buf_fread_at  @ 41 @ 
+name: false  @ 52 @ name: false  @ 47 @ 
+name: cur_seg  @ 57 @ name: cur_seg  @ 53 @ 
+if_stmt  @ 34 @ if_stmt  @ 29 @ 
+expr  @ 54 @ expr  @ 49 @ 
+expr_stmt  @ 10 @ expr_stmt  @ 10 @ 
+name: ut8  @ 46 @ name: ut8  @ 41 @ 
+literal: "7i"  @ 6 @ literal: "7i"  @ 6 @ 
+if_stmt  @ 14 @ if_stmt  @ 14 @ 
+name: cursor  @ 35 @ name: cursor  @ 30 @ 
+argument  @ 34 @ argument  @ 29 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 40 @ 
+name: starts_at  @ 30 @ name: starts_at  @ 26 @ 
+name: b  @ 34 @ name: b  @ 29 @ 
+block  @ 38 @ block  @ 33 @ 
+expr  @ 24 @ expr  @ 23 @ 
+expr  @ 6 @ expr  @ 6 @ 
+condition  @ 3 @ condition  @ 3 @ 
+expr  @ 35 @ expr  @ 30 @ 
+name: starts_at  @ 13 @ name: starts_at  @ 13 @ 
+literal: "s"  @ 54 @ literal: "s"  @ 49 @ 
+operator: *  @ 22 @ operator: *  @ 21 @ 
+expr  @ 46 @ expr  @ 41 @ 
+argument  @ 54 @ argument  @ 49 @ 
+expr  @ 62 @ expr  @ 58 @ 
+block  @ 34 @ block  @ 29 @ 
+argument  @ 1 @ argument  @ 1 @ 
+expr  @ 23 @ expr  @ 22 @ 
+comment: /* TODO: handle also imports, symbols and multiple starts (32-bit only) */  @ 61 @ comment: /* TODO: handle also imports, symbols and multiple starts (32-bit only) */  @ 57 @ 
+name: struct  @ 41 @ name: struct  @ 36 @ 
+if_stmt  @ 46 @ if_stmt  @ 41 @ 
+operator: *  @ 50 @ operator: *  @ 45 @ 
+call  @ 10 @ call  @ 10 @ 
+argument  @ 59 @ argument  @ 55 @ 
+name: segs_count  @ 22 @ name: segs_count  @ 21 @ 
+name: chained_starts  @ 23 @ name: chained_starts  @ 22 @ 
+block  @ 6 @ block  @ 6 @ 
+argument  @ 30 @ argument  @ 26 @ 
+expr  @ 6 @ expr  @ 6 @ 
+if_stmt  @ 9 @ if_stmt  @ 9 @ 
+literal: 22  @ 54 @ literal: 22  @ 49 @ 
+name: b  @ 46 @ name: b  @ 41 @ 
+name: b  @ 17 @ name: b  @ 18 @ 
+name: seg_off  @ 54 @ name: seg_off  @ 49 @ 
+decl  @ 50 @ decl  @ 45 @ 
+block  @ 42 @ block  @ 37 @ 
+name: i  @ 29 @ name: i  @ 25 @ 
+if  @ 9 @ if  @ 9 @ 
+block  @ 32 @ block  @ 27 @ 
+name: starts_at  @ 54 @ name: starts_at  @ 49 @ 
+control  @ 32 @ control  @ 27 @ 
+decl  @ 30 @ decl  @ 26 @ 
+argument_list  @ 30 @ argument_list  @ 26 @ 
+name: cur_seg  @ 54 @ name: cur_seg  @ 50 @ 
+name  @ 10 @ name  @ 10 @ 
+name  @ 45 @ name  @ 40 @ 
+name  @ 49 @ name  @ 44 @ 
+name: bin  @ 34 @ name: bin  @ 29 @ 
+name: ut16  @ 50 @ name: ut16  @ 45 @ 
+name: b  @ 54 @ name: b  @ 49 @ 
+operator: =  @ 57 @ operator: =  @ 53 @ 
+name: segs_count  @ 32 @ name: segs_count  @ 27 @ 
+expr  @ 52 @ expr  @ 47 @ 
+argument  @ 35 @ argument  @ 30 @ 
+expr  @ 1 @ expr  @ 1 @ 
+if  @ 42 @ if  @ 37 @ 
+init  @ 50 @ init  @ 45 @ 
+expr  @ 34 @ expr  @ 29 @ 
+argument_list  @ 34 @ argument_list  @ 29 @ 
+name: page_start  @ 54 @ name: page_start  @ 49 @ 
+name  @ 2 @ name  @ 2 @ 
+operator: ->  @ 6 @ operator: ->  @ 6 @ 
+operator: )  @ 54 @ operator: )  @ 49 @ 
+name: i  @ 32 @ name: i  @ 27 @ 
+operator: *  @ 1 @ operator: *  @ 1 @ 
+block  @ 1 @ block  @ 1 @ 
+condition  @ 23 @ condition  @ 22 @ 
+sizeof  @ 30 @ sizeof  @ 26 @ 
+name  @ 13 @ name  @ 13 @ 
+if_stmt  @ 51 @ if_stmt  @ 46 @ 
+condition  @ 34 @ condition  @ 29 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 21 @ 
+block_content  @ 43 @ block_content  @ 38 @ 
+argument_list  @ 10 @ argument_list  @ 10 @ 
+name: r_dyld_chained_starts_in_segment  @ 41 @ name: r_dyld_chained_starts_in_segment  @ 36 @ 
+expr  @ 7 @ expr  @ 7 @ 
+name: size  @ 14 @ name: size  @ 14 @ 
+expr  @ 41 @ expr  @ 36 @ 
+expr  @ 46 @ expr  @ 41 @ 
+argument  @ 54 @ argument  @ 49 @ 
+operator: >  @ 9 @ operator: >  @ 9 @ 
+operator: !  @ 34 @ operator: !  @ 29 @ 
+operator: ->  @ 57 @ operator: ->  @ 53 @ 
+name: false  @ 11 @ name: false  @ 11 @ 
+operator: ->  @ 23 @ operator: ->  @ 22 @ 
+expr  @ 46 @ expr  @ 41 @ 
+name: false  @ 15 @ name: false  @ 15 @ 
+expr  @ 1 @ expr  @ 1 @ 
+argument_list  @ 1 @ argument_list  @ 1 @ 
+name: ut32  @ 33 @ name: ut32  @ 28 @ 
+argument_list  @ 22 @ argument_list  @ 21 @ 
+block_content  @ 47 @ block_content  @ 42 @ 
+decl  @ 33 @ decl  @ 28 @ 
+call  @ 17 @ call  @ 18 @ 
+expr  @ 4 @ expr  @ 4 @ 
+expr  @ 13 @ expr  @ 13 @ 
+operator: <  @ 32 @ operator: <  @ 27 @ 
+block_content  @ 52 @ block_content  @ 47 @ 
+expr  @ 45 @ expr  @ 40 @ 
+name: fixups_version  @ 9 @ name: fixups_version  @ 9 @ 
+operator: *  @ 54 @ operator: *  @ 50 @ 
+operator: ->  @ 22 @ operator: ->  @ 21 @ 
+name: page_start  @ 51 @ name: page_start  @ 46 @ 
+name: ut64  @ 30 @ name: ut64  @ 26 @ 
+name  @ 9 @ name  @ 9 @ 
+expr  @ 49 @ expr  @ 44 @ 
+name: chained_starts  @ 22 @ name: chained_starts  @ 21 @ 
+name: header  @ 10 @ name: header  @ 10 @ 
+operator: !  @ 23 @ operator: !  @ 22 @ 
+decl_stmt  @ 50 @ decl_stmt  @ 45 @ 
+condition  @ 32 @ condition  @ 27 @ 
+argument  @ 54 @ argument  @ 49 @ 
+name: ut32  @ 59 @ name: ut32  @ 55 @ 
+unit  @ 1 @ unit  @ 1 @ 
+literal: "isslis"  @ 46 @ literal: "isslis"  @ 41 @ 
+operator: .  @ 10 @ operator: .  @ 10 @ 
+block  @ 49 @ block  @ 44 @ 
+name: ut16  @ 50 @ name: ut16  @ 45 @ 
+expr  @ 6 @ expr  @ 6 @ 
+name: page_start  @ 50 @ name: page_start  @ 45 @ 
+call  @ 41 @ call  @ 36 @ 
+type  @ 29 @ type  @ 25 @ 
+expr  @ 34 @ expr  @ 29 @ 
+expr  @ 51 @ expr  @ 46 @ 
+name: cur_seg  @ 45 @ name: cur_seg  @ 40 @ 
+call  @ 54 @ call  @ 49 @ 
+name: page_count  @ 54 @ name: page_count  @ 50 @ 
+name: MACH0_  @ 1 @ name: MACH0_  @ 1 @ 
+operator: (  @ 34 @ operator: (  @ 29 @ 
+argument_list  @ 59 @ argument_list  @ 55 @ 
+condition  @ 51 @ condition  @ 46 @ 
+expr  @ 43 @ expr  @ 38 @ 
+argument_list  @ 17 @ argument_list  @ 18 @ 
+name  @ 38 @ name  @ 33 @ 
+name: page_start  @ 57 @ name: page_start  @ 53 @ 
+modifier: *  @ 50 @ modifier: *  @ 45 @ 
+argument  @ 10 @ argument  @ 10 @ 
+if_stmt  @ 38 @ if_stmt  @ 33 @ 
+name: cur_seg  @ 46 @ name: cur_seg  @ 41 @ 
+argument  @ 34 @ argument  @ 29 @ 
+name: dyld_chained_fixups_header  @ 2 @ name: dyld_chained_fixups_header  @ 2 @ 
+name: bin  @ 1 @ name: bin  @ 1 @ 
+argument  @ 17 @ argument  @ 18 @ 
+operator: ==  @ 18 @ operator: ==  @ 18 @ 
+operator: !=  @ 6 @ operator: !=  @ 6 @ 
+operator: ->  @ 50 @ operator: ->  @ 45 @ 
+name: size_t  @ 29 @ name: size_t  @ 25 @ 
+continue  @ 36 @ continue  @ 31 @ 
+name: false  @ 24 @ name: false  @ 23 @ 
+init  @ 13 @ init  @ 13 @ 
+expr  @ 59 @ expr  @ 55 @ 
+name  @ 50 @ name  @ 45 @ 
+expr  @ 3 @ expr  @ 3 @ 
+name: i  @ 45 @ name: i  @ 40 @ 
+block_content  @ 19 @ block_content  @ 19 @ 
+return  @ 19 @ return  @ 19 @ 
+name: starts_at  @ 17 @ name: starts_at  @ 18 @ 
+name: starts_offset  @ 14 @ name: starts_offset  @ 14 @ 
+call  @ 46 @ call  @ 41 @ 
+if  @ 49 @ if  @ 44 @ 
+decl_stmt  @ 13 @ decl_stmt  @ 13 @ 
+expr  @ 10 @ expr  @ 10 @ 
+decl_stmt  @ 1 @ decl_stmt  @ 1 @ 
+operator: *  @ 46 @ operator: *  @ 41 @ 
+name: bin  @ 38 @ name: bin  @ 33 @ 
+operator: ->  @ 46 @ operator: ->  @ 41 @ 
+decl  @ 29 @ decl  @ 25 @ 
+name: true  @ 62 @ name: true  @ 58 @ 
+expr  @ 1 @ expr  @ 1 @ 
+decl  @ 41 @ decl  @ 36 @ 
+name: false  @ 55 @ name: false  @ 51 @ 
+init  @ 32 @ init  @ 27 @ 
+name  @ 54 @ name  @ 49 @ 
+name: ut8  @ 6 @ name: ut8  @ 6 @ 
+argument  @ 22 @ argument  @ 21 @ 
+name  @ 14 @ name  @ 14 @ 
+argument  @ 6 @ argument  @ 6 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+name: i  @ 32 @ name: i  @ 27 @ 
+expr  @ 35 @ expr  @ 30 @ 
+name: ut32  @ 35 @ name: ut32  @ 30 @ 
+name: nsegs  @ 38 @ name: nsegs  @ 33 @ 
+expr  @ 54 @ expr  @ 49 @ 
+name: bin  @ 22 @ name: bin  @ 21 @ 
+sizeof  @ 3 @ sizeof  @ 3 @ 
+name: cursor  @ 30 @ name: cursor  @ 26 @ 
+operator: !=  @ 46 @ operator: !=  @ 41 @ 
+argument_list  @ 6 @ argument_list  @ 6 @ 
+argument_list  @ 46 @ argument_list  @ 41 @ 
+block_content  @ 15 @ block_content  @ 15 @ 
+if  @ 3 @ if  @ 3 @ 
+decl_stmt  @ 30 @ decl_stmt  @ 26 @ 
+condition  @ 46 @ condition  @ 41 @ 
+expr  @ 50 @ expr  @ 45 @ 
+name: bin  @ 54 @ name: bin  @ 49 @ 
+expr  @ 54 @ expr  @ 49 @ 
+operator: <  @ 3 @ operator: <  @ 3 @ 
+name: malloc  @ 50 @ name: malloc  @ 45 @ 
+operator: +=  @ 59 @ operator: +=  @ 55 @ 
+

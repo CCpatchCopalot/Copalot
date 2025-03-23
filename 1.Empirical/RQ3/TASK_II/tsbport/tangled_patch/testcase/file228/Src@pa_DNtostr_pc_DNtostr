@@ -1,0 +1,17 @@
+static const char *DNtostr(struct Curl_asn1Element *dn)
+{
+  char *buf = NULL;
+  ssize_t buflen = encodeDN(NULL, 0, dn);
+
+  if(buflen >= 0) {
+    buf = malloc(buflen + 1);
+    if(buf) {
+      if(encodeDN(buf, buflen + 1, dn) == -1) {
+        free(buf);
+        return NULL;
+      }
+      buf[buflen] = '\0';
+    }
+  }
+  return buf;
+}

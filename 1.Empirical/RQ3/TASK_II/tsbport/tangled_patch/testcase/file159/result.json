@@ -1,0 +1,67 @@
+{
+    "testcase": {
+        "file159": {
+            "match_message": {
+                "Same: nhmldmx_send_sample -> nhmldmx_send_sample": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 978->1001",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 979->1002 ([[1002, 1.0], [1140, 0.3823008849557522]])"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 981 -> 1004",
+                        "L2": "3: Unique Matched by Source code 982 -> 1005"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 1001,
+                        "add_hunk": [
+                            "\t\t\t\t} else if (!strnicmp(att->value, \"gmem://\", 7)) {\n",
+                            "\t\t\t\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_PARSER, (\"[NHMLDmx] Invalid url %s for NHML import\\n\", att->value));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 1004,
+                        "add_hunk": [
+                            "\t\t\t\t\tif (!url) {\n",
+                            "\t\t\t\t\t\tGF_LOG(GF_LOG_WARNING, GF_LOG_PARSER, (\"[NHMLDmx] Failed to get full url for %s\\n\", att->value));\n",
+                            "\t\t\t\t\t} else {\n",
+                            "\t\t\t\t\t\tstrncpy(szMediaTemp, url, GF_MAX_PATH-1);\n",
+                            "\t\t\t\t\t\tszMediaTemp[GF_MAX_PATH-1] = 0;\n",
+                            "\t\t\t\t\t\tgf_free(url);\n",
+                            "\t\t\t\t\t}\n"
+                        ],
+                        "delete_location": [
+                            1004,
+                            1005
+                        ],
+                        "delete_hunk": [
+                            "\t\t\t\t\tstrcpy(szMediaTemp, url ? url : att->value);\n",
+                            "\t\t\t\t\tif (url) gf_free(url);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: nhmldmx_send_sample -> nhmldmx_send_sample": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

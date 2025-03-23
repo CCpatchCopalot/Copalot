@@ -1,0 +1,272 @@
+{
+    "testcase": {
+        "file89": {
+            "match_message": {
+                "Same: Media_GetESD -> Media_GetESD": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 162 -> 167",
+                        "L2": "8: update L2 by L1 (3: Unique Matched by Source code 163 -> 170)"
+                    },
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "7: Context line (Ignored) is empty or comment 181",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 182->184 ([[184, 0.950207468879668], [192, 0.5361842105263157], [200, 0.4532924961715161]])"
+                    },
+                    "Seg_2": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 185 -> 187",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 186->188 ([[188, 1.0], [196, 0.9782608695652174]])"
+                    },
+                    "Seg_3": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 193 -> 195",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 194->196 ([[196, 1.0], [188, 0.9782608695652174]])"
+                    },
+                    "Seg_4": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 200 -> 202",
+                        "L2": "3: Unique Matched by Source code 201 -> 203"
+                    },
+                    "Seg_5": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 205 -> 206",
+                        "L2": "3: Unique Matched by Source code 206 -> 207"
+                    },
+                    "Seg_6": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 209 -> 210",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 210->211"
+                    },
+                    "Seg_7": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 249 -> 249",
+                        "L2": "3: Unique Matched by Source code 250 -> 250"
+                    },
+                    "Seg_8": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 259 -> 259",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 260->260"
+                    },
+                    "Seg_9": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 283 -> 283",
+                        "L2": "3: Unique Matched by Source code 284 -> 284"
+                    },
+                    "Seg_10": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 290 -> 290",
+                        "L2": "3: Unique Matched by Source code 290 -> 290"
+                    },
+                    "Seg_11": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 310 -> 310",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 311->329 ([[329, 0.8996763754045307], [311, 0.8840125391849529], [340, 0.6941176470588235]]))"
+                    },
+                    "Seg_12": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 321 -> 328",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 322->329 ([[329, 0.993006993006993], [311, 0.777027027027027], [340, 0.7570977917981072]])"
+                    },
+                    "Seg_13": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 332 -> 339",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 333->340 ([[340, 1.0], [329, 0.7586206896551724], [311, 0.729483282674772]])"
+                    },
+                    "Seg_14": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 350 -> 357",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 351->340 ([[340, 0.6890380313199105], [311, 0.568075117370892], [329, 0.5480769230769231]]))"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 167,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 183,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 187,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "add",
+                        "add_location": 195,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "add",
+                        "add_location": 202,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "add",
+                        "add_location": 206,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "add",
+                        "add_location": 210,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "add",
+                        "add_location": 249,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_MP4S)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 259,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_MP4S)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "add",
+                        "add_location": 283,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "change",
+                        "add_location": 290,
+                        "add_hunk": [
+                            "\tcase GF_ISOM_SUBTYPE_OPUS:\n",
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n",
+                            "\t{\n"
+                        ],
+                        "delete_location": [
+                            290,
+                            290
+                        ],
+                        "delete_hunk": [
+                            "\tcase GF_ISOM_SUBTYPE_OPUS: {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "add",
+                        "add_location": 310,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_VIDEO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "add",
+                        "add_location": 328,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "add",
+                        "add_location": 339,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_MP4S)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "add",
+                        "add_location": 357,
+                        "add_hunk": [
+                            "\t\tif (entry->internal_type != GF_ISOM_SAMPLE_ENTRY_AUDIO)\n",
+                            "\t\t\treturn GF_ISOM_INVALID_MEDIA;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: Media_GetESD -> Media_GetESD": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check",
+                "control_flow"
+            ]
+        }
+    }
+}

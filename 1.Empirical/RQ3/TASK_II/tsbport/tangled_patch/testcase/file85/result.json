@@ -1,0 +1,64 @@
+{
+    "testcase": {
+        "file85": {
+            "match_message": {
+                "Same: H5O_msg_free_real -> H5O_msg_free_real": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 405 -> 680",
+                        "L2": "3: Unique Matched by Source code 405 -> 680"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 409 -> 684",
+                        "L2": "3: Unique Matched by Source code 409 -> 684"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 680,
+                        "add_hunk": [],
+                        "delete_location": [
+                            680,
+                            680
+                        ],
+                        "delete_hunk": [
+                            "    HDassert(type);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 684,
+                        "add_hunk": [
+                            "        if (type && type->free)\n"
+                        ],
+                        "delete_location": [
+                            684,
+                            684
+                        ],
+                        "delete_hunk": [
+                            "        if (NULL != (type->free))\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: H5O_msg_free_real -> H5O_msg_free_real": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+361c361
+<                           void **ssl_sessionid,
+---
+>bool Curl_ssl_getsessionid(struct Curl_easy *data, struct connectdata *conn, const bool isProxy, void **ssl_sessionid, size_t *idsize, /* set 0 if unknown */ int sockindex)
+372d
+<  const bool isProxy = CONNECT_PROXY_SSL();
+384d
+<  (void)sockindex;
+385a386
+>  (void)sockindex;
+387a388,391
+>#ifdef CURL_DISABLE_PROXY
+>  if(isProxy)
+>    return TRUE;
+>#endif
+474c474
+<CURLcode Curl_ssl_addsessionid(struct connectdata *conn,
+---
+>CURLcode Curl_ssl_addsessionid(struct Curl_easy *data, struct connectdata *conn, bool isProxy, void *ssl_sessionid, size_t idsize, int sockindex)
+488d
+<  const bool isProxy = CONNECT_PROXY_SSL();
+500a501
+>  (void)sockindex;

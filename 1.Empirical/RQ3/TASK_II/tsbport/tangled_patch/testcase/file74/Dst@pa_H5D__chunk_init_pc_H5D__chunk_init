@@ -1,0 +1,90 @@
+static herr_t
+H5D__chunk_init(H5F_t *f, const H5D_t *const dset, hid_t dapl_id)
+{
+    H5D_chk_idx_info_t idx_info;                            /* Chunked index info */
+    H5D_rdcc_t *       rdcc = &(dset->shared->cache.chunk); /* Convenience pointer to dataset's chunk cache */
+    H5P_genplist_t *   dapl;                                /* Data access property list object pointer */
+    H5O_storage_chunk_t *sc        = &(dset->shared->layout.storage.u.chunk);
+    herr_t               ret_value = SUCCEED; /* Return value */
+
+    FUNC_ENTER_PACKAGE
+
+    /* Sanity check */
+    HDassert(f);
+    HDassert(dset);
+    H5D_CHUNK_STORAGE_INDEX_CHK(sc);
+
+    if (NULL == (dapl = (H5P_genplist_t *)H5I_object(dapl_id)))
+        HGOTO_ERROR(H5E_ID, H5E_BADID, FAIL, "can't find object for fapl ID")
+
+    /* Use the properties in dapl_id if they have been set, otherwise use the properties from the file */
+    if (H5P_get(dapl, H5D_ACS_DATA_CACHE_NUM_SLOTS_NAME, &rdcc->nslots) < 0)
+        HGOTO_ERROR(H5E_PLIST, H5E_CANTGET, FAIL, "can't get data cache number of slots")
+    if (rdcc->nslots == H5D_CHUNK_CACHE_NSLOTS_DEFAULT)
+        rdcc->nslots = H5F_RDCC_NSLOTS(f);
+
+    if (H5P_get(dapl, H5D_ACS_DATA_CACHE_BYTE_SIZE_NAME, &rdcc->nbytes_max) < 0)
+        HGOTO_ERROR(H5E_PLIST, H5E_CANTGET, FAIL, "can't get data cache byte size")
+    if (rdcc->nbytes_max == H5D_CHUNK_CACHE_NBYTES_DEFAULT)
+        rdcc->nbytes_max = H5F_RDCC_NBYTES(f);
+
+    if (H5P_get(dapl, H5D_ACS_PREEMPT_READ_CHUNKS_NAME, &rdcc->w0) < 0)
+        HGOTO_ERROR(H5E_PLIST, H5E_CANTGET, FAIL, "can't get preempt read chunks")
+    if (rdcc->w0 < 0)
+        rdcc->w0 = H5F_RDCC_W0(f);
+
+    /* If nbytes_max or nslots is 0, set them both to 0 and avoid allocating space */
+    if (!rdcc->nbytes_max || !rdcc->nslots)
+        rdcc->nbytes_max = rdcc->nslots = 0;
+    else {
+        rdcc->slot = H5FL_SEQ_CALLOC(H5D_rdcc_ent_ptr_t, rdcc->nslots);
+        if (NULL == rdcc->slot)
+            HGOTO_ERROR(H5E_RESOURCE, H5E_NOSPACE, FAIL, "memory allocation failed")
+
+        /* Reset any cached chunk info for this dataset */
+        H5D__chunk_cinfo_cache_reset(&(rdcc->last));
+    } /* end else */
+
+    /* Compute scaled dimension info, if dataset dims > 1 */
+    if (dset->shared->ndims > 1) {
+        unsigned u; /* Local index value */
+
+        for (u = 0; u < dset->shared->ndims; u++) {
+            hsize_t scaled_power2up; /* Scaled value, rounded to next power of 2 */
+
+            /* Initial scaled dimension sizes */
+            if (dset->shared->layout.u.chunk.dim[u] == 0)
+                HGOTO_ERROR(H5E_DATASET, H5E_BADVALUE, FAIL, "chunk size must be > 0, dim = %u ", u)
+
+            /* Round up to the next integer # of chunks, to accommodate partial chunks */
+            rdcc->scaled_dims[u] = (dset->shared->curr_dims[u] + dset->shared->layout.u.chunk.dim[u] - 1) /
+                                   dset->shared->layout.u.chunk.dim[u];
+
+            if (!(scaled_power2up = H5VM_power2up(rdcc->scaled_dims[u])))
+                HGOTO_ERROR(H5E_DATASET, H5E_CANTGET, FAIL, "unable to get the next power of 2")
+
+            /* Initial 'power2up' values for scaled dimensions */
+            rdcc->scaled_power2up[u] = scaled_power2up;
+
+            /* Number of bits required to encode scaled dimension size */
+            rdcc->scaled_encode_bits[u] = H5VM_log2_gen(rdcc->scaled_power2up[u]);
+        } /* end for */
+    }     /* end if */
+
+    /* Compose chunked index info struct */
+    idx_info.f       = f;
+    idx_info.pline   = &dset->shared->dcpl_cache.pline;
+    idx_info.layout  = &dset->shared->layout.u.chunk;
+    idx_info.storage = sc;
+
+    /* Allocate any indexing structures */
+    if (sc->ops->init && (sc->ops->init)(&idx_info, dset->shared->space, dset->oloc.addr) < 0)
+        HGOTO_ERROR(H5E_DATASET, H5E_CANTINIT, FAIL, "can't initialize indexing information")
+
+    /* Set the number of chunks in dataset, etc. */
+    if (H5D__chunk_set_info(dset) < 0)
+        HGOTO_ERROR(H5E_DATASET, H5E_CANTINIT, FAIL, "unable to set # of chunks for dataset")
+
+done:
+    FUNC_LEAVE_NOAPI(ret_value)
+} /* end H5D__chunk_init() */

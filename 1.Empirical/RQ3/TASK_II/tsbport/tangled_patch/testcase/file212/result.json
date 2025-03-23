@@ -1,0 +1,136 @@
+{
+    "testcase": {
+        "file212": {
+            "match_message": {
+                "Same: epsc_print_page -> epsc_print_page": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 130 -> 177",
+                        "L2": "5: Matched by Syntax(AST) similarity 131->178"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 133 -> 181",
+                        "L2": "5: Matched by Syntax(AST) similarity 134->182"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 136 -> 185",
+                        "L2": "3: Unique Matched by Source code 141 -> 190"
+                    },
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 147->196",
+                        "L2": "3: Unique Matched by Source code 148 -> 197"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            177,
+                            178
+                        ],
+                        "delete_hunk": [
+                            "    byte *in =\n",
+                            "        (byte *) gs_malloc(pdev->memory, in_size + 1, 1,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 181,
+                        "add_hunk": [
+                            "byte *in;",
+                            "byte *out;"
+                        ],
+                        "delete_location": [
+                            181,
+                            182
+                        ],
+                        "delete_hunk": [
+                            "    byte *out =\n",
+                            "        (byte *) gs_malloc(pdev->memory, out_size + 1, 1,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 185,
+                        "add_hunk": [
+                            "    char start_graphics;\n",
+                            "    int first_pass;\n",
+                            "    int last_pass;\n",
+                            "    int dots_per_space; \n",
+                            "    int bytes_per_space;\n"
+                        ],
+                        "delete_location": [
+                            185,
+                            190
+                        ],
+                        "delete_hunk": [
+                            "    char start_graphics = (char)\n",
+                            "        ((y_24pin ? graphics_modes_24 : graphics_modes_9)[x_dpi / 60]);\n",
+                            "    int first_pass = (start_graphics & DD ? 1 : 0);\n",
+                            "    int last_pass = first_pass * 2;\n",
+                            "    int dots_per_space = x_dpi / 10;    /* pica space = 1/10\" */\n",
+                            "    int bytes_per_space = dots_per_space * y_mult;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 196,
+                        "add_hunk": [
+                            "    int spare_bits;\n",
+                            "    int whole_bits;\n",
+                            "    int max_dpi = 60 * ((y_24pin) ?sizeof(graphics_modes_24) / sizeof(graphics_modes_24[0]):sizeof(graphics_modes_9) / sizeof(graphics_modes_9[0]))\n",
+                            "            - 1;\n",
+                            "    if (x_dpi > max_dpi) {\n",
+                            "        return_error(gs_error_rangecheck);\n",
+                            "    }\n",
+                            "    in =(byte *) gs_malloc(pdev->memoryout_size, in_size + 1, 1, \"epsc_print_page(in)\");\n",
+                            "    out =(byte *) gs_malloc(pdev->memoryout_size, out_size + 1, 1, \"epsc_print_page(out)\");\n",
+                            "    start_graphics = (char)((y_24pin ? graphics_modes_24 : graphics_modes_9)[x_dpi / 60]);\n",
+                            "    first_pass = (start_graphics & DD ? 1 : 0);\n",
+                            "    last_pass = first_pass * 2;\n",
+                            "    dots_per_space = x_dpi / 10;    /* pica space = 1/10\" */\n",
+                            "    bytes_per_space = dots_per_space * y_mult;\n",
+                            "    spare_bits = (pdev->width % 8); /* left over bits to go to margin */\n",
+                            "    whole_bits = pdev->width - spare_bits;\n"
+                        ],
+                        "delete_location": [
+                            196,
+                            197
+                        ],
+                        "delete_hunk": [
+                            "    int spare_bits = (pdev->width % 8); /* left over bits to go to margin */\n",
+                            "    int whole_bits = pdev->width - spare_bits;\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: epsc_print_page -> epsc_print_page": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "USE",
+                "DEF",
+                "change_type"
+            ]
+        }
+    }
+}

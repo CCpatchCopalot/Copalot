@@ -1,0 +1,8 @@
+881a882
+> GLOBALS->yylen_vcd_recoder_c_3=len;
+885d885
+< 	GLOBALS->yylen_vcd_recoder_c_3=len;
+1475c1475
+< 			if(tok==T_STRING)
+---
+> 			if (tok != T_END && tok != T_EOF)

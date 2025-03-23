@@ -1,0 +1,52 @@
+11,13c11,13
+<static ut32 magic_int;
+<static ut32 symbols_ordinal = 0;
+---
+>static R_TH_LOCAL ut32 magic_int;
+>static R_TH_LOCAL ut32 symbols_ordinal = 0;
+>static R_TH_LOCAL RList *refs = NULL; // If you don't have a good reason, do not change this. And also checkout !refs in get_code_object()
+498,503c498
+<		if (!tmp) {
+<			r_list_free (ret->data);
+<			R_FREE (ret);
+<			return NULL;
+<		}
+<		if (!r_list_append (ret->data, tmp)) {
+---
+>		if (!tmp || !r_list_append (ret->data, tmp)) {
+504a505
+>			((RList*)ret->data)->free = NULL;
+533d
+<	pyc_object *ret = NULL;
+535,537c535
+<	ut32 n = 0;
+<	n = get_ut32 (buffer, &error);
+---
+>	ut32 n = get_ut32 (buffer, &error);
+545c545
+<	ret = get_array_object_generic (buffer, n);
+---
+>	pyc_object *ret = get_array_object_generic (buffer, n);
+548d
+<		return ret;
+550c550
+<	return NULL;
+---
+>	return ret;
+556,558c556
+<	ut32 n = 0;
+<	n = get_ut32 (buffer, &error);
+---
+>	ut32 n = get_ut32 (buffer, &error);
+615d
+<	pyc_object *ret = NULL;
+627,630c627,628
+<	ret = get_array_object_generic (buffer, n);
+<	if (!ret) {
+<		return NULL;
+<	}
+---
+>	pyc_object *ret = get_array_object_generic (buffer, n);
+>	if (ret) {
+631a632
+>	}

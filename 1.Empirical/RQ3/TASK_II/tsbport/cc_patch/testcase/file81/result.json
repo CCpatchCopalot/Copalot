@@ -1,0 +1,52 @@
+{
+    "testcase": {
+        "file81": {
+            "match_message": {
+                "Same: gf_odf_vvc_cfg_read_bs -> gf_odf_vvc_cfg_read_bs": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1379 -> 1325",
+                        "L2": "3: Unique Matched by Source code 1379 -> 1325"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 762,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 1325,
+                        "add_hunk": [
+                            "\t\tif (!valid || ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI)))\n"
+                        ],
+                        "delete_location": [
+                            1325,
+                            1325
+                        ],
+                        "delete_hunk": [
+                            "\t\tif ((ar->type != GF_VVC_NALU_DEC_PARAM) && (ar->type != GF_VVC_NALU_OPI))\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_odf_vvc_cfg_read_bs -> gf_odf_vvc_cfg_read_bs": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "sanity_check"
+            ]
+        }
+    }
+}

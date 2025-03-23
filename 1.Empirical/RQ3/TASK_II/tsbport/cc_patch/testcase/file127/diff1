@@ -1,0 +1,12 @@
+4911a4912,4916
+>                     if (i > 0 && zlength != crop->combined_length)
+>                     {
+>                         TIFFError("computeInputPixelOffsets","Only equal length regions can be combined for ""-E left or right");
+>                         return (-1);
+>                     }
+4917a4923,4927
+>                     if (i > 0 && zwidth != crop->combined_width)
+>                     {
+>                         TIFFError("computeInputPixelOffsets","Only equal width regions can be ""combined for -E ""top or bottom");
+>                         return (-1);
+>                     }

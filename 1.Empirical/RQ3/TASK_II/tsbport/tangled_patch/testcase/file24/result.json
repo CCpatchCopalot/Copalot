@@ -1,0 +1,98 @@
+{
+    "testcase": {
+        "file24": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "21 -> 34",
+                        "L2": "22 -> 35",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'cpp:include', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "34",
+                            "verify result": "False"
+                        },
+                        "type": "cpp:include",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "cpp:include",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    }
+                },
+                "Same: tensorflow -> tensorflow": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 60 -> 77",
+                        "L2": "3: Unique Matched by Source code 60 -> 77"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": 34,
+                        "add_hunk": [
+                            "#include <limits>\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "add",
+                        "add_location": 36,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 77,
+                        "add_hunk": [
+                            "  std::size_t center_frequencies_size = std::size_t(num_channels_) + 1;\n",
+                            "  if (center_frequencies_size >= std::numeric_limits<int>::max() ||center_frequencies_size > center_frequencies_.max_size()) {\n",
+                            "    LOG(ERROR) << \"Number of filterbank channels must be less than \" << std::numeric_limits<int>::max() << \" and less than or equal to \" << center_frequencies_.max_size();\n",
+                            "    return false;\n",
+                            "  }\n",
+                            "  center_frequencies_.resize(center_frequencies_size);\n"
+                        ],
+                        "delete_location": [
+                            77,
+                            77
+                        ],
+                        "delete_hunk": [
+                            "  center_frequencies_.resize(num_channels_ + 1);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "cpp:include"
+                    }
+                },
+                "Same: tensorflow -> tensorflow": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "outside",
+                "sanity_check",
+                "other",
+                "change_type"
+            ]
+        }
+    }
+}

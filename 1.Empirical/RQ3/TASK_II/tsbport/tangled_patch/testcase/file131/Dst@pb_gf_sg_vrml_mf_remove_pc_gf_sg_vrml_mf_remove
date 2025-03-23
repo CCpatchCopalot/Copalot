@@ -1,0 +1,33 @@
+GF_Err gf_sg_vrml_mf_remove(void *mf, u32 FieldType, u32 RemoveFrom)
+{
+	char *buffer;
+	u32 FieldSize, i, k;
+	GenMFField *mffield = (GenMFField *)mf;
+
+	FieldSize = gf_sg_vrml_get_sf_size(FieldType);
+
+	//field we can't copy
+	if (!FieldSize) return GF_BAD_PARAM;
+
+	if (!mffield->count || RemoveFrom >= mffield->count) return GF_BAD_PARAM;
+
+	if (mffield->count == 1) {
+		gf_free(mffield->array);
+		mffield->array = NULL;
+		mffield->count = 0;
+		return GF_OK;
+	}
+	k=0;
+	buffer = (char*)gf_malloc(sizeof(char)*(mffield->count-1)*FieldSize);
+	for (i=0; i<mffield->count; i++) {
+		if (RemoveFrom == i) {
+			k = 1;
+		} else {
+			memcpy(buffer + (i-k)*FieldSize, mffield->array + i*FieldSize, FieldSize);
+		}
+	}
+	gf_free(mffield->array);
+	mffield->array = buffer;
+	mffield->count -= 1;
+	return GF_OK;
+}

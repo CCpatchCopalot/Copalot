@@ -1,0 +1,67 @@
+{
+    "testcase": {
+        "file90": {
+            "match_message": {
+                "Same: gf_text_get_utf8_line -> gf_text_get_utf8_line": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 233 -> 258",
+                        "L2": "3: Unique Matched by Source code 233 -> 258"
+                    },
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 306 -> 331",
+                        "L2": "3: Unique Matched by Source code 306 -> 331"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": 258,
+                        "add_hunk": [
+                            "\tchar szLineConv[2048];\n"
+                        ],
+                        "delete_location": [
+                            258,
+                            258
+                        ],
+                        "delete_hunk": [
+                            "\tchar szLineConv[1024];\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 331,
+                        "add_hunk": [
+                            "\ti = (u32) gf_utf8_wcstombs(szLineConv, 2048, (const unsigned short **) &sptr);\n"
+                        ],
+                        "delete_location": [
+                            331,
+                            331
+                        ],
+                        "delete_hunk": [
+                            "\ti = (u32) gf_utf8_wcstombs(szLineConv, 1024, (const unsigned short **) &sptr);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: gf_text_get_utf8_line -> gf_text_get_utf8_line": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "change_type"
+            ]
+        }
+    }
+}

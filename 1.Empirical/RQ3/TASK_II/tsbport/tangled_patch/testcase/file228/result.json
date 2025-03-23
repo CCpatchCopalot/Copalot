@@ -1,0 +1,2829 @@
+{
+    "testcase": {
+        "file228": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "221 -> -1",
+                        "L2": "221 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "230 -> -1",
+                        "L2": "231 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_10": {
+                        "Edit": "change",
+                        "L1": "254 -> -1",
+                        "L2": "255 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_14": {
+                        "Edit": "change",
+                        "L1": "276 -> -1",
+                        "L2": "277 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_19": {
+                        "Edit": "change",
+                        "L1": "381 -> -1",
+                        "L2": "382 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_26": {
+                        "Edit": "change",
+                        "L1": "423 -> -1",
+                        "L2": "423 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_36": {
+                        "Edit": "change",
+                        "L1": "508 -> -1",
+                        "L2": "509 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_40": {
+                        "Edit": "change",
+                        "L1": "543 -> -1",
+                        "L2": "544 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_53": {
+                        "Edit": "change",
+                        "L1": "584 -> -1",
+                        "L2": "585 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    },
+                    "Seg_69": {
+                        "Edit": "change",
+                        "L1": "798 -> 929",
+                        "L2": "799 -> 930",
+                        "debug": {
+                            "runtime info": "True,{'state': 'success', 'type': 'unknown', 'info': ['precise context mattch']}",
+                            "verify location": "-1",
+                            "output location": "929",
+                            "verify result": "False"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "success",
+                            "type": "unknown",
+                            "info": [
+                                "precise context mattch"
+                            ]
+                        }
+                    },
+                    "Seg_74": {
+                        "Edit": "change",
+                        "L1": "913 -> -1",
+                        "L2": "914 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'ignore', 'type': 'unknown', 'info': 'missing change/delete counterpart'}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "ignore",
+                            "type": "unknown",
+                            "info": "missing change/delete counterpart"
+                        }
+                    }
+                },
+                "Same: bool2str -> bool2str": {
+                    "Seg_1": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 223 -> 263",
+                        "L2": "3: Unique Matched by Source code 223 -> 263"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 226 -> 266",
+                        "L2": "3: Unique Matched by Source code 227 -> 267"
+                    }
+                },
+                "Same: octet2str -> octet2str": {
+                    "Seg_4": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 233 -> 276",
+                        "L2": "3: Unique Matched by Source code 237 -> 280"
+                    },
+                    "Seg_5": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 240 -> 283",
+                        "L2": "3: Unique Matched by Source code 240 -> 283"
+                    },
+                    "Seg_6": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 242 -> 285",
+                        "L2": "3: Unique Matched by Source code 242 -> 285"
+                    }
+                },
+                "Same: bit2str -> bit2str": {
+                    "Seg_7": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 245 -> 288",
+                        "L2": "3: Unique Matched by Source code 245 -> 288"
+                    },
+                    "Seg_8": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 248->292",
+                        "L2": "7: Context line (Ignored) is empty or comment 247"
+                    },
+                    "Seg_9": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 250 -> 294",
+                        "L2": "3: Unique Matched by Source code 251 -> 295"
+                    }
+                },
+                "Same: int2str -> int2str": {
+                    "Seg_11": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 261 -> 309",
+                        "L2": "3: Unique Matched by Source code 261 -> 309"
+                    },
+                    "Seg_12": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 264 -> 312",
+                        "L2": "3: Unique Matched by Source code 264 -> 312"
+                    },
+                    "Seg_13": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 273 -> 321",
+                        "L2": "3: Unique Matched by Source code 273 -> 321"
+                    }
+                },
+                "Same: utf8asn1str -> utf8asn1str": {
+                    "Seg_15": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 299->355",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 299->355"
+                    },
+                    "Seg_16": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 303->358",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 303->358"
+                    },
+                    "Seg_17": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 332->395",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 332->395"
+                    }
+                },
+                "Same: string2str -> string2str": {
+                    "Seg_18": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 350",
+                        "L2": "7: Context line (Ignored) is empty or comment 378"
+                    }
+                },
+                "Same: encodeOID -> encodeOID": {
+                    "Seg_20": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 384 -> 460",
+                        "L2": "3: Unique Matched by Source code 384 -> 460"
+                    },
+                    "Seg_21": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 386 -> 462",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 387->463"
+                    },
+                    "Seg_22": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 392 -> 468",
+                        "L2": "3: Unique Matched by Source code 399 -> 475"
+                    },
+                    "Seg_23": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 403 -> 479",
+                        "L2": "3: Unique Matched by Source code 405 -> 481"
+                    },
+                    "Seg_24": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 413 -> 489",
+                        "L2": "3: Unique Matched by Source code 416 -> 492"
+                    },
+                    "Seg_25": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 418->494 ([[494, 1.0], [469, 0.6339869281045751]])",
+                        "L2": "3: Unique Matched by Source code 420 -> 496"
+                    }
+                },
+                "Same: OID2str -> OID2str": {
+                    "Seg_27": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 425 -> 504",
+                        "L2": "3: Unique Matched by Source code 425 -> 504"
+                    },
+                    "Seg_28": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 427 -> 506",
+                        "L2": "3: Unique Matched by Source code 427 -> 506"
+                    },
+                    "Seg_29": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 429 -> 508",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 435->514"
+                    },
+                    "Seg_30": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 437 -> 516",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 442->521"
+                    },
+                    "Seg_31": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 444->523",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 445->524"
+                    },
+                    "Seg_32": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 446 -> 525",
+                        "L2": "3: Unique Matched by Source code 446 -> 525"
+                    }
+                },
+                "Same: GTime2str -> GTime2str": {
+                    "Seg_33": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 449 -> 528",
+                        "L2": "3: Unique Matched by Source code 449 -> 528"
+                    },
+                    "Seg_34": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 476 -> 556",
+                        "L2": "3: Unique Matched by Source code 476 -> 556"
+                    },
+                    "Seg_35": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 505->588",
+                        "L2": "5: Matched by Syntax(AST) similarity 505->588"
+                    }
+                },
+                "Same: UTime2str -> UTime2str": {
+                    "Seg_37": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 526->612 ([[612, 0.882051282051282], [617, 0.42727272727272725]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 526->612 ([[612, 0.882051282051282], [617, 0.42727272727272725]])"
+                    },
+                    "Seg_38": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 531->617 ([[617, 1.0], [612, 0.43317972350230416]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 531->617 ([[617, 1.0], [612, 0.43317972350230416]])"
+                    },
+                    "Seg_39": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 540->627",
+                        "L2": "5: Matched by Syntax(AST) similarity 540->627"
+                    }
+                },
+                "Same: ASN1tostr -> ASN1tostr": {
+                    "Seg_41": {
+                        "Edit": "add",
+                        "L1": "8: update L1 by L2 (6: Matched by Text Context Similarity from Source Code 545->636)",
+                        "L2": "3: Unique Matched by Source code 546 -> 638"
+                    },
+                    "Seg_42": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 547->636",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 547->636"
+                    },
+                    "Seg_43": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 554 -> 646",
+                        "L2": "3: Unique Matched by Source code 554 -> 646"
+                    },
+                    "Seg_44": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 557 -> 649",
+                        "L2": "3: Unique Matched by Source code 557 -> 649"
+                    },
+                    "Seg_45": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 559 -> 651",
+                        "L2": "3: Unique Matched by Source code 559 -> 651"
+                    },
+                    "Seg_46": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 561 -> 653",
+                        "L2": "3: Unique Matched by Source code 561 -> 653"
+                    },
+                    "Seg_47": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 563 -> 655",
+                        "L2": "3: Unique Matched by Source code 563 -> 655"
+                    },
+                    "Seg_48": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 565 -> 657",
+                        "L2": "3: Unique Matched by Source code 565 -> 657"
+                    },
+                    "Seg_49": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 567 -> 659",
+                        "L2": "3: Unique Matched by Source code 567 -> 659"
+                    },
+                    "Seg_50": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 569 -> 661",
+                        "L2": "3: Unique Matched by Source code 569 -> 661"
+                    },
+                    "Seg_51": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 578 -> 670",
+                        "L2": "3: Unique Matched by Source code 578 -> 670"
+                    },
+                    "Seg_52": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 581->674",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 581->674"
+                    }
+                },
+                "Same: encodeDN -> encodeDN": {
+                    "Seg_54": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 591 -> 689",
+                        "L2": "3: Unique Matched by Source code 591 -> 689"
+                    },
+                    "Seg_55": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 595 -> 693",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 596->694"
+                    },
+                    "Seg_56": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 599 -> 697",
+                        "L2": "3: Unique Matched by Source code 600 -> 698"
+                    },
+                    "Seg_57": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 603 -> 701",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 604->702 ([[702, 1.0], [705, 0.6682027649769585], [707, 0.6344827586206896], [740, 0.5353535353535354], [710, 0.49667405764966743]])"
+                    },
+                    "Seg_58": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 606 -> 704",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 612->710 ([[710, 0.9509594882729211], [707, 0.5827814569536424], [740, 0.5507246376811594], [705, 0.5486725663716814], [702, 0.49122807017543857]])"
+                    },
+                    "Seg_59": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 615 -> 714",
+                        "L2": "3: Unique Matched by Source code 615 -> 714"
+                    },
+                    "Seg_60": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 618 -> 717",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 622->721"
+                    },
+                    "Seg_61": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 626->725 ([[725, 1.0], [741, 0.7321428571428572]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 631->730 ([[730, 1.0], [746, 0.8031496062992126]])"
+                    },
+                    "Seg_62": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 634 -> 733",
+                        "L2": "3: Unique Matched by Source code 636 -> 735"
+                    },
+                    "Seg_63": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 639 -> 738",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 647->746 ([[746, 1.0], [730, 0.8031496062992126]])"
+                    },
+                    "Seg_64": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 649->748",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 650->749"
+                    },
+                    "Seg_65": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 651 -> 750",
+                        "L2": "3: Unique Matched by Source code 651 -> 750"
+                    }
+                },
+                "Same: dumpAlgo -> dumpAlgo": {
+                    "Seg_66": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 772->896",
+                        "L2": "5: Matched by Syntax(AST) similarity 772->896"
+                    },
+                    "Seg_67": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 780 -> 905",
+                        "L2": "3: Unique Matched by Source code 780 -> 905"
+                    },
+                    "Seg_68": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 784 -> 909",
+                        "L2": "3: Unique Matched by Source code 787 -> 912"
+                    }
+                },
+                "Same: do_pubkey_field -> do_pubkey_field": {
+                    "Seg_70": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 801 -> 933",
+                        "L2": "3: Unique Matched by Source code 802 -> 934"
+                    },
+                    "Seg_71": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 806 -> 938",
+                        "L2": "3: Unique Matched by Source code 807 -> 939"
+                    },
+                    "Seg_72": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 809 -> 941",
+                        "L2": "3: Unique Matched by Source code 812 -> 944"
+                    },
+                    "Seg_73": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 814 -> 946",
+                        "L2": "3: Unique Matched by Source code 814 -> 946"
+                    }
+                },
+                "Same: DNtostr -> DNtostr": {
+                    "Seg_75": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 916 -> 1056",
+                        "L2": "3: Unique Matched by Source code 929 -> 1069"
+                    }
+                },
+                "Same: Curl_extract_certinfo -> Curl_extract_certinfo": {
+                    "Seg_76": {
+                        "Edit": "delete",
+                        "L1": "3: Unique Matched by Source code 936 -> 1079",
+                        "L2": "3: Unique Matched by Source code 936 -> 1079"
+                    },
+                    "Seg_77": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 941 -> 1084",
+                        "L2": "8: update L2 by L1 (6: Matched by Text Context Similarity from Source Code 942->1087)"
+                    },
+                    "Seg_78": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 946->1091",
+                        "L2": "3: Unique Matched by Source code 947 -> 1092"
+                    },
+                    "Seg_79": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 954 -> 1099",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 956->1101 ([[1101, 1.0], [1114, 0.9025641025641026], [1212, 0.8765133171912833], [1143, 0.8679245283018868], [1168, 0.8530120481927711], [1180, 0.8509615384615384], [1156, 0.7246963562753037], [1193, 0.6516007532956685], [1239, 0.44964871194379397]])"
+                    },
+                    "Seg_80": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 958 -> 1103",
+                        "L2": "3: Unique Matched by Source code 958 -> 1103"
+                    },
+                    "Seg_81": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 960->1105 ([[1105, 1.0], [1135, 0.7515923566878981]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 960->1105 ([[1105, 1.0], [1135, 0.7515923566878981]])"
+                    },
+                    "Seg_82": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 962->1107 ([[1107, 1.0], [1118, 0.6503667481662592], [1137, 0.6368715083798883], [1215, 0.6238095238095238], [1146, 0.6214953271028038], [1171, 0.6113744075829384], [1183, 0.6084905660377358], [1159, 0.6045454545454545], [1250, 0.5848563968668408]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 964->1109 ([[1109, 1.0], [1120, 0.6328358208955224], [1217, 0.5737704918032787], [1148, 0.572192513368984], [1173, 0.5706521739130435], [1185, 0.5621621621621622], [1161, 0.5544041450777202], [1205, 0.44565217391304346]])"
+                    },
+                    "Seg_83": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 967 -> 1112",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 969->1114 ([[1114, 1.0], [1101, 0.9025641025641026], [1212, 0.8671679197994988], [1143, 0.8585365853658536], [1168, 0.8478802992518704], [1180, 0.845771144278607], [1156, 0.7083333333333333], [1193, 0.6499032882011606], [1239, 0.46973365617433416]])"
+                    },
+                    "Seg_84": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 971 -> 1116",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 975->1120 ([[1120, 0.9942528735632183], [1217, 0.8496042216358839], [1148, 0.8423772609819121], [1173, 0.8346456692913385], [1185, 0.8302872062663186], [1161, 0.8170426065162908], [1109, 0.6366366366366366], [1205, 0.6141732283464567]])"
+                    },
+                    "Seg_85": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 977->1122 ([[1122, 0.9942857142857143], [1175, 0.7283236994219653], [1163, 0.7211267605633802], [1219, 0.7043010752688172], [1150, 0.6970509383378016], [1187, 0.6701846965699209], [1207, 0.552112676056338], [1226, 0.378585086042065]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 977->1122 ([[1122, 0.9942857142857143], [1175, 0.7283236994219653], [1163, 0.7211267605633802], [1219, 0.7043010752688172], [1150, 0.6970509383378016], [1187, 0.6701846965699209], [1207, 0.552112676056338], [1226, 0.378585086042065]])"
+                    },
+                    "Seg_86": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 981 -> 1126",
+                        "L2": "3: Unique Matched by Source code 982 -> 1127"
+                    },
+                    "Seg_87": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 984 -> 1129",
+                        "L2": "3: Unique Matched by Source code 988 -> 1133"
+                    },
+                    "Seg_88": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 990->1135 ([[1135, 0.99581589958159], [1105, 0.7547974413646056]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 990->1135 ([[1135, 0.99581589958159], [1105, 0.7547974413646056]])"
+                    },
+                    "Seg_89": {
+                        "Edit": "delete",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 992->1137 ([[1137, 0.9939759036144579], [1107, 0.6404494382022472], [1250, 0.5042016806722689], [1118, 0.4908616187989556], [1146, 0.46766169154228854], [1215, 0.46192893401015234], [1171, 0.45959595959595956], [1183, 0.4522613065326633], [1159, 0.4492753623188406]])",
+                        "L2": "5: Matched by Syntax(AST) similarity 993->1138"
+                    },
+                    "Seg_90": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 996 -> 1141",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1003->1148 ([[1148, 0.9953051643192489], [1217, 0.937799043062201], [1173, 0.9238095238095239], [1185, 0.909952606635071], [1161, 0.904109589041096], [1120, 0.8475452196382429], [1205, 0.5761904761904761], [1109, 0.575268817204301]])"
+                    },
+                    "Seg_91": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1005->1150 ([[1150, 0.9248826291079812], [1187, 0.8055555555555556], [1175, 0.736842105263158], [1163, 0.7352941176470589], [1219, 0.6964705882352942], [1122, 0.6699751861042184], [1207, 0.6029411764705883], [1226, 0.3819444444444444]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1005->1150 ([[1150, 0.9248826291079812], [1187, 0.8055555555555556], [1175, 0.736842105263158], [1163, 0.7352941176470589], [1219, 0.6964705882352942], [1122, 0.6699751861042184], [1207, 0.6029411764705883], [1226, 0.3819444444444444]])"
+                    },
+                    "Seg_92": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1008->1153",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1015->1161 ([[1161, 0.9955555555555555], [1217, 0.9488372093023256], [1173, 0.9074074074074074], [1148, 0.904109589041096], [1185, 0.9032258064516129], [1120, 0.8170426065162908], [1109, 0.5572916666666667], [1205, 0.5555555555555556]])"
+                    },
+                    "Seg_93": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1017->1163 ([[1163, 0.9944444444444445], [1175, 0.8945868945868946], [1150, 0.7777777777777778], [1219, 0.7586206896551724], [1187, 0.7395833333333333], [1122, 0.7211267605633802], [1207, 0.6777777777777778], [1226, 0.3560606060606061]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1017->1163 ([[1163, 0.9944444444444445], [1175, 0.8945868945868946], [1150, 0.7777777777777778], [1219, 0.7586206896551724], [1187, 0.7395833333333333], [1122, 0.7211267605633802], [1207, 0.6777777777777778], [1226, 0.3560606060606061]])"
+                    },
+                    "Seg_94": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1020 -> 1166",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1027->1173 ([[1173, 0.9951690821256038], [1185, 0.9519230769230769], [1217, 0.941747572815534], [1148, 0.9238095238095239], [1161, 0.9074074074074074], [1120, 0.8398950131233596], [1205, 0.5748792270531401], [1109, 0.5737704918032787]])"
+                    },
+                    "Seg_95": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1029->1175 ([[1175, 0.9941520467836258], [1163, 0.8945868945868946], [1150, 0.7804878048780488], [1187, 0.768], [1219, 0.7554347826086957], [1122, 0.7341040462427746], [1207, 0.6780626780626781], [1226, 0.36994219653179194]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1029->1175 ([[1175, 0.9941520467836258], [1163, 0.8945868945868946], [1150, 0.7804878048780488], [1187, 0.768], [1219, 0.7554347826086957], [1122, 0.7341040462427746], [1207, 0.6780626780626781], [1226, 0.36994219653179194]])"
+                    },
+                    "Seg_96": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1032 -> 1178",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1039->1185 ([[1185, 0.9952153110047847], [1173, 0.9519230769230769], [1217, 0.9371980676328502], [1148, 0.909952606635071], [1161, 0.9032258064516129], [1120, 0.835509138381201], [1205, 0.5721153846153846], [1109, 0.5652173913043479]])"
+                    },
+                    "Seg_97": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1041->1187 ([[1187, 0.9123595505617977], [1150, 0.7881548974943052], [1175, 0.7135922330097088], [1163, 0.6888361045130642], [1219, 0.6712328767123288], [1122, 0.6394230769230769], [1207, 0.5368171021377672], [1226, 0.366723259762309]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1041->1187 ([[1187, 0.9123595505617977], [1150, 0.7881548974943052], [1175, 0.7135922330097088], [1163, 0.6888361045130642], [1219, 0.6712328767123288], [1122, 0.6394230769230769], [1207, 0.5368171021377672], [1226, 0.366723259762309]])"
+                    },
+                    "Seg_98": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1044->1190",
+                        "L2": "3: Unique Matched by Source code 1054 -> 1202"
+                    },
+                    "Seg_99": {
+                        "Edit": "add",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1055->1203",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1056->1204"
+                    },
+                    "Seg_100": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1057->1205 ([[1205, 1.0], [1120, 0.6214099216710183], [1148, 0.5829383886255924], [1173, 0.5769230769230769], [1185, 0.5741626794258373], [1217, 0.5700483091787439], [1161, 0.5622119815668203], [1109, 0.44565217391304346]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1059->1207 ([[1207, 1.0], [1175, 0.6798866855524079], [1163, 0.6795580110497237], [1150, 0.6368421052631579], [1187, 0.5699481865284974], [1219, 0.554089709762533], [1122, 0.5490196078431373], [1226, 0.3584905660377359]])"
+                    },
+                    "Seg_101": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1062 -> 1210",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1069->1217 ([[1217, 0.9951219512195122], [1161, 0.9488372093023256], [1173, 0.941747572815534], [1148, 0.937799043062201], [1185, 0.9371980676328502], [1120, 0.8496042216358839], [1109, 0.5769230769230769], [1205, 0.5631067961165048]])"
+                    },
+                    "Seg_102": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1071->1219 ([[1219, 0.8615384615384616], [1163, 0.680365296803653], [1175, 0.675990675990676], [1150, 0.6754385964912281], [1187, 0.6580086580086579], [1122, 0.6189376443418013], [1207, 0.497716894977169], [1226, 0.3795379537953796]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1071->1219 ([[1219, 0.8615384615384616], [1163, 0.680365296803653], [1175, 0.675990675990676], [1150, 0.6754385964912281], [1187, 0.6580086580086579], [1122, 0.6189376443418013], [1207, 0.497716894977169], [1226, 0.3795379537953796]])"
+                    },
+                    "Seg_103": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 1076->1226 ([[1226, 0.7198838896952104], [1219, 0.4237918215613383], [1122, 0.3875968992248062], [1175, 0.3828125], [1150, 0.3821892393320965], [1163, 0.3761996161228407], [1207, 0.3761996161228407], [1187, 0.3669724770642202]])",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1076->1226 ([[1226, 0.7198838896952104], [1219, 0.4237918215613383], [1122, 0.3875968992248062], [1175, 0.3828125], [1150, 0.3821892393320965], [1163, 0.3761996161228407], [1207, 0.3761996161228407], [1187, 0.3669724770642202]])"
+                    },
+                    "Seg_104": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 1080",
+                        "L2": "7: Context line (Ignored) is empty or comment 1080"
+                    },
+                    "Seg_105": {
+                        "Edit": "change",
+                        "L1": "3: Unique Matched by Source code 1098 -> 1197",
+                        "L2": "3: Unique Matched by Source code 1098 -> 1197"
+                    },
+                    "Seg_106": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 1100->1249",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 1103->1252"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode octet2str(struct dynbuf *store,const char *beg, const char *end)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_10",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode int2str(struct dynbuf *store,const char *beg, const char *end)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_14",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_19",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode encodeOID(struct dynbuf *store,const char *beg, const char *end)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_26",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_36",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode UTime2str(struct dynbuf *store, const char *beg, const char *end)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_40",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode ASN1tostr(struct dynbuf *store,struct Curl_asn1Element *elem, int type)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_53",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode encodeDN(struct dynbuf *store, struct Curl_asn1Element *dn)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_74",
+                    {
+                        "Edit": "change",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "static CURLcode DNtostr(struct dynbuf *store,struct Curl_asn1Element *dn)\n"
+                        ],
+                        "delete_location": [
+                            -1,
+                            -1
+                        ],
+                        "delete_hunk": []
+                    }
+                ],
+                [
+                    "Seg_104",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "  Curl_dyn_reset(&out);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "change",
+                        "add_location": 263,
+                        "add_hunk": [
+                            "static CURLcode bool2str(struct dynbuf *store, const char *beg, const char *end)\n"
+                        ],
+                        "delete_location": [
+                            263,
+                            263
+                        ],
+                        "delete_hunk": [
+                            "static const char *bool2str(const char *beg, const char *end)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 266,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;\n",
+                            "  return Curl_dyn_add(store, *beg? \"TRUE\": \"FALSE\");\n"
+                        ],
+                        "delete_location": [
+                            266,
+                            267
+                        ],
+                        "delete_hunk": [
+                            "    return NULL;\n",
+                            "  return strdup(*beg? \"TRUE\": \"FALSE\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_4",
+                    {
+                        "Edit": "change",
+                        "add_location": 276,
+                        "add_hunk": [
+                            "  CURLcode result = CURLE_OK;\n"
+                        ],
+                        "delete_location": [
+                            276,
+                            280
+                        ],
+                        "delete_hunk": [
+                            "  struct dynbuf buf;\n",
+                            "  CURLcode result;\n",
+                            "  Curl_dyn_init(&buf, 3 * CURL_ASN1_MAX + 1);\n",
+                            "  result = Curl_dyn_addn(&buf, \"\", 0);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_5",
+                    {
+                        "Edit": "change",
+                        "add_location": 283,
+                        "add_hunk": [
+                            "    result = Curl_dyn_addf(store, \"%02x:\", (unsigned char) *beg++);\n"
+                        ],
+                        "delete_location": [
+                            283,
+                            283
+                        ],
+                        "delete_hunk": [
+                            "    result = Curl_dyn_addf(&buf, \"%02x:\", (unsigned char) *beg++);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_6",
+                    {
+                        "Edit": "change",
+                        "add_location": 285,
+                        "add_hunk": [
+                            "  return result;\n"
+                        ],
+                        "delete_location": [
+                            285,
+                            285
+                        ],
+                        "delete_hunk": [
+                            "  return Curl_dyn_ptr(&buf);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_7",
+                    {
+                        "Edit": "change",
+                        "add_location": 288,
+                        "add_hunk": [
+                            "static CURLcode bit2str(struct dynbuf *store,const char *beg, const char *end)\n"
+                        ],
+                        "delete_location": [
+                            288,
+                            288
+                        ],
+                        "delete_hunk": [
+                            "static const char *bit2str(const char *beg, const char *end)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_8",
+                    {
+                        "Edit": "add",
+                        "add_location": 292,
+                        "add_hunk": []
+                    }
+                ],
+                [
+                    "Seg_9",
+                    {
+                        "Edit": "change",
+                        "add_location": 294,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;\n",
+                            "  return octet2str(store, beg, end);\n"
+                        ],
+                        "delete_location": [
+                            294,
+                            295
+                        ],
+                        "delete_hunk": [
+                            "    return NULL;\n",
+                            "  return octet2str(beg, end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_11",
+                    {
+                        "Edit": "change",
+                        "add_location": 309,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;\n"
+                        ],
+                        "delete_location": [
+                            309,
+                            309
+                        ],
+                        "delete_hunk": [
+                            "    return NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_12",
+                    {
+                        "Edit": "change",
+                        "add_location": 312,
+                        "add_hunk": [
+                            "    return octet2str(store, beg, end);\n"
+                        ],
+                        "delete_location": [
+                            312,
+                            312
+                        ],
+                        "delete_hunk": [
+                            "    return octet2str(beg, end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_13",
+                    {
+                        "Edit": "change",
+                        "add_location": 321,
+                        "add_hunk": [
+                            "  return Curl_dyn_addf(store, \"%s%x\", val >= 10? \"0x\": \"\", val);\n"
+                        ],
+                        "delete_location": [
+                            321,
+                            321
+                        ],
+                        "delete_hunk": [
+                            "  return curl_maprintf(\"%s%x\", val >= 10? \"0x\": \"\", val);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_15",
+                    {
+                        "Edit": "change",
+                        "add_location": 355,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;  /* Conversion not supported. */\n"
+                        ],
+                        "delete_location": [
+                            355,
+                            355
+                        ],
+                        "delete_hunk": [
+                            "    return -1;  /* Conversion not supported. */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_16",
+                    {
+                        "Edit": "change",
+                        "add_location": 358,
+                        "add_hunk": [
+                            "return CURLE_BAD_FUNCTION_ARGUMENT;"
+                        ],
+                        "delete_location": [
+                            358,
+                            358
+                        ],
+                        "delete_hunk": [
+                            "  if(inlength % size)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_17",
+                    {
+                        "Edit": "change",
+                        "add_location": 395,
+                        "add_hunk": [
+                            "              return CURLE_WEIRD_SERVER_REPLY;\n"
+                        ],
+                        "delete_location": [
+                            395,
+                            395
+                        ],
+                        "delete_hunk": [
+                            "              return -1;        /* Invalid char. size for target encoding. */\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_18",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "return result;"
+                        ],
+                        "delete_location": [
+                            422,
+                            428
+                        ],
+                        "delete_hunk": [
+                            "static const char *string2str(int type, const char *beg, const char *end)\n",
+                            "{\n",
+                            "  char *buf;\n",
+                            "  if(utf8asn1str(&buf, type, beg, end) < 0)\n",
+                            "    return NULL;\n",
+                            "  return buf;\n",
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_20",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            460,
+                            460
+                        ],
+                        "delete_hunk": [
+                            "  size_t i;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_21",
+                    {
+                        "Edit": "add",
+                        "add_location": 462,
+                        "add_hunk": [
+                            "  CURLcode result = CURLE_OK;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_22",
+                    {
+                        "Edit": "change",
+                        "add_location": 468,
+                        "add_hunk": [
+                            "  result = Curl_dyn_addf(store, \"%u.%u\", x, y);\n",
+                            "  if(result)\n",
+                            "    return result;\n"
+                        ],
+                        "delete_location": [
+                            468,
+                            475
+                        ],
+                        "delete_hunk": [
+                            "  i = encodeUint(buf, buflen, x);\n",
+                            "  if(i < buflen)\n",
+                            "    buf[i] = '.';\n",
+                            "  i++;\n",
+                            "  if(i >= buflen)\n",
+                            "    i += encodeUint(NULL, 0, y);\n",
+                            "  else\n",
+                            "    i += encodeUint(buf + i, buflen - i, y);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_23",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            479,
+                            481
+                        ],
+                        "delete_hunk": [
+                            "    if(i < buflen)\n",
+                            "      buf[i] = '.';\n",
+                            "    i++;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_24",
+                    {
+                        "Edit": "change",
+                        "add_location": 489,
+                        "add_hunk": [
+                            "    result = Curl_dyn_addf(store, \".%u\", x);\n"
+                        ],
+                        "delete_location": [
+                            489,
+                            492
+                        ],
+                        "delete_hunk": [
+                            "    if(i >= buflen)\n",
+                            "      i += encodeUint(NULL, 0, x);\n",
+                            "    else\n",
+                            "      i += encodeUint(buf + i, buflen - i, x);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_25",
+                    {
+                        "Edit": "change",
+                        "add_location": 494,
+                        "add_hunk": [
+                            "  return result;\n"
+                        ],
+                        "delete_location": [
+                            494,
+                            496
+                        ],
+                        "delete_hunk": [
+                            "  if(i < buflen)\n",
+                            "    buf[i] = '\\0';\n",
+                            "  return i;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_27",
+                    {
+                        "Edit": "change",
+                        "add_location": 504,
+                        "add_hunk": [
+                            "static CURLcode OID2str(struct dynbuf *store,const char *beg, const char *end, bool symbolic)\n"
+                        ],
+                        "delete_location": [
+                            504,
+                            504
+                        ],
+                        "delete_hunk": [
+                            "static const char *OID2str(const char *beg, const char *end, bool symbolic)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_28",
+                    {
+                        "Edit": "change",
+                        "add_location": 506,
+                        "add_hunk": [
+                            "  CURLcode result = CURLE_OK;\n"
+                        ],
+                        "delete_location": [
+                            506,
+                            506
+                        ],
+                        "delete_hunk": [
+                            "  char *buf = NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_29",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            508,
+                            514
+                        ],
+                        "delete_hunk": [
+                            "    size_t buflen = encodeOID(NULL, 0, beg, end);\n",
+                            "    if(buflen) {\n",
+                            "      buf = malloc(buflen + 1); /* one extra for the zero byte */\n",
+                            "      if(buf) {\n",
+                            "        encodeOID(buf, buflen, beg, end);\n",
+                            "        buf[buflen] = '\\0';\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_30",
+                    {
+                        "Edit": "change",
+                        "add_location": 516,
+                        "add_hunk": [
+                            "      struct dynbuf buf;\n",
+                            "      Curl_dyn_init(&buf, MAX_X509_STR);\n",
+                            "      result = encodeOID(&buf, beg, end);\n",
+                            "      if(!result) {\n",
+                            "        const struct Curl_OID *op = searchOID(Curl_dyn_ptr(&buf));\n",
+                            "        if(op)\n",
+                            "          result = Curl_dyn_add(store, op->textoid);\n",
+                            "        Curl_dyn_free(&buf);\n"
+                        ],
+                        "delete_location": [
+                            516,
+                            521
+                        ],
+                        "delete_hunk": [
+                            "          const struct Curl_OID *op = searchOID(buf);\n",
+                            "          if(op) {\n",
+                            "            free(buf);\n",
+                            "            buf = strdup(op->textoid);\n",
+                            "          }\n",
+                            "        }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_31",
+                    {
+                        "Edit": "add",
+                        "add_location": 523,
+                        "add_hunk": [
+                            "    else\n",
+                            "      result = encodeOID(store, beg, end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_32",
+                    {
+                        "Edit": "change",
+                        "add_location": 525,
+                        "add_hunk": [
+                            "  return result;\n"
+                        ],
+                        "delete_location": [
+                            525,
+                            525
+                        ],
+                        "delete_hunk": [
+                            "  return buf;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_33",
+                    {
+                        "Edit": "change",
+                        "add_location": 528,
+                        "add_hunk": [
+                            "static CURLcode GTime2str(struct dynbuf *store,const char *beg, const char *end)\n"
+                        ],
+                        "delete_location": [
+                            528,
+                            528
+                        ],
+                        "delete_hunk": [
+                            "static const char *GTime2str(const char *beg, const char *end)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_34",
+                    {
+                        "Edit": "change",
+                        "add_location": 556,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;\n"
+                        ],
+                        "delete_location": [
+                            556,
+                            556
+                        ],
+                        "delete_hunk": [
+                            "    return NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_35",
+                    {
+                        "Edit": "change",
+                        "add_location": 588,
+                        "add_hunk": [
+                            "return Curl_dyn_addf(store, \"%.4s-%.2s-%.2s %.2s:%.2s:%c%c%s%.*s%s%.*s\", beg, beg + 4, beg + 6, beg + 8, beg + 10, sec1, sec2, fracl? \".\": \"\", (int)fracl, fracp, sep, (int)tzl, tzp);"
+                        ],
+                        "delete_location": [
+                            588,
+                            588
+                        ],
+                        "delete_hunk": [
+                            "                       fracl? \".\": \"\", (int)fracl, fracp,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_37",
+                    {
+                        "Edit": "change",
+                        "add_location": 612,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;\n"
+                        ],
+                        "delete_location": [
+                            612,
+                            612
+                        ],
+                        "delete_hunk": [
+                            "    return NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_38",
+                    {
+                        "Edit": "change",
+                        "add_location": 617,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;\n"
+                        ],
+                        "delete_location": [
+                            617,
+                            617
+                        ],
+                        "delete_hunk": [
+                            "    return NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_39",
+                    {
+                        "Edit": "change",
+                        "add_location": 627,
+                        "add_hunk": [
+                            "return Curl_dyn_addf(store, \"%u%.2s-%.2s-%.2s %.2s:%.2s:%.2s %.*s\", 20 - (*beg >= '5'), beg, beg + 2, beg + 4, beg + 6, beg + 8, sec, (int)tzl, tzp);"
+                        ],
+                        "delete_location": [
+                            627,
+                            627
+                        ],
+                        "delete_hunk": [
+                            "                       20 - (*beg >= '5'), beg, beg + 2, beg + 4,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_42",
+                    {
+                        "Edit": "change",
+                        "add_location": 636,
+                        "add_hunk": [
+                            "return CURLE_OK;"
+                        ],
+                        "delete_location": [
+                            636,
+                            636
+                        ],
+                        "delete_hunk": [
+                            "static const char *ASN1tostr(struct Curl_asn1Element *elem, int type)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_41",
+                    {
+                        "Edit": "add",
+                        "add_location": 637,
+                        "add_hunk": [
+                            "  CURLcode result = CURLE_BAD_FUNCTION_ARGUMENT;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_43",
+                    {
+                        "Edit": "change",
+                        "add_location": 646,
+                        "add_hunk": [
+                            "    result = bool2str(store, elem->beg, elem->end);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            646,
+                            646
+                        ],
+                        "delete_hunk": [
+                            "    return bool2str(elem->beg, elem->end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_44",
+                    {
+                        "Edit": "change",
+                        "add_location": 649,
+                        "add_hunk": [
+                            "    result = int2str(store, elem->beg, elem->end);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            649,
+                            649
+                        ],
+                        "delete_hunk": [
+                            "    return int2str(elem->beg, elem->end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_45",
+                    {
+                        "Edit": "change",
+                        "add_location": 651,
+                        "add_hunk": [
+                            "    result = bit2str(store, elem->beg, elem->end);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            651,
+                            651
+                        ],
+                        "delete_hunk": [
+                            "    return bit2str(elem->beg, elem->end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_46",
+                    {
+                        "Edit": "change",
+                        "add_location": 653,
+                        "add_hunk": [
+                            "    result = octet2str(store, elem->beg, elem->end);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            653,
+                            653
+                        ],
+                        "delete_hunk": [
+                            "    return octet2str(elem->beg, elem->end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_47",
+                    {
+                        "Edit": "change",
+                        "add_location": 655,
+                        "add_hunk": [
+                            "    result = Curl_dyn_addn(store, \"\", 1);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            655,
+                            655
+                        ],
+                        "delete_hunk": [
+                            "    return strdup(\"\");\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_48",
+                    {
+                        "Edit": "change",
+                        "add_location": 657,
+                        "add_hunk": [
+                            "    result = OID2str(store, elem->beg, elem->end, TRUE);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            657,
+                            657
+                        ],
+                        "delete_hunk": [
+                            "    return OID2str(elem->beg, elem->end, TRUE);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_49",
+                    {
+                        "Edit": "change",
+                        "add_location": 659,
+                        "add_hunk": [
+                            "    result = UTime2str(store, elem->beg, elem->end);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            659,
+                            659
+                        ],
+                        "delete_hunk": [
+                            "    return UTime2str(elem->beg, elem->end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_50",
+                    {
+                        "Edit": "change",
+                        "add_location": 661,
+                        "add_hunk": [
+                            "    result = GTime2str(store, elem->beg, elem->end);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            661,
+                            661
+                        ],
+                        "delete_hunk": [
+                            "    return GTime2str(elem->beg, elem->end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_51",
+                    {
+                        "Edit": "change",
+                        "add_location": 670,
+                        "add_hunk": [
+                            "    result = utf8asn1str(store, type, elem->beg, elem->end);\n",
+                            "    break;\n"
+                        ],
+                        "delete_location": [
+                            670,
+                            670
+                        ],
+                        "delete_hunk": [
+                            "    return string2str(type, elem->beg, elem->end);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_52",
+                    {
+                        "Edit": "change",
+                        "add_location": 674,
+                        "add_hunk": [
+                            "return result;"
+                        ],
+                        "delete_location": [
+                            674,
+                            674
+                        ],
+                        "delete_hunk": [
+                            "}\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_54",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            689,
+                            689
+                        ],
+                        "delete_hunk": [
+                            "  size_t l = 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_55",
+                    {
+                        "Edit": "add",
+                        "add_location": 693,
+                        "add_hunk": [
+                            "  CURLcode result = CURLE_OK;\n",
+                            "  bool added = FALSE;\n",
+                            "  struct dynbuf temp;\n",
+                            "  Curl_dyn_init(&temp, MAX_X509_STR);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_56",
+                    {
+                        "Edit": "change",
+                        "add_location": 697,
+                        "add_hunk": [
+                            "    if(!p1) {\n",
+                            "      result = CURLE_BAD_FUNCTION_ARGUMENT;\n",
+                            "      goto error;\n",
+                            "    }\n"
+                        ],
+                        "delete_location": [
+                            697,
+                            698
+                        ],
+                        "delete_hunk": [
+                            "    if(!p1)\n",
+                            "      return -1;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_57",
+                    {
+                        "Edit": "change",
+                        "add_location": 701,
+                        "add_hunk": [
+                            "      if(!p2) {\n",
+                            "        result = CURLE_BAD_FUNCTION_ARGUMENT;\n",
+                            "        goto error;\n",
+                            "      }\n"
+                        ],
+                        "delete_location": [
+                            701,
+                            702
+                        ],
+                        "delete_hunk": [
+                            "      if(!p2)\n",
+                            "        return -1;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_58",
+                    {
+                        "Edit": "change",
+                        "add_location": 704,
+                        "add_hunk": [
+                            "      if(!p3) {\n",
+                            "        result = CURLE_BAD_FUNCTION_ARGUMENT;\n",
+                            "        goto error;\n",
+                            "      }\n",
+                            "      if(!getASN1Element(&value, p3, atv.end)) {\n",
+                            "        result = CURLE_BAD_FUNCTION_ARGUMENT;\n",
+                            "        goto error;\n",
+                            "      }\n",
+                            "      Curl_dyn_reset(&temp);\n",
+                            "      result = ASN1tostr(&temp, &oid, 0);\n",
+                            "      if(result)\n",
+                            "        goto error;\n",
+                            "      str = Curl_dyn_ptr(&temp);\n"
+                        ],
+                        "delete_location": [
+                            704,
+                            710
+                        ],
+                        "delete_hunk": [
+                            "      if(!p3)\n",
+                            "        return -1;\n",
+                            "      if(!getASN1Element(&value, p3, atv.end))\n",
+                            "        return -1;\n",
+                            "      str = ASN1tostr(&oid, 0);\n",
+                            "      if(!str)\n",
+                            "        return -1;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_59",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            714,
+                            714
+                        ],
+                        "delete_hunk": [
+                            "      if(l) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_60",
+                    {
+                        "Edit": "change",
+                        "add_location": 717,
+                        "add_hunk": [
+                            "      if(added) {\n",
+                            "        if(p3 - str > 2)\n",
+                            "          result = Curl_dyn_addn(store, \"/\", 1);\n",
+                            "        else\n",
+                            "          result = Curl_dyn_addn(store, \", \", 2);\n",
+                            "        if(result)\n",
+                            "          goto error;\n"
+                        ],
+                        "delete_location": [
+                            717,
+                            721
+                        ],
+                        "delete_hunk": [
+                            "        for(p3 = (*p3 || p3 - str > 2)? \"/\": \", \"; *p3; p3++) {\n",
+                            "          if(l < buflen)\n",
+                            "            buf[l] = *p3;\n",
+                            "          l++;\n",
+                            "        }\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_61",
+                    {
+                        "Edit": "change",
+                        "add_location": 725,
+                        "add_hunk": [
+                            "      result = Curl_dyn_add(store, str);\n",
+                            "      if(result)\n",
+                            "        goto error;\n"
+                        ],
+                        "delete_location": [
+                            725,
+                            730
+                        ],
+                        "delete_hunk": [
+                            "      for(p3 = str; *p3; p3++) {\n",
+                            "        if(l < buflen)\n",
+                            "          buf[l] = *p3;\n",
+                            "        l++;\n",
+                            "      }\n",
+                            "      free((char *) str);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_62",
+                    {
+                        "Edit": "change",
+                        "add_location": 733,
+                        "add_hunk": [
+                            "      result = Curl_dyn_addn(store, \"=\", 1);\n",
+                            "      if(result)\n",
+                            "        goto error;\n"
+                        ],
+                        "delete_location": [
+                            733,
+                            735
+                        ],
+                        "delete_hunk": [
+                            "      if(l < buflen)\n",
+                            "        buf[l] = '=';\n",
+                            "      l++;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_63",
+                    {
+                        "Edit": "change",
+                        "add_location": 738,
+                        "add_hunk": [
+                            "      result = ASN1tostr(store, &value, 0);\n",
+                            "      if(result)\n",
+                            "        goto error;\n",
+                            "      Curl_dyn_reset(&temp);\n",
+                            "      added = TRUE; /* use separator for next */\n"
+                        ],
+                        "delete_location": [
+                            738,
+                            746
+                        ],
+                        "delete_hunk": [
+                            "      str = ASN1tostr(&value, 0);\n",
+                            "      if(!str)\n",
+                            "        return -1;\n",
+                            "      for(p3 = str; *p3; p3++) {\n",
+                            "        if(l < buflen)\n",
+                            "          buf[l] = *p3;\n",
+                            "        l++;\n",
+                            "      }\n",
+                            "      free((char *) str);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_64",
+                    {
+                        "Edit": "add",
+                        "add_location": 748,
+                        "add_hunk": [
+                            "error:\n",
+                            "  Curl_dyn_free(&temp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_65",
+                    {
+                        "Edit": "change",
+                        "add_location": 750,
+                        "add_hunk": [
+                            "  return result;\n"
+                        ],
+                        "delete_location": [
+                            750,
+                            750
+                        ],
+                        "delete_hunk": [
+                            "  return l;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_66",
+                    {
+                        "Edit": "change",
+                        "add_location": 896,
+                        "add_hunk": [
+                            "static CURLcode dumpAlgo(struct dynbuf *store, struct Curl_asn1Element *param, const char *beg, const char *end)"
+                        ],
+                        "delete_location": [
+                            896,
+                            896
+                        ],
+                        "delete_hunk": [
+                            "static const char *dumpAlgo(struct Curl_asn1Element *param,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_67",
+                    {
+                        "Edit": "change",
+                        "add_location": 905,
+                        "add_hunk": [
+                            "    return CURLE_BAD_FUNCTION_ARGUMENT;\n"
+                        ],
+                        "delete_location": [
+                            905,
+                            905
+                        ],
+                        "delete_hunk": [
+                            "    return NULL;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_68",
+                    {
+                        "Edit": "change",
+                        "add_location": 909,
+                        "add_hunk": [
+                            "  if(beg < end) {\n",
+                            "    const char *p = getASN1Element(param, beg, end);\n",
+                            "    if(!p)\n",
+                            "      return CURLE_BAD_FUNCTION_ARGUMENT;\n",
+                            "  }\n",
+                            "  return OID2str(store, oid.beg, oid.end, TRUE);\n"
+                        ],
+                        "delete_location": [
+                            909,
+                            912
+                        ],
+                        "delete_hunk": [
+                            "  if(beg < end)\n",
+                            "    if(!getASN1Element(param, beg, end))\n",
+                            "      return NULL;\n",
+                            "  return OID2str(oid.beg, oid.end, TRUE);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_69",
+                    {
+                        "Edit": "change",
+                        "add_location": 929,
+                        "add_hunk": [
+                            "static CURLcode ssl_push_certinfo_dyn(struct Curl_easy *data,int certnum,const char *label,struct dynbuf *ptr)\n"
+                        ],
+                        "delete_location": [
+                            929,
+                            930
+                        ],
+                        "delete_hunk": [
+                            "static int do_pubkey_field(struct Curl_easy *data, int certnum,\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_70",
+                    {
+                        "Edit": "change",
+                        "add_location": 933,
+                        "add_hunk": [
+                            "  size_t valuelen = Curl_dyn_len(ptr);\n",
+                            "  char *value = Curl_dyn_ptr(ptr);\n",
+                            "  CURLcode result = Curl_ssl_push_certinfo_len(data, certnum, label, value, valuelen);\n",
+                            "  if(!certnum && !result)\n",
+                            "    infof(data, \" %s: %s\", label, value);\n",
+                            "  return result;\n",
+                            "}\n",
+                            "static CURLcode do_pubkey_field(struct Curl_easy *data, int certnum,const char *label,struct Curl_asn1Element *elem)\n",
+                            "{\n",
+                            "  CURLcode result;\n",
+                            "  struct dynbuf out;\n",
+                            "  Curl_dyn_init(&out, MAX_X509_STR);\n"
+                        ],
+                        "delete_location": [
+                            933,
+                            934
+                        ],
+                        "delete_hunk": [
+                            "  const char *output;\n",
+                            "  CURLcode result = CURLE_OK;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_71",
+                    {
+                        "Edit": "change",
+                        "add_location": 938,
+                        "add_hunk": [
+                            "  result = ASN1tostr(&out, elem, 0);\n",
+                            "  if(!result) {\n"
+                        ],
+                        "delete_location": [
+                            938,
+                            939
+                        ],
+                        "delete_hunk": [
+                            "  output = ASN1tostr(elem, 0);\n",
+                            "  if(output) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_72",
+                    {
+                        "Edit": "change",
+                        "add_location": 941,
+                        "add_hunk": [
+                            "      result = ssl_push_certinfo_dyn(data, certnum, label, &out);\n",
+                            "    Curl_dyn_free(&out);\n"
+                        ],
+                        "delete_location": [
+                            941,
+                            944
+                        ],
+                        "delete_hunk": [
+                            "      result = ssl_push_certinfo(data, certnum, label, output);\n",
+                            "    if(!certnum && !result)\n",
+                            "      infof(data, \"   %s: %s\", label, output);\n",
+                            "    free((char *) output);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_73",
+                    {
+                        "Edit": "change",
+                        "add_location": 946,
+                        "add_hunk": [
+                            "  return result;\n"
+                        ],
+                        "delete_location": [
+                            946,
+                            946
+                        ],
+                        "delete_hunk": [
+                            "  return result ? 1 : 0;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_75",
+                    {
+                        "Edit": "change",
+                        "add_location": 1056,
+                        "add_hunk": [
+                            "  return encodeDN(store, dn);\n"
+                        ],
+                        "delete_location": [
+                            1056,
+                            1069
+                        ],
+                        "delete_hunk": [
+                            "  char *buf = NULL;\n",
+                            "  ssize_t buflen = encodeDN(NULL, 0, dn);\n",
+                            "  if(buflen >= 0) {\n",
+                            "    buf = malloc(buflen + 1);\n",
+                            "    if(buf) {\n",
+                            "      if(encodeDN(buf, buflen + 1, dn) == -1) {\n",
+                            "        free(buf);\n",
+                            "        return NULL;\n",
+                            "      }\n",
+                            "      buf[buflen] = '\\0';\n",
+                            "    }\n",
+                            "  }\n",
+                            "  return buf;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_76",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            1079,
+                            1079
+                        ],
+                        "delete_hunk": [
+                            "  const char *ccp;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_77",
+                    {
+                        "Edit": "add",
+                        "add_location": 1084,
+                        "add_hunk": [
+                            "  const char *ptr;\n",
+                            "  int rc;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_78",
+                    {
+                        "Edit": "add",
+                        "add_location": 1091,
+                        "add_hunk": [
+                            "  Curl_dyn_init(&out, MAX_X509_STR);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_79",
+                    {
+                        "Edit": "change",
+                        "add_location": 1099,
+                        "add_hunk": [
+                            "  result = DNtostr(&out, &cert.subject);\n",
+                            "  if(result)\n",
+                            "    goto done;\n"
+                        ],
+                        "delete_location": [
+                            1099,
+                            1101
+                        ],
+                        "delete_hunk": [
+                            "  ccp = DNtostr(&cert.subject);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_80",
+                    {
+                        "Edit": "change",
+                        "add_location": 1103,
+                        "add_hunk": [
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Subject\", &out);\n"
+                        ],
+                        "delete_location": [
+                            1103,
+                            1103
+                        ],
+                        "delete_hunk": [
+                            "    result = ssl_push_certinfo(data, certnum, \"Subject\", ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_81",
+                    {
+                        "Edit": "change",
+                        "add_location": 1105,
+                        "add_hunk": [
+                            "      goto done;\n"
+                        ],
+                        "delete_location": [
+                            1105,
+                            1105
+                        ],
+                        "delete_hunk": [
+                            "      return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_82",
+                    {
+                        "Edit": "change",
+                        "add_location": 1107,
+                        "add_hunk": [
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1107,
+                            1109
+                        ],
+                        "delete_hunk": [
+                            "  if(!certnum)\n",
+                            "    infof(data, \"%2d Subject: %s\", certnum, ccp);\n",
+                            "  free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_83",
+                    {
+                        "Edit": "change",
+                        "add_location": 1112,
+                        "add_hunk": [
+                            "  result = DNtostr(&out, &cert.issuer);\n",
+                            "  if(result)\n",
+                            "    goto done;\n"
+                        ],
+                        "delete_location": [
+                            1112,
+                            1114
+                        ],
+                        "delete_hunk": [
+                            "  ccp = DNtostr(&cert.issuer);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_84",
+                    {
+                        "Edit": "change",
+                        "add_location": 1116,
+                        "add_hunk": [
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Issuer\", &out);\n"
+                        ],
+                        "delete_location": [
+                            1116,
+                            1120
+                        ],
+                        "delete_hunk": [
+                            "    result = ssl_push_certinfo(data, certnum, \"Issuer\", ccp);\n",
+                            "  }\n",
+                            "  if(!certnum)\n",
+                            "    infof(data, \"   Issuer: %s\", ccp);\n",
+                            "  free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_85",
+                    {
+                        "Edit": "change",
+                        "add_location": 1122,
+                        "add_hunk": [
+                            "      goto done;\n",
+                            "  }\n",
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1122,
+                            1122
+                        ],
+                        "delete_hunk": [
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_86",
+                    {
+                        "Edit": "change",
+                        "add_location": 1126,
+                        "add_hunk": [
+                            "  for(ptr = cert.version.beg; ptr < cert.version.end; ptr++)\n",
+                            "    version = (version << 8) | *(const unsigned char *) ptr;\n"
+                        ],
+                        "delete_location": [
+                            1126,
+                            1127
+                        ],
+                        "delete_hunk": [
+                            "  for(ccp = cert.version.beg; ccp < cert.version.end; ccp++)\n",
+                            "    version = (version << 8) | *(const unsigned char *) ccp;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_87",
+                    {
+                        "Edit": "change",
+                        "add_location": 1129,
+                        "add_hunk": [
+                            "    result = Curl_dyn_addf(&out, \"%x\", version);\n"
+                        ],
+                        "delete_location": [
+                            1129,
+                            1133
+                        ],
+                        "delete_hunk": [
+                            "    ccp = curl_maprintf(\"%x\", version);\n",
+                            "    if(!ccp)\n",
+                            "      return CURLE_OUT_OF_MEMORY;\n",
+                            "    result = ssl_push_certinfo(data, certnum, \"Version\", ccp);\n",
+                            "    free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_88",
+                    {
+                        "Edit": "change",
+                        "add_location": 1135,
+                        "add_hunk": [
+                            "      goto done;\n",
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Version\", &out);\n",
+                            "    if(result)\n",
+                            "      goto done;\n",
+                            "    Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1135,
+                            1135
+                        ],
+                        "delete_hunk": [
+                            "      return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_89",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            1137,
+                            1138
+                        ],
+                        "delete_hunk": [
+                            "  if(!certnum)\n",
+                            "    infof(data, \"   Version: %u (0x%x)\", version + 1, version);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_90",
+                    {
+                        "Edit": "change",
+                        "add_location": 1141,
+                        "add_hunk": [
+                            "  result = ASN1tostr(&out, &cert.serialNumber, 0);\n"
+                        ],
+                        "delete_location": [
+                            1141,
+                            1148
+                        ],
+                        "delete_hunk": [
+                            "  ccp = ASN1tostr(&cert.serialNumber, 0);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n",
+                            "  if(data->set.ssl.certinfo)\n",
+                            "    result = ssl_push_certinfo(data, certnum, \"Serial Number\", ccp);\n",
+                            "  if(!certnum)\n",
+                            "    infof(data, \"   Serial Number: %s\", ccp);\n",
+                            "  free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_91",
+                    {
+                        "Edit": "change",
+                        "add_location": 1150,
+                        "add_hunk": [
+                            "    goto done;\n",
+                            "  if(data->set.ssl.certinfo) {\n",
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Serial Number\", &out);\n",
+                            "    if(result)\n",
+                            "      goto done;\n",
+                            "  }\n",
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1150,
+                            1150
+                        ],
+                        "delete_hunk": [
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_92",
+                    {
+                        "Edit": "change",
+                        "add_location": 1153,
+                        "add_hunk": [
+                            "  result = dumpAlgo(&out, &param, cert.signatureAlgorithm.beg,cert.signatureAlgorithm.end);\n"
+                        ],
+                        "delete_location": [
+                            1153,
+                            1161
+                        ],
+                        "delete_hunk": [
+                            "  ccp = dumpAlgo(&param, cert.signatureAlgorithm.beg,\n",
+                            "                 cert.signatureAlgorithm.end);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n",
+                            "  if(data->set.ssl.certinfo)\n",
+                            "    result = ssl_push_certinfo(data, certnum, \"Signature Algorithm\", ccp);\n",
+                            "  if(!certnum)\n",
+                            "    infof(data, \"   Signature Algorithm: %s\", ccp);\n",
+                            "  free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_93",
+                    {
+                        "Edit": "change",
+                        "add_location": 1163,
+                        "add_hunk": [
+                            "    goto done;\n",
+                            "  if(data->set.ssl.certinfo) {\n",
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Signature Algorithm\", &out);\n",
+                            "    if(result)\n",
+                            "      goto done;\n",
+                            "  }\n",
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1163,
+                            1163
+                        ],
+                        "delete_hunk": [
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_94",
+                    {
+                        "Edit": "change",
+                        "add_location": 1166,
+                        "add_hunk": [
+                            "  result = ASN1tostr(&out, &cert.notBefore, 0);\n"
+                        ],
+                        "delete_location": [
+                            1166,
+                            1173
+                        ],
+                        "delete_hunk": [
+                            "  ccp = ASN1tostr(&cert.notBefore, 0);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n",
+                            "  if(data->set.ssl.certinfo)\n",
+                            "    result = ssl_push_certinfo(data, certnum, \"Start Date\", ccp);\n",
+                            "  if(!certnum)\n",
+                            "    infof(data, \"   Start Date: %s\", ccp);\n",
+                            "  free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_95",
+                    {
+                        "Edit": "change",
+                        "add_location": 1175,
+                        "add_hunk": [
+                            "    goto done;\n",
+                            "  if(data->set.ssl.certinfo) {\n",
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Start Date\", &out);\n",
+                            "    if(result)\n",
+                            "      goto done;\n",
+                            "  }\n",
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1175,
+                            1175
+                        ],
+                        "delete_hunk": [
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_96",
+                    {
+                        "Edit": "change",
+                        "add_location": 1178,
+                        "add_hunk": [
+                            "  result = ASN1tostr(&out, &cert.notAfter, 0);\n"
+                        ],
+                        "delete_location": [
+                            1178,
+                            1185
+                        ],
+                        "delete_hunk": [
+                            "  ccp = ASN1tostr(&cert.notAfter, 0);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n",
+                            "  if(data->set.ssl.certinfo)\n",
+                            "    result = ssl_push_certinfo(data, certnum, \"Expire Date\", ccp);\n",
+                            "  if(!certnum)\n",
+                            "    infof(data, \"   Expire Date: %s\", ccp);\n",
+                            "  free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_97",
+                    {
+                        "Edit": "change",
+                        "add_location": 1187,
+                        "add_hunk": [
+                            "    goto done;\n",
+                            "  if(data->set.ssl.certinfo) {\n",
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Expire Date\", &out);\n",
+                            "    if(result)\n",
+                            "      goto done;\n",
+                            "  }\n",
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1187,
+                            1187
+                        ],
+                        "delete_hunk": [
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_98",
+                    {
+                        "Edit": "change",
+                        "add_location": 1190,
+                        "add_hunk": [
+                            "  result = dumpAlgo(&out, &param, cert.subjectPublicKeyAlgorithm.beg,cert.subjectPublicKeyAlgorithm.end);\n",
+                            "  if(result)\n",
+                            "    goto done;\n",
+                            "  if(data->set.ssl.certinfo) {\n",
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Public Key Algorithm\", &out);\n",
+                            "    if(result)\n",
+                            "      goto done;\n",
+                            "  }\n",
+                            "  rc = do_pubkey(data, certnum, Curl_dyn_ptr(&out), &param, &cert.subjectPublicKey);\n",
+                            "  if(rc) {\n"
+                        ],
+                        "delete_location": [
+                            1190,
+                            1202
+                        ],
+                        "delete_hunk": [
+                            "  ccp = dumpAlgo(&param, cert.subjectPublicKeyAlgorithm.beg,\n",
+                            "                 cert.subjectPublicKeyAlgorithm.end);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n",
+                            "  if(data->set.ssl.certinfo)\n",
+                            "    result = ssl_push_certinfo(data, certnum, \"Public Key Algorithm\",\n",
+                            "                                    ccp);\n",
+                            "  if(!result) {\n",
+                            "    int ret;\n",
+                            "    if(!certnum)\n",
+                            "      infof(data, \"   Public Key Algorithm: %s\", ccp);\n",
+                            "    ret = do_pubkey(data, certnum, ccp, &param, &cert.subjectPublicKey);\n",
+                            "    if(ret)\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_105",
+                    {
+                        "Edit": "change",
+                        "add_location": 1197,
+                        "add_hunk": [
+                            "  if(!result)\n"
+                        ],
+                        "delete_location": [
+                            1197,
+                            1197
+                        ],
+                        "delete_hunk": [
+                            "  if(!result) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_99",
+                    {
+                        "Edit": "add",
+                        "add_location": 1203,
+                        "add_hunk": [
+                            "    goto done;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_100",
+                    {
+                        "Edit": "change",
+                        "add_location": 1205,
+                        "add_hunk": [
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1205,
+                            1207
+                        ],
+                        "delete_hunk": [
+                            "  free((char *) ccp);\n",
+                            "  if(result)\n",
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_101",
+                    {
+                        "Edit": "change",
+                        "add_location": 1210,
+                        "add_hunk": [
+                            "  result = ASN1tostr(&out, &cert.signature, 0);\n"
+                        ],
+                        "delete_location": [
+                            1210,
+                            1217
+                        ],
+                        "delete_hunk": [
+                            "  ccp = ASN1tostr(&cert.signature, 0);\n",
+                            "  if(!ccp)\n",
+                            "    return CURLE_OUT_OF_MEMORY;\n",
+                            "  if(data->set.ssl.certinfo)\n",
+                            "    result = ssl_push_certinfo(data, certnum, \"Signature\", ccp);\n",
+                            "  if(!certnum)\n",
+                            "    infof(data, \"   Signature: %s\", ccp);\n",
+                            "  free((char *) ccp);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_102",
+                    {
+                        "Edit": "change",
+                        "add_location": 1219,
+                        "add_hunk": [
+                            "    goto done;\n",
+                            "  if(data->set.ssl.certinfo) {\n",
+                            "    result = ssl_push_certinfo_dyn(data, certnum, \"Signature\", &out);\n",
+                            "    if(result)\n",
+                            "      goto done;\n",
+                            "  }\n",
+                            "  Curl_dyn_reset(&out);\n"
+                        ],
+                        "delete_location": [
+                            1219,
+                            1219
+                        ],
+                        "delete_hunk": [
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_103",
+                    {
+                        "Edit": "change",
+                        "add_location": 1226,
+                        "add_hunk": [
+                            "    goto done;\n"
+                        ],
+                        "delete_location": [
+                            1226,
+                            1226
+                        ],
+                        "delete_hunk": [
+                            "    return result;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_106",
+                    {
+                        "Edit": "change",
+                        "add_location": 1249,
+                        "add_hunk": [
+                            "result = ssl_push_certinfo_dyn(data, certnum, \"Cert\", &out);",
+                            "done:"
+                        ],
+                        "delete_location": [
+                            1249,
+                            1252
+                        ],
+                        "delete_hunk": [
+                            "    result = ssl_push_certinfo(data, certnum, \"Cert\", cp2);\n",
+                            "  if(!certnum)\n",
+                            "    infof(data, \"%s\", cp2);\n",
+                            "  free(cp2);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_3": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_10": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_14": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_19": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_26": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": []
+                    },
+                    "Seg_36": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_40": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_53": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_69": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    },
+                    "Seg_74": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": [
+                            "unknown"
+                        ]
+                    }
+                },
+                "Same: bool2str -> bool2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: octet2str -> octet2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: bit2str -> bit2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: int2str -> int2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: utf8asn1str -> utf8asn1str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: string2str -> string2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: encodeOID -> encodeOID": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: OID2str -> OID2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: GTime2str -> GTime2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: UTime2str -> UTime2str": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: ASN1tostr -> ASN1tostr": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: encodeDN -> encodeDN": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: dumpAlgo -> dumpAlgo": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: do_pubkey_field -> do_pubkey_field": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: DNtostr -> DNtostr": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: Curl_extract_certinfo -> Curl_extract_certinfo": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other",
+                "function_call",
+                "control_flow",
+                "ERROR_TEST",
+                "ERROR_HANDLE",
+                "Func_Definition",
+                "change_type",
+                "sanity_check",
+                "Func_Invocation",
+                "MOVE_TO",
+                "DEF",
+                "error_handle",
+                "in_loop",
+                "USE",
+                "function_definition",
+                "change_value"
+            ]
+        }
+    }
+}

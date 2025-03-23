@@ -1,0 +1,19 @@
+1279c1279,1280
+<   const char * const hostname = SSL_IS_PROXY() ? conn->http_proxy.host.name :
+---
+>   bool isproxy = SSL_IS_PROXY();
+>   const char * const hostname = isproxy ? conn->http_proxy.host.name :
+1282a1284
+>   const isproxy = FALSE;
+1469c1471
+<       if(data->state.httpversion >= CURL_HTTP_VERSION_2#ifndef CURL_DISABLE_PROXY && (!SSL_IS_PROXY() || !conn->bits.tunnel_proxy)#endif) {
+---
+>       if(data->state.httpversion >= CURL_HTTP_VERSION_2#ifndef CURL_DISABLE_PROXY && (!isproxy || !conn->bits.tunnel_proxy)#endif) {
+1745c1747
+<     if(!Curl_ssl_getsessionid(data, conn, (void **)&ssl_sessionid,&ssl_sessionid_len, sockindex)) {
+---
+>     if(!Curl_ssl_getsessionid(data, conn, isproxy, (void **)&ssl_sessionid,&ssl_sessionid_len, sockindex)) {
+1769c1771
+<       result = Curl_ssl_addsessionid(data, conn, ssl_sessionid, ssl_sessionid_len, sockindex);
+---
+>       result = Curl_ssl_addsessionid(data, conn, isproxy, ssl_sessionid, ssl_sessionid_len, sockindex);

@@ -1,0 +1,10 @@
+133a134
+>					if (!mpod->trackIDs || !ref->trackRef || (ref->trackRef>mpod->trackIDCount)) continue;
+135c135
+<					if (!mpod->trackIDs || gf_isom_get_track_from_id(mdia->mediaTrack->moov, mpod->trackIDs[ref->trackRef - 1]) == NULL) continue;
+---
+>					if (gf_isom_get_track_from_id(mdia->mediaTrack->moov, mpod->trackIDs[ref->trackRef - 1]) == NULL) continue;
+162a163
+>				if (!mpod->trackIDs || !ref->trackRef || (ref->trackRef>mpod->trackIDCount)) continue;
+189a190
+>				if (!mpod->trackIDs || !esdR->ES_ID[i] || (esdR->ES_ID[i]>mpod->trackIDCount)) continue;

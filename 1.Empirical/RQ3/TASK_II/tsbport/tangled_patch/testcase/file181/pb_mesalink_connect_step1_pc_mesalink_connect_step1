@@ -1,0 +1,490 @@
+condition  @ 52 @ condition  @ 53 @ 
+expr  @ 25 @ expr  @ 26 @ 
+type  @ 1 @ type  @ 1 @ 
+name: data  @ 2 @ name: data  @ 5 @ 
+literal: "MesaLink does not support SSL 3.0, TLS 1.0, or TLS 1.1"  @ 30 @ literal: "MesaLink does not support SSL 3.0, TLS 1.0, or TLS 1.1"  @ 31 @ 
+expr  @ 11 @ expr  @ 12 @ 
+break  @ 38 @ break  @ 39 @ 
+name: req_method  @ 47 @ name: req_method  @ 48 @ 
+expr  @ 32 @ expr  @ 33 @ 
+name: SSL_VERIFY_NONE  @ 61 @ name: SSL_VERIFY_NONE  @ 64 @ 
+block  @ 25 @ block  @ 26 @ 
+literal: "SSL: couldn't create a context!"  @ 57 @ literal: "SSL: couldn't create a context!"  @ 58 @ 
+operator: &  @ 5 @ operator: &  @ 6 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 44 @ 
+name: name  @ 11 @ name: name  @ 12 @ 
+name: req_method  @ 37 @ name: req_method  @ 38 @ 
+name: SSL_CONN_CONFIG  @ 61 @ name: SSL_CONN_CONFIG  @ 63 @ 
+name: req_method  @ 54 @ name: req_method  @ 55 @ 
+if  @ 52 @ if  @ 53 @ 
+block  @ 18 @ block  @ 19 @ 
+name: failf  @ 21 @ name: failf  @ 22 @ 
+decl  @ 2 @ decl  @ 5 @ 
+argument_list  @ 48 @ argument_list  @ 49 @ 
+argument  @ 30 @ argument  @ 31 @ 
+expr  @ 58 @ expr  @ 59 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name: conn  @ 5 @ name: conn  @ 6 @ 
+default  @ 42 @ default  @ 43 @ 
+argument  @ 43 @ argument  @ 44 @ 
+block  @ 53 @ block  @ 54 @ 
+if  @ 17 @ if  @ 18 @ 
+argument  @ 57 @ argument  @ 58 @ 
+type  @ 10 @ type  @ 11 @ 
+operator: .  @ 11 @ operator: .  @ 12 @ 
+expr  @ 64 @ expr  @ 67 @ 
+expr  @ 29 @ expr  @ 30 @ 
+name  @ 53 @ name  @ 54 @ 
+expr  @ 14 @ expr  @ 15 @ 
+expr  @ 33 @ expr  @ 34 @ 
+name: verifypeer  @ 65 @ name: verifypeer  @ 69 @ 
+argument_list  @ 65 @ argument_list  @ 69 @ 
+name: failf  @ 40 @ name: failf  @ 41 @ 
+expr  @ 56 @ expr  @ 57 @ 
+name: state  @ 17 @ name: state  @ 18 @ 
+operator: ->  @ 52 @ operator: ->  @ 53 @ 
+expr  @ 64 @ expr  @ 67 @ 
+operator: ->  @ 53 @ operator: ->  @ 54 @ 
+name: SSL_IS_PROXY  @ 11 @ name: SSL_IS_PROXY  @ 12 @ 
+name: TLSv1_2_client_method  @ 34 @ name: TLSv1_2_client_method  @ 35 @ 
+argument_list  @ 54 @ argument_list  @ 55 @ 
+operator: ->  @ 5 @ operator: ->  @ 6 @ 
+return  @ 22 @ return  @ 23 @ 
+expr  @ 63 @ expr  @ 66 @ 
+block  @ 20 @ block  @ 21 @ 
+if_stmt  @ 52 @ if_stmt  @ 53 @ 
+switch  @ 25 @ switch  @ 26 @ 
+name: CApath  @ 64 @ name: CApath  @ 68 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+call  @ 11 @ call  @ 12 @ 
+name: BACKEND  @ 52 @ name: BACKEND  @ 53 @ 
+name  @ 11 @ name  @ 12 @ 
+name: Curl_easy  @ 2 @ name: Curl_easy  @ 5 @ 
+argument_list  @ 11 @ argument_list  @ 12 @ 
+name: SSL_CONN_CONFIG  @ 20 @ name: SSL_CONN_CONFIG  @ 21 @ 
+decl  @ 14 @ decl  @ 15 @ 
+decl_stmt  @ 10 @ decl_stmt  @ 11 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 7 @ 
+argument_list  @ 57 @ argument_list  @ 58 @ 
+argument  @ 64 @ argument  @ 67 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 49 @ 
+expr  @ 49 @ expr  @ 50 @ 
+name: struct  @ 2 @ name: struct  @ 5 @ 
+then  @ 11 @ then  @ 12 @ 
+name: sockfd  @ 15 @ name: sockfd  @ 16 @ 
+call  @ 53 @ call  @ 54 @ 
+operator: ||  @ 63 @ operator: ||  @ 66 @ 
+name: int  @ 2 @ name: int  @ 2 @ 
+argument  @ 25 @ argument  @ 26 @ 
+operator: ->  @ 17 @ operator: ->  @ 18 @ 
+argument_list  @ 61 @ argument_list  @ 63 @ 
+name: size_t  @ 12 @ name: size_t  @ 13 @ 
+call  @ 37 @ call  @ 38 @ 
+type  @ 6 @ type  @ 7 @ 
+name: addr4  @ 6 @ name: addr4  @ 7 @ 
+literal: ");
+  }if(SSL_SET_OPTION(primary.clientcert)&&SSL_SET_OPTION(key)) {
+    int file_type = do_file_type(SSL_SET_OPTION(cert_type));if(SSL_CTX_use_certificate_chain_file(BACKEND->ctx,SSL_SET_OPTION(primary.clientcert),file_type) != 1) {
+      failf(data, "  @ 75 @ literal: "WARNING: failed to configure server name indication (SNI) "  @ 145 @ 
+name  @ 52 @ name  @ 53 @ 
+name: req_method  @ 14 @ name: req_method  @ 15 @ 
+decl  @ 5 @ decl  @ 6 @ 
+name: conn  @ 15 @ name: conn  @ 16 @ 
+case  @ 33 @ case  @ 34 @ 
+name: version_max  @ 20 @ name: version_max  @ 21 @ 
+name: req_method  @ 34 @ name: req_method  @ 35 @ 
+expr  @ 31 @ expr  @ 32 @ 
+argument_list  @ 40 @ argument_list  @ 41 @ 
+call  @ 57 @ call  @ 58 @ 
+name: host  @ 11 @ name: host  @ 12 @ 
+name: CURLE_OUT_OF_MEMORY  @ 58 @ name: CURLE_OUT_OF_MEMORY  @ 59 @ 
+directive: ifdef  @ 7 @ directive: ifdef  @ 8 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 58 @ 
+name: data  @ 30 @ name: data  @ 31 @ 
+endif  @ 9 @ endif  @ 10 @ 
+decl_stmt  @ 15 @ decl_stmt  @ 16 @ 
+literal: ",SSL_CONN_CONFIG(CAfile) ? SSL_CONN_CONFIG(CAfile): "  @ 74 @ literal: "failed setting cipher list: %s"  @ 121 @ 
+name: conn  @ 11 @ name: conn  @ 12 @ 
+expr  @ 20 @ expr  @ 21 @ 
+name: CURL_SSLVERSION_SSLv3  @ 26 @ name: CURL_SSLVERSION_SSLv3  @ 27 @ 
+argument  @ 40 @ argument  @ 41 @ 
+expr  @ 43 @ expr  @ 44 @ 
+return  @ 41 @ return  @ 42 @ 
+expr  @ 5 @ expr  @ 6 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 22 @ name: CURLE_SSL_CONNECT_ERROR  @ 23 @ 
+call  @ 64 @ call  @ 68 @ 
+operator: !  @ 56 @ operator: !  @ 57 @ 
+name: version  @ 25 @ name: version  @ 26 @ 
+expr_stmt  @ 34 @ expr_stmt  @ 35 @ 
+name: ctx  @ 54 @ name: ctx  @ 55 @ 
+expr  @ 54 @ expr  @ 55 @ 
+argument_list  @ 43 @ argument_list  @ 44 @ 
+decl  @ 15 @ decl  @ 16 @ 
+literal: "MesaLink does not support to set maximum SSL/TLS version"  @ 21 @ literal: "MesaLink does not support to set maximum SSL/TLS version"  @ 22 @ 
+ternary  @ 61 @ ternary  @ 63 @ 
+expr  @ 57 @ expr  @ 58 @ 
+condition  @ 47 @ condition  @ 48 @ 
+condition  @ 11 @ condition  @ 12 @ 
+block  @ 56 @ block  @ 57 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 9 @ 
+name: ssl  @ 5 @ name: ssl  @ 6 @ 
+name: data  @ 48 @ name: data  @ 49 @ 
+name: ctx  @ 53 @ name: ctx  @ 54 @ 
+operator: .  @ 11 @ operator: .  @ 12 @ 
+condition  @ 25 @ condition  @ 26 @ 
+argument  @ 66 @ argument  @ 70 @ 
+condition  @ 61 @ condition  @ 63 @ 
+name: struct  @ 8 @ name: struct  @ 9 @ 
+case  @ 26 @ case  @ 27 @ 
+case  @ 29 @ case  @ 30 @ 
+call  @ 64 @ call  @ 67 @ 
+operator: ->  @ 11 @ operator: ->  @ 12 @ 
+call  @ 21 @ call  @ 22 @ 
+init  @ 14 @ init  @ 15 @ 
+expr  @ 44 @ expr  @ 45 @ 
+type  @ 2 @ type  @ 2 @ 
+argument_list  @ 12 @ argument_list  @ 13 @ 
+if_stmt  @ 56 @ if_stmt  @ 57 @ 
+expr  @ 39 @ expr  @ 40 @ 
+operator: ->  @ 11 @ operator: ->  @ 12 @ 
+case  @ 27 @ case  @ 28 @ 
+expr  @ 64 @ expr  @ 68 @ 
+else  @ 61 @ else  @ 64 @ 
+expr  @ 52 @ expr  @ 53 @ 
+argument_list  @ 63 @ argument_list  @ 66 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 44 @ name: CURLE_SSL_CONNECT_ERROR  @ 45 @ 
+operator: !  @ 64 @ operator: !  @ 67 @ 
+if_stmt  @ 20 @ if_stmt  @ 21 @ 
+break  @ 35 @ break  @ 36 @ 
+expr  @ 63 @ expr  @ 66 @ 
+name: CURL_SSLVERSION_TLSv1_0  @ 28 @ name: CURL_SSLVERSION_TLSv1_0  @ 29 @ 
+name: SSL_CTX_set_verify  @ 61 @ name: SSL_CTX_set_verify  @ 62 @ 
+directive: endif  @ 9 @ directive: endif  @ 10 @ 
+argument  @ 21 @ argument  @ 22 @ 
+specifier: const  @ 10 @ specifier: const  @ 11 @ 
+literal: '  @ 109 @ literal: "SSL: SSL_set_fd failed"  @ 194 @ 
+init  @ 10 @ init  @ 11 @ 
+name: CURL_SSLVERSION_DEFAULT  @ 32 @ name: CURL_SSLVERSION_DEFAULT  @ 33 @ 
+name: host  @ 11 @ name: host  @ 12 @ 
+literal: ");
+      return CURLE_SSL_CONNECT_ERROR;}
+
+    file_type = do_file_type(SSL_SET_OPTION(key_type));if(SSL_CTX_use_PrivateKey_file(BACKEND->ctx, SSL_SET_OPTION(key),file_type) != 1) {
+      failf(data, "  @ 82 @ literal: 5  @ 157 @ 
+name  @ 6 @ name  @ 7 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: ctx  @ 61 @ name: ctx  @ 63 @ 
+if_stmt  @ 17 @ if_stmt  @ 18 @ 
+condition  @ 17 @ condition  @ 18 @ 
+name: struct  @ 5 @ name: struct  @ 6 @ 
+expr  @ 12 @ expr  @ 13 @ 
+name: strlen  @ 12 @ name: strlen  @ 13 @ 
+specifier: const  @ 10 @ specifier: const  @ 11 @ 
+name: CURL_SSLVERSION_TLSv1_3  @ 36 @ name: CURL_SSLVERSION_TLSv1_3  @ 37 @ 
+literal: ");
+    infof(data, "  @ 74 @ literal: "Cipher selection: %s\n"  @ 125 @ 
+index  @ 15 @ index  @ 16 @ 
+argument  @ 40 @ argument  @ 41 @ 
+call  @ 48 @ call  @ 49 @ 
+name: data  @ 40 @ name: data  @ 41 @ 
+name: struct  @ 6 @ name: struct  @ 7 @ 
+literal: "MesaLink does not support SSLv2"  @ 40 @ literal: "MesaLink does not support SSLv2"  @ 41 @ 
+name: CURL_SSLVERSION_MAX_NONE  @ 20 @ name: CURL_SSLVERSION_MAX_NONE  @ 21 @ 
+name: in6_addr  @ 8 @ name: in6_addr  @ 9 @ 
+argument  @ 61 @ argument  @ 64 @ 
+expr  @ 30 @ expr  @ 31 @ 
+argument  @ 64 @ argument  @ 68 @ 
+argument  @ 53 @ argument  @ 54 @ 
+operator: !=  @ 20 @ operator: !=  @ 21 @ 
+expr_stmt  @ 40 @ expr_stmt  @ 41 @ 
+name: CURLE_SSL_CONNECT_ERROR  @ 41 @ name: CURLE_SSL_CONNECT_ERROR  @ 42 @ 
+expr  @ 25 @ expr  @ 26 @ 
+expr  @ 28 @ expr  @ 29 @ 
+block_content  @ 18 @ block_content  @ 19 @ 
+expr_stmt  @ 53 @ expr_stmt  @ 54 @ 
+name: hostname  @ 12 @ name: hostname  @ 13 @ 
+name  @ 17 @ name  @ 18 @ 
+call  @ 25 @ call  @ 26 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: CURL_SSLVERSION_TLSv1  @ 27 @ name: CURL_SSLVERSION_TLSv1  @ 28 @ 
+expr  @ 18 @ expr  @ 19 @ 
+argument_list  @ 25 @ argument_list  @ 26 @ 
+expr  @ 27 @ expr  @ 28 @ 
+name  @ 15 @ name  @ 16 @ 
+name: failf  @ 30 @ name: failf  @ 31 @ 
+ternary  @ 11 @ ternary  @ 12 @ 
+expr  @ 65 @ expr  @ 69 @ 
+block_content  @ 53 @ block_content  @ 54 @ 
+expr  @ 37 @ expr  @ 38 @ 
+name: sock  @ 15 @ name: sock  @ 16 @ 
+argument_list  @ 63 @ argument_list  @ 66 @ 
+expr  @ 40 @ expr  @ 41 @ 
+name  @ 54 @ name  @ 55 @ 
+decl  @ 4 @ decl  @ 4 @ 
+name: sockindex  @ 2 @ name: sockindex  @ 2 @ 
+name: ctx  @ 56 @ name: ctx  @ 57 @ 
+name: BACKEND  @ 56 @ name: BACKEND  @ 57 @ 
+type  @ 12 @ type  @ 13 @ 
+then  @ 61 @ then  @ 64 @ 
+expr  @ 57 @ expr  @ 58 @ 
+name: SSL_CONN_CONFIG  @ 64 @ name: SSL_CONN_CONFIG  @ 67 @ 
+literal: "error setting certificate verify locations: ""  @ 66 @ literal: "error setting certificate verify locations:\n"  @ 71 @ 
+call  @ 61 @ call  @ 63 @ 
+expr  @ 26 @ expr  @ 27 @ 
+operator: ->  @ 61 @ operator: ->  @ 63 @ 
+expr  @ 64 @ expr  @ 67 @ 
+expr  @ 63 @ expr  @ 66 @ 
+name: TLSv1_3_client_method  @ 37 @ name: TLSv1_3_client_method  @ 38 @ 
+operator: ->  @ 56 @ operator: ->  @ 57 @ 
+name: CURL_SSLVERSION_TLSv1_2  @ 33 @ name: CURL_SSLVERSION_TLSv1_2  @ 34 @ 
+name: struct  @ 2 @ name: struct  @ 2 @ 
+if  @ 47 @ if  @ 48 @ 
+type  @ 2 @ type  @ 5 @ 
+return  @ 44 @ return  @ 45 @ 
+name: data  @ 21 @ name: data  @ 22 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+argument  @ 54 @ argument  @ 55 @ 
+name  @ 8 @ name  @ 9 @ 
+operator: =  @ 54 @ operator: =  @ 55 @ 
+return  @ 18 @ return  @ 19 @ 
+condition  @ 65 @ condition  @ 69 @ 
+argument  @ 63 @ argument  @ 66 @ 
+call  @ 54 @ call  @ 55 @ 
+expr  @ 15 @ expr  @ 16 @ 
+argument_list  @ 21 @ argument_list  @ 22 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 15 @ 
+expr  @ 61 @ expr  @ 63 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 62 @ 
+name: mesalink_connect_step1  @ 2 @ name: mesalink_connect_step1  @ 2 @ 
+condition  @ 56 @ condition  @ 57 @ 
+name: CURLcode  @ 1 @ name: CURLcode  @ 1 @ 
+name: SSL_CONN_CONFIG  @ 65 @ name: SSL_CONN_CONFIG  @ 69 @ 
+name: SSL_CONN_CONFIG  @ 64 @ name: SSL_CONN_CONFIG  @ 68 @ 
+name: SSL_CTX_new  @ 54 @ name: SSL_CTX_new  @ 55 @ 
+init  @ 5 @ init  @ 6 @ 
+expr  @ 15 @ expr  @ 16 @ 
+name: failf  @ 57 @ name: failf  @ 58 @ 
+expr  @ 11 @ expr  @ 12 @ 
+block_content  @ 26 @ block_content  @ 27 @ 
+expr  @ 64 @ expr  @ 67 @ 
+decl  @ 8 @ decl  @ 9 @ 
+expr  @ 41 @ expr  @ 42 @ 
+literal: ", ciphers);
+      return CURLE_SSL_CIPHER;}
+#endifinfof(data, "  @ 98 @ literal: 0  @ 183 @ 
+argument_list  @ 64 @ argument_list  @ 67 @ 
+argument_list  @ 64 @ argument_list  @ 68 @ 
+return  @ 49 @ return  @ 50 @ 
+name: CAfile  @ 63 @ name: CAfile  @ 66 @ 
+condition  @ 63 @ condition  @ 66 @ 
+name: ciphers  @ 4 @ name: ciphers  @ 4 @ 
+name: SSL_CONN_CONFIG  @ 25 @ name: SSL_CONN_CONFIG  @ 26 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+call  @ 63 @ call  @ 66 @ 
+name: hostname  @ 10 @ name: hostname  @ 11 @ 
+expr  @ 43 @ expr  @ 44 @ 
+condition  @ 20 @ condition  @ 21 @ 
+name: sockindex  @ 15 @ name: sockindex  @ 16 @ 
+expr  @ 61 @ expr  @ 63 @ 
+case  @ 28 @ case  @ 29 @ 
+expr  @ 34 @ expr  @ 35 @ 
+call  @ 64 @ call  @ 67 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 6 @ 
+expr  @ 61 @ expr  @ 64 @ 
+type  @ 4 @ type  @ 4 @ 
+argument  @ 12 @ argument  @ 13 @ 
+case  @ 36 @ case  @ 37 @ 
+expr  @ 47 @ expr  @ 48 @ 
+type  @ 5 @ type  @ 6 @ 
+literal: ",SSL_CONN_CONFIG(CAfile) ?SSL_CONN_CONFIG(CAfile) : "  @ 66 @ literal: "  CAfile: %s\n"  @ 87 @ 
+name: SSL_CONN_CONFIG  @ 63 @ name: SSL_CONN_CONFIG  @ 66 @ 
+if_stmt  @ 47 @ if_stmt  @ 48 @ 
+call  @ 20 @ call  @ 21 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 38 @ 
+operator: =  @ 34 @ operator: =  @ 35 @ 
+call  @ 63 @ call  @ 66 @ 
+init  @ 12 @ init  @ 13 @ 
+expr  @ 57 @ expr  @ 58 @ 
+literal: "SSL: couldn't create a method!"  @ 48 @ literal: "SSL: couldn't create a method!"  @ 49 @ 
+name: failf  @ 66 @ name: failf  @ 70 @ 
+name  @ 64 @ name  @ 67 @ 
+expr  @ 21 @ expr  @ 22 @ 
+case  @ 39 @ case  @ 40 @ 
+name: BACKEND  @ 61 @ name: BACKEND  @ 63 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+expr  @ 48 @ expr  @ 49 @ 
+expr  @ 22 @ expr  @ 23 @ 
+return  @ 58 @ return  @ 59 @ 
+name: addr6  @ 8 @ name: addr6  @ 9 @ 
+call  @ 43 @ call  @ 44 @ 
+literal: ");
+      return CURLE_SSL_CONNECT_ERROR;}
+    infof(data,"  @ 88 @ literal: "localhost"  @ 160 @ 
+expr  @ 20 @ expr  @ 21 @ 
+type  @ 2 @ type  @ 2 @ 
+name  @ 11 @ name  @ 12 @ 
+expr  @ 53 @ expr  @ 54 @ 
+return  @ 31 @ return  @ 32 @ 
+expr  @ 61 @ expr  @ 63 @ 
+name: BACKEND  @ 53 @ name: BACKEND  @ 54 @ 
+name: CURL_SSLVERSION_TLSv1_1  @ 29 @ name: CURL_SSLVERSION_TLSv1_1  @ 30 @ 
+case  @ 32 @ case  @ 33 @ 
+name  @ 61 @ name  @ 63 @ 
+call  @ 40 @ call  @ 41 @ 
+argument  @ 57 @ argument  @ 58 @ 
+name: connectdata  @ 2 @ name: connectdata  @ 2 @ 
+name: CURL_SSLVERSION_SSLv2  @ 39 @ name: CURL_SSLVERSION_SSLv2  @ 40 @ 
+argument  @ 20 @ argument  @ 21 @ 
+name: failf  @ 43 @ name: failf  @ 44 @ 
+argument  @ 64 @ argument  @ 67 @ 
+expr  @ 40 @ expr  @ 41 @ 
+block  @ 47 @ block  @ 48 @ 
+index  @ 5 @ index  @ 6 @ 
+operator: =  @ 37 @ operator: =  @ 38 @ 
+argument  @ 61 @ argument  @ 63 @ 
+argument_list  @ 30 @ argument_list  @ 31 @ 
+expr  @ 61 @ expr  @ 62 @ 
+if  @ 56 @ if  @ 57 @ 
+argument  @ 30 @ argument  @ 31 @ 
+operator: ->  @ 15 @ operator: ->  @ 16 @ 
+name: ssl_connect_data  @ 5 @ name: ssl_connect_data  @ 6 @ 
+literal: ");
+    }else {
+      infof(data, "  @ 69 @ literal: " phrase?)"  @ 101 @ 
+name: BACKEND  @ 54 @ name: BACKEND  @ 55 @ 
+name: connssl  @ 5 @ name: connssl  @ 6 @ 
+literal: ");
+        return CURLE_SSL_CACERT_BADFILE;}
+      infof(data,"  @ 66 @ literal: "none"  @ 90 @ 
+argument_list  @ 64 @ argument_list  @ 67 @ 
+operator: .  @ 11 @ operator: .  @ 12 @ 
+name: in_addr  @ 6 @ name: in_addr  @ 7 @ 
+argument  @ 61 @ argument  @ 63 @ 
+name: SSL_CTX_load_verify_locations  @ 64 @ name: SSL_CTX_load_verify_locations  @ 67 @ 
+expr  @ 11 @ expr  @ 12 @ 
+block  @ 3 @ block  @ 3 @ 
+literal: ",SSL_CONN_CONFIG(CApath) ? SSL_CONN_CONFIG(CApath): "  @ 75 @ literal: "SSL: couldn't create a context (handle)!"  @ 132 @ 
+argument_list  @ 20 @ argument_list  @ 21 @ 
+name: SSL_METHOD  @ 14 @ name: SSL_METHOD  @ 15 @ 
+call  @ 65 @ call  @ 69 @ 
+name: BACKEND  @ 64 @ name: BACKEND  @ 67 @ 
+modifier: *  @ 14 @ modifier: *  @ 15 @ 
+name: hostname_len  @ 12 @ name: hostname_len  @ 13 @ 
+name: SSL_VERIFY_PEER  @ 61 @ name: SSL_VERIFY_PEER  @ 64 @ 
+literal: "Unrecognized parameter passed via CURLOPT_SSLVERSION"  @ 43 @ literal: "Unrecognized parameter passed via CURLOPT_SSLVERSION"  @ 44 @ 
+type  @ 14 @ type  @ 15 @ 
+literal: ", ciphers);
+  }if(BACKEND->handle)
+    SSL_free(BACKEND->handle);
+  BACKEND->handle = SSL_new(BACKEND->ctx);
+  if(!BACKEND->handle) {
+    failf(data, "  @ 102 @ literal: "SSL re-using session ID\n"  @ 187 @ 
+expr  @ 30 @ expr  @ 31 @ 
+operator: !  @ 47 @ operator: !  @ 48 @ 
+expr  @ 65 @ expr  @ 69 @ 
+expr  @ 54 @ expr  @ 55 @ 
+literal: ""  @ 69 @ literal: "none"  @ 92 @ 
+name: curl_socket_t  @ 15 @ name: curl_socket_t  @ 16 @ 
+expr  @ 5 @ expr  @ 6 @ 
+argument  @ 21 @ argument  @ 22 @ 
+call  @ 30 @ call  @ 31 @ 
+ifdef  @ 7 @ ifdef  @ 8 @ 
+name  @ 2 @ name  @ 2 @ 
+name: verifypeer  @ 61 @ name: verifypeer  @ 63 @ 
+argument  @ 64 @ argument  @ 68 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 22 @ 
+argument_list  @ 34 @ argument_list  @ 35 @ 
+expr  @ 61 @ expr  @ 64 @ 
+expr  @ 43 @ expr  @ 44 @ 
+literal: ");
+    }infof(data, "  @ 72 @ literal: "none"  @ 114 @ 
+name: conn  @ 2 @ name: conn  @ 2 @ 
+argument  @ 61 @ argument  @ 63 @ 
+expr  @ 36 @ expr  @ 37 @ 
+type  @ 15 @ type  @ 16 @ 
+expr  @ 21 @ expr  @ 22 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 55 @ 
+argument  @ 64 @ argument  @ 67 @ 
+argument  @ 48 @ argument  @ 49 @ 
+init  @ 15 @ init  @ 16 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: data  @ 43 @ name: data  @ 44 @ 
+argument  @ 63 @ argument  @ 66 @ 
+literal: ");
+  }ciphers = SSL_CONN_CONFIG(cipher_list);
+  if(ciphers) {#ifdef MESALINK_HAVE_CIPHER
+    if(!SSL_CTX_set_cipher_list(BACKEND->ctx, ciphers)) {
+      failf(data, "  @ 91 @ literal: "SSL: SSL_set_session failed: %s"  @ 182 @ 
+argument  @ 43 @ argument  @ 44 @ 
+name: sockindex  @ 5 @ name: sockindex  @ 6 @ 
+name: CAfile  @ 64 @ name: CAfile  @ 67 @ 
+argument  @ 48 @ argument  @ 49 @ 
+expr  @ 11 @ expr  @ 12 @ 
+name: SSL_CTX_free  @ 53 @ name: SSL_CTX_free  @ 54 @ 
+block_content  @ 48 @ block_content  @ 49 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: connssl  @ 17 @ name: connssl  @ 18 @ 
+else  @ 11 @ else  @ 12 @ 
+name: NULL  @ 61 @ name: NULL  @ 64 @ 
+name: ctx  @ 52 @ name: ctx  @ 53 @ 
+name: conn  @ 11 @ name: conn  @ 12 @ 
+name: char  @ 4 @ name: char  @ 4 @ 
+name: CApath  @ 63 @ name: CApath  @ 66 @ 
+name  @ 5 @ name  @ 6 @ 
+call  @ 12 @ call  @ 13 @ 
+name: NULL  @ 14 @ name: NULL  @ 15 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+expr  @ 48 @ expr  @ 49 @ 
+literal: ""  @ 82 @ literal: "[::1]"  @ 157 @ 
+name  @ 56 @ name  @ 57 @ 
+name  @ 5 @ name  @ 6 @ 
+modifier: *  @ 2 @ modifier: *  @ 5 @ 
+decl_stmt  @ 12 @ decl_stmt  @ 13 @ 
+name: char  @ 10 @ name: char  @ 11 @ 
+modifier: *  @ 10 @ modifier: *  @ 11 @ 
+name: http_proxy  @ 11 @ name: http_proxy  @ 12 @ 
+name: ENABLE_IPV6  @ 7 @ name: ENABLE_IPV6  @ 8 @ 
+condition  @ 64 @ condition  @ 67 @ 
+expr  @ 61 @ expr  @ 64 @ 
+expr  @ 40 @ expr  @ 41 @ 
+name: CURLE_NOT_BUILT_IN  @ 31 @ name: CURLE_NOT_BUILT_IN  @ 32 @ 
+decl  @ 12 @ decl  @ 13 @ 
+argument_list  @ 53 @ argument_list  @ 54 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 31 @ 
+operator: ==  @ 17 @ operator: ==  @ 18 @ 
+expr  @ 64 @ expr  @ 68 @ 
+name: ssl_connection_complete  @ 17 @ name: ssl_connection_complete  @ 18 @ 
+expr  @ 30 @ expr  @ 31 @ 
+function  @ 1 @ function  @ 1 @ 
+name: ctx  @ 64 @ name: ctx  @ 67 @ 
+name: SSL_CONN_CONFIG  @ 63 @ name: SSL_CONN_CONFIG  @ 66 @ 
+name: CURLE_OK  @ 18 @ name: CURLE_OK  @ 19 @ 
+modifier: *  @ 5 @ modifier: *  @ 6 @ 
+expr  @ 53 @ expr  @ 54 @ 
+expr  @ 21 @ expr  @ 22 @ 
+block_content  @ 57 @ block_content  @ 58 @ 
+decl  @ 6 @ decl  @ 7 @ 
+type  @ 8 @ type  @ 9 @ 
+call  @ 61 @ call  @ 62 @ 
+decl  @ 10 @ decl  @ 11 @ 
+name: data  @ 57 @ name: data  @ 58 @ 
+argument  @ 65 @ argument  @ 69 @ 
+operator: ->  @ 64 @ operator: ->  @ 67 @ 
+block_content  @ 21 @ block_content  @ 22 @ 
+name  @ 2 @ name  @ 5 @ 
+if  @ 20 @ if  @ 21 @ 
+name: name  @ 11 @ name: name  @ 12 @ 
+expr  @ 48 @ expr  @ 49 @ 
+call  @ 34 @ call  @ 35 @ 
+expr  @ 12 @ expr  @ 13 @ 
+argument_list  @ 61 @ argument_list  @ 62 @ 
+argument_list  @ 37 @ argument_list  @ 38 @ 
+literal: ",SSL_CONN_CONFIG(clientcert)?SSL_CONN_CONFIG(clientcert): "  @ 91 @ literal: "ERROR: MesaLink does not accept an IP address as a hostname\n"  @ 166 @ 
+name: CURLE_OUT_OF_MEMORY  @ 49 @ name: CURLE_OUT_OF_MEMORY  @ 50 @ 
+literal: ",SSL_CONN_CONFIG(CApath) ?SSL_CONN_CONFIG(CApath) : "  @ 66 @ literal: "  CApath: %s\n"  @ 88 @ 
+expr  @ 17 @ expr  @ 18 @ 
+expr  @ 61 @ expr  @ 63 @ 
+operator: ->  @ 54 @ operator: ->  @ 55 @ 
+name: failf  @ 48 @ name: failf  @ 49 @ 
+

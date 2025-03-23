@@ -1,0 +1,78 @@
+{
+    "all": {
+        "git": {
+            "cr_raw": 0.11,
+            "fr_raw": 0.06,
+            "cr_cc": 0.42,
+            "fr_cc": 0.33,
+            "fr_ratio": 4.5,
+            "cr_ratio": 2.82
+        },
+        "tsbport": {
+            "cr_raw": 0.49,
+            "fr_raw": 0.41,
+            "cr_cc": 0.83,
+            "fr_cc": 0.81,
+            "fr_ratio": 0.98,
+            "cr_ratio": 0.69
+        },
+        "count": 104
+    },
+    "Equivalent Change": {
+        "git": {
+            "cr_raw": 0.09,
+            "fr_raw": 0.07,
+            "cr_cc": 0.57,
+            "fr_cc": 0.45,
+            "fr_ratio": 5.43,
+            "cr_ratio": 5.33
+        },
+        "tsbport": {
+            "cr_raw": 0.48,
+            "fr_raw": 0.43,
+            "cr_cc": 0.95,
+            "fr_cc": 0.93,
+            "fr_ratio": 1.16,
+            "cr_ratio": 0.98
+        },
+        "count": 44
+    },
+    "Fixing Change": {
+        "git": {
+            "cr_raw": 0.1,
+            "fr_raw": 0.04,
+            "cr_cc": 0.39,
+            "fr_cc": 0.33,
+            "fr_ratio": 7.25,
+            "cr_ratio": 2.9
+        },
+        "tsbport": {
+            "cr_raw": 0.43,
+            "fr_raw": 0.37,
+            "cr_cc": 0.82,
+            "fr_cc": 0.82,
+            "fr_ratio": 1.22,
+            "cr_ratio": 0.91
+        },
+        "count": 67
+    },
+    "Functional Change": {
+        "git": {
+            "cr_raw": 0.0,
+            "fr_raw": 0.0,
+            "cr_cc": 0.35,
+            "fr_cc": 0.32,
+            "fr_ratio": "nan",
+            "cr_ratio": "nan"
+        },
+        "tsbport": {
+            "cr_raw": 0.11,
+            "fr_raw": 0.05,
+            "cr_cc": 0.81,
+            "fr_cc": 0.78,
+            "fr_ratio": 14.6,
+            "cr_ratio": 6.36
+        },
+        "count": 37
+    }
+}

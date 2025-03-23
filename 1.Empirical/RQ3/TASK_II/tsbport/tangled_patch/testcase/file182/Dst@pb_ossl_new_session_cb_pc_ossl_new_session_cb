@@ -1,0 +1,52 @@
+static int ossl_new_session_cb(SSL *ssl, SSL_SESSION *ssl_sessionid)
+{
+  int res = 0;
+  struct connectdata *conn;
+  struct Curl_easy *data;
+  int sockindex;
+  curl_socket_t *sockindex_ptr;
+  int connectdata_idx = ossl_get_ssl_conn_index();
+  int sockindex_idx = ossl_get_ssl_sockindex_index();
+
+  if(connectdata_idx < 0 || sockindex_idx < 0)
+    return 0;
+
+  conn = (struct connectdata*) SSL_get_ex_data(ssl, connectdata_idx);
+  if(!conn)
+    return 0;
+
+  data = conn->data;
+
+  /* The sockindex has been stored as a pointer to an array element */
+  sockindex_ptr = (curl_socket_t*) SSL_get_ex_data(ssl, sockindex_idx);
+  sockindex = (int)(sockindex_ptr - conn->sock);
+
+  if(SSL_SET_OPTION(primary.sessionid)) {
+    bool incache;
+    void *old_ssl_sessionid = NULL;
+
+    Curl_ssl_sessionid_lock(conn);
+    incache = !(Curl_ssl_getsessionid(conn, &old_ssl_sessionid, NULL,
+                                      sockindex));
+    if(incache) {
+      if(old_ssl_sessionid != ssl_sessionid) {
+        infof(data, "old SSL session ID is stale, removing\n");
+        Curl_ssl_delsessionid(conn, old_ssl_sessionid);
+        incache = FALSE;
+      }
+    }
+
+    if(!incache) {
+      if(!Curl_ssl_addsessionid(conn, ssl_sessionid,
+                                      0 /* unknown size */, sockindex)) {
+        /* the session has been put into the session cache */
+        res = 1;
+      }
+      else
+        failf(data, "failed to store ssl session");
+    }
+    Curl_ssl_sessionid_unlock(conn);
+  }
+
+  return res;
+}

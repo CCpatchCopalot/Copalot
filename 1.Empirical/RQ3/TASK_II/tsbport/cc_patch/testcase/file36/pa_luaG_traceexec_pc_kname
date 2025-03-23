@@ -1,0 +1,102 @@
+expr  @ 27 @ expr  @ 11 @ 
+name: mask  @ 11 @ name: k  @ 3 @ 
+operator: ==  @ 33 @ operator: ==  @ 12 @ 
+decl  @ 4 @ decl  @ 1 @ 
+decl_stmt  @ 26 @ decl_stmt  @ 11 @ 
+decl  @ 1 @ decl  @ 1 @ 
+argument  @ 27 @ argument  @ 11 @ 
+name: pcRel  @ 26 @ name: getobjname  @ 11 @ 
+comment: /* call count hook */  @ 23 @ comment: /* 'c' is a register */  @ 10 @ 
+name: int  @ 26 @ name: char  @ 11 @ 
+name: lu_byte  @ 3 @ name: char  @ 1 @ 
+name: u  @ 6 @ name: kvalue  @ 3 @ 
+expr  @ 27 @ expr  @ 11 @ 
+if_stmt  @ 20 @ if_stmt  @ 4 @ 
+expr  @ 37 @ expr  @ 17 @ 
+decl  @ 3 @ decl  @ 1 @ 
+name: LUA_MASKLINE  @ 5 @ name: c  @ 2 @ 
+argument  @ 26 @ argument  @ 11 @ 
+comment: /* no hooks? */  @ 5 @ comment: /* is 'c' a constant? */  @ 2 @ 
+argument_list  @ 13 @ argument_list  @ 3 @ 
+expr  @ 5 @ expr  @ 2 @ 
+name: resethookcount  @ 13 @ name: INDEXK  @ 3 @ 
+name: status  @ 33 @ name: what  @ 12 @ 
+name: pc  @ 9 @ name: p  @ 3 @ 
+expr  @ 33 @ expr  @ 12 @ 
+name: npci  @ 26 @ name: what  @ 11 @ 
+block_content  @ 21 @ block_content  @ 5 @ 
+expr  @ 20 @ expr  @ 4 @ 
+comment: /* enter new line */  @ 27 @ comment: /* search for 'c' */  @ 11 @ 
+argument  @ 27 @ argument  @ 11 @ 
+name: pc  @ 1 @ name: pc  @ 1 @ 
+if  @ 20 @ if  @ 4 @ 
+name: isIT  @ 20 @ name: ttisstring  @ 4 @ 
+decl  @ 26 @ decl  @ 11 @ 
+name: p  @ 26 @ name: p  @ 11 @ 
+name: L  @ 13 @ name: c  @ 3 @ 
+comment: /* did hook yield? */  @ 33 @ comment: /* found a constant name? */  @ 12 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 5 @ 
+name: L  @ 1 @ name: p  @ 1 @ 
+operator: =  @ 21 @ operator: =  @ 5 @ 
+comment: /* prepare top */  @ 21 @ comment: /* else no reasonable name found */  @ 8 @ 
+name: int  @ 4 @ name: int  @ 1 @ 
+name: ci  @ 21 @ name: svalue  @ 5 @ 
+name: ci  @ 20 @ name: kvalue  @ 4 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+type  @ 26 @ type  @ 11 @ 
+name: callstatus  @ 37 @ name: name  @ 17 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: ->  @ 10 @ operator: ->  @ 3 @ 
+name: luaG_traceexec  @ 1 @ name: kname  @ 1 @ 
+comment: /* undo increment (resume will increment it again) */  @ 36 @ comment: /* else no reasonable name found */  @ 15 @ 
+operator: ->  @ 33 @ operator: &&  @ 12 @ 
+type  @ 1 @ type  @ 1 @ 
+condition  @ 5 @ condition  @ 2 @ 
+name: npci  @ 27 @ name: name  @ 11 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+call  @ 20 @ call  @ 4 @ 
+type  @ 1 @ type  @ 1 @ 
+operator: ->  @ 21 @ operator: *  @ 5 @ 
+type  @ 3 @ type  @ 1 @ 
+argument  @ 13 @ argument  @ 3 @ 
+expr  @ 26 @ expr  @ 11 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 17 @ 
+argument  @ 26 @ argument  @ 11 @ 
+name: p  @ 27 @ name: c  @ 11 @ 
+name: ci  @ 6 @ name: TValue  @ 3 @ 
+parameter  @ 1 @ parameter  @ 1 @ 
+block  @ 21 @ block  @ 4 @ 
+call  @ 13 @ call  @ 3 @ 
+expr  @ 13 @ expr  @ 3 @ 
+function  @ 1 @ function  @ 1 @ 
+specifier: const  @ 25 @ specifier: const  @ 11 @ 
+modifier: *  @ 25 @ modifier: *  @ 11 @ 
+condition  @ 20 @ condition  @ 4 @ 
+expr  @ 26 @ expr  @ 11 @ 
+call  @ 26 @ call  @ 11 @ 
+comment: /* mark that it yielded */  @ 37 @ comment: /* no reasonable name found */  @ 17 @ 
+argument  @ 20 @ argument  @ 4 @ 
+name: mask  @ 5 @ name: ISK  @ 2 @ 
+name: lua_State  @ 1 @ name: Proto  @ 1 @ 
+name: counthook  @ 4 @ name: c  @ 1 @ 
+type  @ 4 @ type  @ 1 @ 
+operator: |=  @ 37 @ operator: =  @ 17 @ 
+operator: ->  @ 37 @ operator: *  @ 17 @ 
+init  @ 26 @ init  @ 11 @ 
+expr  @ 26 @ expr  @ 11 @ 
+expr  @ 21 @ expr  @ 5 @ 
+argument_list  @ 26 @ argument_list  @ 11 @ 
+name: mask  @ 3 @ name: name  @ 1 @ 
+argument_list  @ 20 @ argument_list  @ 4 @ 
+expr  @ 13 @ expr  @ 3 @ 
+operator: .  @ 6 @ operator: &  @ 3 @ 
+name: pc  @ 26 @ name: pc  @ 11 @ 
+expr  @ 20 @ expr  @ 4 @ 
+comment: /* undo decrement to zero */  @ 35 @ comment: /* 'name' already filled */  @ 13 @ 
+decl  @ 1 @ decl  @ 1 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+condition  @ 33 @ condition  @ 12 @ 
+name: L  @ 33 @ name: what  @ 12 @ 
+name: top  @ 21 @ name: kvalue  @ 5 @ 
+name: top  @ 21 @ name: name  @ 5 @ 
+

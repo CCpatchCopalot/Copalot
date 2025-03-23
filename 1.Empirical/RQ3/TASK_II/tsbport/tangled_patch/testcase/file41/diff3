@@ -1,0 +1,18 @@
+-1c-1
+<}
+---
+>#define invpcRel(pc, p)		((p)->code + (pc) + 1)
+-1c-1,-2
+<}
+---
+68,69d
+<  if (isLua(L->ci))
+<    L->oldpc = L->ci->u.l.savedpc;
+327a328
+>  const Proto *p = ci_func(ci)->p;
+337d
+<    const char *what = getobjname(p, pc, c, name); /* search for 'c' */
+337c0
+<    const char *what = getobjname(p, pc, c, name); /* search for 'c' */
+---
+>if (npci == 0 ||/* call linehook when enter a new function, */pc <= invpcRel(oldpc, p) ||/* when jump back (loop), or when */changedline(p, oldpc, npci)) {  /* enter new line */

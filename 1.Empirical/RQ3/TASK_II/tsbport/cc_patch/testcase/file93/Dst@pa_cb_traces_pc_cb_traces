@@ -1,0 +1,151 @@
+static void cb_traces(mk_request_t *request, void *data)
+{
+    flb_sds_t out_buf;
+    msgpack_sbuffer mp_sbuf;
+    msgpack_packer mp_pck;
+    int ret;
+    char *buf = NULL;
+    size_t buf_size;
+    int root_type = MSGPACK_OBJECT_ARRAY;
+    msgpack_unpacked result;
+    flb_sds_t error_msg = NULL;
+    int response = 200;
+    flb_sds_t input_name;
+    msgpack_object_array *inputs = NULL;
+    size_t off = 0;
+    int i;
+    
+
+    /* initialize buffers */
+    msgpack_sbuffer_init(&mp_sbuf);
+    msgpack_packer_init(&mp_pck, &mp_sbuf, msgpack_sbuffer_write);
+
+    msgpack_unpacked_init(&result);
+    ret = flb_pack_json(request->data.data, request->data.len, &buf, &buf_size,
+                        &root_type, NULL);
+    if (ret == -1) {
+        goto unpack_error;
+    }
+
+    ret = msgpack_unpack_next(&result, buf, buf_size, &off);
+    if (ret != MSGPACK_UNPACK_SUCCESS) {
+        ret = -1;
+        error_msg = flb_sds_create("unfinished input");
+        goto unpack_error;
+    }
+
+    if (result.data.type != MSGPACK_OBJECT_MAP) {
+        response = 503;
+        error_msg = flb_sds_create("input is not an object");
+        goto unpack_error;
+    }
+
+    for (i = 0; i < result.data.via.map.size; i++) {
+        if (result.data.via.map.ptr[i].val.type != MSGPACK_OBJECT_ARRAY) {
+            continue;
+        }
+        if (result.data.via.map.ptr[i].key.type != MSGPACK_OBJECT_STR) {
+            continue;
+        }
+        if (result.data.via.map.ptr[i].key.via.str.size < strlen("inputs")) {
+            continue;
+        }
+        if (strncmp(result.data.via.map.ptr[i].key.via.str.ptr, "inputs", strlen("inputs"))) {
+            continue;
+        }
+        inputs = &result.data.via.map.ptr[i].val.via.array;
+    }
+
+    if (inputs == NULL) {
+        response = 503;
+        error_msg = flb_sds_create("inputs not found");
+        goto unpack_error;
+    }
+    
+    msgpack_pack_map(&mp_pck, 2);
+
+    msgpack_pack_str_with_body(&mp_pck, "inputs", strlen("inputs"));
+    msgpack_pack_map(&mp_pck, inputs->size);
+
+    for (i = 0; i < inputs->size; i++) {
+        input_name = flb_sds_create_len(inputs->ptr[i].via.str.ptr, inputs->ptr[i].via.str.size);
+        msgpack_pack_str_with_body(&mp_pck, input_name, flb_sds_len(input_name));
+
+        if (inputs->ptr[i].type != MSGPACK_OBJECT_STR) {
+            msgpack_pack_map(&mp_pck, 1);
+            msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+            msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+        }
+        else {
+            if (request->method == MK_METHOD_POST || request->method == MK_METHOD_GET) {
+                ret = msgpack_params_enable_trace((struct flb_hs *)data, &result, input_name);
+                if (ret != 0) {
+                    msgpack_pack_map(&mp_pck, 2);
+                    msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+                    msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+                    msgpack_pack_str_with_body(&mp_pck, "returncode", strlen("returncode"));
+                    msgpack_pack_int64(&mp_pck, ret);
+                }
+                else {
+                    msgpack_pack_map(&mp_pck, 1);
+                    msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+                    msgpack_pack_str_with_body(&mp_pck, "ok", strlen("ok"));
+                }
+            }
+            else if (request->method == MK_METHOD_DELETE) {
+                disable_trace_input((struct flb_hs *)data, input_name);
+            }
+            else {
+                msgpack_pack_map(&mp_pck, 2);
+                msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+                msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+                msgpack_pack_str_with_body(&mp_pck, "message", strlen("message"));
+                msgpack_pack_str_with_body(&mp_pck, "method not allowed", strlen("method not allowed"));
+            }
+        }
+    }
+
+    msgpack_pack_str_with_body(&mp_pck, "result", strlen("result"));
+unpack_error:
+    if (buf != NULL) {
+        flb_free(buf);
+    }
+    msgpack_unpacked_destroy(&result);
+    if (response == 404) {
+        msgpack_pack_map(&mp_pck, 1);
+        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+        msgpack_pack_str_with_body(&mp_pck, "not found", strlen("not found"));
+    }
+    else if (response == 503) {
+        msgpack_pack_map(&mp_pck, 2);
+        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+        msgpack_pack_str_with_body(&mp_pck, "error", strlen("error"));
+        msgpack_pack_str_with_body(&mp_pck, "message", strlen("message"));
+        if (error_msg) {
+            msgpack_pack_str_with_body(&mp_pck, error_msg, flb_sds_len(error_msg));
+            flb_sds_destroy(error_msg);
+        }
+        else {
+            msgpack_pack_str_with_body(&mp_pck, "unknown error", strlen("unknown error"));
+        }
+    }
+    else {
+        msgpack_pack_map(&mp_pck, 1);
+        msgpack_pack_str_with_body(&mp_pck, "status", strlen("status"));
+        msgpack_pack_str_with_body(&mp_pck, "ok", strlen("ok"));
+    }
+
+    /* Export to JSON */
+    out_buf = flb_msgpack_raw_to_json_sds(mp_sbuf.data, mp_sbuf.size);
+    if (out_buf == NULL) {
+        out_buf = flb_sds_create("serialization error");
+    }
+    msgpack_sbuffer_destroy(&mp_sbuf);
+
+    mk_http_status(request, response);
+    mk_http_send(request,
+                 out_buf, flb_sds_len(out_buf), NULL);
+    mk_http_done(request);
+
+    flb_sds_destroy(out_buf);
+}

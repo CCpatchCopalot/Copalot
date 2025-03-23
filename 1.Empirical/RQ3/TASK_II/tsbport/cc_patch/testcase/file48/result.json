@@ -1,0 +1,46 @@
+{
+    "testcase": {
+        "file48": {
+            "match_message": {
+                "Same: dwg_free_header_vars -> dwg_free_header_vars": {
+                    "Seg_0": {
+                        "Edit": "delete",
+                        "L1": "7: Context line (Ignored) is empty or comment 1151",
+                        "L2": "5: Matched by Syntax(AST) similarity 1152->1552"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "delete",
+                        "delete_location": [
+                            1552,
+                            1552
+                        ],
+                        "delete_hunk": [
+                            "  FIELD_TV (DWGCODEPAGE, 0);\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 1618,
+                        "add_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: dwg_free_header_vars -> dwg_free_header_vars": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": []
+        }
+    }
+}

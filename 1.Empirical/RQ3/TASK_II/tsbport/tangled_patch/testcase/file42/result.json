@@ -1,0 +1,63 @@
+{
+    "testcase": {
+        "file42": {
+            "match_message": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "Edit": "add",
+                        "L1": "11 -> -1",
+                        "L2": "12 -> -1",
+                        "debug": {
+                            "runtime info": "True,{'state': 'default', 'type': 'unknown', 'info': ['unknown out block']}",
+                            "verify location": "-1",
+                            "output location": "-1",
+                            "verify result": "True"
+                        },
+                        "type": "unknown",
+                        "raw_match_info": {
+                            "state": "default",
+                            "type": "unknown",
+                            "info": [
+                                "unknown out block"
+                            ]
+                        }
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "add",
+                        "add_location": -1,
+                        "add_hunk": [
+                            "#define ci_func(ci)\t\t(clLvalue(s2v((ci)->func)))\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 12,
+                        "add_hunk": []
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Coarse:[Pa_Macro_Definition]||[Pc_Macro_Definition]": {
+                    "Seg_0": {
+                        "type": "out func",
+                        "state": "success",
+                        "info": "unknown"
+                    }
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "other"
+            ]
+        }
+    }
+}

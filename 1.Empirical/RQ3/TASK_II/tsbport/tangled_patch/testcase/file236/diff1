@@ -1,0 +1,15 @@
+714a715,720
+>       if (!section_page)
+>         {
+>           free (decomp);
+>           LOG_ERROR ("Failed to find section page %d", (int)i)
+>           return DWG_ERR_PAGENOTFOUND;
+>         }
+849,851c855
+<       if (section->num_pages <= 0)
+<         continue;
+<       if (section->num_pages > 0xf0000)
+---
+>       if (section->num_pages <= 0 || section->num_pages > 0xf0000)
+853a858
+>           section->num_pages = 0;

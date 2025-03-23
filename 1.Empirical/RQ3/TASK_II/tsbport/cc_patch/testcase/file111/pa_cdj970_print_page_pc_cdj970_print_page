@@ -1,0 +1,433 @@
+name: y  @ 24 @ name: y  @ 24 @ 
+type  @ 5 @ type  @ 5 @ 
+name: cdj970  @ 20 @ name: cdj970  @ 20 @ 
+argument  @ 20 @ argument  @ 20 @ 
+name: pdev  @ 37 @ name: pdev  @ 47 @ 
+name: ptype  @ 15 @ name: ptype  @ 15 @ 
+operator: (  @ 37 @ operator: (  @ 47 @ 
+argument_list  @ 37 @ argument_list  @ 47 @ 
+name: pdev  @ 48 @ name: pdev  @ 60 @ 
+expr  @ 51 @ expr  @ 63 @ 
+expr  @ 22 @ expr  @ 22 @ 
+operator: .  @ 24 @ operator: .  @ 24 @ 
+name: pdev  @ 11 @ name: pdev  @ 11 @ 
+name: gs_free  @ 57 @ name: gs_free  @ 70 @ 
+name: non_gc_memory  @ 37 @ name: non_gc_memory  @ 47 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: blackcorrect  @ 28 @ name: blackcorrect  @ 28 @ 
+name: misc_struct  @ 6 @ name: misc_struct  @ 6 @ 
+argument  @ 48 @ argument  @ 60 @ 
+argument_list  @ 51 @ argument_list  @ 63 @ 
+name: gamma  @ 15 @ name: gamma  @ 15 @ 
+argument  @ 57 @ argument  @ 70 @ 
+expr  @ 24 @ expr  @ 24 @ 
+block  @ 18 @ block  @ 18 @ 
+argument  @ 24 @ argument  @ 24 @ 
+expr  @ 20 @ expr  @ 20 @ 
+expr  @ 23 @ expr  @ 23 @ 
+operator: .  @ 40 @ operator: .  @ 52 @ 
+name: pdev  @ 45 @ name: pdev  @ 57 @ 
+argument  @ 51 @ argument  @ 63 @ 
+comment: /* if mastergamma, don't use the built in functions */  @ 17 @ comment: /* if mastergamma, don't use the built in functions */  @ 17 @ 
+comment: /* terminate page and eject paper */  @ 53 @ comment: /* terminate page and eject paper */  @ 66 @ 
+argument  @ 15 @ argument  @ 15 @ 
+name: misc_vars  @ 6 @ name: misc_vars  @ 6 @ 
+name: do_gamma  @ 24 @ name: do_gamma  @ 24 @ 
+name: gammavalk  @ 20 @ name: gammavalk  @ 20 @ 
+argument  @ 45 @ argument  @ 57 @ 
+expr  @ 41 @ expr  @ 53 @ 
+argument  @ 23 @ argument  @ 23 @ 
+condition  @ 40 @ condition  @ 52 @ 
+comment: /* Free Memory */  @ 56 @ comment: /* Free Memory */  @ 69 @ 
+argument  @ 28 @ argument  @ 28 @ 
+expr  @ 51 @ expr  @ 63 @ 
+name  @ 24 @ name  @ 24 @ 
+argument  @ 23 @ argument  @ 23 @ 
+argument  @ 51 @ argument  @ 63 @ 
+name  @ 18 @ name  @ 18 @ 
+operator: ->  @ 57 @ operator: ->  @ 70 @ 
+expr  @ 57 @ expr  @ 70 @ 
+name  @ 57 @ name  @ 70 @ 
+operator: ->  @ 48 @ operator: ->  @ 60 @ 
+operator: ->  @ 54 @ operator: ->  @ 67 @ 
+condition  @ 18 @ condition  @ 18 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+argument  @ 41 @ argument  @ 53 @ 
+name: gx_device_printer  @ 2 @ name: gx_device_printer  @ 2 @ 
+argument  @ 51 @ argument  @ 64 @ 
+name: gp_file  @ 2 @ name: FILE  @ 2 @ 
+name: cdj970  @ 18 @ name: cdj970  @ 18 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+operator: &  @ 31 @ operator: &  @ 31 @ 
+name: gs_error_VMerror  @ 41 @ name: gs_error_VMerror  @ 53 @ 
+argument  @ 54 @ argument  @ 67 @ 
+expr_stmt  @ 59 @ expr_stmt  @ 73 @ 
+expr  @ 45 @ expr  @ 57 @ 
+name: PageCtr  @ 10 @ name: PageCtr  @ 10 @ 
+name  @ 48 @ name  @ 60 @ 
+literal: 0  @ 10 @ literal: 0  @ 10 @ 
+expr  @ 31 @ expr  @ 31 @ 
+expr  @ 31 @ expr  @ 31 @ 
+argument  @ 57 @ argument  @ 71 @ 
+argument  @ 11 @ argument  @ 11 @ 
+return  @ 61 @ return  @ 75 @ 
+block_content  @ 20 @ block_content  @ 20 @ 
+comment: /* Initialise the needed pointers */  @ 44 @ comment: /* Initialise the needed pointers */  @ 56 @ 
+expr  @ 57 @ expr  @ 70 @ 
+name: send_scan_lines  @ 51 @ name: send_scan_lines  @ 63 @ 
+type  @ 1 @ type  @ 1 @ 
+expr  @ 37 @ expr  @ 47 @ 
+name: Gamma  @ 8 @ name: Gamma  @ 8 @ 
+comment: /* make a local writable copy of the Gamma tables */  @ 14 @ comment: /* make a local writable copy of the Gamma tables */  @ 14 @ 
+expr  @ 22 @ expr  @ 22 @ 
+operator: )  @ 57 @ operator: )  @ 70 @ 
+argument  @ 51 @ argument  @ 63 @ 
+argument_list  @ 20 @ argument_list  @ 20 @ 
+name  @ 23 @ name  @ 23 @ 
+call  @ 28 @ call  @ 28 @ 
+argument  @ 37 @ argument  @ 48 @ 
+expr  @ 22 @ expr  @ 22 @ 
+if  @ 18 @ if  @ 18 @ 
+name  @ 22 @ name  @ 22 @ 
+name  @ 37 @ name  @ 46 @ 
+sizeof  @ 15 @ sizeof  @ 15 @ 
+name: do_gamma  @ 20 @ name: do_gamma  @ 20 @ 
+name  @ 15 @ name  @ 15 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+name: gamma  @ 23 @ name: gamma  @ 23 @ 
+argument  @ 22 @ argument  @ 22 @ 
+name: prn_stream  @ 2 @ name: prn_stream  @ 2 @ 
+expr  @ 54 @ expr  @ 67 @ 
+if_stmt  @ 10 @ if_stmt  @ 10 @ 
+expr  @ 24 @ expr  @ 24 @ 
+name: struct  @ 5 @ name: struct  @ 5 @ 
+name: gs_malloc  @ 37 @ name: gs_malloc  @ 47 @ 
+expr  @ 23 @ expr  @ 23 @ 
+call  @ 11 @ call  @ 11 @ 
+name: cdj970  @ 24 @ name: cdj970  @ 24 @ 
+name  @ 40 @ name  @ 52 @ 
+expr  @ 48 @ expr  @ 60 @ 
+operator: .  @ 22 @ operator: .  @ 22 @ 
+name: W  @ 37 @ name: W  @ 48 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+decl  @ 8 @ decl  @ 8 @ 
+operator: >  @ 18 @ operator: >  @ 18 @ 
+call  @ 57 @ call  @ 70 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+expr  @ 24 @ expr  @ 24 @ 
+expr  @ 15 @ expr  @ 15 @ 
+if  @ 40 @ if  @ 52 @ 
+expr  @ 57 @ expr  @ 71 @ 
+argument_list  @ 48 @ argument_list  @ 60 @ 
+name: return_error  @ 41 @ name: return_error  @ 53 @ 
+expr  @ 31 @ expr  @ 31 @ 
+name: memcpy  @ 15 @ name: memcpy  @ 15 @ 
+operator: .  @ 57 @ operator: .  @ 71 @ 
+name: m  @ 23 @ name: m  @ 23 @ 
+name: memory  @ 57 @ name: memory  @ 70 @ 
+operator: ->  @ 59 @ operator: ->  @ 73 @ 
+name  @ 20 @ name  @ 20 @ 
+argument  @ 45 @ argument  @ 57 @ 
+name: prn_stream  @ 51 @ name: prn_stream  @ 64 @ 
+operator: ->  @ 28 @ operator: ->  @ 28 @ 
+argument_list  @ 15 @ argument_list  @ 15 @ 
+call  @ 54 @ call  @ 67 @ 
+name  @ 15 @ name  @ 15 @ 
+name: misc_vars  @ 45 @ name: misc_vars  @ 57 @ 
+block  @ 3 @ block  @ 3 @ 
+expr  @ 57 @ expr  @ 71 @ 
+name: cdj970  @ 10 @ name: cdj970  @ 10 @ 
+operator: ->  @ 22 @ operator: ->  @ 22 @ 
+operator: &  @ 51 @ operator: &  @ 63 @ 
+type  @ 4 @ type  @ 4 @ 
+name  @ 10 @ name  @ 10 @ 
+name: ptr_arrays  @ 5 @ name: ptr_arrays  @ 5 @ 
+operator: .  @ 28 @ operator: .  @ 28 @ 
+name: storage  @ 40 @ name: storage  @ 52 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 53 @ 
+expr  @ 37 @ expr  @ 48 @ 
+literal: 1.0  @ 18 @ literal: 1.0  @ 18 @ 
+name: data_ptrs  @ 57 @ name: data_ptrs  @ 70 @ 
+operator: .  @ 20 @ operator: .  @ 20 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+expr  @ 11 @ expr  @ 11 @ 
+operator: ->  @ 20 @ operator: ->  @ 20 @ 
+expr  @ 54 @ expr  @ 67 @ 
+argument_list  @ 11 @ argument_list  @ 11 @ 
+expr  @ 11 @ expr  @ 11 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 20 @ 
+operator: ->  @ 37 @ operator: ->  @ 47 @ 
+expr  @ 51 @ expr  @ 63 @ 
+block  @ 40 @ block  @ 52 @ 
+name: storage  @ 37 @ name: storage  @ 46 @ 
+expr  @ 15 @ expr  @ 15 @ 
+operator: .  @ 48 @ operator: .  @ 60 @ 
+name: mastergamma  @ 18 @ name: mastergamma  @ 18 @ 
+argument_list  @ 28 @ argument_list  @ 28 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 23 @ 
+index  @ 15 @ index  @ 15 @ 
+expr  @ 23 @ expr  @ 23 @ 
+if_stmt  @ 18 @ if_stmt  @ 18 @ 
+operator: *  @ 37 @ operator: *  @ 47 @ 
+name  @ 48 @ name  @ 60 @ 
+expr  @ 10 @ expr  @ 10 @ 
+comment: /* Calculate the needed memory */  @ 30 @ comment: /* Calculate the needed memory */  @ 30 @ 
+call  @ 23 @ call  @ 23 @ 
+name: do_black_correction  @ 28 @ name: do_black_correction  @ 28 @ 
+expr_stmt  @ 37 @ expr_stmt  @ 46 @ 
+operator: )  @ 61 @ operator: )  @ 75 @ 
+expr  @ 22 @ expr  @ 22 @ 
+expr_stmt  @ 28 @ expr_stmt  @ 28 @ 
+call  @ 15 @ call  @ 15 @ 
+expr  @ 57 @ expr  @ 70 @ 
+argument  @ 37 @ argument  @ 47 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+name: cdj970_one_time_initialisation  @ 11 @ name: cdj970_one_time_initialisation  @ 11 @ 
+name: Gamma  @ 15 @ name: Gamma  @ 15 @ 
+comment: /* prepare the black correction table for the unbunt mask */  @ 27 @ comment: /* prepare the black correction table for the unbunt mask */  @ 27 @ 
+type  @ 2 @ type  @ 2 @ 
+name: storage  @ 57 @ name: storage  @ 70 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 70 @ 
+call  @ 41 @ call  @ 53 @ 
+comment: /* and allocate the memory */  @ 33 @ comment: /* and allocate the memory */  @ 33 @ 
+decl  @ 2 @ decl  @ 2 @ 
+type  @ 2 @ type  @ 2 @ 
+expr  @ 45 @ expr  @ 57 @ 
+name: mastergamma  @ 23 @ name: mastergamma  @ 23 @ 
+call  @ 20 @ call  @ 20 @ 
+decl  @ 4 @ decl  @ 4 @ 
+expr_stmt  @ 45 @ expr_stmt  @ 57 @ 
+literal: 0  @ 61 @ literal: 0  @ 75 @ 
+name: gamma  @ 24 @ name: gamma  @ 24 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+name  @ 54 @ name  @ 67 @ 
+expr  @ 15 @ expr  @ 15 @ 
+name: start_raster_mode  @ 48 @ name: start_raster_mode  @ 60 @ 
+name: misc_vars  @ 57 @ name: misc_vars  @ 71 @ 
+name: gamma  @ 28 @ name: gamma  @ 28 @ 
+expr  @ 37 @ expr  @ 49 @ 
+name: gamma  @ 22 @ name: gamma  @ 22 @ 
+operator: ++  @ 59 @ operator: ++  @ 73 @ 
+operator: ->  @ 18 @ operator: ->  @ 18 @ 
+operator: ->  @ 57 @ operator: ->  @ 70 @ 
+operator: &  @ 51 @ operator: &  @ 63 @ 
+name: cdj970  @ 24 @ name: cdj970  @ 24 @ 
+argument  @ 28 @ argument  @ 28 @ 
+expr_stmt  @ 51 @ expr_stmt  @ 63 @ 
+comment: /* prepare the color lookup table */  @ 21 @ comment: /* prepare the color lookup table */  @ 21 @ 
+expr  @ 23 @ expr  @ 23 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: gamma  @ 20 @ name: gamma  @ 20 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+comment: /* Start Raster mode */  @ 47 @ comment: /* Start Raster mode */  @ 59 @ 
+name: cdj970  @ 22 @ name: cdj970  @ 22 @ 
+argument  @ 57 @ argument  @ 71 @ 
+argument  @ 15 @ argument  @ 15 @ 
+call  @ 48 @ call  @ 60 @ 
+name: misc_vars  @ 37 @ name: misc_vars  @ 48 @ 
+expr_stmt  @ 48 @ expr_stmt  @ 60 @ 
+expr  @ 45 @ expr  @ 57 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+expr  @ 51 @ expr  @ 63 @ 
+decl_stmt  @ 8 @ decl_stmt  @ 8 @ 
+operator: &  @ 45 @ operator: &  @ 57 @ 
+block_content  @ 11 @ block_content  @ 11 @ 
+modifier: *  @ 48 @ modifier: *  @ 60 @ 
+name: cdj970  @ 10 @ name: cdj970  @ 10 @ 
+argument  @ 31 @ argument  @ 31 @ 
+operator: ->  @ 15 @ operator: ->  @ 15 @ 
+argument  @ 20 @ argument  @ 20 @ 
+name  @ 24 @ name  @ 24 @ 
+expr  @ 24 @ expr  @ 24 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 31 @ 
+expr_stmt  @ 54 @ expr_stmt  @ 67 @ 
+operator: ->  @ 37 @ operator: ->  @ 47 @ 
+block_content  @ 41 @ block_content  @ 53 @ 
+argument  @ 54 @ argument  @ 67 @ 
+name: do_gamma  @ 22 @ name: do_gamma  @ 22 @ 
+name: W  @ 57 @ name: W  @ 71 @ 
+operator: *  @ 57 @ operator: *  @ 70 @ 
+name  @ 4 @ name  @ 4 @ 
+name: cdj970  @ 20 @ name: cdj970  @ 20 @ 
+argument_list  @ 22 @ argument_list  @ 22 @ 
+argument  @ 57 @ argument  @ 71 @ 
+argument  @ 51 @ argument  @ 63 @ 
+call  @ 37 @ call  @ 47 @ 
+argument  @ 48 @ argument  @ 60 @ 
+expr_stmt  @ 24 @ expr_stmt  @ 24 @ 
+operator: .  @ 37 @ operator: .  @ 48 @ 
+expr  @ 15 @ expr  @ 15 @ 
+decl  @ 2 @ decl  @ 2 @ 
+name: mastergamma  @ 24 @ name: mastergamma  @ 24 @ 
+name: gamma  @ 8 @ name: gamma  @ 8 @ 
+name: pdev  @ 54 @ name: pdev  @ 67 @ 
+comment: /* prepare the bw lookup table */  @ 19 @ comment: /* prepare the bw lookup table */  @ 19 @ 
+operator: ->  @ 24 @ operator: ->  @ 24 @ 
+name: pdev  @ 57 @ name: pdev  @ 70 @ 
+name  @ 23 @ name  @ 23 @ 
+argument_list  @ 31 @ argument_list  @ 31 @ 
+decl  @ 6 @ decl  @ 6 @ 
+argument  @ 20 @ argument  @ 20 @ 
+call  @ 45 @ call  @ 57 @ 
+name: correct  @ 28 @ name: correct  @ 28 @ 
+expr  @ 15 @ expr  @ 15 @ 
+name: memory  @ 37 @ name: memory  @ 47 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+name  @ 5 @ name  @ 5 @ 
+name  @ 22 @ name  @ 22 @ 
+argument_list  @ 23 @ argument_list  @ 23 @ 
+operator: (  @ 57 @ operator: (  @ 70 @ 
+name: data_ptrs  @ 51 @ name: data_ptrs  @ 63 @ 
+name  @ 59 @ name  @ 73 @ 
+expr  @ 61 @ expr  @ 75 @ 
+name: prn_stream  @ 48 @ name: prn_stream  @ 60 @ 
+expr  @ 40 @ expr  @ 52 @ 
+operator: ->  @ 23 @ operator: ->  @ 23 @ 
+expr  @ 28 @ expr  @ 28 @ 
+if_stmt  @ 40 @ if_stmt  @ 52 @ 
+argument  @ 37 @ argument  @ 49 @ 
+name: gamma  @ 51 @ name: gamma  @ 63 @ 
+expr  @ 37 @ expr  @ 48 @ 
+name  @ 10 @ name  @ 10 @ 
+expr  @ 57 @ expr  @ 71 @ 
+comment: /* Send each scan line in turn */  @ 50 @ comment: /* Send each scan line in turn */  @ 62 @ 
+expr_stmt  @ 15 @ expr_stmt  @ 15 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: storage_size_words  @ 37 @ name: storage_size_words  @ 48 @ 
+name: cdj970  @ 54 @ name: cdj970  @ 67 @ 
+name: prn_stream  @ 54 @ name: prn_stream  @ 67 @ 
+name: data_ptrs  @ 45 @ name: data_ptrs  @ 57 @ 
+call  @ 51 @ call  @ 63 @ 
+condition  @ 10 @ condition  @ 10 @ 
+name  @ 24 @ name  @ 24 @ 
+expr  @ 59 @ expr  @ 73 @ 
+name  @ 37 @ name  @ 48 @ 
+argument  @ 48 @ argument  @ 60 @ 
+operator: )  @ 37 @ operator: )  @ 47 @ 
+name: pdev  @ 2 @ name: pdev  @ 2 @ 
+name: cdj970  @ 22 @ name: cdj970  @ 22 @ 
+name: storage_size_words  @ 57 @ name: storage_size_words  @ 71 @ 
+name: DJ970C  @ 10 @ name: DJ970C  @ 10 @ 
+argument  @ 24 @ argument  @ 24 @ 
+operator: ->  @ 24 @ operator: ->  @ 24 @ 
+name: error_val_field  @ 4 @ name: error_val_field  @ 4 @ 
+name: struct  @ 4 @ name: struct  @ 4 @ 
+expr  @ 41 @ expr  @ 53 @ 
+operator: ->  @ 22 @ operator: ->  @ 22 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name: do_gamma  @ 23 @ name: do_gamma  @ 23 @ 
+expr  @ 54 @ expr  @ 67 @ 
+name: mastergamma  @ 20 @ name: mastergamma  @ 20 @ 
+expr  @ 37 @ expr  @ 46 @ 
+call  @ 24 @ call  @ 24 @ 
+literal: "hp970_print_page"  @ 57 @ literal: "hp970_print_page"  @ 71 @ 
+name: char  @ 57 @ name: char  @ 70 @ 
+comment: /* Since we need 600 and 300 dpi, we set up several buffers: storage contains the data as copied from gs, as well as the plane-data and the out_row buffer. storagec will contain the rescaled color data. It also contains the plane_data for the color-planes - these are needed by the compression routine, but would be overwritten by the b/w-dithering. The color planes allow for overwriting the color-data by the error-data. Since we might use the 2bpp feature of the hp970 someday, it is sized like storage. storagee contains the errors from b/w fs-ditherng */  @ 35 @ comment: /* Since we need 600 and 300 dpi, we set up several buffers:
+       storage contains the data as copied from gs, as well as theplane-data and the out_row buffer.
+       storagec will contain the rescaled color data. It also contains theplane_data for the color-planes - these are needed by the
+       compression routine, but would be overwritten by theb/w-dithering. The color planes allow for overwriting the
+       color-data by the error-data. Since we might use the2bpp feature of the hp970 someday, it is sized like storage.
+       storagee contains the errors from b/w fs-ditherng */  @ 35 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 22 @ 
+name  @ 57 @ name  @ 71 @ 
+comment: /* if we can't allocate working area */  @ 39 @ comment: /* if we can't allocate working area */  @ 51 @ 
+name: error_values  @ 51 @ name: error_values  @ 63 @ 
+name: init_data_structure  @ 45 @ name: init_data_structure  @ 57 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 48 @ expr  @ 60 @ 
+name: cdj970  @ 23 @ name: cdj970  @ 23 @ 
+expr  @ 51 @ expr  @ 64 @ 
+argument  @ 22 @ argument  @ 22 @ 
+name  @ 22 @ name  @ 22 @ 
+argument  @ 22 @ argument  @ 22 @ 
+operator: .  @ 23 @ operator: .  @ 23 @ 
+expr  @ 28 @ expr  @ 28 @ 
+argument  @ 15 @ argument  @ 15 @ 
+name  @ 23 @ name  @ 23 @ 
+modifier: *  @ 54 @ modifier: *  @ 67 @ 
+name  @ 20 @ name  @ 20 @ 
+name: ulong  @ 37 @ name: ulong  @ 47 @ 
+name: pdev  @ 51 @ name: pdev  @ 63 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: &  @ 45 @ operator: &  @ 57 @ 
+name: cdj970_print_page  @ 2 @ name: cdj970_print_page  @ 2 @ 
+name  @ 28 @ name  @ 28 @ 
+operator: =  @ 37 @ operator: =  @ 46 @ 
+name: terminate_page  @ 54 @ name: terminate_page  @ 67 @ 
+if  @ 10 @ if  @ 10 @ 
+name: cdj970  @ 28 @ name: cdj970  @ 28 @ 
+argument  @ 23 @ argument  @ 23 @ 
+operator: &&  @ 10 @ operator: &&  @ 10 @ 
+name: error_values  @ 4 @ name: error_values  @ 4 @ 
+call  @ 31 @ call  @ 31 @ 
+unit  @ 1 @ unit  @ 1 @ 
+name: gammat  @ 15 @ name: gammat  @ 15 @ 
+operator: ==  @ 10 @ operator: ==  @ 10 @ 
+operator: ->  @ 10 @ operator: ->  @ 10 @ 
+operator: ==  @ 10 @ operator: ==  @ 10 @ 
+operator: .  @ 57 @ operator: .  @ 70 @ 
+argument  @ 24 @ argument  @ 24 @ 
+operator: .  @ 37 @ operator: .  @ 46 @ 
+operator: &  @ 51 @ operator: &  @ 63 @ 
+name  @ 37 @ name  @ 47 @ 
+expr  @ 45 @ expr  @ 57 @ 
+name: mastergamma  @ 22 @ name: mastergamma  @ 22 @ 
+argument_list  @ 24 @ argument_list  @ 24 @ 
+expr  @ 48 @ expr  @ 60 @ 
+name: data_ptrs  @ 37 @ name: data_ptrs  @ 46 @ 
+type  @ 8 @ type  @ 8 @ 
+argument_list  @ 41 @ argument_list  @ 53 @ 
+argument_list  @ 57 @ argument_list  @ 70 @ 
+expr  @ 48 @ expr  @ 60 @ 
+name: ptype  @ 10 @ name: ptype  @ 10 @ 
+name: struct  @ 6 @ name: struct  @ 6 @ 
+operator: (  @ 61 @ operator: (  @ 75 @ 
+argument  @ 15 @ argument  @ 15 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+name: gammavaly  @ 24 @ name: gammavaly  @ 24 @ 
+name: gammavalc  @ 22 @ name: gammavalc  @ 22 @ 
+expr  @ 18 @ expr  @ 18 @ 
+name: PageCtr  @ 59 @ name: PageCtr  @ 73 @ 
+name  @ 6 @ name  @ 6 @ 
+name: cdj970  @ 23 @ name: cdj970  @ 23 @ 
+expr  @ 20 @ expr  @ 20 @ 
+name: misc_vars  @ 48 @ name: misc_vars  @ 60 @ 
+name: cdj970  @ 59 @ name: cdj970  @ 73 @ 
+name: misc_vars  @ 31 @ name: misc_vars  @ 31 @ 
+argument  @ 51 @ argument  @ 63 @ 
+operator: ==  @ 40 @ operator: ==  @ 52 @ 
+literal: 0  @ 40 @ literal: 0  @ 52 @ 
+name: k  @ 20 @ name: k  @ 20 @ 
+name: misc_vars  @ 51 @ name: misc_vars  @ 63 @ 
+expr  @ 15 @ expr  @ 15 @ 
+function  @ 1 @ function  @ 1 @ 
+operator: &  @ 15 @ operator: &  @ 15 @ 
+argument  @ 57 @ argument  @ 70 @ 
+operator: &  @ 51 @ operator: &  @ 63 @ 
+name: gammavalm  @ 23 @ name: gammavalm  @ 23 @ 
+name: c  @ 22 @ name: c  @ 22 @ 
+name: non_gc_memory  @ 57 @ name: non_gc_memory  @ 70 @ 
+name: cdj970  @ 48 @ name: cdj970  @ 60 @ 
+argument  @ 45 @ argument  @ 57 @ 
+name  @ 28 @ name  @ 28 @ 
+name  @ 20 @ name  @ 20 @ 
+name: data_ptrs  @ 40 @ name: data_ptrs  @ 52 @ 
+name: data_ptrs  @ 5 @ name: data_ptrs  @ 5 @ 
+type  @ 6 @ type  @ 6 @ 
+name  @ 57 @ name  @ 70 @ 
+argument_list  @ 45 @ argument_list  @ 57 @ 
+expr  @ 28 @ expr  @ 28 @ 
+argument  @ 31 @ argument  @ 31 @ 
+argument_list  @ 54 @ argument_list  @ 67 @ 
+name: cdj970  @ 15 @ name: cdj970  @ 15 @ 
+expr  @ 51 @ expr  @ 63 @ 
+call  @ 22 @ call  @ 22 @ 
+name: calculate_memory_size  @ 31 @ name: calculate_memory_size  @ 31 @ 
+expr  @ 51 @ expr  @ 63 @ 
+block  @ 10 @ block  @ 10 @ 
+argument  @ 37 @ argument  @ 48 @ 
+literal: "cdj970_print_page"  @ 37 @ literal: "cdj970_print_page"  @ 49 @ 
+name: pdev  @ 31 @ name: pdev  @ 31 @ 
+expr_stmt  @ 11 @ expr_stmt  @ 11 @ 
+name: paper_size  @ 48 @ name: paper_size  @ 60 @ 
+

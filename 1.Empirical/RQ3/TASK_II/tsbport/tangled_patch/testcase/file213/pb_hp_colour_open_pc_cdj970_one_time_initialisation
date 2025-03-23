@@ -1,0 +1,265 @@
+name: cdj970  @ 22 @ name: cdj970  @ 18 @ 
+operator: .  @ 42 @ operator: )  @ 37 @ 
+operator: (  @ 20 @ operator: (  @ 16 @ 
+expr  @ 25 @ expr  @ 21 @ 
+argument  @ 20 @ argument  @ 16 @ 
+name: pdev  @ 36 @ name: pdev  @ 32 @ 
+unit  @ 1 @ unit  @ 1 @ 
+expr  @ 42 @ expr  @ 37 @ 
+argument  @ 38 @ argument  @ 35 @ 
+operator: *  @ 25 @ operator: *  @ 21 @ 
+call  @ 36 @ call  @ 32 @ 
+literal: 600.0  @ 25 @ literal: 600.0  @ 21 @ 
+name: true  @ 38 @ name: true  @ 35 @ 
+expr  @ 20 @ expr  @ 16 @ 
+expr  @ 30 @ expr  @ 26 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 17 @ 
+name: intensities  @ 23 @ name: intensities  @ 19 @ 
+name: cdj_set_bpp  @ 42 @ name: cdj970_write_header  @ 37 @ 
+name: pdev  @ 2 @ name: pdev  @ 2 @ 
+expr_stmt  @ 25 @ expr_stmt  @ 21 @ 
+expr  @ 42 @ expr  @ 37 @ 
+expr  @ 20 @ expr  @ 16 @ 
+expr  @ 7 @ expr  @ 5 @ 
+name  @ 22 @ name  @ 18 @ 
+name: cdj970  @ 23 @ name: cdj970  @ 19 @ 
+modifier: *  @ 14 @ modifier: *  @ 12 @ 
+expr  @ 11 @ expr  @ 9 @ 
+operator: ->  @ 42 @ operator: ->  @ 37 @ 
+name  @ 24 @ name  @ 20 @ 
+argument  @ 30 @ argument  @ 26 @ 
+name: cdj970  @ 31 @ name: cdj970  @ 27 @ 
+expr  @ 21 @ expr  @ 17 @ 
+name  @ 11 @ name  @ 9 @ 
+call  @ 20 @ call  @ 16 @ 
+operator: =  @ 22 @ operator: =  @ 18 @ 
+name: cdj970  @ 26 @ name: cdj970  @ 22 @ 
+name: pdev  @ 30 @ name: pdev  @ 26 @ 
+literal: 4  @ 7 @ literal: 4  @ 5 @ 
+argument  @ 36 @ argument  @ 32 @ 
+name: float  @ 11 @ name: float  @ 9 @ 
+expr  @ 38 @ expr  @ 35 @ 
+call  @ 25 @ call  @ 21 @ 
+specifier: static  @ 7 @ specifier: static  @ 5 @ 
+operator: =  @ 26 @ operator: =  @ 22 @ 
+expr  @ 38 @ expr  @ 35 @ 
+literal: 0  @ 14 @ literal: 0  @ 12 @ 
+argument  @ 20 @ argument  @ 16 @ 
+name: DESKJET_MARGINS_LETTER  @ 12 @ name: DESKJET_MARGINS_LETTER  @ 10 @ 
+ternary  @ 36 @ ternary  @ 32 @ 
+if  @ 19 @ if  @ 15 @ 
+expr  @ 38 @ expr  @ 35 @ 
+name: gx_device_set_resolution  @ 30 @ name: gx_device_set_resolution  @ 26 @ 
+operator: *  @ 30 @ operator: *  @ 26 @ 
+index  @ 7 @ index  @ 5 @ 
+operator: *  @ 38 @ operator: *  @ 35 @ 
+name: float  @ 14 @ name: float  @ 12 @ 
+name: yscal  @ 22 @ name: yscal  @ 18 @ 
+name: pdev  @ 38 @ name: pdev  @ 35 @ 
+name: color_info  @ 42 @ name: file  @ 37 @ 
+operator: )  @ 25 @ operator: )  @ 21 @ 
+expr  @ 36 @ expr  @ 32 @ 
+literal: 600.0  @ 30 @ literal: 600.0  @ 26 @ 
+argument_list  @ 36 @ argument_list  @ 32 @ 
+specifier: const  @ 11 @ specifier: const  @ 9 @ 
+literal: 0  @ 31 @ literal: 0  @ 27 @ 
+expr  @ 25 @ expr  @ 21 @ 
+condition  @ 19 @ condition  @ 15 @ 
+name: pdev  @ 25 @ name: pdev  @ 21 @ 
+expr  @ 11 @ expr  @ 9 @ 
+literal: 1  @ 26 @ literal: 1  @ 22 @ 
+operator: *  @ 20 @ operator: *  @ 16 @ 
+expr  @ 30 @ expr  @ 26 @ 
+init  @ 14 @ init  @ 12 @ 
+call  @ 42 @ call  @ 37 @ 
+name: cdj970  @ 24 @ name: cdj970  @ 20 @ 
+name  @ 7 @ name  @ 5 @ 
+name  @ 42 @ name  @ 37 @ 
+expr  @ 24 @ expr  @ 20 @ 
+block  @ 29 @ block  @ 25 @ 
+index  @ 11 @ index  @ 9 @ 
+name: dj_letter  @ 36 @ name: dj_letter  @ 33 @ 
+block  @ 24 @ block  @ 20 @ 
+operator: )  @ 36 @ operator: )  @ 33 @ 
+name  @ 32 @ name  @ 28 @ 
+argument_list  @ 42 @ argument_list  @ 37 @ 
+argument_list  @ 38 @ argument_list  @ 35 @ 
+literal: 600.0  @ 30 @ literal: 600.0  @ 26 @ 
+expr  @ 22 @ expr  @ 18 @ 
+operator: (  @ 36 @ operator: (  @ 32 @ 
+argument  @ 25 @ argument  @ 21 @ 
+name: m  @ 14 @ name: m  @ 12 @ 
+expr  @ 30 @ expr  @ 26 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 18 @ 
+name: gx_device  @ 25 @ name: gx_device  @ 21 @ 
+call  @ 30 @ call  @ 26 @ 
+name: xscal  @ 21 @ name: xscal  @ 17 @ 
+operator: ->  @ 22 @ operator: ->  @ 18 @ 
+type  @ 2 @ type  @ 2 @ 
+name: gx_device  @ 20 @ name: gx_device  @ 16 @ 
+expr_stmt  @ 32 @ expr_stmt  @ 28 @ 
+name: gx_device  @ 30 @ name: gx_device  @ 26 @ 
+argument  @ 42 @ argument  @ 37 @ 
+name: pdev  @ 20 @ name: pdev  @ 16 @ 
+name: yscal  @ 32 @ name: yscal  @ 28 @ 
+operator: =  @ 27 @ operator: =  @ 23 @ 
+literal: 0  @ 21 @ literal: 0  @ 17 @ 
+literal: 0  @ 22 @ literal: 0  @ 18 @ 
+name: xscal  @ 26 @ name: xscal  @ 22 @ 
+operator: (  @ 36 @ operator: (  @ 32 @ 
+expr_stmt  @ 31 @ expr_stmt  @ 27 @ 
+argument  @ 42 @ argument  @ 37 @ 
+name: cdj970  @ 19 @ name: cdj970  @ 15 @ 
+call  @ 38 @ call  @ 35 @ 
+operator: ->  @ 32 @ operator: ->  @ 28 @ 
+operator: =  @ 36 @ operator: =  @ 32 @ 
+argument  @ 25 @ argument  @ 21 @ 
+name: pdev  @ 42 @ name: pdev  @ 37 @ 
+expr_stmt  @ 36 @ expr_stmt  @ 32 @ 
+name  @ 23 @ name  @ 19 @ 
+operator: =  @ 32 @ operator: =  @ 28 @ 
+expr_stmt  @ 27 @ expr_stmt  @ 23 @ 
+name  @ 21 @ name  @ 17 @ 
+operator: )  @ 38 @ operator: )  @ 35 @ 
+argument  @ 38 @ argument  @ 35 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 5 @ 
+comment: /* Change the margins if necessary. */  @ 6 @ comment: /* Change the margins if necessary. */  @ 4 @ 
+name: gdev_pcl_paper_size  @ 36 @ name: gdev_pcl_paper_size  @ 32 @ 
+name: depth  @ 42 @ name: pdev  @ 37 @ 
+expr_stmt  @ 26 @ expr_stmt  @ 22 @ 
+expr  @ 27 @ expr  @ 23 @ 
+argument  @ 30 @ argument  @ 26 @ 
+operator: ->  @ 21 @ operator: ->  @ 17 @ 
+decl  @ 11 @ decl  @ 9 @ 
+decl_stmt  @ 11 @ decl_stmt  @ 9 @ 
+expr  @ 25 @ expr  @ 21 @ 
+argument_list  @ 30 @ argument_list  @ 26 @ 
+name: float  @ 14 @ name: float  @ 12 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+operator: ->  @ 19 @ operator: ->  @ 15 @ 
+expr_stmt  @ 20 @ expr_stmt  @ 16 @ 
+operator: *  @ 36 @ operator: *  @ 32 @ 
+block  @ 11 @ block  @ 9 @ 
+expr  @ 31 @ expr  @ 27 @ 
+name: cdj970  @ 32 @ name: cdj970  @ 28 @ 
+operator: =  @ 31 @ operator: =  @ 27 @ 
+decl  @ 7 @ decl  @ 5 @ 
+literal: 2  @ 23 @ literal: 2  @ 19 @ 
+name: dj_a4  @ 36 @ name: dj_a4  @ 33 @ 
+condition  @ 36 @ condition  @ 32 @ 
+else  @ 29 @ else  @ 25 @ 
+operator: )  @ 20 @ operator: )  @ 16 @ 
+expr  @ 36 @ expr  @ 32 @ 
+literal: 300.0  @ 20 @ literal: 300.0  @ 16 @ 
+expr  @ 7 @ expr  @ 5 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 19 @ 
+name: dj_letter  @ 11 @ name: dj_letter  @ 9 @ 
+operator: ->  @ 24 @ operator: ->  @ 20 @ 
+decl_stmt  @ 14 @ decl_stmt  @ 12 @ 
+comment: /* intensities = 4 from initialization */  @ 28 @ comment: /* intensities = 4 from initialization */  @ 24 @ 
+name: m  @ 36 @ name: m  @ 32 @ 
+expr  @ 30 @ expr  @ 26 @ 
+expr  @ 14 @ expr  @ 12 @ 
+block_content  @ 25 @ block_content  @ 21 @ 
+operator: =  @ 21 @ operator: =  @ 17 @ 
+operator: ->  @ 42 @ operator: *  @ 37 @ 
+expr  @ 12 @ expr  @ 10 @ 
+block_content  @ 30 @ block_content  @ 26 @ 
+name: gx_device_set_margins  @ 38 @ name: gx_device_set_margins  @ 35 @ 
+name  @ 19 @ name  @ 15 @ 
+expr  @ 36 @ expr  @ 32 @ 
+expr  @ 36 @ expr  @ 33 @ 
+expr  @ 25 @ expr  @ 21 @ 
+argument  @ 20 @ argument  @ 16 @ 
+block_content  @ 20 @ block_content  @ 16 @ 
+literal: 4  @ 11 @ literal: 4  @ 9 @ 
+type  @ 1 @ type  @ 1 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+block_content  @ 4 @ block_content  @ 5 @ 
+name: xscal  @ 31 @ name: xscal  @ 27 @ 
+else  @ 36 @ else  @ 33 @ 
+operator: ==  @ 19 @ operator: ==  @ 15 @ 
+name: quality  @ 19 @ name: quality  @ 15 @ 
+literal: 600.0  @ 25 @ literal: 600.0  @ 21 @ 
+operator: =  @ 23 @ operator: =  @ 19 @ 
+name: int  @ 1 @ name: void  @ 1 @ 
+argument  @ 30 @ argument  @ 26 @ 
+name: cdj970  @ 21 @ name: cdj970  @ 17 @ 
+specifier: static  @ 11 @ specifier: static  @ 9 @ 
+operator: ->  @ 27 @ operator: ->  @ 23 @ 
+argument_list  @ 20 @ argument_list  @ 16 @ 
+function  @ 1 @ function  @ 1 @ 
+name: gx_device_set_resolution  @ 20 @ name: gx_device_set_resolution  @ 16 @ 
+operator: (  @ 14 @ operator: (  @ 12 @ 
+expr  @ 19 @ expr  @ 15 @ 
+name: DESKJET_MARGINS_A4  @ 8 @ name: DESKJET_MARGINS_A4  @ 6 @ 
+operator: ==  @ 36 @ operator: ==  @ 32 @ 
+expr  @ 23 @ expr  @ 19 @ 
+literal: 1  @ 27 @ literal: 1  @ 23 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+name: gx_device  @ 36 @ name: gx_device  @ 32 @ 
+expr  @ 20 @ expr  @ 16 @ 
+name: NORMAL  @ 24 @ name: NORMAL  @ 20 @ 
+expr  @ 20 @ expr  @ 16 @ 
+operator: (  @ 38 @ operator: (  @ 35 @ 
+name: gx_device  @ 2 @ name: gx_device_printer  @ 2 @ 
+comment: /* intensities = 4 from initialization */  @ 33 @ comment: /* intensities = 4 from initialization */  @ 29 @ 
+name  @ 27 @ name  @ 23 @ 
+argument  @ 38 @ argument  @ 35 @ 
+name: gx_device_set_resolution  @ 25 @ name: gx_device_set_resolution  @ 21 @ 
+operator: ->  @ 31 @ operator: ->  @ 27 @ 
+if_stmt  @ 19 @ if_stmt  @ 15 @ 
+name: hp_colour_open  @ 2 @ name: cdj970_one_time_initialisation  @ 2 @ 
+init  @ 11 @ init  @ 9 @ 
+operator: (  @ 25 @ operator: (  @ 21 @ 
+then  @ 36 @ then  @ 33 @ 
+literal: 300.0  @ 20 @ literal: 300.0  @ 16 @ 
+name  @ 31 @ name  @ 27 @ 
+block  @ 7 @ block  @ 5 @ 
+name: gx_device  @ 38 @ name: gx_device  @ 35 @ 
+specifier: const  @ 14 @ specifier: const  @ 12 @ 
+operator: ->  @ 23 @ operator: ->  @ 19 @ 
+expr  @ 26 @ expr  @ 22 @ 
+operator: *  @ 14 @ operator: *  @ 12 @ 
+argument  @ 25 @ argument  @ 21 @ 
+operator: )  @ 14 @ operator: )  @ 12 @ 
+if  @ 24 @ if  @ 20 @ 
+type  @ 14 @ type  @ 12 @ 
+block  @ 19 @ block  @ 15 @ 
+argument_list  @ 25 @ argument_list  @ 21 @ 
+expr  @ 32 @ expr  @ 28 @ 
+operator: ==  @ 24 @ operator: ==  @ 20 @ 
+specifier: const  @ 7 @ specifier: const  @ 5 @ 
+literal: 0  @ 32 @ literal: 0  @ 28 @ 
+decl  @ 14 @ decl  @ 12 @ 
+comment: /* quality == PRESENTATION */  @ 29 @ comment: /* quality == PRESENTATION */  @ 25 @ 
+expr  @ 42 @ expr  @ 37 @ 
+block  @ 3 @ block  @ 3 @ 
+name: yscal  @ 27 @ name: yscal  @ 23 @ 
+type  @ 7 @ type  @ 5 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+name  @ 26 @ name  @ 22 @ 
+name: cdj970  @ 27 @ name: cdj970  @ 23 @ 
+name: dj_a4  @ 7 @ name: dj_a4  @ 5 @ 
+expr  @ 38 @ expr  @ 35 @ 
+name: PAPER_SIZE_A4  @ 36 @ name: PAPER_SIZE_A4  @ 33 @ 
+name: float  @ 7 @ name: float  @ 5 @ 
+name: quality  @ 24 @ name: quality  @ 20 @ 
+operator: )  @ 30 @ operator: )  @ 26 @ 
+decl  @ 2 @ decl  @ 2 @ 
+expr  @ 8 @ expr  @ 6 @ 
+name: m  @ 38 @ name: m  @ 35 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 37 @ 
+expr_stmt  @ 30 @ expr_stmt  @ 26 @ 
+operator: (  @ 30 @ operator: (  @ 26 @ 
+init  @ 7 @ init  @ 5 @ 
+expr  @ 36 @ expr  @ 33 @ 
+expr_stmt  @ 38 @ expr_stmt  @ 35 @ 
+condition  @ 24 @ condition  @ 20 @ 
+operator: ->  @ 26 @ operator: ->  @ 22 @ 
+comment: /* quality setup */  @ 18 @ comment: /* quality setup */  @ 14 @ 
+name: pdev  @ 42 @ name: gx_device  @ 37 @ 
+name: DRAFT  @ 19 @ name: DRAFT  @ 15 @ 
+operator: )  @ 36 @ operator: )  @ 32 @ 
+type  @ 11 @ type  @ 9 @ 
+

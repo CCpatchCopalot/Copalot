@@ -1,0 +1,64 @@
+name: FREE_IF  @ 13 @ name: FIELD_TV  @ 12 @ 
+include  @ 9 @ include  @ 9 @ 
+modifier: *  @ 6 @ modifier: *  @ 6 @ 
+name: NULL  @ 5 @ name: NULL  @ 5 @ 
+operator: ->  @ 4 @ operator: ->  @ 4 @ 
+name: Dwg_Header_Variables  @ 4 @ name: Dwg_Header_Variables  @ 4 @ 
+expr  @ 5 @ expr  @ 5 @ 
+expr  @ 13 @ expr  @ 12 @ 
+function  @ 1 @ function  @ 1 @ 
+expr_stmt  @ 13 @ expr_stmt  @ 12 @ 
+expr  @ 4 @ expr  @ 4 @ 
+modifier: *  @ 4 @ modifier: *  @ 4 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+decl_stmt  @ 6 @ decl_stmt  @ 6 @ 
+name: header_vars  @ 4 @ name: header_vars  @ 4 @ 
+type  @ 2 @ type  @ 2 @ 
+decl_stmt  @ 5 @ decl_stmt  @ 5 @ 
+name: dwg  @ 4 @ name: dwg  @ 4 @ 
+type  @ 6 @ type  @ 6 @ 
+name: _obj  @ 13 @ name: DWGCODEPAGE  @ 12 @ 
+name: Dwg_Data  @ 2 @ name: Dwg_Data  @ 2 @ 
+decl  @ 5 @ decl  @ 5 @ 
+expr  @ 13 @ expr  @ 12 @ 
+decl  @ 6 @ decl  @ 6 @ 
+decl  @ 4 @ decl  @ 4 @ 
+init  @ 4 @ init  @ 4 @ 
+block_content  @ 4 @ block_content  @ 4 @ 
+name: obj  @ 5 @ name: obj  @ 5 @ 
+comment: // clang-format on  @ 10 @ comment: // clang-format on  @ 10 @ 
+literal: 0  @ 14 @ literal: 0  @ 13 @ 
+name  @ 4 @ name  @ 4 @ 
+expr  @ 6 @ expr  @ 6 @ 
+argument_list  @ 13 @ argument_list  @ 12 @ 
+modifier: *  @ 5 @ modifier: *  @ 5 @ 
+unit  @ 1 @ unit  @ 1 @ 
+operator: &  @ 6 @ operator: &  @ 6 @ 
+type  @ 4 @ type  @ 4 @ 
+name: _obj  @ 4 @ name: _obj  @ 4 @ 
+name: dat  @ 6 @ name: dat  @ 6 @ 
+parameter_list  @ 2 @ parameter_list  @ 2 @ 
+init  @ 6 @ init  @ 6 @ 
+name: int  @ 1 @ name: int  @ 1 @ 
+comment: // clang-format off  @ 8 @ comment: // clang-format off  @ 8 @ 
+type  @ 1 @ type  @ 1 @ 
+call  @ 13 @ call  @ 12 @ 
+name: Bit_Chain  @ 6 @ name: Bit_Chain  @ 6 @ 
+file: "header_variables.spec"  @ 9 @ file: "header_variables.spec"  @ 9 @ 
+modifier: *  @ 2 @ modifier: *  @ 2 @ 
+type  @ 5 @ type  @ 5 @ 
+init  @ 5 @ init  @ 5 @ 
+name: dwg  @ 2 @ name: dwg  @ 2 @ 
+name: pdat  @ 6 @ name: pdat  @ 6 @ 
+name: Dwg_Object  @ 5 @ name: Dwg_Object  @ 5 @ 
+parameter  @ 2 @ parameter  @ 2 @ 
+operator: &  @ 4 @ operator: &  @ 4 @ 
+return  @ 14 @ return  @ 13 @ 
+expr  @ 14 @ expr  @ 13 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 4 @ 
+name: dwg_free_header_vars  @ 2 @ name: dwg_free_header_vars  @ 2 @ 
+argument  @ 13 @ argument  @ 12 @ 
+decl  @ 2 @ decl  @ 2 @ 
+block  @ 3 @ block  @ 3 @ 
+directive: include  @ 9 @ directive: include  @ 9 @ 
+

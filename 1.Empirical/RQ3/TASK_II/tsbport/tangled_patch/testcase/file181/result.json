@@ -1,0 +1,102 @@
+{
+    "testcase": {
+        "file181": {
+            "match_message": {
+                "Same: mesalink_connect_step1 -> mesalink_connect_step1": {
+                    "Seg_0": {
+                        "Edit": "change",
+                        "L1": "7: Context line (Ignored) is empty or comment 196",
+                        "L2": "7: Context line (Ignored) is empty or comment 196"
+                    }
+                },
+                "Same: mesalink_connect_step3 -> mesalink_connect_step3": {
+                    "Seg_1": {
+                        "Edit": "add",
+                        "L1": "3: Unique Matched by Source code 269 -> 349",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 270->350"
+                    },
+                    "Seg_2": {
+                        "Edit": "change",
+                        "L1": "5: Matched by Syntax(AST) similarity 274->355",
+                        "L2": "5: Matched by Syntax(AST) similarity 274->355"
+                    },
+                    "Seg_3": {
+                        "Edit": "change",
+                        "L1": "6: Matched by Text Context Similarity from Source Code 284->366",
+                        "L2": "6: Matched by Text Context Similarity from Source Code 284->366"
+                    }
+                }
+            },
+            "verify_message": {},
+            "prepare_info": [
+                [
+                    "Seg_0",
+                    {
+                        "Edit": "change",
+                        "add_hunk": [
+                            "    if(!Curl_ssl_getsessionid(data, conn,SSL_IS_PROXY() ? TRUE : FALSE,&ssl_sessionid, NULL, sockindex)) {\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_1",
+                    {
+                        "Edit": "add",
+                        "add_location": 349,
+                        "add_hunk": [
+                            "    bool isproxy = SSL_IS_PROXY() ? TRUE : FALSE;\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_2",
+                    {
+                        "Edit": "change",
+                        "add_location": 355,
+                        "add_hunk": [
+                            "!(Curl_ssl_getsessionid(conn, isproxy, &old_ssl_sessionid, NULL, sockindex));"
+                        ],
+                        "delete_location": [
+                            355,
+                            355
+                        ],
+                        "delete_hunk": [
+                            "      !(Curl_ssl_getsessionid(conn, &old_ssl_sessionid, NULL, sockindex));\n"
+                        ]
+                    }
+                ],
+                [
+                    "Seg_3",
+                    {
+                        "Edit": "change",
+                        "add_location": 366,
+                        "add_hunk": [
+                            "result =Curl_ssl_addsessionid(data, conn, isproxy, our_ssl_sessionid, 0,sockindex);"
+                        ],
+                        "delete_location": [
+                            366,
+                            366
+                        ],
+                        "delete_hunk": [
+                            "        conn, our_ssl_sessionid, 0 /* unknown size */, sockindex);\n"
+                        ]
+                    }
+                ]
+            ],
+            "semanic_check": {
+                "Same: mesalink_connect_step1 -> mesalink_connect_step1": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                },
+                "Same: mesalink_connect_step3 -> mesalink_connect_step3": {
+                    "PDG_Mapping": "PDG Mapping Failed: Cannot load pdg dot file from pb and pc"
+                }
+            },
+            "verify_patch": null,
+            "patch_types": [
+                "function_call",
+                "sanity_check",
+                "change_type"
+            ]
+        }
+    }
+}

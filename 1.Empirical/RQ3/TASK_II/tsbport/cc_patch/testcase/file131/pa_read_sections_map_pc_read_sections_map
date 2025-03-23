@@ -1,0 +1,1039 @@
+macro  @ 133 @ macro  @ 139 @ 
+name: r2007_section_page  @ 91 @ name: r2007_section_page  @ 101 @ 
+name: read_system_page  @ 9 @ name: read_system_page  @ 10 @ 
+name  @ 85 @ name  @ 94 @ 
+directive: else  @ 77 @ directive: else  @ 85 @ 
+name: i  @ 137 @ name: i  @ 145 @ 
+operator: ->  @ 141 @ operator: ->  @ 149 @ 
+condition  @ 106 @ condition  @ 118 @ 
+argument  @ 9 @ argument  @ 10 @ 
+operator: !  @ 9 @ operator: =  @ 10 @ 
+name: LOG_TRACE  @ 81 @ name: LOG_TRACE  @ 88 @ 
+argument_list  @ 94 @ argument_list  @ 105 @ 
+name: LOG_TRACE  @ 35 @ name: LOG_TRACE  @ 43 @ 
+name: calloc  @ 105 @ name: calloc  @ 117 @ 
+name: section  @ 39 @ name: section  @ 48 @ 
+expr  @ 27 @ expr  @ 33 @ 
+name: page  @ 28 @ name: ptr  @ 33 @ 
+if  @ 55 @ if  @ 66 @ 
+operator: ->  @ 136 @ operator: ->  @ 144 @ 
+name: size  @ 149 @ name: size  @ 159 @ 
+expr_stmt  @ 133 @ expr_stmt  @ 140 @ 
+type  @ 4 @ type  @ 6 @ 
+name: pages  @ 133 @ name: pages  @ 140 @ 
+name: LOG_ERROR  @ 119 @ name: LOG_ERROR  @ 131 @ 
+argument  @ 135 @ argument  @ 142 @ 
+expr  @ 143 @ expr  @ 153 @ 
+operator: ->  @ 137 @ operator: ->  @ 145 @ 
+operator: +  @ 117 @ operator: +  @ 129 @ 
+macro  @ 76 @ macro  @ 83 @ 
+comment: // skip this last section  @ 146 @ comment: // skip this last section  @ 156 @ 
+expr  @ 9 @ expr  @ 10 @ 
+literal: "\n"  @ 35 @ literal: "\n"  @ 37 @ 
+operator: =  @ 72 @ operator: =  @ 81 @ 
+name: section  @ 141 @ name: section  @ 150 @ 
+expr  @ 91 @ expr  @ 101 @ 
+name: free  @ 42 @ name: free  @ 53 @ 
+comment: // Section Name (wchar)  @ 69 @ comment: // Section Name (wchar)  @ 80 @ 
+block_content  @ 99 @ block_content  @ 110 @ 
+name: i  @ 125 @ name: i  @ 137 @ 
+expr  @ 97 @ expr  @ 108 @ 
+expr  @ 9 @ expr  @ 10 @ 
+operator: )  @ 105 @ operator: )  @ 117 @ 
+call  @ 119 @ call  @ 131 @ 
+operator: ->  @ 150 @ operator: ->  @ 160 @ 
+operator: ->  @ 81 @ operator: ->  @ 90 @ 
+name: PRIu64  @ 134 @ name: PRIu64  @ 141 @ 
+name: bit_chain_free  @ 95 @ name: free  @ 106 @ 
+name: pages  @ 137 @ name: pages  @ 145 @ 
+argument  @ 21 @ argument  @ 27 @ 
+operator: ->  @ 125 @ operator: ->  @ 137 @ 
+call  @ 95 @ call  @ 106 @ 
+name: num_pages  @ 146 @ name: num_pages  @ 156 @ 
+expr_stmt  @ 87 @ expr_stmt  @ 96 @ 
+expr_stmt  @ 23 @ expr_stmt  @ 29 @ 
+expr  @ 7 @ expr  @ 8 @ 
+argument_list  @ 41 @ argument_list  @ 52 @ 
+type  @ 7 @ type  @ 8 @ 
+name: assert  @ 149 @ name: assert  @ 159 @ 
+name  @ 39 @ name  @ 48 @ 
+name: NULL  @ 12 @ name: NULL  @ 14 @ 
+call  @ 111 @ call  @ 123 @ 
+expr_stmt  @ 41 @ expr_stmt  @ 52 @ 
+argument_list  @ 35 @ argument_list  @ 37 @ 
+argument  @ 35 @ argument  @ 41 @ 
+argument  @ 151 @ argument  @ 161 @ 
+expr  @ 100 @ expr  @ 111 @ 
+expr  @ 134 @ expr  @ 141 @ 
+expr_stmt  @ 120 @ expr_stmt  @ 133 @ 
+name: sections_destroy  @ 111 @ name: sections_destroy  @ 123 @ 
+macro  @ 35 @ macro  @ 36 @ 
+call  @ 134 @ call  @ 141 @ 
+comment: /* compressed */  @ 38 @ comment: /* compressed */  @ 47 @ 
+endif  @ 80 @ endif  @ 89 @ 
+name: bit_read_RLL  @ 125 @ name: bfr_read  @ 137 @ 
+name: sections_destroy  @ 99 @ name: sections_destroy  @ 110 @ 
+operator: ->  @ 151 @ operator: ->  @ 161 @ 
+literal: "name:"  @ 78 @ literal: "  name:          "  @ 86 @ 
+name: num_pages  @ 83 @ name: num_pages  @ 92 @ 
+block  @ 118 @ block  @ 130 @ 
+name: LOG_TRACE  @ 35 @ name: LOG_TRACE  @ 37 @ 
+name: i  @ 150 @ name: i  @ 160 @ 
+expr  @ 141 @ expr  @ 151 @ 
+comment: // skip this last section  @ 121 @ comment: // skip this last section  @ 134 @ 
+argument  @ 137 @ argument  @ 145 @ 
+argument_list  @ 95 @ argument_list  @ 106 @ 
+expr  @ 109 @ expr  @ 121 @ 
+condition  @ 55 @ condition  @ 66 @ 
+operator: ->  @ 134 @ operator: ->  @ 141 @ 
+expr  @ 119 @ expr  @ 132 @ 
+argument  @ 143 @ argument  @ 153 @ 
+modifier: *  @ 4 @ modifier: *  @ 6 @ 
+operator: &  @ 73 @ operator: &  @ 81 @ 
+return  @ 114 @ return  @ 126 @ 
+expr  @ 135 @ expr  @ 142 @ 
+condition  @ 66 @ condition  @ 77 @ 
+name: r2007_section  @ 18 @ name: r2007_section  @ 24 @ 
+operator: ->  @ 61 @ operator: ->  @ 72 @ 
+name  @ 106 @ name  @ 118 @ 
+operator: ->  @ 106 @ operator: ->  @ 118 @ 
+expr  @ 110 @ expr  @ 122 @ 
+argument_list  @ 111 @ argument_list  @ 123 @ 
+continue  @ 88 @ continue  @ 98 @ 
+expr_stmt  @ 91 @ expr_stmt  @ 101 @ 
+modifier: *  @ 1 @ modifier: *  @ 2 @ 
+operator: !  @ 55 @ operator: !  @ 66 @ 
+expr  @ 146 @ expr  @ 156 @ 
+operator: ->  @ 39 @ operator: ->  @ 50 @ 
+argument  @ 43 @ argument  @ 54 @ 
+name: i  @ 141 @ name: i  @ 149 @ 
+expr  @ 24 @ expr  @ 30 @ 
+expr_stmt  @ 119 @ expr_stmt  @ 131 @ 
+argument  @ 35 @ argument  @ 36 @ 
+operator: ->  @ 85 @ operator: ->  @ 94 @ 
+argument_list  @ 149 @ argument_list  @ 159 @ 
+expr  @ 71 @ expr  @ 81 @ 
+name: sections_destroy  @ 44 @ name: sections_destroy  @ 55 @ 
+expr_stmt  @ 149 @ expr_stmt  @ 159 @ 
+argument  @ 35 @ argument  @ 40 @ 
+expr  @ 73 @ expr  @ 81 @ 
+expr  @ 109 @ expr  @ 121 @ 
+literal: "unknown: %"  @ 35 @ literal: "  unknown:       %"  @ 41 @ 
+name  @ 103 @ name  @ 114 @ 
+expr  @ 138 @ expr  @ 146 @ 
+if  @ 85 @ if  @ 94 @ 
+expr_stmt  @ 146 @ expr_stmt  @ 156 @ 
+name  @ 35 @ name  @ 43 @ 
+name: section  @ 120 @ name: section  @ 133 @ 
+if_stmt  @ 106 @ if_stmt  @ 118 @ 
+name: PRIx64  @ 133 @ name: PRIx64  @ 140 @ 
+operator: =  @ 81 @ operator: =  @ 90 @ 
+name: section  @ 42 @ name: section  @ 53 @ 
+call  @ 22 @ call  @ 28 @ 
+argument  @ 119 @ argument  @ 132 @ 
+argument_list  @ 133 @ argument_list  @ 140 @ 
+argument  @ 78 @ argument  @ 86 @ 
+name: i  @ 136 @ name: i  @ 144 @ 
+argument_list  @ 119 @ argument_list  @ 131 @ 
+return  @ 156 @ return  @ 166 @ 
+block_content  @ 11 @ block_content  @ 13 @ 
+literal: 0  @ 7 @ literal: 0  @ 8 @ 
+operator: )  @ 39 @ operator: )  @ 49 @ 
+expr_stmt  @ 57 @ expr_stmt  @ 68 @ 
+operator: (  @ 39 @ operator: (  @ 49 @ 
+argument_list  @ 108 @ argument_list  @ 120 @ 
+name: r2007_section_page  @ 105 @ name: r2007_section_page  @ 117 @ 
+argument  @ 76 @ argument  @ 84 @ 
+operator: =  @ 61 @ operator: =  @ 72 @ 
+index  @ 137 @ index  @ 145 @ 
+name: section  @ 105 @ name: section  @ 116 @ 
+name: section  @ 91 @ name: section  @ 101 @ 
+name: bit_chain_free  @ 43 @ name: free  @ 54 @ 
+argument_list  @ 91 @ argument_list  @ 102 @ 
+expr  @ 4 @ expr  @ 6 @ 
+operator: ->  @ 83 @ operator: ->  @ 92 @ 
+name: section  @ 81 @ name: section  @ 90 @ 
+block  @ 20 @ block  @ 26 @ 
+expr_stmt  @ 99 @ expr_stmt  @ 110 @ 
+break  @ 67 @ break  @ 78 @ 
+name: i  @ 121 @ name: i  @ 134 @ 
+operator: ->  @ 151 @ operator: ->  @ 161 @ 
+operator: ->  @ 141 @ operator: ->  @ 151 @ 
+expr  @ 139 @ expr  @ 147 @ 
+directive: endif  @ 80 @ directive: endif  @ 89 @ 
+init  @ 103 @ init  @ 114 @ 
+argument  @ 133 @ argument  @ 139 @ 
+operator: *  @ 91 @ operator: *  @ 101 @ 
+literal: 0  @ 103 @ literal: 0  @ 114 @ 
+expr  @ 103 @ expr  @ 114 @ 
+expr  @ 35 @ expr  @ 43 @ 
+expr  @ 117 @ expr  @ 129 @ 
+expr  @ 87 @ expr  @ 97 @ 
+block_content  @ 143 @ block_content  @ 153 @ 
+comment: // assert(section->data_size<dat->size + 0x100000);  @ 47 @ comment: // assert(section->data_size<dat->size + 0x100000);  @ 58 @ 
+ifdef  @ 75 @ ifdef  @ 82 @ 
+name: r2007_section  @ 4 @ name: r2007_section  @ 6 @ 
+name: sections_destroy  @ 113 @ name: sections_destroy  @ 125 @ 
+type  @ 1 @ type  @ 2 @ 
+argument_list  @ 9 @ argument_list  @ 10 @ 
+name: size_t  @ 16 @ name: ptr_end  @ 22 @ 
+name: num_pages  @ 103 @ name: num_pages  @ 114 @ 
+name: dat  @ 1 @ name: dat  @ 2 @ 
+expr  @ 9 @ expr  @ 10 @ 
+expr_stmt  @ 94 @ expr_stmt  @ 105 @ 
+expr  @ 143 @ expr  @ 153 @ 
+expr  @ 108 @ expr  @ 120 @ 
+name: LOG_TRACE  @ 35 @ name: LOG_TRACE  @ 36 @ 
+name: section  @ 136 @ name: section  @ 144 @ 
+argument  @ 35 @ argument  @ 42 @ 
+if_stmt  @ 141 @ if_stmt  @ 149 @ 
+argument  @ 113 @ argument  @ 125 @ 
+name: i  @ 106 @ name: i  @ 118 @ 
+argument  @ 134 @ argument  @ 141 @ 
+argument  @ 27 @ argument  @ 33 @ 
+name: section  @ 133 @ name: section  @ 140 @ 
+name: Bit_Chain  @ 1 @ name: Bit_Chain  @ 2 @ 
+operator: =  @ 57 @ operator: =  @ 68 @ 
+name  @ 39 @ name  @ 48 @ 
+argument  @ 149 @ argument  @ 159 @ 
+expr  @ 137 @ expr  @ 145 @ 
+name: LOG_TRACE  @ 76 @ name: LOG_TRACE  @ 83 @ 
+expr  @ 106 @ expr  @ 118 @ 
+argument  @ 99 @ argument  @ 110 @ 
+name  @ 141 @ name  @ 151 @ 
+call  @ 144 @ call  @ 154 @ 
+expr  @ 134 @ expr  @ 141 @ 
+name: r2007_section  @ 1 @ name: r2007_section  @ 1 @ 
+literal: 0  @ 83 @ literal: 0  @ 92 @ 
+name: section  @ 91 @ name: section  @ 102 @ 
+block  @ 10 @ block  @ 12 @ 
+name: page  @ 22 @ name: data  @ 28 @ 
+expr  @ 133 @ expr  @ 140 @ 
+name: name_length  @ 71 @ name: name_length  @ 81 @ 
+block_content  @ 105 @ block_content  @ 116 @ 
+name: i  @ 149 @ name: i  @ 159 @ 
+expr_stmt  @ 139 @ expr_stmt  @ 147 @ 
+argument  @ 91 @ argument  @ 102 @ 
+call  @ 99 @ call  @ 110 @ 
+name: i  @ 143 @ name: i  @ 153 @ 
+literal: 48  @ 39 @ literal: 48  @ 50 @ 
+operator: <  @ 16 @ operator: <  @ 22 @ 
+comment: // assert(section->num_pages<DBG_MAX_COUNT);  @ 49 @ comment: // assert(section->num_pages<DBG_MAX_COUNT);  @ 60 @ 
+operator: >=  @ 66 @ operator: >=  @ 77 @ 
+literal: "\n"  @ 35 @ literal: "\n"  @ 36 @ 
+operator: >=  @ 141 @ operator: >=  @ 151 @ 
+name: LOG_ERROR  @ 143 @ name: LOG_ERROR  @ 153 @ 
+expr  @ 91 @ expr  @ 102 @ 
+expr_stmt  @ 35 @ expr_stmt  @ 43 @ 
+expr_stmt  @ 145 @ expr_stmt  @ 155 @ 
+call  @ 137 @ call  @ 145 @ 
+expr  @ 103 @ expr  @ 114 @ 
+operator: ->  @ 141 @ operator: ->  @ 150 @ 
+argument_list  @ 81 @ argument_list  @ 90 @ 
+index  @ 141 @ index  @ 151 @ 
+name: size  @ 39 @ name: size  @ 49 @ 
+name: page  @ 117 @ name: ptr  @ 129 @ 
+type  @ 7 @ type  @ 8 @ 
+directive: if  @ 37 @ directive: if  @ 46 @ 
+name: dwg_section_wtype  @ 81 @ name: dwg_section_wtype  @ 90 @ 
+index  @ 135 @ index  @ 142 @ 
+name: pages  @ 141 @ name: pages  @ 149 @ 
+argument  @ 35 @ argument  @ 42 @ 
+argument  @ 91 @ argument  @ 102 @ 
+operator: ->  @ 139 @ operator: ->  @ 147 @ 
+name: dat  @ 39 @ name: dat  @ 49 @ 
+name: page  @ 16 @ name: ptr  @ 22 @ 
+name  @ 39 @ name  @ 50 @ 
+operator: ->  @ 149 @ operator: ->  @ 159 @ 
+block_content  @ 113 @ block_content  @ 125 @ 
+name: section  @ 92 @ name: section  @ 103 @ 
+argument  @ 136 @ argument  @ 143 @ 
+expr_stmt  @ 18 @ expr_stmt  @ 24 @ 
+operator: =  @ 103 @ operator: =  @ 114 @ 
+literal: "Failed to read system page"  @ 11 @ literal: "Failed to read system page"  @ 13 @ 
+expr  @ 21 @ expr  @ 27 @ 
+block_content  @ 119 @ block_content  @ 131 @ 
+expr_stmt  @ 105 @ expr_stmt  @ 116 @ 
+expr  @ 120 @ expr  @ 133 @ 
+name: r2007_section  @ 18 @ name: r2007_section  @ 24 @ 
+decl  @ 1 @ decl  @ 3 @ 
+comment: // section->next = NULL;  @ 51 @ comment: // section->next = NULL;  @ 62 @ 
+operator: <  @ 150 @ operator: <  @ 160 @ 
+literal: "Invalid System Section"  @ 41 @ literal: "Invalid System Section"  @ 52 @ 
+decl  @ 4 @ decl  @ 6 @ 
+expr  @ 144 @ expr  @ 154 @ 
+decl  @ 4 @ decl  @ 6 @ 
+operator: >=  @ 141 @ operator: >=  @ 150 @ 
+argument  @ 111 @ argument  @ 123 @ 
+argument_list  @ 76 @ argument_list  @ 83 @ 
+call  @ 150 @ call  @ 160 @ 
+if  @ 92 @ if  @ 103 @ 
+expr_stmt  @ 138 @ expr_stmt  @ 146 @ 
+name: page  @ 66 @ name: ptr_end  @ 77 @ 
+expr  @ 133 @ expr  @ 140 @ 
+expr  @ 105 @ expr  @ 116 @ 
+literal: 1  @ 105 @ literal: 1  @ 117 @ 
+expr  @ 87 @ expr  @ 96 @ 
+expr  @ 119 @ expr  @ 131 @ 
+name: correction  @ 1 @ name: correction  @ 3 @ 
+expr  @ 133 @ expr  @ 140 @ 
+name  @ 137 @ name  @ 145 @ 
+name: PRIu64  @ 137 @ name: PRIu64  @ 145 @ 
+name: HAVE_NATIVE_WCHAR2  @ 75 @ name: HAVE_NATIVE_WCHAR2  @ 82 @ 
+expr  @ 138 @ expr  @ 146 @ 
+name: PRIx64  @ 138 @ name: PRIx64  @ 146 @ 
+expr  @ 45 @ expr  @ 56 @ 
+argument  @ 95 @ argument  @ 106 @ 
+call  @ 151 @ call  @ 161 @ 
+expr_stmt  @ 22 @ expr_stmt  @ 28 @ 
+name: pages  @ 135 @ name: pages  @ 142 @ 
+name: section  @ 141 @ name: section  @ 149 @ 
+init  @ 4 @ init  @ 6 @ 
+name: j  @ 119 @ name: j  @ 131 @ 
+directive: endif  @ 50 @ directive: endif  @ 61 @ 
+sizeof  @ 18 @ sizeof  @ 24 @ 
+name: offset  @ 133 @ name: offset  @ 140 @ 
+expr_stmt  @ 44 @ expr_stmt  @ 55 @ 
+index  @ 133 @ index  @ 140 @ 
+call  @ 108 @ call  @ 120 @ 
+call  @ 21 @ call  @ 27 @ 
+name: i  @ 134 @ name: i  @ 141 @ 
+argument_list  @ 151 @ argument_list  @ 161 @ 
+expr  @ 136 @ expr  @ 144 @ 
+type  @ 1 @ type  @ 1 @ 
+name: i  @ 105 @ name: i  @ 116 @ 
+name: section  @ 81 @ name: section  @ 90 @ 
+literal: 10  @ 39 @ literal: 10  @ 48 @ 
+expr  @ 149 @ expr  @ 159 @ 
+expr_stmt  @ 109 @ expr_stmt  @ 121 @ 
+argument_list  @ 35 @ argument_list  @ 41 @ 
+literal: "name:"  @ 76 @ literal: "  name:          "  @ 83 @ 
+name: DBG_MAX_SIZE  @ 150 @ name: DBG_MAX_SIZE  @ 160 @ 
+literal: "encoding:%"  @ 35 @ literal: "  encoding:      %"  @ 42 @ 
+expr_stmt  @ 61 @ expr_stmt  @ 72 @ 
+literal: " comp_size: %5"  @ 137 @ literal: " comp_size: %5"  @ 145 @ 
+literal: " offset: 0x%07"  @ 133 @ literal: " offset: 0x%07"  @ 140 @ 
+argument_list  @ 139 @ argument_list  @ 147 @ 
+argument_list  @ 145 @ argument_list  @ 155 @ 
+literal: "\n"  @ 136 @ literal: "\n"  @ 143 @ 
+name: i  @ 146 @ name: i  @ 156 @ 
+expr_stmt  @ 135 @ expr_stmt  @ 142 @ 
+comment: // debugging sanity  @ 140 @ comment: // debugging sanity  @ 148 @ 
+name: size  @ 141 @ name: size  @ 149 @ 
+name: r2007_section_page  @ 91 @ name: r2007_section_page  @ 102 @ 
+expr  @ 96 @ expr  @ 107 @ 
+argument_list  @ 42 @ argument_list  @ 53 @ 
+name: BITCODE_RC  @ 3 @ name: BITCODE_RC  @ 5 @ 
+expr_stmt  @ 65 @ expr_stmt  @ 76 @ 
+name: LOG_ERROR  @ 87 @ name: LOG_ERROR  @ 96 @ 
+literal: 1  @ 37 @ literal: 1  @ 46 @ 
+operator: ->  @ 133 @ operator: ->  @ 140 @ 
+name: name  @ 72 @ name: name  @ 81 @ 
+argument_list  @ 150 @ argument_list  @ 160 @ 
+name: section  @ 39 @ name: section  @ 49 @ 
+expr_stmt  @ 95 @ expr_stmt  @ 106 @ 
+argument  @ 79 @ argument  @ 87 @ 
+name: i  @ 103 @ name: i  @ 114 @ 
+comment: // the root  @ 111 @ comment: // the root  @ 123 @ 
+name: i  @ 139 @ name: i  @ 147 @ 
+expr  @ 18 @ expr  @ 24 @ 
+name: int64_t  @ 39 @ name: int64_t  @ 49 @ 
+operator: (  @ 87 @ operator: (  @ 97 @ 
+control  @ 103 @ control  @ 114 @ 
+expr  @ 94 @ expr  @ 105 @ 
+name: sections  @ 55 @ name: sections  @ 66 @ 
+operator: ->  @ 145 @ operator: ->  @ 155 @ 
+name  @ 125 @ name  @ 137 @ 
+operator: ||  @ 39 @ operator: ||  @ 50 @ 
+expr  @ 55 @ expr  @ 66 @ 
+name  @ 87 @ name  @ 97 @ 
+argument  @ 87 @ argument  @ 96 @ 
+expr  @ 94 @ expr  @ 105 @ 
+comment: // the root  @ 23 @ comment: // the root  @ 29 @ 
+expr  @ 41 @ expr  @ 52 @ 
+condition  @ 16 @ condition  @ 22 @ 
+expr  @ 133 @ expr  @ 140 @ 
+name: size_comp  @ 9 @ name: size_comp  @ 10 @ 
+operator: ->  @ 150 @ operator: ->  @ 160 @ 
+name: LOG_TRACE  @ 35 @ name: LOG_TRACE  @ 41 @ 
+name: sections_destroy  @ 23 @ name: sections_destroy  @ 29 @ 
+argument  @ 120 @ argument  @ 133 @ 
+expr  @ 121 @ expr  @ 134 @ 
+name: NULL  @ 4 @ name: NULL  @ 6 @ 
+expr_stmt  @ 136 @ expr_stmt  @ 143 @ 
+call  @ 138 @ call  @ 146 @ 
+expr  @ 95 @ expr  @ 106 @ 
+argument  @ 119 @ argument  @ 132 @ 
+name: DBG_MAX_SIZE  @ 149 @ name: DBG_MAX_SIZE  @ 159 @ 
+operator: !  @ 106 @ operator: !  @ 118 @ 
+argument_list  @ 134 @ argument_list  @ 141 @ 
+operator: ->  @ 91 @ operator: ->  @ 102 @ 
+argument  @ 91 @ argument  @ 102 @ 
+argument  @ 108 @ argument  @ 120 @ 
+name  @ 141 @ name  @ 149 @ 
+name: name  @ 81 @ name: name  @ 90 @ 
+name: LOG_ERROR  @ 108 @ name: LOG_ERROR  @ 120 @ 
+block_content  @ 18 @ block_content  @ 24 @ 
+name: next  @ 61 @ name: next  @ 72 @ 
+macro  @ 35 @ macro  @ 38 @ 
+operator: <=  @ 83 @ operator: <=  @ 92 @ 
+if_stmt  @ 19 @ if_stmt  @ 25 @ 
+argument  @ 76 @ argument  @ 83 @ 
+operator: =  @ 146 @ operator: =  @ 156 @ 
+expr  @ 134 @ expr  @ 141 @ 
+operator: ->  @ 71 @ operator: ->  @ 81 @ 
+expr  @ 42 @ expr  @ 53 @ 
+literal: " size: %5"  @ 134 @ literal: " size: %5"  @ 141 @ 
+name: LOG_TRACE  @ 133 @ name: LOG_TRACE  @ 139 @ 
+expr  @ 29 @ expr  @ 33 @ 
+argument  @ 144 @ argument  @ 154 @ 
+macro  @ 35 @ macro  @ 40 @ 
+operator: ->  @ 91 @ operator: ->  @ 101 @ 
+name: num_pages  @ 87 @ name: num_pages  @ 97 @ 
+argument_list  @ 99 @ argument_list  @ 110 @ 
+name: section  @ 4 @ name: section  @ 6 @ 
+name: correction  @ 9 @ name: correction  @ 10 @ 
+expr  @ 21 @ expr  @ 27 @ 
+decl  @ 4 @ decl  @ 6 @ 
+condition  @ 110 @ condition  @ 122 @ 
+expr_stmt  @ 62 @ expr_stmt  @ 73 @ 
+condition  @ 85 @ condition  @ 94 @ 
+name: LOG_TRACE  @ 133 @ name: LOG_TRACE  @ 140 @ 
+argument  @ 138 @ argument  @ 146 @ 
+operator: ->  @ 136 @ operator: ->  @ 144 @ 
+block  @ 67 @ block  @ 78 @ 
+operator: ->  @ 92 @ operator: ->  @ 103 @ 
+argument_list  @ 135 @ argument_list  @ 142 @ 
+argument  @ 138 @ argument  @ 146 @ 
+name: sections  @ 4 @ name: sections  @ 6 @ 
+block_content  @ 111 @ block_content  @ 123 @ 
+argument  @ 150 @ argument  @ 160 @ 
+block  @ 56 @ block  @ 67 @ 
+index  @ 151 @ index  @ 161 @ 
+argument  @ 30 @ argument  @ 35 @ 
+name: pages  @ 150 @ name: pages  @ 160 @ 
+expr  @ 151 @ expr  @ 161 @ 
+decl_stmt  @ 3 @ decl_stmt  @ 5 @ 
+name: page  @ 117 @ name: ptr_end  @ 129 @ 
+operator: ->  @ 138 @ operator: ->  @ 146 @ 
+init  @ 7 @ init  @ 8 @ 
+name  @ 134 @ name  @ 141 @ 
+name: section  @ 121 @ name: section  @ 134 @ 
+decl  @ 1 @ decl  @ 2 @ 
+expr_stmt  @ 144 @ expr_stmt  @ 154 @ 
+name: bit_read_RLL  @ 27 @ name: bfr_read  @ 33 @ 
+name  @ 135 @ name  @ 142 @ 
+modifier: *  @ 1 @ modifier: *  @ 1 @ 
+argument  @ 133 @ argument  @ 140 @ 
+name: section  @ 137 @ name: section  @ 145 @ 
+operator: ->  @ 138 @ operator: ->  @ 146 @ 
+block_content  @ 108 @ block_content  @ 120 @ 
+expr  @ 4 @ expr  @ 6 @ 
+call  @ 120 @ call  @ 133 @ 
+name: LOG_HANDLE  @ 35 @ name: LOG_HANDLE  @ 40 @ 
+argument  @ 9 @ argument  @ 10 @ 
+comment: // the root  @ 44 @ comment: // the root  @ 55 @ 
+literal: " Page[%d]: "  @ 133 @ literal: " Page[%d]: "  @ 139 @ 
+argument  @ 87 @ argument  @ 97 @ 
+expr  @ 43 @ expr  @ 54 @ 
+name: LOG_TEXT_UNICODE  @ 79 @ name: LOG_TEXT_UNICODE  @ 87 @ 
+type  @ 1 @ type  @ 2 @ 
+block  @ 60 @ block  @ 71 @ 
+name: section  @ 139 @ name: section  @ 147 @ 
+literal: "\n"  @ 35 @ literal: "\n"  @ 39 @ 
+expr  @ 135 @ expr  @ 142 @ 
+literal: "\n"  @ 35 @ literal: "\n"  @ 42 @ 
+index  @ 145 @ index  @ 155 @ 
+operator: ->  @ 72 @ operator: ->  @ 81 @ 
+name  @ 150 @ name  @ 160 @ 
+name: NULL  @ 114 @ name: NULL  @ 126 @ 
+unit  @ 1 @ unit  @ 1 @ 
+argument  @ 42 @ argument  @ 53 @ 
+else  @ 59 @ else  @ 70 @ 
+else  @ 98 @ else  @ 109 @ 
+expr  @ 139 @ expr  @ 147 @ 
+name: section  @ 30 @ name: LOG_TRACE  @ 35 @ 
+operator: ||  @ 39 @ operator: ||  @ 49 @ 
+index  @ 120 @ index  @ 133 @ 
+macro  @ 35 @ macro  @ 42 @ 
+block_content  @ 57 @ block_content  @ 68 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: num_pages  @ 121 @ name: num_pages  @ 134 @ 
+block_content  @ 61 @ block_content  @ 72 @ 
+name: free  @ 120 @ name: free  @ 133 @ 
+expr_stmt  @ 137 @ expr_stmt  @ 145 @ 
+if  @ 117 @ if  @ 129 @ 
+call  @ 43 @ call  @ 54 @ 
+name: last_section  @ 57 @ name: last_section  @ 68 @ 
+name: LOG_TRACE  @ 35 @ name: LOG_TRACE  @ 38 @ 
+operator: ++  @ 103 @ operator: ++  @ 114 @ 
+operator: ->  @ 139 @ operator: ->  @ 147 @ 
+name: section  @ 146 @ name: section  @ 156 @ 
+operator: ->  @ 141 @ operator: ->  @ 151 @ 
+macro  @ 35 @ macro  @ 39 @ 
+name: crc  @ 139 @ name: crc  @ 147 @ 
+condition  @ 19 @ condition  @ 25 @ 
+name: PRId64  @ 135 @ name: PRIu64  @ 142 @ 
+argument_list  @ 44 @ argument_list  @ 55 @ 
+expr  @ 18 @ expr  @ 24 @ 
+expr  @ 61 @ expr  @ 72 @ 
+expr  @ 111 @ expr  @ 123 @ 
+expr  @ 103 @ expr  @ 114 @ 
+block  @ 142 @ block  @ 152 @ 
+function  @ 1 @ function  @ 1 @ 
+name: int64_t  @ 1 @ name: int64_t  @ 3 @ 
+argument  @ 22 @ argument  @ 28 @ 
+operator: ->  @ 35 @ operator: ->  @ 43 @ 
+argument  @ 29 @ argument  @ 33 @ 
+expr  @ 108 @ expr  @ 120 @ 
+argument_list  @ 109 @ argument_list  @ 121 @ 
+expr  @ 85 @ expr  @ 94 @ 
+expr  @ 97 @ expr  @ 108 @ 
+expr  @ 150 @ expr  @ 160 @ 
+argument_list  @ 21 @ argument_list  @ 27 @ 
+name: section  @ 19 @ name: section  @ 25 @ 
+name: pages  @ 136 @ name: pages  @ 144 @ 
+operator: (  @ 91 @ operator: (  @ 102 @ 
+operator: ->  @ 105 @ operator: ->  @ 116 @ 
+block  @ 99 @ block  @ 110 @ 
+name: page  @ 119 @ name: ptr_end  @ 132 @ 
+name: section  @ 145 @ name: section  @ 155 @ 
+name: j  @ 7 @ name: j  @ 8 @ 
+macro  @ 35 @ macro  @ 37 @ 
+call  @ 133 @ call  @ 140 @ 
+name: sections  @ 96 @ name: sections  @ 107 @ 
+expr  @ 99 @ expr  @ 110 @ 
+expr  @ 87 @ expr  @ 96 @ 
+expr  @ 145 @ expr  @ 155 @ 
+operator: +  @ 119 @ operator: +  @ 132 @ 
+modifier: *  @ 4 @ modifier: *  @ 6 @ 
+name  @ 120 @ name  @ 133 @ 
+argument  @ 35 @ argument  @ 36 @ 
+name: dat  @ 9 @ name: dat  @ 10 @ 
+expr  @ 150 @ expr  @ 160 @ 
+argument  @ 35 @ argument  @ 40 @ 
+name: NULL  @ 4 @ name: NULL  @ 6 @ 
+expr_stmt  @ 134 @ expr_stmt  @ 141 @ 
+name: pages  @ 92 @ name: pages  @ 103 @ 
+argument  @ 94 @ argument  @ 105 @ 
+expr  @ 113 @ expr  @ 125 @ 
+name: i  @ 119 @ name: i  @ 132 @ 
+operator: ->  @ 39 @ operator: ->  @ 49 @ 
+call  @ 139 @ call  @ 147 @ 
+literal: 0xf0000  @ 85 @ literal: 0xf0000  @ 94 @ 
+name: data_size  @ 39 @ name: data_size  @ 48 @ 
+expr  @ 136 @ expr  @ 143 @ 
+name  @ 81 @ name  @ 90 @ 
+name: comp_size  @ 141 @ name: comp_size  @ 151 @ 
+literal: "hashcode:%"  @ 35 @ literal: "  hashcode:      %"  @ 39 @ 
+sizeof  @ 105 @ sizeof  @ 117 @ 
+operator: >=  @ 141 @ operator: >=  @ 149 @ 
+name: section  @ 106 @ name: section  @ 118 @ 
+operator: ->  @ 87 @ operator: ->  @ 97 @ 
+name: section  @ 151 @ name: section  @ 161 @ 
+operator: (  @ 91 @ operator: (  @ 101 @ 
+expr  @ 144 @ expr  @ 154 @ 
+literal: "\n"  @ 35 @ literal: "\n"  @ 40 @ 
+block_content  @ 94 @ block_content  @ 105 @ 
+name: size  @ 39 @ name: size  @ 48 @ 
+expr  @ 139 @ expr  @ 147 @ 
+name: sections_destroy  @ 97 @ name: sections_destroy  @ 108 @ 
+literal: "max size:%"  @ 35 @ literal: "  max size:      %"  @ 37 @ 
+argument  @ 105 @ argument  @ 117 @ 
+name: sections  @ 110 @ name: sections  @ 122 @ 
+block_content  @ 41 @ block_content  @ 52 @ 
+block_content  @ 97 @ block_content  @ 108 @ 
+if  @ 66 @ if  @ 77 @ 
+operator: ->  @ 149 @ operator: ->  @ 159 @ 
+expr  @ 95 @ expr  @ 106 @ 
+if  @ 106 @ if  @ 118 @ 
+name  @ 139 @ name  @ 147 @ 
+argument_list  @ 91 @ argument_list  @ 101 @ 
+expr  @ 105 @ expr  @ 117 @ 
+name: DBG_MAX_SIZE  @ 151 @ name: DBG_MAX_SIZE  @ 161 @ 
+argument  @ 9 @ argument  @ 10 @ 
+expr  @ 119 @ expr  @ 132 @ 
+name: last_section  @ 61 @ name: last_section  @ 72 @ 
+name: num_pages  @ 91 @ name: num_pages  @ 102 @ 
+operator: =  @ 121 @ operator: =  @ 134 @ 
+name: section  @ 62 @ name: section  @ 73 @ 
+name: comp_size  @ 151 @ name: comp_size  @ 161 @ 
+expr  @ 28 @ expr  @ 33 @ 
+name: page  @ 119 @ name: ptr  @ 132 @ 
+operator: =  @ 62 @ operator: =  @ 73 @ 
+expr  @ 119 @ expr  @ 132 @ 
+argument_list  @ 18 @ argument_list  @ 24 @ 
+expr  @ 143 @ expr  @ 153 @ 
+call  @ 91 @ call  @ 101 @ 
+name: sections  @ 147 @ name: sections  @ 157 @ 
+macro  @ 81 @ macro  @ 88 @ 
+argument_list  @ 133 @ argument_list  @ 139 @ 
+expr  @ 91 @ expr  @ 102 @ 
+literal: "Out of memory"  @ 108 @ literal: "Out of memory"  @ 120 @ 
+expr  @ 65 @ expr  @ 76 @ 
+literal: "Invalid num_pages %zu, skip"  @ 87 @ literal: "Invalid num_pages %zu, skip"  @ 96 @ 
+call  @ 135 @ call  @ 142 @ 
+name  @ 91 @ name  @ 101 @ 
+argument  @ 28 @ argument  @ 33 @ 
+name: section  @ 35 @ name: section  @ 43 @ 
+name: LOG_HANDLE  @ 138 @ name: LOG_HANDLE  @ 146 @ 
+name: section  @ 113 @ name: section  @ 125 @ 
+expr  @ 105 @ expr  @ 117 @ 
+argument  @ 139 @ argument  @ 147 @ 
+call  @ 35 @ call  @ 43 @ 
+name: page  @ 27 @ name: section  @ 33 @ 
+argument  @ 35 @ argument  @ 37 @ 
+expr  @ 138 @ expr  @ 146 @ 
+incr  @ 103 @ incr  @ 114 @ 
+expr_stmt  @ 150 @ expr_stmt  @ 160 @ 
+operator: )  @ 91 @ operator: )  @ 101 @ 
+argument  @ 73 @ argument  @ 81 @ 
+name: section  @ 83 @ name: section  @ 92 @ 
+if_stmt  @ 55 @ if_stmt  @ 66 @ 
+operator: =  @ 105 @ operator: =  @ 117 @ 
+name: LOG_HANDLE  @ 139 @ name: LOG_HANDLE  @ 147 @ 
+name: section  @ 138 @ name: section  @ 146 @ 
+return  @ 24 @ return  @ 30 @ 
+expr  @ 35 @ expr  @ 43 @ 
+expr_stmt  @ 113 @ expr_stmt  @ 125 @ 
+expr  @ 125 @ expr  @ 137 @ 
+name: section  @ 57 @ name: section  @ 68 @ 
+name: section  @ 135 @ name: section  @ 142 @ 
+name: size_t  @ 91 @ name: size_t  @ 102 @ 
+name: LOG_HANDLE  @ 35 @ name: LOG_HANDLE  @ 39 @ 
+if_stmt  @ 110 @ if_stmt  @ 122 @ 
+parameter  @ 1 @ parameter  @ 3 @ 
+expr  @ 37 @ expr  @ 46 @ 
+operator: ||  @ 141 @ operator: ||  @ 151 @ 
+expr  @ 106 @ expr  @ 118 @ 
+expr  @ 137 @ expr  @ 145 @ 
+operator: ->  @ 134 @ operator: ->  @ 141 @ 
+argument  @ 35 @ argument  @ 39 @ 
+if  @ 83 @ if  @ 92 @ 
+decl  @ 7 @ decl  @ 8 @ 
+operator: *  @ 91 @ operator: *  @ 101 @ 
+call  @ 73 @ call  @ 81 @ 
+name: i  @ 151 @ name: i  @ 161 @ 
+argument  @ 119 @ argument  @ 131 @ 
+argument  @ 136 @ argument  @ 144 @ 
+expr  @ 135 @ expr  @ 142 @ 
+block_content  @ 87 @ block_content  @ 96 @ 
+argument_list  @ 87 @ argument_list  @ 96 @ 
+expr  @ 105 @ expr  @ 116 @ 
+expr  @ 105 @ expr  @ 117 @ 
+index  @ 106 @ index  @ 118 @ 
+index  @ 141 @ index  @ 150 @ 
+block_content  @ 84 @ block_content  @ 93 @ 
+name: DBG_MAX_SIZE  @ 141 @ name: DBG_MAX_SIZE  @ 150 @ 
+name: pages  @ 105 @ name: pages  @ 116 @ 
+literal: "\n"  @ 81 @ literal: "\n\n"  @ 88 @ 
+name: LOG_ERROR  @ 11 @ name: LOG_ERROR  @ 13 @ 
+parameter_list  @ 1 @ parameter_list  @ 2 @ 
+literal: 56  @ 119 @ literal: 56  @ 132 @ 
+operator: >=  @ 39 @ operator: >=  @ 49 @ 
+argument  @ 105 @ argument  @ 117 @ 
+name: i  @ 103 @ name: i  @ 114 @ 
+block  @ 17 @ block  @ 23 @ 
+name: section  @ 149 @ name: section  @ 159 @ 
+expr_stmt  @ 121 @ expr_stmt  @ 134 @ 
+index  @ 149 @ index  @ 159 @ 
+operator: &  @ 28 @ operator: &  @ 33 @ 
+block_content  @ 67 @ block_content  @ 78 @ 
+argument  @ 35 @ argument  @ 41 @ 
+expr  @ 44 @ expr  @ 55 @ 
+expr  @ 23 @ expr  @ 29 @ 
+argument  @ 18 @ argument  @ 24 @ 
+expr  @ 111 @ expr  @ 123 @ 
+expr  @ 81 @ expr  @ 90 @ 
+call  @ 87 @ call  @ 96 @ 
+expr  @ 145 @ expr  @ 155 @ 
+name  @ 145 @ name  @ 155 @ 
+name: i  @ 133 @ name: i  @ 140 @ 
+expr  @ 151 @ expr  @ 161 @ 
+if  @ 39 @ if  @ 48 @ 
+name  @ 151 @ name  @ 161 @ 
+argument_list  @ 30 @ argument_list  @ 35 @ 
+call  @ 42 @ call  @ 53 @ 
+call  @ 109 @ call  @ 121 @ 
+init  @ 4 @ init  @ 6 @ 
+expr  @ 145 @ expr  @ 155 @ 
+expr  @ 12 @ expr  @ 14 @ 
+if  @ 37 @ if  @ 46 @ 
+expr  @ 141 @ expr  @ 149 @ 
+name: LOG_TRACE  @ 78 @ name: LOG_TRACE  @ 86 @ 
+argument  @ 109 @ argument  @ 121 @ 
+sizeof  @ 91 @ sizeof  @ 102 @ 
+decl_stmt  @ 7 @ decl_stmt  @ 8 @ 
+operator: <  @ 103 @ operator: <  @ 114 @ 
+literal: " id: %4"  @ 135 @ literal: " id: %4"  @ 142 @ 
+operator: ->  @ 81 @ operator: ->  @ 90 @ 
+expr_stmt  @ 143 @ expr_stmt  @ 153 @ 
+expr  @ 113 @ expr  @ 125 @ 
+argument_list  @ 23 @ argument_list  @ 29 @ 
+name: uncomp_size  @ 150 @ name: uncomp_size  @ 160 @ 
+argument  @ 105 @ argument  @ 117 @ 
+operator: ->  @ 120 @ operator: ->  @ 133 @ 
+argument  @ 127 @ argument  @ 137 @ 
+expr  @ 18 @ expr  @ 24 @ 
+macro  @ 11 @ macro  @ 13 @ 
+name: bit_chain_free  @ 144 @ name: free  @ 154 @ 
+name: pages  @ 145 @ name: pages  @ 155 @ 
+argument  @ 18 @ argument  @ 24 @ 
+operator: ->  @ 141 @ operator: ->  @ 150 @ 
+name: i  @ 120 @ name: i  @ 133 @ 
+name: section  @ 71 @ name: section  @ 81 @ 
+expr  @ 22 @ expr  @ 28 @ 
+call  @ 81 @ call  @ 90 @ 
+block  @ 2 @ block  @ 4 @ 
+argument  @ 79 @ argument  @ 87 @ 
+argument_list  @ 97 @ argument_list  @ 108 @ 
+condition  @ 103 @ condition  @ 114 @ 
+else  @ 77 @ else  @ 85 @ 
+name: section  @ 18 @ name: section  @ 24 @ 
+name: pages  @ 141 @ name: pages  @ 150 @ 
+expr_stmt  @ 43 @ expr_stmt  @ 54 @ 
+name: comp_size  @ 137 @ name: comp_size  @ 145 @ 
+name: i  @ 145 @ name: i  @ 155 @ 
+name: assert  @ 150 @ name: assert  @ 160 @ 
+operator: &  @ 127 @ operator: &  @ 137 @ 
+name  @ 81 @ name  @ 90 @ 
+type  @ 1 @ type  @ 2 @ 
+expr_stmt  @ 97 @ expr_stmt  @ 108 @ 
+name: pages  @ 138 @ name: pages  @ 146 @ 
+index  @ 141 @ index  @ 149 @ 
+argument_list  @ 137 @ argument_list  @ 145 @ 
+block  @ 86 @ block  @ 95 @ 
+name: pages  @ 134 @ name: pages  @ 141 @ 
+if_stmt  @ 96 @ if_stmt  @ 107 @ 
+type  @ 4 @ type  @ 6 @ 
+call  @ 18 @ call  @ 24 @ 
+name: bit_chain_free  @ 22 @ name: free  @ 28 @ 
+argument_list  @ 18 @ argument_list  @ 24 @ 
+operator: )  @ 87 @ operator: )  @ 97 @ 
+name: id  @ 135 @ name: id  @ 142 @ 
+name: i  @ 103 @ name: i  @ 114 @ 
+if  @ 110 @ if  @ 122 @ 
+name  @ 149 @ name  @ 159 @ 
+if  @ 19 @ if  @ 25 @ 
+name: pages  @ 149 @ name: pages  @ 159 @ 
+expr  @ 137 @ expr  @ 145 @ 
+literal: "Out of memory"  @ 21 @ literal: "Out of memory"  @ 27 @ 
+argument  @ 44 @ argument  @ 55 @ 
+while  @ 16 @ while  @ 22 @ 
+name: num_pages  @ 35 @ name: num_pages  @ 43 @ 
+call  @ 136 @ call  @ 143 @ 
+continue  @ 84 @ continue  @ 93 @ 
+name  @ 72 @ name  @ 81 @ 
+name  @ 133 @ name  @ 140 @ 
+name: sections  @ 111 @ name: sections  @ 123 @ 
+expr  @ 66 @ expr  @ 77 @ 
+argument  @ 35 @ argument  @ 39 @ 
+expr  @ 44 @ expr  @ 55 @ 
+argument  @ 134 @ argument  @ 141 @ 
+expr  @ 62 @ expr  @ 73 @ 
+name: LOG_HANDLE  @ 137 @ name: LOG_HANDLE  @ 145 @ 
+expr  @ 81 @ expr  @ 90 @ 
+name: NULL  @ 45 @ name: NULL  @ 56 @ 
+expr  @ 35 @ expr  @ 43 @ 
+expr  @ 57 @ expr  @ 68 @ 
+block  @ 104 @ block  @ 115 @ 
+expr  @ 91 @ expr  @ 102 @ 
+expr  @ 39 @ expr  @ 48 @ 
+argument  @ 18 @ argument  @ 24 @ 
+argument  @ 23 @ argument  @ 29 @ 
+name: LOG_TRACE  @ 134 @ name: LOG_TRACE  @ 141 @ 
+expr  @ 23 @ expr  @ 29 @ 
+expr  @ 137 @ expr  @ 145 @ 
+argument  @ 119 @ argument  @ 132 @ 
+operator: !  @ 19 @ operator: !  @ 25 @ 
+operator: *  @ 91 @ operator: *  @ 102 @ 
+operator: *  @ 39 @ operator: *  @ 48 @ 
+name: LOG_TRACE  @ 135 @ name: LOG_TRACE  @ 142 @ 
+name: section  @ 61 @ name: section  @ 72 @ 
+else  @ 112 @ else  @ 124 @ 
+name: PRIu64  @ 35 @ name: PRIu64  @ 43 @ 
+operator: >=  @ 39 @ operator: >=  @ 50 @ 
+name: LOG_ERROR  @ 94 @ name: LOG_ERROR  @ 105 @ 
+expr  @ 9 @ expr  @ 10 @ 
+macro  @ 78 @ macro  @ 86 @ 
+name: pages  @ 120 @ name: pages  @ 133 @ 
+literal: "Out of memory"  @ 94 @ literal: "Out of memory"  @ 105 @ 
+expr  @ 16 @ expr  @ 22 @ 
+name: int  @ 7 @ name: int  @ 8 @ 
+name: page  @ 109 @ name: data  @ 121 @ 
+name: section  @ 87 @ name: section  @ 97 @ 
+name: sections  @ 44 @ name: sections  @ 55 @ 
+operator: ->  @ 135 @ operator: ->  @ 142 @ 
+break  @ 122 @ break  @ 135 @ 
+name  @ 105 @ name  @ 116 @ 
+name: last_section  @ 62 @ name: last_section  @ 73 @ 
+operator: (  @ 18 @ operator: (  @ 24 @ 
+name: NULL  @ 4 @ name: NULL  @ 6 @ 
+index  @ 105 @ index  @ 116 @ 
+name: type  @ 81 @ name: type  @ 90 @ 
+name: page  @ 66 @ name: ptr  @ 77 @ 
+name: pages  @ 106 @ name: pages  @ 118 @ 
+operator: ->  @ 133 @ operator: ->  @ 140 @ 
+literal: " crc64: %016"  @ 139 @ literal: " crc64: %016"  @ 147 @ 
+name: section  @ 39 @ name: section  @ 50 @ 
+name: NULL  @ 24 @ name: NULL  @ 30 @ 
+expr  @ 9 @ expr  @ 10 @ 
+index  @ 138 @ index  @ 146 @ 
+literal: "\n"  @ 35 @ literal: "\n"  @ 41 @ 
+name: name_length  @ 39 @ name: name_length  @ 49 @ 
+operator: =  @ 57 @ operator: =  @ 68 @ 
+comment: // assert(section->max_size<dat->size + 0x100000);  @ 48 @ comment: // assert(section->max_size<dat->size + 0x100000);  @ 59 @ 
+index  @ 139 @ index  @ 147 @ 
+expr  @ 151 @ expr  @ 161 @ 
+literal: "\n"  @ 35 @ literal: "\n"  @ 38 @ 
+name: i  @ 141 @ name: i  @ 150 @ 
+name: checksum  @ 138 @ name: checksum  @ 146 @ 
+index  @ 134 @ index  @ 141 @ 
+expr  @ 19 @ expr  @ 25 @ 
+expr  @ 128 @ expr  @ 137 @ 
+if_stmt  @ 39 @ if_stmt  @ 48 @ 
+argument_list  @ 35 @ argument_list  @ 38 @ 
+name: sections  @ 57 @ name: sections  @ 68 @ 
+name: assert  @ 151 @ name: assert  @ 161 @ 
+expr  @ 147 @ expr  @ 157 @ 
+name: dat  @ 39 @ name: dat  @ 48 @ 
+argument_list  @ 81 @ argument_list  @ 88 @ 
+decl  @ 7 @ decl  @ 8 @ 
+macro  @ 79 @ macro  @ 87 @ 
+argument  @ 97 @ argument  @ 108 @ 
+name: NULL  @ 100 @ name: NULL  @ 111 @ 
+if_stmt  @ 92 @ if_stmt  @ 103 @ 
+name  @ 61 @ name  @ 72 @ 
+operator: ->  @ 137 @ operator: ->  @ 145 @ 
+name: page  @ 127 @ name: ptr  @ 137 @ 
+name  @ 138 @ name  @ 146 @ 
+if_stmt  @ 66 @ if_stmt  @ 77 @ 
+expr  @ 92 @ expr  @ 103 @ 
+name: section  @ 150 @ name: section  @ 160 @ 
+name: PRIx64  @ 139 @ name: PRIx64  @ 147 @ 
+comment: // section->pages = NULL;  @ 52 @ comment: // section->pages = NULL;  @ 63 @ 
+name: data  @ 3 @ name: data  @ 5 @ 
+block  @ 93 @ block  @ 104 @ 
+if_stmt  @ 85 @ if_stmt  @ 94 @ 
+decl  @ 1 @ decl  @ 2 @ 
+literal: "encryption:%"  @ 35 @ literal: "  encryption:    %"  @ 38 @ 
+block  @ 97 @ block  @ 108 @ 
+argument  @ 35 @ argument  @ 38 @ 
+argument_list  @ 105 @ argument_list  @ 117 @ 
+name: section  @ 99 @ name: section  @ 110 @ 
+expr_stmt  @ 42 @ expr_stmt  @ 53 @ 
+name: i  @ 138 @ name: i  @ 146 @ 
+if_stmt  @ 117 @ if_stmt  @ 129 @ 
+name  @ 39 @ name  @ 49 @ 
+return  @ 12 @ return  @ 14 @ 
+name: bit_chain_free  @ 109 @ name: free  @ 121 @ 
+operator: !  @ 92 @ operator: !  @ 103 @ 
+argument_list  @ 144 @ argument_list  @ 154 @ 
+name: last_section  @ 4 @ name: last_section  @ 6 @ 
+call  @ 23 @ call  @ 29 @ 
+argument  @ 81 @ argument  @ 90 @ 
+call  @ 97 @ call  @ 108 @ 
+name: DBG_MAX_SIZE  @ 141 @ name: DBG_MAX_SIZE  @ 151 @ 
+name: j  @ 65 @ name: j  @ 76 @ 
+name: free  @ 145 @ name: free  @ 155 @ 
+argument  @ 81 @ argument  @ 88 @ 
+literal: "num pages: %"  @ 35 @ literal: "  num pages:     %"  @ 43 @ 
+expr_stmt  @ 21 @ expr_stmt  @ 27 @ 
+argument  @ 11 @ argument  @ 13 @ 
+argument_list  @ 35 @ argument_list  @ 42 @ 
+expr  @ 99 @ expr  @ 110 @ 
+literal: " checksum: %016"  @ 138 @ literal: " checksum: %016"  @ 146 @ 
+expr  @ 136 @ expr  @ 143 @ 
+name  @ 121 @ name  @ 134 @ 
+expr  @ 136 @ expr  @ 144 @ 
+operator: ->  @ 39 @ operator: ->  @ 48 @ 
+name: section  @ 103 @ name: section  @ 114 @ 
+literal: "\n"  @ 139 @ literal: "\n"  @ 147 @ 
+argument_list  @ 22 @ argument_list  @ 28 @ 
+if  @ 141 @ if  @ 149 @ 
+return  @ 45 @ return  @ 56 @ 
+block  @ 40 @ block  @ 51 @ 
+argument_list  @ 73 @ argument_list  @ 81 @ 
+block  @ 113 @ block  @ 125 @ 
+expr  @ 22 @ expr  @ 28 @ 
+name: sections  @ 23 @ name: sections  @ 29 @ 
+operator: )  @ 18 @ operator: )  @ 24 @ 
+expr  @ 120 @ expr  @ 133 @ 
+call  @ 105 @ call  @ 117 @ 
+decl  @ 1 @ decl  @ 2 @ 
+expr  @ 41 @ expr  @ 52 @ 
+expr  @ 125 @ expr  @ 137 @ 
+argument_list  @ 138 @ argument_list  @ 146 @ 
+comment: // section->name = NULL;  @ 53 @ comment: // section->name = NULL;  @ 64 @ 
+name  @ 71 @ name  @ 81 @ 
+condition  @ 92 @ condition  @ 103 @ 
+decl  @ 3 @ decl  @ 5 @ 
+operator: ->  @ 121 @ operator: ->  @ 134 @ 
+argument  @ 119 @ argument  @ 131 @ 
+argument  @ 73 @ argument  @ 81 @ 
+name: pages  @ 125 @ name: pages  @ 137 @ 
+name: PRIu64  @ 136 @ name: PRIu64  @ 143 @ 
+operator: >  @ 117 @ operator: >  @ 129 @ 
+argument_list  @ 113 @ argument_list  @ 125 @ 
+argument_list  @ 105 @ argument_list  @ 117 @ 
+name: LOG_ERROR  @ 21 @ name: LOG_ERROR  @ 27 @ 
+name: page  @ 43 @ name: data  @ 54 @ 
+for  @ 103 @ for  @ 114 @ 
+name: int64_t  @ 1 @ name: int64_t  @ 2 @ 
+operator: ||  @ 141 @ operator: ||  @ 150 @ 
+name: section  @ 85 @ name: section  @ 94 @ 
+init  @ 4 @ init  @ 6 @ 
+call  @ 145 @ call  @ 155 @ 
+return  @ 100 @ return  @ 111 @ 
+call  @ 9 @ call  @ 10 @ 
+operator: >  @ 85 @ operator: >  @ 94 @ 
+call  @ 94 @ call  @ 105 @ 
+expr  @ 4 @ expr  @ 6 @ 
+call  @ 149 @ call  @ 159 @ 
+operator: (  @ 105 @ operator: (  @ 117 @ 
+expr  @ 149 @ expr  @ 159 @ 
+literal: 56  @ 117 @ literal: 56  @ 129 @ 
+block  @ 84 @ block  @ 93 @ 
+name: size  @ 134 @ name: size  @ 141 @ 
+modifier: *  @ 3 @ modifier: *  @ 5 @ 
+expr_stmt  @ 111 @ expr_stmt  @ 123 @ 
+name: sections  @ 97 @ name: sections  @ 108 @ 
+expr  @ 18 @ expr  @ 24 @ 
+expr  @ 114 @ expr  @ 126 @ 
+name: i  @ 135 @ name: i  @ 142 @ 
+call  @ 44 @ call  @ 55 @ 
+name: i  @ 141 @ name: i  @ 151 @ 
+operator: ->  @ 141 @ operator: ->  @ 149 @ 
+name: int64_t  @ 1 @ name: int64_t  @ 2 @ 
+argument  @ 35 @ argument  @ 43 @ 
+index  @ 136 @ index  @ 144 @ 
+argument  @ 128 @ argument  @ 137 @ 
+argument  @ 145 @ argument  @ 155 @ 
+operator: ->  @ 146 @ operator: ->  @ 156 @ 
+expr  @ 150 @ expr  @ 160 @ 
+name  @ 141 @ name  @ 150 @ 
+comment: // debugging sanity  @ 36 @ comment: // debugging sanity  @ 45 @ 
+if_stmt  @ 83 @ if_stmt  @ 92 @ 
+argument_list  @ 35 @ argument_list  @ 39 @ 
+block_content  @ 3 @ block_content  @ 5 @ 
+endif  @ 50 @ endif  @ 61 @ 
+expr  @ 43 @ expr  @ 54 @ 
+operator: >  @ 39 @ operator: >  @ 48 @ 
+block  @ 107 @ block  @ 119 @ 
+call  @ 113 @ call  @ 125 @ 
+expr  @ 120 @ expr  @ 133 @ 
+argument_list  @ 43 @ argument_list  @ 54 @ 
+comment: // the root  @ 97 @ comment: // the root  @ 108 @ 
+name: i  @ 7 @ name: i  @ 8 @ 
+name: r2007_section_page  @ 105 @ name: r2007_section_page  @ 117 @ 
+block  @ 111 @ block  @ 123 @ 
+name: LOG_ERROR  @ 41 @ name: LOG_ERROR  @ 52 @ 
+operator: *  @ 18 @ operator: *  @ 24 @ 
+argument_list  @ 79 @ argument_list  @ 87 @ 
+directive: ifdef  @ 75 @ directive: ifdef  @ 82 @ 
+name: pages  @ 151 @ name: pages  @ 161 @ 
+name: size_uncomp  @ 9 @ name: size_uncomp  @ 10 @ 
+expr  @ 156 @ expr  @ 166 @ 
+name: pages  @ 141 @ name: pages  @ 151 @ 
+name  @ 92 @ name  @ 103 @ 
+name: pages  @ 91 @ name: pages  @ 101 @ 
+decl_stmt  @ 4 @ decl_stmt  @ 6 @ 
+expr  @ 134 @ expr  @ 141 @ 
+argument_list  @ 120 @ argument_list  @ 133 @ 
+if  @ 96 @ if  @ 107 @ 
+argument_list  @ 11 @ argument_list  @ 13 @ 
+name: name_length  @ 39 @ name: name_length  @ 50 @ 
+expr  @ 83 @ expr  @ 92 @ 
+argument  @ 133 @ argument  @ 140 @ 
+operator: <  @ 149 @ operator: <  @ 159 @ 
+modifier: *  @ 4 @ modifier: *  @ 6 @ 
+operator: ->  @ 103 @ operator: ->  @ 114 @ 
+name: size_t  @ 87 @ name: size_t  @ 97 @ 
+operator: ->  @ 39 @ operator: ->  @ 48 @ 
+index  @ 125 @ index  @ 137 @ 
+name: page  @ 95 @ name: data  @ 106 @ 
+condition  @ 117 @ condition  @ 129 @ 
+expr  @ 119 @ expr  @ 131 @ 
+operator: ->  @ 135 @ operator: ->  @ 142 @ 
+literal: "Section[%d]->pages[%d] overflow (%zu>%zu)"  @ 119 @ literal: "Section[%d]->pages[%d] overflow (%p>%p)"  @ 131 @ 
+expr  @ 141 @ expr  @ 150 @ 
+name: section  @ 125 @ name: section  @ 137 @ 
+expr  @ 119 @ expr  @ 131 @ 
+expr  @ 42 @ expr  @ 53 @ 
+name: bit_read_fixed  @ 73 @ name: bfr_read_string  @ 81 @ 
+name: DBG_MAX_SIZE  @ 141 @ name: DBG_MAX_SIZE  @ 149 @ 
+name: uncomp_size  @ 141 @ name: uncomp_size  @ 150 @ 
+operator: =  @ 91 @ operator: =  @ 101 @ 
+condition  @ 141 @ condition  @ 149 @ 
+name: section  @ 141 @ name: section  @ 151 @ 
+argument  @ 135 @ argument  @ 142 @ 
+argument  @ 133 @ argument  @ 139 @ 
+argument  @ 35 @ argument  @ 37 @ 
+operator: ->  @ 39 @ operator: ->  @ 49 @ 
+return  @ 147 @ return  @ 157 @ 
+operator: )  @ 91 @ operator: )  @ 102 @ 
+literal: "name length: %"  @ 35 @ literal: "  name length:   %"  @ 40 @ 
+argument  @ 139 @ argument  @ 147 @ 
+call  @ 41 @ call  @ 52 @ 
+name: page  @ 73 @ name: ptr  @ 81 @ 
+name: LOG_TRACE  @ 35 @ name: LOG_TRACE  @ 42 @ 
+name: pages  @ 139 @ name: pages  @ 147 @ 
+expr  @ 135 @ expr  @ 142 @ 
+argument_list  @ 143 @ argument_list  @ 153 @ 
+macro  @ 35 @ macro  @ 41 @ 
+expr_stmt  @ 108 @ expr_stmt  @ 120 @ 
+argument_list  @ 136 @ argument_list  @ 143 @ 
+name: calloc  @ 91 @ name: calloc  @ 101 @ 
+type  @ 3 @ type  @ 5 @ 
+literal: " uncomp_size: %5"  @ 136 @ literal: " uncomp_size: %5"  @ 143 @ 
+expr_stmt  @ 151 @ expr_stmt  @ 161 @ 
+name: uncomp_size  @ 136 @ name: uncomp_size  @ 144 @ 
+name: calloc  @ 18 @ name: calloc  @ 24 @ 
+expr  @ 127 @ expr  @ 137 @ 
+operator: <  @ 151 @ operator: <  @ 161 @ 
+argument  @ 137 @ argument  @ 145 @ 
+expr  @ 138 @ expr  @ 146 @ 
+expr  @ 139 @ expr  @ 147 @ 
+name: sections  @ 156 @ name: sections  @ 166 @ 
+argument_list  @ 35 @ argument_list  @ 43 @ 
+block_content  @ 21 @ block_content  @ 27 @ 
+argument  @ 35 @ argument  @ 38 @ 
+literal: "data size: %"  @ 35 @ literal: "  data size:     %"  @ 36 @ 
+name: page  @ 144 @ name: data  @ 154 @ 
+name  @ 136 @ name  @ 144 @ 
+name: section  @ 72 @ name: section  @ 81 @ 
+expr_stmt  @ 81 @ expr_stmt  @ 90 @ 
+argument  @ 9 @ argument  @ 10 @ 
+argument  @ 41 @ argument  @ 52 @ 
+operator: ++  @ 65 @ operator: ++  @ 76 @ 
+name  @ 146 @ name  @ 156 @ 
+argument_list  @ 35 @ argument_list  @ 40 @ 
+name: LOG_TRACE  @ 136 @ name: LOG_TRACE  @ 143 @ 
+expr  @ 149 @ expr  @ 159 @ 
+name: num_pages  @ 85 @ name: num_pages  @ 94 @ 
+operator: =  @ 18 @ operator: =  @ 24 @ 
+name  @ 91 @ name  @ 102 @ 
+specifier: static  @ 1 @ specifier: static  @ 1 @ 
+literal: "Invalid section->pages[%d] size"  @ 143 @ literal: "Invalid section->pages[%d] size"  @ 153 @ 
+condition  @ 83 @ condition  @ 92 @ 
+argument  @ 35 @ argument  @ 43 @ 
+argument  @ 143 @ argument  @ 153 @ 
+type  @ 1 @ type  @ 3 @ 
+name  @ 39 @ name  @ 49 @ 
+type  @ 4 @ type  @ 6 @ 
+operator: *  @ 105 @ operator: *  @ 117 @ 
+condition  @ 39 @ condition  @ 48 @ 
+index  @ 150 @ index  @ 160 @ 
+condition  @ 96 @ condition  @ 107 @ 
+expr  @ 141 @ expr  @ 149 @ 
+argument_list  @ 78 @ argument_list  @ 86 @ 
+argument_list  @ 35 @ argument_list  @ 36 @ 
+name: size_uncomp  @ 1 @ name: size_uncomp  @ 2 @ 
+literal: 1  @ 18 @ literal: 1  @ 24 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+name: section  @ 134 @ name: section  @ 141 @ 
+name: size_comp  @ 1 @ name: size_comp  @ 2 @ 
+name  @ 83 @ name  @ 92 @ 
+parameter  @ 1 @ parameter  @ 2 @ 
+call  @ 143 @ call  @ 153 @ 
+
